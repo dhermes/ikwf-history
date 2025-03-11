@@ -2,6 +2,7 @@
 
 ```
 /opt/homebrew/Cellar/sqlite/3.47.0/bin/sqlite3 ikwf.sqlite < ./migrations/0001-initialize-schema.sql
+/opt/homebrew/Cellar/sqlite/3.47.0/bin/sqlite3 ikwf.sqlite < ./migrations/0002-populate-teams.sql
 ```
 
 ## Common helper commands

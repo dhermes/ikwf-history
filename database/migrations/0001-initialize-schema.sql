@@ -1,6 +1,8 @@
 -- Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
 PRAGMA foreign_keys = ON;
+PRAGMA encoding = 'UTF-8';
+PRAGMA integrity_check;
 
 --------------------------------------------------------------------------------
 
@@ -98,7 +100,8 @@ VALUES
 
 CREATE TABLE team (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name TEXT NOT NULL UNIQUE
+  name TEXT NOT NULL UNIQUE,
+  abbreviation TEXT NOT NULL UNIQUE
 );
 
 CREATE TABLE competitor (
