@@ -61,7 +61,7 @@ CREATE TABLE bracket (
 );
 
 CREATE TABLE match (
-  match_id SERIAL PRIMARY KEY,
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
   bracket_id INTEGER REFERENCES bracket(id),
   round_number INTEGER NOT NULL,
   match_number INTEGER NOT NULL, -- TODO: hardcoded schema
@@ -71,6 +71,12 @@ CREATE TABLE match (
   top_win BOOLEAN NOT NULL
   -- TODO: CHECK constraint that at most one of competitors is NULL
   -- TODO: CHECK constraint that `top_win` cannot be set to favor NULL
+);
+
+CREATE TABLE placement (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  placement INTEGER NOT NULL,
+  competitor_id INTEGER NOT NULL REFERENCES team_competitor(id)
 );
 ```
 
