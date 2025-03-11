@@ -7,3 +7,7 @@ output "dns_authorizations" {
 output "dns_authorization_id" {
   value = google_certificate_manager_dns_authorization.ikwf_history.id
 }
+
+output "ikwf_history_a_record" {
+  value = google_compute_global_address.ikwf_history_frontend_static.address
+}

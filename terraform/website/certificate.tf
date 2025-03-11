@@ -14,13 +14,13 @@ resource "google_certificate_manager_certificate" "ikwf_history_wildcard" {
   }
 }
 
-# resource "google_certificate_manager_certificate_map" "ikwf_history_wildcard" {
-#   name = "ikwf-history-wildcard"
-# }
+resource "google_certificate_manager_certificate_map" "ikwf_history_wildcard" {
+  name = "ikwf-history-wildcard"
+}
 
-# resource "google_certificate_manager_certificate_map_entry" "ikwf_history_wildcard" {
-#   name         = "ikwf-history-wildcard"
-#   map          = google_certificate_manager_certificate_map.ikwf_history_wildcard.name
-#   certificates = [google_certificate_manager_certificate.ikwf_history_wildcard.id]
-#   matcher      = "PRIMARY"
-# }
+resource "google_certificate_manager_certificate_map_entry" "ikwf_history_wildcard" {
+  name         = "ikwf-history-wildcard"
+  map          = google_certificate_manager_certificate_map.ikwf_history_wildcard.name
+  certificates = [google_certificate_manager_certificate.ikwf_history_wildcard.id]
+  matcher      = "PRIMARY"
+}

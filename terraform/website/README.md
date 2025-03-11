@@ -1,7 +1,8 @@
 # Workspace: Google Cloud resources for `ikwf-history.org` website
 
 DNS records are managed in Cloudflare, so we use the
-`google_certificate_manager_dns_authorization.ikwf_history` resource to
+`google_certificate_manager_dns_authorization.ikwf_history` and
+`google_compute_global_address.ikwf_history_frontend_static` resources to
 determine which records to create there:
 
 ```
@@ -12,4 +13,5 @@ dns_authorizations = tolist([
     "type" = "CNAME"
   },
 ])
+ikwf_history_a_record = "34.117.199.213"
 ```
