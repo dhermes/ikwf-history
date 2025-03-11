@@ -12,6 +12,6 @@ terraform {
 
   backend "gcs" {
     bucket = "ikwf-history-terraform-states"
-    prefix = "terraform/website"
+    prefix = "terraform/bootstrap"
   }
 }
