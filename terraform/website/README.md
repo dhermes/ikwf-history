@@ -7,7 +7,7 @@ determine which records to create there:
 ```
 dns_authorizations = tolist([
   {
-    "data" = "0797b220-f5e9-4cca-b3a7-d67ab17dd167.4.authorize.certificatemanager.goog."
+    "data" = "083b13ce-cfdb-45d8-92b7-0b3a886c5d04.8.authorize.certificatemanager.goog."
     "name" = "_acme-challenge.ikwf-history.org."
     "type" = "CNAME"
   },
