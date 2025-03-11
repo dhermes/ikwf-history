@@ -10,6 +10,7 @@ locals {
     "bigquerymigration.googleapis.com",   # BigQuery Migration API
     "bigqueryreservation.googleapis.com", # BigQuery Reservation API
     "bigquerystorage.googleapis.com",     # BigQuery Storage API
+    "billingbudgets.googleapis.com",      # Cloud Billing Budget API
     "certificatemanager.googleapis.com",  # Certificate Manager API
     "cloudapis.googleapis.com",           # Google Cloud APIs
     "cloudtrace.googleapis.com",          # Cloud Trace API
