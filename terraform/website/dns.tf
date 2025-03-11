@@ -6,3 +6,5 @@ resource "google_certificate_manager_dns_authorization" "ikwf_history" {
   type     = "FIXED_RECORD"
   location = "global"
 }
+
+# TODO: Terraform Cloudflare DNS records and email forwarding in here
