@@ -64,5 +64,3 @@ resource "cloudflare_dns_record" "ikwf_history_google_verify_txt" {
   ttl     = 1
   type    = "TXT"
 }
-
-# TODO: Terraform Cloudflare email forwarding in here
