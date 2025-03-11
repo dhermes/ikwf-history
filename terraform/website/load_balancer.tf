@@ -11,6 +11,7 @@ resource "google_compute_url_map" "ikwf_history_website_redirect" {
   name = "ikwf-history-website-redirect"
 
   default_url_redirect {
+    host_redirect  = "www.ikwf-history.org"
     https_redirect = true
     strip_query    = false
   }
@@ -42,11 +43,26 @@ resource "google_compute_url_map" "ikwf_history_website" {
 
   host_rule {
     hosts        = ["ikwf-history.org"]
-    path_matcher = "match-frontend"
+    path_matcher = "match-root"
   }
 
   path_matcher {
-    name            = "match-frontend"
+    name = "match-root"
+
+    default_url_redirect {
+      host_redirect  = "www.ikwf-history.org"
+      https_redirect = true
+      strip_query    = false
+    }
+  }
+
+  host_rule {
+    hosts        = ["www.ikwf-history.org"]
+    path_matcher = "match-www"
+  }
+
+  path_matcher {
+    name            = "match-www"
     default_service = google_compute_backend_bucket.ikwf_history_website.id
 
     # Enable HTTP Strict Transport Security (HSTS)
