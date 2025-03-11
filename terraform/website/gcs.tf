@@ -21,3 +21,48 @@ resource "google_storage_bucket" "ikwf_history_website" {
   #   log_object_prefix = "ikwf-history.org/"
   # }
 }
+
+data "google_iam_policy" "ikwf_history_website_bucket" {
+  binding {
+    role    = "roles/storage.objectViewer" # Storage Object Viewer
+    members = ["allUsers"]
+  }
+
+  # TODO: Terraform the `iam.allowedPolicyMemberDomains` org policy
+  # TODO: Terraform the org IAM policy (`roles/orgpolicy.policyAdmin`)
+
+  binding {
+    role = "roles/storage.legacyBucketOwner" # Storage Legacy Bucket Owner
+    members = [
+      "projectEditor:${local.project_id}",
+      "projectOwner:${local.project_id}",
+    ]
+  }
+
+  binding {
+    role = "roles/storage.legacyBucketReader" # Storage Legacy Bucket Reader
+    members = [
+      "projectViewer:${local.project_id}",
+    ]
+  }
+
+  binding {
+    role = "roles/storage.legacyObjectOwner" # Storage Legacy Object Owner
+    members = [
+      "projectEditor:${local.project_id}",
+      "projectOwner:${local.project_id}",
+    ]
+  }
+
+  binding {
+    role = "roles/storage.legacyObjectReader" # Storage Legacy Object Reader
+    members = [
+      "projectViewer:${local.project_id}",
+    ]
+  }
+}
+
+resource "google_storage_bucket_iam_policy" "ikwf_history_website" {
+  bucket      = google_storage_bucket.ikwf_history_website.name
+  policy_data = data.google_iam_policy.ikwf_history_website_bucket.policy_data
+}
