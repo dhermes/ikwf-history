@@ -1,7 +1,7 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
 terraform {
-  required_version = "= 1.9.8"
+  required_version = "= 1.11.1"
 
   required_providers {
     google = {
