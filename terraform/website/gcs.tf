@@ -28,9 +28,6 @@ data "google_iam_policy" "ikwf_history_website_bucket" {
     members = ["allUsers"]
   }
 
-  # TODO: Terraform the `iam.allowedPolicyMemberDomains` org policy
-  # TODO: Terraform the org IAM policy (`roles/orgpolicy.policyAdmin`)
-
   binding {
     role = "roles/storage.legacyBucketOwner" # Storage Legacy Bucket Owner
     members = [
