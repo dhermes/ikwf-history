@@ -12,6 +12,7 @@ VALUES
   (31, 2000, 'IKWF State Championships',               'SIU Arena (Carbondale)',            '2000-03-09', '2000-03-11'),
   (32, 2001, 'IKWF State Championships',               'SIU Arena (Carbondale)',            '2001-03-08', '2001-03-10'),
   (33, 2002, 'IKWF State Championships',               'SIU Arena (Carbondale)',            '2002-03-07', '2002-03-09'),
+  -- Junior State Championships: 2002-03-15 to 2002-03-17
   (34, 2003, 'IKWF State Championships',               'MetroCentre (Rockford)',            '2003-03-14', '2003-03-15'),
   (35, 2004, 'IKWF State Championships',               'MetroCentre (Rockford)',            '2004-03-12', '2004-03-13'),
   (36, 2005, 'IKWF State Championships',               'MetroCentre (Rockford)',            '2005-03-11', '2005-03-12'),
