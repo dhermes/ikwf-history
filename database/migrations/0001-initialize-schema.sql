@@ -14,15 +14,15 @@ CREATE TABLE match_slot (
 INSERT INTO
   match_slot (id, key)
 VALUES
-  (1, 'championship_r32_01'),
-  (2, 'championship_r32_02'),
-  (3, 'championship_r32_03'),
-  (4, 'championship_r32_04'),
-  (5, 'championship_r32_05'),
-  (6, 'championship_r32_06'),
-  (7, 'championship_r32_07'),
-  (8, 'championship_r32_08'),
-  (9, 'championship_r32_09'),
+  (1,  'championship_r32_01'),
+  (2,  'championship_r32_02'),
+  (3,  'championship_r32_03'),
+  (4,  'championship_r32_04'),
+  (5,  'championship_r32_05'),
+  (6,  'championship_r32_06'),
+  (7,  'championship_r32_07'),
+  (8,  'championship_r32_08'),
+  (9,  'championship_r32_09'),
   (10, 'championship_r32_10'),
   (11, 'championship_r32_11'),
   (12, 'championship_r32_12'),
@@ -106,7 +106,8 @@ CREATE TABLE team (
 CREATE TABLE competitor (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   first_name TEXT NOT NULL,
-  last_name TEXT NOT NULL
+  last_name TEXT NOT NULL,
+  suffix TEXT
 );
 
 CREATE TABLE team_competitor (
