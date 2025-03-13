@@ -415,6 +415,13 @@ def senior_2003():
             file_obj.write(new_html)
 
 
+def _replace_extra_bouts(value, lowest, highest, replace_with):
+    for bout_number in range(lowest, highest + 1):
+        to_replace = f"Bout:   {bout_number}"
+        value = value.replace(to_replace, replace_with)
+    return value
+
+
 def novice_2004():
     weights_pre = {}
     weights = (62, 66, 70, 74, 79, 84, 89, 95, 101, 108, 115, 130, 147, 166, 215)
@@ -441,6 +448,9 @@ def novice_2004():
             raise RuntimeError("Unexpected <pre>", len(sections), weight)
 
         championship, consolation, remaining = sections
+        consolation = _replace_extra_bouts(consolation, 513, 576, "    Bye    ")
+        consolation = _replace_extra_bouts(consolation, 577, 640, "           ")
+
         remaining_lines = remaining.split("\n")
         if len(remaining_lines) != 10:
             raise RuntimeError("Unexpected <pre>", len(remaining_lines), weight)
@@ -519,6 +529,9 @@ def senior_2004():
             raise RuntimeError("Unexpected <pre>", len(sections), weight)
 
         championship, consolation, remaining = sections
+        consolation = _replace_extra_bouts(consolation, 609, 684, "    Bye    ")
+        consolation = _replace_extra_bouts(consolation, 685, 760, "           ")
+
         remaining_lines = remaining.split("\n")
         if len(remaining_lines) != 10:
             raise RuntimeError("Unexpected <pre>", len(remaining_lines), weight)
@@ -581,6 +594,9 @@ def novice_2005():
         consolation = "\n".join(pre_text_lines[41:57])
         assert pre_text_lines[57] == ""
         remaining_lines = pre_text_lines[58:]
+
+        consolation = _replace_extra_bouts(consolation, 513, 576, "    Bye    ")
+        consolation = _replace_extra_bouts(consolation, 577, 640, "           ")
 
         before, after = remaining_lines[0].split("-+ ", 1)
         start_fifth = len(before) + after.index(" -") + 4
@@ -660,6 +676,9 @@ def senior_2005():
         consolation = "\n".join(pre_text_lines[41:57])
         assert pre_text_lines[57] == ""
         remaining_lines = pre_text_lines[58:]
+
+        consolation = _replace_extra_bouts(consolation, 609, 684, "    Bye    ")
+        consolation = _replace_extra_bouts(consolation, 685, 760, "           ")
 
         before, after = remaining_lines[0].split("-+ ", 1)
         start_fifth = len(before) + after.index(" -") + 4
