@@ -205,14 +205,13 @@ def novice_2002():
 
         fifth_place = "\n".join(fifth_place_lines)
         seventh_place = "\n".join(seventh_place_lines)
-        placers = "\n".join(remaining_lines[4:])
+        # NOTE: The placewinners are in "\n".join(remaining_lines[4:])
 
         sections_final = [
             championship,
             consolation,
             fifth_place,
             seventh_place,
-            placers,
         ]
 
         new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections_final])
@@ -269,14 +268,13 @@ def senior_2002():
 
         fifth_place = "\n".join(fifth_place_lines)
         seventh_place = "\n".join(seventh_place_lines)
-        placers = "\n".join(remaining_lines[4:])
+        # NOTE: The placewinners are in "\n".join(remaining_lines[4:])
 
         sections_final = [
             championship,
             consolation,
             fifth_place,
             seventh_place,
-            placers,
         ]
 
         new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections_final])
@@ -333,14 +331,13 @@ def novice_2003():
 
         fifth_place = "\n".join(fifth_place_lines)
         seventh_place = "\n".join(seventh_place_lines)
-        placers = "\n".join(remaining_lines[4:])
+        # NOTE: The placewinners are in "\n".join(remaining_lines[4:])
 
         sections_final = [
             championship,
             consolation,
             fifth_place,
             seventh_place,
-            placers,
         ]
 
         new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections_final])
@@ -397,14 +394,13 @@ def senior_2003():
 
         fifth_place = "\n".join(fifth_place_lines)
         seventh_place = "\n".join(seventh_place_lines)
-        placers = "\n".join(remaining_lines[4:])
+        # NOTE: The placewinners are in "\n".join(remaining_lines[4:])
 
         sections_final = [
             championship,
             consolation,
             fifth_place,
             seventh_place,
-            placers,
         ]
 
         new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections_final])
@@ -466,14 +462,13 @@ def novice_2004():
 
         fifth_place = "\n".join(fifth_place_lines)
         seventh_place = "\n".join(seventh_place_lines)
-        placers = "\n".join(remaining_lines[4:])
+        # NOTE: The placewinners are in "\n".join(remaining_lines[4:])
 
         sections_final = [
             championship,
             consolation,
             fifth_place,
             seventh_place,
-            placers,
         ]
 
         new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections_final])
@@ -547,14 +542,13 @@ def senior_2004():
 
         fifth_place = "\n".join(fifth_place_lines)
         seventh_place = "\n".join(seventh_place_lines)
-        placers = "\n".join(remaining_lines[4:])
+        # NOTE: The placewinners are in "\n".join(remaining_lines[4:])
 
         sections_final = [
             championship,
             consolation,
             fifth_place,
             seventh_place,
-            placers,
         ]
 
         new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections_final])
@@ -609,14 +603,13 @@ def novice_2005():
 
         fifth_place = "\n".join(fifth_place_lines)
         seventh_place = "\n".join(seventh_place_lines)
-        placers = "\n".join(remaining_lines[4:])
+        # NOTE: The placewinners are in "\n".join(remaining_lines[4:])
 
         sections_final = [
             championship,
             consolation,
             fifth_place,
             seventh_place,
-            placers,
         ]
 
         new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections_final])
@@ -691,14 +684,13 @@ def senior_2005():
 
         fifth_place = "\n".join(fifth_place_lines)
         seventh_place = "\n".join(seventh_place_lines)
-        placers = "\n".join(remaining_lines[4:])
+        # NOTE: The placewinners are in "\n".join(remaining_lines[4:])
 
         sections_final = [
             championship,
             consolation,
             fifth_place,
             seventh_place,
-            placers,
         ]
 
         new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections_final])
@@ -755,14 +747,13 @@ def novice_2006():
 
         fifth_place = "\n".join(fifth_place_lines)
         seventh_place = "\n".join(seventh_place_lines)
-        placers = "\n".join(remaining_lines[4:])
+        # NOTE: The placewinners are in "\n".join(remaining_lines[4:])
 
         sections_final = [
             championship,
             consolation,
             fifth_place,
             seventh_place,
-            placers,
         ]
 
         new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections_final])
@@ -819,14 +810,13 @@ def senior_2006():
 
         fifth_place = "\n".join(fifth_place_lines)
         seventh_place = "\n".join(seventh_place_lines)
-        placers = "\n".join(remaining_lines[4:])
+        # NOTE: The placewinners are in "\n".join(remaining_lines[4:])
 
         sections_final = [
             championship,
             consolation,
             fifth_place,
             seventh_place,
-            placers,
         ]
 
         new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections_final])
