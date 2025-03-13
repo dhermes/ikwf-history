@@ -5,6 +5,82 @@ import bs4
 HERE = pathlib.Path(__file__).resolve().parent
 
 
+def novice_2000():
+    path = HERE / ".." / "raw-data" / "2000" / "novice" / "Noice Brackets.html"
+    with open(path) as file_obj:
+        html = file_obj.read()
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    all_brackets = soup.find_all("pre")
+
+    weights_pre = {}
+    for pre in all_brackets:
+        prev_h3 = pre.find_previous("h3")
+        if prev_h3 is None:
+            raise RuntimeError("Invariant violation", pre)
+
+        weight_text = prev_h3.text
+        if not weight_text.startswith("Wt: "):
+            raise RuntimeError("Invariant violation", weight_text)
+
+        weight = int(weight_text[4:])
+        if weight in weights_pre:
+            raise KeyError(weight)
+        weights_pre[weight] = pre.text
+
+    weights = sorted(weights_pre.keys())
+    for weight in weights:
+        pre_text = weights_pre[weight]
+        sections = pre_text.split("\n\n")
+        if len(sections) != 3:
+            raise RuntimeError("Unexpected <pre>", weight)
+
+        new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections])
+        new_html = f"<html><body>{new_html}</body></html>"
+
+        new_path = HERE / "2000" / "novice" / f"{weight}.html"
+        with open(new_path, "w") as file_obj:
+            file_obj.write(new_html)
+
+
+def senior_2000():
+    path = HERE / ".." / "raw-data" / "2000" / "senior" / "Senior Brackets.html"
+    with open(path) as file_obj:
+        html = file_obj.read()
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    all_brackets = soup.find_all("pre")
+
+    weights_pre = {}
+    for pre in all_brackets:
+        prev_h3 = pre.find_previous("h3")
+        if prev_h3 is None:
+            raise RuntimeError("Invariant violation", pre)
+
+        weight_text = prev_h3.text
+        if not weight_text.startswith("Wt: "):
+            raise RuntimeError("Invariant violation", weight_text)
+
+        weight = int(weight_text[4:])
+        if weight in weights_pre:
+            raise KeyError(weight)
+        weights_pre[weight] = pre.text
+
+    weights = sorted(weights_pre.keys())
+    for weight in weights:
+        pre_text = weights_pre[weight]
+        sections = pre_text.split("\n\n\n")
+        if len(sections) != 3:
+            raise RuntimeError("Unexpected <pre>", len(sections), weight)
+
+        new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections])
+        new_html = f"<html><body>{new_html}</body></html>"
+
+        new_path = HERE / "2000" / "senior" / f"{weight}.html"
+        with open(new_path, "w") as file_obj:
+            file_obj.write(new_html)
+
+
 def novice_2001():
     path = HERE / ".." / "raw-data" / "2001" / "novice" / "novice.htm"
     with open(path) as file_obj:
@@ -210,6 +286,8 @@ def senior_2003():
 
 
 def main():
+    novice_2000()
+    senior_2000()
     novice_2001()
     senior_2001()
     novice_2003()
