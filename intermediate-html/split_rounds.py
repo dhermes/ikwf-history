@@ -74,6 +74,7 @@ def senior_2000():
         if len(sections) != 3:
             raise RuntimeError("Unexpected <pre>", len(sections), weight)
 
+        sections = [section.replace("\n\n", "\n") for section in sections]
         new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections])
         new_html = f"<html><body>{new_html}</body></html>"
 

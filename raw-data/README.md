@@ -33,6 +33,14 @@ We have **some** but not **all** data for some years.
 - Senior new weight classes (18): 70, 74, 79, 84, 90, 96, 103, 110, 118, 126,
   135, 144, 154, 164, 176, 188, 215, 275
 
+### 2022
+
+- Guaranteed full wrestlebacks for all R32 wrestlers (previously, if
+  wrestler **B** beat wrestler **C** in R32, then wrestler **B** lost to the
+  sectional champ wrestler **A** in R16, then wrestler **C** did not get to
+  wrestle back; this was a follow-the-leader after R16 format, IHSA did
+  something similiar with follow-the-leader after R8)
+
 ### 2023
 
 - Senior new weight classes (17): 74, 79, 84, 90, 96, 103, 110, 118, 126, 135,
