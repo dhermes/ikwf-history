@@ -5,6 +5,7 @@
 /opt/homebrew/Cellar/sqlite/3.47.0/bin/sqlite3 ikwf.sqlite < ./migrations/0002-populate-teams.sql
 /opt/homebrew/Cellar/sqlite/3.47.0/bin/sqlite3 ikwf.sqlite < ./migrations/0003-populate-tournaments.sql
 /opt/homebrew/Cellar/sqlite/3.47.0/bin/sqlite3 ikwf.sqlite < ./migrations/0004-example-bracket.sql
+/opt/homebrew/Cellar/sqlite/3.47.0/bin/sqlite3 ikwf.sqlite < ./migrations/0005-all-weights.sql
 ```
 
 ## Common helper commands
