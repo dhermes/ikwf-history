@@ -1,6 +1,7 @@
 import pathlib
 
 import bs4
+import chardet
 
 HERE = pathlib.Path(__file__).resolve().parent
 
@@ -413,6 +414,143 @@ def senior_2003():
             file_obj.write(new_html)
 
 
+def novice_2004():
+    weights_pre = {}
+    weights = (62, 66, 70, 74, 79, 84, 89, 95, 101, 108, 115, 130, 147, 166, 215)
+    path_prefix = HERE / ".." / "raw-data" / "2004" / "novice"
+
+    for weight in weights:
+        path = path_prefix / f"Weight Class_ {weight}.html"
+        with open(path, "rb") as file_obj:
+            raw_bytes = file_obj.read()
+
+        detected = chardet.detect(raw_bytes)
+        encoding = detected["encoding"]
+        html = raw_bytes.decode(encoding)
+        soup = bs4.BeautifulSoup(html, features="html.parser")
+
+        (pre,) = soup.find_all("pre")
+        weights_pre[weight] = pre.text
+
+    weights = sorted(weights_pre.keys())
+    for weight in weights:
+        pre_text = weights_pre[weight]
+        sections = pre_text.split("\n\n")
+        if len(sections) != 3:
+            raise RuntimeError("Unexpected <pre>", len(sections), weight)
+
+        championship, consolation, remaining = sections
+        remaining_lines = remaining.split("\n")
+        if len(remaining_lines) != 10:
+            raise RuntimeError("Unexpected <pre>", len(remaining_lines), weight)
+
+        before, after = remaining_lines[0].split("-+ ", 1)
+        start_fifth = len(before) + after.index(" -") + 4
+
+        fifth_place_lines = []
+        seventh_place_lines = []
+        for line in remaining_lines[:4]:
+            seventh_place_lines.append(line[:start_fifth].rstrip())
+            fifth_place_lines.append(line[start_fifth:])
+
+        fifth_place = "\n".join(fifth_place_lines)
+        seventh_place = "\n".join(seventh_place_lines)
+        placers = "\n".join(remaining_lines[4:])
+
+        sections_final = [
+            championship,
+            consolation,
+            fifth_place,
+            seventh_place,
+            placers,
+        ]
+
+        new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections_final])
+        new_html = f"<html><body>{new_html}</body></html>"
+
+        new_path = HERE / "2004" / "novice" / f"{weight}.html"
+        with open(new_path, "w") as file_obj:
+            file_obj.write(new_html)
+
+
+def senior_2004():
+    weights_pre = {}
+    weights = (
+        70,
+        74,
+        79,
+        84,
+        89,
+        95,
+        101,
+        108,
+        115,
+        122,
+        130,
+        138,
+        147,
+        156,
+        166,
+        177,
+        215,
+        275,
+    )
+    path_prefix = HERE / ".." / "raw-data" / "2004" / "senior"
+
+    for weight in weights:
+        path = path_prefix / f"Weight Class_ {weight}.html"
+        with open(path, "rb") as file_obj:
+            raw_bytes = file_obj.read()
+
+        detected = chardet.detect(raw_bytes)
+        encoding = detected["encoding"]
+        html = raw_bytes.decode(encoding)
+        soup = bs4.BeautifulSoup(html, features="html.parser")
+
+        (pre,) = soup.find_all("pre")
+        weights_pre[weight] = pre.text
+
+    weights = sorted(weights_pre.keys())
+    for weight in weights:
+        pre_text = weights_pre[weight]
+        sections = pre_text.split("\n\n")
+        if len(sections) != 3:
+            raise RuntimeError("Unexpected <pre>", len(sections), weight)
+
+        championship, consolation, remaining = sections
+        remaining_lines = remaining.split("\n")
+        if len(remaining_lines) != 10:
+            raise RuntimeError("Unexpected <pre>", len(remaining_lines), weight)
+
+        before, after = remaining_lines[0].split("-+ ", 1)
+        start_fifth = len(before) + after.index(" -") + 4
+
+        fifth_place_lines = []
+        seventh_place_lines = []
+        for line in remaining_lines[:4]:
+            seventh_place_lines.append(line[:start_fifth].rstrip())
+            fifth_place_lines.append(line[start_fifth:])
+
+        fifth_place = "\n".join(fifth_place_lines)
+        seventh_place = "\n".join(seventh_place_lines)
+        placers = "\n".join(remaining_lines[4:])
+
+        sections_final = [
+            championship,
+            consolation,
+            fifth_place,
+            seventh_place,
+            placers,
+        ]
+
+        new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections_final])
+        new_html = f"<html><body>{new_html}</body></html>"
+
+        new_path = HERE / "2004" / "senior" / f"{weight}.html"
+        with open(new_path, "w") as file_obj:
+            file_obj.write(new_html)
+
+
 def main():
     novice_2000()
     senior_2000()
@@ -422,6 +560,14 @@ def main():
     senior_2002()
     novice_2003()
     senior_2003()
+    novice_2004()
+    # TODO: Novice 2004: **MISSING** 122
+    senior_2004()
+    # TODO: Senior 2004: **MISSING** 189
+    # TODO: Novice 2005:
+    # TODO: Senior 2005:
+    # TODO: Novice 2006:
+    # TODO: Senior 2006:
 
 
 if __name__ == "__main__":
