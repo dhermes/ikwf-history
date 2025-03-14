@@ -1,24 +1,45 @@
+# Database (SQLite)
+
+The final normalized place for data to end up is in the `database/ikwf.sqlite`
+database. This has a schema (in `database/migrations/`) and all data will
+be inserted via SQL scripts. (We may generate some of these scripts via
+e.g. Python scripts that parse data.)
+
+## Tooling
+
+I use the latest `sqlite` binary on macOS installed from Homebrew. I ensure
+that it is ahead of `/usr/bin/sqlite3` on my `${PATH}` by using `direnv` in
+this repository:
+
+```
+$ cat .envrc
+export PATH="/opt/homebrew/Cellar/sqlite/3.47.0/bin:${PATH}"
+```
+
 ## Migrations
 
 ```
-/opt/homebrew/Cellar/sqlite/3.47.0/bin/sqlite3 ikwf.sqlite < ./migrations/0001-initialize-schema.sql
-/opt/homebrew/Cellar/sqlite/3.47.0/bin/sqlite3 ikwf.sqlite < ./migrations/0002-populate-teams.sql
-/opt/homebrew/Cellar/sqlite/3.47.0/bin/sqlite3 ikwf.sqlite < ./migrations/0003-populate-tournaments.sql
-/opt/homebrew/Cellar/sqlite/3.47.0/bin/sqlite3 ikwf.sqlite < ./migrations/0004-example-bracket.sql
-/opt/homebrew/Cellar/sqlite/3.47.0/bin/sqlite3 ikwf.sqlite < ./migrations/0005-all-weights.sql
-/opt/homebrew/Cellar/sqlite/3.47.0/bin/sqlite3 ikwf.sqlite < ./migrations/0006-example-brackets-from-html.sql
+cd database/
+sqlite3 ./ikwf.sqlite < ./migrations/0001-initialize-schema.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0002-populate-teams.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0003-populate-tournaments.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0004-example-bracket.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0005-all-weights.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0006-example-brackets-from-html.sql
 ```
 
 ## Common helper commands
 
 ```
-$ /opt/homebrew/Cellar/sqlite/3.47.0/bin/sqlite3 ikwf.sqlite
+$ cd database/
+$ sqlite3 ./ikwf.sqlite
 SQLite version 3.47.0 2024-10-21 16:30:22
 Enter ".help" for usage hints.
 sqlite>
 sqlite>
 sqlite> .tables
-division    match_slot
+bracket          division         match_slot       team_competitor
+competitor       match            team             tournament
 sqlite>
 sqlite>
 sqlite> .schema division
