@@ -36,6 +36,7 @@ def find_all_indices(search_lines, value):
 def parse_competitor(value):
     cleaned = value.strip().rstrip("+").rstrip("-")
     name, team = cleaned.rsplit("-", 1)
+
     team = team.strip()
 
     if name == "" and team == "Bye":
@@ -107,20 +108,90 @@ def set_result(match):
     raise NotImplementedError(match)
 
 
+def set_top_competitor(match):
+    top_competitor = match["top_competitor"]
+    bottom_competitor = match["bottom_competitor"]
+    if top_competitor is not None or bottom_competitor is not None:
+        return
+
+    result = match["result"]
+    if result != "Bye":
+        raise ValueError("Invariant violation", match)
+
+    winner = match["winner"]
+    if winner is None:
+        return
+
+    if not isinstance(winner, dict):
+        raise ValueError("Invariant violation", match)
+
+    match["top_competitor"] = winner
+
+
+def maybe_r32_empty_bye(
+    championship_lines, start_index, match, winner_round, winner_key
+):
+    top_competitor = None
+    top_competitor_str = championship_lines[start_index][:26]
+    if top_competitor_str != "                          ":
+        top_competitor = parse_competitor(top_competitor_str)
+
+    bottom_competitor = None
+    bottom_competitor_str = championship_lines[start_index + 2][:26]
+    if bottom_competitor_str != "                          ":
+        bottom_competitor = parse_competitor(bottom_competitor_str)
+
+    result_bout_number_str = championship_lines[start_index + 1][:26]
+    result = ""
+    bout_number = None
+    if result_bout_number_str != "                          ":
+        result = parse_bout_result(result_bout_number_str)
+        bout_number = parse_bout_number(result_bout_number_str)
+
+    return {
+        "match": match,
+        "top_competitor": top_competitor,
+        "bottom_competitor": bottom_competitor,
+        "result": result,
+        "bout_number": bout_number,
+        "winner": (winner_round, winner_key),
+    }
+
+
 def extract_bracket(weight, divison):
     filename = f"{weight}.html"
-    with open(HERE / "2000" / divison / filename) as file_obj:
+    with open(HERE / "2001" / divison / filename) as file_obj:
         html = file_obj.read()
 
     soup = bs4.BeautifulSoup(html, features="html.parser")
     all_pre = soup.find_all("pre")
-    if len(all_pre) != 3:
+    if len(all_pre) != 4:
         raise RuntimeError("Invariant violation")
 
-    championship_pre, consolation_pre, fifth_place_pre = all_pre
+    championship_pre, consolation_pre, fifth_place_pre, seventh_place_pre = all_pre
     championship_lines = championship_pre.text.lstrip("\n").split("\n")
     consolation_lines = consolation_pre.text.lstrip("\n").split("\n")
     fifth_place_lines = fifth_place_pre.text.lstrip("\n").split("\n")
+    seventh_place_lines = seventh_place_pre.text.lstrip("\n").split("\n")
+
+    if divison == "senior" and weight == 84:
+        consolation_round3_01 = {
+            "match": "consolation_round3_01",
+            "top_competitor": {"name": "KEITH WILLIAMS", "team": "JUN"},
+            "bottom_competitor": parse_competitor(consolation_lines[6][:26]),
+            "result": parse_bout_result(consolation_lines[5][:26]),
+            "bout_number": parse_bout_number(consolation_lines[5][:26]),
+            "winner": ("consolation_round4_blood_01", "bottom_competitor"),
+        }
+    else:
+        consolation_round3_01 = {
+            "match": "consolation_round3_01",
+            "top_competitor": parse_competitor(consolation_lines[4][:26]),
+            "bottom_competitor": parse_competitor(consolation_lines[6][:26]),
+            "result": parse_bout_result(consolation_lines[5][:26]),
+            "bout_number": parse_bout_number(consolation_lines[5][:26]),
+            "winner": ("consolation_round4_blood_01", "bottom_competitor"),
+        }
 
     matches = [
         {
@@ -130,22 +201,20 @@ def extract_bracket(weight, divison):
             "result": "Bye",
             "bout_number": None,
         },
-        {
-            "match": "championship_r32_02",
-            "top_competitor": parse_competitor(championship_lines[2][:26]),
-            "bottom_competitor": parse_competitor(championship_lines[4][:26]),
-            "result": parse_bout_result(championship_lines[3][:26]),
-            "bout_number": parse_bout_number(championship_lines[3][:26]),
-            "winner": ("championship_r16_01", "bottom_competitor"),
-        },
-        {
-            "match": "championship_r32_03",
-            "top_competitor": parse_competitor(championship_lines[6][:26]),
-            "bottom_competitor": parse_competitor(championship_lines[8][:26]),
-            "result": parse_bout_result(championship_lines[7][:26]),
-            "bout_number": parse_bout_number(championship_lines[7][:26]),
-            "winner": ("championship_r16_02", "top_competitor"),
-        },
+        maybe_r32_empty_bye(
+            championship_lines,
+            2,
+            "championship_r32_02",
+            "championship_r16_01",
+            "bottom_competitor",
+        ),
+        maybe_r32_empty_bye(
+            championship_lines,
+            6,
+            "championship_r32_03",
+            "championship_r16_02",
+            "top_competitor",
+        ),
         {
             "match": "championship_r32_04",
             "top_competitor": parse_competitor(championship_lines[10][26:52]),
@@ -160,22 +229,20 @@ def extract_bracket(weight, divison):
             "result": "Bye",
             "bout_number": None,
         },
-        {
-            "match": "championship_r32_06",
-            "top_competitor": parse_competitor(championship_lines[14][:26]),
-            "bottom_competitor": parse_competitor(championship_lines[16][:26]),
-            "result": parse_bout_result(championship_lines[15][:26]),
-            "bout_number": parse_bout_number(championship_lines[15][:26]),
-            "winner": ("championship_r16_03", "bottom_competitor"),
-        },
-        {
-            "match": "championship_r32_07",
-            "top_competitor": parse_competitor(championship_lines[18][:26]),
-            "bottom_competitor": parse_competitor(championship_lines[20][:26]),
-            "result": parse_bout_result(championship_lines[19][:26]),
-            "bout_number": parse_bout_number(championship_lines[19][:26]),
-            "winner": ("championship_r16_04", "top_competitor"),
-        },
+        maybe_r32_empty_bye(
+            championship_lines,
+            14,
+            "championship_r32_06",
+            "championship_r16_03",
+            "bottom_competitor",
+        ),
+        maybe_r32_empty_bye(
+            championship_lines,
+            18,
+            "championship_r32_07",
+            "championship_r16_04",
+            "top_competitor",
+        ),
         {
             "match": "championship_r32_08",
             "top_competitor": parse_competitor(championship_lines[22][26:52]),
@@ -190,22 +257,20 @@ def extract_bracket(weight, divison):
             "result": "Bye",
             "bout_number": None,
         },
-        {
-            "match": "championship_r32_10",
-            "top_competitor": parse_competitor(championship_lines[26][:26]),
-            "bottom_competitor": parse_competitor(championship_lines[28][:26]),
-            "result": parse_bout_result(championship_lines[27][:26]),
-            "bout_number": parse_bout_number(championship_lines[27][:26]),
-            "winner": ("championship_r16_05", "bottom_competitor"),
-        },
-        {
-            "match": "championship_r32_11",
-            "top_competitor": parse_competitor(championship_lines[30][:26]),
-            "bottom_competitor": parse_competitor(championship_lines[32][:26]),
-            "result": parse_bout_result(championship_lines[31][:26]),
-            "bout_number": parse_bout_number(championship_lines[31][:26]),
-            "winner": ("championship_r16_06", "top_competitor"),
-        },
+        maybe_r32_empty_bye(
+            championship_lines,
+            26,
+            "championship_r32_10",
+            "championship_r16_05",
+            "bottom_competitor",
+        ),
+        maybe_r32_empty_bye(
+            championship_lines,
+            30,
+            "championship_r32_11",
+            "championship_r16_06",
+            "top_competitor",
+        ),
         {
             "match": "championship_r32_12",
             "top_competitor": parse_competitor(championship_lines[34][26:52]),
@@ -220,22 +285,20 @@ def extract_bracket(weight, divison):
             "result": "Bye",
             "bout_number": None,
         },
-        {
-            "match": "championship_r32_14",
-            "top_competitor": parse_competitor(championship_lines[38][:26]),
-            "bottom_competitor": parse_competitor(championship_lines[40][:26]),
-            "result": parse_bout_result(championship_lines[39][:26]),
-            "bout_number": parse_bout_number(championship_lines[39][:26]),
-            "winner": ("championship_r16_07", "bottom_competitor"),
-        },
-        {
-            "match": "championship_r32_15",
-            "top_competitor": parse_competitor(championship_lines[42][:26]),
-            "bottom_competitor": parse_competitor(championship_lines[44][:26]),
-            "result": parse_bout_result(championship_lines[43][:26]),
-            "bout_number": parse_bout_number(championship_lines[43][:26]),
-            "winner": ("championship_r16_08", "top_competitor"),
-        },
+        maybe_r32_empty_bye(
+            championship_lines,
+            38,
+            "championship_r32_14",
+            "championship_r16_07",
+            "bottom_competitor",
+        ),
+        maybe_r32_empty_bye(
+            championship_lines,
+            42,
+            "championship_r32_15",
+            "championship_r16_08",
+            "top_competitor",
+        ),
         {
             "match": "championship_r32_16",
             "top_competitor": parse_competitor(championship_lines[46][26:52]),
@@ -370,14 +433,7 @@ def extract_bracket(weight, divison):
         ########################################################################
         # **********************************************************************
         ########################################################################
-        {
-            "match": "consolation_round3_01",
-            "top_competitor": parse_competitor(consolation_lines[4][:26]),
-            "bottom_competitor": parse_competitor(consolation_lines[6][:26]),
-            "result": parse_bout_result(consolation_lines[5][:26]),
-            "bout_number": parse_bout_number(consolation_lines[5][:26]),
-            "winner": ("consolation_round4_blood_01", "bottom_competitor"),
-        },
+        consolation_round3_01,
         {
             "match": "consolation_round3_02",
             "top_competitor": parse_competitor(consolation_lines[8][:26]),
@@ -489,6 +545,17 @@ def extract_bracket(weight, divison):
             "bout_number": parse_bout_number(fifth_place_lines[1][52:70]),
             "winner": parse_competitor(fifth_place_lines[1][70:]),
         },
+        ########################################################################
+        # **********************************************************************
+        ########################################################################
+        {
+            "match": "consolation_seventh_place",
+            "top_competitor": parse_competitor(seventh_place_lines[0][:26]),
+            "bottom_competitor": parse_competitor(seventh_place_lines[2][:26]),
+            "result": parse_bout_result(seventh_place_lines[1][:26]),
+            "bout_number": parse_bout_number(seventh_place_lines[1][:26]),
+            "winner": parse_competitor(seventh_place_lines[1][26:]),
+        },
     ]
 
     by_match = {match["match"]: match for match in matches}
@@ -498,23 +565,10 @@ def extract_bracket(weight, divison):
     for match in matches:
         set_winner(match, by_match)
         set_result(match)
+        # NOTE: This **MUST** happen after `set_winner()` and `set_result()`
+        set_top_competitor(match)
 
     return matches
-
-
-def search_helper(championship, consolation, fifth_place):
-    # NOTE: While iterating to find the correct lines / indices, I used
-    #       this helper to search for substrings within the content.
-    #       Note that I intentionally searched within a line because the
-    #       whitespace padding to the **RIGHT** of content is not guaranteed to
-    #       be consistent.
-    value = "BEN DUNCAN-HRD-----------+"
-    bracket_lines = consolation.split("\n")
-    # print_lines(bracket_lines)
-    matches = find_all_indices(bracket_lines, value)
-    print(matches)
-    # print(repr(bracket_lines[1][52:63]))
-    # print(repr(bracket_lines[14][105:]))
 
 
 def main():
@@ -580,7 +634,7 @@ def main():
             }
         )
 
-    with open(HERE / "parsed.2000.json", "w") as file_obj:
+    with open(HERE / "parsed.2001.json", "w") as file_obj:
         json.dump(parsed, file_obj, indent=2)
         file_obj.write("\n")
 
