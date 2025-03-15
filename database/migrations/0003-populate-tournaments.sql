@@ -9,6 +9,7 @@ PRAGMA integrity_check;
 INSERT INTO
   tournament (id, year, name, location, start_date, end_date)
 VALUES
+  (30,    1999, 'IKWF State Championships',               'SIU Arena (Carbondale)',            '1999-03-11', '1999-03-13'), -- NOTE: The location and dates are unconfirmed
   (31,    2000, 'IKWF State Championships',               'SIU Arena (Carbondale)',            '2000-03-09', '2000-03-11'),
   (32,    2001, 'IKWF State Championships',               'SIU Arena (Carbondale)',            '2001-03-08', '2001-03-10'),
   (33,    2002, 'IKWF State Championships',               'SIU Arena (Carbondale)',            '2002-03-08', '2002-03-09'),

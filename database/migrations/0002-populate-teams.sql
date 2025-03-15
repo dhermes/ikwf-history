@@ -30,7 +30,7 @@ VALUES
   ('2nd Athlete Regiment, USAC',                       1),
   ('815 Stateline Wrestling Club',                     673),
   ('A & M Youth Wrestling',                            2),
-  ('A-J Junior Wildcats',                              10001),
+  ('A-J Junior Wildcats',                              10001), -- Anna-Jonesboro
   ('ACE of Spades Wrestling',                          585),
   ('Aces Wrestling Club',                              3),
   ('Addison Street Wrestling Club',                    520),
