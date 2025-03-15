@@ -175,23 +175,11 @@ def extract_bracket(weight, divison):
     seventh_place_lines = seventh_place_pre.text.lstrip("\n").split("\n")
 
     if divison == "senior" and weight == 84:
-        consolation_round3_01 = {
-            "match": "consolation_round3_01",
-            "top_competitor": {"name": "KEITH WILLIAMS", "team": "JUN"},
-            "bottom_competitor": parse_competitor(consolation_lines[6][:26]),
-            "result": parse_bout_result(consolation_lines[5][:26]),
-            "bout_number": parse_bout_number(consolation_lines[5][:26]),
-            "winner": ("consolation_round4_blood_01", "bottom_competitor"),
-        }
+        consolation_round3_01_top_competitor = {"name": "KEITH WILLIAMS", "team": "JUN"}
     else:
-        consolation_round3_01 = {
-            "match": "consolation_round3_01",
-            "top_competitor": parse_competitor(consolation_lines[4][:26]),
-            "bottom_competitor": parse_competitor(consolation_lines[6][:26]),
-            "result": parse_bout_result(consolation_lines[5][:26]),
-            "bout_number": parse_bout_number(consolation_lines[5][:26]),
-            "winner": ("consolation_round4_blood_01", "bottom_competitor"),
-        }
+        consolation_round3_01_top_competitor = parse_competitor(
+            consolation_lines[4][:26]
+        )
 
     matches = [
         {
@@ -433,7 +421,14 @@ def extract_bracket(weight, divison):
         ########################################################################
         # **********************************************************************
         ########################################################################
-        consolation_round3_01,
+        {
+            "match": "consolation_round3_01",
+            "top_competitor": consolation_round3_01_top_competitor,
+            "bottom_competitor": parse_competitor(consolation_lines[6][:26]),
+            "result": parse_bout_result(consolation_lines[5][:26]),
+            "bout_number": parse_bout_number(consolation_lines[5][:26]),
+            "winner": ("consolation_round4_blood_01", "bottom_competitor"),
+        },
         {
             "match": "consolation_round3_02",
             "top_competitor": parse_competitor(consolation_lines[8][:26]),
