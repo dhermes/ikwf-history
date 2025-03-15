@@ -161,3 +161,8 @@ CREATE TABLE match (
     OR (top_win = FALSE AND bottom_competitor_id IS NOT NULL)
   ) -- Ensures winner cannot be `NULL`
 );
+
+-- TODO: Allow bout number to be `NULL` (stop using `0` as sentinel)
+-- TODO: Just get rid of `consolation_round1_*` because they are all auto-bye
+--       and the round did not exist before 2008
+-- TODO: Add in `partial` results based on placements for 1999
