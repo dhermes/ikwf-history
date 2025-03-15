@@ -136,7 +136,7 @@ CREATE TABLE bracket (
 CREATE TABLE match (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   bracket_id INTEGER REFERENCES bracket(id),
-  bout_number INTEGER NOT NULL,
+  bout_number INTEGER,
   match_slot TEXT NOT NULL REFERENCES match_slot(key),
   top_competitor_id INTEGER REFERENCES team_competitor(id),
   bottom_competitor_id INTEGER REFERENCES team_competitor(id),
@@ -154,5 +154,4 @@ CREATE TABLE match (
   ) -- Ensures winner cannot be `NULL`
 );
 
--- TODO: Allow bout number to be `NULL` (stop using `0` as sentinel)
 -- TODO: Add in `partial` results based on placements for 1999
