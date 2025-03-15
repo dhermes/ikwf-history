@@ -9,6 +9,16 @@ While the full website is nowhere near ready, we do already have a growing
 collection of historical brackets that can be viewed right now in their
 original ASCII Art glory:
 
+{{< collapsible title="1999" >}}
+
+We haven't yet found brackets, but we do have placers and team scores from
+1999:
+
+- [Novice placers](/brackets/1999-novice-placers.html)
+- [Senior placers](/brackets/1999-senior-placers.html)
+
+{{< /collapsible >}}
+
 {{< collapsible title="2000" >}}
 
 - [Novice 62](/brackets/2000/novice/62.html)
