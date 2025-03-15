@@ -36,10 +36,17 @@ def find_all_indices(search_lines, value):
 def parse_competitor(value):
     cleaned = value.strip().rstrip("+").rstrip("-")
     name, team = cleaned.rsplit("-", 1)
-    if len(team) > 3:
+    team = team.strip()
+
+    if name == "" and team == "Bye":
+        return None
+
+    if len(team) not in (1, 2, 3):
         raise ValueError("Invariant violation", team, value)
 
-    team = team.rstrip()
+    if name == "":
+        raise ValueError("Invariant violation", name, cleaned, value)
+
     return {"name": name, "team": team}
 
 
@@ -64,6 +71,40 @@ def parse_bout_number(value):
         return int(parts[0])
 
     return int(parts[1])
+
+
+def set_winner(match, by_match):
+    winner = match.get("winner", None)
+    if isinstance(winner, dict):
+        return
+
+    if match["result"] == "Bye":
+        if match["bottom_competitor"] is not None:
+            raise ValueError("Invariant violation", match)
+        match["winner"] = match["top_competitor"]
+        return
+
+    if isinstance(winner, tuple):
+        match_key, competitor_key = winner
+        competitor = by_match[match_key][competitor_key]
+        match["winner"] = competitor
+        return
+
+    raise NotImplementedError(winner)
+
+
+def set_result(match):
+    result = match["result"]
+    if result != "":
+        return
+
+    top_competitor = match["top_competitor"]
+    bottom_competitor = match["bottom_competitor"]
+    if top_competitor is None or bottom_competitor is None:
+        match["result"] = "Bye"
+        return
+
+    raise NotImplementedError(match)
 
 
 def extract_bracket(weight, divison):
@@ -455,23 +496,8 @@ def extract_bracket(weight, divison):
         raise ValueError("Invariant violation")
 
     for match in matches:
-        winner = match.get("winner", None)
-        if isinstance(winner, dict):
-            continue
-
-        if match["result"] == "Bye":
-            if match["bottom_competitor"] is not None:
-                raise ValueError("Invariant violation", match)
-            match["winner"] = match["top_competitor"]
-            continue
-
-        if isinstance(winner, tuple):
-            match_key, competitor_key = winner
-            competitor = by_match[match_key][competitor_key]
-            match["winner"] = competitor
-            continue
-
-        raise NotImplementedError(winner)
+        set_winner(match, by_match)
+        set_result(match)
 
     return matches
 
