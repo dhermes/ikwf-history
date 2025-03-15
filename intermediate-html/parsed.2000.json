@@ -507,21 +507,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "MICHAEL EDELEN",
-          "team": "LC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MICHAEL EDELEN",
-          "team": "LC"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "JOSH GALBRAITH",
           "team": "WF"
@@ -538,7 +524,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "DUSTIN MORENO",
           "team": "MFV"
@@ -555,35 +541,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "COLIN ALLGIRE",
-          "team": "BLD"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "COLIN ALLGIRE",
-          "team": "BLD"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "AARON PHEMISTER",
-          "team": "SIE"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "AARON PHEMISTER",
-          "team": "SIE"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -600,7 +558,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -617,21 +575,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "VINNY ALBER",
-          "team": "DAK"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "VINNY ALBER",
-          "team": "DAK"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "MICHAEL EDELEN",
           "team": "LC"
@@ -648,7 +592,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "CORT LAWTON",
           "team": "POL"
@@ -665,7 +609,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "AARON PHEMISTER",
           "team": "SIE"
@@ -682,7 +626,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "WILLAM CASNER",
           "team": "CHE"
@@ -1310,21 +1254,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "DUSTY ROY",
-          "team": "SJO"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "DUSTY ROY",
-          "team": "SJO"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -1341,7 +1271,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -1358,35 +1288,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "ADAM CANTY",
-          "team": "VC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "ADAM CANTY",
-          "team": "VC"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "JAMES BROWN",
-          "team": "JAC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JAMES BROWN",
-          "team": "JAC"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -1403,7 +1305,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -1420,21 +1322,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "KYLE OBERMAN",
-          "team": "WFL"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "KYLE OBERMAN",
-          "team": "WFL"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "DUSTY ROY",
           "team": "SJO"
@@ -1451,7 +1339,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "CARSON BEEBE",
           "team": "MFV"
@@ -1468,7 +1356,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "JAMES BROWN",
           "team": "JAC"
@@ -1485,7 +1373,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "CALEB WALK",
           "team": "GEN"
@@ -2113,21 +2001,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "A.J. CICCARELLI",
-          "team": "EWC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "A.J. CICCARELLI",
-          "team": "EWC"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "TIM DICK",
           "team": "MK"
@@ -2144,7 +2018,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "JAMES MADISON",
           "team": "RAM"
@@ -2161,35 +2035,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "SEAN KINNEY",
-          "team": "FVW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "SEAN KINNEY",
-          "team": "FVW"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "LUKAS GRAVES",
-          "team": "SJO"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "LUKAS GRAVES",
-          "team": "SJO"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -2206,7 +2052,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -2223,21 +2069,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "MATT TOLBERT",
-          "team": "HRD"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MATT TOLBERT",
-          "team": "HRD"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "A.J. CICCARELLI",
           "team": "EWC"
@@ -2254,7 +2086,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "MICHAEL RYAN",
           "team": "BBW"
@@ -2271,7 +2103,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "LUKAS GRAVES",
           "team": "SJO"
@@ -2288,7 +2120,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "BLAKE OHREN",
           "team": "HBJ"
@@ -2916,21 +2748,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "MITCH JONES",
-          "team": "MTZ"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MITCH JONES",
-          "team": "MTZ"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -2947,7 +2765,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "BRYSON JACKSTADT",
           "team": "EWC"
@@ -2964,35 +2782,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "LEE MCCOMB",
-          "team": "WME"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "LEE MCCOMB",
-          "team": "WME"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "MARK GONES",
-          "team": "SJO"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MARK GONES",
-          "team": "SJO"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -3009,7 +2799,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -3026,21 +2816,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "TYLER BABCOCK",
-          "team": "BJH"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "TYLER BABCOCK",
-          "team": "BJH"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "MITCH JONES",
           "team": "MTZ"
@@ -3057,7 +2833,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "JESSE MILKS",
           "team": "DAK"
@@ -3074,7 +2850,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "MARK GONES",
           "team": "SJO"
@@ -3091,7 +2867,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "JOHN RUETTIGER",
           "team": "LC"
@@ -3719,21 +3495,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "BRYAN O'CONNOR",
-          "team": "VLC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "BRYAN O'CONNOR",
-          "team": "VLC"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -3750,7 +3512,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -3767,35 +3529,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "SHANE FISCHER",
-          "team": "MOR"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "SHANE FISCHER",
-          "team": "MOR"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "JASON GRUETER",
-          "team": "DH"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JASON GRUETER",
-          "team": "DH"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -3812,7 +3546,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -3829,21 +3563,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "AARON WINNING",
-          "team": "HBJ"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "AARON WINNING",
-          "team": "HBJ"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "BRYAN O'CONNOR",
           "team": "VLC"
@@ -3860,7 +3580,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "KEVIN LALLY",
           "team": "VC"
@@ -3877,7 +3597,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "JASON GRUETER",
           "team": "DH"
@@ -3894,7 +3614,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "MATTHEW SHAPIRO",
           "team": "MFV"
@@ -4522,21 +4242,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "NICK HARRINGTON",
-          "team": "LCW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "NICK HARRINGTON",
-          "team": "LCW"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "JOHN HAUSER",
           "team": "LVL"
@@ -4553,7 +4259,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "KYLE WOLFF",
           "team": "BJH"
@@ -4570,35 +4276,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "DARREN OLSEN",
-          "team": "DAK"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "DARREN OLSEN",
-          "team": "DAK"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "CHRIS COX",
-          "team": "VAN"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "CHRIS COX",
-          "team": "VAN"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -4615,7 +4293,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -4632,21 +4310,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "JORDAN MCMILLIN",
-          "team": "MTZ"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JORDAN MCMILLIN",
-          "team": "MTZ"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "NICK HARRINGTON",
           "team": "LCW"
@@ -4663,7 +4327,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "RAYMOND MORENO",
           "team": "MFV"
@@ -4680,7 +4344,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "CHRIS COX",
           "team": "VAN"
@@ -4697,7 +4361,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "JEFF THARP",
           "team": "MOR"
@@ -5325,21 +4989,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "BENJI FRIEDL",
-          "team": "OPP"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "BENJI FRIEDL",
-          "team": "OPP"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -5356,7 +5006,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -5373,35 +5023,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "AARON NAGEL",
-          "team": "LB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "AARON NAGEL",
-          "team": "LB"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "BRENTON VALENTINE",
-          "team": "LC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "BRENTON VALENTINE",
-          "team": "LC"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -5418,7 +5040,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -5435,21 +5057,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "DAVEY LITTLE",
-          "team": "BB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "DAVEY LITTLE",
-          "team": "BB"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "BENJI FRIEDL",
           "team": "OPP"
@@ -5466,7 +5074,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "GABE YOUEL",
           "team": "CLW"
@@ -5483,7 +5091,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "BRENTON VALENTINE",
           "team": "LC"
@@ -5500,7 +5108,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "BRIAN LANGE",
           "team": "FYW"
@@ -6128,21 +5736,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "CURTIS FEIPEL",
-          "team": "SSW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "CURTIS FEIPEL",
-          "team": "SSW"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -6159,7 +5753,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -6176,35 +5770,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "DOUGLAS RAKOWSKA",
-          "team": "PCW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "DOUGLAS RAKOWSKA",
-          "team": "PCW"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "LUCAS WINTERHALT",
-          "team": "DAK"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "LUCAS WINTERHALT",
-          "team": "DAK"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -6221,7 +5787,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -6238,21 +5804,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "TIM BURNS",
-          "team": "TCB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "TIM BURNS",
-          "team": "TCB"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "CURTIS FEIPEL",
           "team": "SSW"
@@ -6269,7 +5821,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "ARON KINDELSPER",
           "team": "RJH"
@@ -6286,7 +5838,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "LUCAS WINTERHALT",
           "team": "DAK"
@@ -6303,7 +5855,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "KRIS KOVACH",
           "team": "MON"
@@ -6931,21 +6483,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "CHRIS HEATHERLY",
-          "team": "MS"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "CHRIS HEATHERLY",
-          "team": "MS"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -6962,7 +6500,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -6979,35 +6517,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "SALVADOR DELGADILLO",
-          "team": "MET"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "SALVADOR DELGADILLO",
-          "team": "MET"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "ETHAN WINEL",
-          "team": "MFV"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "ETHAN WINEL",
-          "team": "MFV"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "ADAM WILSON",
           "team": "OAK"
@@ -7024,7 +6534,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -7041,21 +6551,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "JASON DATAVS",
-          "team": "WWC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JASON DATAVS",
-          "team": "WWC"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "CHRIS HEATHERLY",
           "team": "MS"
@@ -7072,7 +6568,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "BEN DUNCAN",
           "team": "HRD"
@@ -7089,7 +6585,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "ETHAN WINEL",
           "team": "MFV"
@@ -7106,7 +6602,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "JOHN SNYDER",
           "team": "TAZ"
@@ -7734,21 +7230,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "CHAD JOHANNINGM",
-          "team": "TAY"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "CHAD JOHANNINGM",
-          "team": "TAY"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -7765,7 +7247,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -7782,35 +7264,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "AARON GONES",
-          "team": "SJO"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "AARON GONES",
-          "team": "SJO"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "SCOTT PULLEN",
-          "team": "MTZ"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "SCOTT PULLEN",
-          "team": "MTZ"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -7827,7 +7281,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -7844,21 +7298,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "PATRICK GADIENT",
-          "team": "EMS"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "PATRICK GADIENT",
-          "team": "EMS"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "CHAD JOHANNINGM",
           "team": "TAY"
@@ -7875,7 +7315,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "BEN KUEBEL",
           "team": "RIV"
@@ -7892,7 +7332,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "SCOTT PULLEN",
           "team": "MTZ"
@@ -7909,7 +7349,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "JAMES VANSLETTE",
           "team": "SSW"
@@ -8537,21 +7977,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "MICHAEL CURLEY",
-          "team": "NE"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MICHAEL CURLEY",
-          "team": "NE"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -8568,7 +7994,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -8585,35 +8011,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "NATHAN EVERHART",
-          "team": "OPP"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "NATHAN EVERHART",
-          "team": "OPP"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "TIMOTHY BARNETT",
-          "team": "ROX"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "TIMOTHY BARNETT",
-          "team": "ROX"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -8630,7 +8028,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -8647,21 +8045,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "COREY ROCK",
-          "team": "RIV"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "COREY ROCK",
-          "team": "RIV"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "MICHAEL CURLEY",
           "team": "NE"
@@ -8678,7 +8062,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "CARL LUEBBERT",
           "team": "BJH"
@@ -8695,7 +8079,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "TIMOTHY BARNETT",
           "team": "ROX"
@@ -8712,7 +8096,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "OWEN DEAN",
           "team": "PWC"
@@ -9340,21 +8724,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "CRAIG ACREE",
-          "team": "FYW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "CRAIG ACREE",
-          "team": "FYW"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -9371,7 +8741,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -9388,35 +8758,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "ERIC HUEBNER",
-          "team": "BJH"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "ERIC HUEBNER",
-          "team": "BJH"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "TIM LAMBERT",
-          "team": "STB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "TIM LAMBERT",
-          "team": "STB"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -9433,7 +8775,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -9450,21 +8792,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "JERRY HALE",
-          "team": "MCY"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JERRY HALE",
-          "team": "MCY"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "CRAIG ACREE",
           "team": "FYW"
@@ -9481,7 +8809,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "COLLIN GROSSI",
           "team": "VLC"
@@ -9498,7 +8826,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "TIM LAMBERT",
           "team": "STB"
@@ -9515,7 +8843,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "DANIEL JENSEN",
           "team": "BJH"
@@ -10143,21 +9471,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "CHRIS LUTTRELL",
-          "team": "LKW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "CHRIS LUTTRELL",
-          "team": "LKW"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -10174,7 +9488,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -10191,35 +9505,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "ANTHONY PECHO",
-          "team": "TPB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "ANTHONY PECHO",
-          "team": "TPB"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "JIMMY SCHWAB",
-          "team": "DPC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JIMMY SCHWAB",
-          "team": "DPC"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -10236,7 +9522,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "HEATHER FAICHNEY",
           "team": "TAZ"
@@ -10253,21 +9539,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "JEROME DALEY",
-          "team": "EBK"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JEROME DALEY",
-          "team": "EBK"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "CHRIS LUTTRELL",
           "team": "LKW"
@@ -10284,7 +9556,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "HARRY WALTON",
           "team": "VAN"
@@ -10301,7 +9573,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "JIMMY SCHWAB",
           "team": "DPC"
@@ -10318,7 +9590,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "HEATHER FAICHNEY",
           "team": "TAZ"
@@ -10946,21 +10218,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "COLE STRAWSER",
-          "team": "HAW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "COLE STRAWSER",
-          "team": "HAW"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -10977,7 +10235,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -10994,35 +10252,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "IAN DARR",
-          "team": "BJH"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "IAN DARR",
-          "team": "BJH"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "KEITH HAUTER",
-          "team": "LKW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "KEITH HAUTER",
-          "team": "LKW"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -11039,7 +10269,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -11056,21 +10286,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "DARIK CORSON",
-          "team": "ROC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "DARIK CORSON",
-          "team": "ROC"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "COLE STRAWSER",
           "team": "HAW"
@@ -11087,7 +10303,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "RODNEY KNOWLTON",
           "team": "GED"
@@ -11104,7 +10320,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "KEITH HAUTER",
           "team": "LKW"
@@ -11121,7 +10337,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "DANIEL LUDWIG",
           "team": "TCB"
@@ -11749,21 +10965,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "BRIAN DOMBECK",
-          "team": "HON"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "BRIAN DOMBECK",
-          "team": "HON"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -11780,7 +10982,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -11797,35 +10999,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "JASON WILSON",
-          "team": "ROX"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JASON WILSON",
-          "team": "ROX"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "JOSEPH HENRIKSEN",
-          "team": "SC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JOSEPH HENRIKSEN",
-          "team": "SC"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -11842,7 +11016,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "KENNETH BEASLEY",
           "team": "TWC"
@@ -11859,21 +11033,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "JOE MCDONALD",
-          "team": "LB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JOE MCDONALD",
-          "team": "LB"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "BRIAN DOMBECK",
           "team": "HON"
@@ -11890,7 +11050,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "JACOB MULLINS",
           "team": "BAT"
@@ -11907,7 +11067,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "JOSEPH HENRIKSEN",
           "team": "SC"
@@ -11924,7 +11084,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "KENNETH BEASLEY",
           "team": "TWC"
@@ -12552,21 +11712,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "MARK THAXTON",
-          "team": "ROX"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MARK THAXTON",
-          "team": "ROX"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -12583,7 +11729,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -12600,35 +11746,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "JONATHON COMBS",
-          "team": "LSW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JONATHON COMBS",
-          "team": "LSW"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "DUSTIN GARNER",
-          "team": "HBJ"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "DUSTIN GARNER",
-          "team": "HBJ"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "ROSS THOMPSON",
           "team": "WME"
@@ -12645,7 +11763,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -12662,21 +11780,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "HECTOR CANTU",
-          "team": "VLC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "HECTOR CANTU",
-          "team": "VLC"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "MARK THAXTON",
           "team": "ROX"
@@ -12693,7 +11797,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "TROY SAMANICH",
           "team": "LB"
@@ -12710,7 +11814,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "DUSTIN GARNER",
           "team": "HBJ"
@@ -12727,7 +11831,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "ALFRED ANDERSON",
           "team": "BRO"
@@ -13355,21 +12459,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "BRANDON SCHUMAN",
-          "team": "MTZ"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "BRANDON SCHUMAN",
-          "team": "MTZ"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -13386,7 +12476,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -13403,35 +12493,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "PHILLIP LUKANICH",
-          "team": "VC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "PHILLIP LUKANICH",
-          "team": "VC"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "EDWARD DOMICH",
-          "team": "DH"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "EDWARD DOMICH",
-          "team": "DH"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -13448,7 +12510,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -13465,21 +12527,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "DANIEL PROUTY",
-          "team": "SVW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "DANIEL PROUTY",
-          "team": "SVW"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "BRANDON SCHUMAN",
           "team": "MTZ"
@@ -13496,7 +12544,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "BRANDON OPPENHEIME",
           "team": "WME"
@@ -13513,7 +12561,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "EDWARD DOMICH",
           "team": "DH"
@@ -13530,7 +12578,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "JAKE OSTER",
           "team": "LB"
@@ -14158,21 +13206,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "CHRIS RZAB",
-          "team": "TPB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "CHRIS RZAB",
-          "team": "TPB"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -14189,7 +13223,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -14206,35 +13240,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "DRAKE ROSSI",
-          "team": "LC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "DRAKE ROSSI",
-          "team": "LC"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "KORY THIEL",
-          "team": "DH"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "KORY THIEL",
-          "team": "DH"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -14251,7 +13257,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -14268,21 +13274,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "JON RANCK",
-          "team": "VLC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JON RANCK",
-          "team": "VLC"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "CHRIS RZAB",
           "team": "TPB"
@@ -14299,7 +13291,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "JEREMY ELLIOTT",
           "team": "BH"
@@ -14316,7 +13308,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "KORY THIEL",
           "team": "DH"
@@ -14333,7 +13325,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "RILEY KRUEGER",
           "team": "PWC"
@@ -14961,21 +13953,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "CAITLYN CHASE",
-          "team": "MFV"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "CAITLYN CHASE",
-          "team": "MFV"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "SEAN MACDONALD",
           "team": "DAK"
@@ -14992,7 +13970,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -15009,35 +13987,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "BEN CHAMBERLAI",
-          "team": "CLW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "BEN CHAMBERLAI",
-          "team": "CLW"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "BRANDON NICE",
-          "team": "CYW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "BRANDON NICE",
-          "team": "CYW"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -15054,7 +14004,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -15071,21 +14021,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "NATHAN KAYS",
-          "team": "BB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "NATHAN KAYS",
-          "team": "BB"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "CAITLYN CHASE",
           "team": "MFV"
@@ -15102,7 +14038,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "CHRIS WEISSGERBE",
           "team": "VLC"
@@ -15119,7 +14055,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "BRANDON NICE",
           "team": "CYW"
@@ -15136,7 +14072,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "DUSTIN BECKMAN",
           "team": "MUR"
@@ -15764,21 +14700,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "SEAN REYNOLDS",
-          "team": "LC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "SEAN REYNOLDS",
-          "team": "LC"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -15795,7 +14717,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -15812,35 +14734,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "ERIK BAUER",
-          "team": "MFV"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "ERIK BAUER",
-          "team": "MFV"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "MICHAEL SEIBERT",
-          "team": "NAP"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MICHAEL SEIBERT",
-          "team": "NAP"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "CURTIS CORK",
           "team": "BB"
@@ -15857,7 +14751,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -15874,21 +14768,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "SHANE SAYLOR",
-          "team": "BJH"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "SHANE SAYLOR",
-          "team": "BJH"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "SEAN REYNOLDS",
           "team": "LC"
@@ -15905,7 +14785,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "TAYLOR HART",
           "team": "LLP"
@@ -15922,7 +14802,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "MICHAEL SEIBERT",
           "team": "NAP"
@@ -15939,7 +14819,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "NICHOLAS PANELLA",
           "team": "OLW"
@@ -16567,21 +15447,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "KYLE KRUEGER",
-          "team": "MFV"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "KYLE KRUEGER",
-          "team": "MFV"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -16598,7 +15464,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -16615,35 +15481,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "TONY MARTINEZ",
-          "team": "LC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "TONY MARTINEZ",
-          "team": "LC"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "CARLOS LOPEZ",
-          "team": "VC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "CARLOS LOPEZ",
-          "team": "VC"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -16660,7 +15498,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -16677,21 +15515,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "ROBBIE UNSELL",
-          "team": "BJH"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "ROBBIE UNSELL",
-          "team": "BJH"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "KYLE KRUEGER",
           "team": "MFV"
@@ -16708,7 +15532,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "MARK LAWSON",
           "team": "HBJ"
@@ -16725,7 +15549,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "CARLOS LOPEZ",
           "team": "VC"
@@ -16742,7 +15566,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "JACOB FLYNN",
           "team": "T1"
@@ -17370,21 +16194,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "ANDREW NELSON",
-          "team": "SN"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "ANDREW NELSON",
-          "team": "SN"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -17401,7 +16211,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -17418,35 +16228,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "BRAD MUTHART",
-          "team": "LC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "BRAD MUTHART",
-          "team": "LC"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "MARTY ENGWALL",
-          "team": "TPB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MARTY ENGWALL",
-          "team": "TPB"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -17463,7 +16245,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -17480,21 +16262,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "TIMOTHY HAYES",
-          "team": "JGE"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "TIMOTHY HAYES",
-          "team": "JGE"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "ANDREW NELSON",
           "team": "SN"
@@ -17511,7 +16279,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "BEN YOUEL",
           "team": "CLW"
@@ -17528,7 +16296,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "MARTY ENGWALL",
           "team": "TPB"
@@ -17545,7 +16313,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "STEPHEN BUX",
           "team": "BLD"
@@ -18173,21 +16941,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "NATHAN HARRIS",
-          "team": "BLD"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "NATHAN HARRIS",
-          "team": "BLD"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -18204,7 +16958,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -18221,35 +16975,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "BRADLEY FIORITO",
-          "team": "DH"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "BRADLEY FIORITO",
-          "team": "DH"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "RYAN BURK",
-          "team": "MET"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "RYAN BURK",
-          "team": "MET"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -18266,7 +16992,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -18283,21 +17009,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "ZACHARY ENDERLE",
-          "team": "HC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "ZACHARY ENDERLE",
-          "team": "HC"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "NATHAN HARRIS",
           "team": "BLD"
@@ -18314,7 +17026,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "HOUSTON PINEDA",
           "team": "VLC"
@@ -18331,7 +17043,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "RYAN BURK",
           "team": "MET"
@@ -18348,7 +17060,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "RANDY WEBER",
           "team": "CHE"
@@ -18976,21 +17688,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "MATT JONES",
-          "team": "TPB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MATT JONES",
-          "team": "TPB"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -19007,7 +17705,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -19024,35 +17722,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "GABRIEL BROWN",
-          "team": "SJO"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "GABRIEL BROWN",
-          "team": "SJO"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "TRAVIS HAHN",
-          "team": "HC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "TRAVIS HAHN",
-          "team": "HC"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -19069,7 +17739,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -19086,21 +17756,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "RAY KOPECKY",
-          "team": "ME"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "RAY KOPECKY",
-          "team": "ME"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "MATT JONES",
           "team": "TPB"
@@ -19117,7 +17773,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "LANCE MARSH",
           "team": "BBW"
@@ -19134,7 +17790,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "TRAVIS HAHN",
           "team": "HC"
@@ -19151,7 +17807,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "MATTHEW KONAR",
           "team": "SII"
@@ -19779,21 +18435,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "JOSEPH GRAVES",
-          "team": "BAT"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JOSEPH GRAVES",
-          "team": "BAT"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -19810,7 +18452,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -19827,35 +18469,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "DREW CARRINGTON",
-          "team": "YWC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "DREW CARRINGTON",
-          "team": "YWC"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "JOHN MURPHY",
-          "team": "SSW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JOHN MURPHY",
-          "team": "SSW"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -19872,7 +18486,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -19889,21 +18503,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "CRAIG TOKARSKI",
-          "team": "PWC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "CRAIG TOKARSKI",
-          "team": "PWC"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "JOSEPH GRAVES",
           "team": "BAT"
@@ -19920,7 +18520,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "KEVIN ROCKETT",
           "team": "OLW"
@@ -19937,7 +18537,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "JOHN MURPHY",
           "team": "SSW"
@@ -19954,7 +18554,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "JUSTIN BLACKBURN",
           "team": "UNI"
@@ -20582,21 +19182,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "JOSH HEISNER",
-          "team": "PIN"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JOSH HEISNER",
-          "team": "PIN"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -20613,7 +19199,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -20630,35 +19216,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "ROBERTO LOPEZ",
-          "team": "BB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "ROBERTO LOPEZ",
-          "team": "BB"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "HAL DEWESE",
-          "team": "SJO"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "HAL DEWESE",
-          "team": "SJO"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -20675,7 +19233,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -20692,21 +19250,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "WILLIAM MEKEEL",
-          "team": "SN"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "WILLIAM MEKEEL",
-          "team": "SN"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "JOSH HEISNER",
           "team": "PIN"
@@ -20723,7 +19267,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "JOEL WATSON",
           "team": "OAK"
@@ -20740,7 +19284,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "HAL DEWESE",
           "team": "SJO"
@@ -20757,7 +19301,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "RYAN O'MALLEY",
           "team": "VC"
@@ -21385,21 +19929,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "DAVID CROCKER",
-          "team": "POL"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "DAVID CROCKER",
-          "team": "POL"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -21416,7 +19946,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -21433,35 +19963,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "NICK POTTS",
-          "team": "BLD"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "NICK POTTS",
-          "team": "BLD"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "IAN PARNELL",
-          "team": "ROX"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "IAN PARNELL",
-          "team": "ROX"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -21478,7 +19980,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -21495,21 +19997,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "ANDREW JANICK",
-          "team": "LPC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "ANDREW JANICK",
-          "team": "LPC"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "DAVID CROCKER",
           "team": "POL"
@@ -21526,7 +20014,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "SIMON FOWLER",
           "team": "STC"
@@ -21543,7 +20031,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "IAN PARNELL",
           "team": "ROX"
@@ -21560,7 +20048,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "TREVOR MULRENIN",
           "team": "OLW"
@@ -22188,21 +20676,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "KYLE WINCHESTER",
-          "team": "MAT"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "KYLE WINCHESTER",
-          "team": "MAT"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -22219,7 +20693,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -22236,35 +20710,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "JASON JOHNSON",
-          "team": "MFV"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JASON JOHNSON",
-          "team": "MFV"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "MATTHEW WAHL",
-          "team": "JGE"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MATTHEW WAHL",
-          "team": "JGE"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -22281,7 +20727,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -22298,21 +20744,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "MATT SMITH",
-          "team": "VLC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MATT SMITH",
-          "team": "VLC"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "KYLE WINCHESTER",
           "team": "MAT"
@@ -22329,7 +20761,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "ROBERT BEAUCHAMP",
           "team": "MAR"
@@ -22346,7 +20778,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "MATTHEW WAHL",
           "team": "JGE"
@@ -22363,7 +20795,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "MICHAEL SCHLEETER",
           "team": "PWC"
@@ -22991,21 +21423,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "MIKE JOHNSON",
-          "team": "BB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MIKE JOHNSON",
-          "team": "BB"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -23022,7 +21440,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -23039,35 +21457,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "CARL BREWER",
-          "team": "TCB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "CARL BREWER",
-          "team": "TCB"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "CLINT BROSHOUS",
-          "team": "PCW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "CLINT BROSHOUS",
-          "team": "PCW"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -23084,7 +21474,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -23101,21 +21491,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "JONATHON WYATT",
-          "team": "WES"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JONATHON WYATT",
-          "team": "WES"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "MIKE JOHNSON",
           "team": "BB"
@@ -23132,7 +21508,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "JACOB HARDING",
           "team": "WJP"
@@ -23149,7 +21525,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "CLINT BROSHOUS",
           "team": "PCW"
@@ -23166,7 +21542,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "RYAN NORTON",
           "team": "HUS"
@@ -23794,21 +22170,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "RYAN GRADY",
-          "team": "BBW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "RYAN GRADY",
-          "team": "BBW"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -23825,7 +22187,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -23842,35 +22204,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "NICHOLAS MILLER",
-          "team": "MAT"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "NICHOLAS MILLER",
-          "team": "MAT"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "JESUS ORDAZ",
-          "team": "CLW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JESUS ORDAZ",
-          "team": "CLW"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -23887,7 +22221,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "PHIL MCALISTER",
           "team": "VPY"
@@ -23904,21 +22238,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "JEFF LANGE",
-          "team": "FYW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JEFF LANGE",
-          "team": "FYW"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "RYAN GRADY",
           "team": "BBW"
@@ -23935,7 +22255,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "WILLIAM HAYES",
           "team": "MUR"
@@ -23952,7 +22272,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "JESUS ORDAZ",
           "team": "CLW"
@@ -23969,7 +22289,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "PHIL MCALISTER",
           "team": "VPY"
@@ -24597,21 +22917,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "TROY ALLEN",
-          "team": "BAD"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "TROY ALLEN",
-          "team": "BAD"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -24628,7 +22934,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "JEFFREY JANICKI",
           "team": "VLC"
@@ -24645,35 +22951,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "ROBERTO CHAVIRA",
-          "team": "BB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "ROBERTO CHAVIRA",
-          "team": "BB"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "ROB VANHERIK",
-          "team": "BAT"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "ROB VANHERIK",
-          "team": "BAT"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -24690,7 +22968,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -24707,21 +22985,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "SHANE BUTLER",
-          "team": "MCY"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "SHANE BUTLER",
-          "team": "MCY"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "TROY ALLEN",
           "team": "BAD"
@@ -24738,7 +23002,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "JEFFREY JANICKI",
           "team": "VLC"
@@ -24755,7 +23019,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "ROB VANHERIK",
           "team": "BAT"
@@ -24772,7 +23036,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "RYAN STASSI",
           "team": "LRB"
@@ -25400,21 +23664,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "MARIO ROSALES",
-          "team": "HC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MARIO ROSALES",
-          "team": "HC"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -25431,7 +23681,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -25448,35 +23698,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "JOEY YOUNGBERG",
-          "team": "MUR"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JOEY YOUNGBERG",
-          "team": "MUR"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "ANDREW GREENWALT",
-          "team": "NE"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "ANDREW GREENWALT",
-          "team": "NE"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "BRANDON KAISER",
           "team": "PCW"
@@ -25493,7 +23715,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -25510,21 +23732,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "PAT BURKE",
-          "team": "VLC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "PAT BURKE",
-          "team": "VLC"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "MARIO ROSALES",
           "team": "HC"
@@ -25541,7 +23749,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "BRANDON STORK",
           "team": "OSP"
@@ -25558,7 +23766,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "ANDREW GREENWALT",
           "team": "NE"
@@ -25575,7 +23783,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "CHRIS SCHMIDT",
           "team": "JRW"
@@ -26203,21 +24411,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "MARK FRENCH",
-          "team": "MUR"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MARK FRENCH",
-          "team": "MUR"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -26234,7 +24428,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -26251,35 +24445,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "JIM HOFFMAN",
-          "team": "VLC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "JIM HOFFMAN",
-          "team": "VLC"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "MICHAEL GUERRA",
-          "team": "SSW"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "MICHAEL GUERRA",
-          "team": "SSW"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -26296,7 +24462,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -26313,21 +24479,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "CASEY COOPER",
-          "team": "WFL"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "CASEY COOPER",
-          "team": "WFL"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "MARK FRENCH",
           "team": "MUR"
@@ -26344,7 +24496,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "TOM HOWARD",
           "team": "FVW"
@@ -26361,7 +24513,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "MICHAEL GUERRA",
           "team": "SSW"
@@ -26378,7 +24530,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "JOE MEREDITH",
           "team": "MCY"
@@ -27006,21 +25158,7 @@
         }
       },
       {
-        "match": "consolation_round2_01",
-        "top_competitor": {
-          "name": "LARRY LUSTER",
-          "team": "SC"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "LARRY LUSTER",
-          "team": "SC"
-        }
-      },
-      {
-        "match": "consolation_round2_02",
+        "match": "consolation_round3_01",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -27037,7 +25175,7 @@
         }
       },
       {
-        "match": "consolation_round2_03",
+        "match": "consolation_round3_02",
         "top_competitor": {
           "name": "JOSH WISHARD",
           "team": "DAK"
@@ -27054,35 +25192,7 @@
         }
       },
       {
-        "match": "consolation_round2_04",
-        "top_competitor": {
-          "name": "CHRIS ESPINOZA",
-          "team": "WB"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "CHRIS ESPINOZA",
-          "team": "WB"
-        }
-      },
-      {
-        "match": "consolation_round2_05",
-        "top_competitor": {
-          "name": "TJ FRANCIS",
-          "team": "RJH"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "TJ FRANCIS",
-          "team": "RJH"
-        }
-      },
-      {
-        "match": "consolation_round2_06",
+        "match": "consolation_round3_03",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -27099,7 +25209,7 @@
         }
       },
       {
-        "match": "consolation_round2_07",
+        "match": "consolation_round3_04",
         "top_competitor": {
           "name": "",
           "team": "Bye"
@@ -27116,21 +25226,7 @@
         }
       },
       {
-        "match": "consolation_round2_08",
-        "top_competitor": {
-          "name": "GREGORY KOLPACKI",
-          "team": "NE"
-        },
-        "bottom_competitor": null,
-        "result": "Bye",
-        "bout_number": null,
-        "winner": {
-          "name": "GREGORY KOLPACKI",
-          "team": "NE"
-        }
-      },
-      {
-        "match": "consolation_round3_01",
+        "match": "consolation_round4_blood_01",
         "top_competitor": {
           "name": "LARRY LUSTER",
           "team": "SC"
@@ -27147,7 +25243,7 @@
         }
       },
       {
-        "match": "consolation_round3_02",
+        "match": "consolation_round4_blood_02",
         "top_competitor": {
           "name": "MATTHEW TODD",
           "team": "PCW"
@@ -27164,7 +25260,7 @@
         }
       },
       {
-        "match": "consolation_round3_03",
+        "match": "consolation_round4_blood_03",
         "top_competitor": {
           "name": "TJ FRANCIS",
           "team": "RJH"
@@ -27181,7 +25277,7 @@
         }
       },
       {
-        "match": "consolation_round3_04",
+        "match": "consolation_round4_blood_04",
         "top_competitor": {
           "name": "NATHANIEL WOODELL",
           "team": "MAR"
