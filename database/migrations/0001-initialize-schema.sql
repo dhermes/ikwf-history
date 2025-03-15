@@ -153,5 +153,3 @@ CREATE TABLE match (
     OR (top_win = FALSE AND bottom_competitor_id IS NOT NULL)
   ) -- Ensures winner cannot be `NULL`
 );
-
--- TODO: Add in `partial` results based on placements for 1999
