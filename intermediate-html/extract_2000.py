@@ -118,7 +118,13 @@ def extract_bracket(weight, divison):
         raise RuntimeError("Invariant violation")
 
     championship_pre, consolation_pre, fifth_place_pre = all_pre
-    championship_lines = championship_pre.text.lstrip("\n").split("\n")
+    championship_text = championship_pre.text
+    # Address known typo(s)
+    championship_text = championship_text.replace("Fall 1;40", "Fall 1:40")
+    championship_text = championship_text.replace("Fall 3;55", "Fall 3:55")
+    championship_text = championship_text.replace("Fall 1;37", "Fall 1:37")
+
+    championship_lines = championship_text.lstrip("\n").split("\n")
     consolation_lines = consolation_pre.text.lstrip("\n").split("\n")
     fifth_place_lines = fifth_place_pre.text.lstrip("\n").split("\n")
 
