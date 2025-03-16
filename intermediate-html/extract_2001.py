@@ -629,7 +629,7 @@ def main():
             }
         )
 
-    with open(HERE / "parsed.2001.json", "w") as file_obj:
+    with open(HERE / "extracted.2001.json", "w") as file_obj:
         json.dump(parsed, file_obj, indent=2)
         file_obj.write("\n")
 
