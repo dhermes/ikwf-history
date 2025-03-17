@@ -38,6 +38,8 @@ We haven't yet found brackets, but we do have placers and team scores from
 - [Novice 147](/brackets/2000/novice/147.html)
 - [Novice 166](/brackets/2000/novice/166.html)
 - [Novice 215](/brackets/2000/novice/215.html)
+- **Marty Combes Award Winner**: Jimmy Kennedy - Wrestling Factory of
+  Libertyville (70)
 - **Senior Team Scores** missing
 - [Senior 70](/brackets/2000/senior/70.html)
 - [Senior 74](/brackets/2000/senior/74.html)
@@ -57,10 +59,25 @@ We haven't yet found brackets, but we do have placers and team scores from
 - [Senior 177](/brackets/2000/senior/177.html)
 - [Senior 189](/brackets/2000/senior/189.html)
 - [Senior 275](/brackets/2000/senior/275.html)
+- **Ron Urwin Award Winner**: Michael Poeta – Highland Park Little Giants (101)
 
 {{< /collapsible >}}
 
 {{< collapsible title="2001" >}}
+
+<!--
+Junior Division
+
+1. Fox Valley - 294
+2. Martinez Elite - 201
+3. Crystal Lake - 199.5
+4. Vittum Cats - 187.5
+5. Tinley Bulldogs - 173.5
+6. Orland Park - 162
+7. Villa-Lomb - 153.5
+8. Lakeland Pred. - 132
+
+-->
 
 - [Novice Team Scores](/team-scores/2001/novice.html)
 - [Novice 62](/brackets/2001/novice/62.html)
