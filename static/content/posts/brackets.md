@@ -21,6 +21,7 @@ We haven't yet found brackets, but we do have placers and team scores from
 
 {{< collapsible title="2000" >}}
 
+- **Novice Team Scores** missing
 - [Novice 62](/brackets/2000/novice/62.html)
 - [Novice 66](/brackets/2000/novice/66.html)
 - [Novice 70](/brackets/2000/novice/70.html)
@@ -37,6 +38,7 @@ We haven't yet found brackets, but we do have placers and team scores from
 - [Novice 147](/brackets/2000/novice/147.html)
 - [Novice 166](/brackets/2000/novice/166.html)
 - [Novice 215](/brackets/2000/novice/215.html)
+- **Senior Team Scores** missing
 - [Senior 70](/brackets/2000/senior/70.html)
 - [Senior 74](/brackets/2000/senior/74.html)
 - [Senior 79](/brackets/2000/senior/79.html)
@@ -60,6 +62,7 @@ We haven't yet found brackets, but we do have placers and team scores from
 
 {{< collapsible title="2001" >}}
 
+- [Novice Team Scores](/team-scores/2001/novice.html)
 - [Novice 62](/brackets/2001/novice/62.html)
 - [Novice 66](/brackets/2001/novice/66.html)
 - [Novice 70](/brackets/2001/novice/70.html)
@@ -76,6 +79,7 @@ We haven't yet found brackets, but we do have placers and team scores from
 - [Novice 147](/brackets/2001/novice/147.html)
 - [Novice 166](/brackets/2001/novice/166.html)
 - [Novice 215](/brackets/2001/novice/215.html)
+- [Senior Team Scores](/team-scores/2001/senior.html)
 - [Senior 70](/brackets/2001/senior/70.html)
 - [Senior 74](/brackets/2001/senior/74.html)
 - [Senior 79](/brackets/2001/senior/79.html)
@@ -99,6 +103,7 @@ We haven't yet found brackets, but we do have placers and team scores from
 
 {{< collapsible title="2002" >}}
 
+- [Novice Team Scores](/team-scores/2002/novice.html)
 - [Novice 62](/brackets/2002/novice/62.html)
 - [Novice 66](/brackets/2002/novice/66.html)
 - [Novice 70](/brackets/2002/novice/70.html)
@@ -115,6 +120,7 @@ We haven't yet found brackets, but we do have placers and team scores from
 - [Novice 147](/brackets/2002/novice/147.html)
 - [Novice 166](/brackets/2002/novice/166.html)
 - [Novice 215](/brackets/2002/novice/215.html)
+- [Senior Team Scores](/team-scores/2002/senior.html)
 - [Senior 70](/brackets/2002/senior/70.html)
 - [Senior 74](/brackets/2002/senior/74.html)
 - [Senior 79](/brackets/2002/senior/79.html)
@@ -139,6 +145,7 @@ We haven't yet found brackets, but we do have placers and team scores from
 
 {{< collapsible title="2003" >}}
 
+- [Novice Team Scores](/team-scores/2003/novice.html)
 - [Novice 62](/brackets/2003/novice/62.html)
 - [Novice 66](/brackets/2003/novice/66.html)
 - [Novice 70](/brackets/2003/novice/70.html)
@@ -155,6 +162,7 @@ We haven't yet found brackets, but we do have placers and team scores from
 - [Novice 147](/brackets/2003/novice/147.html)
 - [Novice 166](/brackets/2003/novice/166.html)
 - [Novice 215](/brackets/2003/novice/215.html)
+- [Senior Team Scores](/team-scores/2003/senior.html)
 - [Senior 70](/brackets/2003/senior/70.html)
 - [Senior 74](/brackets/2003/senior/74.html)
 - [Senior 79](/brackets/2003/senior/79.html)
@@ -179,6 +187,7 @@ We haven't yet found brackets, but we do have placers and team scores from
 
 {{< collapsible title="2004" >}}
 
+- [Novice Team Scores](/team-scores/2004/novice.html)
 - [Novice 62](/brackets/2004/novice/62.html)
 - [Novice 66](/brackets/2004/novice/66.html)
 - [Novice 70](/brackets/2004/novice/70.html)
@@ -195,6 +204,7 @@ We haven't yet found brackets, but we do have placers and team scores from
 - [Novice 147](/brackets/2004/novice/147.html)
 - [Novice 166](/brackets/2004/novice/166.html)
 - [Novice 215](/brackets/2004/novice/215.html)
+- [Senior Team Scores](/team-scores/2004/senior.html)
 - [Senior 70](/brackets/2004/senior/70.html)
 - [Senior 74](/brackets/2004/senior/74.html)
 - [Senior 79](/brackets/2004/senior/79.html)
@@ -219,6 +229,7 @@ We haven't yet found brackets, but we do have placers and team scores from
 
 {{< collapsible title="2005" >}}
 
+- [Novice Team Scores](/team-scores/2005/novice.html)
 - [Novice 62](/brackets/2005/novice/62.html)
 - [Novice 66](/brackets/2005/novice/66.html)
 - [Novice 70](/brackets/2005/novice/70.html)
@@ -235,6 +246,7 @@ We haven't yet found brackets, but we do have placers and team scores from
 - [Novice 147](/brackets/2005/novice/147.html)
 - [Novice 166](/brackets/2005/novice/166.html)
 - [Novice 215](/brackets/2005/novice/215.html)
+- [Senior Team Scores](/team-scores/2005/senior.html)
 - [Senior 70](/brackets/2005/senior/70.html)
 - [Senior 74](/brackets/2005/senior/74.html)
 - [Senior 79](/brackets/2005/senior/79.html)
@@ -259,6 +271,7 @@ We haven't yet found brackets, but we do have placers and team scores from
 
 {{< collapsible title="2006" >}}
 
+- [Novice Team Scores](/team-scores/2006/novice.html)
 - [Novice 62](/brackets/2006/novice/62.html)
 - [Novice 66](/brackets/2006/novice/66.html)
 - [Novice 70](/brackets/2006/novice/70.html)
@@ -275,6 +288,7 @@ We haven't yet found brackets, but we do have placers and team scores from
 - [Novice 147](/brackets/2006/novice/147.html)
 - [Novice 166](/brackets/2006/novice/166.html)
 - [Novice 215](/brackets/2006/novice/215.html)
+- [Senior Team Scores](/team-scores/2006/senior.html)
 - [Senior 70](/brackets/2006/senior/70.html)
 - [Senior 74](/brackets/2006/senior/74.html)
 - [Senior 79](/brackets/2006/senior/79.html)
