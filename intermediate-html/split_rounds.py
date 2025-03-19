@@ -564,7 +564,7 @@ def senior_2004():
 
 def novice_2005():
     weights_pre = {}
-    weights = (62, 66, 70, 74, 79, 89, 122, 130, 147, 166, 215)
+    weights = (62, 66, 70, 74, 79, 84, 89, 95, 101, 108, 115, 122, 130, 147, 166, 215)
     path_prefix = HERE / ".." / "raw-data" / "2005" / "novice"
 
     for weight in weights:

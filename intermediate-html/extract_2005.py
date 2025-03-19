@@ -592,7 +592,24 @@ def extract_bracket(weight, divison):
 
 
 def main():
-    novice_weights = (62, 66, 70, 74, 79, 89, 122, 130, 147, 166, 215)
+    novice_weights = (
+        62,
+        66,
+        70,
+        74,
+        79,
+        84,
+        89,
+        95,
+        101,
+        108,
+        115,
+        122,
+        130,
+        147,
+        166,
+        215,
+    )
     senior_weights = (
         70,
         74,

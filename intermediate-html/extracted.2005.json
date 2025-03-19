@@ -3779,6 +3779,767 @@
   },
   {
     "division": "novice",
+    "weight": 84,
+    "matches": [
+      {
+        "match": "championship_r32_01",
+        "top_competitor": {
+          "name": "JOE LADICK",
+          "team": "GLD"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "JOE LADICK",
+          "team": "GLD"
+        }
+      },
+      {
+        "match": "championship_r32_02",
+        "top_competitor": {
+          "name": "FRANK BAER",
+          "team": "MFV"
+        },
+        "bottom_competitor": {
+          "name": "KEVIN AKERS",
+          "team": "MLI"
+        },
+        "result": "Dec 5-1",
+        "bout_number": 82,
+        "winner": {
+          "name": "FRANK BAER",
+          "team": "MFV"
+        }
+      },
+      {
+        "match": "championship_r32_03",
+        "top_competitor": {
+          "name": "BRANDON LEE",
+          "team": "YRK"
+        },
+        "bottom_competitor": {
+          "name": "DAKOTA WAPOTISH",
+          "team": "BRR"
+        },
+        "result": "M-Dec 10-2",
+        "bout_number": 83,
+        "winner": {
+          "name": "DAKOTA WAPOTISH",
+          "team": "BRR"
+        }
+      },
+      {
+        "match": "championship_r32_04",
+        "top_competitor": {
+          "name": "BO SCHLOSSER",
+          "team": "MTZ"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "BO SCHLOSSER",
+          "team": "MTZ"
+        }
+      },
+      {
+        "match": "championship_r32_05",
+        "top_competitor": {
+          "name": "ERIC POWELL",
+          "team": "PRP"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "ERIC POWELL",
+          "team": "PRP"
+        }
+      },
+      {
+        "match": "championship_r32_06",
+        "top_competitor": {
+          "name": "SHAUNQAE MCMURTRY",
+          "team": "LLC"
+        },
+        "bottom_competitor": {
+          "name": "CHRIS WATTS",
+          "team": "YRK"
+        },
+        "result": "Fall 3:42",
+        "bout_number": 86,
+        "winner": {
+          "name": "SHAUNQAE MCMURTRY",
+          "team": "LLC"
+        }
+      },
+      {
+        "match": "championship_r32_07",
+        "top_competitor": {
+          "name": "LUCAS SMITH",
+          "team": "BSN"
+        },
+        "bottom_competitor": {
+          "name": "KEITH REILLY",
+          "team": "MED"
+        },
+        "result": "M-Dec 13-0",
+        "bout_number": 87,
+        "winner": {
+          "name": "LUCAS SMITH",
+          "team": "BSN"
+        }
+      },
+      {
+        "match": "championship_r32_08",
+        "top_competitor": {
+          "name": "KEITH SURBER",
+          "team": "OLP"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "KEITH SURBER",
+          "team": "OLP"
+        }
+      },
+      {
+        "match": "championship_r32_09",
+        "top_competitor": {
+          "name": "JOE BREWSTER",
+          "team": "MNE"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "JOE BREWSTER",
+          "team": "MNE"
+        }
+      },
+      {
+        "match": "championship_r32_10",
+        "top_competitor": {
+          "name": "TYLER PRAZMA",
+          "team": "GCW"
+        },
+        "bottom_competitor": {
+          "name": "RICHARD KAHT",
+          "team": "RMD"
+        },
+        "result": "Fall 3:29",
+        "bout_number": 90,
+        "winner": {
+          "name": "TYLER PRAZMA",
+          "team": "GCW"
+        }
+      },
+      {
+        "match": "championship_r32_11",
+        "top_competitor": {
+          "name": "CHASE TACKETT",
+          "team": "RCT"
+        },
+        "bottom_competitor": {
+          "name": "MATT O'BOYLE",
+          "team": "TPB"
+        },
+        "result": "Fall 3:41",
+        "bout_number": 91,
+        "winner": {
+          "name": "MATT O'BOYLE",
+          "team": "TPB"
+        }
+      },
+      {
+        "match": "championship_r32_12",
+        "top_competitor": {
+          "name": "SHANE DIERKING",
+          "team": "WHT"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "SHANE DIERKING",
+          "team": "WHT"
+        }
+      },
+      {
+        "match": "championship_r32_13",
+        "top_competitor": {
+          "name": "RYAN SORAGHAN",
+          "team": "OPP"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "RYAN SORAGHAN",
+          "team": "OPP"
+        }
+      },
+      {
+        "match": "championship_r32_14",
+        "top_competitor": {
+          "name": "CODY KLAVER",
+          "team": "TPB"
+        },
+        "bottom_competitor": {
+          "name": "NICK ARMSTRONG",
+          "team": "BLD"
+        },
+        "result": "M-Dec 12-0",
+        "bout_number": 94,
+        "winner": {
+          "name": "CODY KLAVER",
+          "team": "TPB"
+        }
+      },
+      {
+        "match": "championship_r32_15",
+        "top_competitor": {
+          "name": "JOEY MOORHOUSE",
+          "team": "CLW"
+        },
+        "bottom_competitor": {
+          "name": "DALTON BROWN",
+          "team": "SJR"
+        },
+        "result": "Dec 2-1",
+        "bout_number": 95,
+        "winner": {
+          "name": "JOEY MOORHOUSE",
+          "team": "CLW"
+        }
+      },
+      {
+        "match": "championship_r32_16",
+        "top_competitor": {
+          "name": "NILE BAKER",
+          "team": "DIX"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "NILE BAKER",
+          "team": "DIX"
+        }
+      },
+      {
+        "match": "championship_r16_01",
+        "top_competitor": {
+          "name": "JOE LADICK",
+          "team": "GLD"
+        },
+        "bottom_competitor": {
+          "name": "FRANK BAER",
+          "team": "MFV"
+        },
+        "result": "Dec 4-0",
+        "bout_number": 297,
+        "winner": {
+          "name": "FRANK BAER",
+          "team": "MFV"
+        }
+      },
+      {
+        "match": "championship_r16_02",
+        "top_competitor": {
+          "name": "DAKOTA WAPOTISH",
+          "team": "BRR"
+        },
+        "bottom_competitor": {
+          "name": "BO SCHLOSSER",
+          "team": "MTZ"
+        },
+        "result": "Fall 1:53",
+        "bout_number": 298,
+        "winner": {
+          "name": "BO SCHLOSSER",
+          "team": "MTZ"
+        }
+      },
+      {
+        "match": "championship_r16_03",
+        "top_competitor": {
+          "name": "ERIC POWELL",
+          "team": "PRP"
+        },
+        "bottom_competitor": {
+          "name": "SHAUNQAE MCMURTRY",
+          "team": "LLC"
+        },
+        "result": "Dec 2-1",
+        "bout_number": 299,
+        "winner": {
+          "name": "ERIC POWELL",
+          "team": "PRP"
+        }
+      },
+      {
+        "match": "championship_r16_04",
+        "top_competitor": {
+          "name": "LUCAS SMITH",
+          "team": "BSN"
+        },
+        "bottom_competitor": {
+          "name": "KEITH SURBER",
+          "team": "OLP"
+        },
+        "result": "M-Dec 12-0",
+        "bout_number": 300,
+        "winner": {
+          "name": "LUCAS SMITH",
+          "team": "BSN"
+        }
+      },
+      {
+        "match": "championship_r16_05",
+        "top_competitor": {
+          "name": "JOE BREWSTER",
+          "team": "MNE"
+        },
+        "bottom_competitor": {
+          "name": "TYLER PRAZMA",
+          "team": "GCW"
+        },
+        "result": "Dec 2-1",
+        "bout_number": 301,
+        "winner": {
+          "name": "TYLER PRAZMA",
+          "team": "GCW"
+        }
+      },
+      {
+        "match": "championship_r16_06",
+        "top_competitor": {
+          "name": "MATT O'BOYLE",
+          "team": "TPB"
+        },
+        "bottom_competitor": {
+          "name": "SHANE DIERKING",
+          "team": "WHT"
+        },
+        "result": "Fall 3:17",
+        "bout_number": 302,
+        "winner": {
+          "name": "MATT O'BOYLE",
+          "team": "TPB"
+        }
+      },
+      {
+        "match": "championship_r16_07",
+        "top_competitor": {
+          "name": "RYAN SORAGHAN",
+          "team": "OPP"
+        },
+        "bottom_competitor": {
+          "name": "CODY KLAVER",
+          "team": "TPB"
+        },
+        "result": "Dec 9-0",
+        "bout_number": 303,
+        "winner": {
+          "name": "CODY KLAVER",
+          "team": "TPB"
+        }
+      },
+      {
+        "match": "championship_r16_08",
+        "top_competitor": {
+          "name": "JOEY MOORHOUSE",
+          "team": "CLW"
+        },
+        "bottom_competitor": {
+          "name": "NILE BAKER",
+          "team": "DIX"
+        },
+        "result": "M-Dec 8-0",
+        "bout_number": 304,
+        "winner": {
+          "name": "JOEY MOORHOUSE",
+          "team": "CLW"
+        }
+      },
+      {
+        "match": "championship_quarter_01",
+        "top_competitor": {
+          "name": "FRANK BAER",
+          "team": "MFV"
+        },
+        "bottom_competitor": {
+          "name": "BO SCHLOSSER",
+          "team": "MTZ"
+        },
+        "result": "Dec 3-2",
+        "bout_number": 661,
+        "winner": {
+          "name": "BO SCHLOSSER",
+          "team": "MTZ"
+        }
+      },
+      {
+        "match": "championship_quarter_02",
+        "top_competitor": {
+          "name": "ERIC POWELL",
+          "team": "PRP"
+        },
+        "bottom_competitor": {
+          "name": "LUCAS SMITH",
+          "team": "BSN"
+        },
+        "result": "Dec 3-2",
+        "bout_number": 662,
+        "winner": {
+          "name": "LUCAS SMITH",
+          "team": "BSN"
+        }
+      },
+      {
+        "match": "championship_quarter_03",
+        "top_competitor": {
+          "name": "TYLER PRAZMA",
+          "team": "GCW"
+        },
+        "bottom_competitor": {
+          "name": "MATT O'BOYLE",
+          "team": "TPB"
+        },
+        "result": "Dec 7-3",
+        "bout_number": 663,
+        "winner": {
+          "name": "MATT O'BOYLE",
+          "team": "TPB"
+        }
+      },
+      {
+        "match": "championship_quarter_04",
+        "top_competitor": {
+          "name": "CODY KLAVER",
+          "team": "TPB"
+        },
+        "bottom_competitor": {
+          "name": "JOEY MOORHOUSE",
+          "team": "CLW"
+        },
+        "result": "Dec 2-0",
+        "bout_number": 664,
+        "winner": {
+          "name": "CODY KLAVER",
+          "team": "TPB"
+        }
+      },
+      {
+        "match": "championship_semi_01",
+        "top_competitor": {
+          "name": "BO SCHLOSSER",
+          "team": "MTZ"
+        },
+        "bottom_competitor": {
+          "name": "LUCAS SMITH",
+          "team": "BSN"
+        },
+        "result": "Dec 8-3",
+        "bout_number": 843,
+        "winner": {
+          "name": "BO SCHLOSSER",
+          "team": "MTZ"
+        }
+      },
+      {
+        "match": "championship_semi_02",
+        "top_competitor": {
+          "name": "MATT O'BOYLE",
+          "team": "TPB"
+        },
+        "bottom_competitor": {
+          "name": "CODY KLAVER",
+          "team": "TPB"
+        },
+        "result": "Dec 1-0 OT",
+        "bout_number": 844,
+        "winner": {
+          "name": "MATT O'BOYLE",
+          "team": "TPB"
+        }
+      },
+      {
+        "match": "championship_first_place",
+        "top_competitor": {
+          "name": "BO SCHLOSSER",
+          "team": "MTZ"
+        },
+        "bottom_competitor": {
+          "name": "MATT O'BOYLE",
+          "team": "TPB"
+        },
+        "result": "Dec 3-2",
+        "bout_number": 952,
+        "winner": {
+          "name": "MATT O'BOYLE",
+          "team": "TPB"
+        }
+      },
+      {
+        "match": "consolation_round3_01",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "DAKOTA WAPOTISH",
+          "team": "BRR"
+        },
+        "result": "Bye",
+        "bout_number": 725,
+        "winner": {
+          "name": "DAKOTA WAPOTISH",
+          "team": "BRR"
+        }
+      },
+      {
+        "match": "consolation_round3_02",
+        "top_competitor": {
+          "name": "KEITH REILLY",
+          "team": "MED"
+        },
+        "bottom_competitor": {
+          "name": "KEITH SURBER",
+          "team": "OLP"
+        },
+        "result": "Dec 13-6",
+        "bout_number": 726,
+        "winner": {
+          "name": "KEITH SURBER",
+          "team": "OLP"
+        }
+      },
+      {
+        "match": "consolation_round3_03",
+        "top_competitor": {
+          "name": "CHASE TACKETT",
+          "team": "RCT"
+        },
+        "bottom_competitor": {
+          "name": "SHANE DIERKING",
+          "team": "WHT"
+        },
+        "result": "Dec 2-0",
+        "bout_number": 727,
+        "winner": {
+          "name": "SHANE DIERKING",
+          "team": "WHT"
+        }
+      },
+      {
+        "match": "consolation_round3_04",
+        "top_competitor": {
+          "name": "NICK ARMSTRONG",
+          "team": "BLD"
+        },
+        "bottom_competitor": {
+          "name": "RYAN SORAGHAN",
+          "team": "OPP"
+        },
+        "result": "T-Fall 3:19; 16-1",
+        "bout_number": 728,
+        "winner": {
+          "name": "RYAN SORAGHAN",
+          "team": "OPP"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_01",
+        "top_competitor": {
+          "name": "DAKOTA WAPOTISH",
+          "team": "BRR"
+        },
+        "bottom_competitor": {
+          "name": "FRANK BAER",
+          "team": "MFV"
+        },
+        "result": "Dec 6-3",
+        "bout_number": 789,
+        "winner": {
+          "name": "FRANK BAER",
+          "team": "MFV"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_02",
+        "top_competitor": {
+          "name": "KEITH SURBER",
+          "team": "OLP"
+        },
+        "bottom_competitor": {
+          "name": "ERIC POWELL",
+          "team": "PRP"
+        },
+        "result": "Dec 3-0",
+        "bout_number": 790,
+        "winner": {
+          "name": "KEITH SURBER",
+          "team": "OLP"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_03",
+        "top_competitor": {
+          "name": "SHANE DIERKING",
+          "team": "WHT"
+        },
+        "bottom_competitor": {
+          "name": "TYLER PRAZMA",
+          "team": "GCW"
+        },
+        "result": "Dec 4-1",
+        "bout_number": 791,
+        "winner": {
+          "name": "SHANE DIERKING",
+          "team": "WHT"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_04",
+        "top_competitor": {
+          "name": "RYAN SORAGHAN",
+          "team": "OPP"
+        },
+        "bottom_competitor": {
+          "name": "JOEY MOORHOUSE",
+          "team": "CLW"
+        },
+        "result": "Dec 2-0",
+        "bout_number": 792,
+        "winner": {
+          "name": "RYAN SORAGHAN",
+          "team": "OPP"
+        }
+      },
+      {
+        "match": "consolation_round5_01",
+        "top_competitor": {
+          "name": "FRANK BAER",
+          "team": "MFV"
+        },
+        "bottom_competitor": {
+          "name": "KEITH SURBER",
+          "team": "OLP"
+        },
+        "result": "Dec 4-2",
+        "bout_number": 875,
+        "winner": {
+          "name": "KEITH SURBER",
+          "team": "OLP"
+        }
+      },
+      {
+        "match": "consolation_round5_02",
+        "top_competitor": {
+          "name": "SHANE DIERKING",
+          "team": "WHT"
+        },
+        "bottom_competitor": {
+          "name": "RYAN SORAGHAN",
+          "team": "OPP"
+        },
+        "result": "Dec 4-2",
+        "bout_number": 876,
+        "winner": {
+          "name": "SHANE DIERKING",
+          "team": "WHT"
+        }
+      },
+      {
+        "match": "consolation_round6_semi_01",
+        "top_competitor": {
+          "name": "LUCAS SMITH",
+          "team": "BSN"
+        },
+        "bottom_competitor": {
+          "name": "KEITH SURBER",
+          "team": "OLP"
+        },
+        "result": "M-Dec AA",
+        "bout_number": 907,
+        "winner": {
+          "name": "LUCAS SMITH",
+          "team": "BSN"
+        }
+      },
+      {
+        "match": "consolation_round6_semi_02",
+        "top_competitor": {
+          "name": "CODY KLAVER",
+          "team": "TPB"
+        },
+        "bottom_competitor": {
+          "name": "SHANE DIERKING",
+          "team": "WHT"
+        },
+        "result": "Dec 1-0",
+        "bout_number": 908,
+        "winner": {
+          "name": "CODY KLAVER",
+          "team": "TPB"
+        }
+      },
+      {
+        "match": "consolation_third_place",
+        "top_competitor": {
+          "name": "LUCAS SMITH",
+          "team": "BSN"
+        },
+        "bottom_competitor": {
+          "name": "CODY KLAVER",
+          "team": "TPB"
+        },
+        "result": "Dec 2-0",
+        "bout_number": 951,
+        "winner": {
+          "name": "CODY KLAVER",
+          "team": "TPB"
+        }
+      },
+      {
+        "match": "consolation_fifth_place",
+        "top_competitor": {
+          "name": "KEITH SURBER",
+          "team": "OLP"
+        },
+        "bottom_competitor": {
+          "name": "SHANE DIERKING",
+          "team": "WHT"
+        },
+        "result": "Dec 6-0",
+        "bout_number": 950,
+        "winner": {
+          "name": "KEITH SURBER",
+          "team": "OLP"
+        }
+      },
+      {
+        "match": "consolation_seventh_place",
+        "top_competitor": {
+          "name": "FRANK BAER",
+          "team": "MFV"
+        },
+        "bottom_competitor": {
+          "name": "RYAN SORAGHAN",
+          "team": "OPP"
+        },
+        "result": "Dec 3-1",
+        "bout_number": 949,
+        "winner": {
+          "name": "FRANK BAER",
+          "team": "MFV"
+        }
+      }
+    ]
+  },
+  {
+    "division": "novice",
     "weight": 89,
     "matches": [
       {
@@ -4528,6 +5289,3020 @@
         "winner": {
           "name": "JORDAN MCCARTNEY",
           "team": "YRK"
+        }
+      }
+    ]
+  },
+  {
+    "division": "novice",
+    "weight": 95,
+    "matches": [
+      {
+        "match": "championship_r32_01",
+        "top_competitor": {
+          "name": "STEPHEN ROBERTSON",
+          "team": "TWW"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "STEPHEN ROBERTSON",
+          "team": "TWW"
+        }
+      },
+      {
+        "match": "championship_r32_02",
+        "top_competitor": {
+          "name": "DYLAN DESHANE",
+          "team": "EMS"
+        },
+        "bottom_competitor": {
+          "name": "CODY KAMBEROS",
+          "team": "LEM"
+        },
+        "result": "M-Dec 13-0",
+        "bout_number": 114,
+        "winner": {
+          "name": "CODY KAMBEROS",
+          "team": "LEM"
+        }
+      },
+      {
+        "match": "championship_r32_03",
+        "top_competitor": {
+          "name": "JOE BUTLER",
+          "team": "MTZ"
+        },
+        "bottom_competitor": {
+          "name": "BRENDAN KOEGEL",
+          "team": "DGC"
+        },
+        "result": "Fall 3:22",
+        "bout_number": 115,
+        "winner": {
+          "name": "JOE BUTLER",
+          "team": "MTZ"
+        }
+      },
+      {
+        "match": "championship_r32_04",
+        "top_competitor": {
+          "name": "LARRY SANDERS",
+          "team": "HER"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "LARRY SANDERS",
+          "team": "HER"
+        }
+      },
+      {
+        "match": "championship_r32_05",
+        "top_competitor": {
+          "name": "JOSHUA NELSON",
+          "team": "GLD"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "JOSHUA NELSON",
+          "team": "GLD"
+        }
+      },
+      {
+        "match": "championship_r32_06",
+        "top_competitor": {
+          "name": "CORNELIUS LYONS",
+          "team": "GLA"
+        },
+        "bottom_competitor": {
+          "name": "BUDDY DALY",
+          "team": "UNY"
+        },
+        "result": "Fall 2:07",
+        "bout_number": 118,
+        "winner": {
+          "name": "CORNELIUS LYONS",
+          "team": "GLA"
+        }
+      },
+      {
+        "match": "championship_r32_07",
+        "top_competitor": {
+          "name": "TOM PENTEK",
+          "team": "FOX"
+        },
+        "bottom_competitor": {
+          "name": "BRANSON CAIN",
+          "team": "RJR"
+        },
+        "result": "Fall :47",
+        "bout_number": 119,
+        "winner": {
+          "name": "TOM PENTEK",
+          "team": "FOX"
+        }
+      },
+      {
+        "match": "championship_r32_08",
+        "top_competitor": {
+          "name": "TYLER PRICE",
+          "team": "LLC"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "TYLER PRICE",
+          "team": "LLC"
+        }
+      },
+      {
+        "match": "championship_r32_09",
+        "top_competitor": {
+          "name": "ERIC OYSTER",
+          "team": "MFV"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "ERIC OYSTER",
+          "team": "MFV"
+        }
+      },
+      {
+        "match": "championship_r32_10",
+        "top_competitor": {
+          "name": "JACKSON ZIRKLE",
+          "team": "BRL"
+        },
+        "bottom_competitor": {
+          "name": "KEAN LOUPEE",
+          "team": "CLW"
+        },
+        "result": "M-Dec 13-2",
+        "bout_number": 122,
+        "winner": {
+          "name": "KEAN LOUPEE",
+          "team": "CLW"
+        }
+      },
+      {
+        "match": "championship_r32_11",
+        "top_competitor": {
+          "name": "DAKOTA HANNAH",
+          "team": "ACE"
+        },
+        "bottom_competitor": {
+          "name": "ED SCANLON",
+          "team": "BSN"
+        },
+        "result": "Dec 2-0",
+        "bout_number": 123,
+        "winner": {
+          "name": "ED SCANLON",
+          "team": "BSN"
+        }
+      },
+      {
+        "match": "championship_r32_12",
+        "top_competitor": {
+          "name": "DYLAN REEL",
+          "team": "BLM"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "DYLAN REEL",
+          "team": "BLM"
+        }
+      },
+      {
+        "match": "championship_r32_13",
+        "top_competitor": {
+          "name": "MALIK - JABRI TAYLOR",
+          "team": "HTW"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "MALIK - JABRI TAYLOR",
+          "team": "HTW"
+        }
+      },
+      {
+        "match": "championship_r32_14",
+        "top_competitor": {
+          "name": "DANNY MENDOZA",
+          "team": "WRF"
+        },
+        "bottom_competitor": {
+          "name": "BLAKE MONTELLA",
+          "team": "MLI"
+        },
+        "result": "Dec 5-1",
+        "bout_number": 126,
+        "winner": {
+          "name": "BLAKE MONTELLA",
+          "team": "MLI"
+        }
+      },
+      {
+        "match": "championship_r32_15",
+        "top_competitor": {
+          "name": "JOEY KIELBASA",
+          "team": "CLW"
+        },
+        "bottom_competitor": {
+          "name": "CYLE REEL",
+          "team": "SKE"
+        },
+        "result": "Fall :55",
+        "bout_number": 127,
+        "winner": {
+          "name": "JOEY KIELBASA",
+          "team": "CLW"
+        }
+      },
+      {
+        "match": "championship_r32_16",
+        "top_competitor": {
+          "name": "ANDREW MESSENGER",
+          "team": "YRK"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "ANDREW MESSENGER",
+          "team": "YRK"
+        }
+      },
+      {
+        "match": "championship_r16_01",
+        "top_competitor": {
+          "name": "STEPHEN ROBERTSON",
+          "team": "TWW"
+        },
+        "bottom_competitor": {
+          "name": "CODY KAMBEROS",
+          "team": "LEM"
+        },
+        "result": "M-Dec 11-1",
+        "bout_number": 313,
+        "winner": {
+          "name": "STEPHEN ROBERTSON",
+          "team": "TWW"
+        }
+      },
+      {
+        "match": "championship_r16_02",
+        "top_competitor": {
+          "name": "JOE BUTLER",
+          "team": "MTZ"
+        },
+        "bottom_competitor": {
+          "name": "LARRY SANDERS",
+          "team": "HER"
+        },
+        "result": "Dec 11-6",
+        "bout_number": 314,
+        "winner": {
+          "name": "LARRY SANDERS",
+          "team": "HER"
+        }
+      },
+      {
+        "match": "championship_r16_03",
+        "top_competitor": {
+          "name": "JOSHUA NELSON",
+          "team": "GLD"
+        },
+        "bottom_competitor": {
+          "name": "CORNELIUS LYONS",
+          "team": "GLA"
+        },
+        "result": "Fall :59",
+        "bout_number": 315,
+        "winner": {
+          "name": "JOSHUA NELSON",
+          "team": "GLD"
+        }
+      },
+      {
+        "match": "championship_r16_04",
+        "top_competitor": {
+          "name": "TOM PENTEK",
+          "team": "FOX"
+        },
+        "bottom_competitor": {
+          "name": "TYLER PRICE",
+          "team": "LLC"
+        },
+        "result": "M-Dec 11-0",
+        "bout_number": 316,
+        "winner": {
+          "name": "TYLER PRICE",
+          "team": "LLC"
+        }
+      },
+      {
+        "match": "championship_r16_05",
+        "top_competitor": {
+          "name": "ERIC OYSTER",
+          "team": "MFV"
+        },
+        "bottom_competitor": {
+          "name": "KEAN LOUPEE",
+          "team": "CLW"
+        },
+        "result": "M-Dec 11-2",
+        "bout_number": 317,
+        "winner": {
+          "name": "ERIC OYSTER",
+          "team": "MFV"
+        }
+      },
+      {
+        "match": "championship_r16_06",
+        "top_competitor": {
+          "name": "ED SCANLON",
+          "team": "BSN"
+        },
+        "bottom_competitor": {
+          "name": "DYLAN REEL",
+          "team": "BLM"
+        },
+        "result": "Dec 9-4",
+        "bout_number": 318,
+        "winner": {
+          "name": "DYLAN REEL",
+          "team": "BLM"
+        }
+      },
+      {
+        "match": "championship_r16_07",
+        "top_competitor": {
+          "name": "MALIK - JABRI TAYLOR",
+          "team": "HTW"
+        },
+        "bottom_competitor": {
+          "name": "BLAKE MONTELLA",
+          "team": "MLI"
+        },
+        "result": "Dec 6-2",
+        "bout_number": 319,
+        "winner": {
+          "name": "BLAKE MONTELLA",
+          "team": "MLI"
+        }
+      },
+      {
+        "match": "championship_r16_08",
+        "top_competitor": {
+          "name": "JOEY KIELBASA",
+          "team": "CLW"
+        },
+        "bottom_competitor": {
+          "name": "ANDREW MESSENGER",
+          "team": "YRK"
+        },
+        "result": "M-Dec 8-0",
+        "bout_number": 320,
+        "winner": {
+          "name": "JOEY KIELBASA",
+          "team": "CLW"
+        }
+      },
+      {
+        "match": "championship_quarter_01",
+        "top_competitor": {
+          "name": "STEPHEN ROBERTSON",
+          "team": "TWW"
+        },
+        "bottom_competitor": {
+          "name": "LARRY SANDERS",
+          "team": "HER"
+        },
+        "result": "M-Dec 11-2",
+        "bout_number": 669,
+        "winner": {
+          "name": "STEPHEN ROBERTSON",
+          "team": "TWW"
+        }
+      },
+      {
+        "match": "championship_quarter_02",
+        "top_competitor": {
+          "name": "JOSHUA NELSON",
+          "team": "GLD"
+        },
+        "bottom_competitor": {
+          "name": "TYLER PRICE",
+          "team": "LLC"
+        },
+        "result": "M-Dec 14-0",
+        "bout_number": 670,
+        "winner": {
+          "name": "JOSHUA NELSON",
+          "team": "GLD"
+        }
+      },
+      {
+        "match": "championship_quarter_03",
+        "top_competitor": {
+          "name": "ERIC OYSTER",
+          "team": "MFV"
+        },
+        "bottom_competitor": {
+          "name": "DYLAN REEL",
+          "team": "BLM"
+        },
+        "result": "M-Dec 16-2",
+        "bout_number": 671,
+        "winner": {
+          "name": "ERIC OYSTER",
+          "team": "MFV"
+        }
+      },
+      {
+        "match": "championship_quarter_04",
+        "top_competitor": {
+          "name": "BLAKE MONTELLA",
+          "team": "MLI"
+        },
+        "bottom_competitor": {
+          "name": "JOEY KIELBASA",
+          "team": "CLW"
+        },
+        "result": "Dec 6-5",
+        "bout_number": 672,
+        "winner": {
+          "name": "BLAKE MONTELLA",
+          "team": "MLI"
+        }
+      },
+      {
+        "match": "championship_semi_01",
+        "top_competitor": {
+          "name": "STEPHEN ROBERTSON",
+          "team": "TWW"
+        },
+        "bottom_competitor": {
+          "name": "JOSHUA NELSON",
+          "team": "GLD"
+        },
+        "result": "Dec 6-2",
+        "bout_number": 847,
+        "winner": {
+          "name": "JOSHUA NELSON",
+          "team": "GLD"
+        }
+      },
+      {
+        "match": "championship_semi_02",
+        "top_competitor": {
+          "name": "ERIC OYSTER",
+          "team": "MFV"
+        },
+        "bottom_competitor": {
+          "name": "BLAKE MONTELLA",
+          "team": "MLI"
+        },
+        "result": "Dec 5-2",
+        "bout_number": 848,
+        "winner": {
+          "name": "BLAKE MONTELLA",
+          "team": "MLI"
+        }
+      },
+      {
+        "match": "championship_first_place",
+        "top_competitor": {
+          "name": "JOSHUA NELSON",
+          "team": "GLD"
+        },
+        "bottom_competitor": {
+          "name": "BLAKE MONTELLA",
+          "team": "MLI"
+        },
+        "result": "Fall 4:39 OT",
+        "bout_number": 960,
+        "winner": {
+          "name": "JOSHUA NELSON",
+          "team": "GLD"
+        }
+      },
+      {
+        "match": "consolation_round3_01",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "CODY KAMBEROS",
+          "team": "LEM"
+        },
+        "result": "Bye",
+        "bout_number": 733,
+        "winner": {
+          "name": "CODY KAMBEROS",
+          "team": "LEM"
+        }
+      },
+      {
+        "match": "consolation_round3_02",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "CORNELIUS LYONS",
+          "team": "GLA"
+        },
+        "result": "Bye",
+        "bout_number": 734,
+        "winner": {
+          "name": "CORNELIUS LYONS",
+          "team": "GLA"
+        }
+      },
+      {
+        "match": "consolation_round3_03",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "KEAN LOUPEE",
+          "team": "CLW"
+        },
+        "result": "Bye",
+        "bout_number": 735,
+        "winner": {
+          "name": "KEAN LOUPEE",
+          "team": "CLW"
+        }
+      },
+      {
+        "match": "consolation_round3_04",
+        "top_competitor": {
+          "name": "DANNY MENDOZA",
+          "team": "WRF"
+        },
+        "bottom_competitor": {
+          "name": "MALIK - JABRI TAYLOR",
+          "team": "HTW"
+        },
+        "result": "Dec 4-2",
+        "bout_number": 736,
+        "winner": {
+          "name": "MALIK - JABRI TAYLOR",
+          "team": "HTW"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_01",
+        "top_competitor": {
+          "name": "CODY KAMBEROS",
+          "team": "LEM"
+        },
+        "bottom_competitor": {
+          "name": "LARRY SANDERS",
+          "team": "HER"
+        },
+        "result": "Dec 8-4",
+        "bout_number": 797,
+        "winner": {
+          "name": "CODY KAMBEROS",
+          "team": "LEM"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_02",
+        "top_competitor": {
+          "name": "CORNELIUS LYONS",
+          "team": "GLA"
+        },
+        "bottom_competitor": {
+          "name": "TYLER PRICE",
+          "team": "LLC"
+        },
+        "result": "Dq",
+        "bout_number": 798,
+        "winner": {
+          "name": "TYLER PRICE",
+          "team": "LLC"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_03",
+        "top_competitor": {
+          "name": "KEAN LOUPEE",
+          "team": "CLW"
+        },
+        "bottom_competitor": {
+          "name": "DYLAN REEL",
+          "team": "BLM"
+        },
+        "result": "Dec 6-1",
+        "bout_number": 799,
+        "winner": {
+          "name": "KEAN LOUPEE",
+          "team": "CLW"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_04",
+        "top_competitor": {
+          "name": "MALIK - JABRI TAYLOR",
+          "team": "HTW"
+        },
+        "bottom_competitor": {
+          "name": "JOEY KIELBASA",
+          "team": "CLW"
+        },
+        "result": "Dec 4-2",
+        "bout_number": 800,
+        "winner": {
+          "name": "MALIK - JABRI TAYLOR",
+          "team": "HTW"
+        }
+      },
+      {
+        "match": "consolation_round5_01",
+        "top_competitor": {
+          "name": "CODY KAMBEROS",
+          "team": "LEM"
+        },
+        "bottom_competitor": {
+          "name": "TYLER PRICE",
+          "team": "LLC"
+        },
+        "result": "Fall 2:20",
+        "bout_number": 879,
+        "winner": {
+          "name": "TYLER PRICE",
+          "team": "LLC"
+        }
+      },
+      {
+        "match": "consolation_round5_02",
+        "top_competitor": {
+          "name": "KEAN LOUPEE",
+          "team": "CLW"
+        },
+        "bottom_competitor": {
+          "name": "MALIK - JABRI TAYLOR",
+          "team": "HTW"
+        },
+        "result": "Dec 2-0",
+        "bout_number": 880,
+        "winner": {
+          "name": "MALIK - JABRI TAYLOR",
+          "team": "HTW"
+        }
+      },
+      {
+        "match": "consolation_round6_semi_01",
+        "top_competitor": {
+          "name": "STEPHEN ROBERTSON",
+          "team": "TWW"
+        },
+        "bottom_competitor": {
+          "name": "TYLER PRICE",
+          "team": "LLC"
+        },
+        "result": "Fall 2:15",
+        "bout_number": 911,
+        "winner": {
+          "name": "TYLER PRICE",
+          "team": "LLC"
+        }
+      },
+      {
+        "match": "consolation_round6_semi_02",
+        "top_competitor": {
+          "name": "ERIC OYSTER",
+          "team": "MFV"
+        },
+        "bottom_competitor": {
+          "name": "MALIK - JABRI TAYLOR",
+          "team": "HTW"
+        },
+        "result": "Dec 6-4",
+        "bout_number": 912,
+        "winner": {
+          "name": "ERIC OYSTER",
+          "team": "MFV"
+        }
+      },
+      {
+        "match": "consolation_third_place",
+        "top_competitor": {
+          "name": "TYLER PRICE",
+          "team": "LLC"
+        },
+        "bottom_competitor": {
+          "name": "ERIC OYSTER",
+          "team": "MFV"
+        },
+        "result": "Dec 9-2",
+        "bout_number": 959,
+        "winner": {
+          "name": "ERIC OYSTER",
+          "team": "MFV"
+        }
+      },
+      {
+        "match": "consolation_fifth_place",
+        "top_competitor": {
+          "name": "STEPHEN ROBERTSON",
+          "team": "TWW"
+        },
+        "bottom_competitor": {
+          "name": "MALIK - JABRI TAYLOR",
+          "team": "HTW"
+        },
+        "result": "M-Dec 15-3",
+        "bout_number": 958,
+        "winner": {
+          "name": "MALIK - JABRI TAYLOR",
+          "team": "HTW"
+        }
+      },
+      {
+        "match": "consolation_seventh_place",
+        "top_competitor": {
+          "name": "CODY KAMBEROS",
+          "team": "LEM"
+        },
+        "bottom_competitor": {
+          "name": "KEAN LOUPEE",
+          "team": "CLW"
+        },
+        "result": "Dec 4-0",
+        "bout_number": 957,
+        "winner": {
+          "name": "KEAN LOUPEE",
+          "team": "CLW"
+        }
+      }
+    ]
+  },
+  {
+    "division": "novice",
+    "weight": 101,
+    "matches": [
+      {
+        "match": "championship_r32_01",
+        "top_competitor": {
+          "name": "JOSHUA ANTHONY",
+          "team": "HRL"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "JOSHUA ANTHONY",
+          "team": "HRL"
+        }
+      },
+      {
+        "match": "championship_r32_02",
+        "top_competitor": {
+          "name": "COLLIN AKERS",
+          "team": "GEN"
+        },
+        "bottom_competitor": {
+          "name": "KYLE PALAKAITIS",
+          "team": "OLW"
+        },
+        "result": "Fall :34",
+        "bout_number": 130,
+        "winner": {
+          "name": "KYLE PALAKAITIS",
+          "team": "OLW"
+        }
+      },
+      {
+        "match": "championship_r32_03",
+        "top_competitor": {
+          "name": "DYLAN MADRON",
+          "team": "HBJ"
+        },
+        "bottom_competitor": {
+          "name": "PETE KOOTSTRA",
+          "team": "YNG"
+        },
+        "result": "Fall :59",
+        "bout_number": 131,
+        "winner": {
+          "name": "DYLAN MADRON",
+          "team": "HBJ"
+        }
+      },
+      {
+        "match": "championship_r32_04",
+        "top_competitor": {
+          "name": "SHAQUILLE MCMURTRY",
+          "team": "LLC"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "SHAQUILLE MCMURTRY",
+          "team": "LLC"
+        }
+      },
+      {
+        "match": "championship_r32_05",
+        "top_competitor": {
+          "name": "ALEX CIZEK",
+          "team": "FOX"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "ALEX CIZEK",
+          "team": "FOX"
+        }
+      },
+      {
+        "match": "championship_r32_06",
+        "top_competitor": {
+          "name": "SHANE SIEFERT",
+          "team": "LAK"
+        },
+        "bottom_competitor": {
+          "name": "JOHN HOPKINS",
+          "team": "SKV"
+        },
+        "result": "Fall 1:46",
+        "bout_number": 134,
+        "winner": {
+          "name": "SHANE SIEFERT",
+          "team": "LAK"
+        }
+      },
+      {
+        "match": "championship_r32_07",
+        "top_competitor": {
+          "name": "BRIAN STRENK",
+          "team": "OFW"
+        },
+        "bottom_competitor": {
+          "name": "DYLAN MARTIN",
+          "team": "PNP"
+        },
+        "result": "T-Fall 3:00; 15-0",
+        "bout_number": 135,
+        "winner": {
+          "name": "BRIAN STRENK",
+          "team": "OFW"
+        }
+      },
+      {
+        "match": "championship_r32_08",
+        "top_competitor": {
+          "name": "ANDREW WINKLER",
+          "team": "BMH"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "ANDREW WINKLER",
+          "team": "BMH"
+        }
+      },
+      {
+        "match": "championship_r32_09",
+        "top_competitor": {
+          "name": "CHRIS PACK",
+          "team": "ARL"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "CHRIS PACK",
+          "team": "ARL"
+        }
+      },
+      {
+        "match": "championship_r32_10",
+        "top_competitor": {
+          "name": "STEPHON RUDICIL",
+          "team": "BLM"
+        },
+        "bottom_competitor": {
+          "name": "BEAU GEORGE",
+          "team": "SCN"
+        },
+        "result": "Fall 3:06",
+        "bout_number": 138,
+        "winner": {
+          "name": "BEAU GEORGE",
+          "team": "SCN"
+        }
+      },
+      {
+        "match": "championship_r32_11",
+        "top_competitor": {
+          "name": "NICHOLAS KARAMANOS",
+          "team": "LLC"
+        },
+        "bottom_competitor": {
+          "name": "GAGE HARRAH",
+          "team": "CLW"
+        },
+        "result": "M-Dec 12-0",
+        "bout_number": 139,
+        "winner": {
+          "name": "GAGE HARRAH",
+          "team": "CLW"
+        }
+      },
+      {
+        "match": "championship_r32_12",
+        "top_competitor": {
+          "name": "DUSTIN VENTIMIGLIA",
+          "team": "ROX"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "DUSTIN VENTIMIGLIA",
+          "team": "ROX"
+        }
+      },
+      {
+        "match": "championship_r32_13",
+        "top_competitor": {
+          "name": "MICHAEL AVELAR",
+          "team": "MLM"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "MICHAEL AVELAR",
+          "team": "MLM"
+        }
+      },
+      {
+        "match": "championship_r32_14",
+        "top_competitor": {
+          "name": "BOBBY KERR",
+          "team": "HRD"
+        },
+        "bottom_competitor": {
+          "name": "TOM GROSS",
+          "team": "LNW"
+        },
+        "result": "Dec 7-0",
+        "bout_number": 142,
+        "winner": {
+          "name": "TOM GROSS",
+          "team": "LNW"
+        }
+      },
+      {
+        "match": "championship_r32_15",
+        "top_competitor": {
+          "name": "ZACHARY TRUCKENMILLER",
+          "team": "DAK"
+        },
+        "bottom_competitor": {
+          "name": "AARON LAURSEN",
+          "team": "CHR"
+        },
+        "result": "Fall 1:48",
+        "bout_number": 143,
+        "winner": {
+          "name": "ZACHARY TRUCKENMILLER",
+          "team": "DAK"
+        }
+      },
+      {
+        "match": "championship_r32_16",
+        "top_competitor": {
+          "name": "BRANT CORWIN",
+          "team": "YRK"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "BRANT CORWIN",
+          "team": "YRK"
+        }
+      },
+      {
+        "match": "championship_r16_01",
+        "top_competitor": {
+          "name": "JOSHUA ANTHONY",
+          "team": "HRL"
+        },
+        "bottom_competitor": {
+          "name": "KYLE PALAKAITIS",
+          "team": "OLW"
+        },
+        "result": "T-Fall 2:30; 16-0",
+        "bout_number": 321,
+        "winner": {
+          "name": "JOSHUA ANTHONY",
+          "team": "HRL"
+        }
+      },
+      {
+        "match": "championship_r16_02",
+        "top_competitor": {
+          "name": "DYLAN MADRON",
+          "team": "HBJ"
+        },
+        "bottom_competitor": {
+          "name": "SHAQUILLE MCMURTRY",
+          "team": "LLC"
+        },
+        "result": "Fall 2:52",
+        "bout_number": 322,
+        "winner": {
+          "name": "SHAQUILLE MCMURTRY",
+          "team": "LLC"
+        }
+      },
+      {
+        "match": "championship_r16_03",
+        "top_competitor": {
+          "name": "ALEX CIZEK",
+          "team": "FOX"
+        },
+        "bottom_competitor": {
+          "name": "SHANE SIEFERT",
+          "team": "LAK"
+        },
+        "result": "Dec 4-3",
+        "bout_number": 323,
+        "winner": {
+          "name": "ALEX CIZEK",
+          "team": "FOX"
+        }
+      },
+      {
+        "match": "championship_r16_04",
+        "top_competitor": {
+          "name": "BRIAN STRENK",
+          "team": "OFW"
+        },
+        "bottom_competitor": {
+          "name": "ANDREW WINKLER",
+          "team": "BMH"
+        },
+        "result": "M-Dec 15-3",
+        "bout_number": 324,
+        "winner": {
+          "name": "BRIAN STRENK",
+          "team": "OFW"
+        }
+      },
+      {
+        "match": "championship_r16_05",
+        "top_competitor": {
+          "name": "CHRIS PACK",
+          "team": "ARL"
+        },
+        "bottom_competitor": {
+          "name": "BEAU GEORGE",
+          "team": "SCN"
+        },
+        "result": "M-Dec 12-1",
+        "bout_number": 325,
+        "winner": {
+          "name": "CHRIS PACK",
+          "team": "ARL"
+        }
+      },
+      {
+        "match": "championship_r16_06",
+        "top_competitor": {
+          "name": "GAGE HARRAH",
+          "team": "CLW"
+        },
+        "bottom_competitor": {
+          "name": "DUSTIN VENTIMIGLIA",
+          "team": "ROX"
+        },
+        "result": "Fall 1:16",
+        "bout_number": 326,
+        "winner": {
+          "name": "GAGE HARRAH",
+          "team": "CLW"
+        }
+      },
+      {
+        "match": "championship_r16_07",
+        "top_competitor": {
+          "name": "MICHAEL AVELAR",
+          "team": "MLM"
+        },
+        "bottom_competitor": {
+          "name": "TOM GROSS",
+          "team": "LNW"
+        },
+        "result": "Fall 3:01",
+        "bout_number": 327,
+        "winner": {
+          "name": "MICHAEL AVELAR",
+          "team": "MLM"
+        }
+      },
+      {
+        "match": "championship_r16_08",
+        "top_competitor": {
+          "name": "ZACHARY TRUCKENMILLER",
+          "team": "DAK"
+        },
+        "bottom_competitor": {
+          "name": "BRANT CORWIN",
+          "team": "YRK"
+        },
+        "result": "Fall 3:06",
+        "bout_number": 328,
+        "winner": {
+          "name": "ZACHARY TRUCKENMILLER",
+          "team": "DAK"
+        }
+      },
+      {
+        "match": "championship_quarter_01",
+        "top_competitor": {
+          "name": "JOSHUA ANTHONY",
+          "team": "HRL"
+        },
+        "bottom_competitor": {
+          "name": "SHAQUILLE MCMURTRY",
+          "team": "LLC"
+        },
+        "result": "Fall 2:17",
+        "bout_number": 673,
+        "winner": {
+          "name": "SHAQUILLE MCMURTRY",
+          "team": "LLC"
+        }
+      },
+      {
+        "match": "championship_quarter_02",
+        "top_competitor": {
+          "name": "ALEX CIZEK",
+          "team": "FOX"
+        },
+        "bottom_competitor": {
+          "name": "BRIAN STRENK",
+          "team": "OFW"
+        },
+        "result": "Dec 4-3",
+        "bout_number": 674,
+        "winner": {
+          "name": "BRIAN STRENK",
+          "team": "OFW"
+        }
+      },
+      {
+        "match": "championship_quarter_03",
+        "top_competitor": {
+          "name": "CHRIS PACK",
+          "team": "ARL"
+        },
+        "bottom_competitor": {
+          "name": "GAGE HARRAH",
+          "team": "CLW"
+        },
+        "result": "Dec 4-2 OT",
+        "bout_number": 675,
+        "winner": {
+          "name": "CHRIS PACK",
+          "team": "ARL"
+        }
+      },
+      {
+        "match": "championship_quarter_04",
+        "top_competitor": {
+          "name": "MICHAEL AVELAR",
+          "team": "MLM"
+        },
+        "bottom_competitor": {
+          "name": "ZACHARY TRUCKENMILLER",
+          "team": "DAK"
+        },
+        "result": "Fall 3:47",
+        "bout_number": 676,
+        "winner": {
+          "name": "MICHAEL AVELAR",
+          "team": "MLM"
+        }
+      },
+      {
+        "match": "championship_semi_01",
+        "top_competitor": {
+          "name": "SHAQUILLE MCMURTRY",
+          "team": "LLC"
+        },
+        "bottom_competitor": {
+          "name": "BRIAN STRENK",
+          "team": "OFW"
+        },
+        "result": "Fall 2:11",
+        "bout_number": 849,
+        "winner": {
+          "name": "SHAQUILLE MCMURTRY",
+          "team": "LLC"
+        }
+      },
+      {
+        "match": "championship_semi_02",
+        "top_competitor": {
+          "name": "CHRIS PACK",
+          "team": "ARL"
+        },
+        "bottom_competitor": {
+          "name": "MICHAEL AVELAR",
+          "team": "MLM"
+        },
+        "result": "Dec 4-2",
+        "bout_number": 850,
+        "winner": {
+          "name": "CHRIS PACK",
+          "team": "ARL"
+        }
+      },
+      {
+        "match": "championship_first_place",
+        "top_competitor": {
+          "name": "SHAQUILLE MCMURTRY",
+          "team": "LLC"
+        },
+        "bottom_competitor": {
+          "name": "CHRIS PACK",
+          "team": "ARL"
+        },
+        "result": "Dec 6-4",
+        "bout_number": 964,
+        "winner": {
+          "name": "SHAQUILLE MCMURTRY",
+          "team": "LLC"
+        }
+      },
+      {
+        "match": "consolation_round3_01",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "DYLAN MADRON",
+          "team": "HBJ"
+        },
+        "result": "Bye",
+        "bout_number": 737,
+        "winner": {
+          "name": "DYLAN MADRON",
+          "team": "HBJ"
+        }
+      },
+      {
+        "match": "consolation_round3_02",
+        "top_competitor": {
+          "name": "DYLAN MARTIN",
+          "team": "PNP"
+        },
+        "bottom_competitor": {
+          "name": "ANDREW WINKLER",
+          "team": "BMH"
+        },
+        "result": "Dec 11-6",
+        "bout_number": 738,
+        "winner": {
+          "name": "ANDREW WINKLER",
+          "team": "BMH"
+        }
+      },
+      {
+        "match": "consolation_round3_03",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "BEAU GEORGE",
+          "team": "SCN"
+        },
+        "result": "Bye",
+        "bout_number": 739,
+        "winner": {
+          "name": "BEAU GEORGE",
+          "team": "SCN"
+        }
+      },
+      {
+        "match": "consolation_round3_04",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "TOM GROSS",
+          "team": "LNW"
+        },
+        "result": "Bye",
+        "bout_number": 740,
+        "winner": {
+          "name": "TOM GROSS",
+          "team": "LNW"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_01",
+        "top_competitor": {
+          "name": "DYLAN MADRON",
+          "team": "HBJ"
+        },
+        "bottom_competitor": {
+          "name": "JOSHUA ANTHONY",
+          "team": "HRL"
+        },
+        "result": "Dec 6-2",
+        "bout_number": 801,
+        "winner": {
+          "name": "JOSHUA ANTHONY",
+          "team": "HRL"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_02",
+        "top_competitor": {
+          "name": "ANDREW WINKLER",
+          "team": "BMH"
+        },
+        "bottom_competitor": {
+          "name": "ALEX CIZEK",
+          "team": "FOX"
+        },
+        "result": "M-Dec 14-0",
+        "bout_number": 802,
+        "winner": {
+          "name": "ALEX CIZEK",
+          "team": "FOX"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_03",
+        "top_competitor": {
+          "name": "BEAU GEORGE",
+          "team": "SCN"
+        },
+        "bottom_competitor": {
+          "name": "GAGE HARRAH",
+          "team": "CLW"
+        },
+        "result": "Dec 3-0",
+        "bout_number": 803,
+        "winner": {
+          "name": "GAGE HARRAH",
+          "team": "CLW"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_04",
+        "top_competitor": {
+          "name": "TOM GROSS",
+          "team": "LNW"
+        },
+        "bottom_competitor": {
+          "name": "ZACHARY TRUCKENMILLER",
+          "team": "DAK"
+        },
+        "result": "Dec 4-3",
+        "bout_number": 804,
+        "winner": {
+          "name": "TOM GROSS",
+          "team": "LNW"
+        }
+      },
+      {
+        "match": "consolation_round5_01",
+        "top_competitor": {
+          "name": "JOSHUA ANTHONY",
+          "team": "HRL"
+        },
+        "bottom_competitor": {
+          "name": "ALEX CIZEK",
+          "team": "FOX"
+        },
+        "result": "Dec 9-4",
+        "bout_number": 881,
+        "winner": {
+          "name": "ALEX CIZEK",
+          "team": "FOX"
+        }
+      },
+      {
+        "match": "consolation_round5_02",
+        "top_competitor": {
+          "name": "GAGE HARRAH",
+          "team": "CLW"
+        },
+        "bottom_competitor": {
+          "name": "TOM GROSS",
+          "team": "LNW"
+        },
+        "result": "Fall :33",
+        "bout_number": 882,
+        "winner": {
+          "name": "GAGE HARRAH",
+          "team": "CLW"
+        }
+      },
+      {
+        "match": "consolation_round6_semi_01",
+        "top_competitor": {
+          "name": "BRIAN STRENK",
+          "team": "OFW"
+        },
+        "bottom_competitor": {
+          "name": "ALEX CIZEK",
+          "team": "FOX"
+        },
+        "result": "Dec AA",
+        "bout_number": 913,
+        "winner": {
+          "name": "BRIAN STRENK",
+          "team": "OFW"
+        }
+      },
+      {
+        "match": "consolation_round6_semi_02",
+        "top_competitor": {
+          "name": "MICHAEL AVELAR",
+          "team": "MLM"
+        },
+        "bottom_competitor": {
+          "name": "GAGE HARRAH",
+          "team": "CLW"
+        },
+        "result": "Dec 9-3",
+        "bout_number": 914,
+        "winner": {
+          "name": "MICHAEL AVELAR",
+          "team": "MLM"
+        }
+      },
+      {
+        "match": "consolation_third_place",
+        "top_competitor": {
+          "name": "BRIAN STRENK",
+          "team": "OFW"
+        },
+        "bottom_competitor": {
+          "name": "MICHAEL AVELAR",
+          "team": "MLM"
+        },
+        "result": "Dec 8-1",
+        "bout_number": 963,
+        "winner": {
+          "name": "MICHAEL AVELAR",
+          "team": "MLM"
+        }
+      },
+      {
+        "match": "consolation_fifth_place",
+        "top_competitor": {
+          "name": "ALEX CIZEK",
+          "team": "FOX"
+        },
+        "bottom_competitor": {
+          "name": "GAGE HARRAH",
+          "team": "CLW"
+        },
+        "result": "Dec 4-0",
+        "bout_number": 962,
+        "winner": {
+          "name": "ALEX CIZEK",
+          "team": "FOX"
+        }
+      },
+      {
+        "match": "consolation_seventh_place",
+        "top_competitor": {
+          "name": "JOSHUA ANTHONY",
+          "team": "HRL"
+        },
+        "bottom_competitor": {
+          "name": "TOM GROSS",
+          "team": "LNW"
+        },
+        "result": "Fall 3:57",
+        "bout_number": 961,
+        "winner": {
+          "name": "JOSHUA ANTHONY",
+          "team": "HRL"
+        }
+      }
+    ]
+  },
+  {
+    "division": "novice",
+    "weight": 108,
+    "matches": [
+      {
+        "match": "championship_r32_01",
+        "top_competitor": {
+          "name": "NICHOLAS PROCTOR",
+          "team": "FOX"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "NICHOLAS PROCTOR",
+          "team": "FOX"
+        }
+      },
+      {
+        "match": "championship_r32_02",
+        "top_competitor": {
+          "name": "DYLAN HOFMANN",
+          "team": "SRD"
+        },
+        "bottom_competitor": {
+          "name": "JACOB NUNEZ",
+          "team": "EPG"
+        },
+        "result": "Fall 2:18",
+        "bout_number": 146,
+        "winner": {
+          "name": "DYLAN HOFMANN",
+          "team": "SRD"
+        }
+      },
+      {
+        "match": "championship_r32_03",
+        "top_competitor": {
+          "name": "JOSHUA BALLARD",
+          "team": "TLK"
+        },
+        "bottom_competitor": {
+          "name": "JOHNNY WALSH",
+          "team": "CLW"
+        },
+        "result": "Fall 3:35",
+        "bout_number": 147,
+        "winner": {
+          "name": "JOSHUA BALLARD",
+          "team": "TLK"
+        }
+      },
+      {
+        "match": "championship_r32_04",
+        "top_competitor": {
+          "name": "MALIK SNAPP",
+          "team": "JBC"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "MALIK SNAPP",
+          "team": "JBC"
+        }
+      },
+      {
+        "match": "championship_r32_05",
+        "top_competitor": {
+          "name": "BRIAN KENT",
+          "team": "BSN"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "BRIAN KENT",
+          "team": "BSN"
+        }
+      },
+      {
+        "match": "championship_r32_06",
+        "top_competitor": {
+          "name": "CHARLES NAVARRO",
+          "team": "RCL"
+        },
+        "bottom_competitor": {
+          "name": "CODY RICHARDSON",
+          "team": "CLP"
+        },
+        "result": "M-Dec 11-3",
+        "bout_number": 150,
+        "winner": {
+          "name": "CODY RICHARDSON",
+          "team": "CLP"
+        }
+      },
+      {
+        "match": "championship_r32_07",
+        "top_competitor": {
+          "name": "ANDY BENSYL",
+          "team": "SJO"
+        },
+        "bottom_competitor": {
+          "name": "ANDREW URSCH",
+          "team": "BTB"
+        },
+        "result": "Fall 2:24",
+        "bout_number": 151,
+        "winner": {
+          "name": "ANDREW URSCH",
+          "team": "BTB"
+        }
+      },
+      {
+        "match": "championship_r32_08",
+        "top_competitor": {
+          "name": "ERIC HULIHAN",
+          "team": "FEN"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "ERIC HULIHAN",
+          "team": "FEN"
+        }
+      },
+      {
+        "match": "championship_r32_09",
+        "top_competitor": {
+          "name": "CODY FLYNN",
+          "team": "FIS"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "CODY FLYNN",
+          "team": "FIS"
+        }
+      },
+      {
+        "match": "championship_r32_10",
+        "top_competitor": {
+          "name": "IVORY BLACKWELL",
+          "team": "FRR"
+        },
+        "bottom_competitor": {
+          "name": "JEFF KOEPKE",
+          "team": "ARL"
+        },
+        "result": "M-Dec 10-2",
+        "bout_number": 154,
+        "winner": {
+          "name": "JEFF KOEPKE",
+          "team": "ARL"
+        }
+      },
+      {
+        "match": "championship_r32_11",
+        "top_competitor": {
+          "name": "RYAN MCCOLLAM",
+          "team": "VIT"
+        },
+        "bottom_competitor": {
+          "name": "JOE MOSCINSKI",
+          "team": "DGC"
+        },
+        "result": "Dec 3-2",
+        "bout_number": 155,
+        "winner": {
+          "name": "RYAN MCCOLLAM",
+          "team": "VIT"
+        }
+      },
+      {
+        "match": "championship_r32_12",
+        "top_competitor": {
+          "name": "AARON ROBINSON",
+          "team": "MTV"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "AARON ROBINSON",
+          "team": "MTV"
+        }
+      },
+      {
+        "match": "championship_r32_13",
+        "top_competitor": {
+          "name": "TREY GRIFFIN",
+          "team": "PLW"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "TREY GRIFFIN",
+          "team": "PLW"
+        }
+      },
+      {
+        "match": "championship_r32_14",
+        "top_competitor": {
+          "name": "JIMMY WALLENBERG",
+          "team": "NDW"
+        },
+        "bottom_competitor": {
+          "name": "DIMITRI WILLIS",
+          "team": "PRP"
+        },
+        "result": "Fall 1:27",
+        "bout_number": 158,
+        "winner": {
+          "name": "DIMITRI WILLIS",
+          "team": "PRP"
+        }
+      },
+      {
+        "match": "championship_r32_15",
+        "top_competitor": {
+          "name": "GEOFF PEVITTS",
+          "team": "LLF"
+        },
+        "bottom_competitor": {
+          "name": "BRAD JOHNSON",
+          "team": "LJP"
+        },
+        "result": "Dec 6-2",
+        "bout_number": 159,
+        "winner": {
+          "name": "BRAD JOHNSON",
+          "team": "LJP"
+        }
+      },
+      {
+        "match": "championship_r32_16",
+        "top_competitor": {
+          "name": "IAN MATTAN",
+          "team": "GEN"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "IAN MATTAN",
+          "team": "GEN"
+        }
+      },
+      {
+        "match": "championship_r16_01",
+        "top_competitor": {
+          "name": "NICHOLAS PROCTOR",
+          "team": "FOX"
+        },
+        "bottom_competitor": {
+          "name": "DYLAN HOFMANN",
+          "team": "SRD"
+        },
+        "result": "Fall :31",
+        "bout_number": 329,
+        "winner": {
+          "name": "NICHOLAS PROCTOR",
+          "team": "FOX"
+        }
+      },
+      {
+        "match": "championship_r16_02",
+        "top_competitor": {
+          "name": "JOSHUA BALLARD",
+          "team": "TLK"
+        },
+        "bottom_competitor": {
+          "name": "MALIK SNAPP",
+          "team": "JBC"
+        },
+        "result": "Dec 13-10",
+        "bout_number": 330,
+        "winner": {
+          "name": "MALIK SNAPP",
+          "team": "JBC"
+        }
+      },
+      {
+        "match": "championship_r16_03",
+        "top_competitor": {
+          "name": "BRIAN KENT",
+          "team": "BSN"
+        },
+        "bottom_competitor": {
+          "name": "CODY RICHARDSON",
+          "team": "CLP"
+        },
+        "result": "Fall 1:30",
+        "bout_number": 331,
+        "winner": {
+          "name": "BRIAN KENT",
+          "team": "BSN"
+        }
+      },
+      {
+        "match": "championship_r16_04",
+        "top_competitor": {
+          "name": "ANDREW URSCH",
+          "team": "BTB"
+        },
+        "bottom_competitor": {
+          "name": "ERIC HULIHAN",
+          "team": "FEN"
+        },
+        "result": "Dec 5-3 OT",
+        "bout_number": 332,
+        "winner": {
+          "name": "ERIC HULIHAN",
+          "team": "FEN"
+        }
+      },
+      {
+        "match": "championship_r16_05",
+        "top_competitor": {
+          "name": "CODY FLYNN",
+          "team": "FIS"
+        },
+        "bottom_competitor": {
+          "name": "JEFF KOEPKE",
+          "team": "ARL"
+        },
+        "result": "Fall 2:30",
+        "bout_number": 333,
+        "winner": {
+          "name": "JEFF KOEPKE",
+          "team": "ARL"
+        }
+      },
+      {
+        "match": "championship_r16_06",
+        "top_competitor": {
+          "name": "RYAN MCCOLLAM",
+          "team": "VIT"
+        },
+        "bottom_competitor": {
+          "name": "AARON ROBINSON",
+          "team": "MTV"
+        },
+        "result": "Fall :50",
+        "bout_number": 334,
+        "winner": {
+          "name": "AARON ROBINSON",
+          "team": "MTV"
+        }
+      },
+      {
+        "match": "championship_r16_07",
+        "top_competitor": {
+          "name": "TREY GRIFFIN",
+          "team": "PLW"
+        },
+        "bottom_competitor": {
+          "name": "DIMITRI WILLIS",
+          "team": "PRP"
+        },
+        "result": "Dec 8-4",
+        "bout_number": 335,
+        "winner": {
+          "name": "TREY GRIFFIN",
+          "team": "PLW"
+        }
+      },
+      {
+        "match": "championship_r16_08",
+        "top_competitor": {
+          "name": "BRAD JOHNSON",
+          "team": "LJP"
+        },
+        "bottom_competitor": {
+          "name": "IAN MATTAN",
+          "team": "GEN"
+        },
+        "result": "Fall 2:16",
+        "bout_number": 336,
+        "winner": {
+          "name": "IAN MATTAN",
+          "team": "GEN"
+        }
+      },
+      {
+        "match": "championship_quarter_01",
+        "top_competitor": {
+          "name": "NICHOLAS PROCTOR",
+          "team": "FOX"
+        },
+        "bottom_competitor": {
+          "name": "MALIK SNAPP",
+          "team": "JBC"
+        },
+        "result": "Fall 2:03",
+        "bout_number": 677,
+        "winner": {
+          "name": "NICHOLAS PROCTOR",
+          "team": "FOX"
+        }
+      },
+      {
+        "match": "championship_quarter_02",
+        "top_competitor": {
+          "name": "BRIAN KENT",
+          "team": "BSN"
+        },
+        "bottom_competitor": {
+          "name": "ERIC HULIHAN",
+          "team": "FEN"
+        },
+        "result": "Dec 6-5",
+        "bout_number": 678,
+        "winner": {
+          "name": "BRIAN KENT",
+          "team": "BSN"
+        }
+      },
+      {
+        "match": "championship_quarter_03",
+        "top_competitor": {
+          "name": "JEFF KOEPKE",
+          "team": "ARL"
+        },
+        "bottom_competitor": {
+          "name": "AARON ROBINSON",
+          "team": "MTV"
+        },
+        "result": "T-Fall 4:00; 18-2",
+        "bout_number": 679,
+        "winner": {
+          "name": "AARON ROBINSON",
+          "team": "MTV"
+        }
+      },
+      {
+        "match": "championship_quarter_04",
+        "top_competitor": {
+          "name": "TREY GRIFFIN",
+          "team": "PLW"
+        },
+        "bottom_competitor": {
+          "name": "IAN MATTAN",
+          "team": "GEN"
+        },
+        "result": "Dec 3-2",
+        "bout_number": 680,
+        "winner": {
+          "name": "TREY GRIFFIN",
+          "team": "PLW"
+        }
+      },
+      {
+        "match": "championship_semi_01",
+        "top_competitor": {
+          "name": "NICHOLAS PROCTOR",
+          "team": "FOX"
+        },
+        "bottom_competitor": {
+          "name": "BRIAN KENT",
+          "team": "BSN"
+        },
+        "result": "Fall :47",
+        "bout_number": 851,
+        "winner": {
+          "name": "NICHOLAS PROCTOR",
+          "team": "FOX"
+        }
+      },
+      {
+        "match": "championship_semi_02",
+        "top_competitor": {
+          "name": "AARON ROBINSON",
+          "team": "MTV"
+        },
+        "bottom_competitor": {
+          "name": "TREY GRIFFIN",
+          "team": "PLW"
+        },
+        "result": "Dec 6-1",
+        "bout_number": 852,
+        "winner": {
+          "name": "TREY GRIFFIN",
+          "team": "PLW"
+        }
+      },
+      {
+        "match": "championship_first_place",
+        "top_competitor": {
+          "name": "NICHOLAS PROCTOR",
+          "team": "FOX"
+        },
+        "bottom_competitor": {
+          "name": "TREY GRIFFIN",
+          "team": "PLW"
+        },
+        "result": "Fall 2:58",
+        "bout_number": 968,
+        "winner": {
+          "name": "NICHOLAS PROCTOR",
+          "team": "FOX"
+        }
+      },
+      {
+        "match": "consolation_round3_01",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "DYLAN HOFMANN",
+          "team": "SRD"
+        },
+        "result": "Bye",
+        "bout_number": 741,
+        "winner": {
+          "name": "DYLAN HOFMANN",
+          "team": "SRD"
+        }
+      },
+      {
+        "match": "consolation_round3_02",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "CODY RICHARDSON",
+          "team": "CLP"
+        },
+        "result": "Bye",
+        "bout_number": 742,
+        "winner": {
+          "name": "CODY RICHARDSON",
+          "team": "CLP"
+        }
+      },
+      {
+        "match": "consolation_round3_03",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "RYAN MCCOLLAM",
+          "team": "VIT"
+        },
+        "result": "Bye",
+        "bout_number": 743,
+        "winner": {
+          "name": "RYAN MCCOLLAM",
+          "team": "VIT"
+        }
+      },
+      {
+        "match": "consolation_round3_04",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "DIMITRI WILLIS",
+          "team": "PRP"
+        },
+        "result": "Bye",
+        "bout_number": 744,
+        "winner": {
+          "name": "DIMITRI WILLIS",
+          "team": "PRP"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_01",
+        "top_competitor": {
+          "name": "DYLAN HOFMANN",
+          "team": "SRD"
+        },
+        "bottom_competitor": {
+          "name": "MALIK SNAPP",
+          "team": "JBC"
+        },
+        "result": "Fall :46",
+        "bout_number": 805,
+        "winner": {
+          "name": "MALIK SNAPP",
+          "team": "JBC"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_02",
+        "top_competitor": {
+          "name": "CODY RICHARDSON",
+          "team": "CLP"
+        },
+        "bottom_competitor": {
+          "name": "ERIC HULIHAN",
+          "team": "FEN"
+        },
+        "result": "Dec 9-65",
+        "bout_number": 806,
+        "winner": {
+          "name": "ERIC HULIHAN",
+          "team": "FEN"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_03",
+        "top_competitor": {
+          "name": "RYAN MCCOLLAM",
+          "team": "VIT"
+        },
+        "bottom_competitor": {
+          "name": "JEFF KOEPKE",
+          "team": "ARL"
+        },
+        "result": "Fall 1:41",
+        "bout_number": 807,
+        "winner": {
+          "name": "JEFF KOEPKE",
+          "team": "ARL"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_04",
+        "top_competitor": {
+          "name": "DIMITRI WILLIS",
+          "team": "PRP"
+        },
+        "bottom_competitor": {
+          "name": "IAN MATTAN",
+          "team": "GEN"
+        },
+        "result": "M-Dec 13-1",
+        "bout_number": 808,
+        "winner": {
+          "name": "IAN MATTAN",
+          "team": "GEN"
+        }
+      },
+      {
+        "match": "consolation_round5_01",
+        "top_competitor": {
+          "name": "MALIK SNAPP",
+          "team": "JBC"
+        },
+        "bottom_competitor": {
+          "name": "ERIC HULIHAN",
+          "team": "FEN"
+        },
+        "result": "Fall 2:26",
+        "bout_number": 883,
+        "winner": {
+          "name": "ERIC HULIHAN",
+          "team": "FEN"
+        }
+      },
+      {
+        "match": "consolation_round5_02",
+        "top_competitor": {
+          "name": "JEFF KOEPKE",
+          "team": "ARL"
+        },
+        "bottom_competitor": {
+          "name": "IAN MATTAN",
+          "team": "GEN"
+        },
+        "result": "Dec 5-3",
+        "bout_number": 884,
+        "winner": {
+          "name": "IAN MATTAN",
+          "team": "GEN"
+        }
+      },
+      {
+        "match": "consolation_round6_semi_01",
+        "top_competitor": {
+          "name": "BRIAN KENT",
+          "team": "BSN"
+        },
+        "bottom_competitor": {
+          "name": "ERIC HULIHAN",
+          "team": "FEN"
+        },
+        "result": "Dec AA",
+        "bout_number": 915,
+        "winner": {
+          "name": "BRIAN KENT",
+          "team": "BSN"
+        }
+      },
+      {
+        "match": "consolation_round6_semi_02",
+        "top_competitor": {
+          "name": "AARON ROBINSON",
+          "team": "MTV"
+        },
+        "bottom_competitor": {
+          "name": "IAN MATTAN",
+          "team": "GEN"
+        },
+        "result": "Dec 10-6",
+        "bout_number": 916,
+        "winner": {
+          "name": "IAN MATTAN",
+          "team": "GEN"
+        }
+      },
+      {
+        "match": "consolation_third_place",
+        "top_competitor": {
+          "name": "BRIAN KENT",
+          "team": "BSN"
+        },
+        "bottom_competitor": {
+          "name": "IAN MATTAN",
+          "team": "GEN"
+        },
+        "result": "Fall :34",
+        "bout_number": 967,
+        "winner": {
+          "name": "BRIAN KENT",
+          "team": "BSN"
+        }
+      },
+      {
+        "match": "consolation_fifth_place",
+        "top_competitor": {
+          "name": "ERIC HULIHAN",
+          "team": "FEN"
+        },
+        "bottom_competitor": {
+          "name": "AARON ROBINSON",
+          "team": "MTV"
+        },
+        "result": "Dec 11-4",
+        "bout_number": 966,
+        "winner": {
+          "name": "ERIC HULIHAN",
+          "team": "FEN"
+        }
+      },
+      {
+        "match": "consolation_seventh_place",
+        "top_competitor": {
+          "name": "MALIK SNAPP",
+          "team": "JBC"
+        },
+        "bottom_competitor": {
+          "name": "JEFF KOEPKE",
+          "team": "ARL"
+        },
+        "result": "M-Dec 10-1",
+        "bout_number": 965,
+        "winner": {
+          "name": "MALIK SNAPP",
+          "team": "JBC"
+        }
+      }
+    ]
+  },
+  {
+    "division": "novice",
+    "weight": 115,
+    "matches": [
+      {
+        "match": "championship_r32_01",
+        "top_competitor": {
+          "name": "PHILIP CAPPITELLI",
+          "team": "LAK"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "PHILIP CAPPITELLI",
+          "team": "LAK"
+        }
+      },
+      {
+        "match": "championship_r32_02",
+        "top_competitor": {
+          "name": "WEST CATHCART",
+          "team": "GEN"
+        },
+        "bottom_competitor": {
+          "name": "JOSHUA ELLINGWOOD",
+          "team": "MFV"
+        },
+        "result": "Fall 1:24",
+        "bout_number": 162,
+        "winner": {
+          "name": "JOSHUA ELLINGWOOD",
+          "team": "MFV"
+        }
+      },
+      {
+        "match": "championship_r32_03",
+        "top_competitor": {
+          "name": "AHMAD SALAH",
+          "team": "LJP"
+        },
+        "bottom_competitor": {
+          "name": "KEVIN WESTROM",
+          "team": "HON"
+        },
+        "result": "Dec 5-0",
+        "bout_number": 163,
+        "winner": {
+          "name": "AHMAD SALAH",
+          "team": "LJP"
+        }
+      },
+      {
+        "match": "championship_r32_04",
+        "top_competitor": {
+          "name": "CONNOR NAGEL",
+          "team": "LEM"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "CONNOR NAGEL",
+          "team": "LEM"
+        }
+      },
+      {
+        "match": "championship_r32_05",
+        "top_competitor": {
+          "name": "STORMY HILD",
+          "team": "MTP"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "STORMY HILD",
+          "team": "MTP"
+        }
+      },
+      {
+        "match": "championship_r32_06",
+        "top_competitor": {
+          "name": "TAYLOR SCHUCK",
+          "team": "CNT"
+        },
+        "bottom_competitor": {
+          "name": "MATT MCDONNELL",
+          "team": "MRS"
+        },
+        "result": "Fall 1:29",
+        "bout_number": 166,
+        "winner": {
+          "name": "TAYLOR SCHUCK",
+          "team": "CNT"
+        }
+      },
+      {
+        "match": "championship_r32_07",
+        "top_competitor": {
+          "name": "TRAVIS CAMMON",
+          "team": "SPD"
+        },
+        "bottom_competitor": {
+          "name": "DIAVONTAE THAMES",
+          "team": "LLC"
+        },
+        "result": "Fall 3:31",
+        "bout_number": 167,
+        "winner": {
+          "name": "TRAVIS CAMMON",
+          "team": "SPD"
+        }
+      },
+      {
+        "match": "championship_r32_08",
+        "top_competitor": {
+          "name": "WILL LUTH",
+          "team": "HER"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "WILL LUTH",
+          "team": "HER"
+        }
+      },
+      {
+        "match": "championship_r32_09",
+        "top_competitor": {
+          "name": "NOLAN MEEHAN",
+          "team": "BKH"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "NOLAN MEEHAN",
+          "team": "BKH"
+        }
+      },
+      {
+        "match": "championship_r32_10",
+        "top_competitor": {
+          "name": "STEVEN MONACO",
+          "team": "VIT"
+        },
+        "bottom_competitor": {
+          "name": "TYLER FARNEY",
+          "team": "OKW"
+        },
+        "result": "Fall 2:39",
+        "bout_number": 170,
+        "winner": {
+          "name": "STEVEN MONACO",
+          "team": "VIT"
+        }
+      },
+      {
+        "match": "championship_r32_11",
+        "top_competitor": {
+          "name": "TREY WILCOX",
+          "team": "PNP"
+        },
+        "bottom_competitor": {
+          "name": "CHARLES DOYLE",
+          "team": "NDW"
+        },
+        "result": "Fall 3:04",
+        "bout_number": 171,
+        "winner": {
+          "name": "TREY WILCOX",
+          "team": "PNP"
+        }
+      },
+      {
+        "match": "championship_r32_12",
+        "top_competitor": {
+          "name": "TYLER LEDBETTER",
+          "team": "PLF"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "TYLER LEDBETTER",
+          "team": "PLF"
+        }
+      },
+      {
+        "match": "championship_r32_13",
+        "top_competitor": {
+          "name": "TYLER THOMAS",
+          "team": "GLD"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "TYLER THOMAS",
+          "team": "GLD"
+        }
+      },
+      {
+        "match": "championship_r32_14",
+        "top_competitor": {
+          "name": "AUSTIN SENECA",
+          "team": "FCY"
+        },
+        "bottom_competitor": {
+          "name": "CHARLIE CLEVELAND",
+          "team": "BLD"
+        },
+        "result": "Dec 5-4",
+        "bout_number": 174,
+        "winner": {
+          "name": "CHARLIE CLEVELAND",
+          "team": "BLD"
+        }
+      },
+      {
+        "match": "championship_r32_15",
+        "top_competitor": {
+          "name": "SAM ROBINSON",
+          "team": "LAK"
+        },
+        "bottom_competitor": {
+          "name": "JOE GONZALEZ",
+          "team": "LNS"
+        },
+        "result": "Fall 3:28",
+        "bout_number": 175,
+        "winner": {
+          "name": "SAM ROBINSON",
+          "team": "LAK"
+        }
+      },
+      {
+        "match": "championship_r32_16",
+        "top_competitor": {
+          "name": "TYLER CRONISTER",
+          "team": "MRS"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "TYLER CRONISTER",
+          "team": "MRS"
+        }
+      },
+      {
+        "match": "championship_r16_01",
+        "top_competitor": {
+          "name": "PHILIP CAPPITELLI",
+          "team": "LAK"
+        },
+        "bottom_competitor": {
+          "name": "JOSHUA ELLINGWOOD",
+          "team": "MFV"
+        },
+        "result": "Dec 3-2 OT",
+        "bout_number": 337,
+        "winner": {
+          "name": "PHILIP CAPPITELLI",
+          "team": "LAK"
+        }
+      },
+      {
+        "match": "championship_r16_02",
+        "top_competitor": {
+          "name": "AHMAD SALAH",
+          "team": "LJP"
+        },
+        "bottom_competitor": {
+          "name": "CONNOR NAGEL",
+          "team": "LEM"
+        },
+        "result": "M-Dec 8-0",
+        "bout_number": 338,
+        "winner": {
+          "name": "CONNOR NAGEL",
+          "team": "LEM"
+        }
+      },
+      {
+        "match": "championship_r16_03",
+        "top_competitor": {
+          "name": "STORMY HILD",
+          "team": "MTP"
+        },
+        "bottom_competitor": {
+          "name": "TAYLOR SCHUCK",
+          "team": "CNT"
+        },
+        "result": "Fall 3:21",
+        "bout_number": 339,
+        "winner": {
+          "name": "STORMY HILD",
+          "team": "MTP"
+        }
+      },
+      {
+        "match": "championship_r16_04",
+        "top_competitor": {
+          "name": "TRAVIS CAMMON",
+          "team": "SPD"
+        },
+        "bottom_competitor": {
+          "name": "WILL LUTH",
+          "team": "HER"
+        },
+        "result": "Dec 10-6",
+        "bout_number": 340,
+        "winner": {
+          "name": "TRAVIS CAMMON",
+          "team": "SPD"
+        }
+      },
+      {
+        "match": "championship_r16_05",
+        "top_competitor": {
+          "name": "NOLAN MEEHAN",
+          "team": "BKH"
+        },
+        "bottom_competitor": {
+          "name": "STEVEN MONACO",
+          "team": "VIT"
+        },
+        "result": "Dec 14-7",
+        "bout_number": 341,
+        "winner": {
+          "name": "NOLAN MEEHAN",
+          "team": "BKH"
+        }
+      },
+      {
+        "match": "championship_r16_06",
+        "top_competitor": {
+          "name": "TREY WILCOX",
+          "team": "PNP"
+        },
+        "bottom_competitor": {
+          "name": "TYLER LEDBETTER",
+          "team": "PLF"
+        },
+        "result": "Fall 4:25 OT",
+        "bout_number": 342,
+        "winner": {
+          "name": "TYLER LEDBETTER",
+          "team": "PLF"
+        }
+      },
+      {
+        "match": "championship_r16_07",
+        "top_competitor": {
+          "name": "TYLER THOMAS",
+          "team": "GLD"
+        },
+        "bottom_competitor": {
+          "name": "CHARLIE CLEVELAND",
+          "team": "BLD"
+        },
+        "result": "Fall :59",
+        "bout_number": 343,
+        "winner": {
+          "name": "TYLER THOMAS",
+          "team": "GLD"
+        }
+      },
+      {
+        "match": "championship_r16_08",
+        "top_competitor": {
+          "name": "SAM ROBINSON",
+          "team": "LAK"
+        },
+        "bottom_competitor": {
+          "name": "TYLER CRONISTER",
+          "team": "MRS"
+        },
+        "result": "M-Dec 12-2",
+        "bout_number": 344,
+        "winner": {
+          "name": "SAM ROBINSON",
+          "team": "LAK"
+        }
+      },
+      {
+        "match": "championship_quarter_01",
+        "top_competitor": {
+          "name": "PHILIP CAPPITELLI",
+          "team": "LAK"
+        },
+        "bottom_competitor": {
+          "name": "CONNOR NAGEL",
+          "team": "LEM"
+        },
+        "result": "Dec 7-4",
+        "bout_number": 681,
+        "winner": {
+          "name": "CONNOR NAGEL",
+          "team": "LEM"
+        }
+      },
+      {
+        "match": "championship_quarter_02",
+        "top_competitor": {
+          "name": "STORMY HILD",
+          "team": "MTP"
+        },
+        "bottom_competitor": {
+          "name": "TRAVIS CAMMON",
+          "team": "SPD"
+        },
+        "result": "Dec 8-1",
+        "bout_number": 682,
+        "winner": {
+          "name": "STORMY HILD",
+          "team": "MTP"
+        }
+      },
+      {
+        "match": "championship_quarter_03",
+        "top_competitor": {
+          "name": "NOLAN MEEHAN",
+          "team": "BKH"
+        },
+        "bottom_competitor": {
+          "name": "TYLER LEDBETTER",
+          "team": "PLF"
+        },
+        "result": "Dec 7-0",
+        "bout_number": 683,
+        "winner": {
+          "name": "NOLAN MEEHAN",
+          "team": "BKH"
+        }
+      },
+      {
+        "match": "championship_quarter_04",
+        "top_competitor": {
+          "name": "TYLER THOMAS",
+          "team": "GLD"
+        },
+        "bottom_competitor": {
+          "name": "SAM ROBINSON",
+          "team": "LAK"
+        },
+        "result": "Dec 4-1",
+        "bout_number": 684,
+        "winner": {
+          "name": "TYLER THOMAS",
+          "team": "GLD"
+        }
+      },
+      {
+        "match": "championship_semi_01",
+        "top_competitor": {
+          "name": "CONNOR NAGEL",
+          "team": "LEM"
+        },
+        "bottom_competitor": {
+          "name": "STORMY HILD",
+          "team": "MTP"
+        },
+        "result": "Fall 2:15",
+        "bout_number": 853,
+        "winner": {
+          "name": "STORMY HILD",
+          "team": "MTP"
+        }
+      },
+      {
+        "match": "championship_semi_02",
+        "top_competitor": {
+          "name": "NOLAN MEEHAN",
+          "team": "BKH"
+        },
+        "bottom_competitor": {
+          "name": "TYLER THOMAS",
+          "team": "GLD"
+        },
+        "result": "M-Dec 9-0",
+        "bout_number": 854,
+        "winner": {
+          "name": "NOLAN MEEHAN",
+          "team": "BKH"
+        }
+      },
+      {
+        "match": "championship_first_place",
+        "top_competitor": {
+          "name": "STORMY HILD",
+          "team": "MTP"
+        },
+        "bottom_competitor": {
+          "name": "NOLAN MEEHAN",
+          "team": "BKH"
+        },
+        "result": "M-Dec 12-1",
+        "bout_number": 972,
+        "winner": {
+          "name": "STORMY HILD",
+          "team": "MTP"
+        }
+      },
+      {
+        "match": "consolation_round3_01",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "AHMAD SALAH",
+          "team": "LJP"
+        },
+        "result": "Bye",
+        "bout_number": 745,
+        "winner": {
+          "name": "AHMAD SALAH",
+          "team": "LJP"
+        }
+      },
+      {
+        "match": "consolation_round3_02",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "TAYLOR SCHUCK",
+          "team": "CNT"
+        },
+        "result": "Bye",
+        "bout_number": 746,
+        "winner": {
+          "name": "TAYLOR SCHUCK",
+          "team": "CNT"
+        }
+      },
+      {
+        "match": "consolation_round3_03",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "STEVEN MONACO",
+          "team": "VIT"
+        },
+        "result": "Bye",
+        "bout_number": 747,
+        "winner": {
+          "name": "STEVEN MONACO",
+          "team": "VIT"
+        }
+      },
+      {
+        "match": "consolation_round3_04",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "CHARLIE CLEVELAND",
+          "team": "BLD"
+        },
+        "result": "Bye",
+        "bout_number": 748,
+        "winner": {
+          "name": "CHARLIE CLEVELAND",
+          "team": "BLD"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_01",
+        "top_competitor": {
+          "name": "AHMAD SALAH",
+          "team": "LJP"
+        },
+        "bottom_competitor": {
+          "name": "PHILIP CAPPITELLI",
+          "team": "LAK"
+        },
+        "result": "Dec 6-0",
+        "bout_number": 809,
+        "winner": {
+          "name": "PHILIP CAPPITELLI",
+          "team": "LAK"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_02",
+        "top_competitor": {
+          "name": "TAYLOR SCHUCK",
+          "team": "CNT"
+        },
+        "bottom_competitor": {
+          "name": "TRAVIS CAMMON",
+          "team": "SPD"
+        },
+        "result": "Dec 6-2",
+        "bout_number": 810,
+        "winner": {
+          "name": "TAYLOR SCHUCK",
+          "team": "CNT"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_03",
+        "top_competitor": {
+          "name": "STEVEN MONACO",
+          "team": "VIT"
+        },
+        "bottom_competitor": {
+          "name": "TYLER LEDBETTER",
+          "team": "PLF"
+        },
+        "result": "Fall 3:19",
+        "bout_number": 811,
+        "winner": {
+          "name": "TYLER LEDBETTER",
+          "team": "PLF"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_04",
+        "top_competitor": {
+          "name": "CHARLIE CLEVELAND",
+          "team": "BLD"
+        },
+        "bottom_competitor": {
+          "name": "SAM ROBINSON",
+          "team": "LAK"
+        },
+        "result": "Dec 9-7",
+        "bout_number": 812,
+        "winner": {
+          "name": "SAM ROBINSON",
+          "team": "LAK"
+        }
+      },
+      {
+        "match": "consolation_round5_01",
+        "top_competitor": {
+          "name": "PHILIP CAPPITELLI",
+          "team": "LAK"
+        },
+        "bottom_competitor": {
+          "name": "TAYLOR SCHUCK",
+          "team": "CNT"
+        },
+        "result": "Dec 5-1",
+        "bout_number": 885,
+        "winner": {
+          "name": "TAYLOR SCHUCK",
+          "team": "CNT"
+        }
+      },
+      {
+        "match": "consolation_round5_02",
+        "top_competitor": {
+          "name": "TYLER LEDBETTER",
+          "team": "PLF"
+        },
+        "bottom_competitor": {
+          "name": "SAM ROBINSON",
+          "team": "LAK"
+        },
+        "result": "Fall 3:55",
+        "bout_number": 886,
+        "winner": {
+          "name": "TYLER LEDBETTER",
+          "team": "PLF"
+        }
+      },
+      {
+        "match": "consolation_round6_semi_01",
+        "top_competitor": {
+          "name": "CONNOR NAGEL",
+          "team": "LEM"
+        },
+        "bottom_competitor": {
+          "name": "TAYLOR SCHUCK",
+          "team": "CNT"
+        },
+        "result": "Dec 6-5",
+        "bout_number": 917,
+        "winner": {
+          "name": "CONNOR NAGEL",
+          "team": "LEM"
+        }
+      },
+      {
+        "match": "consolation_round6_semi_02",
+        "top_competitor": {
+          "name": "TYLER THOMAS",
+          "team": "GLD"
+        },
+        "bottom_competitor": {
+          "name": "TYLER LEDBETTER",
+          "team": "PLF"
+        },
+        "result": "Dec 9-5",
+        "bout_number": 918,
+        "winner": {
+          "name": "TYLER THOMAS",
+          "team": "GLD"
+        }
+      },
+      {
+        "match": "consolation_third_place",
+        "top_competitor": {
+          "name": "CONNOR NAGEL",
+          "team": "LEM"
+        },
+        "bottom_competitor": {
+          "name": "TYLER THOMAS",
+          "team": "GLD"
+        },
+        "result": "Dec 7-2",
+        "bout_number": 971,
+        "winner": {
+          "name": "CONNOR NAGEL",
+          "team": "LEM"
+        }
+      },
+      {
+        "match": "consolation_fifth_place",
+        "top_competitor": {
+          "name": "TAYLOR SCHUCK",
+          "team": "CNT"
+        },
+        "bottom_competitor": {
+          "name": "TYLER LEDBETTER",
+          "team": "PLF"
+        },
+        "result": "Dec 6-4",
+        "bout_number": 970,
+        "winner": {
+          "name": "TAYLOR SCHUCK",
+          "team": "CNT"
+        }
+      },
+      {
+        "match": "consolation_seventh_place",
+        "top_competitor": {
+          "name": "PHILIP CAPPITELLI",
+          "team": "LAK"
+        },
+        "bottom_competitor": {
+          "name": "SAM ROBINSON",
+          "team": "LAK"
+        },
+        "result": "Dec 3-1",
+        "bout_number": 969,
+        "winner": {
+          "name": "PHILIP CAPPITELLI",
+          "team": "LAK"
         }
       }
     ]

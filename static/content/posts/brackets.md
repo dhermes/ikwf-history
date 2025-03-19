@@ -266,7 +266,6 @@ http://ikwf.org/brackets/senior/seniorbrk.htm (Brackets)
 http://www.ikwf.org/brackets/senior/seniortm.htm (Team Directory)
 http://www.ikwf.org/brackets/senior/seniorwt.htm (Weight Directory)
 
-
 -->
 
 - [Novice Team Scores](/team-scores/2004/novice.html)
@@ -311,18 +310,35 @@ http://www.ikwf.org/brackets/senior/seniorwt.htm (Weight Directory)
 
 {{< collapsible title="2005" >}}
 
+<!--
+
+http://www.ikwf.org/ikwf/2005%20State%20Brackets.htm
+
+http://www.ikwf.org/ikwf/novice05/nov05home.htm (Team Scores)
+http://ikwf.org/ikwf/novice05/nov05brk.htm (Brackets)
+http://ikwf.org/ikwf/novice05/nov05tm.htm (Team Directory)
+http://ikwf.org/ikwf/novice05/nov05wt.htm (Weight Directory)
+http://209.130.61.42/ikwf/novice05/nov05brk007.htm <== 84
+
+http://www.ikwf.org/ikwf/senior05/sen05home.htm (Team Scores)
+http://ikwf.org/ikwf/senior05/sen05brk.htm (Brackets)
+http://ikwf.org/ikwf/senior05/sen05tm.htm (Team Directory)
+http://www.ikwf.org/ikwf/senior05/sen05wt.htm (Weight Directory)
+
+-->
+
 - [Novice Team Scores](/team-scores/2005/novice.html)
 - [Novice 62](/brackets/2005/novice/62.html)
 - [Novice 66](/brackets/2005/novice/66.html)
 - [Novice 70](/brackets/2005/novice/70.html)
 - [Novice 74](/brackets/2005/novice/74.html)
 - [Novice 79](/brackets/2005/novice/79.html)
-- **Novice 84** missing
+- [Novice 84](/brackets/2005/novice/84.html)
 - [Novice 89](/brackets/2005/novice/89.html)
-- **Novice 95** missing
-- **Novice 101** missing
-- **Novice 108** missing
-- **Novice 115** missing
+- [Novice 95](/brackets/2005/novice/95.html)
+- [Novice 101](/brackets/2005/novice/101.html)
+- [Novice 108](/brackets/2005/novice/108.html)
+- [Novice 115](/brackets/2005/novice/115.html)
 - [Novice 122](/brackets/2005/novice/122.html)
 - [Novice 130](/brackets/2005/novice/130.html)
 - [Novice 147](/brackets/2005/novice/147.html)
