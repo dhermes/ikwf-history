@@ -340,9 +340,7 @@ def main():
     with open(HERE / "extracted.2001.json") as file_obj:
         extracted = json.load(file_obj)
 
-    print(len(TEAM_ACRONYM_MAPPING))
-    print(len(TEAM_NAME_MAPPING))
-    print(len(extracted))
+    raise NotImplementedError(len(extracted))
 
 
 if __name__ == "__main__":

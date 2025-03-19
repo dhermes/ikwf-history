@@ -8294,6 +8294,758 @@
   },
   {
     "division": "novice",
+    "weight": 122,
+    "matches": [
+      {
+        "match": "championship_r32_01",
+        "top_competitor": {
+          "name": "DEREK COOPER",
+          "team": "SJO"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "DEREK COOPER",
+          "team": "SJO"
+        }
+      },
+      {
+        "match": "championship_r32_02",
+        "top_competitor": {
+          "name": "JOE BROOKS",
+          "team": "STR"
+        },
+        "bottom_competitor": {
+          "name": "KEVIN ROWETT",
+          "team": "GRA"
+        },
+        "result": "M-Dec 9-0",
+        "bout_number": 178,
+        "winner": {
+          "name": "JOE BROOKS",
+          "team": "STR"
+        }
+      },
+      {
+        "match": "championship_r32_03",
+        "top_competitor": {
+          "name": "STEVEN CARLSON",
+          "team": "HAR"
+        },
+        "bottom_competitor": {
+          "name": "DENIS WALSH",
+          "team": "STT"
+        },
+        "result": "Fall 2:26",
+        "bout_number": 179,
+        "winner": {
+          "name": "STEVEN CARLSON",
+          "team": "HAR"
+        }
+      },
+      {
+        "match": "championship_r32_04",
+        "top_competitor": {
+          "name": "KYLE SCHOMER",
+          "team": "PLT"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "KYLE SCHOMER",
+          "team": "PLT"
+        }
+      },
+      {
+        "match": "championship_r32_05",
+        "top_competitor": {
+          "name": "ANDY WILSON",
+          "team": "PAN"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "ANDY WILSON",
+          "team": "PAN"
+        }
+      },
+      {
+        "match": "championship_r32_06",
+        "top_competitor": {
+          "name": "JOE RAU",
+          "team": "SHA"
+        },
+        "bottom_competitor": {
+          "name": "MARC STALLINGS",
+          "team": "MEN"
+        },
+        "result": "Fall 1:55",
+        "bout_number": 182,
+        "winner": {
+          "name": "MARC STALLINGS",
+          "team": "MEN"
+        }
+      },
+      {
+        "match": "championship_r32_07",
+        "top_competitor": {
+          "name": "EDDIE BALDWIN",
+          "team": "JAC"
+        },
+        "bottom_competitor": {
+          "name": "ZACHARY TURNMEYER",
+          "team": "LWN"
+        },
+        "result": "Fall 2:53",
+        "bout_number": 183,
+        "winner": {
+          "name": "EDDIE BALDWIN",
+          "team": "JAC"
+        }
+      },
+      {
+        "match": "championship_r32_08",
+        "top_competitor": {
+          "name": "NICO JIMENEZ",
+          "team": "SCN"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "NICO JIMENEZ",
+          "team": "SCN"
+        }
+      },
+      {
+        "match": "championship_r32_09",
+        "top_competitor": {
+          "name": "JACOB STENDBACK",
+          "team": "SAU"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "JACOB STENDBACK",
+          "team": "SAU"
+        }
+      },
+      {
+        "match": "championship_r32_10",
+        "top_competitor": {
+          "name": "CARLI ANGONE",
+          "team": "RCK"
+        },
+        "bottom_competitor": {
+          "name": "ANTHONY RINALDI",
+          "team": "TIN"
+        },
+        "result": "Dec 14-9",
+        "bout_number": 186,
+        "winner": {
+          "name": "ANTHONY RINALDI",
+          "team": "TIN"
+        }
+      },
+      {
+        "match": "championship_r32_11",
+        "top_competitor": {
+          "name": "JAMES MUSIALEK",
+          "team": "BLA"
+        },
+        "bottom_competitor": {
+          "name": "DREW SOWERS",
+          "team": "CUM"
+        },
+        "result": "Fall 3:10",
+        "bout_number": 187,
+        "winner": {
+          "name": "JAMES MUSIALEK",
+          "team": "BLA"
+        }
+      },
+      {
+        "match": "championship_r32_12",
+        "top_competitor": {
+          "name": "DALTON GAUL",
+          "team": "SYC"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "DALTON GAUL",
+          "team": "SYC"
+        }
+      },
+      {
+        "match": "championship_r32_13",
+        "top_competitor": {
+          "name": "BILLY GAVIN",
+          "team": "STT"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "BILLY GAVIN",
+          "team": "STT"
+        }
+      },
+      {
+        "match": "championship_r32_14",
+        "top_competitor": {
+          "name": "TODD JOHNSON",
+          "team": "LEM"
+        },
+        "bottom_competitor": {
+          "name": "ALEX LAND",
+          "team": "MAF"
+        },
+        "result": "Forf",
+        "bout_number": 190,
+        "winner": {
+          "name": "ALEX LAND",
+          "team": "MAF"
+        }
+      },
+      {
+        "match": "championship_r32_15",
+        "top_competitor": {
+          "name": "JAMEEL HIGH",
+          "team": "MAT"
+        },
+        "bottom_competitor": {
+          "name": "JACOB SHEFFER",
+          "team": "LLC"
+        },
+        "result": "M-Dec 12-3",
+        "bout_number": 191,
+        "winner": {
+          "name": "JAMEEL HIGH",
+          "team": "MAT"
+        }
+      },
+      {
+        "match": "championship_r32_16",
+        "top_competitor": {
+          "name": "ERIC CARLSON",
+          "team": "MOL"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "ERIC CARLSON",
+          "team": "MOL"
+        }
+      },
+      {
+        "match": "championship_r16_01",
+        "top_competitor": {
+          "name": "DEREK COOPER",
+          "team": "SJO"
+        },
+        "bottom_competitor": {
+          "name": "JOE BROOKS",
+          "team": "STR"
+        },
+        "result": "Dec 7-0",
+        "bout_number": 345,
+        "winner": {
+          "name": "DEREK COOPER",
+          "team": "SJO"
+        }
+      },
+      {
+        "match": "championship_r16_02",
+        "top_competitor": {
+          "name": "STEVEN CARLSON",
+          "team": "HAR"
+        },
+        "bottom_competitor": {
+          "name": "KYLE SCHOMER",
+          "team": "PLT"
+        },
+        "result": "Fall 2:00",
+        "bout_number": 346,
+        "winner": {
+          "name": "KYLE SCHOMER",
+          "team": "PLT"
+        }
+      },
+      {
+        "match": "championship_r16_03",
+        "top_competitor": {
+          "name": "ANDY WILSON",
+          "team": "PAN"
+        },
+        "bottom_competitor": {
+          "name": "MARC STALLINGS",
+          "team": "MEN"
+        },
+        "result": "T-Fall 3:54; 15-0",
+        "bout_number": 347,
+        "winner": {
+          "name": "ANDY WILSON",
+          "team": "PAN"
+        }
+      },
+      {
+        "match": "championship_r16_04",
+        "top_competitor": {
+          "name": "EDDIE BALDWIN",
+          "team": "JAC"
+        },
+        "bottom_competitor": {
+          "name": "NICO JIMENEZ",
+          "team": "SCN"
+        },
+        "result": "Fall :40",
+        "bout_number": 348,
+        "winner": {
+          "name": "NICO JIMENEZ",
+          "team": "SCN"
+        }
+      },
+      {
+        "match": "championship_r16_05",
+        "top_competitor": {
+          "name": "JACOB STENDBACK",
+          "team": "SAU"
+        },
+        "bottom_competitor": {
+          "name": "ANTHONY RINALDI",
+          "team": "TIN"
+        },
+        "result": "Fall 2:15",
+        "bout_number": 349,
+        "winner": {
+          "name": "JACOB STENDBACK",
+          "team": "SAU"
+        }
+      },
+      {
+        "match": "championship_r16_06",
+        "top_competitor": {
+          "name": "JAMES MUSIALEK",
+          "team": "BLA"
+        },
+        "bottom_competitor": {
+          "name": "DALTON GAUL",
+          "team": "SYC"
+        },
+        "result": "Dec 12-9",
+        "bout_number": 350,
+        "winner": {
+          "name": "DALTON GAUL",
+          "team": "SYC"
+        }
+      },
+      {
+        "match": "championship_r16_07",
+        "top_competitor": {
+          "name": "BILLY GAVIN",
+          "team": "STT"
+        },
+        "bottom_competitor": {
+          "name": "ALEX LAND",
+          "team": "MAF"
+        },
+        "result": "Fall 1:19",
+        "bout_number": 351,
+        "winner": {
+          "name": "BILLY GAVIN",
+          "team": "STT"
+        }
+      },
+      {
+        "match": "championship_r16_08",
+        "top_competitor": {
+          "name": "JAMEEL HIGH",
+          "team": "MAT"
+        },
+        "bottom_competitor": {
+          "name": "ERIC CARLSON",
+          "team": "MOL"
+        },
+        "result": "Fall 2:28",
+        "bout_number": 352,
+        "winner": {
+          "name": "ERIC CARLSON",
+          "team": "MOL"
+        }
+      },
+      {
+        "match": "championship_quarter_01",
+        "top_competitor": {
+          "name": "DEREK COOPER",
+          "team": "SJO"
+        },
+        "bottom_competitor": {
+          "name": "KYLE SCHOMER",
+          "team": "PLT"
+        },
+        "result": "M-Dec 13-1",
+        "bout_number": 685,
+        "winner": {
+          "name": "KYLE SCHOMER",
+          "team": "PLT"
+        }
+      },
+      {
+        "match": "championship_quarter_02",
+        "top_competitor": {
+          "name": "ANDY WILSON",
+          "team": "PAN"
+        },
+        "bottom_competitor": {
+          "name": "NICO JIMENEZ",
+          "team": "SCN"
+        },
+        "result": "Dec 6-5",
+        "bout_number": 686,
+        "winner": {
+          "name": "NICO JIMENEZ",
+          "team": "SCN"
+        }
+      },
+      {
+        "match": "championship_quarter_03",
+        "top_competitor": {
+          "name": "JACOB STENDBACK",
+          "team": "SAU"
+        },
+        "bottom_competitor": {
+          "name": "DALTON GAUL",
+          "team": "SYC"
+        },
+        "result": "Dec 9-2",
+        "bout_number": 687,
+        "winner": {
+          "name": "DALTON GAUL",
+          "team": "SYC"
+        }
+      },
+      {
+        "match": "championship_quarter_04",
+        "top_competitor": {
+          "name": "BILLY GAVIN",
+          "team": "STT"
+        },
+        "bottom_competitor": {
+          "name": "ERIC CARLSON",
+          "team": "MOL"
+        },
+        "result": "Fall 3:07",
+        "bout_number": 688,
+        "winner": {
+          "name": "BILLY GAVIN",
+          "team": "STT"
+        }
+      },
+      {
+        "match": "championship_semi_01",
+        "top_competitor": {
+          "name": "KYLE SCHOMER",
+          "team": "PLT"
+        },
+        "bottom_competitor": {
+          "name": "NICO JIMENEZ",
+          "team": "SCN"
+        },
+        "result": "M-Dec 12-3",
+        "bout_number": 855,
+        "winner": {
+          "name": "KYLE SCHOMER",
+          "team": "PLT"
+        }
+      },
+      {
+        "match": "championship_semi_02",
+        "top_competitor": {
+          "name": "DALTON GAUL",
+          "team": "SYC"
+        },
+        "bottom_competitor": {
+          "name": "BILLY GAVIN",
+          "team": "STT"
+        },
+        "result": "Fall 3:38",
+        "bout_number": 856,
+        "winner": {
+          "name": "DALTON GAUL",
+          "team": "SYC"
+        }
+      },
+      {
+        "match": "championship_first_place",
+        "top_competitor": {
+          "name": "KYLE SCHOMER",
+          "team": "PLT"
+        },
+        "bottom_competitor": {
+          "name": "DALTON GAUL",
+          "team": "SYC"
+        },
+        "result": "Dec 11-4",
+        "bout_number": 976,
+        "winner": {
+          "name": "KYLE SCHOMER",
+          "team": "PLT"
+        }
+      },
+      {
+        "match": "consolation_round3_01",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "STEVEN CARLSON",
+          "team": "HAR"
+        },
+        "result": "Bye",
+        "bout_number": 749,
+        "winner": {
+          "name": "STEVEN CARLSON",
+          "team": "HAR"
+        }
+      },
+      {
+        "match": "consolation_round3_02",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "EDDIE BALDWIN",
+          "team": "JAC"
+        },
+        "result": "Bye",
+        "bout_number": 750,
+        "winner": {
+          "name": "EDDIE BALDWIN",
+          "team": "JAC"
+        }
+      },
+      {
+        "match": "consolation_round3_03",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "JAMES MUSIALEK",
+          "team": "BLA"
+        },
+        "result": "Bye",
+        "bout_number": 751,
+        "winner": {
+          "name": "JAMES MUSIALEK",
+          "team": "BLA"
+        }
+      },
+      {
+        "match": "consolation_round3_04",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "ALEX LAND",
+          "team": "MAF"
+        },
+        "result": "Bye",
+        "bout_number": 752,
+        "winner": {
+          "name": "ALEX LAND",
+          "team": "MAF"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_01",
+        "top_competitor": {
+          "name": "STEVEN CARLSON",
+          "team": "HAR"
+        },
+        "bottom_competitor": {
+          "name": "DEREK COOPER",
+          "team": "SJO"
+        },
+        "result": "Dec 3-0",
+        "bout_number": 813,
+        "winner": {
+          "name": "DEREK COOPER",
+          "team": "SJO"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_02",
+        "top_competitor": {
+          "name": "EDDIE BALDWIN",
+          "team": "JAC"
+        },
+        "bottom_competitor": {
+          "name": "ANDY WILSON",
+          "team": "PAN"
+        },
+        "result": "T-Fall 3:59, 16-0",
+        "bout_number": 814,
+        "winner": {
+          "name": "ANDY WILSON",
+          "team": "PAN"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_03",
+        "top_competitor": {
+          "name": "JAMES MUSIALEK",
+          "team": "BLA"
+        },
+        "bottom_competitor": {
+          "name": "JACOB STENDBACK",
+          "team": "SAU"
+        },
+        "result": "Dec 10-8 OT",
+        "bout_number": 815,
+        "winner": {
+          "name": "JAMES MUSIALEK",
+          "team": "BLA"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_04",
+        "top_competitor": {
+          "name": "ALEX LAND",
+          "team": "MAF"
+        },
+        "bottom_competitor": {
+          "name": "ERIC CARLSON",
+          "team": "MOL"
+        },
+        "result": "Fall :42",
+        "bout_number": 816,
+        "winner": {
+          "name": "ERIC CARLSON",
+          "team": "MOL"
+        }
+      },
+      {
+        "match": "consolation_round5_01",
+        "top_competitor": {
+          "name": "DEREK COOPER",
+          "team": "SJO"
+        },
+        "bottom_competitor": {
+          "name": "ANDY WILSON",
+          "team": "PAN"
+        },
+        "result": "Dec 8-1",
+        "bout_number": 887,
+        "winner": {
+          "name": "ANDY WILSON",
+          "team": "PAN"
+        }
+      },
+      {
+        "match": "consolation_round5_02",
+        "top_competitor": {
+          "name": "JAMES MUSIALEK",
+          "team": "BLA"
+        },
+        "bottom_competitor": {
+          "name": "ERIC CARLSON",
+          "team": "MOL"
+        },
+        "result": "Fall 2\"13",
+        "bout_number": 888,
+        "winner": {
+          "name": "JAMES MUSIALEK",
+          "team": "BLA"
+        }
+      },
+      {
+        "match": "consolation_round6_semi_01",
+        "top_competitor": {
+          "name": "NICO JIMENEZ",
+          "team": "SCN"
+        },
+        "bottom_competitor": {
+          "name": "ANDY WILSON",
+          "team": "PAN"
+        },
+        "result": "Dec AA",
+        "bout_number": 919,
+        "winner": {
+          "name": "NICO JIMENEZ",
+          "team": "SCN"
+        }
+      },
+      {
+        "match": "consolation_round6_semi_02",
+        "top_competitor": {
+          "name": "BILLY GAVIN",
+          "team": "STT"
+        },
+        "bottom_competitor": {
+          "name": "JAMES MUSIALEK",
+          "team": "BLA"
+        },
+        "result": "Fall 3:53",
+        "bout_number": 920,
+        "winner": {
+          "name": "JAMES MUSIALEK",
+          "team": "BLA"
+        }
+      },
+      {
+        "match": "consolation_third_place",
+        "top_competitor": {
+          "name": "NICO JIMENEZ",
+          "team": "SCN"
+        },
+        "bottom_competitor": {
+          "name": "JAMES MUSIALEK",
+          "team": "BLA"
+        },
+        "result": "Fall 3:41",
+        "bout_number": 975,
+        "winner": {
+          "name": "JAMES MUSIALEK",
+          "team": "BLA"
+        }
+      },
+      {
+        "match": "consolation_fifth_place",
+        "top_competitor": {
+          "name": "ANDY WILSON",
+          "team": "PAN"
+        },
+        "bottom_competitor": {
+          "name": "BILLY GAVIN",
+          "team": "STT"
+        },
+        "result": "Fall 3:17",
+        "bout_number": 974,
+        "winner": {
+          "name": "ANDY WILSON",
+          "team": "PAN"
+        }
+      },
+      {
+        "match": "consolation_seventh_place",
+        "top_competitor": {
+          "name": "DEREK COOPER",
+          "team": "SJO"
+        },
+        "bottom_competitor": {
+          "name": "ERIC CARLSON",
+          "team": "MOL"
+        },
+        "result": "Dec 5-4",
+        "bout_number": 973,
+        "winner": {
+          "name": "ERIC CARLSON",
+          "team": "MOL"
+        }
+      }
+    ]
+  },
+  {
+    "division": "novice",
     "weight": 130,
     "matches": [
       {
@@ -23295,6 +24047,761 @@
         "winner": {
           "name": "GEORGE DONOVAN",
           "team": "BAD"
+        }
+      }
+    ]
+  },
+  {
+    "division": "senior",
+    "weight": 189,
+    "matches": [
+      {
+        "match": "championship_r32_01",
+        "top_competitor": {
+          "name": "JASON HILL",
+          "team": "TRI"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "JASON HILL",
+          "team": "TRI"
+        }
+      },
+      {
+        "match": "championship_r32_02",
+        "top_competitor": {
+          "name": "STEPHEN SMITH",
+          "team": "UNT"
+        },
+        "bottom_competitor": {
+          "name": "ANTHONY SOLIS",
+          "team": "MLM"
+        },
+        "result": "Fall 3:33",
+        "bout_number": 258,
+        "winner": {
+          "name": "STEPHEN SMITH",
+          "team": "UNT"
+        }
+      },
+      {
+        "match": "championship_r32_03",
+        "top_competitor": {
+          "name": "JUSTIN THRAILKILL",
+          "team": "CRY"
+        },
+        "bottom_competitor": {
+          "name": "STEPHEN STACK",
+          "team": "DAK"
+        },
+        "result": "Dec 6-4",
+        "bout_number": 259,
+        "winner": {
+          "name": "JUSTIN THRAILKILL",
+          "team": "CRY"
+        }
+      },
+      {
+        "match": "championship_r32_04",
+        "top_competitor": {
+          "name": "GARRETT GOEBEL",
+          "team": "MAF"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "GARRETT GOEBEL",
+          "team": "MAF"
+        }
+      },
+      {
+        "match": "championship_r32_05",
+        "top_competitor": {
+          "name": "CLAYTON KINGERY",
+          "team": "MAT"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "CLAYTON KINGERY",
+          "team": "MAT"
+        }
+      },
+      {
+        "match": "championship_r32_06",
+        "top_competitor": {
+          "name": "JASON SCHEPLER",
+          "team": "SYC"
+        },
+        "bottom_competitor": {
+          "name": "BEN BURTON",
+          "team": "MEN"
+        },
+        "result": "Fall :19",
+        "bout_number": 262,
+        "winner": {
+          "name": "JASON SCHEPLER",
+          "team": "SYC"
+        }
+      },
+      {
+        "match": "championship_r32_07",
+        "top_competitor": {
+          "name": "JONATHAN TRUMBULL",
+          "team": "PAN"
+        },
+        "bottom_competitor": {
+          "name": "JUSTIN HANEY",
+          "team": "MTV"
+        },
+        "result": "Fall 3:55",
+        "bout_number": 263,
+        "winner": {
+          "name": "JONATHAN TRUMBULL",
+          "team": "PAN"
+        }
+      },
+      {
+        "match": "championship_r32_08",
+        "top_competitor": {
+          "name": "EMILIO ALCARAZ",
+          "team": "SHA"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "EMILIO ALCARAZ",
+          "team": "SHA"
+        }
+      },
+      {
+        "match": "championship_r32_09",
+        "top_competitor": {
+          "name": "BRYCE TREVINO",
+          "team": "BEV"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "BRYCE TREVINO",
+          "team": "BEV"
+        }
+      },
+      {
+        "match": "championship_r32_10",
+        "top_competitor": {
+          "name": "TUCKER HAUPTMAN",
+          "team": "VIL"
+        },
+        "bottom_competitor": {
+          "name": "STEPHEN SIMPSON",
+          "team": "LIS"
+        },
+        "result": "Dec 8-6",
+        "bout_number": 266,
+        "winner": {
+          "name": "TUCKER HAUPTMAN",
+          "team": "VIL"
+        }
+      },
+      {
+        "match": "championship_r32_11",
+        "top_competitor": {
+          "name": "BEN APLAND",
+          "team": "DOW"
+        },
+        "bottom_competitor": {
+          "name": "JOHN FLYNN",
+          "team": "GRA"
+        },
+        "result": "Fall :48",
+        "bout_number": 267,
+        "winner": {
+          "name": "BEN APLAND",
+          "team": "DOW"
+        }
+      },
+      {
+        "match": "championship_r32_12",
+        "top_competitor": {
+          "name": "MICHAEL LETTON",
+          "team": "BRA"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "MICHAEL LETTON",
+          "team": "BRA"
+        }
+      },
+      {
+        "match": "championship_r32_13",
+        "top_competitor": {
+          "name": "ADAM HALM",
+          "team": "LEM"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "ADAM HALM",
+          "team": "LEM"
+        }
+      },
+      {
+        "match": "championship_r32_14",
+        "top_competitor": {
+          "name": "CALEB BLANEY",
+          "team": "TIG"
+        },
+        "bottom_competitor": {
+          "name": "MARIO GONZALEZ",
+          "team": "BLA"
+        },
+        "result": "Fall :55",
+        "bout_number": 270,
+        "winner": {
+          "name": "MARIO GONZALEZ",
+          "team": "BLA"
+        }
+      },
+      {
+        "match": "championship_r32_15",
+        "top_competitor": {
+          "name": "MATT TAYLOR",
+          "team": "EDW"
+        },
+        "bottom_competitor": {
+          "name": "NICKBRAMHALL",
+          "team": "EDW"
+        },
+        "result": "Fall 1:20",
+        "bout_number": 271,
+        "winner": {
+          "name": "MATT TAYLOR",
+          "team": "EDW"
+        }
+      },
+      {
+        "match": "championship_r32_16",
+        "top_competitor": {
+          "name": "AUSTIN MURRAY",
+          "team": "MOL"
+        },
+        "bottom_competitor": null,
+        "result": "Bye",
+        "bout_number": null,
+        "winner": {
+          "name": "AUSTIN MURRAY",
+          "team": "MOL"
+        }
+      },
+      {
+        "match": "championship_r16_01",
+        "top_competitor": {
+          "name": "JASON HILL",
+          "team": "TRI"
+        },
+        "bottom_competitor": {
+          "name": "STEPHEN SMITH",
+          "team": "UNT"
+        },
+        "result": "Fall :54",
+        "bout_number": 433,
+        "winner": {
+          "name": "STEPHEN SMITH",
+          "team": "UNT"
+        }
+      },
+      {
+        "match": "championship_r16_02",
+        "top_competitor": {
+          "name": "JUSTIN THRAILKILL",
+          "team": "CRY"
+        },
+        "bottom_competitor": {
+          "name": "GARRETT GOEBEL",
+          "team": "MAF"
+        },
+        "result": "Fall :21",
+        "bout_number": 434,
+        "winner": {
+          "name": "GARRETT GOEBEL",
+          "team": "MAF"
+        }
+      },
+      {
+        "match": "championship_r16_03",
+        "top_competitor": {
+          "name": "CLAYTON KINGERY",
+          "team": "MAT"
+        },
+        "bottom_competitor": {
+          "name": "JASON SCHEPLER",
+          "team": "SYC"
+        },
+        "result": "Fall 2:05",
+        "bout_number": 435,
+        "winner": {
+          "name": "JASON SCHEPLER",
+          "team": "SYC"
+        }
+      },
+      {
+        "match": "championship_r16_04",
+        "top_competitor": {
+          "name": "JONATHAN TRUMBULL",
+          "team": "PAN"
+        },
+        "bottom_competitor": {
+          "name": "EMILIO ALCARAZ",
+          "team": "SHA"
+        },
+        "result": "M-Dec 12-1",
+        "bout_number": 436,
+        "winner": {
+          "name": "JONATHAN TRUMBULL",
+          "team": "PAN"
+        }
+      },
+      {
+        "match": "championship_r16_05",
+        "top_competitor": {
+          "name": "BRYCE TREVINO",
+          "team": "BEV"
+        },
+        "bottom_competitor": {
+          "name": "TUCKER HAUPTMAN",
+          "team": "VIL"
+        },
+        "result": "T-Fall 17-1",
+        "bout_number": 437,
+        "winner": {
+          "name": "BRYCE TREVINO",
+          "team": "BEV"
+        }
+      },
+      {
+        "match": "championship_r16_06",
+        "top_competitor": {
+          "name": "BEN APLAND",
+          "team": "DOW"
+        },
+        "bottom_competitor": {
+          "name": "MICHAEL LETTON",
+          "team": "BRA"
+        },
+        "result": "M-Dec 13-3",
+        "bout_number": 438,
+        "winner": {
+          "name": "MICHAEL LETTON",
+          "team": "BRA"
+        }
+      },
+      {
+        "match": "championship_r16_07",
+        "top_competitor": {
+          "name": "ADAM HALM",
+          "team": "LEM"
+        },
+        "bottom_competitor": {
+          "name": "MARIO GONZALEZ",
+          "team": "BLA"
+        },
+        "result": "Fall :43",
+        "bout_number": 439,
+        "winner": {
+          "name": "MARIO GONZALEZ",
+          "team": "BLA"
+        }
+      },
+      {
+        "match": "championship_r16_08",
+        "top_competitor": {
+          "name": "MATT TAYLOR",
+          "team": "EDW"
+        },
+        "bottom_competitor": {
+          "name": "AUSTIN MURRAY",
+          "team": "MOL"
+        },
+        "result": "Fall :49",
+        "bout_number": 440,
+        "winner": {
+          "name": "AUSTIN MURRAY",
+          "team": "MOL"
+        }
+      },
+      {
+        "match": "championship_quarter_01",
+        "top_competitor": {
+          "name": "STEPHEN SMITH",
+          "team": "UNT"
+        },
+        "bottom_competitor": {
+          "name": "GARRETT GOEBEL",
+          "team": "MAF"
+        },
+        "result": "Fall :55",
+        "bout_number": 825,
+        "winner": {
+          "name": "GARRETT GOEBEL",
+          "team": "MAF"
+        }
+      },
+      {
+        "match": "championship_quarter_02",
+        "top_competitor": {
+          "name": "JASON SCHEPLER",
+          "team": "SYC"
+        },
+        "bottom_competitor": {
+          "name": "JONATHAN TRUMBULL",
+          "team": "PAN"
+        },
+        "result": "Fall :59",
+        "bout_number": 826,
+        "winner": {
+          "name": "JASON SCHEPLER",
+          "team": "SYC"
+        }
+      },
+      {
+        "match": "championship_quarter_03",
+        "top_competitor": {
+          "name": "BRYCE TREVINO",
+          "team": "BEV"
+        },
+        "bottom_competitor": {
+          "name": "MICHAEL LETTON",
+          "team": "BRA"
+        },
+        "result": "Dec 9-6",
+        "bout_number": 827,
+        "winner": {
+          "name": "BRYCE TREVINO",
+          "team": "BEV"
+        }
+      },
+      {
+        "match": "championship_quarter_04",
+        "top_competitor": {
+          "name": "MARIO GONZALEZ",
+          "team": "BLA"
+        },
+        "bottom_competitor": {
+          "name": "AUSTIN MURRAY",
+          "team": "MOL"
+        },
+        "result": "Dec 8-2",
+        "bout_number": 828,
+        "winner": {
+          "name": "AUSTIN MURRAY",
+          "team": "MOL"
+        }
+      },
+      {
+        "match": "championship_semi_01",
+        "top_competitor": {
+          "name": "GARRETT GOEBEL",
+          "team": "MAF"
+        },
+        "bottom_competitor": {
+          "name": "JASON SCHEPLER",
+          "team": "SYC"
+        },
+        "result": "Dec 8-4",
+        "bout_number": 1021,
+        "winner": {
+          "name": "GARRETT GOEBEL",
+          "team": "MAF"
+        }
+      },
+      {
+        "match": "championship_semi_02",
+        "top_competitor": {
+          "name": "BRYCE TREVINO",
+          "team": "BEV"
+        },
+        "bottom_competitor": {
+          "name": "AUSTIN MURRAY",
+          "team": "MOL"
+        },
+        "result": "Dec 6-2",
+        "bout_number": 1022,
+        "winner": {
+          "name": "BRYCE TREVINO",
+          "team": "BEV"
+        }
+      },
+      {
+        "match": "championship_first_place",
+        "top_competitor": {
+          "name": "GARRETT GOEBEL",
+          "team": "MAF"
+        },
+        "bottom_competitor": {
+          "name": "BRYCE TREVINO",
+          "team": "BEV"
+        },
+        "result": "Fall :58",
+        "bout_number": 1170,
+        "winner": {
+          "name": "GARRETT GOEBEL",
+          "team": "MAF"
+        }
+      },
+      {
+        "match": "consolation_round3_01",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "JUSTIN THRAILKILL",
+          "team": "CRY"
+        },
+        "result": "Bye",
+        "bout_number": 901,
+        "winner": {
+          "name": "JUSTIN THRAILKILL",
+          "team": "CRY"
+        }
+      },
+      {
+        "match": "consolation_round3_02",
+        "top_competitor": {
+          "name": "BEN BURTON",
+          "team": "MEN"
+        },
+        "bottom_competitor": {
+          "name": "CLAYTON KINGERY",
+          "team": "MAT"
+        },
+        "result": "Fall 1:16",
+        "bout_number": 902,
+        "winner": {
+          "name": "CLAYTON KINGERY",
+          "team": "MAT"
+        }
+      },
+      {
+        "match": "consolation_round3_03",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "TUCKER HAUPTMAN",
+          "team": "VIL"
+        },
+        "result": "Bye",
+        "bout_number": 903,
+        "winner": {
+          "name": "TUCKER HAUPTMAN",
+          "team": "VIL"
+        }
+      },
+      {
+        "match": "consolation_round3_04",
+        "top_competitor": null,
+        "bottom_competitor": {
+          "name": "MATT TAYLOR",
+          "team": "EDW"
+        },
+        "result": "Bye",
+        "bout_number": 904,
+        "winner": {
+          "name": "MATT TAYLOR",
+          "team": "EDW"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_01",
+        "top_competitor": {
+          "name": "JUSTIN THRAILKILL",
+          "team": "CRY"
+        },
+        "bottom_competitor": {
+          "name": "STEPHEN SMITH",
+          "team": "UNT"
+        },
+        "result": "Fall 1:43",
+        "bout_number": 977,
+        "winner": {
+          "name": "STEPHEN SMITH",
+          "team": "UNT"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_02",
+        "top_competitor": {
+          "name": "CLAYTON KINGERY",
+          "team": "MAT"
+        },
+        "bottom_competitor": {
+          "name": "JONATHAN TRUMBULL",
+          "team": "PAN"
+        },
+        "result": "Fall 3:13",
+        "bout_number": 978,
+        "winner": {
+          "name": "CLAYTON KINGERY",
+          "team": "MAT"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_03",
+        "top_competitor": {
+          "name": "TUCKER HAUPTMAN",
+          "team": "VIL"
+        },
+        "bottom_competitor": {
+          "name": "MICHAEL LETTON",
+          "team": "BRA"
+        },
+        "result": "Fall :52",
+        "bout_number": 979,
+        "winner": {
+          "name": "MICHAEL LETTON",
+          "team": "BRA"
+        }
+      },
+      {
+        "match": "consolation_round4_blood_04",
+        "top_competitor": {
+          "name": "MATT TAYLOR",
+          "team": "EDW"
+        },
+        "bottom_competitor": {
+          "name": "MARIO GONZALEZ",
+          "team": "BLA"
+        },
+        "result": "Fall :53",
+        "bout_number": 980,
+        "winner": {
+          "name": "MARIO GONZALEZ",
+          "team": "BLA"
+        }
+      },
+      {
+        "match": "consolation_round5_01",
+        "top_competitor": {
+          "name": "STEPHEN SMITH",
+          "team": "UNT"
+        },
+        "bottom_competitor": {
+          "name": "CLAYTON KINGERY",
+          "team": "MAT"
+        },
+        "result": "Dec 10-4",
+        "bout_number": 1059,
+        "winner": {
+          "name": "STEPHEN SMITH",
+          "team": "UNT"
+        }
+      },
+      {
+        "match": "consolation_round5_02",
+        "top_competitor": {
+          "name": "MICHAEL LETTON",
+          "team": "BRA"
+        },
+        "bottom_competitor": {
+          "name": "MARIO GONZALEZ",
+          "team": "BLA"
+        },
+        "result": "M-Dec 15-4",
+        "bout_number": 1060,
+        "winner": {
+          "name": "MICHAEL LETTON",
+          "team": "BRA"
+        }
+      },
+      {
+        "match": "consolation_round6_semi_01",
+        "top_competitor": {
+          "name": "JASON SCHEPLER",
+          "team": "SYC"
+        },
+        "bottom_competitor": {
+          "name": "STEPHEN SMITH",
+          "team": "UNT"
+        },
+        "result": "Fall 0:49",
+        "bout_number": 1097,
+        "winner": {
+          "name": "JASON SCHEPLER",
+          "team": "SYC"
+        }
+      },
+      {
+        "match": "consolation_round6_semi_02",
+        "top_competitor": {
+          "name": "AUSTIN MURRAY",
+          "team": "MOL"
+        },
+        "bottom_competitor": {
+          "name": "MICHAEL LETTON",
+          "team": "BRA"
+        },
+        "result": "Fall 0:59",
+        "bout_number": 1098,
+        "winner": {
+          "name": "MICHAEL LETTON",
+          "team": "BRA"
+        }
+      },
+      {
+        "match": "consolation_third_place",
+        "top_competitor": {
+          "name": "JASON SCHEPLER",
+          "team": "SYC"
+        },
+        "bottom_competitor": {
+          "name": "MICHAEL LETTON",
+          "team": "BRA"
+        },
+        "result": "Fall 1:32",
+        "bout_number": 1169,
+        "winner": {
+          "name": "MICHAEL LETTON",
+          "team": "BRA"
+        }
+      },
+      {
+        "match": "consolation_fifth_place",
+        "top_competitor": {
+          "name": "STEPHEN SMITH",
+          "team": "UNT"
+        },
+        "bottom_competitor": {
+          "name": "AUSTIN MURRAY",
+          "team": "MOL"
+        },
+        "result": "Fall 1:43",
+        "bout_number": 1168,
+        "winner": {
+          "name": "AUSTIN MURRAY",
+          "team": "MOL"
+        }
+      },
+      {
+        "match": "consolation_seventh_place",
+        "top_competitor": {
+          "name": "CLAYTON KINGERY",
+          "team": "MAT"
+        },
+        "bottom_competitor": {
+          "name": "MARIO GONZALEZ",
+          "team": "BLA"
+        },
+        "result": "Fall 3:57",
+        "bout_number": 1167,
+        "winner": {
+          "name": "MARIO GONZALEZ",
+          "team": "BLA"
         }
       }
     ]

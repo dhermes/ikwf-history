@@ -66,6 +66,14 @@ We haven't yet found brackets, but we do have placers and team scores from
 {{< collapsible title="2001" >}}
 
 <!--
+
+204 Teams
+7304 Wrestlers
+1538 Coaches
+85 Events
+
+-----------------------------------------------------------------
+
 Junior Division
 
 1. Fox Valley - 294
@@ -120,6 +128,22 @@ Junior Division
 
 {{< collapsible title="2002" >}}
 
+<!--
+
+229 Teams
+9612 Wrestlers
+2020 Coaches
+117 Events
+
+--------------------------------------------------------------------------------
+
+http://ikwf.org/novice02.htm
+http://www.ikwf.org/novicetm02.htm
+http://ikwf.org/senior02.htm
+http://www.ikwf.org/seniortm02.htm
+
+-->
+
 - [Novice Team Scores](/team-scores/2002/novice.html)
 - [Novice 62](/brackets/2002/novice/62.html)
 - [Novice 66](/brackets/2002/novice/66.html)
@@ -161,6 +185,16 @@ Junior Division
 {{< /collapsible >}}
 
 {{< collapsible title="2003" >}}
+
+<!--
+
+http://ikwf.org/novice-03.htm
+http://ikwf.org/novicetm-03.htm
+http://ikwf.org/senior-03.htm
+http://ikwf.org/seniortm-03.htm
+http://www.ikwf.org/Dual_State_2003.htm
+
+-->
 
 - [Novice Team Scores](/team-scores/2003/novice.html)
 - [Novice 62](/brackets/2003/novice/62.html)
@@ -204,6 +238,37 @@ Junior Division
 
 {{< collapsible title="2004" >}}
 
+<!--
+
+http://ikwf.org/clubs.html
+http://ikwf.org/rosters.htm
+http://www.ikwf.org/images/c.pdf (Central Rosters)
+http://www.ikwf.org/images/cc.pdf (Central Chicago Rosters)
+http://www.ikwf.org/images/nc.pdf (North Chicago Rosters)
+http://www.ikwf.org/images/n.pdf (North Rosters)
+http://www.ikwf.org/images/s.pdf (South Rosters)
+http://www.ikwf.org/images/sc.pdf (South Chicago Rosters) -- MISSING
+http://www.ikwf.org/images/w.pdf (West Rosters)
+http://www.ikwf.org/images/wc.pdf (West Chicago Rosters) -- MISSING
+http://www.ikwf.org/images/clubsbyname.pdf
+http://www.ikwf.org/Dual_State_2004.htm
+http://www.ikwf.org/tournaments/regional%20sites.htm
+
+http://www.ikwf.org/brackets/state_tournament_info_2004.html
+
+http://www.ikwf.org/brackets/novice/novicehome.htm (Team Scores)
+http://www.ikwf.org/brackets/novice/novicebrk.htm (Brackets)
+http://www.ikwf.org/brackets/novice/novicetm.htm (Team Directory)
+http://www.ikwf.org/brackets/novice/novicewt.htm (Weight Directory)
+
+http://www.ikwf.org/brackets/senior/seniorhome.htm (Team Scores)
+http://ikwf.org/brackets/senior/seniorbrk.htm (Brackets)
+http://www.ikwf.org/brackets/senior/seniortm.htm (Team Directory)
+http://www.ikwf.org/brackets/senior/seniorwt.htm (Weight Directory)
+
+
+-->
+
 - [Novice Team Scores](/team-scores/2004/novice.html)
 - [Novice 62](/brackets/2004/novice/62.html)
 - [Novice 66](/brackets/2004/novice/66.html)
@@ -216,7 +281,7 @@ Junior Division
 - [Novice 101](/brackets/2004/novice/101.html)
 - [Novice 108](/brackets/2004/novice/108.html)
 - [Novice 115](/brackets/2004/novice/115.html)
-- **Novice 122** missing
+- [Novice 122](/brackets/2004/novice/122.html)
 - [Novice 130](/brackets/2004/novice/130.html)
 - [Novice 147](/brackets/2004/novice/147.html)
 - [Novice 166](/brackets/2004/novice/166.html)
@@ -238,7 +303,7 @@ Junior Division
 - [Senior 156](/brackets/2004/senior/156.html)
 - [Senior 166](/brackets/2004/senior/166.html)
 - [Senior 177](/brackets/2004/senior/177.html)
-- **Senior 189** missing
+- [Senior 189](/brackets/2004/senior/189.html)
 - [Senior 215](/brackets/2004/senior/215.html)
 - [Senior 275](/brackets/2004/senior/275.html)
 

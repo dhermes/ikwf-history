@@ -422,7 +422,7 @@ def _replace_extra_bouts(value, lowest, highest, replace_with):
 
 def novice_2004():
     weights_pre = {}
-    weights = (62, 66, 70, 74, 79, 84, 89, 95, 101, 108, 115, 130, 147, 166, 215)
+    weights = (62, 66, 70, 74, 79, 84, 89, 95, 101, 108, 115, 122, 130, 147, 166, 215)
     path_prefix = HERE / ".." / "raw-data" / "2004" / "novice"
 
     for weight in weights:
@@ -500,6 +500,7 @@ def senior_2004():
         156,
         166,
         177,
+        189,
         215,
         275,
     )
