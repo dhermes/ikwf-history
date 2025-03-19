@@ -158,92 +158,63 @@ def maybe_r32_empty_bye(
 
 
 class Competitor(pydantic.BaseModel):
-    name: str
+    first_name: str
+    last_name: str
+    suffix: str | None = pydantic.Field(default=None)
     team: str
-    first_name: str | None = pydantic.Field(default=None, exclude=True)
-    last_name: str | None = pydantic.Field(default=None, exclude=True)
-    suffix: str | None = pydantic.Field(default=None, exclude=True)
 
 
 NAME_EXCEPTIONS: dict[tuple[str, str], Competitor] = {
     ("ANTHONY RICH JR", "LPC"): Competitor(
-        team="LPC",
-        name="ANTHONY RICH JR",
         first_name="ANTHONY",
         last_name="RICH",
         suffix="JR",
+        team="LPC",
     ),
     ("BJ FUTRELL II", "HAE"): Competitor(
-        team="HAE",
-        name="BJ FUTRELL II",
         first_name="BJ",
         last_name="FUTRELL",
         suffix="II",
+        team="HAE",
     ),
     ("CARL FORESIDE, JR.", "GLA"): Competitor(
-        team="GLA",
-        name="CARL FORESIDE, JR.",
         first_name="CARL",
         last_name="FORESIDE",
         suffix="JR",
+        team="GLA",
     ),
     ("CASEY MC MURRAY", "LIO"): Competitor(
-        team="LIO", name="CASEY MC MURRAY", first_name="CASEY", last_name="MC MURRAY"
+        first_name="CASEY", last_name="MC MURRAY", team="LIO"
     ),
     ("DWIGHT MC CALL", "ROK"): Competitor(
-        team="ROK", name="DWIGHT MC CALL", first_name="DWIGHT", last_name="MC CALL"
+        first_name="DWIGHT", last_name="MC CALL", team="ROK"
     ),
     ("GINO DE FRANCISCO", "HOF"): Competitor(
-        team="HOF",
-        name="GINO DE FRANCISCO",
-        first_name="GINO",
-        last_name="DE FRANCISCO",
+        first_name="GINO", last_name="DE FRANCISCO", team="HOF"
     ),
     ("JAMES VAN SOMEREN", "WHF"): Competitor(
-        team="WHF",
-        name="JAMES VAN SOMEREN",
-        first_name="JAMES",
-        last_name="VAN SOMEREN",
+        first_name="JAMES", last_name="VAN SOMEREN", team="WHF"
     ),
     ("JOSHUA VAN BEHREN", "UNI"): Competitor(
-        team="UNI",
-        name="JOSHUA VAN BEHREN",
-        first_name="JOSHUA",
-        last_name="VAN BEHREN",
+        first_name="JOSHUA", last_name="VAN BEHREN", team="UNI"
     ),
     ("MARCUS MC CALL", "ROK"): Competitor(
-        team="ROK", name="MARCUS MC CALL", first_name="MARCUS", last_name="MC CALL"
+        first_name="MARCUS", last_name="MC CALL", team="ROK"
     ),
     ("MICHAEL MATOZZI, JR.", "OSW"): Competitor(
-        team="OSW",
-        name="MICHAEL MATOZZI, JR.",
-        first_name="MICHAEL",
-        last_name="MATOZZI",
-        suffix="JR",
+        first_name="MICHAEL", last_name="MATOZZI", suffix="JR", team="OSW"
     ),
     ("REGINALD WILSON JR", "FOR"): Competitor(
-        team="FOR",
-        name="REGINALD WILSON JR",
-        first_name="REGINALD",
-        last_name="WILSON",
-        suffix="JR",
+        first_name="REGINALD", last_name="WILSON", suffix="JR", team="FOR"
     ),
     ("ROBERT PROVAX III", "NOT"): Competitor(
-        team="NOT",
-        name="ROBERT PROVAX III",
-        first_name="ROBERT",
-        last_name="PROVAX",
-        suffix="III",
+        first_name="ROBERT", last_name="PROVAX", suffix="III", team="NOT"
     ),
     ("RONALD REEVES JR", "TRI"): Competitor(
-        team="TRI",
-        name="RONALD REEVES JR",
-        first_name="RONALD",
-        last_name="REEVES",
-        suffix="JR",
+        first_name="RONALD", last_name="REEVES", suffix="JR", team="TRI"
     ),
     ("T. J. WARNER", "HOO"): Competitor(
-        team="HOO", name="T. J. WARNER", first_name="T. J.", last_name="WARNER"
+        first_name="T. J.", last_name="WARNER", team="HOO"
     ),
 }
 
