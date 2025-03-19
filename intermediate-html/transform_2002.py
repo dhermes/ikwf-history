@@ -364,3 +364,44 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# Approximate team scoring, BLA (BLACKHAWK WC), 33.00 points, Novice 2002
+# - 84: KYLE JACKSON (3rd place)
+#   - R32: MD (2 + 1 = 3)
+#   - R16: MD (2 + 1 = 3)
+#   - QF: MD (2 + 1 = 3)
+#   - SF: Loss (0)
+#   - C-SF: MD (1 + 1 = 2)
+#   - 3P: D (9 + 0 = 9)
+#   - TOTAL: 20
+# - 101: JONATHAN DRENDEL (8th place)
+#   - R32: F (2 + 2 = 4)
+#   - R16: F (2 + 2 = 4)
+#   - QF: Loss (0)
+#   - C-Blood: F (1 + 2 = 3)
+#   - C-QF: Loss (0)
+#   - 7P: Loss (1 + 0 = 1)
+#   - TOTAL: 12
+# APPROXIMATE SCORE: 32
+
+# Example team scoring, BLA (BRAWLERS WC), 33.00 points, Novice 2002
+# - 74: JONATHON YOUNG (0 points)
+#   - R32: Loss (0)
+#   - TOTAL: 0
+# - 147: ROBERT PEREZ (3rd place)
+#   - R32: Bye (4, inherited from R16)
+#   - R16: F (2 + 2 = 4)
+#   - QF: Loss (0)
+#   - C-Blood: F (1 + 2 = 3)
+#   - C-QF: F (1 + 2 = 3)
+#   - C-SF: F (1 + 2 = 3)
+#   - 3P: F (9 + 2 = 11)
+#   - TOTAL: 28
+# - 166: MICHAEL LETTON
+#   - R32: D (2 + 0 = 2)
+#   - R16: Loss (0)
+#   - C-R3: Bye (0)
+#   - C-Blood: Loss (0)
+#   - TOTAL: 2
+# APPROXIMATE SCORE: 30

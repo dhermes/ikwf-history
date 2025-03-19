@@ -7,6 +7,44 @@ We have **some** but not **all** data for some years.
 - Novice 2000: **MISSING** Team Scores (as of 2025-03-18)
 - Senior 2000: **MISSING** Team Scores (as of 2025-03-18)
 
+## Team scoring
+
+As of 2025 bylaws (`bylaws_2024-25.pdf`), team scoring at the state tournament
+is as follows (`22.8.3`):
+
+- 16 points for 1st place
+- 12 points for 2nd place
+- 9 points for 3rd place
+- 7 points for 4th place
+- 5 points for 5th place
+- 3 points for 6th place
+- 2 points for 7th place
+- 1 point for 8th place.
+
+and advancement points (`22.8.4.1`):
+
+- 2 advancement points will be credited to a team's total for
+  each match won in the championship bracket
+- 1 advancement point in the consolation bracket
+- Except the first, third, fifth, and seventh place bouts
+
+and bonus points (`22.8.4.2`, `22.8.4.3`, `22.8.4.4`):
+
+- 2 additional points will be awarded for a win by fall, default,
+  disqualification, or forfeit
+- 1.5 additional points shall be awarded for each win by technical fall
+- 1 additional point shall be awarded for each win by major decision
+
+and handling byes (`22.8.4.5`):
+
+- If a wrestler receives a bye in the preliminary round of competition, he/she
+  shall be awarded 2 advancement points for that round if he/she wins his/her
+  next match. Bonus points shall be duplicated as well. If one match is wrestled
+  in a round, all other wrestlers in that bracket shall receive byes for that
+  round. In consolation brackets, the same rule applies. In both cases, no
+  points shall be awarded for the bye if the wrestler loses his/her next match
+  after the bye.
+
 ## Notable changes over time
 
 ### 2001
