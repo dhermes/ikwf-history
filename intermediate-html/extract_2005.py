@@ -6,6 +6,7 @@ import pathlib
 import bs4
 
 HERE = pathlib.Path(__file__).resolve().parent
+EMPTY_SLOT = "                               "
 
 
 def print_lines(search_lines):
@@ -160,22 +161,22 @@ def maybe_r32_empty_bye(
 ):
     top_competitor = None
     top_competitor_str = championship_lines[start_index][:31]
-    if top_competitor_str != "                          ":
+    if top_competitor_str != EMPTY_SLOT:
         top_competitor = parse_competitor(top_competitor_str)
 
     bottom_competitor = None
     bottom_competitor_str = championship_lines[start_index + 2][:31]
-    if bottom_competitor_str != "                          ":
+    if bottom_competitor_str != EMPTY_SLOT:
         bottom_competitor = parse_competitor(bottom_competitor_str)
 
     bout_number_str = championship_lines[start_index + 1][:31]
     bout_number = None
-    if bout_number_str != "                               ":
+    if bout_number_str != EMPTY_SLOT:
         bout_number = parse_bout_number(bout_number_str)
 
     result_str = championship_lines[start_index + 2][31:62]
     result = ""
-    if result_str != "                               ":
+    if result_str != EMPTY_SLOT:
         result = parse_bout_result(result_str)
 
     return {
