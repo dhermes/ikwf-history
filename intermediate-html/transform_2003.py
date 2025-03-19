@@ -1,6 +1,5 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
-import json
 import pathlib
 from typing import Literal
 
@@ -417,14 +416,15 @@ def main():
                 if not any(to_add == seen for seen in existing):
                     existing.append(to_add)
 
-    print({team: "TODO" for team in sorted(all_competitors_by_team.keys())})
+    team_acronyms = sorted(all_competitors_by_team.keys())
+    for acronym in team_acronyms:
+        known = TEAM_ACRONYM_MAPPING.get(acronym, "TODO")
+        if known != "TODO":
+            continue
 
-    team_name = "VIT"
-    print(f"Team: {team_name}")
-    for competitor in all_competitors_by_team[team_name]:
-        print(f"  {competitor}")
-
-    raise NotImplementedError(len(weight_classes))
+        print(f"Team: {acronym}")
+        for competitor in all_competitors_by_team[acronym]:
+            print(f"  {competitor}")
 
 
 if __name__ == "__main__":

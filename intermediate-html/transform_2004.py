@@ -1,181 +1,183 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
-import json
 import pathlib
+from typing import Literal
+
+import pydantic
 
 HERE = pathlib.Path(__file__).resolve().parent
 TEAM_ACRONYM_MAPPING = {
-    "ABC": "TODO",
-    "ANI": "TODO",
-    "ARG": "TODO",
-    "ARL": "TODO",
-    "BAB": "TODO",
-    "BAD": "TODO",
-    "BAH": "TODO",
-    "BAT": "TODO",
-    "BEL": "TODO",
-    "BEN": "TODO",
-    "BET": "TODO",
-    "BEV": "TODO",
-    "BIS": "TODO",
-    "BLA": "TODO",
-    "BLO": "TODO",
-    "BLZ": "TODO",
-    "BRA": "TODO",
-    "BSH": "TODO",
-    "CAL": "TODO",
-    "CAR": "TODO",
-    "CAY": "TODO",
-    "CEN": "TODO",
-    "CHA": "TODO",
-    "CHE": "TODO",
-    "CHL": "TODO",
-    "CHR": "TODO",
-    "CRY": "TODO",
-    "CUM": "TODO",
-    "DAK": "TODO",
-    "DEK": "TODO",
-    "DIX": "TODO",
-    "DOW": "TODO",
-    "DUN": "TODO",
-    "DUR": "TODO",
-    "EDW": "TODO",
-    "EFF": "TODO",
-    "ELP": "TODO",
-    "ERI": "TODO",
-    "ERV": "TODO",
-    "FAC": "TODO",
-    "FAL": "TODO",
-    "FEN": "TODO",
-    "FIS": "TODO",
-    "FOX": "TODO",
-    "FTN": "TODO",
-    "GAL": "TODO",
-    "GEE": "TODO",
-    "GEV": "TODO",
-    "GLN": "TODO",
-    "GRA": "TODO",
-    "GRD": "TODO",
-    "HAE": "TODO",
-    "HAR": "TODO",
-    "HER": "TODO",
-    "HIG": "TODO",
+    "ABC": "ALEDO BEAR COUNTRY WC",
+    "ANI": "ANIMALS WC",
+    "ARG": "ARGENTA/OREANA KIDS CLUB",
+    "ARL": "ARLINGTON CARDINALS",
+    "BAB": "BARRINGTON BRONCOS",
+    "BAD": "BADGER WC",
+    "BAH": "BARTLETT JR HAWKS",
+    "BAT": "BATAVIA PINNERS",
+    "BEL": "BELLEVILLE LITTLE DEVILS",
+    "BEN": "BENTON JR WC",
+    "BET": "BETHALTO BULLS WC",
+    "BEV": "BELVIDERE BANDITS",
+    "BIS": "BISON WC",
+    "BLA": "BLACKHAWK WC",
+    "BLO": "BLOOMINGTON RAIDER WC",
+    "BLZ": "BLAZER KIDS",
+    "BRA": "BRAWLERS WC",
+    "BSH": "BISMARCK HENNING WRESTLING CLUB",
+    "CAL": "CARLINVILLE KIDS WC",
+    "CAR": "CARBONDALE WC",
+    "CAY": "CARY JR TROJAN MATMEN",
+    "CEN": "CENTRAL WRESTLING CLUB",
+    "CHA": "CHAMPAIGN KIDS WRESTLING",
+    "CHE": "CHENOA MAT CATS",
+    "CHL": "CHILLI DAWGS WC",
+    "CHR": "CHARLESTON WC",
+    "CRY": "CRYSTAL LAKE WIZARDS",
+    "CUM": "CUMBERLAND YOUTH WC",
+    "DAK": "DAKOTA WC",
+    "DEK": "DEKALB WC",
+    "DIX": "DIXON WC",
+    "DOW": "DOWNERS GROVE COUGARS",
+    "DUN": "DUNDEE HIGHLANDERS",
+    "DUR": "DU-PEC CARNIVORES",
+    "EDW": "EDWARDSVILLE WC",
+    "EFF": "EFFINGHAM YOUTH WC",
+    "ELP": "EL PASO WC",
+    "ERI": "ERIE MIDDLE SCHOOL WC",
+    "ERV": "ERVIN WC",
+    "FAC": "FALCON YOUTH WC",
+    "FAL": "FALCON WRESTLING CLUB",
+    "FEN": "FENWICK FALCONS WC",
+    "FIS": "FISHER WC",
+    "FOX": "FOX VALLEY WC",
+    "FTN": "FIGHTIN TITAN WC",
+    "GAL": "GALESBURG JR STREAKS",
+    "GEE": "GENESEO WC",
+    "GEV": "GENEVA WC",
+    "GLN": "GLENBARD EAST JR RAMS",
+    "GRA": "GRANITE CITY JR WARRIORS",
+    "GRD": "GRAPPLIN' DEVILS",
+    "HAE": "HARVEY PARK DIST TWISTERS",
+    "HAR": "HARLEM COUGARS",
+    "HER": "HERRIN WC",
+    "HIG": "HIGHLAND BULLDOG JR WC",
     "HIL": "HILLSBORO JR TOPPERS",
-    "HIN": "TODO",
-    "HOF": "TODO",
-    "HON": "TODO",
-    "HOO": "TODO",
-    "JAC": "TODO",
-    "JOL": "TODO",
-    "JRC": "TODO",
-    "JRG": "TODO",
-    "JRM": "TODO",
-    "JRS": "TODO",
-    "JRX": "TODO",
-    "KNI": "TODO",
-    "LAE": "TODO",
-    "LAW": "TODO",
-    "LEM": "TODO",
-    "LHI": "TODO",
-    "LIM": "TODO",
-    "LIN": "TODO",
-    "LIS": "TODO",
-    "LLC": "TODO",
-    "LLG": "TODO",
-    "LLH": "TODO",
-    "LLI": "TODO",
-    "LLV": "TODO",
-    "LOC": "TODO",
-    "LPC": "TODO",
-    "LRB": "TODO",
-    "LRS": "TODO",
-    "LWN": "TODO",
-    "M-S": "TODO",
-    "MAC": "TODO",
-    "MAF": "TODO",
-    "MAI": "TODO",
-    "MAR": "TODO",
-    "MAT": "TODO",
-    "MEN": "TODO",
-    "MET": "TODO",
-    "MID": "TODO",
-    "MLM": "TODO",
-    "MOL": "TODO",
-    "MRS": "TODO",
-    "MRT": "TODO",
-    "MTV": "TODO",
-    "MTZ": "TODO",
-    "MUR": "TODO",
-    "MUS": "TODO",
-    "NAP": "TODO",
-    "NOT": "TODO",
-    "OAK": "TODO",
-    "OAL": "TODO",
-    "OAW": "TODO",
-    "OFL": "TODO",
-    "ORL": "TODO",
-    "OSW": "TODO",
-    "PAN": "TODO",
-    "PJP": "TODO",
-    "PLA": "TODO",
-    "PLP": "TODO",
-    "PLT": "TODO",
-    "POL": "TODO",
-    "PON": "TODO",
-    "PRO": "TODO",
-    "PWR": "TODO",
-    "RCK": "TODO",
-    "RCM": "TODO",
-    "RCR": "TODO",
-    "RDW": "TODO",
-    "RIC": "TODO",
-    "RIV": "TODO",
-    "ROC": "TODO",
-    "ROF": "TODO",
-    "ROK": "TODO",
-    "ROX": "TODO",
-    "RVD": "TODO",
-    "SAU": "TODO",
-    "SAV": "TODO",
-    "SBA": "TODO",
-    "SCE": "TODO",
-    "SCN": "TODO",
-    "SEN": "TODO",
-    "SHA": "TODO",
-    "SHB": "TODO",
-    "SHR": "TODO",
-    "SJO": "TODO",
-    "SPR": "TODO",
-    "STI": "TODO",
-    "STR": "TODO",
-    "STT": "TODO",
-    "SYC": "TODO",
-    "TAY": "TODO",
-    "TBI": "TODO",
-    "TIG": "TODO",
-    "TIN": "TODO",
-    "TKD": "TODO",
-    "TOM": "TODO",
-    "TRC": "TODO",
-    "TRI": "TODO",
-    "TRV": "TODO",
-    "TTT": "TODO",
-    "TWC": "TODO",
-    "UNI": "TODO",
-    "UNT": "TODO",
-    "VAN": "TODO",
-    "VIL": "TODO",
-    "VIT": "TODO",
-    "WAR": "TODO",
-    "WAU": "TODO",
-    "WET": "TODO",
-    "WHM": "TODO",
-    "WHT": "TODO",
-    "WOL": "TODO",
-    "WRE": "TODO",
-    "YNC": "TODO",
-    "YOR": "TODO",
-    "ZBS": "TODO",
+    "HIN": "HINSDALE RED DEVIL WC",
+    "HOF": "HOFFMAN ESTATES WC",
+    "HON": "HONONEGAH KIDS WC",
+    "HOO": "HOOPESTON AREA WC",
+    "JAC": "JACKSONVILLE WC",
+    "JOL": "JOLIET BOYS CLUB COBRAS",
+    "JRC": "JR. COUGARS WC",
+    "JRG": "JR. GOLDEN EAGLES",
+    "JRM": "JR. MAROON WC",
+    "JRS": "JR. SENTINELS",
+    "JRX": "JR. SAXONS WC",
+    "KNI": "KNIGHTS WRESTLING",
+    "LAE": "LAKELAND PREDATORS",
+    "LAW": "LAWRENCE COUNTY WC",
+    "LEM": "LEMONT BEARS WC",
+    "LHI": "LIONHEART INTENSE WRESTLING",
+    "LIM": "LIMESTONE YOUTH ROCKET WC",
+    "LIN": "LINCOLN-WAY WC",
+    "LIS": "LIL' STORM YOUTH WRESTLING",
+    "LLC": "LITTLE CELTIC WC",
+    "LLG": "LITTLE GIANTS WC",
+    "LLH": "LITTLE HUSKIE WC",
+    "LLI": "LITTLE INDIANS",
+    "LLV": "LITTLE VIKING WC OF H-F",
+    "LOC": "LOCKPORT GATORS WC",
+    "LPC": "L-P CRUNCHING CAVS",
+    "LRB": "LITTLE REDBIRD WC",
+    "LRS": "LITTLE REDSKINS WC",
+    "LWN": "PANTHER CUB WRESTLING CLUB",
+    "M-S": "M-S KIDS CLUB",
+    "MAC": "MACOMB LITTLE BOMBERS",
+    "MAF": "MARTINEZ FOX VALLEY ELITE WC",
+    "MAI": "MAINE EAGLES WC",
+    "MAR": "MARENGO WC",
+    "MAT": "MATTOON YOUTH WC",
+    "MEN": "MENDOTA MAT MASTERS",
+    "MET": "METAMORA KIDS WC",
+    "MID": "MIDWEST CENTRAL YOUTH",
+    "MLM": "MORTON LITTLE MUSTANGS",
+    "MOL": "MOLINE WC",
+    "MRS": "MORRISON STALLIONS WC",
+    "MRT": "MORTON YOUTH WRESTLING",
+    "MTV": "MT. VERNON LIONS",
+    "MTZ": "MT. ZION WC",
+    "MUR": "MURPHYSBORO WRESTLING",
+    "MUS": "MUSTANG WC",
+    "NAP": "NAPERVILLE WC",
+    "NOT": "NOTRE DAME WRESTLING",
+    "OAK": "OAK FOREST WARRIORS",
+    "OAL": "OAK LAWN P.D. WILDCATS",
+    "OAW": "OAKWOOD WC",
+    "OFL": "O'FALLON LITTLE PANTHERS",
+    "ORL": "ORLAND PARK PIONEERS",
+    "OSW": "OSWEGO PANTHERS",
+    "PAN": "PANTHER WC",
+    "PJP": "PALATINE JUNIOR PIRATES",
+    "PLA": "PLAINFIELD WC",
+    "PLP": "PALATINE PANTHERS WC",
+    "PLT": "PLAINFIELD TORNADOES WC",
+    "POL": "POLO WC",
+    "PON": "PONTIAC PYTHONS",
+    "PRO": "PROVISO POWERHOUSE WC",
+    "PWR": "PANTHER POWERHOUSE WC",
+    "RCK": "REED CUSTER KNIGHTS",
+    "RCM": "RICHMOND WRESTLING CLUB",
+    "RCR": "ROCK RIDGE WC",
+    "RDW": "ROAD WARRIORS",
+    "RIC": "RICH RATTLERS WC",
+    "RIV": "RIVERBEND WC",
+    "ROC": "ROCHELLE WC",
+    "ROF": "ROCKFORD WC",
+    "ROK": "ROCK ISLAND WC",
+    "ROX": "ROXANA KIDS WRESTLING CLUB",
+    "RVD": "RIVERDALE JR. RAMS WC",
+    "SAU": "SAUKEE YOUTH WC",
+    "SAV": "SAVANNA REDHAWKS",
+    "SBA": "SILVER & BLACK ATTACK",
+    "SCE": "ST. CHARLES EAST WC",
+    "SCN": "SCN YOUTH WC",
+    "SEN": "SENECA IRISH CADETS",
+    "SHA": "SHAMROCK WC",
+    "SHB": "SHELBYVILLE JR RAMS WRESTLING",
+    "SHR": "SHERRARD JR WC",
+    "SJO": "SJO SPARTAN YOUTH WC",
+    "SPR": "SPRINGFIELD CAPITALS",
+    "STI": "STILLMAN VALLEY WC",
+    "STR": "STERLING NEWMAN JR COMETS",
+    "STT": "ST. TARCISSUS",
+    "SYC": "SYCAMORE WC",
+    "TAY": "TAYLORVILLE WC",
+    "TBI": "T-BIRD RAIDER WRESTLING",
+    "TIG": "TIGER WC",
+    "TIN": "TINLEY PARK BULLDOGS",
+    "TKD": "TAKEDOWN WC",
+    "TOM": "TOMCAT WC",
+    "TRC": "TRI-CITY BRAVES",
+    "TRI": "TRIAD KNIGHTS",
+    "TRV": "TREVIAN WC",
+    "TTT": "TIGERTOWN TANGLERS",
+    "TWC": "TWIN CITY WC",
+    "UNI": "UNITY WC",
+    "UNT": "UNITED TOWNSHIP WC",
+    "VAN": "VANDALIA JR WRESTLING",
+    "VIL": "VILLA LOMBARD COUGARS",
+    "VIT": "VITTUM CATS",
+    "WAR": "WARRENSBURG WC",
+    "WAU": "WAUBONSIE WC",
+    "WET": "WESTVILLE YOUTH WC",
+    "WHM": "WHEATON MONROE EAGLES",
+    "WHT": "WHEATON TIGER WC",
+    "WOL": "WOLFPAK WC",
+    "WRE": "WRESTLING FACTORY",
+    "YNC": "YOUNG CHAMPIONS",
+    "YOR": "YORKVILLE WRESTLING CLUB",
+    "ZBS": "ZEE-BEE STINGERS",
 }
 TEAM_NAME_MAPPING = {
     "ACES WC": -40109,
@@ -192,8 +194,8 @@ TEAM_NAME_MAPPING = {
     "BELVIDERE BANDITS": -40109,
     "BENTON JR WC": -40109,
     "BETHALTO BULLS WC": -40109,
-    "BISMARCK HENNING WRESTLING CLUB": -40109,
-    "BISMARK-HENNING": -40109,
+    "BISMARCK HENNING WRESTLING CLUB": -40109,  # Senior
+    "BISMARK-HENNING": -40109,  # Novice
     "BISON WC": -40109,
     "BLACK KATS WC": -40109,
     "BLACKHAWK WC": -40109,
@@ -413,24 +415,142 @@ TEAM_NAME_MAPPING = {
 }
 
 
+class Competitor(pydantic.BaseModel):
+    first_name: str
+    last_name: str
+    suffix: str | None
+    team: str
+
+
+class Match(pydantic.BaseModel):
+    match: str
+    top_competitor: Competitor | None
+    bottom_competitor: Competitor | None
+    result: str
+    bout_number: int | None
+    top_win: bool | None
+
+
+class WeightClass(pydantic.BaseModel):
+    division: Literal["senior", "novice"]
+    weight: int
+    matches: list[Match]
+
+
+class WeightClasses(pydantic.RootModel[list[WeightClass]]):
+    pass
+
+
+class CompetitorWithWeight(pydantic.BaseModel):
+    division: Literal["senior", "novice"]
+    weight: int
+    competitor: Competitor
+
+
+TARGET_WEIGHT = 177
+TARGET_DIVISION = "senior"
+TARGET_NAMES = """BEN TREAT	EDWARDSVILLE WC		4- 0	100.00
+BEN PERNA	ARLINGTON CARDINALS		5- 1	83.33
+CODY FORCE	ARGENTA/OREANA KIDS CLUB		3- 1	75.00
+GEORGE DONOVAN	BADGER WC		3- 2	60.00
+DION EMBREY	ROCKFORD WC		3- 2	60.00
+JONATHON BECKER	CARY JR TROJAN MATMEN		1- 1	50.00
+JAKE SLEDGE	MT. VERNON LIONS		1- 1	50.00
+CODY HILL	SJO SPARTAN YOUTH WC		1- 1	50.00
+NATHAN LORANCE	WAUBONSIE WC		3- 3	50.00
+MATT OPEL	TRIAD KNIGHTS		3- 3	50.00
+ZACH KIRKHOVE	SHERRARD JR WC		1- 2	33.33
+DANIEL MCSWEENEY	SCN YOUTH WC		1- 2	33.33
+JEREMY RADER	VILLA LOMBARD COUGARS		1- 2	33.33
+MIKE OLIPHANT	GENESEO WC		1- 2	33.33
+JOE FOLLIS	BELVIDERE BANDITS		0- 1	0.00
+BILL CARLSON	HARLEM COUGARS		0- 1	0.00
+MARK HANE	WHEATON MONROE EAGLES		0- 2	0.00
+JACOB GORSKI	DIXON WC		0- 1	0.00
+CHRIS MONTOYA	PALATINE JUNIOR PIRATES		0- 1	0.00
+NYKOLO PALOMBI	BLAZER KIDS		0- 1	0.00
+WAYNE WARDEN	GALESBURG JR STREAKS		0- 1	0.00
+CHARLES LEWIS	HARVEY PARK DIST TWISTERS		0- 1	0.00
+DANNY CAREY	BLACKHAWK WC		0- 1	0.00"""
+
+
 def main():
     with open(HERE / "extracted.2004.json") as file_obj:
-        extracted = json.load(file_obj)
+        extracted = WeightClasses.model_validate_json(file_obj.read())
 
-    all_teams = set()
-    for weight in extracted:
-        for match in weight["matches"]:
-            top_competitor = match["top_competitor"]
+    weight_classes = extracted.root
+
+    all_competitors_by_team: dict[str, list[CompetitorWithWeight]] = {}
+    for weight_class in weight_classes:
+        for match in weight_class.matches:
+            top_competitor = match.top_competitor
             if top_competitor is not None:
-                all_teams.add(top_competitor["team"])
+                to_add = CompetitorWithWeight(
+                    division=weight_class.division,
+                    weight=weight_class.weight,
+                    competitor=top_competitor,
+                )
+                existing = all_competitors_by_team.setdefault(
+                    to_add.competitor.team, []
+                )
+                if not any(to_add == seen for seen in existing):
+                    existing.append(to_add)
 
-            bottom_competitor = match["bottom_competitor"]
+            bottom_competitor = match.bottom_competitor
             if bottom_competitor is not None:
-                all_teams.add(bottom_competitor["team"])
+                to_add = CompetitorWithWeight(
+                    division=weight_class.division,
+                    weight=weight_class.weight,
+                    competitor=bottom_competitor,
+                )
+                existing = all_competitors_by_team.setdefault(
+                    to_add.competitor.team, []
+                )
+                if not any(to_add == seen for seen in existing):
+                    existing.append(to_add)
 
-    print({team: "TODO" for team in sorted(all_teams)})
+    team_acronyms = sorted(all_competitors_by_team.keys())
+    for acronym in team_acronyms:
+        known = TEAM_ACRONYM_MAPPING.get(acronym, "TODO")
+        if known != "TODO":
+            continue
 
-    raise NotImplementedError(len(extracted))
+        print(f"Team: {acronym}")
+        for competitor in all_competitors_by_team[acronym]:
+            print(f"  {competitor}")
+
+    for line in TARGET_NAMES.split("\n"):
+        name, team, _, _, _ = line.split("\t")
+        try:
+            first_name, last_name = name.split()
+        except:
+            print((name, team))
+            raise
+        matches = []
+        for acronym in team_acronyms:
+            for competitor in all_competitors_by_team[acronym]:
+                if competitor.weight != TARGET_WEIGHT:
+                    continue
+                if competitor.division != TARGET_DIVISION:
+                    continue
+                if competitor.competitor.first_name != first_name:
+                    continue
+                if competitor.competitor.last_name != last_name:
+                    continue
+                matches.append(
+                    (first_name, last_name, competitor.competitor.team, team)
+                )
+        if len(matches) != 1:
+            raise RuntimeError(line)
+        _, _, acronym, full = matches[0]
+        known = TEAM_ACRONYM_MAPPING[acronym]
+        if known != "TODO":
+            if known != full:
+                raise ValueError("Mismatch", acronym, full, known)
+        else:
+            TEAM_ACRONYM_MAPPING[acronym] = full
+
+    # print(TEAM_ACRONYM_MAPPING)
 
 
 if __name__ == "__main__":
