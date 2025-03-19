@@ -63,8 +63,8 @@ class MatchRaw(pydantic.BaseModel):
     bottom_competitor: CompetitorRaw | None
     result: str
     bout_number: int | None
-    winner: CompetitorRaw | None = pydantic.Field(default=None)
-    winner_from: tuple[str, str] | None = pydantic.Field(default=None, exclude=True)
+    winner: CompetitorRaw | None
+    winner_from: tuple[str, str] | None
 
 
 def set_winner(match: MatchRaw, by_match: dict[str, MatchRaw]) -> None:
@@ -153,6 +153,7 @@ def maybe_r32_empty_bye(
         bottom_competitor=bottom_competitor,
         result=result,
         bout_number=bout_number,
+        winner=None,
         winner_from=(winner_round, winner_key),
     )
 
@@ -160,7 +161,7 @@ def maybe_r32_empty_bye(
 class Competitor(pydantic.BaseModel):
     first_name: str
     last_name: str
-    suffix: str | None = pydantic.Field(default=None)
+    suffix: str | None
     team: str
 
 
@@ -184,22 +185,22 @@ NAME_EXCEPTIONS: dict[tuple[str, str], Competitor] = {
         team="GLA",
     ),
     ("CASEY MC MURRAY", "LIO"): Competitor(
-        first_name="CASEY", last_name="MC MURRAY", team="LIO"
+        first_name="CASEY", last_name="MC MURRAY", suffix=None, team="LIO"
     ),
     ("DWIGHT MC CALL", "ROK"): Competitor(
-        first_name="DWIGHT", last_name="MC CALL", team="ROK"
+        first_name="DWIGHT", last_name="MC CALL", suffix=None, team="ROK"
     ),
     ("GINO DE FRANCISCO", "HOF"): Competitor(
-        first_name="GINO", last_name="DE FRANCISCO", team="HOF"
+        first_name="GINO", last_name="DE FRANCISCO", suffix=None, team="HOF"
     ),
     ("JAMES VAN SOMEREN", "WHF"): Competitor(
-        first_name="JAMES", last_name="VAN SOMEREN", team="WHF"
+        first_name="JAMES", last_name="VAN SOMEREN", suffix=None, team="WHF"
     ),
     ("JOSHUA VAN BEHREN", "UNI"): Competitor(
-        first_name="JOSHUA", last_name="VAN BEHREN", team="UNI"
+        first_name="JOSHUA", last_name="VAN BEHREN", suffix=None, team="UNI"
     ),
     ("MARCUS MC CALL", "ROK"): Competitor(
-        first_name="MARCUS", last_name="MC CALL", team="ROK"
+        first_name="MARCUS", last_name="MC CALL", suffix=None, team="ROK"
     ),
     ("MICHAEL MATOZZI, JR.", "OSW"): Competitor(
         first_name="MICHAEL", last_name="MATOZZI", suffix="JR", team="OSW"
@@ -214,7 +215,7 @@ NAME_EXCEPTIONS: dict[tuple[str, str], Competitor] = {
         first_name="RONALD", last_name="REEVES", suffix="JR", team="TRI"
     ),
     ("T. J. WARNER", "HOO"): Competitor(
-        first_name="T. J.", last_name="WARNER", team="HOO"
+        first_name="T. J.", last_name="WARNER", suffix=None, team="HOO"
     ),
 }
 
@@ -232,7 +233,11 @@ def _to_competitor(value: CompetitorRaw | None) -> Competitor | None:
         raise RuntimeError(value.name, value.team)
 
     return Competitor(
-        name=value.name, team=value.team, first_name=parts[0], last_name=parts[1]
+        name=value.name,
+        team=value.team,
+        first_name=parts[0],
+        last_name=parts[1],
+        suffix=None,
     )
 
 
@@ -337,6 +342,8 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=None,
             result="Bye",
             bout_number=None,
+            winner=None,
+            winner_from=None,
         ),
         maybe_r32_empty_bye(
             championship_lines,
@@ -358,6 +365,8 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=None,
             result="Bye",
             bout_number=None,
+            winner=None,
+            winner_from=None,
         ),
         MatchRaw(
             match="championship_r32_05",
@@ -365,6 +374,8 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=None,
             result="Bye",
             bout_number=None,
+            winner=None,
+            winner_from=None,
         ),
         maybe_r32_empty_bye(
             championship_lines,
@@ -386,6 +397,8 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=None,
             result="Bye",
             bout_number=None,
+            winner=None,
+            winner_from=None,
         ),
         MatchRaw(
             match="championship_r32_09",
@@ -393,6 +406,8 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=None,
             result="Bye",
             bout_number=None,
+            winner=None,
+            winner_from=None,
         ),
         maybe_r32_empty_bye(
             championship_lines,
@@ -414,6 +429,8 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=None,
             result="Bye",
             bout_number=None,
+            winner=None,
+            winner_from=None,
         ),
         MatchRaw(
             match="championship_r32_13",
@@ -421,6 +438,8 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=None,
             result="Bye",
             bout_number=None,
+            winner=None,
+            winner_from=None,
         ),
         maybe_r32_empty_bye(
             championship_lines,
@@ -442,6 +461,8 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=None,
             result="Bye",
             bout_number=None,
+            winner=None,
+            winner_from=None,
         ),
         ########################################################################
         MatchRaw(
@@ -450,6 +471,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(championship_lines[2][31:62]),
             result=parse_bout_result(championship_lines[2][62:93]),
             bout_number=parse_bout_number(championship_lines[1][31:62]),
+            winner=None,
             winner_from=("championship_quarter_01", "top_competitor"),
         ),
         MatchRaw(
@@ -458,6 +480,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(championship_lines[8][31:62]),
             result=parse_bout_result(championship_lines[8][62:93]),
             bout_number=parse_bout_number(championship_lines[7][31:62]),
+            winner=None,
             winner_from=("championship_quarter_01", "bottom_competitor"),
         ),
         MatchRaw(
@@ -466,6 +489,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(championship_lines[12][31:62]),
             result=parse_bout_result(championship_lines[12][62:93]),
             bout_number=parse_bout_number(championship_lines[11][31:62]),
+            winner=None,
             winner_from=("championship_quarter_02", "top_competitor"),
         ),
         MatchRaw(
@@ -474,6 +498,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(championship_lines[18][31:62]),
             result=parse_bout_result(championship_lines[18][62:93]),
             bout_number=parse_bout_number(championship_lines[17][31:62]),
+            winner=None,
             winner_from=("championship_quarter_02", "bottom_competitor"),
         ),
         MatchRaw(
@@ -482,6 +507,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(championship_lines[22][31:62]),
             result=parse_bout_result(championship_lines[22][62:93]),
             bout_number=parse_bout_number(championship_lines[21][31:62]),
+            winner=None,
             winner_from=("championship_quarter_03", "top_competitor"),
         ),
         MatchRaw(
@@ -490,6 +516,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(championship_lines[28][31:62]),
             result=parse_bout_result(championship_lines[28][62:93]),
             bout_number=parse_bout_number(championship_lines[27][31:62]),
+            winner=None,
             winner_from=("championship_quarter_03", "bottom_competitor"),
         ),
         MatchRaw(
@@ -498,6 +525,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(championship_lines[32][31:62]),
             result=parse_bout_result(championship_lines[32][62:93]),
             bout_number=parse_bout_number(championship_lines[31][31:62]),
+            winner=None,
             winner_from=("championship_quarter_04", "top_competitor"),
         ),
         MatchRaw(
@@ -506,6 +534,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(championship_lines[38][31:62]),
             result=parse_bout_result(championship_lines[38][62:93] + " "),
             bout_number=parse_bout_number(championship_lines[37][31:62]),
+            winner=None,
             winner_from=("championship_quarter_04", "bottom_competitor"),
         ),
         ########################################################################
@@ -515,6 +544,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(championship_lines[7][62:93]),
             result=parse_bout_result(championship_lines[5][93:124]),
             bout_number=parse_bout_number(championship_lines[4][62:93]),
+            winner=None,
             winner_from=("championship_semi_01", "top_competitor"),
         ),
         MatchRaw(
@@ -523,6 +553,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(championship_lines[17][62:93]),
             result=parse_bout_result(championship_lines[15][93:124]),
             bout_number=parse_bout_number(championship_lines[14][62:93]),
+            winner=None,
             winner_from=("championship_semi_01", "bottom_competitor"),
         ),
         MatchRaw(
@@ -531,6 +562,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(championship_lines[27][62:93]),
             result=parse_bout_result(championship_lines[25][93:124]),
             bout_number=parse_bout_number(championship_lines[24][62:93]),
+            winner=None,
             winner_from=("championship_semi_02", "top_competitor"),
         ),
         MatchRaw(
@@ -539,6 +571,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(championship_lines[37][62:93]),
             result=parse_bout_result(championship_lines[35][93:124] + " "),
             bout_number=parse_bout_number(championship_lines[34][62:93]),
+            winner=None,
             winner_from=("championship_semi_02", "bottom_competitor"),
         ),
         ########################################################################
@@ -548,6 +581,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(championship_lines[14][93:124]),
             result=parse_bout_result(championship_lines[10][124:155]),
             bout_number=parse_bout_number(championship_lines[9][93:124]),
+            winner=None,
             winner_from=("championship_first_place", "top_competitor"),
         ),
         MatchRaw(
@@ -556,6 +590,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(championship_lines[34][93:124]),
             result=parse_bout_result(championship_lines[30][124:155] + " "),
             bout_number=parse_bout_number(championship_lines[29][93:124]),
+            winner=None,
             winner_from=("championship_first_place", "bottom_competitor"),
         ),
         ########################################################################
@@ -566,6 +601,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             result=parse_bout_result(championship_lines[21][155:] + " "),
             bout_number=parse_bout_number(championship_lines[19][124:155]),
             winner=parse_competitor(championship_lines[19][155:]),
+            winner_from=None,
         ),
         ########################################################################
         # **********************************************************************
@@ -576,6 +612,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(consolation_lines[2][:31]),
             result=parse_bout_result(consolation_lines[2][31:62]),
             bout_number=parse_bout_number(consolation_lines[1][:31]),
+            winner=None,
             winner_from=("consolation_round4_blood_01", "top_competitor"),
         ),
         MatchRaw(
@@ -584,6 +621,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(consolation_lines[6][:31]),
             result=parse_bout_result(consolation_lines[6][31:62]),
             bout_number=parse_bout_number(consolation_lines[5][:31]),
+            winner=None,
             winner_from=("consolation_round4_blood_02", "top_competitor"),
         ),
         MatchRaw(
@@ -592,6 +630,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(consolation_lines[10][:31]),
             result=parse_bout_result(consolation_lines[10][31:62]),
             bout_number=parse_bout_number(consolation_lines[9][:31]),
+            winner=None,
             winner_from=("consolation_round4_blood_03", "top_competitor"),
         ),
         MatchRaw(
@@ -600,6 +639,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(consolation_lines[14][:31]),
             result=parse_bout_result(consolation_lines[14][31:62]),
             bout_number=parse_bout_number(consolation_lines[13][:31]),
+            winner=None,
             winner_from=("consolation_round4_blood_04", "top_competitor"),
         ),
         ########################################################################
@@ -609,6 +649,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(consolation_lines[3][31:62]),
             result=parse_bout_result(consolation_lines[3][62:93]),
             bout_number=parse_bout_number(consolation_lines[2][31:62]),
+            winner=None,
             winner_from=("consolation_round5_01", "top_competitor"),
         ),
         MatchRaw(
@@ -617,6 +658,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(consolation_lines[7][31:62]),
             result=parse_bout_result(consolation_lines[7][62:93]),
             bout_number=parse_bout_number(consolation_lines[6][31:62]),
+            winner=None,
             winner_from=("consolation_round5_01", "bottom_competitor"),
         ),
         MatchRaw(
@@ -625,6 +667,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(consolation_lines[11][31:62]),
             result=parse_bout_result(consolation_lines[11][62:93]),
             bout_number=parse_bout_number(consolation_lines[10][31:62]),
+            winner=None,
             winner_from=("consolation_round5_02", "top_competitor"),
         ),
         MatchRaw(
@@ -633,6 +676,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(consolation_lines[15][31:62]),
             result=parse_bout_result(consolation_lines[15][62:93] + " "),
             bout_number=parse_bout_number(consolation_lines[14][31:62]),
+            winner=None,
             winner_from=("consolation_round5_02", "bottom_competitor"),
         ),
         ########################################################################
@@ -642,6 +686,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(consolation_lines[6][62:93]),
             result=parse_bout_result(consolation_lines[5][93:124]),
             bout_number=parse_bout_number(consolation_lines[4][62:93]),
+            winner=None,
             winner_from=("consolation_round6_semi_01", "bottom_competitor"),
         ),
         MatchRaw(
@@ -650,6 +695,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(consolation_lines[14][62:93]),
             result=parse_bout_result(consolation_lines[13][93:124] + " "),
             bout_number=parse_bout_number(consolation_lines[12][62:93]),
+            winner=None,
             winner_from=("consolation_round6_semi_02", "bottom_competitor"),
         ),
         ########################################################################
@@ -659,6 +705,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(consolation_lines[4][93:124]),
             result=parse_bout_result(consolation_lines[3][124:155]),
             bout_number=parse_bout_number(consolation_lines[2][93:124]),
+            winner=None,
             winner_from=("consolation_third_place", "top_competitor"),
         ),
         MatchRaw(
@@ -667,6 +714,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             bottom_competitor=parse_competitor(consolation_lines[12][93:124]),
             result=parse_bout_result(consolation_lines[11][124:155] + " "),
             bout_number=parse_bout_number(consolation_lines[10][93:124]),
+            winner=None,
             winner_from=("consolation_third_place", "bottom_competitor"),
         ),
         ########################################################################
@@ -677,6 +725,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             result=parse_bout_result(consolation_lines[8][155:] + " "),
             bout_number=parse_bout_number(consolation_lines[6][124:155]),
             winner=parse_competitor(consolation_lines[6][155:]),
+            winner_from=None,
         ),
         ########################################################################
         # **********************************************************************
@@ -688,6 +737,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             result=parse_bout_result(fifth_place_lines[3][31:] + " "),
             bout_number=parse_bout_number(fifth_place_lines[1][:31]),
             winner=parse_competitor(fifth_place_lines[1][31:]),
+            winner_from=None,
         ),
         ########################################################################
         # **********************************************************************
@@ -699,6 +749,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             result=parse_bout_result(seventh_place_lines[3][62:] + " "),
             bout_number=parse_bout_number(seventh_place_lines[1][31:62]),
             winner=parse_competitor(seventh_place_lines[1][62:]),
+            winner_from=None,
         ),
     ]
 
