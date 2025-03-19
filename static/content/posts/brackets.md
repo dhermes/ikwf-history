@@ -369,6 +369,21 @@ http://www.ikwf.org/ikwf/senior05/sen05wt.htm (Weight Directory)
 
 {{< collapsible title="2006" >}}
 
+<!--
+
+Marty Combes Award Winner (OW) - Lucas Smith, Bison WC
+Ron Urwin Award Winner (OW) - Sterling Hecox, Hecox Team Benaiah
+
+http://ikwf.org/bracket/06finaltsnov.htm (Team Scores)
+http://ikwf.org/bracket/06finalbrknov.htm (Brackets)
+
+http://ikwf.org/bracket/06finaltssen.htm (Team Scores)
+http://www.ikwf.org/bracket/06finalbrksen.htm (Brackets)
+
+http://ikwf.org/dualmeetstate2006final1.html
+
+-->
+
 - [Novice Team Scores](/team-scores/2006/novice.html)
 - [Novice 62](/brackets/2006/novice/62.html)
 - [Novice 66](/brackets/2006/novice/66.html)
@@ -386,6 +401,7 @@ http://www.ikwf.org/ikwf/senior05/sen05wt.htm (Weight Directory)
 - [Novice 147](/brackets/2006/novice/147.html)
 - [Novice 166](/brackets/2006/novice/166.html)
 - [Novice 215](/brackets/2006/novice/215.html)
+- **Marty Combes Award Winner**: Lucas Smith - Bison WC (89)
 - [Senior Team Scores](/team-scores/2006/senior.html)
 - [Senior 70](/brackets/2006/senior/70.html)
 - [Senior 74](/brackets/2006/senior/74.html)
@@ -406,5 +422,6 @@ http://www.ikwf.org/ikwf/senior05/sen05wt.htm (Weight Directory)
 - [Senior 189](/brackets/2006/senior/189.html)
 - [Senior 215](/brackets/2006/senior/215.html)
 - [Senior 275](/brackets/2006/senior/275.html)
+- **Ron Urwin Award Winner**: Sterling Hecox - Hecox Team Benaiah (166)
 
 {{< /collapsible >}}
