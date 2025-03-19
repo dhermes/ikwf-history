@@ -271,20 +271,36 @@ class Match(pydantic.BaseModel):
     bottom_competitor: Competitor | None
     result: str
     bout_number: int | None
-    winner: Competitor | None = pydantic.Field(default=None)
+    top_win: bool | None
 
 
 def clean_raw_matches(matches: list[MatchRaw]) -> list[Match]:
     result: list[Match] = []
     for match in matches:
+        top_win = None
+
+        top_competitor = _to_competitor(match.top_competitor)
+        bottom_competitor = _to_competitor(match.bottom_competitor)
+        winner = _to_competitor(match.winner)
+
+        if top_competitor is not None and winner == top_competitor:
+            top_win = True
+
+        if bottom_competitor is not None and winner == bottom_competitor:
+            top_win = False
+
+        if top_win is None:
+            if bottom_competitor is not None or top_competitor is not None:
+                raise RuntimeError("Invariant violation")
+
         result.append(
             Match(
                 match=match.match,
-                top_competitor=_to_competitor(match.top_competitor),
-                bottom_competitor=_to_competitor(match.bottom_competitor),
+                top_competitor=top_competitor,
+                bottom_competitor=bottom_competitor,
                 result=match.result,
                 bout_number=match.bout_number,
-                winner=_to_competitor(match.winner),
+                top_win=top_win,
             )
         )
 
