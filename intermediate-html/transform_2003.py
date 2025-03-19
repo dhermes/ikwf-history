@@ -2,6 +2,9 @@
 
 import json
 import pathlib
+from typing import Literal
+
+import pydantic
 
 HERE = pathlib.Path(__file__).resolve().parent
 TEAM_ACRONYM_MAPPING = {
@@ -156,8 +159,8 @@ TEAM_ACRONYM_MAPPING = {
     "UNI": "TODO",
     "UNT": "TODO",
     "VAN": "TODO",
-    "VIL": "TODO",
-    "VIT": "TODO",
+    "VIL": "VILLA LOMBARD COUGARS",
+    "VIT": "VITTUM CATS",
     "WAR": "TODO",
     "WAU": "TODO",
     "WEC": "TODO",
@@ -347,24 +350,81 @@ TEAM_NAME_MAPPING = {
 }
 
 
+class Competitor(pydantic.BaseModel):
+    first_name: str
+    last_name: str
+    suffix: str | None
+    team: str
+
+
+class Match(pydantic.BaseModel):
+    match: str
+    top_competitor: Competitor | None
+    bottom_competitor: Competitor | None
+    result: str
+    bout_number: int | None
+    top_win: bool | None
+
+
+class WeightClass(pydantic.BaseModel):
+    division: Literal["senior", "novice"]
+    weight: int
+    matches: list[Match]
+
+
+class WeightClasses(pydantic.RootModel[list[WeightClass]]):
+    pass
+
+
+class CompetitorWithWeight(pydantic.BaseModel):
+    division: Literal["senior", "novice"]
+    weight: int
+    competitor: Competitor
+
+
 def main():
-    with open(HERE / "extracted.2003.json") as file_obj:
-        extracted = json.load(file_obj)
+    with open(HERE / "extracted.2003.json", "rb") as file_obj:
+        extracted = WeightClasses.model_validate_json(file_obj.read())
 
-    all_teams = set()
-    for weight in extracted:
-        for match in weight["matches"]:
-            top_competitor = match["top_competitor"]
+    weight_classes = extracted.root
+
+    all_competitors_by_team: dict[str, list[CompetitorWithWeight]] = {}
+    for weight_class in weight_classes:
+        for match in weight_class.matches:
+            top_competitor = match.top_competitor
             if top_competitor is not None:
-                all_teams.add(top_competitor["team"])
+                to_add = CompetitorWithWeight(
+                    division=weight_class.division,
+                    weight=weight_class.weight,
+                    competitor=top_competitor,
+                )
+                existing = all_competitors_by_team.setdefault(
+                    to_add.competitor.team, []
+                )
+                if not any(to_add == seen for seen in existing):
+                    existing.append(to_add)
 
-            bottom_competitor = match["bottom_competitor"]
+            bottom_competitor = match.bottom_competitor
             if bottom_competitor is not None:
-                all_teams.add(bottom_competitor["team"])
+                to_add = CompetitorWithWeight(
+                    division=weight_class.division,
+                    weight=weight_class.weight,
+                    competitor=bottom_competitor,
+                )
+                existing = all_competitors_by_team.setdefault(
+                    to_add.competitor.team, []
+                )
+                if not any(to_add == seen for seen in existing):
+                    existing.append(to_add)
 
-    print({team: "TODO" for team in sorted(all_teams)})
+    print({team: "TODO" for team in sorted(all_competitors_by_team.keys())})
 
-    raise NotImplementedError(len(extracted))
+    team_name = "VIT"
+    print(f"Team: {team_name}")
+    for competitor in all_competitors_by_team[team_name]:
+        print(f"  {competitor}")
+
+    raise NotImplementedError(len(weight_classes))
 
 
 if __name__ == "__main__":
