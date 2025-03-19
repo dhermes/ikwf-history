@@ -245,6 +245,38 @@ class Match(pydantic.BaseModel):
     top_win: bool | None
 
 
+def ensure_no_name_duplicates(matches: list[Match]) -> None:
+    any_competitors: list[Competitor] = []
+    first_round_competitors: list[Competitor] = []
+
+    for match in matches:
+        is_r32 = match.match.startswith("championship_r32_")
+        if match.top_competitor is not None:
+            any_competitors.append(match.top_competitor)
+            if is_r32:
+                first_round_competitors.append(match.top_competitor)
+
+        if match.bottom_competitor is not None:
+            any_competitors.append(match.bottom_competitor)
+            if is_r32:
+                first_round_competitors.append(match.bottom_competitor)
+
+    by_team_any: dict[str, Competitor] = {}
+    for competitor in any_competitors:
+        existing = by_team_any.setdefault(competitor.team, [])
+        if not any(competitor == seen for seen in existing):
+            existing.append(competitor)
+
+    by_team_first_round: dict[str, Competitor] = {}
+    for competitor in first_round_competitors:
+        existing = by_team_first_round.setdefault(competitor.team, [])
+        if not any(competitor == seen for seen in existing):
+            existing.append(competitor)
+
+    if by_team_any != by_team_first_round:
+        raise RuntimeError("Invariant violation")
+
+
 def clean_raw_matches(matches: list[MatchRaw]) -> list[Match]:
     result: list[Match] = []
     for match in matches:
@@ -274,6 +306,8 @@ def clean_raw_matches(matches: list[MatchRaw]) -> list[Match]:
                 top_win=top_win,
             )
         )
+
+    ensure_no_name_duplicates(result)
 
     return result
 
