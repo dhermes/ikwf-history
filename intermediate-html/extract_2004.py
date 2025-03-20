@@ -2,7 +2,7 @@
 
 import json
 import pathlib
-from typing import Any, Literal
+from typing import Literal
 
 import bs4
 import pydantic
