@@ -56,6 +56,16 @@ and handling byes (`22.8.4.5`):
 - Senior new weight classes (19): 70, 74, 79, 84, 89, 95, 101, 108, 115, 122, 130,
   138, 147, 156, 166, 177, 189, 215, 275
 
+### 2004
+
+- First walkover (`P-Dec`) appeared; not sure when these were allowed (as of
+  2025-03-19)
+
+### 2006
+
+- Other walkover (`P-Dec`) appeared; not sure when these were allowed (as of
+  2025-03-19)
+
 ### 2008
 
 - Novice new weight classes (17): 62, 66, 70, 74, 79, 84, 89, 95, 101, 108, 115,

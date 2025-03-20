@@ -237,11 +237,24 @@ def _to_competitor(value: CompetitorRaw | None) -> Competitor | None:
     )
 
 
+ResultType = Literal[
+    "BYE",
+    "DECISION",
+    "DEFAULT",
+    "DISQUALIFICATION",
+    "FALL",
+    "FORFEIT",
+    "MAJOR",
+    "TECH",
+]
+
+
 class Match(pydantic.BaseModel):
     match: str
     top_competitor: Competitor | None
     bottom_competitor: Competitor | None
     result: str
+    result_type: ResultType
     bout_number: int | None
     top_win: bool | None
 
@@ -278,6 +291,34 @@ def ensure_no_name_duplicates(matches: list[Match]) -> None:
         raise RuntimeError("Invariant violation")
 
 
+def determine_result_type(result: str) -> ResultType:
+    if result.startswith("Dec "):
+        return "DECISION"
+
+    if result.startswith("M-Dec "):
+        return "MAJOR"
+
+    if result.startswith("T-Fall "):
+        return "TECH"
+
+    if result.startswith("Fall "):
+        return "FALL"
+
+    if result == "Bye":
+        return "BYE"
+
+    if result == "Dflt" or result.startswith("Dflt "):
+        return "DEFAULT"
+
+    if result == "Dq":
+        return "DISQUALIFICATION"
+
+    if result == "Forf" or result.startswith("Forf "):
+        return "FORFEIT"
+
+    raise NotImplementedError(result)
+
+
 def clean_raw_matches(matches: list[MatchRaw]) -> list[Match]:
     result: list[Match] = []
     for match in matches:
@@ -303,6 +344,7 @@ def clean_raw_matches(matches: list[MatchRaw]) -> list[Match]:
                 top_competitor=top_competitor,
                 bottom_competitor=bottom_competitor,
                 result=match.result,
+                result_type=determine_result_type(match.result),
                 bout_number=match.bout_number,
                 top_win=top_win,
             )
