@@ -2,39 +2,21 @@
 
 import json
 import pathlib
+from typing import Any, Literal
 
 import bs4
+import pydantic
 
 HERE = pathlib.Path(__file__).resolve().parent
 EMPTY_SLOT = "                               "
 
 
-def print_lines(search_lines):
-    max_index = len(search_lines) - 1
-    index_width = len(str(max_index))
-
-    for i, line in enumerate(search_lines):
-        index_str = str(i).rjust(index_width)
-        print(f"{index_str}*** {line}")
+class CompetitorRaw(pydantic.BaseModel):
+    name: str
+    team: str
 
 
-def find_all_indices(search_lines, value):
-    result = []
-    for i, line in enumerate(search_lines):
-        matches = line.count(value)
-        if matches > 1:
-            raise NotImplementedError(i, matches, line, value)
-        if matches == 0:
-            continue
-
-        start_index = line.index(value)
-        end_index = start_index + len(value)
-        result.append((i, start_index, end_index))
-
-    return result
-
-
-def parse_competitor(value):
+def parse_competitor(value: str) -> CompetitorRaw | None:
     cleaned = value.strip().rstrip("+").strip("-")
     if cleaned == "Bye":
         return None
@@ -48,10 +30,10 @@ def parse_competitor(value):
     if name == "":
         raise ValueError("Invariant violation", name, cleaned, value)
 
-    return {"name": name, "team": team}
+    return CompetitorRaw(name=name, team=team)
 
 
-def parse_bout_result(value):
+def parse_bout_result(value: str) -> str:
     if value.endswith("|"):
         value = value[:-1]
 
@@ -71,7 +53,7 @@ def parse_bout_result(value):
     return parts[0].strip()
 
 
-def parse_bout_number(value):
+def parse_bout_number(value: str) -> int:
     if not value.endswith("|"):
         raise ValueError("Invariant violation", value)
 
@@ -82,74 +64,87 @@ def parse_bout_number(value):
     return int(parts[1])
 
 
-def set_winner(match, by_match):
-    winner = match.get("winner", None)
-    if isinstance(winner, dict):
+class MatchRaw(pydantic.BaseModel):
+    match: str
+    top_competitor: CompetitorRaw | None
+    bottom_competitor: CompetitorRaw | None
+    result: str
+    bout_number: int | None
+    winner: CompetitorRaw | None
+    winner_from: tuple[str, str] | None
+
+
+def set_winner(match: MatchRaw, by_match: dict[str, MatchRaw]) -> None:
+    if match.winner is not None:
         return
 
-    if match["result"] == "Bye":
-        if match["bottom_competitor"] is None:
-            if match["top_competitor"] is None:
-                match["winner"] = None
+    if match.result == "Bye":
+        if match.bottom_competitor is None:
+            if match.top_competitor is None:
+                match.winner = None
                 return
 
-            match["winner"] = match["top_competitor"]
+            match.winner = match.top_competitor
             return
 
-        if match["top_competitor"] is None:
-            if match["bottom_competitor"] is None:
+        if match.top_competitor is None:
+            if match.bottom_competitor is None:
                 raise ValueError("Invariant violation", match)
-            match["winner"] = match["bottom_competitor"]
+            match.winner = match.bottom_competitor
             return
 
         raise ValueError("Invariant violation", match)
 
-    if isinstance(winner, tuple):
-        match_key, competitor_key = winner
-        competitor = by_match[match_key][competitor_key]
-        match["winner"] = competitor
-        return
-
-    raise NotImplementedError(winner)
-
-
-def set_result(match):
-    result = match["result"]
-    if result != "":
-        return
-
-    top_competitor = match["top_competitor"]
-    bottom_competitor = match["bottom_competitor"]
-    if top_competitor is None or bottom_competitor is None:
-        match["result"] = "Bye"
+    if match.winner_from is not None:
+        match_key, competitor_key = match.winner_from
+        competitor = getattr(by_match[match_key], competitor_key)
+        match.winner = competitor
         return
 
     raise NotImplementedError(match)
 
 
-def set_top_competitor(match):
-    top_competitor = match["top_competitor"]
-    bottom_competitor = match["bottom_competitor"]
+def set_result(match: MatchRaw) -> None:
+    result = match.result
+    if result != "":
+        return
+
+    top_competitor = match.top_competitor
+    bottom_competitor = match.bottom_competitor
+    if top_competitor is None or bottom_competitor is None:
+        match.result = "Bye"
+        return
+
+    raise NotImplementedError(match)
+
+
+def set_top_competitor(match: MatchRaw) -> None:
+    top_competitor = match.top_competitor
+    bottom_competitor = match.bottom_competitor
     if top_competitor is not None or bottom_competitor is not None:
         return
 
-    result = match["result"]
+    result = match.result
     if result != "Bye":
         raise ValueError("Invariant violation", match)
 
-    winner = match["winner"]
+    winner = match.winner
     if winner is None:
         return
 
-    if not isinstance(winner, dict):
+    if not isinstance(winner, CompetitorRaw):
         raise ValueError("Invariant violation", match)
 
-    match["top_competitor"] = winner
+    match.top_competitor = winner
 
 
 def maybe_r32_empty_bye(
-    championship_lines, start_index, match, winner_round, winner_key
-):
+    championship_lines: list[str],
+    start_index: int,
+    match: str,
+    winner_round: str,
+    winner_key: str,
+) -> MatchRaw:
     top_competitor = None
     top_competitor_str = championship_lines[start_index][:31]
     if top_competitor_str != EMPTY_SLOT:
@@ -170,23 +165,176 @@ def maybe_r32_empty_bye(
     if result_str != EMPTY_SLOT:
         result = parse_bout_result(result_str)
 
-    return {
-        "match": match,
-        "top_competitor": top_competitor,
-        "bottom_competitor": bottom_competitor,
-        "result": result,
-        "bout_number": bout_number,
-        "winner": (winner_round, winner_key),
-    }
+    return MatchRaw(
+        match=match,
+        top_competitor=top_competitor,
+        bottom_competitor=bottom_competitor,
+        result=result,
+        bout_number=bout_number,
+        winner=None,
+        winner_from=(winner_round, winner_key),
+    )
 
 
-def extract_bracket(weight, divison):
+class Competitor(pydantic.BaseModel):
+    first_name: str
+    last_name: str
+    suffix: str | None
+    team: str
+
+
+NAME_EXCEPTIONS: dict[tuple[str, str], Competitor] = {
+    ("AARON BREWTON II", "WAUK"): Competitor(
+        first_name="AARON", last_name="BREWTON", suffix="II", team="WAUK"
+    ),
+    ("ALVIN FOSTER III", "HPDT"): Competitor(
+        first_name="ALVIN", last_name="FOSTER", suffix="III", team="HPDT"
+    ),
+    ("ANTHONY FERRARIS JR", "MNE"): Competitor(
+        first_name="ANTHONY", last_name="FERRARIS", suffix="JR", team="MNE"
+    ),
+    ("ANTWYONE BROWN JR.", "CRST"): Competitor(
+        first_name="ANTWYONE", last_name="BROWN", suffix="JR", team="CRST"
+    ),
+    ("BRENDAN TYLER HALL", "HPDT"): Competitor(
+        first_name="BRENDAN TYLER", last_name="HALL", suffix=None, team="HPDT"
+    ),
+    ("CURTIS CRIMS JR.", "CRST"): Competitor(
+        first_name="CURTIS", last_name="CRIMS", suffix="JR", team="CRST"
+    ),
+    ("GEORGE CANALES IV", "DIX"): Competitor(
+        first_name="GEORGE", last_name="CANALES", suffix="IV", team="DIX"
+    ),
+    ("JIM JERNIGAN JR.", "MOL"): Competitor(
+        first_name="JIM", last_name="JERNIGAN", suffix="JR", team="MOL"
+    ),
+    ("JOSE MANUEL DEAVILA", "COL"): Competitor(
+        first_name="JOSE MANUEL", last_name="DEAVILA", suffix=None, team="COL"
+    ),
+    ("LUSIANO JR. CANTU", "GOM"): Competitor(
+        first_name="LUSIANO", last_name="CANTU", suffix="JR", team="GOM"
+    ),
+    ("MATTHEW SCHEFKE JR.", "NAP"): Competitor(
+        first_name="MATTHEW", last_name="SCHEFKE", suffix="JR", team="NAP"
+    ),
+    ("ROSS FERRARO III", "GOM"): Competitor(
+        first_name="ROSS", last_name="FERRARO", suffix="III", team="GOM"
+    ),
+    ("TRAVIS BUCHANAN / WILL", "HPDT"): Competitor(
+        first_name="TRAVIS / WILL", last_name="BUCHANAN", suffix=None, team="HPDT"
+    ),
+    ("TYRONE  SALLY JR.", "HPDT"): Competitor(
+        first_name="TYRONE", last_name="SALLY", suffix="JR", team="HPDT"
+    ),
+    ("WARDELL ROSEMAN JR.", "DUN"): Competitor(
+        first_name="WARDELL", last_name="ROSEMAN", suffix="JR", team="DUN"
+    ),
+}
+
+
+def _to_competitor(value: CompetitorRaw | None) -> Competitor | None:
+    if value is None:
+        return None
+
+    exception_key = value.name, value.team
+    if exception_key in NAME_EXCEPTIONS:
+        return NAME_EXCEPTIONS[exception_key]
+
+    parts = value.name.split()
+    if len(parts) != 2:
+        raise RuntimeError(value.name, value.team)
+
+    return Competitor(
+        first_name=parts[0],
+        last_name=parts[1],
+        suffix=None,
+        team=value.team,
+    )
+
+
+class Match(pydantic.BaseModel):
+    match: str
+    top_competitor: Competitor | None
+    bottom_competitor: Competitor | None
+    result: str
+    bout_number: int | None
+    top_win: bool | None
+
+
+def ensure_no_name_duplicates(matches: list[Match]) -> None:
+    any_competitors: list[Competitor] = []
+    first_round_competitors: list[Competitor] = []
+
+    for match in matches:
+        is_r32 = match.match.startswith("championship_r32_")
+        if match.top_competitor is not None:
+            any_competitors.append(match.top_competitor)
+            if is_r32:
+                first_round_competitors.append(match.top_competitor)
+
+        if match.bottom_competitor is not None:
+            any_competitors.append(match.bottom_competitor)
+            if is_r32:
+                first_round_competitors.append(match.bottom_competitor)
+
+    by_team_any: dict[str, Competitor] = {}
+    for competitor in any_competitors:
+        existing = by_team_any.setdefault(competitor.team, [])
+        if not any(competitor == seen for seen in existing):
+            existing.append(competitor)
+
+    by_team_first_round: dict[str, Competitor] = {}
+    for competitor in first_round_competitors:
+        existing = by_team_first_round.setdefault(competitor.team, [])
+        if not any(competitor == seen for seen in existing):
+            existing.append(competitor)
+
+    if by_team_any != by_team_first_round:
+        raise RuntimeError("Invariant violation")
+
+
+def clean_raw_matches(matches: list[MatchRaw]) -> list[Match]:
+    result: list[Match] = []
+    for match in matches:
+        top_win = None
+
+        top_competitor = _to_competitor(match.top_competitor)
+        bottom_competitor = _to_competitor(match.bottom_competitor)
+        winner = _to_competitor(match.winner)
+
+        if top_competitor is not None and winner == top_competitor:
+            top_win = True
+
+        if bottom_competitor is not None and winner == bottom_competitor:
+            top_win = False
+
+        if top_win is None:
+            if bottom_competitor is not None or top_competitor is not None:
+                raise RuntimeError("Invariant violation")
+
+        result.append(
+            Match(
+                match=match.match,
+                top_competitor=top_competitor,
+                bottom_competitor=bottom_competitor,
+                result=match.result,
+                bout_number=match.bout_number,
+                top_win=top_win,
+            )
+        )
+
+    ensure_no_name_duplicates(result)
+
+    return result
+
+
+def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[Match]:
     filename = f"{weight}.html"
     with open(HERE / "2006" / divison / filename) as file_obj:
         html = file_obj.read()
 
     soup = bs4.BeautifulSoup(html, features="html.parser")
-    all_pre = soup.find_all("pre")
+    all_pre: list[bs4.Tag] = soup.find_all("pre")
     if len(all_pre) != 4:
         raise RuntimeError("Invariant violation")
 
@@ -199,13 +347,15 @@ def extract_bracket(weight, divison):
     seventh_place_lines = seventh_place_pre.text.lstrip("\n").split("\n")
 
     matches = [
-        {
-            "match": "championship_r32_01",
-            "top_competitor": parse_competitor(championship_lines[0][31:62]),
-            "bottom_competitor": None,
-            "result": "Bye",
-            "bout_number": None,
-        },
+        MatchRaw(
+            match="championship_r32_01",
+            top_competitor=parse_competitor(championship_lines[0][31:62]),
+            bottom_competitor=None,
+            result="Bye",
+            bout_number=None,
+            winner=None,
+            winner_from=None,
+        ),
         maybe_r32_empty_bye(
             championship_lines,
             1,
@@ -220,20 +370,24 @@ def extract_bracket(weight, divison):
             "championship_r16_02",
             "top_competitor",
         ),
-        {
-            "match": "championship_r32_04",
-            "top_competitor": parse_competitor(championship_lines[8][31:62]),
-            "bottom_competitor": None,
-            "result": "Bye",
-            "bout_number": None,
-        },
-        {
-            "match": "championship_r32_05",
-            "top_competitor": parse_competitor(championship_lines[10][31:62]),
-            "bottom_competitor": None,
-            "result": "Bye",
-            "bout_number": None,
-        },
+        MatchRaw(
+            match="championship_r32_04",
+            top_competitor=parse_competitor(championship_lines[8][31:62]),
+            bottom_competitor=None,
+            result="Bye",
+            bout_number=None,
+            winner=None,
+            winner_from=None,
+        ),
+        MatchRaw(
+            match="championship_r32_05",
+            top_competitor=parse_competitor(championship_lines[10][31:62]),
+            bottom_competitor=None,
+            result="Bye",
+            bout_number=None,
+            winner=None,
+            winner_from=None,
+        ),
         maybe_r32_empty_bye(
             championship_lines,
             11,
@@ -248,20 +402,24 @@ def extract_bracket(weight, divison):
             "championship_r16_04",
             "top_competitor",
         ),
-        {
-            "match": "championship_r32_08",
-            "top_competitor": parse_competitor(championship_lines[18][31:62]),
-            "bottom_competitor": None,
-            "result": "Bye",
-            "bout_number": None,
-        },
-        {
-            "match": "championship_r32_09",
-            "top_competitor": parse_competitor(championship_lines[20][31:62]),
-            "bottom_competitor": None,
-            "result": "Bye",
-            "bout_number": None,
-        },
+        MatchRaw(
+            match="championship_r32_08",
+            top_competitor=parse_competitor(championship_lines[18][31:62]),
+            bottom_competitor=None,
+            result="Bye",
+            bout_number=None,
+            winner=None,
+            winner_from=None,
+        ),
+        MatchRaw(
+            match="championship_r32_09",
+            top_competitor=parse_competitor(championship_lines[20][31:62]),
+            bottom_competitor=None,
+            result="Bye",
+            bout_number=None,
+            winner=None,
+            winner_from=None,
+        ),
         maybe_r32_empty_bye(
             championship_lines,
             21,
@@ -276,20 +434,24 @@ def extract_bracket(weight, divison):
             "championship_r16_06",
             "top_competitor",
         ),
-        {
-            "match": "championship_r32_12",
-            "top_competitor": parse_competitor(championship_lines[28][31:62]),
-            "bottom_competitor": None,
-            "result": "Bye",
-            "bout_number": None,
-        },
-        {
-            "match": "championship_r32_13",
-            "top_competitor": parse_competitor(championship_lines[30][31:62]),
-            "bottom_competitor": None,
-            "result": "Bye",
-            "bout_number": None,
-        },
+        MatchRaw(
+            match="championship_r32_12",
+            top_competitor=parse_competitor(championship_lines[28][31:62]),
+            bottom_competitor=None,
+            result="Bye",
+            bout_number=None,
+            winner=None,
+            winner_from=None,
+        ),
+        MatchRaw(
+            match="championship_r32_13",
+            top_competitor=parse_competitor(championship_lines[30][31:62]),
+            bottom_competitor=None,
+            result="Bye",
+            bout_number=None,
+            winner=None,
+            winner_from=None,
+        ),
         maybe_r32_empty_bye(
             championship_lines,
             31,
@@ -304,273 +466,305 @@ def extract_bracket(weight, divison):
             "championship_r16_08",
             "top_competitor",
         ),
-        {
-            "match": "championship_r32_16",
-            "top_competitor": parse_competitor(championship_lines[38][31:62]),
-            "bottom_competitor": None,
-            "result": "Bye",
-            "bout_number": None,
-        },
+        MatchRaw(
+            match="championship_r32_16",
+            top_competitor=parse_competitor(championship_lines[38][31:62]),
+            bottom_competitor=None,
+            result="Bye",
+            bout_number=None,
+            winner=None,
+            winner_from=None,
+        ),
         ########################################################################
-        {
-            "match": "championship_r16_01",
-            "top_competitor": parse_competitor(championship_lines[0][31:62]),
-            "bottom_competitor": parse_competitor(championship_lines[2][31:62]),
-            "result": parse_bout_result(championship_lines[2][62:93]),
-            "bout_number": parse_bout_number(championship_lines[1][31:62]),
-            "winner": ("championship_quarter_01", "top_competitor"),
-        },
-        {
-            "match": "championship_r16_02",
-            "top_competitor": parse_competitor(championship_lines[6][31:62]),
-            "bottom_competitor": parse_competitor(championship_lines[8][31:62]),
-            "result": parse_bout_result(championship_lines[8][62:93]),
-            "bout_number": parse_bout_number(championship_lines[7][31:62]),
-            "winner": ("championship_quarter_01", "bottom_competitor"),
-        },
-        {
-            "match": "championship_r16_03",
-            "top_competitor": parse_competitor(championship_lines[10][31:62]),
-            "bottom_competitor": parse_competitor(championship_lines[12][31:62]),
-            "result": parse_bout_result(championship_lines[12][62:93]),
-            "bout_number": parse_bout_number(championship_lines[11][31:62]),
-            "winner": ("championship_quarter_02", "top_competitor"),
-        },
-        {
-            "match": "championship_r16_04",
-            "top_competitor": parse_competitor(championship_lines[16][31:62]),
-            "bottom_competitor": parse_competitor(championship_lines[18][31:62]),
-            "result": parse_bout_result(championship_lines[18][62:93]),
-            "bout_number": parse_bout_number(championship_lines[17][31:62]),
-            "winner": ("championship_quarter_02", "bottom_competitor"),
-        },
-        {
-            "match": "championship_r16_05",
-            "top_competitor": parse_competitor(championship_lines[20][31:62]),
-            "bottom_competitor": parse_competitor(championship_lines[22][31:62]),
-            "result": parse_bout_result(championship_lines[22][62:93]),
-            "bout_number": parse_bout_number(championship_lines[21][31:62]),
-            "winner": ("championship_quarter_03", "top_competitor"),
-        },
-        {
-            "match": "championship_r16_06",
-            "top_competitor": parse_competitor(championship_lines[26][31:62]),
-            "bottom_competitor": parse_competitor(championship_lines[28][31:62]),
-            "result": parse_bout_result(championship_lines[28][62:93]),
-            "bout_number": parse_bout_number(championship_lines[27][31:62]),
-            "winner": ("championship_quarter_03", "bottom_competitor"),
-        },
-        {
-            "match": "championship_r16_07",
-            "top_competitor": parse_competitor(championship_lines[30][31:62]),
-            "bottom_competitor": parse_competitor(championship_lines[32][31:62]),
-            "result": parse_bout_result(championship_lines[32][62:93]),
-            "bout_number": parse_bout_number(championship_lines[31][31:62]),
-            "winner": ("championship_quarter_04", "top_competitor"),
-        },
-        {
-            "match": "championship_r16_08",
-            "top_competitor": parse_competitor(championship_lines[36][31:62]),
-            "bottom_competitor": parse_competitor(championship_lines[38][31:62]),
-            "result": parse_bout_result(championship_lines[38][62:93] + " "),
-            "bout_number": parse_bout_number(championship_lines[37][31:62]),
-            "winner": ("championship_quarter_04", "bottom_competitor"),
-        },
+        MatchRaw(
+            match="championship_r16_01",
+            top_competitor=parse_competitor(championship_lines[0][31:62]),
+            bottom_competitor=parse_competitor(championship_lines[2][31:62]),
+            result=parse_bout_result(championship_lines[2][62:93]),
+            bout_number=parse_bout_number(championship_lines[1][31:62]),
+            winner=None,
+            winner_from=("championship_quarter_01", "top_competitor"),
+        ),
+        MatchRaw(
+            match="championship_r16_02",
+            top_competitor=parse_competitor(championship_lines[6][31:62]),
+            bottom_competitor=parse_competitor(championship_lines[8][31:62]),
+            result=parse_bout_result(championship_lines[8][62:93]),
+            bout_number=parse_bout_number(championship_lines[7][31:62]),
+            winner=None,
+            winner_from=("championship_quarter_01", "bottom_competitor"),
+        ),
+        MatchRaw(
+            match="championship_r16_03",
+            top_competitor=parse_competitor(championship_lines[10][31:62]),
+            bottom_competitor=parse_competitor(championship_lines[12][31:62]),
+            result=parse_bout_result(championship_lines[12][62:93]),
+            bout_number=parse_bout_number(championship_lines[11][31:62]),
+            winner=None,
+            winner_from=("championship_quarter_02", "top_competitor"),
+        ),
+        MatchRaw(
+            match="championship_r16_04",
+            top_competitor=parse_competitor(championship_lines[16][31:62]),
+            bottom_competitor=parse_competitor(championship_lines[18][31:62]),
+            result=parse_bout_result(championship_lines[18][62:93]),
+            bout_number=parse_bout_number(championship_lines[17][31:62]),
+            winner=None,
+            winner_from=("championship_quarter_02", "bottom_competitor"),
+        ),
+        MatchRaw(
+            match="championship_r16_05",
+            top_competitor=parse_competitor(championship_lines[20][31:62]),
+            bottom_competitor=parse_competitor(championship_lines[22][31:62]),
+            result=parse_bout_result(championship_lines[22][62:93]),
+            bout_number=parse_bout_number(championship_lines[21][31:62]),
+            winner=None,
+            winner_from=("championship_quarter_03", "top_competitor"),
+        ),
+        MatchRaw(
+            match="championship_r16_06",
+            top_competitor=parse_competitor(championship_lines[26][31:62]),
+            bottom_competitor=parse_competitor(championship_lines[28][31:62]),
+            result=parse_bout_result(championship_lines[28][62:93]),
+            bout_number=parse_bout_number(championship_lines[27][31:62]),
+            winner=None,
+            winner_from=("championship_quarter_03", "bottom_competitor"),
+        ),
+        MatchRaw(
+            match="championship_r16_07",
+            top_competitor=parse_competitor(championship_lines[30][31:62]),
+            bottom_competitor=parse_competitor(championship_lines[32][31:62]),
+            result=parse_bout_result(championship_lines[32][62:93]),
+            bout_number=parse_bout_number(championship_lines[31][31:62]),
+            winner=None,
+            winner_from=("championship_quarter_04", "top_competitor"),
+        ),
+        MatchRaw(
+            match="championship_r16_08",
+            top_competitor=parse_competitor(championship_lines[36][31:62]),
+            bottom_competitor=parse_competitor(championship_lines[38][31:62]),
+            result=parse_bout_result(championship_lines[38][62:93] + " "),
+            bout_number=parse_bout_number(championship_lines[37][31:62]),
+            winner=None,
+            winner_from=("championship_quarter_04", "bottom_competitor"),
+        ),
         ########################################################################
-        {
-            "match": "championship_quarter_01",
-            "top_competitor": parse_competitor(championship_lines[1][62:93]),
-            "bottom_competitor": parse_competitor(championship_lines[7][62:93]),
-            "result": parse_bout_result(championship_lines[5][93:124]),
-            "bout_number": parse_bout_number(championship_lines[4][62:93]),
-            "winner": ("championship_semi_01", "top_competitor"),
-        },
-        {
-            "match": "championship_quarter_02",
-            "top_competitor": parse_competitor(championship_lines[11][62:93]),
-            "bottom_competitor": parse_competitor(championship_lines[17][62:93]),
-            "result": parse_bout_result(championship_lines[15][93:124]),
-            "bout_number": parse_bout_number(championship_lines[14][62:93]),
-            "winner": ("championship_semi_01", "bottom_competitor"),
-        },
-        {
-            "match": "championship_quarter_03",
-            "top_competitor": parse_competitor(championship_lines[21][62:93]),
-            "bottom_competitor": parse_competitor(championship_lines[27][62:93]),
-            "result": parse_bout_result(championship_lines[25][93:124]),
-            "bout_number": parse_bout_number(championship_lines[24][62:93]),
-            "winner": ("championship_semi_02", "top_competitor"),
-        },
-        {
-            "match": "championship_quarter_04",
-            "top_competitor": parse_competitor(championship_lines[31][62:93]),
-            "bottom_competitor": parse_competitor(championship_lines[37][62:93]),
-            "result": parse_bout_result(championship_lines[35][93:124] + " "),
-            "bout_number": parse_bout_number(championship_lines[34][62:93]),
-            "winner": ("championship_semi_02", "bottom_competitor"),
-        },
+        MatchRaw(
+            match="championship_quarter_01",
+            top_competitor=parse_competitor(championship_lines[1][62:93]),
+            bottom_competitor=parse_competitor(championship_lines[7][62:93]),
+            result=parse_bout_result(championship_lines[5][93:124]),
+            bout_number=parse_bout_number(championship_lines[4][62:93]),
+            winner=None,
+            winner_from=("championship_semi_01", "top_competitor"),
+        ),
+        MatchRaw(
+            match="championship_quarter_02",
+            top_competitor=parse_competitor(championship_lines[11][62:93]),
+            bottom_competitor=parse_competitor(championship_lines[17][62:93]),
+            result=parse_bout_result(championship_lines[15][93:124]),
+            bout_number=parse_bout_number(championship_lines[14][62:93]),
+            winner=None,
+            winner_from=("championship_semi_01", "bottom_competitor"),
+        ),
+        MatchRaw(
+            match="championship_quarter_03",
+            top_competitor=parse_competitor(championship_lines[21][62:93]),
+            bottom_competitor=parse_competitor(championship_lines[27][62:93]),
+            result=parse_bout_result(championship_lines[25][93:124]),
+            bout_number=parse_bout_number(championship_lines[24][62:93]),
+            winner=None,
+            winner_from=("championship_semi_02", "top_competitor"),
+        ),
+        MatchRaw(
+            match="championship_quarter_04",
+            top_competitor=parse_competitor(championship_lines[31][62:93]),
+            bottom_competitor=parse_competitor(championship_lines[37][62:93]),
+            result=parse_bout_result(championship_lines[35][93:124] + " "),
+            bout_number=parse_bout_number(championship_lines[34][62:93]),
+            winner=None,
+            winner_from=("championship_semi_02", "bottom_competitor"),
+        ),
         ########################################################################
-        {
-            "match": "championship_semi_01",
-            "top_competitor": parse_competitor(championship_lines[4][93:124]),
-            "bottom_competitor": parse_competitor(championship_lines[14][93:124]),
-            "result": parse_bout_result(championship_lines[10][124:155]),
-            "bout_number": parse_bout_number(championship_lines[9][93:124]),
-            "winner": ("championship_first_place", "top_competitor"),
-        },
-        {
-            "match": "championship_semi_02",
-            "top_competitor": parse_competitor(championship_lines[24][93:124]),
-            "bottom_competitor": parse_competitor(championship_lines[34][93:124]),
-            "result": parse_bout_result(championship_lines[30][124:155] + " "),
-            "bout_number": parse_bout_number(championship_lines[29][93:124]),
-            "winner": ("championship_first_place", "bottom_competitor"),
-        },
+        MatchRaw(
+            match="championship_semi_01",
+            top_competitor=parse_competitor(championship_lines[4][93:124]),
+            bottom_competitor=parse_competitor(championship_lines[14][93:124]),
+            result=parse_bout_result(championship_lines[10][124:155]),
+            bout_number=parse_bout_number(championship_lines[9][93:124]),
+            winner=None,
+            winner_from=("championship_first_place", "top_competitor"),
+        ),
+        MatchRaw(
+            match="championship_semi_02",
+            top_competitor=parse_competitor(championship_lines[24][93:124]),
+            bottom_competitor=parse_competitor(championship_lines[34][93:124]),
+            result=parse_bout_result(championship_lines[30][124:155] + " "),
+            bout_number=parse_bout_number(championship_lines[29][93:124]),
+            winner=None,
+            winner_from=("championship_first_place", "bottom_competitor"),
+        ),
         ########################################################################
-        {
-            "match": "championship_first_place",
-            "top_competitor": parse_competitor(championship_lines[9][124:155]),
-            "bottom_competitor": parse_competitor(championship_lines[29][124:155]),
-            "result": parse_bout_result(championship_lines[21][155:] + " "),
-            "bout_number": parse_bout_number(championship_lines[19][124:155]),
-            "winner": parse_competitor(championship_lines[19][155:]),
-        },
-        ########################################################################
-        # **********************************************************************
-        ########################################################################
-        {
-            "match": "consolation_round3_01",
-            "top_competitor": parse_competitor(consolation_lines[0][:31]),
-            "bottom_competitor": parse_competitor(consolation_lines[2][:31]),
-            "result": parse_bout_result(consolation_lines[2][31:62]),
-            "bout_number": parse_bout_number(consolation_lines[1][:31]),
-            "winner": ("consolation_round4_blood_01", "top_competitor"),
-        },
-        {
-            "match": "consolation_round3_02",
-            "top_competitor": parse_competitor(consolation_lines[4][:31]),
-            "bottom_competitor": parse_competitor(consolation_lines[6][:31]),
-            "result": parse_bout_result(consolation_lines[6][31:62]),
-            "bout_number": parse_bout_number(consolation_lines[5][:31]),
-            "winner": ("consolation_round4_blood_02", "top_competitor"),
-        },
-        {
-            "match": "consolation_round3_03",
-            "top_competitor": parse_competitor(consolation_lines[8][:31]),
-            "bottom_competitor": parse_competitor(consolation_lines[10][:31]),
-            "result": parse_bout_result(consolation_lines[10][31:62]),
-            "bout_number": parse_bout_number(consolation_lines[9][:31]),
-            "winner": ("consolation_round4_blood_03", "top_competitor"),
-        },
-        {
-            "match": "consolation_round3_04",
-            "top_competitor": parse_competitor(consolation_lines[12][:31]),
-            "bottom_competitor": parse_competitor(consolation_lines[14][:31]),
-            "result": parse_bout_result(consolation_lines[14][31:62]),
-            "bout_number": parse_bout_number(consolation_lines[13][:31]),
-            "winner": ("consolation_round4_blood_04", "top_competitor"),
-        },
-        ########################################################################
-        {
-            "match": "consolation_round4_blood_01",
-            "top_competitor": parse_competitor(consolation_lines[1][31:62]),
-            "bottom_competitor": parse_competitor(consolation_lines[3][31:62]),
-            "result": parse_bout_result(consolation_lines[3][62:93]),
-            "bout_number": parse_bout_number(consolation_lines[2][31:62]),
-            "winner": ("consolation_round5_01", "top_competitor"),
-        },
-        {
-            "match": "consolation_round4_blood_02",
-            "top_competitor": parse_competitor(consolation_lines[5][31:62]),
-            "bottom_competitor": parse_competitor(consolation_lines[7][31:62]),
-            "result": parse_bout_result(consolation_lines[7][62:93]),
-            "bout_number": parse_bout_number(consolation_lines[6][31:62]),
-            "winner": ("consolation_round5_01", "bottom_competitor"),
-        },
-        {
-            "match": "consolation_round4_blood_03",
-            "top_competitor": parse_competitor(consolation_lines[9][31:62]),
-            "bottom_competitor": parse_competitor(consolation_lines[11][31:62]),
-            "result": parse_bout_result(consolation_lines[11][62:93]),
-            "bout_number": parse_bout_number(consolation_lines[10][31:62]),
-            "winner": ("consolation_round5_02", "top_competitor"),
-        },
-        {
-            "match": "consolation_round4_blood_04",
-            "top_competitor": parse_competitor(consolation_lines[13][31:62]),
-            "bottom_competitor": parse_competitor(consolation_lines[15][31:62]),
-            "result": parse_bout_result(consolation_lines[15][62:93] + " "),
-            "bout_number": parse_bout_number(consolation_lines[14][31:62]),
-            "winner": ("consolation_round5_02", "bottom_competitor"),
-        },
-        ########################################################################
-        {
-            "match": "consolation_round5_01",
-            "top_competitor": parse_competitor(consolation_lines[2][62:93]),
-            "bottom_competitor": parse_competitor(consolation_lines[6][62:93]),
-            "result": parse_bout_result(consolation_lines[5][93:124]),
-            "bout_number": parse_bout_number(consolation_lines[4][62:93]),
-            "winner": ("consolation_round6_semi_01", "bottom_competitor"),
-        },
-        {
-            "match": "consolation_round5_02",
-            "top_competitor": parse_competitor(consolation_lines[10][62:93]),
-            "bottom_competitor": parse_competitor(consolation_lines[14][62:93]),
-            "result": parse_bout_result(consolation_lines[13][93:124] + " "),
-            "bout_number": parse_bout_number(consolation_lines[12][62:93]),
-            "winner": ("consolation_round6_semi_02", "bottom_competitor"),
-        },
-        ########################################################################
-        {
-            "match": "consolation_round6_semi_01",
-            "top_competitor": parse_competitor(consolation_lines[0][93:124]),
-            "bottom_competitor": parse_competitor(consolation_lines[4][93:124]),
-            "result": parse_bout_result(consolation_lines[3][124:155]),
-            "bout_number": parse_bout_number(consolation_lines[2][93:124]),
-            "winner": ("consolation_third_place", "top_competitor"),
-        },
-        {
-            "match": "consolation_round6_semi_02",
-            "top_competitor": parse_competitor(consolation_lines[8][93:124]),
-            "bottom_competitor": parse_competitor(consolation_lines[12][93:124]),
-            "result": parse_bout_result(consolation_lines[11][124:155] + " "),
-            "bout_number": parse_bout_number(consolation_lines[10][93:124]),
-            "winner": ("consolation_third_place", "bottom_competitor"),
-        },
-        ########################################################################
-        {
-            "match": "consolation_third_place",
-            "top_competitor": parse_competitor(consolation_lines[2][124:155]),
-            "bottom_competitor": parse_competitor(consolation_lines[10][124:155]),
-            "result": parse_bout_result(consolation_lines[8][155:] + " "),
-            "bout_number": parse_bout_number(consolation_lines[6][124:155]),
-            "winner": parse_competitor(consolation_lines[6][155:]),
-        },
+        MatchRaw(
+            match="championship_first_place",
+            top_competitor=parse_competitor(championship_lines[9][124:155]),
+            bottom_competitor=parse_competitor(championship_lines[29][124:155]),
+            result=parse_bout_result(championship_lines[21][155:] + " "),
+            bout_number=parse_bout_number(championship_lines[19][124:155]),
+            winner=parse_competitor(championship_lines[19][155:]),
+            winner_from=None,
+        ),
         ########################################################################
         # **********************************************************************
         ########################################################################
-        {
-            "match": "consolation_fifth_place",
-            "top_competitor": parse_competitor(fifth_place_lines[0][:31]),
-            "bottom_competitor": parse_competitor(fifth_place_lines[2][:31]),
-            "result": parse_bout_result(fifth_place_lines[3][31:] + " "),
-            "bout_number": parse_bout_number(fifth_place_lines[1][:31]),
-            "winner": parse_competitor(fifth_place_lines[1][31:]),
-        },
+        MatchRaw(
+            match="consolation_round3_01",
+            top_competitor=parse_competitor(consolation_lines[0][:31]),
+            bottom_competitor=parse_competitor(consolation_lines[2][:31]),
+            result=parse_bout_result(consolation_lines[2][31:62]),
+            bout_number=parse_bout_number(consolation_lines[1][:31]),
+            winner=None,
+            winner_from=("consolation_round4_blood_01", "top_competitor"),
+        ),
+        MatchRaw(
+            match="consolation_round3_02",
+            top_competitor=parse_competitor(consolation_lines[4][:31]),
+            bottom_competitor=parse_competitor(consolation_lines[6][:31]),
+            result=parse_bout_result(consolation_lines[6][31:62]),
+            bout_number=parse_bout_number(consolation_lines[5][:31]),
+            winner=None,
+            winner_from=("consolation_round4_blood_02", "top_competitor"),
+        ),
+        MatchRaw(
+            match="consolation_round3_03",
+            top_competitor=parse_competitor(consolation_lines[8][:31]),
+            bottom_competitor=parse_competitor(consolation_lines[10][:31]),
+            result=parse_bout_result(consolation_lines[10][31:62]),
+            bout_number=parse_bout_number(consolation_lines[9][:31]),
+            winner=None,
+            winner_from=("consolation_round4_blood_03", "top_competitor"),
+        ),
+        MatchRaw(
+            match="consolation_round3_04",
+            top_competitor=parse_competitor(consolation_lines[12][:31]),
+            bottom_competitor=parse_competitor(consolation_lines[14][:31]),
+            result=parse_bout_result(consolation_lines[14][31:62]),
+            bout_number=parse_bout_number(consolation_lines[13][:31]),
+            winner=None,
+            winner_from=("consolation_round4_blood_04", "top_competitor"),
+        ),
+        ########################################################################
+        MatchRaw(
+            match="consolation_round4_blood_01",
+            top_competitor=parse_competitor(consolation_lines[1][31:62]),
+            bottom_competitor=parse_competitor(consolation_lines[3][31:62]),
+            result=parse_bout_result(consolation_lines[3][62:93]),
+            bout_number=parse_bout_number(consolation_lines[2][31:62]),
+            winner=None,
+            winner_from=("consolation_round5_01", "top_competitor"),
+        ),
+        MatchRaw(
+            match="consolation_round4_blood_02",
+            top_competitor=parse_competitor(consolation_lines[5][31:62]),
+            bottom_competitor=parse_competitor(consolation_lines[7][31:62]),
+            result=parse_bout_result(consolation_lines[7][62:93]),
+            bout_number=parse_bout_number(consolation_lines[6][31:62]),
+            winner=None,
+            winner_from=("consolation_round5_01", "bottom_competitor"),
+        ),
+        MatchRaw(
+            match="consolation_round4_blood_03",
+            top_competitor=parse_competitor(consolation_lines[9][31:62]),
+            bottom_competitor=parse_competitor(consolation_lines[11][31:62]),
+            result=parse_bout_result(consolation_lines[11][62:93]),
+            bout_number=parse_bout_number(consolation_lines[10][31:62]),
+            winner=None,
+            winner_from=("consolation_round5_02", "top_competitor"),
+        ),
+        MatchRaw(
+            match="consolation_round4_blood_04",
+            top_competitor=parse_competitor(consolation_lines[13][31:62]),
+            bottom_competitor=parse_competitor(consolation_lines[15][31:62]),
+            result=parse_bout_result(consolation_lines[15][62:93] + " "),
+            bout_number=parse_bout_number(consolation_lines[14][31:62]),
+            winner=None,
+            winner_from=("consolation_round5_02", "bottom_competitor"),
+        ),
+        ########################################################################
+        MatchRaw(
+            match="consolation_round5_01",
+            top_competitor=parse_competitor(consolation_lines[2][62:93]),
+            bottom_competitor=parse_competitor(consolation_lines[6][62:93]),
+            result=parse_bout_result(consolation_lines[5][93:124]),
+            bout_number=parse_bout_number(consolation_lines[4][62:93]),
+            winner=None,
+            winner_from=("consolation_round6_semi_01", "bottom_competitor"),
+        ),
+        MatchRaw(
+            match="consolation_round5_02",
+            top_competitor=parse_competitor(consolation_lines[10][62:93]),
+            bottom_competitor=parse_competitor(consolation_lines[14][62:93]),
+            result=parse_bout_result(consolation_lines[13][93:124] + " "),
+            bout_number=parse_bout_number(consolation_lines[12][62:93]),
+            winner=None,
+            winner_from=("consolation_round6_semi_02", "bottom_competitor"),
+        ),
+        ########################################################################
+        MatchRaw(
+            match="consolation_round6_semi_01",
+            top_competitor=parse_competitor(consolation_lines[0][93:124]),
+            bottom_competitor=parse_competitor(consolation_lines[4][93:124]),
+            result=parse_bout_result(consolation_lines[3][124:155]),
+            bout_number=parse_bout_number(consolation_lines[2][93:124]),
+            winner=None,
+            winner_from=("consolation_third_place", "top_competitor"),
+        ),
+        MatchRaw(
+            match="consolation_round6_semi_02",
+            top_competitor=parse_competitor(consolation_lines[8][93:124]),
+            bottom_competitor=parse_competitor(consolation_lines[12][93:124]),
+            result=parse_bout_result(consolation_lines[11][124:155] + " "),
+            bout_number=parse_bout_number(consolation_lines[10][93:124]),
+            winner=None,
+            winner_from=("consolation_third_place", "bottom_competitor"),
+        ),
+        ########################################################################
+        MatchRaw(
+            match="consolation_third_place",
+            top_competitor=parse_competitor(consolation_lines[2][124:155]),
+            bottom_competitor=parse_competitor(consolation_lines[10][124:155]),
+            result=parse_bout_result(consolation_lines[8][155:] + " "),
+            bout_number=parse_bout_number(consolation_lines[6][124:155]),
+            winner=parse_competitor(consolation_lines[6][155:]),
+            winner_from=None,
+        ),
         ########################################################################
         # **********************************************************************
         ########################################################################
-        {
-            "match": "consolation_seventh_place",
-            "top_competitor": parse_competitor(seventh_place_lines[0][31:62]),
-            "bottom_competitor": parse_competitor(seventh_place_lines[2][31:62]),
-            "result": parse_bout_result(seventh_place_lines[3][62:] + " "),
-            "bout_number": parse_bout_number(seventh_place_lines[1][31:62]),
-            "winner": parse_competitor(seventh_place_lines[1][62:]),
-        },
+        MatchRaw(
+            match="consolation_fifth_place",
+            top_competitor=parse_competitor(fifth_place_lines[0][:31]),
+            bottom_competitor=parse_competitor(fifth_place_lines[2][:31]),
+            result=parse_bout_result(fifth_place_lines[3][31:] + " "),
+            bout_number=parse_bout_number(fifth_place_lines[1][:31]),
+            winner=parse_competitor(fifth_place_lines[1][31:]),
+            winner_from=None,
+        ),
+        ########################################################################
+        # **********************************************************************
+        ########################################################################
+        MatchRaw(
+            match="consolation_seventh_place",
+            top_competitor=parse_competitor(seventh_place_lines[0][31:62]),
+            bottom_competitor=parse_competitor(seventh_place_lines[2][31:62]),
+            result=parse_bout_result(seventh_place_lines[3][62:] + " "),
+            bout_number=parse_bout_number(seventh_place_lines[1][31:62]),
+            winner=parse_competitor(seventh_place_lines[1][62:]),
+            winner_from=None,
+        ),
     ]
 
-    by_match = {match["match"]: match for match in matches}
+    by_match = {match.match: match for match in matches}
     if len(by_match) != len(matches):
         raise ValueError("Invariant violation")
 
@@ -580,7 +774,13 @@ def extract_bracket(weight, divison):
         # NOTE: This **MUST** happen after `set_winner()` and `set_result()`
         set_top_competitor(match)
 
-    return matches
+    return clean_raw_matches(matches)
+
+
+class WeightClass(pydantic.BaseModel):
+    division: Literal["senior", "novice"]
+    weight: int
+    matches: list[Match]
 
 
 def main():
@@ -624,31 +824,33 @@ def main():
         275,
     )
 
-    parsed = []
+    parsed: list[WeightClass] = []
     division = "novice"
     for weight in novice_weights:
         matches = extract_bracket(weight, division)
         parsed.append(
-            {
-                "division": division,
-                "weight": weight,
-                "matches": matches,
-            }
+            WeightClass(
+                division=division,
+                weight=weight,
+                matches=matches,
+            )
         )
 
     division = "senior"
     for weight in senior_weights:
         matches = extract_bracket(weight, division)
         parsed.append(
-            {
-                "division": division,
-                "weight": weight,
-                "matches": matches,
-            }
+            WeightClass(
+                division=division,
+                weight=weight,
+                matches=matches,
+            )
         )
 
     with open(HERE / "extracted.2006.json", "w") as file_obj:
-        json.dump(parsed, file_obj, indent=2)
+        json.dump(
+            [weight_class.model_dump() for weight_class in parsed], file_obj, indent=2
+        )
         file_obj.write("\n")
 
 
