@@ -234,11 +234,10 @@ def _to_competitor(value: CompetitorRaw | None) -> Competitor | None:
         raise RuntimeError(value.name, value.team)
 
     return Competitor(
-        name=value.name,
-        team=value.team,
         first_name=parts[0],
         last_name=parts[1],
         suffix=None,
+        team=value.team,
     )
 
 
