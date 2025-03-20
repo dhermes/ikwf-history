@@ -11,65 +11,45 @@ TEAM_ACRONYM_MAPPING = {
     "AC": "ARLINGTON CARDINALS",
     "ACE": "ACES WRESTLING",
     "ADA": "ADDISON ANIMALS",  # Duplicate
-    "ADD": "ADDISON ANIMALS",  # Duplicate; No wrestler in brackets (team name shows up twice in Team Scores)
     "AOK": "A-O KIDS WC",
-    "BAD": "BADGER WC",
     "BAT": "BATAVIA PINNERS",
     "BB": "BELVIDERE BANDITS",
     "BGP": "BOYS & GIRLS CLUB",  # ... of Pekin
-    "BH": "BISMARCK-HENNING WC",
+    "BH": "BISMARK-HENNING WC",
     "BJH": "BETHALTO JR HIGH",
     "BJW": "BENTON JR. WC",
     "BLD": "BELLEVILLE LITTLE DE",
-    "BRL": "BRAWLERS WC",  # Duplicate (team name shows up twice in Team Scores)
     "BRO": "BRONCO WRESTLING",
     "BWC": "BRAWLERS WC",  # Duplicate
-    "CCK": "CHAMPAIGN CHARGER KI",
-    "CEN": "CENTRALIA WC",
-    "CHA": "CHARLESTON WC",  # Duplicate (team name shows up twice in Team Scores)
     "CHE": "CHENOA MAT CATS",
     "CHL": "CHILLICOTHE WC",
     "CHR": "CHARLESTON WC",  # Duplicate
     "CJT": "CARY JR TROJAN MATME",
     "CKW": "CARLINVILLE KIDS WC",
-    "CLW": "CRYSTAL LAKE WIZARDS",
-    "CPC": "CAMP POINT CENTRAL",
-    "CW": "CROSSFACE WRESTLING",  # No wrestler in brackets (0.00 Team Score)
-    "CWC": "CARBONDALE WC",
     "CYW": "CUMBERLAND YOUTH WC",
     "DAK": "DAKOTA WC",
-    "DC": "DUNDEE CARPETERVILL",
-    "DEC": "DECATUR WC",
     "DH": "DUNDEE HIGHLANDERS",
     "DIX": "DIXON WC",
     "DPC": "DURAND-PECATONICA",
-    "DW": "DUNDEE WESTFIELD",  # No wrestler in brackets (0.00 Team Score)
     "EMP": "EAST MOLINE PANTHER",
     "EMS": "ERIE MIDDLE SCHOOL W",  # Duplicate
     "EP": "EDISON PANTHERS",
-    "ERI": "ERIE MIDDLE SCHOOL W",  # Duplicate; No wrestler in brackets (team name shows up twice in Team Scores)
     "EUR": "EUREKA KIDS WC",
     "EWC": "EDWARDSVILLE WC",
-    "FIS": "FISHER WC",  # Duplicate (used for Novice)
+    "FIS": "FISHER WC",
     "FPR": "FRANKLIN PARK RAIDER",
     "FVC": "FOX VALLEY CRONE WC",
     "FVW": "FOX VALLEY WC",
-    "FWC": "FISHER WC",  # Duplicate (used for Senior)
     "FYW": "FALCON YOUTH WC",
-    "GAL": "GALESBURG JR STREAKS",  # Duplicate; No wrestler in brackets
-    "GDW": "GRAPPLIN DEVILS WC",
     "GED": "GLEN ELLYN DUNGEON W",
-    "GEJ": "GLENBARD EAST JR RAM",
     "GEN": "GENERALS",
-    "GJS": "GALESBURG JR STRK 2",  # Duplicate
+    "GJS": "GALESBURG JR STRK 2",
     "GWC": "GENESEO WC",
     "HAW": "HOOPESTON AREA WC",
     "HBJ": "HIGHLAND BULLDOG JR",
     "HC": "HARLEM COUGARS",
-    "HER": "HERRIN WC",  # No wrestler in brackets
     "HJT": "HILLSBORO JR TOPPERS",
     "HON": "HONONEGAH KIDS WC",
-    "HRD": "HINSDALE RED DEVILS",
     "HUS": "HUSKIES WC",
     "IB": "ILLINI BLUFFS WC",
     "JAC": "JACKSONVILLE WC",
@@ -79,14 +59,10 @@ TEAM_ACRONYM_MAPPING = {
     "JRM": "JR MAROON WC",
     "JRS": "JR SENTINELS",
     "JRW": "JR ROCKET WRESTLING",
-    "JUN": "JUNIOR PIRATE WC",
     "LB": "LEMONT BEARS WC",
     "LC": "LITTLE CELTIC WC",
     "LCW": "LAWRENCE COUNTY WC",
-    "LG": "LITTLE GIANTS",  # No wrestler in brackets
-    "LIN": "LITTLE INDIANS",
     "LIT": "LITTLE BOILER WC",
-    "LJW": "LAKE VIEW JR WILDCAT",
     "LLP": "LAKELAND PREDATORS",
     "LPC": "L-P CRUNCHING CAVS",
     "LRB": "LITTLE REDBIRD WC",
@@ -98,7 +74,6 @@ TEAM_ACRONYM_MAPPING = {
     "MAT": "MATTOON YOUTH WC",
     "MCY": "MIDWEST CENTRAL YOUT",
     "ME": "MAINE EAGLES WC",
-    "MEN": "MENDOTA MAT MASTERS",
     "MET": "METAMORA KIDS WC",
     "MFV": "MARTINEZ FOX VALLEY",
     "MKW": "MACOMB KIDS WRESTLIN",
@@ -107,19 +82,15 @@ TEAM_ACRONYM_MAPPING = {
     "MTV": "MT VERNON LIONS",
     "MTZ": "MT ZION WC",
     "MUR": "MURPHYSBORO WRESTLIN",
-    "NAP": "NAPERVILLE WC",
     "NE": "NAPERVILLE EAGLES",
     "NL": "NAPERVILLE LANCERS",
     "NW": "NAPERVILLE WARHAWKS",
     "OAK": "OAKWOOD WC",
     "OC": "OSWEGO COUGARS",
-    "OLW": "OAK LAWN PD WILDCATS",
     "OPP": "ORLAND PARK PIONEERS",
     "OSP": "OSWEGO PANTHERS",
     "PCW": "PANTHER CUB WC",
-    "PIN": "PINCKNEYVILLE JR",
     "PLH": "PLANIFIELD HUSKIES W",
-    "PLT": "PLT PROPHETS WC",
     "PLW": "PLAINFIELD WOLVES WC",
     "POL": "POLO WC",
     "PON": "PONY EXPRESS WC",
@@ -127,28 +98,21 @@ TEAM_ACRONYM_MAPPING = {
     "PWC": "PLAINFIELD WC",
     "RAM": "RAMS WC",
     "RFR": "ROCK FALLS RIPPIN",
-    "RIC": "RICHMOND WC",  # Duplicate; No wrestler in brackets (team name shows up twice in Team Scores)
     "RIV": "RIVERBEND WC",
     "RJH": "RIVERDALE JR HIGH",
-    "RMD": "RICHMOND WC",  # Duplicate
+    "RMD": "RICHMOND WC",
     "ROC": "ROCHELLE WC",
     "ROX": "ROXANA KIDS WC",
     "RWC": "ROCKFORD WC",
-    "SAV": "SAVANNA REDHAWKS",
-    "SC": "SPRINGFIELD CAPITALS",
-    "SHA": "SHARKS WC",
-    "SHE": "SHERRARD JR WC",
-    "SIE": "SOUTHERN IL EAGLES",
-    "SJO": "SJO YOUTH WRESTLING",
-    "SJW": "SHELBYVILLE JR RAMS",
+    "SC": "SPRINGFIELD CAPTIALS",
+    "SHE": "SHERRAND JR WC",
+    "SJW": "SHELBYVILLE JUNIOR R",
     "SN": "STERLING NEWMAN JR",
     "SSW": "SOUTHSIDE WC",
-    "STB": "ST BEDE WC",
     "SVW": "STILLMAN VALLEY WC",
     "SW": "STATELINE WILDCATS",
     "SYW": "SAUKEE YOUTH WC",
     "TAY": "TAYLORVILLE WC",
-    "TCB": "TRI-CITY BRAVES",
     "TPB": "TINLEY PARK BULLDOGS",
     "TTT": "TIGERTOWN TANGLERS",
     "TWC": "TIGER WC",
@@ -157,23 +121,75 @@ TEAM_ACRONYM_MAPPING = {
     "VC": "VITTUM CATS",
     "VLC": "VILLA LOMBARD COUGAR",
     "VPY": "VILLA PARK YOUNG",
-    "WAB": "WAUBONSIE BULLDOGS",
     "WAG": "WAUONSIE GRIZZLIES",
     "WAR": "WARRENSBURG WC",
     "WAU": "WAUBONSIE TRAILBLAZE",
-    "WB": "WHEATON BULLDOGS",  # Duplicate (used for Senior 275; team name shows up twice in Team Scores)
+    "WB": "WHEATON BULLDOGS",
     "WCI": "WEST CHICAGO PD",
     "WES": "WESTVILLE YOUTH WC",
     "WF": "WEST FRANKFORT JR WC",
-    "WFL": "WRESTLING FACTORY",  # Libertyville
-    "WHC": "WHEATON WC",  # Duplicate (used for Senior 156; team name shows up twice in Team Scores)
-    "WHE": "WHEATON BULLDOGS",  # Duplicate (used for Senior 70; team name shows up twice in Team Scores)
-    "WHT": "WHEATON WC",  # Duplicate (used for Senior 74; team name shows up twice in Team Scores)
+    "WFL": "WRESTLING FACTORY",  # ... of Libertyville
+    "WHC": "WHEATON WC",
+    "WHE": "WHEATON BULLDOGS",
+    "WHT": "WHEATON WC",
     "WJP": "WASHINGTON JR PANTHE",
     "WME": "WHEATON MONROE EAGLE",
     "WWC": "WOLFPAK WC",
     "YOU": "YOUNG CHAMPIONS",
     "YWC": "YORKVILLE WC",
+    # NOTE: These are acronyms that show up in `team*.pdf` keys but do not
+    #       have athletes in any brackets.
+    "ADD": "ADDISON ANIMALS",  # Duplicate (team name shows up twice in Senior Team Scores)
+    "BAD": "BADGER WC",  # 0.0 points in both Novice and Senior
+    "BRL": "BRAWLERS WC",  # Duplicate (team name shows up twice in Senior Team Scores)
+    "CEN": "CENTRALIA WC",  # 0.0 points in Senior
+    "CHA": "CHARLESTON WC",  # Duplicate (team name shows up twice in Senior Team Scores)
+    "CPC": "CAMP POINT CENTRAL",  # 0.0 points in Novice
+    "CW": "CROSSFACE WRESTLING",  # 0.0 points in Novice
+    "CWC": "CARBONDALE WC",  # 0.0 points in Novice
+    "DC": "DUNDEE CARPETERVILL",  # 0.0 points in Senior
+    "DEC": "DECATUR WC",  # 0.0 points in Senior
+    "DW": "DUNDEE WESTFIELD",  # 0.0 points in Senior
+    "ERI": "ERIE MIDDLE SCHOOL W",  # Duplicate (team name shows up twice in Senior Team Scores)
+    "FWC": "FISHER WC",  # 0.0 points in Senior
+    "GAL": "GALESBURG JR STREAKS",  # 0.0 points in Senior
+    "HER": "HERRIN WC",  # 0.0 points in Novice
+    "JUN": "JUNIOR PIRATE WC",  # 0.0 points in both Novice and Senior
+    "LG": "LITTLE GIANTS",  # 0.0 points in Novice
+    "LIN": "LITTLE INDIANS",  # 0.0 points in Novice
+    "LJW": "LAKE VIEW JR WILDCAT",  # 0.0 points in Senior
+    "MEN": "MENDOTA MAT MASTERS",  # 0.0 points in Novice
+    "NAP": "NAPERVILLE WC",  # 0.0 points in Senior
+    "PIN": "PINCKNEYVILLE JR",  # 0.0 points in Senior
+    "PLT": "PLT PROPHETS WC",  # 0.0 points in Senior
+    "RIC": "RICHMOND WC",  # Duplicate (team name shows up twice in Senior Team Scores)
+    "SAV": "SAVANNA REDHAWKS",  # 0.0 points in Novice
+    "SHA": "SHARKS WC",  # 0.0 points in Senior
+    "STB": "ST BEDE WC",  # 0.0 points in Senior
+    "TCB": "TRI-CITY BRAVES",  # 0.0 points in Senior
+    "WAB": "WAUBONSIE BULLDOGS",  # 0.0 points in Senior
+}
+# NOTE: Sometimes acronyms (or team names) differ between Novice and Senior
+#       in the Team Scores.
+NOVICE_TEAM_ACRONYM_MAPPING = {
+    "CCK": "CHAMPAIGN CHARGER KD",  # Team Name Spelling Differs
+    "CLW": "CRYSTAL LAKE WIRZARD",  # Team Name Spelling Differs
+    "GDW": "GRAPPLIN'DEVILS WC",  # Team Name Spelling Differs
+    "GEJ": "GLENBARD EST JR RAMS",  # Team Name Spelling Differs
+    "HRD": "HINSDALE RED DEVIL W",  # Team Name Spelling Differs
+    "OLW": "OAK LAWN PD WILDCATS",  # Team Name Spelling Differs
+    "SIE": "SOUTHERN IL EAGLES",  # Team Name Spelling Differs
+    "SJO": "SHO YOUTH WRESTLING",  # Team Name Spelling Differs
+}
+SENIOR_TEAM_ACRONYM_MAPPING = {
+    "CCK": "CHAMPAIGN CHARGER KI",  # Team Name Spelling Differs
+    "CLW": "CRYSTAL LAKE WIZARDS",  # Team Name Spelling Differs
+    "GDW": "GRAPPLIN DEVILS WC",  # Team Name Spelling Differs
+    "GEJ": "GLENBARD EAST JR RAM",  # Team Name Spelling Differs
+    "HRD": "HINSDALE RED DEVILS",  # Team Name Spelling Differs
+    "OLW": "OAK LAWN P.D. WILDCA",  # Team Name Spelling Differs
+    "SIE": "SOUTHERN ILLINOIS EA",  # Team Name Spelling Differs
+    "SJO": "SJO YOUTH WRESTLING",  # Team Name Spelling Differs
 }
 TEAM_NAME_MAPPING = {
     "A-O KIDS WC": 8,
@@ -188,6 +204,7 @@ TEAM_NAME_MAPPING = {
     "BENTON JR. WC": 26,
     "BETHALTO JR HIGH": 10118,
     "BISMARCK-HENNING WC": 28,
+    "BISMARK-HENNING WC": 28,
     "BOYS & GIRLS CLUB": 319,
     "BRAWLERS WC": 39,
     "BRONCO WRESTLING": 41,  # Old Montini Feeder (Bukovsky)
@@ -196,19 +213,18 @@ TEAM_NAME_MAPPING = {
     "CARLINVILLE KIDS WC": 54,
     "CARY JR TROJAN MATME": 59,
     "CENTRALIA WC": 64,
+    "CHAMPAIGN CHARGER KD": 10124,
     "CHAMPAIGN CHARGER KI": 10124,
     "CHARLESTON WC": 69,
     "CHENOA MAT CATS": 10011,
     "CHILLICOTHE WC": 10014,  # Chilli Dawgs WC
     "CROSSFACE WRESTLING": 10018,
+    "CRYSTAL LAKE WIRZARD": 89,
     "CRYSTAL LAKE WIZARDS": 89,
     "CUMBERLAND YOUTH WC": 90,
     "DAKOTA WC": 92,
-    "DECATUR WC": -10907,  # 644 or 663?
     "DIXON WC": 98,
-    "DUNDEE CARPETERVILL": -10907,
     "DUNDEE HIGHLANDERS": 102,
-    "DUNDEE WESTFIELD": -10907,
     "DURAND-PECATONICA": -10907,
     "EAST MOLINE PANTHER": 10121,
     "EDISON PANTHERS": 10131,
@@ -226,11 +242,14 @@ TEAM_NAME_MAPPING = {
     "GENESEO WC": 10033,
     "GLEN ELLYN DUNGEON W": 10039,
     "GLENBARD EAST JR RAM": 147,
+    "GLENBARD EST JR RAMS": 147,
     "GRAPPLIN DEVILS WC": 153,
+    "GRAPPLIN'DEVILS WC": 153,
     "HARLEM COUGARS": 10041,
     "HERRIN WC": 10042,  # 166?
     "HIGHLAND BULLDOG JR": 168,
     "HILLSBORO JR TOPPERS": 170,
+    "HINSDALE RED DEVIL W": 171,
     "HINSDALE RED DEVILS": 171,
     "HONONEGAH KIDS WC": 173,
     "HOOPESTON AREA WC": 174,
@@ -245,7 +264,6 @@ TEAM_NAME_MAPPING = {
     "JUNIOR PIRATE WC": 201,
     "JUNIOR ROCKS WRESTLI": 361,  # Maybe?
     "L-P CRUNCHING CAVS": 241,
-    "LAKE VIEW JR WILDCAT": -10907,
     "LAKE VILLA LANCERS": -10907,
     "LAKELAND PREDATORS": 10057,
     "LAWRENCE COUNTY WC": 217,
@@ -275,6 +293,7 @@ TEAM_NAME_MAPPING = {
     "NAPERVILLE LANCERS": -10907,
     "NAPERVILLE WARHAWKS": -10907,
     "NAPERVILLE WC": 281,
+    "OAK LAWN P.D. WILDCA": 10075,
     "OAK LAWN PD WILDCATS": 10075,
     "OAKWOOD WC": 299,
     "ORLAND PARK PIONEERS": 306,
@@ -301,11 +320,16 @@ TEAM_NAME_MAPPING = {
     "SAVANNA REDHAWKS": 10089,
     "SHARKS WC": 381,
     "SHELBYVILLE JR RAMS": 382,
+    "SHELBYVILLE JUNIOR R": 382,
+    "SHERRAND JR WC": 383,
     "SHERRARD JR WC": 383,
+    "SHO YOUTH WRESTLING": 402,
     "SJO YOUTH WRESTLING": 402,
     "SOUTHERN IL EAGLES": 10092,
+    "SOUTHERN ILLINOIS EA": 10092,
     "SOUTHSIDE WC": -10907,
     "SPRINGFIELD CAPITALS": 397,
+    "SPRINGFIELD CAPTIALS": 397,
     "ST BEDE WC": 10095,
     "STATELINE WILDCATS": 10097,
     "STERLING NEWMAN JR": 10098,
@@ -322,7 +346,6 @@ TEAM_NAME_MAPPING = {
     "VITTUM CATS": 466,
     "WARRENSBURG WC": 468,
     "WASHINGTON JR PANTHE": 10110,
-    "WAUBONSIE BULLDOGS": -10907,
     "WAUBONSIE TRAILBLAZE": -10907,
     "WAUONSIE GRIZZLIES": -10907,
     "WEST CHICAGO PD": -10907,
