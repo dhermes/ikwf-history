@@ -11,6 +11,13 @@ original ASCII Art glory:
 
 {{< collapsible title="1999" >}}
 
+<!--
+
+http://www.ikwf.org/Results/1999_IKWF_Novice_Division_Stat/body_1999_ikwf_novice_division_stat.html
+http://www.ikwf.org/Results/1999_IKWF_Senior_Division_Stat/body_1999_ikwf_senior_division_stat.html
+
+-->
+
 We haven't yet found brackets, but we do have placers and team scores from
 1999:
 
@@ -20,6 +27,27 @@ We haven't yet found brackets, but we do have placers and team scores from
 {{< /collapsible >}}
 
 {{< collapsible title="2000" >}}
+
+<!--
+
+http://www.ikwf.org/Results/2000_IKWF_State_Results/body_2000_ikwf_state_results.html
+http://www.enteract.com/~rebearg/ (Naperville Wrestling Club website)
+http://www.enteract.com/~rebearg/pages/IKWF/state/state2000/brackets2000.html
+http://www.enteract.com/~rebearg/pages/IKWF/state/state2000/Brackets/Novice/novice.html
+http://www.enteract.com/~rebearg/pages/IKWF/state/state2000/Brackets/Novice/nbweight.html
+
+http://www.enteract.com/~rebearg/pages/IKWF/state/state2000/Brackets/Senior/senior.html
+http://www.enteract.com/~rebearg/pages/IKWF/state/state2000/Brackets/Senior/sbweight.html
+
+http://www.ikwf.org/Results/2000_IKWF_State_Results/2000_Novice_Brackets/body_2000_novice_brackets.html
+http://www.ikwf.org/Results/2000_IKWF_State_Results/2000_Novice_Team_Scores/body_2000_novice_team_scores.html
+http://www.ikwf.org/Results/2000_IKWF_State_Results/2000_Novice_Placewinners/body_2000_novice_placewinners.html
+
+http://www.ikwf.org/Results/2000_IKWF_State_Results/2000_Senior_Brackets/body_2000_senior_brackets.htm
+http://www.ikwf.org/Results/2000_IKWF_State_Results/2000_Senior_Team_Scores/body_2000_senior_team_scores.html
+http://www.ikwf.org/Results/2000_IKWF_State_Results/2000_Senior_Placewinners/body_2000_senior_placewinners.html
+
+-->
 
 - **Novice Team Scores** missing
 - [Novice 62](/brackets/2000/novice/62.html)
