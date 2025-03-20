@@ -7,6 +7,16 @@ We have **some** but not **all** data for some years.
 - Novice 2000: **MISSING** Team Scores (as of 2025-03-18)
 - Senior 2000: **MISSING** Team Scores (as of 2025-03-18)
 
+## Team acronmys
+
+We attempt to determine team acronyms by doing (approximate) team scoring and
+comparing to the team scores for a given tournament.
+
+For one year (2001), there were `team.pdf`, `team-2.pdf`, etc. files found
+on the Wayback Machine. (Original source needed.) The IKWF used to print
+this acronym key in the state tournament booklets but these didn't really
+make it onto the internet.
+
 ## Team scoring
 
 As of 2025 bylaws (`bylaws_2024-25.pdf`), team scoring at the state tournament
