@@ -227,13 +227,7 @@ def _to_competitor(value: CompetitorRaw | None) -> Competitor | None:
 
     parts = value.name.split()
     if len(parts) != 2:
-        # raise RuntimeError(value.name, value.team)
-        print(
-            f'("{value.name}", "{value.team}"): Competitor(first_name="", last_name="", suffix=None, team="{value.team}"),'
-        )
-        return Competitor(
-            first_name=value.name, last_name="", suffix=None, team=value.team
-        )
+        raise RuntimeError(value.name, value.team)
 
     return Competitor(
         first_name=parts[0],
@@ -268,13 +262,13 @@ def ensure_no_name_duplicates(matches: list[Match]) -> None:
             if is_r32:
                 first_round_competitors.append(match.bottom_competitor)
 
-    by_team_any: dict[str, Competitor] = {}
+    by_team_any: dict[str, list[Competitor]] = {}
     for competitor in any_competitors:
         existing = by_team_any.setdefault(competitor.team, [])
         if not any(competitor == seen for seen in existing):
             existing.append(competitor)
 
-    by_team_first_round: dict[str, Competitor] = {}
+    by_team_first_round: dict[str, list[Competitor]] = {}
     for competitor in first_round_competitors:
         existing = by_team_first_round.setdefault(competitor.team, [])
         if not any(competitor == seen for seen in existing):

@@ -266,13 +266,13 @@ def ensure_no_name_duplicates(matches: list[Match]) -> None:
             if is_r32:
                 first_round_competitors.append(match.bottom_competitor)
 
-    by_team_any: dict[str, Competitor] = {}
+    by_team_any: dict[str, list[Competitor]] = {}
     for competitor in any_competitors:
         existing = by_team_any.setdefault(competitor.team, [])
         if not any(competitor == seen for seen in existing):
             existing.append(competitor)
 
-    by_team_first_round: dict[str, Competitor] = {}
+    by_team_first_round: dict[str, list[Competitor]] = {}
     for competitor in first_round_competitors:
         existing = by_team_first_round.setdefault(competitor.team, [])
         if not any(competitor == seen for seen in existing):
