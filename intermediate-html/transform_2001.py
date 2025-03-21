@@ -709,13 +709,13 @@ def compute_team_scores(weight_classes: list[WeightClass]) -> dict[str, float]:
     return result
 
 
-def _team_score_sort(value: tuple[str, float]) -> tuple[float, str]:
+def _team_score_sort_reverse(value: tuple[str, float]) -> tuple[float, str]:
     acronym, score = value
-    return score, acronym
+    return -score, acronym
 
 
 def print_team_scores(team_scores: dict[str, float]) -> None:
-    sorted_scores = sorted(team_scores.items(), key=_team_score_sort, reverse=True)
+    sorted_scores = sorted(team_scores.items(), key=_team_score_sort_reverse)
     for acronym, score in sorted_scores:
         print(f"  {acronym}: {score}")
 
