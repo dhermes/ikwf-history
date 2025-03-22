@@ -9,7 +9,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 TEAM_ACRONYM_MAPPING = {
     "AOK": "A-O KIDS WC",
     "BAD": "BADGER WC",
-    "BAR": "TODO",
+    "BAR": "BARTLETT HAWK WC",
     "BAT": "BATAVIA PINNERS",
     "BB": "BELVIDERE BANDITS",
     "BBW": "BRADLEY BOURBONNAIS WRESTLING CLUB",
@@ -122,13 +122,13 @@ TEAM_ACRONYM_MAPPING = {
     "SN": "STERLING NEWMAN JR",
     "SSW": "SOUTHSIDE WC",
     "STB": "ST BEDE WC",
-    "STC": "TODO",  # ST. CHARLES EAST
+    "STC": "ST. CHARLES WC",
     "SVW": "STILLMAN VALLEY WC",
     "SW": "STATELINE WILDCATS",
     "SYW": "SAUKEE YOUTH WC",
     "T1": "TODO",  # Belvidere?
     "TAY": "TAYLORVILLE WC",
-    "TAZ": "TODO",  # PEKIN / Illini Bluffs (Glasford)
+    "TAZ": "TAZEWELL COUNTY KIDZ WC",
     "TCB": "TRI-CITY BRAVES",
     "TPB": "TINLEY PARK BULLDOGS",
     "TRI": "TRIAD KNIGHTS WRESTLING CLUB",
