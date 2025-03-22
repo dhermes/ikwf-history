@@ -1,7 +1,9 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
-import json
 import pathlib
+from typing import Literal
+
+import pydantic
 
 HERE = pathlib.Path(__file__).resolve().parent
 TEAM_ACRONYM_MAPPING = {
@@ -275,11 +277,73 @@ TEAM_NAME_MAPPING = {
 }
 
 
+class Competitor(pydantic.BaseModel):
+    first_name: str
+    last_name: str
+    suffix: str | None
+    team: str
+
+
+ResultType = Literal[
+    "BYE",
+    "DECISION",
+    "DEFAULT",
+    "DISQUALIFICATION",
+    "FALL",
+    "FORFEIT",
+    "MAJOR",
+    "TECH",
+]
+
+
+class Match(pydantic.BaseModel):
+    match: str
+    top_competitor: Competitor | None
+    bottom_competitor: Competitor | None
+    result: str
+    result_type: ResultType
+    bout_number: int | None
+    top_win: bool | None
+
+
+class WeightClass(pydantic.BaseModel):
+    division: Literal["senior", "novice"]
+    weight: int
+    matches: list[Match]
+
+
+class WeightClasses(pydantic.RootModel[list[WeightClass]]):
+    pass
+
+
+class CompetitorWithWeight(pydantic.BaseModel):
+    division: Literal["senior", "novice"]
+    weight: int
+    competitor: Competitor
+
+
 def main():
     with open(HERE / "extracted.2000.json") as file_obj:
-        extracted = json.load(file_obj)
+        extracted = WeightClasses.model_validate_json(file_obj.read())
 
-    raise NotImplementedError(len(extracted))
+    actual_teams: set[str] = set()
+    weight_classes = extracted.root
+    for weight_class in weight_classes:
+        for match in weight_class.matches:
+            if match.top_competitor is not None:
+                actual_teams.add(match.top_competitor.team)
+            if match.bottom_competitor is not None:
+                actual_teams.add(match.bottom_competitor.team)
+
+    missing_teams = sorted(
+        team for team in actual_teams if team not in TEAM_ACRONYM_MAPPING
+    )
+    extra_teams = sorted(
+        team for team in TEAM_ACRONYM_MAPPING if team not in actual_teams
+    )
+    print(missing_teams)
+    print("****************************************")
+    print(extra_teams)
 
 
 if __name__ == "__main__":
