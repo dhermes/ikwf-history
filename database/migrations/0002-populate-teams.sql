@@ -471,7 +471,7 @@ VALUES
   ('Minooka Indians Elite',                            266),
   ('MMA Stop H.E.A.T.',                                267),
   ('Moline Wrestling Club',                            268),
-  ('Montego Matmen',                                   10117),
+  ('Montego Matmen',                                   10117), -- OSWEGO
   ('Monticello Youth Wrestling Club',                  269),
   ('Morris Wrestling Club',                            237),
   ('Morrison Stallions Wrestling Club',                270),
