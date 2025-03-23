@@ -52,7 +52,7 @@ TEAM_ACRONYM_MAPPING = {
     "HAW": "HOOPESTON AREA WC",
     "HBJ": "HIGHLAND BULLDOG JR",
     "HC": "HARLEM COUGARS",
-    "HIL": "TODO",  # all athletes went to Waubonsie Valley High School
+    "HIL": "HILL TRAILBLAZERS",  # Aurora; Hill Elementary
     "HJT": "HILLSBORO JR TOPPERS",
     "HON": "HONONEGAH KIDS WC",
     "HPL": "HIGHLAND PARK LITTLE GIANTS",
@@ -61,7 +61,7 @@ TEAM_ACRONYM_MAPPING = {
     "IB": "ILLINI BLUFFS WC",
     "JAC": "JACKSONVILLE WC",
     "JGE": "JR GOLDEN EAGLES",
-    "JRB": "TODO",  # Lake Zurich
+    "JRB": "JR BEARS WC",  # LAKE ZURICH; Now Cubs (214)
     "JRM": "JR MAROON WC",
     "JRW": "JR ROCKET WRESTLING",
     "JS2": "GALESBURG JR STREAKS",  # Duplicate; GALESBURG JR STREAKS 2
