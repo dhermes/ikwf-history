@@ -7,11 +7,14 @@ import pydantic
 
 HERE = pathlib.Path(__file__).resolve().parent
 TEAM_ACRONYM_MAPPING = {
+    "ABC": "ALEDO BEAR COUNTRY WC",
     "ACE": "ACES WC",  # Absent from Senior team scores
     "AGO": "ARGENTA/OREANA KIDS CLUB",
     "AJP": "ALLEMAN JR PIONEERS",
+    "ANI": "ANIMALS WC",  # Fenton / Bensenville
     "ARL": "ARLINGTON CARDINALS",
     "BB": "BETHALTO BULLS WC",
+    "BDGR": "BADGER WC",
     "BELV": "BELVIDERE BANDITS",
     "BEN": "BENTON JR WC",
     "BHK": "BLACKHAWK WC",
@@ -19,18 +22,22 @@ TEAM_ACRONYM_MAPPING = {
     "BLD": "BELLEVILLE LITTLE DEVILS",
     "BLM": "BLOOMINGTON RAIDER WC",
     "BMH": "BISMARCK HENNING WRESTLING CLUB",
+    "BRL": "BRAWLERS WC",
     "CARY": "CARY JR TROJAN MATMEN",
     "CCR": "CHICAGO CRUSADERS",
     "CENT": "CENTRAL WRESTLING CLUB",
     "CHAR": "CHARLESTON WC",  # Absent from Senior team scores
     "CKW": "CHAMPAIGN KIDS WRESTLING",
+    "CLD": "CHILLI DAWGS WC",
     "CLW": "CRYSTAL LAKE WIZARDS",
     "CMB": "CUMBERLAND YOUTH WC",
     "CMW": "CALUMET MEMORIAL PD WOLVERINES",
     "COL": "COLLINSVILLE RAIDERS",
     "CRB": "CARBONDALE WC",  # Absent from Senior team scores
     "CRST": "CROSSTOWN CRUSHERS",
+    "CWD": "CHICAGO WOLVES DEN",
     "DAK": "DAKOTA WC",
+    "DEK": "DEKALB WC",
     "DGC": "DOWNERS GROVE COUGARS",
     "DIX": "DIXON WC",
     "DUN": "DUNDEE HIGHLANDERS",
@@ -48,6 +55,7 @@ TEAM_ACRONYM_MAPPING = {
     "FYW": "FALCON YOUTH WC",  # Absent from Senior team scores
     "GCW": "GC JR WARRIORS",
     "GE": "GOLDEN EAGLES",
+    "GED": "GLEN ELLYN DUNGEON WC",
     "GEJR": "GLENBARD EAST JR RAMS",
     "GEN": "GENESEO SPIDER WC",
     "GLD": "GLADIATORS",
@@ -65,13 +73,19 @@ TEAM_ACRONYM_MAPPING = {
     "HRD": "HINSDALE RED DEVIL WC",
     "HRL": "HARLEM COUGARS",
     "HRR": "HERRIN JUNIOR WC",
+    "HUR": "HURRICANES",
+    "IMP": "IMPACT WC",
     "IRN": "IRON MAN",
     "JJS": "JOLIET JUNIOR STEELMEN",
+    "JRC": "JR. COUGARS WC",
     "JRG": "JUNIOR GATORS WC",
     "JRV": "JUNIOR VIKINGS",
     "KNGT": "KNIGHTS WRESTLING",
+    "LAN": "LANCER WC",
     "LEM": "LEMONT BEARS WC",
     "LIM": "LIMESTONE YOUTH WC",
+    "LION": "LIONHEART INTENSE WRESTLING",
+    "LIT": "LITCHFIELD KIDS WRESTLING",
     "LIW": "LIONHEART INTENSE WRESTLING",
     "LJP": "LOCKPORT JR PORTERS WC",
     "LKP": "LAKELAND PREDATORS",
@@ -79,18 +93,23 @@ TEAM_ACRONYM_MAPPING = {
     "LLF": "LITTLE FALCONS WC",
     "LLH": "LITTLE HUSKIE WC",
     "LLRB": "LITTLE REDBIRD WC",
+    "LLRS": "LITTLE REDSKINS WC",
     "LPC": "L-P CRUNCHING CAVS",
     "LWW": "LINCOLN-WAY WC",
+    "MAT": "MATTOON YOUTH WC",
     "MCC": "MCLEAN COUNTY WC",  # Absent from Senior team scores
     "MDWA": "MAD DOG WRESTLING ACADEMY",
     "MEN": "MENDOTA WC",  # Absent from Senior team scores
+    "MET": "METAMORA KIDS WC",
     "MFV": "MARTINEZ FOX VALLEY ELITE",
     "MIN": "MINOOKA LITTLE INDIANS",
     "MIY": "MARENGO INDIANS YOUTH WRESTLING",
+    "MLB": "MACOMB LITTLE BOMBERS",
     "MLM": "MORTON LITTLE MUSTANGS",
     "MNE": "MAINE EAGLES WC",
     "MOL": "MOLINE WC",
     "MRS": "MORRISON STALLIONS WC",
+    "MSK": "M-S KIDS CLUB",
     "MST": "MUSTANG WC",
     "MTP": "MT. PULASKI WC",
     "MTV": "MT. VERNON LIONS",
@@ -106,6 +125,7 @@ TEAM_ACRONYM_MAPPING = {
     "OLW": "OAK LAWN P.D. WILDCATS",
     "OPP": "ORLAND PARK PIONEERS",
     "OSW": "OSWEGO PANTHERS",  # Absent from Senior team scores
+    "PAL": "PALATINE PANTHERS",  # Absent from Senior team scores
     "PCCH": "PRAIRIE CENTRAL-CHENOA HAWKS",
     "PCUB": "PANTHER CUB WRESTLING CLUB",
     "PLNF": "PLAINFIELD WC",
@@ -118,11 +138,14 @@ TEAM_ACRONYM_MAPPING = {
     "QUI": "QUINCY WC",
     "RCH": "RICHMOND WRESTLING CLUB",
     "RCK": "REED CUSTER KNIGHTS",  # Absent from Senior team scores
+    "RDW": "ROAD WARRIORS",
+    "REN": "RENEGADES",
     "RJR": "RIVERDALE JR. RAMS WC",
     "RKFD": "ROCKFORD WC",  # Absent from Senior team scores
     "RKI": "ROCK ISLAND WC",
     "ROC": "ROCHESTER WC",
     "ROM": "ROMEOVILLE WC",
+    "RRDG": "ROCKRIDGE WC",  # Absent from Senior team scores
     "RRT": "RICH RATTLERS WC",
     "RVB": "RIVERBEND WC",
     "SAU": "SAUKEE YOUTH WC",
@@ -130,12 +153,15 @@ TEAM_ACRONYM_MAPPING = {
     "SCN": "SCN YOUTH WC",
     "SEN": "SENECA IRISH CADETS",
     "SHM": "SHAMROCK WC",
+    "SHR": "SHARKS WC",
+    "SIUT": "SOUTHERN ILLINOIS UNITED THUNDER CATS",  # Absent from Senior team scores
     "SJO": "SJO SPARTAN YOUTH WC",
     "SKV": "SAUK VALLEY WRESTLING CLUB",  # Absent from Senior team scores
     "SLB": "SHELBYVILLE JR RAMS WRESTLING",
     "SOT": "SONS OF THUNDER",
     "SPI": "SPIDER WC",
     "SPR": "SPRINGFIELD CAPITAL KIDS WRESTLING",
+    "SRN": "STOCKTON RENEGADES",
     "SV": "STILLMAN VALLEY WC",
     "SYC": "SYCAMORE WC",
     "TAY": "TAYLORVILLE WC",
@@ -155,6 +181,8 @@ TEAM_ACRONYM_MAPPING = {
     "VPYW": "VILLA PARK YOUNG WARRIORS",
     "WAR": "WARRENSBURG WC",
     "WAS": "WASHINGTON JR PANTHERS",
+    "WAUB": "WAUBONSIE WC",  # Absent from Senior team scores
+    "WAUK": "WAUKEGAN YOUTH WC",
     "WES": "WESTVILLE YOUTH WC",  # Absent from Senior team scores
     "WHT": "WEST HANCOCK WC",  # Absent from Senior team scores
     "WLP": "WOLFPAK WC",
@@ -173,9 +201,12 @@ SENIOR_TEAM_ACRONYM_MAPPING = {
 }
 TEAM_NAME_MAPPING = {
     "ACES WC": -90501,
+    "ALEDO BEAR COUNTRY WC": -90501,
     "ALLEMAN JR PIONEERS": -90501,
+    "ANIMALS WC": -90501,
     "ARGENTA/OREANA KIDS CLUB": -90501,
     "ARLINGTON CARDINALS": -90501,
+    "BADGER WC": -90501,
     "BATAVIA PINNERS": -90501,
     "BATAVIA": -90501,
     "BELLEVILLE LITTLE DEVILS": -90501,
@@ -186,6 +217,7 @@ TEAM_NAME_MAPPING = {
     "BISON WC": -90501,
     "BLACKHAWK WC": -90501,
     "BLOOMINGTON RAIDER WC": -90501,
+    "BRAWLERS WC": -90501,
     "CALUMET MEMORIAL PD WOLVERINES": -90501,
     "CARBONDALE WC": -90501,
     "CARY JR TROJAN MATMEN": -90501,
@@ -193,11 +225,14 @@ TEAM_NAME_MAPPING = {
     "CHAMPAIGN KIDS WRESTLING": -90501,
     "CHARLESTON WC": -90501,
     "CHICAGO CRUSADERS": -90501,
+    "CHICAGO WOLVES DEN": -90501,
+    "CHILLI DAWGS WC": -90501,
     "COLLINSVILLE RAIDERS": -90501,
     "CROSSTOWN CRUSHERS": -90501,
     "CRYSTAL LAKE WIZARDS": -90501,
     "CUMBERLAND YOUTH WC": -90501,
     "DAKOTA WC": -90501,
+    "DEKALB WC": -90501,
     "DIXON WC": -90501,
     "DOWNERS GROVE COUGARS": -90501,
     "DUNDEE HIGHLANDERS": -90501,
@@ -216,6 +251,7 @@ TEAM_NAME_MAPPING = {
     "GC JR WARRIORS": -90501,
     "GENESEO SPIDER WC": -90501,
     "GLADIATORS": -90501,
+    "GLEN ELLYN DUNGEON WC": -90501,
     "GLENBARD EAST JR RAMS": -90501,
     "GOLDEN EAGLES": -90501,
     "GOMEZ WRESTLING ACADEMY": -90501,
@@ -231,28 +267,38 @@ TEAM_NAME_MAPPING = {
     "HOFFMAN ESTATES WC": -90501,
     "HONONEGAH KIDS WC": -90501,
     "HOOPESTON AREA WC": -90501,
+    "HURRICANES": -90501,
+    "IMPACT WC": -90501,
     "IRON MAN": -90501,
     "JOLIET JUNIOR STEELMEN": -90501,
+    "JR. COUGARS WC": -90501,
     "JUNIOR GATORS WC": -90501,
     "JUNIOR VIKINGS": -90501,
     "KNIGHTS WRESTLING": -90501,
     "L-P CRUNCHING CAVS": -90501,
     "LAKELAND PREDATORS": -90501,
+    "LANCER WC": -90501,
     "LEMONT BEARS WC": -90501,
     "LIMESTONE YOUTH WC": -90501,
     "LINCOLN-WAY WC": -90501,
     "LIONHEART INTENSE WRESTLING": -90501,
+    "LITCHFIELD KIDS WRESTLING": -90501,
     "LITTLE CELTIC WC": -90501,
     "LITTLE FALCONS WC": -90501,
     "LITTLE HUSKIE WC": -90501,
     "LITTLE REDBIRD WC": -90501,
+    "LITTLE REDSKINS WC": -90501,
     "LOCKPORT JR PORTERS WC": -90501,
+    "M-S KIDS CLUB": -90501,
+    "MACOMB LITTLE BOMBERS": -90501,
     "MAD DOG WRESTLING ACADEMY": -90501,
     "MAINE EAGLES WC": -90501,
     "MARENGO INDIANS YOUTH WRESTLING": -90501,
     "MARTINEZ FOX VALLEY ELITE": -90501,
+    "MATTOON YOUTH WC": -90501,
     "MCLEAN COUNTY WC": -90501,
     "MENDOTA WC": -90501,
+    "METAMORA KIDS WC": -90501,
     "MIDWEST CENTRAL YOUTH": -90501,
     "MINOOKA LITTLE INDIANS": -90501,
     "MOLINE WC": -90501,
@@ -272,6 +318,7 @@ TEAM_NAME_MAPPING = {
     "OAKWOOD WC": -90501,
     "ORLAND PARK PIONEERS": -90501,
     "OSWEGO PANTHERS": -90501,
+    "PALATINE PANTHERS": -90501,
     "PANTHER CUB WRESTLING CLUB": -90501,
     "PANTHER POWERHOUSE WC": -90501,
     "PANTHER/REDHAWK WC": -90501,
@@ -283,26 +330,32 @@ TEAM_NAME_MAPPING = {
     "PROVISO POWERHOUSE WC": -90501,
     "QUINCY WC": -90501,
     "REED CUSTER KNIGHTS": -90501,
+    "RENEGADES": -90501,
     "RICH RATTLERS WC": -90501,
     "RICHMOND WRESTLING CLUB": -90501,
     "RIVERBEND WC": -90501,
     "RIVERDALE JR. RAMS WC": -90501,
+    "ROAD WARRIORS": -90501,
     "ROCHESTER WC": -90501,
     "ROCK ISLAND WC": -90501,
     "ROCKFORD WC": -90501,
+    "ROCKRIDGE WC": -90501,
     "ROMEOVILLE WC": -90501,
     "SAUK VALLEY WRESTLING CLUB": -90501,
     "SAUKEE YOUTH WC": -90501,
     "SCN YOUTH WC": -90501,
     "SENECA IRISH CADETS": -90501,
     "SHAMROCK WC": -90501,
+    "SHARKS WC": -90501,
     "SHELBYVILLE JR RAMS WRESTLING": -90501,
     "SJO SPARTAN YOUTH WC": -90501,
     "SONS OF THUNDER": -90501,
+    "SOUTHERN ILLINOIS UNITED THUNDER CATS": -90501,
     "SPIDER WC": -90501,
     "SPRINGFIELD CAPITAL KIDS WRESTLING": -90501,
     "ST. CHARLES EAST WC": -90501,
     "STILLMAN VALLEY WC": -90501,
+    "STOCKTON RENEGADES": -90501,
     "SYCAMORE WC": -90501,
     "TAYLORVILLE WC": -90501,
     "TEAM WEST WOLVES": -90501,
@@ -321,6 +374,8 @@ TEAM_NAME_MAPPING = {
     "VITTUM CATS": -90501,
     "WARRENSBURG WC": -90501,
     "WASHINGTON JR PANTHERS": -90501,
+    "WAUBONSIE WC": -90501,
+    "WAUKEGAN YOUTH WC": -90501,
     "WEST HANCOCK WC": -90501,
     "WESTVILLE YOUTH WC": -90501,
     "WHEATON TIGER WC": -90501,
@@ -718,6 +773,39 @@ def main():
     senior_team_scores = compute_team_scores(senior_weight_classes)
     print("Senior:")
     print_team_scores(senior_team_scores)
+
+    print("**************************************************")
+
+    actual_acronyms: set[str] = set()
+    for weight_class in weight_classes:
+        for match in weight_class.matches:
+            if match.top_competitor is not None:
+                actual_acronyms.add(match.top_competitor.team)
+            if match.bottom_competitor is not None:
+                actual_acronyms.add(match.bottom_competitor.team)
+
+    mapped_acronyms = set(TEAM_ACRONYM_MAPPING.keys())
+    mapped_acronyms.update(NOVICE_TEAM_ACRONYM_MAPPING.keys())
+    mapped_acronyms.update(SENIOR_TEAM_ACRONYM_MAPPING.keys())
+
+    if actual_acronyms != mapped_acronyms:
+        raise RuntimeError(
+            "Unexpected team acronyms",
+            mapped_acronyms - actual_acronyms,
+            actual_acronyms - mapped_acronyms,
+        )
+
+    actual_team_names = set(TEAM_ACRONYM_MAPPING.values())
+    actual_team_names.update(NOVICE_TEAM_ACRONYM_MAPPING.values())
+    actual_team_names.update(SENIOR_TEAM_ACRONYM_MAPPING.values())
+    mapped_team_names = set(TEAM_NAME_MAPPING.keys())
+
+    if actual_team_names != mapped_team_names:
+        raise RuntimeError(
+            "Unexpected team names",
+            mapped_team_names - actual_team_names,
+            actual_team_names - mapped_team_names,
+        )
 
 
 if __name__ == "__main__":
