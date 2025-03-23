@@ -26,6 +26,7 @@ PRAGMA integrity_check;
 INSERT INTO
   team (name, id)
 VALUES
+  ('<UNKNOWN>',                                        10132),
   ('239 Athletics, LLC',                               634),
   ('2nd Athlete Regiment, USAC',                       1),
   ('815 Stateline Wrestling Club',                     673),

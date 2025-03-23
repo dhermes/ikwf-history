@@ -37,8 +37,8 @@ TEAM_ACRONYM_MAPPING = {
     "EMS": "ERIE MIDDLE SCHOOL W",
     "EP": "EDISON PANTHERS",
     "EWC": "EDWARDSVILLE WC",
-    "FAW": "TODO",  # Shelbyville?
-    "FBG": "TODO",  # Freeport?
+    "FAW": "<UNKNOWN>",
+    "FBG": "<UNKNOWN>",  # FREEPORT (FREEPORT BOYS & GIRLS CLUB?)
     "FPR": "FRANKLIN PARK RAIDER",
     "FVW": "FOX VALLEY WC",
     "FWC": "FISHER WC",
@@ -101,7 +101,7 @@ TEAM_ACRONYM_MAPPING = {
     "PIN": "PINCKNEYVILLE JR",
     "POL": "POLO WC",
     "PPW": "PONTIAC PYTHONS",
-    "PR": "TODO",
+    "PR": "<UNKNOWN>",
     "PWC": "PLAINFIELD WC",
     "RAM": "RAMS WC",
     "RCK": "REED CUSTER KNIGHTS",
