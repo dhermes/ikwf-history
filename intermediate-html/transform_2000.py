@@ -111,7 +111,7 @@ TEAM_ACRONYM_MAPPING = {
     "ROC": "ROCHELLE WC",
     "ROX": "ROXANA KIDS WC",
     "RWC": "ROCKFORD WC",
-    "SAN": "TODO",  # SANDWICH / Ottawa High School??
+    "SAN": "SANDWICH WC",
     "SC": "SPRINGFIELD CAPITALS",
     "SHA": "SHARKS WC",
     "SHE": "SHERRARD JR WC",
