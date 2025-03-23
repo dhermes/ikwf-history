@@ -217,28 +217,6 @@ VALUES
 --------------------------------------------------------------------------------
 
 INSERT INTO
-  team (name, id)
-VALUES
-  ('Montego Matmen',       10117),
-  ('Bethalto Junior High', 10118),
-  ('St. Barnabas/CTK',     10119),
-  ('Wheaton Bulldogs',     10120),
-  ('East Moline WC',       10121),
-  ('Pinckneyville WC',     10122),
-  ('Urbana Kids Club',     10123),
-  ('Champaign Chargers',   10124),
-  ('Rock Island Edison',   10125),
-  ('Brownson WC',          10126),
-  ('PLT Prophets',         10127),
-  ('Chenoa WC',            10128),
-  ('Mustangs WC',          10129),
-  ('Marion WC',            10130),
-  ('Edison Panthers WC',   10131); -- Wheaton
-
-
---------------------------------------------------------------------------------
-
-INSERT INTO
   team_competitor (id, competitor_id, team_id)
 VALUES
   (25,  25,  306  ),
