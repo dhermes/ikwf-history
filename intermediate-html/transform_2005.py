@@ -405,6 +405,12 @@ def main():
         SENIOR_TEAM_ACRONYM_MAPPING,
         TEAM_NAME_MAPPING,
     )
+    print("**************************************************")
+    unclassified = sorted(
+        name for name, team_id in TEAM_NAME_MAPPING.items() if team_id < 0
+    )
+    for i, name in enumerate(unclassified):
+        print(f"{i + 1}: {name}")
 
 
 if __name__ == "__main__":
