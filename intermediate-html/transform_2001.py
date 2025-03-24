@@ -11,6 +11,7 @@ TEAM_ACRONYM_MAPPING = {
     "ACE": "ACES WRESTLING",
     "ADA": "ADDISON ANIMALS",  # Duplicate
     "AOK": "A-O KIDS WC",
+    "BAD": "BADGER WC",
     "BAT": "BATAVIA PINNERS",
     "BB": "BELVIDERE BANDITS",
     "BGP": "BOYS & GIRLS CLUB",  # ... of Pekin
@@ -18,15 +19,22 @@ TEAM_ACRONYM_MAPPING = {
     "BJH": "BETHALTO JR HIGH",
     "BJW": "BENTON JR. WC",
     "BLD": "BELLEVILLE LITTLE DE",
+    "BRL": "BRAWLERS WC",  # Duplicate (team name shows up twice in Senior Team Scores)
     "BRO": "BRONCO WRESTLING",
     "BWC": "BRAWLERS WC",  # Duplicate
+    "CEN": "CENTRALIA WC",
+    "CHA": "CHARLESTON WC",  # Duplicate (team name shows up twice in Senior Team Scores)
     "CHE": "CHENOA MAT CATS",
     "CHL": "CHILLICOTHE WC",
     "CHR": "CHARLESTON WC",  # Duplicate
     "CJT": "CARY JR TROJAN MATME",
     "CKW": "CARLINVILLE KIDS WC",
+    "CPC": "CAMP POINT CENTRAL",
+    "CWC": "CARBONDALE WC",
     "CYW": "CUMBERLAND YOUTH WC",
     "DAK": "DAKOTA WC",
+    "DC": "DUNDEE CARPETERVILL",
+    "DEC": "DECATUR WC",
     "DH": "DUNDEE HIGHLANDERS",
     "DIX": "DIXON WC",
     "DPC": "DURAND-PECATONICA",
@@ -39,6 +47,7 @@ TEAM_ACRONYM_MAPPING = {
     "FPR": "FRANKLIN PARK RAIDER",
     "FVC": "FOX VALLEY CRONE WC",
     "FVW": "FOX VALLEY WC",
+    "FWC": "FISHER WC",
     "FYW": "FALCON YOUTH WC",
     "GED": "GLEN ELLYN DUNGEON W",
     "GEN": "GENERALS",
@@ -58,10 +67,13 @@ TEAM_ACRONYM_MAPPING = {
     "JRM": "JR MAROON WC",
     "JRS": "JR SENTINELS",
     "JRW": "JR ROCKET WRESTLING",
+    "JUN": "JUNIOR PIRATE WC",
     "LB": "LEMONT BEARS WC",
     "LC": "LITTLE CELTIC WC",
     "LCW": "LAWRENCE COUNTY WC",
+    "LIN": "LITTLE INDIANS",
     "LIT": "LITTLE BOILER WC",
+    "LJW": "LAKE VIEW JR WILDCAT",
     "LLP": "LAKELAND PREDATORS",
     "LPC": "L-P CRUNCHING CAVS",
     "LRB": "LITTLE REDBIRD WC",
@@ -73,6 +85,7 @@ TEAM_ACRONYM_MAPPING = {
     "MAT": "MATTOON YOUTH WC",
     "MCY": "MIDWEST CENTRAL YOUT",
     "ME": "MAINE EAGLES WC",
+    "MEN": "MENDOTA MAT MASTERS",
     "MET": "METAMORA KIDS WC",
     "MFV": "MARTINEZ FOX VALLEY",
     "MKW": "MACOMB KIDS WRESTLIN",
@@ -81,6 +94,7 @@ TEAM_ACRONYM_MAPPING = {
     "MTV": "MT VERNON LIONS",
     "MTZ": "MT ZION WC",
     "MUR": "MURPHYSBORO WRESTLIN",
+    "NAP": "NAPERVILLE WC",
     "NE": "NAPERVILLE EAGLES",
     "NL": "NAPERVILLE LANCERS",
     "NW": "NAPERVILLE WARHAWKS",
@@ -89,7 +103,9 @@ TEAM_ACRONYM_MAPPING = {
     "OPP": "ORLAND PARK PIONEERS",
     "OSP": "OSWEGO PANTHERS",
     "PCW": "PANTHER CUB WC",
+    "PIN": "PINCKNEYVILLE JR",
     "PLH": "PLANIFIELD HUSKIES W",
+    "PLT": "PLT PROPHETS WC",
     "PLW": "PLAINFIELD WOLVES WC",
     "POL": "POLO WC",
     "PON": "PONY EXPRESS WC",
@@ -103,15 +119,19 @@ TEAM_ACRONYM_MAPPING = {
     "ROC": "ROCHELLE WC",
     "ROX": "ROXANA KIDS WC",
     "RWC": "ROCKFORD WC",
+    "SAV": "SAVANNA REDHAWKS",
     "SC": "SPRINGFIELD CAPTIALS",
+    "SHA": "SHARKS WC",
     "SHE": "SHERRAND JR WC",
     "SJW": "SHELBYVILLE JUNIOR R",
     "SN": "STERLING NEWMAN JR",
     "SSW": "SOUTHSIDE WC",
+    "STB": "ST BEDE WC",
     "SVW": "STILLMAN VALLEY WC",
     "SW": "STATELINE WILDCATS",
     "SYW": "SAUKEE YOUTH WC",
     "TAY": "TAYLORVILLE WC",
+    "TCB": "TRI-CITY BRAVES",
     "TPB": "TINLEY PARK BULLDOGS",
     "TTT": "TIGERTOWN TANGLERS",
     "TWC": "TIGER WC",
@@ -120,6 +140,7 @@ TEAM_ACRONYM_MAPPING = {
     "VC": "VITTUM CATS",
     "VLC": "VILLA LOMBARD COUGAR",
     "VPY": "VILLA PARK YOUNG",
+    "WAB": "WAUBONSIE BULLDOGS",
     "WAG": "WAUONSIE GRIZZLIES",
     "WAR": "WARRENSBURG WC",
     "WAU": "WAUBONSIE TRAILBLAZE",
@@ -138,35 +159,14 @@ TEAM_ACRONYM_MAPPING = {
     "YWC": "YORKVILLE WC",
     # NOTE: These are acronyms that show up in `team*.pdf` keys but do not
     #       have athletes in any brackets.
-    ### "ADD": "ADDISON ANIMALS",  # Duplicate (team name shows up twice in Senior Team Scores)
-    "BAD": "BADGER WC",  # 0.0 points in both Novice and Senior
-    "BRL": "BRAWLERS WC",  # Duplicate (team name shows up twice in Senior Team Scores)
-    "CEN": "CENTRALIA WC",  # 0.0 points in Senior
-    "CHA": "CHARLESTON WC",  # Duplicate (team name shows up twice in Senior Team Scores)
-    "CPC": "CAMP POINT CENTRAL",  # 0.0 points in Novice
-    ### "CW": "CROSSFACE WRESTLING",  # 0.0 points in Novice
-    "CWC": "CARBONDALE WC",  # 0.0 points in Novice
-    "DC": "DUNDEE CARPETERVILL",  # 0.0 points in Senior
-    "DEC": "DECATUR WC",  # 0.0 points in Senior
-    ### "DW": "DUNDEE WESTFIELD",  # 0.0 points in Senior
-    ### "ERI": "ERIE MIDDLE SCHOOL W",  # Duplicate (team name shows up twice in Senior Team Scores)
-    "FWC": "FISHER WC",  # 0.0 points in Senior
-    ### "GAL": "GALESBURG JR STREAKS",  # 0.0 points in Senior
-    ### "HER": "HERRIN WC",  # 0.0 points in Novice
-    "JUN": "JUNIOR PIRATE WC",  # 0.0 points in both Novice and Senior
-    ### "LG": "LITTLE GIANTS",  # 0.0 points in Novice
-    "LIN": "LITTLE INDIANS",  # 0.0 points in Novice
-    "LJW": "LAKE VIEW JR WILDCAT",  # 0.0 points in Senior
-    "MEN": "MENDOTA MAT MASTERS",  # 0.0 points in Novice
-    "NAP": "NAPERVILLE WC",  # 0.0 points in Senior
-    "PIN": "PINCKNEYVILLE JR",  # 0.0 points in Senior
-    "PLT": "PLT PROPHETS WC",  # 0.0 points in Senior
-    ### "RIC": "RICHMOND WC",  # Duplicate (team name shows up twice in Senior Team Scores)
-    "SAV": "SAVANNA REDHAWKS",  # 0.0 points in Novice
-    "SHA": "SHARKS WC",  # 0.0 points in Senior
-    "STB": "ST BEDE WC",  # 0.0 points in Senior
-    "TCB": "TRI-CITY BRAVES",  # 0.0 points in Senior
-    "WAB": "WAUBONSIE BULLDOGS",  # 0.0 points in Senior
+    #       * ADD: ADDISON ANIMALS (team name shows up twice in Senior Team Scores)
+    #       * CW:  CROSSFACE WRESTLING
+    #       * DW:  DUNDEE WESTFIELD",
+    #       * ERI: ERIE MIDDLE SCHOOL W (team name shows up twice in Senior Team Scores)
+    #       * GAL: GALESBURG JR STREAKS
+    #       * HER: HERRIN WC
+    #       * LG:  LITTLE GIANTS
+    #       * RIC: RICHMOND WC (team name shows up twice in Senior Team Scores)
 }
 # NOTE: Sometimes acronyms (or team names) differ between Novice and Senior
 #       in the Team Scores.
