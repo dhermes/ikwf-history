@@ -224,7 +224,7 @@ VALUES
   ('East St. Louis Wrestling Club',                    109),
   ('Edison Panthers WC',                               10131), -- Wheaton
   ('Edwardsville Wrestling Club',                      110),
-  ('Effingham Junior WC',                              10021),
+  ('Effingham Junior WC',                              10021), -- Same as 111?
   ('Effingham Youth Wrestling Club',                   111),
   ('El Paso Gridley Youth Wrestling Club',             112),
   ('El Paso WC',                                       10022),
@@ -313,7 +313,7 @@ VALUES
   ('Hawks Wrestling Club',                             620),
   ('Headlock Wrestling Academy',                       164),
   ('Hecox Team Benaiah',                               165),
-  ('Herrin Junior WC',                                 10042),
+  ('Herrin Junior WC',                                 10042), -- Same as 166?
   ('Herrin Tiger Wrestling',                           166),
   ('HF Elite WC',                                      508),
   ('HF Spartan Elite WC',                              167),
@@ -619,7 +619,7 @@ VALUES
   ('Relentless Training Center',                       565),
   ('Renegade Wrestling Club (NFP)',                    347),
   ('Renegades Elite',                                  348),
-  ('Renegades',                                        10086),
+  ('Renegades',                                        10086), -- Same as 348?
   ('Respect Wrestling',                                514),
   ('Rich Rattlers Wrestling Club',                     349),
   ('Richmond Wrestling Club',                          350),
