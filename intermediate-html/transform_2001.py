@@ -148,7 +148,7 @@ TEAM_ACRONYM_MAPPING = {
     "WCI": "WEST CHICAGO PD",
     "WES": "WESTVILLE YOUTH WC",
     "WF": "WEST FRANKFORT JR WC",
-    "WFL": "WRESTLING FACTORY",  # ... of Libertyville
+    "WFL": "WRESTLING FACTORY",
     "WHC": "WHEATON WC",
     "WHE": "WHEATON BULLDOGS",
     "WHT": "WHEATON WC",
@@ -161,7 +161,7 @@ TEAM_ACRONYM_MAPPING = {
     #       have athletes in any brackets.
     #       * ADD: ADDISON ANIMALS (team name shows up twice in Senior Team Scores)
     #       * CW:  CROSSFACE WRESTLING
-    #       * DW:  DUNDEE WESTFIELD",
+    #       * DW:  DUNDEE WESTFIELD
     #       * ERI: ERIE MIDDLE SCHOOL W (team name shows up twice in Senior Team Scores)
     #       * GAL: GALESBURG JR STREAKS
     #       * HER: HERRIN WC
@@ -205,7 +205,7 @@ TEAM_NAME_MAPPING = {
     "BISMARK-HENNING WC": 28,
     "BOYS & GIRLS CLUB": 319,
     "BRAWLERS WC": 39,
-    "BRONCO WRESTLING": 41,  # Old Montini Feeder (Bukovsky)
+    "BRONCO WRESTLING": 41,
     "CAMP POINT CENTRAL": 50,
     "CARBONDALE WC": 53,
     "CARLINVILLE KIDS WC": 54,
@@ -215,7 +215,7 @@ TEAM_NAME_MAPPING = {
     "CHAMPAIGN CHARGER KI": 10124,
     "CHARLESTON WC": 69,
     "CHENOA MAT CATS": 10011,
-    "CHILLICOTHE WC": 10014,  # Chilli Dawgs WC
+    "CHILLICOTHE WC": 10014,
     "CRYSTAL LAKE WIRZARD": 89,
     "CRYSTAL LAKE WIZARDS": 89,
     "CUMBERLAND YOUTH WC": 90,

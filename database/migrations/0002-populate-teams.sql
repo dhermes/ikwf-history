@@ -43,7 +43,7 @@ VALUES
   ('Alpha Wrestling Academy',                          5),
   ('Alton Little Redbirds Wrestling Club',             6),
   ('Anchor Wrestling',                                 674),
-  ('Animals WC',                                       10004),
+  ('Animals WC',                                       10004), -- Fenton / Bensenville
   ('Animus Extreme Wrestling',                         7),
   ('Ano Kato FSGR Wrestling',                          529),
   ('Antioch Predators Wrestling Club',                 215),
@@ -108,7 +108,7 @@ VALUES
   ('Braves Wrestling Club',                            38),
   ('Brawlers Wrestling Club',                          39),
   ('Bremen Wrestling Club',                            40),
-  ('Bronco Wrestling Club',                            41),
+  ('Bronco Wrestling Club',                            41), -- Old Montini Feeder (Bukovsky)
   ('Brownson WC',                                      10126),
   ('BTS Chicago-Screaming Eagles',                     42),
   ('BTS-Chicago St. Sabina',                           44),
@@ -363,7 +363,7 @@ VALUES
   ('Joliet WC',                                        192),
   ('Junior Bears WC',                                  10146), -- Lake Zurich; Eventually renamed to 214?
   ('Junior Blazers',                                   193),
-  ('Junior Bronco Wrestling Club',                     571),
+  ('Junior Bronco Wrestling Club',                     571), -- Same as 41?
   ('Junior Bulldog Wrestling Club',                    194),
   ('Junior Comanche Wrestling Club',                   195),
   ('Junior Cougar Wrestling Club',                     196),
@@ -710,7 +710,7 @@ VALUES
   ('Stampede Wrestling Club',                          572),
   ('Stateline Stingers Wrestling Club',                576),
   ('Stateline Wildcats',                               10097),
-  ('STC WC II',                                        10139),
+  ('STC WC II',                                        10139), -- St. Charles East HS
   ('Sterling Elite',                                   405),
   ('Sterling Matmen Wrestling',                        406),
   ('Sterling Newman Junior Comets',                    10098),
@@ -855,7 +855,7 @@ VALUES
   ('Woodstock Cyclones WC',                            493),
   ('Woodstock Mathogs',                                494),
   ('Wrestling 365',                                    495),
-  ('Wrestling Factory',                                10115),
+  ('Wrestling Factory of Libertyville',                10115),
   ('Wrestling Inc',                                    519),
   ('Xtreme Wrestling Club',                            496),
   ('Yorkville Wrestling Club',                         497),

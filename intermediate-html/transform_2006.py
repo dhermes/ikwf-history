@@ -10,7 +10,7 @@ TEAM_ACRONYM_MAPPING = {
     "ACE": "ACES WC",  # Absent from Senior team scores
     "AGO": "ARGENTA/OREANA KIDS CLUB",
     "AJP": "ALLEMAN JR PIONEERS",
-    "ANI": "ANIMALS WC",  # Fenton / Bensenville
+    "ANI": "ANIMALS WC",
     "ARL": "ARLINGTON CARDINALS",
     "BB": "BETHALTO BULLS WC",
     "BDGR": "BADGER WC",
