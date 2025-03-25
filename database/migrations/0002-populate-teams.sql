@@ -90,7 +90,7 @@ VALUES
   ('Big Chief Wrestling Club',                         609),
   ('Bismarck-Henning Youth Wrestling Club',            28),
   ('Bison Wrestling Club',                             126),
-  ('Black Kats WC',                                    10007),
+  ('Black Kats WC',                                    10007), -- Evanston
   ('Black Ops WC',                                     624),
   ('Blackcat Wrestling',                               537),
   ('Blackhawk Wrestling Club',                         30),
@@ -382,7 +382,7 @@ VALUES
   ('Junior Saxons WC',                                 10053), -- Schaumburg
   ('Junior Sentinels WC',                              10054),
   ('Junior Titans Wrestling',                          203),
-  ('Junior Vikings',                                   10055),
+  ('Junior Vikings',                                   10055), -- Same of 284? Same as 143?
   ('Junior Warrior Wrestling Club',                    204),
   ('Junk Yard Dogs Wrestling Club',                    205),
   ('Just Wrestling',                                   535),
