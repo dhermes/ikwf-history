@@ -318,7 +318,6 @@ VALUES
   ('HF Elite WC',                                      508),
   ('HF Spartan Elite WC',                              167),
   ('Highland Bulldog Jr. Wrestling Club',              168),
-  ('Highland Park Little Giants',                      10043),
   ('Hill Trailblazers',                                10143), -- Aurora; Hill Elementary
   ('Hillsboro Jr Toppers Wrestling Club',              170),
   ('Hilltoppers WC',                                   10044),
@@ -594,7 +593,6 @@ VALUES
   ('Pontiac Wrestling Club',                           328),
   ('Pony Express WC',                                  10154),
   ('Porta Wrestling Club',                             329),
-  ('Power House Wrestling Club',                       330),
   ('Prairie Central Youth Wrestling',                  642),
   ('Prairie Central-Chenoa Hawks',                     10083),
   ('Prairie State Wrestling Club',                     332),
