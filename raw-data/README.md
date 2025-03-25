@@ -17,6 +17,28 @@ on the Wayback Machine. (Original source needed.) The IKWF used to print
 this acronym key in the state tournament booklets but these didn't really
 make it onto the internet.
 
+## Trackwrestling
+
+For 2007-2025, brackets are on Trackwrestling. Unfortunately there is no API,
+however we can capture brackets via:
+
+```js
+// Advance to next bracket
+const weightSelect = document.querySelector("#weightGroupBox");
+weightSelect.value = (Number(weightSelect.value) + 1).toString(); // Not enough, need a click
+
+copy(document.querySelector(".cell.bracket-content-frame").outerHTML);
+// OR
+copy(document.querySelector("#bracket-frame").outerHTML);
+```
+
+and then capture round-by-round results once the "shape" of the bracket
+is established.
+
+In fact the brackets have abbreviations for names and teams so the results
+are more valuable. However we need information about who the top / bottom
+of the bracket is in the round of 32. Additionally, we need bout numbers.
+
 ## Team scoring
 
 As of 2025 bylaws (`bylaws_2024-25.pdf`), team scoring at the state tournament
