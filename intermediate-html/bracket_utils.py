@@ -112,6 +112,26 @@ def set_result(match: MatchRaw) -> None:
     raise NotImplementedError(match)
 
 
+def set_top_competitor(match: MatchRaw) -> None:
+    top_competitor = match.top_competitor
+    bottom_competitor = match.bottom_competitor
+    if top_competitor is not None or bottom_competitor is not None:
+        return
+
+    result = match.result
+    if result != "Bye":
+        raise ValueError("Invariant violation", match)
+
+    winner = match.winner
+    if winner is None:
+        return
+
+    if not isinstance(winner, CompetitorRaw):
+        raise ValueError("Invariant violation", match)
+
+    match.top_competitor = winner
+
+
 def _competitor_from_raw(
     value: CompetitorRaw | None, name_exceptions: dict[tuple[str, str], Competitor]
 ) -> Competitor | None:
@@ -256,6 +276,12 @@ def _determine_result_type(result: str) -> ResultType:
 
     if result == "Dflt" or result.startswith("Dflt "):
         return "DEFAULT"
+
+    if result.startswith("Dq "):
+        return "DISQUALIFICATION"
+
+    if result == "Forf":
+        return "FORFEIT"
 
     raise NotImplementedError(result)
 

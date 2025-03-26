@@ -31,6 +31,7 @@ CONSOLATION_FIXES: tuple[tuple[str, str], ...] = (
     ("S DINTELMAN-BL\n", "S DINTELMAN-BLD\n"),
     ("JESUS ORDAZ-CL\n", "JESUS ORDAZ-CLW\n"),
 )
+NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {}
 
 
 def parse_competitor(value: str) -> bracket_utils.CompetitorRaw | None:
@@ -71,9 +72,6 @@ def parse_bout_number(value: str) -> int:
         return int(parts[0])
 
     return int(parts[1])
-
-
-NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {}
 
 
 def extract_bracket(
@@ -534,6 +532,8 @@ def extract_bracket(
     for match in matches:
         bracket_utils.set_winner(match, by_match)
         bracket_utils.set_result(match)
+        # NOTE: This **MUST** happen after `set_winner()` and `set_result()`
+        bracket_utils.set_top_competitor(match)
 
     return bracket_utils.clean_raw_matches(matches, NAME_EXCEPTIONS)
 
