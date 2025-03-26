@@ -284,7 +284,7 @@ def _competitor_raw_equal_enough(
 
 
 def _determine_result_type(result: str) -> ResultType:
-    if result == "P-Dec":
+    if result == "P-Dec" or result.startswith("P-Dec "):
         return "WALKOVER"
 
     if result == "Dec" or result.startswith("Dec "):
