@@ -82,15 +82,37 @@ class CompetitorWithWeight(pydantic.BaseModel):
     competitor: Competitor
 
 
+def to_int_with_commas(value: str) -> int:
+    cleaned = value.strip()
+    result = int(value.replace(",", ""))
+
+    expected = f"{result:,}"
+    if cleaned != expected:
+        raise ValueError("Invariant violation", value)
+
+    return result
+
+
 def set_winner(match: MatchRaw, by_match: dict[str, MatchRaw]) -> None:
     if match.winner is not None:
         return
 
     if match.result == "Bye":
-        if match.bottom_competitor is not None:
-            raise ValueError("Invariant violation", match)
-        match.winner = match.top_competitor
-        return
+        if match.bottom_competitor is None:
+            if match.top_competitor is None:
+                match.winner = None
+                return
+
+            match.winner = match.top_competitor
+            return
+
+        if match.top_competitor is None:
+            if match.bottom_competitor is None:
+                raise ValueError("Invariant violation", match)
+            match.winner = match.bottom_competitor
+            return
+
+        raise ValueError("Invariant violation", match)
 
     if match.winner_from is not None:
         match_key, competitor_key = match.winner_from
@@ -262,6 +284,9 @@ def _competitor_raw_equal_enough(
 
 
 def _determine_result_type(result: str) -> ResultType:
+    if result == "P-Dec":
+        return "WALKOVER"
+
     if result == "Dec" or result.startswith("Dec "):
         return "DECISION"
 
@@ -355,6 +380,9 @@ def parse_team_scores(
     all_tr: list[bs4.Tag] = score_table.find_all("tr")
     for table_row in all_tr:
         if table_row.text.strip() == "":
+            continue
+
+        if tuple(table_row.text.split()) == ("Place", "Team", "Score"):
             continue
 
         all_td = table_row.find_all("td")
