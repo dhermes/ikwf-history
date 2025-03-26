@@ -880,7 +880,14 @@ def main():
 
     with open(HERE / "extracted.2003.json", "w") as file_obj:
         json.dump(
-            [weight_class.model_dump() for weight_class in parsed], file_obj, indent=2
+            {
+                "weight_classes": [
+                    weight_class.model_dump() for weight_class in parsed
+                ],
+                "team_scores": {},
+            },
+            file_obj,
+            indent=2,
         )
         file_obj.write("\n")
 
