@@ -153,3 +153,26 @@ CREATE TABLE match (
     OR (top_win = FALSE AND bottom_competitor_id IS NOT NULL)
   ) -- Ensures winner cannot be `NULL`
 );
+
+--------------------------------------------------------------------------------
+
+CREATE TABLE team_point_deduction (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  tournament_id INTEGER NOT NULL REFERENCES tournament(id),
+  team_id INTEGER NOT NULL REFERENCES team(id),
+  reason TEXT NOT NULL
+  -- NOTE: No unique index, multiple deductions are possible within a tournament
+  -- NOTE: No `division` is provided here, team point deductions apply across
+  --       **ALL** divisions
+);
+
+--------------------------------------------------------------------------------
+
+CREATE TABLE team_score (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  tournament_id INTEGER NOT NULL REFERENCES tournament(id),
+  division TEXT NOT NULL REFERENCES division(key),
+  team_id INTEGER NOT NULL REFERENCES team(id),
+  score FLOAT NOT NULL,
+  UNIQUE(tournament_id, division, team_id)
+);

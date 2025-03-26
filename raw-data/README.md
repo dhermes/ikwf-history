@@ -39,6 +39,16 @@ In fact the brackets have abbreviations for names and teams so the results
 are more valuable. However we need information about who the top / bottom
 of the bracket is in the round of 32. Additionally, we need bout numbers.
 
+Team point deductions are available but "hard" to access in Trackwrestling.
+It involves opening a team points detail, e.g.:
+
+```
+https://www.trackwrestling.com/opentournaments/TeamPointsDetail.jsp?twSessionId=xbbsfcxnpu&teamId=3434011
+```
+
+and then at the bottom there will be a note, e.g.
+`Unsportsmanlike COnduct: -1.0`.
+
 ## Team scoring
 
 As of 2025 bylaws (`bylaws_2024-25.pdf`), team scoring at the state tournament
