@@ -5,6 +5,11 @@ from typing import Literal
 import pydantic
 
 
+class CompetitorRaw(pydantic.BaseModel):
+    name: str
+    team: str
+
+
 class Competitor(pydantic.BaseModel):
     first_name: str
     last_name: str
@@ -25,6 +30,16 @@ ResultType = Literal[
 ]
 
 
+class MatchRaw(pydantic.BaseModel):
+    match: str
+    top_competitor: CompetitorRaw | None
+    bottom_competitor: CompetitorRaw | None
+    result: str
+    bout_number: int | None
+    winner: CompetitorRaw | None
+    winner_from: tuple[str, str] | None
+
+
 class Match(pydantic.BaseModel):
     match: str
     top_competitor: Competitor | None
@@ -35,8 +50,11 @@ class Match(pydantic.BaseModel):
     top_win: bool | None
 
 
+Divison = Literal["senior", "novice"]
+
+
 class WeightClass(pydantic.BaseModel):
-    division: Literal["senior", "novice"]
+    division: Divison
     weight: int
     matches: list[Match]
 
@@ -45,10 +63,246 @@ class WeightClasses(pydantic.RootModel[list[WeightClass]]):
     pass
 
 
+class TeamScore(pydantic.BaseModel):
+    team: str
+    score: float
+
+
+class ExtractedTournament(pydantic.BaseModel):
+    weight_classes: list[WeightClass]
+    team_scores: dict[Divison, list[TeamScore]]
+
+
 class CompetitorWithWeight(pydantic.BaseModel):
-    division: Literal["senior", "novice"]
+    division: Divison
     weight: int
     competitor: Competitor
+
+
+def set_winner(match: MatchRaw, by_match: dict[str, MatchRaw]) -> None:
+    if match.winner is not None:
+        return
+
+    if match.result == "Bye":
+        if match.bottom_competitor is not None:
+            raise ValueError("Invariant violation", match)
+        match.winner = match.top_competitor
+        return
+
+    if match.winner_from is not None:
+        match_key, competitor_key = match.winner_from
+        competitor = getattr(by_match[match_key], competitor_key)
+        match.winner = competitor
+        return
+
+    raise NotImplementedError(match)
+
+
+def set_result(match: MatchRaw) -> None:
+    result = match.result
+    if result != "":
+        return
+
+    top_competitor = match.top_competitor
+    bottom_competitor = match.bottom_competitor
+    if top_competitor is None or bottom_competitor is None:
+        match.result = "Bye"
+        return
+
+    raise NotImplementedError(match)
+
+
+def _competitor_from_raw(
+    value: CompetitorRaw | None, name_exceptions: dict[tuple[str, str], Competitor]
+) -> Competitor | None:
+    if value is None:
+        return None
+
+    exception_key = value.name, value.team
+    if exception_key in name_exceptions:
+        return name_exceptions[exception_key]
+
+    parts = value.name.split()
+    if len(parts) != 2:
+        raise RuntimeError(value.name, value.team)
+
+    return Competitor(
+        first_name=parts[0],
+        last_name=parts[1],
+        suffix=None,
+        team=value.team,
+    )
+
+
+def _competitor_equal_enough(competitor1: Competitor, competitor2: Competitor) -> bool:
+    if competitor1.team != competitor2.team:
+        return False
+
+    if competitor1.suffix != competitor2.suffix:
+        return False
+
+    if competitor1.last_name != competitor2.last_name:
+        return False
+
+    name1 = competitor1.first_name
+    name2 = competitor2.first_name
+    if name1 == name2:
+        return True
+
+    # Names get shortened to first letter in later rounds
+    if len(name1) == 1:
+        return name2[0] == name1
+    if len(name2) == 1:
+        return name1[0] == name2
+
+    return False
+
+
+def _ensure_no_name_duplicates(matches: list[Match]) -> None:
+    competitors_with_canonical_names: list[Competitor] = []
+    for match in matches:
+        if not match.match.startswith("championship_r32_"):
+            continue
+
+        if match.top_competitor is not None:
+            competitors_with_canonical_names.append(match.top_competitor)
+
+        if match.bottom_competitor is not None:
+            competitors_with_canonical_names.append(match.bottom_competitor)
+
+    # Update names based on canonical
+    for match in matches:
+        if match.top_competitor is not None:
+            canonical_competitors = [
+                canonical
+                for canonical in competitors_with_canonical_names
+                if _competitor_equal_enough(match.top_competitor, canonical)
+            ]
+            if len(canonical_competitors) != 1:
+                raise ValueError(
+                    "Invariant violation",
+                    match.top_competitor,
+                    len(canonical_competitors),
+                    canonical_competitors,
+                )
+            match.top_competitor = canonical_competitors[0]
+
+        if match.bottom_competitor is not None:
+            canonical_competitors = [
+                canonical
+                for canonical in competitors_with_canonical_names
+                if _competitor_equal_enough(match.bottom_competitor, canonical)
+            ]
+            if len(canonical_competitors) != 1:
+                raise ValueError(
+                    "Invariant violation",
+                    match.bottom_competitor,
+                    len(canonical_competitors),
+                    canonical_competitors,
+                )
+            match.bottom_competitor = canonical_competitors[0]
+
+
+def _competitor_name_equal_enough(name1: str, name2: str) -> bool:
+    if name1 == name2:
+        return True
+
+    parts1 = name1.split()
+    parts2 = name2.split()
+    if len(parts1) != len(parts2):
+        return False
+
+    if parts1[1:] != parts2[1:]:
+        return False
+
+    start1 = parts1[0]
+    start2 = parts2[0]
+    # Names get shortened to first letter in later rounds
+    if len(start1) == 1:
+        return start2[0] == start1
+    if len(start2) == 1:
+        return start1[0] == start2
+
+    return False
+
+
+def _competitor_raw_equal_enough(
+    competitor1: CompetitorRaw | None, competitor2: CompetitorRaw | None
+) -> bool:
+    if competitor1 is None or competitor2 is None:
+        return competitor1 == competitor2
+
+    if competitor1.team != competitor2.team:
+        return False
+
+    return _competitor_name_equal_enough(competitor1.name, competitor2.name)
+
+
+def _determine_result_type(result: str) -> ResultType:
+    if result == "Dec" or result.startswith("Dec "):
+        return "DECISION"
+
+    if result.startswith("MajDec "):
+        return "MAJOR"
+
+    if result == "T-Fall" or result.startswith("T-Fall "):
+        return "TECH"
+
+    if result == "Fall" or result.startswith("Fall "):
+        return "FALL"
+
+    if result == "Bye":
+        return "BYE"
+
+    if result == "Dflt" or result.startswith("Dflt "):
+        return "DEFAULT"
+
+    raise NotImplementedError(result)
+
+
+def clean_raw_matches(
+    matches: list[MatchRaw], name_exceptions: dict[tuple[str, str], Competitor]
+) -> list[Match]:
+    result: list[Match] = []
+    for match in matches:
+        top_win = None
+
+        top_competitor = _competitor_from_raw(match.top_competitor, name_exceptions)
+        bottom_competitor = _competitor_from_raw(
+            match.bottom_competitor, name_exceptions
+        )
+
+        if top_competitor is not None and _competitor_raw_equal_enough(
+            match.winner, match.top_competitor
+        ):
+            top_win = True
+
+        if bottom_competitor is not None and _competitor_raw_equal_enough(
+            match.winner, match.bottom_competitor
+        ):
+            top_win = False
+
+        if top_win is None:
+            if bottom_competitor is not None or top_competitor is not None:
+                print(match)
+                breakpoint()
+                raise RuntimeError("Invariant violation")
+
+        result.append(
+            Match(
+                match=match.match,
+                top_competitor=top_competitor,
+                bottom_competitor=bottom_competitor,
+                result=match.result,
+                result_type=_determine_result_type(match.result),
+                bout_number=match.bout_number,
+                top_win=top_win,
+            )
+        )
+
+    _ensure_no_name_duplicates(result)
+
+    return result
 
 
 def _get_advancement_points(match: str, winner: bool) -> float:
