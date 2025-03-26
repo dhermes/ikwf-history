@@ -1,7 +1,9 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
+import pathlib
 from typing import Literal
 
+import bs4
 import pydantic
 
 
@@ -328,6 +330,34 @@ def clean_raw_matches(
         )
 
     _ensure_no_name_duplicates(result)
+
+    return result
+
+
+def parse_team_scores(
+    root: pathlib.Path,
+    division: Division,
+    team_score_exceptions: dict[tuple[Division, str], float],
+) -> list[TeamScore]:
+    with open(root / division / "team-scores.html") as file_obj:
+        html = file_obj.read()
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    result: list[TeamScore] = []
+
+    all_tr: list[bs4.Tag] = soup.find_all("tr")
+    for table_row in all_tr:
+        all_td = table_row.find_all("td")
+        if len(all_td) != 3:
+            raise ValueError("Invariant violation", division, len(all_td), all_td)
+
+        team = all_td[1].text.strip()
+        score = float(all_td[2].text)
+
+        exception_key = division, team
+        score = team_score_exceptions.get(exception_key, score)
+
+        result.append(TeamScore(team=team, score=score))
 
     return result
 

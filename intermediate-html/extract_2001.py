@@ -41,6 +41,11 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         first_name="SHANE", last_name="FICH TENMUELLER", suffix=None, team="DIX"
     ),
 }
+TEAM_SCORE_EXCEPTIONS: dict[tuple[bracket_utils.Division, str], float] = {
+    ("novice", "WARRENSBURG WC"): -1.0,
+    ("novice", "WASHINGTON JR PANT"): -1.0,
+    ("senior", "HINSDALE RED DEVILS"): -2.0,
+}
 
 
 def parse_competitor(value: str) -> bracket_utils.CompetitorRaw | None:
@@ -585,30 +590,6 @@ def extract_bracket(
     return bracket_utils.clean_raw_matches(matches, NAME_EXCEPTIONS)
 
 
-def parse_team_scores(
-    division: bracket_utils.Division,
-) -> list[bracket_utils.TeamScore]:
-    with open(HERE / "2001" / division / "team-scores.html") as file_obj:
-        html = file_obj.read()
-
-    soup = bs4.BeautifulSoup(html, features="html.parser")
-    result: list[bracket_utils.TeamScore] = []
-
-    all_tr: list[bs4.Tag] = soup.find_all("tr")
-    for table_row in all_tr:
-        all_td = table_row.find_all("td")
-        if len(all_td) != 3:
-            raise ValueError("Invariant violation", division, len(all_td), all_td)
-
-        result.append(
-            bracket_utils.TeamScore(
-                team=all_td[1].text.strip(), score=float(all_td[2].text)
-            )
-        )
-
-    return result
-
-
 def main():
     novice_weights = (
         62,
@@ -673,8 +654,12 @@ def main():
         )
 
     team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {
-        "novice": parse_team_scores("novice"),
-        "senior": parse_team_scores("senior"),
+        "novice": bracket_utils.parse_team_scores(
+            HERE / "2001", "novice", TEAM_SCORE_EXCEPTIONS
+        ),
+        "senior": bracket_utils.parse_team_scores(
+            HERE / "2001", "senior", TEAM_SCORE_EXCEPTIONS
+        ),
     }
 
     extracted_tournament = bracket_utils.ExtractedTournament(
