@@ -363,9 +363,11 @@ TEAM_NAME_MAPPING = {
 
 def main():
     with open(HERE / "extracted.2004.json") as file_obj:
-        extracted = bracket_utils.WeightClasses.model_validate_json(file_obj.read())
+        extracted = bracket_utils.ExtractedTournament.model_validate_json(
+            file_obj.read()
+        )
 
-    weight_classes = extracted.root
+    weight_classes = extracted.weight_classes
     bracket_utils.print_division_team_scores(weight_classes, "novice")
     print("**************************************************")
     bracket_utils.print_division_team_scores(weight_classes, "senior")
