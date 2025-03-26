@@ -50,16 +50,17 @@ class Match(pydantic.BaseModel):
     top_win: bool | None
 
 
-Divison = Literal["senior", "novice"]
+Division = Literal["senior", "novice"]
 
 
 class WeightClass(pydantic.BaseModel):
-    division: Divison
+    division: Division
     weight: int
     matches: list[Match]
 
 
 class WeightClasses(pydantic.RootModel[list[WeightClass]]):
+    # TODO: Remove this class once it becomes unused
     pass
 
 
@@ -70,11 +71,11 @@ class TeamScore(pydantic.BaseModel):
 
 class ExtractedTournament(pydantic.BaseModel):
     weight_classes: list[WeightClass]
-    team_scores: dict[Divison, list[TeamScore]]
+    team_scores: dict[Division, list[TeamScore]]
 
 
 class CompetitorWithWeight(pydantic.BaseModel):
-    division: Divison
+    division: Division
     weight: int
     competitor: Competitor
 

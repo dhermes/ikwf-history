@@ -75,10 +75,10 @@ def parse_bout_number(value: str) -> int:
 
 
 def extract_bracket(
-    weight: int, divison: bracket_utils.Divison
+    weight: int, division: bracket_utils.Division
 ) -> list[bracket_utils.Match]:
     filename = f"{weight}.html"
-    with open(HERE / "2000" / divison / filename) as file_obj:
+    with open(HERE / "2000" / division / filename) as file_obj:
         html = file_obj.read()
 
     soup = bs4.BeautifulSoup(html, features="html.parser")

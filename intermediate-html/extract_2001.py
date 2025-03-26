@@ -120,10 +120,10 @@ def maybe_r32_empty_bye(
 
 
 def extract_bracket(
-    weight: int, divison: bracket_utils.Divison
+    weight: int, division: bracket_utils.Division
 ) -> list[bracket_utils.Match]:
     filename = f"{weight}.html"
-    with open(HERE / "2001" / divison / filename) as file_obj:
+    with open(HERE / "2001" / division / filename) as file_obj:
         html = file_obj.read()
 
     soup = bs4.BeautifulSoup(html, features="html.parser")
@@ -145,7 +145,7 @@ def extract_bracket(
     fifth_place_lines = fifth_place_pre.text.lstrip("\n").split("\n")
     seventh_place_lines = seventh_place_pre.text.lstrip("\n").split("\n")
 
-    if divison == "senior" and weight == 84:
+    if division == "senior" and weight == 84:
         consolation_round3_01_top_competitor = bracket_utils.CompetitorRaw(
             name="KEITH WILLIAMS", team="JUN"
         )
@@ -585,6 +585,30 @@ def extract_bracket(
     return bracket_utils.clean_raw_matches(matches, NAME_EXCEPTIONS)
 
 
+def parse_team_scores(
+    division: bracket_utils.Division,
+) -> list[bracket_utils.TeamScore]:
+    with open(HERE / "2001" / division / "team-scores.html") as file_obj:
+        html = file_obj.read()
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    result: list[bracket_utils.TeamScore] = []
+
+    all_tr: list[bs4.Tag] = soup.find_all("tr")
+    for table_row in all_tr:
+        all_td = table_row.find_all("td")
+        if len(all_td) != 3:
+            raise ValueError("Invariant violation", division, len(all_td), all_td)
+
+        result.append(
+            bracket_utils.TeamScore(
+                team=all_td[1].text.strip(), score=float(all_td[2].text)
+            )
+        )
+
+    return result
+
+
 def main():
     novice_weights = (
         62,
@@ -648,8 +672,13 @@ def main():
             )
         )
 
+    team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {
+        "novice": parse_team_scores("novice"),
+        "senior": parse_team_scores("senior"),
+    }
+
     extracted_tournament = bracket_utils.ExtractedTournament(
-        weight_classes=parsed, team_scores={}
+        weight_classes=parsed, team_scores=team_scores
     )
     with open(HERE / "extracted.2001.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))

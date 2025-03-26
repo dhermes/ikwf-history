@@ -374,9 +374,9 @@ def clean_raw_matches(matches: list[MatchRaw]) -> list[Match]:
     return result
 
 
-def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[Match]:
+def extract_bracket(weight: int, division: Literal["senior", "novice"]) -> list[Match]:
     filename = f"{weight}.html"
-    with open(HERE / "2006" / divison / filename) as file_obj:
+    with open(HERE / "2006" / division / filename) as file_obj:
         html = file_obj.read()
 
     soup = bs4.BeautifulSoup(html, features="html.parser")

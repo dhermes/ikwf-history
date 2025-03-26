@@ -365,9 +365,9 @@ def clean_raw_matches(matches: list[MatchRaw]) -> list[Match]:
     return result
 
 
-def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[Match]:
+def extract_bracket(weight: int, division: Literal["senior", "novice"]) -> list[Match]:
     filename = f"{weight}.html"
-    with open(HERE / "2004" / divison / filename) as file_obj:
+    with open(HERE / "2004" / division / filename) as file_obj:
         html = file_obj.read()
 
     soup = bs4.BeautifulSoup(html, features="html.parser")
@@ -383,7 +383,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
     fifth_place_lines = fifth_place_pre.text.lstrip("\n").split("\n")
     seventh_place_lines = seventh_place_pre.text.lstrip("\n").split("\n")
 
-    if divison == "novice" and weight == 108:
+    if division == "novice" and weight == 108:
         consolation_fifth_place_bottom_competitor = CompetitorRaw(
             name="SEPEHR KALHOR", team="ROK"
         )
@@ -392,7 +392,7 @@ def extract_bracket(weight: int, divison: Literal["senior", "novice"]) -> list[M
             fifth_place_lines[2][:31]
         )
 
-    if divison == "novice" and weight == 166:
+    if division == "novice" and weight == 166:
         consolation_round6_semi_01_top_competitor = CompetitorRaw(
             name="RYAN GAINES",
             team="MAR",
