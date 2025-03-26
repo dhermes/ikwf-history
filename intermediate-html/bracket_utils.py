@@ -265,7 +265,7 @@ def _determine_result_type(result: str) -> ResultType:
     if result == "Dec" or result.startswith("Dec "):
         return "DECISION"
 
-    if result.startswith("MajDec "):
+    if result.startswith("MajDec ") or result.startswith("M-Dec "):
         return "MAJOR"
 
     if result == "T-Fall" or result.startswith("T-Fall "):
@@ -280,10 +280,10 @@ def _determine_result_type(result: str) -> ResultType:
     if result == "Dflt" or result.startswith("Dflt "):
         return "DEFAULT"
 
-    if result.startswith("Dq "):
+    if result == "Dq" or result.startswith("Dq "):
         return "DISQUALIFICATION"
 
-    if result == "Forf":
+    if result == "Forf" or result.startswith("Forf "):
         return "FORFEIT"
 
     raise NotImplementedError(result)
@@ -313,8 +313,6 @@ def clean_raw_matches(
 
         if top_win is None:
             if bottom_competitor is not None or top_competitor is not None:
-                print(match)
-                breakpoint()
                 raise RuntimeError("Invariant violation")
 
         result.append(
@@ -345,14 +343,26 @@ def parse_team_scores(
     soup = bs4.BeautifulSoup(html, features="html.parser")
     result: list[TeamScore] = []
 
-    all_tr: list[bs4.Tag] = soup.find_all("tr")
+    all_tables: list[bs4.Tag] = soup.find_all("table")
+    # NOTE: This assumes every year will have a team with `2.0` points (for
+    #       advancement).
+    score_tables = [table for table in all_tables if "2.0" in table.text]
+    if len(score_tables) != 1:
+        raise ValueError("Invariant violation", division, len(score_tables))
+
+    score_table = score_tables[-1]
+
+    all_tr: list[bs4.Tag] = score_table.find_all("tr")
     for table_row in all_tr:
+        if table_row.text.strip() == "":
+            continue
+
         all_td = table_row.find_all("td")
-        if len(all_td) != 3:
+        if len(all_td) < 2:
             raise ValueError("Invariant violation", division, len(all_td), all_td)
 
-        team = all_td[1].text.strip()
-        score = float(all_td[2].text)
+        team = all_td[-2].text.strip()
+        score = float(all_td[-1].text)
 
         exception_key = division, team
         score = team_score_exceptions.get(exception_key, score)
