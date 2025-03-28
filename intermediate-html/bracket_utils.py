@@ -61,11 +61,6 @@ class WeightClass(pydantic.BaseModel):
     matches: list[Match]
 
 
-class WeightClasses(pydantic.RootModel[list[WeightClass]]):
-    # TODO: Remove this class once it becomes unused
-    pass
-
-
 class TeamScore(pydantic.BaseModel):
     team: str
     score: float
@@ -743,21 +738,20 @@ def _print_team_scores(team_scores: dict[str, float]) -> None:
 def print_division_team_scores(
     weight_classes: list[WeightClass], division: str
 ) -> None:
-    novice_weight_classes = [
+    division_weight_classes = [
         weight_class
         for weight_class in weight_classes
         if weight_class.division == division
     ]
-    novice_team_scores = _compute_team_scores(novice_weight_classes)
+    division_team_scores = _compute_team_scores(division_weight_classes)
     print(f"{division.title()}:")
-    _print_team_scores(novice_team_scores)
+    _print_team_scores(division_team_scores)
 
 
-def validate_acronym_mappings(
+def validate_acronym_mapping_names(
     weight_classes: list[WeightClass],
-    team_acronym_mapping: dict[str, str],
-    novice_team_acronym_mapping: dict[str, str],
-    senior_team_acronym_mapping: dict[str, str],
+    team_acronym_mappings: tuple[dict[str, str]],
+    extra_team_score_maps: tuple[dict[str, float]],
     team_name_mapping: dict[str, int],
 ):
     actual_acronyms: set[str] = set()
@@ -768,9 +762,11 @@ def validate_acronym_mappings(
             if match.bottom_competitor is not None:
                 actual_acronyms.add(match.bottom_competitor.team)
 
-    mapped_acronyms = set(team_acronym_mapping.keys())
-    mapped_acronyms.update(novice_team_acronym_mapping.keys())
-    mapped_acronyms.update(senior_team_acronym_mapping.keys())
+    mapped_acronyms = set()
+    actual_team_names = set()
+    for team_acronym_mapping in team_acronym_mappings:
+        mapped_acronyms.update(team_acronym_mapping.keys())
+        actual_team_names.update(team_acronym_mapping.values())
 
     if actual_acronyms != mapped_acronyms:
         raise RuntimeError(
@@ -779,14 +775,71 @@ def validate_acronym_mappings(
             actual_acronyms - mapped_acronyms,
         )
 
-    actual_team_names = set(team_acronym_mapping.values())
-    actual_team_names.update(novice_team_acronym_mapping.values())
-    actual_team_names.update(senior_team_acronym_mapping.values())
-    mapped_team_names = set(team_name_mapping.keys())
+    for extra_team_scores in extra_team_score_maps:
+        actual_team_names.update(extra_team_scores.keys())
 
+    mapped_team_names = set(team_name_mapping.keys())
     if actual_team_names != mapped_team_names:
         raise RuntimeError(
             "Unexpected team names",
             mapped_team_names - actual_team_names,
             actual_team_names - mapped_team_names,
         )
+
+
+def validate_acronym_mappings_divisons(
+    weight_classes: list[WeightClass],
+    team_acronym_mapping: dict[str, str],
+    novice_team_acronym_mapping: dict[str, str],
+    senior_team_acronym_mapping: dict[str, str],
+):
+    novice_acronyms = set()
+    senior_acronyms = set()
+    for weight_class in weight_classes:
+        if weight_class.division == "novice":
+            division_acronyms = novice_acronyms
+        else:
+            division_acronyms = senior_acronyms
+
+        for match_ in weight_class.matches:
+            if match_.top_competitor is not None:
+                division_acronyms.add(match_.top_competitor.team)
+            if match_.bottom_competitor is not None:
+                division_acronyms.add(match_.bottom_competitor.team)
+
+    acronyms_both = novice_acronyms.intersection(senior_acronyms)
+    novice_only = novice_acronyms - acronyms_both
+    senior_only = senior_acronyms - acronyms_both
+
+    wrong_both = {
+        key: value
+        for key, value in team_acronym_mapping.items()
+        if key not in acronyms_both
+    }
+    if wrong_both:
+        raise RuntimeError("Invalid", wrong_both)
+
+    wrong_novice = {
+        key: value
+        for key, value in novice_team_acronym_mapping.items()
+        if key not in novice_only
+    }
+    wrong_senior = {
+        key: value
+        for key, value in senior_team_acronym_mapping.items()
+        if key not in senior_only
+    }
+    wrong_novice_keys = set(wrong_novice.keys())
+    wrong_senior_keys = set(wrong_senior.keys())
+    if wrong_novice_keys != wrong_senior_keys:
+        raise RuntimeError(
+            "Invalid",
+            sorted(wrong_novice_keys - wrong_senior_keys),
+            sorted(wrong_senior_keys - wrong_novice_keys),
+        )
+
+    for key in wrong_novice_keys:
+        novice_value = wrong_novice[key]
+        senior_value = wrong_senior[key]
+        if novice_value == senior_value:
+            raise RuntimeError("Invalid", key, novice_value, senior_value)

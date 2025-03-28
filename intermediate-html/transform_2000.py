@@ -8,70 +8,45 @@ HERE = pathlib.Path(__file__).resolve().parent
 TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "AOK": "A-O KIDS WC",
     "BAD": "BADGER WC",
-    "BAR": "BARTLETT HAWK WC",
     "BAT": "BATAVIA PINNERS",
     "BB": "BELVIDERE BANDITS",
     "BBW": "BRADLEY BOURBONNAIS WRESTLING CLUB",
-    "BGP": "BOYS & GIRLS CLUB",  # ... of Pekin
     "BH": "BISMARCK-HENNING WC",
     "BJH": "BETHALTO JR HIGH",
-    "BJW": "BENTON JR. WC",
     "BLD": "BELLEVILLE LITTLE DE",
-    "BRO": "BRONCO WRESTLING",
     "CCK": "CHAMPAIGN CHARGER KI",
     "CDW": "CHILLI DAWGS WC",
-    "CEN": "CENTRALIA WC",
     "CHE": "CHENOA MAT CATS",
     "CJT": "CARY JR TROJAN MATME",
     "CLW": "CRYSTAL LAKE WIZARDS",
-    "CW": "CROSSFACE WRESTLING",
-    "CYW": "CUMBERLAND YOUTH WC",
     "DAK": "DAKOTA WC",
-    "DEC": "DECATUR WC",
-    "DGC": "DOWNERS GROVE COUGARS WC",
     "DH": "DUNDEE HIGHLANDERS",
-    "DPC": "DURAND-PECATONICA",
     "EBK": "EVANSTON BLACK KAT WC",
     "EMP": "EAST MOLINE PANTHER",
-    "EMS": "ERIE MIDDLE SCHOOL W",
     "EP": "EDISON PANTHERS",
     "EWC": "EDWARDSVILLE WC",
-    "FAW": "<UNKNOWN>",
     "FBG": "<UNKNOWN>",  # FREEPORT (FREEPORT BOYS & GIRLS CLUB?)
     "FPR": "FRANKLIN PARK RAIDER",
     "FVW": "FOX VALLEY WC",
-    "FWC": "FISHER WC",
     "FYW": "FALCON YOUTH WC",
-    "GDW": "GRAPPLIN DEVILS WC",
-    "GED": "GLEN ELLYN DUNGEON W",
-    "GEJ": "GLENBARD EAST JR RAM",
-    "GEN": "GENERALS",
     "GJS": "GALESBURG JR STREAKS",  # Duplicate
     "GWC": "GENESEO WC",
     "HAW": "HOOPESTON AREA WC",
     "HBJ": "HIGHLAND BULLDOG JR",
     "HC": "HARLEM COUGARS",
     "HIL": "HILL TRAILBLAZERS",
-    "HJT": "HILLSBORO JR TOPPERS",
     "HON": "HONONEGAH KIDS WC",
     "HPL": "HIGHLAND PARK LITTLE GIANTS",
-    "HRD": "HINSDALE RED DEVILS",
     "HUS": "HUSKIES WC",
-    "IB": "ILLINI BLUFFS WC",
     "JAC": "JACKSONVILLE WC",
     "JGE": "JR GOLDEN EAGLES",
-    "JRB": "JR BEARS WC",
-    "JRM": "JR MAROON WC",
     "JRW": "JR ROCKET WRESTLING",
-    "JS2": "GALESBURG JR STREAKS",  # Duplicate; GALESBURG JR STREAKS 2
     "LB": "LEMONT BEARS WC",
     "LC": "LITTLE CELTIC WC",
-    "LCW": "LAWRENCE COUNTY WC",
     "LKW": "LITCHFIELD WRESTLING CLUB",
     "LLP": "LAKELAND PREDATORS",
     "LPC": "L-P CRUNCHING CAVS",
     "LRB": "LITTLE REDBIRD WC",
-    "LSW": "LIL STORM YOUTH",
     "LVL": "LAKE VILLA LANCERS",
     "LYW": "LIMESTONE YOUTH ROCK",
     "MAR": "MARENGO WC",
@@ -80,16 +55,11 @@ TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "ME": "MAINE EAGLES WC",
     "MET": "METAMORA KIDS WC",
     "MFV": "MARTINEZ FOX VALLEY",
-    "MK": "MONTICELLO YOUTH WRESTLING CLUB",
-    "MKW": "MACOMB KIDS WRESTLIN",
-    "MMM": "MONTEGO MATMEN",  # Duplicate
     "MON": "MONTEGO MATMEN",  # Duplicate
     "MOR": "MORTON YOUTH WRESTLI",
     "MS": "METRO STALLIONS",
-    "MTV": "MT VERNON LIONS",
     "MTZ": "MT ZION WC",
     "MUR": "MURPHYSBORO WRESTLIN",
-    "NAP": "NAPERVILLE WC",
     "NE": "NAPERVILLE EAGLES",
     "OAK": "OAKWOOD WC",
     "OC": "OSWEGO COUGARS",
@@ -97,25 +67,19 @@ TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "OPP": "ORLAND PARK PIONEERS",
     "OSP": "OSWEGO PANTHERS",
     "PCW": "PANTHER CUB WC",
-    "PIN": "PINCKNEYVILLE JR",
     "POL": "POLO WC",
     "PPW": "PONTIAC PYTHONS",
-    "PR": "<UNKNOWN>",
     "PWC": "PLAINFIELD WC",
     "RAM": "RAMS WC",
-    "RCK": "REED CUSTER KNIGHTS",
-    "RFW": "ROCK FALLS JUNIOR ROCKET WRESTLING",
     "RIV": "RIVERBEND WC",
     "RJH": "RIVERDALE JR HIGH",
     "ROC": "ROCHELLE WC",
     "ROX": "ROXANA KIDS WC",
     "RWC": "ROCKFORD WC",
-    "SAN": "SANDWICH WC",
     "SC": "SPRINGFIELD CAPITALS",
     "SHA": "SHARKS WC",
     "SHE": "SHERRARD JR WC",
     "SIE": "SOUTHERN IL EAGLES",
-    "SII": "STC WC II",
     "SJO": "SJO YOUTH WRESTLING",
     "SJW": "SHELBYVILLE JR RAMS",
     "SN": "STERLING NEWMAN JR",
@@ -125,12 +89,9 @@ TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "SVW": "STILLMAN VALLEY WC",
     "SW": "STATELINE WILDCATS",
     "SYW": "SAUKEE YOUTH WC",
-    "T1": "TEAM 1",
-    "TAY": "TAYLORVILLE WC",
     "TAZ": "TAZEWELL COUNTY KIDZ WC",
     "TCB": "TRI-CITY BRAVES",
     "TPB": "TINLEY PARK BULLDOGS",
-    "TRI": "TRIAD KNIGHTS WRESTLING CLUB",
     "TTT": "TIGERTOWN TANGLERS",
     "TWC": "TIGER WC",
     "UNI": "UNITY WRESTLING CLUB",
@@ -149,8 +110,49 @@ TEAM_ACRONYM_MAPPING: dict[str, str] = {
 }
 # NOTE: Sometimes acronyms (or team names) differ between Novice and Senior
 #       in the Team Scores.
-NOVICE_TEAM_ACRONYM_MAPPING: dict[str, str] = {}
-SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {}
+NOVICE_TEAM_ACRONYM_MAPPING: dict[str, str] = {
+    "BJW": "BENTON JR. WC",
+    "BRO": "BRONCO WRESTLING",
+    "DGC": "DOWNERS GROVE COUGARS WC",
+    "DPC": "DURAND-PECATONICA",
+    "EMS": "ERIE MIDDLE SCHOOL W",
+    "FAW": "<UNKNOWN>",
+    "FWC": "FISHER WC",
+    "GDW": "GRAPPLIN DEVILS WC",
+    "GED": "GLEN ELLYN DUNGEON W",
+    "GEN": "GENERALS",
+    "HJT": "HILLSBORO JR TOPPERS",
+    "HRD": "HINSDALE RED DEVILS",
+    "IB": "ILLINI BLUFFS WC",
+    "JRB": "JR BEARS WC",
+    "JRM": "JR MAROON WC",
+    "LCW": "LAWRENCE COUNTY WC",
+    "LSW": "LIL STORM YOUTH",
+    "MK": "MONTICELLO YOUTH WRESTLING CLUB",
+    "MKW": "MACOMB KIDS WRESTLIN",
+    "MMM": "MONTEGO MATMEN",  # Duplicate
+    "PR": "<UNKNOWN>",
+    "RCK": "REED CUSTER KNIGHTS",
+    "RFW": "ROCK FALLS JUNIOR ROCKET WRESTLING",
+    "SAN": "SANDWICH WC",
+    "TAY": "TAYLORVILLE WC",
+}
+SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
+    "BAR": "BARTLETT HAWK WC",
+    "BGP": "BOYS & GIRLS CLUB",  # ... of Pekin
+    "CEN": "CENTRALIA WC",
+    "CW": "CROSSFACE WRESTLING",
+    "CYW": "CUMBERLAND YOUTH WC",
+    "DEC": "DECATUR WC",
+    "GEJ": "GLENBARD EAST JR RAM",
+    "JS2": "GALESBURG JR STREAKS",
+    "MTV": "MT VERNON LIONS",
+    "NAP": "NAPERVILLE WC",
+    "PIN": "PINCKNEYVILLE JR",
+    "SII": "STC WC II",
+    "T1": "TEAM 1",
+    "TRI": "TRIAD KNIGHTS WRESTLING CLUB",
+}
 TEAM_NAME_MAPPING: dict[str, int] = {
     "<UNKNOWN>": 10132,
     "A-O KIDS WC": 8,
@@ -298,23 +300,28 @@ def main():
         )
 
     weight_classes = extracted.weight_classes
-    bracket_utils.print_division_team_scores(weight_classes, "novice")
-    print("**************************************************")
-    bracket_utils.print_division_team_scores(weight_classes, "senior")
-    print("**************************************************")
-    bracket_utils.validate_acronym_mappings(
+    bracket_utils.validate_acronym_mapping_names(
+        weight_classes,
+        (
+            TEAM_ACRONYM_MAPPING,
+            NOVICE_TEAM_ACRONYM_MAPPING,
+            SENIOR_TEAM_ACRONYM_MAPPING,
+        ),
+        (),
+        TEAM_NAME_MAPPING,
+    )
+    unclassified = sorted(
+        name for name, team_id in TEAM_NAME_MAPPING.items() if team_id < 0
+    )
+    if unclassified:
+        raise ValueError("Some teams are unclassified", unclassified)
+
+    bracket_utils.validate_acronym_mappings_divisons(
         weight_classes,
         TEAM_ACRONYM_MAPPING,
         NOVICE_TEAM_ACRONYM_MAPPING,
         SENIOR_TEAM_ACRONYM_MAPPING,
-        TEAM_NAME_MAPPING,
     )
-    print("**************************************************")
-    unclassified = sorted(
-        name for name, team_id in TEAM_NAME_MAPPING.items() if team_id < 0
-    )
-    for i, name in enumerate(unclassified):
-        print(f"{i + 1}: {name}")
 
 
 if __name__ == "__main__":
