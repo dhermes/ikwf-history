@@ -173,6 +173,8 @@ CREATE TABLE team_score (
   tournament_id INTEGER NOT NULL REFERENCES tournament(id),
   division TEXT NOT NULL REFERENCES division(key),
   team_id INTEGER NOT NULL REFERENCES team(id),
-  score FLOAT NOT NULL,
-  UNIQUE(tournament_id, division, team_id)
+  score FLOAT NOT NULL
+  -- NOTE: There is no UNIQUE(tournament_id, division, team_id) constraint.
+  --       In some years, teams could have multiple team scores from
+  --       scoring and non-scoring wrestlers.
 );

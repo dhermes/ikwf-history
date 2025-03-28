@@ -5,6 +5,7 @@ import pathlib
 import bracket_utils
 
 HERE = pathlib.Path(__file__).resolve().parent
+TOURNAMENT_ID = 31
 TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "AOK": "A-O KIDS WC",
     "BAD": "BADGER WC",
@@ -291,6 +292,8 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "WRESTLING FACTORY": 10115,
     "YORKVILLE WC": 497,
 }
+NOVICE_EXTRA_TEAM_SCORES: dict[str, float] = {}
+SENIOR_EXTRA_TEAM_SCORES: dict[str, float] = {}
 
 
 def main():
@@ -307,7 +310,7 @@ def main():
             NOVICE_TEAM_ACRONYM_MAPPING,
             SENIOR_TEAM_ACRONYM_MAPPING,
         ),
-        (),
+        (NOVICE_EXTRA_TEAM_SCORES, SENIOR_EXTRA_TEAM_SCORES),
         TEAM_NAME_MAPPING,
     )
     unclassified = sorted(

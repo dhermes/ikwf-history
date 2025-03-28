@@ -5,6 +5,8 @@ import pathlib
 import bracket_utils
 
 HERE = pathlib.Path(__file__).resolve().parent
+TOURNAMENT_ID = 33
+TEAM_SCORE_ID_START = 269
 TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "ARG": "ARGENTA/OREANA KIDS CLUB",
     "ARL": "ARLINGTON CARDINALS",
@@ -252,10 +254,13 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "JR. ROCKET WRESTLING": 10052,
     "JR. SENTINELS": 10054,
     "JUNIOR PIRATE WC": 201,
+    "KISHWAUKEE WC": 10056,
     "KNIGHTS WRESTLING": 206,
     "L-P CRUNCHING CAVS": 241,
+    "LAKE VIEW JR WILDCATS": 10159,
     "LAKELAND PREDATORS": 10057,
     "LAN-OAK P.D. LITTLE REBELS": 10171,
+    "LANCER WC": 216,
     "LARKIN JR. ROYALS WC": 10170,
     "LAWRENCE COUNTY WC": 217,
     "LEMONT BEARS WC": 219,
@@ -269,6 +274,7 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "LOCKPORT GATORS WC": 10068,
     "MACOMB LITTLE BOMBERS": 243,
     "MAINE EAGLES WC": 245,
+    "MANTENO JR PANTHERS": 247,
     "MARENGO WC": 248,
     "MARTINEZ FOX VALLEY ELITE WC": 250,
     "MATTOON YOUTH WC": 252,
@@ -320,6 +326,7 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "T-BIRD/RAIDER WRESTLING": 10099,
     "TAYLORVILLE WC": 420,
     "TAZEWELL COUNTY KIDZ WC": 10135,
+    "TEAM WEST WOLVES": 10101,
     "TEAM XPRESS": 10167,
     "TIGER WC": 10103,
     "TIGERTOWN TANGLERS": 441,
@@ -342,6 +349,81 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "WRESTLING FACTORY": 10115,
     "YORKVILLE WC": 497,
 }
+NOVICE_EXTRA_TEAM_SCORES: dict[str, float] = {
+    "A-J JR. WILDCATS": 0.0,
+    "ACES WC": 0.0,
+    "BLOOMINGTON RAIDER WC": 0.0,
+    "BRONCO WRESTLING": 0.0,
+    "CAMP POINT CENTRAL": 0.0,
+    "CARLINVILLE KIDS WC": 0.0,
+    "CENTRAL WC": 0.0,
+    "DURAND-PECATONICA CARNIVORES": 0.0,
+    "ELMHURST JR. DUKES": 0.0,
+    "GALESBURG JR STREAKS": 0.0,
+    "GENERALS": 0.0,
+    "GENEVA WC": 0.0,
+    "HILLSBORO JR TOPPERS": 0.0,
+    "HILLTOPPERS WC": 0.0,
+    "ILLINI BLUFFS WC": 0.0,
+    "JR. COUGAR WC": 0.0,
+    "JR. ROCKET WRESTLING": 0.0,
+    "JUNIOR PIRATE WC": 0.0,
+    "KISHWAUKEE WC": 0.0,
+    "LAKE VIEW JR WILDCATS": 0.0,
+    "LANCER WC": 0.0,
+    "LARKIN JR. ROYALS WC": 0.0,
+    "LIL' ROUGHNECKS": 0.0,
+    "MANTENO JR PANTHERS": 0.0,
+    "METAMORA KIDS WC": 0.0,
+    "NORTHSHORE GATORS": 0.0,
+    "NOTRE DAME": 0.0,
+    "RIVERBEND WC": 0.0,
+    "SHARKS WC": 0.0,
+    "SHEPARD WRESTLING": 0.0,
+    "TAYLORVILLE WC": 0.0,
+    "TAZEWELL COUNTY KIDZ WC": 0.0,
+    "TEAM WEST WOLVES": 0.0,
+    "WARRENSBURG WC": 0.0,
+    "WAUBONSIE WC": 0.0,
+    "WESTVILLE YOUTH WC": 0.0,
+    "WHEATON BULLDOGS": 0.0,
+    ########################################
+    "LIONS WC": -1.0,
+}
+SENIOR_EXTRA_TEAM_SCORES: dict[str, float] = {
+    "BENTON JR. WC": 0.0,
+    "CROSSFACE WRESTLING": 0.0,
+    "DOWNERS GROVE COUGARS": 0.0,
+    "FALCON YOUTH WC": 0.0,
+    "FORD HEIGHTS FALCONS": 0.0,
+    "GLENBARD EAST JR RAMS": 0.0,
+    "HOMEWOOD-FLOSSMOOR CATS": 0.0,
+    "JR. MAROON WC": 0.0,
+    "KISHWAUKEE WC": 0.0,
+    "LAKE VIEW JR WILDCATS": 0.0,
+    "LAKELAND PREDATORS": 0.0,
+    "LANCER WC": 0.0,
+    "LITTLE REDBIRD WC": 0.0,
+    "MACOMB LITTLE BOMBERS": 0.0,
+    "MAINE EAGLES WC": 0.0,
+    "MANTENO JR PANTHERS": 0.0,
+    "PLT PROPHETS WC": 0.0,
+    "RAIDER WC": 0.0,
+    "RAMS WC": 0.0,
+    "ROCK ISLAND JR. ROCKS": 0.0,
+    "ROUND LAKE BAD BOYZ": 0.0,
+    "SAUKEE YOUTH WC": 0.0,
+    "SAVANNA REDHAWKS": 0.0,
+    "TEAM WEST WOLVES": 0.0,
+    "TIGERTOWN TANGLERS": 0.0,
+    "TRIAD KNIGHTS": 0.0,
+    "WHEATON FRANKLIN WC": 0.0,
+    ########################################
+    "BARTLETT HAWK WC": -1.0,
+    "CARBONDALE WC": -1.0,
+    "KNIGHTS WRESTLING": -1.0,
+    "ST. CHARLES WC": -1.0,
+}
 
 
 def main():
@@ -358,7 +440,7 @@ def main():
             NOVICE_TEAM_ACRONYM_MAPPING,
             SENIOR_TEAM_ACRONYM_MAPPING,
         ),
-        (),
+        (NOVICE_EXTRA_TEAM_SCORES, SENIOR_EXTRA_TEAM_SCORES),
         TEAM_NAME_MAPPING,
     )
     unclassified = sorted(
@@ -373,6 +455,33 @@ def main():
         NOVICE_TEAM_ACRONYM_MAPPING,
         SENIOR_TEAM_ACRONYM_MAPPING,
     )
+
+    team_scores: list[bracket_utils.TeamScoreRow] = []
+    team_scores.extend(
+        bracket_utils.team_scores_for_sql(
+            "novice",
+            TOURNAMENT_ID,
+            extracted,
+            TEAM_ACRONYM_MAPPING,
+            NOVICE_TEAM_ACRONYM_MAPPING,
+            TEAM_NAME_MAPPING,
+            NOVICE_EXTRA_TEAM_SCORES,
+        )
+    )
+    team_scores.extend(
+        bracket_utils.team_scores_for_sql(
+            "senior",
+            TOURNAMENT_ID,
+            extracted,
+            TEAM_ACRONYM_MAPPING,
+            SENIOR_TEAM_ACRONYM_MAPPING,
+            TEAM_NAME_MAPPING,
+            SENIOR_EXTRA_TEAM_SCORES,
+        )
+    )
+
+    bracket_utils.set_team_score_ids(team_scores, TEAM_SCORE_ID_START)
+    bracket_utils.print_team_score_sql(team_scores)
 
 
 if __name__ == "__main__":

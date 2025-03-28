@@ -5,6 +5,8 @@ import pathlib
 import bracket_utils
 
 HERE = pathlib.Path(__file__).resolve().parent
+TOURNAMENT_ID = 32
+TEAM_SCORE_ID_START = 1
 TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "ABC": "ALEDO BEAR COUNTRY W",
     "ACE": "ACES WRESTLING",
@@ -366,7 +368,7 @@ TEAM_NAME_MAPPING: dict[str, int] = {
 }
 NOVICE_EXTRA_TEAM_SCORES: dict[str, float] = {
     "HERRIN WC": 2.0,
-    ##########################################
+    ########################################
     "BISMARCK-HENNING WC": 0.0,
     "CROSSFACE WRESTLING": 0.0,
     "GENESEO WC": 0.0,
@@ -374,7 +376,7 @@ NOVICE_EXTRA_TEAM_SCORES: dict[str, float] = {
     "LITTLE GIANTS": 0.0,
     "SHELBYVILLE JR RAMS": 0.0,
     "SHERRARD JR WC": 0.0,
-    ##########################################
+    ########################################
     "WASHINGTON JR PANT": -1.0,
 }
 SENIOR_EXTRA_TEAM_SCORES: dict[str, float] = {
@@ -419,6 +421,33 @@ def main():
         NOVICE_TEAM_ACRONYM_MAPPING,
         SENIOR_TEAM_ACRONYM_MAPPING,
     )
+
+    team_scores: list[bracket_utils.TeamScoreRow] = []
+    team_scores.extend(
+        bracket_utils.team_scores_for_sql(
+            "novice",
+            TOURNAMENT_ID,
+            extracted,
+            TEAM_ACRONYM_MAPPING,
+            NOVICE_TEAM_ACRONYM_MAPPING,
+            TEAM_NAME_MAPPING,
+            NOVICE_EXTRA_TEAM_SCORES,
+        )
+    )
+    team_scores.extend(
+        bracket_utils.team_scores_for_sql(
+            "senior",
+            TOURNAMENT_ID,
+            extracted,
+            TEAM_ACRONYM_MAPPING,
+            SENIOR_TEAM_ACRONYM_MAPPING,
+            TEAM_NAME_MAPPING,
+            SENIOR_EXTRA_TEAM_SCORES,
+        )
+    )
+
+    bracket_utils.set_team_score_ids(team_scores, TEAM_SCORE_ID_START)
+    bracket_utils.print_team_score_sql(team_scores)
 
 
 if __name__ == "__main__":

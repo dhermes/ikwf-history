@@ -5,6 +5,8 @@ import pathlib
 import bracket_utils
 
 HERE = pathlib.Path(__file__).resolve().parent
+TOURNAMENT_ID = 37
+TEAM_SCORE_ID_START = 1633
 TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "ACE": "ACES WC",  # Absent from Senior team scores
     "ARL": "ARLINGTON CARDINALS",
@@ -171,7 +173,7 @@ SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "JRC": "JR. COUGARS WC",
     "JRV": "JUNIOR VIKINGS",
     "KNGT": "KNIGHTS WRESTLING",
-    "LION": "LIONHEART INTENSE WRESTLING",
+    "LION": "LIONS WC",
     "MDWA": "MAD DOG WRESTLING ACADEMY",
     "MEN": "MENDOTA WC",  # Absent from Senior team scores
     "MST": "MUSTANG WC",
@@ -226,6 +228,7 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "CHICAGO CRUSADERS": 71,
     "CHICAGO WOLVES DEN": 75,
     "CHILLI DAWGS WC": 10014,
+    "CLIPPER WC": 80,
     "COLLINSVILLE RAIDERS": 338,
     "CROSSTOWN CRUSHERS": 10019,
     "CRYSTAL LAKE WIZARDS": 89,
@@ -281,6 +284,7 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "LIMESTONE YOUTH WC": 10061,
     "LINCOLN-WAY WC": 227,
     "LIONHEART INTENSE WRESTLING": 228,
+    "LIONS WC": 229,
     "LITCHFIELD KIDS WRESTLING": 231,
     "LITTLE CELTIC WC": 233,
     "LITTLE FALCONS WC": 10062,
@@ -383,6 +387,10 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "XTREME WRESTLING": 496,
     "YORKVILLE WRESTLING CLUB": 497,
 }
+NOVICE_EXTRA_TEAM_SCORES: dict[str, float] = {
+    "CLIPPER WC": 0.0,
+}
+SENIOR_EXTRA_TEAM_SCORES: dict[str, float] = {}
 
 
 def main():
@@ -399,7 +407,7 @@ def main():
             NOVICE_TEAM_ACRONYM_MAPPING,
             SENIOR_TEAM_ACRONYM_MAPPING,
         ),
-        (),
+        (NOVICE_EXTRA_TEAM_SCORES, SENIOR_EXTRA_TEAM_SCORES),
         TEAM_NAME_MAPPING,
     )
     unclassified = sorted(
@@ -414,6 +422,33 @@ def main():
         NOVICE_TEAM_ACRONYM_MAPPING,
         SENIOR_TEAM_ACRONYM_MAPPING,
     )
+
+    team_scores: list[bracket_utils.TeamScoreRow] = []
+    team_scores.extend(
+        bracket_utils.team_scores_for_sql(
+            "novice",
+            TOURNAMENT_ID,
+            extracted,
+            TEAM_ACRONYM_MAPPING,
+            NOVICE_TEAM_ACRONYM_MAPPING,
+            TEAM_NAME_MAPPING,
+            NOVICE_EXTRA_TEAM_SCORES,
+        )
+    )
+    team_scores.extend(
+        bracket_utils.team_scores_for_sql(
+            "senior",
+            TOURNAMENT_ID,
+            extracted,
+            TEAM_ACRONYM_MAPPING,
+            SENIOR_TEAM_ACRONYM_MAPPING,
+            TEAM_NAME_MAPPING,
+            SENIOR_EXTRA_TEAM_SCORES,
+        )
+    )
+
+    bracket_utils.set_team_score_ids(team_scores, TEAM_SCORE_ID_START)
+    bracket_utils.print_team_score_sql(team_scores)
 
 
 if __name__ == "__main__":

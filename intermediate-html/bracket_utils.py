@@ -7,6 +7,11 @@ import bs4
 import pydantic
 
 
+# NOTE: In some years, a clearly accidentally added team name appeared in team
+#       scores.
+_TEAM_SCORE_ACCIDENTAL: frozenset[str] = frozenset(["Mike", "TEST"])
+
+
 class CompetitorRaw(pydantic.BaseModel):
     name: str
     team: str
@@ -404,6 +409,9 @@ def parse_team_scores(
             raise ValueError("Invariant violation", division, len(all_td), all_td)
 
         team = all_td[-2].text.strip()
+        if team in _TEAM_SCORE_ACCIDENTAL:
+            continue
+
         score = float(all_td[-1].text)
 
         exception_key = division, team
@@ -843,3 +851,112 @@ def validate_acronym_mappings_divisons(
         senior_value = wrong_senior[key]
         if novice_value == senior_value:
             raise RuntimeError("Invalid", key, novice_value, senior_value)
+
+
+class TeamScoreRow(pydantic.BaseModel):
+    id_: int = pydantic.Field(alias="id")
+    tournament_id: int
+    division: Division
+    team_id: int
+    score: float
+
+
+def team_scores_for_sql(
+    division: Division,
+    tournament_id: int,
+    extracted: ExtractedTournament,
+    team_acronym_mapping: dict[str, str],
+    division_team_acronym_mapping: dict[str, str],
+    team_name_mapping: dict[str, int],
+    extra_team_scores: dict[str, int],
+) -> list[TeamScoreRow]:
+    weight_classes = [
+        weight_class
+        for weight_class in extracted.weight_classes
+        if weight_class.division == division
+    ]
+
+    actual_team_score_list = extracted.team_scores[division]
+    actual_team_scores = {
+        team_score.team: team_score.score for team_score in actual_team_score_list
+    }
+    if len(actual_team_scores) != len(actual_team_score_list):
+        raise ValueError("Duplicate team name in actual team scores")
+
+    computed_team_scores = _compute_team_scores(weight_classes)
+    acronyms = sorted(computed_team_scores.keys())
+    team_score_rows: list[TeamScoreRow] = []
+
+    for acronym in acronyms:
+        computed_team_score = computed_team_scores[acronym]
+        if acronym in division_team_acronym_mapping:
+            if acronym in team_acronym_mapping:
+                raise ValueError("Invariant violation: acronym mapped twice", acronym)
+
+            team_name = division_team_acronym_mapping[acronym]
+        else:
+            team_name = team_acronym_mapping[acronym]
+
+        actual_team_score = actual_team_scores.pop(team_name, None)
+        if actual_team_score is None:
+            if computed_team_score != 0.0:
+                raise ValueError(
+                    "Team score missing from official but nonzero",
+                    acronym,
+                    computed_team_score,
+                )
+            actual_team_score = 0.0
+
+        team_id = team_name_mapping[team_name]
+        team_score_rows.append(
+            TeamScoreRow(
+                id=0,  # To be filled out later
+                tournament_id=tournament_id,
+                division=division,
+                team_id=team_id,
+                score=actual_team_score,
+            )
+        )
+
+    # NOTE: Sometimes `0.0` scores were included even if the team did not have
+    #       any competitors in the division. Typically it was because the team
+    #       had a competitor in the year prior. For negative scores, these
+    #       represent a team that had a deduction in a different division but
+    #       had no scoring athletes in this one. Team point deductions are
+    #       applied to all divisions. Any **POSITIVE** scores appear just to be
+    #       errors.
+    if actual_team_scores != extra_team_scores:
+        raise ValueError(
+            "Unexpected team scores not accounted for",
+            actual_team_scores,
+            extra_team_scores,
+        )
+
+    extra_team_names = sorted(extra_team_scores.keys())
+    for team_name in extra_team_names:
+        actual_team_score = extra_team_scores[team_name]
+        team_id = team_name_mapping[team_name]
+        team_score_rows.append(
+            TeamScoreRow(
+                id=0,  # To be filled out later
+                tournament_id=tournament_id,
+                division=division,
+                team_id=team_id,
+                score=actual_team_score,
+            )
+        )
+
+    return team_score_rows
+
+
+def set_team_score_ids(team_scores: list[TeamScoreRow], id_start: int) -> None:
+    for i, team_score in enumerate(team_scores):
+        team_score.id_ = id_start + i
+
+
+def print_team_score_sql(team_scores: list[TeamScoreRow]) -> None:
+    for team_score in team_scores:
+        print(
+            f"  ({team_score.id_}, {team_score.tournament_id}, "
+            f"'{team_score.division}', {team_score.team_id}, {team_score.score}),"
+        )

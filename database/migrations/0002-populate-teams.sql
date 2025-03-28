@@ -183,7 +183,7 @@ VALUES
   ('Cowboy WC',                                        85),
   ('Crawford County Wrestling Club',                   86),
   ('Crimson Heat WC',                                  10017),
-  ('Crossface Wrestling',                              10018),
+  ('Crossface Wrestling',                              10018), -- Same as 108?
   ('Crosstown Crushers',                               10019),
   ('Crosstown Spartan Elite Wrestling Club',           87),
   ('Crusaders'' Elite',                                88),

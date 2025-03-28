@@ -5,6 +5,8 @@ import pathlib
 import bracket_utils
 
 HERE = pathlib.Path(__file__).resolve().parent
+TOURNAMENT_ID = 36
+TEAM_SCORE_ID_START = 1333
 TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "AJW": "A-J JUNIOR WILDCATS",
     "ANI": "ANIMALS WC",
@@ -262,6 +264,7 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "GOLDEN EAGLES": 149,
     "GRANITE CITY JR. WARRIORS": 10040,
     "HARLEM COUGARS": 10041,
+    "HARVARD WC": 161,
     "HARVEY PARK DISTRICT TWISTERS": 162,
     "HERRIN WC": 10042,
     "HIGHLAND BULLDOGS JR. WC": 168,
@@ -281,6 +284,7 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "L-P CRUNCHING CAVS": 241,
     "LAKELAND PREDATORS": 10057,
     "LANCER WC": 216,
+    "LAWRENCE COUNTY WC": 217,
     "LEMONT BEARS WC": 219,
     "LIL' STORM YOUTH WC": 10060,
     "LINCOLN-WAY WC": 227,
@@ -301,6 +305,7 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "MATTOON YOUTH WC": 252,
     "MEDALIST WC": 10071,
     "MENDOTA WC": 261,
+    "METAMORA KIDS WC": 262,
     "MIDWEST CENTRAL YOUTH WC": 263,
     "MINOOKA LITTLE INDIANS": 266,
     "MOLINE WC": 268,
@@ -324,6 +329,7 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "PANTHER CUB WC": 10079,
     "PANTHER POWERHOUSE WC": 313,
     "PANTHER WC": 346,
+    "PEKIN BOY AND GIRLS CLUB": 319,
     "PEKIN BOYS AND GIRLS CLUB": 319,
     "PEORIA RAZORBACKS": 321,
     "PLAINFIELD TORNADOES WC": 10081,
@@ -386,6 +392,21 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "XTREME WC": 496,
     "YORKVILLE WC": 497,
     "YOUNG CHAMPIONS": 10116,
+    "ZEE-BEE STINGERS": 501,
+}
+NOVICE_EXTRA_TEAM_SCORES: dict[str, float] = {
+    "CALUMET MEMORIAL PD WOLVERINES": 0.0,
+    "HARVARD WC": 0.0,
+    "HURRICANES": 0.0,
+}
+SENIOR_EXTRA_TEAM_SCORES: dict[str, float] = {
+    "HARVARD WC": 0.0,
+    "LAWRENCE COUNTY WC": 0.0,
+    "METAMORA KIDS WC": 0.0,
+    "PEKIN BOY AND GIRLS CLUB": 0.0,
+    "ZEE-BEE STINGERS": 0.0,
+    ########################################
+    "MORTON LITTLE MUSTANGS": -1.0,
 }
 
 
@@ -403,7 +424,7 @@ def main():
             NOVICE_TEAM_ACRONYM_MAPPING,
             SENIOR_TEAM_ACRONYM_MAPPING,
         ),
-        (),
+        (NOVICE_EXTRA_TEAM_SCORES, SENIOR_EXTRA_TEAM_SCORES),
         TEAM_NAME_MAPPING,
     )
     unclassified = sorted(
@@ -418,6 +439,33 @@ def main():
         NOVICE_TEAM_ACRONYM_MAPPING,
         SENIOR_TEAM_ACRONYM_MAPPING,
     )
+
+    team_scores: list[bracket_utils.TeamScoreRow] = []
+    team_scores.extend(
+        bracket_utils.team_scores_for_sql(
+            "novice",
+            TOURNAMENT_ID,
+            extracted,
+            TEAM_ACRONYM_MAPPING,
+            NOVICE_TEAM_ACRONYM_MAPPING,
+            TEAM_NAME_MAPPING,
+            NOVICE_EXTRA_TEAM_SCORES,
+        )
+    )
+    team_scores.extend(
+        bracket_utils.team_scores_for_sql(
+            "senior",
+            TOURNAMENT_ID,
+            extracted,
+            TEAM_ACRONYM_MAPPING,
+            SENIOR_TEAM_ACRONYM_MAPPING,
+            TEAM_NAME_MAPPING,
+            SENIOR_EXTRA_TEAM_SCORES,
+        )
+    )
+
+    bracket_utils.set_team_score_ids(team_scores, TEAM_SCORE_ID_START)
+    bracket_utils.print_team_score_sql(team_scores)
 
 
 if __name__ == "__main__":
