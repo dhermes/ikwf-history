@@ -213,6 +213,7 @@ VALUES
   ('Dubtown Wrestling Club',                           416),
   ('Dundee Highlanders WC',                            102),
   ('Dundee Carpentersville',                           10163),
+  ('Dundee Westfield',                                 10172),
   ('Dungeon Wrestling Club',                           103),
   ('DuPage Wrestling Club',                            104),
   ('Dwight Wrestling Club',                            106),

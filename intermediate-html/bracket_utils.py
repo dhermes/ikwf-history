@@ -357,6 +357,22 @@ def clean_raw_matches(
     return result
 
 
+def _normalize_team_name(team: str, seen_teams: set[str]) -> str:
+    if team not in seen_teams:
+        seen_teams.add(team)
+        return team
+
+    for i in range(2, 10):
+        alternate_name = f"{team} ({i})"
+        if alternate_name in seen_teams:
+            continue
+
+        seen_teams.add(alternate_name)
+        return alternate_name
+
+    raise RuntimeError("Unexpected number of repeats for team name", team)
+
+
 def parse_team_scores(
     root: pathlib.Path,
     division: Division,
@@ -378,6 +394,9 @@ def parse_team_scores(
     score_table = score_tables[-1]
 
     all_tr: list[bs4.Tag] = score_table.find_all("tr")
+    # NOTE: We track the team names we've seen to avoid duplicates / ensure
+    #       all team names are unique.
+    seen_teams: set[str] = set()
     for table_row in all_tr:
         if table_row.text.strip() == "":
             continue
@@ -395,6 +414,7 @@ def parse_team_scores(
         exception_key = division, team
         score = team_score_exceptions.get(exception_key, score)
 
+        team = _normalize_team_name(team, seen_teams)
         result.append(TeamScore(team=team, score=score))
 
     return result
