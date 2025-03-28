@@ -5,7 +5,7 @@ import pathlib
 import bracket_utils
 
 HERE = pathlib.Path(__file__).resolve().parent
-TEAM_ACRONYM_MAPPING = {
+TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "ABC": "ALEDO BEAR COUNTRY W",
     "AC": "ARLINGTON CARDINALS",
     "ACE": "ACES WRESTLING",
@@ -170,7 +170,7 @@ TEAM_ACRONYM_MAPPING = {
 }
 # NOTE: Sometimes acronyms (or team names) differ between Novice and Senior
 #       in the Team Scores.
-NOVICE_TEAM_ACRONYM_MAPPING = {
+NOVICE_TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "CCK": "CHAMPAIGN CHARGER KD",  # Team Name Spelling Differs
     "CLW": "CRYSTAL LAKE WIRZARD",  # Team Name Spelling Differs
     "GDW": "GRAPPLIN'DEVILS WC",  # Team Name Spelling Differs
@@ -180,7 +180,7 @@ NOVICE_TEAM_ACRONYM_MAPPING = {
     "SIE": "SOUTHERN IL EAGLES",  # Team Name Spelling Differs
     "SJO": "SHO YOUTH WRESTLING",  # Team Name Spelling Differs
 }
-SENIOR_TEAM_ACRONYM_MAPPING = {
+SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "CCK": "CHAMPAIGN CHARGER KI",  # Team Name Spelling Differs
     "CLW": "CRYSTAL LAKE WIZARDS",  # Team Name Spelling Differs
     "GDW": "GRAPPLIN DEVILS WC",  # Team Name Spelling Differs
@@ -190,7 +190,7 @@ SENIOR_TEAM_ACRONYM_MAPPING = {
     "SIE": "SOUTHERN ILLINOIS EA",  # Team Name Spelling Differs
     "SJO": "SJO YOUTH WRESTLING",  # Team Name Spelling Differs
 }
-TEAM_NAME_MAPPING = {
+TEAM_NAME_MAPPING: dict[str, int] = {
     "A-O KIDS WC": 8,
     "ACES WRESTLING": 3,
     "ADDISON ANIMALS": 10147,

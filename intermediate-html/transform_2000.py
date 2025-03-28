@@ -5,7 +5,7 @@ import pathlib
 import bracket_utils
 
 HERE = pathlib.Path(__file__).resolve().parent
-TEAM_ACRONYM_MAPPING = {
+TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "AOK": "A-O KIDS WC",
     "BAD": "BADGER WC",
     "BAR": "BARTLETT HAWK WC",
@@ -149,9 +149,9 @@ TEAM_ACRONYM_MAPPING = {
 }
 # NOTE: Sometimes acronyms (or team names) differ between Novice and Senior
 #       in the Team Scores.
-NOVICE_TEAM_ACRONYM_MAPPING = {}
-SENIOR_TEAM_ACRONYM_MAPPING = {}
-TEAM_NAME_MAPPING = {
+NOVICE_TEAM_ACRONYM_MAPPING: dict[str, str] = {}
+SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {}
+TEAM_NAME_MAPPING: dict[str, int] = {
     "<UNKNOWN>": 10132,
     "A-O KIDS WC": 8,
     "BADGER WC": 14,
