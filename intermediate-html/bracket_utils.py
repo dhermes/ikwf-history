@@ -1,7 +1,7 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
 import pathlib
-from typing import Literal
+from typing import Literal, NamedTuple
 
 import bs4
 import pydantic
@@ -960,3 +960,147 @@ def print_team_score_sql(team_scores: list[TeamScoreRow]) -> None:
             f"  ({team_score.id_}, {team_score.tournament_id}, "
             f"'{team_score.division}', {team_score.team_id}, {team_score.score}),"
         )
+
+
+class CompetitorRow(pydantic.BaseModel):
+    id_: int = pydantic.Field(alias="id")
+    first_name: str
+    last_name: str
+    suffix: str | None
+
+
+class TeamCompetitorRow(pydantic.BaseModel):
+    id_: int = pydantic.Field(alias="id")
+    team_id: int
+    competitor_id: int
+
+
+def _resolve_team_id(
+    acronym: str,
+    team_acronym_mapping: dict[str, str],
+    division_acronym_mapping: dict[str, str],
+    team_name_mapping: dict[str, int],
+) -> int:
+    if acronym in division_acronym_mapping:
+        if acronym in team_acronym_mapping:
+            raise ValueError("Invariant violation: acronym mapped twice", acronym)
+
+        team_name = division_acronym_mapping[acronym]
+    else:
+        team_name = team_acronym_mapping[acronym]
+
+    return team_name_mapping[team_name]
+
+
+class MappedCompetitors(NamedTuple):
+    competitor_rows: list[CompetitorRow]
+    team_competitor_rows: list[TeamCompetitorRow]
+    next_start_id: int
+
+
+def _get_weight_class_competitors_for_sql(
+    start_id: int,
+    weight_class: WeightClass,
+    team_acronym_mapping: dict[str, str],
+    division_acronym_mapping: dict[str, str],
+    team_name_mapping: dict[str, int],
+) -> MappedCompetitors:
+    competitor_rows: list[CompetitorRow] = []
+    team_competitor_rows: list[TeamCompetitorRow] = []
+    current_id = start_id - 1  # Decrement because we increment before use
+
+    for match in weight_class.matches:
+        if not match.match.startswith("championship_r32_"):
+            continue
+
+        if match.top_competitor is not None:
+            current_id += 1
+
+            team_id = _resolve_team_id(
+                match.top_competitor.team,
+                team_acronym_mapping,
+                division_acronym_mapping,
+                team_name_mapping,
+            )
+            competitor_rows.append(
+                CompetitorRow(
+                    id=current_id,
+                    first_name=match.top_competitor.first_name,
+                    last_name=match.top_competitor.last_name,
+                    suffix=match.top_competitor.suffix,
+                )
+            )
+            team_competitor_rows.append(
+                TeamCompetitorRow(
+                    id=current_id, team_id=team_id, competitor_id=current_id
+                )
+            )
+
+        if match.bottom_competitor is not None:
+            current_id += 1
+
+            team_id = _resolve_team_id(
+                match.bottom_competitor.team,
+                team_acronym_mapping,
+                division_acronym_mapping,
+                team_name_mapping,
+            )
+            competitor_rows.append(
+                CompetitorRow(
+                    id=current_id,
+                    first_name=match.bottom_competitor.first_name,
+                    last_name=match.bottom_competitor.last_name,
+                    suffix=match.bottom_competitor.suffix,
+                )
+            )
+            team_competitor_rows.append(
+                TeamCompetitorRow(
+                    id=current_id, team_id=team_id, competitor_id=current_id
+                )
+            )
+
+    return MappedCompetitors(
+        competitor_rows=competitor_rows,
+        team_competitor_rows=team_competitor_rows,
+        next_start_id=current_id + 1,
+    )
+
+
+def get_competitors_for_sql(
+    start_id: int,
+    weight_classes: list[WeightClass],
+    team_acronym_mapping: dict[str, str],
+    novice_acronym_mapping: dict[str, str],
+    senior_acronym_mapping: dict[str, str],
+    team_name_mapping: dict[str, int],
+) -> MappedCompetitors:
+    competitor_rows: list[CompetitorRow] = []
+    team_competitor_rows: list[TeamCompetitorRow] = []
+
+    # NOTE: This is not complete yet / still in development (hence the `None`
+    #       return value)
+    for weight_class in weight_classes:
+        if weight_class.division == "senior":
+            division_acronym_mapping = senior_acronym_mapping
+        else:
+            division_acronym_mapping = novice_acronym_mapping
+
+        mapped_competitors = _get_weight_class_competitors_for_sql(
+            start_id,
+            weight_class,
+            team_acronym_mapping,
+            division_acronym_mapping,
+            team_name_mapping,
+        )
+
+        # Prepare for next iteration
+        competitor_rows.extend(mapped_competitors.competitor_rows)
+        team_competitor_rows.extend(mapped_competitors.team_competitor_rows)
+        start_id = mapped_competitors.next_start_id
+
+    # Print the **LAST** `next_start_id`
+    return MappedCompetitors(
+        competitor_rows=competitor_rows,
+        team_competitor_rows=team_competitor_rows,
+        next_start_id=start_id,
+    )

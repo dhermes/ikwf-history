@@ -326,6 +326,16 @@ def main():
         SENIOR_TEAM_ACRONYM_MAPPING,
     )
 
+    start_id = 229
+    bracket_utils.get_competitors_for_sql(
+        start_id,
+        weight_classes,
+        TEAM_ACRONYM_MAPPING,
+        NOVICE_TEAM_ACRONYM_MAPPING,
+        SENIOR_TEAM_ACRONYM_MAPPING,
+        TEAM_NAME_MAPPING,
+    )
+
 
 if __name__ == "__main__":
     main()
