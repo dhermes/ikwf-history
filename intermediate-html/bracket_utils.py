@@ -1250,7 +1250,7 @@ def _get_weight_class_matches_for_sql(
     team_competitor_by_info: dict[CompetitorTuple, int],
 ) -> MappedMatches:
     match_rows: list[MatchRow] = []
-    current_id = start_id - 1  # Decrement because we increment before use
+    current_id = start_id
 
     for match in weight_class.matches:
         top_win = match.top_win
@@ -1260,8 +1260,6 @@ def _get_weight_class_matches_for_sql(
             if match.top_competitor is not None or match.bottom_competitor is not None:
                 raise RuntimeError("Invalid match", match)
             continue
-
-        current_id += 1
 
         top_competitor_id = None
         top_team_acronym = None
@@ -1291,6 +1289,8 @@ def _get_weight_class_matches_for_sql(
             bottom_team_acronym=bottom_team_acronym,
         )
         match_rows.append(match_row)
+
+        current_id += 1
 
     return MappedMatches(match_rows=match_rows, next_start_id=current_id)
 

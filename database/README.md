@@ -28,6 +28,7 @@ sqlite3 ./ikwf.sqlite < ./migrations/0005-all-weights.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0006-partial-brackets-1999-placements.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0007-team-scores.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0008-competitors.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0009-matches-2000-to-2006.sql
 ```
 
 ## Common helper commands

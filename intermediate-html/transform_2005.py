@@ -507,9 +507,8 @@ def main():
         SENIOR_TEAM_ACRONYM_MAPPING,
         TEAM_NAME_MAPPING,
     )
-    bracket_utils.print_team_competitors_sql(mapped_competitors.team_competitor_rows)
 
-    start_id = 7894
+    start_id = 8062
     mapped_matches = bracket_utils.get_matches_for_sql(
         start_id,
         weight_classes,
