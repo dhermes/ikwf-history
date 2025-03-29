@@ -17,11 +17,28 @@ class CompetitorRaw(pydantic.BaseModel):
     team: str
 
 
+class CompetitorTuple(NamedTuple):
+    first_name: str
+    last_name: str
+    suffix: str | None
+    team: str
+
+
 class Competitor(pydantic.BaseModel):
     first_name: str
     last_name: str
     suffix: str | None
     team: str
+
+    @property
+    def as_tuple(self) -> CompetitorTuple:
+        """Convert to a (hashable) tuple."""
+        return CompetitorTuple(
+            first_name=self.first_name,
+            last_name=self.last_name,
+            suffix=self.suffix,
+            team=self.team,
+        )
 
 
 MatchSlot = Literal[
@@ -115,7 +132,10 @@ class Match(pydantic.BaseModel):
     top_win: bool | None
 
 
-Division = Literal["senior", "novice"]
+Division = Literal[
+    "novice",
+    "senior",
+]
 
 
 class WeightClass(pydantic.BaseModel):
@@ -1052,9 +1072,10 @@ def _resolve_team_id(
     return team_name_mapping[team_name]
 
 
-class MappedCompetitors(NamedTuple):
+class MappedCompetitors(pydantic.BaseModel):
     competitor_rows: list[CompetitorRow]
     team_competitor_rows: list[TeamCompetitorRow]
+    team_competitor_by_info: dict[CompetitorTuple, int]
     next_start_id: int
 
 
@@ -1067,6 +1088,7 @@ def _get_weight_class_competitors_for_sql(
 ) -> MappedCompetitors:
     competitor_rows: list[CompetitorRow] = []
     team_competitor_rows: list[TeamCompetitorRow] = []
+    team_competitor_by_info: dict[CompetitorTuple, int] = {}
     current_id = start_id - 1  # Decrement because we increment before use
 
     for match in weight_class.matches:
@@ -1095,6 +1117,10 @@ def _get_weight_class_competitors_for_sql(
                     id=current_id, team_id=team_id, competitor_id=current_id
                 )
             )
+            key = match.top_competitor.as_tuple
+            if key in team_competitor_by_info:
+                raise RuntimeError("Invariant violation: duplicate", key)
+            team_competitor_by_info[key] = current_id
 
         if match.bottom_competitor is not None:
             current_id += 1
@@ -1118,29 +1144,17 @@ def _get_weight_class_competitors_for_sql(
                     id=current_id, team_id=team_id, competitor_id=current_id
                 )
             )
+            key = match.bottom_competitor.as_tuple
+            if key in team_competitor_by_info:
+                raise RuntimeError("Invariant violation: duplicate", key)
+            team_competitor_by_info[key] = current_id
 
     return MappedCompetitors(
         competitor_rows=competitor_rows,
         team_competitor_rows=team_competitor_rows,
+        team_competitor_by_info=team_competitor_by_info,
         next_start_id=current_id + 1,
     )
-
-
-def print_competitors_sql(competitor_rows: list[CompetitorRow]) -> None:
-    for competitor_row in competitor_rows:
-        first_name = competitor_row.first_name.replace("'", "''")
-        last_name = competitor_row.last_name.replace("'", "''")
-        suffix_str = "NULL"
-        if competitor_row.suffix is not None:
-            quoted = competitor_row.suffix.replace("'", "''")
-            suffix_str = f"'{quoted}'"
-
-        print(f"  ({competitor_row.id_}, '{first_name}', '{last_name}', {suffix_str}),")
-
-
-def print_team_competitors_sql(team_competitor_rows: list[TeamCompetitorRow]) -> None:
-    for row in team_competitor_rows:
-        print(f"  ({row.id_}, {row.team_id}, {row.competitor_id}),")
 
 
 def get_competitors_for_sql(
@@ -1153,6 +1167,7 @@ def get_competitors_for_sql(
 ) -> MappedCompetitors:
     competitor_rows: list[CompetitorRow] = []
     team_competitor_rows: list[TeamCompetitorRow] = []
+    team_competitor_by_info: dict[CompetitorTuple, int] = {}
 
     # NOTE: This is not complete yet / still in development (hence the `None`
     #       return value)
@@ -1171,16 +1186,42 @@ def get_competitors_for_sql(
         )
 
         # Prepare for next iteration
+        start_id = mapped_competitors.next_start_id
         competitor_rows.extend(mapped_competitors.competitor_rows)
         team_competitor_rows.extend(mapped_competitors.team_competitor_rows)
-        start_id = mapped_competitors.next_start_id
+        for key, value in mapped_competitors.team_competitor_by_info.items():
+            if key in team_competitor_by_info:
+                raise RuntimeError("Invariant violation: duplicate", key)
+            team_competitor_by_info[key] = value
 
     # Print the **LAST** `next_start_id`
     return MappedCompetitors(
         competitor_rows=competitor_rows,
         team_competitor_rows=team_competitor_rows,
+        team_competitor_by_info=team_competitor_by_info,
         next_start_id=start_id,
     )
+
+
+def _sql_nullable_str(value: str | None) -> str:
+    if value is None:
+        return "NULL"
+
+    quoted = value.replace("'", "''")
+    return f"'{quoted}'"
+
+
+def print_competitors_sql(competitor_rows: list[CompetitorRow]) -> None:
+    for row in competitor_rows:
+        first_name = _sql_nullable_str(row.first_name)
+        last_name = _sql_nullable_str(row.last_name)
+        suffix_str = _sql_nullable_str(row.suffix)
+        print(f"  ({row.id_}, '{first_name}', '{last_name}', {suffix_str}),")
+
+
+def print_team_competitors_sql(team_competitor_rows: list[TeamCompetitorRow]) -> None:
+    for row in team_competitor_rows:
+        print(f"  ({row.id_}, {row.team_id}, {row.competitor_id}),")
 
 
 class MatchRow(pydantic.BaseModel):
@@ -1188,10 +1229,117 @@ class MatchRow(pydantic.BaseModel):
     bracket_id: int
     bout_number: int | None
     match_slot: MatchSlot
-    top_competitor_id: int | None
-    bottom_competitor_id: int | None
+    top_competitor_id: int | None  # team_competitor(id)
+    bottom_competitor_id: int | None  # team_competitor(id)
     top_win: bool
     result: str
     result_type: ResultType
     top_team_acronym: str | None
     bottom_team_acronym: str | None
+
+
+class MappedMatches(pydantic.BaseModel):
+    match_rows: list[MatchRow]
+    next_start_id: int
+
+
+def _get_weight_class_matches_for_sql(
+    start_id: int,
+    weight_class: WeightClass,
+    bracket_id: int,
+    team_competitor_by_info: dict[CompetitorTuple, int],
+) -> MappedMatches:
+    match_rows: list[MatchRow] = []
+    current_id = start_id - 1  # Decrement because we increment before use
+
+    for match in weight_class.matches:
+        top_win = match.top_win
+        if top_win is None:
+            # NOTE: Even bouts with no match may have a bout number, but for
+            #       now we do not include them in the database.
+            if match.top_competitor is not None or match.bottom_competitor is not None:
+                raise RuntimeError("Invalid match", match)
+            continue
+
+        current_id += 1
+
+        top_competitor_id = None
+        top_team_acronym = None
+        if match.top_competitor is not None:
+            key = match.top_competitor.as_tuple
+            top_competitor_id = team_competitor_by_info[key]
+            top_team_acronym = match.top_competitor.team
+
+        bottom_competitor_id = None
+        bottom_team_acronym = None
+        if match.bottom_competitor is not None:
+            key = match.bottom_competitor.as_tuple
+            bottom_competitor_id = team_competitor_by_info[key]
+            bottom_team_acronym = match.bottom_competitor.team
+
+        match_row = MatchRow(
+            id=current_id,
+            bracket_id=bracket_id,
+            bout_number=match.bout_number,
+            match_slot=match.match_slot,
+            top_competitor_id=top_competitor_id,
+            bottom_competitor_id=bottom_competitor_id,
+            top_win=top_win,
+            result=match.result,
+            result_type=match.result_type,
+            top_team_acronym=top_team_acronym,
+            bottom_team_acronym=bottom_team_acronym,
+        )
+        match_rows.append(match_row)
+
+    return MappedMatches(match_rows=match_rows, next_start_id=current_id)
+
+
+def get_matches_for_sql(
+    start_id: int,
+    weight_classes: list[WeightClass],
+    team_competitor_by_info: dict[CompetitorTuple, int],
+    bracket_id_mapping: dict[tuple[Division, int], int],
+) -> MappedMatches:
+    match_rows: list[MatchRow] = []
+
+    for weight_class in weight_classes:
+        key = weight_class.division, weight_class.weight
+        bracket_id = bracket_id_mapping[key]
+        mapped_matches = _get_weight_class_matches_for_sql(
+            start_id, weight_class, bracket_id, team_competitor_by_info
+        )
+        # Prepare for next iteration
+        start_id = mapped_matches.next_start_id
+        match_rows.extend(mapped_matches.match_rows)
+
+    return MappedMatches(match_rows=match_rows, next_start_id=start_id)
+
+
+def _sql_nullable_integer(value: int | None) -> str:
+    if value is None:
+        return "NULL"
+
+    return str(value)
+
+
+def _sql_boolean(value: bool) -> str:
+    if value:
+        return "TRUE"
+
+    return "FALSE"
+
+
+def print_matches_sql(match_rows: list[MatchRow]) -> None:
+    for row in match_rows:
+        bout_number_str = _sql_nullable_integer(row.bout_number)
+        top_competitor_id_str = _sql_nullable_integer(row.top_competitor_id)
+        bottom_competitor_id_str = _sql_nullable_integer(row.bottom_competitor_id)
+        top_win_str = _sql_boolean(row.top_win)
+        result_str = _sql_nullable_str(row.result)
+        print(
+            f"  ({row.id_}, {row.bracket_id}, {bout_number_str}, "
+            f"'{row.match_slot}', {top_competitor_id_str}, {bottom_competitor_id_str}, "
+            f"{top_win_str}, {result_str}, '{row.result_type}', "
+            f"'{row.top_team_acronym}', '{row.bottom_team_acronym}'),"
+        )
