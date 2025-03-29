@@ -1078,6 +1078,11 @@ def print_competitors_sql(competitor_rows: list[CompetitorRow]) -> None:
         print(f"  ({competitor_row.id_}, '{first_name}', '{last_name}', {suffix_str}),")
 
 
+def print_team_competitors_sql(team_competitor_rows: list[TeamCompetitorRow]) -> None:
+    for row in team_competitor_rows:
+        print(f"  ({row.id_}, {row.team_id}, {row.competitor_id}),")
+
+
 def get_competitors_for_sql(
     start_id: int,
     weight_classes: list[WeightClass],
