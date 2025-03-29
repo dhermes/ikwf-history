@@ -65,7 +65,7 @@ VALUES
 INSERT INTO
   bracket (id, weight, division, tournament_id)
 VALUES
-  (907, 84, 'bantam_boys', 55);
+  (907, 84, 'bantam', 55);
 
 INSERT INTO
   match (id, bracket_id, bout_number, match_slot, top_competitor_id, bottom_competitor_id, top_win, result, top_team_acronym, bottom_team_acronym)

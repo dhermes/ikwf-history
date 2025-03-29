@@ -40,8 +40,10 @@ Enter ".help" for usage hints.
 sqlite>
 sqlite>
 sqlite> .tables
-bracket          division         match_slot       team_competitor
-competitor       match            team             tournament
+bracket               match_slot            team_score
+competitor            team                  tournament
+division              team_competitor
+match                 team_point_deduction
 sqlite>
 sqlite>
 sqlite> .schema division
@@ -52,10 +54,10 @@ CREATE TABLE division (
 sqlite>
 sqlite>
 sqlite> SELECT * FROM division;
-1|bantam_boys
-2|intermediate_boys
-3|novice_boys
-4|senior_boys
+1|bantam
+2|intermediate
+3|novice
+4|senior
 5|bantam_girls
 6|intermediate_girls
 7|novice_girls

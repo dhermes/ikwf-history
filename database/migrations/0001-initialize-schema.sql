@@ -79,10 +79,10 @@ CREATE TABLE division (
 INSERT INTO
   division (id, key)
 VALUES
-  (1, 'bantam_boys'),
-  (2, 'intermediate_boys'),
-  (3, 'novice_boys'),
-  (4, 'senior_boys'),
+  (1, 'bantam'),
+  (2, 'intermediate'),
+  (3, 'novice'),
+  (4, 'senior'),
   (5, 'bantam_girls'),
   (6, 'intermediate_girls'),
   (7, 'novice_girls'),
@@ -178,3 +178,6 @@ CREATE TABLE team_score (
   --       In some years, teams could have multiple team scores from
   --       scoring and non-scoring wrestlers.
 );
+
+
+---- TODO: enum for `result_type` --> write it in all `match` inserts as well!!!
