@@ -38,7 +38,7 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         first_name="MICHAEL J.", last_name="RYAN", suffix=None, team="LIT"
     ),
     ("SHANE FICH TENMUELLER", "DIX"): bracket_utils.Competitor(
-        first_name="SHANE", last_name="FICH TENMUELLER", suffix=None, team="DIX"
+        first_name="SHANE", last_name="FICHTENMUELLER", suffix=None, team="DIX"
     ),
 }
 TEAM_SCORE_EXCEPTIONS: dict[tuple[bracket_utils.Division, str], float] = {
