@@ -24,6 +24,74 @@ class Competitor(pydantic.BaseModel):
     team: str
 
 
+MatchSlot = Literal[
+    "championship_r32_01",
+    "championship_r32_02",
+    "championship_r32_03",
+    "championship_r32_04",
+    "championship_r32_05",
+    "championship_r32_06",
+    "championship_r32_07",
+    "championship_r32_08",
+    "championship_r32_09",
+    "championship_r32_10",
+    "championship_r32_11",
+    "championship_r32_12",
+    "championship_r32_13",
+    "championship_r32_14",
+    "championship_r32_15",
+    "championship_r32_16",
+    "championship_r16_01",
+    "championship_r16_02",
+    "championship_r16_03",
+    "championship_r16_04",
+    "championship_r16_05",
+    "championship_r16_06",
+    "championship_r16_07",
+    "championship_r16_08",
+    "consolation_round2_01",
+    "consolation_round2_02",
+    "consolation_round2_03",
+    "consolation_round2_04",
+    "consolation_round2_05",
+    "consolation_round2_06",
+    "consolation_round2_07",
+    "consolation_round2_08",
+    "championship_quarter_01",
+    "championship_quarter_02",
+    "championship_quarter_03",
+    "championship_quarter_04",
+    "consolation_round3_01",
+    "consolation_round3_02",
+    "consolation_round3_03",
+    "consolation_round3_04",
+    "consolation_round4_blood_01",
+    "consolation_round4_blood_02",
+    "consolation_round4_blood_03",
+    "consolation_round4_blood_04",
+    "championship_semi_01",
+    "championship_semi_02",
+    "consolation_round5_01",
+    "consolation_round5_02",
+    "consolation_round6_semi_01",
+    "consolation_round6_semi_02",
+    "consolation_seventh_place",
+    "consolation_fifth_place",
+    "consolation_third_place",
+    "championship_first_place",
+]
+
+
+class MatchRaw(pydantic.BaseModel):
+    match_slot: MatchSlot
+    top_competitor: CompetitorRaw | None
+    bottom_competitor: CompetitorRaw | None
+    result: str
+    bout_number: int | None
+    winner: CompetitorRaw | None
+    winner_from: tuple[str, str] | None
+
+
 ResultType = Literal[
     "bye",
     "decision",
@@ -37,18 +105,8 @@ ResultType = Literal[
 ]
 
 
-class MatchRaw(pydantic.BaseModel):
-    match: str
-    top_competitor: CompetitorRaw | None
-    bottom_competitor: CompetitorRaw | None
-    result: str
-    bout_number: int | None
-    winner: CompetitorRaw | None
-    winner_from: tuple[str, str] | None
-
-
 class Match(pydantic.BaseModel):
-    match: str
+    match_slot: MatchSlot
     top_competitor: Competitor | None
     bottom_competitor: Competitor | None
     result: str
@@ -206,7 +264,7 @@ def _competitor_equal_enough(competitor1: Competitor, competitor2: Competitor) -
 def _ensure_no_name_duplicates(matches: list[Match]) -> None:
     competitors_with_canonical_names: list[Competitor] = []
     for match in matches:
-        if not match.match.startswith("championship_r32_"):
+        if not match.match_slot.startswith("championship_r32_"):
             continue
 
         if match.top_competitor is not None:
@@ -342,7 +400,7 @@ def clean_raw_matches(
 
         result.append(
             Match(
-                match=match.match,
+                match_slot=match.match_slot,
                 top_competitor=top_competitor,
                 bottom_competitor=bottom_competitor,
                 result=match.result,
@@ -661,7 +719,7 @@ def _bye_next_match_points(
         # No support (yet) for multiple consecutive byes
         return 0.0
 
-    advancement_points = _get_advancement_points(next_match.match, True)
+    advancement_points = _get_advancement_points(next_match.match_slot, True)
     result_points = _get_result_points(next_match.result_type)
     return advancement_points + result_points
 
@@ -683,15 +741,15 @@ def _match_team_score_updates(
         if match.top_competitor is not None:
             loser_team = match.top_competitor.team
 
-    winner_advancement_points = _get_advancement_points(match.match, True)
-    loser_advancement_points = _get_advancement_points(match.match, False)
+    winner_advancement_points = _get_advancement_points(match.match_slot, True)
+    loser_advancement_points = _get_advancement_points(match.match_slot, False)
     winner_result_points = _get_result_points(match.result_type)
 
     winner_points = winner_advancement_points + winner_result_points
     loser_points = loser_advancement_points
 
     if match.result_type == "bye":
-        winner_points = _bye_next_match_points(match.match, winner, by_match)
+        winner_points = _bye_next_match_points(match.match_slot, winner, by_match)
 
     result[winner_team] = winner_points
 
@@ -708,7 +766,9 @@ def _match_team_score_updates(
 
 def _weight_team_score_updates(weight_class: WeightClass) -> dict[str, float]:
     result: dict[str, float] = {}
-    by_match: dict[str, Match] = {match.match: match for match in weight_class.matches}
+    by_match: dict[str, Match] = {
+        match.match_slot: match for match in weight_class.matches
+    }
     for match in weight_class.matches:
         if match.top_win is None:
             continue
@@ -1010,7 +1070,7 @@ def _get_weight_class_competitors_for_sql(
     current_id = start_id - 1  # Decrement because we increment before use
 
     for match in weight_class.matches:
-        if not match.match.startswith("championship_r32_"):
+        if not match.match_slot.startswith("championship_r32_"):
             continue
 
         if match.top_competitor is not None:
@@ -1121,3 +1181,17 @@ def get_competitors_for_sql(
         team_competitor_rows=team_competitor_rows,
         next_start_id=start_id,
     )
+
+
+class MatchRow(pydantic.BaseModel):
+    id_: int = pydantic.Field(alias="id")
+    bracket_id: int
+    bout_number: int | None
+    match_slot: MatchSlot
+    top_competitor_id: int | None
+    bottom_competitor_id: int | None
+    top_win: bool
+    result: str
+    result_type: ResultType
+    top_team_acronym: str | None
+    bottom_team_acronym: str | None

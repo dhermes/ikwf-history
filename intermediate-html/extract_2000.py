@@ -104,7 +104,7 @@ def extract_bracket(
 
     matches = [
         bracket_utils.MatchRaw(
-            match="championship_r32_01",
+            match_slot="championship_r32_01",
             top_competitor=parse_competitor(championship_lines[0][26:52]),
             bottom_competitor=None,
             result="Bye",
@@ -113,7 +113,7 @@ def extract_bracket(
             winner_from=None,
         ),
         bracket_utils.MatchRaw(
-            match="championship_r32_02",
+            match_slot="championship_r32_02",
             top_competitor=parse_competitor(championship_lines[2][:26]),
             bottom_competitor=parse_competitor(championship_lines[4][:26]),
             result=parse_bout_result(championship_lines[3][:26]),
@@ -122,7 +122,7 @@ def extract_bracket(
             winner_from=("championship_r16_01", "bottom_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r32_03",
+            match_slot="championship_r32_03",
             top_competitor=parse_competitor(championship_lines[6][:26]),
             bottom_competitor=parse_competitor(championship_lines[8][:26]),
             result=parse_bout_result(championship_lines[7][:26]),
@@ -131,7 +131,7 @@ def extract_bracket(
             winner_from=("championship_r16_02", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r32_04",
+            match_slot="championship_r32_04",
             top_competitor=parse_competitor(championship_lines[10][26:52]),
             bottom_competitor=None,
             result="Bye",
@@ -140,7 +140,7 @@ def extract_bracket(
             winner_from=None,
         ),
         bracket_utils.MatchRaw(
-            match="championship_r32_05",
+            match_slot="championship_r32_05",
             top_competitor=parse_competitor(championship_lines[12][26:52]),
             bottom_competitor=None,
             result="Bye",
@@ -149,7 +149,7 @@ def extract_bracket(
             winner_from=None,
         ),
         bracket_utils.MatchRaw(
-            match="championship_r32_06",
+            match_slot="championship_r32_06",
             top_competitor=parse_competitor(championship_lines[14][:26]),
             bottom_competitor=parse_competitor(championship_lines[16][:26]),
             result=parse_bout_result(championship_lines[15][:26]),
@@ -158,7 +158,7 @@ def extract_bracket(
             winner_from=("championship_r16_03", "bottom_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r32_07",
+            match_slot="championship_r32_07",
             top_competitor=parse_competitor(championship_lines[18][:26]),
             bottom_competitor=parse_competitor(championship_lines[20][:26]),
             result=parse_bout_result(championship_lines[19][:26]),
@@ -167,7 +167,7 @@ def extract_bracket(
             winner_from=("championship_r16_04", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r32_08",
+            match_slot="championship_r32_08",
             top_competitor=parse_competitor(championship_lines[22][26:52]),
             bottom_competitor=None,
             result="Bye",
@@ -176,7 +176,7 @@ def extract_bracket(
             winner_from=None,
         ),
         bracket_utils.MatchRaw(
-            match="championship_r32_09",
+            match_slot="championship_r32_09",
             top_competitor=parse_competitor(championship_lines[24][26:52]),
             bottom_competitor=None,
             result="Bye",
@@ -186,7 +186,7 @@ def extract_bracket(
         ),
         ###
         bracket_utils.MatchRaw(
-            match="championship_r32_10",
+            match_slot="championship_r32_10",
             top_competitor=parse_competitor(championship_lines[26][:26]),
             bottom_competitor=parse_competitor(championship_lines[28][:26]),
             result=parse_bout_result(championship_lines[27][:26]),
@@ -195,7 +195,7 @@ def extract_bracket(
             winner_from=("championship_r16_05", "bottom_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r32_11",
+            match_slot="championship_r32_11",
             top_competitor=parse_competitor(championship_lines[30][:26]),
             bottom_competitor=parse_competitor(championship_lines[32][:26]),
             result=parse_bout_result(championship_lines[31][:26]),
@@ -204,7 +204,7 @@ def extract_bracket(
             winner_from=("championship_r16_06", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r32_12",
+            match_slot="championship_r32_12",
             top_competitor=parse_competitor(championship_lines[34][26:52]),
             bottom_competitor=None,
             result="Bye",
@@ -213,7 +213,7 @@ def extract_bracket(
             winner_from=None,
         ),
         bracket_utils.MatchRaw(
-            match="championship_r32_13",
+            match_slot="championship_r32_13",
             top_competitor=parse_competitor(championship_lines[36][26:52]),
             bottom_competitor=None,
             result="Bye",
@@ -222,7 +222,7 @@ def extract_bracket(
             winner_from=None,
         ),
         bracket_utils.MatchRaw(
-            match="championship_r32_14",
+            match_slot="championship_r32_14",
             top_competitor=parse_competitor(championship_lines[38][:26]),
             bottom_competitor=parse_competitor(championship_lines[40][:26]),
             result=parse_bout_result(championship_lines[39][:26]),
@@ -231,7 +231,7 @@ def extract_bracket(
             winner_from=("championship_r16_07", "bottom_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r32_15",
+            match_slot="championship_r32_15",
             top_competitor=parse_competitor(championship_lines[42][:26]),
             bottom_competitor=parse_competitor(championship_lines[44][:26]),
             result=parse_bout_result(championship_lines[43][:26]),
@@ -240,7 +240,7 @@ def extract_bracket(
             winner_from=("championship_r16_08", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r32_16",
+            match_slot="championship_r32_16",
             top_competitor=parse_competitor(championship_lines[46][26:52]),
             bottom_competitor=None,
             result="Bye",
@@ -250,7 +250,7 @@ def extract_bracket(
         ),
         ########################################################################
         bracket_utils.MatchRaw(
-            match="championship_r16_01",
+            match_slot="championship_r16_01",
             top_competitor=parse_competitor(championship_lines[0][26:52]),
             bottom_competitor=parse_competitor(championship_lines[3][26:52]),
             result=parse_bout_result(championship_lines[1][26:52]),
@@ -259,7 +259,7 @@ def extract_bracket(
             winner_from=("championship_quarter_01", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r16_02",
+            match_slot="championship_r16_02",
             top_competitor=parse_competitor(championship_lines[7][26:52]),
             bottom_competitor=parse_competitor(championship_lines[10][26:52]),
             result=parse_bout_result(championship_lines[9][26:52]),
@@ -268,7 +268,7 @@ def extract_bracket(
             winner_from=("championship_quarter_01", "bottom_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r16_03",
+            match_slot="championship_r16_03",
             top_competitor=parse_competitor(championship_lines[12][26:52]),
             bottom_competitor=parse_competitor(championship_lines[15][26:52]),
             result=parse_bout_result(championship_lines[13][26:52]),
@@ -277,7 +277,7 @@ def extract_bracket(
             winner_from=("championship_quarter_02", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r16_04",
+            match_slot="championship_r16_04",
             top_competitor=parse_competitor(championship_lines[19][26:52]),
             bottom_competitor=parse_competitor(championship_lines[22][26:52]),
             result=parse_bout_result(championship_lines[21][26:52]),
@@ -286,7 +286,7 @@ def extract_bracket(
             winner_from=("championship_quarter_02", "bottom_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r16_05",
+            match_slot="championship_r16_05",
             top_competitor=parse_competitor(championship_lines[24][26:52]),
             bottom_competitor=parse_competitor(championship_lines[27][26:52]),
             result=parse_bout_result(championship_lines[25][26:52]),
@@ -295,7 +295,7 @@ def extract_bracket(
             winner_from=("championship_quarter_03", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r16_06",
+            match_slot="championship_r16_06",
             top_competitor=parse_competitor(championship_lines[31][26:52]),
             bottom_competitor=parse_competitor(championship_lines[34][26:52]),
             result=parse_bout_result(championship_lines[33][26:52]),
@@ -304,7 +304,7 @@ def extract_bracket(
             winner_from=("championship_quarter_03", "bottom_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r16_07",
+            match_slot="championship_r16_07",
             top_competitor=parse_competitor(championship_lines[36][26:52]),
             bottom_competitor=parse_competitor(championship_lines[39][26:52]),
             result=parse_bout_result(championship_lines[37][26:52]),
@@ -313,7 +313,7 @@ def extract_bracket(
             winner_from=("championship_quarter_04", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_r16_08",
+            match_slot="championship_r16_08",
             top_competitor=parse_competitor(championship_lines[43][26:52]),
             bottom_competitor=parse_competitor(championship_lines[46][26:52]),
             result=parse_bout_result(championship_lines[45][26:52]),
@@ -323,7 +323,7 @@ def extract_bracket(
         ),
         ########################################################################
         bracket_utils.MatchRaw(
-            match="championship_quarter_01",
+            match_slot="championship_quarter_01",
             top_competitor=parse_competitor(championship_lines[1][52:70]),
             bottom_competitor=parse_competitor(championship_lines[9][52:70]),
             result=parse_bout_result(championship_lines[5][52:70]),
@@ -332,7 +332,7 @@ def extract_bracket(
             winner_from=("championship_semi_01", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_quarter_02",
+            match_slot="championship_quarter_02",
             top_competitor=parse_competitor(championship_lines[13][52:70]),
             bottom_competitor=parse_competitor(championship_lines[21][52:70]),
             result=parse_bout_result(championship_lines[17][52:70]),
@@ -341,7 +341,7 @@ def extract_bracket(
             winner_from=("championship_semi_01", "bottom_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_quarter_03",
+            match_slot="championship_quarter_03",
             top_competitor=parse_competitor(championship_lines[25][52:70]),
             bottom_competitor=parse_competitor(championship_lines[33][52:70]),
             result=parse_bout_result(championship_lines[29][52:70]),
@@ -350,7 +350,7 @@ def extract_bracket(
             winner_from=("championship_semi_02", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_quarter_04",
+            match_slot="championship_quarter_04",
             top_competitor=parse_competitor(championship_lines[37][52:70]),
             bottom_competitor=parse_competitor(championship_lines[45][52:70]),
             result=parse_bout_result(championship_lines[41][52:70]),
@@ -360,7 +360,7 @@ def extract_bracket(
         ),
         ########################################################################
         bracket_utils.MatchRaw(
-            match="championship_semi_01",
+            match_slot="championship_semi_01",
             top_competitor=parse_competitor(championship_lines[5][70:88]),
             bottom_competitor=parse_competitor(championship_lines[17][70:88]),
             result=parse_bout_result(championship_lines[11][70:88]),
@@ -369,7 +369,7 @@ def extract_bracket(
             winner_from=("championship_first_place", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="championship_semi_02",
+            match_slot="championship_semi_02",
             top_competitor=parse_competitor(championship_lines[29][70:88]),
             bottom_competitor=parse_competitor(championship_lines[41][70:88]),
             result=parse_bout_result(championship_lines[35][70:88]),
@@ -379,7 +379,7 @@ def extract_bracket(
         ),
         ########################################################################
         bracket_utils.MatchRaw(
-            match="championship_first_place",
+            match_slot="championship_first_place",
             top_competitor=parse_competitor(championship_lines[11][88:106]),
             bottom_competitor=parse_competitor(championship_lines[35][88:106]),
             result=parse_bout_result(championship_lines[23][88:106]),
@@ -391,7 +391,7 @@ def extract_bracket(
         # **********************************************************************
         ########################################################################
         bracket_utils.MatchRaw(
-            match="consolation_round3_01",
+            match_slot="consolation_round3_01",
             top_competitor=parse_competitor(consolation_lines[4][:26]),
             bottom_competitor=parse_competitor(consolation_lines[6][:26]),
             result=parse_bout_result(consolation_lines[5][:26]),
@@ -400,7 +400,7 @@ def extract_bracket(
             winner_from=("consolation_round4_blood_01", "bottom_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="consolation_round3_02",
+            match_slot="consolation_round3_02",
             top_competitor=parse_competitor(consolation_lines[8][:26]),
             bottom_competitor=parse_competitor(consolation_lines[10][:26]),
             result=parse_bout_result(consolation_lines[9][:26]),
@@ -409,7 +409,7 @@ def extract_bracket(
             winner_from=("consolation_round4_blood_02", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="consolation_round3_03",
+            match_slot="consolation_round3_03",
             top_competitor=parse_competitor(consolation_lines[18][:26]),
             bottom_competitor=parse_competitor(consolation_lines[20][:26]),
             result=parse_bout_result(consolation_lines[19][:26]),
@@ -418,7 +418,7 @@ def extract_bracket(
             winner_from=("consolation_round4_blood_03", "bottom_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="consolation_round3_04",
+            match_slot="consolation_round3_04",
             top_competitor=parse_competitor(consolation_lines[22][:26]),
             bottom_competitor=parse_competitor(consolation_lines[24][:26]),
             result=parse_bout_result(consolation_lines[23][:26]),
@@ -428,7 +428,7 @@ def extract_bracket(
         ),
         ########################################################################
         bracket_utils.MatchRaw(
-            match="consolation_round4_blood_01",
+            match_slot="consolation_round4_blood_01",
             top_competitor=parse_competitor(consolation_lines[1][26:52]),
             bottom_competitor=parse_competitor(consolation_lines[5][26:52]),
             result=parse_bout_result(consolation_lines[3][26:52]),
@@ -437,7 +437,7 @@ def extract_bracket(
             winner_from=("consolation_round5_01", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="consolation_round4_blood_02",
+            match_slot="consolation_round4_blood_02",
             top_competitor=parse_competitor(consolation_lines[9][26:52]),
             bottom_competitor=parse_competitor(consolation_lines[13][26:52]),
             result=parse_bout_result(consolation_lines[11][26:52]),
@@ -446,7 +446,7 @@ def extract_bracket(
             winner_from=("consolation_round5_01", "bottom_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="consolation_round4_blood_03",
+            match_slot="consolation_round4_blood_03",
             top_competitor=parse_competitor(consolation_lines[15][26:52]),
             bottom_competitor=parse_competitor(consolation_lines[19][26:52]),
             result=parse_bout_result(consolation_lines[17][26:52]),
@@ -455,7 +455,7 @@ def extract_bracket(
             winner_from=("consolation_round5_02", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="consolation_round4_blood_04",
+            match_slot="consolation_round4_blood_04",
             top_competitor=parse_competitor(consolation_lines[23][26:52]),
             bottom_competitor=parse_competitor(consolation_lines[27][26:52]),
             result=parse_bout_result(consolation_lines[25][26:52]),
@@ -465,7 +465,7 @@ def extract_bracket(
         ),
         ########################################################################
         bracket_utils.MatchRaw(
-            match="consolation_round5_01",
+            match_slot="consolation_round5_01",
             top_competitor=parse_competitor(consolation_lines[3][52:70]),
             bottom_competitor=parse_competitor(consolation_lines[11][52:70]),
             result=parse_bout_result(consolation_lines[7][52:70]),
@@ -474,7 +474,7 @@ def extract_bracket(
             winner_from=("consolation_round6_semi_01", "bottom_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="consolation_round5_02",
+            match_slot="consolation_round5_02",
             top_competitor=parse_competitor(consolation_lines[17][52:70]),
             bottom_competitor=parse_competitor(consolation_lines[25][52:70]),
             result=parse_bout_result(consolation_lines[21][52:70]),
@@ -484,7 +484,7 @@ def extract_bracket(
         ),
         ########################################################################
         bracket_utils.MatchRaw(
-            match="consolation_round6_semi_01",
+            match_slot="consolation_round6_semi_01",
             top_competitor=parse_competitor(consolation_lines[0][70:88]),
             bottom_competitor=parse_competitor(consolation_lines[7][70:88]),
             result=parse_bout_result(consolation_lines[2][70:88]),
@@ -493,7 +493,7 @@ def extract_bracket(
             winner_from=("consolation_third_place", "top_competitor"),
         ),
         bracket_utils.MatchRaw(
-            match="consolation_round6_semi_02",
+            match_slot="consolation_round6_semi_02",
             top_competitor=parse_competitor(consolation_lines[21][70:88]),
             bottom_competitor=parse_competitor(consolation_lines[28][70:88]),
             result=parse_bout_result(consolation_lines[26][70:88]),
@@ -503,7 +503,7 @@ def extract_bracket(
         ),
         ########################################################################
         bracket_utils.MatchRaw(
-            match="consolation_third_place",
+            match_slot="consolation_third_place",
             top_competitor=parse_competitor(consolation_lines[2][88:106]),
             bottom_competitor=parse_competitor(consolation_lines[26][88:106]),
             result=parse_bout_result(consolation_lines[14][88:106]),
@@ -515,7 +515,7 @@ def extract_bracket(
         # **********************************************************************
         ########################################################################
         bracket_utils.MatchRaw(
-            match="consolation_fifth_place",
+            match_slot="consolation_fifth_place",
             top_competitor=parse_competitor(fifth_place_lines[0][52:70]),
             bottom_competitor=parse_competitor(fifth_place_lines[2][52:70]),
             result=parse_bout_result(fifth_place_lines[1][52:70]),
@@ -525,7 +525,7 @@ def extract_bracket(
         ),
     ]
 
-    by_match = {match.match: match for match in matches}
+    by_match = {match.match_slot: match for match in matches}
     if len(by_match) != len(matches):
         raise ValueError("Invariant violation")
 
