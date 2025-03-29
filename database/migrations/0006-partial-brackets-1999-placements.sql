@@ -427,7 +427,7 @@ VALUES
 --------------------------------------------------------------------------------
 
 INSERT INTO
-  match (id, bracket_id, bout_number, match_slot, top_competitor_id, bottom_competitor_id, top_win, result, top_team_acronym, bottom_team_acronym)
+  match (id, bracket_id, bout_number, match_slot, top_competitor_id, bottom_competitor_id, top_win, result, result_type, top_team_acronym, bottom_team_acronym)
 VALUES
   -- bracket_id=1004 (Novice 62)
   -- 1st - Tim Haneberg - Orland Park
@@ -436,9 +436,9 @@ VALUES
   -- 4th - Dalton Bullard - Belvidere Bandits
   -- 5th - Brian Spangler - Fox Valley WC
   -- 6th - Steve Templin - Montego Matmen
-  (55, 1004, NULL, 'championship_first_place', 25, 26, TRUE, '', NULL, NULL),
-  (56, 1004, NULL, 'consolation_third_place',  27, 28, TRUE, '', NULL, NULL),
-  (57, 1004, NULL, 'consolation_fifth_place',  29, 30, TRUE, '', NULL, NULL),
+  (55, 1004, NULL, 'championship_first_place', 25, 26, TRUE, '', 'place', NULL, NULL),
+  (56, 1004, NULL, 'consolation_third_place',  27, 28, TRUE, '', 'place', NULL, NULL),
+  (57, 1004, NULL, 'consolation_fifth_place',  29, 30, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1005 (Novice 66)
   -- 1st - Nick Fanthorpe - Fox Valley WC
   -- 2nd - Brian Martin - Wolfpak WC
@@ -446,9 +446,9 @@ VALUES
   -- 4th - Matt Cusick - Orland Park
   -- 5th - Mitch Jones - Mt. Zion WC
   -- 6th - Adam Canty - Vittum Cats
-  (58, 1005, NULL, 'championship_first_place', 31, 32, TRUE, '', NULL, NULL),
-  (59, 1005, NULL, 'consolation_third_place',  33, 34, TRUE, '', NULL, NULL),
-  (60, 1005, NULL, 'consolation_fifth_place',  35, 36, TRUE, '', NULL, NULL),
+  (58, 1005, NULL, 'championship_first_place', 31, 32, TRUE, '', 'place', NULL, NULL),
+  (59, 1005, NULL, 'consolation_third_place',  33, 34, TRUE, '', 'place', NULL, NULL),
+  (60, 1005, NULL, 'consolation_fifth_place',  35, 36, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1006 (Novice 70)
   -- 1st - Michael Benefiel - Fox Valley WC
   -- 2nd - Conor Beebe - Fox Valley WC
@@ -456,9 +456,9 @@ VALUES
   -- 4th - Brandon Nice - Cumberland WC
   -- 5th - Tyler Babcock - Bethalto Jr. High
   -- 6th - Matt Shapiro - Fox Valley WC
-  (61, 1006, NULL, 'championship_first_place', 37, 38, TRUE, '', NULL, NULL),
-  (62, 1006, NULL, 'consolation_third_place',  39, 40, TRUE, '', NULL, NULL),
-  (63, 1006, NULL, 'consolation_fifth_place',  41, 42, TRUE, '', NULL, NULL),
+  (61, 1006, NULL, 'championship_first_place', 37, 38, TRUE, '', 'place', NULL, NULL),
+  (62, 1006, NULL, 'consolation_third_place',  39, 40, TRUE, '', 'place', NULL, NULL),
+  (63, 1006, NULL, 'consolation_fifth_place',  41, 42, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1007 (Novice 74)
   -- 1st - Gerald Starzyk - Vittum Cats
   -- 2nd - Mike Riley - Tinley Park
@@ -466,9 +466,9 @@ VALUES
   -- 4th - Nate Britt - Sterling-Newman
   -- 5th - Michael Anello - Orland Park
   -- 6th - Billy Cascone - Vittum Cats
-  (64, 1007, NULL, 'championship_first_place', 43, 44, TRUE, '', NULL, NULL),
-  (65, 1007, NULL, 'consolation_third_place',  45, 46, TRUE, '', NULL, NULL),
-  (66, 1007, NULL, 'consolation_fifth_place',  47, 48, TRUE, '', NULL, NULL),
+  (64, 1007, NULL, 'championship_first_place', 43, 44, TRUE, '', 'place', NULL, NULL),
+  (65, 1007, NULL, 'consolation_third_place',  45, 46, TRUE, '', 'place', NULL, NULL),
+  (66, 1007, NULL, 'consolation_fifth_place',  47, 48, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1008 (Novice 79)
   -- 1st - Kyle Krueger - Fox Valley WC
   -- 2nd - Robbie Unsell - Bethalto Jr. High
@@ -476,9 +476,9 @@ VALUES
   -- 4th - Jon Isacson - Villa-Lombard
   -- 5th - Jacob Murphy - Tinley Park
   -- 6th - Carlos Lopez - Vittum Cats
-  (67, 1008, NULL, 'championship_first_place', 49, 50, TRUE, '', NULL, NULL),
-  (68, 1008, NULL, 'consolation_third_place',  51, 52, TRUE, '', NULL, NULL),
-  (69, 1008, NULL, 'consolation_fifth_place',  53, 54, TRUE, '', NULL, NULL),
+  (67, 1008, NULL, 'championship_first_place', 49, 50, TRUE, '', 'place', NULL, NULL),
+  (68, 1008, NULL, 'consolation_third_place',  51, 52, TRUE, '', 'place', NULL, NULL),
+  (69, 1008, NULL, 'consolation_fifth_place',  53, 54, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1009 (Novice 84)
   -- 1st - Marty Engwall - Tinley Park
   -- 2nd - Scott Sheber - Lemont Bears
@@ -486,9 +486,9 @@ VALUES
   -- 4th - Brad Fiorito - Dundee Highlanders
   -- 5th - Gary Conrad - Wolfpak WC
   -- 6th - Bobby Wolf - Bethalto Jr. High
-  (70, 1009, NULL, 'championship_first_place', 55, 56, TRUE, '', NULL, NULL),
-  (71, 1009, NULL, 'consolation_third_place',  57, 58, TRUE, '', NULL, NULL),
-  (72, 1009, NULL, 'consolation_fifth_place',  59, 60, TRUE, '', NULL, NULL),
+  (70, 1009, NULL, 'championship_first_place', 55, 56, TRUE, '', 'place', NULL, NULL),
+  (71, 1009, NULL, 'consolation_third_place',  57, 58, TRUE, '', 'place', NULL, NULL),
+  (72, 1009, NULL, 'consolation_fifth_place',  59, 60, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1010 (Novice 89)
   -- 1st - Michael Poeta - Highland Park
   -- 2nd - Jefferi Broadway - Little Celtics
@@ -496,9 +496,9 @@ VALUES
   -- 4th - Zach Enderle - Harlem Cougars
   -- 5th - Billy Dragonetti - Wolfpak WC
   -- 6th - Scott DeChant - Little Celtics
-  (73, 1010, NULL, 'championship_first_place', 61, 62, TRUE, '', NULL, NULL),
-  (74, 1010, NULL, 'consolation_third_place',  63, 64, TRUE, '', NULL, NULL),
-  (75, 1010, NULL, 'consolation_fifth_place',  65, 66, TRUE, '', NULL, NULL),
+  (73, 1010, NULL, 'championship_first_place', 61, 62, TRUE, '', 'place', NULL, NULL),
+  (74, 1010, NULL, 'consolation_third_place',  63, 64, TRUE, '', 'place', NULL, NULL),
+  (75, 1010, NULL, 'consolation_fifth_place',  65, 66, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1011 (Novice 95)
   -- 1st - Clayton Norberg - Sterling-Newman
   -- 2nd - Shane Dintelman - Belleville L.D.
@@ -506,9 +506,9 @@ VALUES
   -- 4th - Tim Golden - Vittum Cats
   -- 5th - Joseph Graves - Batavia Pinners
   -- 6th - Matt Wenger - Dakota WC
-  (76, 1011, NULL, 'championship_first_place', 67, 68, TRUE, '', NULL, NULL),
-  (77, 1011, NULL, 'consolation_third_place',  69, 70, TRUE, '', NULL, NULL),
-  (78, 1011, NULL, 'consolation_fifth_place',  71, 72, TRUE, '', NULL, NULL),
+  (76, 1011, NULL, 'championship_first_place', 67, 68, TRUE, '', 'place', NULL, NULL),
+  (77, 1011, NULL, 'consolation_third_place',  69, 70, TRUE, '', 'place', NULL, NULL),
+  (78, 1011, NULL, 'consolation_fifth_place',  71, 72, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1012 (Novice 101)
   -- 1st - Steven Rodgers - Bethalto Jr. High
   -- 2nd - Matthew Smith - Villa-Lombard
@@ -516,9 +516,9 @@ VALUES
   -- 4th - John Murphy - St. Barnabas/CTK
   -- 5th - Will Mekeel - Sterling-Newman
   -- 6th - Aaron Lipe - Galesburg Jr. Streaks
-  (79, 1012, NULL, 'championship_first_place', 73, 74, TRUE, '', NULL, NULL),
-  (80, 1012, NULL, 'consolation_third_place',  75, 76, TRUE, '', NULL, NULL),
-  (81, 1012, NULL, 'consolation_fifth_place',  77, 78, TRUE, '', NULL, NULL),
+  (79, 1012, NULL, 'championship_first_place', 73, 74, TRUE, '', 'place', NULL, NULL),
+  (80, 1012, NULL, 'consolation_third_place',  75, 76, TRUE, '', 'place', NULL, NULL),
+  (81, 1012, NULL, 'consolation_fifth_place',  77, 78, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1013 (Novice 108)
   -- 1st - Mike Mucha - Lemont Bears
   -- 2nd - Austin Jones - Bradley-Bour. WC
@@ -526,9 +526,9 @@ VALUES
   -- 4th - Robert Wallon - Lemont Bears
   -- 5th - Nathan Troye - Sterling-Newman
   -- 6th - Michael McIntyre - Savanna R.hawk
-  (82, 1013, NULL, 'championship_first_place', 79, 80, TRUE, '', NULL, NULL),
-  (83, 1013, NULL, 'consolation_third_place',  81, 82, TRUE, '', NULL, NULL),
-  (84, 1013, NULL, 'consolation_fifth_place',  83, 84, TRUE, '', NULL, NULL),
+  (82, 1013, NULL, 'championship_first_place', 79, 80, TRUE, '', 'place', NULL, NULL),
+  (83, 1013, NULL, 'consolation_third_place',  81, 82, TRUE, '', 'place', NULL, NULL),
+  (84, 1013, NULL, 'consolation_fifth_place',  83, 84, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1014 (Novice 115)
   -- 1st - Andrew Zidow - LaSalle-Peru
   -- 2nd - Ryan Bittle - A-J Jr. Wildcats
@@ -536,9 +536,9 @@ VALUES
   -- 4th - Joshua Mohr - Yorkville WC
   -- 5th - Dan Haeflinger - Harvard WC
   -- 6th - Jon Crettol - Orland Park
-  (85, 1014, NULL, 'championship_first_place', 85, 86, TRUE, '', NULL, NULL),
-  (86, 1014, NULL, 'consolation_third_place',  87, 88, TRUE, '', NULL, NULL),
-  (87, 1014, NULL, 'consolation_fifth_place',  89, 90, TRUE, '', NULL, NULL),
+  (85, 1014, NULL, 'championship_first_place', 85, 86, TRUE, '', 'place', NULL, NULL),
+  (86, 1014, NULL, 'consolation_third_place',  87, 88, TRUE, '', 'place', NULL, NULL),
+  (87, 1014, NULL, 'consolation_fifth_place',  89, 90, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1015 (Novice 122)
   -- 1st - Liam Kelly - Tinley Park
   -- 2nd - Jared Sugden - A-O Kids WC
@@ -546,9 +546,9 @@ VALUES
   -- 4th - Phil Grant - Crystal Lake Wizards
   -- 5th - Jason Johnson - Sterling-Newman
   -- 6th - Keith Hauter - Litchfield Kids WC
-  (88, 1015, NULL, 'championship_first_place', 91, 92, TRUE, '', NULL, NULL),
-  (89, 1015, NULL, 'consolation_third_place',  93, 94, TRUE, '', NULL, NULL),
-  (90, 1015, NULL, 'consolation_fifth_place',  95, 96, TRUE, '', NULL, NULL),
+  (88, 1015, NULL, 'championship_first_place', 91, 92, TRUE, '', 'place', NULL, NULL),
+  (89, 1015, NULL, 'consolation_third_place',  93, 94, TRUE, '', 'place', NULL, NULL),
+  (90, 1015, NULL, 'consolation_fifth_place',  95, 96, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1016 (Novice 130)
   -- 1st - De'Andre Nunn - Little Celtics
   -- 2nd - Buddy Dudczak - Villa-Lombard
@@ -556,9 +556,9 @@ VALUES
   -- 4th - Nicholas Miller - Mattoon Youth WC
   -- 5th - Jonathan Wyatt - Westville Youth
   -- 6th - Ryan Francis - Lemont Bears
-  (91, 1016, NULL, 'championship_first_place', 97, 98, TRUE, '', NULL, NULL),
-  (92, 1016, NULL, 'consolation_third_place',  99, 100, TRUE, '', NULL, NULL),
-  (93, 1016, NULL, 'consolation_fifth_place',  101, 102, TRUE, '', NULL, NULL),
+  (91, 1016, NULL, 'championship_first_place', 97, 98, TRUE, '', 'place', NULL, NULL),
+  (92, 1016, NULL, 'consolation_third_place',  99, 100, TRUE, '', 'place', NULL, NULL),
+  (93, 1016, NULL, 'consolation_fifth_place',  101, 102, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1017 (Novice 147)
   -- 1st - Shane Butler - Midwest Central Y.
   -- 2nd - Jesus Ordaz - Crystal Lake Wiz.
@@ -566,9 +566,9 @@ VALUES
   -- 4th - Jeffrey Janicki - Villa-Lombard
   -- 5th - Joe Youngberg - Murphysboro MS
   -- 6th - Gary Cox - Vandalia Jr. WC
-  (94, 1017, NULL, 'championship_first_place', 103, 104, TRUE, '', NULL, NULL),
-  (95, 1017, NULL, 'consolation_third_place',  105, 106, TRUE, '', NULL, NULL),
-  (96, 1017, NULL, 'consolation_fifth_place',  107, 108, TRUE, '', NULL, NULL),
+  (94, 1017, NULL, 'championship_first_place', 103, 104, TRUE, '', 'place', NULL, NULL),
+  (95, 1017, NULL, 'consolation_third_place',  105, 106, TRUE, '', 'place', NULL, NULL),
+  (96, 1017, NULL, 'consolation_fifth_place',  107, 108, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1018 (Novice 166)
   -- 1st - Chris Espinoza - Wheaton Bulldogs
   -- 2nd - Brian Kerr - East Moline WC
@@ -576,9 +576,9 @@ VALUES
   -- 4th - Christian Bunyan - Urbana Kids WC
   -- 5th - Casey Hicks - Pontiac Pythons
   -- 6th - Mike Scheibel - Highland Bulldogs
-  (97, 1018, NULL, 'championship_first_place', 109, 110, TRUE, '', NULL, NULL),
-  (98, 1018, NULL, 'consolation_third_place',  111, 112, TRUE, '', NULL, NULL),
-  (99, 1018, NULL, 'consolation_fifth_place',  113, 114, TRUE, '', NULL, NULL),
+  (97, 1018, NULL, 'championship_first_place', 109, 110, TRUE, '', 'place', NULL, NULL),
+  (98, 1018, NULL, 'consolation_third_place',  111, 112, TRUE, '', 'place', NULL, NULL),
+  (99, 1018, NULL, 'consolation_fifth_place',  113, 114, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1019 (Novice 215)
   -- 1st - Rusty Wheat - Roxana Kids WC
   -- 2nd - Ray Stuthers - Murphysboro MS
@@ -586,9 +586,9 @@ VALUES
   -- 4th - Ben Lawrence - Crossface WC
   -- 5th - Vinnie Salmieri - A-O Kids WC
   -- 6th - Ryan Weaver - Little Redbirds WC
-  (100, 1019, NULL, 'championship_first_place', 115, 116, TRUE, '', NULL, NULL),
-  (101, 1019, NULL, 'consolation_third_place',  117, 118, TRUE, '', NULL, NULL),
-  (102, 1019, NULL, 'consolation_fifth_place',  119, 120, TRUE, '', NULL, NULL),
+  (100, 1019, NULL, 'championship_first_place', 115, 116, TRUE, '', 'place', NULL, NULL),
+  (101, 1019, NULL, 'consolation_third_place',  117, 118, TRUE, '', 'place', NULL, NULL),
+  (102, 1019, NULL, 'consolation_fifth_place',  119, 120, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1020 (Senior 70)
   -- 1st - David Murphy - Little Celtics
   -- 2nd - Cody Dietze - Tinley Park
@@ -596,9 +596,9 @@ VALUES
   -- 4th - Scott Eichberger - Orland Park
   -- 5th - John Wienert - Vittum Cats
   -- 6th - Jerry Fischer - Morton Youth
-  (103, 1020, NULL, 'championship_first_place', 121, 122, TRUE, '', NULL, NULL),
-  (104, 1020, NULL, 'consolation_third_place',  123, 124, TRUE, '', NULL, NULL),
-  (105, 1020, NULL, 'consolation_fifth_place',  125, 126, TRUE, '', NULL, NULL),
+  (103, 1020, NULL, 'championship_first_place', 121, 122, TRUE, '', 'place', NULL, NULL),
+  (104, 1020, NULL, 'consolation_third_place',  123, 124, TRUE, '', 'place', NULL, NULL),
+  (105, 1020, NULL, 'consolation_fifth_place',  125, 126, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1021 (Senior 74)
   -- 1st - Jordan Kolinski - Rockford WC
   -- 2nd - Eric Bauer - Fox Valley WC
@@ -606,9 +606,9 @@ VALUES
   -- 4th - Josiah Wooten - Urbana Kids Club
   -- 5th - Tony Martinez - Little Celtics
   -- 6th - Chris Maynor - Southern IL Eagles
-  (106, 1021, NULL, 'championship_first_place', 127, 128, TRUE, '', NULL, NULL),
-  (107, 1021, NULL, 'consolation_third_place',  129, 130, TRUE, '', NULL, NULL),
-  (108, 1021, NULL, 'consolation_fifth_place',  131, 132, TRUE, '', NULL, NULL),
+  (106, 1021, NULL, 'championship_first_place', 127, 128, TRUE, '', 'place', NULL, NULL),
+  (107, 1021, NULL, 'consolation_third_place',  129, 130, TRUE, '', 'place', NULL, NULL),
+  (108, 1021, NULL, 'consolation_fifth_place',  131, 132, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1022 (Senior 79)
   -- 1st - Josh Taylor - Tigertown Tanglers
   -- 2nd - Brad Medchill - Villa-Lombard
@@ -616,9 +616,9 @@ VALUES
   -- 4th - Justin Grey - Tinley Park
   -- 5th - Steve Scrementi - Little Celtics
   -- 6th - Shane Saylor - Bethalto Jr. High
-  (109, 1022, NULL, 'championship_first_place', 133, 134, TRUE, '', NULL, NULL),
-  (110, 1022, NULL, 'consolation_third_place',  135, 136, TRUE, '', NULL, NULL),
-  (111, 1022, NULL, 'consolation_fifth_place',  137, 138, TRUE, '', NULL, NULL),
+  (109, 1022, NULL, 'championship_first_place', 133, 134, TRUE, '', 'place', NULL, NULL),
+  (110, 1022, NULL, 'consolation_third_place',  135, 136, TRUE, '', 'place', NULL, NULL),
+  (111, 1022, NULL, 'consolation_fifth_place',  137, 138, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1023 (Senior 84)
   -- 1st - Brian Dyer - Fox Valley WC
   -- 2nd - Justin Haskett - Tinley Park
@@ -626,9 +626,9 @@ VALUES
   -- 4th - Tony Emma - Wheaton Monroe Eagles
   -- 5th - Thomas Tapia - East Moline WC
   -- 6th - Branden Mackey - Urbana Kids Club
-  (112, 1023, NULL, 'championship_first_place', 139, 140, TRUE, '', NULL, NULL),
-  (113, 1023, NULL, 'consolation_third_place',  141, 142, TRUE, '', NULL, NULL),
-  (114, 1023, NULL, 'consolation_fifth_place',  143, 144, TRUE, '', NULL, NULL),
+  (112, 1023, NULL, 'championship_first_place', 139, 140, TRUE, '', 'place', NULL, NULL),
+  (113, 1023, NULL, 'consolation_third_place',  141, 142, TRUE, '', 'place', NULL, NULL),
+  (114, 1023, NULL, 'consolation_fifth_place',  143, 144, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1024 (Senior 89)
   -- 1st - Pat Barth - Morton Youth WC
   -- 2nd - Zac Berman - Little Celtics
@@ -636,9 +636,9 @@ VALUES
   -- 4th - Kevin McNicholas - Vittum Cats
   -- 5th - Michael Reese - LaSalle-Peru
   -- 6th - Chad Vandiver - Harlem Cougars
-  (115, 1024, NULL, 'championship_first_place', 145, 146, TRUE, '', NULL, NULL),
-  (116, 1024, NULL, 'consolation_third_place',  147, 148, TRUE, '', NULL, NULL),
-  (117, 1024, NULL, 'consolation_fifth_place',  149, 150, TRUE, '', NULL, NULL),
+  (115, 1024, NULL, 'championship_first_place', 145, 146, TRUE, '', 'place', NULL, NULL),
+  (116, 1024, NULL, 'consolation_third_place',  147, 148, TRUE, '', 'place', NULL, NULL),
+  (117, 1024, NULL, 'consolation_fifth_place',  149, 150, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1025 (Senior 95)
   -- 1st - Chase Beebe - Fox Valley WC
   -- 2nd - Robert Loftus - Yorkville WC
@@ -646,9 +646,9 @@ VALUES
   -- 4th - Andrew Lukanich - Vittum Cats
   -- 5th - Adam Beeler - Edwardsville WC
   -- 6th - Mike Whalen - Edwardsville WC
-  (118, 1025, NULL, 'championship_first_place', 151, 152, TRUE, '', NULL, NULL),
-  (119, 1025, NULL, 'consolation_third_place',  153, 154, TRUE, '', NULL, NULL),
-  (120, 1025, NULL, 'consolation_fifth_place',  155, 156, TRUE, '', NULL, NULL),
+  (118, 1025, NULL, 'championship_first_place', 151, 152, TRUE, '', 'place', NULL, NULL),
+  (119, 1025, NULL, 'consolation_third_place',  153, 154, TRUE, '', 'place', NULL, NULL),
+  (120, 1025, NULL, 'consolation_fifth_place',  155, 156, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1026 (Senior 101)
   -- 1st - Eric Tannenbaum - Fox Valley WC
   -- 2nd - Ryan Klinger - Oak Lawn Wildcats
@@ -656,9 +656,9 @@ VALUES
   -- 4th - Jacob Jones - Mt. Zion WC
   -- 5th - Ryan Giulano - Wolfpak WC
   -- 6th - Ryne Bird - Tigertown Tanglers
-  (121, 1026, NULL, 'championship_first_place', 157, 158, TRUE, '', NULL, NULL),
-  (122, 1026, NULL, 'consolation_third_place',  159, 160, TRUE, '', NULL, NULL),
-  (123, 1026, NULL, 'consolation_fifth_place',  161, 162, TRUE, '', NULL, NULL),
+  (121, 1026, NULL, 'championship_first_place', 157, 158, TRUE, '', 'place', NULL, NULL),
+  (122, 1026, NULL, 'consolation_third_place',  159, 160, TRUE, '', 'place', NULL, NULL),
+  (123, 1026, NULL, 'consolation_fifth_place',  161, 162, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1027 (Senior 108)
   -- 1st - Collin McKillip - Tinley Park
   -- 2nd - Joe Gomez - Villa-Lombard
@@ -666,9 +666,9 @@ VALUES
   -- 4th - Matt Collum - Fox Valley WC
   -- 5th - Mitch Fonner - Mattoon Youth WC
   -- 6th - Matt Anderson - Harlem Cougars
-  (124, 1027, NULL, 'championship_first_place', 163, 164, TRUE, '', NULL, NULL),
-  (125, 1027, NULL, 'consolation_third_place',  165, 166, TRUE, '', NULL, NULL),
-  (126, 1027, NULL, 'consolation_fifth_place',  167, 168, TRUE, '', NULL, NULL),
+  (124, 1027, NULL, 'championship_first_place', 163, 164, TRUE, '', 'place', NULL, NULL),
+  (125, 1027, NULL, 'consolation_third_place',  165, 166, TRUE, '', 'place', NULL, NULL),
+  (126, 1027, NULL, 'consolation_fifth_place',  167, 168, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1028 (Senior 115)
   -- 1st - Jakob Bottoms - Murphysboro MS
   -- 2nd - Ryan DeVriendt - Sherrard Jr. WC
@@ -676,9 +676,9 @@ VALUES
   -- 4th - Roberto Torres - Fox Valley WC
   -- 5th - Drew McMahon - Champaign Chargers
   -- 6th - Matthew Wahl - Jr. Golden Eagles
-  (127, 1028, NULL, 'championship_first_place', 169, 170, TRUE, '', NULL, NULL),
-  (128, 1028, NULL, 'consolation_third_place',  171, 172, TRUE, '', NULL, NULL),
-  (129, 1028, NULL, 'consolation_fifth_place',  173, 174, TRUE, '', NULL, NULL),
+  (127, 1028, NULL, 'championship_first_place', 169, 170, TRUE, '', 'place', NULL, NULL),
+  (128, 1028, NULL, 'consolation_third_place',  171, 172, TRUE, '', 'place', NULL, NULL),
+  (129, 1028, NULL, 'consolation_fifth_place',  173, 174, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1029 (Senior 122)
   -- 1st - Ruben Villareal - Fox Valley WC
   -- 2nd - Michael Pila - Orland Park
@@ -686,9 +686,9 @@ VALUES
   -- 4th - David Kuntz - Vittum Cats
   -- 5th - Jake Mekeel - Sterling-Newman
   -- 6th - Jeremy Doss - Bear Country WC
-  (130, 1029, NULL, 'championship_first_place', 175, 176, TRUE, '', NULL, NULL),
-  (131, 1029, NULL, 'consolation_third_place',  177, 178, TRUE, '', NULL, NULL),
-  (132, 1029, NULL, 'consolation_fifth_place',  179, 180, TRUE, '', NULL, NULL),
+  (130, 1029, NULL, 'championship_first_place', 175, 176, TRUE, '', 'place', NULL, NULL),
+  (131, 1029, NULL, 'consolation_third_place',  177, 178, TRUE, '', 'place', NULL, NULL),
+  (132, 1029, NULL, 'consolation_fifth_place',  179, 180, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1030 (Senior 130)
   -- 1st - Bryan Harney - Vittum Cats
   -- 2nd - Josh Bednarek - Crystal Lake Wizards
@@ -696,9 +696,9 @@ VALUES
   -- 4th - Josh Hartman - Jr. Rocket WC
   -- 5th - Tyler Worthington - Chenoa WC
   -- 6th - Mike Kerr - East Moline WC
-  (133, 1030, NULL, 'championship_first_place', 181, 182, TRUE, '', NULL, NULL),
-  (134, 1030, NULL, 'consolation_third_place',  183, 184, TRUE, '', NULL, NULL),
-  (135, 1030, NULL, 'consolation_fifth_place',  185, 186, TRUE, '', NULL, NULL),
+  (133, 1030, NULL, 'championship_first_place', 181, 182, TRUE, '', 'place', NULL, NULL),
+  (134, 1030, NULL, 'consolation_third_place',  183, 184, TRUE, '', 'place', NULL, NULL),
+  (135, 1030, NULL, 'consolation_fifth_place',  185, 186, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1031 (Senior 138)
   -- 1st - Mark Mendoza - Fox Valley WC
   -- 2nd - Marty Cox - Yorkville WC
@@ -706,9 +706,9 @@ VALUES
   -- 4th - Rick Hoke - Sherrard Jr. WC
   -- 5th - Bill Smith - Mustangs WC
   -- 6th - Kevin Tobola - Tinley Park
-  (136, 1031, NULL, 'championship_first_place', 187, 188, TRUE, '', NULL, NULL),
-  (137, 1031, NULL, 'consolation_third_place',  189, 190, TRUE, '', NULL, NULL),
-  (138, 1031, NULL, 'consolation_fifth_place',  191, 192, TRUE, '', NULL, NULL),
+  (136, 1031, NULL, 'championship_first_place', 187, 188, TRUE, '', 'place', NULL, NULL),
+  (137, 1031, NULL, 'consolation_third_place',  189, 190, TRUE, '', 'place', NULL, NULL),
+  (138, 1031, NULL, 'consolation_fifth_place',  191, 192, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1032 (Senior 147)
   -- 1st - Danney Finney - Little Celtic WC
   -- 2nd - Kris Roberts - Marion WC
@@ -716,9 +716,9 @@ VALUES
   -- 4th - Byran Golden - Vittum Cats
   -- 5th - Nick Derry - Harlem Cougars
   -- 6th - Adam Hock - Geneseo WC
-  (139, 1032, NULL, 'championship_first_place', 193, 194, TRUE, '', NULL, NULL),
-  (140, 1032, NULL, 'consolation_third_place',  195, 196, TRUE, '', NULL, NULL),
-  (141, 1032, NULL, 'consolation_fifth_place',  197, 198, TRUE, '', NULL, NULL),
+  (139, 1032, NULL, 'championship_first_place', 193, 194, TRUE, '', 'place', NULL, NULL),
+  (140, 1032, NULL, 'consolation_third_place',  195, 196, TRUE, '', 'place', NULL, NULL),
+  (141, 1032, NULL, 'consolation_fifth_place',  197, 198, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1033 (Senior 156)
   -- 1st - Evan McCallister - Riverbend/Fulton WC
   -- 2nd - Kevin Brush - Tinley Park
@@ -726,9 +726,9 @@ VALUES
   -- 4th - Derek Hunsinger - El Paso WC
   -- 5th - Sonny Lambert - Unity WC
   -- 6th - ERic Vari - Fox Valley WC
-  (142, 1033, NULL, 'championship_first_place', 199, 200, TRUE, '', NULL, NULL),
-  (143, 1033, NULL, 'consolation_third_place',  201, 202, TRUE, '', NULL, NULL),
-  (144, 1033, NULL, 'consolation_fifth_place',  203, 204, TRUE, '', NULL, NULL),
+  (142, 1033, NULL, 'championship_first_place', 199, 200, TRUE, '', 'place', NULL, NULL),
+  (143, 1033, NULL, 'consolation_third_place',  201, 202, TRUE, '', 'place', NULL, NULL),
+  (144, 1033, NULL, 'consolation_fifth_place',  203, 204, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1034 (Senior 166)
   -- 1st - Terry Burner - Centralia WC
   -- 2nd - Chris Norberg - Sterling-Newman
@@ -736,9 +736,9 @@ VALUES
   -- 4th - Jason DePolo - Little Celtics
   -- 5th - Dustin Jackson - Vandalia Jr. WC
   -- 6th - Oscar Herrara - Rock Island Edison
-  (145, 1034, NULL, 'championship_first_place', 205, 206, TRUE, '', NULL, NULL),
-  (146, 1034, NULL, 'consolation_third_place',  207, 208, TRUE, '', NULL, NULL),
-  (147, 1034, NULL, 'consolation_fifth_place',  209, 210, TRUE, '', NULL, NULL),
+  (145, 1034, NULL, 'championship_first_place', 205, 206, TRUE, '', 'place', NULL, NULL),
+  (146, 1034, NULL, 'consolation_third_place',  207, 208, TRUE, '', 'place', NULL, NULL),
+  (147, 1034, NULL, 'consolation_fifth_place',  209, 210, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1035 (Senior 177)
   -- 1st - Jason Ortiz - Fox Valley WC
   -- 2nd - Mario Caraveo - Rock Island Edison
@@ -746,9 +746,9 @@ VALUES
   -- 4th - Matthew Barron - PLT Prophets
   -- 5th - Rashad Stewart - Champaign Chargers
   -- 6th - Chris Johnston - Aces WC
-  (148, 1035, NULL, 'championship_first_place', 211, 212, TRUE, '', NULL, NULL),
-  (149, 1035, NULL, 'consolation_third_place',  213, 214, TRUE, '', NULL, NULL),
-  (150, 1035, NULL, 'consolation_fifth_place',  215, 216, TRUE, '', NULL, NULL),
+  (148, 1035, NULL, 'championship_first_place', 211, 212, TRUE, '', 'place', NULL, NULL),
+  (149, 1035, NULL, 'consolation_third_place',  213, 214, TRUE, '', 'place', NULL, NULL),
+  (150, 1035, NULL, 'consolation_fifth_place',  215, 216, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1036 (Senior 189)
   -- 1st - Murphy Mahalik - Little Celtics
   -- 2nd - Zach Schroeder - Chilli Dawgs WC
@@ -756,9 +756,9 @@ VALUES
   -- 4th - Matthew Stern - Villa-Lombard
   -- 5th - Michael Minton - Little Redbrids
   -- 6th - Caleb Bridges - Springfield Capitals
-  (151, 1036, NULL, 'championship_first_place', 217, 218, TRUE, '', NULL, NULL),
-  (152, 1036, NULL, 'consolation_third_place',  219, 220, TRUE, '', NULL, NULL),
-  (153, 1036, NULL, 'consolation_fifth_place',  221, 222, TRUE, '', NULL, NULL),
+  (151, 1036, NULL, 'championship_first_place', 217, 218, TRUE, '', 'place', NULL, NULL),
+  (152, 1036, NULL, 'consolation_third_place',  219, 220, TRUE, '', 'place', NULL, NULL),
+  (153, 1036, NULL, 'consolation_fifth_place',  221, 222, TRUE, '', 'place', NULL, NULL),
   -- bracket_id=1037 (Senior 275)
   -- 1st - Kyle Crotty - Roxana Kids WC
   -- 2nd - Robert Taylor - Springfield Capitals
@@ -766,6 +766,6 @@ VALUES
   -- 4th - Ben Bradfield - Bismark-Henning WC
   -- 5th - Matt Richards - Edison Panthers WC
   -- 6th - Charles Doerge - Edwardsville WC
-  (154, 1037, NULL, 'championship_first_place', 223, 224, TRUE, '', NULL, NULL),
-  (155, 1037, NULL, 'consolation_third_place',  225, 226, TRUE, '', NULL, NULL),
-  (156, 1037, NULL, 'consolation_fifth_place',  227, 228, TRUE, '', NULL, NULL);
+  (154, 1037, NULL, 'championship_first_place', 223, 224, TRUE, '', 'place', NULL, NULL),
+  (155, 1037, NULL, 'consolation_third_place',  225, 226, TRUE, '', 'place', NULL, NULL),
+  (156, 1037, NULL, 'consolation_fifth_place',  227, 228, TRUE, '', 'place', NULL, NULL);

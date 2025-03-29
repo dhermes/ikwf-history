@@ -133,6 +133,27 @@ CREATE TABLE bracket (
 
 --------------------------------------------------------------------------------
 
+CREATE TABLE result_type (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  key TEXT NOT NULL UNIQUE
+);
+
+INSERT INTO
+  result_type (id, key)
+VALUES
+  (1, 'bye'),
+  (2, 'decision'),
+  (3, 'default'),
+  (4, 'disqualification'),
+  (5, 'fall'),
+  (6, 'forfeit'),
+  (7, 'major'),
+  (8, 'tech'),
+  (9, 'walkover'),
+  (10, 'place'); -- placeholder value for partial results / place-only results
+
+--------------------------------------------------------------------------------
+
 CREATE TABLE match (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   bracket_id INTEGER REFERENCES bracket(id),
@@ -142,6 +163,7 @@ CREATE TABLE match (
   bottom_competitor_id INTEGER REFERENCES team_competitor(id),
   top_win BOOLEAN NOT NULL,
   result TEXT NOT NULL, -- TODO: Use structured data for this
+  result_type TEXT NOT NULL REFERENCES result_type(key),
   top_team_acronym TEXT,
   bottom_team_acronym TEXT,
   UNIQUE(bracket_id, match_slot),
@@ -178,6 +200,3 @@ CREATE TABLE team_score (
   --       In some years, teams could have multiple team scores from
   --       scoring and non-scoring wrestlers.
 );
-
-
----- TODO: enum for `result_type` --> write it in all `match` inserts as well!!!
