@@ -373,13 +373,12 @@ def main():
     )
 
     start_id = 157
-    mapped_matches = bracket_utils.get_matches_for_sql(
+    bracket_utils.get_matches_for_sql(
         start_id,
         weight_classes,
         mapped_competitors.team_competitor_by_info,
         BRACKET_ID_MAPPING,
     )
-    bracket_utils.print_matches_sql(mapped_matches.match_rows)
 
 
 if __name__ == "__main__":

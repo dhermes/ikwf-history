@@ -462,31 +462,24 @@ def main():
 
     # NOTE: We just do team score **matching** for validation (but do not use
     #       the outputs).
-    team_scores: list[bracket_utils.TeamScoreRow] = []
-    team_scores.extend(
-        bracket_utils.team_scores_for_sql(
-            "novice",
-            TOURNAMENT_ID,
-            extracted,
-            TEAM_ACRONYM_MAPPING,
-            NOVICE_TEAM_ACRONYM_MAPPING,
-            TEAM_NAME_MAPPING,
-            NOVICE_EXTRA_TEAM_SCORES,
-        )
+    bracket_utils.team_scores_for_sql(
+        "novice",
+        TOURNAMENT_ID,
+        extracted,
+        TEAM_ACRONYM_MAPPING,
+        NOVICE_TEAM_ACRONYM_MAPPING,
+        TEAM_NAME_MAPPING,
+        NOVICE_EXTRA_TEAM_SCORES,
     )
-    team_scores.extend(
-        bracket_utils.team_scores_for_sql(
-            "senior",
-            TOURNAMENT_ID,
-            extracted,
-            TEAM_ACRONYM_MAPPING,
-            SENIOR_TEAM_ACRONYM_MAPPING,
-            TEAM_NAME_MAPPING,
-            SENIOR_EXTRA_TEAM_SCORES,
-        )
+    bracket_utils.team_scores_for_sql(
+        "senior",
+        TOURNAMENT_ID,
+        extracted,
+        TEAM_ACRONYM_MAPPING,
+        SENIOR_TEAM_ACRONYM_MAPPING,
+        TEAM_NAME_MAPPING,
+        SENIOR_EXTRA_TEAM_SCORES,
     )
-    bracket_utils.set_team_score_ids(team_scores, TEAM_SCORE_ID_START)
-    bracket_utils.print_team_score_sql(team_scores)
 
     start_id = 5074
     mapped_competitors = bracket_utils.get_competitors_for_sql(
