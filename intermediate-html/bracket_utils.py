@@ -25,15 +25,15 @@ class Competitor(pydantic.BaseModel):
 
 
 ResultType = Literal[
-    "BYE",
-    "DECISION",
-    "DEFAULT",
-    "DISQUALIFICATION",
-    "FALL",
-    "FORFEIT",
-    "MAJOR",
-    "TECH",
-    "WALKOVER",
+    "bye",
+    "decision",
+    "default",
+    "disqualification",
+    "fall",
+    "forfeit",
+    "major",
+    "tech",
+    "walkover",
 ]
 
 
@@ -285,31 +285,31 @@ def _competitor_raw_equal_enough(
 
 def _determine_result_type(result: str) -> ResultType:
     if result == "P-Dec" or result.startswith("P-Dec "):
-        return "WALKOVER"
+        return "walkover"
 
     if result == "Dec" or result.startswith("Dec "):
-        return "DECISION"
+        return "decision"
 
     if result.startswith("MajDec ") or result.startswith("M-Dec "):
-        return "MAJOR"
+        return "major"
 
     if result == "T-Fall" or result.startswith("T-Fall "):
-        return "TECH"
+        return "tech"
 
     if result == "Fall" or result.startswith("Fall "):
-        return "FALL"
+        return "fall"
 
     if result == "Bye":
-        return "BYE"
+        return "bye"
 
     if result == "Dflt" or result.startswith("Dflt "):
-        return "DEFAULT"
+        return "default"
 
     if result == "Dq" or result.startswith("Dq "):
-        return "DISQUALIFICATION"
+        return "disqualification"
 
     if result == "Forf" or result.startswith("Forf "):
-        return "FORFEIT"
+        return "forfeit"
 
     raise NotImplementedError(result)
 
@@ -446,31 +446,31 @@ def _get_advancement_points(match: str, winner: bool) -> float:
 
 
 def _get_result_points(result_type: ResultType) -> float:
-    if result_type == "BYE":
+    if result_type == "bye":
         return 0.0
 
-    if result_type == "DECISION":
+    if result_type == "decision":
         return 0.0
 
-    if result_type == "DEFAULT":
+    if result_type == "default":
         return 2.0
 
-    if result_type == "DISQUALIFICATION":
+    if result_type == "disqualification":
         return 2.0
 
-    if result_type == "FALL":
+    if result_type == "fall":
         return 2.0
 
-    if result_type == "FORFEIT":
+    if result_type == "forfeit":
         return 2.0
 
-    if result_type == "MAJOR":
+    if result_type == "major":
         return 1.0
 
-    if result_type == "TECH":
+    if result_type == "tech":
         return 1.5
 
-    if result_type == "WALKOVER":
+    if result_type == "walkover":
         return 0.0  # This is just an approximation
 
     raise NotImplementedError(result_type)
@@ -657,7 +657,7 @@ def _bye_next_match_points(
     if winner is None or next_winner is None or winner != next_winner:
         return 0.0
 
-    if next_match.result_type == "BYE":
+    if next_match.result_type == "bye":
         # No support (yet) for multiple consecutive byes
         return 0.0
 
@@ -690,7 +690,7 @@ def _match_team_score_updates(
     winner_points = winner_advancement_points + winner_result_points
     loser_points = loser_advancement_points
 
-    if match.result_type == "BYE":
+    if match.result_type == "bye":
         winner_points = _bye_next_match_points(match.match, winner, by_match)
 
     result[winner_team] = winner_points
