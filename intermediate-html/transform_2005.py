@@ -479,24 +479,31 @@ def main():
 
     # NOTE: We just do team score **matching** for validation (but do not use
     #       the outputs).
-    bracket_utils.team_scores_for_sql(
-        "novice",
-        TOURNAMENT_ID,
-        extracted,
-        TEAM_ACRONYM_MAPPING,
-        NOVICE_TEAM_ACRONYM_MAPPING,
-        TEAM_NAME_MAPPING,
-        NOVICE_EXTRA_TEAM_SCORES,
+    team_scores: list[bracket_utils.TeamScoreRow] = []
+    team_scores.extend(
+        bracket_utils.team_scores_for_sql(
+            "novice",
+            TOURNAMENT_ID,
+            extracted,
+            TEAM_ACRONYM_MAPPING,
+            NOVICE_TEAM_ACRONYM_MAPPING,
+            TEAM_NAME_MAPPING,
+            NOVICE_EXTRA_TEAM_SCORES,
+        )
     )
-    bracket_utils.team_scores_for_sql(
-        "senior",
-        TOURNAMENT_ID,
-        extracted,
-        TEAM_ACRONYM_MAPPING,
-        SENIOR_TEAM_ACRONYM_MAPPING,
-        TEAM_NAME_MAPPING,
-        SENIOR_EXTRA_TEAM_SCORES,
+    team_scores.extend(
+        bracket_utils.team_scores_for_sql(
+            "senior",
+            TOURNAMENT_ID,
+            extracted,
+            TEAM_ACRONYM_MAPPING,
+            SENIOR_TEAM_ACRONYM_MAPPING,
+            TEAM_NAME_MAPPING,
+            SENIOR_EXTRA_TEAM_SCORES,
+        )
     )
+    bracket_utils.set_team_score_ids(team_scores, TEAM_SCORE_ID_START)
+    bracket_utils.print_team_score_sql(team_scores)
 
     start_id = 4261
     mapped_competitors = bracket_utils.get_competitors_for_sql(
@@ -509,13 +516,12 @@ def main():
     )
 
     start_id = 8062
-    mapped_matches = bracket_utils.get_matches_for_sql(
+    bracket_utils.get_matches_for_sql(
         start_id,
         weight_classes,
         mapped_competitors.team_competitor_by_info,
         BRACKET_ID_MAPPING,
     )
-    bracket_utils.print_matches_sql(mapped_matches.match_rows)
 
 
 if __name__ == "__main__":

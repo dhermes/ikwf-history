@@ -182,6 +182,8 @@ CREATE TABLE team_point_deduction (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   tournament_id INTEGER NOT NULL REFERENCES tournament(id),
   team_id INTEGER NOT NULL REFERENCES team(id),
+  team_acronym TEXT NOT NULL, -- For a given tournament, one-off team acronyms were used
+  team_name TEXT NOT NULL, -- For a given tournament, one-off team names were used
   reason TEXT NOT NULL
   -- NOTE: No unique index, multiple deductions are possible within a tournament
   -- NOTE: No `division` is provided here, team point deductions apply across
@@ -195,6 +197,8 @@ CREATE TABLE team_score (
   tournament_id INTEGER NOT NULL REFERENCES tournament(id),
   division TEXT NOT NULL REFERENCES division(key),
   team_id INTEGER NOT NULL REFERENCES team(id),
+  team_acronym TEXT NOT NULL, -- For a given tournament, one-off team acronyms were used
+  team_name TEXT NOT NULL, -- For a given tournament, one-off team names were used
   score FLOAT NOT NULL
   -- NOTE: There is no UNIQUE(tournament_id, division, team_id) constraint.
   --       In some years, teams could have multiple team scores from

@@ -938,6 +938,8 @@ class TeamScoreRow(pydantic.BaseModel):
     tournament_id: int
     division: Division
     team_id: int
+    team_acronym: str
+    team_name: str
     score: float
 
 
@@ -994,6 +996,8 @@ def team_scores_for_sql(
                 tournament_id=tournament_id,
                 division=division,
                 team_id=team_id,
+                team_acronym=acronym,
+                team_name=team_name,
                 score=actual_team_score,
             )
         )
@@ -1022,6 +1026,8 @@ def team_scores_for_sql(
                 tournament_id=tournament_id,
                 division=division,
                 team_id=team_id,
+                team_acronym="",
+                team_name=team_name,
                 score=actual_team_score,
             )
         )
@@ -1035,10 +1041,12 @@ def set_team_score_ids(team_scores: list[TeamScoreRow], id_start: int) -> None:
 
 
 def print_team_score_sql(team_scores: list[TeamScoreRow]) -> None:
-    for team_score in team_scores:
+    for row in team_scores:
+        team_name_str = _sql_nullable_str(row.team_name)
         print(
-            f"  ({team_score.id_}, {team_score.tournament_id}, "
-            f"'{team_score.division}', {team_score.team_id}, {team_score.score}),"
+            f"  ({row.id_}, {row.tournament_id}, '{row.division}', "
+            f"{row.team_id}, '{row.team_acronym}', "
+            f"{team_name_str}, {row.score}),"
         )
 
 
