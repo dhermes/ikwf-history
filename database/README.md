@@ -27,6 +27,7 @@ sqlite3 ./ikwf.sqlite < ./migrations/0004-example-bracket.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0005-all-weights.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0006-partial-brackets-1999-placements.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0007-team-scores.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0008-competitors.sql
 ```
 
 ## Common helper commands

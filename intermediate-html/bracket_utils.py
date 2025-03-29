@@ -1066,6 +1066,18 @@ def _get_weight_class_competitors_for_sql(
     )
 
 
+def print_competitors_sql(competitor_rows: list[CompetitorRow]) -> None:
+    for competitor_row in competitor_rows:
+        first_name = competitor_row.first_name.replace("'", "''")
+        last_name = competitor_row.last_name.replace("'", "''")
+        suffix_str = "NULL"
+        if competitor_row.suffix is not None:
+            quoted = competitor_row.suffix.replace("'", "''")
+            suffix_str = f"'{quoted}'"
+
+        print(f"  ({competitor_row.id_}, '{first_name}', '{last_name}', {suffix_str}),")
+
+
 def get_competitors_for_sql(
     start_id: int,
     weight_classes: list[WeightClass],

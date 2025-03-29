@@ -444,7 +444,7 @@ def main():
     )
 
     start_id = 1018
-    bracket_utils.get_competitors_for_sql(
+    mapped_competitors = bracket_utils.get_competitors_for_sql(
         start_id,
         weight_classes,
         TEAM_ACRONYM_MAPPING,
@@ -452,6 +452,7 @@ def main():
         SENIOR_TEAM_ACRONYM_MAPPING,
         TEAM_NAME_MAPPING,
     )
+    bracket_utils.print_competitors_sql(mapped_competitors.competitor_rows)
 
 
 if __name__ == "__main__":
