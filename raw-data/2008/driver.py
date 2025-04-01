@@ -11,13 +11,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 HERE = pathlib.Path(__file__).resolve().parent
 SEARCH_INPUTS = {
-    "nameBox": "2009 IKWF State Championships",
+    "nameBox": "2008 IKWF State Championships",
     "startDateMonth": "03",
     "startDateDay": "01",
-    "startDateYear": "2009",
+    "startDateYear": "2008",
     "endDateMonth": "03",
     "endDateDay": "31",
-    "endDateYear": "2009",
+    "endDateYear": "2008",
 }
 
 
