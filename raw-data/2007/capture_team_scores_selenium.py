@@ -5,6 +5,7 @@ import pathlib
 from typing import NamedTuple
 
 from selenium import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
@@ -48,7 +49,7 @@ def _event_search_fill_inputs(driver: webdriver.Chrome):
         input_element = base_wait.until(
             EC.presence_of_element_located((By.ID, field_id))
         )  # Wait for input to appear
-        input_element.clear()  # Clear any existing text
+        input_element.clear()  # Clear any existing text (if needed)
         input_element.send_keys(value)  # Enter the value
 
 
@@ -82,25 +83,55 @@ def _event_box_click_enter_event(driver: webdriver.Chrome):
     enter_event_button.click()
 
 
-def _click_brackets_tab(driver: webdriver.Chrome):
-    # Use normalize-space() to trim any extra whitespace
-    brackets_link = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable(
-            (By.XPATH, "//a[normalize-space(text())='Brackets']")
-        )
+def _click_team_scores(driver: webdriver.Chrome):
+    # Wait for the iframe to be available
+    iframe = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "PageFrame"))
     )
-    # NOTE: There may extra space (e.g. 'Brackets ')
 
-    # Click the link
-    brackets_link.click()
+    # Switch to the iframe
+    driver.switch_to.frame(iframe)
+
+    # Find the 'Team Scores' element
+    team_scores_span = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, "//span[text()='Team Scores']"))
+    )
+
+    # Find the grandparent element and click it
+    grandparent_element = team_scores_span.find_element(By.XPATH, "./../..")
+    grandparent_element.click()
+
+    # Switch back to the main page
+    driver.switch_to.default_content()
+
+
+def _click_team_scores_filter(driver: webdriver.Chrome):
+    # Wait for the iframe to be available
+    iframe = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "PageFrame"))
+    )
+
+    # Switch to the iframe
+    driver.switch_to.frame(iframe)
+
+    # Wait for the button to be clickable
+    filter_button = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.ID, "pageFunc_0"))
+    )
+
+    # Click the button
+    filter_button.click()
+
+    # Switch back to the main page
+    driver.switch_to.default_content()
 
 
 class OptionInfo(NamedTuple):
     value: str
-    label: str
+    text: str
 
 
-def _all_weight_class_option_values(driver: webdriver.Chrome) -> list[OptionInfo]:
+def _get_division_options(driver: webdriver.Chrome) -> list[OptionInfo]:
     # Wait for the iframe to be available
     iframe = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.ID, "PageFrame"))
@@ -110,29 +141,28 @@ def _all_weight_class_option_values(driver: webdriver.Chrome) -> list[OptionInfo
     driver.switch_to.frame(iframe)
 
     # Wait for the <select> element to be visible
-    weight_group_box = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.ID, "weightGroupBox"))
+    class_box = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "classBox"))
     )
 
-    # Get all <option> elements under <select id="weightGroupBox">
-    options = weight_group_box.find_elements(By.TAG_NAME, "option")
+    # Get all <option> elements under <select id="classBox">
+    options = class_box.find_elements(By.TAG_NAME, "option")
 
-    # Filter out disabled <option> elements
-    enabled_options = [
-        OptionInfo(
-            value=option.get_attribute("value"), label=option.get_attribute("label")
-        )
+    found_options = [
+        OptionInfo(value=option.get_attribute("value"), text=option.text)
         for option in options
-        if not option.get_attribute("disabled")
+        if option.text != ""
     ]
 
     # Switch back to the main page
     driver.switch_to.default_content()
 
-    return enabled_options
+    return found_options
 
 
-def _capture_for_option(driver: webdriver.Chrome, option_info: OptionInfo) -> str:
+def _capture_for_option(
+    driver: webdriver.Chrome, option_info: OptionInfo, already_open: bool
+) -> str:
     # Wait for the iframe to be available
     iframe = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.ID, "PageFrame"))
@@ -141,6 +171,15 @@ def _capture_for_option(driver: webdriver.Chrome, option_info: OptionInfo) -> st
     # Switch to the iframe
     driver.switch_to.frame(iframe)
 
+    if not already_open:
+        # Wait for the button to be clickable
+        filter_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.ID, "pageFunc_0"))
+        )
+
+        # Click the button
+        filter_button.click()
+
     xpath_query = f"//option[@value='{option_info.value}']"
     option = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.XPATH, xpath_query))
@@ -148,25 +187,21 @@ def _capture_for_option(driver: webdriver.Chrome, option_info: OptionInfo) -> st
 
     option.click()
 
-    # Wait for the bracket to finish loading
-    bracket_label = option_info.label.replace(" - ", " ")
-    xpath_query = f"//font[text()='{bracket_label}']"
-    WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, xpath_query))
+    go_button = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.ID, "viewButton"))
     )
+    go_button.click()
 
-    # Locate the <div id="bracket-frame"> element inside the iframe
-    bracket_frame = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.ID, "bracket-frame"))
+    # Locate the table element
+    scores_table = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, "//table[contains(@class, 'tw-table')]"))
     )
+    scores_table_html = scores_table.get_attribute("outerHTML")
 
-    # Get the outerHTML of the <div id="bracket-frame"> element
-    bracket_frame_html = bracket_frame.get_attribute("outerHTML")
-
-    # Switch back to the main page
+    # Optionally, switch back to the main page (if needed)
     driver.switch_to.default_content()
 
-    return bracket_frame_html
+    return scores_table_html
 
 
 def main():
@@ -179,18 +214,21 @@ def main():
     _event_search_click_search(driver)
     _search_results_click_first(driver)
     _event_box_click_enter_event(driver)
-    _click_brackets_tab(driver)
-    weight_class_options = _all_weight_class_option_values(driver)
+    _click_team_scores(driver)
+    _click_team_scores_filter(driver)
+    division_options = _get_division_options(driver)
 
+    already_open = True
     captured_html: dict[str, str] = {}
-    for option_info in weight_class_options:
-        html = _capture_for_option(driver, option_info)
-        if option_info.label in captured_html:
-            raise RuntimeError("Invariant violation", option_info.label)
+    for option_info in division_options:
+        html = _capture_for_option(driver, option_info, already_open=already_open)
+        if option_info.text in captured_html:
+            raise RuntimeError("Invariant violation", option_info.text)
 
-        captured_html[option_info.label] = html
+        captured_html[option_info.text] = html
+        already_open = False
 
-    with open(HERE / "brackets.selenium.json", "w") as file_obj:
+    with open(HERE / "team_scores.selenium.json", "w") as file_obj:
         json.dump(captured_html, file_obj, indent=2)
         file_obj.write("\n")
 
