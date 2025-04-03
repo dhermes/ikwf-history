@@ -1,6 +1,6 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
-import json
+import argparse
 import pathlib
 
 import pydantic
@@ -10,15 +10,23 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 HERE = pathlib.Path(__file__).resolve().parent
-SEARCH_INPUTS = {
-    "nameBox": "2007 IKWF State Championships",
-    "startDateMonth": "03",
-    "startDateDay": "01",
-    "startDateYear": "2007",
-    "endDateMonth": "03",
-    "endDateDay": "31",
-    "endDateYear": "2007",
-}
+
+
+def _get_event_name(year: int) -> str:
+    if year == 2007:
+        return "2007 IKWF State Championships"
+
+    if year == 2008:
+        return "2008 IKWF State Championships"
+
+    if year == 2009:
+        return "2009 IKWF State Championships"
+
+    raise NotImplementedError(year)
+
+
+def _get_year_root(root: pathlib.Path, year: int) -> pathlib.Path:
+    return root / str(year)
 
 
 def _main_page_click_events(driver: webdriver.Chrome):
@@ -41,10 +49,21 @@ def _events_page_search_events(driver: webdriver.Chrome):
     event_search_button.click()
 
 
-def _event_search_fill_inputs(driver: webdriver.Chrome):
+def _event_search_fill_inputs(driver: webdriver.Chrome, year: int):
     base_wait = WebDriverWait(driver, 10)
 
-    for field_id, value in SEARCH_INPUTS.items():
+    event_name = _get_event_name(year)
+    search_inputs = {
+        "nameBox": event_name,
+        "startDateMonth": "03",
+        "startDateDay": "01",
+        "startDateYear": str(year),
+        "endDateMonth": "03",
+        "endDateDay": "31",
+        "endDateYear": str(year),
+    }
+
+    for field_id, value in search_inputs.items():
         input_element = base_wait.until(
             EC.presence_of_element_located((By.ID, field_id))
         )  # Wait for input to appear
@@ -273,13 +292,22 @@ class TeamDeductions(pydantic.RootModel[list[TeamDeduction]]):
     pass
 
 
+def get_year() -> int:
+    parser = argparse.ArgumentParser(prog="capture-deductions-selenium")
+    parser.add_argument("--year", required=True, type=int)
+    parsed = parser.parse_args()
+    return parsed.year
+
+
 def main():
+    year = get_year()
+
     driver = webdriver.Chrome()
     driver.get("https://www.trackwrestling.com/")
 
     _main_page_click_events(driver)
     _events_page_search_events(driver)
-    _event_search_fill_inputs(driver)
+    _event_search_fill_inputs(driver, year)
     _event_search_click_search(driver)
     _search_results_click_first(driver)
     _event_box_click_enter_event(driver)
@@ -309,7 +337,8 @@ def main():
         raise RuntimeError("Did not terminate iteration")
 
     to_serialize = TeamDeductions(root=all_deductions)
-    with open(HERE / "deductions.selenium.json", "w") as file_obj:
+    root = _get_year_root(HERE, year)
+    with open(root / "deductions.selenium.json", "w") as file_obj:
         file_obj.write(to_serialize.model_dump_json(indent=2))
         file_obj.write("\n")
 
