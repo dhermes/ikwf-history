@@ -12,7 +12,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 HERE = pathlib.Path(__file__).resolve().parent
 
 
-def _get_event_name(year: int) -> str:
+def _get_event_name(year: int, alternate: bool) -> str:
+    if alternate:
+        if year == 2024:
+            return "IKWF Int/Ban State Championships"
+
+        raise NotImplementedError(year)
+
     if year == 2007:
         return "2007 IKWF State Championships"
 
@@ -22,10 +28,61 @@ def _get_event_name(year: int) -> str:
     if year == 2009:
         return "2009 IKWF State Championships"
 
+    if year == 2010:
+        return "2010 IKWF State Championships"
+
+    if year == 2011:
+        return "2011 IKWF State Championships"
+
+    if year == 2012:
+        return "2012 IKWF State Championships"
+
+    if year == 2013:
+        return "2013 IKWF State Championships"
+
+    if year == 2014:
+        return "2014 IKWF State Championships"
+
+    if year == 2015:
+        return "2015 IKWF State Championships"
+
+    if year == 2016:
+        return "2016 IKWF State Championships"
+
+    if year == 2017:
+        return "2017 IKWF State Championships"
+
+    if year == 2018:
+        return "2018 IKWF State Championships"
+
+    if year == 2019:
+        return "2019 IKWF State Championships"
+
+    if year == 2020:
+        return "CANCELLED - 2020 IKWF State Championships"
+
+    if year == 2022:
+        return "2022 IKWF State Championships"
+
+    if year == 2023:
+        return "2023 IKWF State Championships"
+
+    if year == 2024:
+        return "IKWF Senior/Novice State Championships"
+
+    if year == 2025:
+        return "2025 IKWF State Championships"
+
     raise NotImplementedError(year)
 
 
-def _get_year_root(root: pathlib.Path, year: int) -> pathlib.Path:
+def _get_year_root(root: pathlib.Path, year: int, alternate: bool) -> pathlib.Path:
+    if alternate:
+        if year == 2024:
+            return root / "2024-intermediate"
+
+        raise NotImplementedError(year)
+
     return root / str(year)
 
 
@@ -49,10 +106,10 @@ def _events_page_search_events(driver: webdriver.Chrome):
     event_search_button.click()
 
 
-def _event_search_fill_inputs(driver: webdriver.Chrome, year: int):
+def _event_search_fill_inputs(driver: webdriver.Chrome, year: int, alternate: bool):
     base_wait = WebDriverWait(driver, 10)
 
-    event_name = _get_event_name(year)
+    event_name = _get_event_name(year, alternate)
     search_inputs = {
         "nameBox": event_name,
         "startDateMonth": "03",
@@ -292,22 +349,23 @@ class TeamDeductions(pydantic.RootModel[list[TeamDeduction]]):
     pass
 
 
-def get_year() -> int:
+def get_args() -> tuple[int, bool]:
     parser = argparse.ArgumentParser(prog="capture-deductions-selenium")
     parser.add_argument("--year", required=True, type=int)
+    parser.add_argument("--alternate", action="store_true")
     parsed = parser.parse_args()
-    return parsed.year
+    return parsed.year, parsed.alternate
 
 
 def main():
-    year = get_year()
+    year, alternate = get_args()
 
     driver = webdriver.Chrome()
     driver.get("https://www.trackwrestling.com/")
 
     _main_page_click_events(driver)
     _events_page_search_events(driver)
-    _event_search_fill_inputs(driver, year)
+    _event_search_fill_inputs(driver, year, alternate)
     _event_search_click_search(driver)
     _search_results_click_first(driver)
     _event_box_click_enter_event(driver)
@@ -337,7 +395,7 @@ def main():
         raise RuntimeError("Did not terminate iteration")
 
     to_serialize = TeamDeductions(root=all_deductions)
-    root = _get_year_root(HERE, year)
+    root = _get_year_root(HERE, year, alternate)
     with open(root / "deductions.selenium.json", "w") as file_obj:
         file_obj.write(to_serialize.model_dump_json(indent=2))
         file_obj.write("\n")
