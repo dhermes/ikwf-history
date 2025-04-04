@@ -111,6 +111,16 @@ def _parse_team_scores(
     return result
 
 
+class Deduction(pydantic.BaseModel):
+    team: str
+    reason: str
+    value: float
+
+
+class Deductions(pydantic.RootModel[list[Deduction]]):
+    pass
+
+
 def _get_opening_bout_numbers(soup: bs4.BeautifulSoup) -> list[int]:
     bout_number_links: list[bs4.Tag] = soup.find_all("a", class_="segment-track")
     bouts: dict[int, bs4.Tag] = {}
@@ -269,6 +279,10 @@ def main():
         selenium_team_scores = json.load(file_obj)
 
     team_scores = _parse_team_scores(selenium_team_scores)
+
+    with open(root / "deductions.selenium.json") as file_obj:
+        extracted = Deductions.model_validate_json(file_obj.read())
+        deductions = extracted.root
 
     with open(root / "brackets.selenium.json") as file_obj:
         selenium_brackets = json.load(file_obj)
