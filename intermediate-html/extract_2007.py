@@ -273,6 +273,71 @@ def _initial_entries(
     return entrants
 
 
+def _parse_rounds(
+    selenium_rounds: Any,
+    entrants_by_bracket: dict[tuple[bracket_utils.Division, int], list[Entrant]],
+) -> dict[bracket_utils.Division, list[TeamScore]]:
+    if not isinstance(selenium_rounds, dict):
+        raise TypeError("Unexpected value", type(selenium_rounds))
+
+    html = selenium_rounds["Champ Round 1 (32 Man)"]
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    all_h1_text = [h1.text for h1 in soup.find_all("h1")]
+    if all_h1_text != ["Champ Round 1 (32 Man)"]:
+        raise RuntimeError("Invariant violation", all_h1_text)
+
+    entrant_keys = set(entrants_by_bracket.keys())
+
+    all_h2 = soup.find_all("h2")
+    round_keys: set[tuple[bracket_utils.Division, int]] = set()
+    for h2 in all_h2:
+        division_display, weight_str = h2.text.split()
+        weight = int(weight_str)
+        division = _normalize_division(division_display)
+        round_keys.add((division, weight))
+
+        ul_sibling = h2.find_next_sibling()
+        if ul_sibling.name != "ul":
+            raise RuntimeError("Invariant violation", ul_sibling)
+
+        all_entries = [li for li in ul_sibling.find_all("li")]
+        if len(all_entries) != 8:
+            raise RuntimeError("Invariant violation", all_entries)
+
+        for entry in all_entries:
+            if not entry.text.startswith("Champ. Round 1 - "):
+                raise RuntimeError("Invariant violation", entry)
+
+            entry_text = entry.text[len("Champ. Round 1 - ") :]
+            if " received a bye " in entry_text:
+                winner, remaining = entry_text.split(" received a bye ")
+                if remaining.strip() != "() Bye":
+                    raise RuntimeError("Invariant violation", entry_text)
+
+                print((winner, None, "Bye", None))
+            else:
+                winner, loser_extra = entry_text.split(" won ")
+                result_how, loser_extra = loser_extra.split(" over ")
+                loser, result = loser_extra.rsplit(") ", 1)
+                loser = f"{loser})"
+                print((winner, loser, result, result_how))
+
+    if round_keys != entrant_keys:
+        raise RuntimeError("Invariant violation")
+
+
+# [
+#   "Champ Round 1 (32 Man)",
+#   "Champ Round 2 (32 Man)",
+#   "1st Wrestleback (32 Man)",
+#   "2nd Wrestleback (32 Man)",
+#   "Quarters (32 Man)",
+#   "Semis & WB (32 Man)"
+#   "Cons. Semis (32 Man)",
+#   "Placement Matches (32 Man)",
+# ]
+
+
 def main():
     root = HERE.parent / "raw-data" / "2007"
     with open(root / "team_scores.selenium.json") as file_obj:
@@ -287,7 +352,11 @@ def main():
     with open(root / "brackets.selenium.json") as file_obj:
         selenium_brackets = json.load(file_obj)
 
-    entrants: list[Entrant] = []
+    with open(root / "rounds.selenium.json") as file_obj:
+        selenium_rounds = json.load(file_obj)
+
+    entrants_by_bracket: dict[tuple[bracket_utils.Division, int], list[Entrant]] = {}
+
     for bracket_key, html in selenium_brackets.items():
         division_display, weight_str = bracket_key.split(" - ")
         weight = int(weight_str)
@@ -295,10 +364,14 @@ def main():
         division_scores = team_scores[division]
 
         soup = bs4.BeautifulSoup(html, features="html.parser")
-        entrants.extend(_initial_entries(soup, division, weight, division_scores))
+        bracket_entrants = _initial_entries(soup, division, weight, division_scores)
+        key = (division, weight)
+        if key in entrants_by_bracket:
+            raise KeyError("Duplicate", key)
 
-    for entrant in entrants:
-        print(entrant)
+        entrants_by_bracket[key] = bracket_entrants
+
+    _parse_rounds(selenium_rounds, entrants_by_bracket)
 
 
 if __name__ == "__main__":
