@@ -38,6 +38,41 @@ _INITIAL_ENTRY_INFO: tuple[
     ("championship_r32_16", "top", 60),
     ("championship_r32_16", "bottom", 62),
 )
+_BRACKET_FIXES: tuple[tuple[str, str], ...] = (
+    ("Christophe Bartels", "Christopher Bartels"),
+)
+_NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
+    ("Tyrone Sally Jr.", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
+        first_name="Tyrone",
+        last_name="Sally",
+        suffix="Jr",
+        team="Harvey Park Dist Twisters",
+    ),
+    ("Wardell Rosemon Jr.", "Dundee Highlanders"): bracket_utils.Competitor(
+        first_name="Wardell",
+        last_name="Rosemon",
+        suffix="Jr",
+        team="Dundee Highlanders",
+    ),
+    ("Archie Williams Jr.", "Champaign Kids Wrestling"): bracket_utils.Competitor(
+        first_name="Archie",
+        last_name="Williams",
+        suffix="Jr",
+        team="Champaign Kids Wrestling",
+    ),
+    ("Anthony Ferraris Jr", "Maine Eagles WC"): bracket_utils.Competitor(
+        first_name="Anthony", last_name="Ferraris", suffix="Jr", team="Maine Eagles WC"
+    ),
+    ("Lusiano Cantu Jr.", "Gomez Wrestling Academy"): bracket_utils.Competitor(
+        first_name="Lusiano",
+        last_name="Cantu",
+        suffix="Jr",
+        team="Gomez Wrestling Academy",
+    ),
+    ("Antwyone Brown Jr.", "Crosstown WC"): bracket_utils.Competitor(
+        first_name="Antwyone", last_name="Brown", suffix="Jr", team="Crosstown WC"
+    ),
+}
 
 
 class Entrant(pydantic.BaseModel):
@@ -48,6 +83,19 @@ class Entrant(pydantic.BaseModel):
     name: str | None
     team: str | None
     bout_number: int | None
+
+    @property
+    def long_name(self) -> str | None:
+        if self.name is None:
+            if self.team is not None:
+                raise RuntimeError("Invariant violation", self)
+
+            return None
+
+        if self.team is None:
+            raise RuntimeError("Invariant violation", self)
+
+        return f"{self.name} ({self.team})"
 
 
 def _normalize_division(division_display: str) -> bracket_utils.Division:
@@ -273,10 +321,93 @@ def _initial_entries(
     return entrants
 
 
+def _determine_result_type(result: str, result_how: str) -> bracket_utils.ResultType:
+    if result.startswith("OT "):
+        if result_how != "in overtime":
+            raise ValueError("Invalid `how`", result, result_how)
+
+        score_win_str, score_lose_str = result[len("OT ") :].split("-")
+        score_win = int(score_win_str)
+        score_lose = int(score_lose_str)
+        delta = score_win - score_lose
+        if not (0 < delta < 8):
+            raise ValueError("Unexpected difference", result, result_how)
+
+        return "decision"
+
+    if result.startswith("2-OT "):
+        if result_how != "in double overtime":
+            raise ValueError("Invalid `how`", result, result_how)
+
+        score_win_str, score_lose_str = result[len("2-OT ") :].split("-")
+        score_win = int(score_win_str)
+        score_lose = int(score_lose_str)
+        delta = score_win - score_lose
+        if not (0 < delta < 8):
+            raise ValueError("Unexpected difference", result, result_how)
+
+        return "decision"
+
+    if result == "Dec" or result.startswith("Dec "):
+        if result_how != "by decision":
+            raise ValueError("Invalid `how`", result, result_how)
+
+        return "decision"
+
+    if result.startswith("Maj "):
+        if result_how != "by major decision":
+            raise ValueError("Invalid `how`", result, result_how)
+
+        return "major"
+
+    if result.startswith("TF "):
+        if result_how != "by tech fall":
+            raise ValueError("Invalid `how`", result, result_how)
+
+        return "tech"
+
+    if result == "Fall" or result.startswith("Fall "):
+        if result_how != "by fall":
+            raise ValueError("Invalid `how`", result, result_how)
+
+        return "fall"
+
+    if result == "Bye":
+        if result_how != "":
+            raise ValueError("Invalid `how`", result, result_how)
+
+        return "bye"
+
+    raise NotImplementedError(result, result_how)
+
+
+def _to_competitor(entrant: Entrant) -> bracket_utils.Competitor | None:
+    if entrant.name is None:
+        if entrant.team is not None:
+            raise RuntimeError("Invariant violation", entrant)
+
+        return None
+
+    if entrant.team is None:
+        raise RuntimeError("Invariant violation", entrant)
+
+    exception_key = entrant.name, entrant.team
+    if exception_key in _NAME_EXCEPTIONS:
+        return _NAME_EXCEPTIONS[exception_key]
+
+    parts = entrant.name.split()
+    if len(parts) != 2:
+        raise NotImplementedError("Missing name exception", entrant)
+
+    return bracket_utils.Competitor(
+        first_name=parts[0], last_name=parts[1], suffix=None, team=entrant.team
+    )
+
+
 def _parse_rounds(
     selenium_rounds: Any,
     entrants_by_bracket: dict[tuple[bracket_utils.Division, int], list[Entrant]],
-) -> dict[bracket_utils.Division, list[TeamScore]]:
+) -> None:
     if not isinstance(selenium_rounds, dict):
         raise TypeError("Unexpected value", type(selenium_rounds))
 
@@ -288,23 +419,47 @@ def _parse_rounds(
 
     entrant_keys = set(entrants_by_bracket.keys())
 
-    all_h2 = soup.find_all("h2")
+    all_h2: list[bs4.Tag] = soup.find_all("h2")
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
     for h2 in all_h2:
         division_display, weight_str = h2.text.split()
         weight = int(weight_str)
         division = _normalize_division(division_display)
-        round_keys.add((division, weight))
+        key = (division, weight)
+        round_keys.add(key)
+
+        entrants = entrants_by_bracket[key]
 
         ul_sibling = h2.find_next_sibling()
         if ul_sibling.name != "ul":
             raise RuntimeError("Invariant violation", ul_sibling)
 
-        all_entries = [li for li in ul_sibling.find_all("li")]
+        all_entries: list[bs4.Tag] = [li for li in ul_sibling.find_all("li")]
         if len(all_entries) != 8:
             raise RuntimeError("Invariant violation", all_entries)
 
-        for entry in all_entries:
+        for i, entry in enumerate(all_entries):
+            slot_id = 2 * (i + 1)
+            match_slot: bracket_utils.MatchSlot = f"championship_r32_{slot_id:02}"
+
+            (top_entrant,) = [
+                entrant
+                for entrant in entrants
+                if entrant.match_slot == match_slot
+                and entrant.bracket_position == "top"
+            ]
+            top_competitor = _to_competitor(top_entrant)
+            top_entrant_name = top_entrant.long_name
+
+            (bottom_entrant,) = [
+                entrant
+                for entrant in entrants
+                if entrant.match_slot == match_slot
+                and entrant.bracket_position == "bottom"
+            ]
+            bottom_competitor = _to_competitor(bottom_entrant)
+            bottom_entrant_name = bottom_entrant.long_name
+
             if not entry.text.startswith("Champ. Round 1 - "):
                 raise RuntimeError("Invariant violation", entry)
 
@@ -314,13 +469,57 @@ def _parse_rounds(
                 if remaining.strip() != "() Bye":
                     raise RuntimeError("Invariant violation", entry_text)
 
-                print((winner, None, "Bye", None))
+                if winner == top_entrant_name:
+                    top_win = True
+                    if bottom_entrant_name is not None:
+                        raise RuntimeError("Invariant violation", entry_text)
+                elif winner == bottom_entrant_name:
+                    top_win = False
+                    if top_entrant_name is not None:
+                        raise RuntimeError("Invariant violation", entry_text)
+                else:
+                    raise RuntimeError("Invariant violation", entry_text)
+
+                result = "Bye"
+                result_type = _determine_result_type(result, "")
+                match = bracket_utils.Match(
+                    match_slot=match_slot,
+                    top_competitor=top_competitor,
+                    bottom_competitor=bottom_competitor,
+                    result=result,
+                    result_type=result_type,
+                    bout_number=bottom_entrant.bout_number,
+                    top_win=top_win,
+                )
+                print(match)
             else:
                 winner, loser_extra = entry_text.split(" won ")
                 result_how, loser_extra = loser_extra.split(" over ")
                 loser, result = loser_extra.rsplit(") ", 1)
                 loser = f"{loser})"
-                print((winner, loser, result, result_how))
+
+                if winner == top_entrant_name:
+                    top_win = True
+                    if loser != bottom_entrant_name:
+                        raise RuntimeError("Invariant violation", entry_text)
+                elif winner == bottom_entrant_name:
+                    top_win = False
+                    if loser != top_entrant_name:
+                        raise RuntimeError("Invariant violation", entry_text)
+                else:
+                    raise RuntimeError("Invariant violation", winner)
+
+                result_type = _determine_result_type(result, result_how)
+                match = bracket_utils.Match(
+                    match_slot=match_slot,
+                    top_competitor=top_competitor,
+                    bottom_competitor=bottom_competitor,
+                    result=result,
+                    result_type=result_type,
+                    bout_number=bottom_entrant.bout_number,
+                    top_win=top_win,
+                )
+                print(match)
 
     if round_keys != entrant_keys:
         raise RuntimeError("Invariant violation")
@@ -362,6 +561,12 @@ def main():
         weight = int(weight_str)
         division = _normalize_division(division_display)
         division_scores = team_scores[division]
+
+        if not isinstance(html, str):
+            raise TypeError("Unexpected value", type(html))
+
+        for before, after in _BRACKET_FIXES:
+            html = html.replace(before, after)
 
         soup = bs4.BeautifulSoup(html, features="html.parser")
         bracket_entrants = _initial_entries(soup, division, weight, division_scores)
