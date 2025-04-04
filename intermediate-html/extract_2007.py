@@ -368,12 +368,6 @@ def _initial_entries(
 
 
 def _determine_result_type(result: str, result_how: str) -> bracket_utils.ResultType:
-    if result.startswith("Inj. "):
-        if result_how != "by injury default":
-            raise ValueError("Invalid `how`", result, result_how)
-
-        return "default"
-
     if result.startswith("OT "):
         if result_how != "in overtime":
             raise ValueError("Invalid `how`", result, result_how)
@@ -423,6 +417,18 @@ def _determine_result_type(result: str, result_how: str) -> bracket_utils.Result
             raise ValueError("Invalid `how`", result, result_how)
 
         return "fall"
+
+    if result.startswith("Inj. "):
+        if result_how != "by injury default":
+            raise ValueError("Invalid `how`", result, result_how)
+
+        return "default"
+
+    if result == "FF":
+        if result_how != "by forfeit":
+            raise ValueError("Invalid `how`", result, result_how)
+
+        return "forfeit"
 
     if result == "Bye":
         if result_how != "":
@@ -867,7 +873,7 @@ def _parse_r16(
     return matches
 
 
-def _parse_qf(
+def _parse_quarterfinal(
     round_name: str,
     match_prefix: str,
     selenium_rounds: dict,
@@ -965,7 +971,7 @@ def _parse_qf(
             )
 
             # 2. Make the `entrant_map` aware of the loser
-            cons_bout_number = cons_bout_number_delta + (match.bout_number + 1) // 2
+            cons_bout_number = cons_bout_number_delta + match.bout_number
             lose_position = bracket_utils.next_match_position_lose_2007(match_slot)
             entrant_map.setdefault(lose_position, [])
             entrant_map[lose_position].append(
@@ -1089,6 +1095,118 @@ def _parse_consolation_round3(
     return matches
 
 
+def _parse_consolation_round4(
+    round_name: str,
+    match_prefix: str,
+    selenium_rounds: dict,
+    entrants_by_bracket: dict[tuple[bracket_utils.Division, int], EntrantMap],
+    weight_counts: dict[bracket_utils.Division, int],
+) -> list[bracket_utils.Match]:
+    html = selenium_rounds.pop(round_name, None)
+    if not isinstance(html, str):
+        raise TypeError("Unexpected value", type(html), round_name)
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    all_h1_text = [h1.text for h1 in soup.find_all("h1")]
+    if all_h1_text != [round_name]:
+        raise RuntimeError("Invariant violation", all_h1_text)
+
+    entrant_keys = set(entrants_by_bracket.keys())
+
+    all_h2: list[bs4.Tag] = soup.find_all("h2")
+    round_keys: set[tuple[bracket_utils.Division, int]] = set()
+    matches: list[bracket_utils.Match] = []
+    for h2 in all_h2:
+        division_display, weight_str = h2.text.split()
+        weight = int(weight_str)
+        division = _normalize_division(division_display)
+        key = (division, weight)
+        round_keys.add(key)
+
+        entrant_map = entrants_by_bracket[key]
+        round5_bout_number_delta = weight_counts[division] * 4
+
+        ul_sibling = h2.find_next_sibling()
+        if ul_sibling.name != "ul":
+            raise RuntimeError("Invariant violation", ul_sibling)
+
+        all_entries: list[bs4.Tag] = [li for li in ul_sibling.find_all("li")]
+        if len(all_entries) != 4:
+            raise RuntimeError("Invariant violation", all_entries)
+
+        for i in range(4):
+            entry = all_entries[i]
+            slot_id = i + 1
+            match_slot: bracket_utils.MatchSlot = (
+                f"consolation_round4_blood_{slot_id:02}"
+            )
+
+            top_entrants = entrant_map[(match_slot, "top")]
+            if len(top_entrants) != 1:
+                raise RuntimeError("Invariant violation", len(top_entrants), match_slot)
+
+            bottom_entrants = entrant_map[(match_slot, "bottom")]
+            if len(bottom_entrants) != 1:
+                raise RuntimeError(
+                    "Invariant violation", len(bottom_entrants), match_slot
+                )
+
+            if not entry.text.startswith(match_prefix):
+                raise RuntimeError("Invariant violation", entry)
+
+            entry_text = entry.text[len(match_prefix) :]
+            top_index, bottom_index, top_win, result, result_type = _handle_match(
+                entry_text, top_entrants, bottom_entrants
+            )
+
+            top_entrant = top_entrants[top_index]
+            bottom_entrant = bottom_entrants[bottom_index]
+            top_competitor = _to_competitor(top_entrant)
+            bottom_competitor = _to_competitor(bottom_entrant)
+            match = bracket_utils.Match(
+                match_slot=match_slot,
+                top_competitor=top_competitor,
+                bottom_competitor=bottom_competitor,
+                result=result,
+                result_type=result_type,
+                bout_number=_require_bout_number(top_entrant, bottom_entrant),
+                top_win=top_win,
+            )
+            matches.append(match)
+
+            winner_entrant = top_entrant
+            if not top_win:
+                winner_entrant = bottom_entrant
+
+            if match.bout_number is None:
+                raise RuntimeError("Invariant violation")
+
+            # Make the `entrant_map` aware of the winner (loser is eliminated)
+            half_next_multiple = (match.bout_number + 1) // 2
+            quarter_next_multiple = (match.bout_number + 3) // 4
+            # NOTE: This is fairly complex because the semifinals and
+            #       quarterfinal wrestlebacks share bout numbers.
+            round5_bout_number = (
+                round5_bout_number_delta
+                + half_next_multiple
+                + 2 * quarter_next_multiple
+            )
+            win_position = bracket_utils.next_match_position_win_2007(match_slot)
+            entrant_map.setdefault(win_position, [])
+            entrant_map[win_position].append(
+                Entrant(
+                    name=winner_entrant.name,
+                    team=winner_entrant.team,
+                    bout_number=round5_bout_number,
+                )
+            )
+
+    if round_keys != entrant_keys:
+        raise RuntimeError("Invariant violation")
+
+    return matches
+
+
 def _parse_rounds(
     selenium_rounds: Any,
     entrants_by_bracket: dict[tuple[bracket_utils.Division, int], EntrantMap],
@@ -1124,7 +1242,7 @@ def _parse_rounds(
     )
 
     matches.extend(
-        _parse_qf(
+        _parse_quarterfinal(
             "Quarters (32 Man)",
             "Quarterfinal - ",
             selenium_rounds,
@@ -1143,7 +1261,16 @@ def _parse_rounds(
         )
     )
 
-    # "2nd Wrestleback (32 Man)"
+    matches.extend(
+        _parse_consolation_round4(
+            "2nd Wrestleback (32 Man)",
+            "Cons. Round 2 - ",
+            selenium_rounds,
+            entrants_by_bracket,
+            weight_counts,
+        )
+    )
+
     # "Semis & WB (32 Man)
     # "Cons. Semis (32 Man)"
     # "Placement Matches (32 Man)"
