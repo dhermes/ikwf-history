@@ -11,6 +11,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 HERE = pathlib.Path(__file__).resolve().parent
+_MATCH_FORMAT = (
+    "[boutType] - [boutNo] - [wFName] [wLName] ([wTeam]) [winType] "
+    "[lFName] [lLName] ([lTeam]) [scoreSummary]"
+)
 
 
 def _get_event_name(year: int, alternate: bool) -> str:
@@ -270,6 +274,19 @@ def _capture_for_round(
     )
 
     option.click()
+
+    # Now set match format in "Advanced" settings
+    advanced_link = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.LINK_TEXT, "Advanced"))
+    )
+    advanced_link.click()
+
+    # Fill out <id id="format">
+    format_input = WebDriverWait(driver, 10).until(
+        EC.visibility_of_element_located((By.ID, "format"))
+    )
+    format_input.clear()
+    format_input.send_keys(_MATCH_FORMAT)
 
     go_button = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.XPATH, "//input[@value='Go']"))
