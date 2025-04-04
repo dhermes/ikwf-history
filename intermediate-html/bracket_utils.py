@@ -196,10 +196,10 @@ def set_winner(match: MatchRaw, by_match: dict[MatchSlot, MatchRaw]) -> None:
 
     if match.winner_from is not None:
         match_slot, bracket_position = match.winner_from
-        competitor_key = "bottom_competitor"
         if bracket_position == "top":
-            competitor_key = "top_competitor"
-        competitor = getattr(by_match[match_slot], competitor_key)
+            competitor = by_match[match_slot].top_competitor
+        else:
+            competitor = by_match[match_slot].bottom_competitor
         match.winner = competitor
         return
 
