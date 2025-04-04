@@ -12,20 +12,28 @@ HERE = pathlib.Path(__file__).resolve().parent
 _INITIAL_ENTRY_INFO: tuple[
     tuple[bracket_utils.MatchSlot, bracket_utils.BracketPosition, int], ...
 ] = (
+    ("championship_r32_01", "top", 0),
     ("championship_r32_02", "top", 4),
     ("championship_r32_02", "bottom", 7),
+    ("championship_r32_03", "top", 8),
     ("championship_r32_04", "top", 12),
     ("championship_r32_04", "bottom", 15),
+    ("championship_r32_05", "top", 16),
     ("championship_r32_06", "top", 20),
     ("championship_r32_06", "bottom", 23),
+    ("championship_r32_07", "top", 24),
     ("championship_r32_08", "top", 28),
     ("championship_r32_08", "bottom", 31),
+    ("championship_r32_09", "top", 32),
     ("championship_r32_10", "top", 36),
     ("championship_r32_10", "bottom", 39),
+    ("championship_r32_11", "top", 40),
     ("championship_r32_12", "top", 44),
     ("championship_r32_12", "bottom", 47),
+    ("championship_r32_13", "top", 48),
     ("championship_r32_14", "top", 52),
     ("championship_r32_14", "bottom", 55),
+    ("championship_r32_15", "top", 56),
     ("championship_r32_16", "top", 60),
     ("championship_r32_16", "bottom", 62),
 )
