@@ -98,6 +98,8 @@ MatchSlot = Literal[
     "championship_first_place",
 ]
 
+BracketPosition = Literal["top", "bottom"]
+
 
 class MatchRaw(pydantic.BaseModel):
     match_slot: MatchSlot
@@ -106,8 +108,7 @@ class MatchRaw(pydantic.BaseModel):
     result: str
     bout_number: int | None
     winner: CompetitorRaw | None
-    # TODO: `tuple[MatchSlot, BracketPosition]`
-    winner_from: tuple[MatchSlot, str] | None
+    winner_from: tuple[MatchSlot, BracketPosition] | None
 
 
 ResultType = Literal[
@@ -194,8 +195,11 @@ def set_winner(match: MatchRaw, by_match: dict[MatchSlot, MatchRaw]) -> None:
         raise ValueError("Invariant violation", match)
 
     if match.winner_from is not None:
-        match_key, competitor_key = match.winner_from
-        competitor = getattr(by_match[match_key], competitor_key)
+        match_slot, bracket_position = match.winner_from
+        competitor_key = "bottom_competitor"
+        if bracket_position == "top":
+            competitor_key = "top_competitor"
+        competitor = getattr(by_match[match_slot], competitor_key)
         match.winner = competitor
         return
 
@@ -553,9 +557,6 @@ def _get_result_points(result_type: ResultType) -> float:
         return 0.0  # This is just an approximation
 
     raise NotImplementedError(result_type)
-
-
-BracketPosition = Literal["top", "bottom"]
 
 
 def next_match_position_win_2007(
