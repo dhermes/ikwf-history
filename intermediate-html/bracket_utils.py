@@ -1351,3 +1351,6 @@ def print_matches_sql(match_rows: list[MatchRow]) -> None:
             f"{top_win_str}, {result_str}, '{row.result_type}', "
             f"'{row.top_team_acronym}', '{row.bottom_team_acronym}'),"
         )
+
+
+BracketPosition = Literal["top", "bottom"]
