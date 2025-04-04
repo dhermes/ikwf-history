@@ -2,6 +2,7 @@
 
 import json
 import pathlib
+from typing import Any
 
 import bs4
 import pydantic
@@ -44,7 +45,8 @@ class Entrant(pydantic.BaseModel):
     weight: int
     match_slot: bracket_utils.MatchSlot
     bracket_position: bracket_utils.BracketPosition
-    name_team: str
+    name: str | None
+    team: str | None
     bout_number: int | None
 
 
@@ -56,6 +58,57 @@ def _normalize_division(division_display: str) -> bracket_utils.Division:
         return "senior"
 
     raise NotImplementedError(division_display)
+
+
+class TeamScore(pydantic.BaseModel):
+    name: str
+    acronym: str
+    score: float
+
+
+def _team_scores_from_html(html: Any) -> list[TeamScore]:
+    if not isinstance(html, str):
+        raise TypeError("Unexpected value", type(html))
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+
+    scores: list[TeamScore] = []
+    for tr in soup.find_all("tr"):
+        all_td = tr.find_all("td")
+        all_th = tr.find_all("th")
+        if len(all_td) == 0 and len(all_th) == 4:
+            continue
+
+        if len(all_td) != 4 or len(all_th) != 0:
+            raise RuntimeError("Invariant violation", tr)
+
+        scores.append(
+            TeamScore(
+                name=all_td[1].text,
+                acronym=all_td[2].text,
+                score=float(all_td[3].text),
+            )
+        )
+
+    return scores
+
+
+def _parse_team_scores(
+    selenium_team_scores: Any,
+) -> dict[bracket_utils.Division, list[TeamScore]]:
+    if not isinstance(selenium_team_scores, dict):
+        raise TypeError("Unexpected value", type(selenium_team_scores))
+
+    result: dict[bracket_utils.Division, list[TeamScore]] = {}
+    for division_display, html in selenium_team_scores.items():
+        division = _normalize_division(division_display)
+        if division in result:
+            raise KeyError("Duplicate value", division)
+
+        scores = _team_scores_from_html(html)
+        result[division] = scores
+
+    return result
 
 
 def _get_opening_bout_numbers(soup: bs4.BeautifulSoup) -> list[int]:
@@ -133,8 +186,40 @@ def _is_valid_initial_entry(
     return False
 
 
+def _split_name_team(
+    name_team: str, division_scores: list[TeamScore]
+) -> tuple[str, str] | tuple[None, None]:
+    if name_team == "Bye":
+        return None, None
+
+    if not name_team.endswith(")"):
+        raise RuntimeError("Invariant violation", name_team)
+
+    to_parse = name_team[:-1]
+
+    parts = to_parse.split(" (", 1)
+    if len(parts) != 2:
+        raise RuntimeError("Invariant violation", name_team)
+
+    name = parts[0]
+    team_prefix = parts[1]
+
+    matches: list[str] = []
+    for score in division_scores:
+        if score.name.startswith(team_prefix):
+            matches.append(score.name)
+
+    if len(matches) != 1:
+        raise RuntimeError("Invariant violation", name_team, matches)
+
+    return name, matches[0]
+
+
 def _initial_entries(
-    soup: bs4.BeautifulSoup, division: bracket_utils.Division, weight: int
+    soup: bs4.BeautifulSoup,
+    division: bracket_utils.Division,
+    weight: int,
+    division_scores: list[TeamScore],
 ) -> list[Entrant]:
     initial_bout_index = 0
     opening_bouts = _get_opening_bout_numbers(soup)
@@ -162,13 +247,15 @@ def _initial_entries(
         if not _is_valid_initial_entry(wrestler_td, bout_number, opening_bouts):
             raise RuntimeError("Invariant violation", index, wrestler_td)
 
+        name, team = _split_name_team(wrestler_td.text, division_scores)
         entrants.append(
             Entrant(
                 division=division,
                 weight=weight,
                 match_slot=match_slot,
                 bracket_position=bracket_position,
-                name_team=wrestler_td.text,
+                name=name,
+                team=team,
                 bout_number=bout_number,
             )
         )
@@ -178,6 +265,11 @@ def _initial_entries(
 
 def main():
     root = HERE.parent / "raw-data" / "2007"
+    with open(root / "team_scores.selenium.json") as file_obj:
+        selenium_team_scores = json.load(file_obj)
+
+    team_scores = _parse_team_scores(selenium_team_scores)
+
     with open(root / "brackets.selenium.json") as file_obj:
         selenium_brackets = json.load(file_obj)
 
@@ -186,9 +278,13 @@ def main():
         division_display, weight_str = bracket_key.split(" - ")
         weight = int(weight_str)
         division = _normalize_division(division_display)
+        division_scores = team_scores[division]
 
         soup = bs4.BeautifulSoup(html, features="html.parser")
-        entrants.extend(_initial_entries(soup, division, weight))
+        entrants.extend(_initial_entries(soup, division, weight, division_scores))
+
+    for entrant in entrants:
+        print(entrant)
 
 
 if __name__ == "__main__":
