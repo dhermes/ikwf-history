@@ -76,10 +76,6 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
 
 
 class Entrant(pydantic.BaseModel):
-    division: bracket_utils.Division
-    weight: int
-    match_slot: bracket_utils.MatchSlot
-    bracket_position: bracket_utils.BracketPosition
     name: str | None
     team: str | None
     bout_number: int | None
@@ -96,6 +92,11 @@ class Entrant(pydantic.BaseModel):
             raise RuntimeError("Invariant violation", self)
 
         return f"{self.name} ({self.team})"
+
+
+EntrantMap = dict[
+    tuple[bracket_utils.MatchSlot, bracket_utils.BracketPosition], Entrant
+]
 
 
 def _normalize_division(division_display: str) -> bracket_utils.Division:
@@ -274,11 +275,8 @@ def _split_name_team(
 
 
 def _initial_entries(
-    soup: bs4.BeautifulSoup,
-    division: bracket_utils.Division,
-    weight: int,
-    division_scores: list[TeamScore],
-) -> list[Entrant]:
+    soup: bs4.BeautifulSoup, division_scores: list[TeamScore]
+) -> EntrantMap:
     initial_bout_index = 0
     opening_bouts = _get_opening_bout_numbers(soup)
 
@@ -288,7 +286,9 @@ def _initial_entries(
     if len(all_wrestler_tds) != 63:
         raise RuntimeError("Invariant violation", len(all_wrestler_tds))
 
-    entrants: list[Entrant] = []
+    entrants: dict[
+        tuple[bracket_utils.MatchSlot, bracket_utils.BracketPosition], Entrant
+    ] = {}
 
     for match_slot, bracket_position, index in _INITIAL_ENTRY_INFO:
         wrestler_td = all_wrestler_tds[index]
@@ -306,16 +306,14 @@ def _initial_entries(
             raise RuntimeError("Invariant violation", index, wrestler_td)
 
         name, team = _split_name_team(wrestler_td.text, division_scores)
-        entrants.append(
-            Entrant(
-                division=division,
-                weight=weight,
-                match_slot=match_slot,
-                bracket_position=bracket_position,
-                name=name,
-                team=team,
-                bout_number=bout_number,
-            )
+        key = match_slot, bracket_position
+        if key in entrants:
+            raise KeyError("Duplicate", key)
+
+        entrants[key] = Entrant(
+            name=name,
+            team=team,
+            bout_number=bout_number,
         )
 
     return entrants
@@ -406,7 +404,7 @@ def _to_competitor(entrant: Entrant) -> bracket_utils.Competitor | None:
 
 def _parse_rounds(
     selenium_rounds: Any,
-    entrants_by_bracket: dict[tuple[bracket_utils.Division, int], list[Entrant]],
+    entrants_by_bracket: dict[tuple[bracket_utils.Division, int], EntrantMap],
 ) -> None:
     if not isinstance(selenium_rounds, dict):
         raise TypeError("Unexpected value", type(selenium_rounds))
@@ -442,21 +440,11 @@ def _parse_rounds(
             slot_id = 2 * (i + 1)
             match_slot: bracket_utils.MatchSlot = f"championship_r32_{slot_id:02}"
 
-            (top_entrant,) = [
-                entrant
-                for entrant in entrants
-                if entrant.match_slot == match_slot
-                and entrant.bracket_position == "top"
-            ]
+            top_entrant = entrants[(match_slot, "top")]
             top_competitor = _to_competitor(top_entrant)
             top_entrant_name = top_entrant.long_name
 
-            (bottom_entrant,) = [
-                entrant
-                for entrant in entrants
-                if entrant.match_slot == match_slot
-                and entrant.bracket_position == "bottom"
-            ]
+            bottom_entrant = entrants[(match_slot, "bottom")]
             bottom_competitor = _to_competitor(bottom_entrant)
             bottom_entrant_name = bottom_entrant.long_name
 
@@ -554,7 +542,7 @@ def main():
     with open(root / "rounds.selenium.json") as file_obj:
         selenium_rounds = json.load(file_obj)
 
-    entrants_by_bracket: dict[tuple[bracket_utils.Division, int], list[Entrant]] = {}
+    entrants_by_bracket: dict[tuple[bracket_utils.Division, int], EntrantMap] = {}
 
     for bracket_key, html in selenium_brackets.items():
         division_display, weight_str = bracket_key.split(" - ")
@@ -569,7 +557,7 @@ def main():
             html = html.replace(before, after)
 
         soup = bs4.BeautifulSoup(html, features="html.parser")
-        bracket_entrants = _initial_entries(soup, division, weight, division_scores)
+        bracket_entrants = _initial_entries(soup, division_scores)
         key = (division, weight)
         if key in entrants_by_bracket:
             raise KeyError("Duplicate", key)
