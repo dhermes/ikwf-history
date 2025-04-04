@@ -456,50 +456,110 @@ def _to_competitor(entrant: Entrant) -> bracket_utils.Competitor | None:
     )
 
 
+def _get_entrant(index: int | None, entrants: list[Entrant]) -> Entrant:
+    if index is not None:
+        return entrants[index]
+
+    bout_numbers = set(entrant.bout_number for entrant in entrants)
+    if len(bout_numbers) != 1:
+        raise RuntimeError("Bout numbers must agree", bout_numbers)
+
+    bout_number = bout_numbers.pop()
+    if bout_number is None:
+        raise RuntimeError("Must have a bout number", bout_number)
+
+    return Entrant(name=None, team=None, bout_number=bout_number)
+
+
 def _handle_bye(
-    entry_text: str, top_entrant_name: str | None, bottom_entrant_name: str | None
-) -> tuple[bool, str, bracket_utils.ResultType]:
+    entry_text: str, top_entrants: list[Entrant], bottom_entrants: list[Entrant]
+) -> tuple[int | None, int | None, bool, str, bracket_utils.ResultType]:
+    top_entrant_names = [entrant.long_name for entrant in top_entrants]
+    bottom_entrant_names = [entrant.long_name for entrant in bottom_entrants]
+
     winner, remaining = entry_text.split(" received a bye ")
     if remaining.strip() != "() Bye":
         raise RuntimeError("Invariant violation", entry_text)
 
-    if winner == top_entrant_name:
+    winner_top_index = _matching_index(winner, top_entrant_names)
+    winner_bottom_index = _matching_index(winner, bottom_entrant_names)
+
+    if winner_top_index is not None:
+        if winner_bottom_index is not None:
+            raise RuntimeError("Invariant violation", entry_text)
+
+        top_index = winner_top_index
+        bottom_index = None
         top_win = True
-        if bottom_entrant_name is not None:
+    elif winner_bottom_index is not None:
+        if winner_top_index is not None:
             raise RuntimeError("Invariant violation", entry_text)
-    elif winner == bottom_entrant_name:
+
+        top_index = None
+        bottom_index = winner_bottom_index
         top_win = False
-        if top_entrant_name is not None:
-            raise RuntimeError("Invariant violation", entry_text)
     else:
         raise RuntimeError("Invariant violation", entry_text)
 
     result = "Bye"
     result_type = _determine_result_type(result, "")
-    return top_win, result, result_type
+    return top_index, bottom_index, top_win, result, result_type
+
+
+def _matching_index(value: str, choices: list[str | None]) -> int | None:
+    matches = [i for i, choice in enumerate(choices) if choice == value]
+    if len(matches) == 0:
+        return None
+
+    if len(matches) != 1:
+        raise RuntimeError("Invariant violation", value, matches, choices)
+
+    return matches[0]
 
 
 def _handle_match(
-    entry_text: str, top_entrant_name: str | None, bottom_entrant_name: str | None
-) -> tuple[bool, str, bracket_utils.ResultType]:
+    entry_text: str, top_entrants: list[Entrant], bottom_entrants: list[Entrant]
+) -> tuple[int, int, bool, str, bracket_utils.ResultType]:
+    top_entrant_names = [entrant.long_name for entrant in top_entrants]
+    bottom_entrant_names = [entrant.long_name for entrant in bottom_entrants]
+
     winner, loser_extra = entry_text.split(" won ")
     result_how, loser_extra = loser_extra.split(" over ")
     loser, result = loser_extra.rsplit(") ", 1)
     loser = f"{loser})"
 
-    if winner == top_entrant_name:
+    winner_top_index = _matching_index(winner, top_entrant_names)
+    winner_bottom_index = _matching_index(winner, bottom_entrant_names)
+    loser_top_index = _matching_index(loser, top_entrant_names)
+    loser_bottom_index = _matching_index(loser, bottom_entrant_names)
+
+    if winner_top_index is not None:
+        if (
+            loser_bottom_index is None
+            or winner_bottom_index is not None
+            or loser_top_index is not None
+        ):
+            raise RuntimeError("Invariant violation", entry_text)
+
         top_win = True
-        if loser != bottom_entrant_name:
+        top_index = winner_top_index
+        bottom_index = loser_bottom_index
+    elif winner_bottom_index is not None:
+        if (
+            loser_top_index is None
+            or winner_top_index is not None
+            or loser_bottom_index is not None
+        ):
             raise RuntimeError("Invariant violation", entry_text)
-    elif winner == bottom_entrant_name:
+
+        top_index = loser_top_index
+        bottom_index = winner_bottom_index
         top_win = False
-        if loser != top_entrant_name:
-            raise RuntimeError("Invariant violation", entry_text)
     else:
         raise RuntimeError("Invariant violation", winner)
 
     result_type = _determine_result_type(result, result_how)
-    return top_win, result, result_type
+    return top_index, bottom_index, top_win, result, result_type
 
 
 def _add_r32_bye(
@@ -598,30 +658,28 @@ def _parse_r32(
             top_entrants = entrant_map[(match_slot, "top")]
             if len(top_entrants) != 1:
                 raise RuntimeError("Invariant violation", match_slot)
-            top_entrant = top_entrants[0]
-            top_competitor = _to_competitor(top_entrant)
-            top_entrant_name = top_entrant.long_name
 
             bottom_entrants = entrant_map[(match_slot, "bottom")]
             if len(bottom_entrants) != 1:
                 raise RuntimeError("Invariant violation", match_slot)
-            bottom_entrant = bottom_entrants[0]
-            bottom_competitor = _to_competitor(bottom_entrant)
-            bottom_entrant_name = bottom_entrant.long_name
 
             if not entry.text.startswith(match_prefix):
                 raise RuntimeError("Invariant violation", entry)
 
             entry_text = entry.text[len(match_prefix) :]
             if " received a bye " in entry_text:
-                top_win, result, result_type = _handle_bye(
-                    entry_text, top_entrant_name, bottom_entrant_name
+                _, _, top_win, result, result_type = _handle_bye(
+                    entry_text, top_entrants, bottom_entrants
                 )
             else:
-                top_win, result, result_type = _handle_match(
-                    entry_text, top_entrant_name, bottom_entrant_name
+                _, _, top_win, result, result_type = _handle_match(
+                    entry_text, top_entrants, bottom_entrants
                 )
 
+            top_entrant = top_entrants[0]
+            bottom_entrant = bottom_entrants[0]
+            top_competitor = _to_competitor(top_entrant)
+            bottom_competitor = _to_competitor(bottom_entrant)
             match = bracket_utils.Match(
                 match_slot=match_slot,
                 top_competitor=top_competitor,
@@ -739,30 +797,23 @@ def _parse_r16(
             top_entrants = entrant_map[(match_slot, "top")]
             if len(top_entrants) != 1:
                 raise RuntimeError("Invariant violation", match_slot)
-            top_entrant = top_entrants[0]
-            top_competitor = _to_competitor(top_entrant)
-            top_entrant_name = top_entrant.long_name
 
             bottom_entrants = entrant_map[(match_slot, "bottom")]
             if len(bottom_entrants) != 1:
                 raise RuntimeError("Invariant violation", match_slot)
-            bottom_entrant = bottom_entrants[0]
-            bottom_competitor = _to_competitor(bottom_entrant)
-            bottom_entrant_name = bottom_entrant.long_name
 
             if not entry.text.startswith(match_prefix):
                 raise RuntimeError("Invariant violation", entry)
 
             entry_text = entry.text[len(match_prefix) :]
-            if " received a bye " in entry_text:
-                top_win, result, result_type = _handle_bye(
-                    entry_text, top_entrant_name, bottom_entrant_name
-                )
-            else:
-                top_win, result, result_type = _handle_match(
-                    entry_text, top_entrant_name, bottom_entrant_name
-                )
+            top_index, bottom_index, top_win, result, result_type = _handle_match(
+                entry_text, top_entrants, bottom_entrants
+            )
 
+            top_entrant = top_entrants[top_index]
+            bottom_entrant = bottom_entrants[bottom_index]
+            top_competitor = _to_competitor(top_entrant)
+            bottom_competitor = _to_competitor(bottom_entrant)
             match = bracket_utils.Match(
                 match_slot=match_slot,
                 top_competitor=top_competitor,
@@ -864,30 +915,23 @@ def _parse_qf(
             top_entrants = entrant_map[(match_slot, "top")]
             if len(top_entrants) != 1:
                 raise RuntimeError("Invariant violation", match_slot)
-            top_entrant = top_entrants[0]
-            top_competitor = _to_competitor(top_entrant)
-            top_entrant_name = top_entrant.long_name
 
             bottom_entrants = entrant_map[(match_slot, "bottom")]
             if len(bottom_entrants) != 1:
                 raise RuntimeError("Invariant violation", match_slot)
-            bottom_entrant = bottom_entrants[0]
-            bottom_competitor = _to_competitor(bottom_entrant)
-            bottom_entrant_name = bottom_entrant.long_name
 
             if not entry.text.startswith(match_prefix):
                 raise RuntimeError("Invariant violation", entry)
 
             entry_text = entry.text[len(match_prefix) :]
-            if " received a bye " in entry_text:
-                top_win, result, result_type = _handle_bye(
-                    entry_text, top_entrant_name, bottom_entrant_name
-                )
-            else:
-                top_win, result, result_type = _handle_match(
-                    entry_text, top_entrant_name, bottom_entrant_name
-                )
+            top_index, bottom_index, top_win, result, result_type = _handle_match(
+                entry_text, top_entrants, bottom_entrants
+            )
 
+            top_entrant = top_entrants[top_index]
+            bottom_entrant = bottom_entrants[bottom_index]
+            top_competitor = _to_competitor(top_entrant)
+            bottom_competitor = _to_competitor(bottom_entrant)
             match = bracket_utils.Match(
                 match_slot=match_slot,
                 top_competitor=top_competitor,
@@ -929,6 +973,113 @@ def _parse_qf(
                     name=loser_entrant.name,
                     team=loser_entrant.team,
                     bout_number=cons_bout_number,
+                )
+            )
+
+    if round_keys != entrant_keys:
+        raise RuntimeError("Invariant violation")
+
+    return matches
+
+
+def _parse_consolation_round3(
+    round_name: str,
+    match_prefix: str,
+    selenium_rounds: dict,
+    entrants_by_bracket: dict[tuple[bracket_utils.Division, int], EntrantMap],
+    weight_counts: dict[bracket_utils.Division, int],
+) -> list[bracket_utils.Match]:
+    html = selenium_rounds.pop(round_name, None)
+    if not isinstance(html, str):
+        raise TypeError("Unexpected value", type(html), round_name)
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    all_h1_text = [h1.text for h1 in soup.find_all("h1")]
+    if all_h1_text != [round_name]:
+        raise RuntimeError("Invariant violation", all_h1_text)
+
+    entrant_keys = set(entrants_by_bracket.keys())
+
+    all_h2: list[bs4.Tag] = soup.find_all("h2")
+    round_keys: set[tuple[bracket_utils.Division, int]] = set()
+    matches: list[bracket_utils.Match] = []
+    for h2 in all_h2:
+        division_display, weight_str = h2.text.split()
+        weight = int(weight_str)
+        division = _normalize_division(division_display)
+        key = (division, weight)
+        round_keys.add(key)
+
+        entrant_map = entrants_by_bracket[key]
+        round4_bout_number_delta = weight_counts[division] * 4
+
+        ul_sibling = h2.find_next_sibling()
+        if ul_sibling.name != "ul":
+            raise RuntimeError("Invariant violation", ul_sibling)
+
+        all_entries: list[bs4.Tag] = [li for li in ul_sibling.find_all("li")]
+        if len(all_entries) != 4:
+            raise RuntimeError("Invariant violation", all_entries)
+
+        for i in range(4):
+            entry = all_entries[i]
+            slot_id = i + 1
+            match_slot: bracket_utils.MatchSlot = f"consolation_round3_{slot_id:02}"
+
+            top_entrants = entrant_map[(match_slot, "top")]
+            if len(top_entrants) != 2:
+                raise RuntimeError("Invariant violation", len(top_entrants), match_slot)
+
+            bottom_entrants = entrant_map[(match_slot, "bottom")]
+            if len(bottom_entrants) != 2:
+                raise RuntimeError(
+                    "Invariant violation", len(bottom_entrants), match_slot
+                )
+
+            if not entry.text.startswith(match_prefix):
+                raise RuntimeError("Invariant violation", entry)
+
+            entry_text = entry.text[len(match_prefix) :]
+            if " received a bye " in entry_text:
+                top_index, bottom_index, top_win, result, result_type = _handle_bye(
+                    entry_text, top_entrants, bottom_entrants
+                )
+            else:
+                top_index, bottom_index, top_win, result, result_type = _handle_match(
+                    entry_text, top_entrants, bottom_entrants
+                )
+
+            top_entrant = _get_entrant(top_index, top_entrants)
+            bottom_entrant = _get_entrant(bottom_index, bottom_entrants)
+            top_competitor = _to_competitor(top_entrant)
+            bottom_competitor = _to_competitor(bottom_entrant)
+            match = bracket_utils.Match(
+                match_slot=match_slot,
+                top_competitor=top_competitor,
+                bottom_competitor=bottom_competitor,
+                result=result,
+                result_type=result_type,
+                bout_number=_require_bout_number(top_entrant, bottom_entrant),
+                top_win=top_win,
+            )
+            matches.append(match)
+
+            winner_entrant = top_entrant
+            if not top_win:
+                winner_entrant = bottom_entrant
+
+            if match.bout_number is None:
+                raise RuntimeError("Invariant violation")
+
+            # Make the `entrant_map` aware of the winner (loser is eliminated)
+            round4_bout_number = round4_bout_number_delta + match.bout_number
+            win_position = bracket_utils.next_match_position_win_2007(match_slot)
+            entrant_map.setdefault(win_position, [])
+            entrant_map[win_position].append(
+                Entrant(
+                    name=winner_entrant.name,
+                    team=winner_entrant.team,
+                    bout_number=round4_bout_number,
                 )
             )
 
@@ -982,7 +1133,16 @@ def _parse_rounds(
         )
     )
 
-    # "1st Wrestleback (32 Man)"
+    matches.extend(
+        _parse_consolation_round3(
+            "1st Wrestleback (32 Man)",
+            "Cons. Round 1 - ",
+            selenium_rounds,
+            entrants_by_bracket,
+            weight_counts,
+        )
+    )
+
     # "2nd Wrestleback (32 Man)"
     # "Semis & WB (32 Man)
     # "Cons. Semis (32 Man)"
