@@ -179,13 +179,7 @@ def _parse_team_scores(
     return result
 
 
-class Deduction(pydantic.BaseModel):
-    team: str
-    reason: str
-    value: float
-
-
-class Deductions(pydantic.RootModel[list[Deduction]]):
+class Deductions(pydantic.RootModel[list[bracket_utils.Deduction]]):
     pass
 
 
@@ -1535,7 +1529,7 @@ def main():
         weight_classes.append(weight_class)
 
     extracted_tournament = bracket_utils.ExtractedTournament(
-        weight_classes=weight_classes, team_scores=team_scores
+        weight_classes=weight_classes, team_scores=team_scores, deductions=deductions
     )
     with open(HERE / "extracted.2007.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))

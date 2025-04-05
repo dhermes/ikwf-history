@@ -155,9 +155,16 @@ class TeamScore(pydantic.BaseModel):
     score: float
 
 
+class Deduction(pydantic.BaseModel):
+    team: str
+    reason: str
+    value: float
+
+
 class ExtractedTournament(pydantic.BaseModel):
     weight_classes: list[WeightClass]
     team_scores: dict[Division, list[TeamScore]]
+    deductions: list[Deduction]
 
 
 class CompetitorWithWeight(pydantic.BaseModel):
