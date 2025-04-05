@@ -38,15 +38,15 @@ _INITIAL_ENTRY_INFO: tuple[
     ("championship_r32_16", "top", 60),
     ("championship_r32_16", "bottom", 62),
 )
-_NAME_FIXES: tuple[tuple[str, str], ...] = (
-    ("Aaron Brewton III", "Aaron Brewton II"),
-    ("Brendan Ty Hall", "Brendan Tyler Hall"),
-    ("Christophe Bartels", "Christopher Bartels"),
-    ("Christophe Carton", "Christopher Carton"),
-    ("Christophe Lopez", "Christopher Lopez"),
-    ("Christophe Wright", "Christopher Wright"),
-    ("Malik - Ja Taylor", "Malik - Jabri Taylor"),
-)
+_NAME_FIXES: dict[str, str] = {
+    "Aaron Brewton III": "Aaron Brewton II",
+    "Brendan Ty Hall": "Brendan Tyler Hall",
+    "Christophe Bartels": "Christopher Bartels",
+    "Christophe Carton": "Christopher Carton",
+    "Christophe Lopez": "Christopher Lopez",
+    "Christophe Wright": "Christopher Wright",
+    "Malik - Ja Taylor": "Malik - Jabri Taylor",
+}
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("Tyrone Sally Jr.", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
         first_name="Tyrone",
@@ -258,7 +258,7 @@ def _is_valid_initial_entry(
     return False
 
 
-def _split_name_team(
+def _split_name_team_initial(
     name_team: str, division_scores: list[bracket_utils.TeamScore]
 ) -> bracket_utils.CompetitorRaw | None:
     if name_team == "Bye":
@@ -276,8 +276,7 @@ def _split_name_team(
     name = parts[0]
     team_prefix = parts[1]
 
-    for before, after in _NAME_FIXES:
-        name = name.replace(before, after)
+    name = _NAME_FIXES.get(name, name)
 
     matches: list[str] = []
     for score in division_scores:
@@ -319,7 +318,7 @@ def _initial_entries(
         if not _is_valid_initial_entry(wrestler_td, bout_number, opening_bouts):
             raise RuntimeError("Invariant violation", index, wrestler_td)
 
-        competitor_raw = _split_name_team(wrestler_td.text, division_scores)
+        competitor_raw = _split_name_team_initial(wrestler_td.text, division_scores)
         key = match_slot, bracket_position
         if key in match_slot_map:
             raise KeyError("Duplicate", key)
@@ -338,7 +337,10 @@ def _handle_bye(
     top_competitors: list[bracket_utils.CompetitorRaw],
     bottom_competitors: list[bracket_utils.CompetitorRaw],
 ) -> tuple[
-    bracket_utils.CompetitorRaw | None, bracket_utils.CompetitorRaw | None, bool, str
+    bracket_utils.CompetitorRaw | None,
+    bracket_utils.CompetitorRaw | None,
+    bool | None,
+    str,
 ]:
     top_competitor_names = [competitor.long_name for competitor in top_competitors]
     bottom_competitor_names = [
@@ -363,7 +365,10 @@ def _handle_bye(
         bottom_competitor = bottom_competitors[winner_bottom_index]
         top_win = False
     else:
-        raise RuntimeError("Invariant violation")
+        if winner.strip() != "()":
+            raise RuntimeError("Invariant violation")
+
+        return None, None, None, result
 
     if result != "Bye":
         raise RuntimeError("Invariant violation", result)
@@ -692,15 +697,20 @@ def _parse_r16(
                 raise RuntimeError("Invariant violation", match_slot)
 
             bottom_competitors = match_slot_map[(match_slot, "bottom")]
-            if len(bottom_competitors) != 1:
+            if len(bottom_competitors) > 1:
                 raise RuntimeError("Invariant violation", match_slot)
 
             bout_number, winner, loser, result = _round_line_split(
                 entry.text, match_prefix
             )
-            top_competitor, bottom_competitor, top_win, result = _handle_match(
-                winner, loser, result, top_competitors, bottom_competitors
-            )
+            if loser.strip() == "()":
+                top_competitor, bottom_competitor, top_win, result = _handle_bye(
+                    winner, result, top_competitors, bottom_competitors
+                )
+            else:
+                top_competitor, bottom_competitor, top_win, result = _handle_match(
+                    winner, loser, result, top_competitors, bottom_competitors
+                )
 
             winner_competitor = top_competitor
             loser_competitor = bottom_competitor
@@ -985,7 +995,7 @@ def _parse_consolation_round4(
                 )
 
             bottom_competitors = match_slot_map[(match_slot, "bottom")]
-            if len(bottom_competitors) != 1:
+            if len(bottom_competitors) > 1:
                 raise RuntimeError(
                     "Invariant violation", len(bottom_competitors), match_slot
                 )
@@ -993,9 +1003,14 @@ def _parse_consolation_round4(
             bout_number, winner, loser, result = _round_line_split(
                 entry.text, match_prefix
             )
-            top_competitor, bottom_competitor, top_win, result = _handle_match(
-                winner, loser, result, top_competitors, bottom_competitors
-            )
+            if loser.strip() == "()":
+                top_competitor, bottom_competitor, top_win, result = _handle_bye(
+                    winner, result, top_competitors, bottom_competitors
+                )
+            else:
+                top_competitor, bottom_competitor, top_win, result = _handle_match(
+                    winner, loser, result, top_competitors, bottom_competitors
+                )
 
             winner_competitor = top_competitor
             if not top_win:
