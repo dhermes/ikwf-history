@@ -389,7 +389,13 @@ def _handle_match(
             or winner_bottom_index is not None
             or loser_top_index is not None
         ):
-            raise RuntimeError("Invariant violation")
+            raise RuntimeError(
+                "Invariant violation",
+                winner,
+                loser,
+                top_competitor_names,
+                bottom_competitor_names,
+            )
 
         top_competitor = top_competitors[winner_top_index]
         bottom_competitor = bottom_competitors[loser_bottom_index]
@@ -400,13 +406,25 @@ def _handle_match(
             or winner_top_index is not None
             or loser_bottom_index is not None
         ):
-            raise RuntimeError("Invariant violation")
+            raise RuntimeError(
+                "Invariant violation",
+                winner,
+                loser,
+                top_competitor_names,
+                bottom_competitor_names,
+            )
 
         top_competitor = top_competitors[loser_top_index]
         bottom_competitor = bottom_competitors[winner_bottom_index]
         top_win = False
     else:
-        raise RuntimeError("Invariant violation", winner)
+        raise RuntimeError(
+            "Invariant violation",
+            winner,
+            loser,
+            top_competitor_names,
+            bottom_competitor_names,
+        )
 
     return top_competitor, bottom_competitor, top_win, result
 
@@ -469,6 +487,10 @@ def _round_line_split(line: str, prefix: str) -> tuple[int, str, str, str]:
         raise RuntimeError("Unexpected prefix", actual_prefix, prefix, line)
 
     bout_number = int(bout_number_str)
+
+    # Swap loser and winner if a Bye is involved
+    if winner.strip() == "()":
+        winner, loser = loser, winner
 
     return bout_number, winner, loser, result
 
@@ -968,7 +990,7 @@ def _parse_consolation_round4(
             )
 
             top_competitors = match_slot_map[(match_slot, "top")]
-            if len(top_competitors) != 1:
+            if len(top_competitors) > 1:
                 raise RuntimeError(
                     "Invariant violation", len(top_competitors), match_slot
                 )

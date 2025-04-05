@@ -39,83 +39,77 @@ _INITIAL_ENTRY_INFO: tuple[
     ("championship_r32_16", "bottom", 62),
 )
 _NAME_FIXES: dict[str, str] = {
-    "Aaron Brewton III": "Aaron Brewton II",
-    "Brendan Ty Hall": "Brendan Tyler Hall",
-    "Christophe Bartels": "Christopher Bartels",
-    "Christophe Carton": "Christopher Carton",
-    "Christophe Lopez": "Christopher Lopez",
-    "Christophe Wright": "Christopher Wright",
-    "Malik - Ja Taylor": "Malik - Jabri Taylor",
+    "Christophe Dranka": "Christopher Dranka",
+    "Christophe Golden": "Christopher Golden",
+    "Christophe Hiscock": "Christopher Hiscock",
+    "Christophe Lewis": "Christopher Lewis",
 }
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
-    ("Tyrone Sally Jr.", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
-        first_name="Tyrone",
-        last_name="Sally",
-        suffix="Jr",
-        team="Harvey Park Dist Twisters",
+    ("Antonio Francis IV", "CHAMPAIGN KIDS WRESTLING"): bracket_utils.Competitor(
+        first_name="Antonio",
+        last_name="Francis",
+        suffix="IV",
+        team="CHAMPAIGN KIDS WRESTLING",
     ),
-    ("Wardell Rosemon Jr.", "Dundee Highlanders"): bracket_utils.Competitor(
-        first_name="Wardell",
-        last_name="Rosemon",
-        suffix="Jr",
-        team="Dundee Highlanders",
+    ("Carl Witt Iii", "TOMCAT WC"): bracket_utils.Competitor(
+        first_name="Carl", last_name="Witt", suffix="III", team="TOMCAT WC"
     ),
-    ("Archie Williams Jr.", "Champaign Kids Wrestling"): bracket_utils.Competitor(
-        first_name="Archie",
-        last_name="Williams",
-        suffix="Jr",
-        team="Champaign Kids Wrestling",
-    ),
-    ("Anthony Ferraris Jr", "Maine Eagles WC"): bracket_utils.Competitor(
-        first_name="Anthony", last_name="Ferraris", suffix="Jr", team="Maine Eagles WC"
-    ),
-    ("Lusiano Cantu Jr.", "Gomez Wrestling Academy"): bracket_utils.Competitor(
-        first_name="Lusiano",
-        last_name="Cantu",
-        suffix="Jr",
-        team="Gomez Wrestling Academy",
-    ),
-    ("Antwyone Brown Jr.", "Crosstown WC"): bracket_utils.Competitor(
-        first_name="Antwyone", last_name="Brown", suffix="Jr", team="Crosstown WC"
-    ),
-    ("Brendan Tyler Hall", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
-        first_name="Brendan Tyler",
-        last_name="Hall",
+    ("Jacob Van Doren", "GENESEO SPIDER WC"): bracket_utils.Competitor(
+        first_name="Jacob",
+        last_name="Van Doren",
         suffix=None,
-        team="Harvey Park Dist Twisters",
+        team="GENESEO SPIDER WC",
     ),
-    ("Lonne Cleveland III", "GC Jr Warriors"): bracket_utils.Competitor(
-        first_name="Lonne",
-        last_name="Cleveland",
-        suffix="III",
-        team="GC Jr Warriors",
+    ("James Von Meding", "ST. TARCISSUS"): bracket_utils.Competitor(
+        first_name="James", last_name="Von Meding", suffix=None, team="ST. TARCISSUS"
     ),
-    ("Aaron Brewton II", "Waukegan Youth WC"): bracket_utils.Competitor(
-        first_name="Aaron", last_name="Brewton", suffix="II", team="Waukegan Youth WC"
-    ),
-    ("Malik - Jabri Taylor", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
-        first_name="Malik - Jabri",
-        last_name="Taylor",
+    ("Jean Louis Sawadogo", "ROCK ISLAND WC"): bracket_utils.Competitor(
+        first_name="Jean Louis",
+        last_name="Sawadogo",
         suffix=None,
-        team="Harvey Park Dist Twisters",
+        team="ROCK ISLAND WC",
     ),
-    ("Michael Aldrich Jr", "Peoria Razorbacks Youth WC"): bracket_utils.Competitor(
+    ("Joey Schott Jr", "CHAMPAIGN KIDS WRESTLING"): bracket_utils.Competitor(
+        first_name="Joey",
+        last_name="Schott",
+        suffix="Jr",
+        team="CHAMPAIGN KIDS WRESTLING",
+    ),
+    ("John Paul Stedwill", "CENTRAL ELITE REBELS"): bracket_utils.Competitor(
+        first_name="John Paul",
+        last_name="Stedwill",
+        suffix=None,
+        team="CENTRAL ELITE REBELS",
+    ),
+    ("Juan Blanco Iv", "MORTON LITTLE MUSTANGS"): bracket_utils.Competitor(
+        first_name="Juan",
+        last_name="Blanco",
+        suffix="IV",
+        team="MORTON LITTLE MUSTANGS",
+    ),
+    ("Juan Reyes Iv", "REBELS WC"): bracket_utils.Competitor(
+        first_name="Juan", last_name="Reyes", suffix="IV", team="REBELS WC"
+    ),
+    ("Lonnie Cleveland Iii", "BULLS WC"): bracket_utils.Competitor(
+        first_name="Lonnie", last_name="Cleveland", suffix="III", team="BULLS WC"
+    ),
+    ("Michael Johnson Jr", "DOWNERS GROVE COUGARS"): bracket_utils.Competitor(
         first_name="Michael",
-        last_name="Aldrich",
+        last_name="Johnson",
         suffix="Jr",
-        team="Peoria Razorbacks Youth WC",
+        team="DOWNERS GROVE COUGARS",
     ),
-    ("Ross Ferraro III", "Gomez Wrestling Academy"): bracket_utils.Competitor(
-        first_name="Ross",
-        last_name="Ferraro",
-        suffix="III",
-        team="Gomez Wrestling Academy",
+    ("Miguel Silva Jr", "MARTINEZ FOX VALLEY ELITE"): bracket_utils.Competitor(
+        first_name="Miguel",
+        last_name="Silva",
+        suffix="Jr",
+        team="MARTINEZ FOX VALLEY ELITE",
     ),
-    ("Alvin Foster III", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
-        first_name="Alvin",
-        last_name="Foster",
-        suffix="III",
-        team="Harvey Park Dist Twisters",
+    ("Raul Marrero Jr", "SPRINGFIELD CAPITAL KIDS WC"): bracket_utils.Competitor(
+        first_name="Raul",
+        last_name="Marrero",
+        suffix="Jr",
+        team="SPRINGFIELD CAPITAL KIDS WC",
     ),
 }
 
@@ -1328,7 +1322,6 @@ def _parse_consolation_semi(
 
 def _parse_place_matches(
     round_name: str,
-    first_place_prefix: str,
     third_place_prefix: str,
     fifth_place_prefix: str,
     seventh_place_prefix: str,
@@ -1345,7 +1338,6 @@ def _parse_place_matches(
         raise RuntimeError("Invariant violation", all_h1_text)
 
     prefixes_and_slots: tuple[tuple[str, bracket_utils.MatchSlot]] = (
-        (first_place_prefix, "championship_first_place"),
         (third_place_prefix, "consolation_third_place"),
         (fifth_place_prefix, "consolation_fifth_place"),
         (seventh_place_prefix, "consolation_seventh_place"),
@@ -1368,10 +1360,101 @@ def _parse_place_matches(
             raise RuntimeError("Invariant violation", ul_sibling)
 
         all_entries: list[bs4.Tag] = [li for li in ul_sibling.find_all("li")]
-        if len(all_entries) != 4:
+        if len(all_entries) != 3:
             raise RuntimeError("Invariant violation", all_entries)
 
-        for i in range(4):
+        for i in range(3):
+            entry = all_entries[i]
+            match_prefix, match_slot = prefixes_and_slots[i]
+
+            top_competitors = match_slot_map[(match_slot, "top")]
+            if len(top_competitors) != 1:
+                raise RuntimeError(
+                    "Invariant violation", len(top_competitors), match_slot
+                )
+
+            bottom_competitors = match_slot_map[(match_slot, "bottom")]
+            if len(bottom_competitors) != 1:
+                raise RuntimeError(
+                    "Invariant violation", len(bottom_competitors), match_slot
+                )
+
+            bout_number, winner, loser, result = _round_line_split(
+                entry.text, match_prefix
+            )
+            top_competitor, bottom_competitor, top_win, result = _handle_match(
+                winner, loser, result, top_competitors, bottom_competitors
+            )
+
+            winner_competitor = top_competitor
+            if not top_win:
+                winner_competitor = bottom_competitor
+
+            match = MatchWithBracket(
+                division=division,
+                weight=weight,
+                match=bracket_utils.Match(
+                    match_slot=match_slot,
+                    top_competitor=_competitor_from_raw(top_competitor),
+                    bottom_competitor=_competitor_from_raw(bottom_competitor),
+                    result=result,
+                    result_type=_determine_result_type(result),
+                    bout_number=bout_number,
+                    top_win=top_win,
+                ),
+            )
+            matches.append(match)
+
+            # NOTE: All of these rounds are **TERMINAL**, so no need to make
+            #       `match_slot_map` aware of any of them.
+
+    match_slot_keys = set(match_slots_by_bracket.keys())
+    if round_keys != match_slot_keys:
+        raise RuntimeError("Invariant violation")
+
+    return matches
+
+
+def _parse_championship_matches(
+    round_name: str,
+    first_place_prefix: str,
+    selenium_rounds: dict,
+    match_slots_by_bracket: dict[tuple[bracket_utils.Division, int], MatchSlotMap],
+) -> list[MatchWithBracket]:
+    html = selenium_rounds.pop(round_name, None)
+    if not isinstance(html, str):
+        raise TypeError("Unexpected value", type(html), round_name)
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    all_h1_text = [h1.text for h1 in soup.find_all("h1")]
+    if all_h1_text != [round_name]:
+        raise RuntimeError("Invariant violation", all_h1_text)
+
+    prefixes_and_slots: tuple[tuple[str, bracket_utils.MatchSlot]] = (
+        (first_place_prefix, "championship_first_place"),
+    )
+
+    all_h2: list[bs4.Tag] = soup.find_all("h2")
+    round_keys: set[tuple[bracket_utils.Division, int]] = set()
+    matches: list[MatchWithBracket] = []
+    for h2 in all_h2:
+        division_display, weight_str = h2.text.split()
+        weight = int(weight_str)
+        division = _normalize_division(division_display)
+        key = (division, weight)
+        round_keys.add(key)
+
+        match_slot_map = match_slots_by_bracket[key]
+
+        ul_sibling = h2.find_next_sibling()
+        if ul_sibling.name != "ul":
+            raise RuntimeError("Invariant violation", ul_sibling)
+
+        all_entries: list[bs4.Tag] = [li for li in ul_sibling.find_all("li")]
+        if len(all_entries) != 1:
+            raise RuntimeError("Invariant violation", all_entries)
+
+        for i in range(1):
             entry = all_entries[i]
             match_prefix, match_slot = prefixes_and_slots[i]
 
@@ -1430,7 +1513,7 @@ def _parse_rounds(
 
     matches.extend(
         _parse_r32(
-            "Champ Round 1 (32 Man)",
+            "Championship Preliminary",
             "Champ. Round 1",
             selenium_rounds,
             match_slots_by_bracket,
@@ -1439,7 +1522,7 @@ def _parse_rounds(
 
     matches.extend(
         _parse_r16(
-            "Champ Round 2 (32 Man)",
+            "Championship 1st Round",
             "Champ. Round 2",
             selenium_rounds,
             match_slots_by_bracket,
@@ -1448,7 +1531,7 @@ def _parse_rounds(
 
     matches.extend(
         _parse_quarterfinal(
-            "Quarters (32 Man)",
+            "Championship Quarterfinals",
             "Quarterfinal",
             selenium_rounds,
             match_slots_by_bracket,
@@ -1457,7 +1540,7 @@ def _parse_rounds(
 
     matches.extend(
         _parse_consolation_round3(
-            "1st Wrestleback (32 Man)",
+            "Consolation Preliminary",
             "Cons. Round 1",
             selenium_rounds,
             match_slots_by_bracket,
@@ -1466,7 +1549,7 @@ def _parse_rounds(
 
     matches.extend(
         _parse_consolation_round4(
-            "2nd Wrestleback (32 Man)",
+            "Consolation 1st Round",
             "Cons. Round 2",
             selenium_rounds,
             match_slots_by_bracket,
@@ -1475,7 +1558,7 @@ def _parse_rounds(
 
     matches.extend(
         _parse_semi_mixed(
-            "Semis & WB (32 Man)",
+            "Champ Semis & Con Quarterfinal",
             "Semifinal",
             "Cons. Round 3",
             selenium_rounds,
@@ -1485,7 +1568,7 @@ def _parse_rounds(
 
     matches.extend(
         _parse_consolation_semi(
-            "Cons. Semis (32 Man)",
+            "Consolation Semifinal",
             "Cons. Semi",
             selenium_rounds,
             match_slots_by_bracket,
@@ -1494,11 +1577,19 @@ def _parse_rounds(
 
     matches.extend(
         _parse_place_matches(
-            "Placement Matches (32 Man)",
-            "1st Place Match",
+            "Place Bouts",
             "3rd Place Match",
             "5th Place Match",
             "7th Place Match",
+            selenium_rounds,
+            match_slots_by_bracket,
+        )
+    )
+
+    matches.extend(
+        _parse_championship_matches(
+            "Championship Bouts",
+            "1st Place Match",
             selenium_rounds,
             match_slots_by_bracket,
         )
@@ -1511,7 +1602,7 @@ def _parse_rounds(
 
 
 def main():
-    root = HERE.parent / "raw-data" / "2007"
+    root = HERE.parent / "raw-data" / "2010"
     with open(root / "team_scores.selenium.json") as file_obj:
         selenium_team_scores = json.load(file_obj)
 
@@ -1564,7 +1655,7 @@ def main():
     extracted_tournament = bracket_utils.ExtractedTournament(
         weight_classes=weight_classes, team_scores=team_scores, deductions=deductions
     )
-    with open(HERE / "extracted.2007.json", "w") as file_obj:
+    with open(HERE / "extracted.2010.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))
         file_obj.write("\n")
 
