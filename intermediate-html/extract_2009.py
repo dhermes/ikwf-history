@@ -38,67 +38,48 @@ _INITIAL_ENTRY_INFO: tuple[
     ("championship_r32_16", "top", 60),
     ("championship_r32_16", "bottom", 62),
 )
-_NAME_FIXES: tuple[tuple[str, str], ...] = (
-    ("Christophe Bartels", "Christopher Bartels"),
-    ("Christophe Bernal", "Christopher Bernal"),
-    ("Christophe Carton", "Christopher Carton"),
-    ("Christophe Wright", "Christopher Wright"),
-    ("Brendan Ty Hall", "Brendan Tyler Hall"),
-)
+_NAME_FIXES: dict[str, str] = {
+    "Christophe Bartels": "Christopher Bartels",
+    "Christophe Dranka": "Christopher Dranka",
+    "Christophe Golden": "Christopher Golden",
+    "Christophe Hiscock": "Christopher Hiscock",
+    "Christophe Malone": "Christopher Malone",
+    "Michael Mcnulty-ferguso": "Michael Mcnulty-ferguson",
+    "Robert Vodicka-hirschm": "Robert Vodicka-hirschmann",
+}
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
-    ("Aaron Brewton Jr", "WAUKEGAN YOUTH WC"): bracket_utils.Competitor(
-        first_name="Aaron",
-        last_name="Brewton",
+    ("Carl Witt, Iii", "TOMCAT WC"): bracket_utils.Competitor(
+        first_name="Carl", last_name="Witt", suffix="III", team="TOMCAT WC"
+    ),
+    (
+        "Floyd Lomelino Iv",
+        "JACKSONVILLE AREA YOUTH WRESTLING",
+    ): bracket_utils.Competitor(
+        first_name="Floyd",
+        last_name="Lomelino",
+        suffix="IV",
+        team="JACKSONVILLE AREA YOUTH WRESTLING",
+    ),
+    ("James Zeigler Jr.", "EDWARDSVILLE WC"): bracket_utils.Competitor(
+        first_name="James",
+        last_name="Zeigler",
         suffix="Jr",
-        team="WAUKEGAN YOUTH WC",
+        team="EDWARDSVILLE WC",
     ),
-    ("Alvin Foster III", "HARVEY PARK DIST TWISTERS"): bracket_utils.Competitor(
-        first_name="Alvin",
-        last_name="Foster",
-        suffix="III",
-        team="HARVEY PARK DIST TWISTERS",
+    ("Larry Thomas Jr", "IRON MAN"): bracket_utils.Competitor(
+        first_name="Larry", last_name="Thomas", suffix="Jr", team="IRON MAN"
     ),
-    ("Anthony Ferraris Jr", "MAINE EAGLES THE ELITE WC"): bracket_utils.Competitor(
-        first_name="Anthony",
-        last_name="Ferraris",
-        suffix="Jr",
-        team="MAINE EAGLES THE ELITE WC",
-    ),
-    ("Archie Williams Jr", "CHAMPAIGN KIDS WRESTLING"): bracket_utils.Competitor(
-        first_name="Archie",
-        last_name="Williams",
-        suffix="Jr",
-        team="CHAMPAIGN KIDS WRESTLING",
-    ),
-    ("Brendan Tyler Hall", "HARVEY PARK DIST TWISTERS"): bracket_utils.Competitor(
-        first_name="Brendan Tyler",
-        last_name="Hall",
-        suffix=None,
-        team="HARVEY PARK DIST TWISTERS",
-    ),
-    ("Greg Jacquez III", "BLACKHAWK WC"): bracket_utils.Competitor(
-        first_name="Greg", last_name="Jacquez", suffix="III", team="BLACKHAWK WC"
-    ),
-    ("John Paul Stedwill", "CHILLI DAWGS WC"): bracket_utils.Competitor(
-        first_name="John Paul",
-        last_name="Stedwill",
-        suffix=None,
-        team="CHILLI DAWGS WC",
-    ),
-    ("Ken Raap Jr", "PALATINE PANTHERS WC"): bracket_utils.Competitor(
-        first_name="Ken", last_name="Raap", suffix="Jr", team="PALATINE PANTHERS WC"
-    ),
-    ("Lonnie Cleveland III", "GC JR WARRIORS"): bracket_utils.Competitor(
+    ("Lonnie Cleveland Iii", "UNITED SOUTHERN ALLSTARS"): bracket_utils.Competitor(
         first_name="Lonnie",
         last_name="Cleveland",
         suffix="III",
-        team="GC JR WARRIORS",
+        team="UNITED SOUTHERN ALLSTARS",
     ),
-    ("Michael Johnson Jr", "ROMEOVILLE YOUTH WC"): bracket_utils.Competitor(
+    ("Michael Johnson Jr", "DOWNERS GROVE COUGARS"): bracket_utils.Competitor(
         first_name="Michael",
         last_name="Johnson",
         suffix="Jr",
-        team="ROMEOVILLE YOUTH WC",
+        team="DOWNERS GROVE COUGARS",
     ),
     ("Miguel Silva Jr", "MARTINEZ FOX VALLEY ELITE"): bracket_utils.Competitor(
         first_name="Miguel",
@@ -106,23 +87,14 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         suffix="Jr",
         team="MARTINEZ FOX VALLEY ELITE",
     ),
-    ("Terry Calkins Jr.", "MAINE EAGLES THE ELITE WC"): bracket_utils.Competitor(
-        first_name="Terry",
-        last_name="Calkins",
-        suffix="Jr",
-        team="MAINE EAGLES THE ELITE WC",
+    ("Ronald Shafer Iii", "GRANITE CITY WC"): bracket_utils.Competitor(
+        first_name="Ronald",
+        last_name="Shafer",
+        suffix="III",
+        team="GRANITE CITY WC",
     ),
-    ("Travis Flute Jr", "A-J JUNIOR WILDCATS"): bracket_utils.Competitor(
-        first_name="Travis",
-        last_name="Flute",
-        suffix="Jr",
-        team="A-J JUNIOR WILDCATS",
-    ),
-    ("Wardell Rosemon Jr.", "DUNDEE HIGHLANDERS"): bracket_utils.Competitor(
-        first_name="Wardell",
-        last_name="Rosemon",
-        suffix="Jr",
-        team="DUNDEE HIGHLANDERS",
+    ("Shavez Hawkins Jr", "CROSSTOWN WC"): bracket_utils.Competitor(
+        first_name="Shavez", last_name="Hawkins", suffix="Jr", team="CROSSTOWN WC"
     ),
 }
 
@@ -265,7 +237,7 @@ def _is_valid_initial_entry(
     return False
 
 
-def _split_name_team(
+def _split_name_team_initial(
     name_team: str, division_scores: list[bracket_utils.TeamScore]
 ) -> bracket_utils.CompetitorRaw | None:
     if name_team == "Bye":
@@ -283,8 +255,7 @@ def _split_name_team(
     name = parts[0]
     team_prefix = parts[1]
 
-    for before, after in _NAME_FIXES:
-        name = name.replace(before, after)
+    name = _NAME_FIXES.get(name, name)
 
     matches: list[str] = []
     for score in division_scores:
@@ -326,7 +297,7 @@ def _initial_entries(
         if not _is_valid_initial_entry(wrestler_td, bout_number, opening_bouts):
             raise RuntimeError("Invariant violation", index, wrestler_td)
 
-        competitor_raw = _split_name_team(wrestler_td.text, division_scores)
+        competitor_raw = _split_name_team_initial(wrestler_td.text, division_scores)
         key = match_slot, bracket_position
         if key in match_slot_map:
             raise KeyError("Duplicate", key)
@@ -345,7 +316,10 @@ def _handle_bye(
     top_competitors: list[bracket_utils.CompetitorRaw],
     bottom_competitors: list[bracket_utils.CompetitorRaw],
 ) -> tuple[
-    bracket_utils.CompetitorRaw | None, bracket_utils.CompetitorRaw | None, bool, str
+    bracket_utils.CompetitorRaw | None,
+    bracket_utils.CompetitorRaw | None,
+    bool | None,
+    str,
 ]:
     top_competitor_names = [competitor.long_name for competitor in top_competitors]
     bottom_competitor_names = [
@@ -370,7 +344,10 @@ def _handle_bye(
         bottom_competitor = bottom_competitors[winner_bottom_index]
         top_win = False
     else:
-        raise RuntimeError("Invariant violation")
+        if winner.strip() != "()":
+            raise RuntimeError("Invariant violation")
+
+        return None, None, None, result
 
     if result != "Bye":
         raise RuntimeError("Invariant violation", result)
@@ -699,15 +676,20 @@ def _parse_r16(
                 raise RuntimeError("Invariant violation", match_slot)
 
             bottom_competitors = match_slot_map[(match_slot, "bottom")]
-            if len(bottom_competitors) != 1:
+            if len(bottom_competitors) > 1:
                 raise RuntimeError("Invariant violation", match_slot)
 
             bout_number, winner, loser, result = _round_line_split(
                 entry.text, match_prefix
             )
-            top_competitor, bottom_competitor, top_win, result = _handle_match(
-                winner, loser, result, top_competitors, bottom_competitors
-            )
+            if loser.strip() == "()":
+                top_competitor, bottom_competitor, top_win, result = _handle_bye(
+                    winner, result, top_competitors, bottom_competitors
+                )
+            else:
+                top_competitor, bottom_competitor, top_win, result = _handle_match(
+                    winner, loser, result, top_competitors, bottom_competitors
+                )
 
             winner_competitor = top_competitor
             loser_competitor = bottom_competitor
@@ -992,7 +974,7 @@ def _parse_consolation_round4(
                 )
 
             bottom_competitors = match_slot_map[(match_slot, "bottom")]
-            if len(bottom_competitors) != 1:
+            if len(bottom_competitors) > 1:
                 raise RuntimeError(
                     "Invariant violation", len(bottom_competitors), match_slot
                 )
@@ -1000,9 +982,14 @@ def _parse_consolation_round4(
             bout_number, winner, loser, result = _round_line_split(
                 entry.text, match_prefix
             )
-            top_competitor, bottom_competitor, top_win, result = _handle_match(
-                winner, loser, result, top_competitors, bottom_competitors
-            )
+            if loser.strip() == "()":
+                top_competitor, bottom_competitor, top_win, result = _handle_bye(
+                    winner, result, top_competitors, bottom_competitors
+                )
+            else:
+                top_competitor, bottom_competitor, top_win, result = _handle_match(
+                    winner, loser, result, top_competitors, bottom_competitors
+                )
 
             winner_competitor = top_competitor
             if not top_win:
@@ -1578,7 +1565,7 @@ def _parse_rounds(
 
 
 def main():
-    root = HERE.parent / "raw-data" / "2008"
+    root = HERE.parent / "raw-data" / "2009"
     with open(root / "team_scores.selenium.json") as file_obj:
         selenium_team_scores = json.load(file_obj)
 
@@ -1631,7 +1618,7 @@ def main():
     extracted_tournament = bracket_utils.ExtractedTournament(
         weight_classes=weight_classes, team_scores=team_scores, deductions=deductions
     )
-    with open(HERE / "extracted.2008.json", "w") as file_obj:
+    with open(HERE / "extracted.2009.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))
         file_obj.write("\n")
 
