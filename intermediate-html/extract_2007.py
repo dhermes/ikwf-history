@@ -136,19 +136,13 @@ def _normalize_division(division_display: str) -> bracket_utils.Division:
     raise NotImplementedError(division_display)
 
 
-class TeamScore(pydantic.BaseModel):
-    name: str
-    acronym: str
-    score: float
-
-
-def _team_scores_from_html(html: Any) -> list[TeamScore]:
+def _team_scores_from_html(html: Any) -> list[bracket_utils.TeamScore]:
     if not isinstance(html, str):
         raise TypeError("Unexpected value", type(html))
 
     soup = bs4.BeautifulSoup(html, features="html.parser")
 
-    scores: list[TeamScore] = []
+    scores: list[bracket_utils.TeamScore] = []
     for tr in soup.find_all("tr"):
         all_td = tr.find_all("td")
         all_th = tr.find_all("th")
@@ -158,12 +152,10 @@ def _team_scores_from_html(html: Any) -> list[TeamScore]:
         if len(all_td) != 4 or len(all_th) != 0:
             raise RuntimeError("Invariant violation", tr)
 
+        # NOTE: We also know `acronym=all_td[2].text` but have no use for it
+        #       right now.
         scores.append(
-            TeamScore(
-                name=all_td[1].text,
-                acronym=all_td[2].text,
-                score=float(all_td[3].text),
-            )
+            bracket_utils.TeamScore(team=all_td[1].text, score=float(all_td[3].text))
         )
 
     return scores
@@ -171,11 +163,11 @@ def _team_scores_from_html(html: Any) -> list[TeamScore]:
 
 def _parse_team_scores(
     selenium_team_scores: Any,
-) -> dict[bracket_utils.Division, list[TeamScore]]:
+) -> dict[bracket_utils.Division, list[bracket_utils.TeamScore]]:
     if not isinstance(selenium_team_scores, dict):
         raise TypeError("Unexpected value", type(selenium_team_scores))
 
-    result: dict[bracket_utils.Division, list[TeamScore]] = {}
+    result: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
     for division_display, html in selenium_team_scores.items():
         division = _normalize_division(division_display)
         if division in result:
@@ -273,7 +265,7 @@ def _is_valid_initial_entry(
 
 
 def _split_name_team(
-    name_team: str, division_scores: list[TeamScore]
+    name_team: str, division_scores: list[bracket_utils.TeamScore]
 ) -> bracket_utils.CompetitorRaw | None:
     if name_team == "Bye":
         return None
@@ -295,8 +287,8 @@ def _split_name_team(
 
     matches: list[str] = []
     for score in division_scores:
-        if score.name.startswith(team_prefix):
-            matches.append(score.name)
+        if score.team.startswith(team_prefix):
+            matches.append(score.team)
 
     if len(matches) != 1:
         raise RuntimeError("Invariant violation", name_team, matches)
@@ -305,7 +297,7 @@ def _split_name_team(
 
 
 def _initial_entries(
-    soup: bs4.BeautifulSoup, division_scores: list[TeamScore]
+    soup: bs4.BeautifulSoup, division_scores: list[bracket_utils.TeamScore]
 ) -> MatchSlotMap:
     initial_bout_index = 0
     opening_bouts = _get_opening_bout_numbers(soup)
@@ -1542,7 +1534,6 @@ def main():
         )
         weight_classes.append(weight_class)
 
-    team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
     extracted_tournament = bracket_utils.ExtractedTournament(
         weight_classes=weight_classes, team_scores=team_scores
     )
