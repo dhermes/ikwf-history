@@ -16,6 +16,10 @@ class CompetitorRaw(pydantic.BaseModel):
     name: str
     team: str
 
+    @property
+    def long_name(self) -> str:
+        return f"{self.name} ({self.team})"
+
 
 class CompetitorTuple(NamedTuple):
     first_name: str

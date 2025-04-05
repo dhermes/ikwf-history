@@ -12,8 +12,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 HERE = pathlib.Path(__file__).resolve().parent
 _MATCH_FORMAT = (
-    "[boutType] - [boutNo] - [wFName] [wLName] ([wTeam]) [winType] "
-    "[lFName] [lLName] ([lTeam]) [scoreSummary]"
+    "[boutType] :: [boutNo] :: [wFName] [wLName] ([wTeam]) :: "
+    "[lFName] [lLName] ([lTeam]) :: [scoreSummary]"
 )
 
 
