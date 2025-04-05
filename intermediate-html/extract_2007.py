@@ -1032,6 +1032,103 @@ def _parse_semi_mixed(
     return matches
 
 
+def _parse_consolation_semi(
+    round_name: str,
+    match_prefix: str,
+    selenium_rounds: dict,
+    match_slots_by_bracket: dict[tuple[bracket_utils.Division, int], MatchSlotMap],
+) -> list[bracket_utils.MatchRaw]:
+    html = selenium_rounds.pop(round_name, None)
+    if not isinstance(html, str):
+        raise TypeError("Unexpected value", type(html), round_name)
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    all_h1_text = [h1.text for h1 in soup.find_all("h1")]
+    if all_h1_text != [round_name]:
+        raise RuntimeError("Invariant violation", all_h1_text)
+
+    all_h2: list[bs4.Tag] = soup.find_all("h2")
+    round_keys: set[tuple[bracket_utils.Division, int]] = set()
+    matches: list[bracket_utils.MatchRaw] = []
+    for h2 in all_h2:
+        division_display, weight_str = h2.text.split()
+        weight = int(weight_str)
+        division = _normalize_division(division_display)
+        key = (division, weight)
+        round_keys.add(key)
+
+        match_slot_map = match_slots_by_bracket[key]
+
+        ul_sibling = h2.find_next_sibling()
+        if ul_sibling.name != "ul":
+            raise RuntimeError("Invariant violation", ul_sibling)
+
+        all_entries: list[bs4.Tag] = [li for li in ul_sibling.find_all("li")]
+        if len(all_entries) != 2:
+            raise RuntimeError("Invariant violation", all_entries)
+
+        for i in range(2):
+            entry = all_entries[i]
+            slot_id = i + 1
+            match_slot: bracket_utils.MatchSlot = (
+                f"consolation_round6_semi_{slot_id:02}"
+            )
+
+            top_competitors = match_slot_map[(match_slot, "top")]
+            if len(top_competitors) != 1:
+                raise RuntimeError(
+                    "Invariant violation", len(top_competitors), match_slot
+                )
+
+            bottom_competitors = match_slot_map[(match_slot, "bottom")]
+            if len(bottom_competitors) != 1:
+                raise RuntimeError(
+                    "Invariant violation", len(bottom_competitors), match_slot
+                )
+
+            bout_number, winner, loser, result = _round_line_split(
+                entry.text, match_prefix
+            )
+            top_competitor, bottom_competitor, top_win, result = _handle_match(
+                winner, loser, result, top_competitors, bottom_competitors
+            )
+
+            winner_competitor = top_competitor
+            loser_competitor = bottom_competitor
+            if not top_win:
+                winner_competitor = bottom_competitor
+                loser_competitor = top_competitor
+
+            match = bracket_utils.MatchRaw(
+                match_slot=match_slot,
+                top_competitor=top_competitor,
+                bottom_competitor=bottom_competitor,
+                result=result,
+                bout_number=bout_number,
+                winner=winner_competitor,
+                winner_from=None,
+            )
+            matches.append(match)
+
+            # 1. Make the `match_slot_map` aware of the winner
+            win_position = bracket_utils.next_match_position_win_2007(match_slot)
+            match_slot_map.setdefault(win_position, [])
+            if winner_competitor is not None:
+                match_slot_map[win_position].append(winner_competitor)
+
+            # 2. Make the `match_slot_map` aware of the loser
+            lose_position = bracket_utils.next_match_position_lose_2007(match_slot)
+            match_slot_map.setdefault(lose_position, [])
+            if loser_competitor is not None:
+                match_slot_map[lose_position].append(loser_competitor)
+
+    match_slot_keys = set(match_slots_by_bracket.keys())
+    if round_keys != match_slot_keys:
+        raise RuntimeError("Invariant violation")
+
+    return matches
+
+
 def _parse_rounds(
     selenium_rounds: Any,
     match_slots_by_bracket: dict[tuple[bracket_utils.Division, int], MatchSlotMap],
@@ -1096,7 +1193,15 @@ def _parse_rounds(
         )
     )
 
-    # "Cons. Semis (32 Man)"
+    matches.extend(
+        _parse_consolation_semi(
+            "Cons. Semis (32 Man)",
+            "Cons. Semi",
+            selenium_rounds,
+            match_slots_by_bracket,
+        )
+    )
+
     # "Placement Matches (32 Man)"
 
     # TODO: `if selenium_rounds: raise ValueError('keys', ...)`
