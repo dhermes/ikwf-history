@@ -244,7 +244,7 @@ def set_top_competitor(match: MatchRaw) -> None:
     match.top_competitor = winner
 
 
-def _competitor_from_raw(
+def competitor_from_raw(
     value: CompetitorRaw | None, name_exceptions: dict[tuple[str, str], Competitor]
 ) -> Competitor | None:
     if value is None:
@@ -408,8 +408,8 @@ def clean_raw_matches(
     for match in matches:
         top_win = None
 
-        top_competitor = _competitor_from_raw(match.top_competitor, name_exceptions)
-        bottom_competitor = _competitor_from_raw(
+        top_competitor = competitor_from_raw(match.top_competitor, name_exceptions)
+        bottom_competitor = competitor_from_raw(
             match.bottom_competitor, name_exceptions
         )
 

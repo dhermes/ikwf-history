@@ -47,6 +47,77 @@ _NAME_FIXES: tuple[tuple[str, str], ...] = (
     ("Christophe Wright", "Christopher Wright"),
     ("Malik - Ja Taylor", "Malik - Jabri Taylor"),
 )
+_NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
+    ("Tyrone Sally Jr.", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
+        first_name="Tyrone",
+        last_name="Sally",
+        suffix="Jr",
+        team="Harvey Park Dist Twisters",
+    ),
+    ("Wardell Rosemon Jr.", "Dundee Highlanders"): bracket_utils.Competitor(
+        first_name="Wardell",
+        last_name="Rosemon",
+        suffix="Jr",
+        team="Dundee Highlanders",
+    ),
+    ("Archie Williams Jr.", "Champaign Kids Wrestling"): bracket_utils.Competitor(
+        first_name="Archie",
+        last_name="Williams",
+        suffix="Jr",
+        team="Champaign Kids Wrestling",
+    ),
+    ("Anthony Ferraris Jr", "Maine Eagles WC"): bracket_utils.Competitor(
+        first_name="Anthony", last_name="Ferraris", suffix="Jr", team="Maine Eagles WC"
+    ),
+    ("Lusiano Cantu Jr.", "Gomez Wrestling Academy"): bracket_utils.Competitor(
+        first_name="Lusiano",
+        last_name="Cantu",
+        suffix="Jr",
+        team="Gomez Wrestling Academy",
+    ),
+    ("Antwyone Brown Jr.", "Crosstown WC"): bracket_utils.Competitor(
+        first_name="Antwyone", last_name="Brown", suffix="Jr", team="Crosstown WC"
+    ),
+    ("Brendan Tyler Hall", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
+        first_name="Brendan Tyler",
+        last_name="Hall",
+        suffix=None,
+        team="Harvey Park Dist Twisters",
+    ),
+    ("Lonne Cleveland III", "GC Jr Warriors"): bracket_utils.Competitor(
+        first_name="Lonne",
+        last_name="Cleveland",
+        suffix="III",
+        team="GC Jr Warriors",
+    ),
+    ("Aaron Brewton II", "Waukegan Youth WC"): bracket_utils.Competitor(
+        first_name="Aaron", last_name="Brewton", suffix="II", team="Waukegan Youth WC"
+    ),
+    ("Malik - Jabri Taylor", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
+        first_name="Malik - Jabri",
+        last_name="Taylor",
+        suffix=None,
+        team="Harvey Park Dist Twisters",
+    ),
+    ("Michael Aldrich Jr", "Peoria Razorbacks Youth WC"): bracket_utils.Competitor(
+        first_name="Michael",
+        last_name="Aldrich",
+        suffix="Jr",
+        team="Peoria Razorbacks Youth WC",
+    ),
+    ("Ross Ferraro III", "Gomez Wrestling Academy"): bracket_utils.Competitor(
+        first_name="Ross",
+        last_name="Ferraro",
+        suffix="III",
+        team="Gomez Wrestling Academy",
+    ),
+    ("Alvin Foster III", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
+        first_name="Alvin",
+        last_name="Foster",
+        suffix="III",
+        team="Harvey Park Dist Twisters",
+    ),
+}
 
 
 MatchSlotMap = dict[
@@ -370,17 +441,23 @@ def _handle_match(
     return top_competitor, bottom_competitor, top_win, result
 
 
-class MatchRawWithBracket(pydantic.BaseModel):
+class MatchWithBracket(pydantic.BaseModel):
     division: bracket_utils.Division
     weight: int
-    match: bracket_utils.MatchRaw
+    match: bracket_utils.Match
+
+
+def _competitor_from_raw(
+    value: bracket_utils.CompetitorRaw | None,
+) -> bracket_utils.Competitor | None:
+    return bracket_utils.competitor_from_raw(value, _NAME_EXCEPTIONS)
 
 
 def _add_r32_bye(
     index: int,
     division: bracket_utils.Division,
     weight: int,
-    matches: list[MatchRawWithBracket],
+    matches: list[MatchWithBracket],
     match_slot_map: MatchSlotMap,
 ) -> None:
     """Add a bye in the Round of 32 for a sectional winner."""
@@ -392,17 +469,17 @@ def _add_r32_bye(
         raise RuntimeError("Invariant violation", match_slot)
     competitor = competitors[0]
 
-    match = MatchRawWithBracket(
+    match = MatchWithBracket(
         division=division,
         weight=weight,
-        match=bracket_utils.MatchRaw(
+        match=bracket_utils.Match(
             match_slot=match_slot,
-            top_competitor=competitor,
+            top_competitor=_competitor_from_raw(competitor),
             bottom_competitor=None,
             result="Bye",
+            result_type="bye",
             bout_number=None,
-            winner=competitor,
-            winner_from=None,
+            top_win=True,
         ),
     )
     matches.append(match)
@@ -426,12 +503,63 @@ def _round_line_split(line: str, prefix: str) -> tuple[int, str, str, str]:
     return bout_number, winner, loser, result
 
 
+def _determine_result_type(result: str) -> bracket_utils.ResultType:
+    if result.startswith("OT "):
+        score_win_str, score_lose_str = result[len("OT ") :].split("-")
+        score_win = int(score_win_str)
+        score_lose = int(score_lose_str)
+        delta = score_win - score_lose
+        if not (0 < delta < 8):
+            raise ValueError("Unexpected difference", result)
+
+        return "decision"
+
+    if result.startswith("2-OT "):
+        score_win_str, score_lose_str = result[len("2-OT ") :].split("-")
+        score_win = int(score_win_str)
+        score_lose = int(score_lose_str)
+        delta = score_win - score_lose
+        if not (0 < delta < 8):
+            raise ValueError("Unexpected difference", result)
+
+        return "decision"
+
+    if result == "Dec" or result.startswith("Dec "):
+        return "decision"
+
+    if result.startswith("Maj "):
+        return "major"
+
+    if result.startswith("TF "):
+        return "tech"
+
+    if result == "Fall" or result.startswith("Fall "):
+        return "fall"
+
+    if result.startswith("Inj. "):
+        return "default"
+
+    if result == "FF":
+        return "forfeit"
+
+    if result == "NC":
+        return "walkover"
+
+    if result == "DQ":
+        return "disqualification"
+
+    if result == "Bye":
+        return "bye"
+
+    raise NotImplementedError(result)
+
+
 def _parse_r32(
     round_name: str,
     match_prefix: str,
     selenium_rounds: dict,
     match_slots_by_bracket: dict[tuple[bracket_utils.Division, int], MatchSlotMap],
-) -> list[MatchRawWithBracket]:
+) -> list[MatchWithBracket]:
     html = selenium_rounds.pop(round_name, None)
     if not isinstance(html, str):
         raise TypeError("Unexpected value", type(html), round_name)
@@ -443,7 +571,7 @@ def _parse_r32(
 
     all_h2: list[bs4.Tag] = soup.find_all("h2")
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
-    matches: list[MatchRawWithBracket] = []
+    matches: list[MatchWithBracket] = []
     for h2 in all_h2:
         division_display, weight_str = h2.text.split()
         weight = int(weight_str)
@@ -492,17 +620,17 @@ def _parse_r32(
                 winner_competitor = bottom_competitor
                 loser_competitor = top_competitor
 
-            match = MatchRawWithBracket(
+            match = MatchWithBracket(
                 division=division,
                 weight=weight,
-                match=bracket_utils.MatchRaw(
+                match=bracket_utils.Match(
                     match_slot=match_slot,
-                    top_competitor=top_competitor,
-                    bottom_competitor=bottom_competitor,
+                    top_competitor=_competitor_from_raw(top_competitor),
+                    bottom_competitor=_competitor_from_raw(bottom_competitor),
                     result=result,
+                    result_type=_determine_result_type(result),
                     bout_number=bout_number,
-                    winner=winner_competitor,
-                    winner_from=None,
+                    top_win=top_win,
                 ),
             )
             matches.append(match)
@@ -538,7 +666,7 @@ def _parse_r16(
     match_prefix: str,
     selenium_rounds: dict,
     match_slots_by_bracket: dict[tuple[bracket_utils.Division, int], MatchSlotMap],
-) -> list[MatchRawWithBracket]:
+) -> list[MatchWithBracket]:
     html = selenium_rounds.pop(round_name, None)
     if not isinstance(html, str):
         raise TypeError("Unexpected value", type(html), round_name)
@@ -550,7 +678,7 @@ def _parse_r16(
 
     all_h2: list[bs4.Tag] = soup.find_all("h2")
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
-    matches: list[MatchRawWithBracket] = []
+    matches: list[MatchWithBracket] = []
     for h2 in all_h2:
         division_display, weight_str = h2.text.split()
         weight = int(weight_str)
@@ -594,17 +722,17 @@ def _parse_r16(
                 winner_competitor = bottom_competitor
                 loser_competitor = top_competitor
 
-            match = MatchRawWithBracket(
+            match = MatchWithBracket(
                 division=division,
                 weight=weight,
-                match=bracket_utils.MatchRaw(
+                match=bracket_utils.Match(
                     match_slot=match_slot,
-                    top_competitor=top_competitor,
-                    bottom_competitor=bottom_competitor,
+                    top_competitor=_competitor_from_raw(top_competitor),
+                    bottom_competitor=_competitor_from_raw(bottom_competitor),
                     result=result,
+                    result_type=_determine_result_type(result),
                     bout_number=bout_number,
-                    winner=winner_competitor,
-                    winner_from=None,
+                    top_win=top_win,
                 ),
             )
             matches.append(match)
@@ -636,7 +764,7 @@ def _parse_quarterfinal(
     match_prefix: str,
     selenium_rounds: dict,
     match_slots_by_bracket: dict[tuple[bracket_utils.Division, int], MatchSlotMap],
-) -> list[MatchRawWithBracket]:
+) -> list[MatchWithBracket]:
     html = selenium_rounds.pop(round_name, None)
     if not isinstance(html, str):
         raise TypeError("Unexpected value", type(html), round_name)
@@ -648,7 +776,7 @@ def _parse_quarterfinal(
 
     all_h2: list[bs4.Tag] = soup.find_all("h2")
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
-    matches: list[MatchRawWithBracket] = []
+    matches: list[MatchWithBracket] = []
     for h2 in all_h2:
         division_display, weight_str = h2.text.split()
         weight = int(weight_str)
@@ -692,17 +820,17 @@ def _parse_quarterfinal(
                 winner_competitor = bottom_competitor
                 loser_competitor = top_competitor
 
-            match = MatchRawWithBracket(
+            match = MatchWithBracket(
                 division=division,
                 weight=weight,
-                match=bracket_utils.MatchRaw(
+                match=bracket_utils.Match(
                     match_slot=match_slot,
-                    top_competitor=top_competitor,
-                    bottom_competitor=bottom_competitor,
+                    top_competitor=_competitor_from_raw(top_competitor),
+                    bottom_competitor=_competitor_from_raw(bottom_competitor),
                     result=result,
+                    result_type=_determine_result_type(result),
                     bout_number=bout_number,
-                    winner=winner_competitor,
-                    winner_from=None,
+                    top_win=top_win,
                 ),
             )
             matches.append(match)
@@ -731,7 +859,7 @@ def _parse_consolation_round3(
     match_prefix: str,
     selenium_rounds: dict,
     match_slots_by_bracket: dict[tuple[bracket_utils.Division, int], MatchSlotMap],
-) -> list[MatchRawWithBracket]:
+) -> list[MatchWithBracket]:
     html = selenium_rounds.pop(round_name, None)
     if not isinstance(html, str):
         raise TypeError("Unexpected value", type(html), round_name)
@@ -743,7 +871,7 @@ def _parse_consolation_round3(
 
     all_h2: list[bs4.Tag] = soup.find_all("h2")
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
-    matches: list[MatchRawWithBracket] = []
+    matches: list[MatchWithBracket] = []
     for h2 in all_h2:
         division_display, weight_str = h2.text.split()
         weight = int(weight_str)
@@ -794,17 +922,17 @@ def _parse_consolation_round3(
             if not top_win:
                 winner_competitor = bottom_competitor
 
-            match = MatchRawWithBracket(
+            match = MatchWithBracket(
                 division=division,
                 weight=weight,
-                match=bracket_utils.MatchRaw(
+                match=bracket_utils.Match(
                     match_slot=match_slot,
-                    top_competitor=top_competitor,
-                    bottom_competitor=bottom_competitor,
+                    top_competitor=_competitor_from_raw(top_competitor),
+                    bottom_competitor=_competitor_from_raw(bottom_competitor),
                     result=result,
+                    result_type=_determine_result_type(result),
                     bout_number=bout_number,
-                    winner=winner_competitor,
-                    winner_from=None,
+                    top_win=top_win,
                 ),
             )
             matches.append(match)
@@ -827,7 +955,7 @@ def _parse_consolation_round4(
     match_prefix: str,
     selenium_rounds: dict,
     match_slots_by_bracket: dict[tuple[bracket_utils.Division, int], MatchSlotMap],
-) -> list[MatchRawWithBracket]:
+) -> list[MatchWithBracket]:
     html = selenium_rounds.pop(round_name, None)
     if not isinstance(html, str):
         raise TypeError("Unexpected value", type(html), round_name)
@@ -839,7 +967,7 @@ def _parse_consolation_round4(
 
     all_h2: list[bs4.Tag] = soup.find_all("h2")
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
-    matches: list[MatchRawWithBracket] = []
+    matches: list[MatchWithBracket] = []
     for h2 in all_h2:
         division_display, weight_str = h2.text.split()
         weight = int(weight_str)
@@ -887,17 +1015,17 @@ def _parse_consolation_round4(
             if not top_win:
                 winner_competitor = bottom_competitor
 
-            match = MatchRawWithBracket(
+            match = MatchWithBracket(
                 division=division,
                 weight=weight,
-                match=bracket_utils.MatchRaw(
+                match=bracket_utils.Match(
                     match_slot=match_slot,
-                    top_competitor=top_competitor,
-                    bottom_competitor=bottom_competitor,
+                    top_competitor=_competitor_from_raw(top_competitor),
+                    bottom_competitor=_competitor_from_raw(bottom_competitor),
                     result=result,
+                    result_type=_determine_result_type(result),
                     bout_number=bout_number,
-                    winner=winner_competitor,
-                    winner_from=None,
+                    top_win=top_win,
                 ),
             )
             matches.append(match)
@@ -921,7 +1049,7 @@ def _parse_semi_mixed(
     cons_match_prefix: str,
     selenium_rounds: dict,
     match_slots_by_bracket: dict[tuple[bracket_utils.Division, int], MatchSlotMap],
-) -> list[MatchRawWithBracket]:
+) -> list[MatchWithBracket]:
     html = selenium_rounds.pop(round_name, None)
     if not isinstance(html, str):
         raise TypeError("Unexpected value", type(html), round_name)
@@ -933,7 +1061,7 @@ def _parse_semi_mixed(
 
     all_h2: list[bs4.Tag] = soup.find_all("h2")
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
-    matches: list[MatchRawWithBracket] = []
+    matches: list[MatchWithBracket] = []
     for h2 in all_h2:
         division_display, weight_str = h2.text.split()
         weight = int(weight_str)
@@ -982,17 +1110,17 @@ def _parse_semi_mixed(
                 winner_competitor = bottom_competitor
                 loser_competitor = top_competitor
 
-            match = MatchRawWithBracket(
+            match = MatchWithBracket(
                 division=division,
                 weight=weight,
-                match=bracket_utils.MatchRaw(
+                match=bracket_utils.Match(
                     match_slot=match_slot,
-                    top_competitor=top_competitor,
-                    bottom_competitor=bottom_competitor,
+                    top_competitor=_competitor_from_raw(top_competitor),
+                    bottom_competitor=_competitor_from_raw(bottom_competitor),
                     result=result,
+                    result_type=_determine_result_type(result),
                     bout_number=bout_number,
-                    winner=winner_competitor,
-                    winner_from=None,
+                    top_win=top_win,
                 ),
             )
             matches.append(match)
@@ -1040,17 +1168,17 @@ def _parse_semi_mixed(
                 winner_competitor = bottom_competitor
                 loser_competitor = top_competitor
 
-            match = MatchRawWithBracket(
+            match = MatchWithBracket(
                 division=division,
                 weight=weight,
-                match=bracket_utils.MatchRaw(
+                match=bracket_utils.Match(
                     match_slot=match_slot,
-                    top_competitor=top_competitor,
-                    bottom_competitor=bottom_competitor,
+                    top_competitor=_competitor_from_raw(top_competitor),
+                    bottom_competitor=_competitor_from_raw(bottom_competitor),
                     result=result,
+                    result_type=_determine_result_type(result),
                     bout_number=bout_number,
-                    winner=winner_competitor,
-                    winner_from=None,
+                    top_win=top_win,
                 ),
             )
             matches.append(match)
@@ -1079,7 +1207,7 @@ def _parse_consolation_semi(
     match_prefix: str,
     selenium_rounds: dict,
     match_slots_by_bracket: dict[tuple[bracket_utils.Division, int], MatchSlotMap],
-) -> list[MatchRawWithBracket]:
+) -> list[MatchWithBracket]:
     html = selenium_rounds.pop(round_name, None)
     if not isinstance(html, str):
         raise TypeError("Unexpected value", type(html), round_name)
@@ -1091,7 +1219,7 @@ def _parse_consolation_semi(
 
     all_h2: list[bs4.Tag] = soup.find_all("h2")
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
-    matches: list[MatchRawWithBracket] = []
+    matches: list[MatchWithBracket] = []
     for h2 in all_h2:
         division_display, weight_str = h2.text.split()
         weight = int(weight_str)
@@ -1141,17 +1269,17 @@ def _parse_consolation_semi(
                 winner_competitor = bottom_competitor
                 loser_competitor = top_competitor
 
-            match = MatchRawWithBracket(
+            match = MatchWithBracket(
                 division=division,
                 weight=weight,
-                match=bracket_utils.MatchRaw(
+                match=bracket_utils.Match(
                     match_slot=match_slot,
-                    top_competitor=top_competitor,
-                    bottom_competitor=bottom_competitor,
+                    top_competitor=_competitor_from_raw(top_competitor),
+                    bottom_competitor=_competitor_from_raw(bottom_competitor),
                     result=result,
+                    result_type=_determine_result_type(result),
                     bout_number=bout_number,
-                    winner=winner_competitor,
-                    winner_from=None,
+                    top_win=top_win,
                 ),
             )
             matches.append(match)
@@ -1183,7 +1311,7 @@ def _parse_place_matches(
     seventh_place_prefix: str,
     selenium_rounds: dict,
     match_slots_by_bracket: dict[tuple[bracket_utils.Division, int], MatchSlotMap],
-) -> list[MatchRawWithBracket]:
+) -> list[MatchWithBracket]:
     html = selenium_rounds.pop(round_name, None)
     if not isinstance(html, str):
         raise TypeError("Unexpected value", type(html), round_name)
@@ -1202,7 +1330,7 @@ def _parse_place_matches(
 
     all_h2: list[bs4.Tag] = soup.find_all("h2")
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
-    matches: list[MatchRawWithBracket] = []
+    matches: list[MatchWithBracket] = []
     for h2 in all_h2:
         division_display, weight_str = h2.text.split()
         weight = int(weight_str)
@@ -1247,17 +1375,17 @@ def _parse_place_matches(
             if not top_win:
                 winner_competitor = bottom_competitor
 
-            match = MatchRawWithBracket(
+            match = MatchWithBracket(
                 division=division,
                 weight=weight,
-                match=bracket_utils.MatchRaw(
+                match=bracket_utils.Match(
                     match_slot=match_slot,
-                    top_competitor=top_competitor,
-                    bottom_competitor=bottom_competitor,
+                    top_competitor=_competitor_from_raw(top_competitor),
+                    bottom_competitor=_competitor_from_raw(bottom_competitor),
                     result=result,
+                    result_type=_determine_result_type(result),
                     bout_number=bout_number,
-                    winner=winner_competitor,
-                    winner_from=None,
+                    top_win=top_win,
                 ),
             )
             matches.append(match)
@@ -1275,11 +1403,11 @@ def _parse_place_matches(
 def _parse_rounds(
     selenium_rounds: Any,
     match_slots_by_bracket: dict[tuple[bracket_utils.Division, int], MatchSlotMap],
-) -> list[MatchRawWithBracket]:
+) -> list[MatchWithBracket]:
     if not isinstance(selenium_rounds, dict):
         raise TypeError("Unexpected value", type(selenium_rounds))
 
-    matches: list[MatchRawWithBracket] = []
+    matches: list[MatchWithBracket] = []
 
     matches.extend(
         _parse_r32(
@@ -1404,14 +1532,11 @@ def main():
     weight_classes: list[bracket_utils.WeightClass] = []
     for key in match_slots_by_bracket.keys():
         division, weight = key
-        raw_matches = [
+        weight_class_matches = [
             match_with.match
             for match_with in matches
             if match_with.division == division and match_with.weight == weight
         ]
-        print(len(raw_matches))
-        print(raw_matches)
-        weight_class_matches: list[bracket_utils.Match] = []
         weight_class = bracket_utils.WeightClass(
             division=division, weight=weight, matches=weight_class_matches
         )
