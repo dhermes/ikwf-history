@@ -20,34 +20,16 @@ make it onto the internet.
 ## Trackwrestling
 
 For 2007-2025, brackets are on Trackwrestling. Unfortunately there is no API,
-however we can capture brackets via:
+however we can capture brackets via Selenium (a webdriver). We capture 4
+primary data sources:
 
-```js
-// Advance to next bracket
-const weightSelect = document.querySelector("#weightGroupBox");
-weightSelect.value = (Number(weightSelect.value) + 1).toString(); // Not enough, need a click
-
-copy(document.querySelector(".cell.bracket-content-frame").outerHTML);
-// OR
-copy(document.querySelector("#bracket-frame").outerHTML);
-```
-
-and then capture round-by-round results once the "shape" of the bracket
-is established.
-
-In fact the brackets have abbreviations for names and teams so the results
-are more valuable. However we need information about who the top / bottom
-of the bracket is in the round of 32. Additionally, we need bout numbers.
-
-Team point deductions are available but "hard" to access in Trackwrestling.
-It involves opening a team points detail, e.g.:
-
-```
-https://www.trackwrestling.com/opentournaments/TeamPointsDetail.jsp?twSessionId=xbbsfcxnpu&teamId=3434011
-```
-
-and then at the bottom there will be a note, e.g.
-`Unsportsmanlike COnduct: -1.0`.
+- `brackets.selenium.json`: Championship brackets; this is purely to determine
+  which athletes are top / bottom in initial rounds
+- `deductions.selenium.json`: Team point deductions by going to the team score
+  detail for every single team
+- `rounds.selenium.json`: "Round Results" for every weight, across each
+  round
+- `team_scores.selenium.json`: Team scores by division
 
 ## Team scoring
 

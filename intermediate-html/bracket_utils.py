@@ -570,9 +570,10 @@ def _get_result_points(result_type: ResultType) -> float:
     raise NotImplementedError(result_type)
 
 
-def next_match_position_win_2007(
+def next_match_position_win_v1(
     match_slot: MatchSlot,
 ) -> tuple[MatchSlot, BracketPosition] | None:
+    """In use from 2007-????"""
     if match_slot == "championship_r32_01":
         return "championship_r16_01", "top"
 
@@ -714,9 +715,10 @@ def next_match_position_win_2007(
     raise NotImplementedError(match_slot)
 
 
-def next_match_position_lose_2007(
+def next_match_position_lose_v1(
     match_slot: MatchSlot,
 ) -> tuple[MatchSlot, BracketPosition] | None:
+    """In use from 2007-????"""
     # NOTE: Earlier brackets used follow-the-leader so these are not guaranteed
     #       to happen unless the winner reached the semifinals.
     if match_slot == "championship_r32_02":
@@ -800,9 +802,10 @@ def next_match_position_lose_2007(
     raise NotImplementedError(match_slot)
 
 
-def next_match_position_win_MODERN(
+def next_match_position_win_v2(
     match_slot: MatchSlot,
 ) -> tuple[MatchSlot, BracketPosition] | None:
+    """In use from ????-2025"""
     if match_slot == "championship_r32_01":
         return "championship_r16_01", "top"
 
@@ -968,9 +971,10 @@ def next_match_position_win_MODERN(
     raise NotImplementedError(match_slot)
 
 
-def next_match_position_lose_MODERN(
+def next_match_position_lose_v2(
     match_slot: MatchSlot,
 ) -> tuple[MatchSlot, BracketPosition] | None:
+    """In use from ????-2025"""
     if match_slot == "championship_r32_02":
         return "consolation_round2_01", "bottom"
 
@@ -1053,7 +1057,7 @@ def next_match_position_lose_MODERN(
 
 
 def _next_match_for_bye(match_slot: MatchSlot) -> MatchSlot | None:
-    next_position = next_match_position_win_MODERN(match_slot)
+    next_position = next_match_position_win_v2(match_slot)
     if next_position is None:
         return None
 
