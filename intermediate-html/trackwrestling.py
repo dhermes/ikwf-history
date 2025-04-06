@@ -432,10 +432,18 @@ def _add_r32_bye(
     match_slot: bracket_utils.MatchSlot = f"championship_r32_{slot_id:02}"
 
     competitors = match_slot_map[(match_slot, "top")]
-    if len(competitors) != 1:
-        raise RuntimeError("Invariant violation", match_slot)
-    competitor = competitors[0]
+    if len(competitors) == 0:
+        # NOTE: In very rare cases, there was **NO** sectional winner.
+        win_position = bracket_utils.next_match_position_win_v1(match_slot)
+        match_slot_map.setdefault(win_position, [])
+        return
 
+    if len(competitors) != 1:
+        raise RuntimeError(
+            "Invariant violation", match_slot, division, weight, len(competitors)
+        )
+
+    competitor = competitors[0]
     match = MatchWithBracket(
         division=division,
         weight=weight,
@@ -513,6 +521,9 @@ def _determine_result_type(result: str) -> bracket_utils.ResultType:
     if result.startswith("TB-1 "):
         return _overtime_result_type(result, "TB-1 ")
 
+    if result.startswith("UTB "):
+        return _overtime_result_type(result, "UTB ")
+
     if result == "Dec" or result.startswith("Dec "):
         return "decision"
 
@@ -531,7 +542,7 @@ def _determine_result_type(result: str) -> bracket_utils.ResultType:
     if result == "FF" or result == "MFF":
         return "forfeit"
 
-    if result == "NC":
+    if result == "NC" or result == "OTHR1":
         return "walkover"
 
     if result == "DQ":
@@ -540,6 +551,7 @@ def _determine_result_type(result: str) -> bracket_utils.ResultType:
     if result == "Bye":
         return "bye"
 
+    breakpoint()
     raise NotImplementedError(result)
 
 
@@ -697,7 +709,7 @@ def parse_r16(
             match_slot: bracket_utils.MatchSlot = f"championship_r16_{slot_id:02}"
 
             top_competitors = match_slot_map[(match_slot, "top")]
-            if len(top_competitors) != 1:
+            if len(top_competitors) > 1:
                 raise RuntimeError("Invariant violation", match_slot)
 
             bottom_competitors = match_slot_map[(match_slot, "bottom")]
