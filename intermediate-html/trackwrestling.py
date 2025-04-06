@@ -47,7 +47,7 @@ MatchSlotMap = dict[
 MatchSlotsByBracket = dict[tuple[bracket_utils.Division, int], MatchSlotMap]
 
 
-def _normalize_division(division_display: str) -> bracket_utils.Division:
+def normalize_division(division_display: str) -> bracket_utils.Division:
     normalized = division_display.strip()
     if normalized == "Boys Bantam":
         return "bantam"
@@ -109,7 +109,7 @@ def parse_team_scores(
 
     result: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
     for division_display, html in selenium_team_scores.items():
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         if division in result:
             raise KeyError("Duplicate value", division)
 
@@ -143,7 +143,7 @@ def _get_all_opening_bout_numbers(
     for h2 in all_h2:
         division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         key = (division, weight)
         if key in result:
             raise RuntimeError("Invariant violation", key)
@@ -264,7 +264,7 @@ def _split_name_team_initial(
     return bracket_utils.CompetitorRaw(name=name, team=matches[0])
 
 
-def _initial_entries(
+def initial_entries(
     soup: bs4.BeautifulSoup,
     division_scores: list[bracket_utils.TeamScore],
     name_fixes: dict[str, str],
@@ -646,7 +646,7 @@ def parse_r32(
     for h2 in all_h2:
         division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         key = (division, weight)
         round_keys.add(key)
 
@@ -759,7 +759,7 @@ def parse_r16(
     for h2 in all_h2:
         division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         key = (division, weight)
         round_keys.add(key)
 
@@ -868,7 +868,7 @@ def parse_quarterfinal(
     for h2 in all_h2:
         division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         key = (division, weight)
         round_keys.add(key)
 
@@ -968,7 +968,7 @@ def parse_consolation_round2(
     for h2 in all_h2:
         division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         key = (division, weight)
         round_keys.add(key)
 
@@ -1071,7 +1071,7 @@ def parse_quarterfinal_mixed(
     for h2 in all_h2:
         division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         key = (division, weight)
         round_keys.add(key)
 
@@ -1240,7 +1240,7 @@ def parse_consolation_round3(
     for h2 in all_h2:
         division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         key = (division, weight)
         round_keys.add(key)
 
@@ -1341,7 +1341,7 @@ def parse_consolation_round4(
     for h2 in all_h2:
         division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         key = (division, weight)
         round_keys.add(key)
 
@@ -1446,7 +1446,7 @@ def parse_semi_mixed(
     for h2 in all_h2:
         division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         key = (division, weight)
         round_keys.add(key)
 
@@ -1624,7 +1624,7 @@ def parse_consolation_semi(
     for h2 in all_h2:
         division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         key = (division, weight)
         round_keys.add(key)
 
@@ -1746,7 +1746,7 @@ def parse_place_matches_v1(
     for h2 in all_h2:
         division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         key = (division, weight)
         round_keys.add(key)
 
@@ -1843,7 +1843,7 @@ def parse_place_matches_v2(
     for h2 in all_h2:
         division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         key = (division, weight)
         round_keys.add(key)
 
@@ -1940,7 +1940,7 @@ def parse_championship_matches(
     for h2 in all_h2:
         division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         key = (division, weight)
         round_keys.add(key)
 
@@ -2046,7 +2046,7 @@ def extract_year(
     for bracket_key, html in selenium_brackets.items():
         division_display, weight_str = bracket_key.split(" - ")
         weight = int(weight_str)
-        division = _normalize_division(division_display)
+        division = normalize_division(division_display)
         division_scores = team_scores[division]
         key = (division, weight)
         opening_bouts = all_opening_bout_numbers[key]
@@ -2055,7 +2055,7 @@ def extract_year(
             raise TypeError("Unexpected value", type(html))
 
         soup = bs4.BeautifulSoup(html, features="html.parser")
-        initial_match_slots = _initial_entries(
+        initial_match_slots = initial_entries(
             soup, division_scores, name_fixes, team_fixes, opening_bouts
         )
         if key in match_slots_by_bracket:
