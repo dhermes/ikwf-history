@@ -181,35 +181,26 @@ TEAM_NAME_MAPPING: dict[str, int] = {
 }
 
 
-def _deduction_amount(value: float) -> int:
-    if value >= 0:
-        raise ValueError("Should be negative", value)
-
-    as_int = int(value)
-    if value != as_int:
-        raise ValueError("Expect exact integer", value)
-
-    return -as_int
-
-
 def main():
-    base_index = 346
+    base_index = 6318
     with open(HERE / "extracted.2019.json") as file_obj:
         extracted = bracket_utils.ExtractedTournament.model_validate_json(
             file_obj.read()
         )
 
-    deductions = extracted.deductions
-    for i, deduction in enumerate(deductions):
-        id_ = base_index + i
-        team_name = bracket_utils.sql_nullable_str(deduction.team)
-        team_id = TEAM_NAME_MAPPING[deduction.team]
-        reason = bracket_utils.sql_nullable_str(deduction.reason)
-        amount = _deduction_amount(deduction.value)
-        print(
-            f"  ({id_}, {TOURNAMENT_ID}, {team_id}, '', {team_name}, "
-            f"{reason}, {amount}),"
-        )
+    team_scores = extracted.team_scores
+    for division, division_team_scores in team_scores.items():
+        for team_score in division_team_scores:
+            id_ = base_index
+            team_name = bracket_utils.sql_nullable_str(team_score.team)
+            team_id = TEAM_NAME_MAPPING[team_score.team]
+            score = team_score.score
+            print(
+                f"  ({id_}, {TOURNAMENT_ID}, '{division}', {team_id}, '', "
+                f"{team_name}, {score}),"
+            )
+            # Prepare for next iteration
+            base_index += 1
 
 
 if __name__ == "__main__":

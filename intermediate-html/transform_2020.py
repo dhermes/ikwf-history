@@ -213,12 +213,19 @@ def main():
             file_obj.read()
         )
 
-    weight_classes = extracted.weight_classes
-    for i, name in enumerate(_collect_all_names(weight_classes)):
-        if "'" in name:
-            raise NotImplementedError(name)
-        print(f"{base_index + i}: {name!r},")
-        # print(f"  ({name!r}, {base_index + i}),")
+    team_scores = extracted.team_scores
+    for division, division_team_scores in team_scores.items():
+        for team_score in division_team_scores:
+            id_ = base_index
+            team_name = bracket_utils.sql_nullable_str(team_score.team)
+            team_id = TEAM_NAME_MAPPING[team_score.team]
+            score = team_score.score
+            print(
+                f"  ({id_}, {TOURNAMENT_ID}, '{division}', {team_id}, '', "
+                f"{team_name}, {score}),"
+            )
+            # Prepare for next iteration
+            base_index += 1
 
 
 if __name__ == "__main__":

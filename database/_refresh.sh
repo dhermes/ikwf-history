@@ -16,3 +16,4 @@ sqlite3 ./ikwf.sqlite < ./migrations/0010-deductions-2000-to-2006.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0011-populate-teams-2007-to-2025.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0012-deductions-2007-to-2025.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0013-award-winners.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0014-team-scores-2007-to-2025.sql
