@@ -49,11 +49,23 @@ MatchSlotsByBracket = dict[tuple[bracket_utils.Division, int], MatchSlotMap]
 
 def _normalize_division(division_display: str) -> bracket_utils.Division:
     normalized = division_display.strip()
+    if normalized == "Boys Bantam":
+        return "bantam"
+
+    if normalized == "Boys Intermediate":
+        return "intermediate"
+
     if normalized in ("Novice", "Boys Novice"):
         return "novice"
 
     if normalized in ("Senior", "Boys Senior"):
         return "senior"
+
+    if normalized == "Girls Bantam":
+        return "bantam_girls"
+
+    if normalized == "Girls Intermediate":
+        return "intermediate_girls"
 
     if normalized == "Girls Novice":
         return "novice_girls"

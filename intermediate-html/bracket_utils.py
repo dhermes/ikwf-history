@@ -139,8 +139,12 @@ class Match(pydantic.BaseModel):
 
 
 Division = Literal[
+    "bantam",
+    "intermediate",
     "novice",
     "senior",
+    "bantam_girls",
+    "intermediate_girls",
     "novice_girls",
     "senior_girls",
 ]
