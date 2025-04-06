@@ -182,25 +182,26 @@ TEAM_NAME_MAPPING: dict[str, int] = {
 
 
 def main():
-    base_index = 6318
     with open(HERE / "extracted.2019.json") as file_obj:
         extracted = bracket_utils.ExtractedTournament.model_validate_json(
             file_obj.read()
         )
 
-    team_scores = extracted.team_scores
-    for division, division_team_scores in team_scores.items():
-        for team_score in division_team_scores:
-            id_ = base_index
-            team_name = bracket_utils.sql_nullable_str(team_score.team)
-            team_id = TEAM_NAME_MAPPING[team_score.team]
-            score = team_score.score
-            print(
-                f"  ({id_}, {TOURNAMENT_ID}, '{division}', {team_id}, '', "
-                f"{team_name}, {score}),"
-            )
-            # Prepare for next iteration
-            base_index += 1
+    weight_classes = extracted.weight_classes
+    team_acronym_mapping = {team: team for team in TEAM_NAME_MAPPING.keys()}
+
+    start_id = 15785
+    mapped_competitors = bracket_utils.get_competitors_for_sql(
+        start_id,
+        weight_classes,
+        team_acronym_mapping,
+        {},
+        {},
+        TEAM_NAME_MAPPING,
+    )
+
+    bracket_utils.print_competitors_sql(mapped_competitors.competitor_rows)
+    # TODO: bracket_utils.print_team_competitors_sql(mapped_competitors.team_competitor_rows)
 
 
 if __name__ == "__main__":

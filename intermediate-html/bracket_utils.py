@@ -1514,7 +1514,7 @@ def print_competitors_sql(competitor_rows: list[CompetitorRow]) -> None:
         first_name = sql_nullable_str(row.first_name)
         last_name = sql_nullable_str(row.last_name)
         suffix_str = sql_nullable_str(row.suffix)
-        print(f"  ({row.id_}, '{first_name}', '{last_name}', {suffix_str}),")
+        print(f"  ({row.id_}, {first_name}, {last_name}, {suffix_str}),")
 
 
 def print_team_competitors_sql(team_competitor_rows: list[TeamCompetitorRow]) -> None:
