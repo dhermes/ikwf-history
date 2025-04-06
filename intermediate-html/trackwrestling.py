@@ -2014,6 +2014,24 @@ def parse_championship_matches(
 ParseRoundsFunc = Callable[[Any, MatchSlotsByBracket], list[MatchWithBracket]]
 
 
+def _strip_suffix_deductions(
+    deductions: list[bracket_utils.Deduction],
+) -> list[bracket_utils.Deduction]:
+    normalized: list[bracket_utils.Deduction] = []
+    for deduction in deductions:
+        team = deduction.team
+        if team.endswith(", IL"):
+            team = team[: -len(", IL")]
+
+        normalized.append(
+            bracket_utils.Deduction(
+                team=team, reason=deduction.reason, value=deduction.value
+            )
+        )
+
+    return normalized
+
+
 def extract_year(
     root: pathlib.Path,
     parse_rounds: ParseRoundsFunc,
@@ -2029,7 +2047,8 @@ def extract_year(
 
     with open(root / "deductions.selenium.json") as file_obj:
         extracted = Deductions.model_validate_json(file_obj.read())
-        deductions = extracted.root
+
+    deductions = _strip_suffix_deductions(extracted.root)
 
     with open(root / "brackets.selenium.json") as file_obj:
         selenium_brackets = json.load(file_obj)

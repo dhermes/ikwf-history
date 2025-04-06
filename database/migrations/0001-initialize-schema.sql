@@ -186,7 +186,8 @@ CREATE TABLE team_point_deduction (
   team_id INTEGER NOT NULL REFERENCES team(id),
   team_acronym TEXT NOT NULL, -- For a given tournament, one-off team acronyms were used
   team_name TEXT NOT NULL, -- For a given tournament, one-off team names were used
-  reason TEXT NOT NULL
+  reason TEXT NOT NULL,
+  amount INTEGER NOT NULL
   -- NOTE: No unique index, multiple deductions are possible within a tournament
   -- NOTE: No `division` is provided here, team point deductions apply across
   --       **ALL** divisions

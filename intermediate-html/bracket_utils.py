@@ -1332,7 +1332,7 @@ def set_team_score_ids(team_scores: list[TeamScoreRow], id_start: int) -> None:
 
 def print_team_score_sql(team_scores: list[TeamScoreRow]) -> None:
     for row in team_scores:
-        team_name_str = _sql_nullable_str(row.team_name)
+        team_name_str = sql_nullable_str(row.team_name)
         print(
             f"  ({row.id_}, {row.tournament_id}, '{row.division}', "
             f"{row.team_id}, '{row.team_acronym}', "
@@ -1501,7 +1501,7 @@ def get_competitors_for_sql(
     )
 
 
-def _sql_nullable_str(value: str | None) -> str:
+def sql_nullable_str(value: str | None) -> str:
     if value is None:
         return "NULL"
 
@@ -1511,9 +1511,9 @@ def _sql_nullable_str(value: str | None) -> str:
 
 def print_competitors_sql(competitor_rows: list[CompetitorRow]) -> None:
     for row in competitor_rows:
-        first_name = _sql_nullable_str(row.first_name)
-        last_name = _sql_nullable_str(row.last_name)
-        suffix_str = _sql_nullable_str(row.suffix)
+        first_name = sql_nullable_str(row.first_name)
+        last_name = sql_nullable_str(row.last_name)
+        suffix_str = sql_nullable_str(row.suffix)
         print(f"  ({row.id_}, '{first_name}', '{last_name}', {suffix_str}),")
 
 
@@ -1634,7 +1634,7 @@ def print_matches_sql(match_rows: list[MatchRow]) -> None:
         top_competitor_id_str = _sql_nullable_integer(row.top_competitor_id)
         bottom_competitor_id_str = _sql_nullable_integer(row.bottom_competitor_id)
         top_win_str = _sql_boolean(row.top_win)
-        result_str = _sql_nullable_str(row.result)
+        result_str = sql_nullable_str(row.result)
         print(
             f"  ({row.id_}, {row.bracket_id}, {bout_number_str}, "
             f"'{row.match_slot}', {top_competitor_id_str}, {bottom_competitor_id_str}, "
