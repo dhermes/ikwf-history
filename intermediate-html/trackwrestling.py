@@ -278,21 +278,36 @@ def _handle_bye(
 
     if winner_top_index is not None:
         if winner_bottom_index is not None:
-            raise RuntimeError("Invariant violation")
+            raise RuntimeError(
+                "Invariant violation",
+                winner,
+                top_competitor_names,
+                bottom_competitor_names,
+            )
 
         top_competitor = top_competitors[winner_top_index]
         bottom_competitor = None
         top_win = True
     elif winner_bottom_index is not None:
         if winner_top_index is not None:
-            raise RuntimeError("Invariant violation")
+            raise RuntimeError(
+                "Invariant violation",
+                winner,
+                top_competitor_names,
+                bottom_competitor_names,
+            )
 
         top_competitor = None
         bottom_competitor = bottom_competitors[winner_bottom_index]
         top_win = False
     else:
         if winner.strip() != "()":
-            raise RuntimeError("Invariant violation")
+            raise RuntimeError(
+                "Invariant violation",
+                winner,
+                top_competitor_names,
+                bottom_competitor_names,
+            )
 
         return None, None, None, result
 
@@ -439,26 +454,36 @@ def _round_line_split(line: str, prefix: str) -> tuple[int, str, str, str]:
     return bout_number, winner, loser, result
 
 
-def _determine_result_type(result: str) -> bracket_utils.ResultType:
-    if result.startswith("OT "):
-        score_win_str, score_lose_str = result[len("OT ") :].split("-")
-        score_win = int(score_win_str)
-        score_lose = int(score_lose_str)
-        delta = score_win - score_lose
-        if not (0 < delta < 8):
-            raise ValueError("Unexpected difference", result)
+def _overtime_result_type(result: str, prefix: str) -> bracket_utils.ResultType:
+    without_prefix = result[len(prefix) :]
+    if without_prefix.startswith("(Fall) "):
+        return "fall"
 
+    score_win_str, score_lose_str = without_prefix.split("-")
+    score_win = int(score_win_str)
+    score_lose = int(score_lose_str)
+    delta = abs(score_win - score_lose)  # Scores may be flipped
+    if 0 < delta < 8:
         return "decision"
+
+    raise NotImplementedError("Unexpected result", result, prefix)
+
+
+def _determine_result_type(result: str) -> bracket_utils.ResultType:
+    if result == "UTB 0-0":
+        return "decision"
+
+    if result.startswith("OT "):
+        return _overtime_result_type(result, "OT ")
 
     if result.startswith("2-OT "):
-        score_win_str, score_lose_str = result[len("2-OT ") :].split("-")
-        score_win = int(score_win_str)
-        score_lose = int(score_lose_str)
-        delta = score_win - score_lose
-        if not (0 < delta < 8):
-            raise ValueError("Unexpected difference", result)
+        return _overtime_result_type(result, "2-OT ")
 
-        return "decision"
+    if result.startswith("SV-1 "):
+        return _overtime_result_type(result, "SV-1 ")
+
+    if result.startswith("TB-1 "):
+        return _overtime_result_type(result, "TB-1 ")
 
     if result == "Dec" or result.startswith("Dec "):
         return "decision"
