@@ -13,3 +13,4 @@ sqlite3 ./ikwf.sqlite < ./migrations/0007-team-scores.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0008-competitors.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0009-matches-2000-to-2006.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0010-deductions-2000-to-2006.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0011-populate-teams-2007-to-2025.sql

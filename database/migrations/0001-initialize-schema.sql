@@ -92,7 +92,9 @@ VALUES
 
 CREATE TABLE team (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name TEXT NOT NULL UNIQUE
+  name TEXT NOT NULL
+  -- NOTE: A `UNIQUE` constraint has been removed and will be added back
+  --       after teams have been merged after initial data load.
 );
 
 CREATE TABLE competitor (

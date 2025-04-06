@@ -1,0 +1,212 @@
+# Copyright (c) 2025 - Present. IKWF History. All rights reserved.
+
+import pathlib
+
+import bracket_utils
+
+HERE = pathlib.Path(__file__).resolve().parent
+TEAM_NAME_MAPPING: dict[str, int] = {
+    39000: "AJ Junior Wildcats WC",
+    39001: "Ano Kato FS.GR.",
+    39002: "Apex Stallions",
+    39003: "Arlington Cardinals WC",
+    39004: "Astro WC",
+    39005: "Badger WC",
+    39006: "Barrington Broncos WC",
+    39007: "Batavia WC",
+    39008: "Beat the Streets-Chicago",
+    39009: "Belleville Little Devils WC",
+    39010: "Belvidere Bandits WC",
+    39011: "Belvidere WC",
+    39012: "Benton WC",
+    39013: "Bismarck-Henning Youth WC",
+    39014: "Blackhawk WC",
+    39015: "Bolingbrook Junior Raiders",
+    39016: "Brawlers WC",
+    39017: "Bulls WC",
+    39018: "Carbondale WC",
+    39019: "Celtics WC",
+    39020: "Central Illinois Academy of Wrestling",
+    39021: "Centralia WC",
+    39022: "Champaign WC",
+    39023: "Champbuilders Wrestling",
+    39024: "Charger WC",
+    39025: "Charleston WC",
+    39026: "Chicago Park District",
+    39027: "Clinton WC",
+    39028: "Combative Sports Athletic Center",
+    39029: "Contender Wrestling",
+    39030: "Crawford County WC",
+    39031: "Crosstown Spartan Elite WC",
+    39032: "Crystal Lake Wizards",
+    39033: "Cumberland Youth WC",
+    39034: "DAWC",
+    39035: "Dakota WC",
+    39036: "Danville Chargers",
+    39037: "DeKalb WC",
+    39038: "Downers Grove WC",
+    39039: "Dundee Highlanders WC",
+    39040: "East St. Louis WC",
+    39041: "Edwardsville WC",
+    39042: "Effingham Youth WC",
+    39043: "Elk Grove Junior Grens",
+    39044: "Elmhurst WC",
+    39045: "Evanston School of Wrestling",
+    39046: "Falcon Youth WC",
+    39047: "Fisher WC",
+    39048: "Force Elite",
+    39049: "Fox Lake WC",
+    39050: "Fox Valley WC",
+    39051: "Frankfort Gladiator Wrestling",
+    39052: "Frankfort Wildcats Wrestling",
+    39053: "G2 WC",
+    39054: "Geneva Junior Vikings",
+    39055: "Gladiator Elite",
+    39056: "Golden Eagles WC",
+    39057: "Gomez Wrestling Academy",
+    39058: "Granite City Wrestling Association",
+    39059: "Grayslake WC",
+    39060: "Greg Gomez Trained Wrestling",
+    39061: "Guerrero`s Garage Wrestling",
+    39062: "Harlem Cougars WC",
+    39063: "Harvard WC",
+    39064: "Harvey Twisters",
+    39065: "Hawk WC",
+    39066: "Hazel Crest Park District Thunder WC",
+    39067: "Headlock Wrestling Academy",
+    39068: "Highland Bulldog Jr. WC",
+    39069: "Hillsboro Jr Toppers",
+    39070: "Hinsdale Red Devil WC",
+    39071: "Hononegah WC",
+    39072: "Hoopeston Area WC",
+    39073: "Izzy Style Wrestling",
+    39074: "Jersey Junior Panthers Wrestling",
+    39075: "Joliet Area WC",
+    39076: "Junior Cougar WC",
+    39077: "Junior Cyclones WC",
+    39078: "Junior Pioneer WC",
+    39079: "Just Wrestling",
+    39080: "Kaneland Knights WC",
+    39081: "LaSalle Peru Crunching Cavs Youth WC",
+    39082: "Lemont Bears WC",
+    39083: "Limestone Blue Crew Wrestling",
+    39084: "Lincoln Youth WC",
+    39085: "Lincoln-Way WC",
+    39086: "Lionheart Intense Wrestling",
+    39087: "Lions WC",
+    39088: "Little Huskies WC",
+    39089: "Lockport Junior Porters WC",
+    39090: "Maddog Wrestling Academy",
+    39091: "Maine Eagles WC",
+    39092: "Marengo Youth WC",
+    39093: "Martinez Fox Valley Elite",
+    39094: "Mattoon Youth WC",
+    39095: "Mendota Mat Masters",
+    39096: "Mendota WC",
+    39097: "Minooka Indians Elite Wrestling",
+    39098: "Moline WC",
+    39099: "Monticello Youth WC",
+    39100: "Morton Youth WC",
+    39101: "Mt. Vernon Lions WC",
+    39102: "Mt. Zion Kids WC",
+    39103: "Murphysboro WC",
+    39104: "Mustang WC",
+    39105: "Naperville WC",
+    39106: "North Shore Edge",
+    39107: "Notre Dame WC",
+    39108: "O`Fallon Little Panthers WC",
+    39109: "Oak Forest Warriors",
+    39110: "Olney Cubs WC",
+    39111: "Oswego WC",
+    39112: "Panther WC",
+    39113: "Pekin Boys & Girls Club",
+    39114: "Peoria Razorbacks WC",
+    39115: "Pitbull Wrestling Alliance",
+    39116: "Plainfield WC",
+    39117: "Pontiac WC",
+    39118: "Push Wrestling",
+    39119: "Quincy Cyclones WC",
+    39120: "Rams WC",
+    39121: "Rantoul Junior Wrestling",
+    39122: "Red Raiders Wrestling Team",
+    39123: "Respect Wrestling",
+    39124: "Riverton/Williamsville Youth Wrestling",
+    39125: "Rochelle WC",
+    39126: "Rochester WC",
+    39127: "Roughnecks WC",
+    39128: "SCN Youth WC",
+    39129: "SOT-C",
+    39130: "Saber WC",
+    39131: "Sauk Valley WC",
+    39132: "Saukee Youth WC",
+    39133: "Scorpion WC",
+    39134: "Southside Outlaws WC",
+    39135: "Springs Elite",
+    39136: "St. Charles WC",
+    39137: "Stillman Valley WC",
+    39138: "Stockton Renegades",
+    39139: "Storm Youth WC",
+    39140: "Streator WC",
+    39141: "Super Soldiers WC",
+    39142: "Sycamore WC",
+    39143: "TJ Trained Wrestling",
+    39144: "TJ Trained-Springfield",
+    39145: "Team 1006 Wrestling",
+    39146: "Team 312",
+    39147: "Team Mascoutah WC",
+    39148: "The Law",
+    39149: "The Wrestling Factory",
+    39150: "Tiger Town Tanglers WC",
+    39151: "Timber Wolves WC",
+    39152: "Tinley Park Bulldogs",
+    39153: "Tomcat WC",
+    39154: "Toss Em Up Wrestling Academy",
+    39155: "Triad Knights WC",
+    39156: "Trico WC",
+    39157: "UP Town WC",
+    39158: "Unity Youth WC",
+    39159: "Urbana Tigers WC",
+    39160: "Vandalia Jr WC",
+    39161: "Villa-Lombard Cougars",
+    39162: "Vittum Cats of SKT",
+    39163: "West Frankfort Jr. Redbirds",
+    39164: "Whips WC",
+    39165: "Wolfpak WC",
+    39166: "Wolves WC",
+    39167: "Wrestling Inc",
+    39168: "Xtreme WC",
+    39169: "Yorkville WC",
+    39170: "nWo WC",
+}
+
+
+def _collect_all_names(weight_classes: list[bracket_utils.WeightClass]) -> list[str]:
+    teams: set[str] = set()
+    for weight_class in weight_classes:
+        for match in weight_class.matches:
+            if match.top_competitor is not None:
+                teams.add(match.top_competitor.team)
+
+            if match.bottom_competitor is not None:
+                teams.add(match.bottom_competitor.team)
+
+    return sorted(teams)
+
+
+def main():
+    base_index = 39000
+    with open(HERE / "extracted.2019.json") as file_obj:
+        extracted = bracket_utils.ExtractedTournament.model_validate_json(
+            file_obj.read()
+        )
+
+    weight_classes = extracted.weight_classes
+    for i, name in enumerate(_collect_all_names(weight_classes)):
+        if "'" in name:
+            raise NotImplementedError(name)
+        print(f"{base_index + i}: {name!r},")
+        # print(f"  ({name!r}, {base_index + i}),")
+
+
+if __name__ == "__main__":
+    main()
