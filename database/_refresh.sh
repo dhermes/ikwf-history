@@ -9,8 +9,8 @@ sqlite3 ./ikwf.sqlite < ./migrations/0003-populate-tournaments.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0004-example-bracket.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0005-all-weights.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0006-partial-brackets-1999-placements.sql
-sqlite3 ./ikwf.sqlite < ./migrations/0007-team-scores.sql
-sqlite3 ./ikwf.sqlite < ./migrations/0008-competitors.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0007-team-scores-2001-to-2006.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0008-competitors-2000-to-2006.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0009-matches-2000-to-2006.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0010-deductions-2000-to-2006.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0011-populate-teams-2007-to-2025.sql
