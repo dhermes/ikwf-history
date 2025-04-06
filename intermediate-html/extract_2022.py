@@ -8,59 +8,61 @@ import trackwrestling
 
 HERE = pathlib.Path(__file__).resolve().parent
 _NAME_FIXES: dict[str, str] = {
-    "Christophe Bates": "Christopher Bates",
-    "Christophe Durbin": "Christopher Durbin",
-    "Christophe Moore": "Christopher Moore",
-    "Christophe Yirsa": "Christopher Yirsa",
-    "Hayden Dav Volz": "Hayden David Volz",
-    "Noah Manue Tapia": "Noah Manuel Tapia",
-    "Pedro Anto Rangel": "Pedro Antonio Rangel",
+    "Christophe Easley": "Christopher Easley",
+    "Christophe Korduplewski": "Christopher Korduplewski",
+    "Christophe Talbert": "Christopher Talbert",
+    "Jose Octav Velazquez": "Jose Octavio Velazquez",
+    "Pedro Albe Rangel": "Pedro Alberto Rangel",
+    "Trae Jacks Griffiths": "Trae Jackson Griffiths",
 }
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
-    ("David Burchett Jr.", "Mustang WC"): bracket_utils.Competitor(
-        first_name="David", last_name="Burchett", suffix="Jr", team="Mustang WC"
+    ("Blake Vande Loo", "Batavia WC"): bracket_utils.Competitor(
+        first_name="Blake", last_name="Vande Loo", suffix=None, team="Batavia WC"
     ),
-    ("Eyson Van Eycke", "Mt. Vernon Lions WC"): bracket_utils.Competitor(
-        first_name="Eyson",
-        last_name="Van Eycke",
+    ("Carl Cody Weidner", "Highland Bulldog Jr. WC"): bracket_utils.Competitor(
+        first_name="Carl Cody",
+        last_name="Weidner",
         suffix=None,
-        team="Mt. Vernon Lions WC",
+        team="Highland Bulldog Jr. WC",
     ),
-    ("Hayden David Volz", "Edwardsville WC"): bracket_utils.Competitor(
-        first_name="Hayden David",
-        last_name="Volz",
-        suffix=None,
-        team="Edwardsville WC",
-    ),
-    ("Hiran Lopez Marquez", "Tomcat WC"): bracket_utils.Competitor(
-        first_name="Hiran Lopez", last_name="Marquez", suffix=None, team="Tomcat WC"
-    ),
-    ("Jose Del Toro", "TJ Trained Wrestling"): bracket_utils.Competitor(
-        first_name="Jose",
+    ("Gabriel Del Toro", "TJ Trained Wrestling"): bracket_utils.Competitor(
+        first_name="Gabriel",
         last_name="Del Toro",
         suffix=None,
         team="TJ Trained Wrestling",
     ),
-    ("Jujuan Williams Jr", "Lionheart Intense Wrestling"): bracket_utils.Competitor(
-        first_name="Jujuan",
-        last_name="Williams",
+    ("James Talley Jr", "Lincoln-Way WC"): bracket_utils.Competitor(
+        first_name="James", last_name="Talley", suffix="Jr", team="Lincoln-Way WC"
+    ),
+    ("Jesus Reyes Jr.", "Dundee Highlanders WC"): bracket_utils.Competitor(
+        first_name="Jesus",
+        last_name="Reyes",
         suffix="Jr",
-        team="Lionheart Intense Wrestling",
+        team="Dundee Highlanders WC",
     ),
-    ("Justin Cobbs Jr", "Lincoln-Way WC"): bracket_utils.Competitor(
-        first_name="Justin", last_name="Cobbs", suffix="Jr", team="Lincoln-Way WC"
+    ("Jose Octavio Velazquez", "Scorpion WC"): bracket_utils.Competitor(
+        first_name="Jose Octavio",
+        last_name="Velazquez",
+        suffix=None,
+        team="Scorpion WC",
     ),
-    ("Lee Smith Jr.", "DAWC"): bracket_utils.Competitor(
-        first_name="Lee", last_name="Smith", suffix="Jr", team="DAWC"
+    ("Orlando Hoye Iii", "Glenbard East Jr Rams WC"): bracket_utils.Competitor(
+        first_name="Orlando",
+        last_name="Hoye",
+        suffix="III",
+        team="Glenbard East Jr Rams WC",
     ),
-    ("Noah Manuel Tapia", "Moline WC"): bracket_utils.Competitor(
-        first_name="Noah Manuel", last_name="Tapia", suffix=None, team="Moline WC"
-    ),
-    ("Pedro Antonio Rangel", "Storm Youth WC"): bracket_utils.Competitor(
-        first_name="Pedro Antonio",
+    ("Pedro Alberto Rangel", "Storm Youth WC"): bracket_utils.Competitor(
+        first_name="Pedro Alberto",
         last_name="Rangel",
         suffix=None,
         team="Storm Youth WC",
+    ),
+    ("Trae Jackson Griffiths", "Champaign WC"): bracket_utils.Competitor(
+        first_name="Trae Jackson",
+        last_name="Griffiths",
+        suffix=None,
+        team="Champaign WC",
     ),
 }
 
@@ -81,7 +83,7 @@ def _parse_rounds(
             selenium_rounds,
             match_slots_by_bracket,
             _NAME_EXCEPTIONS,
-            "v1",
+            "v2",
         )
     )
 
@@ -92,34 +94,13 @@ def _parse_rounds(
             selenium_rounds,
             match_slots_by_bracket,
             _NAME_EXCEPTIONS,
-            "v1",
+            "v2",
         )
     )
 
     matches.extend(
-        trackwrestling.parse_quarterfinal(
-            "Championship Quarterfinals",
-            "Quarterfinal",
-            selenium_rounds,
-            match_slots_by_bracket,
-            _NAME_EXCEPTIONS,
-            "v1",
-        )
-    )
-
-    matches.extend(
-        trackwrestling.parse_consolation_round3(
-            "Consolation Preliminary",
-            "Cons. Round 1",
-            selenium_rounds,
-            match_slots_by_bracket,
-            _NAME_EXCEPTIONS,
-        )
-    )
-
-    matches.extend(
-        trackwrestling.parse_consolation_round4(
-            "Consolation 1st Round",
+        trackwrestling.parse_consolation_round2(
+            "1st WB",
             "Cons. Round 2",
             selenium_rounds,
             match_slots_by_bracket,
@@ -128,14 +109,36 @@ def _parse_rounds(
     )
 
     matches.extend(
-        trackwrestling.parse_semi_mixed(
-            "Champ Semi`s & Con Quarterfinal",
-            "Semifinal",
+        trackwrestling.parse_quarterfinal_mixed(
+            "Quarters & 2nd WB",
+            "Quarterfinal",
             "Cons. Round 3",
             selenium_rounds,
             match_slots_by_bracket,
             _NAME_EXCEPTIONS,
-            "v1",
+            "v2",
+        )
+    )
+
+    matches.extend(
+        trackwrestling.parse_consolation_round4(
+            "3rd WB",
+            "Cons. Round 4",
+            selenium_rounds,
+            match_slots_by_bracket,
+            _NAME_EXCEPTIONS,
+        )
+    )
+
+    matches.extend(
+        trackwrestling.parse_semi_mixed(
+            "Semis & 4th WB",
+            "Semifinal",
+            "Cons. Round 5",
+            selenium_rounds,
+            match_slots_by_bracket,
+            _NAME_EXCEPTIONS,
+            "v2",
         )
     )
 
@@ -146,13 +149,13 @@ def _parse_rounds(
             selenium_rounds,
             match_slots_by_bracket,
             _NAME_EXCEPTIONS,
-            "v1",
+            "v2",
         )
     )
 
     matches.extend(
         trackwrestling.parse_place_matches_v2(
-            "Place Bouts",
+            "3rd, 5th, & 7th",
             "3rd Place Match",
             "5th Place Match",
             "7th Place Match",
@@ -179,9 +182,9 @@ def _parse_rounds(
 
 
 def main():
-    root = HERE.parent / "raw-data" / "2019"
+    root = HERE.parent / "raw-data" / "2022"
     extracted_tournament = trackwrestling.extract_year(root, _parse_rounds, _NAME_FIXES)
-    with open(HERE / "extracted.2019.json", "w") as file_obj:
+    with open(HERE / "extracted.2022.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))
         file_obj.write("\n")
 

@@ -66,6 +66,7 @@ def _parse_rounds(
             selenium_rounds,
             match_slots_by_bracket,
             _NAME_EXCEPTIONS,
+            "v1",
         )
     )
 
@@ -76,6 +77,7 @@ def _parse_rounds(
             selenium_rounds,
             match_slots_by_bracket,
             _NAME_EXCEPTIONS,
+            "v1",
         )
     )
 
@@ -86,6 +88,7 @@ def _parse_rounds(
             selenium_rounds,
             match_slots_by_bracket,
             _NAME_EXCEPTIONS,
+            "v1",
         )
     )
 
@@ -117,6 +120,7 @@ def _parse_rounds(
             selenium_rounds,
             match_slots_by_bracket,
             _NAME_EXCEPTIONS,
+            "v1",
         )
     )
 
@@ -127,6 +131,7 @@ def _parse_rounds(
             selenium_rounds,
             match_slots_by_bracket,
             _NAME_EXCEPTIONS,
+            "v1",
         )
     )
 

@@ -2,7 +2,7 @@
 
 import json
 import pathlib
-from typing import Any, Callable
+from typing import Any, Callable, Literal
 
 import bs4
 import pydantic
@@ -371,6 +371,7 @@ def _handle_match(
                 "Invariant violation",
                 winner,
                 loser,
+                result,
                 top_competitor_names,
                 bottom_competitor_names,
             )
@@ -398,6 +399,7 @@ def _handle_match(
                 "Invariant violation",
                 winner,
                 loser,
+                result,
                 top_competitor_names,
                 bottom_competitor_names,
             )
@@ -406,6 +408,7 @@ def _handle_match(
             "Invariant violation",
             winner,
             loser,
+            result,
             top_competitor_names,
             bottom_competitor_names,
         )
@@ -434,7 +437,7 @@ def _add_r32_bye(
     competitors = match_slot_map[(match_slot, "top")]
     if len(competitors) == 0:
         # NOTE: In very rare cases, there was **NO** sectional winner.
-        win_position = bracket_utils.next_match_position_win_v1(match_slot)
+        win_position = bracket_utils.next_match_position_win(match_slot)
         match_slot_map.setdefault(win_position, [])
         return
 
@@ -461,7 +464,7 @@ def _add_r32_bye(
     )
     matches.append(match)
 
-    win_position = bracket_utils.next_match_position_win_v1(match_slot)
+    win_position = bracket_utils.next_match_position_win(match_slot)
     match_slot_map.setdefault(win_position, [])
     match_slot_map[win_position].append(competitor)
 
@@ -551,8 +554,22 @@ def _determine_result_type(result: str) -> bracket_utils.ResultType:
     if result == "Bye":
         return "bye"
 
-    breakpoint()
     raise NotImplementedError(result)
+
+
+HelperVersion = Literal["v1", "v2"]
+
+
+def _next_match_position_lose(
+    helper_version: HelperVersion, match_slot: bracket_utils.MatchSlot
+) -> tuple[bracket_utils.MatchSlot, bracket_utils.BracketPosition] | None:
+    if helper_version == "v1":
+        return bracket_utils.next_match_position_lose_v1(match_slot)
+
+    if helper_version == "v2":
+        return bracket_utils.next_match_position_lose_v2(match_slot)
+
+    raise NotImplementedError(helper_version)
 
 
 def parse_r32(
@@ -561,6 +578,7 @@ def parse_r32(
     selenium_rounds: dict,
     match_slots_by_bracket: MatchSlotsByBracket,
     name_exceptions: dict[tuple[str, str], bracket_utils.Competitor],
+    helper_version: HelperVersion,
 ) -> list[MatchWithBracket]:
     html = selenium_rounds.pop(round_name, None)
     if not isinstance(html, str):
@@ -642,7 +660,7 @@ def parse_r32(
             matches.append(match)
 
             # 1. Make the `match_slot_map` aware of the winner
-            win_position = bracket_utils.next_match_position_win_v1(match_slot)
+            win_position = bracket_utils.next_match_position_win(match_slot)
             match_slot_map.setdefault(win_position, [])
             if winner_competitor is not None:
                 match_slot_map[win_position].append(winner_competitor)
@@ -655,7 +673,7 @@ def parse_r32(
             # NOTE: The loser **MIGHT** have a match, **IF** the winner makes
             #       the semifinals. But this is true for another R32 loser so we
             #       need to keep an array.
-            lose_position = bracket_utils.next_match_position_lose_v1(match_slot)
+            lose_position = _next_match_position_lose(helper_version, match_slot)
             match_slot_map.setdefault(lose_position, [])
             if loser_competitor is not None:
                 match_slot_map[lose_position].append(loser_competitor)
@@ -673,6 +691,7 @@ def parse_r16(
     selenium_rounds: dict,
     match_slots_by_bracket: MatchSlotsByBracket,
     name_exceptions: dict[tuple[str, str], bracket_utils.Competitor],
+    helper_version: HelperVersion,
 ) -> list[MatchWithBracket]:
     html = selenium_rounds.pop(round_name, None)
     if not isinstance(html, str):
@@ -754,7 +773,7 @@ def parse_r16(
             matches.append(match)
 
             # 1. Make the `match_slot_map` aware of the winner
-            win_position = bracket_utils.next_match_position_win_v1(match_slot)
+            win_position = bracket_utils.next_match_position_win(match_slot)
             match_slot_map.setdefault(win_position, [])
             if winner_competitor is not None:
                 match_slot_map[win_position].append(winner_competitor)
@@ -763,7 +782,7 @@ def parse_r16(
             # NOTE: The loser **MIGHT** have a match, **IF** the winner makes
             #       the semifinals. But this is true for another R16 loser so we
             #       need to keep an array.
-            lose_position = bracket_utils.next_match_position_lose_v1(match_slot)
+            lose_position = _next_match_position_lose(helper_version, match_slot)
             match_slot_map.setdefault(lose_position, [])
             if loser_competitor is not None:
                 match_slot_map[lose_position].append(loser_competitor)
@@ -781,6 +800,7 @@ def parse_quarterfinal(
     selenium_rounds: dict,
     match_slots_by_bracket: MatchSlotsByBracket,
     name_exceptions: dict[tuple[str, str], bracket_utils.Competitor],
+    helper_version: HelperVersion,
 ) -> list[MatchWithBracket]:
     html = selenium_rounds.pop(round_name, None)
     if not isinstance(html, str):
@@ -857,16 +877,283 @@ def parse_quarterfinal(
             matches.append(match)
 
             # 1. Make the `match_slot_map` aware of the winner
-            win_position = bracket_utils.next_match_position_win_v1(match_slot)
+            win_position = bracket_utils.next_match_position_win(match_slot)
             match_slot_map.setdefault(win_position, [])
             if winner_competitor is not None:
                 match_slot_map[win_position].append(winner_competitor)
 
             # 2. Make the `match_slot_map` aware of the loser
-            lose_position = bracket_utils.next_match_position_lose_v1(match_slot)
+            lose_position = _next_match_position_lose(helper_version, match_slot)
             match_slot_map.setdefault(lose_position, [])
             if loser_competitor is not None:
                 match_slot_map[lose_position].append(loser_competitor)
+
+    match_slot_keys = set(match_slots_by_bracket.keys())
+    if round_keys != match_slot_keys:
+        raise RuntimeError("Invariant violation")
+
+    return matches
+
+
+def parse_consolation_round2(
+    round_name: str,
+    match_prefix: str,
+    selenium_rounds: dict,
+    match_slots_by_bracket: MatchSlotsByBracket,
+    name_exceptions: dict[tuple[str, str], bracket_utils.Competitor],
+) -> list[MatchWithBracket]:
+    html = selenium_rounds.pop(round_name, None)
+    if not isinstance(html, str):
+        raise TypeError("Unexpected value", type(html), round_name)
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    all_h1_text = [h1.text for h1 in soup.find_all("h1")]
+    if all_h1_text != [round_name]:
+        raise RuntimeError("Invariant violation", all_h1_text)
+
+    all_h2: list[bs4.Tag] = soup.find_all("h2")
+    round_keys: set[tuple[bracket_utils.Division, int]] = set()
+    matches: list[MatchWithBracket] = []
+    for h2 in all_h2:
+        division_display, weight_str = h2.text.split()
+        weight = int(weight_str)
+        division = _normalize_division(division_display)
+        key = (division, weight)
+        round_keys.add(key)
+
+        match_slot_map = match_slots_by_bracket[key]
+
+        ul_sibling = h2.find_next_sibling()
+        if ul_sibling.name != "ul":
+            raise RuntimeError("Invariant violation", ul_sibling)
+
+        all_entries: list[bs4.Tag] = [li for li in ul_sibling.find_all("li")]
+        if len(all_entries) != 8:
+            raise RuntimeError("Invariant violation", all_entries)
+
+        for i in range(8):
+            entry = all_entries[i]
+            slot_id = i + 1
+            match_slot: bracket_utils.MatchSlot = f"consolation_round2_{slot_id:02}"
+
+            top_competitors = match_slot_map[(match_slot, "top")]
+            if len(top_competitors) > 1:
+                raise RuntimeError(
+                    "Invariant violation", len(top_competitors), match_slot
+                )
+
+            bottom_competitors = match_slot_map[(match_slot, "bottom")]
+            if len(bottom_competitors) > 1:
+                raise RuntimeError(
+                    "Invariant violation", len(bottom_competitors), match_slot
+                )
+
+            bout_number, winner, loser, result = _round_line_split(
+                entry.text, match_prefix
+            )
+            if loser.strip() == "()":
+                top_competitor, bottom_competitor, top_win, result = _handle_bye(
+                    winner, result, top_competitors, bottom_competitors
+                )
+            else:
+                top_competitor, bottom_competitor, top_win, result = _handle_match(
+                    winner, loser, result, top_competitors, bottom_competitors
+                )
+
+            winner_competitor = top_competitor
+            if not top_win:
+                winner_competitor = bottom_competitor
+
+            match = MatchWithBracket(
+                division=division,
+                weight=weight,
+                match=bracket_utils.Match(
+                    match_slot=match_slot,
+                    top_competitor=bracket_utils.competitor_from_raw(
+                        top_competitor, name_exceptions
+                    ),
+                    bottom_competitor=bracket_utils.competitor_from_raw(
+                        bottom_competitor, name_exceptions
+                    ),
+                    result=result,
+                    result_type=_determine_result_type(result),
+                    bout_number=bout_number,
+                    top_win=top_win,
+                ),
+            )
+            matches.append(match)
+
+            # Make the `match_slot_map` aware of the winner (loser is eliminated)
+            win_position = bracket_utils.next_match_position_win(match_slot)
+            match_slot_map.setdefault(win_position, [])
+            if winner_competitor is not None:
+                match_slot_map[win_position].append(winner_competitor)
+
+    match_slot_keys = set(match_slots_by_bracket.keys())
+    if round_keys != match_slot_keys:
+        raise RuntimeError("Invariant violation")
+
+    return matches
+
+
+def parse_quarterfinal_mixed(
+    round_name: str,
+    quarterfinal_match_prefix: str,
+    cons_match_prefix: str,
+    selenium_rounds: dict,
+    match_slots_by_bracket: MatchSlotsByBracket,
+    name_exceptions: dict[tuple[str, str], bracket_utils.Competitor],
+    helper_version: HelperVersion,
+) -> list[MatchWithBracket]:
+    html = selenium_rounds.pop(round_name, None)
+    if not isinstance(html, str):
+        raise TypeError("Unexpected value", type(html), round_name)
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    all_h1_text = [h1.text for h1 in soup.find_all("h1")]
+    if all_h1_text != [round_name]:
+        raise RuntimeError("Invariant violation", all_h1_text)
+
+    all_h2: list[bs4.Tag] = soup.find_all("h2")
+    round_keys: set[tuple[bracket_utils.Division, int]] = set()
+    matches: list[MatchWithBracket] = []
+    for h2 in all_h2:
+        division_display, weight_str = h2.text.split()
+        weight = int(weight_str)
+        division = _normalize_division(division_display)
+        key = (division, weight)
+        round_keys.add(key)
+
+        match_slot_map = match_slots_by_bracket[key]
+
+        ul_sibling = h2.find_next_sibling()
+        if ul_sibling.name != "ul":
+            raise RuntimeError("Invariant violation", ul_sibling)
+
+        all_entries: list[bs4.Tag] = [li for li in ul_sibling.find_all("li")]
+        if len(all_entries) != 8:
+            raise RuntimeError("Invariant violation", all_entries)
+
+        # Quarterfinals
+        for i in range(4):
+            entry = all_entries[i]
+            slot_id = i + 1
+            match_slot: bracket_utils.MatchSlot = f"championship_quarter_{slot_id:02}"
+
+            top_competitors = match_slot_map[(match_slot, "top")]
+            if len(top_competitors) != 1:
+                raise RuntimeError(
+                    "Invariant violation", len(top_competitors), match_slot
+                )
+
+            bottom_competitors = match_slot_map[(match_slot, "bottom")]
+            if len(bottom_competitors) != 1:
+                raise RuntimeError(
+                    "Invariant violation", len(bottom_competitors), match_slot
+                )
+
+            bout_number, winner, loser, result = _round_line_split(
+                entry.text, quarterfinal_match_prefix
+            )
+            top_competitor, bottom_competitor, top_win, result = _handle_match(
+                winner, loser, result, top_competitors, bottom_competitors
+            )
+
+            winner_competitor = top_competitor
+            loser_competitor = bottom_competitor
+            if not top_win:
+                winner_competitor = bottom_competitor
+                loser_competitor = top_competitor
+
+            match = MatchWithBracket(
+                division=division,
+                weight=weight,
+                match=bracket_utils.Match(
+                    match_slot=match_slot,
+                    top_competitor=bracket_utils.competitor_from_raw(
+                        top_competitor, name_exceptions
+                    ),
+                    bottom_competitor=bracket_utils.competitor_from_raw(
+                        bottom_competitor, name_exceptions
+                    ),
+                    result=result,
+                    result_type=_determine_result_type(result),
+                    bout_number=bout_number,
+                    top_win=top_win,
+                ),
+            )
+            matches.append(match)
+
+            # 1. Make the `match_slot_map` aware of the winner
+            win_position = bracket_utils.next_match_position_win(match_slot)
+            match_slot_map.setdefault(win_position, [])
+            if winner_competitor is not None:
+                match_slot_map[win_position].append(winner_competitor)
+
+            # 2. Make the `match_slot_map` aware of the loser
+            lose_position = _next_match_position_lose(helper_version, match_slot)
+            match_slot_map.setdefault(lose_position, [])
+            if loser_competitor is not None:
+                match_slot_map[lose_position].append(loser_competitor)
+
+        # Wrestlebacks
+        for i in range(4):
+            entry = all_entries[i + 4]
+            slot_id = i + 1
+            match_slot: bracket_utils.MatchSlot = f"consolation_round3_{slot_id:02}"
+
+            top_competitors = match_slot_map[(match_slot, "top")]
+            if len(top_competitors) > 1:
+                raise RuntimeError(
+                    "Invariant violation", len(top_competitors), match_slot
+                )
+
+            bottom_competitors = match_slot_map[(match_slot, "bottom")]
+            if len(bottom_competitors) > 1:
+                raise RuntimeError(
+                    "Invariant violation", len(bottom_competitors), match_slot
+                )
+
+            bout_number, winner, loser, result = _round_line_split(
+                entry.text, cons_match_prefix
+            )
+            if loser.strip() == "()":
+                top_competitor, bottom_competitor, top_win, result = _handle_bye(
+                    winner, result, top_competitors, bottom_competitors
+                )
+            else:
+                top_competitor, bottom_competitor, top_win, result = _handle_match(
+                    winner, loser, result, top_competitors, bottom_competitors
+                )
+
+            winner_competitor = top_competitor
+            if not top_win:
+                winner_competitor = bottom_competitor
+
+            match = MatchWithBracket(
+                division=division,
+                weight=weight,
+                match=bracket_utils.Match(
+                    match_slot=match_slot,
+                    top_competitor=bracket_utils.competitor_from_raw(
+                        top_competitor, name_exceptions
+                    ),
+                    bottom_competitor=bracket_utils.competitor_from_raw(
+                        bottom_competitor, name_exceptions
+                    ),
+                    result=result,
+                    result_type=_determine_result_type(result),
+                    bout_number=bout_number,
+                    top_win=top_win,
+                ),
+            )
+            matches.append(match)
+
+            # Make the `match_slot_map` aware of the winner (loser is eliminated)
+            win_position = bracket_utils.next_match_position_win(match_slot)
+            match_slot_map.setdefault(win_position, [])
+            if winner_competitor is not None:
+                match_slot_map[win_position].append(winner_competitor)
 
     match_slot_keys = set(match_slots_by_bracket.keys())
     if round_keys != match_slot_keys:
@@ -964,7 +1251,7 @@ def parse_consolation_round3(
             matches.append(match)
 
             # Make the `match_slot_map` aware of the winner (loser is eliminated)
-            win_position = bracket_utils.next_match_position_win_v1(match_slot)
+            win_position = bracket_utils.next_match_position_win(match_slot)
             match_slot_map.setdefault(win_position, [])
             if winner_competitor is not None:
                 match_slot_map[win_position].append(winner_competitor)
@@ -1067,7 +1354,7 @@ def parse_consolation_round4(
             matches.append(match)
 
             # Make the `match_slot_map` aware of the winner (loser is eliminated)
-            win_position = bracket_utils.next_match_position_win_v1(match_slot)
+            win_position = bracket_utils.next_match_position_win(match_slot)
             match_slot_map.setdefault(win_position, [])
             if winner_competitor is not None:
                 match_slot_map[win_position].append(winner_competitor)
@@ -1086,6 +1373,7 @@ def parse_semi_mixed(
     selenium_rounds: dict,
     match_slots_by_bracket: MatchSlotsByBracket,
     name_exceptions: dict[tuple[str, str], bracket_utils.Competitor],
+    helper_version: HelperVersion,
 ) -> list[MatchWithBracket]:
     html = selenium_rounds.pop(round_name, None)
     if not isinstance(html, str):
@@ -1167,13 +1455,13 @@ def parse_semi_mixed(
             matches.append(match)
 
             # 1. Make the `match_slot_map` aware of the winner
-            win_position = bracket_utils.next_match_position_win_v1(match_slot)
+            win_position = bracket_utils.next_match_position_win(match_slot)
             match_slot_map.setdefault(win_position, [])
             if winner_competitor is not None:
                 match_slot_map[win_position].append(winner_competitor)
 
             # 2. Make the `match_slot_map` aware of the loser
-            lose_position = bracket_utils.next_match_position_lose_v1(match_slot)
+            lose_position = _next_match_position_lose(helper_version, match_slot)
             match_slot_map.setdefault(lose_position, [])
             if loser_competitor is not None:
                 match_slot_map[lose_position].append(loser_competitor)
@@ -1229,13 +1517,13 @@ def parse_semi_mixed(
             matches.append(match)
 
             # 1. Make the `match_slot_map` aware of the winner
-            win_position = bracket_utils.next_match_position_win_v1(match_slot)
+            win_position = bracket_utils.next_match_position_win(match_slot)
             match_slot_map.setdefault(win_position, [])
             if winner_competitor is not None:
                 match_slot_map[win_position].append(winner_competitor)
 
             # 2. Make the `match_slot_map` aware of the loser
-            lose_position = bracket_utils.next_match_position_lose_v1(match_slot)
+            lose_position = _next_match_position_lose(helper_version, match_slot)
             match_slot_map.setdefault(lose_position, [])
             if loser_competitor is not None:
                 match_slot_map[lose_position].append(loser_competitor)
@@ -1253,6 +1541,7 @@ def parse_consolation_semi(
     selenium_rounds: dict,
     match_slots_by_bracket: MatchSlotsByBracket,
     name_exceptions: dict[tuple[str, str], bracket_utils.Competitor],
+    helper_version: HelperVersion,
 ) -> list[MatchWithBracket]:
     html = selenium_rounds.pop(round_name, None)
     if not isinstance(html, str):
@@ -1335,13 +1624,13 @@ def parse_consolation_semi(
             matches.append(match)
 
             # 1. Make the `match_slot_map` aware of the winner
-            win_position = bracket_utils.next_match_position_win_v1(match_slot)
+            win_position = bracket_utils.next_match_position_win(match_slot)
             match_slot_map.setdefault(win_position, [])
             if winner_competitor is not None:
                 match_slot_map[win_position].append(winner_competitor)
 
             # 2. Make the `match_slot_map` aware of the loser
-            lose_position = bracket_utils.next_match_position_lose_v1(match_slot)
+            lose_position = _next_match_position_lose(helper_version, match_slot)
             match_slot_map.setdefault(lose_position, [])
             if loser_competitor is not None:
                 match_slot_map[lose_position].append(loser_competitor)

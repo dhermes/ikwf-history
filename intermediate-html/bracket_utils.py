@@ -570,155 +570,10 @@ def _get_result_points(result_type: ResultType) -> float:
     raise NotImplementedError(result_type)
 
 
-def next_match_position_win_v1(
-    match_slot: MatchSlot,
-) -> tuple[MatchSlot, BracketPosition] | None:
-    """In use from 2007-????"""
-    if match_slot == "championship_r32_01":
-        return "championship_r16_01", "top"
-
-    if match_slot == "championship_r32_02":
-        return "championship_r16_01", "bottom"
-
-    if match_slot == "championship_r32_03":
-        return "championship_r16_02", "top"
-
-    if match_slot == "championship_r32_04":
-        return "championship_r16_02", "bottom"
-
-    if match_slot == "championship_r32_05":
-        return "championship_r16_03", "top"
-
-    if match_slot == "championship_r32_06":
-        return "championship_r16_03", "bottom"
-
-    if match_slot == "championship_r32_07":
-        return "championship_r16_04", "top"
-
-    if match_slot == "championship_r32_08":
-        return "championship_r16_04", "bottom"
-
-    if match_slot == "championship_r32_09":
-        return "championship_r16_05", "top"
-
-    if match_slot == "championship_r32_10":
-        return "championship_r16_05", "bottom"
-
-    if match_slot == "championship_r32_11":
-        return "championship_r16_06", "top"
-
-    if match_slot == "championship_r32_12":
-        return "championship_r16_06", "bottom"
-
-    if match_slot == "championship_r32_13":
-        return "championship_r16_07", "top"
-
-    if match_slot == "championship_r32_14":
-        return "championship_r16_07", "bottom"
-
-    if match_slot == "championship_r32_15":
-        return "championship_r16_08", "top"
-
-    if match_slot == "championship_r32_16":
-        return "championship_r16_08", "bottom"
-
-    if match_slot == "championship_r16_01":
-        return "championship_quarter_01", "top"
-
-    if match_slot == "championship_r16_02":
-        return "championship_quarter_01", "bottom"
-
-    if match_slot == "championship_r16_03":
-        return "championship_quarter_02", "top"
-
-    if match_slot == "championship_r16_04":
-        return "championship_quarter_02", "bottom"
-
-    if match_slot == "championship_r16_05":
-        return "championship_quarter_03", "top"
-
-    if match_slot == "championship_r16_06":
-        return "championship_quarter_03", "bottom"
-
-    if match_slot == "championship_r16_07":
-        return "championship_quarter_04", "top"
-
-    if match_slot == "championship_r16_08":
-        return "championship_quarter_04", "bottom"
-
-    if match_slot == "championship_quarter_01":
-        return "championship_semi_01", "top"
-
-    if match_slot == "championship_quarter_02":
-        return "championship_semi_01", "bottom"
-
-    if match_slot == "championship_quarter_03":
-        return "championship_semi_02", "top"
-
-    if match_slot == "championship_quarter_04":
-        return "championship_semi_02", "bottom"
-
-    if match_slot == "consolation_round3_01":
-        return "consolation_round4_blood_01", "bottom"
-
-    if match_slot == "consolation_round3_02":
-        return "consolation_round4_blood_02", "bottom"
-
-    if match_slot == "consolation_round3_03":
-        return "consolation_round4_blood_03", "top"
-
-    if match_slot == "consolation_round3_04":
-        return "consolation_round4_blood_04", "top"
-
-    if match_slot == "consolation_round4_blood_01":
-        return "consolation_round5_01", "top"
-
-    if match_slot == "consolation_round4_blood_02":
-        return "consolation_round5_01", "bottom"
-
-    if match_slot == "consolation_round4_blood_03":
-        return "consolation_round5_02", "top"
-
-    if match_slot == "consolation_round4_blood_04":
-        return "consolation_round5_02", "bottom"
-
-    if match_slot == "championship_semi_01":
-        return "championship_first_place", "top"
-
-    if match_slot == "championship_semi_02":
-        return "championship_first_place", "bottom"
-
-    if match_slot == "consolation_round5_01":
-        return "consolation_round6_semi_01", "bottom"
-
-    if match_slot == "consolation_round5_02":
-        return "consolation_round6_semi_02", "top"
-
-    if match_slot == "consolation_round6_semi_01":
-        return "consolation_third_place", "top"
-
-    if match_slot == "consolation_round6_semi_02":
-        return "consolation_third_place", "bottom"
-
-    if match_slot == "consolation_seventh_place":
-        return None
-
-    if match_slot == "consolation_fifth_place":
-        return None
-
-    if match_slot == "consolation_third_place":
-        return None
-
-    if match_slot == "championship_first_place":
-        return None
-
-    raise NotImplementedError(match_slot)
-
-
 def next_match_position_lose_v1(
     match_slot: MatchSlot,
 ) -> tuple[MatchSlot, BracketPosition] | None:
-    """In use from 2007-????"""
+    """In use from 2007-2019"""
     # NOTE: Earlier brackets used follow-the-leader so these are not guaranteed
     #       to happen unless the winner reached the semifinals.
     if match_slot == "championship_r32_02":
@@ -802,10 +657,9 @@ def next_match_position_lose_v1(
     raise NotImplementedError(match_slot)
 
 
-def next_match_position_win_v2(
+def next_match_position_win(
     match_slot: MatchSlot,
 ) -> tuple[MatchSlot, BracketPosition] | None:
-    """In use from ????-2025"""
     if match_slot == "championship_r32_01":
         return "championship_r16_01", "top"
 
@@ -974,7 +828,7 @@ def next_match_position_win_v2(
 def next_match_position_lose_v2(
     match_slot: MatchSlot,
 ) -> tuple[MatchSlot, BracketPosition] | None:
-    """In use from ????-2025"""
+    """In use from 2022-2025"""
     if match_slot == "championship_r32_02":
         return "consolation_round2_01", "bottom"
 
@@ -1024,22 +878,22 @@ def next_match_position_lose_v2(
         return "consolation_round2_01", "top"
 
     if match_slot == "championship_quarter_01":
-        return "consolation_round4_blood_02", "top"
-
-    if match_slot == "championship_quarter_02":
-        return "consolation_round4_blood_01", "top"
-
-    if match_slot == "championship_quarter_03":
-        return "consolation_round4_blood_04", "bottom"
-
-    if match_slot == "championship_quarter_04":
         return "consolation_round4_blood_03", "bottom"
 
+    if match_slot == "championship_quarter_02":
+        return "consolation_round4_blood_04", "bottom"
+
+    if match_slot == "championship_quarter_03":
+        return "consolation_round4_blood_01", "top"
+
+    if match_slot == "championship_quarter_04":
+        return "consolation_round4_blood_02", "top"
+
     if match_slot == "championship_semi_01":
-        return "consolation_round6_semi_02", "bottom"
+        return "consolation_round6_semi_01", "top"
 
     if match_slot == "championship_semi_02":
-        return "consolation_round6_semi_01", "top"
+        return "consolation_round6_semi_02", "bottom"
 
     if match_slot == "consolation_round5_01":
         return "consolation_seventh_place", "top"
@@ -1057,7 +911,7 @@ def next_match_position_lose_v2(
 
 
 def _next_match_for_bye(match_slot: MatchSlot) -> MatchSlot | None:
-    next_position = next_match_position_win_v2(match_slot)
+    next_position = next_match_position_win(match_slot)
     if next_position is None:
         return None
 
