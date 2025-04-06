@@ -207,3 +207,28 @@ CREATE TABLE team_score (
   --       In some years, teams could have multiple team scores from
   --       scoring and non-scoring wrestlers.
 );
+
+--------------------------------------------------------------------------------
+
+CREATE TABLE award (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  key TEXT NOT NULL UNIQUE
+);
+
+INSERT INTO
+  award (id, key)
+VALUES
+  (1, 'marty_combes'),
+  (2, 'ron_urwin');
+
+--------------------------------------------------------------------------------
+
+CREATE TABLE award_winner (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  tournament_id INTEGER NOT NULL REFERENCES tournament(id),
+  division TEXT NOT NULL REFERENCES division(key),
+  weight INTEGER NOT NULL,
+  award TEXT NOT NULL REFERENCES award(key),
+  competitor_id INTEGER REFERENCES team_competitor(id),
+  UNIQUE(tournament_id, division)
+);
