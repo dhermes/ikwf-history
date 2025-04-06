@@ -528,7 +528,7 @@ def _determine_result_type(result: str) -> bracket_utils.ResultType:
     if result.startswith("Inj. "):
         return "default"
 
-    if result == "FF":
+    if result == "FF" or result == "MFF":
         return "forfeit"
 
     if result == "NC":
