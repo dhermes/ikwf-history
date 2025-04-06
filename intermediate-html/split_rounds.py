@@ -840,11 +840,8 @@ def main():
     novice_2003()
     senior_2003()
     novice_2004()
-    # TODO: Novice 2004: **MISSING** 122
     senior_2004()
-    # TODO: Senior 2004: **MISSING** 189
     novice_2005()
-    # TODO: Novice 2005: **MISSING** 84, 95, 101, 108, 115
     senior_2005()
     novice_2006()
     senior_2006()

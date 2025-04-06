@@ -828,7 +828,7 @@ def next_match_position_win(
 def next_match_position_lose_v2(
     match_slot: MatchSlot,
 ) -> tuple[MatchSlot, BracketPosition] | None:
-    """In use from 2022-2025"""
+    """In use from 2022-2022"""
     if match_slot == "championship_r32_02":
         return "consolation_round2_01", "bottom"
 
@@ -894,6 +894,91 @@ def next_match_position_lose_v2(
 
     if match_slot == "championship_semi_02":
         return "consolation_round6_semi_02", "bottom"
+
+    if match_slot == "consolation_round5_01":
+        return "consolation_seventh_place", "top"
+
+    if match_slot == "consolation_round5_02":
+        return "consolation_seventh_place", "bottom"
+
+    if match_slot == "consolation_round6_semi_01":
+        return "consolation_fifth_place", "top"
+
+    if match_slot == "consolation_round6_semi_02":
+        return "consolation_fifth_place", "bottom"
+
+    raise NotImplementedError(match_slot)
+
+
+def next_match_position_lose_v3(
+    match_slot: MatchSlot,
+) -> tuple[MatchSlot, BracketPosition] | None:
+    """In use from 2023-2025"""
+    if match_slot == "championship_r32_02":
+        return "consolation_round2_01", "bottom"
+
+    if match_slot == "championship_r32_04":
+        return "consolation_round2_02", "bottom"
+
+    if match_slot == "championship_r32_06":
+        return "consolation_round2_03", "bottom"
+
+    if match_slot == "championship_r32_08":
+        return "consolation_round2_04", "bottom"
+
+    if match_slot == "championship_r32_10":
+        return "consolation_round2_05", "top"
+
+    if match_slot == "championship_r32_12":
+        return "consolation_round2_06", "top"
+
+    if match_slot == "championship_r32_14":
+        return "consolation_round2_07", "top"
+
+    if match_slot == "championship_r32_16":
+        return "consolation_round2_08", "top"
+
+    if match_slot == "championship_r16_01":
+        return "consolation_round2_08", "bottom"
+
+    if match_slot == "championship_r16_02":
+        return "consolation_round2_07", "bottom"
+
+    if match_slot == "championship_r16_03":
+        return "consolation_round2_06", "bottom"
+
+    if match_slot == "championship_r16_04":
+        return "consolation_round2_05", "bottom"
+
+    if match_slot == "championship_r16_05":
+        return "consolation_round2_04", "top"
+
+    if match_slot == "championship_r16_06":
+        return "consolation_round2_03", "top"
+
+    if match_slot == "championship_r16_07":
+        return "consolation_round2_02", "top"
+
+    if match_slot == "championship_r16_08":
+        return "consolation_round2_01", "top"
+
+    if match_slot == "championship_quarter_01":
+        return "consolation_round4_blood_02", "top"
+
+    if match_slot == "championship_quarter_02":
+        return "consolation_round4_blood_01", "top"
+
+    if match_slot == "championship_quarter_03":
+        return "consolation_round4_blood_04", "bottom"
+
+    if match_slot == "championship_quarter_04":
+        return "consolation_round4_blood_03", "bottom"
+
+    if match_slot == "championship_semi_01":
+        return "consolation_round6_semi_02", "bottom"
+
+    if match_slot == "championship_semi_02":
+        return "consolation_round6_semi_01", "top"
 
     if match_slot == "consolation_round5_01":
         return "consolation_seventh_place", "top"

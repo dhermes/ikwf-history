@@ -1,10 +1,7 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
-import json
 import pathlib
 from typing import Any
-
-import bs4
 
 import bracket_utils
 import trackwrestling
@@ -90,6 +87,7 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         team="Harvey Park Dist Twisters",
     ),
 }
+_TEAM_FIXES: dict[str, tuple[str, str]] = {}
 
 
 def _parse_rounds(
@@ -198,7 +196,9 @@ def _parse_rounds(
 
 def main():
     root = HERE.parent / "raw-data" / "2007"
-    extracted_tournament = trackwrestling.extract_year(root, _parse_rounds, _NAME_FIXES)
+    extracted_tournament = trackwrestling.extract_year(
+        root, _parse_rounds, _NAME_FIXES, _TEAM_FIXES
+    )
     with open(HERE / "extracted.2007.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))
         file_obj.write("\n")

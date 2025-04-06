@@ -202,6 +202,7 @@ def _split_name_team_initial(
     name_team: str,
     division_scores: list[bracket_utils.TeamScore],
     name_fixes: dict[str, str],
+    team_fixes: dict[str, tuple[str, str]],
 ) -> bracket_utils.CompetitorRaw | None:
     if name_team == "Bye":
         return None
@@ -219,6 +220,13 @@ def _split_name_team_initial(
     team_prefix = parts[1]
 
     name = name_fixes.get(name, name)
+    team_fix = team_fixes.get(name)
+    if team_fix is not None:
+        expected_team, full_team = team_fix
+        if team_prefix != expected_team:
+            raise RuntimeError("Invariant violation", name_team, team_fix)
+
+        team_prefix = full_team
 
     matches = _get_team_matches(team_prefix, division_scores)
     if len(matches) != 1:
@@ -227,10 +235,11 @@ def _split_name_team_initial(
     return bracket_utils.CompetitorRaw(name=name, team=matches[0])
 
 
-def initial_entries(
+def _initial_entries(
     soup: bs4.BeautifulSoup,
     division_scores: list[bracket_utils.TeamScore],
     name_fixes: dict[str, str],
+    team_fixes: dict[str, tuple[str, str]],
 ) -> MatchSlotMap:
     initial_bout_index = 0
     opening_bouts = _get_opening_bout_numbers(soup)
@@ -259,7 +268,7 @@ def initial_entries(
             raise RuntimeError("Invariant violation", index, wrestler_td)
 
         competitor_raw = _split_name_team_initial(
-            wrestler_td.text, division_scores, name_fixes
+            wrestler_td.text, division_scores, name_fixes, team_fixes
         )
         key = match_slot, bracket_position
         if key in match_slot_map:
@@ -506,7 +515,7 @@ def _overtime_result_type(result: str, prefix: str) -> bracket_utils.ResultType:
 
 
 def _determine_result_type(result: str) -> bracket_utils.ResultType:
-    if result == "UTB 0-0":
+    if result in ("UTB 0-0", "2-OT 3-3"):
         return "decision"
 
     if result.startswith("OT "):
@@ -557,7 +566,7 @@ def _determine_result_type(result: str) -> bracket_utils.ResultType:
     raise NotImplementedError(result)
 
 
-HelperVersion = Literal["v1", "v2"]
+HelperVersion = Literal["v1", "v2", "v3"]
 
 
 def _next_match_position_lose(
@@ -568,6 +577,9 @@ def _next_match_position_lose(
 
     if helper_version == "v2":
         return bracket_utils.next_match_position_lose_v2(match_slot)
+
+    if helper_version == "v3":
+        return bracket_utils.next_match_position_lose_v3(match_slot)
 
     raise NotImplementedError(helper_version)
 
@@ -1934,7 +1946,10 @@ ParseRoundsFunc = Callable[[Any, MatchSlotsByBracket], list[MatchWithBracket]]
 
 
 def extract_year(
-    root: pathlib.Path, parse_rounds: ParseRoundsFunc, name_fixes: dict[str, str]
+    root: pathlib.Path,
+    parse_rounds: ParseRoundsFunc,
+    name_fixes: dict[str, str],
+    team_fixes: dict[str, tuple[str, str]],
 ) -> bracket_utils.ExtractedTournament:
     with open(root / "team_scores.selenium.json") as file_obj:
         selenium_team_scores = json.load(file_obj)
@@ -1963,7 +1978,9 @@ def extract_year(
             raise TypeError("Unexpected value", type(html))
 
         soup = bs4.BeautifulSoup(html, features="html.parser")
-        initial_match_slots = initial_entries(soup, division_scores, name_fixes)
+        initial_match_slots = _initial_entries(
+            soup, division_scores, name_fixes, team_fixes
+        )
         key = (division, weight)
         if key in match_slots_by_bracket:
             raise KeyError("Duplicate", key)

@@ -39,11 +39,9 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         team="Harvey Twisters WC",
     ),
 }
+_TEAM_FIXES: dict[str, tuple[str, str]] = {}
 
 
-# TODO:
-# TJ Trained-Decatur ---> Brody Norman
-# TJ Trained ---> 16 athletes!!
 def _parse_rounds(
     selenium_rounds: Any,
     match_slots_by_bracket: trackwrestling.MatchSlotsByBracket,
@@ -159,7 +157,9 @@ def _parse_rounds(
 
 def main():
     root = HERE.parent / "raw-data" / "2015"
-    extracted_tournament = trackwrestling.extract_year(root, _parse_rounds, _NAME_FIXES)
+    extracted_tournament = trackwrestling.extract_year(
+        root, _parse_rounds, _NAME_FIXES, _TEAM_FIXES
+    )
     with open(HERE / "extracted.2015.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))
         file_obj.write("\n")
