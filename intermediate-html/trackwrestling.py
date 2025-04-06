@@ -9,6 +9,7 @@ import pydantic
 
 import bracket_utils
 
+_MISSING_BOUT_NUMBER_SENTINEL = -30788
 _INITIAL_ENTRY_INFO: tuple[
     tuple[bracket_utils.MatchSlot, bracket_utils.BracketPosition, int], ...
 ] = (
@@ -47,11 +48,18 @@ MatchSlotsByBracket = dict[tuple[bracket_utils.Division, int], MatchSlotMap]
 
 
 def _normalize_division(division_display: str) -> bracket_utils.Division:
-    if division_display.strip() == "Novice":
+    normalized = division_display.strip()
+    if normalized in ("Novice", "Boys Novice"):
         return "novice"
 
-    if division_display.strip() == "Senior":
+    if normalized in ("Senior", "Boys Senior"):
         return "senior"
+
+    if normalized == "Girls Novice":
+        return "novice_girls"
+
+    if normalized == "Girls Senior":
+        return "senior_girls"
 
     raise NotImplementedError(division_display)
 
@@ -103,38 +111,47 @@ class Deductions(pydantic.RootModel[list[bracket_utils.Deduction]]):
     pass
 
 
-def _get_opening_bout_numbers(soup: bs4.BeautifulSoup) -> list[int]:
-    bout_number_links: list[bs4.Tag] = soup.find_all("a", class_="segment-track")
-    bouts: dict[int, bs4.Tag] = {}
+def _get_all_opening_bout_numbers(
+    selenium_rounds: Any, round_name: str, match_prefix: str
+) -> dict[tuple[bracket_utils.Division, int], list[int]]:
+    if not isinstance(selenium_rounds, dict):
+        raise TypeError("Unexpected value", type(selenium_rounds))
 
-    for anchor in bout_number_links:
-        href = anchor.get("href", "")
-        if isinstance(href, list):
-            raise RuntimeError("Invariant violation", anchor)
+    html = selenium_rounds.get(round_name, None)
+    if not isinstance(html, str):
+        raise TypeError("Unexpected value", type(html), round_name)
 
-        if not href.startswith("javascript:openBoutSheet"):
-            continue
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    all_h1_text = [h1.text for h1 in soup.find_all("h1")]
+    if all_h1_text != [round_name]:
+        raise RuntimeError("Invariant violation", all_h1_text)
 
-        if anchor.text == "_":
-            continue
+    all_h2: list[bs4.Tag] = soup.find_all("h2")
+    result: dict[tuple[bracket_utils.Division, int], list[int]] = {}
+    for h2 in all_h2:
+        division_display, weight_str = h2.text.rsplit(None, 1)
+        weight = int(weight_str)
+        division = _normalize_division(division_display)
+        key = (division, weight)
+        if key in result:
+            raise RuntimeError("Invariant violation", key)
+        result[key] = []
 
-        bout_number = int(anchor.text)
-        if bout_number in bouts:
-            raise KeyError("Repeat bout number", bout_number, anchor)
+        ul_sibling = h2.find_next_sibling()
+        if ul_sibling.name != "ul":
+            raise RuntimeError("Invariant violation", ul_sibling)
 
-        bouts[bout_number] = anchor
+        all_entries: list[bs4.Tag] = [li for li in ul_sibling.find_all("li")]
+        if len(all_entries) != 8:
+            raise RuntimeError("Invariant violation", all_entries)
 
-    bout_numbers = sorted(bouts.keys())
-    if len(bout_numbers) < 8:
-        raise NotImplementedError
+        for i in range(8):
+            entry = all_entries[i]
+            bout_number, _, _, _ = _round_line_split(entry.text, match_prefix)
+            if bout_number != _MISSING_BOUT_NUMBER_SENTINEL:
+                result[key].append(bout_number)
 
-    start_number = bout_numbers[0]
-    first_bouts = bout_numbers[:8]
-    expected = list(range(start_number, start_number + 8))
-    if first_bouts != expected:
-        raise RuntimeError("Invariant violation", bout_numbers)
-
-    return expected
+    return result
 
 
 def _is_full_line(wrestler_td: bs4.Tag) -> bool:
@@ -240,9 +257,9 @@ def _initial_entries(
     division_scores: list[bracket_utils.TeamScore],
     name_fixes: dict[str, str],
     team_fixes: dict[str, tuple[str, str]],
+    opening_bouts: list[int],
 ) -> MatchSlotMap:
     initial_bout_index = 0
-    opening_bouts = _get_opening_bout_numbers(soup)
 
     all_wrestler_tds = soup.find_all(
         "td", width="100%", align="center", valign="bottom"
@@ -259,10 +276,11 @@ def _initial_entries(
             if bout_number is not None:
                 raise RuntimeError("Invariant violation", index)
         else:
-            expected_bout_number = opening_bouts[initial_bout_index]
-            if bout_number != expected_bout_number:
-                raise RuntimeError("Invariant violation", index)
-            initial_bout_index += 1
+            if bout_number is not None:
+                expected_bout_number = opening_bouts[initial_bout_index]
+                if bout_number != expected_bout_number:
+                    raise RuntimeError("Invariant violation", index)
+                initial_bout_index += 1
 
         if not _is_valid_initial_entry(wrestler_td, bout_number, opening_bouts):
             raise RuntimeError("Invariant violation", index, wrestler_td)
@@ -371,11 +389,21 @@ def _handle_match(
     loser_bottom_index = _matching_index(loser, bottom_competitor_names)
 
     if winner_top_index is not None:
-        if (
-            loser_bottom_index is None
-            or winner_bottom_index is not None
-            or loser_top_index is not None
+        top_competitor = top_competitors[winner_top_index]
+        top_win = True
+
+        if loser.strip() == "()" and result == "FF":
+            if len(bottom_competitors) != 1:
+                raise NotImplementedError
+
+            bottom_competitor = bottom_competitors[0]
+        elif (
+            loser_bottom_index is not None
+            and winner_bottom_index is None
+            and loser_top_index is None
         ):
+            bottom_competitor = bottom_competitors[loser_bottom_index]
+        else:
             raise RuntimeError(
                 "Invariant violation",
                 winner,
@@ -384,10 +412,6 @@ def _handle_match(
                 top_competitor_names,
                 bottom_competitor_names,
             )
-
-        top_competitor = top_competitors[winner_top_index]
-        bottom_competitor = bottom_competitors[loser_bottom_index]
-        top_win = True
     elif winner_bottom_index is not None:
         bottom_competitor = bottom_competitors[winner_bottom_index]
         top_win = False
@@ -487,7 +511,10 @@ def _round_line_split(line: str, prefix: str) -> tuple[int, str, str, str]:
     if actual_prefix != prefix:
         raise RuntimeError("Unexpected prefix", actual_prefix, prefix, line)
 
-    bout_number = int(bout_number_str)
+    if bout_number_str == "":
+        bout_number = _MISSING_BOUT_NUMBER_SENTINEL
+    else:
+        bout_number = int(bout_number_str)
 
     # Swap loser and winner if a Bye is involved
     if winner.strip() == "()":
@@ -605,7 +632,7 @@ def parse_r32(
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
     matches: list[MatchWithBracket] = []
     for h2 in all_h2:
-        division_display, weight_str = h2.text.split()
+        division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
         division = _normalize_division(division_display)
         key = (division, weight)
@@ -718,7 +745,7 @@ def parse_r16(
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
     matches: list[MatchWithBracket] = []
     for h2 in all_h2:
-        division_display, weight_str = h2.text.split()
+        division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
         division = _normalize_division(division_display)
         key = (division, weight)
@@ -827,7 +854,7 @@ def parse_quarterfinal(
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
     matches: list[MatchWithBracket] = []
     for h2 in all_h2:
-        division_display, weight_str = h2.text.split()
+        division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
         division = _normalize_division(division_display)
         key = (division, weight)
@@ -927,7 +954,7 @@ def parse_consolation_round2(
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
     matches: list[MatchWithBracket] = []
     for h2 in all_h2:
-        division_display, weight_str = h2.text.split()
+        division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
         division = _normalize_division(division_display)
         key = (division, weight)
@@ -1030,7 +1057,7 @@ def parse_quarterfinal_mixed(
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
     matches: list[MatchWithBracket] = []
     for h2 in all_h2:
-        division_display, weight_str = h2.text.split()
+        division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
         division = _normalize_division(division_display)
         key = (division, weight)
@@ -1053,13 +1080,13 @@ def parse_quarterfinal_mixed(
             match_slot: bracket_utils.MatchSlot = f"championship_quarter_{slot_id:02}"
 
             top_competitors = match_slot_map[(match_slot, "top")]
-            if len(top_competitors) != 1:
+            if len(top_competitors) > 1:
                 raise RuntimeError(
                     "Invariant violation", len(top_competitors), match_slot
                 )
 
             bottom_competitors = match_slot_map[(match_slot, "bottom")]
-            if len(bottom_competitors) != 1:
+            if len(bottom_competitors) > 1:
                 raise RuntimeError(
                     "Invariant violation", len(bottom_competitors), match_slot
                 )
@@ -1067,9 +1094,14 @@ def parse_quarterfinal_mixed(
             bout_number, winner, loser, result = _round_line_split(
                 entry.text, quarterfinal_match_prefix
             )
-            top_competitor, bottom_competitor, top_win, result = _handle_match(
-                winner, loser, result, top_competitors, bottom_competitors
-            )
+            if loser.strip() == "()":
+                top_competitor, bottom_competitor, top_win, result = _handle_bye(
+                    winner, result, top_competitors, bottom_competitors
+                )
+            else:
+                top_competitor, bottom_competitor, top_win, result = _handle_match(
+                    winner, loser, result, top_competitors, bottom_competitors
+                )
 
             winner_competitor = top_competitor
             loser_competitor = bottom_competitor
@@ -1194,7 +1226,7 @@ def parse_consolation_round3(
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
     matches: list[MatchWithBracket] = []
     for h2 in all_h2:
-        division_display, weight_str = h2.text.split()
+        division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
         division = _normalize_division(division_display)
         key = (division, weight)
@@ -1295,7 +1327,7 @@ def parse_consolation_round4(
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
     matches: list[MatchWithBracket] = []
     for h2 in all_h2:
-        division_display, weight_str = h2.text.split()
+        division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
         division = _normalize_division(division_display)
         key = (division, weight)
@@ -1400,7 +1432,7 @@ def parse_semi_mixed(
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
     matches: list[MatchWithBracket] = []
     for h2 in all_h2:
-        division_display, weight_str = h2.text.split()
+        division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
         division = _normalize_division(division_display)
         key = (division, weight)
@@ -1423,13 +1455,13 @@ def parse_semi_mixed(
             match_slot: bracket_utils.MatchSlot = f"championship_semi_{slot_id:02}"
 
             top_competitors = match_slot_map[(match_slot, "top")]
-            if len(top_competitors) != 1:
+            if len(top_competitors) > 1:
                 raise RuntimeError(
                     "Invariant violation", len(top_competitors), match_slot
                 )
 
             bottom_competitors = match_slot_map[(match_slot, "bottom")]
-            if len(bottom_competitors) != 1:
+            if len(bottom_competitors) > 1:
                 raise RuntimeError(
                     "Invariant violation", len(bottom_competitors), match_slot
                 )
@@ -1437,9 +1469,14 @@ def parse_semi_mixed(
             bout_number, winner, loser, result = _round_line_split(
                 entry.text, semi_match_prefix
             )
-            top_competitor, bottom_competitor, top_win, result = _handle_match(
-                winner, loser, result, top_competitors, bottom_competitors
-            )
+            if loser.strip() == "()":
+                top_competitor, bottom_competitor, top_win, result = _handle_bye(
+                    winner, result, top_competitors, bottom_competitors
+                )
+            else:
+                top_competitor, bottom_competitor, top_win, result = _handle_match(
+                    winner, loser, result, top_competitors, bottom_competitors
+                )
 
             winner_competitor = top_competitor
             loser_competitor = bottom_competitor
@@ -1485,13 +1522,13 @@ def parse_semi_mixed(
             match_slot: bracket_utils.MatchSlot = f"consolation_round5_{slot_id:02}"
 
             top_competitors = match_slot_map[(match_slot, "top")]
-            if len(top_competitors) != 1:
+            if len(top_competitors) > 1:
                 raise RuntimeError(
                     "Invariant violation", len(top_competitors), match_slot
                 )
 
             bottom_competitors = match_slot_map[(match_slot, "bottom")]
-            if len(bottom_competitors) != 1:
+            if len(bottom_competitors) > 1:
                 raise RuntimeError(
                     "Invariant violation", len(bottom_competitors), match_slot
                 )
@@ -1499,9 +1536,14 @@ def parse_semi_mixed(
             bout_number, winner, loser, result = _round_line_split(
                 entry.text, cons_match_prefix
             )
-            top_competitor, bottom_competitor, top_win, result = _handle_match(
-                winner, loser, result, top_competitors, bottom_competitors
-            )
+            if loser.strip() == "()":
+                top_competitor, bottom_competitor, top_win, result = _handle_bye(
+                    winner, result, top_competitors, bottom_competitors
+                )
+            else:
+                top_competitor, bottom_competitor, top_win, result = _handle_match(
+                    winner, loser, result, top_competitors, bottom_competitors
+                )
 
             winner_competitor = top_competitor
             loser_competitor = bottom_competitor
@@ -1568,7 +1610,7 @@ def parse_consolation_semi(
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
     matches: list[MatchWithBracket] = []
     for h2 in all_h2:
-        division_display, weight_str = h2.text.split()
+        division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
         division = _normalize_division(division_display)
         key = (division, weight)
@@ -1592,13 +1634,13 @@ def parse_consolation_semi(
             )
 
             top_competitors = match_slot_map[(match_slot, "top")]
-            if len(top_competitors) != 1:
+            if len(top_competitors) > 1:
                 raise RuntimeError(
                     "Invariant violation", len(top_competitors), match_slot
                 )
 
             bottom_competitors = match_slot_map[(match_slot, "bottom")]
-            if len(bottom_competitors) != 1:
+            if len(bottom_competitors) > 1:
                 raise RuntimeError(
                     "Invariant violation", len(bottom_competitors), match_slot
                 )
@@ -1606,9 +1648,14 @@ def parse_consolation_semi(
             bout_number, winner, loser, result = _round_line_split(
                 entry.text, match_prefix
             )
-            top_competitor, bottom_competitor, top_win, result = _handle_match(
-                winner, loser, result, top_competitors, bottom_competitors
-            )
+            if loser.strip() == "()":
+                top_competitor, bottom_competitor, top_win, result = _handle_bye(
+                    winner, result, top_competitors, bottom_competitors
+                )
+            else:
+                top_competitor, bottom_competitor, top_win, result = _handle_match(
+                    winner, loser, result, top_competitors, bottom_competitors
+                )
 
             winner_competitor = top_competitor
             loser_competitor = bottom_competitor
@@ -1685,7 +1732,7 @@ def parse_place_matches_v1(
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
     matches: list[MatchWithBracket] = []
     for h2 in all_h2:
-        division_display, weight_str = h2.text.split()
+        division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
         division = _normalize_division(division_display)
         key = (division, weight)
@@ -1782,7 +1829,7 @@ def parse_place_matches_v2(
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
     matches: list[MatchWithBracket] = []
     for h2 in all_h2:
-        division_display, weight_str = h2.text.split()
+        division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
         division = _normalize_division(division_display)
         key = (division, weight)
@@ -1803,13 +1850,13 @@ def parse_place_matches_v2(
             match_prefix, match_slot = prefixes_and_slots[i]
 
             top_competitors = match_slot_map[(match_slot, "top")]
-            if len(top_competitors) != 1:
+            if len(top_competitors) > 1:
                 raise RuntimeError(
                     "Invariant violation", len(top_competitors), match_slot
                 )
 
             bottom_competitors = match_slot_map[(match_slot, "bottom")]
-            if len(bottom_competitors) != 1:
+            if len(bottom_competitors) > 1:
                 raise RuntimeError(
                     "Invariant violation", len(bottom_competitors), match_slot
                 )
@@ -1817,9 +1864,14 @@ def parse_place_matches_v2(
             bout_number, winner, loser, result = _round_line_split(
                 entry.text, match_prefix
             )
-            top_competitor, bottom_competitor, top_win, result = _handle_match(
-                winner, loser, result, top_competitors, bottom_competitors
-            )
+            if loser.strip() == "()" and result == "Bye":
+                top_competitor, bottom_competitor, top_win, result = _handle_bye(
+                    winner, result, top_competitors, bottom_competitors
+                )
+            else:
+                top_competitor, bottom_competitor, top_win, result = _handle_match(
+                    winner, loser, result, top_competitors, bottom_competitors
+                )
 
             match = MatchWithBracket(
                 division=division,
@@ -1874,7 +1926,7 @@ def parse_championship_matches(
     round_keys: set[tuple[bracket_utils.Division, int]] = set()
     matches: list[MatchWithBracket] = []
     for h2 in all_h2:
-        division_display, weight_str = h2.text.split()
+        division_display, weight_str = h2.text.rsplit(None, 1)
         weight = int(weight_str)
         division = _normalize_division(division_display)
         key = (division, weight)
@@ -1895,7 +1947,7 @@ def parse_championship_matches(
             match_prefix, match_slot = prefixes_and_slots[i]
 
             top_competitors = match_slot_map[(match_slot, "top")]
-            if len(top_competitors) != 1:
+            if len(top_competitors) > 1:
                 raise RuntimeError(
                     "Invariant violation", len(top_competitors), match_slot
                 )
@@ -1909,9 +1961,14 @@ def parse_championship_matches(
             bout_number, winner, loser, result = _round_line_split(
                 entry.text, match_prefix
             )
-            top_competitor, bottom_competitor, top_win, result = _handle_match(
-                winner, loser, result, top_competitors, bottom_competitors
-            )
+            if loser.strip() == "()":
+                top_competitor, bottom_competitor, top_win, result = _handle_bye(
+                    winner, result, top_competitors, bottom_competitors
+                )
+            else:
+                top_competitor, bottom_competitor, top_win, result = _handle_match(
+                    winner, loser, result, top_competitors, bottom_competitors
+                )
 
             match = MatchWithBracket(
                 division=division,
@@ -1948,6 +2005,8 @@ ParseRoundsFunc = Callable[[Any, MatchSlotsByBracket], list[MatchWithBracket]]
 def extract_year(
     root: pathlib.Path,
     parse_rounds: ParseRoundsFunc,
+    prelim_round_name: str,
+    prelim_match_prefix: str,
     name_fixes: dict[str, str],
     team_fixes: dict[str, tuple[str, str]],
 ) -> bracket_utils.ExtractedTournament:
@@ -1968,20 +2027,25 @@ def extract_year(
 
     match_slots_by_bracket: MatchSlotsByBracket = {}
 
+    all_opening_bout_numbers = _get_all_opening_bout_numbers(
+        selenium_rounds, prelim_round_name, prelim_match_prefix
+    )
+
     for bracket_key, html in selenium_brackets.items():
         division_display, weight_str = bracket_key.split(" - ")
         weight = int(weight_str)
         division = _normalize_division(division_display)
         division_scores = team_scores[division]
+        key = (division, weight)
+        opening_bouts = all_opening_bout_numbers[key]
 
         if not isinstance(html, str):
             raise TypeError("Unexpected value", type(html))
 
         soup = bs4.BeautifulSoup(html, features="html.parser")
         initial_match_slots = _initial_entries(
-            soup, division_scores, name_fixes, team_fixes
+            soup, division_scores, name_fixes, team_fixes, opening_bouts
         )
-        key = (division, weight)
         if key in match_slots_by_bracket:
             raise KeyError("Duplicate", key)
 

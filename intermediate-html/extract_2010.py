@@ -200,7 +200,12 @@ def _parse_rounds(
 def main():
     root = HERE.parent / "raw-data" / "2010"
     extracted_tournament = trackwrestling.extract_year(
-        root, _parse_rounds, _NAME_FIXES, _TEAM_FIXES
+        root,
+        _parse_rounds,
+        "Championship Preliminary",
+        "Champ. Round 1",
+        _NAME_FIXES,
+        _TEAM_FIXES,
     )
     with open(HERE / "extracted.2010.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))

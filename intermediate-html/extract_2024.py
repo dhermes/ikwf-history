@@ -8,31 +8,32 @@ import trackwrestling
 
 HERE = pathlib.Path(__file__).resolve().parent
 _NAME_FIXES: dict[str, str] = {
-    "Abdulrahma Abukhdeir": "Abdulrahman Abukhdeir",
-    "Christophe Easley": "Christopher Easley",
-    "Christophe Fernandez": "Christopher Fernandez",
-    "Christophe Korduplewski": "Christopher Korduplewski",
-    "Christophe Navarro": "Christopher Navarro",
+    "Christophe Thompson": "Christopher Thompson",
+    "Christophe Velasquez": "Christopher Velasquez",
+    "Mia Izabel Nevarez": "Mia Izabella Nevarez",
+    "Myles-Aver Holland": "Myles-Avery Holland",
+    "Octavian Giampaoli-Marti": "Octavian Giampaoli-Martinez",
     "Pedro Albe Rangel": "Pedro Alberto Rangel",
+    "Ruby Bolanos-Carbaja": "Ruby Bolanos-Carbajal",
 }
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("Aaron Griffin Jr", "Harvey Twisters WC"): bracket_utils.Competitor(
-        first_name="Aaron",
-        last_name="Griffin",
-        suffix="Jr",
-        team="Harvey Twisters WC",
+        first_name="Aaron", last_name="Griffin", suffix="Jr", team="Harvey Twisters WC"
     ),
-    (
-        "Arkail Griffin Edwards",
-        "Beat the Streets Chicago-Midway",
-    ): bracket_utils.Competitor(
-        first_name="Arkail",
-        last_name="Griffin Edwards",
-        suffix=None,
-        team="Beat the Streets Chicago-Midway",
+    ("Antonio Reyes Ii", "Beat the Streets Chicago-Avondale"): bracket_utils.Competitor(
+        first_name="Antonio",
+        last_name="Reyes",
+        suffix="II",
+        team="Beat the Streets Chicago-Avondale",
     ),
     ("Blake Vande Loo", "Batavia WC"): bracket_utils.Competitor(
         first_name="Blake", last_name="Vande Loo", suffix=None, team="Batavia WC"
+    ),
+    ("Caden St Angelo", "PSF Wrestling Academy"): bracket_utils.Competitor(
+        first_name="Caden",
+        last_name="St Angelo",
+        suffix=None,
+        team="PSF Wrestling Academy",
     ),
     (
         "Carl Cody Weidner",
@@ -43,23 +44,44 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         suffix=None,
         team="Combative Sports Athletic Center Wrestling",
     ),
+    (
+        "Cecilia Van Oppen",
+        "East Peoria River Bandits Wrestling",
+    ): bracket_utils.Competitor(
+        first_name="Cecilia",
+        last_name="Van Oppen",
+        suffix=None,
+        team="East Peoria River Bandits Wrestling",
+    ),
+    ("Dalton St Angelo", "PSF Wrestling Academy"): bracket_utils.Competitor(
+        first_name="Dalton",
+        last_name="St Angelo",
+        suffix=None,
+        team="PSF Wrestling Academy",
+    ),
+    ("David Pointer Jr", "East St. Louis WC"): bracket_utils.Competitor(
+        first_name="David",
+        last_name="Pointer",
+        suffix="Jr",
+        team="East St. Louis WC",
+    ),
     ("Eddie Woody Jr.", "Edwardsville WC"): bracket_utils.Competitor(
         first_name="Eddie", last_name="Woody", suffix="Jr", team="Edwardsville WC"
     ),
-    ("Gabriel Travis Jr", "Will County Warriors WC"): bracket_utils.Competitor(
-        first_name="Gabriel",
-        last_name="Travis",
-        suffix="Jr",
-        team="Will County Warriors WC",
+    ("Glenn Harston Iii", "Harvey Twisters WC"): bracket_utils.Competitor(
+        first_name="Glenn",
+        last_name="Harston",
+        suffix="III",
+        team="Harvey Twisters WC",
     ),
-    ("Jeremy Powell Jr", "Harvey Twisters WC"): bracket_utils.Competitor(
-        first_name="Jeremy", last_name="Powell", suffix="Jr", team="Harvey Twisters WC"
+    ("Lesly De La Cruz", "Blue Crew WC"): bracket_utils.Competitor(
+        first_name="Lesly", last_name="De La Cruz", suffix=None, team="Blue Crew WC"
     ),
-    ("Logan Van Vlymen", "Macomb Little Bombers Wrestling"): bracket_utils.Competitor(
-        first_name="Logan",
-        last_name="Van Vlymen",
+    ("Mia Izabella Nevarez", "West Suburban Girls WC"): bracket_utils.Competitor(
+        first_name="Mia Izabella",
+        last_name="Nevarez",
         suffix=None,
-        team="Macomb Little Bombers Wrestling",
+        team="West Suburban Girls WC",
     ),
     ("Pedro Alberto Rangel", "Storm Youth WC"): bracket_utils.Competitor(
         first_name="Pedro Alberto",
@@ -67,8 +89,14 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         suffix=None,
         team="Storm Youth WC",
     ),
-    ("Saul Pulido III", "Izzy Style Wrestling"): bracket_utils.Competitor(
-        first_name="Saul", last_name="Pulido", suffix="III", team="Izzy Style Wrestling"
+    ("Robert Wiggins Jr", "East St. Louis WC"): bracket_utils.Competitor(
+        first_name="Robert",
+        last_name="Wiggins",
+        suffix="Jr",
+        team="East St. Louis WC",
+    ),
+    ("Rogelio Del Muro", "nWo WC"): bracket_utils.Competitor(
+        first_name="Rogelio", last_name="Del Muro", suffix=None, team="nWo WC"
     ),
     ("Travis Hinton Jr", "Toss Em Up Wrestling Academy"): bracket_utils.Competitor(
         first_name="Travis",
@@ -76,36 +104,34 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         suffix="Jr",
         team="Toss Em Up Wrestling Academy",
     ),
-    ("Travis Kinkead Jr.", "Blue Line Training Academy"): bracket_utils.Competitor(
-        first_name="Travis",
-        last_name="Kinkead",
-        suffix="Jr",
-        team="Blue Line Training Academy",
-    ),
 }
 _TEAM_FIXES: dict[str, tuple[str, str]] = {
-    "Aedan Dillow": ("Beat the Street", "Beat the Streets Chicago-Avondale"),
-    "Antonio Reyes": ("Beat the Street", "Beat the Streets Chicago-Avondale"),
+    "Antonio Reyes Ii": ("Beat the Street", "Beat the Streets Chicago-Avondale"),
+    "Eila Barbour": ("Beat the Street", "Beat the Streets Chicago-Avondale"),
+    "Jordan Hooks": ("Beat the Street", "Beat the Streets Chicago-Avondale"),
+    "Jack Wahtola": ("Beat the Street", "Beat the Streets Chicago-Avondale"),
+    "Paige Finnegan": ("Beat the Street", "Beat the Streets Chicago-Avondale"),
     "Harrison Yankellow": ("Beat the Street", "Beat the Streets Chicago-Avondale"),
-    "Hunter Wahtola": ("Beat the Street", "Beat the Streets Chicago-Avondale"),
-    "Allante Jackson": ("Beat the Street", "Beat the Streets Chicago-Bellwood"),
-    "Anthony Brown": ("Beat the Street", "Beat the Streets Chicago-Bellwood"),
-    "Cardevion Gordon": ("Beat the Street", "Beat the Streets Chicago-Bellwood"),
-    "Isaiah Robinson": ("Beat the Street", "Beat the Streets Chicago-Bellwood"),
-    "Jamiel Castleberry": ("Beat the Street", "Beat the Streets Chicago-Bellwood"),
-    "Nino Capuano": ("Beat the Street", "Beat the Streets Chicago-Hyde Park"),
+    "Lucis Rios": ("Beat the Street", "Beat the Streets Chicago-Avondale"),
+    "Damarion Johnson": ("Beat the Street", "Beat the Streets Chicago-Hyde Park"),
     "Andrew Ayala-Mendoza": ("Beat the Street", "Beat the Streets Chicago-Midway"),
     "Andrew Lehman": ("Beat the Street", "Beat the Streets Chicago-Midway"),
-    "Arkail Griffin Edwards": ("Beat the Street", "Beat the Streets Chicago-Midway"),
+    "Andrew Tucker": ("Beat the Street", "Beat the Streets Chicago-Midway"),
     "Axel Rodriguez": ("Beat the Street", "Beat the Streets Chicago-Midway"),
-    "Josiah Willis": ("Beat the Street", "Beat the Streets Chicago-Midway"),
-    "Kenneth Seggerson": ("Beat the Street", "Beat the Streets Chicago-Midway"),
-    "Malakai Davis": ("Beat the Street", "Beat the Streets Chicago-Midway"),
+    "Carola Garduno": ("Beat the Street", "Beat the Streets Chicago-Midway"),
+    "Demetria Griffin": ("Beat the Street", "Beat the Streets Chicago-Midway"),
+    "Jeremy Sikorski": ("Beat the Street", "Beat the Streets Chicago-Midway"),
+    "Joseph Franklin": ("Beat the Street", "Beat the Streets Chicago-Midway"),
+    "Lila Vazquez": ("Beat the Street", "Beat the Streets Chicago-Midway"),
+    "Mia Vargas": ("Beat the Street", "Beat the Streets Chicago-Midway"),
     "Obadiah Willis": ("Beat the Street", "Beat the Streets Chicago-Midway"),
-    "Sergio Calleros": ("Beat the Street", "Beat the Streets Chicago-Midway"),
+    "Belen Vargas": ("Beat the Street", "Beat the Streets Chicago-Oak Park"),
     "Charlotte Nold": ("Beat the Street", "Beat the Streets Chicago-Oak Park"),
-    "Harrison Sneathen": ("Beat the Street", "Beat the Streets Chicago-Oak Park"),
-    "Zachary Michaud": ("Beat the Street", "Beat the Streets Chicago-Oak Park"),
+    "Diego Navarro": ("Beat the Street", "Beat the Streets Chicago-Oak Park"),
+    "Frank Valle": ("Beat the Street", "Beat the Streets Chicago-Oak Park"),
+    "Jade Zambrano": ("Beat the Street", "Beat the Streets Chicago-Oak Park"),
+    "Luke Sanchez": ("Beat the Street", "Beat the Streets Chicago-Tri Taylor"),
+    "Nino Capuano": ("Beat the Street", "Beat the Streets Chicago-Tri Taylor"),
 }
 
 
@@ -120,7 +146,7 @@ def _parse_rounds(
 
     matches.extend(
         trackwrestling.parse_r32(
-            "Championship Preliminary",
+            "Championship First Round",
             "Champ. Round 1",
             selenium_rounds,
             match_slots_by_bracket,
@@ -131,7 +157,7 @@ def _parse_rounds(
 
     matches.extend(
         trackwrestling.parse_r16(
-            "Championship 1st Round",
+            "Championship Second Round",
             "Champ. Round 2",
             selenium_rounds,
             match_slots_by_bracket,
@@ -142,7 +168,7 @@ def _parse_rounds(
 
     matches.extend(
         trackwrestling.parse_consolation_round2(
-            "Consolation First Round",
+            "Consolation Second Round",
             "Cons. Round 2",
             selenium_rounds,
             match_slots_by_bracket,
@@ -152,7 +178,7 @@ def _parse_rounds(
 
     matches.extend(
         trackwrestling.parse_quarterfinal_mixed(
-            "Champ Quarters & Consolation 2nd Round",
+            "Champ Quarters & Consolation 3rd Round",
             "Quarterfinal",
             "Cons. Round 3",
             selenium_rounds,
@@ -164,7 +190,7 @@ def _parse_rounds(
 
     matches.extend(
         trackwrestling.parse_consolation_round4(
-            "Consolation 3rd Round",
+            "Consolation 4th Round",
             "Cons. Round 4",
             selenium_rounds,
             match_slots_by_bracket,
@@ -174,7 +200,7 @@ def _parse_rounds(
 
     matches.extend(
         trackwrestling.parse_semi_mixed(
-            "Champ Semis & Consolation 4th Round",
+            "Champ Semis & Consolation 5th Round",
             "Semifinal",
             "Cons. Round 5",
             selenium_rounds,
@@ -224,16 +250,16 @@ def _parse_rounds(
 
 
 def main():
-    root = HERE.parent / "raw-data" / "2023"
+    root = HERE.parent / "raw-data" / "2024"
     extracted_tournament = trackwrestling.extract_year(
         root,
         _parse_rounds,
-        "Championship Preliminary",
+        "Championship First Round",
         "Champ. Round 1",
         _NAME_FIXES,
         _TEAM_FIXES,
     )
-    with open(HERE / "extracted.2023.json", "w") as file_obj:
+    with open(HERE / "extracted.2024.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))
         file_obj.write("\n")
 
