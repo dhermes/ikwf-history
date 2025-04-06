@@ -178,6 +178,26 @@ def _is_valid_initial_entry(
     return False
 
 
+def _get_team_matches(
+    team_prefix: str, division_scores: list[bracket_utils.TeamScore]
+) -> list[str]:
+    # NOTE: 15 characters is the length where team names get abbreviated, so
+    #       for this length only allow exact matches.
+    if len(team_prefix) < 15:
+        for score in division_scores:
+            if score.team == team_prefix:
+                return [team_prefix]
+
+        return []
+
+    matches: list[str] = []
+    for score in division_scores:
+        if score.team.startswith(team_prefix):
+            matches.append(score.team)
+
+    return matches
+
+
 def _split_name_team_initial(
     name_team: str,
     division_scores: list[bracket_utils.TeamScore],
@@ -200,11 +220,7 @@ def _split_name_team_initial(
 
     name = name_fixes.get(name, name)
 
-    matches: list[str] = []
-    for score in division_scores:
-        if score.team.startswith(team_prefix):
-            matches.append(score.team)
-
+    matches = _get_team_matches(team_prefix, division_scores)
     if len(matches) != 1:
         raise RuntimeError("Invariant violation", name_team, matches)
 
@@ -363,11 +379,21 @@ def _handle_match(
         bottom_competitor = bottom_competitors[loser_bottom_index]
         top_win = True
     elif winner_bottom_index is not None:
-        if (
-            loser_top_index is None
-            or winner_top_index is not None
-            or loser_bottom_index is not None
+        bottom_competitor = bottom_competitors[winner_bottom_index]
+        top_win = False
+
+        if loser.strip() == "()" and result == "FF":
+            if len(top_competitors) != 1:
+                raise NotImplementedError
+
+            top_competitor = top_competitors[0]
+        elif (
+            loser_top_index is not None
+            and winner_top_index is None
+            and loser_bottom_index is None
         ):
+            top_competitor = top_competitors[loser_top_index]
+        else:
             raise RuntimeError(
                 "Invariant violation",
                 winner,
@@ -375,10 +401,6 @@ def _handle_match(
                 top_competitor_names,
                 bottom_competitor_names,
             )
-
-        top_competitor = top_competitors[loser_top_index]
-        bottom_competitor = bottom_competitors[winner_bottom_index]
-        top_win = False
     else:
         raise RuntimeError(
             "Invariant violation",
@@ -466,6 +488,9 @@ def _overtime_result_type(result: str, prefix: str) -> bracket_utils.ResultType:
     if 0 < delta < 8:
         return "decision"
 
+    if 8 <= delta < 15:
+        return "major"
+
     raise NotImplementedError("Unexpected result", result, prefix)
 
 
@@ -481,6 +506,9 @@ def _determine_result_type(result: str) -> bracket_utils.ResultType:
 
     if result.startswith("SV-1 "):
         return _overtime_result_type(result, "SV-1 ")
+
+    if result.startswith("SV-2 "):
+        return _overtime_result_type(result, "SV-2 ")
 
     if result.startswith("TB-1 "):
         return _overtime_result_type(result, "TB-1 ")
