@@ -235,6 +235,51 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "Yorkville WC": 44725,
     "nWo WC": 44726,
 }
+BRACKET_ID_MAPPING: dict[tuple[bracket_utils.Division, int], int] = {
+    ("bantam", 43): 797,
+    ("bantam", 46): 798,
+    ("bantam", 49): 799,
+    ("bantam", 52): 800,
+    ("bantam", 55): 801,
+    ("bantam", 58): 802,
+    ("bantam", 62): 803,
+    ("bantam", 66): 804,
+    ("bantam", 70): 805,
+    ("bantam", 76): 806,
+    ("bantam", 84): 807,
+    ("bantam", 95): 808,
+    ("bantam", 120): 809,
+    ("intermediate", 55): 810,
+    ("intermediate", 59): 811,
+    ("intermediate", 64): 812,
+    ("intermediate", 69): 813,
+    ("intermediate", 74): 814,
+    ("intermediate", 79): 815,
+    ("intermediate", 84): 816,
+    ("intermediate", 90): 817,
+    ("intermediate", 98): 818,
+    ("intermediate", 108): 819,
+    ("intermediate", 122): 820,
+    ("intermediate", 148): 821,
+    ("intermediate", 177): 822,
+    ("bantam_girls", 43): 855,
+    ("bantam_girls", 46): 856,
+    ("bantam_girls", 50): 857,
+    ("bantam_girls", 55): 858,
+    ("bantam_girls", 62): 859,
+    ("bantam_girls", 68): 860,
+    ("bantam_girls", 74): 861,
+    ("bantam_girls", 85): 862,
+    ("intermediate_girls", 53): 863,
+    ("intermediate_girls", 57): 864,
+    ("intermediate_girls", 62): 865,
+    ("intermediate_girls", 67): 866,
+    ("intermediate_girls", 73): 867,
+    ("intermediate_girls", 80): 868,
+    ("intermediate_girls", 90): 869,
+    ("intermediate_girls", 113): 870,
+    ("intermediate_girls", 135): 871,
+}
 
 
 def main():
@@ -256,8 +301,14 @@ def main():
         TEAM_NAME_MAPPING,
     )
 
-    # bracket_utils.print_competitors_sql(mapped_competitors.competitor_rows)
-    bracket_utils.print_team_competitors_sql(mapped_competitors.team_competitor_rows)
+    start_id = 38839
+    mapped_matches = bracket_utils.get_matches_for_sql(
+        start_id,
+        weight_classes,
+        mapped_competitors.team_competitor_by_info,
+        BRACKET_ID_MAPPING,
+    )
+    bracket_utils.print_matches_sql(mapped_matches.match_rows)
 
 
 if __name__ == "__main__":

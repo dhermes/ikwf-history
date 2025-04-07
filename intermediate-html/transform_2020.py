@@ -191,19 +191,41 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "Yorkville WC": 40181,
     "nWo WC": 40182,
 }
-
-
-def _collect_all_names(weight_classes: list[bracket_utils.WeightClass]) -> list[str]:
-    teams: set[str] = set()
-    for weight_class in weight_classes:
-        for match in weight_class.matches:
-            if match.top_competitor is not None:
-                teams.add(match.top_competitor.team)
-
-            if match.bottom_competitor is not None:
-                teams.add(match.bottom_competitor.team)
-
-    return sorted(teams)
+BRACKET_ID_MAPPING: dict[tuple[bracket_utils.Division, int], int] = {
+    ("novice", 60): 699,
+    ("novice", 64): 700,
+    ("novice", 69): 701,
+    ("novice", 74): 702,
+    ("novice", 80): 703,
+    ("novice", 86): 704,
+    ("novice", 93): 705,
+    ("novice", 100): 706,
+    ("novice", 108): 707,
+    ("novice", 116): 708,
+    ("novice", 125): 709,
+    ("novice", 134): 710,
+    ("novice", 154): 711,
+    ("novice", 178): 712,
+    ("novice", 215): 713,
+    ("senior", 70): 714,
+    ("senior", 74): 715,
+    ("senior", 79): 716,
+    ("senior", 84): 717,
+    ("senior", 90): 718,
+    ("senior", 96): 719,
+    ("senior", 103): 720,
+    ("senior", 110): 721,
+    ("senior", 118): 722,
+    ("senior", 126): 723,
+    ("senior", 135): 724,
+    ("senior", 144): 725,
+    ("senior", 154): 726,
+    ("senior", 164): 727,
+    ("senior", 176): 728,
+    ("senior", 188): 729,
+    ("senior", 215): 730,
+    ("senior", 275): 731,
+}
 
 
 def main():
@@ -225,8 +247,14 @@ def main():
         TEAM_NAME_MAPPING,
     )
 
-    # bracket_utils.print_competitors_sql(mapped_competitors.competitor_rows)
-    bracket_utils.print_team_competitors_sql(mapped_competitors.team_competitor_rows)
+    start_id = 32179
+    mapped_matches = bracket_utils.get_matches_for_sql(
+        start_id,
+        weight_classes,
+        mapped_competitors.team_competitor_by_info,
+        BRACKET_ID_MAPPING,
+    )
+    bracket_utils.print_matches_sql(mapped_matches.match_rows)
 
 
 if __name__ == "__main__":

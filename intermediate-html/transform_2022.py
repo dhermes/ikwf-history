@@ -170,6 +170,41 @@ TEAM_NAME_MAPPING: dict[str, int] = {
     "Yorkville WC": 42160,
     "nWo WC": 42161,
 }
+BRACKET_ID_MAPPING: dict[tuple[bracket_utils.Division, int], int] = {
+    ("novice", 60): 732,
+    ("novice", 64): 733,
+    ("novice", 69): 734,
+    ("novice", 74): 735,
+    ("novice", 80): 736,
+    ("novice", 86): 737,
+    ("novice", 93): 738,
+    ("novice", 100): 739,
+    ("novice", 108): 740,
+    ("novice", 116): 741,
+    ("novice", 125): 742,
+    ("novice", 134): 743,
+    ("novice", 154): 744,
+    ("novice", 178): 745,
+    ("novice", 215): 746,
+    ("senior", 70): 747,
+    ("senior", 74): 748,
+    ("senior", 79): 749,
+    ("senior", 84): 750,
+    ("senior", 90): 751,
+    ("senior", 96): 752,
+    ("senior", 103): 753,
+    ("senior", 110): 754,
+    ("senior", 118): 755,
+    ("senior", 126): 756,
+    ("senior", 135): 757,
+    ("senior", 144): 758,
+    ("senior", 154): 759,
+    ("senior", 164): 760,
+    ("senior", 176): 761,
+    ("senior", 188): 762,
+    ("senior", 215): 763,
+    ("senior", 275): 764,
+}
 
 
 def main():
@@ -191,8 +226,14 @@ def main():
         TEAM_NAME_MAPPING,
     )
 
-    # bracket_utils.print_competitors_sql(mapped_competitors.competitor_rows)
-    bracket_utils.print_team_competitors_sql(mapped_competitors.team_competitor_rows)
+    start_id = 32707
+    mapped_matches = bracket_utils.get_matches_for_sql(
+        start_id,
+        weight_classes,
+        mapped_competitors.team_competitor_by_info,
+        BRACKET_ID_MAPPING,
+    )
+    bracket_utils.print_matches_sql(mapped_matches.match_rows)
 
 
 if __name__ == "__main__":
