@@ -101,7 +101,20 @@ CREATE TABLE competitor (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   first_name TEXT NOT NULL,
   last_name TEXT NOT NULL,
-  suffix TEXT
+  suffix TEXT,
+  full_name TEXT GENERATED ALWAYS AS (
+    TRIM(
+      TRIM(first_name) || ' ' || TRIM(last_name)
+    ) ||
+    CASE
+      WHEN suffix IS NOT NULL AND TRIM(suffix) != ''
+      THEN ' ' || TRIM(suffix)
+      ELSE ''
+    END
+  ) STORED,
+  CHECK (
+    (first_name <> '' AND last_name <> '')
+  )
 );
 
 CREATE TABLE team_competitor (
