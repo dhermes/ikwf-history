@@ -82,17 +82,29 @@ def _get_bracket_json(
 
 
 def main():
+    root = HERE.parent / "static" / "static" / "json" / "brackets"
     with sqlite3.connect(HERE / "ikwf.sqlite") as connection:
         connection.row_factory = sqlite3.Row
 
         all_tournaments = _get_all_tournaments(connection)
-        (tournament_id,) = all_tournaments[2025]
-        tournament_brackets = _get_all_brackets(connection, tournament_id)
-        division, weight = tournament_brackets[10]
-        bracket_json_rows = _get_bracket_json(
-            connection, division, weight, tournament_id
-        )
-        print(json.dumps(bracket_json_rows, indent=2))
+        tournament_years = sorted(all_tournaments.keys())
+        for year in tournament_years:
+            for tournament_id in all_tournaments[year]:
+                tournament_brackets = _get_all_brackets(connection, tournament_id)
+                for division, weight in tournament_brackets:
+                    bracket_json_rows = _get_bracket_json(
+                        connection, division, weight, tournament_id
+                    )
+                    if len(bracket_json_rows) == 0:
+                        continue
+
+                    division_path = division.replace("_", "-")
+                    destination = root / str(year) / division_path
+                    destination.mkdir(parents=True, exist_ok=True)
+                    json_path = destination / f"{weight}.json"
+                    with open(json_path, "w") as file_obj:
+                        json.dump(bracket_json_rows, file_obj, indent=2)
+                        file_obj.write("\n")
 
 
 if __name__ == "__main__":

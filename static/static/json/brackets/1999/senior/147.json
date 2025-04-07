@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_full_name": "Nick Derry",
+    "top_team": "Harlem Cougars",
+    "top_team_acronym": null,
+    "bottom_full_name": "Adam Hock",
+    "bottom_team": "Geneseo WC",
+    "bottom_team_acronym": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_full_name": "Adam Clay",
+    "top_team": "Fox Valley Wrestling Club",
+    "top_team_acronym": null,
+    "bottom_full_name": "Byran Golden",
+    "bottom_team": "Vittum Cats Wrestling Club",
+    "bottom_team_acronym": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_full_name": "Danney Finney",
+    "top_team": "Little Celtic Wrestling Club",
+    "top_team_acronym": null,
+    "bottom_full_name": "Kris Roberts",
+    "bottom_team": "Marion WC",
+    "bottom_team_acronym": null,
+    "top_win": true,
+    "result": ""
+  }
+]
