@@ -24,9 +24,7 @@ FROM
   LEFT JOIN team AS t_bottom ON t_bottom.id = tc_bottom.team_id
   LEFT JOIN competitor AS c_bottom ON c_bottom.id = tc_bottom.competitor_id
 WHERE
-  b.weight = 84
-  AND b.division = 'bantam'
-  AND b.tournament_id = 55
+  b.weight = :weight
+  AND b.division = :division
+  AND b.tournament_id = :tournament_id
 ORDER BY s.id;
-
--- .read a.sql
