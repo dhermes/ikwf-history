@@ -27,4 +27,4 @@ WHERE
   b.weight = :weight
   AND b.division = :division
   AND b.tournament_id = :tournament_id
-ORDER BY s.id;
+ORDER BY s.id
