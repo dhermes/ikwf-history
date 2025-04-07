@@ -204,8 +204,8 @@ def main():
         TEAM_NAME_MAPPING,
     )
 
-    bracket_utils.print_competitors_sql(mapped_competitors.competitor_rows)
-    # TODO: bracket_utils.print_team_competitors_sql(mapped_competitors.team_competitor_rows)
+    # bracket_utils.print_competitors_sql(mapped_competitors.competitor_rows)
+    bracket_utils.print_team_competitors_sql(mapped_competitors.team_competitor_rows)
 
 
 if __name__ == "__main__":
