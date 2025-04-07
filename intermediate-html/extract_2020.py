@@ -141,13 +141,11 @@ def main():
             top_competitors = initial_match_slots[(match_slot, "top")]
             if i % 2 == 1:
                 bout_number = opening_bouts[(i - 1) // 2]
-                top_win = None
                 result = ""
                 result_type = "default"
                 bottom_competitors = initial_match_slots[(match_slot, "bottom")]
             else:
                 bout_number = None
-                top_win = True
                 result = "Bye"
                 result_type = "bye"
                 bottom_competitors = []
@@ -163,6 +161,11 @@ def main():
                 top_competitor = top_competitors[0]
             if len(bottom_competitors) == 1:
                 bottom_competitor = bottom_competitors[0]
+
+            if top_competitor is None and bottom_competitor is None:
+                continue
+
+            top_win = top_competitor is not None
 
             match = bracket_utils.Match(
                 match_slot=match_slot,
