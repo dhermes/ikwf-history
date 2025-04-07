@@ -41,8 +41,25 @@ def _get_all_tournaments(connection: sqlite3.Connection) -> dict[int, list[int]]
     return result
 
 
+def _get_all_brackets(
+    connection: sqlite3.Connection, tournament_id: int
+) -> list[tuple[str, int]]:
+    all_brackets_sql = _get_sql("_all-brackets.sql")
+    cursor = connection.cursor()
+    bind_parameters = {"tournament_id": tournament_id}
+    cursor.execute(all_brackets_sql, bind_parameters)
+    rows = [dict(row) for row in cursor.fetchall()]
+    cursor.close()
+
+    result: list[tuple[str, int]] = []
+    for row in rows:
+        result.append((row["division"], row["weight"]))
+
+    return result
+
+
 def _get_bracket_json(
-    connection: sqlite3.Connection, weight: int, division: str, tournament_id: int
+    connection: sqlite3.Connection, division: str, weight: int, tournament_id: int
 ):
     bracket_json_sql = _get_sql("_bracket-json.sql")
     cursor = connection.cursor()
@@ -70,7 +87,11 @@ def main():
 
         all_tournaments = _get_all_tournaments(connection)
         (tournament_id,) = all_tournaments[2025]
-        bracket_json_rows = _get_bracket_json(connection, 84, "bantam", tournament_id)
+        tournament_brackets = _get_all_brackets(connection, tournament_id)
+        division, weight = tournament_brackets[10]
+        bracket_json_rows = _get_bracket_json(
+            connection, division, weight, tournament_id
+        )
         print(json.dumps(bracket_json_rows, indent=2))
 
 

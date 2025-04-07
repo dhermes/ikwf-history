@@ -1,1 +1,6 @@
-SELECT id, year FROM tournament ORDER BY year, id
+SELECT
+  id,
+  year
+FROM
+  tournament
+ORDER BY year, id
