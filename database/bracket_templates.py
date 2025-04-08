@@ -1,9 +1,11 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
 import functools
-import json
 import pathlib
 import sqlite3
+from typing import Literal
+
+import pydantic
 
 HERE = pathlib.Path(__file__).resolve().parent
 
@@ -58,9 +60,97 @@ def _get_all_brackets(
     return result
 
 
+class _ForbidExtra(pydantic.BaseModel):
+    model_config = pydantic.ConfigDict(extra="forbid")
+
+
+MatchSlot = Literal[
+    "championship_r32_01",
+    "championship_r32_02",
+    "championship_r32_03",
+    "championship_r32_04",
+    "championship_r32_05",
+    "championship_r32_06",
+    "championship_r32_07",
+    "championship_r32_08",
+    "championship_r32_09",
+    "championship_r32_10",
+    "championship_r32_11",
+    "championship_r32_12",
+    "championship_r32_13",
+    "championship_r32_14",
+    "championship_r32_15",
+    "championship_r32_16",
+    "championship_r16_01",
+    "championship_r16_02",
+    "championship_r16_03",
+    "championship_r16_04",
+    "championship_r16_05",
+    "championship_r16_06",
+    "championship_r16_07",
+    "championship_r16_08",
+    "consolation_round2_01",
+    "consolation_round2_02",
+    "consolation_round2_03",
+    "consolation_round2_04",
+    "consolation_round2_05",
+    "consolation_round2_06",
+    "consolation_round2_07",
+    "consolation_round2_08",
+    "championship_quarter_01",
+    "championship_quarter_02",
+    "championship_quarter_03",
+    "championship_quarter_04",
+    "consolation_round3_01",
+    "consolation_round3_02",
+    "consolation_round3_03",
+    "consolation_round3_04",
+    "consolation_round4_blood_01",
+    "consolation_round4_blood_02",
+    "consolation_round4_blood_03",
+    "consolation_round4_blood_04",
+    "championship_semi_01",
+    "championship_semi_02",
+    "consolation_round5_01",
+    "consolation_round5_02",
+    "consolation_round6_semi_01",
+    "consolation_round6_semi_02",
+    "consolation_seventh_place",
+    "consolation_fifth_place",
+    "consolation_third_place",
+    "championship_first_place",
+]
+
+
+class BracketJSON(_ForbidExtra):
+    match_slot_id: int
+    bout_number: int | None
+    match_slot: MatchSlot
+    top_full_name: str | None
+    top_team: str | None
+    top_team_acronym: str | None
+    bottom_full_name: str | None
+    bottom_team: str | None
+    bottom_team_acronym: str | None
+    top_win: bool
+    result: str
+
+
+Division = Literal[
+    "bantam",
+    "intermediate",
+    "novice",
+    "senior",
+    "bantam_girls",
+    "intermediate_girls",
+    "novice_girls",
+    "senior_girls",
+]
+
+
 def _get_bracket_json(
-    connection: sqlite3.Connection, division: str, weight: int, tournament_id: int
-):
+    connection: sqlite3.Connection, division: Division, weight: int, tournament_id: int
+) -> list[BracketJSON]:
     bracket_json_sql = _get_sql("_bracket-json.sql")
     cursor = connection.cursor()
     bind_parameters = {
@@ -70,19 +160,43 @@ def _get_bracket_json(
     }
     cursor.execute(bracket_json_sql, bind_parameters)
 
-    rows = []
+    rows: list[BracketJSON] = []
     for row in cursor.fetchall():
         keep_row = dict(row)
         keep_row["top_win"] = _to_bool(keep_row["top_win"])
-        rows.append(keep_row)
+        rows.append(BracketJSON(**keep_row))
 
     cursor.close()
 
     return rows
 
 
+class JSONBrackets(pydantic.RootModel[list[BracketJSON]]):
+    pass
+
+
+def _render_bracket_json(
+    api_root: pathlib.Path,
+    year: int,
+    division: Division,
+    weight: int,
+    bracket_json_rows: list[BracketJSON],
+):
+    division_path = division.replace("_", "-")
+    destination = api_root / "brackets" / str(year) / division_path
+    destination.mkdir(parents=True, exist_ok=True)
+    json_path = destination / f"{weight}.json"
+
+    to_serialize = JSONBrackets(root=bracket_json_rows)
+    with open(json_path, "w") as file_obj:
+        file_obj.write(to_serialize.model_dump_json(indent=2))
+        file_obj.write("\n")
+
+
 def main():
-    root = HERE.parent / "static" / "static" / "json" / "brackets"
+    static_root = HERE.parent / "static" / "static"
+    api_root = static_root / "api" / "v20250408"
+
     with sqlite3.connect(HERE / "ikwf.sqlite") as connection:
         connection.row_factory = sqlite3.Row
 
@@ -95,16 +209,13 @@ def main():
                     bracket_json_rows = _get_bracket_json(
                         connection, division, weight, tournament_id
                     )
+
                     if len(bracket_json_rows) == 0:
                         continue
 
-                    division_path = division.replace("_", "-")
-                    destination = root / str(year) / division_path
-                    destination.mkdir(parents=True, exist_ok=True)
-                    json_path = destination / f"{weight}.json"
-                    with open(json_path, "w") as file_obj:
-                        json.dump(bracket_json_rows, file_obj, indent=2)
-                        file_obj.write("\n")
+                    _render_bracket_json(
+                        api_root, year, division, weight, bracket_json_rows
+                    )
 
 
 if __name__ == "__main__":
