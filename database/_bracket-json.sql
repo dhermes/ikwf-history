@@ -6,10 +6,12 @@ SELECT
   c_top.full_name AS top_full_name,
   t_top.name AS top_team,
   m.top_team_acronym,
+  m.top_score,
   ----
   c_bottom.full_name AS bottom_full_name,
   t_bottom.name AS bottom_team,
   m.bottom_team_acronym,
+  m.bottom_score,
   ----
   m.top_win,
   m.result
