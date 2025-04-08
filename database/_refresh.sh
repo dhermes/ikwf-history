@@ -20,3 +20,4 @@ sqlite3 ./ikwf.sqlite < ./migrations/0014-team-scores-2007-to-2025.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0015-competitors-2007-to-2025.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0016-matches-2007-to-2025.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0017-remove-example-duplicates.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0018-compute-match-scores.sql
