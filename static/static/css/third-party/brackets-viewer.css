@@ -325,13 +325,26 @@
     color: var(--loss-color);
 }
 
-.brackets-viewer .match-result {
+.brackets-viewer .opponents .match-info {
     width: 100%;
     padding: 4px 6px;
-    font-size: 0.9em;
-    text-align: center;
+    font-size: var(--text-size);
     color: var(--hint-color);
     background-color: var(--secondary-background);
     border-top: 1px dashed var(--border-color);
     border-radius: 0 0 var(--match-border-radius) var(--match-border-radius);
-  }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brackets-viewer .match-result {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: var(--font-color);
+}
+
+.brackets-viewer .bout-number {
+    font-size: 0.9em;
+    font-style: italic;
+}
