@@ -90,6 +90,19 @@ VALUES
 
 --------------------------------------------------------------------------------
 
+CREATE TABLE wrestleback_type (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  key TEXT NOT NULL UNIQUE
+);
+
+INSERT INTO
+  wrestleback_type (id, key)
+VALUES
+  (1, 'follow_leader_semifinal'),
+  (2, 'full');
+
+--------------------------------------------------------------------------------
+
 CREATE TABLE team (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT NOT NULL
@@ -133,6 +146,7 @@ CREATE TABLE tournament (
   location TEXT NOT NULL,
   start_date DATE NOT NULL,
   end_date DATE NOT NULL,
+  wrestleback_type TEXT NOT NULL REFERENCES wrestleback_type(key),
   UNIQUE(year, name)
 );
 
