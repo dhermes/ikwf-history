@@ -210,10 +210,6 @@
     border: 1px solid var(--border-hover-color);
 }
 
-.brackets-viewer .opponents.popover-selected {
-    border: 1px solid var(--border-selected-color);
-}
-
 .brackets-viewer .opponents>span {
     position: absolute;
     top: -10px;
@@ -329,15 +325,13 @@
     color: var(--loss-color);
 }
 
-.brackets-viewer [popover] {
-    padding: 0 14px 10px 14px;
-}
-
-.brackets-viewer [popover] h4 {
-    font-size: 1.1em;
-    margin-bottom: 24px;
-}
-
-.brackets-viewer [popover] .match:not(:last-of-type) {
-    margin-bottom: 20px;
-}
+.brackets-viewer .match-result {
+    width: 100%;
+    padding: 4px 6px;
+    font-size: 0.9em;
+    text-align: center;
+    color: var(--hint-color);
+    background-color: var(--secondary-background);
+    border-top: 1px dashed var(--border-color);
+    border-radius: 0 0 var(--match-border-radius) var(--match-border-radius);
+  }
