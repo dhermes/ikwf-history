@@ -622,67 +622,158 @@ def _render_championship_html(
     return parts
 
 
-def _render_consolation_round2_html() -> list[str]:
-    return [
+def _render_consolation_round2_html(
+    match_map: dict[int, BracketJSON], participant_map: dict[Participant, int]
+) -> list[str]:
+    parts: list[str] = [
         '<article class="round" data-round-id="6">',
         "  <h3>Round 1</h3>",
-        "</article>",
     ]
 
+    for match_slot_id in range(25, 33):
+        parts.extend(
+            _match_html(
+                match_slot_id,
+                match_map,
+                participant_map,
+                "match connect-next",
+                "opponents straight",
+            )
+        )
 
-def _render_consolation_round3_html() -> list[str]:
-    return [
+    parts.append("</article>")
+    return parts
+
+
+def _render_consolation_round3_html(
+    match_map: dict[int, BracketJSON], participant_map: dict[Participant, int]
+) -> list[str]:
+    parts: list[str] = [
         '<article class="round" data-round-id="7">',
         "  <h3>Round 2</h3>",
-        "</article>",
     ]
 
+    for match_slot_id in range(37, 41):
+        parts.extend(
+            _match_html(
+                match_slot_id,
+                match_map,
+                participant_map,
+                "match connect-next straight",
+                "opponents connect-previous",
+            )
+        )
 
-def _render_consolation_round4_blood_html() -> list[str]:
-    return [
+    parts.append("</article>")
+    return parts
+
+
+def _render_consolation_round4_blood_html(
+    match_map: dict[int, BracketJSON], participant_map: dict[Participant, int]
+) -> list[str]:
+    parts: list[str] = [
         '<article class="round" data-round-id="8">',
         "  <h3>Blood Round</h3>",
-        "</article>",
     ]
 
+    for match_slot_id in range(41, 45):
+        parts.extend(
+            _match_html(
+                match_slot_id,
+                match_map,
+                participant_map,
+                "match connect-next",
+                "opponents connect-previous straight",
+            )
+        )
 
-def _render_consolation_round5_html() -> list[str]:
-    return [
+    parts.append("</article>")
+    return parts
+
+
+def _render_consolation_round5_html(
+    match_map: dict[int, BracketJSON], participant_map: dict[Participant, int]
+) -> list[str]:
+    parts: list[str] = [
         '<article class="round" data-round-id="9">',
         "  <h3>Quarterfinals</h3>",
-        "</article>",
     ]
 
+    for match_slot_id in range(47, 49):
+        parts.extend(
+            _match_html(
+                match_slot_id,
+                match_map,
+                participant_map,
+                "match connect-next straight",
+                "opponents connect-previous",
+            )
+        )
 
-def _render_consolation_round6_semi_html() -> list[str]:
-    return [
+    parts.append("</article>")
+    return parts
+
+
+def _render_consolation_round6_semi_html(
+    match_map: dict[int, BracketJSON], participant_map: dict[Participant, int]
+) -> list[str]:
+    parts: list[str] = [
         '<article class="round" data-round-id="10">',
         "  <h3>Semifinals</h3>",
-        "</article>",
     ]
 
+    for match_slot_id in range(49, 51):
+        parts.extend(
+            _match_html(
+                match_slot_id,
+                match_map,
+                participant_map,
+                "match connect-next",
+                "opponents connect-previous straight",
+            )
+        )
 
-def _render_consolation_third_place_html() -> list[str]:
-    return [
+    parts.append("</article>")
+    return parts
+
+
+def _render_consolation_third_place_html(
+    match_map: dict[int, BracketJSON], participant_map: dict[Participant, int]
+) -> list[str]:
+    parts: list[str] = [
         '<article class="round" data-round-id="11">',
         "  <h3>Third Place</h3>",
-        "</article>",
     ]
 
+    parts.extend(
+        _match_html(
+            53,
+            match_map,
+            participant_map,
+            "match",
+            "opponents connect-previous",
+        )
+    )
 
-def _render_consolation_html() -> list[str]:
+    parts.append("</article>")
+    return parts
+
+
+def _render_consolation_html(
+    match_map: dict[int, BracketJSON], participant_map: dict[Participant, int]
+) -> list[str]:
     parts: list[str] = [
         '<section class="bracket" data-group-id="1">',
         "  <h2>Consolation</h2>",
         '  <div class="rounds">',
     ]
 
-    parts.extend(_render_consolation_round2_html())
-    parts.extend(_render_consolation_round3_html())
-    parts.extend(_render_consolation_round4_blood_html())
-    parts.extend(_render_consolation_round5_html())
-    parts.extend(_render_consolation_round6_semi_html())
-    parts.extend(_render_consolation_third_place_html())
+    parts.extend(_render_consolation_round2_html(match_map, participant_map))
+    parts.extend(_render_consolation_round3_html(match_map, participant_map))
+    parts.extend(_render_consolation_round4_blood_html(match_map, participant_map))
+    parts.extend(_render_consolation_round5_html(match_map, participant_map))
+    parts.extend(_render_consolation_round6_semi_html(match_map, participant_map))
+    parts.extend(_render_consolation_third_place_html(match_map, participant_map))
 
     parts.extend(
         [
@@ -860,7 +951,7 @@ def _render_bracket_html(
         ]
     )
     parts.extend(_render_championship_html(match_map, participant_map))
-    parts.extend(_render_consolation_html())
+    parts.extend(_render_consolation_html(match_map, participant_map))
     parts.extend(_render_fifth_place_html(match_map, participant_map))
     parts.extend(_render_seventh_place_html(match_map, participant_map))
     parts.extend(
