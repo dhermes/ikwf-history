@@ -348,11 +348,10 @@ class Participant(NamedTuple):
 
 
 def _render_html_head(title: str) -> str:
-    # NOTE: We trust the input so do not need to HTML escape it.
     return "\n".join(
         [
             "<head>",
-            f"  <title>{title}</title>",
+            f"  <title>{html.escape(title)}</title>",
             '  <link href="/css/brackets-viewer.98d9c077.min.css" rel="stylesheet" />',
             "</head>",
         ]
@@ -938,6 +937,7 @@ def _render_bracket_html(
 ):
     match_map = _get_match_map(bracket_json_rows)
     participant_map = _get_participant_map(match_map)
+    include_seventh = year >= 2001
 
     html_title = _get_html_title(year, division, weight)
     parts: list[str] = ["<html>"]
@@ -946,14 +946,15 @@ def _render_bracket_html(
             _render_html_head(html_title),
             "<body>",
             '  <div class="brackets-viewer" id="bracket">',
-            # NOTE: We trust the input so do not need to HTML escape it.
-            f"    <h1>{html_title}</h1>",
+            f"    <h1>{html.escape(html_title)}</h1>",
         ]
     )
     parts.extend(_render_championship_html(match_map, participant_map))
     parts.extend(_render_consolation_html(match_map, participant_map))
     parts.extend(_render_fifth_place_html(match_map, participant_map))
-    parts.extend(_render_seventh_place_html(match_map, participant_map))
+    if include_seventh:
+        parts.extend(_render_seventh_place_html(match_map, participant_map))
+
     parts.extend(
         [
             "    </div>",
@@ -964,7 +965,7 @@ def _render_bracket_html(
     )
 
     soup = bs4.BeautifulSoup("\n".join(parts), features="html.parser")
-    html = soup.prettify(formatter="html")
+    formatted_html = soup.prettify(formatter="html")
 
     division_path = division.replace("_", "-")
     destination = static_root / "brackets" / str(year) / division_path
@@ -972,7 +973,7 @@ def _render_bracket_html(
     html_path = destination / f"{weight}.html"
 
     with open(html_path, "w") as file_obj:
-        file_obj.write(html)
+        file_obj.write(formatted_html)
 
 
 def main():
