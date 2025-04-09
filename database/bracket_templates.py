@@ -437,7 +437,8 @@ def _match_html(
     match_slot_id: int,
     match_map: dict[int, BracketJSON],
     participant_map: dict[Participant, int],
-    extra_class: str | None = None,
+    match_class: str,
+    opponents_class: str,
     include_team_span: bool = False,
 ) -> list[str]:
     match_slot = _match_slot_for_id(match_slot_id)
@@ -449,17 +450,13 @@ def _match_html(
         result = match.result
 
     bout_number_str = _format_null(bout_number)
-    match_class = "match"
-    if extra_class is not None:
-        match_class = f"match {extra_class}"
-
     parts: list[str] = [
         "<div",
         f'  class="{match_class}"',
         f'  data-match-id="{match_slot_id}"',
         f'  data-match-slot="{match_slot}"',
         ">",
-        '  <div class="opponents">',
+        f'  <div class="{opponents_class}">',
     ]
 
     parts.extend(
@@ -500,7 +497,8 @@ def _render_r32_html(
                 match_slot_id,
                 match_map,
                 participant_map,
-                extra_class="connect-next",
+                "match connect-next",
+                "opponents",
                 include_team_span=True,
             )
         )
@@ -516,6 +514,18 @@ def _render_r16_html(
         '<article class="round" data-round-id="1">',
         "  <h3>R16</h3>",
     ]
+
+    for match_slot_id in range(17, 25):
+        parts.extend(
+            _match_html(
+                match_slot_id,
+                match_map,
+                participant_map,
+                "match connect-next",
+                "opponents connect-previous",
+            )
+        )
+
     parts.append("</article>")
     return parts
 
@@ -527,6 +537,18 @@ def _render_quarterfinal_html(
         '<article class="round" data-round-id="2">',
         "  <h3>Quarterfinals</h3>",
     ]
+
+    for match_slot_id in range(33, 37):
+        parts.extend(
+            _match_html(
+                match_slot_id,
+                match_map,
+                participant_map,
+                "match connect-next",
+                "opponents connect-previous",
+            )
+        )
+
     parts.append("</article>")
     return parts
 
@@ -538,6 +560,18 @@ def _render_semifinal_html(
         '<article class="round" data-round-id="3">',
         "  <h3>Semifinals</h3>",
     ]
+
+    for match_slot_id in range(45, 47):
+        parts.extend(
+            _match_html(
+                match_slot_id,
+                match_map,
+                participant_map,
+                "match connect-next",
+                "opponents connect-previous",
+            )
+        )
+
     parts.append("</article>")
     return parts
 
@@ -549,6 +583,17 @@ def _render_first_place_html(
         '<article class="round" data-round-id="4">',
         "  <h3>First Place</h3>",
     ]
+
+    parts.extend(
+        _match_html(
+            54,
+            match_map,
+            participant_map,
+            "match",
+            "opponents connect-previous",
+        )
+    )
+
     parts.append("</article>")
     return parts
 
@@ -659,7 +704,7 @@ def _render_fifth_place_html(
         "      <h3>Fifth Place</h3>",
     ]
 
-    parts.extend(_match_html(52, match_map, participant_map))
+    parts.extend(_match_html(52, match_map, participant_map, "match", "opponents"))
 
     parts.extend(
         [
@@ -682,7 +727,7 @@ def _render_seventh_place_html(
         "      <h3>Seventh Place</h3>",
     ]
 
-    parts.extend(_match_html(51, match_map, participant_map))
+    parts.extend(_match_html(51, match_map, participant_map, "match", "opponents"))
 
     parts.extend(
         [
