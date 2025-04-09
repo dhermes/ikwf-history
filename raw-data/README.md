@@ -97,11 +97,6 @@ and handling byes (`22.8.4.5`):
 - Senior new weight classes (18): 74, 79, 84, 89, 95, 101, 108, 115, 122, 130,
   138, 147, 156, 166, 177, 189, 215, 275
 
-### 2022
-
-- Team point deductions appear to become **virtually** non-existent in
-  Trackwrestling
-
 ### 2020
 
 - Novice new weight classes (15): 60, 64, 69, 74, 80, 86, 93, 100, 108, 116,

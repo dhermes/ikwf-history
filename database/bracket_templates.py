@@ -645,11 +645,19 @@ def _render_consolation_round2_html(
 
 
 def _render_consolation_round3_html(
-    match_map: dict[int, BracketJSON], participant_map: dict[Participant, int]
+    match_map: dict[int, BracketJSON],
+    participant_map: dict[Participant, int],
+    full_wrestlebacks: bool,
 ) -> list[str]:
+    round_name = "Round 2"
+    opponents_class = "opponents connect-previous"
+    if not full_wrestlebacks:
+        round_name = "Round 1"
+        opponents_class = "opponents"
+
     parts: list[str] = [
         '<article class="round" data-round-id="7">',
-        "  <h3>Round 2</h3>",
+        f"  <h3>{round_name}</h3>",
     ]
 
     for match_slot_id in range(37, 41):
@@ -659,7 +667,7 @@ def _render_consolation_round3_html(
                 match_map,
                 participant_map,
                 "match connect-next straight",
-                "opponents connect-previous",
+                opponents_class,
             )
         )
 
@@ -759,7 +767,9 @@ def _render_consolation_third_place_html(
 
 
 def _render_consolation_html(
-    match_map: dict[int, BracketJSON], participant_map: dict[Participant, int]
+    match_map: dict[int, BracketJSON],
+    participant_map: dict[Participant, int],
+    full_wrestlebacks: bool,
 ) -> list[str]:
     parts: list[str] = [
         '<section class="bracket" data-group-id="1">',
@@ -767,8 +777,12 @@ def _render_consolation_html(
         '  <div class="rounds">',
     ]
 
-    parts.extend(_render_consolation_round2_html(match_map, participant_map))
-    parts.extend(_render_consolation_round3_html(match_map, participant_map))
+    if full_wrestlebacks:
+        parts.extend(_render_consolation_round2_html(match_map, participant_map))
+
+    parts.extend(
+        _render_consolation_round3_html(match_map, participant_map, full_wrestlebacks)
+    )
     parts.extend(_render_consolation_round4_blood_html(match_map, participant_map))
     parts.extend(_render_consolation_round5_html(match_map, participant_map))
     parts.extend(_render_consolation_round6_semi_html(match_map, participant_map))
@@ -938,6 +952,7 @@ def _render_bracket_html(
     match_map = _get_match_map(bracket_json_rows)
     participant_map = _get_participant_map(match_map)
     include_seventh = year >= 2001
+    full_wrestlebacks = year >= 2022
 
     html_title = _get_html_title(year, division, weight)
     parts: list[str] = ["<html>"]
@@ -950,7 +965,9 @@ def _render_bracket_html(
         ]
     )
     parts.extend(_render_championship_html(match_map, participant_map))
-    parts.extend(_render_consolation_html(match_map, participant_map))
+    parts.extend(
+        _render_consolation_html(match_map, participant_map, full_wrestlebacks)
+    )
     parts.extend(_render_fifth_place_html(match_map, participant_map))
     if include_seventh:
         parts.extend(_render_seventh_place_html(match_map, participant_map))
