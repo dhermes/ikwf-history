@@ -14,6 +14,7 @@
     --text-size: 12px;
     --round-margin: 40px;
     --match-width: 180px;
+    --first-match-width: 240px;
     --match-horizontal-padding: 8px;
     --match-vertical-padding: 6px;
     --connector-border-width: 2px;
@@ -67,6 +68,17 @@
 
 .brackets-viewer h2 {
     font-size: 1.7em;
+}
+
+.brackets-viewer .first-match h3 {
+    text-align: center;
+    background: var(--secondary-background);
+    font-size: 1.1em;
+    padding: 10px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: var(--first-match-width);
 }
 
 .brackets-viewer h3 {
@@ -166,6 +178,15 @@
     align-items: center;
     margin: 10px 0;
     width: var(--match-width);
+    position: relative;
+}
+
+.brackets-viewer .first-match .match {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    width: var(--first-match-width);
     position: relative;
 }
 
