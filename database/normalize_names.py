@@ -31,6 +31,7 @@ def _get_updated_names(
     last_name: str,
     first_name_replacements: dict[str, str],
     last_name_replacements: dict[str, str],
+    full_name_replacements: dict[tuple[str, str], tuple[str, str]],
 ) -> tuple[str, str] | None:
     title_first = first_name.title()
     title_last = last_name.title()
@@ -41,102 +42,12 @@ def _get_updated_names(
     new_first_name = first_name_replacements.get(first_name, first_name)
     new_last_name = last_name_replacements.get(last_name, last_name)
 
-    both = (new_first_name, new_last_name)
-    if both == ("Mitch", "Alberstett"):
-        return "Mitchell", "Alberstett"
+    key = (new_first_name, new_last_name)
+    if key in full_name_replacements:
+        return full_name_replacements[key]
 
-    if both == ("Colin", "Allgire"):
-        return "Collin", "Allgire"
-
-    if both == ("Tom", "Ambrose"):
-        return "Thomas", "Ambrose"
-
-    if both == ("Auguste", "Anderson"):
-        return "Augie", "Anderson"
-
-    if both == ("Steven", "Andrukaiti"):
-        return "Steven", "Andrukaitis"
-
-    if both == ("Joe", "Aquino"):
-        return "Joseph", "Aquino"
-
-    if both == ("Christopher", "Arthurs"):
-        return "Chris", "Arthurs"
-
-    if both == ("Mike", "Bachner"):
-        return "Michael", "Bachner"
-
-    if both == ("Ernest", "Badger,Jr"):
+    if key == ("Ernest", "Badger,Jr"):
         return None
-
-    if both == ("Mike", "Bachner"):
-        return "Michael", "Bachner"
-
-    if both == ("Joseph", "Barczak"):
-        return "Joe", "Barczak"
-
-    if both == ("Timothy", "Barringer"):
-        return "Tim", "Barringer"
-
-    if both == ("Pete", "Bauer"):
-        return "Peter", "Bauer"
-
-    if both == ("Michael", "Benefiel"):
-        return "Mike", "Benefiel"
-
-    if both == ("Mikey", "Benefiel"):
-        return "Mike", "Benefiel"
-
-    if both == ("Matthew", "Bochenek"):
-        return "Matt", "Bochenek"
-
-    if both == ("Matthew", "Boggess"):
-        return "Matt", "Boggess"
-
-    if both == ("Chris", "Brassell"):
-        return "Christopher", "Brassell"
-
-    if both == ("Joseph", "Brooks"):
-        return "Joe", "Brooks"
-
-    if both == ("Daniel", "Bruce"):
-        return "DJ", "Bruce"
-
-    if both == ("Nick", "Bryson"):
-        return "Nicholas", "Bryson"
-
-    if both == ("Jeffrey", "Bybee"):
-        return "Jeffery", "Bybee"
-
-    if both == ("Joey", "Carfagnini"):
-        return "Joseph", "Carfagnini"
-
-    if both == ("Edward", "Castillo"):
-        return "Eddie", "Castillo"
-
-    if both == ("Edwardo", "Castillo"):
-        return "Eddie", "Castillo"
-
-    if both == ("Jordon", "Chang"):
-        return "Jordan", "Chang"
-
-    if both == ("Dominick", "Chase"):
-        return "Dominic", "Chase"
-
-    if both == ("James", "Chase"):
-        return "Jimmy", "Chase"
-
-    if both == ("Ryan", "Christophe"):
-        return "Ryan", "Christopher"
-
-    if both == ("Matt", "Cole"):
-        return "Matthew", "Cole"
-
-    if both == ("John", "Cook"):
-        return "Jonathon", "Cook"
-
-    if both == ("Christopher", "Cox"):
-        return "Chris", "Cox"
 
     return new_first_name, new_last_name
 
@@ -150,6 +61,15 @@ class MapStrStr(pydantic.RootModel[dict[str, str]]):
     pass
 
 
+class FullReplacement(pydantic.BaseModel):
+    before: tuple[str, str]
+    after: tuple[str, str]
+
+
+class FullReplacements(pydantic.RootModel[list[FullReplacement]]):
+    pass
+
+
 def main():
     with open(HERE / "_first-name-replacements.json") as file_obj:
         root_map = MapStrStr.model_validate_json(file_obj.read())
@@ -158,6 +78,19 @@ def main():
     with open(HERE / "_last-name-replacements.json") as file_obj:
         root_map = MapStrStr.model_validate_json(file_obj.read())
         last_name_replacements = root_map.root
+
+    with open(HERE / "_full-name-replacements.json") as file_obj:
+        root_replacements = FullReplacements.model_validate_json(file_obj.read())
+        full_name_replace_file = root_replacements.root
+
+    full_name_replacements = {row.before: row.after for row in full_name_replace_file}
+    if len(full_name_replacements) != len(full_name_replace_file):
+        raise RuntimeError(
+            "Duplicate elements",
+            len(full_name_replacements),
+            len(full_name_replace_file),
+            full_name_replace_file,
+        )
 
     lines = [
         "-- Copyright (c) 2025 - Present. IKWF History. All rights reserved.",
@@ -205,7 +138,11 @@ def main():
             first_name = competitor["first_name"]
             last_name = competitor["last_name"]
             update = _get_updated_names(
-                first_name, last_name, first_name_replacements, last_name_replacements
+                first_name,
+                last_name,
+                first_name_replacements,
+                last_name_replacements,
+                full_name_replacements,
             )
             if update is None:
                 continue
