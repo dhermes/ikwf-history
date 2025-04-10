@@ -21,7 +21,7 @@ resource "google_secret_manager_secret_iam_policy" "cloudflare_api_token" {
 #   * DNS:Edit
 #   * Email Routing Rules:Edit
 # * Client IP Address Filtering
-#   * Is in - 67.184.37.102
+#   * Is in - 67.184.37.102, 2601:249:100:a570:5cad:6dc6:34e8:34b1
 # * TTL
 #   * not_before: 2025-03-10T00:00:00Z
 #   * expires_on: 2026-03-31T23:59:59Z
