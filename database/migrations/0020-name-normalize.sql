@@ -1365,7 +1365,6 @@ VALUES
   (2315,  'Stephen',        'Dwyer'), -- WAS: STEPHEN || DWYER
   (5336,  'Reese',          'Dziedzic'), -- WAS: REESE || DZIEDZIC
   (705,   'Riley',          'Dziudzek'), -- WAS: RILEY || DZIUDZEK
-  -- TODO: resume here
   (986,   'Aaron',          'Eads'), -- WAS: AARON || EADS
   (5357,  'Alex',           'Eagle-Martinez'), -- WAS: ALEX || EAGLE-MARTINEZ
   (701,   'Brian',          'Earner'), -- WAS: BRIAN || EARNER
@@ -1418,7 +1417,7 @@ VALUES
   (1456,  'Jeremy',         'Elliott'), -- WAS: JEREMY || ELLIOTT
   (4366,  'Makeba',         'Elliott'), -- WAS: MAKEBA || ELLIOTT
   (1165,  'Nicholas',       'Elliott'), -- WAS: NICHOLAS || ELLIOTT
-  (343,   'Nick',           'Elliott'), -- WAS: NICK || ELLIOTT
+  (343,   'Nicholas',       'Elliott'), -- WAS: NICK || ELLIOTT
   (4555,  'Byron',          'Ellis'), -- WAS: BYRON || ELLIS
   (2495,  'Damien',         'Ellis'), -- WAS: DAMIEN || ELLIS
   (677,   'Jacob',          'Ellis'), -- WAS: JACOB || ELLIS
@@ -1435,7 +1434,7 @@ VALUES
   (4173,  'Dion',           'Embrey'), -- WAS: DION || EMBREY
   (757,   'Zachary',        'Enderle'), -- WAS: ZACHARY || ENDERLE
   (1671,  'Nicholas',       'English'), -- WAS: NICHOLAS || ENGLISH
-  (1562,  'Marty',          'Engwal'), -- WAS: MARTY || ENGWAL
+  (1562,  'Marty',          'Engwall'), -- WAS: MARTY || ENGWAL
   (732,   'Marty',          'Engwall'), -- WAS: MARTY || ENGWALL
   (1850,  'Brian',          'Epp'), -- WAS: BRIAN || EPP
   (3947,  'Brian',          'Epp'), -- WAS: BRIAN || EPP
@@ -1473,8 +1472,8 @@ VALUES
   (2990,  'Ben',            'Fabrizius'), -- WAS: BEN || FABRIZIUS
   (4241,  'Ben',            'Fabrizius'), -- WAS: BEN || FABRIZIUS
   (2103,  'Joe',            'Fagiano'), -- WAS: JOE || FAGIANO
-  (1240,  'Joey',           'Fagiano'), -- WAS: JOEY || FAGIANO
-  (3281,  'Joseph',         'Fagiano'), -- WAS: JOSEPH || FAGIANO
+  (1240,  'Joe',            'Fagiano'), -- WAS: JOEY || FAGIANO
+  (3281,  'Joe',            'Fagiano'), -- WAS: JOSEPH || FAGIANO
   (536,   'Heather',        'Faichney'), -- WAS: HEATHER || FAICHNEY
   (858,   'Nick',           'Fallico'), -- WAS: NICK || FALLICO
   (3193,  'Brad',           'Fansher'), -- WAS: BRAD || FANSHER
@@ -1537,7 +1536,7 @@ VALUES
   (746,   'Bradley',        'Fiorito'), -- WAS: BRADLEY || FIORITO
   (1945,  'Josh',           'Fiorito'), -- WAS: JOSH || FIORITO
   (3172,  'Josh',           'Fiorito'), -- WAS: JOSH || FIORITO
-  (1117,  'Joshua',         'Fiorito'), -- WAS: JOSHUA || FIORITO
+  (1117,  'Josh',           'Fiorito'), -- WAS: JOSHUA || FIORITO
   (330,   'Shane',          'Fischer'), -- WAS: SHANE || FISCHER
   (4711,  'Allen',          'Fish'), -- WAS: ALLEN || FISH
   (5487,  'Nick',           'Fishback'), -- WAS: NICK || FISHBACK
@@ -1576,7 +1575,7 @@ VALUES
   (841,   'Mitch',          'Fonner'), -- WAS: MITCH || FONNER
   (1716,  'Ryan',           'Fonner'), -- WAS: RYAN || FONNER
   (4805,  'Joe',            'Fontanetta'), -- WAS: JOE || FONTANETTA
-  (3463,  'Nicholas',       'Fontanetta'), -- WAS: NICHOLAS || FONTANETTA
+  (3463,  'Nick',           'Fontanetta'), -- WAS: NICHOLAS || FONTANETTA
   (4278,  'Nick',           'Fontanetta'), -- WAS: NICK || FONTANETTA
   (5462,  'Nick',           'Fontanetta'), -- WAS: NICK || FONTANETTA
   (4169,  'Brad',           'Foote'), -- WAS: BRAD || FOOTE
@@ -1638,7 +1637,7 @@ VALUES
   (5181,  'Jacob',          'Fuqua'), -- WAS: JACOB || FUQUA
   (3550,  'Bobby',          'Furlan'), -- WAS: BOBBY || FURLAN
   (5603,  'Bobby',          'Furlan'), -- WAS: BOBBY || FURLAN
-  (1800,  'Bernard',        'Futrell'), -- WAS: BERNARD || FUTRELL
+  (1800,  'BJ',             'Futrell'), -- WAS: BERNARD || FUTRELL
   (2673,  'BJ',             'Futrell'), -- WAS: BJ || FUTRELL
   (3866,  'BJ',             'Futrell'), -- WAS: BJ || FUTRELL
   (454,   'Chase',          'Gabor'), -- WAS: CHASE || GABOR
@@ -1649,7 +1648,7 @@ VALUES
   (1417,  'Thomas',         'Gagan'), -- WAS: THOMAS || GAGAN
   (3792,  'Ryan',           'Gaines'), -- WAS: RYAN || GAINES
   (5004,  'Ryan',           'Gaines'), -- WAS: RYAN || GAINES
-  (3673,  'Ron',            'Galason'), -- WAS: RON || GALASON
+  (3673,  'Ronald',         'Galason'), -- WAS: RON || GALASON
   (4854,  'Ronald',         'Galason'), -- WAS: RONALD || GALASON
   (233,   'Josh',           'Galbraith'), -- WAS: JOSH || GALBRAITH
   (1402,  'Josh',           'Galbraith'), -- WAS: JOSH || GALBRAITH
@@ -1792,7 +1791,7 @@ VALUES
   (3621,  'Davonte',        'Gomillia'), -- WAS: DAVONTE || GOMILLIA
   (451,   'Aaron',          'Gones'), -- WAS: AARON || GONES
   (2429,  'Aaron',          'Gones'), -- WAS: AARON || GONES
-  (1575,  'Arron',          'Gones'), -- WAS: ARRON || GONES
+  (1575,  'Aaron',          'Gones'), -- WAS: ARRON || GONES
   (1857,  'Lucas',          'Gones'), -- WAS: LUCAS || GONES
   (3604,  'Lucas',          'Gones'), -- WAS: LUCAS || GONES
   (4826,  'Lucas',          'Gones'), -- WAS: LUCAS || GONES
@@ -1846,7 +1845,7 @@ VALUES
   (5056,  'Jesse',          'Gracey'), -- WAS: JESSE || GRACEY
   (911,   'Ryan',           'Grady'), -- WAS: RYAN || GRADY
   (4118,  'Chris',          'Graeber'), -- WAS: CHRIS || GRAEBER
-  (2039,  'Christopher',    'Graeber'), -- WAS: CHRISTOPHER || GRAEBER
+  (2039,  'Chris',          'Graeber'), -- WAS: CHRISTOPHER || GRAEBER
   (544,   'Cord',           'Gragert'), -- WAS: CORD || GRAGERT
   (1385,  'Cord',           'Gragert'), -- WAS: CORD || GRAGERT
   (2584,  'Cord',           'Gragert'), -- WAS: CORD || GRAGERT
@@ -1901,7 +1900,7 @@ VALUES
   (4863,  'Tavares',        'Green'), -- WAS: TAVARES || GREEN
   (1749,  'Andy',           'Greenawalt'), -- WAS: ANDY || GREENAWALT
   (3783,  'Beaux',          'Greenfield'), -- WAS: BEAUX || GREENFIELD
-  (964,   'Andrew',         'Greenwalt'), -- WAS: ANDREW || GREENWALT
+  (964,   'Andy',           'Greenawalt'), -- WAS: ANDREW || GREENWALT
   (5316,  'Blaine',         'Greenwalt'), -- WAS: BLAINE || GREENWALT
   (4751,  'Chris',          'Greenwalt'), -- WAS: CHRIS || GREENWALT
   (2960,  'Dalton',         'Greenwalt'), -- WAS: DALTON || GREENWALT
@@ -1914,8 +1913,8 @@ VALUES
   (5889,  'Calvin',         'Gresham'), -- WAS: CALVIN || GRESHAM
   (5823,  'Weston',         'Gresham'), -- WAS: WESTON || GRESHAM
   (3344,  'Nathan',         'Greviskes'), -- WAS: NATHAN || GREVISKES
-  (2701,  'Michael',        'Grice'), -- WAS: MICHAEL || GRICE
-  (3876,  'Michael',        'Grice'), -- WAS: MICHAEL || GRICE
+  (2701,  'Mike',           'Grice'), -- WAS: MICHAEL || GRICE
+  (3876,  'Mike',           'Grice'), -- WAS: MICHAEL || GRICE
   (4735,  'Mike',           'Grice'), -- WAS: MIKE || GRICE
   (1382,  'Alex',           'Griffin'), -- WAS: ALEX || GRIFFIN
   (2601,  'Alex',           'Griffin'), -- WAS: ALEX || GRIFFIN
@@ -1929,8 +1928,8 @@ VALUES
   (4495,  'Trey',           'Griffin'), -- WAS: TREY || GRIFFIN
   (5343,  'Trey',           'Griffin'), -- WAS: TREY || GRIFFIN
   (4079,  'Dan',            'Grimes'), -- WAS: DAN || GRIMES
-  (1257,  'Daniel',         'Grimes'), -- WAS: DANIEL || GRIMES
-  (2891,  'Daniel',         'Grimes'), -- WAS: DANIEL || GRIMES
+  (1257,  'Dan',            'Grimes'), -- WAS: DANIEL || GRIMES
+  (2891,  'Dan',            'Grimes'), -- WAS: DANIEL || GRIMES
   (4794,  'Brandon',        'Grizzle'), -- WAS: BRANDON || GRIZZLE
   (1410,  'Lenny',          'Grodoski'), -- WAS: LENNY || GRODOSKI
   (3060,  'Matt',           'Grodoski'), -- WAS: MATT || GRODOSKI
@@ -2013,6 +2012,7 @@ VALUES
   (4207,  'Justin',         'Haney'), -- WAS: JUSTIN || HANEY
   (3671,  'Kyle',           'Haney'), -- WAS: KYLE || HANEY
   (4882,  'Kyle',           'Haney'), -- WAS: KYLE || HANEY
+  -- TODO: resume here
   (5231,  'Brian',          'Hanik'), -- WAS: BRIAN || HANIK
   (3560,  'Adam',           'Hankin'), -- WAS: ADAM || HANKIN
   (4973,  'Kyle',           'Hankins'), -- WAS: KYLE || HANKINS
