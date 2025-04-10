@@ -16,7 +16,7 @@
   },
   {
     "match_slot_id": 2,
-    "bout_number": -30788,
+    "bout_number": null,
     "match_slot": "championship_r32_02",
     "top_full_name": "John Jones",
     "top_team": "Granite City Wrestling Association",
@@ -76,7 +76,7 @@
   },
   {
     "match_slot_id": 6,
-    "bout_number": -30788,
+    "bout_number": null,
     "match_slot": "championship_r32_06",
     "top_full_name": null,
     "top_team": null,
@@ -106,7 +106,7 @@
   },
   {
     "match_slot_id": 8,
-    "bout_number": -30788,
+    "bout_number": null,
     "match_slot": "championship_r32_08",
     "top_full_name": null,
     "top_team": null,
@@ -136,7 +136,7 @@
   },
   {
     "match_slot_id": 10,
-    "bout_number": -30788,
+    "bout_number": null,
     "match_slot": "championship_r32_10",
     "top_full_name": "Brentlee Jones",
     "top_team": "Jacksonville Area Wrestling",
@@ -172,7 +172,7 @@
     "top_team": "Doom Wrestling",
     "top_team_acronym": "Doom Wrestling",
     "top_score": null,
-    "bottom_full_name": "Damyen McGrown",
+    "bottom_full_name": "Damyen Mcgrown",
     "bottom_team": "Danville Chargers WC",
     "bottom_team_acronym": "Danville Chargers WC",
     "bottom_score": null,
@@ -226,7 +226,7 @@
   },
   {
     "match_slot_id": 16,
-    "bout_number": -30788,
+    "bout_number": null,
     "match_slot": "championship_r32_16",
     "top_full_name": "Jack Harper",
     "top_team": "Jacksonville Area Wrestling",
@@ -361,7 +361,7 @@
   },
   {
     "match_slot_id": 25,
-    "bout_number": -30788,
+    "bout_number": null,
     "match_slot": "consolation_round2_01",
     "top_full_name": "Jack Harper",
     "top_team": "Jacksonville Area Wrestling",
@@ -391,7 +391,7 @@
   },
   {
     "match_slot_id": 27,
-    "bout_number": -30788,
+    "bout_number": null,
     "match_slot": "consolation_round2_03",
     "top_full_name": "Henry Miller",
     "top_team": "Warriors Wrestling Academy",
@@ -406,7 +406,7 @@
   },
   {
     "match_slot_id": 28,
-    "bout_number": -30788,
+    "bout_number": null,
     "match_slot": "consolation_round2_04",
     "top_full_name": "Brentlee Jones",
     "top_team": "Jacksonville Area Wrestling",
@@ -421,7 +421,7 @@
   },
   {
     "match_slot_id": 29,
-    "bout_number": -30788,
+    "bout_number": null,
     "match_slot": "consolation_round2_05",
     "top_full_name": null,
     "top_team": null,
@@ -438,7 +438,7 @@
     "match_slot_id": 30,
     "bout_number": 3299,
     "match_slot": "consolation_round2_06",
-    "top_full_name": "Damyen McGrown",
+    "top_full_name": "Damyen Mcgrown",
     "top_team": "Danville Chargers WC",
     "top_team_acronym": "Danville Chargers WC",
     "top_score": null,
@@ -466,7 +466,7 @@
   },
   {
     "match_slot_id": 32,
-    "bout_number": -30788,
+    "bout_number": null,
     "match_slot": "consolation_round2_08",
     "top_full_name": null,
     "top_team": null,
