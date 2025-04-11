@@ -71,6 +71,10 @@ and handling byes (`22.8.4.5`):
 
 ## Notable changes over time
 
+### 1993
+
+- Split from a single age division into Novice / Senior
+
 ### 2001
 
 - Increase from 6 to 8 medalists
