@@ -960,6 +960,22 @@ def _get_participant_map(
     return result
 
 
+def _get_included_image(
+    static_root: pathlib.Path, year: int, division: Division, weight: int
+) -> str | None:
+    filename = f"{year}-{division}-{weight}.jpg"
+    image_path = static_root / "images" / filename
+    if image_path.is_file():
+        return filename
+
+    filename = f"{year}-{division}-{weight}.png"
+    image_path = static_root / "images" / filename
+    if image_path.is_file():
+        return filename
+
+    return None
+
+
 def _render_bracket_html(
     static_root: pathlib.Path,
     year: int,
@@ -972,6 +988,7 @@ def _render_bracket_html(
     ignore_win_loss = year == 2020
     include_seventh = year >= 2001
     full_wrestlebacks = year >= 2022
+    included_image = _get_included_image(static_root, year, division, weight)
 
     html_title = _get_html_title(year, division, weight)
     parts: list[str] = ["<html>"]
@@ -991,9 +1008,13 @@ def _render_bracket_html(
     if include_seventh:
         parts.extend(_render_seventh_place_html(match_map, participant_map))
 
+    parts.append("    </div>")
+
+    if included_image is not None:
+        parts.append(f'<img src="/images/{included_image}" width="100%" />')
+
     parts.extend(
         [
-            "    </div>",
             '    <script defer="" src="/js/add-hover.e70024f1.js"></script>',
             "  </body>",
             "</html>",

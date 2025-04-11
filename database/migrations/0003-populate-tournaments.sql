@@ -29,7 +29,7 @@ VALUES
   -- 1995
   -- 1996: ISU - Normal
   -- 1997
-  -- 1998
+  (28,    1998, 'IKWF State Championships',               'The Mark of the Quad Cities (Moline)',            '1998-03-11', '1998-03-12', 'follow_leader_semifinal'),
   (30,    1999, 'IKWF State Championships',               'SIU Arena (Carbondale)',                          '1999-03-12', '1999-03-13', 'follow_leader_semifinal'),
   (31,    2000, 'IKWF State Championships',               'SIU Arena (Carbondale)',                          '2000-03-09', '2000-03-11', 'follow_leader_semifinal'),
   (32,    2001, 'IKWF State Championships',               'SIU Arena (Carbondale)',                          '2001-03-08', '2001-03-10', 'follow_leader_semifinal'),
