@@ -51,6 +51,9 @@ PRAGMA integrity_check;
 INSERT INTO
   bracket (id, weight, division, tournament_id)
 VALUES
+  (1038, 60,  'senior',             21   ), -- 1990
+  (1039, 64,  'senior',             22   ), -- 1991
+  (1040, 95,  'senior',             24   ), -- 1993
   (1004, 62,  'novice',             30   ), -- 1999
   (1005, 66,  'novice',             30   ),
   (1006, 70,  'novice',             30   ),
