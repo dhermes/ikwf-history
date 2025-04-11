@@ -1008,13 +1008,12 @@ def _render_bracket_html(
     if include_seventh:
         parts.extend(_render_seventh_place_html(match_map, participant_map))
 
-    parts.append("    </div>")
-
     if included_image is not None:
         parts.append(f'<img src="/images/{included_image}" width="100%" />')
 
     parts.extend(
         [
+            "    </div>",
             '    <script defer="" src="/js/add-hover.e70024f1.js"></script>',
             "  </body>",
             "</html>",
