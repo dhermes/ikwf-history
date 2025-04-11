@@ -242,11 +242,9 @@ class BracketJSON(_ForbidExtra):
     match_slot: MatchSlot
     top_full_name: str | None
     top_team: str | None
-    top_team_acronym: str | None
     top_score: int | None
     bottom_full_name: str | None
     bottom_team: str | None
-    bottom_team_acronym: str | None
     bottom_score: int | None
     top_win: bool
     result: str

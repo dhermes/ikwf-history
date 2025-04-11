@@ -183,7 +183,7 @@ def main():
         ]
     )
 
-    with open(HERE / "migrations" / "0020-name-normalize.sql", "w") as file_obj:
+    with open(HERE / "migrations" / "9999-name-normalize.sql", "w") as file_obj:
         file_obj.write("\n".join(lines))
 
 

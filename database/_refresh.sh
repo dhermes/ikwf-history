@@ -22,4 +22,5 @@ sqlite3 ./ikwf.sqlite < ./migrations/0016-matches-2007-to-2025.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0017-remove-example-duplicates.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0018-compute-match-scores.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0019-remove-placeholder-bout-number.sql
-sqlite3 ./ikwf.sqlite < ./migrations/0020-name-normalize.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0020-per-year-competitor-names.sql
+sqlite3 ./ikwf.sqlite < ./migrations/9999-name-normalize.sql
