@@ -9,9 +9,27 @@ PRAGMA integrity_check;
 INSERT INTO
   tournament (id, year, name, location, start_date, end_date, wrestleback_type)
 VALUES
+  -- 1977: East Moline
+  -- 1978: Decatur
+  -- 1979: Joliet Central HS
+  -- 1980: Joliet East
+  -- 1981: Northwestern U - Evanston
+  -- 1982: Palatine
+  -- 1983: NIU - DeKalb
+  -- 1984: NIU - DeKalb
+  -- 1985: Edwardsville
+  -- 1986: NIU - DeKalb
+  -- 1987:
+  -- 1988:
+  -- 1989:
   (21,    1990, 'IKWF State Championships',               'Prairie Capital Convention Center (Springfield)', '1990-03-23', '1990-03-24', 'follow_leader_semifinal'),
   (22,    1991, 'IKWF State Championships',               'Prairie Capital Convention Center (Springfield)', '1991-03-22', '1991-03-23', 'follow_leader_semifinal'),
   (24,    1993, 'IKWF State Championships',               'Redbird Arena (Normal)',                          '1991-03-26', '1993-03-27', 'follow_leader_semifinal'),
+  -- 1994
+  -- 1995
+  -- 1996: ISU - Normal
+  -- 1997
+  -- 1998
   (30,    1999, 'IKWF State Championships',               'SIU Arena (Carbondale)',                          '1999-03-12', '1999-03-13', 'follow_leader_semifinal'),
   (31,    2000, 'IKWF State Championships',               'SIU Arena (Carbondale)',                          '2000-03-09', '2000-03-11', 'follow_leader_semifinal'),
   (32,    2001, 'IKWF State Championships',               'SIU Arena (Carbondale)',                          '2001-03-08', '2001-03-10', 'follow_leader_semifinal'),
