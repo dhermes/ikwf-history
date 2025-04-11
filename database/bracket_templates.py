@@ -376,6 +376,7 @@ def _render_participant_html(
     bracket_position: BracketPosition,
     participant_map: dict[Participant, int],
     include_team_span: bool = False,
+    ignore_win_loss: bool = False,
 ) -> list[str]:
     if match is None:
         return [
@@ -408,9 +409,14 @@ def _render_participant_html(
         raise NotImplementedError(bracket_position)
 
     with_team = f"{participant.full_name} ({participant.team})"
+    participant_class = f"participant {extra_class}"
+    if ignore_win_loss:
+        participant_class = "participant"
+        result_score = ""
+
     parts: list[str] = [
         "<div",
-        f'  class="participant {extra_class}"',
+        f'  class="{participant_class}"',
         f'  data-participant-id="{participant_id}"',
         f'  title="{html.escape(with_team)}"',
         ">",
@@ -439,6 +445,7 @@ def _match_html(
     match_class: str,
     opponents_class: str,
     include_team_span: bool = False,
+    ignore_win_loss: bool = False,
 ) -> list[str]:
     match_slot = _match_slot_for_id(match_slot_id)
     match = match_map.get(match_slot_id)
@@ -460,12 +467,20 @@ def _match_html(
 
     parts.extend(
         _render_participant_html(
-            match, "top", participant_map, include_team_span=include_team_span
+            match,
+            "top",
+            participant_map,
+            include_team_span=include_team_span,
+            ignore_win_loss=ignore_win_loss,
         )
     )
     parts.extend(
         _render_participant_html(
-            match, "bottom", participant_map, include_team_span=include_team_span
+            match,
+            "bottom",
+            participant_map,
+            include_team_span=include_team_span,
+            ignore_win_loss=ignore_win_loss,
         )
     )
 
@@ -483,7 +498,9 @@ def _match_html(
 
 
 def _render_r32_html(
-    match_map: dict[int, BracketJSON], participant_map: dict[Participant, int]
+    match_map: dict[int, BracketJSON],
+    participant_map: dict[Participant, int],
+    ignore_win_loss: bool,
 ) -> list[str]:
     parts: list[str] = [
         '<article class="round first-match" data-round-id="0">',
@@ -499,6 +516,7 @@ def _render_r32_html(
                 "match connect-next",
                 "opponents",
                 include_team_span=True,
+                ignore_win_loss=ignore_win_loss,
             )
         )
 
@@ -598,7 +616,9 @@ def _render_first_place_html(
 
 
 def _render_championship_html(
-    match_map: dict[int, BracketJSON], participant_map: dict[Participant, int]
+    match_map: dict[int, BracketJSON],
+    participant_map: dict[Participant, int],
+    ignore_win_loss: bool,
 ) -> list[str]:
     parts: list[str] = [
         '<section class="bracket" data-group-id="0">',
@@ -606,7 +626,7 @@ def _render_championship_html(
         '  <div class="rounds">',
     ]
 
-    parts.extend(_render_r32_html(match_map, participant_map))
+    parts.extend(_render_r32_html(match_map, participant_map, ignore_win_loss))
     parts.extend(_render_r16_html(match_map, participant_map))
     parts.extend(_render_quarterfinal_html(match_map, participant_map))
     parts.extend(_render_semifinal_html(match_map, participant_map))
@@ -951,6 +971,7 @@ def _render_bracket_html(
 ):
     match_map = _get_match_map(bracket_json_rows)
     participant_map = _get_participant_map(match_map)
+    ignore_win_loss = year == 2020
     include_seventh = year >= 2001
     full_wrestlebacks = year >= 2022
 
@@ -964,7 +985,7 @@ def _render_bracket_html(
             f"    <h1>{html.escape(html_title)}</h1>",
         ]
     )
-    parts.extend(_render_championship_html(match_map, participant_map))
+    parts.extend(_render_championship_html(match_map, participant_map, ignore_win_loss))
     parts.extend(
         _render_consolation_html(match_map, participant_map, full_wrestlebacks)
     )
