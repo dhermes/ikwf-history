@@ -470,6 +470,16 @@ def main():
         BRACKET_ID_MAPPING,
     )
 
+    start_id = 759
+    bracket_utils.tournament_team_sql(
+        start_id,
+        TOURNAMENT_ID,
+        TEAM_ACRONYM_MAPPING,
+        NOVICE_TEAM_ACRONYM_MAPPING,
+        SENIOR_TEAM_ACRONYM_MAPPING,
+        TEAM_NAME_MAPPING,
+    )
+
 
 if __name__ == "__main__":
     main()

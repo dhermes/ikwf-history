@@ -1641,3 +1641,46 @@ def print_matches_sql(match_rows: list[MatchRow]) -> None:
             f"{top_win_str}, {result_str}, '{row.result_type}', "
             f"'{row.top_team_acronym}', '{row.bottom_team_acronym}'),"
         )
+
+
+def tournament_team_sql(
+    start_id: int,
+    tournament_id: int,
+    team_acronym_mapping: dict[str, str],
+    novice_team_acronym_mapping: dict[str, str],
+    senior_team_acronym_mapping: dict[str, str],
+    team_name_mapping: dict[str, int],
+):
+    current_id = start_id
+
+    all_division_acronyms = set(team_acronym_mapping.keys())
+
+    novice_acronyms = set(novice_team_acronym_mapping.keys())
+    novice_acronyms = novice_acronyms.union(all_division_acronyms)
+    for acronym in sorted(novice_acronyms):
+        team_name = novice_team_acronym_mapping.get(acronym)
+        if team_name is None:
+            team_name = team_acronym_mapping[acronym]
+
+        team_id = team_name_mapping[team_name]
+        print(
+            f"  ({current_id}, {tournament_id}, 'novice', {team_id}, "
+            f"{sql_nullable_str(team_name)}, {sql_nullable_str(acronym)}),"
+        )
+        # Update ID for next iteration
+        current_id += 1
+
+    senior_acronyms = set(senior_team_acronym_mapping.keys())
+    senior_acronyms = senior_acronyms.union(all_division_acronyms)
+    for acronym in sorted(senior_acronyms):
+        team_name = senior_team_acronym_mapping.get(acronym)
+        if team_name is None:
+            team_name = team_acronym_mapping[acronym]
+
+        team_id = team_name_mapping[team_name]
+        print(
+            f"  ({current_id}, {tournament_id}, 'senior', {team_id}, "
+            f"{sql_nullable_str(team_name)}, {sql_nullable_str(acronym)}),"
+        )
+        # Update ID for next iteration
+        current_id += 1
