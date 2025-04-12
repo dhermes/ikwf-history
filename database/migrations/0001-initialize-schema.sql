@@ -191,7 +191,7 @@ CREATE TABLE match (
   top_competitor_id INTEGER REFERENCES team_competitor(id),
   bottom_competitor_id INTEGER REFERENCES team_competitor(id),
   top_win BOOLEAN NOT NULL,
-  result TEXT NOT NULL, -- TODO: Use structured data for this
+  result TEXT NOT NULL,
   result_type TEXT NOT NULL REFERENCES result_type(key),
   top_team_acronym TEXT,
   bottom_team_acronym TEXT,
