@@ -146,3 +146,35 @@ and handling byes (`22.8.4.5`):
   115, 125, 140, 185
 - Girls Senior new weight classes (16): 75, 80, 85, 90, 95, 100, 105, 110, 115,
   120, 125, 130, 135, 145, 185, 240
+
+## IWF
+
+There was a "schism" in Illinois kids wrestling in the late 90s and early
+00s. From `iwfusaw.org` results in the Wayback Machine, it appears that there
+were four tournaments held by the IWF:
+
+- 1998
+- 1999
+- 2000
+- 2001
+
+By 2002-06-03, the website was redirecting to
+`http://www.shopfaq.com/Sports/wwspwr.html`, so likely the organization
+ceased to exist. This is corroborated by a banner on the IKWF website just
+at the start of the 2001-2002 season:
+
+> On October 30, 2001 Judge Jacobius entered his Memorandum Opinion and Order
+> in the case Illinois Kids Wrestling Federation vs. Ronald Reichert, Illinois
+> Wrestling Federation, et al., Case No. 97 CH 6241. In the Memorandum Opinion
+> and Order, Judge Jacobius entered a judgment in favor of the Illinois Kids
+> Wrestling Federation ("IKWF") and against Ronald Reichert ("Reichert") and
+> the Illinois Wrestling Federation ("Federation") in the amount of $103,000,
+> as compensatory damages, and $50,000 as punitive damages. Judge Jacobius
+> denied all Counterclaims of the Federation and Reichert. As such, Judge
+> Jacobius ruled completely in favor of the IKWF on all counts, and completely
+> against Reichert and the Federation on all counts. As the IKWF claimed, Judge
+> Jacobius found after the lengthy trial, that Reichert and the Federation had
+> acted dishonestly as part of a scheme to injure the IKWF. The Memorandum
+> Opinion and Order will be posted in full on the IKWF's website in the next
+> few days. In the meantime, if you require any information, please contact
+> Mike Urwin at (708) 478-4593.
