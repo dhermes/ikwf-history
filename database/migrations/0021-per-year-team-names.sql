@@ -15,7 +15,10 @@ CREATE TABLE tournament_team (
   --       "HP Little Giants Wrestling Club")
   name TEXT NOT NULL,
   acronym TEXT,
-  UNIQUE(tournament_id, division, team_id)
+  -- NOTE: In some years, non-scoring athletes showed up in team scores under
+  --       a different name / different acronym.
+  non_scoring BOOLEAN NOT NULL DEFAULT FALSE,
+  UNIQUE(tournament_id, division, team_id, non_scoring)
 );
 
 --------------------------------------------------------------------------------
@@ -58,8 +61,8 @@ VALUES
   (22, 31, 'novice', 10025, 'ERIE MIDDLE SCHOOL W', 'EMS'),
   (23, 31, 'novice', 10131, 'EDISON PANTHERS', 'EP'),
   (24, 31, 'novice', 110, 'EDWARDSVILLE WC', 'EWC'),
-  (25, 31, 'novice', 10132, '<UNKNOWN>', 'FAW'),
-  -- (26, 31, 'novice', 10132, '<UNKNOWN>', 'FBG'), -- TODO: resolve issue with duplicate
+  (25, 31, 'novice', 45270, '<UNKNOWN>', 'FAW'),
+  (26, 31, 'novice', 45271, '<UNKNOWN>', 'FBG'),
   (27, 31, 'novice', 10138, 'FRANKLIN PARK RAIDER', 'FPR'),
   (28, 31, 'novice', 134, 'FOX VALLEY WC', 'FVW'),
   (29, 31, 'novice', 130, 'FISHER WC', 'FWC'),
@@ -103,7 +106,6 @@ VALUES
   (67, 31, 'novice', 269, 'MONTICELLO YOUTH WRESTLING CLUB', 'MK'),
   (68, 31, 'novice', 243, 'MACOMB KIDS WRESTLIN', 'MKW'),
   (69, 31, 'novice', 10117, 'MONTEGO MATMEN', 'MMM'),
-  -- (70, 31, 'novice', 10117, 'MONTEGO MATMEN', 'MON'), -- TODO: resolve issue with duplicate / non-scoring
   (71, 31, 'novice', 272, 'MORTON YOUTH WRESTLI', 'MOR'),
   (72, 31, 'novice', 10142, 'METRO STALLIONS', 'MS'),
   (73, 31, 'novice', 276, 'MT ZION WC', 'MTZ'),
@@ -117,7 +119,7 @@ VALUES
   (81, 31, 'novice', 10079, 'PANTHER CUB WC', 'PCW'),
   (82, 31, 'novice', 327, 'POLO WC', 'POL'),
   (83, 31, 'novice', 10082, 'PONTIAC PYTHONS', 'PPW'),
-  -- (84, 31, 'novice', 10132, '<UNKNOWN>', 'PR'), -- TODO: resolve issue with duplicate
+  (84, 31, 'novice', 45272, '<UNKNOWN>', 'PR'),
   (85, 31, 'novice', 326, 'PLAINFIELD WC', 'PWC'),
   (86, 31, 'novice', 236, 'RAMS WC', 'RAM'),
   (87, 31, 'novice', 10085, 'REED CUSTER KNIGHTS', 'RCK'),
@@ -185,7 +187,7 @@ VALUES
   (149, 31, 'senior', 10121, 'EAST MOLINE PANTHER', 'EMP'),
   (150, 31, 'senior', 10131, 'EDISON PANTHERS', 'EP'),
   (151, 31, 'senior', 110, 'EDWARDSVILLE WC', 'EWC'),
-  (152, 31, 'senior', 10132, '<UNKNOWN>', 'FBG'),
+  (152, 31, 'senior', 45271, '<UNKNOWN>', 'FBG'),
   (153, 31, 'senior', 10138, 'FRANKLIN PARK RAIDER', 'FPR'),
   (154, 31, 'senior', 134, 'FOX VALLEY WC', 'FVW'),
   (155, 31, 'senior', 123, 'FALCON YOUTH WC', 'FYW'),
@@ -202,7 +204,6 @@ VALUES
   (166, 31, 'senior', 189, 'JACKSONVILLE WC', 'JAC'),
   (167, 31, 'senior', 10050, 'JR GOLDEN EAGLES', 'JGE'),
   (168, 31, 'senior', 10052, 'JR ROCKET WRESTLING', 'JRW'),
-  -- (169, 31, 'senior', 10030, 'GALESBURG JR STREAKS', 'JS2'), -- TODO: resolve issue with duplicate / non-scoring
   (170, 31, 'senior', 219, 'LEMONT BEARS WC', 'LB'),
   (171, 31, 'senior', 233, 'LITTLE CELTIC WC', 'LC'),
   (172, 31, 'senior', 231, 'LITCHFIELD WRESTLING CLUB', 'LKW'),
@@ -405,14 +406,12 @@ VALUES
   (368, 32, 'senior', 10118, 'BETHALTO JR HIGH', 'BJH'),
   (369, 32, 'senior', 26, 'BENTON JR. WC', 'BJW'),
   (370, 32, 'senior', 23, 'BELLEVILLE LITTLE DE', 'BLD'),
-  (371, 32, 'senior', 39, 'BRAWLERS WC', 'BRL'),
-  -- (372, 32, 'senior', 39, 'BRAWLERS WC', 'BWC'), -- TODO: resolve issue with duplicate / non-scoring
+  (371, 32, 'senior', 39, 'BRAWLERS WC', 'BWC'),
   (373, 32, 'senior', 10124, 'CHAMPAIGN CHARGER KI', 'CCK'),
   (374, 32, 'senior', 64, 'CENTRALIA WC', 'CEN'),
-  (375, 32, 'senior', 69, 'CHARLESTON WC', 'CHA'),
+  (375, 32, 'senior', 69, 'CHARLESTON WC', 'CHR'),
   (376, 32, 'senior', 10011, 'CHENOA MAT CATS', 'CHE'),
   (377, 32, 'senior', 10014, 'CHILLICOTHE WC', 'CHL'),
-  -- (378, 32, 'senior', 69, 'CHARLESTON WC', 'CHR'), -- TODO: resolve issue with duplicate / non-scoring
   (379, 32, 'senior', 59, 'CARY JR TROJAN MATME', 'CJT'),
   (380, 32, 'senior', 89, 'CRYSTAL LAKE WIZARDS', 'CLW'),
   (381, 32, 'senior', 90, 'CUMBERLAND YOUTH WC', 'CYW'),
@@ -520,8 +519,6 @@ VALUES
   (483, 32, 'senior', 478, 'WEST FRANKFORT JR WC', 'WF'),
   (484, 32, 'senior', 10115, 'WRESTLING FACTORY', 'WFL'),
   (485, 32, 'senior', 234, 'WHEATON WC', 'WHC'),
-  -- (486, 32, 'senior', 10120, 'WHEATON BULLDOGS', 'WHE'), -- TODO: resolve issue with duplicate / non-scoring
-  -- (487, 32, 'senior', 234, 'WHEATON WC', 'WHT'), -- TODO: resolve issue with duplicate / non-scoring
   (488, 32, 'senior', 10110, 'WASHINGTON JR PANTHE', 'WJP'),
   (489, 32, 'senior', 10114, 'WHEATON MONROE EAGLE', 'WME'),
   (490, 32, 'senior', 490, 'WOLFPAK WC', 'WWC'),
@@ -1906,3 +1903,19 @@ VALUES
   (1864, 37, 'senior', 10115, 'WRESTLING FACTORY', 'WRF'),
   (1865, 37, 'senior', 483, 'WHEATON TIGER WC', 'WTG'),
   (1866, 37, 'senior', 497, 'YORKVILLE WRESTLING CLUB', 'YKV');
+
+--------------------------------------------------------------------------------
+
+-- Non-scoring teams
+
+INSERT INTO
+  tournament_team (id, tournament_id, division, team_id, name, acronym, non_scoring)
+VALUES
+  -- 2000
+  (70,  31, 'novice', 10117, 'MONTEGO MATMEN',       'MON', TRUE), -- Other in this division was MMM
+  (169, 31, 'senior', 10030, 'GALESBURG JR STREAKS', 'JS2', TRUE), -- Other in this division was GJS
+  -- 2001
+  (372, 32, 'senior', 39,    'BRAWLERS WC',          'BRL', TRUE), -- Other in this division was BWC
+  (378, 32, 'senior', 69,    'CHARLESTON WC',        'CHA', TRUE), -- Other in this division was CHR
+  (486, 32, 'senior', 10120, 'WHEATON BULLDOGS',     'WHE', TRUE), -- Other in this division was WB
+  (487, 32, 'senior', 234,   'WHEATON WC',           'WHT', TRUE); -- Other in this division was WHC

@@ -26,7 +26,6 @@ PRAGMA integrity_check;
 INSERT INTO
   team (name, id)
 VALUES
-  ('<UNKNOWN>',                                        10132),
   ('239 Athletics, LLC',                               634),
   ('2nd Athlete Regiment, USAC',                       1),
   ('815 Stateline Wrestling Club',                     673),
@@ -866,4 +865,8 @@ VALUES
   ('Young Warrior Wrestling Academy',                  667),
   ('Z''s Team Pena',                                   500),
   ('Zee Bee Stingers',                                 501),
-  ('Zero Fox Wrestling',                               646);
+  ('Zero Fox Wrestling',                               646),
+  -- The below are <UNKNOWN> acronyms
+  ('FAW',                                              45270),
+  ('FBG',                                              45271),
+  ('PR',                                               45272);
