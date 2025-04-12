@@ -409,13 +409,30 @@ def main():
     )
 
     start_id = 41069
-    mapped_matches = bracket_utils.get_matches_for_sql(
+    bracket_utils.get_matches_for_sql(
         start_id,
         weight_classes,
         mapped_competitors.team_competitor_by_info,
         BRACKET_ID_MAPPING,
     )
-    bracket_utils.print_matches_sql(mapped_matches.match_rows)
+
+    start_id = 9116
+    bracket_utils.print_tournament_team_sql(
+        HERE.parent,
+        start_id,
+        TOURNAMENT_ID,
+        extracted.team_scores,
+        [
+            "bantam",
+            "intermediate",
+            "novice",
+            "senior",
+            "bantam_girls",
+            "intermediate_girls",
+            "novice_girls",
+            "senior_girls",
+        ],
+    )
 
 
 if __name__ == "__main__":

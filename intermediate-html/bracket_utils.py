@@ -1,6 +1,7 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
 import pathlib
+import sqlite3
 from typing import Literal, NamedTuple
 
 import bs4
@@ -10,6 +11,15 @@ import pydantic
 # NOTE: In some years, a clearly accidentally added team name appeared in team
 #       scores.
 _TEAM_SCORE_ACCIDENTAL: frozenset[str] = frozenset(["Mike", "TEST"])
+_TEAMS_FROM_TOURNAMENT = """\
+SELECT
+  ts.team_id, t.name
+FROM
+  team_score AS ts
+  INNER JOIN team AS t ON t.id = ts.team_id
+WHERE
+  ts.tournament_id = :tournament_id
+"""
 
 
 class CompetitorRaw(pydantic.BaseModel):
@@ -158,6 +168,7 @@ class WeightClass(pydantic.BaseModel):
 
 class TeamScore(pydantic.BaseModel):
     team: str
+    acronym: str | None
     score: float
 
 
@@ -1684,3 +1695,65 @@ def tournament_team_sql(
         )
         # Update ID for next iteration
         current_id += 1
+
+
+def _get_teams_from_tournament(
+    project_root: pathlib.Path, tournament_id: int
+) -> dict[str, int]:
+    database = project_root / "database" / "ikwf.sqlite"
+    with sqlite3.connect(database) as connection:
+        connection.row_factory = sqlite3.Row
+
+        cursor = connection.cursor()
+        cursor.execute(
+            _TEAMS_FROM_TOURNAMENT,
+            {"tournament_id": tournament_id},
+        )
+        teams_from_tournament: dict[str, int] = {}
+        for row in cursor.fetchall():
+            team_name = row["name"]
+            team_id = row["team_id"]
+            if team_name in teams_from_tournament:
+                if teams_from_tournament[team_name] != team_id:
+                    raise RuntimeError("Invariant violation")
+            teams_from_tournament[team_name] = team_id
+
+        cursor.close()
+
+    return teams_from_tournament
+
+
+def print_tournament_team_sql(
+    project_root: pathlib.Path,
+    start_id: int,
+    tournament_id: int,
+    team_scores: dict[Division, list[TeamScore]],
+    divisions: list[Division],
+):
+    teams_from_tournament = _get_teams_from_tournament(project_root, tournament_id)
+
+    current_id = start_id
+    if set(team_scores.keys()) != set(divisions):
+        raise RuntimeError(
+            "Invariant violation", set(team_scores.keys()), set(divisions)
+        )
+
+    for division in divisions:
+        division_team_scores = team_scores[division]
+        team_score_map = {
+            team_score.team: team_score.acronym for team_score in division_team_scores
+        }
+        if len(team_score_map) != len(division_team_scores):
+            raise RuntimeError("Invariant violation")
+
+        team_names = sorted(team_score_map.keys())
+        for team_name in team_names:
+            team_id = teams_from_tournament[team_name]
+            acronym = team_score_map[team_name]
+            print(
+                f"  ({current_id}, {tournament_id}, {sql_nullable_str(division)}, "
+                f"{team_id}, {sql_nullable_str(team_name)}, {sql_nullable_str(acronym)}),"
+            )
+
+            # Prepare for next iteration
+            current_id += 1
