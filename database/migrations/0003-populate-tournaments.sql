@@ -22,9 +22,9 @@ VALUES
   -- 1987:
   -- 1988:
   -- 1989:
-  (20,    1990, 'IKWF State Championships',               'Prairie Capital Convention Center (Springfield)', '1990-03-23', '1990-03-24', 'follow_leader_semifinal'),
-  (21,    1991, 'IKWF State Championships',               'Prairie Capital Convention Center (Springfield)', '1991-03-22', '1991-03-23', 'follow_leader_semifinal'),
-  (23,    1993, 'IKWF State Championships',               'Redbird Arena (Normal)',                          '1991-03-26', '1993-03-27', 'follow_leader_semifinal'),
+  (20,    1990, 'Illinois Wrestling Federation State Championships', 'Prairie Capital Convention Center (Springfield)', '1990-03-23', '1990-03-24', 'follow_leader_semifinal'),
+  (21,    1991, 'Illinois Wrestling Federation State Championships', 'Prairie Capital Convention Center (Springfield)', '1991-03-22', '1991-03-23', 'follow_leader_semifinal'),
+  (23,    1993, 'Illinois Wrestling Federation State Championships', 'Redbird Arena (Normal)',                          '1991-03-26', '1993-03-27', 'follow_leader_semifinal'),
   -- 1994
   -- 1995
   -- 1996: ISU - Normal

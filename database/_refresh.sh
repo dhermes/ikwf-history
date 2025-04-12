@@ -25,4 +25,5 @@ sqlite3 ./ikwf.sqlite < ./migrations/0019-remove-placeholder-bout-number.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0020-per-year-competitor-names.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0021-per-year-team-names.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0022-relabel-tournaments.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0023-tournaments-1971-1997.sql
 sqlite3 ./ikwf.sqlite < ./migrations/9999-name-normalize.sql
