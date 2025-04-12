@@ -240,10 +240,10 @@ class BracketJSON(_ForbidExtra):
     match_slot_id: int
     bout_number: int | None
     match_slot: MatchSlot
-    top_full_name: str | None
+    top_full_name_normalized: str | None
     top_team: str | None
     top_score: int | None
-    bottom_full_name: str | None
+    bottom_full_name_normalized: str | None
     bottom_team: str | None
     bottom_score: int | None
     top_win: bool
@@ -877,10 +877,10 @@ def _get_participant(
     match: BracketJSON, bracket_position: BracketPosition
 ) -> Participant | None:
     if bracket_position == "top":
-        full_name = match.top_full_name
+        full_name = match.top_full_name_normalized
         team = match.top_team
     elif bracket_position == "bottom":
-        full_name = match.bottom_full_name
+        full_name = match.bottom_full_name_normalized
         team = match.bottom_team
     else:
         raise NotImplementedError(bracket_position)

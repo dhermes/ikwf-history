@@ -3,11 +3,11 @@ SELECT
   m.bout_number,
   m.match_slot,
   ----
-  c_top.full_name AS top_full_name,
+  c_top.full_name AS top_full_name_normalized,
   t_top.name AS top_team,
   m.top_score,
   ----
-  c_bottom.full_name AS bottom_full_name,
+  c_bottom.full_name AS bottom_full_name_normalized,
   t_bottom.name AS bottom_team,
   m.bottom_score,
   ----
