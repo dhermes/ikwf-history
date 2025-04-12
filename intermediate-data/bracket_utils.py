@@ -1700,7 +1700,7 @@ def tournament_team_sql(
 def _get_teams_from_tournament(
     project_root: pathlib.Path, tournament_id: int
 ) -> dict[str, int]:
-    database = project_root / "database" / "ikwf.sqlite"
+    database = project_root / "database-v1" / "ikwf.sqlite"
     with sqlite3.connect(database) as connection:
         connection.row_factory = sqlite3.Row
 

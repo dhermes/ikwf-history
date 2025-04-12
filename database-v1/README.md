@@ -1,9 +1,9 @@
 # Database (SQLite)
 
-The final normalized place for data to end up is in the `database/ikwf.sqlite`
-database. This has a schema (in `database/migrations/`) and all data will
-be inserted via SQL scripts. (We may generate some of these scripts via
-e.g. Python scripts that parse data.)
+The final normalized place for data to end up is in the
+`database-v1/ikwf.sqlite` database. This has a schema (in
+`database-v1/migrations/`) and all data will be inserted via SQL scripts. (We
+may generate some of these scripts via e.g. Python scripts that parse data.)
 
 ## Tooling
 
@@ -19,14 +19,14 @@ export PATH="/opt/homebrew/Cellar/sqlite/3.47.0/bin:${PATH}"
 ## Migrations
 
 ```
-cd database/
+cd database-v1/
 ./_refresh.sh
 ```
 
 ## Common helper commands
 
 ```
-$ cd database/
+$ cd database-v1/
 $ sqlite3 ./ikwf.sqlite
 SQLite version 3.47.0 2024-10-21 16:30:22
 Enter ".help" for usage hints.
