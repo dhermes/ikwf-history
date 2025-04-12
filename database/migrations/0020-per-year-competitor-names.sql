@@ -20,6 +20,19 @@ CREATE TABLE tournament_competitor (
   first_name TEXT NOT NULL,
   last_name TEXT NOT NULL,
   suffix TEXT,
+  full_name TEXT GENERATED ALWAYS AS (
+    TRIM(
+      TRIM(first_name) || ' ' || TRIM(last_name)
+    ) ||
+    CASE
+      WHEN suffix IS NOT NULL AND TRIM(suffix) != ''
+      THEN ' ' || TRIM(suffix)
+      ELSE ''
+    END
+  ) STORED,
+  CHECK (
+    (first_name <> '' AND last_name <> '')
+  ),
   UNIQUE(tournament_id, competitor_id)
 );
 

@@ -240,9 +240,11 @@ class BracketJSON(_ForbidExtra):
     match_slot_id: int
     bout_number: int | None
     match_slot: MatchSlot
+    top_full_name: str | None
     top_full_name_normalized: str | None
     top_team: str | None
     top_score: int | None
+    bottom_full_name: str | None
     bottom_full_name_normalized: str | None
     bottom_team: str | None
     bottom_score: int | None
