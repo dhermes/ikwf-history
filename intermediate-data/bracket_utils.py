@@ -484,9 +484,31 @@ def _normalize_team_name(team: str, seen_teams: set[str]) -> str:
     raise RuntimeError("Unexpected number of repeats for team name", team)
 
 
+def reverse_acronym_map(
+    team_acronym_mapping: dict[str, str],
+    division_team_acronym_mapping: dict[str, str],
+) -> dict[str, str]:
+    result: dict[str, str] = {}
+
+    for acronym, team_name in division_team_acronym_mapping.items():
+        if team_name in result:
+            raise KeyError("Duplicate", team_name, acronym, result[team_name])
+
+        result[team_name] = acronym
+
+    for acronym, team_name in team_acronym_mapping.items():
+        if team_name in result:
+            raise KeyError("Duplicate", team_name, acronym, result[team_name])
+
+        result[team_name] = acronym
+
+    return result
+
+
 def parse_team_scores(
     root: pathlib.Path,
     division: Division,
+    reverse_acronym: dict[str, str],
     team_score_exceptions: dict[tuple[Division, str], float],
 ) -> list[TeamScore]:
     with open(root / division / "team-scores.html") as file_obj:
@@ -529,7 +551,8 @@ def parse_team_scores(
         score = team_score_exceptions.get(exception_key, score)
 
         team = _normalize_team_name(team, seen_teams)
-        result.append(TeamScore(team=team, score=score))
+        acronym = reverse_acronym.get(team)
+        result.append(TeamScore(team=team, acronym=acronym, score=score))
 
     return result
 
@@ -1176,7 +1199,7 @@ def validate_acronym_mapping_names(
         )
 
 
-def validate_acronym_mappings_divisons(
+def validate_acronym_mappings_divisions(
     weight_classes: list[WeightClass],
     team_acronym_mapping: dict[str, str],
     novice_team_acronym_mapping: dict[str, str],

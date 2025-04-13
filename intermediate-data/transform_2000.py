@@ -357,7 +357,7 @@ def main():
     if unclassified:
         raise ValueError("Some teams are unclassified", unclassified)
 
-    bracket_utils.validate_acronym_mappings_divisons(
+    bracket_utils.validate_acronym_mappings_divisions(
         weight_classes,
         TEAM_ACRONYM_MAPPING,
         NOVICE_TEAM_ACRONYM_MAPPING,
