@@ -6,7 +6,7 @@ import pydantic
 
 
 class _ForbidExtra(pydantic.BaseModel):
-    pass
+    model_config = pydantic.ConfigDict(extra="forbid")
 
 
 MatchSlot = Literal[
@@ -95,6 +95,7 @@ ResultType = Literal[
 
 
 class Competitor(_ForbidExtra):
+    full_name: str
     first_name: str
     last_name: str
     suffix: str | None
@@ -119,7 +120,7 @@ class WeightClass(_ForbidExtra):
 
 class TeamScore(_ForbidExtra):
     team: str
-    acronym: str | None = pydantic.Field(default=None)
+    acronym: str | None
     score: float
 
 
