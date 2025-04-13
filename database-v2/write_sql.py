@@ -2,6 +2,8 @@
 
 import pathlib
 
+import pydantic
+
 import bracket_utils
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -36,12 +38,36 @@ FILENAMES_BY_YEAR: dict[int, tuple[str, ...]] = {
 }
 
 
+class _ForbidExtra(pydantic.BaseModel):
+    model_config = pydantic.ConfigDict(extra="forbid")
+
+
+class TeamRow(_ForbidExtra):
+    id_: int = pydantic.Field(alias="id")
+    name_normalized: str
+
+
+class Inserts(_ForbidExtra):
+    team_rows: list[TeamRow]
+
+
+def _handle_tournament(
+    year: int, extracted: bracket_utils.ExtractedTournament
+) -> Inserts:
+    # 1. `TeamRow` (allow duplicates across year and division)
+    team_rows: list[TeamRow] = []
+
+    return Inserts(team_rows=team_rows)
+
+
 def _handle_year(extracted_dir: pathlib.Path, year: int, filenames: tuple[str, ...]):
     for filename in filenames:
         with open(extracted_dir / filename) as file_obj:
             extracted = bracket_utils.ExtractedTournament.model_validate_json(
                 file_obj.read()
             )
+
+        _handle_tournament(year, extracted)
 
         with open(extracted_dir / filename, "w") as file_obj:
             file_obj.write(extracted.model_dump_json(indent=2))

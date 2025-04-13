@@ -41,6 +41,18 @@ CREATE TABLE wrestleback_type (
 
 --------------------------------------------------------------------------------
 
+CREATE TABLE tournament (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  year INTEGER NOT NULL,
+  name TEXT NOT NULL,
+  location TEXT NOT NULL,
+  start_date DATE NOT NULL,
+  end_date DATE NOT NULL,
+  wrestleback_type TEXT NOT NULL REFERENCES wrestleback_type(key)
+);
+
+--------------------------------------------------------------------------------
+
 -- NOTE: A `team` is the singular record for a club to be used across time. The
 --       name is `name_normalized` because team / club names were often
 --       recorded differently from year to year. For example:
@@ -57,18 +69,6 @@ CREATE TABLE wrestleback_type (
 CREATE TABLE team (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name_normalized TEXT NOT NULL
-);
-
---------------------------------------------------------------------------------
-
-CREATE TABLE tournament (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  year INTEGER NOT NULL,
-  name TEXT NOT NULL,
-  location TEXT NOT NULL,
-  start_date DATE NOT NULL,
-  end_date DATE NOT NULL,
-  wrestleback_type TEXT NOT NULL REFERENCES wrestleback_type(key)
 );
 
 --------------------------------------------------------------------------------
