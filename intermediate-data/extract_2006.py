@@ -5,6 +5,7 @@ import pathlib
 import bs4
 
 import bracket_utils
+import transform_2006 as transform_this_year
 
 HERE = pathlib.Path(__file__).resolve().parent
 EMPTY_SLOT = "                               "
@@ -659,14 +660,24 @@ def main():
             )
         )
 
+    novice_reverse_acronym = bracket_utils.reverse_acronym_map(
+        transform_this_year.TEAM_ACRONYM_MAPPING,
+        transform_this_year.NOVICE_TEAM_ACRONYM_MAPPING,
+    )
+    senior_reverse_acronym = bracket_utils.reverse_acronym_map(
+        transform_this_year.TEAM_ACRONYM_MAPPING,
+        transform_this_year.SENIOR_TEAM_ACRONYM_MAPPING,
+    )
+    year_str = "2006"
     team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {
         "novice": bracket_utils.parse_team_scores(
-            HERE / "2006", "novice", TEAM_SCORE_EXCEPTIONS
+            HERE / year_str, "novice", novice_reverse_acronym, TEAM_SCORE_EXCEPTIONS
         ),
         "senior": bracket_utils.parse_team_scores(
-            HERE / "2006", "senior", TEAM_SCORE_EXCEPTIONS
+            HERE / year_str, "senior", senior_reverse_acronym, TEAM_SCORE_EXCEPTIONS
         ),
     }
+
     extracted_tournament = bracket_utils.ExtractedTournament(
         weight_classes=parsed, team_scores=team_scores, deductions=[]
     )
