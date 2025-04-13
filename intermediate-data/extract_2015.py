@@ -15,24 +15,28 @@ _NAME_FIXES: dict[str, str] = {
 }
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("Garrett St. Clair", "Force Wrestling Club"): bracket_utils.Competitor(
+        full_name="",
         first_name="Garrett",
         last_name="St. Clair",
         suffix=None,
         team="Force Wrestling Club",
     ),
     ("Jay Cee Randolph-Gonzalez", "Izzy Style Wrestling"): bracket_utils.Competitor(
+        full_name="",
         first_name="Jay Cee",
         last_name="Randolph-Gonzalez",
         suffix=None,
         team="Izzy Style Wrestling",
     ),
     ("John Paul Smith", "The Wrestling Factory"): bracket_utils.Competitor(
+        full_name="",
         first_name="John Paul",
         last_name="Smith",
         suffix=None,
         team="The Wrestling Factory",
     ),
     ("Mustafa St. Clair", "Harvey Twisters WC"): bracket_utils.Competitor(
+        full_name="",
         first_name="Mustafa",
         last_name="St. Clair",
         suffix=None,

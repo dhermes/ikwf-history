@@ -11,55 +11,102 @@ HERE = pathlib.Path(__file__).resolve().parent
 EMPTY_SLOT = "                               "
 NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("ANTHONY RICH JR", "LPC"): bracket_utils.Competitor(
+        full_name="ANTHONY RICH JR",
         first_name="ANTHONY",
         last_name="RICH",
         suffix="JR",
         team="LPC",
     ),
     ("BJ FUTRELL II", "HAE"): bracket_utils.Competitor(
+        full_name="BJ FUTRELL II",
         first_name="BJ",
         last_name="FUTRELL",
         suffix="II",
         team="HAE",
     ),
     ("CARL FORESIDE, JR.", "GLA"): bracket_utils.Competitor(
+        full_name="CARL FORESIDE, JR.",
         first_name="CARL",
         last_name="FORESIDE",
         suffix="JR",
         team="GLA",
     ),
     ("CASEY MC MURRAY", "LIO"): bracket_utils.Competitor(
-        first_name="CASEY", last_name="MC MURRAY", suffix=None, team="LIO"
+        full_name="CASEY MC MURRAY",
+        first_name="CASEY",
+        last_name="MC MURRAY",
+        suffix=None,
+        team="LIO",
     ),
     ("DWIGHT MC CALL", "ROK"): bracket_utils.Competitor(
-        first_name="DWIGHT", last_name="MC CALL", suffix=None, team="ROK"
+        full_name="DWIGHT MC CALL",
+        first_name="DWIGHT",
+        last_name="MC CALL",
+        suffix=None,
+        team="ROK",
     ),
     ("GINO DE FRANCISCO", "HOF"): bracket_utils.Competitor(
-        first_name="GINO", last_name="DE FRANCISCO", suffix=None, team="HOF"
+        full_name="GINO DE FRANCISCO",
+        first_name="GINO",
+        last_name="DE FRANCISCO",
+        suffix=None,
+        team="HOF",
     ),
     ("JAMES VAN SOMEREN", "WHF"): bracket_utils.Competitor(
-        first_name="JAMES", last_name="VAN SOMEREN", suffix=None, team="WHF"
+        full_name="JAMES VAN SOMEREN",
+        first_name="JAMES",
+        last_name="VAN SOMEREN",
+        suffix=None,
+        team="WHF",
     ),
     ("JOSHUA VAN BEHREN", "UNI"): bracket_utils.Competitor(
-        first_name="JOSHUA", last_name="VAN BEHREN", suffix=None, team="UNI"
+        full_name="JOSHUA VAN BEHREN",
+        first_name="JOSHUA",
+        last_name="VAN BEHREN",
+        suffix=None,
+        team="UNI",
     ),
     ("MARCUS MC CALL", "ROK"): bracket_utils.Competitor(
-        first_name="MARCUS", last_name="MC CALL", suffix=None, team="ROK"
+        full_name="MARCUS MC CALL",
+        first_name="MARCUS",
+        last_name="MC CALL",
+        suffix=None,
+        team="ROK",
     ),
     ("MICHAEL MATOZZI, JR.", "OSW"): bracket_utils.Competitor(
-        first_name="MICHAEL", last_name="MATOZZI", suffix="JR", team="OSW"
+        full_name="MICHAEL MATOZZI, JR.",
+        first_name="MICHAEL",
+        last_name="MATOZZI",
+        suffix="JR",
+        team="OSW",
     ),
     ("REGINALD WILSON JR", "FOR"): bracket_utils.Competitor(
-        first_name="REGINALD", last_name="WILSON", suffix="JR", team="FOR"
+        full_name="REGINALD WILSON JR",
+        first_name="REGINALD",
+        last_name="WILSON",
+        suffix="JR",
+        team="FOR",
     ),
     ("ROBERT PROVAX III", "NOT"): bracket_utils.Competitor(
-        first_name="ROBERT", last_name="PROVAX", suffix="III", team="NOT"
+        full_name="ROBERT PROVAX III",
+        first_name="ROBERT",
+        last_name="PROVAX",
+        suffix="III",
+        team="NOT",
     ),
     ("RONALD REEVES JR", "TRI"): bracket_utils.Competitor(
-        first_name="RONALD", last_name="REEVES", suffix="JR", team="TRI"
+        full_name="RONALD REEVES JR",
+        first_name="RONALD",
+        last_name="REEVES",
+        suffix="JR",
+        team="TRI",
     ),
     ("T. J. WARNER", "HOO"): bracket_utils.Competitor(
-        first_name="T. J.", last_name="WARNER", suffix=None, team="HOO"
+        full_name="T. J. WARNER",
+        first_name="T. J.",
+        last_name="WARNER",
+        suffix=None,
+        team="HOO",
     ),
 }
 TEAM_SCORE_EXCEPTIONS: dict[tuple[bracket_utils.Division, str], float] = {}

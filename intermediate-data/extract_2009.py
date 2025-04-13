@@ -18,52 +18,70 @@ _NAME_FIXES: dict[str, str] = {
 }
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("Carl Witt, Iii", "TOMCAT WC"): bracket_utils.Competitor(
-        first_name="Carl", last_name="Witt", suffix="III", team="TOMCAT WC"
+        full_name="",
+        first_name="Carl",
+        last_name="Witt",
+        suffix="III",
+        team="TOMCAT WC",
     ),
     (
         "Floyd Lomelino Iv",
         "JACKSONVILLE AREA YOUTH WRESTLING",
     ): bracket_utils.Competitor(
+        full_name="",
         first_name="Floyd",
         last_name="Lomelino",
         suffix="IV",
         team="JACKSONVILLE AREA YOUTH WRESTLING",
     ),
     ("James Zeigler Jr.", "EDWARDSVILLE WC"): bracket_utils.Competitor(
+        full_name="",
         first_name="James",
         last_name="Zeigler",
         suffix="Jr",
         team="EDWARDSVILLE WC",
     ),
     ("Larry Thomas Jr", "IRON MAN"): bracket_utils.Competitor(
-        first_name="Larry", last_name="Thomas", suffix="Jr", team="IRON MAN"
+        full_name="",
+        first_name="Larry",
+        last_name="Thomas",
+        suffix="Jr",
+        team="IRON MAN",
     ),
     ("Lonnie Cleveland Iii", "UNITED SOUTHERN ALLSTARS"): bracket_utils.Competitor(
+        full_name="",
         first_name="Lonnie",
         last_name="Cleveland",
         suffix="III",
         team="UNITED SOUTHERN ALLSTARS",
     ),
     ("Michael Johnson Jr", "DOWNERS GROVE COUGARS"): bracket_utils.Competitor(
+        full_name="",
         first_name="Michael",
         last_name="Johnson",
         suffix="Jr",
         team="DOWNERS GROVE COUGARS",
     ),
     ("Miguel Silva Jr", "MARTINEZ FOX VALLEY ELITE"): bracket_utils.Competitor(
+        full_name="",
         first_name="Miguel",
         last_name="Silva",
         suffix="Jr",
         team="MARTINEZ FOX VALLEY ELITE",
     ),
     ("Ronald Shafer Iii", "GRANITE CITY WC"): bracket_utils.Competitor(
+        full_name="",
         first_name="Ronald",
         last_name="Shafer",
         suffix="III",
         team="GRANITE CITY WC",
     ),
     ("Shavez Hawkins Jr", "CROSSTOWN WC"): bracket_utils.Competitor(
-        first_name="Shavez", last_name="Hawkins", suffix="Jr", team="CROSSTOWN WC"
+        full_name="",
+        first_name="Shavez",
+        last_name="Hawkins",
+        suffix="Jr",
+        team="CROSSTOWN WC",
     ),
 }
 _TEAM_FIXES: dict[str, tuple[str, str]] = {}

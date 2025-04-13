@@ -18,69 +18,91 @@ _NAME_FIXES: dict[str, str] = {
 }
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("Tyrone Sally Jr.", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
+        full_name="Tyrone Sally Jr.",
         first_name="Tyrone",
         last_name="Sally",
         suffix="Jr",
         team="Harvey Park Dist Twisters",
     ),
     ("Wardell Rosemon Jr.", "Dundee Highlanders"): bracket_utils.Competitor(
+        full_name="Wardell Rosemon Jr.",
         first_name="Wardell",
         last_name="Rosemon",
         suffix="Jr",
         team="Dundee Highlanders",
     ),
     ("Archie Williams Jr.", "Champaign Kids Wrestling"): bracket_utils.Competitor(
+        full_name="Archie Williams Jr.",
         first_name="Archie",
         last_name="Williams",
         suffix="Jr",
         team="Champaign Kids Wrestling",
     ),
     ("Anthony Ferraris Jr", "Maine Eagles WC"): bracket_utils.Competitor(
-        first_name="Anthony", last_name="Ferraris", suffix="Jr", team="Maine Eagles WC"
+        full_name="Anthony Ferraris Jr",
+        first_name="Anthony",
+        last_name="Ferraris",
+        suffix="Jr",
+        team="Maine Eagles WC",
     ),
     ("Lusiano Cantu Jr.", "Gomez Wrestling Academy"): bracket_utils.Competitor(
+        full_name="Lusiano Cantu Jr.",
         first_name="Lusiano",
         last_name="Cantu",
         suffix="Jr",
         team="Gomez Wrestling Academy",
     ),
     ("Antwyone Brown Jr.", "Crosstown WC"): bracket_utils.Competitor(
-        first_name="Antwyone", last_name="Brown", suffix="Jr", team="Crosstown WC"
+        full_name="Antwyone Brown Jr.",
+        first_name="Antwyone",
+        last_name="Brown",
+        suffix="Jr",
+        team="Crosstown WC",
     ),
     ("Brendan Tyler Hall", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
+        full_name="Brendan Tyler Hall",
         first_name="Brendan Tyler",
         last_name="Hall",
         suffix=None,
         team="Harvey Park Dist Twisters",
     ),
     ("Lonne Cleveland III", "GC Jr Warriors"): bracket_utils.Competitor(
+        full_name="Lonne Cleveland III",
         first_name="Lonne",
         last_name="Cleveland",
         suffix="III",
         team="GC Jr Warriors",
     ),
     ("Aaron Brewton II", "Waukegan Youth WC"): bracket_utils.Competitor(
-        first_name="Aaron", last_name="Brewton", suffix="II", team="Waukegan Youth WC"
+        full_name="Aaron Brewton II",
+        first_name="Aaron",
+        last_name="Brewton",
+        suffix="II",
+        team="Waukegan Youth WC",
     ),
     ("Malik - Jabri Taylor", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
+        full_name="Malik - Jabri Taylor",
         first_name="Malik - Jabri",
         last_name="Taylor",
         suffix=None,
         team="Harvey Park Dist Twisters",
     ),
     ("Michael Aldrich Jr", "Peoria Razorbacks Youth WC"): bracket_utils.Competitor(
+        full_name="Michael Aldrich Jr",
         first_name="Michael",
         last_name="Aldrich",
         suffix="Jr",
         team="Peoria Razorbacks Youth WC",
     ),
     ("Ross Ferraro III", "Gomez Wrestling Academy"): bracket_utils.Competitor(
+        full_name="Ross Ferraro III",
         first_name="Ross",
         last_name="Ferraro",
         suffix="III",
         team="Gomez Wrestling Academy",
     ),
     ("Alvin Foster III", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
+        full_name="Alvin Foster III",
         first_name="Alvin",
         last_name="Foster",
         suffix="III",

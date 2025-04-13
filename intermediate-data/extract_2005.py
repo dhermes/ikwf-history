@@ -11,25 +11,53 @@ HERE = pathlib.Path(__file__).resolve().parent
 EMPTY_SLOT = "                               "
 NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("ALVIN FOSTER III", "HTW"): bracket_utils.Competitor(
-        first_name="ALVIN", last_name="FOSTER", suffix="III", team="HTW"
+        full_name="ALVIN FOSTER III",
+        first_name="ALVIN",
+        last_name="FOSTER",
+        suffix="III",
+        team="HTW",
     ),
     ("ANTWYONE BROWN JR.", "RRT"): bracket_utils.Competitor(
-        first_name="ANTWYONE", last_name="BROWN", suffix="JR", team="RRT"
+        full_name="ANTWYONE BROWN JR.",
+        first_name="ANTWYONE",
+        last_name="BROWN",
+        suffix="JR",
+        team="RRT",
     ),
     ("CARL FORESIDE JR.", "GLA"): bracket_utils.Competitor(
-        first_name="CARL", last_name="FORESIDE", suffix="JR", team="GLA"
+        full_name="CARL FORESIDE JR.",
+        first_name="CARL",
+        last_name="FORESIDE",
+        suffix="JR",
+        team="GLA",
     ),
     ("CURTIS CRIMS JR.", "CTC"): bracket_utils.Competitor(
-        first_name="CURTIS", last_name="CRIMS", suffix="JR", team="CTC"
+        full_name="CURTIS CRIMS JR.",
+        first_name="CURTIS",
+        last_name="CRIMS",
+        suffix="JR",
+        team="CTC",
     ),
     ("J. ALEXANDER GONZALEZ", "AJW"): bracket_utils.Competitor(
-        first_name="J. ALEXANDER", last_name="GONZALEZ", suffix=None, team="AJW"
+        full_name="J. ALEXANDER GONZALEZ",
+        first_name="J. ALEXANDER",
+        last_name="GONZALEZ",
+        suffix=None,
+        team="AJW",
     ),
     ("MALIK - JABRI TAYLOR", "HTW"): bracket_utils.Competitor(
-        first_name="MALIK - JABRI", last_name="TAYLOR", suffix=None, team="HTW"
+        full_name="MALIK - JABRI TAYLOR",
+        first_name="MALIK - JABRI",
+        last_name="TAYLOR",
+        suffix=None,
+        team="HTW",
     ),
     ("TYRONE  SALLY JR.", "PRP"): bracket_utils.Competitor(
-        first_name="TYRONE", last_name="SALLY", suffix="JR", team="PRP"
+        full_name="TYRONE  SALLY JR.",
+        first_name="TYRONE",
+        last_name="SALLY",
+        suffix="JR",
+        team="PRP",
     ),
 }
 TEAM_SCORE_EXCEPTIONS: dict[tuple[bracket_utils.Division, str], float] = {}

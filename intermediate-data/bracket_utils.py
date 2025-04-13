@@ -39,10 +39,12 @@ class CompetitorTuple(NamedTuple):
 
 
 class Competitor(pydantic.BaseModel):
+    full_name: str
     first_name: str
     last_name: str
     suffix: str | None
     team: str
+    # TODO: team_acronym / team_full
 
     @property
     def as_tuple(self) -> CompetitorTuple:
@@ -276,13 +278,16 @@ def competitor_from_raw(
 
     exception_key = value.name, value.team
     if exception_key in name_exceptions:
-        return name_exceptions[exception_key]
+        competitor = name_exceptions[exception_key]
+        competitor.full_name = value.name
+        return competitor
 
     parts = value.name.split()
     if len(parts) != 2:
         raise RuntimeError(value.name, value.team)
 
     return Competitor(
+        full_name=value.name,
         first_name=parts[0],
         last_name=parts[1],
         suffix=None,

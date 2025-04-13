@@ -11,45 +11,97 @@ HERE = pathlib.Path(__file__).resolve().parent
 EMPTY_SLOT = "                               "
 NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("ANTHONY DEGANI JR", "CRY"): bracket_utils.Competitor(
-        first_name="ANTHONY", last_name="DEGANI", suffix="JR", team="CRY"
+        full_name="ANTHONY DEGANI JR",
+        first_name="ANTHONY",
+        last_name="DEGANI",
+        suffix="JR",
+        team="CRY",
     ),
     ("ANTHONY RICH JR.", "LPC"): bracket_utils.Competitor(
-        first_name="ANTHONY", last_name="RICH", suffix="JR", team="LPC"
+        full_name="ANTHONY RICH JR.",
+        first_name="ANTHONY",
+        last_name="RICH",
+        suffix="JR",
+        team="LPC",
     ),
     # NOTE: This also fixes a typo in BJ's name (BENARD -> BERNARD)
     ("BENARD FUTRELL II", "HAE"): bracket_utils.Competitor(
-        first_name="BERNARD", last_name="FUTRELL", suffix="II", team="HAE"
+        full_name="BENARD FUTRELL II",
+        first_name="BERNARD",
+        last_name="FUTRELL",
+        suffix="II",
+        team="HAE",
     ),
     ("CARL FORESIDE JR", "GLA"): bracket_utils.Competitor(
-        first_name="CARL", last_name="FORESIDE", suffix="JR", team="GLA"
+        full_name="CARL FORESIDE JR",
+        first_name="CARL",
+        last_name="FORESIDE",
+        suffix="JR",
+        team="GLA",
     ),
     # NOTE: This assumes LL was lowercase ll, which resembles capitalized II
     ("DARREN MILLER  LL", "OPR"): bracket_utils.Competitor(
-        first_name="DARREN", last_name="MILLER", suffix="II", team="OPR"
+        full_name="DARREN MILLER  LL",
+        first_name="DARREN",
+        last_name="MILLER",
+        suffix="II",
+        team="OPR",
     ),
     ("FRANK III BOLTON", "HAE"): bracket_utils.Competitor(
-        first_name="FRANK", last_name="BOLTON", suffix="III", team="HAE"
+        full_name="FRANK III BOLTON",
+        first_name="FRANK",
+        last_name="BOLTON",
+        suffix="III",
+        team="HAE",
     ),
     ("HARRY STARKS III", "HAE"): bracket_utils.Competitor(
-        first_name="HARRY", last_name="STARKS", suffix="III", team="HAE"
+        full_name="HARRY STARKS III",
+        first_name="HARRY",
+        last_name="STARKS",
+        suffix="III",
+        team="HAE",
     ),
     ("JAMES VAN SOMEREN", "WHF"): bracket_utils.Competitor(
-        first_name="JAMES", last_name="VAN SOMEREN", suffix=None, team="WHF"
+        full_name="JAMES VAN SOMEREN",
+        first_name="JAMES",
+        last_name="VAN SOMEREN",
+        suffix=None,
+        team="WHF",
     ),
     ("JERRY BEMIS III", "OAL"): bracket_utils.Competitor(
-        first_name="JERRY", last_name="BEMIS", suffix="III", team="OAL"
+        full_name="JERRY BEMIS III",
+        first_name="JERRY",
+        last_name="BEMIS",
+        suffix="III",
+        team="OAL",
     ),
     ("JOSHUA VAN BEHREN", "UNI"): bracket_utils.Competitor(
-        first_name="JOSHUA", last_name="VAN BEHREN", suffix=None, team="UNI"
+        full_name="JOSHUA VAN BEHREN",
+        first_name="JOSHUA",
+        last_name="VAN BEHREN",
+        suffix=None,
+        team="UNI",
     ),
     ("MARCUS MC CALL", "ROK"): bracket_utils.Competitor(
-        first_name="MARCUS", last_name="MC CALL", suffix=None, team="ROK"
+        full_name="MARCUS MC CALL",
+        first_name="MARCUS",
+        last_name="MC CALL",
+        suffix=None,
+        team="ROK",
     ),
     ("NATHAN ST. CLAIR", "HIN"): bracket_utils.Competitor(
-        first_name="NATHAN", last_name="ST. CLAIR", suffix=None, team="HIN"
+        full_name="NATHAN ST. CLAIR",
+        first_name="NATHAN",
+        last_name="ST. CLAIR",
+        suffix=None,
+        team="HIN",
     ),
     ("TOM REEDY JR", "MOL"): bracket_utils.Competitor(
-        first_name="TOM", last_name="REEDY", suffix="JR", team="MOL"
+        full_name="TOM REEDY JR",
+        first_name="TOM",
+        last_name="REEDY",
+        suffix="JR",
+        team="MOL",
     ),
 }
 TEAM_SCORE_EXCEPTIONS: dict[tuple[bracket_utils.Division, str], float] = {}

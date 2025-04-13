@@ -17,6 +17,7 @@ _NAME_FIXES: dict[str, str] = {
 }
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("Aaron Griffin Jr", "Harvey Twisters WC"): bracket_utils.Competitor(
+        full_name="",
         first_name="Aaron",
         last_name="Griffin",
         suffix="Jr",
@@ -26,57 +27,80 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         "Arkail Griffin Edwards",
         "Beat the Streets Chicago-Midway",
     ): bracket_utils.Competitor(
+        full_name="",
         first_name="Arkail",
         last_name="Griffin Edwards",
         suffix=None,
         team="Beat the Streets Chicago-Midway",
     ),
     ("Blake Vande Loo", "Batavia WC"): bracket_utils.Competitor(
-        first_name="Blake", last_name="Vande Loo", suffix=None, team="Batavia WC"
+        full_name="",
+        first_name="Blake",
+        last_name="Vande Loo",
+        suffix=None,
+        team="Batavia WC",
     ),
     (
         "Carl Cody Weidner",
         "Combative Sports Athletic Center Wrestling",
     ): bracket_utils.Competitor(
+        full_name="",
         first_name="Carl Cody",
         last_name="Weidner",
         suffix=None,
         team="Combative Sports Athletic Center Wrestling",
     ),
     ("Eddie Woody Jr.", "Edwardsville WC"): bracket_utils.Competitor(
-        first_name="Eddie", last_name="Woody", suffix="Jr", team="Edwardsville WC"
+        full_name="",
+        first_name="Eddie",
+        last_name="Woody",
+        suffix="Jr",
+        team="Edwardsville WC",
     ),
     ("Gabriel Travis Jr", "Will County Warriors WC"): bracket_utils.Competitor(
+        full_name="",
         first_name="Gabriel",
         last_name="Travis",
         suffix="Jr",
         team="Will County Warriors WC",
     ),
     ("Jeremy Powell Jr", "Harvey Twisters WC"): bracket_utils.Competitor(
-        first_name="Jeremy", last_name="Powell", suffix="Jr", team="Harvey Twisters WC"
+        full_name="",
+        first_name="Jeremy",
+        last_name="Powell",
+        suffix="Jr",
+        team="Harvey Twisters WC",
     ),
     ("Logan Van Vlymen", "Macomb Little Bombers Wrestling"): bracket_utils.Competitor(
+        full_name="",
         first_name="Logan",
         last_name="Van Vlymen",
         suffix=None,
         team="Macomb Little Bombers Wrestling",
     ),
     ("Pedro Alberto Rangel", "Storm Youth WC"): bracket_utils.Competitor(
+        full_name="",
         first_name="Pedro Alberto",
         last_name="Rangel",
         suffix=None,
         team="Storm Youth WC",
     ),
     ("Saul Pulido III", "Izzy Style Wrestling"): bracket_utils.Competitor(
-        first_name="Saul", last_name="Pulido", suffix="III", team="Izzy Style Wrestling"
+        full_name="",
+        first_name="Saul",
+        last_name="Pulido",
+        suffix="III",
+        team="Izzy Style Wrestling",
     ),
     ("Travis Hinton Jr", "Toss Em Up Wrestling Academy"): bracket_utils.Competitor(
+        full_name="",
         first_name="Travis",
         last_name="Hinton",
         suffix="Jr",
         team="Toss Em Up Wrestling Academy",
     ),
     ("Travis Kinkead Jr.", "Blue Line Training Academy"): bracket_utils.Competitor(
+        full_name="",
         first_name="Travis",
         last_name="Kinkead",
         suffix="Jr",

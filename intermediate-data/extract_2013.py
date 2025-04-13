@@ -18,30 +18,49 @@ _NAME_FIXES: dict[str, str] = {
 }
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("Bryant Van Zuiden", "Riverbend WC"): bracket_utils.Competitor(
-        first_name="Bryant", last_name="Van Zuiden", suffix=None, team="Riverbend WC"
+        full_name="",
+        first_name="Bryant",
+        last_name="Van Zuiden",
+        suffix=None,
+        team="Riverbend WC",
     ),
     ("Garrett St. Clair", "Force WC"): bracket_utils.Competitor(
-        first_name="Garrett", last_name="St. Clair", suffix=None, team="Force WC"
+        full_name="",
+        first_name="Garrett",
+        last_name="St. Clair",
+        suffix=None,
+        team="Force WC",
     ),
     ("Jared Van Vleet", "Stillman Valley WC"): bracket_utils.Competitor(
+        full_name="",
         first_name="Jared",
         last_name="Van Vleet",
         suffix=None,
         team="Stillman Valley WC",
     ),
     ("John Paul Smith", "Bison WC"): bracket_utils.Competitor(
-        first_name="John Paul", last_name="Smith", suffix=None, team="Bison WC"
+        full_name="",
+        first_name="John Paul",
+        last_name="Smith",
+        suffix=None,
+        team="Bison WC",
     ),
     ("Lane Eric Reed", "A-J Jr. Wildcat Wrestling"): bracket_utils.Competitor(
+        full_name="",
         first_name="Lane Eric",
         last_name="Reed",
         suffix=None,
         team="A-J Jr. Wildcat Wrestling",
     ),
     ("Lucas Van Poucke", "Force WC"): bracket_utils.Competitor(
-        first_name="Lucas", last_name="Van Poucke", suffix=None, team="Force WC"
+        full_name="",
+        first_name="Lucas",
+        last_name="Van Poucke",
+        suffix=None,
+        team="Force WC",
     ),
     ("Ronald Tucker Jr", "Bolingbrook Junior Raiders"): bracket_utils.Competitor(
+        full_name="",
         first_name="Ronald",
         last_name="Tucker",
         suffix="Jr",

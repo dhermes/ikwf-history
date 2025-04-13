@@ -11,25 +11,53 @@ HERE = pathlib.Path(__file__).resolve().parent
 EMPTY_SLOT = "                               "
 NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("BEN STUCKEY III", "MTV"): bracket_utils.Competitor(
-        first_name="BEN", last_name="STUCKEY", suffix="III", team="MTV"
+        full_name="BEN STUCKEY III",
+        first_name="BEN",
+        last_name="STUCKEY",
+        suffix="III",
+        team="MTV",
     ),
     ("BILLY BYRD IV", "SYC"): bracket_utils.Competitor(
-        first_name="BILLY", last_name="BYRD", suffix="IV", team="SYC"
+        full_name="BILLY BYRD IV",
+        first_name="BILLY",
+        last_name="BYRD",
+        suffix="IV",
+        team="SYC",
     ),
     ("BJ FUTRELL II", "HAE"): bracket_utils.Competitor(
-        first_name="BJ", last_name="FUTRELL", suffix="II", team="HAE"
+        full_name="BJ FUTRELL II",
+        first_name="BJ",
+        last_name="FUTRELL",
+        suffix="II",
+        team="HAE",
     ),
     ("CURTIS CRIMS JR.", "BLZ"): bracket_utils.Competitor(
-        first_name="CURTIS", last_name="CRIMS", suffix="JR", team="BLZ"
+        full_name="CURTIS CRIMS JR.",
+        first_name="CURTIS",
+        last_name="CRIMS",
+        suffix="JR",
+        team="BLZ",
     ),
     ("EDDIE LANCE III", "GRA"): bracket_utils.Competitor(
-        first_name="EDDIE", last_name="LANCE", suffix="III", team="GRA"
+        full_name="EDDIE LANCE III",
+        first_name="EDDIE",
+        last_name="LANCE",
+        suffix="III",
+        team="GRA",
     ),
     ("GEORGE CANALES IV", "STR"): bracket_utils.Competitor(
-        first_name="GEORGE", last_name="CANALES", suffix="IV", team="STR"
+        full_name="GEORGE CANALES IV",
+        first_name="GEORGE",
+        last_name="CANALES",
+        suffix="IV",
+        team="STR",
     ),
     ("NICKBRAMHALL", "EDW"): bracket_utils.Competitor(
-        first_name="NICK", last_name="BRAMHALL", suffix=None, team="EDW"
+        full_name="NICKBRAMHALL",
+        first_name="NICK",
+        last_name="BRAMHALL",
+        suffix=None,
+        team="EDW",
     ),
 }
 TEAM_SCORE_EXCEPTIONS: dict[tuple[bracket_utils.Division, str], float] = {}
