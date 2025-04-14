@@ -5,7 +5,6 @@ import pathlib
 import bs4
 
 import bracket_utils
-import transform_2006 as transform_this_year
 
 HERE = pathlib.Path(__file__).resolve().parent
 EMPTY_SLOT = "                               "
@@ -102,6 +101,199 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ),
 }
 TEAM_SCORE_EXCEPTIONS: dict[tuple[bracket_utils.Division, str], float] = {}
+TEAM_ACRONYM_MAPPING: dict[str, str] = {
+    "ACE": "ACES WC",  # Absent from Senior team scores
+    "ARL": "ARLINGTON CARDINALS",
+    "BB": "BETHALTO BULLS WC",
+    "BEN": "BENTON JR WC",
+    "BHK": "BLACKHAWK WC",
+    "BIS": "BISON WC",
+    "BLD": "BELLEVILLE LITTLE DEVILS",
+    "CARY": "CARY JR TROJAN MATMEN",
+    "CKW": "CHAMPAIGN KIDS WRESTLING",
+    "CLW": "CRYSTAL LAKE WIZARDS",
+    "CMB": "CUMBERLAND YOUTH WC",
+    "COL": "COLLINSVILLE RAIDERS",
+    "CRB": "CARBONDALE WC",  # Absent from Senior team scores
+    "CRST": "CROSSTOWN CRUSHERS",
+    "DAK": "DAKOTA WC",
+    "DIX": "DIXON WC",
+    "EDW": "EDWARDSVILLE WC",
+    "EFF": "EFFINGHAM JUNIOR WRESTLING TEAM",  # Absent from Senior team scores
+    "ELM": "ELMHURST JR. DUKES",
+    "EPG": "EL PASO/GRIDLEY WC",
+    "ERIE": "ERIE MIDDLE SCHOOL WC",
+    "FEN": "FENWICK FALCONS WC",
+    "FOX": "FOX VALLEY WC",
+    "FTT": "FIGHTIN TITAN WC",
+    "FWC": "FALCON WRESTLING CLUB",
+    "FYW": "FALCON YOUTH WC",  # Absent from Senior team scores
+    "GE": "GOLDEN EAGLES",
+    "GEN": "GENESEO SPIDER WC",
+    "GOM": "GOMEZ WRESTLING ACADEMY",
+    "HON": "HONONEGAH KIDS WC",
+    "HPDT": "HARVEY PARK DIST TWISTERS",
+    "HPLG": "HIGHLAND PARK LITTLE GIANTS",
+    "HPN": "HOOPESTON AREA WC",
+    "HRD": "HINSDALE RED DEVIL WC",
+    "HRL": "HARLEM COUGARS",
+    "HRR": "HERRIN JUNIOR WC",
+    "IMP": "IMPACT WC",
+    "IRN": "IRON MAN",
+    "JJS": "JOLIET JUNIOR STEELMEN",
+    "LAN": "LANCER WC",
+    "LEM": "LEMONT BEARS WC",
+    "LIM": "LIMESTONE YOUTH WC",
+    "LIW": "LIONHEART INTENSE WRESTLING",
+    "LJP": "LOCKPORT JR PORTERS WC",
+    "LKP": "LAKELAND PREDATORS",
+    "LLC": "LITTLE CELTIC WC",
+    "LLF": "LITTLE FALCONS WC",
+    "LLH": "LITTLE HUSKIE WC",
+    "LLRS": "LITTLE REDSKINS WC",
+    "LPC": "L-P CRUNCHING CAVS",
+    "LWW": "LINCOLN-WAY WC",
+    "MCC": "MCLEAN COUNTY WC",  # Absent from Senior team scores
+    "MFV": "MARTINEZ FOX VALLEY ELITE",
+    "MIN": "MINOOKA LITTLE INDIANS",
+    "MLM": "MORTON LITTLE MUSTANGS",
+    "MNE": "MAINE EAGLES WC",
+    "MOL": "MOLINE WC",
+    "MRS": "MORRISON STALLIONS WC",
+    "MTV": "MT. VERNON LIONS",
+    "MTZ": "MT. ZION WC",
+    "MWC": "MIDWEST CENTRAL YOUTH",
+    "MYW": "MORTON YOUTH WRESTLING",
+    "NAP": "NAPERVILLE WC",
+    "NDW": "NOTRE DAME WRESTLING",
+    "OFW": "OAK FOREST WARRIORS",
+    "OKW": "OAKWOOD WC",
+    "OLW": "OAK LAWN P.D. WILDCATS",
+    "OPP": "ORLAND PARK PIONEERS",
+    "OSW": "OSWEGO PANTHERS",  # Absent from Senior team scores
+    "PLNF": "PLAINFIELD WC",
+    "PNP": "PANTHER POWERHOUSE WC",
+    "PON": "PONTIAC PYTHONS",
+    "PRY": "PEORIA RAZORBACKS YOUTH WC",
+    "PVP": "PROVISO POWERHOUSE WC",
+    "RCH": "RICHMOND WRESTLING CLUB",
+    "RKI": "ROCK ISLAND WC",
+    "ROC": "ROCHESTER WC",
+    "ROM": "ROMEOVILLE WC",
+    "RRT": "RICH RATTLERS WC",
+    "RVB": "RIVERBEND WC",
+    "SCN": "SCN YOUTH WC",
+    "SHM": "SHAMROCK WC",
+    "SJO": "SJO SPARTAN YOUTH WC",
+    "SKV": "SAUK VALLEY WRESTLING CLUB",  # Absent from Senior team scores
+    "SLB": "SHELBYVILLE JR RAMS WRESTLING",
+    "SOT": "SONS OF THUNDER",
+    "SYC": "SYCAMORE WC",
+    "TAY": "TAYLORVILLE WC",
+    "TIG": "TIGER WC",
+    "TLK": "TRIAD LITTLE KNIGHTS",
+    "TPB": "TINLEY PARK BULLDOGS",
+    "TRV": "TREVIAN WC",
+    "TTT": "TIGERTOWN TANGLERS",  # Absent from Senior team scores
+    "UNI": "UNITY WC",
+    "VIT": "VITTUM CATS",
+    "VLC": "VILLA LOMBARD COUGARS",
+    "WES": "WESTVILLE YOUTH WC",  # Absent from Senior team scores
+    "WLP": "WOLFPAK WC",
+    "WRF": "WRESTLING FACTORY",
+    "WTG": "WHEATON TIGER WC",
+    "YKV": "YORKVILLE WRESTLING CLUB",
+}
+# NOTE: Sometimes acronyms (or team names) differ between Novice and Senior
+#       in the Team Scores.
+NOVICE_TEAM_ACRONYM_MAPPING: dict[str, str] = {
+    "ABC": "ALEDO BEAR COUNTRY WC",
+    "BAT": "BATAVIA",
+    "BDGR": "BADGER WC",
+    "BELV": "BELVIDERE BANDITS",
+    "BLM": "BLOOMINGTON RAIDER WC",
+    "BRL": "BRAWLERS WC",
+    "CCR": "CHICAGO CRUSADERS",
+    "CENT": "CENTRAL WRESTLING CLUB",
+    "CMW": "CALUMET MEMORIAL PD WOLVERINES",
+    "CWD": "CHICAGO WOLVES DEN",
+    "DEK": "DEKALB WC",
+    "DGC": "DOWNERS GROVE COUGARS",
+    "DUN": "DUNDEE HIGHLANDERS",
+    "FRR": "FAIRMONT ROUGH RIDERS",
+    "GED": "GLEN ELLYN DUNGEON WC",
+    "HBD": "HIGHLAND BULLDOG JR WC",
+    "HILL": "HILLTOPPERS WC",
+    "JRG": "JUNIOR GATORS WC",
+    "LIT": "LITCHFIELD KIDS WRESTLING",
+    "LLRB": "LITTLE REDBIRD WC",
+    "MAT": "MATTOON YOUTH WC",
+    "MET": "METAMORA KIDS WC",
+    "MIY": "MARENGO INDIANS YOUTH WRESTLING",
+    "MLB": "MACOMB LITTLE BOMBERS",
+    "MSK": "M-S KIDS CLUB",
+    "PCCH": "PRAIRIE CENTRAL-CHENOA HAWKS",
+    "QUI": "QUINCY WC",
+    "RDW": "ROAD WARRIORS",
+    "RJR": "RIVERDALE JR. RAMS WC",
+    "SHR": "SHARKS WC",
+    "SPI": "SPIDER WC",
+    "SRN": "STOCKTON RENEGADES",
+    "VAN": "VANDALIA JR WRESTLING",
+    "VER": "VERMILION VALLEY ELITE",
+    "VPYW": "VILLA PARK YOUNG WARRIORS",
+    "WAR": "WARRENSBURG WC",
+    "WAS": "WASHINGTON JR PANTHERS",
+    "WAUK": "WAUKEGAN YOUTH WC",
+    "XTR": "XTREME WRESTLING",
+}
+SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
+    "AGO": "ARGENTA/OREANA KIDS CLUB",
+    "AJP": "ALLEMAN JR PIONEERS",
+    "ANI": "ANIMALS WC",
+    "BAT": "BATAVIA PINNERS",
+    "BMH": "BISMARCK HENNING WRESTLING CLUB",
+    "CHAR": "CHARLESTON WC",  # Absent from Senior team scores
+    "CLD": "CHILLI DAWGS WC",
+    "FISH": "FISHER WC",
+    "GCW": "GC JR WARRIORS",
+    "GEJR": "GLENBARD EAST JR RAMS",
+    "GLD": "GLADIATORS",
+    "GPD": "GRAPPLIN' DEVILS WRESTLING CLUB",
+    "HBG": "HIGHLAND BULLDOG JR WC",
+    "HCX": "HECOX TEAM BENAIAH",
+    "HOF": "HOFFMAN ESTATES WC",
+    "HUR": "HURRICANES",
+    "JRC": "JR. COUGARS WC",
+    "JRV": "JUNIOR VIKINGS",
+    "KNGT": "KNIGHTS WRESTLING",
+    "LION": "LIONS WC",
+    "MDWA": "MAD DOG WRESTLING ACADEMY",
+    "MEN": "MENDOTA WC",  # Absent from Senior team scores
+    "MST": "MUSTANG WC",
+    "MTP": "MT. PULASKI WC",
+    "MUR": "MURPHYSBORO WRESTLING",
+    "OLP": "O'FALLON LITTLE PANTHERS",
+    "PAL": "PALATINE PANTHERS",  # Absent from Senior team scores
+    "PCUB": "PANTHER CUB WRESTLING CLUB",
+    "PNRD": "PANTHER/REDHAWK WC",
+    "POLO": "POLO WC",
+    "RCK": "REED CUSTER KNIGHTS",  # Absent from Senior team scores
+    "REN": "RENEGADES",
+    "RKFD": "ROCKFORD WC",  # Absent from Senior team scores
+    "RRDG": "ROCKRIDGE WC",  # Absent from Senior team scores
+    "SAU": "SAUKEE YOUTH WC",
+    "SCE": "ST. CHARLES EAST WC",
+    "SEN": "SENECA IRISH CADETS",
+    "SIUT": "SOUTHERN ILLINOIS UNITED THUNDER CATS",  # Absent from Senior team scores
+    "SPR": "SPRINGFIELD CAPITAL KIDS WRESTLING",
+    "SV": "STILLMAN VALLEY WC",
+    "TOM": "TOMCAT WC",
+    "TRI": "TRI-VALLEY WC",  # Absent from Senior team scores
+    "TWW": "TEAM WEST WOLVES",
+    "WAUB": "WAUBONSIE WC",  # Absent from Senior team scores
+    "WHT": "WEST HANCOCK WC",  # Absent from Senior team scores
+}
 
 
 def parse_competitor(value: str) -> bracket_utils.CompetitorRaw | None:
@@ -706,12 +898,10 @@ def main():
         )
 
     novice_reverse_acronym = bracket_utils.reverse_acronym_map(
-        transform_this_year.TEAM_ACRONYM_MAPPING,
-        transform_this_year.NOVICE_TEAM_ACRONYM_MAPPING,
+        TEAM_ACRONYM_MAPPING, NOVICE_TEAM_ACRONYM_MAPPING
     )
     senior_reverse_acronym = bracket_utils.reverse_acronym_map(
-        transform_this_year.TEAM_ACRONYM_MAPPING,
-        transform_this_year.SENIOR_TEAM_ACRONYM_MAPPING,
+        TEAM_ACRONYM_MAPPING, SENIOR_TEAM_ACRONYM_MAPPING
     )
     year_str = "2006"
     team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {
