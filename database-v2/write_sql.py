@@ -126,37 +126,25 @@ def _handle_tournament(
     year: int,
     tournament_id: int,
     insert_ids: InsertIDs,
+    inserts: Inserts,
     bracket_id_info: dict[BracketInfoTuple, int],
     extracted: bracket_utils.ExtractedTournament,
-) -> tuple[InsertIDs, Inserts]:
+) -> InsertIDs:
     # 1. `TeamRow` (allow duplicates across year and division)
-    team_rows: list[TeamRow] = []
     # 2. `TournamentTeamRow`
-    tournament_team_rows: list[TournamentTeamRow] = []
     # 3. `TeamPointDeductionRow`
-    team_point_deduction_rows: list[TeamPointDeductionRow] = []
     # 4. `CompetitorRow` (allow duplicates across year)
-    competitor_rows: list[CompetitorRow] = []
     # 5. `TournamentCompetitorRow`
-    tournament_competitor_rows: list[TournamentCompetitorRow] = []
     # 6. `MatchRow`
-    match_rows: list[MatchRow] = []
 
-    inserts = Inserts(
-        team_rows=team_rows,
-        tournament_team_rows=tournament_team_rows,
-        team_point_deduction_rows=team_point_deduction_rows,
-        competitor_rows=competitor_rows,
-        tournament_competitor_rows=tournament_competitor_rows,
-        match_rows=match_rows,
-    )
-    return insert_ids, inserts  # TODO
+    return insert_ids
 
 
 def _handle_year(
     extracted_dir: pathlib.Path,
     year: int,
     insert_ids: InsertIDs,
+    inserts: Inserts,
     filenames: dict[int, str],
     bracket_id_info: dict[BracketInfoTuple, int],
 ) -> InsertIDs:
@@ -166,10 +154,11 @@ def _handle_year(
                 file_obj.read()
             )
 
-        insert_ids, _ = _handle_tournament(
-            year, tournament_id, insert_ids, bracket_id_info, extracted
+        insert_ids = _handle_tournament(
+            year, tournament_id, insert_ids, inserts, bracket_id_info, extracted
         )
 
+        # NOTE: We round-trip the file back to ensure it is formatted correctly
         with open(extracted_dir / filename, "w") as file_obj:
             file_obj.write(extracted.model_dump_json(indent=2))
             file_obj.write("\n")
@@ -256,6 +245,7 @@ def main():
 
     extracted_dir = HERE.parent / "intermediate-data"
     filenames_by_year = _get_filenames_by_year()
+
     insert_ids = InsertIDs(
         next_team_id=1,
         next_tournament_team_id=1,
@@ -264,9 +254,17 @@ def main():
         next_tournament_competitor_id=1,
         next_match_id=1,
     )
+    inserts = Inserts(
+        team_rows=[],
+        tournament_team_rows=[],
+        team_point_deduction_rows=[],
+        competitor_rows=[],
+        tournament_competitor_rows=[],
+        match_rows=[],
+    )
     for year, filenames in filenames_by_year.items():
         insert_ids = _handle_year(
-            extracted_dir, year, insert_ids, filenames, bracket_id_info
+            extracted_dir, year, insert_ids, inserts, filenames, bracket_id_info
         )
 
 
