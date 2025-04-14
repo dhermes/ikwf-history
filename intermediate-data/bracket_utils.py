@@ -34,7 +34,6 @@ class CompetitorRaw(pydantic.BaseModel):
 class CompetitorTuple(NamedTuple):
     first_name: str
     last_name: str
-    suffix: str | None
     team: str
 
 
@@ -42,7 +41,6 @@ class Competitor(pydantic.BaseModel):
     full_name: str
     first_name: str
     last_name: str
-    suffix: str | None
     team: str
     # TODO: team_acronym / team_full
 
@@ -50,10 +48,7 @@ class Competitor(pydantic.BaseModel):
     def as_tuple(self) -> CompetitorTuple:
         """Convert to a (hashable) tuple."""
         return CompetitorTuple(
-            first_name=self.first_name,
-            last_name=self.last_name,
-            suffix=self.suffix,
-            team=self.team,
+            first_name=self.first_name, last_name=self.last_name, team=self.team
         )
 
 
@@ -291,16 +286,12 @@ def competitor_from_raw(
         full_name=value.name,
         first_name=parts[0],
         last_name=parts[1],
-        suffix=None,
         team=value.team,
     )
 
 
 def _competitor_equal_enough(competitor1: Competitor, competitor2: Competitor) -> bool:
     if competitor1.team != competitor2.team:
-        return False
-
-    if competitor1.suffix != competitor2.suffix:
         return False
 
     if competitor1.last_name != competitor2.last_name:
@@ -1384,7 +1375,6 @@ class CompetitorRow(pydantic.BaseModel):
     id_: int = pydantic.Field(alias="id")
     first_name: str
     last_name: str
-    suffix: str | None
 
 
 class TeamCompetitorRow(pydantic.BaseModel):
@@ -1447,7 +1437,6 @@ def _get_weight_class_competitors_for_sql(
                     id=current_id,
                     first_name=match.top_competitor.first_name,
                     last_name=match.top_competitor.last_name,
-                    suffix=match.top_competitor.suffix,
                 )
             )
             team_competitor_rows.append(
@@ -1474,7 +1463,6 @@ def _get_weight_class_competitors_for_sql(
                     id=current_id,
                     first_name=match.bottom_competitor.first_name,
                     last_name=match.bottom_competitor.last_name,
-                    suffix=match.bottom_competitor.suffix,
                 )
             )
             team_competitor_rows.append(
@@ -1553,8 +1541,7 @@ def print_competitors_sql(competitor_rows: list[CompetitorRow]) -> None:
     for row in competitor_rows:
         first_name = sql_nullable_str(row.first_name)
         last_name = sql_nullable_str(row.last_name)
-        suffix_str = sql_nullable_str(row.suffix)
-        print(f"  ({row.id_}, {first_name}, {last_name}, {suffix_str}),")
+        print(f"  ({row.id_}, {first_name}, {last_name}),")
 
 
 def print_team_competitors_sql(team_competitor_rows: list[TeamCompetitorRow]) -> None:

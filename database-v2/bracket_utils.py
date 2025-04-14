@@ -137,7 +137,6 @@ class Competitor(_ForbidExtra):
     full_name: str
     first_name: str
     last_name: str
-    suffix: str | None
     team: str
 
 

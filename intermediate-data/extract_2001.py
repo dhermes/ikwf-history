@@ -33,28 +33,24 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         full_name="JEFFERY BYBEE,JR",
         first_name="JEFFERY",
         last_name="BYBEE",
-        suffix="JR",
         team="CHL",
     ),
     ("JERRY BEMIS III", "OLW"): bracket_utils.Competitor(
         full_name="JERRY BEMIS III",
         first_name="JERRY",
         last_name="BEMIS",
-        suffix="III",
         team="OLW",
     ),
     ("MICHAEL J. RYAN", "LIT"): bracket_utils.Competitor(
         full_name="MICHAEL J. RYAN",
         first_name="MICHAEL J.",
         last_name="RYAN",
-        suffix=None,
         team="LIT",
     ),
     ("SHANE FICH TENMUELLER", "DIX"): bracket_utils.Competitor(
         full_name="SHANE FICH TENMUELLER",
         first_name="SHANE",
         last_name="FICHTENMUELLER",
-        suffix=None,
         team="DIX",
     ),
 }

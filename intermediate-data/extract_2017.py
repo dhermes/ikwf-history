@@ -20,21 +20,18 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         full_name="",
         first_name="J Guido",
         last_name="Pigoni",
-        suffix=None,
         team="SCN Youth WC",
     ),
     ("Mustafa St. Clair", "Harvey Twisters"): bracket_utils.Competitor(
         full_name="",
         first_name="Mustafa",
         last_name="St. Clair",
-        suffix=None,
         team="Harvey Twisters",
     ),
     ("Noah Manuel Tapia", "Young Guns"): bracket_utils.Competitor(
         full_name="",
         first_name="Noah Manuel",
         last_name="Tapia",
-        suffix=None,
         team="Young Guns",
     ),
 }
