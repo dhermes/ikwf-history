@@ -7,7 +7,7 @@ We have **some** but not **all** data for some years.
 - Novice 2000: **MISSING** Team Scores (as of 2025-03-18)
 - Senior 2000: **MISSING** Team Scores (as of 2025-03-18)
 
-## Team acronmys
+## Team acronyms
 
 We attempt to determine team acronyms by doing (approximate) team scoring and
 comparing to the team scores for a given tournament.

@@ -132,6 +132,14 @@ def _insert_only(data: dict[K, V], key: K, value: V) -> None:
     data[key] = value
 
 
+def _insert_check(data: dict[K, V], key: K, value: V) -> None:
+    if key in data:
+        if data[key] != value:
+            raise KeyError("Conflict", key, data[key], value)
+    else:
+        data[key] = value
+
+
 def _build_team_maps(
     extracted: bracket_utils.ExtractedTournament,
 ) -> tuple[
@@ -141,6 +149,7 @@ def _build_team_maps(
     by_acronym: dict[bracket_utils.Division, dict[str, str]] = {}
     by_name: dict[bracket_utils.Division, dict[str, str | None]] = {}
 
+    # 1. Team name / acronyms from team scores
     for division, team_scores in extracted.team_scores.items():
         by_acronym.setdefault(division, {})
         by_name.setdefault(division, {})
@@ -150,21 +159,26 @@ def _build_team_maps(
             if team_score.acronym is not None:
                 _insert_only(by_acronym[division], team_score.acronym, team_score.team)
 
+    # 2. Team name / acronyms from match entries (athletes)
     for weight_class in extracted.weight_classes:
         division = weight_class.division
         division_by_acronym = by_acronym.setdefault(division, {})
         division_by_name = by_name.setdefault(division, {})
 
         for match in weight_class.matches:
-            top_team = None
-            bottom_team = None
+            competitors: list[bracket_utils.Competitor] = []
             if match.top_competitor is not None:
-                top_team = match.top_competitor.team_full
+                competitors.append(match.top_competitor)
             if match.bottom_competitor is not None:
-                bottom_team = match.bottom_competitor.team_full
+                competitors.append(match.bottom_competitor)
 
-    # TODO: Use weight_classes: list[WeightClass]
-    # TODO: Use deductions: list[Deduction]
+            for competitor in competitors:
+                team_full = competitor.team_full
+                team_acronym = competitor.team_acronym
+                _insert_check(division_by_name, team_full, team_acronym)
+                if team_acronym is not None:
+                    _insert_check(division_by_acronym, team_acronym, team_full)
+
     return by_acronym, by_name
 
 

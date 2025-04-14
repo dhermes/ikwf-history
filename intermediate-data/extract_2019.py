@@ -57,7 +57,7 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         first_name="Jujuan",
         last_name="Williams",
         team_full="Lionheart Intense Wrestling",
-        team_acronym="IO",
+        team_acronym="LIO",
     ),
     ("Justin Cobbs Jr", "Lincoln-Way WC"): bracket_utils.Competitor(
         full_name="",
