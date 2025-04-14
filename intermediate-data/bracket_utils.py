@@ -38,21 +38,25 @@ class CompetitorRaw(_ForbidExtra):
 class CompetitorTuple(NamedTuple):
     first_name: str
     last_name: str
-    team: str
+    team_acronym: str
+    # TODO: team_full
 
 
 class Competitor(_ForbidExtra):
     full_name: str
     first_name: str
     last_name: str
-    team: str
-    # TODO: team_acronym / team_full
+    team_acronym: str
+    # TODO: team_full
 
     @property
     def as_tuple(self) -> CompetitorTuple:
         """Convert to a (hashable) tuple."""
         return CompetitorTuple(
-            first_name=self.first_name, last_name=self.last_name, team=self.team
+            first_name=self.first_name,
+            last_name=self.last_name,
+            team_acronym=self.team_acronym,
+            # TODO: team_full
         )
 
 
@@ -290,12 +294,12 @@ def competitor_from_raw(
         full_name=value.name,
         first_name=parts[0],
         last_name=parts[1],
-        team=value.team,
+        team_acronym=value.team,
     )
 
 
 def _competitor_equal_enough(competitor1: Competitor, competitor2: Competitor) -> bool:
-    if competitor1.team != competitor2.team:
+    if competitor1.team_acronym != competitor2.team_acronym:
         return False
 
     if competitor1.last_name != competitor2.last_name:
@@ -1077,14 +1081,14 @@ def _match_team_score_updates(
     loser_team = None
     if match.top_win:
         winner = match.top_competitor
-        winner_team = match.top_competitor.team
+        winner_team = match.top_competitor.team_acronym
         if match.bottom_competitor is not None:
-            loser_team = match.bottom_competitor.team
+            loser_team = match.bottom_competitor.team_acronym
     else:
         winner = match.bottom_competitor
-        winner_team = match.bottom_competitor.team
+        winner_team = match.bottom_competitor.team_acronym
         if match.top_competitor is not None:
-            loser_team = match.top_competitor.team
+            loser_team = match.top_competitor.team_acronym
 
     winner_advancement_points = _get_advancement_points(match.match_slot, True)
     loser_advancement_points = _get_advancement_points(match.match_slot, False)
@@ -1171,9 +1175,9 @@ def validate_acronym_mapping_names(
     for weight_class in weight_classes:
         for match in weight_class.matches:
             if match.top_competitor is not None:
-                actual_acronyms.add(match.top_competitor.team)
+                actual_acronyms.add(match.top_competitor.team_acronym)
             if match.bottom_competitor is not None:
-                actual_acronyms.add(match.bottom_competitor.team)
+                actual_acronyms.add(match.bottom_competitor.team_acronym)
 
     mapped_acronyms = set()
     actual_team_names = set()
@@ -1216,9 +1220,9 @@ def validate_acronym_mappings_divisions(
 
         for match_ in weight_class.matches:
             if match_.top_competitor is not None:
-                division_acronyms.add(match_.top_competitor.team)
+                division_acronyms.add(match_.top_competitor.team_acronym)
             if match_.bottom_competitor is not None:
-                division_acronyms.add(match_.bottom_competitor.team)
+                division_acronyms.add(match_.bottom_competitor.team_acronym)
 
     acronyms_both = novice_acronyms.intersection(senior_acronyms)
     novice_only = novice_acronyms - acronyms_both
@@ -1431,7 +1435,7 @@ def _get_weight_class_competitors_for_sql(
             current_id += 1
 
             team_id = _resolve_team_id(
-                match.top_competitor.team,
+                match.top_competitor.team_acronym,
                 team_acronym_mapping,
                 division_acronym_mapping,
                 team_name_mapping,
@@ -1457,7 +1461,7 @@ def _get_weight_class_competitors_for_sql(
             current_id += 1
 
             team_id = _resolve_team_id(
-                match.bottom_competitor.team,
+                match.bottom_competitor.team_acronym,
                 team_acronym_mapping,
                 division_acronym_mapping,
                 team_name_mapping,
@@ -1595,14 +1599,14 @@ def _get_weight_class_matches_for_sql(
         if match.top_competitor is not None:
             key = match.top_competitor.as_tuple
             top_competitor_id = team_competitor_by_info[key]
-            top_team_acronym = match.top_competitor.team
+            top_team_acronym = match.top_competitor.team_acronym
 
         bottom_competitor_id = None
         bottom_team_acronym = None
         if match.bottom_competitor is not None:
             key = match.bottom_competitor.as_tuple
             bottom_competitor_id = team_competitor_by_info[key]
-            bottom_team_acronym = match.bottom_competitor.team
+            bottom_team_acronym = match.bottom_competitor.team_acronym
 
         match_row = MatchRow(
             id=current_id,

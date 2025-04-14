@@ -21,31 +21,31 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         full_name="",
         first_name="Anthony Lopez",
         last_name="Marquez",
-        team="Tomcat WC",
+        team_acronym="Tomcat WC",
     ),
     ("J Guido Pigoni", "SCN Youth WC"): bracket_utils.Competitor(
         full_name="",
         first_name="J Guido",
         last_name="Pigoni",
-        team="SCN Youth WC",
+        team_acronym="SCN Youth WC",
     ),
     ("Julian Espinosa Lopez", "Blackhawk WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Julian Espinosa",
         last_name="Lopez",
-        team="Blackhawk WC",
+        team_acronym="Blackhawk WC",
     ),
     ("Noah Manuel Tapia", "Young Guns"): bracket_utils.Competitor(
         full_name="",
         first_name="Noah Manuel",
         last_name="Tapia",
-        team="Young Guns",
+        team_acronym="Young Guns",
     ),
     ("Pedro Antonio Rangel", "Storm Youth WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Pedro Antonio",
         last_name="Rangel",
-        team="Storm Youth WC",
+        team_acronym="Storm Youth WC",
     ),
 }
 _TEAM_FIXES: dict[str, tuple[str, str]] = {}
