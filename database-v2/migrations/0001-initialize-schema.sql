@@ -88,7 +88,7 @@ CREATE TABLE tournament_team (
   tournament_id INTEGER NOT NULL REFERENCES tournament(id),
   division TEXT NOT NULL REFERENCES division(key),
   team_id INTEGER NOT NULL REFERENCES team(id),
-  team_score INTEGER,
+  team_score FLOAT,
   name TEXT NOT NULL,
   acronym TEXT,
   -- NOTE: In some years, non-scoring athletes showed up in team scores under

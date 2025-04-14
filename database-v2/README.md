@@ -37,6 +37,11 @@ Enter ".help" for usage hints.
 sqlite>
 sqlite>
 sqlite> .tables
+award                  match                  tournament
+award_winner           match_slot             tournament_competitor
+bracket                result_type            tournament_team
+competitor             team                   wrestleback_type
+division               team_point_deduction
 sqlite>
 sqlite>
 sqlite> .schema division
@@ -55,4 +60,7 @@ sqlite> SELECT * FROM division;
 6|intermediate_girls
 7|novice_girls
 8|senior_girls
+9|junior_iwf
+10|novice_iwf
+11|senior_iwf
 ```
