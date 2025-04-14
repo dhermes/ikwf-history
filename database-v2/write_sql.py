@@ -11,35 +11,6 @@ import bracket_utils
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 
-# year => { tournament_id => filename }
-FILENAMES_BY_YEAR: dict[int, dict[int, str]] = {
-    2000: {30: "extracted.2000.json"},
-    2001: {32: "extracted.2001.json"},
-    2002: {32: "extracted.2002.json"},
-    2003: {33: "extracted.2003.json"},
-    2004: {34: "extracted.2004.json"},
-    2005: {35: "extracted.2005.json"},
-    2006: {36: "extracted.2006.json"},
-    2007: {37: "extracted.2007.json"},
-    2008: {38: "extracted.2008.json"},
-    2009: {39: "extracted.2009.json"},
-    2010: {40: "extracted.2010.json"},
-    2011: {41: "extracted.2011.json"},
-    2012: {42: "extracted.2012.json"},
-    2013: {43: "extracted.2013.json"},
-    2014: {44: "extracted.2014.json"},
-    2015: {45: "extracted.2015.json"},
-    2016: {46: "extracted.2016.json"},
-    2017: {47: "extracted.2017.json"},
-    2018: {48: "extracted.2018.json"},
-    2019: {49: "extracted.2019.json"},
-    2020: {10050: "extracted.2020.json"},
-    2022: {50: "extracted.2022.json"},
-    2023: {51: "extracted.2023.json"},
-    2024: {52: "extracted.2024.json", 10052: "extracted.2024-intermediate.json"},
-    2025: {53: "extracted.2025.json"},
-}
-
 
 class _ForbidExtra(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(extra="forbid")
@@ -178,12 +149,20 @@ def _write_brackets_sql() -> dict[BracketInfo, int]:
     return result
 
 
+def _get_filenames_by_year() -> dict[int, bracket_utils.TournamentFilename]:
+    with open(HERE / "_filenames-by-year.json") as file_obj:
+        loaded = bracket_utils.FilenamesByYear.model_validate_json(file_obj.read())
+
+    return loaded.root
+
+
 def main():
     _validate_division_sort_key()
     bracket_id_info = _write_brackets_sql()
 
     extracted_dir = HERE.parent / "intermediate-data"
-    for year, filenames in FILENAMES_BY_YEAR.items():
+    filenames_by_year = _get_filenames_by_year()
+    for year, filenames in filenames_by_year.items():
         _handle_year(extracted_dir, year, filenames)
 
 

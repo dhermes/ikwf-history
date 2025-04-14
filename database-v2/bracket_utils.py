@@ -180,3 +180,10 @@ WeightClassesByTournament = dict[int, WeightClassesByDivision]
 
 class WeightClassesByYear(pydantic.RootModel[dict[int, WeightClassesByTournament]]):
     pass
+
+
+TournamentFilename = dict[int, str]
+
+
+class FilenamesByYear(pydantic.RootModel[dict[int, TournamentFilename]]):
+    pass
