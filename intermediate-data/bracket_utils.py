@@ -28,11 +28,12 @@ class _ForbidExtra(pydantic.BaseModel):
 
 class CompetitorRaw(_ForbidExtra):
     name: str
-    team: str
+    team_full: str
+    team_acronym: str | None
 
     @property
     def long_name(self) -> str:
-        return f"{self.name} ({self.team})"
+        return f"{self.name} ({self.team_full})"
 
 
 class CompetitorTuple(NamedTuple):
@@ -280,7 +281,13 @@ def competitor_from_raw(
     if value is None:
         return None
 
-    exception_key = value.name, value.team
+    exception_key = value.name, value.team_acronym
+    if exception_key in name_exceptions:
+        competitor = name_exceptions[exception_key]
+        competitor.full_name = value.name
+        return competitor
+
+    exception_key = value.name, value.team_full
     if exception_key in name_exceptions:
         competitor = name_exceptions[exception_key]
         competitor.full_name = value.name
@@ -288,14 +295,14 @@ def competitor_from_raw(
 
     parts = value.name.split()
     if len(parts) != 2:
-        raise RuntimeError(value.name, value.team)
+        raise RuntimeError(value.name, value.team_full, value.team_acronym)
 
     return Competitor(
         full_name=value.name,
         first_name=parts[0],
         last_name=parts[1],
-        team_full="",  # TODO
-        team_acronym=value.team,
+        team_full=value.team_full,
+        team_acronym=value.team_acronym,
     )
 
 
@@ -394,7 +401,10 @@ def _competitor_raw_equal_enough(
     if competitor1 is None or competitor2 is None:
         return competitor1 == competitor2
 
-    if competitor1.team != competitor2.team:
+    if competitor1.team_full != competitor2.team_full:
+        return False
+
+    if competitor1.team_acronym != competitor2.team_acronym:
         return False
 
     return _competitor_name_equal_enough(competitor1.name, competitor2.name)

@@ -1,5 +1,6 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
+import functools
 import pathlib
 
 import bs4
@@ -182,7 +183,26 @@ SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
 }
 
 
-def parse_competitor(value: str) -> bracket_utils.CompetitorRaw | None:
+def _get_team_full(acronym: str, division: bracket_utils.Division) -> str:
+    if division == "senior":
+        division_mapping = SENIOR_TEAM_ACRONYM_MAPPING
+    elif division == "novice":
+        division_mapping = NOVICE_TEAM_ACRONYM_MAPPING
+    else:
+        raise NotImplementedError(division)
+
+    if acronym in division_mapping:
+        return division_mapping[acronym]
+
+    if acronym not in TEAM_ACRONYM_MAPPING:
+        raise KeyError("Unmapped acronym", acronym, division)
+
+    return TEAM_ACRONYM_MAPPING[acronym]
+
+
+def parse_competitor_full(
+    value: str, division: bracket_utils.Division
+) -> bracket_utils.CompetitorRaw | None:
     cleaned = value.strip().rstrip("+").rstrip("-")
     name, team = cleaned.rsplit("-", 1)
     team = team.strip()
@@ -196,7 +216,11 @@ def parse_competitor(value: str) -> bracket_utils.CompetitorRaw | None:
     if name == "":
         raise ValueError("Invariant violation", name, cleaned, value)
 
-    return bracket_utils.CompetitorRaw(name=name, team=team)
+    return bracket_utils.CompetitorRaw(
+        name=name,
+        team_full=_get_team_full(team, division),
+        team_acronym=team,
+    )
 
 
 def parse_bout_result(value: str) -> str:
@@ -249,6 +273,8 @@ def extract_bracket(
     championship_lines = championship_text.lstrip("\n").split("\n")
     consolation_lines = consolation_text.lstrip("\n").split("\n")
     fifth_place_lines = fifth_place_pre.text.lstrip("\n").split("\n")
+
+    parse_competitor = functools.partial(parse_competitor_full, division=division)
 
     matches = [
         bracket_utils.MatchRaw(

@@ -1,5 +1,6 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
+import functools
 import pathlib
 
 import bs4
@@ -240,7 +241,26 @@ SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
 }
 
 
-def parse_competitor(value: str) -> bracket_utils.CompetitorRaw | None:
+def _get_team_full(acronym: str, division: bracket_utils.Division) -> str:
+    if division == "senior":
+        division_mapping = SENIOR_TEAM_ACRONYM_MAPPING
+    elif division == "novice":
+        division_mapping = NOVICE_TEAM_ACRONYM_MAPPING
+    else:
+        raise NotImplementedError(division)
+
+    if acronym in division_mapping:
+        return division_mapping[acronym]
+
+    if acronym not in TEAM_ACRONYM_MAPPING:
+        raise KeyError("Unmapped acronym", acronym, division)
+
+    return TEAM_ACRONYM_MAPPING[acronym]
+
+
+def parse_competitor_full(
+    value: str, division: bracket_utils.Division
+) -> bracket_utils.CompetitorRaw | None:
     cleaned = value.strip().rstrip("+").rstrip("-")
     name, team = cleaned.rsplit("-", 1)
 
@@ -255,7 +275,11 @@ def parse_competitor(value: str) -> bracket_utils.CompetitorRaw | None:
     if name == "":
         raise ValueError("Invariant violation", name, cleaned, value)
 
-    return bracket_utils.CompetitorRaw(name=name, team=team)
+    return bracket_utils.CompetitorRaw(
+        name=name,
+        team_full=_get_team_full(team, division),
+        team_acronym=team,
+    )
 
 
 def parse_bout_result(value: str) -> str:
@@ -287,16 +311,17 @@ def maybe_r32_empty_bye(
     match_slot: bracket_utils.MatchSlot,
     winner_round: str,
     winner_key: str,
+    division: bracket_utils.Division,
 ) -> bracket_utils.MatchRaw:
     top_competitor = None
     top_competitor_str = championship_lines[start_index][:26]
     if top_competitor_str != EMPTY_SLOT:
-        top_competitor = parse_competitor(top_competitor_str)
+        top_competitor = parse_competitor_full(top_competitor_str, division)
 
     bottom_competitor = None
     bottom_competitor_str = championship_lines[start_index + 2][:26]
     if bottom_competitor_str != EMPTY_SLOT:
-        bottom_competitor = parse_competitor(bottom_competitor_str)
+        bottom_competitor = parse_competitor_full(bottom_competitor_str, division)
 
     result_bout_number_str = championship_lines[start_index + 1][:26]
     result = ""
@@ -342,9 +367,11 @@ def extract_bracket(
     fifth_place_lines = fifth_place_pre.text.lstrip("\n").split("\n")
     seventh_place_lines = seventh_place_pre.text.lstrip("\n").split("\n")
 
+    parse_competitor = functools.partial(parse_competitor_full, division=division)
+
     if division == "senior" and weight == 84:
         consolation_round3_01_top_competitor = bracket_utils.CompetitorRaw(
-            name="KEITH WILLIAMS", team="JUN"
+            name="KEITH WILLIAMS", team_full="JUNIOR PIRATE WC", team_acronym="JUN"
         )
     else:
         consolation_round3_01_top_competitor = parse_competitor(
@@ -367,9 +394,15 @@ def extract_bracket(
             "championship_r32_02",
             "championship_r16_01",
             "bottom",
+            division,
         ),
         maybe_r32_empty_bye(
-            championship_lines, 6, "championship_r32_03", "championship_r16_02", "top"
+            championship_lines,
+            6,
+            "championship_r32_03",
+            "championship_r16_02",
+            "top",
+            division,
         ),
         bracket_utils.MatchRaw(
             match_slot="championship_r32_04",
@@ -395,9 +428,15 @@ def extract_bracket(
             "championship_r32_06",
             "championship_r16_03",
             "bottom",
+            division,
         ),
         maybe_r32_empty_bye(
-            championship_lines, 18, "championship_r32_07", "championship_r16_04", "top"
+            championship_lines,
+            18,
+            "championship_r32_07",
+            "championship_r16_04",
+            "top",
+            division,
         ),
         bracket_utils.MatchRaw(
             match_slot="championship_r32_08",
@@ -423,9 +462,15 @@ def extract_bracket(
             "championship_r32_10",
             "championship_r16_05",
             "bottom",
+            division,
         ),
         maybe_r32_empty_bye(
-            championship_lines, 30, "championship_r32_11", "championship_r16_06", "top"
+            championship_lines,
+            30,
+            "championship_r32_11",
+            "championship_r16_06",
+            "top",
+            division,
         ),
         bracket_utils.MatchRaw(
             match_slot="championship_r32_12",
@@ -451,9 +496,15 @@ def extract_bracket(
             "championship_r32_14",
             "championship_r16_07",
             "bottom",
+            division,
         ),
         maybe_r32_empty_bye(
-            championship_lines, 42, "championship_r32_15", "championship_r16_08", "top"
+            championship_lines,
+            42,
+            "championship_r32_15",
+            "championship_r16_08",
+            "top",
+            division,
         ),
         bracket_utils.MatchRaw(
             match_slot="championship_r32_16",
