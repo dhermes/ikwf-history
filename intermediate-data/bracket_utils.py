@@ -137,6 +137,7 @@ ResultType = Literal[
     "major",
     "tech",
     "walkover",
+    "place",
 ]
 
 

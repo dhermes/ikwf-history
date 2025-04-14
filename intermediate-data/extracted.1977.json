@@ -1,0 +1,384 @@
+{
+  "weight_classes": [
+    {
+      "division": "senior",
+      "weight": 60,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Troy Doughman",
+            "first_name": "Troy",
+            "last_name": "Doughman",
+            "suffix": null,
+            "team": "Elmhurst"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 65,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Pat Rajnic",
+            "first_name": "Pat",
+            "last_name": "Rajnic",
+            "suffix": null,
+            "team": "Wheaton Franklin"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 70,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Bill Horcher",
+            "first_name": "Bill",
+            "last_name": "Horcher",
+            "suffix": null,
+            "team": "Dundee Highlanders"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 75,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Tony Pellegrini",
+            "first_name": "Tony",
+            "last_name": "Pellegrini",
+            "suffix": null,
+            "team": "Hazel Crest"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 80,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Todd Sterr",
+            "first_name": "Todd",
+            "last_name": "Sterr",
+            "suffix": null,
+            "team": "Joliet Boy's Club"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 85,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Ed Giese",
+            "first_name": "Ed",
+            "last_name": "Giese",
+            "suffix": null,
+            "team": "Franklin Park"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 90,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Kurt Law",
+            "first_name": "Kurt",
+            "last_name": "Law",
+            "suffix": null,
+            "team": "Savanna"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 95,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Mark Ruettiger",
+            "first_name": "Mark",
+            "last_name": "Ruettiger",
+            "suffix": null,
+            "team": "Joliet Boy's Club"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 100,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Mark Barron",
+            "first_name": "Mark",
+            "last_name": "Barron",
+            "suffix": null,
+            "team": "Aurora Franklin"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 105,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Todd Ferris",
+            "first_name": "Todd",
+            "last_name": "Ferris",
+            "suffix": null,
+            "team": "Savanna"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 112,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Mike Rosman",
+            "first_name": "Mike",
+            "last_name": "Rosman",
+            "suffix": null,
+            "team": "Naperville"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 118,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Ray Villareal",
+            "first_name": "Ray",
+            "last_name": "Villareal",
+            "suffix": null,
+            "team": "West Chicago"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 125,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Bill Klotz",
+            "first_name": "Bill",
+            "last_name": "Klotz",
+            "suffix": null,
+            "team": "New Lenox Oakview"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 135,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Alan Porter",
+            "first_name": "Alan",
+            "last_name": "Porter",
+            "suffix": null,
+            "team": "Oak Forest"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 145,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Bill McCue",
+            "first_name": "Bill",
+            "last_name": "McCue",
+            "suffix": null,
+            "team": "Aurora Simmons"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 160,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Rich Constable",
+            "first_name": "Rich",
+            "last_name": "Constable",
+            "suffix": null,
+            "team": "Addison"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 185,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Bill George",
+            "first_name": "Bill",
+            "last_name": "George",
+            "suffix": null,
+            "team": "St. Thecia"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 275,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jeff Sheppard",
+            "first_name": "Jeff",
+            "last_name": "Sheppard",
+            "suffix": null,
+            "team": "avanna"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    }
+  ],
+  "team_scores": {},
+  "deductions": []
+}

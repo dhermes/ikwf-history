@@ -1,0 +1,426 @@
+{
+  "weight_classes": [
+    {
+      "division": "senior",
+      "weight": 60,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Todd Combes",
+            "first_name": "Todd",
+            "last_name": "Combes",
+            "suffix": null,
+            "team": "Dolton Park Falcons"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 64,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Matt Goldstein",
+            "first_name": "Matt",
+            "last_name": "Goldstein",
+            "suffix": null,
+            "team": "Little Giants WC"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 68,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Marc Zehr",
+            "first_name": "Marc",
+            "last_name": "Zehr",
+            "suffix": null,
+            "team": "Arlington Cardinals"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 72,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Tony Davis",
+            "first_name": "Tony",
+            "last_name": "Davis",
+            "suffix": null,
+            "team": "Harvey Twisters"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 77,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Don Bermudez",
+            "first_name": "Don",
+            "last_name": "Bermudez",
+            "suffix": null,
+            "team": "Lockport Grapplers"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 82,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jason Pero",
+            "first_name": "Jason",
+            "last_name": "Pero",
+            "suffix": null,
+            "team": "Harvey Twisters"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 87,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Tyler Hurry",
+            "first_name": "Tyler",
+            "last_name": "Hurry",
+            "suffix": null,
+            "team": "Riverdale Jr. High"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 93,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Dan Collins",
+            "first_name": "Dan",
+            "last_name": "Collins",
+            "suffix": null,
+            "team": "Arlington Cardinals"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 99,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Timothy Williams",
+            "first_name": "Timothy",
+            "last_name": "Williams",
+            "suffix": null,
+            "team": "Harvey Twisters"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 105,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Tom Combes",
+            "first_name": "Tom",
+            "last_name": "Combes",
+            "suffix": null,
+            "team": "Dolton Park Falcons"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 112,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Manuel Villarreal",
+            "first_name": "Manuel",
+            "last_name": "Villarreal",
+            "suffix": null,
+            "team": "Arlington Cardina"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 119,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Ron Stonitsch",
+            "first_name": "Ron",
+            "last_name": "Stonitsch",
+            "suffix": null,
+            "team": "Crestwood Colts"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 127,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Gerardo Quintanilla",
+            "first_name": "Gerardo",
+            "last_name": "Quintanilla",
+            "suffix": null,
+            "team": "Tomcats WC"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 135,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Denny Hartwig",
+            "first_name": "Denny",
+            "last_name": "Hartwig",
+            "suffix": null,
+            "team": "Oak Forest Warriors"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 144,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Ryan Pape",
+            "first_name": "Ryan",
+            "last_name": "Pape",
+            "suffix": null,
+            "team": "Franklin Park Raiders"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 153,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jose Medina",
+            "first_name": "Jose",
+            "last_name": "Medina",
+            "suffix": null,
+            "team": "Gordon Tech Rams"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 163,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Andy Donaldson",
+            "first_name": "Andy",
+            "last_name": "Donaldson",
+            "suffix": null,
+            "team": "Mead Jr. High"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 173,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Ken Robinson",
+            "first_name": "Ken",
+            "last_name": "Robinson",
+            "suffix": null,
+            "team": "St. Charles WC"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 185,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Mark Harvey",
+            "first_name": "Mark",
+            "last_name": "Harvey",
+            "suffix": null,
+            "team": "Mt. Zion"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 275,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Peter Marx",
+            "first_name": "Peter",
+            "last_name": "Marx",
+            "suffix": null,
+            "team": "Eisenhower Jr. High"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    }
+  ],
+  "team_scores": {},
+  "deductions": []
+}

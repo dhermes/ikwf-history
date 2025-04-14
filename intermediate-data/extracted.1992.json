@@ -1,0 +1,426 @@
+{
+  "weight_classes": [
+    {
+      "division": "senior",
+      "weight": 60,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jeremy Hayes",
+            "first_name": "Jeremy",
+            "last_name": "Hayes",
+            "suffix": null,
+            "team": "Morton Youth WC"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 64,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Amador Estrada",
+            "first_name": "Amador",
+            "last_name": "Estrada",
+            "suffix": null,
+            "team": "Round Lk Spartans"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 68,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Kyle Oneill",
+            "first_name": "Kyle",
+            "last_name": "Oneill",
+            "suffix": null,
+            "team": "Tinley Park Bulldogs"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 72,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Leonard Bowens",
+            "first_name": "Leonard",
+            "last_name": "Bowens",
+            "suffix": null,
+            "team": "Harvey Twisters"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 77,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Matthew Goldstein",
+            "first_name": "Matthew",
+            "last_name": "Goldstein",
+            "suffix": null,
+            "team": "Highland Pk."
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 82,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jim Aberle",
+            "first_name": "Jim",
+            "last_name": "Aberle",
+            "suffix": null,
+            "team": "Round Lake Spartan"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 87,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Andy Douglas",
+            "first_name": "Andy",
+            "last_name": "Douglas",
+            "suffix": null,
+            "team": "Adams Jr. High"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 93,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Alan Cartwright",
+            "first_name": "Alan",
+            "last_name": "Cartwright",
+            "suffix": null,
+            "team": "Warhawk WC"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 99,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Tony Davis",
+            "first_name": "Tony",
+            "last_name": "Davis",
+            "suffix": null,
+            "team": "Harvey Twisters"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 105,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Reginald Wright",
+            "first_name": "Reginald",
+            "last_name": "Wright",
+            "suffix": null,
+            "team": "Pirates"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 112,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jason Christeson",
+            "first_name": "Jason",
+            "last_name": "Christeson",
+            "suffix": null,
+            "team": "Bethalto Jr. High"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 119,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Greg Voegtle",
+            "first_name": "Greg",
+            "last_name": "Voegtle",
+            "suffix": null,
+            "team": "Belleville Little Devil"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 127,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Timothy Williams",
+            "first_name": "Timothy",
+            "last_name": "Williams",
+            "suffix": null,
+            "team": "Harvey Twisters"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 135,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Dan Weber",
+            "first_name": "Dan",
+            "last_name": "Weber",
+            "suffix": null,
+            "team": "Addams Jr. High"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 144,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jason Breen",
+            "first_name": "Jason",
+            "last_name": "Breen",
+            "suffix": null,
+            "team": "Antioch Upper Grade"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 153,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Randy Anderson",
+            "first_name": "Randy",
+            "last_name": "Anderson",
+            "suffix": null,
+            "team": "Crestwood Colts"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 163,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Aaron Valley",
+            "first_name": "Aaron",
+            "last_name": "Valley",
+            "suffix": null,
+            "team": "St. Charles WC"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 173,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Terry Griffis",
+            "first_name": "Terry",
+            "last_name": "Griffis",
+            "suffix": null,
+            "team": "Rockford WC"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 185,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Chris Rowell",
+            "first_name": "Chris",
+            "last_name": "Rowell",
+            "suffix": null,
+            "team": "Vittum Cats"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 275,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Moses Knapp",
+            "first_name": "Moses",
+            "last_name": "Knapp",
+            "suffix": null,
+            "team": "Decatur WC"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    }
+  ],
+  "team_scores": {},
+  "deductions": []
+}

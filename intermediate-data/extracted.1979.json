@@ -1,0 +1,405 @@
+{
+  "weight_classes": [
+    {
+      "division": "senior",
+      "weight": 60,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Phil Gray",
+            "first_name": "Phil",
+            "last_name": "Gray",
+            "suffix": null,
+            "team": "Naperville"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 65,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Mike O'Brien",
+            "first_name": "Mike",
+            "last_name": "O'Brien",
+            "suffix": null,
+            "team": "Chicago Ridge"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 70,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Tim Meagher",
+            "first_name": "Tim",
+            "last_name": "Meagher",
+            "suffix": null,
+            "team": "Joliet YMCA"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 75,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Rob Milazzo",
+            "first_name": "Rob",
+            "last_name": "Milazzo",
+            "suffix": null,
+            "team": "Roxana"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 80,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Chris Scott",
+            "first_name": "Chris",
+            "last_name": "Scott",
+            "suffix": null,
+            "team": "Joliet YMCA"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 85,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Nick Quaz",
+            "first_name": "Nick",
+            "last_name": "Quaz",
+            "suffix": null,
+            "team": "Plainfield"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 90,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Keith Healy",
+            "first_name": "Keith",
+            "last_name": "Healy",
+            "suffix": null,
+            "team": "Burbank"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 95,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jerry Blaney",
+            "first_name": "Jerry",
+            "last_name": "Blaney",
+            "suffix": null,
+            "team": "Burbank"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 100,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Brian Capodice",
+            "first_name": "Brian",
+            "last_name": "Capodice",
+            "suffix": null,
+            "team": "Mokena"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 105,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Tony Evensen",
+            "first_name": "Tony",
+            "last_name": "Evensen",
+            "suffix": null,
+            "team": "Chicago Ridge"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 111,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Bob Guirriero",
+            "first_name": "Bob",
+            "last_name": "Guirriero",
+            "suffix": null,
+            "team": "West Leyden"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 118,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Rich Henderson",
+            "first_name": "Rich",
+            "last_name": "Henderson",
+            "suffix": null,
+            "team": "Plainfield Indian Tr"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 125,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Tim Cocco",
+            "first_name": "Tim",
+            "last_name": "Cocco",
+            "suffix": null,
+            "team": "Chicago Ridge"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 135,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "George Bessette",
+            "first_name": "George",
+            "last_name": "Bessette",
+            "suffix": null,
+            "team": "Antioch"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 145,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Dale Schmidt",
+            "first_name": "Dale",
+            "last_name": "Schmidt",
+            "suffix": null,
+            "team": "Oak Forest Warriors"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 155,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Dave Vohaska",
+            "first_name": "Dave",
+            "last_name": "Vohaska",
+            "suffix": null,
+            "team": "Franklin Park"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 170,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Rod Martin",
+            "first_name": "Rod",
+            "last_name": "Martin",
+            "suffix": null,
+            "team": "St. Philip Neri"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 185,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Dennis Stabl",
+            "first_name": "Dennis",
+            "last_name": "Stabl",
+            "suffix": null,
+            "team": "Champaign"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 275,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Ray Tyree",
+            "first_name": "Ray",
+            "last_name": "Tyree",
+            "suffix": null,
+            "team": "Bolingbrook Ward"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    }
+  ],
+  "team_scores": {},
+  "deductions": []
+}

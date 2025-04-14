@@ -1,0 +1,720 @@
+{
+  "weight_classes": [
+    {
+      "division": "novice",
+      "weight": 62,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "ISRAEL MARTINEZ",
+            "first_name": "ISRAEL",
+            "last_name": "MARTINEZ",
+            "suffix": null,
+            "team": "TOMCAT WC"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 66,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "NICK CIRINCIONE",
+            "first_name": "NICK",
+            "last_name": "CIRINCIONE",
+            "suffix": null,
+            "team": "VILLA LOMBARD"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 70,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "NATHAN MARTINEZ",
+            "first_name": "NATHAN",
+            "last_name": "MARTINEZ",
+            "suffix": null,
+            "team": "TOMCATS"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 74,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "KYLE ONEILL",
+            "first_name": "KYLE",
+            "last_name": "ONEILL",
+            "suffix": null,
+            "team": "TINLEY PARK"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 79,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "DAVID DREW",
+            "first_name": "DAVID",
+            "last_name": "DREW",
+            "suffix": null,
+            "team": "MUSTANGS"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 84,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "NICK BINGHEIM",
+            "first_name": "NICK",
+            "last_name": "BINGHEIM",
+            "suffix": null,
+            "team": "BETHALTO"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 89,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "BRIAN CRAVENS",
+            "first_name": "BRIAN",
+            "last_name": "CRAVENS",
+            "suffix": null,
+            "team": "MT. ZION"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 95,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "BRAD OWENS",
+            "first_name": "BRAD",
+            "last_name": "OWENS",
+            "suffix": null,
+            "team": "MT. ZION"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 101,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "MATT LACKEY",
+            "first_name": "MATT",
+            "last_name": "LACKEY",
+            "suffix": null,
+            "team": "MOLINE TIGERS"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 108,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "SEAN CONSIDINE",
+            "first_name": "SEAN",
+            "last_name": "CONSIDINE",
+            "suffix": null,
+            "team": "VILLA LOMBARD"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 115,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "CHAD KRNAC",
+            "first_name": "CHAD",
+            "last_name": "KRNAC",
+            "suffix": null,
+            "team": "PLAINFIELD IT"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 122,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "JOE MCCARTHY",
+            "first_name": "JOE",
+            "last_name": "MCCARTHY",
+            "suffix": null,
+            "team": "HARVARD"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 130,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "BILL KOPECKY",
+            "first_name": "BILL",
+            "last_name": "KOPECKY",
+            "suffix": null,
+            "team": "ROSEMONT COBRAS"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 138,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "MARCK GENTHE",
+            "first_name": "MARCK",
+            "last_name": "GENTHE",
+            "suffix": null,
+            "team": "VILLA LOMBARD"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 147,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "JOE CHIRUMBOLO",
+            "first_name": "JOE",
+            "last_name": "CHIRUMBOLO",
+            "suffix": null,
+            "team": "EAGLE WC"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 215,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "BRAD RUNKLE",
+            "first_name": "BRAD",
+            "last_name": "RUNKLE",
+            "suffix": null,
+            "team": "YORKVILLE"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 70,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Steven Bryant",
+            "first_name": "Steven",
+            "last_name": "Bryant",
+            "suffix": null,
+            "team": "Bethalto"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 74,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Tony Doughty",
+            "first_name": "Tony",
+            "last_name": "Doughty",
+            "suffix": null,
+            "team": "Franklin Park Raider"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 79,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "David Stoltz",
+            "first_name": "David",
+            "last_name": "Stoltz",
+            "suffix": null,
+            "team": " Mead"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 84,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Roamelle Kizzee",
+            "first_name": "Roamelle",
+            "last_name": "Kizzee",
+            "suffix": null,
+            "team": "Harvey Twinsers"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 89,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "David Douglas",
+            "first_name": "David",
+            "last_name": "Douglas",
+            "suffix": null,
+            "team": "Harvey Twisters"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 95,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Todd Combes",
+            "first_name": "Todd",
+            "last_name": "Combes",
+            "suffix": null,
+            "team": "Dolton Park Falcons"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 101,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Alan Wilson",
+            "first_name": "Alan",
+            "last_name": "Wilson",
+            "suffix": null,
+            "team": "Crystal Lake"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 108,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Brian Joseph",
+            "first_name": "Brian",
+            "last_name": "Joseph",
+            "suffix": null,
+            "team": "Villa Lombard Couga"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 115,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Ty Powers",
+            "first_name": "Ty",
+            "last_name": "Powers",
+            "suffix": null,
+            "team": "Rockford wc"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 122,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Tim Glover",
+            "first_name": "Tim",
+            "last_name": "Glover",
+            "suffix": null,
+            "team": "Morton Youth"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 130,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jason Guisinger",
+            "first_name": "Jason",
+            "last_name": "Guisinger",
+            "suffix": null,
+            "team": "Tinley Park Bulldo"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 138,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Tommy Grossman",
+            "first_name": "Tommy",
+            "last_name": "Grossman",
+            "suffix": null,
+            "team": "Tinley Park"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 147,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jason Christeson",
+            "first_name": "Jason",
+            "last_name": "Christeson",
+            "suffix": null,
+            "team": "Bethalto"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 156,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Ben Mena",
+            "first_name": "Ben",
+            "last_name": "Mena",
+            "suffix": null,
+            "team": "Rockford WC"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 166,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Thomas Riggins",
+            "first_name": "Thomas",
+            "last_name": "Riggins",
+            "suffix": null,
+            "team": "Berthalto"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 177,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Toby Adams",
+            "first_name": "Toby",
+            "last_name": "Adams",
+            "suffix": null,
+            "team": "W. F. Thunderbird"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 189,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Anthony Englese",
+            "first_name": "Anthony",
+            "last_name": "Englese",
+            "suffix": null,
+            "team": "Mead JH School"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 275,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Hubert Thompson",
+            "first_name": "Hubert",
+            "last_name": "Thompson",
+            "suffix": null,
+            "team": "Warhowk WC"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    }
+  ],
+  "team_scores": {},
+  "deductions": []
+}
