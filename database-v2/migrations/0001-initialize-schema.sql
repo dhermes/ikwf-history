@@ -105,8 +105,8 @@ CREATE TABLE team_point_deduction (
   reason TEXT NOT NULL,
   amount INTEGER NOT NULL
   -- NOTE: No unique index, multiple deductions are possible within a tournament
-  -- NOTE: No `division` is provided here, team point deductions apply across
-  --       **ALL** divisions
+  -- NOTE: Although `division` is a component of `tournament_team`, team point
+  --       deductions apply across **ALL** divisions
 );
 
 --------------------------------------------------------------------------------
