@@ -33,24 +33,6 @@ def _validate_division_sort_key():
             raise ValueError("Mismatch", division, actual_id, sort_id)
 
 
-class TeamRow(_ForbidExtra):
-    id_: int = pydantic.Field(alias="id")
-    name_normalized: str
-
-
-class Inserts(_ForbidExtra):
-    team_rows: list[TeamRow]
-
-
-def _handle_tournament(
-    year: int, extracted: bracket_utils.ExtractedTournament
-) -> Inserts:
-    # 1. `TeamRow` (allow duplicates across year and division)
-    team_rows: list[TeamRow] = []
-
-    return Inserts(team_rows=team_rows)
-
-
 class BracketInfoTuple(NamedTuple):
     weight: int
     division: bracket_utils.Division
@@ -69,19 +51,110 @@ class BracketInfo(_ForbidExtra):
         )
 
 
+class TeamRow(_ForbidExtra):
+    id_: int = pydantic.Field(alias="id")
+    name_normalized: str
+
+
+class TournamentTeamRow(_ForbidExtra):
+    id_: int = pydantic.Field(alias="id")
+    tournament_id: int
+    division: bracket_utils.Division
+    team_id: int
+    team_score: int | None
+    name: str
+    acronym: str | None
+    non_scoring: bool
+
+
+class TeamPointDeductionRow(_ForbidExtra):
+    id_: int = pydantic.Field(alias="id")
+    team_id: int
+    reason: str
+    amount: int
+
+
+class CompetitorRow(_ForbidExtra):
+    id_: int = pydantic.Field(alias="id")
+    full_name_normalized: str
+
+
+class TournamentCompetitorRow(_ForbidExtra):
+    id_: int = pydantic.Field(alias="id")
+    competitor_id: int
+    team_id: int
+    full_name: str
+    first_name: str
+    last_name: str
+
+
+class MatchRow(_ForbidExtra):
+    id_: int = pydantic.Field(alias="id")
+    bracket_id: int
+    bout_number: int | None
+    match_slot: bracket_utils.MatchSlot
+    top_competitor_id: int
+    bottom_competitor_id: int
+    top_win: bool | None
+    result: str
+    result_type: bracket_utils.ResultType
+    top_score: int | None
+    bottom_score: int | None
+    match_time_minutes: int | None
+    match_time_seconds: int | None
+
+
+class Inserts(_ForbidExtra):
+    team_rows: list[TeamRow]
+    tournament_team_rows: list[TournamentTeamRow]
+    team_point_deduction_rows: list[TeamPointDeductionRow]
+    competitor_rows: list[CompetitorRow]
+    tournament_competitor_rows: list[TournamentCompetitorRow]
+    match_rows: list[MatchRow]
+
+
+def _handle_tournament(
+    year: int,
+    tournament_id: int,
+    bracket_id_info: dict[BracketInfoTuple, int],
+    extracted: bracket_utils.ExtractedTournament,
+) -> Inserts:
+    # 1. `TeamRow` (allow duplicates across year and division)
+    team_rows: list[TeamRow] = []
+    # 2. `TournamentTeamRow`
+    tournament_team_rows: list[TournamentTeamRow] = []
+    # 3. `TeamPointDeductionRow`
+    team_point_deduction_rows: list[TeamPointDeductionRow] = []
+    # 4. `CompetitorRow` (allow duplicates across year)
+    competitor_rows: list[CompetitorRow] = []
+    # 5. `TournamentCompetitorRow`
+    tournament_competitor_rows: list[TournamentCompetitorRow] = []
+    # 6. `MatchRow`
+    match_rows: list[MatchRow] = []
+
+    return Inserts(
+        team_rows=team_rows,
+        tournament_team_rows=tournament_team_rows,
+        team_point_deduction_rows=team_point_deduction_rows,
+        competitor_rows=competitor_rows,
+        tournament_competitor_rows=tournament_competitor_rows,
+        match_rows=match_rows,
+    )
+
+
 def _handle_year(
     extracted_dir: pathlib.Path,
     year: int,
     filenames: dict[int, str],
     bracket_id_info: dict[BracketInfoTuple, int],
 ):
-    for _, filename in filenames.items():
+    for tournament_id, filename in filenames.items():
         with open(extracted_dir / filename) as file_obj:
             extracted = bracket_utils.ExtractedTournament.model_validate_json(
                 file_obj.read()
             )
 
-        _handle_tournament(year, extracted)
+        _handle_tournament(year, tournament_id, bracket_id_info, extracted)
 
         with open(extracted_dir / filename, "w") as file_obj:
             file_obj.write(extracted.model_dump_json(indent=2))

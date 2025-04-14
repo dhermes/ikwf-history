@@ -53,6 +53,16 @@ CREATE TABLE tournament (
 
 --------------------------------------------------------------------------------
 
+CREATE TABLE bracket (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  weight INTEGER NOT NULL,
+  division TEXT NOT NULL REFERENCES division(key),
+  tournament_id INTEGER NOT NULL REFERENCES tournament(id),
+  UNIQUE(weight, division, tournament_id)
+);
+
+--------------------------------------------------------------------------------
+
 -- NOTE: A `team` is the singular record for a club to be used across time. The
 --       name is `name_normalized` because team / club names were often
 --       recorded differently from year to year. For example:
@@ -85,16 +95,6 @@ CREATE TABLE tournament_team (
   --       a different name / different acronym.
   non_scoring BOOLEAN NOT NULL,
   UNIQUE(tournament_id, division, team_id, non_scoring)
-);
-
---------------------------------------------------------------------------------
-
-CREATE TABLE bracket (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  weight INTEGER NOT NULL,
-  division TEXT NOT NULL REFERENCES division(key),
-  tournament_id INTEGER NOT NULL REFERENCES tournament(id),
-  UNIQUE(weight, division, tournament_id)
 );
 
 --------------------------------------------------------------------------------
@@ -147,18 +147,6 @@ CREATE TABLE tournament_competitor (
 
 --------------------------------------------------------------------------------
 
-CREATE TABLE award_winner (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  tournament_id INTEGER NOT NULL REFERENCES tournament(id),
-  division TEXT NOT NULL REFERENCES division(key),
-  weight INTEGER NOT NULL,
-  award TEXT NOT NULL REFERENCES award(key),
-  competitor_id INTEGER REFERENCES tournament_competitor(id),
-  UNIQUE(tournament_id, division)
-);
-
---------------------------------------------------------------------------------
-
 CREATE TABLE match (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   bracket_id INTEGER REFERENCES bracket(id),
@@ -182,4 +170,16 @@ CREATE TABLE match (
     OR (top_win = FALSE AND bottom_competitor_id IS NOT NULL)
     OR (top_win IS NULL)
   ) -- Ensures winner cannot be `NULL`
+);
+
+--------------------------------------------------------------------------------
+
+CREATE TABLE award_winner (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  tournament_id INTEGER NOT NULL REFERENCES tournament(id),
+  division TEXT NOT NULL REFERENCES division(key),
+  weight INTEGER NOT NULL,
+  award TEXT NOT NULL REFERENCES award(key),
+  competitor_id INTEGER REFERENCES tournament_competitor(id),
+  UNIQUE(tournament_id, division)
 );
