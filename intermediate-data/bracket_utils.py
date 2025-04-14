@@ -22,7 +22,11 @@ WHERE
 """
 
 
-class CompetitorRaw(pydantic.BaseModel):
+class _ForbidExtra(pydantic.BaseModel):
+    model_config = pydantic.ConfigDict(extra="forbid")
+
+
+class CompetitorRaw(_ForbidExtra):
     name: str
     team: str
 
@@ -37,7 +41,7 @@ class CompetitorTuple(NamedTuple):
     team: str
 
 
-class Competitor(pydantic.BaseModel):
+class Competitor(_ForbidExtra):
     full_name: str
     first_name: str
     last_name: str
@@ -112,7 +116,7 @@ MatchSlot = Literal[
 BracketPosition = Literal["top", "bottom"]
 
 
-class MatchRaw(pydantic.BaseModel):
+class MatchRaw(_ForbidExtra):
     match_slot: MatchSlot
     top_competitor: CompetitorRaw | None
     bottom_competitor: CompetitorRaw | None
@@ -136,7 +140,7 @@ ResultType = Literal[
 ]
 
 
-class Match(pydantic.BaseModel):
+class Match(_ForbidExtra):
     match_slot: MatchSlot
     top_competitor: Competitor | None
     bottom_competitor: Competitor | None
@@ -158,31 +162,31 @@ Division = Literal[
 ]
 
 
-class WeightClass(pydantic.BaseModel):
+class WeightClass(_ForbidExtra):
     division: Division
     weight: int
     matches: list[Match]
 
 
-class TeamScore(pydantic.BaseModel):
+class TeamScore(_ForbidExtra):
     team: str
     acronym: str | None
     score: float
 
 
-class Deduction(pydantic.BaseModel):
+class Deduction(_ForbidExtra):
     team: str
     reason: str
     value: float
 
 
-class ExtractedTournament(pydantic.BaseModel):
+class ExtractedTournament(_ForbidExtra):
     weight_classes: list[WeightClass]
     team_scores: dict[Division, list[TeamScore]]
     deductions: list[Deduction]
 
 
-class CompetitorWithWeight(pydantic.BaseModel):
+class CompetitorWithWeight(_ForbidExtra):
     division: Division
     weight: int
     competitor: Competitor
@@ -1254,7 +1258,7 @@ def validate_acronym_mappings_divisions(
             raise RuntimeError("Invalid", key, novice_value, senior_value)
 
 
-class TeamScoreRow(pydantic.BaseModel):
+class TeamScoreRow(_ForbidExtra):
     id_: int = pydantic.Field(alias="id")
     tournament_id: int
     division: Division
@@ -1371,13 +1375,13 @@ def print_team_score_sql(team_scores: list[TeamScoreRow]) -> None:
         )
 
 
-class CompetitorRow(pydantic.BaseModel):
+class CompetitorRow(_ForbidExtra):
     id_: int = pydantic.Field(alias="id")
     first_name: str
     last_name: str
 
 
-class TeamCompetitorRow(pydantic.BaseModel):
+class TeamCompetitorRow(_ForbidExtra):
     id_: int = pydantic.Field(alias="id")
     team_id: int
     competitor_id: int
@@ -1400,7 +1404,7 @@ def _resolve_team_id(
     return team_name_mapping[team_name]
 
 
-class MappedCompetitors(pydantic.BaseModel):
+class MappedCompetitors(_ForbidExtra):
     competitor_rows: list[CompetitorRow]
     team_competitor_rows: list[TeamCompetitorRow]
     team_competitor_by_info: dict[CompetitorTuple, int]
@@ -1549,7 +1553,7 @@ def print_team_competitors_sql(team_competitor_rows: list[TeamCompetitorRow]) ->
         print(f"  ({row.id_}, {row.team_id}, {row.competitor_id}),")
 
 
-class MatchRow(pydantic.BaseModel):
+class MatchRow(_ForbidExtra):
     id_: int = pydantic.Field(alias="id")
     bracket_id: int
     bout_number: int | None
@@ -1563,7 +1567,7 @@ class MatchRow(pydantic.BaseModel):
     bottom_team_acronym: str | None
 
 
-class MappedMatches(pydantic.BaseModel):
+class MappedMatches(_ForbidExtra):
     match_rows: list[MatchRow]
     next_start_id: int
 
