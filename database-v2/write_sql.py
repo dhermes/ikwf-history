@@ -104,6 +104,15 @@ class MatchRow(_ForbidExtra):
     match_time_seconds: int | None
 
 
+class InsertIDs(_ForbidExtra):
+    next_team_id: int
+    next_tournament_team_id: int
+    next_team_point_deduction_id: int
+    next_competitor_id: int
+    next_tournament_competitor_id: int
+    next_match_id: int
+
+
 class Inserts(_ForbidExtra):
     team_rows: list[TeamRow]
     tournament_team_rows: list[TournamentTeamRow]
@@ -116,9 +125,10 @@ class Inserts(_ForbidExtra):
 def _handle_tournament(
     year: int,
     tournament_id: int,
+    insert_ids: InsertIDs,
     bracket_id_info: dict[BracketInfoTuple, int],
     extracted: bracket_utils.ExtractedTournament,
-) -> Inserts:
+) -> tuple[InsertIDs, Inserts]:
     # 1. `TeamRow` (allow duplicates across year and division)
     team_rows: list[TeamRow] = []
     # 2. `TournamentTeamRow`
@@ -132,7 +142,7 @@ def _handle_tournament(
     # 6. `MatchRow`
     match_rows: list[MatchRow] = []
 
-    return Inserts(
+    inserts = Inserts(
         team_rows=team_rows,
         tournament_team_rows=tournament_team_rows,
         team_point_deduction_rows=team_point_deduction_rows,
@@ -140,25 +150,31 @@ def _handle_tournament(
         tournament_competitor_rows=tournament_competitor_rows,
         match_rows=match_rows,
     )
+    return insert_ids, inserts  # TODO
 
 
 def _handle_year(
     extracted_dir: pathlib.Path,
     year: int,
+    insert_ids: InsertIDs,
     filenames: dict[int, str],
     bracket_id_info: dict[BracketInfoTuple, int],
-):
+) -> InsertIDs:
     for tournament_id, filename in filenames.items():
         with open(extracted_dir / filename) as file_obj:
             extracted = bracket_utils.ExtractedTournament.model_validate_json(
                 file_obj.read()
             )
 
-        _handle_tournament(year, tournament_id, bracket_id_info, extracted)
+        insert_ids, _ = _handle_tournament(
+            year, tournament_id, insert_ids, bracket_id_info, extracted
+        )
 
         with open(extracted_dir / filename, "w") as file_obj:
             file_obj.write(extracted.model_dump_json(indent=2))
             file_obj.write("\n")
+
+    return insert_ids
 
 
 def _write_brackets_sql() -> dict[BracketInfoTuple, int]:
@@ -240,8 +256,18 @@ def main():
 
     extracted_dir = HERE.parent / "intermediate-data"
     filenames_by_year = _get_filenames_by_year()
+    insert_ids = InsertIDs(
+        next_team_id=1,
+        next_tournament_team_id=1,
+        next_team_point_deduction_id=1,
+        next_competitor_id=1,
+        next_tournament_competitor_id=1,
+        next_match_id=1,
+    )
     for year, filenames in filenames_by_year.items():
-        _handle_year(extracted_dir, year, filenames, bracket_id_info)
+        insert_ids = _handle_year(
+            extracted_dir, year, insert_ids, filenames, bracket_id_info
+        )
 
 
 if __name__ == "__main__":
