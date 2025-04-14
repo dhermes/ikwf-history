@@ -2,7 +2,7 @@
 
 import pathlib
 import sqlite3
-from typing import NamedTuple
+from typing import NamedTuple, TypeVar
 
 import pydantic
 
@@ -122,6 +122,52 @@ class Inserts(_ForbidExtra):
     match_rows: list[MatchRow]
 
 
+K = TypeVar("K")
+V = TypeVar("V")
+
+
+def _insert_only(data: dict[K, V], key: K, value: V) -> None:
+    if key in data:
+        raise KeyError("Duplicate", key, data[key], value)
+    data[key] = value
+
+
+def _build_team_maps(
+    extracted: bracket_utils.ExtractedTournament,
+) -> tuple[
+    dict[bracket_utils.Division, dict[str, str]],
+    dict[bracket_utils.Division, dict[str, str | None]],
+]:
+    by_acronym: dict[bracket_utils.Division, dict[str, str]] = {}
+    by_name: dict[bracket_utils.Division, dict[str, str | None]] = {}
+
+    for division, team_scores in extracted.team_scores.items():
+        by_acronym.setdefault(division, {})
+        by_name.setdefault(division, {})
+
+        for team_score in team_scores:
+            _insert_only(by_name[division], team_score.team, team_score.acronym)
+            if team_score.acronym is not None:
+                _insert_only(by_acronym[division], team_score.acronym, team_score.team)
+
+    for weight_class in extracted.weight_classes:
+        division = weight_class.division
+        division_by_acronym = by_acronym.setdefault(division, {})
+        division_by_name = by_name.setdefault(division, {})
+
+        for match in weight_class.matches:
+            top_team = None
+            bottom_team = None
+            if match.top_competitor is not None:
+                top_team = match.top_competitor.team
+            if match.bottom_competitor is not None:
+                bottom_team = match.bottom_competitor.team
+
+    # TODO: Use weight_classes: list[WeightClass]
+    # TODO: Use deductions: list[Deduction]
+    return by_acronym, by_name
+
+
 def _handle_tournament(
     year: int,
     tournament_id: int,
@@ -130,6 +176,8 @@ def _handle_tournament(
     bracket_id_info: dict[BracketInfoTuple, int],
     extracted: bracket_utils.ExtractedTournament,
 ) -> InsertIDs:
+    team_by_acronym, team_by_name = _build_team_maps(extracted)
+
     # 1. `TeamRow` (allow duplicates across year and division)
     # 2. `TournamentTeamRow`
     # 3. `TeamPointDeductionRow`
