@@ -72,13 +72,51 @@ Division = Literal[
     "intermediate",
     "novice",
     "senior",
-    "novice_iwf",
-    "senior_iwf",
     "bantam_girls",
     "intermediate_girls",
     "novice_girls",
     "senior_girls",
+    "junior_iwf",
+    "novice_iwf",
+    "senior_iwf",
 ]
+
+
+def division_sort_key(division: Division) -> int:
+    if division == "bantam":
+        return 1
+
+    if division == "intermediate":
+        return 2
+
+    if division == "novice":
+        return 3
+
+    if division == "senior":
+        return 4
+
+    if division == "bantam_girls":
+        return 5
+
+    if division == "intermediate_girls":
+        return 6
+
+    if division == "novice_girls":
+        return 7
+
+    if division == "senior_girls":
+        return 8
+
+    if division == "junior_iwf":
+        return 9
+
+    if division == "novice_iwf":
+        return 10
+
+    if division == "senior_iwf":
+        return 11
+
+    raise NotImplementedError(division)
 
 
 ResultType = Literal[
@@ -134,3 +172,11 @@ class ExtractedTournament(_ForbidExtra):
     weight_classes: list[WeightClass]
     team_scores: dict[Division, list[TeamScore]]
     deductions: list[Deduction]
+
+
+WeightClassesByDivision = dict[Division, tuple[int, ...]]
+WeightClassesByTournament = dict[int, WeightClassesByDivision]
+
+
+class WeightClassesByYear(pydantic.RootModel[dict[int, WeightClassesByTournament]]):
+    pass

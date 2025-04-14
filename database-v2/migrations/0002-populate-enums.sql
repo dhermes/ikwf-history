@@ -24,7 +24,10 @@ VALUES
   (5, 'bantam_girls'),
   (6, 'intermediate_girls'),
   (7, 'novice_girls'),
-  (8, 'senior_girls');
+  (8, 'senior_girls'),
+  (9, 'junior_iwf'),
+  (10, 'novice_iwf'),
+  (11, 'senior_iwf');
 
 --------------------------------------------------------------------------------
 
