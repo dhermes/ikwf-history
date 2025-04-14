@@ -21,79 +21,92 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         full_name="Tyrone Sally Jr.",
         first_name="Tyrone",
         last_name="Sally",
-        team_acronym="Harvey Park Dist Twisters",
+        team_full="Harvey Park Dist Twisters",
+        team_acronym=None,  # TODO
     ),
     ("Wardell Rosemon Jr.", "Dundee Highlanders"): bracket_utils.Competitor(
         full_name="Wardell Rosemon Jr.",
         first_name="Wardell",
         last_name="Rosemon",
-        team_acronym="Dundee Highlanders",
+        team_full="Dundee Highlanders",
+        team_acronym=None,  # TODO
     ),
     ("Archie Williams Jr.", "Champaign Kids Wrestling"): bracket_utils.Competitor(
         full_name="Archie Williams Jr.",
         first_name="Archie",
         last_name="Williams",
-        team_acronym="Champaign Kids Wrestling",
+        team_full="Champaign Kids Wrestling",
+        team_acronym=None,  # TODO
     ),
     ("Anthony Ferraris Jr", "Maine Eagles WC"): bracket_utils.Competitor(
         full_name="Anthony Ferraris Jr",
         first_name="Anthony",
         last_name="Ferraris",
-        team_acronym="Maine Eagles WC",
+        team_full="Maine Eagles WC",
+        team_acronym=None,  # TODO
     ),
     ("Lusiano Cantu Jr.", "Gomez Wrestling Academy"): bracket_utils.Competitor(
         full_name="Lusiano Cantu Jr.",
         first_name="Lusiano",
         last_name="Cantu",
-        team_acronym="Gomez Wrestling Academy",
+        team_full="Gomez Wrestling Academy",
+        team_acronym=None,  # TODO
     ),
     ("Antwyone Brown Jr.", "Crosstown WC"): bracket_utils.Competitor(
         full_name="Antwyone Brown Jr.",
         first_name="Antwyone",
         last_name="Brown",
-        team_acronym="Crosstown WC",
+        team_full="Crosstown WC",
+        team_acronym=None,  # TODO
     ),
     ("Brendan Tyler Hall", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
         full_name="Brendan Tyler Hall",
         first_name="Brendan Tyler",
         last_name="Hall",
-        team_acronym="Harvey Park Dist Twisters",
+        team_full="Harvey Park Dist Twisters",
+        team_acronym=None,  # TODO
     ),
     ("Lonne Cleveland III", "GC Jr Warriors"): bracket_utils.Competitor(
         full_name="Lonne Cleveland III",
         first_name="Lonne",
         last_name="Cleveland",
-        team_acronym="GC Jr Warriors",
+        team_full="GC Jr Warriors",
+        team_acronym=None,  # TODO
     ),
     ("Aaron Brewton II", "Waukegan Youth WC"): bracket_utils.Competitor(
         full_name="Aaron Brewton II",
         first_name="Aaron",
         last_name="Brewton",
-        team_acronym="Waukegan Youth WC",
+        team_full="Waukegan Youth WC",
+        team_acronym=None,  # TODO
     ),
     ("Malik - Jabri Taylor", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
         full_name="Malik - Jabri Taylor",
         first_name="Malik - Jabri",
         last_name="Taylor",
-        team_acronym="Harvey Park Dist Twisters",
+        team_full="Harvey Park Dist Twisters",
+        team_acronym=None,  # TODO
     ),
     ("Michael Aldrich Jr", "Peoria Razorbacks Youth WC"): bracket_utils.Competitor(
         full_name="Michael Aldrich Jr",
         first_name="Michael",
         last_name="Aldrich",
-        team_acronym="Peoria Razorbacks Youth WC",
+        team_full="Peoria Razorbacks Youth WC",
+        team_acronym=None,  # TODO
     ),
     ("Ross Ferraro III", "Gomez Wrestling Academy"): bracket_utils.Competitor(
         full_name="Ross Ferraro III",
         first_name="Ross",
         last_name="Ferraro",
-        team_acronym="Gomez Wrestling Academy",
+        team_full="Gomez Wrestling Academy",
+        team_acronym=None,  # TODO
     ),
     ("Alvin Foster III", "Harvey Park Dist Twisters"): bracket_utils.Competitor(
         full_name="Alvin Foster III",
         first_name="Alvin",
         last_name="Foster",
-        team_acronym="Harvey Park Dist Twisters",
+        team_full="Harvey Park Dist Twisters",
+        team_acronym=None,  # TODO
     ),
 }
 _TEAM_FIXES: dict[str, tuple[str, str]] = {}

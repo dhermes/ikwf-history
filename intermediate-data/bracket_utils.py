@@ -38,16 +38,16 @@ class CompetitorRaw(_ForbidExtra):
 class CompetitorTuple(NamedTuple):
     first_name: str
     last_name: str
-    team_acronym: str
-    # TODO: team_full
+    team_full: str
+    team_acronym: str | None
 
 
 class Competitor(_ForbidExtra):
     full_name: str
     first_name: str
     last_name: str
-    team_acronym: str
-    # TODO: team_full
+    team_full: str
+    team_acronym: str | None
 
     @property
     def as_tuple(self) -> CompetitorTuple:
@@ -55,8 +55,8 @@ class Competitor(_ForbidExtra):
         return CompetitorTuple(
             first_name=self.first_name,
             last_name=self.last_name,
+            team_full=self.team_full,
             team_acronym=self.team_acronym,
-            # TODO: team_full
         )
 
 
@@ -294,6 +294,7 @@ def competitor_from_raw(
         full_name=value.name,
         first_name=parts[0],
         last_name=parts[1],
+        team_full="",  # TODO
         team_acronym=value.team,
     )
 

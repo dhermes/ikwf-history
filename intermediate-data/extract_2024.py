@@ -21,25 +21,29 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         full_name="",
         first_name="Aaron",
         last_name="Griffin",
-        team_acronym="Harvey Twisters WC",
+        team_full="Harvey Twisters WC",
+        team_acronym=None,  # TODO
     ),
     ("Antonio Reyes Ii", "Beat the Streets Chicago-Avondale"): bracket_utils.Competitor(
         full_name="",
         first_name="Antonio",
         last_name="Reyes",
-        team_acronym="Beat the Streets Chicago-Avondale",
+        team_full="Beat the Streets Chicago-Avondale",
+        team_acronym=None,  # TODO
     ),
     ("Blake Vande Loo", "Batavia WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Blake",
         last_name="Vande Loo",
-        team_acronym="Batavia WC",
+        team_full="Batavia WC",
+        team_acronym=None,  # TODO
     ),
     ("Caden St Angelo", "PSF Wrestling Academy"): bracket_utils.Competitor(
         full_name="",
         first_name="Caden",
         last_name="St Angelo",
-        team_acronym="PSF Wrestling Academy",
+        team_full="PSF Wrestling Academy",
+        team_acronym=None,  # TODO
     ),
     (
         "Carl Cody Weidner",
@@ -48,7 +52,8 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         full_name="",
         first_name="Carl Cody",
         last_name="Weidner",
-        team_acronym="Combative Sports Athletic Center Wrestling",
+        team_full="Combative Sports Athletic Center Wrestling",
+        team_acronym=None,  # TODO
     ),
     (
         "Cecilia Van Oppen",
@@ -57,67 +62,78 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         full_name="",
         first_name="Cecilia",
         last_name="Van Oppen",
-        team_acronym="East Peoria River Bandits Wrestling",
+        team_full="East Peoria River Bandits Wrestling",
+        team_acronym=None,  # TODO
     ),
     ("Dalton St Angelo", "PSF Wrestling Academy"): bracket_utils.Competitor(
         full_name="",
         first_name="Dalton",
         last_name="St Angelo",
-        team_acronym="PSF Wrestling Academy",
+        team_full="PSF Wrestling Academy",
+        team_acronym=None,  # TODO
     ),
     ("David Pointer Jr", "East St. Louis WC"): bracket_utils.Competitor(
         full_name="",
         first_name="David",
         last_name="Pointer",
-        team_acronym="East St. Louis WC",
+        team_full="East St. Louis WC",
+        team_acronym=None,  # TODO
     ),
     ("Eddie Woody Jr.", "Edwardsville WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Eddie",
         last_name="Woody",
-        team_acronym="Edwardsville WC",
+        team_full="Edwardsville WC",
+        team_acronym=None,  # TODO
     ),
     ("Glenn Harston Iii", "Harvey Twisters WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Glenn",
         last_name="Harston",
-        team_acronym="Harvey Twisters WC",
+        team_full="Harvey Twisters WC",
+        team_acronym=None,  # TODO
     ),
     ("Lesly De La Cruz", "Blue Crew WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Lesly",
         last_name="De La Cruz",
-        team_acronym="Blue Crew WC",
+        team_full="Blue Crew WC",
+        team_acronym=None,  # TODO
     ),
     ("Mia Izabella Nevarez", "West Suburban Girls WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Mia Izabella",
         last_name="Nevarez",
-        team_acronym="West Suburban Girls WC",
+        team_full="West Suburban Girls WC",
+        team_acronym=None,  # TODO
     ),
     ("Pedro Alberto Rangel", "Storm Youth WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Pedro Alberto",
         last_name="Rangel",
-        team_acronym="Storm Youth WC",
+        team_full="Storm Youth WC",
+        team_acronym=None,  # TODO
     ),
     ("Robert Wiggins Jr", "East St. Louis WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Robert",
         last_name="Wiggins",
-        team_acronym="East St. Louis WC",
+        team_full="East St. Louis WC",
+        team_acronym=None,  # TODO
     ),
     ("Rogelio Del Muro", "nWo WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Rogelio",
         last_name="Del Muro",
-        team_acronym="nWo WC",
+        team_full="nWo WC",
+        team_acronym=None,  # TODO
     ),
     ("Travis Hinton Jr", "Toss Em Up Wrestling Academy"): bracket_utils.Competitor(
         full_name="",
         first_name="Travis",
         last_name="Hinton",
-        team_acronym="Toss Em Up Wrestling Academy",
+        team_full="Toss Em Up Wrestling Academy",
+        team_acronym=None,  # TODO
     ),
 }
 _TEAM_FIXES: dict[str, tuple[str, str]] = {

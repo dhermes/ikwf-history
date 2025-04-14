@@ -19,85 +19,99 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         full_name="",
         first_name="Aaron",
         last_name="Brewton",
-        team_acronym="WAUKEGAN YOUTH WC",
+        team_full="WAUKEGAN YOUTH WC",
+        team_acronym=None,  # TODO
     ),
     ("Alvin Foster III", "HARVEY PARK DIST TWISTERS"): bracket_utils.Competitor(
         full_name="",
         first_name="Alvin",
         last_name="Foster",
-        team_acronym="HARVEY PARK DIST TWISTERS",
+        team_full="HARVEY PARK DIST TWISTERS",
+        team_acronym=None,  # TODO
     ),
     ("Anthony Ferraris Jr", "MAINE EAGLES THE ELITE WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Anthony",
         last_name="Ferraris",
-        team_acronym="MAINE EAGLES THE ELITE WC",
+        team_full="MAINE EAGLES THE ELITE WC",
+        team_acronym=None,  # TODO
     ),
     ("Archie Williams Jr", "CHAMPAIGN KIDS WRESTLING"): bracket_utils.Competitor(
         full_name="",
         first_name="Archie",
         last_name="Williams",
-        team_acronym="CHAMPAIGN KIDS WRESTLING",
+        team_full="CHAMPAIGN KIDS WRESTLING",
+        team_acronym=None,  # TODO
     ),
     ("Brendan Tyler Hall", "HARVEY PARK DIST TWISTERS"): bracket_utils.Competitor(
         full_name="",
         first_name="Brendan Tyler",
         last_name="Hall",
-        team_acronym="HARVEY PARK DIST TWISTERS",
+        team_full="HARVEY PARK DIST TWISTERS",
+        team_acronym=None,  # TODO
     ),
     ("Greg Jacquez III", "BLACKHAWK WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Greg",
         last_name="Jacquez",
-        team_acronym="BLACKHAWK WC",
+        team_full="BLACKHAWK WC",
+        team_acronym=None,  # TODO
     ),
     ("John Paul Stedwill", "CHILLI DAWGS WC"): bracket_utils.Competitor(
         full_name="",
         first_name="John Paul",
         last_name="Stedwill",
-        team_acronym="CHILLI DAWGS WC",
+        team_full="CHILLI DAWGS WC",
+        team_acronym=None,  # TODO
     ),
     ("Ken Raap Jr", "PALATINE PANTHERS WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Ken",
         last_name="Raap",
-        team_acronym="PALATINE PANTHERS WC",
+        team_full="PALATINE PANTHERS WC",
+        team_acronym=None,  # TODO
     ),
     ("Lonnie Cleveland III", "GC JR WARRIORS"): bracket_utils.Competitor(
         full_name="",
         first_name="Lonnie",
         last_name="Cleveland",
-        team_acronym="GC JR WARRIORS",
+        team_full="GC JR WARRIORS",
+        team_acronym=None,  # TODO
     ),
     ("Michael Johnson Jr", "ROMEOVILLE YOUTH WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Michael",
         last_name="Johnson",
-        team_acronym="ROMEOVILLE YOUTH WC",
+        team_full="ROMEOVILLE YOUTH WC",
+        team_acronym=None,  # TODO
     ),
     ("Miguel Silva Jr", "MARTINEZ FOX VALLEY ELITE"): bracket_utils.Competitor(
         full_name="",
         first_name="Miguel",
         last_name="Silva",
-        team_acronym="MARTINEZ FOX VALLEY ELITE",
+        team_full="MARTINEZ FOX VALLEY ELITE",
+        team_acronym=None,  # TODO
     ),
     ("Terry Calkins Jr.", "MAINE EAGLES THE ELITE WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Terry",
         last_name="Calkins",
-        team_acronym="MAINE EAGLES THE ELITE WC",
+        team_full="MAINE EAGLES THE ELITE WC",
+        team_acronym=None,  # TODO
     ),
     ("Travis Flute Jr", "A-J JUNIOR WILDCATS"): bracket_utils.Competitor(
         full_name="",
         first_name="Travis",
         last_name="Flute",
-        team_acronym="A-J JUNIOR WILDCATS",
+        team_full="A-J JUNIOR WILDCATS",
+        team_acronym=None,  # TODO
     ),
     ("Wardell Rosemon Jr.", "DUNDEE HIGHLANDERS"): bracket_utils.Competitor(
         full_name="",
         first_name="Wardell",
         last_name="Rosemon",
-        team_acronym="DUNDEE HIGHLANDERS",
+        team_full="DUNDEE HIGHLANDERS",
+        team_acronym=None,  # TODO
     ),
 }
 _TEAM_FIXES: dict[str, tuple[str, str]] = {}

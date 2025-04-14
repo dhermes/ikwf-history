@@ -20,55 +20,64 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         full_name="",
         first_name="Blake",
         last_name="Vande Loo",
-        team_acronym="Batavia WC",
+        team_full="Batavia WC",
+        team_acronym=None,  # TODO
     ),
     ("Carl Cody Weidner", "Highland Bulldog Jr. WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Carl Cody",
         last_name="Weidner",
-        team_acronym="Highland Bulldog Jr. WC",
+        team_full="Highland Bulldog Jr. WC",
+        team_acronym=None,  # TODO
     ),
     ("Gabriel Del Toro", "TJ Trained Wrestling"): bracket_utils.Competitor(
         full_name="",
         first_name="Gabriel",
         last_name="Del Toro",
-        team_acronym="TJ Trained Wrestling",
+        team_full="TJ Trained Wrestling",
+        team_acronym=None,  # TODO
     ),
     ("James Talley Jr", "Lincoln-Way WC"): bracket_utils.Competitor(
         full_name="",
         first_name="James",
         last_name="Talley",
-        team_acronym="Lincoln-Way WC",
+        team_full="Lincoln-Way WC",
+        team_acronym=None,  # TODO
     ),
     ("Jesus Reyes Jr.", "Dundee Highlanders WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Jesus",
         last_name="Reyes",
-        team_acronym="Dundee Highlanders WC",
+        team_full="Dundee Highlanders WC",
+        team_acronym=None,  # TODO
     ),
     ("Jose Octavio Velazquez", "Scorpion WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Jose Octavio",
         last_name="Velazquez",
-        team_acronym="Scorpion WC",
+        team_full="Scorpion WC",
+        team_acronym=None,  # TODO
     ),
     ("Orlando Hoye Iii", "Glenbard East Jr Rams WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Orlando",
         last_name="Hoye",
-        team_acronym="Glenbard East Jr Rams WC",
+        team_full="Glenbard East Jr Rams WC",
+        team_acronym=None,  # TODO
     ),
     ("Pedro Alberto Rangel", "Storm Youth WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Pedro Alberto",
         last_name="Rangel",
-        team_acronym="Storm Youth WC",
+        team_full="Storm Youth WC",
+        team_acronym=None,  # TODO
     ),
     ("Trae Jackson Griffiths", "Champaign WC"): bracket_utils.Competitor(
         full_name="",
         first_name="Trae Jackson",
         last_name="Griffiths",
-        team_acronym="Champaign WC",
+        team_full="Champaign WC",
+        team_acronym=None,  # TODO
     ),
 }
 _TEAM_FIXES: dict[str, tuple[str, str]] = {}
