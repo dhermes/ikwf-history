@@ -159,9 +159,9 @@ def _build_team_maps(
             top_team = None
             bottom_team = None
             if match.top_competitor is not None:
-                top_team = match.top_competitor.team
+                top_team = match.top_competitor.team_full
             if match.bottom_competitor is not None:
-                bottom_team = match.bottom_competitor.team
+                bottom_team = match.bottom_competitor.team_full
 
     # TODO: Use weight_classes: list[WeightClass]
     # TODO: Use deductions: list[Deduction]
