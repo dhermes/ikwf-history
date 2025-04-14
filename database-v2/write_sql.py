@@ -51,20 +51,6 @@ def _handle_tournament(
     return Inserts(team_rows=team_rows)
 
 
-def _handle_year(extracted_dir: pathlib.Path, year: int, filenames: dict[int, str]):
-    for _, filename in filenames.items():
-        with open(extracted_dir / filename) as file_obj:
-            extracted = bracket_utils.ExtractedTournament.model_validate_json(
-                file_obj.read()
-            )
-
-        _handle_tournament(year, extracted)
-
-        with open(extracted_dir / filename, "w") as file_obj:
-            file_obj.write(extracted.model_dump_json(indent=2))
-            file_obj.write("\n")
-
-
 class BracketInfoTuple(NamedTuple):
     weight: int
     division: bracket_utils.Division
@@ -83,7 +69,26 @@ class BracketInfo(_ForbidExtra):
         )
 
 
-def _write_brackets_sql() -> dict[BracketInfo, int]:
+def _handle_year(
+    extracted_dir: pathlib.Path,
+    year: int,
+    filenames: dict[int, str],
+    bracket_id_info: dict[BracketInfoTuple, int],
+):
+    for _, filename in filenames.items():
+        with open(extracted_dir / filename) as file_obj:
+            extracted = bracket_utils.ExtractedTournament.model_validate_json(
+                file_obj.read()
+            )
+
+        _handle_tournament(year, extracted)
+
+        with open(extracted_dir / filename, "w") as file_obj:
+            file_obj.write(extracted.model_dump_json(indent=2))
+            file_obj.write("\n")
+
+
+def _write_brackets_sql() -> dict[BracketInfoTuple, int]:
     with open(HERE / "_weight-classes.json") as file_obj:
         weight_classes = bracket_utils.WeightClassesByYear.model_validate_json(
             file_obj.read()
@@ -163,7 +168,7 @@ def main():
     extracted_dir = HERE.parent / "intermediate-data"
     filenames_by_year = _get_filenames_by_year()
     for year, filenames in filenames_by_year.items():
-        _handle_year(extracted_dir, year, filenames)
+        _handle_year(extracted_dir, year, filenames, bracket_id_info)
 
 
 if __name__ == "__main__":
