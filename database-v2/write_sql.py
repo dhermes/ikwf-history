@@ -271,6 +271,10 @@ def _add_team_rows(
             insert_ids.next_tournament_team_id += 1
 
     # 3. `TeamPointDeductionRow`
+    if tournament_id in (30, 31, 32, 33, 34, 35, 36):
+        # Temporarily ignore new years
+        return
+
     for deduction in extracted.deductions:
         amount_float = deduction.value
         amount = -int(amount_float)
