@@ -2,7 +2,7 @@
 
 import pathlib
 import sqlite3
-from typing import NamedTuple, TypeVar
+from typing import Literal, NamedTuple, TypeVar
 
 import bracket_utils
 import pydantic
@@ -30,6 +30,23 @@ def _validate_division_sort_key():
         sort_id = bracket_utils.division_sort_key(division)
         if actual_id != sort_id:
             raise ValueError("Mismatch", division, actual_id, sort_id)
+
+
+def _validate_get_match_slot_id():
+    with sqlite3.connect(HERE / "ikwf.sqlite") as connection:
+        connection.row_factory = sqlite3.Row
+
+        cursor = connection.cursor()
+        cursor.execute("SELECT id, key FROM match_slot")
+        match_slot_rows = [dict(row) for row in cursor.fetchall()]
+        cursor.close()
+
+    for match_slot_row in match_slot_rows:
+        actual_id = match_slot_row["id"]
+        match_slot = match_slot_row["key"]
+        match_slot_id = bracket_utils.get_match_slot_id(match_slot)
+        if actual_id != match_slot_id:
+            raise ValueError("Mismatch", match_slot, actual_id, match_slot_id)
 
 
 class BracketInfoTuple(NamedTuple):
@@ -313,6 +330,118 @@ def _add_team_rows(
             insert_ids.next_team_point_deduction_id += 1
 
 
+def _get_match_map(
+    weight_class: bracket_utils.WeightClass,
+) -> dict[int, bracket_utils.Match]:
+    result: dict[int, bracket_utils.Match] = {}
+    for match in weight_class.matches:
+        match_slot_id = bracket_utils.get_match_slot_id(match.match_slot)
+        _insert_only(result, match_slot_id, match)
+
+    return result
+
+
+class CompetitorTuple(NamedTuple):
+    """Simple hashable type used to find unique competitors in a bracket."""
+
+    full_name: str
+    team: str
+
+
+BracketPosition = Literal["top", "bottom"]
+
+
+def _get_competitor_tuple(
+    match: bracket_utils.Match, bracket_position: BracketPosition
+) -> CompetitorTuple | None:
+    if bracket_position == "top":
+        if match.top_competitor is not None:
+            return CompetitorTuple(
+                full_name=match.top_competitor.full_name,
+                team=match.top_competitor.team_full,
+            )
+    elif bracket_position == "bottom":
+        if match.bottom_competitor is not None:
+            return CompetitorTuple(
+                full_name=match.bottom_competitor.full_name,
+                team=match.bottom_competitor.team_full,
+            )
+    else:
+        raise NotImplementedError(bracket_position)
+
+    return None
+
+
+def _maybe_add_competitor_tuple(
+    match: bracket_utils.Match,
+    bracket_position: BracketPosition,
+    competitor_map: dict[CompetitorTuple, int],
+) -> None:
+    competitor_tuple = _get_competitor_tuple(match, bracket_position)
+    if competitor_tuple is None:
+        return
+
+    if competitor_tuple in competitor_map:
+        return
+
+    competitor_id = len(competitor_map)
+    competitor_map[competitor_tuple] = competitor_id
+    if len(set(competitor_map.values())) != len(competitor_map):
+        raise ValueError("Duplicate competitor (tuple) IDs", competitor_map)
+
+
+def _get_competitor_map(
+    match_map: dict[int, bracket_utils.Match],
+) -> dict[CompetitorTuple, int]:
+    result: dict[CompetitorTuple, int] = {}
+
+    # Only consider competitors from the championship side **FIRST**
+    # (where the match ordering is somewhat reliable)
+    for match_slot_id in range(1, 55):
+        match = match_map.get(match_slot_id)
+        if match is None:
+            continue
+
+        if not match.match_slot.startswith("championship_"):
+            continue
+
+        _maybe_add_competitor_tuple(match, "top", result)
+        _maybe_add_competitor_tuple(match, "bottom", result)
+
+    # Now consider competitors from the consolation and place matches
+    # (e.g. for 1999 where we have partial brackets)
+    for match_slot_id in range(1, 55):
+        match = match_map.get(match_slot_id)
+        if match is None:
+            continue
+
+        if match.match_slot.startswith("championship_"):
+            continue
+
+        _maybe_add_competitor_tuple(match, "top", result)
+        _maybe_add_competitor_tuple(match, "bottom", result)
+
+    if len(result) > 24:
+        raise RuntimeError("Unexpected competitor (tuple) map")
+
+    return result
+
+
+def _handle_weight_class(
+    bracket_id: int,
+    weight_class: bracket_utils.WeightClass,
+    insert_ids: InsertIDs,
+    inserts: Inserts,
+):
+    match_map = _get_match_map(weight_class)
+    competitor_map = _get_competitor_map(match_map)
+    # 4. `CompetitorRow` (allow duplicates across year)
+    # 5. `TournamentCompetitorRow`
+    # 6. `MatchRow`
+    if len(competitor_map) == -1:
+        raise NotImplementedError
+
+
 def _handle_tournament(
     year: int,
     tournament_id: int,
@@ -327,9 +456,10 @@ def _handle_tournament(
         tournament_id, insert_ids, inserts, team_by_name, extracted, team_name_synonyms
     )
 
-    # 4. `CompetitorRow` (allow duplicates across year)
-    # 5. `TournamentCompetitorRow`
-    # 6. `MatchRow`
+    for weight_class in extracted.weight_classes:
+        key = weight_class.weight, weight_class.division, tournament_id
+        bracket_id = bracket_id_info[key]
+        _handle_weight_class(bracket_id, weight_class, insert_ids, inserts)
 
     return insert_ids
 
@@ -569,6 +699,7 @@ def _write_team_point_deductions_sql(inserts: Inserts) -> None:
 
 def main():
     _validate_division_sort_key()
+    _validate_get_match_slot_id()
     bracket_id_info = _write_brackets_sql()
 
     extracted_dir = HERE.parent / "intermediate-data"
