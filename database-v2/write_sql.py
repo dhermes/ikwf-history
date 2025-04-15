@@ -244,6 +244,10 @@ def _match_deduction(
     return result
 
 
+def _deductions_sort_key(deduction: bracket_utils.Deduction):
+    return deduction.team, deduction.reason, deduction.value
+
+
 def _add_team_rows(
     tournament_id: int,
     insert_ids: InsertIDs,
@@ -283,7 +287,8 @@ def _add_team_rows(
 
     # 3. `TeamPointDeductionRow`
     tournament_synonyms = team_name_synonyms.get(tournament_id, [])
-    for deduction in extracted.deductions:
+    sorted_deductions = sorted(extracted.deductions, key=_deductions_sort_key)
+    for deduction in sorted_deductions:
         amount_float = deduction.value
         amount = -int(amount_float)
         if amount != -amount_float:
