@@ -3,9 +3,8 @@
 import json
 import pathlib
 
-import bs4
-
 import bracket_utils
+import bs4
 import trackwrestling
 
 HERE = pathlib.Path(__file__).resolve().parent

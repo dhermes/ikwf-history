@@ -64,13 +64,17 @@ def _score_split(
     score_win_str, score_lose_str = parts
     try:
         score_win = int(score_win_str)
-    except:
-        raise ValueError("Score not an integer", score_win_str, score_text, result)
+    except ValueError as exc:
+        raise ValueError(
+            "Score not an integer", score_win_str, score_text, result
+        ) from exc
 
     try:
         score_lose = int(score_lose_str)
-    except:
-        raise ValueError("Score not an integer", score_lose_str, score_text, result)
+    except ValueError as exc:
+        raise ValueError(
+            "Score not an integer", score_lose_str, score_text, result
+        ) from exc
 
     if score_win < score_lose:
         score_win, score_lose = score_lose, score_win
@@ -141,9 +145,8 @@ def _handle_tech_fall(
     if len(parts) > 2:
         raise NotImplementedError(result)
 
-    if len(parts) == 2:
-        if _MATCH_TIME_RE.match(parts[1]) is None:
-            raise ValueError("Unexpected 2nd part in Tech Fall", result)
+    if len(parts) == 2 and _MATCH_TIME_RE.match(parts[1]) is None:
+        raise ValueError("Unexpected 2nd part in Tech Fall", result)
 
     return _score_split(result, parts[0], top_win)
 

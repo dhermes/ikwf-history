@@ -3,9 +3,8 @@
 import functools
 import pathlib
 
-import bs4
-
 import bracket_utils
+import bs4
 
 HERE = pathlib.Path(__file__).resolve().parent
 EMPTY_SLOT = "                          "
@@ -187,7 +186,8 @@ NOVICE_TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "YOU": "YOUNG CHAMPIONS",
 }
 SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
-    "ADA": "ADDISON ANIMALS",  # Duplicate (team name shows up twice in Senior Team Scores)
+    # ADA: Duplicate (team name shows up twice in Senior Team Scores)
+    "ADA": "ADDISON ANIMALS",
     "BGP": "BOYS & GIRLS CLUB",  # ... of Pekin
     "BRL": "BRAWLERS WC",
     "BWC": "BRAWLERS WC (2)",
@@ -198,7 +198,8 @@ SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "CLW": "CRYSTAL LAKE WIZARDS",
     "DC": "DUNDEE CARPETERVILL",
     "DEC": "DECATUR WC",
-    "EMS": "ERIE MIDDLE SCHOOL W",  # Duplicate (team name shows up twice in Senior Team Scores)
+    # EMS: Duplicate (team name shows up twice in Senior Team Scores)
+    "EMS": "ERIE MIDDLE SCHOOL W",
     "EP": "EDISON PANTHERS",
     "FVC": "FOX VALLEY CRONE WC",
     "FWC": "FISHER WC",

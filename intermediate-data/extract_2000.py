@@ -3,9 +3,8 @@
 import functools
 import pathlib
 
-import bs4
-
 import bracket_utils
+import bs4
 
 HERE = pathlib.Path(__file__).resolve().parent
 EMPTY_SLOT = "                          "

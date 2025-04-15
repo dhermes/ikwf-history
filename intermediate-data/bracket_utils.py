@@ -7,7 +7,6 @@ from typing import Literal, NamedTuple
 import bs4
 import pydantic
 
-
 # NOTE: In some years, a clearly accidentally added team name appeared in team
 #       scores.
 _TEAM_SCORE_ACCIDENTAL: frozenset[str] = frozenset(["Mike", "TEST"])
@@ -463,9 +462,10 @@ def clean_raw_matches(
         ):
             top_win = False
 
-        if top_win is None:
-            if bottom_competitor is not None or top_competitor is not None:
-                raise RuntimeError("Invariant violation")
+        if top_win is None and (
+            bottom_competitor is not None or top_competitor is not None
+        ):
+            raise RuntimeError("Invariant violation")
 
         result.append(
             Match(
@@ -1748,9 +1748,11 @@ def _get_teams_from_tournament(
         for row in cursor.fetchall():
             team_name = row["name"]
             team_id = row["team_id"]
-            if team_name in teams_from_tournament:
-                if teams_from_tournament[team_name] != team_id:
-                    raise RuntimeError("Invariant violation")
+            if (
+                team_name in teams_from_tournament
+                and teams_from_tournament[team_name] != team_id
+            ):
+                raise RuntimeError("Invariant violation")
             teams_from_tournament[team_name] = team_id
 
         cursor.close()
@@ -1787,7 +1789,8 @@ def print_tournament_team_sql(
             acronym = team_score_map[team_name]
             print(
                 f"  ({current_id}, {tournament_id}, {sql_nullable_str(division)}, "
-                f"{team_id}, {sql_nullable_str(team_name)}, {sql_nullable_str(acronym)}),"
+                f"{team_id}, {sql_nullable_str(team_name)}, "
+                f"{sql_nullable_str(acronym)}),"
             )
 
             # Prepare for next iteration
@@ -1796,7 +1799,7 @@ def print_tournament_team_sql(
 
 def infer_deductions(team_scores: dict[Division, list[TeamScore]]) -> list[Deduction]:
     negative_scores: dict[str, list[float]] = {}
-    for division, division_team_scores in team_scores.items():
+    for division_team_scores in team_scores.values():
         for team_score in division_team_scores:
             if team_score.score >= 0.0:
                 continue

@@ -2,12 +2,12 @@
 
 import json
 import pathlib
-from typing import Any, Callable, Literal
-
-import bs4
-import pydantic
+from collections.abc import Callable
+from typing import Any, Literal
 
 import bracket_utils
+import bs4
+import pydantic
 
 _MISSING_BOUT_NUMBER_SENTINEL = -30788
 _INITIAL_ENTRY_INFO: tuple[
@@ -85,7 +85,7 @@ def _determine_acronym(value: str) -> str | None:
     try:
         int(value)
         return None
-    except:
+    except ValueError:
         pass
 
     if value.upper() != value:
@@ -223,10 +223,7 @@ def _is_valid_initial_entry(
     if bout_number in opening_bouts:
         return True
 
-    if wrestler_td.text == "Bye":
-        return True
-
-    return False
+    return wrestler_td.text == "Bye"
 
 
 def _get_team_matches(
@@ -2112,7 +2109,7 @@ def extract_year(
     matches = parse_rounds(selenium_rounds, match_slots_by_bracket)
 
     weight_classes: list[bracket_utils.WeightClass] = []
-    for key in match_slots_by_bracket.keys():
+    for key in match_slots_by_bracket:
         division, weight = key
         weight_class_matches = [
             match_with.match

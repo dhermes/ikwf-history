@@ -5,7 +5,6 @@ import pathlib
 import bracket_utils
 import extract_2003 as extract_this_year
 
-
 HERE = pathlib.Path(__file__).resolve().parent
 TOURNAMENT_ID = 34
 TEAM_SCORE_ID_START = 605

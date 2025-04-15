@@ -242,7 +242,7 @@ def main():
         )
 
     weight_classes = extracted.weight_classes
-    team_acronym_mapping = {team: team for team in TEAM_NAME_MAPPING.keys()}
+    team_acronym_mapping = {team: team for team in TEAM_NAME_MAPPING}
 
     start_id = 9203
     mapped_competitors = bracket_utils.get_competitors_for_sql(

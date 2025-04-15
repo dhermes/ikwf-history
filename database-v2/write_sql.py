@@ -4,9 +4,8 @@ import pathlib
 import sqlite3
 from typing import NamedTuple, TypeVar
 
-import pydantic
-
 import bracket_utils
+import pydantic
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -394,20 +393,20 @@ def _write_brackets_sql() -> dict[BracketInfoTuple, int]:
 
     years = sorted(weight_classes.root.keys())
     current_id = 1
-    for i, year in enumerate(years):
-        last_i = i == len(years) - 1
+    for index1, year in enumerate(years):
+        last1 = index1 == len(years) - 1
         by_tournament = weight_classes.root[year]
         tournament_ids = sorted(by_tournament.keys())
-        for j, tournament_id in enumerate(tournament_ids):
-            last_j = j == len(tournament_ids) - 1
+        for index2, tournament_id in enumerate(tournament_ids):
+            last2 = index2 == len(tournament_ids) - 1
             by_division = by_tournament[tournament_id]
             divisions = sorted(by_division.keys(), key=bracket_utils.division_sort_key)
-            for k, division in enumerate(divisions):
-                last_k = k == len(divisions) - 1
+            for index3, division in enumerate(divisions):
+                last3 = index3 == len(divisions) - 1
                 weights = by_division[division]
-                for l, weight in enumerate(weights):
-                    last_l = l == len(weights) - 1
-                    last_line = last_i and last_j and last_k and last_l
+                for index4, weight in enumerate(weights):
+                    last4 = index4 == len(weights) - 1
+                    last_line = last1 and last2 and last3 and last4
                     line_ending = ";" if last_line else ","
 
                     lines.append(
@@ -512,7 +511,7 @@ def _write_tournament_teams_sql(inserts: Inserts) -> None:
         "--------------------------------------------------------------------------------",
         "",
         "INSERT INTO",
-        "  tournament_team (id, tournament_id, division, team_id, team_score, name, acronym, non_scoring)",
+        "  tournament_team (id, tournament_id, division, team_id, team_score, name, acronym, non_scoring)",  # noqa: E501
         "VALUES",
     ]
 
