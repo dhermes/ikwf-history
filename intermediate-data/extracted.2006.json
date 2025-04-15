@@ -32858,5 +32858,16 @@
       }
     ]
   },
-  "deductions": []
+  "deductions": [
+    {
+      "team": "JOLIET JUNIOR STEELMEN",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "IRON MAN",
+      "reason": "",
+      "value": -1.0
+    }
+  ]
 }

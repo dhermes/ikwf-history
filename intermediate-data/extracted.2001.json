@@ -31779,8 +31779,34 @@
         "team": "HINSDALE RED DEVILS",
         "acronym": "HRD",
         "score": -2.0
+      },
+      {
+        "team": "WARRENSBURG WC",
+        "acronym": "WAR",
+        "score": -1.0
       }
     ]
   },
-  "deductions": []
+  "deductions": [
+    {
+      "team": "WARRENSBURG WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "WASHINGTON JR PANT",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "HINSDALE RED DEVILS",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "HINSDALE RED DEVILS",
+      "reason": "",
+      "value": -1.0
+    }
+  ]
 }

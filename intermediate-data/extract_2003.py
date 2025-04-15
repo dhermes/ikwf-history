@@ -932,8 +932,15 @@ def main():
         ),
     }
 
+    # Add a **CUSTOM** "missing" negative team score based on the rule that
+    # "all team point deductions applied across all divisions"
+    team_scores["novice"].append(
+        bracket_utils.TeamScore(team="LIMESTONE YOUTH WC", acronym="LIM", score=-1.0)
+    )
+
+    deductions = bracket_utils.infer_deductions(team_scores)
     extracted_tournament = bracket_utils.ExtractedTournament(
-        weight_classes=parsed, team_scores=team_scores, deductions=[]
+        weight_classes=parsed, team_scores=team_scores, deductions=deductions
     )
     with open(HERE / "extracted.2003.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))

@@ -32269,6 +32269,11 @@
         "team": "WILMINGTON WC",
         "acronym": "WIL",
         "score": 0.0
+      },
+      {
+        "team": "LIMESTONE YOUTH WC",
+        "acronym": "LIM",
+        "score": -1.0
       }
     ],
     "senior": [
@@ -32989,5 +32994,56 @@
       }
     ]
   },
-  "deductions": []
+  "deductions": [
+    {
+      "team": "LIMESTONE YOUTH WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "FOX VALLEY WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "RIVERBEND WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "WARRENSBURG WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "FENWICK FALCONS WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "FENWICK FALCONS WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "FENWICK FALCONS WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "ROCK ISLAND WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "ROCK ISLAND WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "ROCK ISLAND WC",
+      "reason": "",
+      "value": -1.0
+    }
+  ]
 }

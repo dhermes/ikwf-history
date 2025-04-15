@@ -33056,5 +33056,21 @@
       }
     ]
   },
-  "deductions": []
+  "deductions": [
+    {
+      "team": "BRAWLERS",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "MINOOKA LITTLE INDIANS",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "MORTON LITTLE MUSTANGS",
+      "reason": "",
+      "value": -1.0
+    }
+  ]
 }

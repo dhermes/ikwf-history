@@ -1792,3 +1792,29 @@ def print_tournament_team_sql(
 
             # Prepare for next iteration
             current_id += 1
+
+
+def infer_deductions(team_scores: dict[Division, list[TeamScore]]) -> list[Deduction]:
+    negative_scores: dict[str, list[float]] = {}
+    for division, division_team_scores in team_scores.items():
+        for team_score in division_team_scores:
+            if team_score.score >= 0.0:
+                continue
+
+            negative_scores.setdefault(team_score.team, []).append(team_score.score)
+
+    result: list[Deduction] = []
+    for team_name, scores in negative_scores.items():
+        score = min(scores)  # min() is the **MOST** negative
+        num_deductions = -int(score)
+        if num_deductions != -score:
+            raise NotImplementedError(
+                "No handling for non-integer deductions", team_name, score
+            )
+        if num_deductions <= 0:
+            raise ValueError("Deductions should be negative", team_name, score)
+
+        for _ in range(num_deductions):
+            result.append(Deduction(team=team_name, reason="", value=-1.0))
+
+    return result

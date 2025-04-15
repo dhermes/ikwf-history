@@ -932,8 +932,9 @@ def main():
         ),
     }
 
+    deductions = bracket_utils.infer_deductions(team_scores)
     extracted_tournament = bracket_utils.ExtractedTournament(
-        weight_classes=parsed, team_scores=team_scores, deductions=[]
+        weight_classes=parsed, team_scores=team_scores, deductions=deductions
     )
     with open(HERE / "extracted.2002.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))

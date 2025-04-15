@@ -33319,5 +33319,46 @@
       }
     ]
   },
-  "deductions": []
+  "deductions": [
+    {
+      "team": "CARBONDALE WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "GLEN ELLYN DUNGEON WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "LAN-OAK P.D. LITTLE REBELS",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "LIONS WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "BARTLETT HAWK WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "KNIGHTS WRESTLING",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "ST. CHARLES WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "T-BIRD/RAIDER WRESTLING",
+      "reason": "",
+      "value": -1.0
+    }
+  ]
 }

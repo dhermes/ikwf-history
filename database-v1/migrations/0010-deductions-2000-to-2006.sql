@@ -16,6 +16,7 @@ VALUES
   (2,  32, 171,   'HRD', 'HINSDALE RED DEVILS',        '', 1), -- 2001
   (3,  32, 468,   'WAR', 'WARRENSBURG WC',             '', 1), -- 2001
   (4,  32, 10110, 'WJP', 'WASHINGTON JR PANTHE',       '', 1), -- 2001
+
   (5,  33, 16,    'BAR', 'BARTLETT HAWK WC',           '', 1), -- 2002
   (6,  33, 53,    'CAR', 'CARBONDALE WC',              '', 1), -- 2002
   (7,  33, 10039, 'GLE', 'GLEN ELLYN DUNGEON WC',      '', 1), -- 2002
@@ -24,6 +25,7 @@ VALUES
   (10, 33, 229,   'LIO', 'LIONS WC',                   '', 1), -- 2002
   (11, 33, 400,   'STC', 'ST. CHARLES WC',             '', 1), -- 2002
   (12, 33, 10099, 'TBI', 'T-BIRD/RAIDER WRESTLING',    '', 1), -- 2002
+
   (13, 34, 10028, 'FEN', 'FENWICK FALCONS WC',         '', 1), -- 2003
   (14, 34, 10028, 'FEN', 'FENWICK FALCONS WC',         '', 1), -- 2003
   (15, 34, 10028, 'FEN', 'FENWICK FALCONS WC',         '', 1), -- 2003
@@ -34,6 +36,7 @@ VALUES
   (20, 34, 361,   'ROK', 'ROCK ISLAND WC',             '', 1), -- 2003
   (21, 34, 361,   'ROK', 'ROCK ISLAND WC',             '', 1), -- 2003
   (22, 34, 468,   'WAR', 'WARRENSBURG WC',             '', 1), -- 2003
+
   (23, 35, 8,     'ARG', 'ARGENTA/OREANA KIDS CLUB',   '', 1), -- 2004
   (24, 35, 24,    'BEV', 'BELVIDERE BANDITS',          '', 1), -- 2004
   (25, 35, 10020, 'DUR', 'DU-PEC CARNIVORES',          '', 1), -- 2004
@@ -57,8 +60,10 @@ VALUES
   (43, 35, 10103, 'TIG', 'TIGER WC',                   '', 1), -- 2004
   (44, 35, 461,   'VAN', 'VANDALIA JR WRESTLING',      '', 1), -- 2004
   (45, 35, 461,   'VAN', 'VANDALIA JR WRESTLING',      '', 1), -- 2004
+
   (46, 36, 39,    'BRL', 'BRAWLERS',                   '', 1), -- 2005
   (47, 36, 266,   'MLI', 'MINOOKA LITTLE INDIANS',     '', 1), -- 2005
   (48, 36, 271,   'MLM', 'MORTON LITTLE MUSTANGS',     '', 1), -- 2005
+
   (49, 37, 10046, 'IRN', 'IRON MAN',                   '', 1), -- 2006
   (50, 37, 10048, 'JJS', 'JOLIET JUNIOR STEELMEN',     '', 1); -- 2006
