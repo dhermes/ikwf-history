@@ -94,7 +94,8 @@ CREATE TABLE tournament_team (
   -- NOTE: In some years, non-scoring athletes showed up in team scores under
   --       a different name / different acronym.
   non_scoring BOOLEAN NOT NULL,
-  UNIQUE(tournament_id, division, team_id, non_scoring)
+  UNIQUE(tournament_id, division, team_id, non_scoring),
+  UNIQUE(tournament_id, division, name, non_scoring)
 );
 
 --------------------------------------------------------------------------------
