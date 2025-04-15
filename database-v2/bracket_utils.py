@@ -188,3 +188,12 @@ TournamentFilename = dict[int, str]
 
 class FilenamesByYear(pydantic.RootModel[dict[int, TournamentFilename]]):
     pass
+
+
+class TeamNameSynonym(_ForbidExtra):
+    name: str
+    synonym: str
+
+
+class TeamNameSynonyms(pydantic.RootModel[dict[int, list[TeamNameSynonym]]]):
+    pass

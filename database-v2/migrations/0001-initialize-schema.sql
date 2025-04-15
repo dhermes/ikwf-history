@@ -109,8 +109,6 @@ CREATE TABLE team_point_deduction (
   --       deductions apply across **ALL** divisions
 );
 
----- TODO: ruff
-
 --------------------------------------------------------------------------------
 
 -- NOTE: A `competitor` is the singular record for an athlete to be used across

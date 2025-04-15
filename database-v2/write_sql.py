@@ -213,22 +213,32 @@ def _match_deduction(
     team_name: str,
     divisions: list[bracket_utils.Division],
     tournament_teams: list[TournamentTeamRow],
+    tournament_synonyms: list[bracket_utils.TeamNameSynonym],
 ) -> list[int]:
+    all_synonyms: set[str] = set([team_name])
+    for tournament_synonym in tournament_synonyms:
+        if tournament_synonym.name == team_name:
+            all_synonyms.add(tournament_synonym.synonym)
+
     # NOTE: We **could** pre-process `tournament_teams` to a dictionary to
     #       increase this lookup speed. However we expect it to be small enough
     #       so just iterate over the full list.
     matches: dict[bracket_utils.Division, list[int]] = {}
     for tournament_team in tournament_teams:
-        if tournament_team.name == team_name:
+        if tournament_team.name in all_synonyms:
             matches.setdefault(tournament_team.division, []).append(tournament_team.id_)
 
     if set(matches.keys()) != set(divisions):
-        raise ValueError("Did not match all divisions", divisions, matches.keys())
+        raise ValueError(
+            "Did not match all divisions", team_name, divisions, matches.keys()
+        )
 
     result: list[int] = []
     for division, team_ids in matches.items():
         if len(team_ids) != 1:
-            raise ValueError("Non-unique match for division", division, team_ids)
+            raise ValueError(
+                "Non-unique match for division", team_name, division, team_ids
+            )
         result.append(team_ids[0])
 
     return result
@@ -240,6 +250,7 @@ def _add_team_rows(
     inserts: Inserts,
     team_by_name: dict[bracket_utils.Division, dict[str, str | None]],
     extracted: bracket_utils.ExtractedTournament,
+    team_name_synonyms: dict[int, list[bracket_utils.TeamNameSynonym]],
 ):
     # 1. `TeamRow` (allow duplicates across year and division)
     # 2. `TournamentTeamRow`
@@ -271,10 +282,7 @@ def _add_team_rows(
             insert_ids.next_tournament_team_id += 1
 
     # 3. `TeamPointDeductionRow`
-    if tournament_id in (30, 31, 32, 33, 34, 35, 36):
-        # Temporarily ignore new years
-        return
-
+    tournament_synonyms = team_name_synonyms.get(tournament_id, [])
     for deduction in extracted.deductions:
         amount_float = deduction.value
         amount = -int(amount_float)
@@ -285,7 +293,9 @@ def _add_team_rows(
 
         # Ensure team is in all divisions (because deductions apply across all
         # divisions)
-        team_ids = _match_deduction(deduction.team, divisions, tournament_teams)
+        team_ids = _match_deduction(
+            deduction.team, divisions, tournament_teams, tournament_synonyms
+        )
         for team_id in team_ids:
             deduction_id = insert_ids.next_team_point_deduction_id
             inserts.team_point_deduction_rows.append(
@@ -306,9 +316,12 @@ def _handle_tournament(
     inserts: Inserts,
     bracket_id_info: dict[BracketInfoTuple, int],
     extracted: bracket_utils.ExtractedTournament,
+    team_name_synonyms: dict[int, list[bracket_utils.TeamNameSynonym]],
 ) -> InsertIDs:
     team_by_acronym, team_by_name = _build_team_maps(extracted)
-    _add_team_rows(tournament_id, insert_ids, inserts, team_by_name, extracted)
+    _add_team_rows(
+        tournament_id, insert_ids, inserts, team_by_name, extracted, team_name_synonyms
+    )
 
     # 4. `CompetitorRow` (allow duplicates across year)
     # 5. `TournamentCompetitorRow`
@@ -324,6 +337,7 @@ def _handle_year(
     inserts: Inserts,
     filenames: dict[int, str],
     bracket_id_info: dict[BracketInfoTuple, int],
+    team_name_synonyms: dict[int, list[bracket_utils.TeamNameSynonym]],
 ) -> InsertIDs:
     for tournament_id, filename in filenames.items():
         with open(extracted_dir / filename) as file_obj:
@@ -332,7 +346,13 @@ def _handle_year(
             )
 
         insert_ids = _handle_tournament(
-            year, tournament_id, insert_ids, inserts, bracket_id_info, extracted
+            year,
+            tournament_id,
+            insert_ids,
+            inserts,
+            bracket_id_info,
+            extracted,
+            team_name_synonyms,
         )
 
         # NOTE: We round-trip the file back to ensure it is formatted correctly
@@ -412,6 +432,13 @@ def _write_brackets_sql() -> dict[BracketInfoTuple, int]:
 def _get_filenames_by_year() -> dict[int, bracket_utils.TournamentFilename]:
     with open(HERE / "_filenames-by-year.json") as file_obj:
         loaded = bracket_utils.FilenamesByYear.model_validate_json(file_obj.read())
+
+    return loaded.root
+
+
+def _get_team_name_synonyms() -> dict[int, list[bracket_utils.TeamNameSynonym]]:
+    with open(HERE / "_team-name-synonyms.json") as file_obj:
+        loaded = bracket_utils.TeamNameSynonyms.model_validate_json(file_obj.read())
 
     return loaded.root
 
@@ -542,6 +569,7 @@ def main():
 
     extracted_dir = HERE.parent / "intermediate-data"
     filenames_by_year = _get_filenames_by_year()
+    team_name_synonyms = _get_team_name_synonyms()
 
     insert_ids = InsertIDs(
         next_team_id=1,
@@ -561,7 +589,13 @@ def main():
     )
     for year, filenames in filenames_by_year.items():
         insert_ids = _handle_year(
-            extracted_dir, year, insert_ids, inserts, filenames, bracket_id_info
+            extracted_dir,
+            year,
+            insert_ids,
+            inserts,
+            filenames,
+            bracket_id_info,
+            team_name_synonyms,
         )
 
     _write_teams_sql(inserts)
