@@ -6,7 +6,9 @@ author = 'Danny Hermes (Fox Valley Wrestling Club)'
 +++
 
 After weeks of hard work, we have finished processing all (available)
-bracket data from 1999 to 2025. These brackets are all available today:
+bracket data from 1999 to 2025. These brackets are all available today (and
+as data comes in for more years I'll update the
+[brackets](/brackets/index.html) page):
 
 - [1999](/brackets/1999/index.html)
 - [2000](/brackets/2000/index.html)
