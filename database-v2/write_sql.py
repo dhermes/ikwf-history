@@ -435,8 +435,29 @@ def _handle_weight_class(
 ):
     match_map = _get_match_map(weight_class)
     competitor_map = _get_competitor_map(match_map)
+
+    competitors_by_id = {
+        local_id: competitor_tuple
+        for competitor_tuple, local_id in competitor_map.items()
+    }
+    if len(competitors_by_id) != len(competitor_map):
+        raise ValueError("Duplicate local IDs")
+
+    local_ids = sorted(competitors_by_id.keys())
     # 4. `CompetitorRow` (allow duplicates across year)
     # 5. `TournamentCompetitorRow`
+    for local_id in local_ids:
+        competitor_tuple = competitors_by_id[local_id]
+        # CompetitorRow(id=-1, full_name_normalized="...")
+        # TournamentCompetitorRow(
+        #     id=-1,
+        #     competitor_id=-1,
+        #     team_id=-1,
+        #     full_name="...",
+        #     first_name="...",
+        #     last_name="...",
+        # )
+
     # 6. `MatchRow`
     if len(competitor_map) == -1:
         raise NotImplementedError
