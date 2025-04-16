@@ -67,7 +67,7 @@ class Placer(NamedTuple):
         team_full = team_replace.get(self.team, self.team)
         parts = self.name.split()
         if len(parts) != 2:
-            raise NotImplementedError(self.nae)
+            raise NotImplementedError(self.name)
 
         first_name = parts[0]
         last_name = parts[1]
