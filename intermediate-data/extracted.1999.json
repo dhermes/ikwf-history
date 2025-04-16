@@ -1,0 +1,2457 @@
+{
+  "weight_classes": [
+    {
+      "division": "novice",
+      "weight": 62,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Tim Haneberg",
+            "first_name": "Tim",
+            "last_name": "Haneberg",
+            "team_full": "Orland Park Pioneers",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Scott Horcher",
+            "first_name": "Scott",
+            "last_name": "Horcher",
+            "team_full": "Jr. Golden Eagles",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Thomas Gagan",
+            "first_name": "Thomas",
+            "last_name": "Gagan",
+            "team_full": "Little Celtics",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Dalton Bullard",
+            "first_name": "Dalton",
+            "last_name": "Bullard",
+            "team_full": "Belvidere Bandits",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Brian Spangler",
+            "first_name": "Brian",
+            "last_name": "Spangler",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Steve Templin",
+            "first_name": "Steve",
+            "last_name": "Templin",
+            "team_full": "Montego Matmen",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 66,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Nick Fanthorpe",
+            "first_name": "Nick",
+            "last_name": "Fanthorpe",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Brian Martin",
+            "first_name": "Brian",
+            "last_name": "Martin",
+            "team_full": "Wolfpak WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Josh Harper",
+            "first_name": "Josh",
+            "last_name": "Harper",
+            "team_full": "Belleville L.D.",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Matt Cusick",
+            "first_name": "Matt",
+            "last_name": "Cusick",
+            "team_full": "Orland Park Pioneers",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Mitch Jones",
+            "first_name": "Mitch",
+            "last_name": "Jones",
+            "team_full": "Mt. Zion WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Adam Canty",
+            "first_name": "Adam",
+            "last_name": "Canty",
+            "team_full": "Vittum Cats",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 70,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Michael Benefiel",
+            "first_name": "Michael",
+            "last_name": "Benefiel",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Conor Beebe",
+            "first_name": "Conor",
+            "last_name": "Beebe",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Marcus White",
+            "first_name": "Marcus",
+            "last_name": "White",
+            "team_full": "Little Celtics",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Brandon Nice",
+            "first_name": "Brandon",
+            "last_name": "Nice",
+            "team_full": "Cumberland WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Tyler Babcock",
+            "first_name": "Tyler",
+            "last_name": "Babcock",
+            "team_full": "Bethalto Jr. High",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Matt Shapiro",
+            "first_name": "Matt",
+            "last_name": "Shapiro",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 74,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Gerald Starzyk",
+            "first_name": "Gerald",
+            "last_name": "Starzyk",
+            "team_full": "Vittum Cats",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Mike Riley",
+            "first_name": "Mike",
+            "last_name": "Riley",
+            "team_full": "Tinley Park Bulldogs",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Chuckie Patten",
+            "first_name": "Chuckie",
+            "last_name": "Patten",
+            "team_full": "Crossface WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Nate Britt",
+            "first_name": "Nate",
+            "last_name": "Britt",
+            "team_full": "Sterling Newman",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Michael Anello",
+            "first_name": "Michael",
+            "last_name": "Anello",
+            "team_full": "Orland Park Pioneers",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Billy Cascone",
+            "first_name": "Billy",
+            "last_name": "Cascone",
+            "team_full": "Vittum Cats",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 79,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Kyle Krueger",
+            "first_name": "Kyle",
+            "last_name": "Krueger",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Robbie Unsell",
+            "first_name": "Robbie",
+            "last_name": "Unsell",
+            "team_full": "Bethalto Jr. High",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Danny Ruettiger",
+            "first_name": "Danny",
+            "last_name": "Ruettiger",
+            "team_full": "Little Celtics",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Jon Isacson",
+            "first_name": "Jon",
+            "last_name": "Isacson",
+            "team_full": "Villa-Lombard Cougars",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Jacob Murphy",
+            "first_name": "Jacob",
+            "last_name": "Murphy",
+            "team_full": "Tinley Park Bulldogs",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Carlos Lopez",
+            "first_name": "Carlos",
+            "last_name": "Lopez",
+            "team_full": "Vittum Cats",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 84,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Marty Engwall",
+            "first_name": "Marty",
+            "last_name": "Engwall",
+            "team_full": "Tinley Park Bulldogs",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Scott Sheber",
+            "first_name": "Scott",
+            "last_name": "Sheber",
+            "team_full": "Lemont Bears",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Nick Marinaro",
+            "first_name": "Nick",
+            "last_name": "Marinaro",
+            "team_full": "Harlem Cougars",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Brad Fiorito",
+            "first_name": "Brad",
+            "last_name": "Fiorito",
+            "team_full": "Dundee Highlanders",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Gary Conrad",
+            "first_name": "Gary",
+            "last_name": "Conrad",
+            "team_full": "Wolfpak WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Bobby Wolf",
+            "first_name": "Bobby",
+            "last_name": "Wolf",
+            "team_full": "Bethalto Jr. High",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 89,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Michael Poeta",
+            "first_name": "Michael",
+            "last_name": "Poeta",
+            "team_full": "Highland Park",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Jefferi Broadway",
+            "first_name": "Jefferi",
+            "last_name": "Broadway",
+            "team_full": "Little Celtics",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Scott Sands",
+            "first_name": "Scott",
+            "last_name": "Sands",
+            "team_full": "Tinley Park Bulldogs",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Zach Enderle",
+            "first_name": "Zach",
+            "last_name": "Enderle",
+            "team_full": "Harlem Cougars",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Billy Dragonetti",
+            "first_name": "Billy",
+            "last_name": "Dragonetti",
+            "team_full": "Wolfpak WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Scott DeChant",
+            "first_name": "Scott",
+            "last_name": "DeChant",
+            "team_full": "Little Celtics",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 95,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Clayton Norberg",
+            "first_name": "Clayton",
+            "last_name": "Norberg",
+            "team_full": "Sterling Newman",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Shane Dintelman",
+            "first_name": "Shane",
+            "last_name": "Dintelman",
+            "team_full": "Belleville L.D.",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Mark Lukaszewski",
+            "first_name": "Mark",
+            "last_name": "Lukaszewski",
+            "team_full": "Villa-Lombard Cougars",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Tim Golden",
+            "first_name": "Tim",
+            "last_name": "Golden",
+            "team_full": "Vittum Cats",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Joseph Graves",
+            "first_name": "Joseph",
+            "last_name": "Graves",
+            "team_full": "Batavia Pinners",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Matt Wenger",
+            "first_name": "Matt",
+            "last_name": "Wenger",
+            "team_full": "Dakota WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 101,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Steven Rodgers",
+            "first_name": "Steven",
+            "last_name": "Rodgers",
+            "team_full": "Bethalto Jr. High",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Matthew Smith",
+            "first_name": "Matthew",
+            "last_name": "Smith",
+            "team_full": "Villa-Lombard Cougars",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Brandon Lozdowski",
+            "first_name": "Brandon",
+            "last_name": "Lozdowski",
+            "team_full": "Harlem Cougars",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "John Murphy",
+            "first_name": "John",
+            "last_name": "Murphy",
+            "team_full": "St. Barnabas/CTK",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Will Mekeel",
+            "first_name": "Will",
+            "last_name": "Mekeel",
+            "team_full": "Sterling Newman",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Aaron Lipe",
+            "first_name": "Aaron",
+            "last_name": "Lipe",
+            "team_full": "Galesburg Jr. Streaks",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 108,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Mike Mucha",
+            "first_name": "Mike",
+            "last_name": "Mucha",
+            "team_full": "Lemont Bears",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Austin Jones",
+            "first_name": "Austin",
+            "last_name": "Jones",
+            "team_full": "Bradley-Bour. WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Drew Jones",
+            "first_name": "Drew",
+            "last_name": "Jones",
+            "team_full": "Hononegah Kids WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Robert Wallon",
+            "first_name": "Robert",
+            "last_name": "Wallon",
+            "team_full": "Lemont Bears",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Nathan Troye",
+            "first_name": "Nathan",
+            "last_name": "Troye",
+            "team_full": "Sterling Newman",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Michael McIntyre",
+            "first_name": "Michael",
+            "last_name": "McIntyre",
+            "team_full": "Savanna R.hawk",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 115,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Andrew Zidow",
+            "first_name": "Andrew",
+            "last_name": "Zidow",
+            "team_full": "LaSalle-Peru",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Ryan Bittle",
+            "first_name": "Ryan",
+            "last_name": "Bittle",
+            "team_full": "A-J Jr. Wildcats",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Chris Smith",
+            "first_name": "Chris",
+            "last_name": "Smith",
+            "team_full": "Plainfield WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Joshua Mohr",
+            "first_name": "Joshua",
+            "last_name": "Mohr",
+            "team_full": "Yorkville WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Dan Haeflinger",
+            "first_name": "Dan",
+            "last_name": "Haeflinger",
+            "team_full": "Harvard WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Jon Crettol",
+            "first_name": "Jon",
+            "last_name": "Crettol",
+            "team_full": "Orland Park Pioneers",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 122,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Liam Kelly",
+            "first_name": "Liam",
+            "last_name": "Kelly",
+            "team_full": "Tinley Park Bulldogs",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Jared Sugden",
+            "first_name": "Jared",
+            "last_name": "Sugden",
+            "team_full": "A-O Kids WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Kyle Williams",
+            "first_name": "Kyle",
+            "last_name": "Williams",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Phil Grant",
+            "first_name": "Phil",
+            "last_name": "Grant",
+            "team_full": "Crystal Lake Wizards",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Jason Johnson",
+            "first_name": "Jason",
+            "last_name": "Johnson",
+            "team_full": "Sterling Newman",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Keith Hauter",
+            "first_name": "Keith",
+            "last_name": "Hauter",
+            "team_full": "Litchfield Kids WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 130,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "De’Andre Nunn",
+            "first_name": "De’Andre",
+            "last_name": "Nunn",
+            "team_full": "Little Celtics",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Buddy Dudczak",
+            "first_name": "Buddy",
+            "last_name": "Dudczak",
+            "team_full": "Villa-Lombard Cougars",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Billy Pyszka",
+            "first_name": "Billy",
+            "last_name": "Pyszka",
+            "team_full": "LaSalle-Peru",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Nicholas Miller",
+            "first_name": "Nicholas",
+            "last_name": "Miller",
+            "team_full": "Mattoon Youth WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Jonathan Wyatt",
+            "first_name": "Jonathan",
+            "last_name": "Wyatt",
+            "team_full": "Westville Youth",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Ryan Francis",
+            "first_name": "Ryan",
+            "last_name": "Francis",
+            "team_full": "Lemont Bears",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 147,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Shane Butler",
+            "first_name": "Shane",
+            "last_name": "Butler",
+            "team_full": "Midwest Central Y.",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Jesus Ordaz",
+            "first_name": "Jesus",
+            "last_name": "Ordaz",
+            "team_full": "Crystal Lake Wizards",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Marcus McDowell",
+            "first_name": "Marcus",
+            "last_name": "McDowell",
+            "team_full": "Mattoon Youth WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Jeffrey Janicki",
+            "first_name": "Jeffrey",
+            "last_name": "Janicki",
+            "team_full": "Villa-Lombard Cougars",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Joe Youngberg",
+            "first_name": "Joe",
+            "last_name": "Youngberg",
+            "team_full": "Murphysboro MS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Gary Cox",
+            "first_name": "Gary",
+            "last_name": "Cox",
+            "team_full": "Vandalia Jr. WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 166,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Chris Espinoza",
+            "first_name": "Chris",
+            "last_name": "Espinoza",
+            "team_full": "Wheaton Bulldogs",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Brian Kerr",
+            "first_name": "Brian",
+            "last_name": "Kerr",
+            "team_full": "East Moline WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Jim Huffman",
+            "first_name": "Jim",
+            "last_name": "Huffman",
+            "team_full": "Villa-Lombard Cougars",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Christian Bunyan",
+            "first_name": "Christian",
+            "last_name": "Bunyan",
+            "team_full": "Urbana Kids WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Casey Hicks",
+            "first_name": "Casey",
+            "last_name": "Hicks",
+            "team_full": "Pontiac Pythons",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Mike Scheibel",
+            "first_name": "Mike",
+            "last_name": "Scheibel",
+            "team_full": "Highland Bulldogs",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
+      "weight": 215,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Rusty Wheat",
+            "first_name": "Rusty",
+            "last_name": "Wheat",
+            "team_full": "Roxana Kids WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Ray Stuthers",
+            "first_name": "Ray",
+            "last_name": "Stuthers",
+            "team_full": "Murphysboro MS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Brandon Sutton",
+            "first_name": "Brandon",
+            "last_name": "Sutton",
+            "team_full": "Pinckneyville WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Ben Lawrence",
+            "first_name": "Ben",
+            "last_name": "Lawrence",
+            "team_full": "Crossface WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Vinnie Salmieri",
+            "first_name": "Vinnie",
+            "last_name": "Salmieri",
+            "team_full": "A-O Kids WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Ryan Weaver",
+            "first_name": "Ryan",
+            "last_name": "Weaver",
+            "team_full": "Little Redbirds WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 70,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "David Murphy",
+            "first_name": "David",
+            "last_name": "Murphy",
+            "team_full": "Little Celtics",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Cody Dietze",
+            "first_name": "Cody",
+            "last_name": "Dietze",
+            "team_full": "Tinley Park Bulldogs",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Brandon Zerfowski",
+            "first_name": "Brandon",
+            "last_name": "Zerfowski",
+            "team_full": "Mt. Zion WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Scott Eichberger",
+            "first_name": "Scott",
+            "last_name": "Eichberger",
+            "team_full": "Orland Park Pioneers",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "John Wienert",
+            "first_name": "John",
+            "last_name": "Wienert",
+            "team_full": "Vittum Cats",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Jerry Fischer",
+            "first_name": "Jerry",
+            "last_name": "Fischer",
+            "team_full": "Morton Youth WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 74,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jordan Kolinski",
+            "first_name": "Jordan",
+            "last_name": "Kolinski",
+            "team_full": "Rockford WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Eric Bauer",
+            "first_name": "Eric",
+            "last_name": "Bauer",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Daniel Leonard",
+            "first_name": "Daniel",
+            "last_name": "Leonard",
+            "team_full": "Villa-Lombard Cougars",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Josiah Wooten",
+            "first_name": "Josiah",
+            "last_name": "Wooten",
+            "team_full": "Urbana Kids Club",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Tony Martinez",
+            "first_name": "Tony",
+            "last_name": "Martinez",
+            "team_full": "Little Celtics",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Chris Maynor",
+            "first_name": "Chris",
+            "last_name": "Maynor",
+            "team_full": "Southern IL Eagles",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 79,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Josh Taylor",
+            "first_name": "Josh",
+            "last_name": "Taylor",
+            "team_full": "Tigertown Tanglers",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Brad Medchill",
+            "first_name": "Brad",
+            "last_name": "Medchill",
+            "team_full": "Villa-Lombard Cougars",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Dan Manzella",
+            "first_name": "Dan",
+            "last_name": "Manzella",
+            "team_full": "Vittum Cats",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Justin Grey",
+            "first_name": "Justin",
+            "last_name": "Grey",
+            "team_full": "Tinley Park Bulldogs",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Steve Scrementi",
+            "first_name": "Steve",
+            "last_name": "Scrementi",
+            "team_full": "Little Celtics",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Shane Saylor",
+            "first_name": "Shane",
+            "last_name": "Saylor",
+            "team_full": "Bethalto Jr. High",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 84,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Brian Dyer",
+            "first_name": "Brian",
+            "last_name": "Dyer",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Justin Haskett",
+            "first_name": "Justin",
+            "last_name": "Haskett",
+            "team_full": "Tinley Park Bulldogs",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Brad Dargan",
+            "first_name": "Brad",
+            "last_name": "Dargan",
+            "team_full": "Crystal Lake Wizards",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Tony Emma",
+            "first_name": "Tony",
+            "last_name": "Emma",
+            "team_full": "Wheaton Monroe Eagles",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Thomas Tapia",
+            "first_name": "Thomas",
+            "last_name": "Tapia",
+            "team_full": "East Moline WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Branden Mackey",
+            "first_name": "Branden",
+            "last_name": "Mackey",
+            "team_full": "Urbana Kids Club",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 89,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Pat Barth",
+            "first_name": "Pat",
+            "last_name": "Barth",
+            "team_full": "Morton Youth WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Zac Berman",
+            "first_name": "Zac",
+            "last_name": "Berman",
+            "team_full": "Little Celtics",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Ryan Kimberlin",
+            "first_name": "Ryan",
+            "last_name": "Kimberlin",
+            "team_full": "Bradley-Bourbonnais WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Kevin McNicholas",
+            "first_name": "Kevin",
+            "last_name": "McNicholas",
+            "team_full": "Vittum Cats",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Michael Reese",
+            "first_name": "Michael",
+            "last_name": "Reese",
+            "team_full": "LaSalle-Peru",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Chad Vandiver",
+            "first_name": "Chad",
+            "last_name": "Vandiver",
+            "team_full": "Harlem Cougars",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 95,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Chase Beebe",
+            "first_name": "Chase",
+            "last_name": "Beebe",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Robert Loftus",
+            "first_name": "Robert",
+            "last_name": "Loftus",
+            "team_full": "Yorkville WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Kevin Sheber",
+            "first_name": "Kevin",
+            "last_name": "Sheber",
+            "team_full": "Lemont Bears",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Andrew Lukanich",
+            "first_name": "Andrew",
+            "last_name": "Lukanich",
+            "team_full": "Vittum Cats",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Adam Beeler",
+            "first_name": "Adam",
+            "last_name": "Beeler",
+            "team_full": "Edwardsville WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Mike Whalen",
+            "first_name": "Mike",
+            "last_name": "Whalen",
+            "team_full": "Edwardsville WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 101,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Eric Tannenbaum",
+            "first_name": "Eric",
+            "last_name": "Tannenbaum",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Ryan Klinger",
+            "first_name": "Ryan",
+            "last_name": "Klinger",
+            "team_full": "Oak Lawn Wildcats",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Bob McClellan",
+            "first_name": "Bob",
+            "last_name": "McClellan",
+            "team_full": "Tinley Park Bulldogs",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Jacob Jones",
+            "first_name": "Jacob",
+            "last_name": "Jones",
+            "team_full": "Mt. Zion WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Ryan Giulano",
+            "first_name": "Ryan",
+            "last_name": "Giulano",
+            "team_full": "Wolfpak WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Ryne Bird",
+            "first_name": "Ryne",
+            "last_name": "Bird",
+            "team_full": "Tigertown Tanglers",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 108,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Collin McKillip",
+            "first_name": "Collin",
+            "last_name": "McKillip",
+            "team_full": "Tinley Park Bulldogs",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Joe Gomez",
+            "first_name": "Joe",
+            "last_name": "Gomez",
+            "team_full": "Villa-Lombard Cougars",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Matt Wellner",
+            "first_name": "Matt",
+            "last_name": "Wellner",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Matt Collum",
+            "first_name": "Matt",
+            "last_name": "Collum",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Mitch Fonner",
+            "first_name": "Mitch",
+            "last_name": "Fonner",
+            "team_full": "Mattoon Youth WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Matt Anderson",
+            "first_name": "Matt",
+            "last_name": "Anderson",
+            "team_full": "Harlem Cougars",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 115,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jakob Bottoms",
+            "first_name": "Jakob",
+            "last_name": "Bottoms",
+            "team_full": "Murphysboro MS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Ryan DeVriendt",
+            "first_name": "Ryan",
+            "last_name": "DeVriendt",
+            "team_full": "Sherrard Jr. WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Tyler Williams",
+            "first_name": "Tyler",
+            "last_name": "Williams",
+            "team_full": "Villa-Lombard Cougars",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Roberto Torres",
+            "first_name": "Roberto",
+            "last_name": "Torres",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Drew McMahon",
+            "first_name": "Drew",
+            "last_name": "McMahon",
+            "team_full": "Champaign Chargers",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Matthew Wahl",
+            "first_name": "Matthew",
+            "last_name": "Wahl",
+            "team_full": "Jr. Golden Eagles",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 122,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Ruben Villareal",
+            "first_name": "Ruben",
+            "last_name": "Villareal",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Michael Pila",
+            "first_name": "Michael",
+            "last_name": "Pila",
+            "team_full": "Orland Park Pioneers",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Bryan Casey",
+            "first_name": "Bryan",
+            "last_name": "Casey",
+            "team_full": "Lemont Bears",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "David Kuntz",
+            "first_name": "David",
+            "last_name": "Kuntz",
+            "team_full": "Vittum Cats",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Jake Mekeel",
+            "first_name": "Jake",
+            "last_name": "Mekeel",
+            "team_full": "Sterling-Newman",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Jeremy Doss",
+            "first_name": "Jeremy",
+            "last_name": "Doss",
+            "team_full": "Bear Country WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 130,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Bryan Harney",
+            "first_name": "Bryan",
+            "last_name": "Harney",
+            "team_full": "Vittum Cats",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Josh Bednarek",
+            "first_name": "Josh",
+            "last_name": "Bednarek",
+            "team_full": "Crystal Lake Wizards",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Ben Murray",
+            "first_name": "Ben",
+            "last_name": "Murray",
+            "team_full": "Bradley-Bourbonnais WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Josh Hartman",
+            "first_name": "Josh",
+            "last_name": "Hartman",
+            "team_full": "Jr. Rocket WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Tyler Worthington",
+            "first_name": "Tyler",
+            "last_name": "Worthington",
+            "team_full": "Chenoa WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Mike Kerr",
+            "first_name": "Mike",
+            "last_name": "Kerr",
+            "team_full": "East Moline WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 138,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Mark Mendoza",
+            "first_name": "Mark",
+            "last_name": "Mendoza",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Marty Cox",
+            "first_name": "Marty",
+            "last_name": "Cox",
+            "team_full": "Yorkville WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Justin Ochoa",
+            "first_name": "Justin",
+            "last_name": "Ochoa",
+            "team_full": "Batavia Pinners",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Rick Hoke",
+            "first_name": "Rick",
+            "last_name": "Hoke",
+            "team_full": "Sherrard Jr. WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Bill Smith",
+            "first_name": "Bill",
+            "last_name": "Smith",
+            "team_full": "Mustangs WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Kevin Tobola",
+            "first_name": "Kevin",
+            "last_name": "Tobola",
+            "team_full": "Tinley Park Bulldogs",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 147,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Danney Finney",
+            "first_name": "Danney",
+            "last_name": "Finney",
+            "team_full": "Little Celtics",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Kris Roberts",
+            "first_name": "Kris",
+            "last_name": "Roberts",
+            "team_full": "Marion WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Adam Clay",
+            "first_name": "Adam",
+            "last_name": "Clay",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Byran Golden",
+            "first_name": "Byran",
+            "last_name": "Golden",
+            "team_full": "Vittum Cats",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Nick Derry",
+            "first_name": "Nick",
+            "last_name": "Derry",
+            "team_full": "Harlem Cougars",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Adam Hock",
+            "first_name": "Adam",
+            "last_name": "Hock",
+            "team_full": "Geneseo WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 156,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Evan McCallister",
+            "first_name": "Evan",
+            "last_name": "McCallister",
+            "team_full": "Riverbend/Fulton WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Kevin Brush",
+            "first_name": "Kevin",
+            "last_name": "Brush",
+            "team_full": "Tinley Park Bulldogs",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Patrick Brownson",
+            "first_name": "Patrick",
+            "last_name": "Brownson",
+            "team_full": "Brownson WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Derek Hunsinger",
+            "first_name": "Derek",
+            "last_name": "Hunsinger",
+            "team_full": "El Paso WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Sonny Lambert",
+            "first_name": "Sonny",
+            "last_name": "Lambert",
+            "team_full": "Unity WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ERic Vari",
+            "first_name": "ERic",
+            "last_name": "Vari",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 166,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Terry Burner",
+            "first_name": "Terry",
+            "last_name": "Burner",
+            "team_full": "Centralia WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Chris Norberg",
+            "first_name": "Chris",
+            "last_name": "Norberg",
+            "team_full": "Sterling-Newman",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Roberto Chavira",
+            "first_name": "Roberto",
+            "last_name": "Chavira",
+            "team_full": "Belvidere Bandits",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Jason DePolo",
+            "first_name": "Jason",
+            "last_name": "DePolo",
+            "team_full": "Little Celtics",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Dustin Jackson",
+            "first_name": "Dustin",
+            "last_name": "Jackson",
+            "team_full": "Vandalia Jr. WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Oscar Herrara",
+            "first_name": "Oscar",
+            "last_name": "Herrara",
+            "team_full": "Rock Island Edison",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 177,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jason Ortiz",
+            "first_name": "Jason",
+            "last_name": "Ortiz",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Mario Caraveo",
+            "first_name": "Mario",
+            "last_name": "Caraveo",
+            "team_full": "Rock Island Edison",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Freddie Deramus",
+            "first_name": "Freddie",
+            "last_name": "Deramus",
+            "team_full": "Vittum Cats",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Matthew Barron",
+            "first_name": "Matthew",
+            "last_name": "Barron",
+            "team_full": "PLT Prophets",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Rashad Stewart",
+            "first_name": "Rashad",
+            "last_name": "Stewart",
+            "team_full": "Champaign Chargers",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Chris Johnston",
+            "first_name": "Chris",
+            "last_name": "Johnston",
+            "team_full": "Aces WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 189,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Murphy Mahalik",
+            "first_name": "Murphy",
+            "last_name": "Mahalik",
+            "team_full": "Little Celtics",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Zach Schroeder",
+            "first_name": "Zach",
+            "last_name": "Schroeder",
+            "team_full": "Chilli Dawgs WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Grant Miller",
+            "first_name": "Grant",
+            "last_name": "Miller",
+            "team_full": "Harlem Cougars",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Matthew Stern",
+            "first_name": "Matthew",
+            "last_name": "Stern",
+            "team_full": "Villa-Lombard Cougars",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Michael Minton",
+            "first_name": "Michael",
+            "last_name": "Minton",
+            "team_full": "Little Redbrids",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Caleb Bridges",
+            "first_name": "Caleb",
+            "last_name": "Bridges",
+            "team_full": "Springfield Capitals",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 275,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Kyle Crotty",
+            "first_name": "Kyle",
+            "last_name": "Crotty",
+            "team_full": "Roxana Kids WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Robert Taylor",
+            "first_name": "Robert",
+            "last_name": "Taylor",
+            "team_full": "Springfield Capitals",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Ron Pena",
+            "first_name": "Ron",
+            "last_name": "Pena",
+            "team_full": "Fox Valley WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Ben Bradfield",
+            "first_name": "Ben",
+            "last_name": "Bradfield",
+            "team_full": "Bismark-Henning WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Matt Richards",
+            "first_name": "Matt",
+            "last_name": "Richards",
+            "team_full": "Edison Panthers WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Charles Doerge",
+            "first_name": "Charles",
+            "last_name": "Doerge",
+            "team_full": "Edwardsville WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    }
+  ],
+  "team_scores": {
+    "novice": [
+      {
+        "team": "Little Celtics",
+        "acronym": null,
+        "score": 181.0
+      },
+      {
+        "team": "Fox Valley WC",
+        "acronym": null,
+        "score": 169.5
+      },
+      {
+        "team": "Villa-Lombard Cougars",
+        "acronym": null,
+        "score": 150.0
+      },
+      {
+        "team": "Tinley Park Bulldogs",
+        "acronym": null,
+        "score": 138.5
+      },
+      {
+        "team": "Lemont Bears",
+        "acronym": null,
+        "score": 106.0
+      },
+      {
+        "team": "Sterling Newman",
+        "acronym": null,
+        "score": 102.0
+      },
+      {
+        "team": "Vittum Cats",
+        "acronym": null,
+        "score": 96.0
+      },
+      {
+        "team": "Orland Park Pioneers",
+        "acronym": null,
+        "score": 95.0
+      },
+      {
+        "team": "Bethalto Jr. High",
+        "acronym": null,
+        "score": 84.0
+      },
+      {
+        "team": "Harlem Cougars",
+        "acronym": null,
+        "score": 73.0
+      }
+    ],
+    "senior": [
+      {
+        "team": "Fox Valley WC",
+        "acronym": null,
+        "score": 352.5
+      },
+      {
+        "team": "Little Celtics",
+        "acronym": null,
+        "score": 181.0
+      },
+      {
+        "team": "Vittum Cats",
+        "acronym": null,
+        "score": 172.5
+      },
+      {
+        "team": "Tinley Park Bulldogs",
+        "acronym": null,
+        "score": 153.0
+      },
+      {
+        "team": "Villa-Lombard Cougars",
+        "acronym": null,
+        "score": 120.0
+      },
+      {
+        "team": "Harlem Cougars",
+        "acronym": null,
+        "score": 88.0
+      },
+      {
+        "team": "Lemont Bears",
+        "acronym": null,
+        "score": 80.0
+      },
+      {
+        "team": "Bradley-Bourbonnais WC",
+        "acronym": null,
+        "score": 68.0
+      },
+      {
+        "team": "Orland Park Pioneers",
+        "acronym": null,
+        "score": 63.0
+      },
+      {
+        "team": "Springfield Capitals",
+        "acronym": null,
+        "score": 63.0
+      }
+    ]
+  },
+  "deductions": []
+}
