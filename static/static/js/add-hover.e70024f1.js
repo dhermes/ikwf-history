@@ -1,4 +1,8 @@
 /**
+ * Copyright (c) 2025 - Present. IKWF History. All rights reserved.
+ */
+
+/**
  * Set up hover listeners for all the siblings of a given element.
  * @param {HTMLElement} element
  * @param {HTMLElement[]} siblings
