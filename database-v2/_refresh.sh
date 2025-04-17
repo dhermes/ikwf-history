@@ -11,3 +11,4 @@ sqlite3 ./ikwf.sqlite < ./migrations/0005-teams.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0006-tournament-teams.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0007-team-point-deductions.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0008-competitors.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0009-tournament-competitors.sql
