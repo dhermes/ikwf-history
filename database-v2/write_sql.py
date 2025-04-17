@@ -271,13 +271,17 @@ def _add_team_rows(
     team_by_name: dict[bracket_utils.Division, dict[str, str | None]],
     extracted: bracket_utils.ExtractedTournament,
     team_name_synonyms: dict[int, list[bracket_utils.TeamNameSynonym]],
-):
+) -> dict[bracket_utils.Division, dict[str, int]]:
+    team_id_map: dict[bracket_utils.Division, dict[str, int]] = {}
+
     # 1. `TeamRow` (allow duplicates across year and division)
     # 2. `TournamentTeamRow`
     tournament_teams: list[TournamentTeamRow] = []
 
     divisions = sorted(team_by_name.keys(), key=bracket_utils.division_sort_key)
     for division in divisions:
+        team_id_map.setdefault(division, {})
+
         teams = team_by_name[division]
         team_names = sorted(teams.keys())
         for team_name in team_names:
@@ -300,6 +304,8 @@ def _add_team_rows(
             inserts.tournament_team_rows.append(tournament_team_row)
             tournament_teams.append(tournament_team_row)
             insert_ids.next_tournament_team_id += 1
+
+            _insert_only(team_id_map[division], team_name, tournament_team_row.id_)
 
     # 3. `TeamPointDeductionRow`
     tournament_synonyms = team_name_synonyms.get(tournament_id, [])
@@ -328,6 +334,8 @@ def _add_team_rows(
                 )
             )
             insert_ids.next_team_point_deduction_id += 1
+
+    return team_id_map
 
 
 def _get_match_map(
@@ -436,6 +444,7 @@ def _get_competitor_map(
 def _handle_weight_class(
     bracket_id: int,
     weight_class: bracket_utils.WeightClass,
+    team_id_map: dict[str, int],
     insert_ids: InsertIDs,
     inserts: Inserts,
 ):
@@ -462,10 +471,11 @@ def _handle_weight_class(
         inserts.competitor_rows.append(competitor_row)
         insert_ids.next_competitor_id += 1
 
+        team_id = team_id_map[competitor_tuple.team]
         tournament_competitor_row = TournamentCompetitorRow(
             id=insert_ids.next_tournament_competitor_id,
             competitor_id=competitor_row.id_,
-            team_id=-1,  # TODO
+            team_id=team_id,
             full_name=competitor_row.full_name_normalized,
             first_name=competitor_tuple.first_name,
             last_name=competitor_tuple.last_name,
@@ -489,14 +499,17 @@ def _handle_tournament(
     team_name_synonyms: dict[int, list[bracket_utils.TeamNameSynonym]],
 ) -> InsertIDs:
     team_by_acronym, team_by_name = _build_team_maps(extracted)
-    _add_team_rows(
+    team_id_map = _add_team_rows(
         tournament_id, insert_ids, inserts, team_by_name, extracted, team_name_synonyms
     )
 
     for weight_class in extracted.weight_classes:
         key = weight_class.weight, weight_class.division, tournament_id
         bracket_id = bracket_id_info[key]
-        _handle_weight_class(bracket_id, weight_class, insert_ids, inserts)
+        division_team_id_map = team_id_map[weight_class.division]
+        _handle_weight_class(
+            bracket_id, weight_class, division_team_id_map, insert_ids, inserts
+        )
 
     return insert_ids
 
