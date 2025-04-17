@@ -82,7 +82,6 @@ class TournamentTeamRow(_ForbidExtra):
     team_score: float | None
     name: str
     acronym: str | None
-    non_scoring: bool
 
 
 class TeamPointDeductionRow(_ForbidExtra):
@@ -221,12 +220,6 @@ def _team_score_for_name(
     return None
 
 
-def _is_non_scoring(
-    tournament_id: int, division: bracket_utils.Division, name: str
-) -> bool:
-    return False
-
-
 def _match_deduction(
     team_name: str,
     divisions: list[bracket_utils.Division],
@@ -299,7 +292,6 @@ def _add_team_rows(
                 team_score=_team_score_for_name(division, team_name, extracted),
                 name=team_name,
                 acronym=acronym,
-                non_scoring=_is_non_scoring(tournament_id, division, team_name),
             )
             inserts.tournament_team_rows.append(tournament_team_row)
             insert_ids.next_tournament_team_id += 1
@@ -742,7 +734,7 @@ def _write_tournament_teams_sql(inserts: Inserts) -> None:
         "--------------------------------------------------------------------------------",
         "",
         "INSERT INTO",
-        "  tournament_team (id, tournament_id, division, team_id, team_score, name, acronym, non_scoring)",  # noqa: E501
+        "  tournament_team (id, tournament_id, division, team_id, team_score, name, acronym)",  # noqa: E501
         "VALUES",
     ]
 
@@ -754,10 +746,9 @@ def _write_tournament_teams_sql(inserts: Inserts) -> None:
         score_str = _sql_nullable_numeric(row.team_score)
         name_str = _sql_nullable_str(row.name)
         acronym_str = _sql_nullable_str(row.acronym)
-        non_scoring_str = _sql_nullable_bool(row.non_scoring)
         lines.append(
             f"  ({row.id_}, {row.tournament_id}, {division_str}, {row.team_id}, "
-            f"{score_str}, {name_str}, {acronym_str}, {non_scoring_str}){line_ending}"
+            f"{score_str}, {name_str}, {acronym_str}){line_ending}"
         )
 
     lines.append("")
