@@ -363,3 +363,13 @@ def get_match_slot_id(match_slot: MatchSlot) -> int:
         return 54
 
     raise NotImplementedError(match_slot)
+
+
+class TeamDuplicate(_ForbidExtra):
+    tournament_id: int
+    division: Division
+    name: str
+
+
+class TeamDuplicates(pydantic.RootModel[dict[str, list[TeamDuplicate]]]):
+    pass

@@ -666,6 +666,13 @@ def _get_team_name_synonyms() -> dict[int, list[bracket_utils.TeamNameSynonym]]:
     return loaded.root
 
 
+def _get_team_name_duplicates() -> dict[str, list[bracket_utils.TeamDuplicate]]:
+    with open(HERE / "_team-name-duplicates.json") as file_obj:
+        loaded = bracket_utils.TeamDuplicates.model_validate_json(file_obj.read())
+
+    return loaded.root
+
+
 def _sql_nullable_str(value: str | None) -> str:
     if value is None:
         return "NULL"
@@ -907,6 +914,7 @@ def main():
     extracted_dir = HERE.parent / "intermediate-data"
     filenames_by_year = _get_filenames_by_year()
     team_name_synonyms = _get_team_name_synonyms()
+    team_name_duplicates = _get_team_name_duplicates()
 
     insert_ids = InsertIDs(
         next_team_id=1,
