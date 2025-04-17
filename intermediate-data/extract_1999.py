@@ -266,6 +266,7 @@ def main():
     extracted = bracket_utils.ExtractedTournament(
         weight_classes=weight_classes, team_scores=team_scores, deductions=[]
     )
+    extracted.sort()
     with open(HERE / "extracted.1999.json", "w") as file_obj:
         file_obj.write(extracted.model_dump_json(indent=2))
         file_obj.write("\n")

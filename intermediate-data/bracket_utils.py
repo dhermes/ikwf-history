@@ -184,10 +184,79 @@ class Deduction(_ForbidExtra):
     value: float
 
 
+def _division_sort_key(division: Division) -> int:
+    if division == "bantam":
+        return 1
+
+    if division == "intermediate":
+        return 2
+
+    if division == "novice":
+        return 3
+
+    if division == "senior":
+        return 4
+
+    if division == "bantam_girls":
+        return 5
+
+    if division == "intermediate_girls":
+        return 6
+
+    if division == "novice_girls":
+        return 7
+
+    if division == "senior_girls":
+        return 8
+
+    if division == "junior_iwf":
+        return 9
+
+    if division == "novice_iwf":
+        return 10
+
+    if division == "senior_iwf":
+        return 11
+
+    raise NotImplementedError(division)
+
+
+def _weight_class_sort_key(weight_class: WeightClass) -> tuple[int, int]:
+    division = weight_class.division
+    return _division_sort_key(division), weight_class.weight
+
+
+def _deduction_sort_key(deduction: Deduction) -> tuple[str, str, float]:
+    return deduction.team, deduction.reason, deduction.value
+
+
+def _team_score_sort_key(team_score: TeamScore) -> tuple[float, str]:
+    return -team_score.score, team_score.team
+
+
 class ExtractedTournament(_ForbidExtra):
     weight_classes: list[WeightClass]
     team_scores: dict[Division, list[TeamScore]]
     deductions: list[Deduction]
+
+    def _sort_weight_classes(self):
+        self.weight_classes.sort(key=_weight_class_sort_key)
+
+    def _sort_team_scores(self):
+        divisions = sorted(self.team_scores.keys(), key=_division_sort_key)
+        ordered = {
+            division: sorted(self.team_scores[division], key=_team_score_sort_key)
+            for division in divisions
+        }
+        self.team_scores = ordered
+
+    def _sort_deductions(self):
+        self.deductions.sort(key=_deduction_sort_key)
+
+    def sort(self):
+        self._sort_weight_classes()
+        self._sort_team_scores()
+        self._sort_deductions()
 
 
 class CompetitorWithWeight(_ForbidExtra):

@@ -190,6 +190,7 @@ def main():
         _NAME_FIXES,
         _TEAM_FIXES,
     )
+    extracted_tournament.sort()
     with open(HERE / "extracted.2014.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))
         file_obj.write("\n")

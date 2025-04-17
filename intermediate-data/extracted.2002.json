@@ -32136,12 +32136,12 @@
         "score": 1.0
       },
       {
-        "team": "ACES WC",
+        "team": "A-J JR. WILDCATS",
         "acronym": null,
         "score": 0.0
       },
       {
-        "team": "A-J JR. WILDCATS",
+        "team": "ACES WC",
         "acronym": null,
         "score": 0.0
       },
@@ -32973,13 +32973,13 @@
         "score": 1.0
       },
       {
-        "team": "ACES WC",
-        "acronym": "ACE",
+        "team": "A-J JR. WILDCATS",
+        "acronym": "AJJ",
         "score": 0.0
       },
       {
-        "team": "A-J JR. WILDCATS",
-        "acronym": "AJJ",
+        "team": "ACES WC",
+        "acronym": "ACE",
         "score": 0.0
       },
       {
@@ -33113,6 +33113,11 @@
         "score": 0.0
       },
       {
+        "team": "L-P CRUNCHING CAVS",
+        "acronym": "LPC",
+        "score": 0.0
+      },
+      {
         "team": "LAKE VIEW JR WILDCATS",
         "acronym": null,
         "score": 0.0
@@ -33145,11 +33150,6 @@
       {
         "team": "LOCKPORT GATORS WC",
         "acronym": "LOC",
-        "score": 0.0
-      },
-      {
-        "team": "L-P CRUNCHING CAVS",
-        "acronym": "LPC",
         "score": 0.0
       },
       {
@@ -33321,6 +33321,11 @@
   },
   "deductions": [
     {
+      "team": "BARTLETT HAWK WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
       "team": "CARBONDALE WC",
       "reason": "",
       "value": -1.0
@@ -33331,22 +33336,17 @@
       "value": -1.0
     },
     {
+      "team": "KNIGHTS WRESTLING",
+      "reason": "",
+      "value": -1.0
+    },
+    {
       "team": "LAN-OAK P.D. LITTLE REBELS",
       "reason": "",
       "value": -1.0
     },
     {
       "team": "LIONS WC",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "BARTLETT HAWK WC",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "KNIGHTS WRESTLING",
       "reason": "",
       "value": -1.0
     },

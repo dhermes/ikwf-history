@@ -30889,6 +30889,11 @@
         "score": 3.0
       },
       {
+        "team": "FISHER WC",
+        "acronym": "FIS",
+        "score": 2.0
+      },
+      {
         "team": "GRAPPLIN'DEVILS WC",
         "acronym": "GDW",
         "score": 2.0
@@ -30906,11 +30911,6 @@
       {
         "team": "JR MAROON WC",
         "acronym": "JRM",
-        "score": 2.0
-      },
-      {
-        "team": "FISHER WC",
-        "acronym": "FIS",
         "score": 2.0
       },
       {
@@ -31231,13 +31231,13 @@
         "score": 27.0
       },
       {
-        "team": "ROCK FALLS RIPPIN",
-        "acronym": "RFR",
+        "team": "BOYS & GIRLS CLUB",
+        "acronym": "BGP",
         "score": 27.0
       },
       {
-        "team": "BOYS & GIRLS CLUB",
-        "acronym": "BGP",
+        "team": "ROCK FALLS RIPPIN",
+        "acronym": "RFR",
         "score": 27.0
       },
       {
@@ -31331,6 +31331,11 @@
         "score": 17.0
       },
       {
+        "team": "GALESBURG JR STRK 2",
+        "acronym": "GJS",
+        "score": 17.0
+      },
+      {
         "team": "LITTLE BOILER WC",
         "acronym": "LIT",
         "score": 17.0
@@ -31343,11 +31348,6 @@
       {
         "team": "WESTVILLE YOUTH WC",
         "acronym": "WES",
-        "score": 17.0
-      },
-      {
-        "team": "GALESBURG JR STRK 2",
-        "acronym": "GJS",
         "score": 17.0
       },
       {
@@ -31466,6 +31466,11 @@
         "score": 5.0
       },
       {
+        "team": "ADDISON ANIMALS",
+        "acronym": "ADA",
+        "score": 4.0
+      },
+      {
         "team": "ALEDO BEAR COUNTRY W",
         "acronym": "ABC",
         "score": 4.0
@@ -31481,6 +31486,11 @@
         "score": 4.0
       },
       {
+        "team": "ERIE MIDDLE SCHOOL W",
+        "acronym": "EMS",
+        "score": 4.0
+      },
+      {
         "team": "GLEN ELLYN DUNGEON W",
         "acronym": "GED",
         "score": 4.0
@@ -31488,26 +31498,6 @@
       {
         "team": "L-P CRUNCHING CAVS",
         "acronym": "LPC",
-        "score": 4.0
-      },
-      {
-        "team": "OAKWOOD WC",
-        "acronym": "OAK",
-        "score": 4.0
-      },
-      {
-        "team": "RAMS WC",
-        "acronym": "RAM",
-        "score": 4.0
-      },
-      {
-        "team": "RIVERBEND WC",
-        "acronym": "RIV",
-        "score": 4.0
-      },
-      {
-        "team": "SHELBYVILLE JUNIOR R",
-        "acronym": "SJW",
         "score": 4.0
       },
       {
@@ -31521,13 +31511,13 @@
         "score": 4.0
       },
       {
-        "team": "WAUONSIE GRIZZLIES",
-        "acronym": "WAG",
+        "team": "OAKWOOD WC",
+        "acronym": "OAK",
         "score": 4.0
       },
       {
-        "team": "ADDISON ANIMALS",
-        "acronym": "ADA",
+        "team": "RAMS WC",
+        "acronym": "RAM",
         "score": 4.0
       },
       {
@@ -31536,8 +31526,18 @@
         "score": 4.0
       },
       {
-        "team": "ERIE MIDDLE SCHOOL W",
-        "acronym": "EMS",
+        "team": "RIVERBEND WC",
+        "acronym": "RIV",
+        "score": 4.0
+      },
+      {
+        "team": "SHELBYVILLE JUNIOR R",
+        "acronym": "SJW",
+        "score": 4.0
+      },
+      {
+        "team": "WAUONSIE GRIZZLIES",
+        "acronym": "WAG",
         "score": 4.0
       },
       {
@@ -31586,8 +31586,28 @@
         "score": 0.0
       },
       {
+        "team": "ADDISON ANIMALS (2)",
+        "acronym": null,
+        "score": 0.0
+      },
+      {
         "team": "BADGER WC",
         "acronym": "BAD",
+        "score": 0.0
+      },
+      {
+        "team": "BRAWLERS WC (2)",
+        "acronym": "BWC",
+        "score": 0.0
+      },
+      {
+        "team": "CENTRALIA WC",
+        "acronym": "CEN",
+        "score": 0.0
+      },
+      {
+        "team": "CHARLESTON WC (2)",
+        "acronym": "CHR",
         "score": 0.0
       },
       {
@@ -31596,13 +31616,43 @@
         "score": 0.0
       },
       {
+        "team": "DECATUR WC",
+        "acronym": "DEC",
+        "score": 0.0
+      },
+      {
+        "team": "DUNDEE CARPETERVILL",
+        "acronym": "DC",
+        "score": 0.0
+      },
+      {
+        "team": "DUNDEE WESTFIELD",
+        "acronym": null,
+        "score": 0.0
+      },
+      {
         "team": "DURAND-PECATONICA",
         "acronym": "DPC",
         "score": 0.0
       },
       {
+        "team": "ERIE MIDDLE SCHOOL W (2)",
+        "acronym": null,
+        "score": 0.0
+      },
+      {
+        "team": "FISHER WC",
+        "acronym": "FWC",
+        "score": 0.0
+      },
+      {
         "team": "FRANKLIN PARK RAIDER",
         "acronym": "FPR",
+        "score": 0.0
+      },
+      {
+        "team": "GALESBURG JR STREAKS",
+        "acronym": null,
         "score": 0.0
       },
       {
@@ -31626,81 +31676,6 @@
         "score": 0.0
       },
       {
-        "team": "LAKELAND PREDATORS",
-        "acronym": "LLP",
-        "score": 0.0
-      },
-      {
-        "team": "PLAINFIELD WC",
-        "acronym": "PWC",
-        "score": 0.0
-      },
-      {
-        "team": "PONTIAC PYTHONS",
-        "acronym": "PPW",
-        "score": 0.0
-      },
-      {
-        "team": "SPRINGFIELD CAPITALS",
-        "acronym": null,
-        "score": 0.0
-      },
-      {
-        "team": "TAYLORVILLE WC",
-        "acronym": "TAY",
-        "score": 0.0
-      },
-      {
-        "team": "VANDALIA JR WRESTLIN",
-        "acronym": "VAN",
-        "score": 0.0
-      },
-      {
-        "team": "YORKVILLE WC",
-        "acronym": "YWC",
-        "score": 0.0
-      },
-      {
-        "team": "ADDISON ANIMALS (2)",
-        "acronym": null,
-        "score": 0.0
-      },
-      {
-        "team": "CENTRALIA WC",
-        "acronym": "CEN",
-        "score": 0.0
-      },
-      {
-        "team": "DECATUR WC",
-        "acronym": "DEC",
-        "score": 0.0
-      },
-      {
-        "team": "DUNDEE CARPETERVILL",
-        "acronym": "DC",
-        "score": 0.0
-      },
-      {
-        "team": "DUNDEE WESTFIELD",
-        "acronym": null,
-        "score": 0.0
-      },
-      {
-        "team": "ERIE MIDDLE SCHOOL W (2)",
-        "acronym": null,
-        "score": 0.0
-      },
-      {
-        "team": "FISHER WC",
-        "acronym": "FWC",
-        "score": 0.0
-      },
-      {
-        "team": "GALESBURG JR STREAKS",
-        "acronym": null,
-        "score": 0.0
-      },
-      {
         "team": "LAKE VIEW JR WILDCAT",
         "acronym": "LJW",
         "score": 0.0
@@ -31711,8 +31686,18 @@
         "score": 0.0
       },
       {
+        "team": "LAKELAND PREDATORS",
+        "acronym": "LLP",
+        "score": 0.0
+      },
+      {
         "team": "LIMESTONE YOUTH ROCK",
         "acronym": "LYW",
+        "score": 0.0
+      },
+      {
+        "team": "MANTENO JR PANTHERS (2)",
+        "acronym": null,
         "score": 0.0
       },
       {
@@ -31731,8 +31716,18 @@
         "score": 0.0
       },
       {
+        "team": "PLAINFIELD WC",
+        "acronym": "PWC",
+        "score": 0.0
+      },
+      {
         "team": "PLT PROPHETS WC",
         "acronym": "PLT",
+        "score": 0.0
+      },
+      {
+        "team": "PONTIAC PYTHONS",
+        "acronym": "PPW",
         "score": 0.0
       },
       {
@@ -31746,8 +31741,18 @@
         "score": 0.0
       },
       {
+        "team": "SPRINGFIELD CAPITALS",
+        "acronym": null,
+        "score": 0.0
+      },
+      {
         "team": "ST BEDE WC",
         "acronym": "STB",
+        "score": 0.0
+      },
+      {
+        "team": "TAYLORVILLE WC",
+        "acronym": "TAY",
         "score": 0.0
       },
       {
@@ -31756,38 +31761,43 @@
         "score": 0.0
       },
       {
+        "team": "VANDALIA JR WRESTLIN",
+        "acronym": "VAN",
+        "score": 0.0
+      },
+      {
         "team": "WAUBONSIE BULLDOGS",
         "acronym": "WAB",
         "score": 0.0
       },
       {
-        "team": "MANTENO JR PANTHERS (2)",
-        "acronym": null,
+        "team": "YORKVILLE WC",
+        "acronym": "YWC",
         "score": 0.0
-      },
-      {
-        "team": "BRAWLERS WC (2)",
-        "acronym": "BWC",
-        "score": 0.0
-      },
-      {
-        "team": "CHARLESTON WC (2)",
-        "acronym": "CHR",
-        "score": 0.0
-      },
-      {
-        "team": "HINSDALE RED DEVILS",
-        "acronym": "HRD",
-        "score": -2.0
       },
       {
         "team": "WARRENSBURG WC",
         "acronym": "WAR",
         "score": -1.0
+      },
+      {
+        "team": "HINSDALE RED DEVILS",
+        "acronym": "HRD",
+        "score": -2.0
       }
     ]
   },
   "deductions": [
+    {
+      "team": "HINSDALE RED DEVILS",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "HINSDALE RED DEVILS",
+      "reason": "",
+      "value": -1.0
+    },
     {
       "team": "WARRENSBURG WC",
       "reason": "",
@@ -31795,16 +31805,6 @@
     },
     {
       "team": "WASHINGTON JR PANT",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "HINSDALE RED DEVILS",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "HINSDALE RED DEVILS",
       "reason": "",
       "value": -1.0
     }

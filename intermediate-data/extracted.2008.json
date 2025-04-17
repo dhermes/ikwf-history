@@ -33475,18 +33475,33 @@
   },
   "deductions": [
     {
-      "team": "VITTUM CATS",
-      "reason": "Kevin Moylan - Sideline",
+      "team": "A-J JUNIOR WILDCATS",
+      "reason": "Eric Mason-Unsportsmanlike Conduct",
       "value": -1.0
     },
     {
-      "team": "CRYSTAL LAKE WIZARDS",
-      "reason": "Michael Zelasco - Sideline",
+      "team": "ACADEMY GRAPPLERS",
+      "reason": "Gary Fritz-Unsportsmanlike Conduct",
       "value": -1.0
     },
     {
-      "team": "GOMEZ WRESTLING ACADEMY",
-      "reason": "Richie Marrillego",
+      "team": "ALLEMAN JR PIONEER WC",
+      "reason": "Joseph Romeo-Unsportsmanlike Conduct",
+      "value": -1.0
+    },
+    {
+      "team": "ARLINGTON CARDINALS",
+      "reason": "bobby rundlett-unsportsmanlike conduct",
+      "value": -1.0
+    },
+    {
+      "team": "BLACKHAWK WC",
+      "reason": "unspecified coach-Misconduct",
+      "value": -1.0
+    },
+    {
+      "team": "BRAWLERS WC",
+      "reason": "unspecified coach-unsportsmanlike conduct",
       "value": -1.0
     },
     {
@@ -33497,66 +33512,6 @@
     {
       "team": "BRONCO WRESTLING",
       "reason": "Dontelli-Unsportsmanlike COnduct",
-      "value": -1.0
-    },
-    {
-      "team": "FORCE WRESTLING",
-      "reason": "Angelo Leryantn",
-      "value": -1.0
-    },
-    {
-      "team": "MARTINEZ FOX VALLEY ELITE",
-      "reason": "Nathan Martinez-Unsportsmanlike COnduct",
-      "value": -1.0
-    },
-    {
-      "team": "MARTINEZ FOX VALLEY ELITE",
-      "reason": "Alphonse Yrono-Sideline",
-      "value": -1.0
-    },
-    {
-      "team": "SCN YOUTH WC",
-      "reason": "jacob Field-Sideline",
-      "value": -1.0
-    },
-    {
-      "team": "ROMEOVILLE YOUTH WC",
-      "reason": "Anthony Stallings - Sideline",
-      "value": -1.0
-    },
-    {
-      "team": "WRESTLING FACTORY",
-      "reason": "Cameron Kennedy",
-      "value": -1.0
-    },
-    {
-      "team": "WRESTLING FACTORY",
-      "reason": "Michael Cullen-Sideline",
-      "value": -1.0
-    },
-    {
-      "team": "WRESTLING FACTORY",
-      "reason": "Matthew Ornoff-Unsportsmanlike COnduct",
-      "value": -1.0
-    },
-    {
-      "team": "MINOOKA LITTLE INDIANS",
-      "reason": "jacob Derlerk-Sideline",
-      "value": -1.0
-    },
-    {
-      "team": "FOX VALLEY WC",
-      "reason": "Connor Swier-Sideline",
-      "value": -1.0
-    },
-    {
-      "team": "FOX VALLEY WC",
-      "reason": "Bryce Brill-Sideline",
-      "value": -1.0
-    },
-    {
-      "team": "BULLS WC",
-      "reason": "Shany Williams",
       "value": -1.0
     },
     {
@@ -33575,18 +33530,98 @@
       "value": -1.0
     },
     {
-      "team": "ORLAND PARK PIONEERS",
-      "reason": "Johnny Pellegrino - Sideline",
+      "team": "BULLS WC",
+      "reason": "Shany Williams",
       "value": -1.0
     },
     {
-      "team": "TINLEY PARK BULLDOGS",
-      "reason": "unspecified coach-misconduct",
+      "team": "CALUMET MEMORIAL P.D. WOLVERINES",
+      "reason": "David Denne - Sideline",
       "value": -1.0
     },
     {
-      "team": "ARLINGTON CARDINALS",
-      "reason": "bobby rundlett-unsportsmanlike conduct",
+      "team": "CARY MATMEN",
+      "reason": "Zachary Synon-Sideline",
+      "value": -1.0
+    },
+    {
+      "team": "CHAMPAIGN KIDS WRESTLING",
+      "reason": "Toby Riyera - Sideline",
+      "value": -1.0
+    },
+    {
+      "team": "CLIPPER WC",
+      "reason": "Fred Appleman-Unsportsmanlike Conduct",
+      "value": -1.0
+    },
+    {
+      "team": "COLLINSVILLE RAIDERS",
+      "reason": "Mark Bullington-Unsportsmanlike Conduct",
+      "value": -1.0
+    },
+    {
+      "team": "CRYSTAL LAKE WIZARDS",
+      "reason": "Michael Zelasco - Sideline",
+      "value": -1.0
+    },
+    {
+      "team": "EDWARDSVILLE WC",
+      "reason": "Ryan Fallwell-Unsportsmanlike COnduct",
+      "value": -1.0
+    },
+    {
+      "team": "EDWARDSVILLE WC",
+      "reason": "Sabastian Champlin-Unsportsmanlike Conduct",
+      "value": -1.0
+    },
+    {
+      "team": "FAIRMONT ROUGH RIDERS",
+      "reason": "Billy Meyers - Sideline",
+      "value": -1.0
+    },
+    {
+      "team": "FORCE WRESTLING",
+      "reason": "Angelo Leryantn",
+      "value": -1.0
+    },
+    {
+      "team": "FOX VALLEY WC",
+      "reason": "Bryce Brill-Sideline",
+      "value": -1.0
+    },
+    {
+      "team": "FOX VALLEY WC",
+      "reason": "Connor Swier-Sideline",
+      "value": -1.0
+    },
+    {
+      "team": "GOMEZ WRESTLING ACADEMY",
+      "reason": "Richie Marrillego",
+      "value": -1.0
+    },
+    {
+      "team": "GRAPPLIN` DEVILS WC",
+      "reason": "Coach Corbella-Unsportsmanlike Conduct",
+      "value": -1.0
+    },
+    {
+      "team": "GRAPPLIN` DEVILS WC",
+      "reason": "Mike Santiago-Unsportsmanlike Conduct",
+      "value": -1.0
+    },
+    {
+      "team": "HARLEM COUGARS",
+      "reason": "Trace Engelkes-Unsportsmanlike Conduct",
+      "value": -1.0
+    },
+    {
+      "team": "HERRIN JUNIOR WC",
+      "reason": "Ryan Wilcox-Unsportmanlike Conduct",
+      "value": -1.0
+    },
+    {
+      "team": "JOLIET JUNIOR STEELMEN",
+      "reason": "Adrian Palacios-Unsportsmanlike Conduct",
       "value": -1.0
     },
     {
@@ -33600,53 +33635,8 @@
       "value": -1.0
     },
     {
-      "team": "BRAWLERS WC",
-      "reason": "unspecified coach-unsportsmanlike conduct",
-      "value": -1.0
-    },
-    {
       "team": "LITTLE HUSKIE WC",
       "reason": "Joey Urso-Unsportsmanlike Conduct",
-      "value": -1.0
-    },
-    {
-      "team": "ALLEMAN JR PIONEER WC",
-      "reason": "Joseph Romeo-Unsportsmanlike Conduct",
-      "value": -1.0
-    },
-    {
-      "team": "JOLIET JUNIOR STEELMEN",
-      "reason": "Adrian Palacios-Unsportsmanlike Conduct",
-      "value": -1.0
-    },
-    {
-      "team": "CHAMPAIGN KIDS WRESTLING",
-      "reason": "Toby Riyera - Sideline",
-      "value": -1.0
-    },
-    {
-      "team": "HARLEM COUGARS",
-      "reason": "Trace Engelkes-Unsportsmanlike Conduct",
-      "value": -1.0
-    },
-    {
-      "team": "COLLINSVILLE RAIDERS",
-      "reason": "Mark Bullington-Unsportsmanlike Conduct",
-      "value": -1.0
-    },
-    {
-      "team": "BLACKHAWK WC",
-      "reason": "unspecified coach-Misconduct",
-      "value": -1.0
-    },
-    {
-      "team": "EDWARDSVILLE WC",
-      "reason": "Sabastian Champlin-Unsportsmanlike Conduct",
-      "value": -1.0
-    },
-    {
-      "team": "EDWARDSVILLE WC",
-      "reason": "Ryan Fallwell-Unsportsmanlike COnduct",
       "value": -1.0
     },
     {
@@ -33655,58 +33645,18 @@
       "value": -1.0
     },
     {
-      "team": "SAUK VALLEY WC",
-      "reason": "Jake Snow-Sideline",
+      "team": "MARTINEZ FOX VALLEY ELITE",
+      "reason": "Alphonse Yrono-Sideline",
       "value": -1.0
     },
     {
-      "team": "A-J JUNIOR WILDCATS",
-      "reason": "Eric Mason-Unsportsmanlike Conduct",
+      "team": "MARTINEZ FOX VALLEY ELITE",
+      "reason": "Nathan Martinez-Unsportsmanlike COnduct",
       "value": -1.0
     },
     {
-      "team": "HERRIN JUNIOR WC",
-      "reason": "Ryan Wilcox-Unsportmanlike Conduct",
-      "value": -1.0
-    },
-    {
-      "team": "CALUMET MEMORIAL P.D. WOLVERINES",
-      "reason": "David Denne - Sideline",
-      "value": -1.0
-    },
-    {
-      "team": "GRAPPLIN` DEVILS WC",
-      "reason": "Mike Santiago-Unsportsmanlike Conduct",
-      "value": -1.0
-    },
-    {
-      "team": "GRAPPLIN` DEVILS WC",
-      "reason": "Coach Corbella-Unsportsmanlike Conduct",
-      "value": -1.0
-    },
-    {
-      "team": "ACADEMY GRAPPLERS",
-      "reason": "Gary Fritz-Unsportsmanlike Conduct",
-      "value": -1.0
-    },
-    {
-      "team": "CLIPPER WC",
-      "reason": "Fred Appleman-Unsportsmanlike Conduct",
-      "value": -1.0
-    },
-    {
-      "team": "CARY MATMEN",
-      "reason": "Zachary Synon-Sideline",
-      "value": -1.0
-    },
-    {
-      "team": "FAIRMONT ROUGH RIDERS",
-      "reason": "Billy Meyers - Sideline",
-      "value": -1.0
-    },
-    {
-      "team": "SHOOTERS ELITE WC",
-      "reason": "Joe Williams-Unsportsmanlike Conduct",
+      "team": "MINOOKA LITTLE INDIANS",
+      "reason": "jacob Derlerk-Sideline",
       "value": -1.0
     },
     {
@@ -33717,6 +33667,56 @@
     {
       "team": "MUSTANG WC",
       "reason": "Robbert Sisson - Sideline",
+      "value": -1.0
+    },
+    {
+      "team": "ORLAND PARK PIONEERS",
+      "reason": "Johnny Pellegrino - Sideline",
+      "value": -1.0
+    },
+    {
+      "team": "ROMEOVILLE YOUTH WC",
+      "reason": "Anthony Stallings - Sideline",
+      "value": -1.0
+    },
+    {
+      "team": "SAUK VALLEY WC",
+      "reason": "Jake Snow-Sideline",
+      "value": -1.0
+    },
+    {
+      "team": "SCN YOUTH WC",
+      "reason": "jacob Field-Sideline",
+      "value": -1.0
+    },
+    {
+      "team": "SHOOTERS ELITE WC",
+      "reason": "Joe Williams-Unsportsmanlike Conduct",
+      "value": -1.0
+    },
+    {
+      "team": "TINLEY PARK BULLDOGS",
+      "reason": "unspecified coach-misconduct",
+      "value": -1.0
+    },
+    {
+      "team": "VITTUM CATS",
+      "reason": "Kevin Moylan - Sideline",
+      "value": -1.0
+    },
+    {
+      "team": "WRESTLING FACTORY",
+      "reason": "Cameron Kennedy",
+      "value": -1.0
+    },
+    {
+      "team": "WRESTLING FACTORY",
+      "reason": "Matthew Ornoff-Unsportsmanlike COnduct",
+      "value": -1.0
+    },
+    {
+      "team": "WRESTLING FACTORY",
+      "reason": "Michael Cullen-Sideline",
       "value": -1.0
     }
   ]

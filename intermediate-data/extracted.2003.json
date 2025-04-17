@@ -32533,6 +32533,11 @@
         "score": 18.0
       },
       {
+        "team": "DUNDEE HIGHLANDERS",
+        "acronym": "DUN",
+        "score": 18.0
+      },
+      {
         "team": "LITTLE VIKINGS OF H-F",
         "acronym": "LIV",
         "score": 18.0
@@ -32540,11 +32545,6 @@
       {
         "team": "WHEATON MONROE EAGLES",
         "acronym": "WHM",
-        "score": 18.0
-      },
-      {
-        "team": "DUNDEE HIGHLANDERS",
-        "acronym": "DUN",
         "score": 18.0
       },
       {
@@ -32996,7 +32996,17 @@
   },
   "deductions": [
     {
-      "team": "LIMESTONE YOUTH WC",
+      "team": "FENWICK FALCONS WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "FENWICK FALCONS WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "FENWICK FALCONS WC",
       "reason": "",
       "value": -1.0
     },
@@ -33006,42 +33016,32 @@
       "value": -1.0
     },
     {
+      "team": "LIMESTONE YOUTH WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
       "team": "RIVERBEND WC",
       "reason": "",
       "value": -1.0
     },
     {
+      "team": "ROCK ISLAND WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "ROCK ISLAND WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "ROCK ISLAND WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
       "team": "WARRENSBURG WC",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "FENWICK FALCONS WC",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "FENWICK FALCONS WC",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "FENWICK FALCONS WC",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "ROCK ISLAND WC",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "ROCK ISLAND WC",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "ROCK ISLAND WC",
       "reason": "",
       "value": -1.0
     }

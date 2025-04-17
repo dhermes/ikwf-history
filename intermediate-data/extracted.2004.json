@@ -32260,6 +32260,11 @@
         "score": 0.0
       },
       {
+        "team": "M-S KIDS CLUB",
+        "acronym": "M-S",
+        "score": 0.0
+      },
+      {
         "team": "MANTENO JR. PANTHERS",
         "acronym": null,
         "score": 0.0
@@ -32277,11 +32282,6 @@
       {
         "team": "MORTON YOUTH WRESTLING",
         "acronym": "MRT",
-        "score": 0.0
-      },
-      {
-        "team": "M-S KIDS CLUB",
-        "acronym": "M-S",
         "score": 0.0
       },
       {
@@ -32450,13 +32450,13 @@
         "score": 0.0
       },
       {
-        "team": "TAYLORVILLE WC",
-        "acronym": "TAY",
+        "team": "T-BIRD RAIDER WRESTLING",
+        "acronym": null,
         "score": 0.0
       },
       {
-        "team": "T-BIRD RAIDER WRESTLING",
-        "acronym": null,
+        "team": "TAYLORVILLE WC",
+        "acronym": "TAY",
         "score": 0.0
       },
       {
@@ -32595,13 +32595,13 @@
         "score": -1.0
       },
       {
-        "team": "TIGER WC",
-        "acronym": "TIG",
+        "team": "SPRINGFIELD CAPITALS",
+        "acronym": null,
         "score": -1.0
       },
       {
-        "team": "SPRINGFIELD CAPITALS",
-        "acronym": null,
+        "team": "TIGER WC",
+        "acronym": "TIG",
         "score": -1.0
       },
       {
@@ -33062,6 +33062,11 @@
         "score": 4.0
       },
       {
+        "team": "SPRINGFIELD CAPITALS",
+        "acronym": "SPR",
+        "score": 4.0
+      },
+      {
         "team": "WOLFPAK WC",
         "acronym": "WOL",
         "score": 4.0
@@ -33069,11 +33074,6 @@
       {
         "team": "YORKVILLE WRESTLING CLUB",
         "acronym": "YOR",
-        "score": 4.0
-      },
-      {
-        "team": "SPRINGFIELD CAPITALS",
-        "acronym": "SPR",
         "score": 4.0
       },
       {
@@ -33299,6 +33299,11 @@
       {
         "team": "GALESBURG JR STREAKS",
         "acronym": "GAL",
+        "score": 0.0
+      },
+      {
+        "team": "GRAPPLIN' DEVILS",
+        "acronym": "GRD",
         "score": 0.0
       },
       {
@@ -33722,11 +33727,6 @@
         "score": 0.0
       },
       {
-        "team": "GRAPPLIN' DEVILS",
-        "acronym": "GRD",
-        "score": 0.0
-      },
-      {
         "team": "DU-PEC CARNIVORES",
         "acronym": null,
         "score": -1.0
@@ -33785,7 +33785,17 @@
       "value": -1.0
     },
     {
+      "team": "DU-PEC CARNIVORES",
+      "reason": "",
+      "value": -1.0
+    },
+    {
       "team": "HERRIN WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "HOFFMAN ESTATES WC",
       "reason": "",
       "value": -1.0
     },
@@ -33795,7 +33805,32 @@
       "value": -1.0
     },
     {
+      "team": "MARENGO WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "MARENGO WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
       "team": "MIDWEST CENTRAL YOUTH",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "MORTON LITTLE MUSTANGS",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "MORTON LITTLE MUSTANGS",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "MORTON YOUTH WRESTLING",
       "reason": "",
       "value": -1.0
     },
@@ -33810,7 +33845,17 @@
       "value": -1.0
     },
     {
-      "team": "TIGER WC",
+      "team": "RAMS WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "RICH RATTLERS WC",
+      "reason": "",
+      "value": -1.0
+    },
+    {
+      "team": "RICH RATTLERS WC",
       "reason": "",
       "value": -1.0
     },
@@ -33820,32 +33865,17 @@
       "value": -1.0
     },
     {
-      "team": "MARENGO WC",
+      "team": "ST. CHARLES EAST WC",
       "reason": "",
       "value": -1.0
     },
     {
-      "team": "MARENGO WC",
+      "team": "ST. CHARLES EAST WC",
       "reason": "",
       "value": -1.0
     },
     {
-      "team": "MORTON LITTLE MUSTANGS",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "MORTON LITTLE MUSTANGS",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "RICH RATTLERS WC",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "RICH RATTLERS WC",
+      "team": "TIGER WC",
       "reason": "",
       "value": -1.0
     },
@@ -33856,36 +33886,6 @@
     },
     {
       "team": "VANDALIA JR WRESTLING",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "DU-PEC CARNIVORES",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "HOFFMAN ESTATES WC",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "MORTON YOUTH WRESTLING",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "RAMS WC",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "ST. CHARLES EAST WC",
-      "reason": "",
-      "value": -1.0
-    },
-    {
-      "team": "ST. CHARLES EAST WC",
       "reason": "",
       "value": -1.0
     }

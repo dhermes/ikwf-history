@@ -32070,13 +32070,13 @@
         "score": 2.0
       },
       {
-        "team": "LITTLE HUSKIE WC",
-        "acronym": "LLH",
+        "team": "L-P CRUNCHING CAVS",
+        "acronym": "LPC",
         "score": 2.0
       },
       {
-        "team": "L-P CRUNCHING CAVS",
-        "acronym": "LPC",
+        "team": "LITTLE HUSKIE WC",
+        "acronym": "LLH",
         "score": 2.0
       },
       {
@@ -32180,6 +32180,11 @@
         "score": 0.0
       },
       {
+        "team": "M-S KIDS CLUB",
+        "acronym": "MSK",
+        "score": 0.0
+      },
+      {
         "team": "MACOMB LITTLE BOMBERS",
         "acronym": "MLB",
         "score": 0.0
@@ -32202,11 +32207,6 @@
       {
         "team": "MIDWEST CENTRAL YOUTH",
         "acronym": "MWC",
-        "score": 0.0
-      },
-      {
-        "team": "M-S KIDS CLUB",
-        "acronym": "MSK",
         "score": 0.0
       },
       {
@@ -32737,6 +32737,11 @@
         "score": 6.0
       },
       {
+        "team": "ALLEMAN JR PIONEERS",
+        "acronym": "AJP",
+        "score": 4.0
+      },
+      {
         "team": "ARGENTA/OREANA KIDS CLUB",
         "acronym": "AGO",
         "score": 4.0
@@ -32802,11 +32807,6 @@
         "score": 4.0
       },
       {
-        "team": "ALLEMAN JR PIONEERS",
-        "acronym": "AJP",
-        "score": 4.0
-      },
-      {
         "team": "CUMBERLAND YOUTH WC",
         "acronym": "CMB",
         "score": 3.0
@@ -32860,12 +32860,12 @@
   },
   "deductions": [
     {
-      "team": "JOLIET JUNIOR STEELMEN",
+      "team": "IRON MAN",
       "reason": "",
       "value": -1.0
     },
     {
-      "team": "IRON MAN",
+      "team": "JOLIET JUNIOR STEELMEN",
       "reason": "",
       "value": -1.0
     }

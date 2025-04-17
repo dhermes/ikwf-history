@@ -2,6 +2,918 @@
   "weight_classes": [
     {
       "division": "novice",
+      "weight": 62,
+      "matches": [
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "Dean Wainwright",
+            "first_name": "Dean",
+            "last_name": "Wainwright",
+            "team_full": "Riverdale Elite",
+            "team_acronym": "RE"
+          },
+          "bottom_competitor": {
+            "full_name": "Noah Ciolkosz",
+            "first_name": "Noah",
+            "last_name": "Ciolkosz",
+            "team_full": "Tinley Park Bulldogs",
+            "team_acronym": "TPB"
+          },
+          "result": "Maj 11-0",
+          "result_type": "major",
+          "bout_number": 129,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "Brady Phelps",
+            "first_name": "Brady",
+            "last_name": "Phelps",
+            "team_full": "Arlington Cardinals WC",
+            "team_acronym": "AC"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "Michael Anderson",
+            "first_name": "Michael",
+            "last_name": "Anderson",
+            "team_full": "Fox Valley WC",
+            "team_acronym": "FV"
+          },
+          "bottom_competitor": {
+            "full_name": "Maxwell Wade",
+            "first_name": "Maxwell",
+            "last_name": "Wade",
+            "team_full": "Gladiator Elite",
+            "team_acronym": "GLAD"
+          },
+          "result": "Fall 1:07",
+          "result_type": "fall",
+          "bout_number": 130,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Brayden Teunissen",
+            "first_name": "Brayden",
+            "last_name": "Teunissen",
+            "team_full": "Belvidere Bandits WC",
+            "team_acronym": "BEL"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "Rocky Seibel",
+            "first_name": "Rocky",
+            "last_name": "Seibel",
+            "team_full": "Belleville Little Devils WC",
+            "team_acronym": "BLD"
+          },
+          "bottom_competitor": {
+            "full_name": "Aiden Larsen",
+            "first_name": "Aiden",
+            "last_name": "Larsen",
+            "team_full": "Team 1006 Wrestling",
+            "team_acronym": null
+          },
+          "result": "Maj 9-1",
+          "result_type": "major",
+          "bout_number": 131,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Nore Turner",
+            "first_name": "Nore",
+            "last_name": "Turner",
+            "team_full": "Lincoln-Way WC",
+            "team_acronym": "LWWC"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "Cory Zator",
+            "first_name": "Cory",
+            "last_name": "Zator",
+            "team_full": "Lemont Bears WC",
+            "team_acronym": "LB"
+          },
+          "bottom_competitor": {
+            "full_name": "Louie Delpage",
+            "first_name": "Louie",
+            "last_name": "Delpage",
+            "team_full": "Force WC",
+            "team_acronym": "FOR"
+          },
+          "result": "SV-1 4-2",
+          "result_type": "decision",
+          "bout_number": 132,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Logan Roberts",
+            "first_name": "Logan",
+            "last_name": "Roberts",
+            "team_full": "Mt. Zion Kids WC",
+            "team_acronym": "MTZ"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "Brayden Edwards",
+            "first_name": "Brayden",
+            "last_name": "Edwards",
+            "team_full": "Storm Youth WC",
+            "team_acronym": "SYWC"
+          },
+          "bottom_competitor": {
+            "full_name": "Rocco Hayes",
+            "first_name": "Rocco",
+            "last_name": "Hayes",
+            "team_full": "Contender Wrestling",
+            "team_acronym": "CON"
+          },
+          "result": "Fall 3:00",
+          "result_type": "fall",
+          "bout_number": 133,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Caleb Scott",
+            "first_name": "Caleb",
+            "last_name": "Scott",
+            "team_full": "Bulls WC",
+            "team_acronym": "BULL"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "Dana Wickson",
+            "first_name": "Dana",
+            "last_name": "Wickson",
+            "team_full": "DA WC",
+            "team_acronym": "DA"
+          },
+          "bottom_competitor": {
+            "full_name": "Evan Gosz",
+            "first_name": "Evan",
+            "last_name": "Gosz",
+            "team_full": "Arlington Cardinals WC",
+            "team_acronym": "AC"
+          },
+          "result": "Fall 3:28",
+          "result_type": "fall",
+          "bout_number": 134,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Jonathan Theodor",
+            "first_name": "Jonathan",
+            "last_name": "Theodor",
+            "team_full": "Team No Ego WC",
+            "team_acronym": "TNE"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "Jase Salin",
+            "first_name": "Jase",
+            "last_name": "Salin",
+            "team_full": "Celtics WC",
+            "team_acronym": "CEL"
+          },
+          "bottom_competitor": {
+            "full_name": "Joseph Young",
+            "first_name": "Joseph",
+            "last_name": "Young",
+            "team_full": "DA WC",
+            "team_acronym": "DA"
+          },
+          "result": "TF 15-0",
+          "result_type": "tech",
+          "bout_number": 135,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Chazz Robinson",
+            "first_name": "Chazz",
+            "last_name": "Robinson",
+            "team_full": "Harvey Twisters",
+            "team_acronym": "HT"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "Nicholas Garcia",
+            "first_name": "Nicholas",
+            "last_name": "Garcia",
+            "team_full": "Gomez Wrestling Academy",
+            "team_acronym": "GWA"
+          },
+          "bottom_competitor": {
+            "full_name": "Emmitt Holt",
+            "first_name": "Emmitt",
+            "last_name": "Holt",
+            "team_full": "Unity Youth WC",
+            "team_acronym": "UYWC"
+          },
+          "result": "TF 15-0",
+          "result_type": "tech",
+          "bout_number": 136,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Keagan Steen",
+            "first_name": "Keagan",
+            "last_name": "Steen",
+            "team_full": "Young Guns",
+            "team_acronym": "YG"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_01",
+          "top_competitor": {
+            "full_name": "Brady Phelps",
+            "first_name": "Brady",
+            "last_name": "Phelps",
+            "team_full": "Arlington Cardinals WC",
+            "team_acronym": "AC"
+          },
+          "bottom_competitor": {
+            "full_name": "Dean Wainwright",
+            "first_name": "Dean",
+            "last_name": "Wainwright",
+            "team_full": "Riverdale Elite",
+            "team_acronym": "RE"
+          },
+          "result": "Fall 0:44",
+          "result_type": "fall",
+          "bout_number": 265,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_02",
+          "top_competitor": {
+            "full_name": "Brayden Teunissen",
+            "first_name": "Brayden",
+            "last_name": "Teunissen",
+            "team_full": "Belvidere Bandits WC",
+            "team_acronym": "BEL"
+          },
+          "bottom_competitor": {
+            "full_name": "Maxwell Wade",
+            "first_name": "Maxwell",
+            "last_name": "Wade",
+            "team_full": "Gladiator Elite",
+            "team_acronym": "GLAD"
+          },
+          "result": "Fall 2:22",
+          "result_type": "fall",
+          "bout_number": 266,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_03",
+          "top_competitor": {
+            "full_name": "Nore Turner",
+            "first_name": "Nore",
+            "last_name": "Turner",
+            "team_full": "Lincoln-Way WC",
+            "team_acronym": "LWWC"
+          },
+          "bottom_competitor": {
+            "full_name": "Rocky Seibel",
+            "first_name": "Rocky",
+            "last_name": "Seibel",
+            "team_full": "Belleville Little Devils WC",
+            "team_acronym": "BLD"
+          },
+          "result": "Dec 10-4",
+          "result_type": "decision",
+          "bout_number": 267,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_04",
+          "top_competitor": {
+            "full_name": "Logan Roberts",
+            "first_name": "Logan",
+            "last_name": "Roberts",
+            "team_full": "Mt. Zion Kids WC",
+            "team_acronym": "MTZ"
+          },
+          "bottom_competitor": {
+            "full_name": "Cory Zator",
+            "first_name": "Cory",
+            "last_name": "Zator",
+            "team_full": "Lemont Bears WC",
+            "team_acronym": "LB"
+          },
+          "result": "Dec 10-6",
+          "result_type": "decision",
+          "bout_number": 268,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_05",
+          "top_competitor": {
+            "full_name": "Caleb Scott",
+            "first_name": "Caleb",
+            "last_name": "Scott",
+            "team_full": "Bulls WC",
+            "team_acronym": "BULL"
+          },
+          "bottom_competitor": {
+            "full_name": "Rocco Hayes",
+            "first_name": "Rocco",
+            "last_name": "Hayes",
+            "team_full": "Contender Wrestling",
+            "team_acronym": "CON"
+          },
+          "result": "Dec 2-1",
+          "result_type": "decision",
+          "bout_number": 269,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_06",
+          "top_competitor": {
+            "full_name": "Jonathan Theodor",
+            "first_name": "Jonathan",
+            "last_name": "Theodor",
+            "team_full": "Team No Ego WC",
+            "team_acronym": "TNE"
+          },
+          "bottom_competitor": {
+            "full_name": "Evan Gosz",
+            "first_name": "Evan",
+            "last_name": "Gosz",
+            "team_full": "Arlington Cardinals WC",
+            "team_acronym": "AC"
+          },
+          "result": "TF 18-2",
+          "result_type": "tech",
+          "bout_number": 270,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_07",
+          "top_competitor": {
+            "full_name": "Chazz Robinson",
+            "first_name": "Chazz",
+            "last_name": "Robinson",
+            "team_full": "Harvey Twisters",
+            "team_acronym": "HT"
+          },
+          "bottom_competitor": {
+            "full_name": "Jase Salin",
+            "first_name": "Jase",
+            "last_name": "Salin",
+            "team_full": "Celtics WC",
+            "team_acronym": "CEL"
+          },
+          "result": "Fall 4:07",
+          "result_type": "fall",
+          "bout_number": 271,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_08",
+          "top_competitor": {
+            "full_name": "Keagan Steen",
+            "first_name": "Keagan",
+            "last_name": "Steen",
+            "team_full": "Young Guns",
+            "team_acronym": "YG"
+          },
+          "bottom_competitor": {
+            "full_name": "Nicholas Garcia",
+            "first_name": "Nicholas",
+            "last_name": "Garcia",
+            "team_full": "Gomez Wrestling Academy",
+            "team_acronym": "GWA"
+          },
+          "result": "Dec 11-8",
+          "result_type": "decision",
+          "bout_number": 272,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "Brady Phelps",
+            "first_name": "Brady",
+            "last_name": "Phelps",
+            "team_full": "Arlington Cardinals WC",
+            "team_acronym": "AC"
+          },
+          "bottom_competitor": {
+            "full_name": "Brayden Teunissen",
+            "first_name": "Brayden",
+            "last_name": "Teunissen",
+            "team_full": "Belvidere Bandits WC",
+            "team_acronym": "BEL"
+          },
+          "result": "Dec 5-3",
+          "result_type": "decision",
+          "bout_number": 337,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "Nore Turner",
+            "first_name": "Nore",
+            "last_name": "Turner",
+            "team_full": "Lincoln-Way WC",
+            "team_acronym": "LWWC"
+          },
+          "bottom_competitor": {
+            "full_name": "Cory Zator",
+            "first_name": "Cory",
+            "last_name": "Zator",
+            "team_full": "Lemont Bears WC",
+            "team_acronym": "LB"
+          },
+          "result": "Maj 11-0",
+          "result_type": "major",
+          "bout_number": 338,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "Rocco Hayes",
+            "first_name": "Rocco",
+            "last_name": "Hayes",
+            "team_full": "Contender Wrestling",
+            "team_acronym": "CON"
+          },
+          "bottom_competitor": {
+            "full_name": "Evan Gosz",
+            "first_name": "Evan",
+            "last_name": "Gosz",
+            "team_full": "Arlington Cardinals WC",
+            "team_acronym": "AC"
+          },
+          "result": "Maj 11-2",
+          "result_type": "major",
+          "bout_number": 339,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "Jase Salin",
+            "first_name": "Jase",
+            "last_name": "Salin",
+            "team_full": "Celtics WC",
+            "team_acronym": "CEL"
+          },
+          "bottom_competitor": {
+            "full_name": "Nicholas Garcia",
+            "first_name": "Nicholas",
+            "last_name": "Garcia",
+            "team_full": "Gomez Wrestling Academy",
+            "team_acronym": "GWA"
+          },
+          "result": "Dec 7-2",
+          "result_type": "decision",
+          "bout_number": 340,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round3_01",
+          "top_competitor": {
+            "full_name": "Maxwell Wade",
+            "first_name": "Maxwell",
+            "last_name": "Wade",
+            "team_full": "Gladiator Elite",
+            "team_acronym": "GLAD"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 405,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round3_02",
+          "top_competitor": {
+            "full_name": "Rocky Seibel",
+            "first_name": "Rocky",
+            "last_name": "Seibel",
+            "team_full": "Belleville Little Devils WC",
+            "team_acronym": "BLD"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 406,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round3_03",
+          "top_competitor": {
+            "full_name": "Caleb Scott",
+            "first_name": "Caleb",
+            "last_name": "Scott",
+            "team_full": "Bulls WC",
+            "team_acronym": "BULL"
+          },
+          "bottom_competitor": {
+            "full_name": "Brayden Edwards",
+            "first_name": "Brayden",
+            "last_name": "Edwards",
+            "team_full": "Storm Youth WC",
+            "team_acronym": "SYWC"
+          },
+          "result": "Maj 13-1",
+          "result_type": "major",
+          "bout_number": 407,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round3_04",
+          "top_competitor": {
+            "full_name": "Chazz Robinson",
+            "first_name": "Chazz",
+            "last_name": "Robinson",
+            "team_full": "Harvey Twisters",
+            "team_acronym": "HT"
+          },
+          "bottom_competitor": {
+            "full_name": "Joseph Young",
+            "first_name": "Joseph",
+            "last_name": "Young",
+            "team_full": "DA WC",
+            "team_acronym": "DA"
+          },
+          "result": "Dec 8-4",
+          "result_type": "decision",
+          "bout_number": 408,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_01",
+          "top_competitor": {
+            "full_name": "Brady Phelps",
+            "first_name": "Brady",
+            "last_name": "Phelps",
+            "team_full": "Arlington Cardinals WC",
+            "team_acronym": "AC"
+          },
+          "bottom_competitor": {
+            "full_name": "Maxwell Wade",
+            "first_name": "Maxwell",
+            "last_name": "Wade",
+            "team_full": "Gladiator Elite",
+            "team_acronym": "GLAD"
+          },
+          "result": "Dec 6-0",
+          "result_type": "decision",
+          "bout_number": 473,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_02",
+          "top_competitor": {
+            "full_name": "Cory Zator",
+            "first_name": "Cory",
+            "last_name": "Zator",
+            "team_full": "Lemont Bears WC",
+            "team_acronym": "LB"
+          },
+          "bottom_competitor": {
+            "full_name": "Rocky Seibel",
+            "first_name": "Rocky",
+            "last_name": "Seibel",
+            "team_full": "Belleville Little Devils WC",
+            "team_acronym": "BLD"
+          },
+          "result": "Dec 6-0",
+          "result_type": "decision",
+          "bout_number": 474,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round4_blood_03",
+          "top_competitor": {
+            "full_name": "Caleb Scott",
+            "first_name": "Caleb",
+            "last_name": "Scott",
+            "team_full": "Bulls WC",
+            "team_acronym": "BULL"
+          },
+          "bottom_competitor": {
+            "full_name": "Evan Gosz",
+            "first_name": "Evan",
+            "last_name": "Gosz",
+            "team_full": "Arlington Cardinals WC",
+            "team_acronym": "AC"
+          },
+          "result": "Maj 13-3",
+          "result_type": "major",
+          "bout_number": 475,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_04",
+          "top_competitor": {
+            "full_name": "Chazz Robinson",
+            "first_name": "Chazz",
+            "last_name": "Robinson",
+            "team_full": "Harvey Twisters",
+            "team_acronym": "HT"
+          },
+          "bottom_competitor": {
+            "full_name": "Nicholas Garcia",
+            "first_name": "Nicholas",
+            "last_name": "Garcia",
+            "team_full": "Gomez Wrestling Academy",
+            "team_acronym": "GWA"
+          },
+          "result": "Fall 3:41",
+          "result_type": "fall",
+          "bout_number": 476,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "Brayden Teunissen",
+            "first_name": "Brayden",
+            "last_name": "Teunissen",
+            "team_full": "Belvidere Bandits WC",
+            "team_acronym": "BEL"
+          },
+          "bottom_competitor": {
+            "full_name": "Nore Turner",
+            "first_name": "Nore",
+            "last_name": "Turner",
+            "team_full": "Lincoln-Way WC",
+            "team_acronym": "LWWC"
+          },
+          "result": "Dec 6-1",
+          "result_type": "decision",
+          "bout_number": 541,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "Rocco Hayes",
+            "first_name": "Rocco",
+            "last_name": "Hayes",
+            "team_full": "Contender Wrestling",
+            "team_acronym": "CON"
+          },
+          "bottom_competitor": {
+            "full_name": "Jase Salin",
+            "first_name": "Jase",
+            "last_name": "Salin",
+            "team_full": "Celtics WC",
+            "team_acronym": "CEL"
+          },
+          "result": "Dec 3-2",
+          "result_type": "decision",
+          "bout_number": 542,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "Brady Phelps",
+            "first_name": "Brady",
+            "last_name": "Phelps",
+            "team_full": "Arlington Cardinals WC",
+            "team_acronym": "AC"
+          },
+          "bottom_competitor": {
+            "full_name": "Rocky Seibel",
+            "first_name": "Rocky",
+            "last_name": "Seibel",
+            "team_full": "Belleville Little Devils WC",
+            "team_acronym": "BLD"
+          },
+          "result": "Dec 5-0",
+          "result_type": "decision",
+          "bout_number": 543,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "Caleb Scott",
+            "first_name": "Caleb",
+            "last_name": "Scott",
+            "team_full": "Bulls WC",
+            "team_acronym": "BULL"
+          },
+          "bottom_competitor": {
+            "full_name": "Nicholas Garcia",
+            "first_name": "Nicholas",
+            "last_name": "Garcia",
+            "team_full": "Gomez Wrestling Academy",
+            "team_acronym": "GWA"
+          },
+          "result": "Maj 16-4",
+          "result_type": "major",
+          "bout_number": 544,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "Brayden Teunissen",
+            "first_name": "Brayden",
+            "last_name": "Teunissen",
+            "team_full": "Belvidere Bandits WC",
+            "team_acronym": "BEL"
+          },
+          "bottom_competitor": {
+            "full_name": "Brady Phelps",
+            "first_name": "Brady",
+            "last_name": "Phelps",
+            "team_full": "Arlington Cardinals WC",
+            "team_acronym": "AC"
+          },
+          "result": "Dec 5-3",
+          "result_type": "decision",
+          "bout_number": 577,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "Caleb Scott",
+            "first_name": "Caleb",
+            "last_name": "Scott",
+            "team_full": "Bulls WC",
+            "team_acronym": "BULL"
+          },
+          "bottom_competitor": {
+            "full_name": "Rocco Hayes",
+            "first_name": "Rocco",
+            "last_name": "Hayes",
+            "team_full": "Contender Wrestling",
+            "team_acronym": "CON"
+          },
+          "result": "Dec 2-1",
+          "result_type": "decision",
+          "bout_number": 578,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Brayden Teunissen",
+            "first_name": "Brayden",
+            "last_name": "Teunissen",
+            "team_full": "Belvidere Bandits WC",
+            "team_acronym": "BEL"
+          },
+          "bottom_competitor": {
+            "full_name": "Rocco Hayes",
+            "first_name": "Rocco",
+            "last_name": "Hayes",
+            "team_full": "Contender Wrestling",
+            "team_acronym": "CON"
+          },
+          "result": "Dec 3-0",
+          "result_type": "decision",
+          "bout_number": 627,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Brady Phelps",
+            "first_name": "Brady",
+            "last_name": "Phelps",
+            "team_full": "Arlington Cardinals WC",
+            "team_acronym": "AC"
+          },
+          "bottom_competitor": {
+            "full_name": "Caleb Scott",
+            "first_name": "Caleb",
+            "last_name": "Scott",
+            "team_full": "Bulls WC",
+            "team_acronym": "BULL"
+          },
+          "result": "Dec 11-6",
+          "result_type": "decision",
+          "bout_number": 628,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_seventh_place",
+          "top_competitor": {
+            "full_name": "Rocky Seibel",
+            "first_name": "Rocky",
+            "last_name": "Seibel",
+            "team_full": "Belleville Little Devils WC",
+            "team_acronym": "BLD"
+          },
+          "bottom_competitor": {
+            "full_name": "Nicholas Garcia",
+            "first_name": "Nicholas",
+            "last_name": "Garcia",
+            "team_full": "Gomez Wrestling Academy",
+            "team_acronym": "GWA"
+          },
+          "result": "Dec 9-5",
+          "result_type": "decision",
+          "bout_number": 629,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Nore Turner",
+            "first_name": "Nore",
+            "last_name": "Turner",
+            "team_full": "Lincoln-Way WC",
+            "team_acronym": "LWWC"
+          },
+          "bottom_competitor": {
+            "full_name": "Jase Salin",
+            "first_name": "Jase",
+            "last_name": "Salin",
+            "team_full": "Celtics WC",
+            "team_acronym": "CEL"
+          },
+          "result": "Dec 6-1",
+          "result_type": "decision",
+          "bout_number": 646,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "novice",
       "weight": 66,
       "matches": [
         {
@@ -14267,918 +15179,6 @@
           "result": "Fall 1:16",
           "result_type": "fall",
           "bout_number": 645,
-          "top_win": true
-        }
-      ]
-    },
-    {
-      "division": "novice",
-      "weight": 62,
-      "matches": [
-        {
-          "match_slot": "championship_r32_02",
-          "top_competitor": {
-            "full_name": "Dean Wainwright",
-            "first_name": "Dean",
-            "last_name": "Wainwright",
-            "team_full": "Riverdale Elite",
-            "team_acronym": "RE"
-          },
-          "bottom_competitor": {
-            "full_name": "Noah Ciolkosz",
-            "first_name": "Noah",
-            "last_name": "Ciolkosz",
-            "team_full": "Tinley Park Bulldogs",
-            "team_acronym": "TPB"
-          },
-          "result": "Maj 11-0",
-          "result_type": "major",
-          "bout_number": 129,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_01",
-          "top_competitor": {
-            "full_name": "Brady Phelps",
-            "first_name": "Brady",
-            "last_name": "Phelps",
-            "team_full": "Arlington Cardinals WC",
-            "team_acronym": "AC"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_04",
-          "top_competitor": {
-            "full_name": "Michael Anderson",
-            "first_name": "Michael",
-            "last_name": "Anderson",
-            "team_full": "Fox Valley WC",
-            "team_acronym": "FV"
-          },
-          "bottom_competitor": {
-            "full_name": "Maxwell Wade",
-            "first_name": "Maxwell",
-            "last_name": "Wade",
-            "team_full": "Gladiator Elite",
-            "team_acronym": "GLAD"
-          },
-          "result": "Fall 1:07",
-          "result_type": "fall",
-          "bout_number": 130,
-          "top_win": false
-        },
-        {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Brayden Teunissen",
-            "first_name": "Brayden",
-            "last_name": "Teunissen",
-            "team_full": "Belvidere Bandits WC",
-            "team_acronym": "BEL"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_06",
-          "top_competitor": {
-            "full_name": "Rocky Seibel",
-            "first_name": "Rocky",
-            "last_name": "Seibel",
-            "team_full": "Belleville Little Devils WC",
-            "team_acronym": "BLD"
-          },
-          "bottom_competitor": {
-            "full_name": "Aiden Larsen",
-            "first_name": "Aiden",
-            "last_name": "Larsen",
-            "team_full": "Team 1006 Wrestling",
-            "team_acronym": null
-          },
-          "result": "Maj 9-1",
-          "result_type": "major",
-          "bout_number": 131,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Nore Turner",
-            "first_name": "Nore",
-            "last_name": "Turner",
-            "team_full": "Lincoln-Way WC",
-            "team_acronym": "LWWC"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_08",
-          "top_competitor": {
-            "full_name": "Cory Zator",
-            "first_name": "Cory",
-            "last_name": "Zator",
-            "team_full": "Lemont Bears WC",
-            "team_acronym": "LB"
-          },
-          "bottom_competitor": {
-            "full_name": "Louie Delpage",
-            "first_name": "Louie",
-            "last_name": "Delpage",
-            "team_full": "Force WC",
-            "team_acronym": "FOR"
-          },
-          "result": "SV-1 4-2",
-          "result_type": "decision",
-          "bout_number": 132,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Logan Roberts",
-            "first_name": "Logan",
-            "last_name": "Roberts",
-            "team_full": "Mt. Zion Kids WC",
-            "team_acronym": "MTZ"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_10",
-          "top_competitor": {
-            "full_name": "Brayden Edwards",
-            "first_name": "Brayden",
-            "last_name": "Edwards",
-            "team_full": "Storm Youth WC",
-            "team_acronym": "SYWC"
-          },
-          "bottom_competitor": {
-            "full_name": "Rocco Hayes",
-            "first_name": "Rocco",
-            "last_name": "Hayes",
-            "team_full": "Contender Wrestling",
-            "team_acronym": "CON"
-          },
-          "result": "Fall 3:00",
-          "result_type": "fall",
-          "bout_number": 133,
-          "top_win": false
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Caleb Scott",
-            "first_name": "Caleb",
-            "last_name": "Scott",
-            "team_full": "Bulls WC",
-            "team_acronym": "BULL"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_12",
-          "top_competitor": {
-            "full_name": "Dana Wickson",
-            "first_name": "Dana",
-            "last_name": "Wickson",
-            "team_full": "DA WC",
-            "team_acronym": "DA"
-          },
-          "bottom_competitor": {
-            "full_name": "Evan Gosz",
-            "first_name": "Evan",
-            "last_name": "Gosz",
-            "team_full": "Arlington Cardinals WC",
-            "team_acronym": "AC"
-          },
-          "result": "Fall 3:28",
-          "result_type": "fall",
-          "bout_number": 134,
-          "top_win": false
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Jonathan Theodor",
-            "first_name": "Jonathan",
-            "last_name": "Theodor",
-            "team_full": "Team No Ego WC",
-            "team_acronym": "TNE"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_14",
-          "top_competitor": {
-            "full_name": "Jase Salin",
-            "first_name": "Jase",
-            "last_name": "Salin",
-            "team_full": "Celtics WC",
-            "team_acronym": "CEL"
-          },
-          "bottom_competitor": {
-            "full_name": "Joseph Young",
-            "first_name": "Joseph",
-            "last_name": "Young",
-            "team_full": "DA WC",
-            "team_acronym": "DA"
-          },
-          "result": "TF 15-0",
-          "result_type": "tech",
-          "bout_number": 135,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Chazz Robinson",
-            "first_name": "Chazz",
-            "last_name": "Robinson",
-            "team_full": "Harvey Twisters",
-            "team_acronym": "HT"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_16",
-          "top_competitor": {
-            "full_name": "Nicholas Garcia",
-            "first_name": "Nicholas",
-            "last_name": "Garcia",
-            "team_full": "Gomez Wrestling Academy",
-            "team_acronym": "GWA"
-          },
-          "bottom_competitor": {
-            "full_name": "Emmitt Holt",
-            "first_name": "Emmitt",
-            "last_name": "Holt",
-            "team_full": "Unity Youth WC",
-            "team_acronym": "UYWC"
-          },
-          "result": "TF 15-0",
-          "result_type": "tech",
-          "bout_number": 136,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Keagan Steen",
-            "first_name": "Keagan",
-            "last_name": "Steen",
-            "team_full": "Young Guns",
-            "team_acronym": "YG"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r16_01",
-          "top_competitor": {
-            "full_name": "Brady Phelps",
-            "first_name": "Brady",
-            "last_name": "Phelps",
-            "team_full": "Arlington Cardinals WC",
-            "team_acronym": "AC"
-          },
-          "bottom_competitor": {
-            "full_name": "Dean Wainwright",
-            "first_name": "Dean",
-            "last_name": "Wainwright",
-            "team_full": "Riverdale Elite",
-            "team_acronym": "RE"
-          },
-          "result": "Fall 0:44",
-          "result_type": "fall",
-          "bout_number": 265,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r16_02",
-          "top_competitor": {
-            "full_name": "Brayden Teunissen",
-            "first_name": "Brayden",
-            "last_name": "Teunissen",
-            "team_full": "Belvidere Bandits WC",
-            "team_acronym": "BEL"
-          },
-          "bottom_competitor": {
-            "full_name": "Maxwell Wade",
-            "first_name": "Maxwell",
-            "last_name": "Wade",
-            "team_full": "Gladiator Elite",
-            "team_acronym": "GLAD"
-          },
-          "result": "Fall 2:22",
-          "result_type": "fall",
-          "bout_number": 266,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r16_03",
-          "top_competitor": {
-            "full_name": "Nore Turner",
-            "first_name": "Nore",
-            "last_name": "Turner",
-            "team_full": "Lincoln-Way WC",
-            "team_acronym": "LWWC"
-          },
-          "bottom_competitor": {
-            "full_name": "Rocky Seibel",
-            "first_name": "Rocky",
-            "last_name": "Seibel",
-            "team_full": "Belleville Little Devils WC",
-            "team_acronym": "BLD"
-          },
-          "result": "Dec 10-4",
-          "result_type": "decision",
-          "bout_number": 267,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r16_04",
-          "top_competitor": {
-            "full_name": "Logan Roberts",
-            "first_name": "Logan",
-            "last_name": "Roberts",
-            "team_full": "Mt. Zion Kids WC",
-            "team_acronym": "MTZ"
-          },
-          "bottom_competitor": {
-            "full_name": "Cory Zator",
-            "first_name": "Cory",
-            "last_name": "Zator",
-            "team_full": "Lemont Bears WC",
-            "team_acronym": "LB"
-          },
-          "result": "Dec 10-6",
-          "result_type": "decision",
-          "bout_number": 268,
-          "top_win": false
-        },
-        {
-          "match_slot": "championship_r16_05",
-          "top_competitor": {
-            "full_name": "Caleb Scott",
-            "first_name": "Caleb",
-            "last_name": "Scott",
-            "team_full": "Bulls WC",
-            "team_acronym": "BULL"
-          },
-          "bottom_competitor": {
-            "full_name": "Rocco Hayes",
-            "first_name": "Rocco",
-            "last_name": "Hayes",
-            "team_full": "Contender Wrestling",
-            "team_acronym": "CON"
-          },
-          "result": "Dec 2-1",
-          "result_type": "decision",
-          "bout_number": 269,
-          "top_win": false
-        },
-        {
-          "match_slot": "championship_r16_06",
-          "top_competitor": {
-            "full_name": "Jonathan Theodor",
-            "first_name": "Jonathan",
-            "last_name": "Theodor",
-            "team_full": "Team No Ego WC",
-            "team_acronym": "TNE"
-          },
-          "bottom_competitor": {
-            "full_name": "Evan Gosz",
-            "first_name": "Evan",
-            "last_name": "Gosz",
-            "team_full": "Arlington Cardinals WC",
-            "team_acronym": "AC"
-          },
-          "result": "TF 18-2",
-          "result_type": "tech",
-          "bout_number": 270,
-          "top_win": false
-        },
-        {
-          "match_slot": "championship_r16_07",
-          "top_competitor": {
-            "full_name": "Chazz Robinson",
-            "first_name": "Chazz",
-            "last_name": "Robinson",
-            "team_full": "Harvey Twisters",
-            "team_acronym": "HT"
-          },
-          "bottom_competitor": {
-            "full_name": "Jase Salin",
-            "first_name": "Jase",
-            "last_name": "Salin",
-            "team_full": "Celtics WC",
-            "team_acronym": "CEL"
-          },
-          "result": "Fall 4:07",
-          "result_type": "fall",
-          "bout_number": 271,
-          "top_win": false
-        },
-        {
-          "match_slot": "championship_r16_08",
-          "top_competitor": {
-            "full_name": "Keagan Steen",
-            "first_name": "Keagan",
-            "last_name": "Steen",
-            "team_full": "Young Guns",
-            "team_acronym": "YG"
-          },
-          "bottom_competitor": {
-            "full_name": "Nicholas Garcia",
-            "first_name": "Nicholas",
-            "last_name": "Garcia",
-            "team_full": "Gomez Wrestling Academy",
-            "team_acronym": "GWA"
-          },
-          "result": "Dec 11-8",
-          "result_type": "decision",
-          "bout_number": 272,
-          "top_win": false
-        },
-        {
-          "match_slot": "championship_quarter_01",
-          "top_competitor": {
-            "full_name": "Brady Phelps",
-            "first_name": "Brady",
-            "last_name": "Phelps",
-            "team_full": "Arlington Cardinals WC",
-            "team_acronym": "AC"
-          },
-          "bottom_competitor": {
-            "full_name": "Brayden Teunissen",
-            "first_name": "Brayden",
-            "last_name": "Teunissen",
-            "team_full": "Belvidere Bandits WC",
-            "team_acronym": "BEL"
-          },
-          "result": "Dec 5-3",
-          "result_type": "decision",
-          "bout_number": 337,
-          "top_win": false
-        },
-        {
-          "match_slot": "championship_quarter_02",
-          "top_competitor": {
-            "full_name": "Nore Turner",
-            "first_name": "Nore",
-            "last_name": "Turner",
-            "team_full": "Lincoln-Way WC",
-            "team_acronym": "LWWC"
-          },
-          "bottom_competitor": {
-            "full_name": "Cory Zator",
-            "first_name": "Cory",
-            "last_name": "Zator",
-            "team_full": "Lemont Bears WC",
-            "team_acronym": "LB"
-          },
-          "result": "Maj 11-0",
-          "result_type": "major",
-          "bout_number": 338,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_quarter_03",
-          "top_competitor": {
-            "full_name": "Rocco Hayes",
-            "first_name": "Rocco",
-            "last_name": "Hayes",
-            "team_full": "Contender Wrestling",
-            "team_acronym": "CON"
-          },
-          "bottom_competitor": {
-            "full_name": "Evan Gosz",
-            "first_name": "Evan",
-            "last_name": "Gosz",
-            "team_full": "Arlington Cardinals WC",
-            "team_acronym": "AC"
-          },
-          "result": "Maj 11-2",
-          "result_type": "major",
-          "bout_number": 339,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_quarter_04",
-          "top_competitor": {
-            "full_name": "Jase Salin",
-            "first_name": "Jase",
-            "last_name": "Salin",
-            "team_full": "Celtics WC",
-            "team_acronym": "CEL"
-          },
-          "bottom_competitor": {
-            "full_name": "Nicholas Garcia",
-            "first_name": "Nicholas",
-            "last_name": "Garcia",
-            "team_full": "Gomez Wrestling Academy",
-            "team_acronym": "GWA"
-          },
-          "result": "Dec 7-2",
-          "result_type": "decision",
-          "bout_number": 340,
-          "top_win": true
-        },
-        {
-          "match_slot": "consolation_round3_01",
-          "top_competitor": {
-            "full_name": "Maxwell Wade",
-            "first_name": "Maxwell",
-            "last_name": "Wade",
-            "team_full": "Gladiator Elite",
-            "team_acronym": "GLAD"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": 405,
-          "top_win": true
-        },
-        {
-          "match_slot": "consolation_round3_02",
-          "top_competitor": {
-            "full_name": "Rocky Seibel",
-            "first_name": "Rocky",
-            "last_name": "Seibel",
-            "team_full": "Belleville Little Devils WC",
-            "team_acronym": "BLD"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": 406,
-          "top_win": true
-        },
-        {
-          "match_slot": "consolation_round3_03",
-          "top_competitor": {
-            "full_name": "Caleb Scott",
-            "first_name": "Caleb",
-            "last_name": "Scott",
-            "team_full": "Bulls WC",
-            "team_acronym": "BULL"
-          },
-          "bottom_competitor": {
-            "full_name": "Brayden Edwards",
-            "first_name": "Brayden",
-            "last_name": "Edwards",
-            "team_full": "Storm Youth WC",
-            "team_acronym": "SYWC"
-          },
-          "result": "Maj 13-1",
-          "result_type": "major",
-          "bout_number": 407,
-          "top_win": true
-        },
-        {
-          "match_slot": "consolation_round3_04",
-          "top_competitor": {
-            "full_name": "Chazz Robinson",
-            "first_name": "Chazz",
-            "last_name": "Robinson",
-            "team_full": "Harvey Twisters",
-            "team_acronym": "HT"
-          },
-          "bottom_competitor": {
-            "full_name": "Joseph Young",
-            "first_name": "Joseph",
-            "last_name": "Young",
-            "team_full": "DA WC",
-            "team_acronym": "DA"
-          },
-          "result": "Dec 8-4",
-          "result_type": "decision",
-          "bout_number": 408,
-          "top_win": true
-        },
-        {
-          "match_slot": "consolation_round4_blood_01",
-          "top_competitor": {
-            "full_name": "Brady Phelps",
-            "first_name": "Brady",
-            "last_name": "Phelps",
-            "team_full": "Arlington Cardinals WC",
-            "team_acronym": "AC"
-          },
-          "bottom_competitor": {
-            "full_name": "Maxwell Wade",
-            "first_name": "Maxwell",
-            "last_name": "Wade",
-            "team_full": "Gladiator Elite",
-            "team_acronym": "GLAD"
-          },
-          "result": "Dec 6-0",
-          "result_type": "decision",
-          "bout_number": 473,
-          "top_win": true
-        },
-        {
-          "match_slot": "consolation_round4_blood_02",
-          "top_competitor": {
-            "full_name": "Cory Zator",
-            "first_name": "Cory",
-            "last_name": "Zator",
-            "team_full": "Lemont Bears WC",
-            "team_acronym": "LB"
-          },
-          "bottom_competitor": {
-            "full_name": "Rocky Seibel",
-            "first_name": "Rocky",
-            "last_name": "Seibel",
-            "team_full": "Belleville Little Devils WC",
-            "team_acronym": "BLD"
-          },
-          "result": "Dec 6-0",
-          "result_type": "decision",
-          "bout_number": 474,
-          "top_win": false
-        },
-        {
-          "match_slot": "consolation_round4_blood_03",
-          "top_competitor": {
-            "full_name": "Caleb Scott",
-            "first_name": "Caleb",
-            "last_name": "Scott",
-            "team_full": "Bulls WC",
-            "team_acronym": "BULL"
-          },
-          "bottom_competitor": {
-            "full_name": "Evan Gosz",
-            "first_name": "Evan",
-            "last_name": "Gosz",
-            "team_full": "Arlington Cardinals WC",
-            "team_acronym": "AC"
-          },
-          "result": "Maj 13-3",
-          "result_type": "major",
-          "bout_number": 475,
-          "top_win": true
-        },
-        {
-          "match_slot": "consolation_round4_blood_04",
-          "top_competitor": {
-            "full_name": "Chazz Robinson",
-            "first_name": "Chazz",
-            "last_name": "Robinson",
-            "team_full": "Harvey Twisters",
-            "team_acronym": "HT"
-          },
-          "bottom_competitor": {
-            "full_name": "Nicholas Garcia",
-            "first_name": "Nicholas",
-            "last_name": "Garcia",
-            "team_full": "Gomez Wrestling Academy",
-            "team_acronym": "GWA"
-          },
-          "result": "Fall 3:41",
-          "result_type": "fall",
-          "bout_number": 476,
-          "top_win": false
-        },
-        {
-          "match_slot": "championship_semi_01",
-          "top_competitor": {
-            "full_name": "Brayden Teunissen",
-            "first_name": "Brayden",
-            "last_name": "Teunissen",
-            "team_full": "Belvidere Bandits WC",
-            "team_acronym": "BEL"
-          },
-          "bottom_competitor": {
-            "full_name": "Nore Turner",
-            "first_name": "Nore",
-            "last_name": "Turner",
-            "team_full": "Lincoln-Way WC",
-            "team_acronym": "LWWC"
-          },
-          "result": "Dec 6-1",
-          "result_type": "decision",
-          "bout_number": 541,
-          "top_win": false
-        },
-        {
-          "match_slot": "championship_semi_02",
-          "top_competitor": {
-            "full_name": "Rocco Hayes",
-            "first_name": "Rocco",
-            "last_name": "Hayes",
-            "team_full": "Contender Wrestling",
-            "team_acronym": "CON"
-          },
-          "bottom_competitor": {
-            "full_name": "Jase Salin",
-            "first_name": "Jase",
-            "last_name": "Salin",
-            "team_full": "Celtics WC",
-            "team_acronym": "CEL"
-          },
-          "result": "Dec 3-2",
-          "result_type": "decision",
-          "bout_number": 542,
-          "top_win": false
-        },
-        {
-          "match_slot": "consolation_round5_01",
-          "top_competitor": {
-            "full_name": "Brady Phelps",
-            "first_name": "Brady",
-            "last_name": "Phelps",
-            "team_full": "Arlington Cardinals WC",
-            "team_acronym": "AC"
-          },
-          "bottom_competitor": {
-            "full_name": "Rocky Seibel",
-            "first_name": "Rocky",
-            "last_name": "Seibel",
-            "team_full": "Belleville Little Devils WC",
-            "team_acronym": "BLD"
-          },
-          "result": "Dec 5-0",
-          "result_type": "decision",
-          "bout_number": 543,
-          "top_win": true
-        },
-        {
-          "match_slot": "consolation_round5_02",
-          "top_competitor": {
-            "full_name": "Caleb Scott",
-            "first_name": "Caleb",
-            "last_name": "Scott",
-            "team_full": "Bulls WC",
-            "team_acronym": "BULL"
-          },
-          "bottom_competitor": {
-            "full_name": "Nicholas Garcia",
-            "first_name": "Nicholas",
-            "last_name": "Garcia",
-            "team_full": "Gomez Wrestling Academy",
-            "team_acronym": "GWA"
-          },
-          "result": "Maj 16-4",
-          "result_type": "major",
-          "bout_number": 544,
-          "top_win": true
-        },
-        {
-          "match_slot": "consolation_round6_semi_01",
-          "top_competitor": {
-            "full_name": "Brayden Teunissen",
-            "first_name": "Brayden",
-            "last_name": "Teunissen",
-            "team_full": "Belvidere Bandits WC",
-            "team_acronym": "BEL"
-          },
-          "bottom_competitor": {
-            "full_name": "Brady Phelps",
-            "first_name": "Brady",
-            "last_name": "Phelps",
-            "team_full": "Arlington Cardinals WC",
-            "team_acronym": "AC"
-          },
-          "result": "Dec 5-3",
-          "result_type": "decision",
-          "bout_number": 577,
-          "top_win": true
-        },
-        {
-          "match_slot": "consolation_round6_semi_02",
-          "top_competitor": {
-            "full_name": "Caleb Scott",
-            "first_name": "Caleb",
-            "last_name": "Scott",
-            "team_full": "Bulls WC",
-            "team_acronym": "BULL"
-          },
-          "bottom_competitor": {
-            "full_name": "Rocco Hayes",
-            "first_name": "Rocco",
-            "last_name": "Hayes",
-            "team_full": "Contender Wrestling",
-            "team_acronym": "CON"
-          },
-          "result": "Dec 2-1",
-          "result_type": "decision",
-          "bout_number": 578,
-          "top_win": false
-        },
-        {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Brayden Teunissen",
-            "first_name": "Brayden",
-            "last_name": "Teunissen",
-            "team_full": "Belvidere Bandits WC",
-            "team_acronym": "BEL"
-          },
-          "bottom_competitor": {
-            "full_name": "Rocco Hayes",
-            "first_name": "Rocco",
-            "last_name": "Hayes",
-            "team_full": "Contender Wrestling",
-            "team_acronym": "CON"
-          },
-          "result": "Dec 3-0",
-          "result_type": "decision",
-          "bout_number": 627,
-          "top_win": false
-        },
-        {
-          "match_slot": "consolation_fifth_place",
-          "top_competitor": {
-            "full_name": "Brady Phelps",
-            "first_name": "Brady",
-            "last_name": "Phelps",
-            "team_full": "Arlington Cardinals WC",
-            "team_acronym": "AC"
-          },
-          "bottom_competitor": {
-            "full_name": "Caleb Scott",
-            "first_name": "Caleb",
-            "last_name": "Scott",
-            "team_full": "Bulls WC",
-            "team_acronym": "BULL"
-          },
-          "result": "Dec 11-6",
-          "result_type": "decision",
-          "bout_number": 628,
-          "top_win": true
-        },
-        {
-          "match_slot": "consolation_seventh_place",
-          "top_competitor": {
-            "full_name": "Rocky Seibel",
-            "first_name": "Rocky",
-            "last_name": "Seibel",
-            "team_full": "Belleville Little Devils WC",
-            "team_acronym": "BLD"
-          },
-          "bottom_competitor": {
-            "full_name": "Nicholas Garcia",
-            "first_name": "Nicholas",
-            "last_name": "Garcia",
-            "team_full": "Gomez Wrestling Academy",
-            "team_acronym": "GWA"
-          },
-          "result": "Dec 9-5",
-          "result_type": "decision",
-          "bout_number": 629,
-          "top_win": false
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "Nore Turner",
-            "first_name": "Nore",
-            "last_name": "Turner",
-            "team_full": "Lincoln-Way WC",
-            "team_acronym": "LWWC"
-          },
-          "bottom_competitor": {
-            "full_name": "Jase Salin",
-            "first_name": "Jase",
-            "last_name": "Salin",
-            "team_full": "Celtics WC",
-            "team_acronym": "CEL"
-          },
-          "result": "Dec 6-1",
-          "result_type": "decision",
-          "bout_number": 646,
           "top_win": true
         }
       ]
@@ -31787,13 +31787,13 @@
         "score": 1.0
       },
       {
-        "team": "Aces WC",
-        "acronym": "ACE",
+        "team": "AJ Junior Wildcats WC",
+        "acronym": "AJJW",
         "score": 0.0
       },
       {
-        "team": "AJ Junior Wildcats WC",
-        "acronym": "AJJW",
+        "team": "Aces WC",
+        "acronym": "ACE",
         "score": 0.0
       },
       {
@@ -31922,13 +31922,13 @@
         "score": 0.0
       },
       {
-        "team": "Lake Zurich Cubs WC",
-        "acronym": "LZC",
+        "team": "LaSalle Peru Crunching Cavs Youth WC",
+        "acronym": "LPCC",
         "score": 0.0
       },
       {
-        "team": "LaSalle Peru Crunching Cavs Youth WC",
-        "acronym": "LPCC",
+        "team": "Lake Zurich Cubs WC",
+        "acronym": "LZC",
         "score": 0.0
       },
       {
@@ -31999,11 +31999,6 @@
       {
         "team": "Notre Dame WC",
         "acronym": "ND",
-        "score": 0.0
-      },
-      {
-        "team": "nWo WC",
-        "acronym": "NWOW",
         "score": 0.0
       },
       {
@@ -32092,6 +32087,11 @@
         "score": 0.0
       },
       {
+        "team": "TJ Trained-Springfield",
+        "acronym": "TJTS",
+        "score": 0.0
+      },
+      {
         "team": "Team Cuff Wrestling Tigers",
         "acronym": "TCWT",
         "score": 0.0
@@ -32109,11 +32109,6 @@
       {
         "team": "Tiger Town Tanglers WC",
         "acronym": "TTT",
-        "score": 0.0
-      },
-      {
-        "team": "TJ Trained-Springfield",
-        "acronym": "TJTS",
         "score": 0.0
       },
       {
@@ -32174,6 +32169,11 @@
       {
         "team": "Zee-Bee Stingers",
         "acronym": "ZBS",
+        "score": 0.0
+      },
+      {
+        "team": "nWo WC",
+        "acronym": "NWOW",
         "score": 0.0
       },
       {
@@ -33004,6 +33004,11 @@
         "score": 0.0
       },
       {
+        "team": "TJ Trained-Springfield",
+        "acronym": "TJTS",
+        "score": 0.0
+      },
+      {
         "team": "Team Cuff Wrestling Tigers",
         "acronym": "TCWT",
         "score": 0.0
@@ -33011,11 +33016,6 @@
       {
         "team": "Team No Ego WC",
         "acronym": "TNE",
-        "score": 0.0
-      },
-      {
-        "team": "TJ Trained-Springfield",
-        "acronym": "TJTS",
         "score": 0.0
       },
       {
@@ -33072,13 +33072,53 @@
   },
   "deductions": [
     {
-      "team": "Force WC",
-      "reason": "USC Against Keeyan Snapp (Bt. 516)",
+      "team": "Beat the Streets-Chicago",
+      "reason": "USC Against Jason Renteria (Bt. 525)",
+      "value": -1.0
+    },
+    {
+      "team": "Beat the Streets-Chicago",
+      "reason": "USC Against Michael Gentile (Bt. 467)",
+      "value": -1.0
+    },
+    {
+      "team": "Bolingbrook Junior Raiders",
+      "reason": "USC Against Anthony Liberatore (Bt. 319)",
       "value": -1.0
     },
     {
       "team": "Force WC",
       "reason": "USC Against Ben Gerdes (Bt. 577)",
+      "value": -1.0
+    },
+    {
+      "team": "Force WC",
+      "reason": "USC Against Keeyan Snapp (Bt. 516)",
+      "value": -1.0
+    },
+    {
+      "team": "Maine Eagles WC",
+      "reason": "USC Against Coach (Bt. 605)",
+      "value": -1.0
+    },
+    {
+      "team": "Mt. Zion Kids WC",
+      "reason": "USC Against Randall Roberts (Bt. 560)",
+      "value": -1.0
+    },
+    {
+      "team": "Mustang WC",
+      "reason": "USC Against John Starzyk (Bt. 505)",
+      "value": -1.0
+    },
+    {
+      "team": "Pitbull Wrestling Alliance",
+      "reason": "USC Against Roman Melnyk (Bt. 119)",
+      "value": -1.0
+    },
+    {
+      "team": "Team 312",
+      "reason": "USC Against Tim Duggan (Bt. 338)",
       "value": -1.0
     },
     {
@@ -33089,46 +33129,6 @@
     {
       "team": "nWo WC",
       "reason": "USC Against Nathan Martinez (Bt. 78)",
-      "value": -1.0
-    },
-    {
-      "team": "Pitbull Wrestling Alliance",
-      "reason": "USC Against Roman Melnyk (Bt. 119)",
-      "value": -1.0
-    },
-    {
-      "team": "Bolingbrook Junior Raiders",
-      "reason": "USC Against Anthony Liberatore (Bt. 319)",
-      "value": -1.0
-    },
-    {
-      "team": "Beat the Streets-Chicago",
-      "reason": "USC Against Michael Gentile (Bt. 467)",
-      "value": -1.0
-    },
-    {
-      "team": "Beat the Streets-Chicago",
-      "reason": "USC Against Jason Renteria (Bt. 525)",
-      "value": -1.0
-    },
-    {
-      "team": "Mustang WC",
-      "reason": "USC Against John Starzyk (Bt. 505)",
-      "value": -1.0
-    },
-    {
-      "team": "Maine Eagles WC",
-      "reason": "USC Against Coach (Bt. 605)",
-      "value": -1.0
-    },
-    {
-      "team": "Team 312",
-      "reason": "USC Against Tim Duggan (Bt. 338)",
-      "value": -1.0
-    },
-    {
-      "team": "Mt. Zion Kids WC",
-      "reason": "USC Against Randall Roberts (Bt. 560)",
       "value": -1.0
     }
   ]

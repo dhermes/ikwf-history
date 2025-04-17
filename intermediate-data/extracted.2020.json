@@ -9346,13 +9346,13 @@
   "team_scores": {
     "novice": [
       {
-        "team": "Addison Street WC",
-        "acronym": "ASWC",
+        "team": "AJ Jr. Wildcats",
+        "acronym": "AJJW",
         "score": 0.0
       },
       {
-        "team": "AJ Jr. Wildcats",
-        "acronym": "AJJW",
+        "team": "Addison Street WC",
+        "acronym": "ASWC",
         "score": 0.0
       },
       {
@@ -9516,16 +9516,6 @@
         "score": 0.0
       },
       {
-        "team": "Dakota WC",
-        "acronym": "DAK",
-        "score": 0.0
-      },
-      {
-        "team": "Danville Chargers",
-        "acronym": "DCW",
-        "score": 0.0
-      },
-      {
         "team": "DAWC",
         "acronym": "DA",
         "score": 0.0
@@ -9533,6 +9523,16 @@
       {
         "team": "DC WC",
         "acronym": "DCWC",
+        "score": 0.0
+      },
+      {
+        "team": "Dakota WC",
+        "acronym": "DAK",
+        "score": 0.0
+      },
+      {
+        "team": "Danville Chargers",
+        "acronym": "DCW",
         "score": 0.0
       },
       {
@@ -9731,13 +9731,13 @@
         "score": 0.0
       },
       {
-        "team": "Lakeland Predators WC",
-        "acronym": "LP",
+        "team": "LaSalle Peru Crunching Cavs Youth WC",
+        "acronym": "LPCC",
         "score": 0.0
       },
       {
-        "team": "LaSalle Peru Crunching Cavs Youth WC",
-        "acronym": "LPCC",
+        "team": "Lakeland Predators WC",
+        "acronym": "LP",
         "score": 0.0
       },
       {
@@ -9806,6 +9806,11 @@
         "score": 0.0
       },
       {
+        "team": "MS Youth WC",
+        "acronym": "MSY",
+        "score": 0.0
+      },
+      {
         "team": "MadDog Wrestling Academy",
         "acronym": "MWA",
         "score": 0.0
@@ -9846,11 +9851,6 @@
         "score": 0.0
       },
       {
-        "team": "MS Youth WC",
-        "acronym": "MSY",
-        "score": 0.0
-      },
-      {
         "team": "Mt. Vernon Lions Wrestling",
         "acronym": "MTVL",
         "score": 0.0
@@ -9883,11 +9883,6 @@
       {
         "team": "Notre Dame WC",
         "acronym": "ND",
-        "score": 0.0
-      },
-      {
-        "team": "nWo WC",
-        "acronym": "NWO",
         "score": 0.0
       },
       {
@@ -9971,6 +9966,11 @@
         "score": 0.0
       },
       {
+        "team": "RWC",
+        "acronym": "ROCH",
+        "score": 0.0
+      },
+      {
         "team": "Rams WC",
         "acronym": "RAMS",
         "score": 0.0
@@ -10031,8 +10031,13 @@
         "score": 0.0
       },
       {
-        "team": "RWC",
-        "acronym": "ROCH",
+        "team": "SCN Youth WC",
+        "acronym": "SCN",
+        "score": 0.0
+      },
+      {
+        "team": "SOT-C",
+        "acronym": "SOTC",
         "score": 0.0
       },
       {
@@ -10051,18 +10056,8 @@
         "score": 0.0
       },
       {
-        "team": "SCN Youth WC",
-        "acronym": "SCN",
-        "score": 0.0
-      },
-      {
         "team": "Scorpion WC",
         "acronym": "SCOR",
-        "score": 0.0
-      },
-      {
-        "team": "SOT-C",
-        "acronym": "SOTC",
         "score": 0.0
       },
       {
@@ -10116,6 +10111,11 @@
         "score": 0.0
       },
       {
+        "team": "TJ Trained Wrestling",
+        "acronym": "TJT",
+        "score": 0.0
+      },
+      {
         "team": "Team 1006 Wrestling",
         "acronym": null,
         "score": 0.0
@@ -10153,11 +10153,6 @@
       {
         "team": "Titan 2028 WC",
         "acronym": "TYW",
-        "score": 0.0
-      },
-      {
-        "team": "TJ Trained Wrestling",
-        "acronym": "TJT",
         "score": 0.0
       },
       {
@@ -10258,18 +10253,23 @@
       {
         "team": "Yorkville WC",
         "acronym": "YOR",
+        "score": 0.0
+      },
+      {
+        "team": "nWo WC",
+        "acronym": "NWO",
         "score": 0.0
       }
     ],
     "senior": [
       {
-        "team": "Addison Street WC",
-        "acronym": "ASWC",
+        "team": "AJ Jr. Wildcats",
+        "acronym": "AJJW",
         "score": 0.0
       },
       {
-        "team": "AJ Jr. Wildcats",
-        "acronym": "AJJW",
+        "team": "Addison Street WC",
+        "acronym": "ASWC",
         "score": 0.0
       },
       {
@@ -10433,16 +10433,6 @@
         "score": 0.0
       },
       {
-        "team": "Dakota WC",
-        "acronym": "DAK",
-        "score": 0.0
-      },
-      {
-        "team": "Danville Chargers",
-        "acronym": "DCW",
-        "score": 0.0
-      },
-      {
         "team": "DAWC",
         "acronym": "DA",
         "score": 0.0
@@ -10450,6 +10440,16 @@
       {
         "team": "DC WC",
         "acronym": "DCWC",
+        "score": 0.0
+      },
+      {
+        "team": "Dakota WC",
+        "acronym": "DAK",
+        "score": 0.0
+      },
+      {
+        "team": "Danville Chargers",
+        "acronym": "DCW",
         "score": 0.0
       },
       {
@@ -10648,13 +10648,13 @@
         "score": 0.0
       },
       {
-        "team": "Lakeland Predators WC",
-        "acronym": "LP",
+        "team": "LaSalle Peru Crunching Cavs Youth WC",
+        "acronym": "LPCC",
         "score": 0.0
       },
       {
-        "team": "LaSalle Peru Crunching Cavs Youth WC",
-        "acronym": "LPCC",
+        "team": "Lakeland Predators WC",
+        "acronym": "LP",
         "score": 0.0
       },
       {
@@ -10723,6 +10723,11 @@
         "score": 0.0
       },
       {
+        "team": "MS Youth WC",
+        "acronym": "MSY",
+        "score": 0.0
+      },
+      {
         "team": "MadDog Wrestling Academy",
         "acronym": "MWA",
         "score": 0.0
@@ -10763,11 +10768,6 @@
         "score": 0.0
       },
       {
-        "team": "MS Youth WC",
-        "acronym": "MSY",
-        "score": 0.0
-      },
-      {
         "team": "Mt. Vernon Lions Wrestling",
         "acronym": "MTVL",
         "score": 0.0
@@ -10800,11 +10800,6 @@
       {
         "team": "Notre Dame WC",
         "acronym": "ND",
-        "score": 0.0
-      },
-      {
-        "team": "nWo WC",
-        "acronym": "NWO",
         "score": 0.0
       },
       {
@@ -10888,6 +10883,11 @@
         "score": 0.0
       },
       {
+        "team": "RWC",
+        "acronym": "ROCH",
+        "score": 0.0
+      },
+      {
         "team": "Rams WC",
         "acronym": "RAMS",
         "score": 0.0
@@ -10948,8 +10948,13 @@
         "score": 0.0
       },
       {
-        "team": "RWC",
-        "acronym": "ROCH",
+        "team": "SCN Youth WC",
+        "acronym": "SCN",
+        "score": 0.0
+      },
+      {
+        "team": "SOT-C",
+        "acronym": "SOTC",
         "score": 0.0
       },
       {
@@ -10968,18 +10973,8 @@
         "score": 0.0
       },
       {
-        "team": "SCN Youth WC",
-        "acronym": "SCN",
-        "score": 0.0
-      },
-      {
         "team": "Scorpion WC",
         "acronym": "SCOR",
-        "score": 0.0
-      },
-      {
-        "team": "SOT-C",
-        "acronym": "SOTC",
         "score": 0.0
       },
       {
@@ -11033,6 +11028,11 @@
         "score": 0.0
       },
       {
+        "team": "TJ Trained Wrestling",
+        "acronym": "TJT",
+        "score": 0.0
+      },
+      {
         "team": "Team 1006 Wrestling",
         "acronym": null,
         "score": 0.0
@@ -11070,11 +11070,6 @@
       {
         "team": "Titan 2028 WC",
         "acronym": "TYW",
-        "score": 0.0
-      },
-      {
-        "team": "TJ Trained Wrestling",
-        "acronym": "TJT",
         "score": 0.0
       },
       {
@@ -11175,6 +11170,11 @@
       {
         "team": "Yorkville WC",
         "acronym": "YOR",
+        "score": 0.0
+      },
+      {
+        "team": "nWo WC",
+        "acronym": "NWO",
         "score": 0.0
       }
     ]

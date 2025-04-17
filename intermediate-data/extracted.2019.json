@@ -32224,11 +32224,6 @@
         "score": 0.0
       },
       {
-        "team": "nWo WC",
-        "acronym": "NWO",
-        "score": 0.0
-      },
-      {
         "team": "Olney Cubs WC",
         "acronym": "OC",
         "score": 0.0
@@ -32294,6 +32289,11 @@
         "score": 0.0
       },
       {
+        "team": "TJ Trained-Springfield",
+        "acronym": "TJTS",
+        "score": 0.0
+      },
+      {
         "team": "Team 312",
         "acronym": null,
         "score": 0.0
@@ -32311,11 +32311,6 @@
       {
         "team": "Timber Wolves WC",
         "acronym": "TWWC",
-        "score": 0.0
-      },
-      {
-        "team": "TJ Trained-Springfield",
-        "acronym": "TJTS",
         "score": 0.0
       },
       {
@@ -32351,6 +32346,11 @@
       {
         "team": "Xtreme WC",
         "acronym": "XTR",
+        "score": 0.0
+      },
+      {
+        "team": "nWo WC",
+        "acronym": "NWO",
         "score": 0.0
       },
       {
@@ -32681,11 +32681,6 @@
         "score": 11.0
       },
       {
-        "team": "nWo WC",
-        "acronym": "NWO",
-        "score": 11.0
-      },
-      {
         "team": "Triad Knights WC",
         "acronym": "TKWC",
         "score": 11.0
@@ -32693,6 +32688,11 @@
       {
         "team": "Unity Youth WC",
         "acronym": "UYWC",
+        "score": 11.0
+      },
+      {
+        "team": "nWo WC",
+        "acronym": "NWO",
         "score": 11.0
       },
       {
@@ -33141,6 +33141,11 @@
         "score": 0.0
       },
       {
+        "team": "SOT-C",
+        "acronym": "SOTC",
+        "score": 0.0
+      },
+      {
         "team": "Saber WC",
         "acronym": "SAB",
         "score": 0.0
@@ -33148,11 +33153,6 @@
       {
         "team": "Saukee Youth WC",
         "acronym": "SY",
-        "score": 0.0
-      },
-      {
-        "team": "SOT-C",
-        "acronym": "SOTC",
         "score": 0.0
       },
       {
@@ -33219,8 +33219,8 @@
   },
   "deductions": [
     {
-      "team": "Harvey Twisters",
-      "reason": "USC Wrestlers N Turner, Sr 74 297",
+      "team": "Celtics WC",
+      "reason": "Coach Zach Berman, Nov 115 610",
       "value": -1.0
     },
     {
@@ -33229,8 +33229,18 @@
       "value": -1.0
     },
     {
-      "team": "Celtics WC",
-      "reason": "Coach Zach Berman, Nov 115 610",
+      "team": "Gladiator Elite",
+      "reason": "USC Wrestler R Wade, Sr 108 467",
+      "value": -1.0
+    },
+    {
+      "team": "Harvey Twisters",
+      "reason": "USC Wrestlers N Turner, Sr 74 297",
+      "value": -1.0
+    },
+    {
+      "team": "Pitbull Wrestling Alliance",
+      "reason": "USC Wrestler A Heeg, Sr 122, Bout 228",
       "value": -1.0
     },
     {
@@ -33239,18 +33249,8 @@
       "value": -1.0
     },
     {
-      "team": "Gladiator Elite",
-      "reason": "USC Wrestler R Wade, Sr 108 467",
-      "value": -1.0
-    },
-    {
       "team": "Villa-Lombard Cougars",
       "reason": "USC Wrestler C Luif, Nov 74, Bout",
-      "value": -1.0
-    },
-    {
-      "team": "Pitbull Wrestling Alliance",
-      "reason": "USC Wrestler A Heeg, Sr 122, Bout 228",
       "value": -1.0
     }
   ]
