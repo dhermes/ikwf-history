@@ -9,6 +9,7 @@ import pydantic
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
+_MAX_MATCH_ID = 54
 
 
 class _ForbidExtra(pydantic.BaseModel):
@@ -109,8 +110,8 @@ class MatchRow(_ForbidExtra):
     bracket_id: int
     bout_number: int | None
     match_slot: bracket_utils.MatchSlot
-    top_competitor_id: int
-    bottom_competitor_id: int
+    top_competitor_id: int | None
+    bottom_competitor_id: int | None
     top_win: bool | None
     result: str
     result_type: bracket_utils.ResultType
@@ -358,25 +359,24 @@ class CompetitorTuple(NamedTuple):
 BracketPosition = Literal["top", "bottom"]
 
 
+def _to_competitor_tuple(competitor: bracket_utils.Competitor) -> CompetitorTuple:
+    return CompetitorTuple(
+        full_name=competitor.full_name,
+        first_name=competitor.first_name,
+        last_name=competitor.last_name,
+        team=competitor.team_full,
+    )
+
+
 def _get_competitor_tuple(
     match: bracket_utils.Match, bracket_position: BracketPosition
 ) -> CompetitorTuple | None:
     if bracket_position == "top":
         if match.top_competitor is not None:
-            return CompetitorTuple(
-                full_name=match.top_competitor.full_name,
-                first_name=match.top_competitor.first_name,
-                last_name=match.top_competitor.last_name,
-                team=match.top_competitor.team_full,
-            )
+            return _to_competitor_tuple(match.top_competitor)
     elif bracket_position == "bottom":
         if match.bottom_competitor is not None:
-            return CompetitorTuple(
-                full_name=match.bottom_competitor.full_name,
-                first_name=match.bottom_competitor.first_name,
-                last_name=match.bottom_competitor.last_name,
-                team=match.bottom_competitor.team_full,
-            )
+            return _to_competitor_tuple(match.bottom_competitor)
     else:
         raise NotImplementedError(bracket_position)
 
@@ -408,7 +408,7 @@ def _get_competitor_map(
 
     # Only consider competitors from the championship side **FIRST**
     # (where the match ordering is somewhat reliable)
-    for match_slot_id in range(1, 55):
+    for match_slot_id in range(1, _MAX_MATCH_ID + 1):
         match = match_map.get(match_slot_id)
         if match is None:
             continue
@@ -421,7 +421,7 @@ def _get_competitor_map(
 
     # Now consider competitors from the consolation and place matches
     # (e.g. for 1999 where we have partial brackets)
-    for match_slot_id in range(1, 55):
+    for match_slot_id in range(1, _MAX_MATCH_ID + 1):
         match = match_map.get(match_slot_id)
         if match is None:
             continue
@@ -457,7 +457,7 @@ def _handle_weight_class(
 
     local_to_global: dict[int, int] = {}
     local_ids = sorted(competitors_by_id.keys())
-    # 4. `CompetitorRow` (allow duplicates across year)
+    # 4. `CompetitorRow` (allow duplicates across years)
     # 5. `TournamentCompetitorRow`
     for local_id in local_ids:
         competitor_tuple = competitors_by_id[local_id]
@@ -482,8 +482,51 @@ def _handle_weight_class(
         insert_ids.next_tournament_competitor_id += 1
 
     # 6. `MatchRow`
-    if len(competitor_map) == -1:
-        raise NotImplementedError
+    for match_slot_id in range(1, _MAX_MATCH_ID + 1):
+        match = match_map.get(match_slot_id)
+        if match is None:
+            continue
+
+        top_competitor_id = None
+        bottom_competitor_id = None
+
+        if match.top_competitor is not None:
+            competitor_tuple = _to_competitor_tuple(match.top_competitor)
+            local_id = competitor_map[competitor_tuple]
+            top_competitor_id = local_to_global[local_id]
+
+        if match.bottom_competitor is not None:
+            competitor_tuple = _to_competitor_tuple(match.bottom_competitor)
+            local_id = competitor_map[competitor_tuple]
+            bottom_competitor_id = local_to_global[local_id]
+
+        if top_competitor_id is None and bottom_competitor_id is None:
+            # NOTE: In some brackets (e.g. in 2000), there are less than 24
+            #       athletes and in earlier rounds we have parsed matches with
+            #       a valid bout number but no competitors.
+            if match.top_win is not None:
+                raise NotImplementedError("Invalid match", match)
+            if match.result_type != "bye":
+                raise NotImplementedError("Invalid match", match)
+            continue
+
+        match_row = MatchRow(
+            id=insert_ids.next_match_id,
+            bracket_id=bracket_id,
+            bout_number=match.bout_number,
+            match_slot=match.match_slot,
+            top_competitor_id=top_competitor_id,
+            bottom_competitor_id=bottom_competitor_id,
+            top_win=match.top_win,
+            result=match.result,
+            result_type=match.result_type,
+            top_score=None,  # TODO
+            bottom_score=None,  # TODO
+            match_time_minutes=None,
+            match_time_seconds=None,
+        )
+        inserts.match_rows.append(match_row)
+        insert_ids.next_match_id += 1
 
 
 def _handle_tournament(
@@ -632,16 +675,20 @@ def _sql_nullable_str(value: str | None) -> str:
     return f"'{quoted}'"
 
 
-def _sql_nullable_float(value: float | None) -> str:
+def _sql_nullable_numeric(value: float | int | None) -> str:
     if value is None:
         return "NULL"
 
     return str(value)
 
 
-def _sql_bool_str(value: bool) -> str:
+def _sql_nullable_bool(value: bool | None) -> str:
+    if value is None:
+        return "NULL"
+
     if value:
         return "TRUE"
+
     return "FALSE"
 
 
@@ -697,10 +744,10 @@ def _write_tournament_teams_sql(inserts: Inserts) -> None:
         last_i = i == len(insert_rows) - 1
         line_ending = ";" if last_i else ","
         division_str = _sql_nullable_str(row.division)
-        score_str = _sql_nullable_float(row.team_score)
+        score_str = _sql_nullable_numeric(row.team_score)
         name_str = _sql_nullable_str(row.name)
         acronym_str = _sql_nullable_str(row.acronym)
-        non_scoring_str = _sql_bool_str(row.non_scoring)
+        non_scoring_str = _sql_nullable_bool(row.non_scoring)
         lines.append(
             f"  ({row.id_}, {row.tournament_id}, {division_str}, {row.team_id}, "
             f"{score_str}, {name_str}, {acronym_str}, {non_scoring_str}){line_ending}"
@@ -809,6 +856,51 @@ def _write_tournament_competitors_sql(inserts: Inserts) -> None:
         file_obj.write("\n".join(lines))
 
 
+def _write_matches_sql(inserts: Inserts) -> None:
+    lines = [
+        "-- Copyright (c) 2025 - Present. IKWF History. All rights reserved.",
+        "",
+        "-- Generated by `write_sql.py`",
+        "",
+        "PRAGMA foreign_keys = ON;",
+        "PRAGMA encoding = 'UTF-8';",
+        "PRAGMA integrity_check;",
+        "",
+        "--------------------------------------------------------------------------------",
+        "",
+        "INSERT INTO",
+        "  match (id, bracket_id, bout_number, match_slot, top_competitor_id, bottom_competitor_id, top_win, result, result_type, top_score, bottom_score, match_time_minutes, match_time_seconds)",  # noqa: E501
+        "VALUES",
+    ]
+
+    insert_rows = inserts.match_rows
+    for i, row in enumerate(insert_rows):
+        last_i = i == len(insert_rows) - 1
+        line_ending = ";" if last_i else ","
+        bout_number_str = _sql_nullable_numeric(row.bout_number)
+        match_slot_str = _sql_nullable_str(row.match_slot)
+        top_competitor_str = _sql_nullable_numeric(row.top_competitor_id)
+        bottom_competitor_str = _sql_nullable_numeric(row.bottom_competitor_id)
+        top_win_str = _sql_nullable_bool(row.top_win)
+        result_str = _sql_nullable_str(row.result)
+        result_type_str = _sql_nullable_str(row.result_type)
+        top_score_str = _sql_nullable_numeric(row.top_score)
+        bottom_score_str = _sql_nullable_numeric(row.bottom_score)
+        minutes_str = _sql_nullable_numeric(row.match_time_minutes)
+        seconds_str = _sql_nullable_numeric(row.match_time_seconds)
+        lines.append(
+            f"  ({row.id_}, {row.bracket_id}, {bout_number_str}, {match_slot_str}, "
+            f"{top_competitor_str}, {bottom_competitor_str}, {top_win_str}, "
+            f"{result_str}, {result_type_str}, {top_score_str}, {bottom_score_str}, "
+            f"{minutes_str}, {seconds_str}){line_ending}"
+        )
+
+    lines.append("")
+
+    with open(HERE / "migrations" / "0010-matches.sql", "w") as file_obj:
+        file_obj.write("\n".join(lines))
+
+
 def main():
     _validate_division_sort_key()
     _validate_get_match_slot_id()
@@ -850,6 +942,7 @@ def main():
     _write_team_point_deductions_sql(inserts)
     _write_competitors_sql(inserts)
     _write_tournament_competitors_sql(inserts)
+    _write_matches_sql(inserts)
 
 
 if __name__ == "__main__":
