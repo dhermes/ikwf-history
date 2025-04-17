@@ -370,6 +370,9 @@ class TeamDuplicate(_ForbidExtra):
     division: Division
     name: str
 
+    def to_tuple(self) -> tuple[int, Division, str]:
+        return self.tournament_id, self.division, self.name
+
 
 class TeamDuplicates(pydantic.RootModel[dict[str, list[TeamDuplicate]]]):
     pass
