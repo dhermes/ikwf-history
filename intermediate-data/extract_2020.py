@@ -189,8 +189,6 @@ def main():
             if top_competitor is None and bottom_competitor is None:
                 continue
 
-            top_win = top_competitor is not None
-
             match = bracket_utils.Match(
                 match_slot=match_slot,
                 top_competitor=bracket_utils.competitor_from_raw(
@@ -202,7 +200,7 @@ def main():
                 result=result,
                 result_type=result_type,
                 bout_number=bout_number,
-                top_win=top_win,
+                top_win=None,  # No winners in cancelled tournament
             )
             matches.append(match)
 

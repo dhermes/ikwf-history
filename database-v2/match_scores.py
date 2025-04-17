@@ -116,7 +116,10 @@ def _handle_tech_fall(
 
 def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
     if top_win is None:
-        raise NotImplementedError(result, top_win)
+        if result not in ("", "Bye"):
+            raise NotImplementedError(result, top_win)
+
+        return None
 
     if result in _EDGE_CASES:
         score_text = _EDGE_CASES[result]
@@ -124,8 +127,6 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
             return None
 
         return _score_split(result, score_text, top_win)
-
-    # No result (2020, CANCELLED)
 
     if result == "":
         return None
