@@ -228,7 +228,7 @@ def _is_non_scoring(
 def _match_deduction(
     team_name: str,
     divisions: list[bracket_utils.Division],
-    tournament_teams: list[TournamentTeamRow],
+    team_id_map: dict[bracket_utils.Division, dict[str, int]],
     tournament_synonyms: list[bracket_utils.TeamNameSynonym],
 ) -> list[int]:
     all_synonyms: set[str] = set([team_name])
@@ -236,13 +236,13 @@ def _match_deduction(
         if tournament_synonym.name == team_name:
             all_synonyms.add(tournament_synonym.synonym)
 
-    # NOTE: We **could** pre-process `tournament_teams` to a dictionary to
-    #       increase this lookup speed. However we expect it to be small enough
-    #       so just iterate over the full list.
     matches: dict[bracket_utils.Division, list[int]] = {}
-    for tournament_team in tournament_teams:
-        if tournament_team.name in all_synonyms:
-            matches.setdefault(tournament_team.division, []).append(tournament_team.id_)
+    for division, division_teams in team_id_map.items():
+        for team_name in all_synonyms:
+            if team_name not in division_teams:
+                continue
+
+            matches.setdefault(division, []).append(division_teams[team_name])
 
     if set(matches.keys()) != set(divisions):
         raise ValueError(
@@ -276,8 +276,6 @@ def _add_team_rows(
 
     # 1. `TeamRow` (allow duplicates across year and division)
     # 2. `TournamentTeamRow`
-    tournament_teams: list[TournamentTeamRow] = []
-
     divisions = sorted(team_by_name.keys(), key=bracket_utils.division_sort_key)
     for division in divisions:
         team_id_map.setdefault(division, {})
@@ -302,7 +300,6 @@ def _add_team_rows(
                 non_scoring=_is_non_scoring(tournament_id, division, team_name),
             )
             inserts.tournament_team_rows.append(tournament_team_row)
-            tournament_teams.append(tournament_team_row)
             insert_ids.next_tournament_team_id += 1
 
             _insert_only(team_id_map[division], team_name, tournament_team_row.id_)
@@ -321,7 +318,7 @@ def _add_team_rows(
         # Ensure team is in all divisions (because deductions apply across all
         # divisions)
         team_ids = _match_deduction(
-            deduction.team, divisions, tournament_teams, tournament_synonyms
+            deduction.team, divisions, team_id_map, tournament_synonyms
         )
         for team_id in team_ids:
             deduction_id = insert_ids.next_team_point_deduction_id
