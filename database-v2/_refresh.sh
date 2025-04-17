@@ -10,3 +10,4 @@ sqlite3 ./ikwf.sqlite < ./migrations/0004-brackets.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0005-teams.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0006-tournament-teams.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0007-team-point-deductions.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0008-competitors.sql
