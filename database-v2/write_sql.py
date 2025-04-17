@@ -5,6 +5,7 @@ import sqlite3
 from typing import Literal, NamedTuple, TypeVar
 
 import bracket_utils
+import match_scores
 import pydantic
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -510,6 +511,12 @@ def _handle_weight_class(
                 raise NotImplementedError("Invalid match", match)
             continue
 
+        top_score = None
+        bottom_score = None
+        scores = match_scores.parse_scores(match.result, match.top_win)
+        if scores is not None:
+            top_score, bottom_score = scores
+
         match_row = MatchRow(
             id=insert_ids.next_match_id,
             bracket_id=bracket_id,
@@ -520,8 +527,8 @@ def _handle_weight_class(
             top_win=match.top_win,
             result=match.result,
             result_type=match.result_type,
-            top_score=None,  # TODO
-            bottom_score=None,  # TODO
+            top_score=top_score,
+            bottom_score=bottom_score,
             match_time_minutes=None,
             match_time_seconds=None,
         )
