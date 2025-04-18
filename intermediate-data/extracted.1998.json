@@ -28,7 +28,23 @@
     {
       "division": "novice",
       "weight": 84,
-      "matches": []
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Collin McKillip",
+            "first_name": "Collin",
+            "last_name": "McKillip",
+            "team_full": "Tinley Park Bulldogs",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
     },
     {
       "division": "novice",
