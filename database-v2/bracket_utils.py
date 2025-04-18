@@ -365,6 +365,172 @@ def get_match_slot_id(match_slot: MatchSlot) -> int:
     raise NotImplementedError(match_slot)
 
 
+def get_match_slot_from_id(match_slot_id: int) -> MatchSlot:
+    if match_slot_id == 1:
+        return "championship_r32_01"
+
+    if match_slot_id == 2:
+        return "championship_r32_02"
+
+    if match_slot_id == 3:
+        return "championship_r32_03"
+
+    if match_slot_id == 4:
+        return "championship_r32_04"
+
+    if match_slot_id == 5:
+        return "championship_r32_05"
+
+    if match_slot_id == 6:
+        return "championship_r32_06"
+
+    if match_slot_id == 7:
+        return "championship_r32_07"
+
+    if match_slot_id == 8:
+        return "championship_r32_08"
+
+    if match_slot_id == 9:
+        return "championship_r32_09"
+
+    if match_slot_id == 10:
+        return "championship_r32_10"
+
+    if match_slot_id == 11:
+        return "championship_r32_11"
+
+    if match_slot_id == 12:
+        return "championship_r32_12"
+
+    if match_slot_id == 13:
+        return "championship_r32_13"
+
+    if match_slot_id == 14:
+        return "championship_r32_14"
+
+    if match_slot_id == 15:
+        return "championship_r32_15"
+
+    if match_slot_id == 16:
+        return "championship_r32_16"
+
+    if match_slot_id == 17:
+        return "championship_r16_01"
+
+    if match_slot_id == 18:
+        return "championship_r16_02"
+
+    if match_slot_id == 19:
+        return "championship_r16_03"
+
+    if match_slot_id == 20:
+        return "championship_r16_04"
+
+    if match_slot_id == 21:
+        return "championship_r16_05"
+
+    if match_slot_id == 22:
+        return "championship_r16_06"
+
+    if match_slot_id == 23:
+        return "championship_r16_07"
+
+    if match_slot_id == 24:
+        return "championship_r16_08"
+
+    if match_slot_id == 25:
+        return "consolation_round2_01"
+
+    if match_slot_id == 26:
+        return "consolation_round2_02"
+
+    if match_slot_id == 27:
+        return "consolation_round2_03"
+
+    if match_slot_id == 28:
+        return "consolation_round2_04"
+
+    if match_slot_id == 29:
+        return "consolation_round2_05"
+
+    if match_slot_id == 30:
+        return "consolation_round2_06"
+
+    if match_slot_id == 31:
+        return "consolation_round2_07"
+
+    if match_slot_id == 32:
+        return "consolation_round2_08"
+
+    if match_slot_id == 33:
+        return "championship_quarter_01"
+
+    if match_slot_id == 34:
+        return "championship_quarter_02"
+
+    if match_slot_id == 35:
+        return "championship_quarter_03"
+
+    if match_slot_id == 36:
+        return "championship_quarter_04"
+
+    if match_slot_id == 37:
+        return "consolation_round3_01"
+
+    if match_slot_id == 38:
+        return "consolation_round3_02"
+
+    if match_slot_id == 39:
+        return "consolation_round3_03"
+
+    if match_slot_id == 40:
+        return "consolation_round3_04"
+
+    if match_slot_id == 41:
+        return "consolation_round4_blood_01"
+
+    if match_slot_id == 42:
+        return "consolation_round4_blood_02"
+
+    if match_slot_id == 43:
+        return "consolation_round4_blood_03"
+
+    if match_slot_id == 44:
+        return "consolation_round4_blood_04"
+
+    if match_slot_id == 45:
+        return "championship_semi_01"
+
+    if match_slot_id == 46:
+        return "championship_semi_02"
+
+    if match_slot_id == 47:
+        return "consolation_round5_01"
+
+    if match_slot_id == 48:
+        return "consolation_round5_02"
+
+    if match_slot_id == 49:
+        return "consolation_round6_semi_01"
+
+    if match_slot_id == 50:
+        return "consolation_round6_semi_02"
+
+    if match_slot_id == 51:
+        return "consolation_seventh_place"
+
+    if match_slot_id == 52:
+        return "consolation_fifth_place"
+
+    if match_slot_id == 53:
+        return "consolation_third_place"
+
+    if match_slot_id == 54:
+        return "championship_first_place"
+
+    raise NotImplementedError(match_slot_id)
+
+
 class TeamDuplicate(_ForbidExtra):
     tournament_id: int
     division: Division
@@ -433,3 +599,6 @@ def get_division_path(division: Division) -> str:
         return "senior-girls"
 
     raise NotImplementedError(division)
+
+
+WrestlebackType = Literal["follow_leader_semifinal", "full"]
