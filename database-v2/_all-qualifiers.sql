@@ -36,9 +36,15 @@ SELECT
   tq.year,
   tq.division,
   tq.weight,
-  tc.full_name
+  tc.full_name,
+  pd.place
 FROM
   tournament_competitor AS tc
   INNER JOIN tournament_qualifier AS tq ON tq.competitor_id = tc.id
   INNER JOIN division AS d ON d.key = tq.division
+  LEFT JOIN placer_denormalized AS pd ON (
+    pd.competitor_id = tc.id
+    AND pd.division = tq.division -- NOTE: Checking `division` is expected to be redundant
+    AND pd.weight = tq.weight -- NOTE: Checking `weight` is expected to be redundant
+  )
 ORDER BY tq.year, d.id, tq.weight, tc.full_name, tc.id;

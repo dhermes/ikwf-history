@@ -91,6 +91,7 @@ class Qualifier(_ForbidExtra):
     division: bracket_utils.Division
     weight: int
     full_name: str
+    place: int | None
 
 
 def _get_all_qualifiers(
@@ -113,6 +114,30 @@ def _get_weight_link(year: int, qualifier: Qualifier) -> str:
     division_path = bracket_utils.get_division_path(qualifier.division)
     url = f"/brackets/{year}/{division_path}/{qualifier.weight}.html"
     return f'<a href="{url}">{html.escape(weight_text)}</a>'
+
+
+def _get_placement_suffix(place: int | None) -> str:
+    if place is None:
+        return ""
+
+    if place == 1:
+        return " (Champion)"
+    if place == 2:
+        return " (2nd place)"
+    if place == 3:
+        return " (3rd place)"
+    if place == 4:
+        return " (4th place)"
+    if place == 5:
+        return " (5th place)"
+    if place == 6:
+        return " (6th place)"
+    if place == 7:
+        return " (7th place)"
+    if place == 8:
+        return " (8th place)"
+
+    raise NotImplementedError(place)
 
 
 def _get_team_html(team: TeamInfo, qualifiers: list[Qualifier]) -> str:
@@ -144,10 +169,11 @@ def _get_team_html(team: TeamInfo, qualifiers: list[Qualifier]) -> str:
         )
         for qualifier in year_qualifiers:
             weight_link = _get_weight_link(year, qualifier)
+            place_suffix = _get_placement_suffix(qualifier.place)
             parts.extend(
                 [
                     "        <li>",
-                    f"          {html.escape(qualifier.full_name)}, {weight_link}",
+                    f"{html.escape(qualifier.full_name)}, {weight_link}{place_suffix}",
                     "        </li>",
                 ]
             )
