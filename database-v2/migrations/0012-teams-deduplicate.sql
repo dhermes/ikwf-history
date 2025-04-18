@@ -14,7 +14,8 @@ PRAGMA integrity_check;
 UPDATE
   team
 SET
-  name_normalized = 'Dakota Wrestling Club'
+  name_normalized = 'Dakota Wrestling Club',
+  verified = TRUE
 WHERE
   id = 438;
 
@@ -36,7 +37,8 @@ WHERE
 UPDATE
   team
 SET
-  name_normalized = 'Fox Valley Wrestling Club'
+  name_normalized = 'Fox Valley Wrestling Club',
+  verified = TRUE
 WHERE
   id = 479;
 
@@ -58,7 +60,8 @@ WHERE
 UPDATE
   team
 SET
-  name_normalized = 'Sauk Valley Wrestling Club'
+  name_normalized = 'Sauk Valley Wrestling Club',
+  verified = TRUE
 WHERE
   id = 2255;
 
@@ -80,7 +83,8 @@ WHERE
 UPDATE
   team
 SET
-  name_normalized = 'Sterling Newman Junior Comets'
+  name_normalized = 'Sterling Newman Junior Comets',
+  verified = TRUE
 WHERE
   id = 167;
 

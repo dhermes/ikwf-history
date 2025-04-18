@@ -78,7 +78,8 @@ CREATE TABLE bracket (
 
 CREATE TABLE team (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  name_normalized TEXT NOT NULL
+  name_normalized TEXT NOT NULL,
+  verified BOOLEAN NOT NULL
 );
 
 --------------------------------------------------------------------------------

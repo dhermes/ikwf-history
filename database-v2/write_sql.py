@@ -73,6 +73,7 @@ class BracketInfo(_ForbidExtra):
 class TeamRow(_ForbidExtra):
     id_: int = pydantic.Field(alias="id")
     name_normalized: str
+    verified: bool
 
 
 class TournamentTeamRow(_ForbidExtra):
@@ -293,7 +294,9 @@ def _add_team_rows(
             acronym = teams[team_name]
 
             team_id = insert_ids.next_team_id
-            inserts.team_rows.append(TeamRow(id=team_id, name_normalized=team_name))
+            inserts.team_rows.append(
+                TeamRow(id=team_id, name_normalized=team_name, verified=False)
+            )
             insert_ids.next_team_id += 1
 
             tournament_team_row = TournamentTeamRow(
@@ -779,7 +782,7 @@ def _write_teams_sql(inserts: Inserts) -> None:
         "--------------------------------------------------------------------------------",
         "",
         "INSERT INTO",
-        "  team (id, name_normalized)",
+        "  team (id, name_normalized, verified)",
         "VALUES",
     ]
 
@@ -788,7 +791,8 @@ def _write_teams_sql(inserts: Inserts) -> None:
         last_i = i == len(insert_rows) - 1
         line_ending = ";" if last_i else ","
         name_str = _sql_nullable_str(row.name_normalized)
-        lines.append(f"  ({row.id_}, {name_str}){line_ending}")
+        verified_str = _sql_nullable_bool(row.verified)
+        lines.append(f"  ({row.id_}, {name_str}, {verified_str}){line_ending}")
 
     lines.append("")
 
@@ -1063,7 +1067,8 @@ def _write_team_deduplicate_sql(
                 "UPDATE",
                 "  team",
                 "SET",
-                f"  name_normalized = {team_name_str}",
+                f"  name_normalized = {team_name_str},",
+                "  verified = TRUE",
                 "WHERE",
                 f"  id = {keep_team_id};",
                 "",
