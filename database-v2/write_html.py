@@ -107,11 +107,19 @@ def _get_all_qualifiers(
     return rows
 
 
-def _get_weight_link(year: int, qualifier: Qualifier) -> str:
+def _get_weight_ref_html(
+    static_root: pathlib.Path, year: int, qualifier: Qualifier
+) -> str:
+    division_path = bracket_utils.get_division_path(qualifier.division)
+    brackets_root = static_root / "brackets"
+    html_path = brackets_root / str(year) / division_path / f"{qualifier.weight}.html"
+    include_url = html_path.is_file()
+
     division_display = bracket_utils.get_division_display(qualifier.division)
     weight_text = f"{division_display} {qualifier.weight}"
+    if not include_url:
+        return html.escape(weight_text)
 
-    division_path = bracket_utils.get_division_path(qualifier.division)
     url = f"/brackets/{year}/{division_path}/{qualifier.weight}.html"
     return f'<a href="{url}">{html.escape(weight_text)}</a>'
 
@@ -140,7 +148,9 @@ def _get_placement_suffix(place: int | None) -> str:
     raise NotImplementedError(place)
 
 
-def _get_team_html(team: TeamInfo, qualifiers: list[Qualifier]) -> str:
+def _get_team_html(
+    static_root: pathlib.Path, team: TeamInfo, qualifiers: list[Qualifier]
+) -> str:
     name = team.name_normalized
     parts: list[str] = [
         "<html>",
@@ -168,7 +178,7 @@ def _get_team_html(team: TeamInfo, qualifiers: list[Qualifier]) -> str:
             ]
         )
         for qualifier in year_qualifiers:
-            weight_link = _get_weight_link(year, qualifier)
+            weight_link = _get_weight_ref_html(static_root, year, qualifier)
             place_suffix = _get_placement_suffix(qualifier.place)
             parts.extend(
                 [
@@ -193,7 +203,8 @@ def _get_team_html(team: TeamInfo, qualifiers: list[Qualifier]) -> str:
 
 
 def main() -> None:
-    teams_root = HERE.parent / "static" / "static" / "teams"
+    static_root = HERE.parent / "static" / "static"
+    teams_root = static_root / "teams"
     teams_root.mkdir(parents=True, exist_ok=True)
 
     with sqlite3.connect(HERE / "ikwf.sqlite") as connection:
@@ -206,7 +217,7 @@ def main() -> None:
 
         for team in teams:
             qualifiers = _get_all_qualifiers(connection, team.id_)
-            team_html = _get_team_html(team, qualifiers)
+            team_html = _get_team_html(static_root, team, qualifiers)
             with_id = teams_root / str(team.id_)
             with_id.mkdir(parents=True, exist_ok=True)
             with open(with_id / "index.html", "w") as file_obj:
