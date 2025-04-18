@@ -25,6 +25,7 @@ class _ForbidExtra(pydantic.BaseModel):
 class TeamInfo(_ForbidExtra):
     id_: int = pydantic.Field(alias="id")
     name_normalized: str
+    url_path_slug: str
 
 
 def _get_team_info(connection: sqlite3.Connection) -> list[TeamInfo]:
@@ -56,9 +57,9 @@ def _teams_landing_html(teams: list[TeamInfo]) -> str:
         parts.extend(
             [
                 "      <li>",
-                f'        <a href="/teams/{team.id_}/index.html">',
+                f'        <a href="/teams/{team.url_path_slug}/index.html">',
                 f"          {html.escape(team.name_normalized)}",
-                f"        </a> ({team.id_})",
+                "        </a>",
                 "      </li>",
             ]
         )
@@ -297,7 +298,7 @@ def main() -> None:
         for team in teams:
             qualifiers = _get_all_qualifiers(connection, team.id_)
             team_html = _get_team_html(static_root, team, qualifiers)
-            with_id = teams_root / str(team.id_)
+            with_id = teams_root / team.url_path_slug
             with_id.mkdir(parents=True, exist_ok=True)
             with open(with_id / "index.html", "w") as file_obj:
                 file_obj.write(team_html)
