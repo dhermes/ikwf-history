@@ -1,3 +1,4 @@
+-- Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 WITH tournament_qualifier AS (
   SELECT
     m.top_competitor_id AS competitor_id,
@@ -40,4 +41,4 @@ FROM
   tournament_competitor AS tc
   INNER JOIN tournament_qualifier AS tq ON tq.competitor_id = tc.id
   INNER JOIN division AS d ON d.key = tq.division
-ORDER BY tq.year, d.id, tq.weight, tc.id;
+ORDER BY tq.year, d.id, tq.weight, tc.full_name, tc.id;

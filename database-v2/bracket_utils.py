@@ -376,3 +376,60 @@ class TeamDuplicate(_ForbidExtra):
 
 class TeamDuplicates(pydantic.RootModel[dict[str, list[TeamDuplicate]]]):
     pass
+
+
+def get_division_display(division: Division) -> str:
+    if division == "bantam":
+        return "Bantam"
+
+    if division == "intermediate":
+        return "Intermediate"
+
+    if division == "novice":
+        return "Novice"
+
+    if division == "senior":
+        return "Senior"
+
+    if division == "bantam_girls":
+        return "Girls Bantam"
+
+    if division == "intermediate_girls":
+        return "Girls Intermediate"
+
+    if division == "novice_girls":
+        return "Girls Novice"
+
+    if division == "senior_girls":
+        return "Girls Senior"
+
+    raise NotImplementedError(division)
+
+
+def get_division_path(division: Division) -> str:
+    """Get division fragment for use in file and URL paths"""
+    if division == "bantam":
+        return "bantam"
+
+    if division == "intermediate":
+        return "intermediate"
+
+    if division == "novice":
+        return "novice"
+
+    if division == "senior":
+        return "senior"
+
+    if division == "bantam_girls":
+        return "bantam-girls"
+
+    if division == "intermediate_girls":
+        return "intermediate-girls"
+
+    if division == "novice_girls":
+        return "novice-girls"
+
+    if division == "senior_girls":
+        return "senior-girls"
+
+    raise NotImplementedError(division)

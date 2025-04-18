@@ -698,6 +698,14 @@ def _sql_nullable_bool(value: bool | None) -> str:
     return "FALSE"
 
 
+def _validate_brackets(match_rows: list[MatchRow]) -> None:
+    by_bracket: dict[int, list[MatchRow]] = {}
+    for match_row in match_rows:
+        by_bracket.setdefault(match_row.bracket_id, []).append(match_row)
+
+    # TODO
+
+
 def _write_teams_sql(inserts: Inserts) -> None:
     lines = [
         "-- Copyright (c) 2025 - Present. IKWF History. All rights reserved.",
@@ -985,7 +993,7 @@ def _write_team_deduplicate_sql(
         file_obj.write("\n".join(lines))
 
 
-def main():
+def main() -> None:
     _validate_division_sort_key()
     _validate_get_match_slot_id()
     bracket_id_info = _write_brackets_sql()
@@ -1021,6 +1029,8 @@ def main():
             bracket_id_info,
             team_name_synonyms,
         )
+
+    _validate_brackets(inserts.match_rows)
 
     _write_teams_sql(inserts)
     _write_tournament_teams_sql(inserts)
