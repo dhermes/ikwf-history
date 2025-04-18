@@ -15,7 +15,7 @@ UPDATE
   team
 SET
   name_normalized = 'Alber Athletics Wrestling Club',
-  verified = TRUE
+  url_path_slug = 'alber-athletics'
 WHERE
   id = 7838;
 
@@ -38,7 +38,7 @@ UPDATE
   team
 SET
   name_normalized = 'Dakota Wrestling Club',
-  verified = TRUE
+  url_path_slug = 'dakota'
 WHERE
   id = 438;
 
@@ -61,7 +61,7 @@ UPDATE
   team
 SET
   name_normalized = 'Fox Valley Wrestling Club',
-  verified = TRUE
+  url_path_slug = 'fox-valley'
 WHERE
   id = 480;
 
@@ -84,7 +84,7 @@ UPDATE
   team
 SET
   name_normalized = 'Harvard Wrestling Club',
-  verified = TRUE
+  url_path_slug = 'harvard'
 WHERE
   id = 315;
 
@@ -107,7 +107,7 @@ UPDATE
   team
 SET
   name_normalized = 'Rich Rattlers Wrestling Club',
-  verified = TRUE
+  url_path_slug = 'rich-rattlers'
 WHERE
   id = 1203;
 
@@ -130,7 +130,7 @@ UPDATE
   team
 SET
   name_normalized = 'Sauk Valley Wrestling Club',
-  verified = TRUE
+  url_path_slug = 'sauk-valley'
 WHERE
   id = 2256;
 
@@ -153,7 +153,7 @@ UPDATE
   team
 SET
   name_normalized = 'Sterling Newman Junior Comets',
-  verified = TRUE
+  url_path_slug = 'sterling-newman'
 WHERE
   id = 167;
 
@@ -176,7 +176,7 @@ UPDATE
   team
 SET
   name_normalized = 'West Suburban Girls Wrestling Club',
-  verified = TRUE
+  url_path_slug = 'wsgw'
 WHERE
   id = 8686;
 

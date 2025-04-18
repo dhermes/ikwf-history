@@ -540,7 +540,13 @@ class TeamDuplicate(_ForbidExtra):
         return self.tournament_id, self.division, self.name
 
 
-class TeamDuplicates(pydantic.RootModel[dict[str, list[TeamDuplicate]]]):
+class VerifiedTeam(_ForbidExtra):
+    name_normalized: str
+    url_path_slug: str
+    duplicates: list[TeamDuplicate]
+
+
+class TeamDuplicates(pydantic.RootModel[list[VerifiedTeam]]):
     pass
 
 

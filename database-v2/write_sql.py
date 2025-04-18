@@ -73,7 +73,7 @@ class BracketInfo(_ForbidExtra):
 class TeamRow(_ForbidExtra):
     id_: int = pydantic.Field(alias="id")
     name_normalized: str
-    verified: bool
+    url_path_slug: str | None
 
 
 class TournamentTeamRow(_ForbidExtra):
@@ -295,7 +295,7 @@ def _add_team_rows(
 
             team_id = insert_ids.next_team_id
             inserts.team_rows.append(
-                TeamRow(id=team_id, name_normalized=team_name, verified=False)
+                TeamRow(id=team_id, name_normalized=team_name, url_path_slug=None)
             )
             insert_ids.next_team_id += 1
 
@@ -729,7 +729,7 @@ def _get_team_name_synonyms() -> dict[int, list[bracket_utils.TeamNameSynonym]]:
     return loaded.root
 
 
-def _get_team_name_duplicates() -> dict[str, list[bracket_utils.TeamDuplicate]]:
+def _get_team_name_duplicates() -> list[bracket_utils.VerifiedTeam]:
     with open(HERE / "_team-name-duplicates.json") as file_obj:
         loaded = bracket_utils.TeamDuplicates.model_validate_json(file_obj.read())
 
@@ -782,7 +782,7 @@ def _write_teams_sql(inserts: Inserts) -> None:
         "--------------------------------------------------------------------------------",
         "",
         "INSERT INTO",
-        "  team (id, name_normalized, verified)",
+        "  team (id, name_normalized, url_path_slug)",
         "VALUES",
     ]
 
@@ -791,8 +791,8 @@ def _write_teams_sql(inserts: Inserts) -> None:
         last_i = i == len(insert_rows) - 1
         line_ending = ";" if last_i else ","
         name_str = _sql_nullable_str(row.name_normalized)
-        verified_str = _sql_nullable_bool(row.verified)
-        lines.append(f"  ({row.id_}, {name_str}, {verified_str}){line_ending}")
+        slug_str = _sql_nullable_bool(row.url_path_slug)
+        lines.append(f"  ({row.id_}, {name_str}, {slug_str}){line_ending}")
 
     lines.append("")
 
@@ -1011,8 +1011,12 @@ def _write_placers_denormalized_sql(inserts: Inserts) -> None:
         file_obj.write("\n".join(lines))
 
 
+def _verified_team_sort_key(team: bracket_utils.VerifiedTeam) -> str:
+    return team.name_normalized
+
+
 def _write_team_deduplicate_sql(
-    inserts: Inserts, team_name_duplicates: dict[str, list[bracket_utils.TeamDuplicate]]
+    inserts: Inserts, team_name_duplicates: list[bracket_utils.VerifiedTeam]
 ) -> None:
     lines = [
         "-- Copyright (c) 2025 - Present. IKWF History. All rights reserved.",
@@ -1027,9 +1031,10 @@ def _write_team_deduplicate_sql(
         "",
     ]
 
-    team_names = sorted(team_name_duplicates.keys())
-    for team_name in team_names:
-        duplicates = team_name_duplicates[team_name]
+    team_name_duplicates = sorted(team_name_duplicates, key=_verified_team_sort_key)
+    for verified_team in team_name_duplicates:
+        team_name = verified_team.name_normalized
+        duplicates = verified_team.duplicates
         if len(duplicates) < 2:
             raise ValueError("Need at least 2 duplicates", team_name)
 
@@ -1059,6 +1064,7 @@ def _write_team_deduplicate_sql(
         )
         merge_predicate = ", ".join(map(str, merge_tournament_team_ids))
         team_name_str = _sql_nullable_str(team_name)
+        slug_str = _sql_nullable_str(verified_team.url_path_slug)
         lines.extend(
             [
                 "-" * 40,
@@ -1068,7 +1074,7 @@ def _write_team_deduplicate_sql(
                 "  team",
                 "SET",
                 f"  name_normalized = {team_name_str},",
-                "  verified = TRUE",
+                f"  url_path_slug = {slug_str}",
                 "WHERE",
                 f"  id = {keep_team_id};",
                 "",
