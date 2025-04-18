@@ -48,7 +48,8 @@ CREATE TABLE tournament (
   location TEXT NOT NULL,
   start_date DATE NOT NULL,
   end_date DATE NOT NULL,
-  wrestleback_type TEXT NOT NULL REFERENCES wrestleback_type(key)
+  wrestleback_type TEXT NOT NULL REFERENCES wrestleback_type(key),
+  medalist_count INTEGER NOT NULL
 );
 
 --------------------------------------------------------------------------------
