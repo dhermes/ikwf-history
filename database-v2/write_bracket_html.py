@@ -226,7 +226,7 @@ def _get_participant_map(
     return result
 
 
-def _get_included_images(
+def _get_included_bracket_images(
     static_root: pathlib.Path, year: int, division: bracket_utils.Division, weight: int
 ) -> list[str]:
     filenames: list[str] = []
@@ -768,7 +768,9 @@ def _render_bracket_html(
 ) -> None:
     match_map = _get_match_map(match_data_rows)
     participant_map = _get_participant_map(match_map)
-    included_images = _get_included_images(static_root, config.year, division, weight)
+    included_images = _get_included_bracket_images(
+        static_root, config.year, division, weight
+    )
 
     html_title = _get_html_title(config.year, division, weight)
     parts: list[str] = ["<html>"]
@@ -805,6 +807,84 @@ def _render_bracket_html(
     destination = static_root / "brackets" / str(config.year) / division_path
     destination.mkdir(parents=True, exist_ok=True)
     html_path = destination / f"{weight}.html"
+
+    with open(html_path, "w") as file_obj:
+        file_obj.write(formatted_html)
+
+
+def _get_included_tournament_images(
+    static_root: pathlib.Path, year: int, division: bracket_utils.Division
+) -> list[str]:
+    filenames: list[str] = []
+
+    division_path = bracket_utils.get_division_path(division)
+
+    filename = f"{year}-{division_path}-team-scores.png"
+    image_path = static_root / "images" / filename
+    if image_path.is_file():
+        filenames.append(filename)
+
+    filename = f"{year}-{division_path}-placers.png"
+    image_path = static_root / "images" / filename
+    if image_path.is_file():
+        filenames.append(filename)
+
+    return filenames
+
+
+def _render_brackets_year_html(
+    static_root: pathlib.Path,
+    year: int,
+    weights_by_division: dict[bracket_utils.Division, list[int]],
+) -> None:
+    parts: list[str] = [
+        "<html>",
+        "  <head>",
+        f"    <title>{year}</title>",
+        '    <link href="/css/tournament-view.fb678ab0.min.css" rel="stylesheet" />',
+        "  </head>",
+        "  <body>",
+        '    <div class="tournament-view">',
+        f"      <h1>{year}</h1>",
+    ]
+
+    divisions = sorted(weights_by_division.keys(), key=bracket_utils.division_sort_key)
+    for division in divisions:
+        weights = sorted(weights_by_division[division])
+        division_display = bracket_utils.get_division_display(division)
+        division_path = bracket_utils.get_division_path(division)
+
+        parts.extend(
+            [
+                f"<h2>{division_display}</h2>",
+                "<ul>",
+            ]
+        )
+
+        for weight in weights:
+            url = f"/brackets/{year}/{division_path}/{weight}.html"
+            parts.append(f'<li><a href="{url}">{weight}</a></li>')
+
+        parts.append("</ul>")
+
+        included_images = _get_included_tournament_images(static_root, year, division)
+        for included_image in included_images:
+            parts.append(f'<img src="/images/{included_image}" width="100%" />')
+
+    parts.extend(
+        [
+            "    </div>",
+            "  </body>",
+            "</html>",
+        ]
+    )
+
+    soup = bs4.BeautifulSoup("\n".join(parts), features="html.parser")
+    formatted_html = soup.prettify(formatter="html")
+
+    destination = static_root / "brackets" / str(year)
+    destination.mkdir(parents=True, exist_ok=True)
+    html_path = destination / "index.html"
 
     with open(html_path, "w") as file_obj:
         file_obj.write(formatted_html)
@@ -852,12 +932,14 @@ def main() -> None:
     static_root = HERE.parent / "static" / "static"
     api_root = static_root / "api" / "v20250408"
 
+    weights_by_year: dict[int, dict[bracket_utils.Division, list[int]]] = {}
     with sqlite3.connect(HERE / "ikwf.sqlite") as connection:
         connection.row_factory = sqlite3.Row
 
         all_tournaments = _get_all_tournaments(connection)
         tournament_years = sorted(all_tournaments.keys())
         for year in tournament_years:
+            weights_by_year.setdefault(year, {})
             for config in all_tournaments[year]:
                 tournament_brackets = _get_all_brackets(connection, config.id_)
                 for division, weight in tournament_brackets:
@@ -868,12 +950,18 @@ def main() -> None:
                     if len(match_data_rows) == 0:
                         continue
 
+                    weights_by_year[year].setdefault(division, []).append(weight)
+
                     _render_bracket_json(
                         api_root, year, division, weight, match_data_rows
                     )
                     _render_bracket_html(
                         static_root, config, division, weight, match_data_rows
                     )
+
+    for year in tournament_years:
+        year_weights = weights_by_year[year]
+        _render_brackets_year_html(static_root, year, year_weights)
 
     _render_base_brackets_html(static_root, tournament_years)
 
