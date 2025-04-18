@@ -1,4 +1,106 @@
 {
+    "Alber Athletics Wrestling Club": [
+        {
+            "tournament_id": 50,
+            "division": "novice",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 50,
+            "division": "senior",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 51,
+            "division": "novice",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 51,
+            "division": "senior",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 52,
+            "division": "novice",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 52,
+            "division": "senior",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 52,
+            "division": "novice_girls",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 52,
+            "division": "senior_girls",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 10052,
+            "division": "bantam",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 10052,
+            "division": "intermediate",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 10052,
+            "division": "bantam_girls",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 10052,
+            "division": "intermediate_girls",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "bantam",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "intermediate",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "novice",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "senior",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "bantam_girls",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "intermediate_girls",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "novice_girls",
+            "name": "Alber Athletics WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "senior_girls",
+            "name": "Alber Athletics WC"
+        }
+    ],
     "Dakota Wrestling Club": [
         {
             "tournament_id": 27,
@@ -633,6 +735,210 @@
             "name": "Fox Valley WC"
         }
     ],
+    "Harvard Wrestling Club": [
+        {
+            "tournament_id": 23,
+            "division": "novice",
+            "name": "HARVARD"
+        },
+        {
+            "tournament_id": 29,
+            "division": "novice",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 34,
+            "division": "novice",
+            "name": "HARVARD WC"
+        },
+        {
+            "tournament_id": 34,
+            "division": "senior",
+            "name": "HARVARD WC"
+        },
+        {
+            "tournament_id": 35,
+            "division": "novice",
+            "name": "HARVARD WC"
+        },
+        {
+            "tournament_id": 35,
+            "division": "senior",
+            "name": "HARVARD WC"
+        },
+        {
+            "tournament_id": 49,
+            "division": "novice",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 49,
+            "division": "senior",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 51,
+            "division": "novice",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 51,
+            "division": "senior",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 52,
+            "division": "novice",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 52,
+            "division": "senior",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 52,
+            "division": "novice_girls",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 52,
+            "division": "senior_girls",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 10052,
+            "division": "bantam",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 10052,
+            "division": "intermediate",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 10052,
+            "division": "bantam_girls",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 10052,
+            "division": "intermediate_girls",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "bantam",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "intermediate",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "novice",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "senior",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "bantam_girls",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "intermediate_girls",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "novice_girls",
+            "name": "Harvard WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "senior_girls",
+            "name": "Harvard WC"
+        }
+    ],
+    "Rich Rattlers Wrestling Club": [
+        {
+            "tournament_id": 32,
+            "division": "novice",
+            "name": "RICH RATTLERS WC"
+        },
+        {
+            "tournament_id": 32,
+            "division": "senior",
+            "name": "RICH RATTLERS WC"
+        },
+        {
+            "tournament_id": 33,
+            "division": "senior",
+            "name": "RICH RATTLERS"
+        },
+        {
+            "tournament_id": 34,
+            "division": "novice",
+            "name": "RICH RATTLERS WC"
+        },
+        {
+            "tournament_id": 34,
+            "division": "senior",
+            "name": "RICH RATTLERS WC"
+        },
+        {
+            "tournament_id": 35,
+            "division": "novice",
+            "name": "RICH RATTLERS WC"
+        },
+        {
+            "tournament_id": 36,
+            "division": "novice",
+            "name": "RICH RATTLERS WC"
+        },
+        {
+            "tournament_id": 36,
+            "division": "senior",
+            "name": "RICH RATTLERS WC"
+        },
+        {
+            "tournament_id": 37,
+            "division": "novice",
+            "name": "Rich Rattlers WC"
+        },
+        {
+            "tournament_id": 37,
+            "division": "senior",
+            "name": "Rich Rattlers WC"
+        },
+        {
+            "tournament_id": 39,
+            "division": "novice",
+            "name": "RICH RATTLERS WC"
+        },
+        {
+            "tournament_id": 39,
+            "division": "senior",
+            "name": "RICH RATTLERS WC"
+        },
+        {
+            "tournament_id": 40,
+            "division": "novice",
+            "name": "RICH RATTLERS WC"
+        },
+        {
+            "tournament_id": 40,
+            "division": "senior",
+            "name": "RICH RATTLERS WC"
+        }
+    ],
     "Sauk Valley Wrestling Club": [
         {
             "tournament_id": 35,
@@ -955,6 +1261,88 @@
             "tournament_id": 34,
             "division": "senior",
             "name": "STERLING NEWMAN JR COMETS"
+        }
+    ],
+    "West Suburban Girls Wrestling Club": [
+        {
+            "tournament_id": 52,
+            "division": "novice",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 52,
+            "division": "senior",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 52,
+            "division": "novice_girls",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 52,
+            "division": "senior_girls",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 10052,
+            "division": "bantam",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 10052,
+            "division": "intermediate",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 10052,
+            "division": "bantam_girls",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 10052,
+            "division": "intermediate_girls",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "bantam",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "intermediate",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "novice",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "senior",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "bantam_girls",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "intermediate_girls",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "novice_girls",
+            "name": "West Suburban Girls WC"
+        },
+        {
+            "tournament_id": 53,
+            "division": "senior_girls",
+            "name": "West Suburban Girls WC"
         }
     ]
 }
