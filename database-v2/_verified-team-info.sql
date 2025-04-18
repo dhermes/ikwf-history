@@ -4,5 +4,5 @@ SELECT
 FROM
   team
 WHERE
-  id IN (:team_ids)
+  verified
 ORDER BY name_normalized, id

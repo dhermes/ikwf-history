@@ -10,7 +10,6 @@ import bs4
 import pydantic
 
 HERE = pathlib.Path(__file__).resolve().parent
-_TEAMS_IDS: tuple[int, ...] = (167, 438, 479, 2255)
 
 
 @functools.cache
@@ -28,18 +27,10 @@ class TeamInfo(_ForbidExtra):
     name_normalized: str
 
 
-def _get_team_info(
-    connection: sqlite3.Connection, team_ids: tuple[int, ...]
-) -> list[TeamInfo]:
-    team_info_sql = _get_sql("_team-info.sql")
-    if team_info_sql.count(":team_ids") != 1:
-        raise ValueError("Unexpected SQL", team_info_sql)
-
-    placeholders = ", ".join(["?"] * len(team_ids))
-    sql = team_info_sql.replace(":team_ids", placeholders)
-
+def _get_team_info(connection: sqlite3.Connection) -> list[TeamInfo]:
+    team_info_sql = _get_sql("_verified-team-info.sql")
     cursor = connection.cursor()
-    cursor.execute(sql, team_ids)
+    cursor.execute(team_info_sql)
     rows = [TeamInfo(**row) for row in cursor.fetchall()]
     cursor.close()
     return rows
@@ -298,7 +289,7 @@ def main() -> None:
     with sqlite3.connect(HERE / "ikwf.sqlite") as connection:
         connection.row_factory = sqlite3.Row
 
-        teams = _get_team_info(connection, _TEAMS_IDS)
+        teams = _get_team_info(connection)
         landing_html = _teams_landing_html(teams)
         with open(teams_root / "index.html", "w") as file_obj:
             file_obj.write(landing_html)
