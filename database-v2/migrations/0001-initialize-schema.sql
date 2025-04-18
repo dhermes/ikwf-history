@@ -178,6 +178,25 @@ CREATE TABLE award_winner (
   division TEXT NOT NULL REFERENCES division(key),
   weight INTEGER NOT NULL,
   award TEXT NOT NULL REFERENCES award(key),
-  competitor_id INTEGER REFERENCES tournament_competitor(id),
+  competitor_id INTEGER NOT NULL REFERENCES tournament_competitor(id),
   UNIQUE(tournament_id, division)
+);
+
+--------------------------------------------------------------------------------
+
+-- NOTE: The table is **DENORMALIZED** data (already present in `match` table).
+--       However it's complex enough that it's worth just denormalizing from
+--       the place matches and storing here.
+CREATE TABLE placer_denormalized (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  tournament_id INTEGER NOT NULL REFERENCES tournament(id),
+  division TEXT NOT NULL REFERENCES division(key),
+  weight INTEGER NOT NULL,
+  competitor_id INTEGER REFERENCES tournament_competitor(id),
+  place INTEGER NOT NULL,
+  UNIQUE(competitor_id),
+  UNIQUE(tournament_id, division, weight, place),
+  CHECK (
+    (1 <= place AND place <= 8)
+  )
 );

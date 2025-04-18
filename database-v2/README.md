@@ -37,11 +37,11 @@ Enter ".help" for usage hints.
 sqlite>
 sqlite>
 sqlite> .tables
-award                  match                  tournament
-award_winner           match_slot             tournament_competitor
-bracket                result_type            tournament_team
-competitor             team                   wrestleback_type
-division               team_point_deduction
+award                  match                  team_point_deduction
+award_winner           match_slot             tournament
+bracket                placer_denormalized    tournament_competitor
+competitor             result_type            tournament_team
+division               team                   wrestleback_type
 sqlite>
 sqlite>
 sqlite> .schema division
