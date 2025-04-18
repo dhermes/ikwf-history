@@ -810,6 +810,44 @@ def _render_bracket_html(
         file_obj.write(formatted_html)
 
 
+def _render_base_brackets_html(
+    static_root: pathlib.Path, tournament_years: list[int]
+) -> None:
+    parts: list[str] = [
+        "<html>",
+        "  <head>",
+        "    <title>Brackets</title>",
+        '    <link href="/css/tournament-view.fb678ab0.min.css" rel="stylesheet" />',
+        "  </head>",
+        "  <body>",
+        '    <div class="tournament-view">',
+        "      <h1>Brackets</h1>",
+        "      <ul>",
+    ]
+
+    for year in tournament_years:
+        parts.append(f'<li><a href="/brackets/{year}/index.html">{year}</a></li>')
+
+    parts.extend(
+        [
+            "      </ul>",
+            "    </div>",
+            "  </body>",
+            "</html>",
+        ]
+    )
+
+    soup = bs4.BeautifulSoup("\n".join(parts), features="html.parser")
+    formatted_html = soup.prettify(formatter="html")
+
+    destination = static_root / "brackets"
+    destination.mkdir(parents=True, exist_ok=True)
+    html_path = destination / "index.html"
+
+    with open(html_path, "w") as file_obj:
+        file_obj.write(formatted_html)
+
+
 def main() -> None:
     static_root = HERE.parent / "static" / "static"
     api_root = static_root / "api" / "v20250408"
@@ -836,6 +874,8 @@ def main() -> None:
                     _render_bracket_html(
                         static_root, config, division, weight, match_data_rows
                     )
+
+    _render_base_brackets_html(static_root, tournament_years)
 
 
 if __name__ == "__main__":
