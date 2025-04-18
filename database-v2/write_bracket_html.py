@@ -939,7 +939,6 @@ def main() -> None:
         all_tournaments = _get_all_tournaments(connection)
         tournament_years = sorted(all_tournaments.keys())
         for year in tournament_years:
-            weights_by_year.setdefault(year, {})
             for config in all_tournaments[year]:
                 tournament_brackets = _get_all_brackets(connection, config.id_)
                 for division, weight in tournament_brackets:
@@ -950,6 +949,7 @@ def main() -> None:
                     if len(match_data_rows) == 0:
                         continue
 
+                    weights_by_year.setdefault(year, {})
                     weights_by_year[year].setdefault(division, []).append(weight)
 
                     _render_bracket_json(
