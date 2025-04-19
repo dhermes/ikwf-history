@@ -22,6 +22,7 @@ shout out to:
   filling out all of those brackets back when he was competing!
 - Todd Combes for his three bracket boards 1990, 1991, and 1993 (can't believe
   you let Matthew Goldstein keep you from a title in 1992!)
+- Corey Atwell for brackets from 1987 and his bracket board from 1986
 - Collin McKillip for his two bracket boards from 1998 and 1999 (1998 is
   currently the **only** year I don't have champions for)
 - Clayton Norberg for his bracked board from 1999
