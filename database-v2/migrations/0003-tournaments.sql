@@ -24,7 +24,7 @@ VALUES
   (13, 1983, 'Illinois Wrestling Federation State Championship', 'NIU', '1983-03-01', '1983-03-01', 'follow_leader_semifinal', 6), -- Most fields not verified: `name`, `location`, `start_date`, `end_date`, `wrestleback_type`
   (14, 1984, 'Illinois Wrestling Federation State Championship', 'NIU', '1984-03-01', '1984-03-01', 'follow_leader_semifinal', 6), -- Most fields not verified: `name`, `location`, `start_date`, `end_date`, `wrestleback_type`
   (15, 1985, 'Illinois Wrestling Federation State Championship', 'SIU Edwardsville', '1985-03-01', '1985-03-01', 'follow_leader_semifinal', 6), -- Most fields not verified: `name`, `location`, `start_date`, `end_date`, `wrestleback_type`
-  (16, 1986, 'Illinois Wrestling Federation State Championship', 'NIU', '1986-03-01', '1986-03-01', 'follow_leader_semifinal', 6), -- Most fields not verified: `name`, `location`, `start_date`, `end_date`, `wrestleback_type`
+  (16, 1986, 'Illinois Kids Wrestling Federation State Championship', 'NIU', '1986-03-21', '1986-03-22', 'follow_leader_semifinal', 6),
   (17, 1987, 'Illinois Wrestling Federation State Championship', 'SIU Edwardsville', '1987-03-01', '1987-03-01', 'follow_leader_semifinal', 6), -- Most fields not verified: `name`, `location`, `start_date`, `end_date`, `wrestleback_type`
   (18, 1988, 'Illinois Wrestling Federation State Championship', 'NIU', '1988-03-01', '1988-03-01', 'follow_leader_semifinal', 6), -- Most fields not verified: `name`, `location`, `start_date`, `end_date`, `wrestleback_type`
   (19, 1989, 'Illinois Wrestling Federation State Championship', 'SIU Edwardsville', '1989-03-01', '1989-03-01', 'follow_leader_semifinal', 6), -- Most fields not verified: `name`, `location`, `start_date`, `end_date`, `wrestleback_type`
