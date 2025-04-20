@@ -904,6 +904,367 @@
         ]
     },
     {
+        "name_normalized": "Harvey Twisters",
+        "url_path_slug": "twisters",
+        "duplicates": [
+            {
+                "tournament_id": 16,
+                "division": "senior",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 17,
+                "division": "senior",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 18,
+                "division": "senior",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 19,
+                "division": "senior",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 20,
+                "division": "senior",
+                "name": "Harvey Park District Twisters"
+            },
+            {
+                "tournament_id": 21,
+                "division": "senior",
+                "name": "HARVEY TWISTERS"
+            },
+            {
+                "tournament_id": 22,
+                "division": "senior",
+                "name": "HARVEY TWISTERS"
+            },
+            {
+                "tournament_id": 23,
+                "division": "senior",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 24,
+                "division": "novice",
+                "name": "HARVEY TWISTERS"
+            },
+            {
+                "tournament_id": 25,
+                "division": "novice",
+                "name": "HARVEY TWISTERS"
+            },
+            {
+                "tournament_id": 26,
+                "division": "novice",
+                "name": "HARVEY TWISTERS"
+            },
+            {
+                "tournament_id": 27,
+                "division": "novice",
+                "name": "HARVEY TWISTERS"
+            },
+            {
+                "tournament_id": 27,
+                "division": "senior",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 32,
+                "division": "novice",
+                "name": "HARVEY TWISTERS"
+            },
+            {
+                "tournament_id": 32,
+                "division": "senior",
+                "name": "HARVEY TWISTERS"
+            },
+            {
+                "tournament_id": 33,
+                "division": "novice",
+                "name": "HARVEY TWISTERS"
+            },
+            {
+                "tournament_id": 33,
+                "division": "senior",
+                "name": "HARVEY TWISTERS"
+            },
+            {
+                "tournament_id": 34,
+                "division": "novice",
+                "name": "HARVEY PARK DIST TWISTERS"
+            },
+            {
+                "tournament_id": 34,
+                "division": "senior",
+                "name": "HARVEY PARK DIST TWISTERS"
+            },
+            {
+                "tournament_id": 35,
+                "division": "novice",
+                "name": "HARVEY PARK DISTRICT TWISTERS"
+            },
+            {
+                "tournament_id": 35,
+                "division": "senior",
+                "name": "HARVEY PARK DISTRICT TWISTERS"
+            },
+            {
+                "tournament_id": 36,
+                "division": "novice",
+                "name": "HARVEY PARK DIST TWISTERS"
+            },
+            {
+                "tournament_id": 36,
+                "division": "senior",
+                "name": "HARVEY PARK DIST TWISTERS"
+            },
+            {
+                "tournament_id": 37,
+                "division": "novice",
+                "name": "Harvey Park Dist Twisters"
+            },
+            {
+                "tournament_id": 37,
+                "division": "senior",
+                "name": "Harvey Park Dist Twisters"
+            },
+            {
+                "tournament_id": 38,
+                "division": "novice",
+                "name": "HARVEY PARK DIST TWISTERS"
+            },
+            {
+                "tournament_id": 38,
+                "division": "senior",
+                "name": "HARVEY PARK DIST TWISTERS"
+            },
+            {
+                "tournament_id": 39,
+                "division": "novice",
+                "name": "HARVEY PARK DIST TWISTERS"
+            },
+            {
+                "tournament_id": 39,
+                "division": "senior",
+                "name": "HARVEY PARK DIST TWISTERS"
+            },
+            {
+                "tournament_id": 40,
+                "division": "novice",
+                "name": "HARVEY TWISTERS"
+            },
+            {
+                "tournament_id": 40,
+                "division": "senior",
+                "name": "HARVEY TWISTERS"
+            },
+            {
+                "tournament_id": 41,
+                "division": "novice",
+                "name": "Harvey Park Dist Twisters"
+            },
+            {
+                "tournament_id": 41,
+                "division": "senior",
+                "name": "Harvey Park Dist Twisters"
+            },
+            {
+                "tournament_id": 42,
+                "division": "novice",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 42,
+                "division": "senior",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 43,
+                "division": "novice",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 43,
+                "division": "senior",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 44,
+                "division": "novice",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 44,
+                "division": "senior",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 45,
+                "division": "novice",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 45,
+                "division": "senior",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 46,
+                "division": "novice",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 46,
+                "division": "senior",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 47,
+                "division": "novice",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 47,
+                "division": "senior",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 48,
+                "division": "novice",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 48,
+                "division": "senior",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 49,
+                "division": "novice",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 49,
+                "division": "senior",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 10050,
+                "division": "novice",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 10050,
+                "division": "senior",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 50,
+                "division": "novice",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 50,
+                "division": "senior",
+                "name": "Harvey Twisters"
+            },
+            {
+                "tournament_id": 51,
+                "division": "novice",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 51,
+                "division": "senior",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 52,
+                "division": "novice",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 52,
+                "division": "senior",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 52,
+                "division": "novice_girls",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 52,
+                "division": "senior_girls",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 10052,
+                "division": "bantam",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 10052,
+                "division": "intermediate",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 10052,
+                "division": "bantam_girls",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 10052,
+                "division": "intermediate_girls",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 53,
+                "division": "bantam",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 53,
+                "division": "intermediate",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 53,
+                "division": "novice",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 53,
+                "division": "senior",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 53,
+                "division": "bantam_girls",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 53,
+                "division": "intermediate_girls",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 53,
+                "division": "novice_girls",
+                "name": "Harvey Twisters WC"
+            },
+            {
+                "tournament_id": 53,
+                "division": "senior_girls",
+                "name": "Harvey Twisters WC"
+            }
+        ]
+    },
+    {
         "name_normalized": "Rich Rattlers Wrestling Club",
         "url_path_slug": "rich-rattlers",
         "duplicates": [
