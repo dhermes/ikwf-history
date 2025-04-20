@@ -110,6 +110,11 @@
         "url_path_slug": "dakota",
         "duplicates": [
             {
+                "tournament_id": 20,
+                "division": "senior",
+                "name": "Dakota Matt Rats"
+            },
+            {
                 "tournament_id": 27,
                 "division": "novice",
                 "name": "DAKOTA"
@@ -752,6 +757,21 @@
         "url_path_slug": "harvard",
         "duplicates": [
             {
+                "tournament_id": 16,
+                "division": "senior",
+                "name": "Harvard WC"
+            },
+            {
+                "tournament_id": 20,
+                "division": "senior",
+                "name": "Harvard WC"
+            },
+            {
+                "tournament_id": 21,
+                "division": "senior",
+                "name": "HARVARD"
+            },
+            {
                 "tournament_id": 23,
                 "division": "novice",
                 "name": "HARVARD"
@@ -1229,6 +1249,21 @@
         "name_normalized": "Sterling Newman Junior Comets",
         "url_path_slug": "sterling-newman",
         "duplicates": [
+            {
+                "tournament_id": 16,
+                "division": "senior",
+                "name": "Newman Middle School"
+            },
+            {
+                "tournament_id": 19,
+                "division": "senior",
+                "name": "Newman Blue Devils"
+            },
+            {
+                "tournament_id": 20,
+                "division": "senior",
+                "name": "Newman Blue Devils"
+            },
             {
                 "tournament_id": 12,
                 "division": "senior",
