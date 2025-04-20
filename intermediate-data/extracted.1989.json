@@ -10,7 +10,7 @@
             "full_name": "Marc Zehr",
             "first_name": "Marc",
             "last_name": "Zehr",
-            "team_full": "Arlington Cardinals",
+            "team_full": "Arlington Cardinals WC",
             "team_acronym": null
           },
           "bottom_competitor": null,
@@ -73,7 +73,7 @@
             "full_name": "Russell Guerrero",
             "first_name": "Russell",
             "last_name": "Guerrero",
-            "team_full": "West Chicago",
+            "team_full": "West Chicago Wildcats",
             "team_acronym": null
           },
           "bottom_competitor": null,
@@ -115,7 +115,7 @@
             "full_name": "Justin Weber",
             "first_name": "Justin",
             "last_name": "Weber",
-            "team_full": "Villa-Lombard",
+            "team_full": "Villa Lombard Cougars WC",
             "team_acronym": null
           },
           "bottom_competitor": null,
@@ -178,7 +178,7 @@
             "full_name": "Curt Bee",
             "first_name": "Curt",
             "last_name": "Bee",
-            "team_full": "Lanphier Springfield WC",
+            "team_full": "Lanphier-Springfield WC",
             "team_acronym": null
           },
           "bottom_competitor": null,
@@ -199,7 +199,7 @@
             "full_name": "Bucky Randolph",
             "first_name": "Bucky",
             "last_name": "Randolph",
-            "team_full": "Oak Forest Warior",
+            "team_full": "Oak Forest Warriors",
             "team_acronym": null
           },
           "bottom_competitor": null,
@@ -220,7 +220,7 @@
             "full_name": "Scott Radosevich",
             "first_name": "Scott",
             "last_name": "Radosevich",
-            "team_full": "Vittum Cats",
+            "team_full": "Vittum Cats WC",
             "team_acronym": null
           },
           "bottom_competitor": null,
@@ -241,7 +241,7 @@
             "full_name": "John Stickler",
             "first_name": "John",
             "last_name": "Stickler",
-            "team_full": "Riverdale Rams",
+            "team_full": "Riverdale (Rams) Jr. High",
             "team_acronym": null
           },
           "bottom_competitor": null,
@@ -325,7 +325,7 @@
             "full_name": "Tracy Sanborn",
             "first_name": "Tracy",
             "last_name": "Sanborn",
-            "team_full": "Belleville Little Devi",
+            "team_full": "Belleville Little Devils",
             "team_acronym": null
           },
           "bottom_competitor": null,
@@ -421,6 +421,259 @@
       ]
     }
   ],
-  "team_scores": {},
+  "team_scores": {
+    "senior": [
+      {
+        "team": "Harvey Twisters",
+        "acronym": null,
+        "score": 194.5
+      },
+      {
+        "team": "Aurora J-Hawks",
+        "acronym": null,
+        "score": 139.5
+      },
+      {
+        "team": "Dolton Park Falcons",
+        "acronym": null,
+        "score": 108.0
+      },
+      {
+        "team": "Vittum Cats WC",
+        "acronym": null,
+        "score": 108.0
+      },
+      {
+        "team": "Tinley Park Bulldogs",
+        "acronym": null,
+        "score": 106.0
+      },
+      {
+        "team": "Arlington Cardinals WC",
+        "acronym": null,
+        "score": 102.0
+      },
+      {
+        "team": "Bismarck Henning WC",
+        "acronym": null,
+        "score": 85.0
+      },
+      {
+        "team": "Indian Trail Wildcats",
+        "acronym": null,
+        "score": 77.0
+      },
+      {
+        "team": "Oak Forest Warriors",
+        "acronym": null,
+        "score": 77.0
+      },
+      {
+        "team": "Edwardsville",
+        "acronym": null,
+        "score": 66.0
+      },
+      {
+        "team": "Villa Lombard Cougars WC",
+        "acronym": null,
+        "score": 65.5
+      },
+      {
+        "team": "Geneseo WC",
+        "acronym": null,
+        "score": 65.0
+      },
+      {
+        "team": "Mustangs WC",
+        "acronym": null,
+        "score": 65.0
+      },
+      {
+        "team": "OPRF Warhawks JR WC",
+        "acronym": null,
+        "score": 64.0
+      },
+      {
+        "team": "Carbondale WC",
+        "acronym": null,
+        "score": 63.5
+      },
+      {
+        "team": "Mid-Markham Apaches",
+        "acronym": null,
+        "score": 63.5
+      },
+      {
+        "team": "Forman WC",
+        "acronym": null,
+        "score": 57.5
+      },
+      {
+        "team": "YMCA Bandits Wrestling",
+        "acronym": null,
+        "score": 56.0
+      },
+      {
+        "team": "Riverdale (Rams) Jr. High",
+        "acronym": null,
+        "score": 55.0
+      },
+      {
+        "team": "Tomcat WC",
+        "acronym": null,
+        "score": 55.0
+      },
+      {
+        "team": "Franklin Park Raiders",
+        "acronym": null,
+        "score": 53.0
+      },
+      {
+        "team": "Mattoon WC",
+        "acronym": null,
+        "score": 53.0
+      },
+      {
+        "team": "Redbird",
+        "acronym": null,
+        "score": 46.0
+      },
+      {
+        "team": "Mt. Zion WC",
+        "acronym": null,
+        "score": 45.0
+      },
+      {
+        "team": "Harlem School District",
+        "acronym": null,
+        "score": 44.5
+      },
+      {
+        "team": "Newman Blue Devils",
+        "acronym": null,
+        "score": 44.0
+      },
+      {
+        "team": "Lockport Grapplers WC",
+        "acronym": null,
+        "score": 41.5
+      },
+      {
+        "team": "Dundee Highlanders",
+        "acronym": null,
+        "score": 40.0
+      },
+      {
+        "team": "Round Lake Area PD",
+        "acronym": null,
+        "score": 40.0
+      },
+      {
+        "team": "Rosemont Cobras",
+        "acronym": null,
+        "score": 39.0
+      },
+      {
+        "team": "Lanphier-Springfield WC",
+        "acronym": null,
+        "score": 38.5
+      },
+      {
+        "team": "Bethalto Boys Club",
+        "acronym": null,
+        "score": 35.0
+      },
+      {
+        "team": "St. Charles JH WC",
+        "acronym": null,
+        "score": 34.0
+      },
+      {
+        "team": "Wheaton-Warrenville Wrestling",
+        "acronym": null,
+        "score": 33.5
+      },
+      {
+        "team": "Murphysboro Jr. High",
+        "acronym": null,
+        "score": 33.0
+      },
+      {
+        "team": "Belleville Little Devils",
+        "acronym": null,
+        "score": 31.0
+      },
+      {
+        "team": "Indian Prairie Pioneers",
+        "acronym": null,
+        "score": 31.0
+      },
+      {
+        "team": "Panther WC",
+        "acronym": null,
+        "score": 29.0
+      },
+      {
+        "team": "Indian Prairie Trailblaze",
+        "acronym": null,
+        "score": 28.0
+      },
+      {
+        "team": "Rich Wrestling Ltd",
+        "acronym": null,
+        "score": 28.0
+      },
+      {
+        "team": "Thornwood Kids WC",
+        "acronym": null,
+        "score": 26.5
+      },
+      {
+        "team": "Meade Jr. WC",
+        "acronym": null,
+        "score": 26.0
+      },
+      {
+        "team": "Knights WC",
+        "acronym": null,
+        "score": 25.0
+      },
+      {
+        "team": "Downers Grove PD Cougars",
+        "acronym": null,
+        "score": 24.0
+      },
+      {
+        "team": "Taylorville WC",
+        "acronym": null,
+        "score": 24.0
+      },
+      {
+        "team": "West Chicago Wildcats",
+        "acronym": null,
+        "score": 24.0
+      },
+      {
+        "team": "Decatur WC",
+        "acronym": null,
+        "score": 23.0
+      },
+      {
+        "team": "Westville Jr. High",
+        "acronym": null,
+        "score": 23.0
+      },
+      {
+        "team": "Naperville Patriots",
+        "acronym": null,
+        "score": 22.5
+      },
+      {
+        "team": "Lions WC (LaGrange)",
+        "acronym": null,
+        "score": 22.0
+      }
+    ]
+  },
   "deductions": []
 }

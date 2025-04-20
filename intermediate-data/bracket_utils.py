@@ -1959,3 +1959,23 @@ def create_weight_class_from_placers(
     ]
 
     return WeightClass(division=division, weight=weight, matches=matches)
+
+
+def weight_class_from_champ(
+    division: Division, weight: int, champ: Placer, team_replace: dict[str, str]
+) -> WeightClass:
+    return WeightClass(
+        division=division,
+        weight=weight,
+        matches=[
+            Match(
+                match_slot="championship_first_place",
+                top_competitor=champ.to_competitor(team_replace),
+                bottom_competitor=None,
+                result="",
+                result_type="place",
+                bout_number=None,
+                top_win=True,
+            ),
+        ],
+    )
