@@ -72,6 +72,14 @@ _SENIOR_PLACERS: dict[int, list[Placer]] = {
         Placer(name="Jason Roberson", team="Moline Booster"),
         Placer(name="Tim Creighton", team="Dundee Highlanders"),
     ],
+    100: [
+        Placer(name="Jim Czajkowski", team="Panther WC"),
+        Placer(name="Darren Ferguson", team="Medinah Lancer WC"),
+        Placer(name="Steve McDonnell", team="Moline Booster"),
+        Placer(name="Mark Rios", team="Sterling Warriors"),
+        Placer(name="Scott Ventmiglia", team="Roxana Roughnecks"),
+        Placer(name="Mike Tumilty", team="Boys Club of Pekin"),
+    ],
     105: [
         Placer(name="Hector Saldana", team="Aurora Tomcats"),
         Placer(name="Tony Sanders", team="Indian Prairie"),
@@ -165,29 +173,6 @@ def main():
         )
         weight_classes.append(weight_class)
 
-    weight_classes.append(
-        bracket_utils.WeightClass(
-            division="senior",
-            weight=100,
-            matches=[
-                bracket_utils.Match(
-                    match_slot="championship_first_place",
-                    top_competitor=bracket_utils.Competitor(
-                        full_name="Jim Czajkowski",
-                        first_name="Jim",
-                        last_name="Czajkowski",
-                        team_full="Panther WC",
-                        team_acronym=None,
-                    ),
-                    bottom_competitor=None,
-                    result="",
-                    result_type="place",
-                    bout_number=None,
-                    top_win=True,
-                ),
-            ],
-        )
-    )
     extracted = bracket_utils.ExtractedTournament(
         weight_classes=weight_classes, team_scores=team_scores, deductions=[]
     )
@@ -199,6 +184,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# 100 is wrong?
-## Jim Czajkowski??

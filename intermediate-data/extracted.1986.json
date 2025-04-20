@@ -565,7 +565,55 @@
             "team_full": "Panther WC",
             "team_acronym": null
           },
-          "bottom_competitor": null,
+          "bottom_competitor": {
+            "full_name": "Darren Ferguson",
+            "first_name": "Darren",
+            "last_name": "Ferguson",
+            "team_full": "Medinah Lancer WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Steve McDonnell",
+            "first_name": "Steve",
+            "last_name": "McDonnell",
+            "team_full": "Moline Booster",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Mark Rios",
+            "first_name": "Mark",
+            "last_name": "Rios",
+            "team_full": "Sterling Warriors",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Scott Ventmiglia",
+            "first_name": "Scott",
+            "last_name": "Ventmiglia",
+            "team_full": "Roxana Roughnecks",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Mike Tumilty",
+            "first_name": "Mike",
+            "last_name": "Tumilty",
+            "team_full": "Boys Club of Pekin",
+            "team_acronym": null
+          },
           "result": "",
           "result_type": "place",
           "bout_number": null,
