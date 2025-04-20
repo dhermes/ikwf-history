@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Scott Ventmiglia",
+    "top_team": "Roxana Roughnecks",
+    "top_score": null,
+    "bottom_name": "Mike Tumilty",
+    "bottom_team": "Boys Club of Pekin",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Steve McDonnell",
+    "top_team": "Moline Booster",
+    "top_score": null,
+    "bottom_name": "Mark Rios",
+    "bottom_team": "Sterling Warriors",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Paul Blaha",
-    "top_team": "Frankfort",
+    "top_name": "Jim Czajkowski",
+    "top_team": "Panther WC",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Darren Ferguson",
+    "bottom_team": "Medinah Lancer WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""
