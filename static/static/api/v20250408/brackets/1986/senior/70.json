@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Kevin Ryan",
+    "top_team": "Colts W.C.",
+    "top_score": null,
+    "bottom_name": "Gene Bonnette",
+    "bottom_team": "Boys Club of Pekin",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Dan Gilbert",
+    "top_team": "Tinley Park Bulldogs",
+    "top_score": null,
+    "bottom_name": "Kurt Kalchbrenner",
+    "bottom_team": "Vittum Cats",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Keith Snyder",
-    "top_team": "Panther WC",
+    "top_team": "Panther W.C",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Luke Pascale",
+    "bottom_team": "Orland Park Pioneers",
     "bottom_score": null,
     "top_win": true,
     "result": ""

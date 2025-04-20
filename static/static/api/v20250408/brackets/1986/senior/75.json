@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Shay Cordes",
+    "top_team": "East Moline W.C.",
+    "top_score": null,
+    "bottom_name": "Brian Brummitt",
+    "bottom_team": "Crossface W.C.",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Martin Sanchez",
+    "top_team": "Belvidere Bandits",
+    "top_score": null,
+    "bottom_name": "Richard Weeden",
+    "bottom_team": "Villa Lombard W.C.",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Bill Walsh",
-    "top_team": "Panther WC",
+    "top_team": "Panther W.C.",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Mike Eierman",
+    "bottom_team": "Colts W.C.",
     "bottom_score": null,
     "top_win": true,
     "result": ""

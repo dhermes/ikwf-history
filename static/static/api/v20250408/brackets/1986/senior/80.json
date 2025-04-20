@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Chris Shefts",
+    "top_team": "Rich Wrestling Ltd",
+    "top_score": null,
+    "bottom_name": "Shane Daker",
+    "bottom_team": "Foreman Booster",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Dan Pargulski",
+    "top_team": "Arlington Cardinals",
+    "top_score": null,
+    "bottom_name": "Ray Callahan",
+    "bottom_team": "DeKalb W.C.",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Steve Williams",
     "top_team": "Harvey Twisters",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Brant Laroche",
+    "bottom_team": "Panther W.C",
     "bottom_score": null,
     "top_win": true,
     "result": ""

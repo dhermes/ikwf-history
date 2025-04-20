@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Mike Jones",
+    "top_team": "Harvard W.C.",
+    "top_score": null,
+    "bottom_name": "Andres Garcia",
+    "bottom_team": "Rich Wrestling Ltd",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Byron Overton",
+    "top_team": "Wilbur Trimpe JHS",
+    "top_score": null,
+    "bottom_name": "Pat Duggan",
+    "bottom_team": "St. Tarcissus Raiders",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Corey Atwell",
-    "top_team": "Geneseo",
+    "top_team": "Geneseo W.C.",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Tuhan Waller",
+    "bottom_team": "Harvey Twisters",
     "bottom_score": null,
     "top_win": true,
     "result": ""

@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Dion Simmons",
+    "top_team": "Decatur W.C.",
+    "top_score": null,
+    "bottom_name": "Greg Licciardello",
+    "bottom_team": "Tinley Park Bulldogs",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Vince Cascone",
+    "top_team": "Vittum Cats",
+    "top_score": null,
+    "bottom_name": "Tim O'Malley",
+    "bottom_team": "Sterling Warriors",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Hector Saldana",
     "top_team": "Aurora Tomcats",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Tony Sanders",
+    "bottom_team": "Indian Prairie",
     "bottom_score": null,
     "top_win": true,
     "result": ""

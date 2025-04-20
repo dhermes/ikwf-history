@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Ted Galicia",
+    "top_team": "Matburns W.C.",
+    "top_score": null,
+    "bottom_name": "Sony Nuccio",
+    "bottom_team": "Thomas Jefferson JHS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "John Paulak",
+    "top_team": "Batavia W.C.",
+    "top_score": null,
+    "bottom_name": "Ian Blache",
+    "bottom_team": "Carbondale P.D.",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Jehad Mandan",
-    "top_team": "Lemont Bears",
+    "top_name": "Jehad Hamdan",
+    "top_team": "Lemont Bears W.C.",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Greg Gresock",
+    "bottom_team": "Batavia W.C.",
     "bottom_score": null,
     "top_win": true,
     "result": ""

@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Lane Murray",
+    "top_team": "Bloomington JHS",
+    "top_score": null,
+    "bottom_name": "Nick Nieponski",
+    "bottom_team": "Tinley Park Bulldogs",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "James Walton",
+    "top_team": "Oak Park-River Forest",
+    "top_score": null,
+    "bottom_name": "Scott Gardner",
+    "bottom_team": "Patriots W.C.",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Eugene Browning",
     "top_team": "Harvey Twisters",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Walter Pollack",
+    "bottom_team": "Barrington Colts",
     "bottom_score": null,
     "top_win": true,
     "result": ""
