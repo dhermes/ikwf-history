@@ -173,10 +173,10 @@ def main():
                 bracket_utils.Match(
                     match_slot="championship_first_place",
                     top_competitor=bracket_utils.Competitor(
-                        full_name="Paul Blaha",
-                        first_name="Paul",
-                        last_name="Blaha",
-                        team_full="Frankfort",
+                        full_name="Jim Czajkowski",
+                        first_name="Jim",
+                        last_name="Czajkowski",
+                        team_full="Panther WC",
                         team_acronym=None,
                     ),
                     bottom_competitor=None,
@@ -199,3 +199,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# 100 is wrong?
+## Jim Czajkowski??
