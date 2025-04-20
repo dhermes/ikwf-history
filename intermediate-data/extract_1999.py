@@ -1,7 +1,6 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
 import pathlib
-from typing import NamedTuple
 
 import bracket_utils
 import bs4
@@ -59,30 +58,9 @@ def _as_lines(element: bs4.Tag) -> list[str]:
     return [line.strip() for line in element.stripped_strings]
 
 
-class Placer(NamedTuple):
-    name: str
-    team: str
-
-    def to_competitor(self, team_replace: dict[str, str]) -> bracket_utils.Competitor:
-        team_full = team_replace.get(self.team, self.team)
-        parts = self.name.split()
-        if len(parts) != 2:
-            raise NotImplementedError(self.name)
-
-        first_name = parts[0]
-        last_name = parts[1]
-        return bracket_utils.Competitor(
-            full_name=self.name,
-            first_name=first_name,
-            last_name=last_name,
-            team_full=team_full,
-            team_acronym=None,
-        )
-
-
 def _parse_placers(
     element: bs4.Tag,
-) -> list[Placer]:
+) -> list[bracket_utils.Placer]:
     lines = _as_lines(element)
     if len(lines) != 12:
         raise ValueError("Unexpected element", len(lines), element)
@@ -90,7 +68,7 @@ def _parse_placers(
     if lines[::2] != ["1st", "2nd", "3rd", "4th", "5th", "6th"]:
         raise ValueError("Unexpected element", lines[::2], element)
 
-    placers: list[Placer] = []
+    placers: list[bracket_utils.Placer] = []
     for i in range(6):
         line = lines[2 * i + 1]
         line = line.strip("-").strip()
@@ -98,7 +76,7 @@ def _parse_placers(
         parts = line.split(" - ")
         if len(parts) != 2:
             raise ValueError("Unexpected placer", i, line)
-        placers.append(Placer(name=parts[0], team=parts[1]))
+        placers.append(bracket_utils.Placer(name=parts[0], team=parts[1]))
 
     return placers
 
@@ -110,9 +88,6 @@ def _create_weight_class(
 ) -> bracket_utils.WeightClass:
     weight = _parse_weight(weight_element)
     placers = _parse_placers(placers_element)
-    if len(placers) != 6:
-        raise RuntimeError("Invalid placers", division, weight)
-
     if division == "novice":
         team_replace = _NOVICE_TEAM_REPLACE
     elif division == "senior":
@@ -120,37 +95,9 @@ def _create_weight_class(
     else:
         raise NotImplementedError(division)
 
-    matches: list[bracket_utils.Match] = [
-        bracket_utils.Match(
-            match_slot="championship_first_place",
-            top_competitor=placers[0].to_competitor(team_replace),
-            bottom_competitor=placers[1].to_competitor(team_replace),
-            result="",
-            result_type="place",
-            bout_number=None,
-            top_win=True,
-        ),
-        bracket_utils.Match(
-            match_slot="consolation_third_place",
-            top_competitor=placers[2].to_competitor(team_replace),
-            bottom_competitor=placers[3].to_competitor(team_replace),
-            result="",
-            result_type="place",
-            bout_number=None,
-            top_win=True,
-        ),
-        bracket_utils.Match(
-            match_slot="consolation_fifth_place",
-            top_competitor=placers[4].to_competitor(team_replace),
-            bottom_competitor=placers[5].to_competitor(team_replace),
-            result="",
-            result_type="place",
-            bout_number=None,
-            top_win=True,
-        ),
-    ]
-
-    return bracket_utils.WeightClass(division=division, weight=weight, matches=matches)
+    return bracket_utils.create_weight_class_from_placers(
+        division, weight, placers, team_replace
+    )
 
 
 def _extract_novice(

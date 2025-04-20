@@ -1890,3 +1890,72 @@ def infer_deductions(team_scores: dict[Division, list[TeamScore]]) -> list[Deduc
             result.append(Deduction(team=team_name, reason="", value=-1.0))
 
     return result
+
+
+class Placer(NamedTuple):
+    """Very basic form of `Competitor`.
+
+    Used to process brackets where we have a list of placers but not full
+    brackets.
+    """
+
+    name: str
+    team: str
+
+    def to_competitor(self, team_replace: dict[str, str]) -> Competitor:
+        team_full = team_replace.get(self.team, self.team)
+        parts = self.name.split()
+        if len(parts) != 2:
+            raise NotImplementedError(self.name)
+
+        first_name = parts[0]
+        last_name = parts[1]
+        return Competitor(
+            full_name=self.name,
+            first_name=first_name,
+            last_name=last_name,
+            team_full=team_full,
+            team_acronym=None,
+        )
+
+
+def create_weight_class_from_placers(
+    division: Division,
+    weight: int,
+    placers: list[Placer],
+    team_replace: dict[str, str],
+) -> WeightClass:
+    if len(placers) != 6:
+        raise RuntimeError("Invalid placers", division, weight)
+
+    matches: list[Match] = [
+        Match(
+            match_slot="championship_first_place",
+            top_competitor=placers[0].to_competitor(team_replace),
+            bottom_competitor=placers[1].to_competitor(team_replace),
+            result="",
+            result_type="place",
+            bout_number=None,
+            top_win=True,
+        ),
+        Match(
+            match_slot="consolation_third_place",
+            top_competitor=placers[2].to_competitor(team_replace),
+            bottom_competitor=placers[3].to_competitor(team_replace),
+            result="",
+            result_type="place",
+            bout_number=None,
+            top_win=True,
+        ),
+        Match(
+            match_slot="consolation_fifth_place",
+            top_competitor=placers[4].to_competitor(team_replace),
+            bottom_competitor=placers[5].to_competitor(team_replace),
+            result="",
+            result_type="place",
+            bout_number=None,
+            top_win=True,
+        ),
+    ]
+
+    return WeightClass(division=division, weight=weight, matches=matches)
