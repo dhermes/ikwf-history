@@ -48,7 +48,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "Forman WC": 57.5,
     "YMCA Bandits Wrestling": 56.0,
     "Riverdale (Rams) Jr. High": 55.0,
-    "Tomcat WC": 55.0,
+    "Tomcats WC": 55.0,  # Was `Tomcat WC` in program
     "Franklin Park Raiders": 53.0,
     "Mattoon WC": 53.0,
     "Redbird": 46.0,
