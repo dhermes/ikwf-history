@@ -1,12 +1,19 @@
 <html>
   <head>
-    <title>{Division} {Weight} ({Year})</title>
+    <title>Bracket Manual Entry</title>
     <link href="/css/brackets-viewer.98d9c077.css" rel="stylesheet" />
     <link href="/css/manual-entry.css" rel="stylesheet" />
   </head>
   <body>
     <div class="brackets-viewer" id="bracket">
-      <h1>{Division} {Weight} ({Year})</h1>
+      <h1 class="bracket-header">
+        <span class="editable division" data-value="">{Division}</span
+        ><span class="editable weight" data-value="">{Weight}</span>(<span
+          class="editable year"
+          data-value=""
+          >{Year}</span
+        >)
+      </h1>
       <table class="participant-table">
         <thead>
           <tr>

@@ -164,6 +164,59 @@ function handleSelectChange(wrestlerChoices, event) {
   }
 }
 
+function createInputEditableSpan(span) {
+  const isDivision = span.classList.contains("division");
+  if (isDivision) {
+    const input = document.createElement("select");
+    input.classList.add("inline-edit");
+    ["Senior", "Novice"].forEach((optionValue) => {
+      const option = document.createElement("option");
+      option.value = optionValue;
+      option.textContent = optionValue;
+      if (optionValue === currentValue) option.selected = true;
+      input.appendChild(option);
+    });
+    return input;
+  }
+
+  const input = document.createElement("input");
+  input.type = "number";
+  input.classList.add("inline-edit");
+  input.value = currentValue;
+  return input;
+}
+
+function handleClickEditableSpan(span) {
+  span.addEventListener("click", () => {
+    const currentValue = span.dataset.value;
+
+    const input = createInputEditableSpan(span);
+    span.replaceWith(input);
+    input.focus();
+
+    const finalize = () => {
+      const newValue = input.value.trim();
+      const span = document.createElement("span");
+      span.className = span.className;
+      span.classList.add("editable");
+      span.dataset.value = newValue;
+      span.textContent = newValue;
+
+      input.replaceWith(span);
+      span.addEventListener("click", span.onclick); // re-attach
+    };
+
+    input.addEventListener("blur", finalize);
+    input.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") input.blur();
+      if (event.key === "Escape") {
+        input.value = currentValue;
+        input.blur();
+      }
+    });
+  });
+}
+
 document
   .querySelectorAll(".cell-name input, .cell-team input")
   .forEach((input) => {
@@ -177,3 +230,5 @@ document.querySelectorAll("select").forEach((select) => {
 });
 
 handleInputChange(WRESTLER_CHOICES);
+
+document.querySelectorAll("span.editable").forEach(handleClickEditableSpan);

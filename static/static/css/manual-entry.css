@@ -46,3 +46,22 @@
   padding: 2px 4px;
   font-size: 13px;
 }
+
+.editable {
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.editable:hover {
+  background-color: #eef;
+}
+
+input.inline-edit,
+select.inline-edit {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
