@@ -26,6 +26,16 @@ const WRESTLER_CHOICES = [
   { name: "Wrestler 23", team: "Team 23" },
   { name: "Wrestler 24", team: "Team 24" },
 ];
+const PREVIOUS_MATCH_MAP = Object.freeze({
+  17: { bottom: "2" },
+  18: { bottom: "4" },
+  19: { bottom: "6" },
+  20: { bottom: "8" },
+  21: { bottom: "10" },
+  22: { bottom: "12" },
+  23: { bottom: "14" },
+  24: { bottom: "16" },
+});
 
 function validateIndex(index) {
   if (!Number.isInteger(index) || index < 0 || index > 23) {
@@ -56,7 +66,7 @@ function updateDropdowns(wrestlerChoices) {
         continue;
       }
 
-      const index = Number(option.value) - 1;
+      const index = Number(option.value);
       validateIndex(index);
       const wrestler = wrestlerChoices[index];
       option.textContent = wrestler.name;
@@ -97,10 +107,73 @@ function handleInputChange(wrestlerChoices) {
   updateReadOnlyFields(wrestlerChoices);
 }
 
+function handleSelectChange(wrestlerChoices, event) {
+  const select = event.target;
+  const winnerID = select.value;
+
+  const matchID = select.dataset.matchId;
+  const position = select.dataset.position;
+
+  const previousMatchID = PREVIOUS_MATCH_MAP[matchID]?.[position];
+  if (previousMatchID === undefined) {
+    throw new Error(
+      `Could not determine previous match: ${matchID}, ${position}`
+    );
+  }
+
+  const previousMatchDiv = document.querySelector(
+    `div.match[data-match-id="${previousMatchID}"]`
+  );
+
+  const previousParticipants = previousMatchDiv.querySelectorAll(
+    "div.participant[data-participant-id]"
+  );
+
+  if (previousParticipants.length !== 2) {
+    throw new Error("Not (yet) implemented");
+  }
+
+  const topParticipant = previousParticipants[0];
+  const bottomParticipant = previousParticipants[1];
+  if (winnerID === "") {
+    topParticipant.classList.remove("win");
+    topParticipant.classList.remove("loss");
+    topParticipant.querySelector("div.result").textContent = "";
+
+    bottomParticipant.classList.remove("loss");
+    bottomParticipant.classList.remove("win");
+    bottomParticipant.querySelector("div.result").textContent = "";
+  } else if (topParticipant.dataset.participantId === winnerID) {
+    topParticipant.classList.add("win");
+    topParticipant.classList.remove("loss");
+    topParticipant.querySelector("div.result").textContent = "W";
+
+    bottomParticipant.classList.add("loss");
+    bottomParticipant.classList.remove("win");
+    bottomParticipant.querySelector("div.result").textContent = "L";
+  } else if (bottomParticipant.dataset.participantId === winnerID) {
+    topParticipant.classList.add("loss");
+    topParticipant.classList.remove("win");
+    topParticipant.querySelector("div.result").textContent = "L";
+
+    bottomParticipant.classList.add("win");
+    bottomParticipant.classList.remove("loss");
+    bottomParticipant.querySelector("div.result").textContent = "W";
+  } else {
+    throw new Error("Neither top nor bottom won the match");
+  }
+}
+
 document
   .querySelectorAll(".cell-name input, .cell-team input")
   .forEach((input) => {
     input.addEventListener("input", () => handleInputChange(WRESTLER_CHOICES));
   });
+
+document.querySelectorAll("select").forEach((select) => {
+  select.addEventListener("change", (event) =>
+    handleSelectChange(WRESTLER_CHOICES, event)
+  );
+});
 
 handleInputChange(WRESTLER_CHOICES);
