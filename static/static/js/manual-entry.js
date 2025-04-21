@@ -57,12 +57,9 @@ function updateDropdowns(wrestlerChoices) {
       }
 
       const index = Number(option.value) - 1;
+      validateIndex(index);
       const wrestler = wrestlerChoices[index];
-      if (wrestler === null) {
-        option.textContent = "<unset>";
-      } else {
-        option.textContent = wrestler.name;
-      }
+      option.textContent = wrestler.name;
     }
   });
 }
@@ -82,7 +79,7 @@ function updateReadOnlyFields(wrestlerChoices) {
     }
 
     const wrestler = wrestlerChoices[participantID];
-    nameDiv.textContent = ""; // Clear existing
+    nameDiv.textContent = "";
 
     const nameText = document.createTextNode(wrestler.name);
 
