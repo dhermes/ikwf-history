@@ -94,6 +94,16 @@ function updateReadOnlyFields(wrestlerChoices) {
   });
 }
 
-updateWrestlerChoices(WRESTLER_CHOICES);
-updateDropdowns(WRESTLER_CHOICES);
-updateReadOnlyFields(WRESTLER_CHOICES);
+function handleInputChange(wrestlerChoices) {
+  updateWrestlerChoices(wrestlerChoices);
+  updateDropdowns(wrestlerChoices);
+  updateReadOnlyFields(wrestlerChoices);
+}
+
+document
+  .querySelectorAll(".cell-name input, .cell-team input")
+  .forEach((input) => {
+    input.addEventListener("input", () => handleInputChange(WRESTLER_CHOICES));
+  });
+
+handleInputChange(WRESTLER_CHOICES);
