@@ -379,6 +379,19 @@
       ]
     }
   ],
-  "team_scores": {},
+  "team_scores": {
+    "senior": [
+      {
+        "team": "PLAINFIELD",
+        "acronym": null,
+        "score": 122.5
+      },
+      {
+        "team": "JOLIET YMCA",
+        "acronym": null,
+        "score": 86.0
+      }
+    ]
+  },
   "deductions": []
 }

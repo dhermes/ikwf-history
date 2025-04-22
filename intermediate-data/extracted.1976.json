@@ -358,6 +358,19 @@
       ]
     }
   ],
-  "team_scores": {},
+  "team_scores": {
+    "senior": [
+      {
+        "team": "BURBANK PANTHERS",
+        "acronym": null,
+        "score": 46.0
+      },
+      {
+        "team": "OAK FOREST",
+        "acronym": null,
+        "score": 41.0
+      }
+    ]
+  },
   "deductions": []
 }

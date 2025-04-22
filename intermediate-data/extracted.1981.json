@@ -442,6 +442,19 @@
       ]
     }
   ],
-  "team_scores": {},
+  "team_scores": {
+    "senior": [
+      {
+        "team": "BURBANK PANTHERS",
+        "acronym": null,
+        "score": 195.0
+      },
+      {
+        "team": "CHICAGO RIDGE",
+        "acronym": null,
+        "score": 145.0
+      }
+    ]
+  },
   "deductions": []
 }

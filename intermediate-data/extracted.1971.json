@@ -337,6 +337,19 @@
       ]
     }
   ],
-  "team_scores": {},
+  "team_scores": {
+    "senior": [
+      {
+        "team": "NEW LENOX",
+        "acronym": null,
+        "score": 53.0
+      },
+      {
+        "team": "GEMINI JR. HIGH",
+        "acronym": null,
+        "score": 30.0
+      }
+    ]
+  },
   "deductions": []
 }

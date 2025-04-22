@@ -421,6 +421,19 @@
       ]
     }
   ],
-  "team_scores": {},
+  "team_scores": {
+    "senior": [
+      {
+        "team": "HARVEY TWISTERS",
+        "acronym": null,
+        "score": 345.0
+      },
+      {
+        "team": "VITTUM CATS",
+        "acronym": null,
+        "score": 207.0
+      }
+    ]
+  },
   "deductions": []
 }

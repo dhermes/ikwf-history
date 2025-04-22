@@ -337,6 +337,24 @@
       ]
     }
   ],
-  "team_scores": {},
+  "team_scores": {
+    "senior": [
+      {
+        "team": "OAK FOREST",
+        "acronym": null,
+        "score": 42.0
+      },
+      {
+        "team": "JOLIET BOYS CLUB",
+        "acronym": null,
+        "score": 37.0
+      },
+      {
+        "team": "WEST CHICAGO",
+        "acronym": null,
+        "score": 37.0
+      }
+    ]
+  },
   "deductions": []
 }

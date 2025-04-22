@@ -337,6 +337,24 @@
       ]
     }
   ],
-  "team_scores": {},
+  "team_scores": {
+    "senior": [
+      {
+        "team": "ARBOR PARK",
+        "acronym": null,
+        "score": 24.0
+      },
+      {
+        "team": "NEW LENOX",
+        "acronym": null,
+        "score": 24.0
+      },
+      {
+        "team": "DeKALB-HUNTLEY",
+        "acronym": null,
+        "score": 21.0
+      }
+    ]
+  },
   "deductions": []
 }

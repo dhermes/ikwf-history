@@ -400,6 +400,19 @@
       ]
     }
   ],
-  "team_scores": {},
+  "team_scores": {
+    "senior": [
+      {
+        "team": "VITTUM CATS",
+        "acronym": null,
+        "score": 287.0
+      },
+      {
+        "team": "BURBANK PANTHERS",
+        "acronym": null,
+        "score": 174.0
+      }
+    ]
+  },
   "deductions": []
 }

@@ -337,6 +337,19 @@
       ]
     }
   ],
-  "team_scores": {},
+  "team_scores": {
+    "senior": [
+      {
+        "team": "JOLIET BOYS CLUB",
+        "acronym": null,
+        "score": 52.0
+      },
+      {
+        "team": "WEST CHICAGO",
+        "acronym": null,
+        "score": 49.0
+      }
+    ]
+  },
   "deductions": []
 }

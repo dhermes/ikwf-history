@@ -400,6 +400,19 @@
       ]
     }
   ],
-  "team_scores": {},
+  "team_scores": {
+    "senior": [
+      {
+        "team": "CHICAGO RIDGE",
+        "acronym": null,
+        "score": 192.0
+      },
+      {
+        "team": "PLAINFIELD",
+        "acronym": null,
+        "score": 139.0
+      }
+    ]
+  },
   "deductions": []
 }

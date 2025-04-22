@@ -337,6 +337,19 @@
       ]
     }
   ],
-  "team_scores": {},
+  "team_scores": {
+    "senior": [
+      {
+        "team": "WEST CHICAGO",
+        "acronym": null,
+        "score": 42.0
+      },
+      {
+        "team": "TINLEY PARK",
+        "acronym": null,
+        "score": 40.0
+      }
+    ]
+  },
   "deductions": []
 }

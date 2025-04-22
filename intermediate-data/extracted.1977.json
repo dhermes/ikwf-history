@@ -379,6 +379,19 @@
       ]
     }
   ],
-  "team_scores": {},
+  "team_scores": {
+    "senior": [
+      {
+        "team": "PLAINFIELD",
+        "acronym": null,
+        "score": 164.0
+      },
+      {
+        "team": "SAVANNA",
+        "acronym": null,
+        "score": 119.0
+      }
+    ]
+  },
   "deductions": []
 }
