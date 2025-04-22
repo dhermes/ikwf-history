@@ -26,6 +26,7 @@ const WRESTLER_CHOICES = [
   { id: 22, name: "Wrestler 23", team: "Team 23" },
   { id: 23, name: "Wrestler 24", team: "Team 24" },
 ];
+const STORAGE_KEY = "manualEntrySerialized";
 const PREVIOUS_MATCH_MAP = Object.freeze({
   17: { bottom: "2" },
   18: { bottom: "4" },
@@ -194,16 +195,59 @@ function getSerializableInputs(wrestlerChoices) {
   };
 }
 
+function storeInputs(wrestlerChoices) {
+  const serializableInputs = getSerializableInputs(wrestlerChoices);
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(serializableInputs));
+}
+
+function setDropdownValue(matchID, position, winners) {
+  const valueToSet = winners[matchID][position];
+  const selector = `select.participant-select[data-match-id="${matchID}"][data-position="${position}"]`;
+  const selectEl = document.querySelector(selector);
+  selectEl.value = valueToSet || "";
+}
+
+function readInputs(wrestlerChoices) {
+  const serialized = localStorage.getItem(STORAGE_KEY);
+  const parsedInputs = JSON.parse(serialized);
+
+  // SET: division
+  document.getElementById("division-input").value = parsedInputs.division;
+
+  // SET: weight
+  document.getElementById("year-input").value = parsedInputs.year;
+
+  // SET: year
+  document.getElementById("weight-input").value = parsedInputs.weight;
+
+  // SET: wrestlerChoices
+  for (let i = 0; i <= 23; i++) {
+    wrestlerChoices[i] = parsedInputs.wrestlerChoices[i];
+  }
+
+  // SET: winners
+  const winners = parsedInputs.winners;
+  setDropdownValue(17, "bottom", winners);
+  setDropdownValue(18, "bottom", winners);
+  setDropdownValue(19, "bottom", winners);
+  setDropdownValue(20, "bottom", winners);
+  setDropdownValue(21, "bottom", winners);
+  setDropdownValue(22, "bottom", winners);
+  setDropdownValue(23, "bottom", winners);
+  setDropdownValue(24, "bottom", winners);
+}
+
 document
   .querySelectorAll(".cell-name input, .cell-team input")
   .forEach((input) => {
     input.addEventListener("input", () => handleInputChange(WRESTLER_CHOICES));
   });
 
-document.querySelectorAll("select").forEach((select) => {
+document.querySelectorAll("select.participant-select").forEach((select) => {
   select.addEventListener("change", (event) =>
     handleSelectChange(WRESTLER_CHOICES, event)
   );
 });
 
 handleInputChange(WRESTLER_CHOICES);
+readInputs(WRESTLER_CHOICES);
