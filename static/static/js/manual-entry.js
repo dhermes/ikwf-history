@@ -171,20 +171,27 @@ function getDropdownValue(matchID, position) {
   return selectEl?.value || null;
 }
 
+function addDropdownValue(matchID, position, winners) {
+  if (!(matchID in winners)) {
+    winners[matchID] = {};
+  }
+  winners[matchID][position] = getDropdownValue(matchID, position);
+}
+
 function getSerializableInputs(wrestlerChoices) {
   const division = document.getElementById("division-input")?.value || null;
   const weight = document.getElementById("weight-input")?.value || null;
   const year = document.getElementById("year-input")?.value || null;
-  const winners = {
-    17: { bottom: getDropdownValue(17, "bottom") },
-    18: { bottom: getDropdownValue(18, "bottom") },
-    19: { bottom: getDropdownValue(19, "bottom") },
-    20: { bottom: getDropdownValue(20, "bottom") },
-    21: { bottom: getDropdownValue(21, "bottom") },
-    22: { bottom: getDropdownValue(22, "bottom") },
-    23: { bottom: getDropdownValue(23, "bottom") },
-    24: { bottom: getDropdownValue(24, "bottom") },
-  };
+
+  const winners = {};
+  addDropdownValue(17, "bottom", winners);
+  addDropdownValue(18, "bottom", winners);
+  addDropdownValue(19, "bottom", winners);
+  addDropdownValue(20, "bottom", winners);
+  addDropdownValue(21, "bottom", winners);
+  addDropdownValue(22, "bottom", winners);
+  addDropdownValue(23, "bottom", winners);
+  addDropdownValue(24, "bottom", winners);
 
   return {
     division,
@@ -209,6 +216,11 @@ function setDropdownValue(matchID, position, winners) {
 
 function readInputs(wrestlerChoices) {
   const serialized = localStorage.getItem(STORAGE_KEY);
+  if (serialized === null) {
+    handleInputChange(wrestlerChoices);
+    return;
+  }
+
   const parsedInputs = JSON.parse(serialized);
 
   // SET: division
@@ -223,6 +235,11 @@ function readInputs(wrestlerChoices) {
   // SET: wrestlerChoices
   for (let i = 0; i <= 23; i++) {
     wrestlerChoices[i] = parsedInputs.wrestlerChoices[i];
+    const tr = document.querySelector(
+      `tr.input-row[data-participant-id="${i}"]`
+    );
+    tr.querySelector(".input-name").value = wrestlerChoices[i].name;
+    tr.querySelector(".input-team").value = wrestlerChoices[i].team;
   }
 
   // SET: winners
@@ -238,16 +255,19 @@ function readInputs(wrestlerChoices) {
 }
 
 document
-  .querySelectorAll(".cell-name input, .cell-team input")
+  .querySelectorAll(".input-name, .input-team, .header-input")
   .forEach((input) => {
-    input.addEventListener("input", () => handleInputChange(WRESTLER_CHOICES));
+    input.addEventListener("input", () => {
+      handleInputChange(WRESTLER_CHOICES);
+      storeInputs(WRESTLER_CHOICES);
+    });
   });
 
 document.querySelectorAll("select.participant-select").forEach((select) => {
-  select.addEventListener("change", (event) =>
-    handleSelectChange(WRESTLER_CHOICES, event)
-  );
+  select.addEventListener("change", (event) => {
+    handleSelectChange(WRESTLER_CHOICES, event);
+    storeInputs(WRESTLER_CHOICES);
+  });
 });
 
-handleInputChange(WRESTLER_CHOICES);
 readInputs(WRESTLER_CHOICES);
