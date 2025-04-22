@@ -7,12 +7,12 @@
   <body>
     <div class="brackets-viewer" id="bracket">
       <h1 class="bracket-header">
-        <span class="editable division" data-value="">{Division}</span
-        ><span class="editable weight" data-value="">{Weight}</span>(<span
-          class="editable year"
-          data-value=""
-          >{Year}</span
-        >)
+        <select id="division-input" class="header-input">
+          <option value="senior">Senior</option>
+          <option value="novice">Novice</option>
+        </select>
+        <input id="weight-input" class="header-input" value="99" />
+        (<input id="year-input" class="header-input" value="1988" />)
       </h1>
       <table class="participant-table">
         <thead>

@@ -47,21 +47,35 @@
   font-size: 13px;
 }
 
-.editable {
-  cursor: pointer;
-  padding: 2px 4px;
-  border-radius: 4px;
-}
-
-.editable:hover {
-  background-color: #eef;
-}
-
-input.inline-edit,
-select.inline-edit {
-  font-size: 1em;
-  padding: 0;
+.header-input {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  border: none;
+  background: transparent;
+  width: auto;
+  min-width: 2ch;
+  padding: 0 4px;
   margin: 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  appearance: none;
+}
+
+#weight-input {
+  width: 3.5ch; /* For up to 3 digits like 125 */
+}
+
+#year-input {
+  width: 4.5ch; /* For 4-digit years with a little breathing room */
+}
+
+.header-input:focus {
+  outline: none;
+  background: #eef;
+  border-bottom: 1px solid #ccc;
+}
+
+select.header-input {
+  padding-right: 16px;
 }
