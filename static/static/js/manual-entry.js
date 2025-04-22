@@ -108,13 +108,7 @@ function handleInputChange(wrestlerChoices) {
   updateReadOnlyFields(wrestlerChoices);
 }
 
-function handleSelectChange(wrestlerChoices, event) {
-  const select = event.target;
-  const winnerID = select.value;
-
-  const matchID = select.dataset.matchId;
-  const position = select.dataset.position;
-
+function setMatchWinner(winnerID, matchID, position) {
   const previousMatchID = PREVIOUS_MATCH_MAP[matchID]?.[position];
   if (previousMatchID === undefined) {
     throw new Error(
@@ -165,6 +159,15 @@ function handleSelectChange(wrestlerChoices, event) {
   }
 }
 
+function handleSelectChange(wrestlerChoices, event) {
+  const select = event.target;
+  const winnerID = select.value;
+
+  const matchID = select.dataset.matchId;
+  const position = select.dataset.position;
+  return setMatchWinner(winnerID, matchID, position);
+}
+
 function getDropdownValue(matchID, position) {
   const selector = `select.participant-select[data-match-id="${matchID}"][data-position="${position}"]`;
   const selectEl = document.querySelector(selector);
@@ -208,19 +211,16 @@ function storeInputs(wrestlerChoices) {
 }
 
 function setDropdownValue(matchID, position, winners) {
-  const valueToSet = winners[matchID][position];
+  const winnerID = winners[matchID][position] || "";
   const selector = `select.participant-select[data-match-id="${matchID}"][data-position="${position}"]`;
   const selectEl = document.querySelector(selector);
-  selectEl.value = valueToSet || "";
+  selectEl.value = winnerID;
+
+  setMatchWinner(winnerID, matchID, position);
 }
 
 function readInputs(wrestlerChoices) {
   const serialized = localStorage.getItem(STORAGE_KEY);
-  if (serialized === null) {
-    handleInputChange(wrestlerChoices);
-    return;
-  }
-
   const parsedInputs = JSON.parse(serialized);
 
   // SET: division
@@ -271,3 +271,4 @@ document.querySelectorAll("select.participant-select").forEach((select) => {
 });
 
 readInputs(WRESTLER_CHOICES);
+handleInputChange(WRESTLER_CHOICES);
