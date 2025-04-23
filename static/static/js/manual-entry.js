@@ -491,11 +491,16 @@ function loadFromStorage(bracketInfo) {
 
 function renderWrestlerInput(bracketInfo, participantID) {
   const wrestler = bracketInfo.wrestlerChoices[participantID];
-  const tr = document.querySelector(
-    `tr.input-row[data-participant-id="${participantID}"]`
+
+  const nameInput = document.querySelector(
+    `input.input-name[data-participant-id="${participantID}"]`
   );
-  tr.querySelector(".input-name").value = wrestler.name;
-  tr.querySelector(".input-team").value = wrestler.team;
+  nameInput.value = wrestler.name;
+
+  const teamInput = document.querySelector(
+    `input.input-team[data-participant-id="${participantID}"]`
+  );
+  teamInput.value = wrestler.team;
 }
 
 function populateNameDiv(position, participantDiv, wrestler, winner) {
@@ -764,6 +769,22 @@ function handleHeaderInputChange(bracketInfo, event) {
   }
 }
 
+function handleParticipantInputChange(bracketInfo, event) {
+  const element = event.target;
+  const participantID = Number(element.dataset.participantId);
+  validateParticipantID(participantID);
+
+  const wrestler = bracketInfo.wrestlerChoices[participantID];
+
+  if (element.className === "input-name") {
+    wrestler.name = element.value;
+  } else if (element.className === "input-team") {
+    wrestler.team = element.value;
+  } else {
+    throw new Error("Invalid input element");
+  }
+}
+
 document.querySelectorAll("select.participant-select").forEach((select) => {
   select.addEventListener("change", (event) => {
     handleSelectChange(BRACKET_INFO, event);
@@ -779,6 +800,16 @@ document.querySelectorAll(".header-input").forEach((input) => {
     renderBracket(BRACKET_INFO);
   });
 });
+
+document
+  .querySelectorAll("input.input-name, input.input-team")
+  .forEach((input) => {
+    input.addEventListener("input", (event) => {
+      handleParticipantInputChange(BRACKET_INFO, event);
+      writeToStorage(BRACKET_INFO);
+      renderBracket(BRACKET_INFO);
+    });
+  });
 
 loadFromStorage(BRACKET_INFO);
 renderBracket(BRACKET_INFO);
