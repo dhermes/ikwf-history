@@ -407,10 +407,53 @@ const WIN_MATCH_MAP = Object.freeze({
   34: { match: 45, position: "bottom" },
   35: { match: 46, position: "top" },
   36: { match: 46, position: "bottom" },
+  37: { match: 41, position: "bottom" },
+  38: { match: 42, position: "top" },
+  39: { match: 43, position: "bottom" },
+  40: { match: 44, position: "top" },
+  41: { match: 47, position: "top" },
+  42: { match: 47, position: "bottom" },
+  43: { match: 48, position: "top" },
+  44: { match: 48, position: "bottom" },
   45: { match: 54, position: "top" },
   46: { match: 54, position: "bottom" },
+  47: { match: 49, position: "bottom" },
+  48: { match: 50, position: "top" },
+  49: { match: 53, position: "top" },
+  50: { match: 53, position: "bottom" },
+  52: { match: 1005, position: "top" },
+  53: { match: 1003, position: "top" },
   54: { match: 1001, position: "top" },
+  //
   1001: null,
+  1003: null,
+  1005: null,
+});
+const LOST_MATCH_MAP = Object.freeze({
+  // NOTE: Matches 1-16 (Preliminaries) and 17-24 (R16) are not present
+  //       in `LOST_MATCH_MAP` because they have special handling based on
+  //       the follow-the-leader (to semifinals) format.
+  33: { match: 41, position: "top" },
+  34: { match: 42, position: "bottom" },
+  35: { match: 43, position: "top" },
+  36: { match: 44, position: "bottom" },
+  37: null,
+  38: null,
+  39: null,
+  40: null,
+  41: null,
+  42: null,
+  43: null,
+  44: null,
+  45: { match: 49, position: "top" },
+  46: { match: 50, position: "bottom" },
+  47: null,
+  48: null,
+  49: { match: 52, position: "top" },
+  50: { match: 52, position: "bottom" },
+  52: null,
+  53: null,
+  54: null,
 });
 
 function validateParticipantID(participantID) {
