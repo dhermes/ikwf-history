@@ -200,35 +200,203 @@ const BRACKET_INFO = {
       result: "",
     },
     // 25-32 (consolation) absent in earlier years
-    33: {},
-    34: {},
-    35: {},
-    36: {},
-    37: {},
-    38: {},
-    39: {},
-    40: {},
-    41: {},
-    42: {},
-    43: {},
-    44: {},
-    45: {},
-    46: {},
-    47: {},
-    48: {},
-    49: {},
-    50: {},
+    33: {
+      top: { choice: null, choices: [0] },
+      bottom: { choice: null, choices: [3] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    34: {
+      top: { choice: null, choices: [6] },
+      bottom: { choice: null, choices: [9] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    35: {
+      top: { choice: null, choices: [12] },
+      bottom: { choice: null, choices: [15] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    36: {
+      top: { choice: null, choices: [18] },
+      bottom: { choice: null, choices: [21] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    37: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    38: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    39: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    40: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    41: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    42: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    43: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    44: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    45: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    46: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    47: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    48: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    49: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    50: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
     // 51 (7th place) absent in earlier years
-    52: {},
-    53: {},
-    54: {},
+    52: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    53: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    54: {
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
   },
 };
 const STORAGE_KEY = "manualEntrySerialized.3cd4823b";
+const PREVIOUS_MATCH_MAP = Object.freeze({
+  17: { bottom: 2 },
+  18: { bottom: 4 },
+  19: { bottom: 6 },
+  20: { bottom: 8 },
+  21: { bottom: 10 },
+  22: { bottom: 12 },
+  23: { bottom: 14 },
+  24: { bottom: 16 },
+  33: { top: 17, bottom: 18 },
+  34: { top: 19, bottom: 20 },
+  35: { top: 21, bottom: 22 },
+  36: { top: 23, bottom: 24 },
+  45: { top: 33, bottom: 34 },
+  46: { top: 35, bottom: 36 },
+  54: { top: 45, bottom: 46 },
+});
+const WIN_MATCH_MAP = Object.freeze({
+  17: { match: 33, position: "top" },
+  18: { match: 33, position: "bottom" },
+  19: { match: 34, position: "top" },
+  20: { match: 34, position: "bottom" },
+  21: { match: 35, position: "top" },
+  22: { match: 35, position: "bottom" },
+  23: { match: 36, position: "top" },
+  24: { match: 36, position: "bottom" },
+  33: { match: 45, position: "top" },
+  34: { match: 45, position: "bottom" },
+  35: { match: 46, position: "top" },
+  36: { match: 46, position: "bottom" },
+  45: { match: 54, position: "top" },
+  46: { match: 54, position: "bottom" },
+  54: null,
+});
 
-function validateParticipantID(index) {
-  if (!Number.isInteger(index) || index < 0 || index > 23) {
-    throw new Error(`Invalid index: ${index}`);
+function validateParticipantID(participantID) {
+  if (participantID === null) {
+    return;
+  }
+
+  if (
+    !Number.isInteger(participantID) ||
+    participantID < 0 ||
+    participantID > 23
+  ) {
+    throw new Error(`Invalid participant ID: ${participantID}`);
   }
 }
 
@@ -319,13 +487,27 @@ function renderMatchReadOnly(bracketInfo, matchID, positions) {
 
 function populateParticipantSelect(
   bracketInfo,
+  position,
   participantDiv,
   choice,
-  choices
+  choices,
+  winner
 ) {
   const participantSelect = participantDiv.querySelector(
     "select.participant-select"
   );
+  const resultDiv = participantDiv.querySelector("div.result");
+
+  if (winner === null) {
+    participantDiv.className = "participant";
+    resultDiv.textContent = "";
+  } else if (winner === position) {
+    participantDiv.className = "participant win";
+    resultDiv.textContent = "W";
+  } else {
+    participantDiv.className = "participant loss";
+    resultDiv.textContent = "L";
+  }
 
   participantSelect.innerHTML = ""; // Clear all existing options
 
@@ -350,6 +532,10 @@ function populateParticipantSelect(
     }
     participantSelect.value = choice;
   }
+
+  // Disabled if (A) we do not have at least 2 choices or (B) the **NEXT** match
+  // is finalized
+  participantSelect.disabled = choices.length < 2 || winner !== null;
 }
 
 function renderMatchSelect(bracketInfo, matchID, positions) {
@@ -370,17 +556,21 @@ function renderMatchSelect(bracketInfo, matchID, positions) {
   if (positions.includes("top")) {
     populateParticipantSelect(
       bracketInfo,
+      "top",
       participants[0],
       topChoice,
-      topChoices
+      topChoices,
+      match.winner
     );
   }
   if (positions.includes("bottom")) {
     populateParticipantSelect(
       bracketInfo,
+      "bottom",
       participants[1],
       bottomChoice,
-      bottomChoices
+      bottomChoices,
+      match.winner
     );
   }
 }
@@ -414,35 +604,72 @@ function renderBracket(bracketInfo) {
 
   // <select> match entries
   for (let matchID = 17; matchID <= 24; matchID++) {
+    // Round of 16
     renderMatchSelect(bracketInfo, matchID, ["bottom"]);
   }
+  for (let matchID = 33; matchID <= 36; matchID++) {
+    // Quarterfinal
+    renderMatchSelect(bracketInfo, matchID, ["top", "bottom"]);
+  }
+  renderMatchSelect(bracketInfo, 45, ["top", "bottom"]); // Semifinal
+  renderMatchSelect(bracketInfo, 46, ["top", "bottom"]); // Semifinal
+  renderMatchSelect(bracketInfo, 54, ["top", "bottom"]); // First place
+}
+
+function setWinner(match, participantID) {
+  if (participantID === null) {
+    match.winner = null;
+  } else if (match.top.choice === participantID) {
+    match.winner = "top";
+  } else if (match.bottom.choice === participantID) {
+    match.winner = "bottom";
+  } else {
+    throw new Error("Chosen winner must be top or bottom");
+  }
+}
+
+function replaceChoices(choices, previousSubset, newChoice) {
+  const withoutPrevious = choices.filter(
+    (value) => !previousSubset.includes(value)
+  );
+
+  if (newChoice !== null) {
+    withoutPrevious.push(newChoice);
+  }
+
+  return withoutPrevious;
 }
 
 function handleSelectChange(bracketInfo, event) {
   const select = event.target;
   const participantID = select.value === "" ? null : Number(select.value);
+  validateParticipantID(participantID);
 
-  const previousMatchID = select.dataset.previousMatchId;
-  const previousMatch = bracketInfo.matches[previousMatchID];
+  // Current match position (choice)
   const matchID = select.dataset.matchId;
-  const match = bracketInfo.matches[matchID];
   const position = select.dataset.position;
+  const match = bracketInfo.matches[matchID];
   const matchPosition = match[position];
+  matchPosition.choice = participantID;
 
-  if (participantID === null) {
-    matchPosition.choice = null;
-    previousMatch.winner = null;
-  } else {
-    validateParticipantID(participantID);
-    matchPosition.choice = participantID;
-    if (previousMatch.top.choice === participantID) {
-      previousMatch.winner = "top";
-    } else if (previousMatch.bottom.choice === participantID) {
-      previousMatch.winner = "bottom";
-    } else {
-      throw new Error("Chosen winner must be top or bottom");
-    }
+  // Previous match (winner)
+  const previousMatchID = PREVIOUS_MATCH_MAP[matchID][position];
+  const previousMatch = bracketInfo.matches[previousMatchID];
+  setWinner(previousMatch, participantID);
+
+  // Next match (choices / disabled / enabled)
+  const nextMatchInfo = WIN_MATCH_MAP[matchID];
+  if (nextMatchInfo === null) {
+    return;
   }
+
+  const nextMatch = bracketInfo.matches[nextMatchInfo.match];
+  const nextMatchPosition = nextMatch[nextMatchInfo.position];
+  nextMatchPosition.choices = replaceChoices(
+    nextMatchPosition.choices,
+    matchPosition.choices,
+    participantID
+  );
 }
 
 function handleHeaderInputChange(bracketInfo, event) {
