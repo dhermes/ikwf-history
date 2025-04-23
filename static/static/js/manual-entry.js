@@ -348,6 +348,31 @@ const BRACKET_INFO = {
       boutNumber: null,
       result: "",
     },
+    // Below are "synthetic" match IDs used to select place match winners
+    1001: {
+      // First place
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    1003: {
+      // Third place
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    1005: {
+      // Fifth place
+      top: { choice: null, choices: [] },
+      bottom: { choice: null, choices: [] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
   },
 };
 const STORAGE_KEY = "manualEntrySerialized.3cd4823b";
@@ -367,6 +392,7 @@ const PREVIOUS_MATCH_MAP = Object.freeze({
   45: { top: 33, bottom: 34 },
   46: { top: 35, bottom: 36 },
   54: { top: 45, bottom: 46 },
+  1001: { top: 54 },
 });
 const WIN_MATCH_MAP = Object.freeze({
   17: { match: 33, position: "top" },
@@ -383,7 +409,8 @@ const WIN_MATCH_MAP = Object.freeze({
   36: { match: 46, position: "bottom" },
   45: { match: 54, position: "top" },
   46: { match: 54, position: "bottom" },
-  54: null,
+  54: { match: 1001, position: "top" },
+  1001: null,
 });
 
 function validateParticipantID(participantID) {
@@ -614,6 +641,7 @@ function renderBracket(bracketInfo) {
   renderMatchSelect(bracketInfo, 45, ["top", "bottom"]); // Semifinal
   renderMatchSelect(bracketInfo, 46, ["top", "bottom"]); // Semifinal
   renderMatchSelect(bracketInfo, 54, ["top", "bottom"]); // First place
+  renderMatchSelect(bracketInfo, 1001, ["top"]); // Synthetic first place winner
 }
 
 function setWinner(match, participantID) {
