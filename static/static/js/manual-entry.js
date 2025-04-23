@@ -225,16 +225,16 @@ const BRACKET_INFO = {
   },
 };
 const STORAGE_KEY = "manualEntrySerialized.3cd4823b";
-const PREVIOUS_MATCH_MAP = Object.freeze({
-  17: { bottom: "2" },
-  18: { bottom: "4" },
-  19: { bottom: "6" },
-  20: { bottom: "8" },
-  21: { bottom: "10" },
-  22: { bottom: "12" },
-  23: { bottom: "14" },
-  24: { bottom: "16" },
-});
+
+function validateParticipantID(index) {
+  if (!Number.isInteger(index) || index < 0 || index > 23) {
+    throw new Error(`Invalid index: ${index}`);
+  }
+}
+
+function writeToStorage(bracketInfo) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(bracketInfo));
+}
 
 function loadFromStorage(bracketInfo) {
   const serialized = localStorage.getItem(STORAGE_KEY);
@@ -318,7 +318,6 @@ function renderMatchReadOnly(bracketInfo, matchID, positions) {
 }
 
 function populateParticipantSelect(
-  position,
   bracketInfo,
   participantDiv,
   choice,
@@ -370,7 +369,6 @@ function renderMatchSelect(bracketInfo, matchID, positions) {
 
   if (positions.includes("top")) {
     populateParticipantSelect(
-      "top",
       bracketInfo,
       participants[0],
       topChoice,
@@ -379,7 +377,6 @@ function renderMatchSelect(bracketInfo, matchID, positions) {
   }
   if (positions.includes("bottom")) {
     populateParticipantSelect(
-      "bottom",
       bracketInfo,
       participants[1],
       bottomChoice,
@@ -420,6 +417,70 @@ function renderBracket(bracketInfo) {
     renderMatchSelect(bracketInfo, matchID, ["bottom"]);
   }
 }
+
+function handleSelectChange(bracketInfo, event) {
+  const select = event.target;
+  const participantID = select.value === "" ? null : Number(select.value);
+
+  const previousMatchID = select.dataset.previousMatchId;
+  const previousMatch = bracketInfo.matches[previousMatchID];
+  const matchID = select.dataset.matchId;
+  const match = bracketInfo.matches[matchID];
+  const position = select.dataset.position;
+  const matchPosition = match[position];
+
+  if (participantID === null) {
+    matchPosition.choice = null;
+    previousMatch.winner = null;
+  } else {
+    validateParticipantID(participantID);
+    matchPosition.choice = participantID;
+    if (previousMatch.top.choice === participantID) {
+      previousMatch.winner = "top";
+    } else if (previousMatch.bottom.choice === participantID) {
+      previousMatch.winner = "bottom";
+    } else {
+      throw new Error("Chosen winner must be top or bottom");
+    }
+  }
+}
+
+function handleHeaderInputChange(bracketInfo, event) {
+  const element = event.target;
+  if (element.id === "division-input") {
+    bracketInfo.division = element.value;
+    return;
+  }
+
+  const integerInput = Number(element.value);
+  if (!Number.isInteger(integerInput) || integerInput <= 0) {
+    throw new Error(`Invalid integer input: ${element.value}`);
+  }
+
+  if (element.id === "weight-input") {
+    bracketInfo.weight = integerInput;
+  } else if (element.id === "year-input") {
+    bracketInfo.year = integerInput;
+  } else {
+    throw new Error("Invalid input element");
+  }
+}
+
+document.querySelectorAll("select.participant-select").forEach((select) => {
+  select.addEventListener("change", (event) => {
+    handleSelectChange(BRACKET_INFO, event);
+    writeToStorage(BRACKET_INFO);
+    renderBracket(BRACKET_INFO);
+  });
+});
+
+document.querySelectorAll(".header-input").forEach((input) => {
+  input.addEventListener("input", (event) => {
+    handleHeaderInputChange(BRACKET_INFO, event);
+    writeToStorage(BRACKET_INFO);
+    renderBracket(BRACKET_INFO);
+  });
+});
 
 loadFromStorage(BRACKET_INFO);
 renderBracket(BRACKET_INFO);
