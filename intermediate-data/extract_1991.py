@@ -3,6 +3,7 @@
 import pathlib
 
 import bracket_utils
+import manual_entry
 
 HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
@@ -59,7 +60,16 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
 }
 
 
+def _handle_manual_entries():
+    root = HERE.parent / "raw-data" / "1991"
+    for path in root.glob("manual-entry-*.json"):
+        with open(path) as file_obj:
+            manual_entry.ManualBracket.model_validate_json(file_obj.read())
+
+
 def main():
+    _handle_manual_entries()
+
     team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
     team_scores["senior"] = []
     for team_name, score in _SENIOR_TEAM_SCORES.items():

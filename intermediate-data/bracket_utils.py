@@ -1758,6 +1758,7 @@ def print_matches_sql(match_rows: list[MatchRow]) -> None:
         )
 
 
+# TODO: Remove `tournament_team_sql()` and other unused code
 def tournament_team_sql(
     start_id: int,
     tournament_id: int,
