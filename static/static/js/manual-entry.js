@@ -1,32 +1,230 @@
 // Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
-const WRESTLER_CHOICES = [
-  { id: 0, name: "Wrestler 1", team: "Team 1" },
-  { id: 1, name: "Wrestler 2", team: "Team 2" },
-  { id: 2, name: "Wrestler 3", team: "Team 3" },
-  { id: 3, name: "Wrestler 4", team: "Team 4" },
-  { id: 4, name: "Wrestler 5", team: "Team 5" },
-  { id: 5, name: "Wrestler 6", team: "Team 6" },
-  { id: 6, name: "Wrestler 7", team: "Team 7" },
-  { id: 7, name: "Wrestler 8", team: "Team 8" },
-  { id: 8, name: "Wrestler 9", team: "Team 9" },
-  { id: 9, name: "Wrestler 10", team: "Team 10" },
-  { id: 10, name: "Wrestler 11", team: "Team 11" },
-  { id: 11, name: "Wrestler 12", team: "Team 12" },
-  { id: 12, name: "Wrestler 13", team: "Team 13" },
-  { id: 13, name: "Wrestler 14", team: "Team 14" },
-  { id: 14, name: "Wrestler 15", team: "Team 15" },
-  { id: 15, name: "Wrestler 16", team: "Team 16" },
-  { id: 16, name: "Wrestler 17", team: "Team 17" },
-  { id: 17, name: "Wrestler 18", team: "Team 18" },
-  { id: 18, name: "Wrestler 19", team: "Team 19" },
-  { id: 19, name: "Wrestler 20", team: "Team 20" },
-  { id: 20, name: "Wrestler 21", team: "Team 21" },
-  { id: 21, name: "Wrestler 22", team: "Team 22" },
-  { id: 22, name: "Wrestler 23", team: "Team 23" },
-  { id: 23, name: "Wrestler 24", team: "Team 24" },
-];
-const STORAGE_KEY = "manualEntrySerialized";
+const BRACKET_INFO = {
+  division: "senior",
+  weight: null,
+  year: null,
+  wrestlerChoices: [
+    { id: 0, name: "Wrestler 1", team: "Team 1" },
+    { id: 1, name: "Wrestler 2", team: "Team 2" },
+    { id: 2, name: "Wrestler 3", team: "Team 3" },
+    { id: 3, name: "Wrestler 4", team: "Team 4" },
+    { id: 4, name: "Wrestler 5", team: "Team 5" },
+    { id: 5, name: "Wrestler 6", team: "Team 6" },
+    { id: 6, name: "Wrestler 7", team: "Team 7" },
+    { id: 7, name: "Wrestler 8", team: "Team 8" },
+    { id: 8, name: "Wrestler 9", team: "Team 9" },
+    { id: 9, name: "Wrestler 10", team: "Team 10" },
+    { id: 10, name: "Wrestler 11", team: "Team 11" },
+    { id: 11, name: "Wrestler 12", team: "Team 12" },
+    { id: 12, name: "Wrestler 13", team: "Team 13" },
+    { id: 13, name: "Wrestler 14", team: "Team 14" },
+    { id: 14, name: "Wrestler 15", team: "Team 15" },
+    { id: 15, name: "Wrestler 16", team: "Team 16" },
+    { id: 16, name: "Wrestler 17", team: "Team 17" },
+    { id: 17, name: "Wrestler 18", team: "Team 18" },
+    { id: 18, name: "Wrestler 19", team: "Team 19" },
+    { id: 19, name: "Wrestler 20", team: "Team 20" },
+    { id: 20, name: "Wrestler 21", team: "Team 21" },
+    { id: 21, name: "Wrestler 22", team: "Team 22" },
+    { id: 22, name: "Wrestler 23", team: "Team 23" },
+    { id: 23, name: "Wrestler 24", team: "Team 24" },
+  ],
+  matches: {
+    1: {
+      top: { choice: 0, choices: [0] },
+      bottom: { choice: null, choices: [] },
+      winner: "top",
+      boutNumber: null,
+      result: "",
+    },
+    2: {
+      top: { choice: 1, choices: [1] },
+      bottom: { choice: 2, choices: [2] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    3: {
+      top: { choice: 3, choices: [3] },
+      bottom: { choice: null, choices: [] },
+      winner: "top",
+      boutNumber: null,
+      result: "",
+    },
+    4: {
+      top: { choice: 4, choices: [4] },
+      bottom: { choice: 5, choices: [5] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    5: {
+      top: { choice: 6, choices: [6] },
+      bottom: { choice: null, choices: [] },
+      winner: "top",
+      boutNumber: null,
+      result: "",
+    },
+    6: {
+      top: { choice: 7, choices: [7] },
+      bottom: { choice: 8, choices: [8] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    7: {
+      top: { choice: 9, choices: [9] },
+      bottom: { choice: null, choices: [] },
+      winner: "top",
+      boutNumber: null,
+      result: "",
+    },
+    8: {
+      top: { choice: 10, choices: [10] },
+      bottom: { choice: 11, choices: [11] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    9: {
+      top: { choice: 12, choices: [12] },
+      bottom: { choice: null, choices: [] },
+      winner: "top",
+      boutNumber: null,
+      result: "",
+    },
+    10: {
+      top: { choice: 13, choices: [13] },
+      bottom: { choice: 14, choices: [14] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    11: {
+      top: { choice: 15, choices: [15] },
+      bottom: { choice: null, choices: [] },
+      winner: "top",
+      boutNumber: null,
+      result: "",
+    },
+    12: {
+      top: { choice: 16, choices: [16] },
+      bottom: { choice: 17, choices: [17] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    13: {
+      top: { choice: 18, choices: [18] },
+      bottom: { choice: null, choices: [] },
+      winner: "top",
+      boutNumber: null,
+      result: "",
+    },
+    14: {
+      top: { choice: 19, choices: [19] },
+      bottom: { choice: 20, choices: [20] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    15: {
+      top: { choice: 21, choices: [21] },
+      bottom: { choice: null, choices: [] },
+      winner: "top",
+      boutNumber: null,
+      result: "",
+    },
+    16: {
+      top: { choice: 22, choices: [22] },
+      bottom: { choice: 23, choices: [23] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    17: {
+      top: { choice: 0, choices: [0] },
+      bottom: { choice: null, choices: [1, 2] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    18: {
+      top: { choice: 3, choices: [3] },
+      bottom: { choice: null, choices: [4, 5] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    19: {
+      top: { choice: 6, choices: [6] },
+      bottom: { choice: null, choices: [7, 8] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    20: {
+      top: { choice: 9, choices: [9] },
+      bottom: { choice: null, choices: [10, 11] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    21: {
+      top: { choice: 12, choices: [12] },
+      bottom: { choice: null, choices: [13, 14] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    22: {
+      top: { choice: 15, choices: [15] },
+      bottom: { choice: null, choices: [16, 17] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    23: {
+      top: { choice: 18, choices: [18] },
+      bottom: { choice: null, choices: [19, 20] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    24: {
+      top: { choice: 21, choices: [21] },
+      bottom: { choice: null, choices: [22, 23] },
+      winner: null,
+      boutNumber: null,
+      result: "",
+    },
+    // 25-32 (consolation) absent in earlier years
+    33: {},
+    34: {},
+    35: {},
+    36: {},
+    37: {},
+    38: {},
+    39: {},
+    40: {},
+    41: {},
+    42: {},
+    43: {},
+    44: {},
+    45: {},
+    46: {},
+    47: {},
+    48: {},
+    49: {},
+    50: {},
+    // 51 (7th place) absent in earlier years
+    52: {},
+    53: {},
+    54: {},
+  },
+};
+const STORAGE_KEY = "manualEntrySerialized.3cd4823b";
 const PREVIOUS_MATCH_MAP = Object.freeze({
   17: { bottom: "2" },
   18: { bottom: "4" },
@@ -38,237 +236,190 @@ const PREVIOUS_MATCH_MAP = Object.freeze({
   24: { bottom: "16" },
 });
 
-function validateIndex(index) {
-  if (!Number.isInteger(index) || index < 0 || index > 23) {
-    throw new Error(`Invalid index: ${index}`);
-  }
-}
-
-function updateWrestlerChoices(wrestlerChoices) {
-  document.querySelectorAll("tr.input-row").forEach((row) => {
-    const participantID = Number(row.dataset.participantId);
-    validateIndex(participantID);
-
-    const name =
-      row.querySelector(".input-name")?.value || `Wrestler ${participantID}`;
-    const team =
-      row.querySelector(".input-team")?.value || `Team ${participantID}`;
-
-    wrestlerChoices[participantID] = { id: participantID, name, team };
-  });
-
-  return wrestlerChoices;
-}
-
-function updateDropdowns(wrestlerChoices) {
-  document.querySelectorAll(".participant-select").forEach((select) => {
-    for (const option of select.options) {
-      if (option.value === "") {
-        continue;
-      }
-
-      const index = Number(option.value);
-      validateIndex(index);
-      const wrestler = wrestlerChoices[index];
-      option.textContent = wrestler.name;
-    }
-  });
-}
-
-function updateReadOnlyFields(wrestlerChoices) {
-  const participants = document.querySelectorAll(
-    "div.participant[data-participant-id]"
-  );
-
-  participants.forEach((div) => {
-    const participantID = Number(div.dataset.participantId);
-    validateIndex(participantID);
-
-    const nameDiv = div.querySelector("div.name");
-    if (!nameDiv) {
-      return;
-    }
-
-    const wrestler = wrestlerChoices[participantID];
-    nameDiv.textContent = "";
-
-    const nameText = document.createTextNode(wrestler.name);
-
-    const teamSpan = document.createElement("span");
-    teamSpan.textContent = ` (${wrestler.team})`;
-
-    nameDiv.appendChild(nameText);
-    nameDiv.appendChild(teamSpan);
-  });
-}
-
-function handleInputChange(wrestlerChoices) {
-  updateWrestlerChoices(wrestlerChoices);
-  updateDropdowns(wrestlerChoices);
-  updateReadOnlyFields(wrestlerChoices);
-}
-
-function setMatchWinner(winnerID, matchID, position) {
-  const previousMatchID = PREVIOUS_MATCH_MAP[matchID]?.[position];
-  if (previousMatchID === undefined) {
-    throw new Error(
-      `Could not determine previous match: ${matchID}, ${position}`
-    );
-  }
-
-  const previousMatchDiv = document.querySelector(
-    `div.match[data-match-id="${previousMatchID}"]`
-  );
-
-  const previousParticipants = previousMatchDiv.querySelectorAll(
-    "div.participant[data-participant-id]"
-  );
-
-  if (previousParticipants.length !== 2) {
-    throw new Error("Not (yet) implemented");
-  }
-
-  const topParticipant = previousParticipants[0];
-  const bottomParticipant = previousParticipants[1];
-  if (winnerID === "") {
-    topParticipant.classList.remove("win");
-    topParticipant.classList.remove("loss");
-    topParticipant.querySelector("div.result").textContent = "";
-
-    bottomParticipant.classList.remove("loss");
-    bottomParticipant.classList.remove("win");
-    bottomParticipant.querySelector("div.result").textContent = "";
-  } else if (topParticipant.dataset.participantId === winnerID) {
-    topParticipant.classList.add("win");
-    topParticipant.classList.remove("loss");
-    topParticipant.querySelector("div.result").textContent = "W";
-
-    bottomParticipant.classList.add("loss");
-    bottomParticipant.classList.remove("win");
-    bottomParticipant.querySelector("div.result").textContent = "L";
-  } else if (bottomParticipant.dataset.participantId === winnerID) {
-    topParticipant.classList.add("loss");
-    topParticipant.classList.remove("win");
-    topParticipant.querySelector("div.result").textContent = "L";
-
-    bottomParticipant.classList.add("win");
-    bottomParticipant.classList.remove("loss");
-    bottomParticipant.querySelector("div.result").textContent = "W";
-  } else {
-    throw new Error("Neither top nor bottom won the match");
-  }
-}
-
-function handleSelectChange(wrestlerChoices, event) {
-  const select = event.target;
-  const winnerID = select.value;
-
-  const matchID = select.dataset.matchId;
-  const position = select.dataset.position;
-  return setMatchWinner(winnerID, matchID, position);
-}
-
-function getDropdownValue(matchID, position) {
-  const selector = `select.participant-select[data-match-id="${matchID}"][data-position="${position}"]`;
-  const selectEl = document.querySelector(selector);
-  return selectEl?.value || null;
-}
-
-function addDropdownValue(matchID, position, winners) {
-  if (!(matchID in winners)) {
-    winners[matchID] = {};
-  }
-  winners[matchID][position] = getDropdownValue(matchID, position);
-}
-
-function getSerializableInputs(wrestlerChoices) {
-  const division = document.getElementById("division-input")?.value || null;
-  const weight = document.getElementById("weight-input")?.value || null;
-  const year = document.getElementById("year-input")?.value || null;
-
-  const winners = {};
-  addDropdownValue(17, "bottom", winners);
-  addDropdownValue(18, "bottom", winners);
-  addDropdownValue(19, "bottom", winners);
-  addDropdownValue(20, "bottom", winners);
-  addDropdownValue(21, "bottom", winners);
-  addDropdownValue(22, "bottom", winners);
-  addDropdownValue(23, "bottom", winners);
-  addDropdownValue(24, "bottom", winners);
-
-  return {
-    division,
-    weight,
-    year,
-    wrestlerChoices,
-    winners,
-  };
-}
-
-function storeInputs(wrestlerChoices) {
-  const serializableInputs = getSerializableInputs(wrestlerChoices);
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(serializableInputs));
-}
-
-function setDropdownValue(matchID, position, winners) {
-  const winnerID = winners[matchID][position] || "";
-  const selector = `select.participant-select[data-match-id="${matchID}"][data-position="${position}"]`;
-  const selectEl = document.querySelector(selector);
-  selectEl.value = winnerID;
-
-  setMatchWinner(winnerID, matchID, position);
-}
-
-function readInputs(wrestlerChoices) {
+function loadFromStorage(bracketInfo) {
   const serialized = localStorage.getItem(STORAGE_KEY);
-  const parsedInputs = JSON.parse(serialized);
-
-  // SET: division
-  document.getElementById("division-input").value = parsedInputs.division;
-
-  // SET: weight
-  document.getElementById("year-input").value = parsedInputs.year;
-
-  // SET: year
-  document.getElementById("weight-input").value = parsedInputs.weight;
-
-  // SET: wrestlerChoices
-  for (let i = 0; i <= 23; i++) {
-    wrestlerChoices[i] = parsedInputs.wrestlerChoices[i];
-    const tr = document.querySelector(
-      `tr.input-row[data-participant-id="${i}"]`
-    );
-    tr.querySelector(".input-name").value = wrestlerChoices[i].name;
-    tr.querySelector(".input-team").value = wrestlerChoices[i].team;
+  if (serialized === null) {
+    // Leave the initial value as-is
+    return;
   }
 
-  // SET: winners
-  const winners = parsedInputs.winners;
-  setDropdownValue(17, "bottom", winners);
-  setDropdownValue(18, "bottom", winners);
-  setDropdownValue(19, "bottom", winners);
-  setDropdownValue(20, "bottom", winners);
-  setDropdownValue(21, "bottom", winners);
-  setDropdownValue(22, "bottom", winners);
-  setDropdownValue(23, "bottom", winners);
-  setDropdownValue(24, "bottom", winners);
+  const parsedInputs = JSON.parse(serialized);
+  bracketInfo.division = parsedInputs.division;
+  bracketInfo.weight = parsedInputs.weight;
+  bracketInfo.year = parsedInputs.year;
+  bracketInfo.wrestlerChoices = parsedInputs.wrestlerChoices;
+  bracketInfo.matches = parsedInputs.matches;
 }
 
-document
-  .querySelectorAll(".input-name, .input-team, .header-input")
-  .forEach((input) => {
-    input.addEventListener("input", () => {
-      handleInputChange(WRESTLER_CHOICES);
-      storeInputs(WRESTLER_CHOICES);
-    });
-  });
+function renderWrestlerInput(bracketInfo, participantID) {
+  const wrestler = bracketInfo.wrestlerChoices[participantID];
+  const tr = document.querySelector(
+    `tr.input-row[data-participant-id="${participantID}"]`
+  );
+  tr.querySelector(".input-name").value = wrestler.name;
+  tr.querySelector(".input-team").value = wrestler.team;
+}
 
-document.querySelectorAll("select.participant-select").forEach((select) => {
-  select.addEventListener("change", (event) => {
-    handleSelectChange(WRESTLER_CHOICES, event);
-    storeInputs(WRESTLER_CHOICES);
-  });
-});
+function populateNameDiv(position, participantDiv, wrestler, winner) {
+  const nameDiv = participantDiv.querySelector("div.name");
+  const resultDiv = participantDiv.querySelector("div.result");
 
-readInputs(WRESTLER_CHOICES);
-handleInputChange(WRESTLER_CHOICES);
+  if (winner === null) {
+    participantDiv.className = "participant";
+    resultDiv.textContent = "";
+  } else if (winner === position) {
+    participantDiv.className = "participant win";
+    resultDiv.textContent = "W";
+  } else {
+    participantDiv.className = "participant loss";
+    resultDiv.textContent = "L";
+  }
+
+  nameDiv.textContent = ""; // Clear first
+
+  if (wrestler === null) {
+    nameDiv.className = "name bye";
+    nameDiv.innerHTML = "&nbsp;";
+    return;
+  }
+
+  const nameText = document.createTextNode(wrestler.name);
+  const teamSpan = document.createElement("span");
+  teamSpan.textContent = ` (${wrestler.team})`;
+
+  nameDiv.appendChild(nameText);
+  nameDiv.appendChild(teamSpan);
+}
+
+function renderMatchReadOnly(bracketInfo, matchID, positions) {
+  const match = bracketInfo.matches[matchID];
+  const topChoice = match.top.choice;
+  const bottomChoice = match.bottom.choice;
+
+  const topWrestler =
+    topChoice === null ? null : bracketInfo.wrestlerChoices[topChoice];
+  const bottomWrestler =
+    bottomChoice === null ? null : bracketInfo.wrestlerChoices[bottomChoice];
+
+  const matchDiv = document.querySelector(
+    `div.match[data-match-id="${matchID}"]`
+  );
+  const participants = matchDiv.querySelectorAll("div.participant");
+  if (participants.length !== 2) {
+    throw new Error("Invalid DOM (participants)");
+  }
+
+  if (positions.includes("top")) {
+    populateNameDiv("top", participants[0], topWrestler, match.winner);
+  }
+  if (positions.includes("bottom")) {
+    populateNameDiv("bottom", participants[1], bottomWrestler, match.winner);
+  }
+}
+
+function populateParticipantSelect(
+  position,
+  bracketInfo,
+  participantDiv,
+  choice,
+  choices
+) {
+  const participantSelect = participantDiv.querySelector(
+    "select.participant-select"
+  );
+
+  participantSelect.innerHTML = ""; // Clear all existing options
+
+  const emptyOption = document.createElement("option");
+  emptyOption.value = "";
+  emptyOption.textContent = "Select wrestler";
+  participantSelect.appendChild(emptyOption);
+
+  for (const participantID of choices) {
+    const wrestler = bracketInfo.wrestlerChoices[participantID];
+    const option = document.createElement("option");
+    option.value = `${participantID}`;
+    option.textContent = wrestler.name;
+    participantSelect.appendChild(option);
+  }
+
+  if (choice === null) {
+    participantSelect.value = "";
+  } else {
+    if (!choices.includes(choice)) {
+      throw new Error("Choice is invalid");
+    }
+    participantSelect.value = choice;
+  }
+}
+
+function renderMatchSelect(bracketInfo, matchID, positions) {
+  const match = bracketInfo.matches[matchID];
+  const topChoice = match.top.choice;
+  const topChoices = match.top.choices;
+  const bottomChoice = match.bottom.choice;
+  const bottomChoices = match.bottom.choices;
+
+  const matchDiv = document.querySelector(
+    `div.match[data-match-id="${matchID}"]`
+  );
+  const participants = matchDiv.querySelectorAll("div.participant");
+  if (participants.length !== 2) {
+    throw new Error("Invalid DOM (participants)");
+  }
+
+  if (positions.includes("top")) {
+    populateParticipantSelect(
+      "top",
+      bracketInfo,
+      participants[0],
+      topChoice,
+      topChoices
+    );
+  }
+  if (positions.includes("bottom")) {
+    populateParticipantSelect(
+      "bottom",
+      bracketInfo,
+      participants[1],
+      bottomChoice,
+      bottomChoices
+    );
+  }
+}
+
+function renderBracket(bracketInfo) {
+  // Division input
+  document.getElementById("division-input").value = bracketInfo.division;
+
+  // Weight input
+  if (bracketInfo.year !== null) {
+    document.getElementById("year-input").value = bracketInfo.year;
+  }
+
+  // Year input
+  if (bracketInfo.weight !== null) {
+    document.getElementById("weight-input").value = bracketInfo.weight;
+  }
+
+  // Wrestler and Team inputs
+  for (let participantID = 0; participantID <= 23; participantID++) {
+    renderWrestlerInput(bracketInfo, participantID);
+  }
+
+  // Read-only match entries
+  for (let matchID = 1; matchID <= 16; matchID++) {
+    renderMatchReadOnly(bracketInfo, matchID, ["top", "bottom"]);
+  }
+  for (let matchID = 17; matchID <= 24; matchID++) {
+    renderMatchReadOnly(bracketInfo, matchID, ["top"]);
+  }
+
+  // <select> match entries
+  for (let matchID = 17; matchID <= 24; matchID++) {
+    renderMatchSelect(bracketInfo, matchID, ["bottom"]);
+  }
+}
+
+loadFromStorage(BRACKET_INFO);
+renderBracket(BRACKET_INFO);
