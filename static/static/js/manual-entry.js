@@ -491,6 +491,12 @@ const LOSE_MATCH_MAP = Object.freeze({
   53: null,
   54: null,
 });
+const DISABLE_BY_EXTRA = Object.freeze({
+  45: { top: [37, 41], bottom: [38, 42] },
+  46: { top: [39, 43], bottom: [40, 44] },
+  53: { top: [52], bottom: [52] },
+  54: { top: [49], bottom: [50] },
+});
 
 function numericalSort(a, b) {
   return a - b;
@@ -600,13 +606,24 @@ function renderMatchReadOnly(bracketInfo, matchID, positions) {
   }
 }
 
+function matchIsDecided(bracketInfo, matchID) {
+  const match = bracketInfo.matches[matchID];
+  // Exclude byes
+  if (match.top.choice === null || match.bottom.choice === null) {
+    return false;
+  }
+
+  return match.winner !== null;
+}
+
 function populateParticipantSelect(
   bracketInfo,
   position,
   participantDiv,
   choice,
   choices,
-  winner
+  winner,
+  matchID
 ) {
   const participantSelect = participantDiv.querySelector(
     "select.participant-select"
@@ -651,6 +668,21 @@ function populateParticipantSelect(
   // Disabled if (A) we do not have at least 2 choices or (B) the **NEXT** match
   // is finalized
   participantSelect.disabled = choices.length < 2 || winner !== null;
+
+  // NOTE: There are a few special cases where a "top side" select must be
+  //       disabled because a "bottom side" match that is already decided
+  //       depends on the already selected value.
+  const extraDisable = DISABLE_BY_EXTRA[matchID];
+  if (extraDisable === undefined) {
+    return;
+  }
+
+  for (const otherMatchID of extraDisable[position]) {
+    if (matchIsDecided(bracketInfo, otherMatchID)) {
+      participantSelect.disabled = true;
+      return;
+    }
+  }
 }
 
 function renderMatchSelect(bracketInfo, matchID, positions) {
@@ -675,7 +707,8 @@ function renderMatchSelect(bracketInfo, matchID, positions) {
       participants[0],
       topChoice,
       topChoices,
-      match.winner
+      match.winner,
+      matchID
     );
   }
   if (positions.includes("bottom")) {
@@ -685,7 +718,8 @@ function renderMatchSelect(bracketInfo, matchID, positions) {
       participants[1],
       bottomChoice,
       bottomChoices,
-      match.winner
+      match.winner,
+      matchID
     );
   }
 }
