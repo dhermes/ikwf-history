@@ -676,6 +676,17 @@ function renderBracket(bracketInfo) {
   for (let matchID = 17; matchID <= 24; matchID++) {
     renderMatchReadOnly(bracketInfo, matchID, ["top"]);
   }
+  renderMatchReadOnly(bracketInfo, 37, ["top"]); // Consolation Round 1
+  renderMatchReadOnly(bracketInfo, 38, ["bottom"]); // Consolation Round 1
+  renderMatchReadOnly(bracketInfo, 39, ["top"]); // Consolation Round 1
+  renderMatchReadOnly(bracketInfo, 40, ["bottom"]); // Consolation Round 1
+  renderMatchReadOnly(bracketInfo, 41, ["top"]); // Consolation Round 2
+  renderMatchReadOnly(bracketInfo, 42, ["bottom"]); // Consolation Round 2
+  renderMatchReadOnly(bracketInfo, 43, ["top"]); // Consolation Round 2
+  renderMatchReadOnly(bracketInfo, 44, ["bottom"]); // Consolation Round 2
+  renderMatchReadOnly(bracketInfo, 49, ["top"]); // Consolation Semifinal
+  renderMatchReadOnly(bracketInfo, 50, ["bottom"]); // Consolation Semifinal
+  renderMatchReadOnly(bracketInfo, 52, ["top", "bottom"]); // Fifth place
 
   // <select> match entries
   for (let matchID = 17; matchID <= 24; matchID++) {
@@ -686,10 +697,25 @@ function renderBracket(bracketInfo) {
     // Quarterfinal
     renderMatchSelect(bracketInfo, matchID, ["top", "bottom"]);
   }
+  renderMatchSelect(bracketInfo, 37, ["bottom"]); // Consolation Round 1
+  renderMatchSelect(bracketInfo, 38, ["top"]); // Consolation Round 1
+  renderMatchSelect(bracketInfo, 39, ["bottom"]); // Consolation Round 1
+  renderMatchSelect(bracketInfo, 40, ["top"]); // Consolation Round 1
+  renderMatchSelect(bracketInfo, 41, ["bottom"]); // Consolation Round 2
+  renderMatchSelect(bracketInfo, 42, ["top"]); // Consolation Round 2
+  renderMatchSelect(bracketInfo, 43, ["bottom"]); // Consolation Round 2
+  renderMatchSelect(bracketInfo, 44, ["top"]); // Consolation Round 2
   renderMatchSelect(bracketInfo, 45, ["top", "bottom"]); // Semifinal
   renderMatchSelect(bracketInfo, 46, ["top", "bottom"]); // Semifinal
+  renderMatchSelect(bracketInfo, 47, ["top", "bottom"]); // Consolation Blood Round
+  renderMatchSelect(bracketInfo, 48, ["top", "bottom"]); // Consolation Blood Round
+  renderMatchSelect(bracketInfo, 49, ["bottom"]); // Consolation Semifinal
+  renderMatchSelect(bracketInfo, 50, ["top"]); // Consolation Semifinal
+  renderMatchSelect(bracketInfo, 53, ["top", "bottom"]); // Consolation Third Place: 53
   renderMatchSelect(bracketInfo, 54, ["top", "bottom"]); // First place
   renderMatchSelect(bracketInfo, 1001, ["top"]); // Synthetic first place winner
+  renderMatchSelect(bracketInfo, 1003, ["top"]); // Synthetic third place winner
+  renderMatchSelect(bracketInfo, 1005, ["top"]); // Synthetic fifth place winner
 }
 
 function setWinner(match, participantID) {
