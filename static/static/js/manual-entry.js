@@ -389,10 +389,21 @@ const PREVIOUS_MATCH_MAP = Object.freeze({
   34: { top: 19, bottom: 20 },
   35: { top: 21, bottom: 22 },
   36: { top: 23, bottom: 24 },
+  41: { bottom: 37 },
+  42: { top: 38 },
+  43: { bottom: 39 },
+  44: { top: 40 },
   45: { top: 33, bottom: 34 },
   46: { top: 35, bottom: 36 },
+  47: { top: 41, bottom: 42 },
+  48: { top: 43, bottom: 44 },
+  49: { bottom: 47 },
+  50: { top: 48 },
+  53: { top: 49, bottom: 50 },
   54: { top: 45, bottom: 46 },
   1001: { top: 54 },
+  1003: { top: 53 },
+  1005: { top: 52 },
 });
 const WIN_MATCH_MAP = Object.freeze({
   17: { match: 33, position: "top" },
@@ -429,10 +440,35 @@ const WIN_MATCH_MAP = Object.freeze({
   1003: null,
   1005: null,
 });
-const LOST_MATCH_MAP = Object.freeze({
-  // NOTE: Matches 1-16 (Preliminaries) and 17-24 (R16) are not present
-  //       in `LOST_MATCH_MAP` because they have special handling based on
-  //       the follow-the-leader (to semifinals) format.
+const LOSE_MATCH_MAP = Object.freeze({
+  // NOTE: Matches 1-16 (Preliminaries) require special handling based on the
+  //       follow-the-leader (to semifinals) format.
+  1: null,
+  2: null,
+  3: null,
+  4: null,
+  5: null,
+  6: null,
+  7: null,
+  8: null,
+  9: null,
+  10: null,
+  11: null,
+  12: null,
+  13: null,
+  14: null,
+  15: null,
+  16: null,
+  // NOTE: Matches (R16) require special handling based on the follow-the-leader
+  //       (to semifinals) format.
+  17: null,
+  18: null,
+  19: null,
+  20: null,
+  21: null,
+  22: null,
+  23: null,
+  24: null,
   33: { match: 41, position: "top" },
   34: { match: 42, position: "bottom" },
   35: { match: 43, position: "top" },
@@ -455,6 +491,10 @@ const LOST_MATCH_MAP = Object.freeze({
   53: null,
   54: null,
 });
+
+function numericalSort(a, b) {
+  return a - b;
+}
 
 function validateParticipantID(participantID) {
   if (participantID === null) {
@@ -671,15 +711,17 @@ function renderBracket(bracketInfo) {
 
   // Read-only match entries
   for (let matchID = 1; matchID <= 16; matchID++) {
+    // Preliminaries
     renderMatchReadOnly(bracketInfo, matchID, ["top", "bottom"]);
   }
   for (let matchID = 17; matchID <= 24; matchID++) {
+    // R16
     renderMatchReadOnly(bracketInfo, matchID, ["top"]);
   }
-  renderMatchReadOnly(bracketInfo, 37, ["top"]); // Consolation Round 1
-  renderMatchReadOnly(bracketInfo, 38, ["bottom"]); // Consolation Round 1
-  renderMatchReadOnly(bracketInfo, 39, ["top"]); // Consolation Round 1
-  renderMatchReadOnly(bracketInfo, 40, ["bottom"]); // Consolation Round 1
+  for (let matchID = 37; matchID <= 40; matchID++) {
+    // Consolation Round 1
+    renderMatchReadOnly(bracketInfo, matchID, ["top", "bottom"]);
+  }
   renderMatchReadOnly(bracketInfo, 41, ["top"]); // Consolation Round 2
   renderMatchReadOnly(bracketInfo, 42, ["bottom"]); // Consolation Round 2
   renderMatchReadOnly(bracketInfo, 43, ["top"]); // Consolation Round 2
@@ -690,17 +732,13 @@ function renderBracket(bracketInfo) {
 
   // <select> match entries
   for (let matchID = 17; matchID <= 24; matchID++) {
-    // Round of 16
+    // R16
     renderMatchSelect(bracketInfo, matchID, ["bottom"]);
   }
   for (let matchID = 33; matchID <= 36; matchID++) {
     // Quarterfinal
     renderMatchSelect(bracketInfo, matchID, ["top", "bottom"]);
   }
-  renderMatchSelect(bracketInfo, 37, ["bottom"]); // Consolation Round 1
-  renderMatchSelect(bracketInfo, 38, ["top"]); // Consolation Round 1
-  renderMatchSelect(bracketInfo, 39, ["bottom"]); // Consolation Round 1
-  renderMatchSelect(bracketInfo, 40, ["top"]); // Consolation Round 1
   renderMatchSelect(bracketInfo, 41, ["bottom"]); // Consolation Round 2
   renderMatchSelect(bracketInfo, 42, ["top"]); // Consolation Round 2
   renderMatchSelect(bracketInfo, 43, ["bottom"]); // Consolation Round 2
@@ -739,27 +777,11 @@ function replaceChoices(choices, previousSubset, newChoice) {
     withoutPrevious.push(newChoice);
   }
 
+  withoutPrevious.sort(numericalSort);
   return withoutPrevious;
 }
 
-function handleSelectChange(bracketInfo, event) {
-  const select = event.target;
-  const participantID = select.value === "" ? null : Number(select.value);
-  validateParticipantID(participantID);
-
-  // Current match position (choice)
-  const matchID = select.dataset.matchId;
-  const position = select.dataset.position;
-  const match = bracketInfo.matches[matchID];
-  const matchPosition = match[position];
-  matchPosition.choice = participantID;
-
-  // Previous match (winner)
-  const previousMatchID = PREVIOUS_MATCH_MAP[matchID][position];
-  const previousMatch = bracketInfo.matches[previousMatchID];
-  setWinner(previousMatch, participantID);
-
-  // Next match (choices / disabled / enabled)
+function updateNextMatchChoices(bracketInfo, matchID, matchPosition, winnerID) {
   const nextMatchInfo = WIN_MATCH_MAP[matchID];
   if (nextMatchInfo === null) {
     return;
@@ -770,8 +792,183 @@ function handleSelectChange(bracketInfo, event) {
   nextMatchPosition.choices = replaceChoices(
     nextMatchPosition.choices,
     matchPosition.choices,
-    participantID
+    winnerID
   );
+}
+
+function getLoserID(match, winnerID) {
+  if (winnerID === null) {
+    return null;
+  }
+
+  if (match.top.choice === winnerID) {
+    return match.bottom.choice;
+  }
+
+  if (match.bottom.choice === winnerID) {
+    return match.top.choice;
+  }
+
+  throw new Error("Chosen winner must be top or bottom");
+}
+
+function setLoser(bracketInfo, matchID, match, winnerID) {
+  const nextMatchInfo = LOSE_MATCH_MAP[matchID];
+  if (nextMatchInfo === null) {
+    return;
+  }
+
+  const loserID = getLoserID(match, winnerID);
+  const nextMatch = bracketInfo.matches[nextMatchInfo.match];
+  const nextMatchPosition = nextMatch[nextMatchInfo.position];
+
+  const previousChoice = nextMatchPosition.choice;
+  nextMatchPosition.choice = loserID;
+  nextMatchPosition.choices = loserID === null ? [] : [loserID];
+
+  // Update `choices` that comes **after** the match we set
+  const choicesMatchInfo = WIN_MATCH_MAP[nextMatchInfo.match];
+  const choicesMatch = bracketInfo.matches[choicesMatchInfo.match];
+  const choicesMatchPosition = choicesMatch[choicesMatchInfo.position];
+
+  choicesMatchPosition.choices = choicesMatchPosition.choices.filter(
+    (value) => value != previousChoice
+  );
+
+  if (loserID !== null) {
+    choicesMatchPosition.choices.push(loserID);
+  }
+
+  choicesMatchPosition.choices.sort(numericalSort);
+}
+
+function findLoser(bracketInfo, candidateMatchIDs, winnerID) {
+  if (winnerID === null) {
+    return null;
+  }
+
+  for (const matchID of candidateMatchIDs) {
+    const match = bracketInfo.matches[matchID];
+
+    if (match.winner === "top" && match.top.choice === winnerID) {
+      return match.bottom.choice;
+    }
+
+    if (match.winner === "bottom" && match.bottom.choice === winnerID) {
+      return match.top.choice;
+    }
+  }
+
+  return null;
+}
+
+function handleFollowLeader(bracketInfo, matchID, winnerID) {
+  if (matchID < 33 || matchID > 36) {
+    return;
+  }
+
+  const preliminaryMatchIDs = [];
+  const r16MatchIDs = [];
+
+  if (matchID === 33) {
+    preliminaryMatchIDs.push(1, 2, 3, 4);
+    r16MatchIDs.push(17, 18);
+  }
+
+  if (matchID === 34) {
+    preliminaryMatchIDs.push(5, 6, 7, 8);
+    r16MatchIDs.push(19, 20);
+  }
+
+  if (matchID === 35) {
+    preliminaryMatchIDs.push(9, 10, 11, 12);
+    r16MatchIDs.push(21, 22);
+  }
+
+  if (matchID === 36) {
+    preliminaryMatchIDs.push(13, 14, 15, 16);
+    r16MatchIDs.push(23, 24);
+  }
+
+  // 33->37, 34->38, 35->39, 36->40
+  const round1MatchID = matchID + 4;
+  const round1Match = bracketInfo.matches[round1MatchID];
+  const position1 = matchID % 2 === 1 ? "top" : "bottom";
+  const matchPosition1 = round1Match[position1];
+  const position2 = matchID % 2 === 1 ? "bottom" : "top";
+  const matchPosition2 = round1Match[position2];
+
+  const preliminaryMatchLoser = findLoser(
+    bracketInfo,
+    preliminaryMatchIDs,
+    winnerID
+  );
+  const r16MatchLoser = findLoser(bracketInfo, r16MatchIDs, winnerID);
+
+  matchPosition1.choice = preliminaryMatchLoser;
+  matchPosition2.choice = r16MatchLoser;
+
+  // 33->41, 34->42, 35->43, 36->44
+  const round2MatchID = matchID + 8;
+  const round2Match = bracketInfo.matches[round2MatchID];
+  const matchPosition3 = round2Match[position2];
+
+  const bloodRoundInfo = WIN_MATCH_MAP[round2MatchID];
+  const bloodRoundMatch = bracketInfo.matches[bloodRoundInfo.match];
+  const matchPosition4 = bloodRoundMatch[bloodRoundInfo.position];
+
+  matchPosition1.choices = [];
+  matchPosition2.choices = [];
+  matchPosition3.choices = [];
+
+  if (preliminaryMatchLoser !== null) {
+    matchPosition1.choices.push(preliminaryMatchLoser);
+    matchPosition3.choices.push(preliminaryMatchLoser);
+  }
+
+  if (r16MatchLoser !== null) {
+    matchPosition2.choices.push(r16MatchLoser);
+    matchPosition3.choices.push(r16MatchLoser);
+  }
+
+  matchPosition3.choices.sort(numericalSort);
+
+  matchPosition3.choice = null;
+  round1Match.winner = null;
+  if (matchPosition3.choices.length === 1) {
+    matchPosition3.choice = matchPosition3.choices[0];
+    round1Match.winner = position2;
+
+    matchPosition4.choices.push(matchPosition3.choice);
+    matchPosition4.choices.sort(numericalSort);
+  }
+}
+
+function handleSelectChange(bracketInfo, event) {
+  const select = event.target;
+  const participantID = select.value === "" ? null : Number(select.value);
+  validateParticipantID(participantID);
+
+  // Current match position (choice)
+  const matchID = Number(select.dataset.matchId);
+  const position = select.dataset.position;
+  const match = bracketInfo.matches[matchID];
+  const matchPosition = match[position];
+  matchPosition.choice = participantID;
+
+  // Previous match (winner)
+  const previousMatchID = PREVIOUS_MATCH_MAP[matchID][position];
+  const previousMatch = bracketInfo.matches[previousMatchID];
+  setWinner(previousMatch, participantID);
+
+  // Next match, winner (choices / disabled / enabled)
+  updateNextMatchChoices(bracketInfo, matchID, matchPosition, participantID);
+
+  // Next match, loser (choices / disabled / enabled)
+  setLoser(bracketInfo, previousMatchID, previousMatch, participantID);
+
+  // Special case for quarterfinal winners
+  handleFollowLeader(bracketInfo, previousMatchID, participantID);
 }
 
 function handleHeaderInputChange(bracketInfo, event) {

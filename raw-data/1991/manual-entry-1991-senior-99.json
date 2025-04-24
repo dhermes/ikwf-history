@@ -607,23 +607,27 @@
                 "choices": []
             },
             "bottom": {
-                "choice": null,
-                "choices": []
+                "choice": 1,
+                "choices": [
+                    1
+                ]
             },
-            "winner": null,
+            "winner": "bottom",
             "boutNumber": null,
             "result": ""
         },
         "38": {
             "top": {
-                "choice": null,
-                "choices": []
+                "choice": 11,
+                "choices": [
+                    11
+                ]
             },
             "bottom": {
                 "choice": null,
                 "choices": []
             },
-            "winner": null,
+            "winner": "top",
             "boutNumber": null,
             "result": ""
         },
@@ -633,75 +637,98 @@
                 "choices": []
             },
             "bottom": {
-                "choice": null,
-                "choices": []
+                "choice": 16,
+                "choices": [
+                    16
+                ]
             },
-            "winner": null,
+            "winner": "bottom",
             "boutNumber": null,
             "result": ""
         },
         "40": {
             "top": {
-                "choice": null,
-                "choices": []
+                "choice": 18,
+                "choices": [
+                    18
+                ]
             },
             "bottom": {
-                "choice": null,
-                "choices": []
+                "choice": 20,
+                "choices": [
+                    20
+                ]
             },
-            "winner": null,
+            "winner": "top",
             "boutNumber": null,
             "result": ""
         },
         "41": {
             "top": {
-                "choice": null,
-                "choices": []
+                "choice": 3,
+                "choices": [
+                    3
+                ]
             },
             "bottom": {
-                "choice": null,
-                "choices": []
+                "choice": 1,
+                "choices": [
+                    1
+                ]
             },
-            "winner": null,
+            "winner": "top",
             "boutNumber": null,
             "result": ""
         },
         "42": {
             "top": {
-                "choice": null,
-                "choices": []
+                "choice": 11,
+                "choices": [
+                    11
+                ]
             },
             "bottom": {
-                "choice": null,
-                "choices": []
+                "choice": 6,
+                "choices": [
+                    6
+                ]
             },
-            "winner": null,
+            "winner": "bottom",
             "boutNumber": null,
             "result": ""
         },
         "43": {
             "top": {
-                "choice": null,
-                "choices": []
+                "choice": 12,
+                "choices": [
+                    12
+                ]
             },
             "bottom": {
-                "choice": null,
-                "choices": []
+                "choice": 16,
+                "choices": [
+                    16
+                ]
             },
-            "winner": null,
+            "winner": "bottom",
             "boutNumber": null,
             "result": ""
         },
         "44": {
             "top": {
-                "choice": null,
-                "choices": []
+                "choice": 18,
+                "choices": [
+                    18,
+                    20
+                ]
             },
             "bottom": {
-                "choice": null,
-                "choices": []
+                "choice": 21,
+                "choices": [
+                    21
+                ]
             },
-            "winner": null,
+            "winner": "top",
             "boutNumber": null,
             "result": ""
         },
@@ -709,15 +736,15 @@
             "top": {
                 "choice": 0,
                 "choices": [
-                    3,
-                    0
+                    0,
+                    3
                 ]
             },
             "bottom": {
                 "choice": 9,
                 "choices": [
-                    9,
-                    6
+                    6,
+                    9
                 ]
             },
             "winner": "top",
@@ -745,79 +772,111 @@
         },
         "47": {
             "top": {
-                "choice": null,
-                "choices": []
+                "choice": 3,
+                "choices": [
+                    1,
+                    3
+                ]
             },
             "bottom": {
-                "choice": null,
-                "choices": []
+                "choice": 6,
+                "choices": [
+                    6,
+                    11
+                ]
             },
-            "winner": null,
+            "winner": "bottom",
             "boutNumber": null,
             "result": ""
         },
         "48": {
             "top": {
-                "choice": null,
-                "choices": []
+                "choice": 16,
+                "choices": [
+                    12,
+                    16
+                ]
             },
             "bottom": {
-                "choice": null,
-                "choices": []
+                "choice": 18,
+                "choices": [
+                    18,
+                    21
+                ]
             },
-            "winner": null,
+            "winner": "bottom",
             "boutNumber": null,
             "result": ""
         },
         "49": {
             "top": {
-                "choice": null,
-                "choices": []
+                "choice": 9,
+                "choices": [
+                    9
+                ]
             },
             "bottom": {
-                "choice": null,
-                "choices": []
+                "choice": 6,
+                "choices": [
+                    3,
+                    6
+                ]
             },
-            "winner": null,
+            "winner": "top",
             "boutNumber": null,
             "result": ""
         },
         "50": {
             "top": {
-                "choice": null,
-                "choices": []
+                "choice": 18,
+                "choices": [
+                    16,
+                    18
+                ]
             },
             "bottom": {
-                "choice": null,
-                "choices": []
+                "choice": 19,
+                "choices": [
+                    19
+                ]
             },
-            "winner": null,
+            "winner": "bottom",
             "boutNumber": null,
             "result": ""
         },
         "52": {
             "top": {
-                "choice": null,
-                "choices": []
+                "choice": 6,
+                "choices": [
+                    6
+                ]
             },
             "bottom": {
-                "choice": null,
-                "choices": []
+                "choice": 18,
+                "choices": [
+                    18
+                ]
             },
-            "winner": null,
+            "winner": "top",
             "boutNumber": null,
             "result": ""
         },
         "53": {
             "top": {
-                "choice": null,
-                "choices": []
+                "choice": 9,
+                "choices": [
+                    6,
+                    9
+                ]
             },
             "bottom": {
-                "choice": null,
-                "choices": []
+                "choice": 19,
+                "choices": [
+                    18,
+                    19
+                ]
             },
-            "winner": null,
+            "winner": "top",
             "boutNumber": null,
             "result": ""
         },
@@ -825,8 +884,8 @@
             "top": {
                 "choice": 0,
                 "choices": [
-                    9,
-                    0
+                    0,
+                    9
                 ]
             },
             "bottom": {
@@ -846,6 +905,38 @@
                 "choices": [
                     0,
                     15
+                ]
+            },
+            "bottom": {
+                "choice": null,
+                "choices": []
+            },
+            "winner": null,
+            "boutNumber": null,
+            "result": ""
+        },
+        "1003": {
+            "top": {
+                "choice": 9,
+                "choices": [
+                    9,
+                    19
+                ]
+            },
+            "bottom": {
+                "choice": null,
+                "choices": []
+            },
+            "winner": null,
+            "boutNumber": null,
+            "result": ""
+        },
+        "1005": {
+            "top": {
+                "choice": 6,
+                "choices": [
+                    6,
+                    18
                 ]
             },
             "bottom": {
