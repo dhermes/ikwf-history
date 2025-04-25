@@ -373,6 +373,8 @@ const BRACKET_INFO = {
     },
   },
 };
+// `EDIT_MATCH_INFO_CURRENT` is a global used for the `#edit-match-info-overlay`
+const EDIT_MATCH_INFO_CURRENT = { matchID: 1 };
 const STORAGE_KEY = "manualEntrySerialized.3cd4823b";
 const PREVIOUS_MATCH_MAP = Object.freeze({
   17: { bottom: 2 },
@@ -732,7 +734,11 @@ function renderMatchInfo(bracketInfo, matchID) {
     `div.match[data-match-id="${matchID}"]`
   );
   const resultDiv = matchDiv.querySelector("div.match-result");
-  resultDiv.textContent = match.result;
+  if (match.result === "") {
+    resultDiv.textContent = "{Result}";
+  } else {
+    resultDiv.textContent = match.result;
+  }
 
   const boutNumberDiv = matchDiv.querySelector("div.bout-number");
   if (match.boutNumber === null) {
@@ -1052,6 +1058,47 @@ function handleParticipantInputChange(bracketInfo, event) {
   } else {
     throw new Error("Invalid input element");
   }
+}
+
+function openMatchOverlay(matchInfoDiv) {
+  const matchDiv = matchInfoDiv.parentElement.parentElement;
+  const matchID = Number(matchDiv.dataset.matchId);
+  const match = BRACKET_INFO.matches[matchID];
+
+  EDIT_MATCH_INFO_CURRENT.matchID = matchID;
+  if (match.boutNumber === null) {
+    document.getElementById("edit-bout-number").value = "";
+  } else {
+    document.getElementById("edit-bout-number").value = `${match.boutNumber}`;
+  }
+  document.getElementById("edit-match-result").value = match.result;
+
+  document.getElementById("edit-match-info-overlay").classList.remove("hidden");
+}
+
+function saveMatchOverlay() {
+  const matchID = EDIT_MATCH_INFO_CURRENT.matchID;
+  const match = BRACKET_INFO.matches[matchID];
+
+  const boutNumberStr = document.getElementById("edit-bout-number").value;
+  if (boutNumberStr === "") {
+    match.boutNumber = null;
+  } else {
+    match.boutNumber = Number(boutNumberStr);
+  }
+  const result = document.getElementById("edit-match-result").value;
+  match.result = result;
+
+  writeToStorage(BRACKET_INFO);
+  closeMatchOverlay();
+}
+
+function closeMatchOverlay() {
+  document.getElementById("edit-match-info-overlay").classList.add("hidden");
+  renderBracket(BRACKET_INFO);
+
+  // Reset
+  EDIT_MATCH_INFO_CURRENT.matchID = 1;
 }
 
 document.querySelectorAll("select.participant-select").forEach((select) => {

@@ -122,3 +122,71 @@ select.header-input {
   height: 20px;
   stroke-width: 2;
 }
+
+#edit-match-info-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#edit-match-info-overlay.hidden {
+  display: none;
+}
+
+.overlay-content {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 14px;
+}
+
+/* .overlay-content label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+} */
+
+.overlay-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.overlay-row label {
+  width: 80px;
+  text-align: right;
+}
+
+.overlay-row input {
+  flex: 1;
+}
+
+.overlay-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.overlay-buttons button {
+  width: 50%;
+}
+
+.overlay-buttons button:first-child {
+  margin-right: 5px;
+}
+
+.overlay-buttons button:last-child {
+  margin-left: 5px;
+}
