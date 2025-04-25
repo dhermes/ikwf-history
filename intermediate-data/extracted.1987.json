@@ -149,6 +149,48 @@
     },
     {
       "division": "senior",
+      "weight": 95,
+      "matches": [
+        {
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "Scott Schwab",
+            "first_name": "Scott",
+            "last_name": "Schwab",
+            "team_full": "Belleville Little Devils",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "Alex",
+            "first_name": "Alex",
+            "last_name": "Strobl",
+            "team_full": "Arlington Cardinals WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Tony Lepore",
+            "first_name": "Tony",
+            "last_name": "Lepore",
+            "team_full": "Oak Forest Warriors",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "default",
+          "bout_number": 1,
+          "top_win": null
+        }
+      ]
+    },
+    {
+      "division": "senior",
       "weight": 100,
       "matches": [
         {
@@ -382,7 +424,7 @@
   "team_scores": {
     "senior": [
       {
-        "team": "HARVEY TWISTERS",
+        "team": "Harvey Twisters",
         "acronym": null,
         "score": 248.0
       },

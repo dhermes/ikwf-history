@@ -27,7 +27,7 @@ _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
     275: bracket_utils.Placer(name="Todd Nesbitt", team="Harvey Twisters"),
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
-    "HARVEY TWISTERS": 248.0,
+    "Harvey Twisters": 248.0,
     "VITTUM CATS": 165.0,
 }
 
@@ -46,6 +46,50 @@ def main():
             "senior", weight, champ, _SENIOR_TEAM_REPLACE
         )
         weight_classes.append(weight_class)
+
+    weight_class = bracket_utils.WeightClass(
+        division="senior",
+        weight=95,
+        matches=[
+            bracket_utils.Match(
+                match_slot="championship_r32_01",
+                top_competitor=bracket_utils.Competitor(
+                    full_name="Scott Schwab",
+                    first_name="Scott",
+                    last_name="Schwab",
+                    team_full="Belleville Little Devils",
+                    team_acronym=None,
+                ),
+                bottom_competitor=None,
+                result="Bye",
+                result_type="bye",
+                bout_number=None,
+                top_win=True,
+            ),
+            bracket_utils.Match(
+                match_slot="championship_r32_02",
+                top_competitor=bracket_utils.Competitor(
+                    full_name="Alex",
+                    first_name="Alex",
+                    last_name="Strobl",
+                    team_full="Arlington Cardinals WC",
+                    team_acronym=None,
+                ),
+                bottom_competitor=bracket_utils.Competitor(
+                    full_name="Tony Lepore",
+                    first_name="Tony",
+                    last_name="Lepore",
+                    team_full="Oak Forest Warriors",
+                    team_acronym=None,
+                ),
+                result="",
+                result_type="default",
+                bout_number=1,
+                top_win=None,
+            ),
+        ],
+    )
+    weight_classes.append(weight_class)
 
     extracted = bracket_utils.ExtractedTournament(
         weight_classes=weight_classes, team_scores=team_scores, deductions=[]
