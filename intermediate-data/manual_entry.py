@@ -84,9 +84,7 @@ class ManualMatch(_ForbidExtra):
 
 
 class ManualBracket(_ForbidExtra):
-    division: bracket_utils.Division
-    weight: int | None
-    year: int | None
+    description: str | None
     wrestler_choices: list[WrestlerChoice] = pydantic.Field(alias="wrestlerChoices")
     matches: dict[MatchID, ManualMatch]
 
