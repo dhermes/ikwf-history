@@ -34,7 +34,7 @@ const BRACKET_INFO = {
       bottom: { choice: null, choices: [] },
       winner: "top",
       boutNumber: null,
-      result: "",
+      result: "Bye",
     },
     2: {
       top: { choice: 1, choices: [1] },
@@ -48,7 +48,7 @@ const BRACKET_INFO = {
       bottom: { choice: null, choices: [] },
       winner: "top",
       boutNumber: null,
-      result: "",
+      result: "Bye",
     },
     4: {
       top: { choice: 4, choices: [4] },
@@ -62,7 +62,7 @@ const BRACKET_INFO = {
       bottom: { choice: null, choices: [] },
       winner: "top",
       boutNumber: null,
-      result: "",
+      result: "Bye",
     },
     6: {
       top: { choice: 7, choices: [7] },
@@ -76,7 +76,7 @@ const BRACKET_INFO = {
       bottom: { choice: null, choices: [] },
       winner: "top",
       boutNumber: null,
-      result: "",
+      result: "Bye",
     },
     8: {
       top: { choice: 10, choices: [10] },
@@ -90,7 +90,7 @@ const BRACKET_INFO = {
       bottom: { choice: null, choices: [] },
       winner: "top",
       boutNumber: null,
-      result: "",
+      result: "Bye",
     },
     10: {
       top: { choice: 13, choices: [13] },
@@ -104,7 +104,7 @@ const BRACKET_INFO = {
       bottom: { choice: null, choices: [] },
       winner: "top",
       boutNumber: null,
-      result: "",
+      result: "Bye",
     },
     12: {
       top: { choice: 16, choices: [16] },
@@ -118,7 +118,7 @@ const BRACKET_INFO = {
       bottom: { choice: null, choices: [] },
       winner: "top",
       boutNumber: null,
-      result: "",
+      result: "Bye",
     },
     14: {
       top: { choice: 19, choices: [19] },
@@ -132,7 +132,7 @@ const BRACKET_INFO = {
       bottom: { choice: null, choices: [] },
       winner: "top",
       boutNumber: null,
-      result: "",
+      result: "Bye",
     },
     16: {
       top: { choice: 22, choices: [22] },
@@ -500,6 +500,11 @@ function numericalSort(a, b) {
   return a - b;
 }
 
+function uniqueNumerical(values) {
+  const uniqueSorted = [...new Set(values)].sort(numericalSort);
+  return uniqueSorted;
+}
+
 function validateParticipantID(participantID) {
   if (participantID === null) {
     return;
@@ -720,6 +725,16 @@ function renderMatchSelect(bracketInfo, matchID, positions) {
   }
 }
 
+function renderMatchResult(bracketInfo, matchID) {
+  const match = bracketInfo.matches[matchID];
+
+  const matchDiv = document.querySelector(
+    `div.match[data-match-id="${matchID}"]`
+  );
+  const resultDiv = matchDiv.querySelector("div.match-result");
+  resultDiv.textContent = match.result;
+}
+
 function renderBracket(bracketInfo) {
   // Description input
   if (bracketInfo.description !== null) {
@@ -777,6 +792,18 @@ function renderBracket(bracketInfo) {
   renderMatchSelect(bracketInfo, 1001, ["top"]); // Synthetic first place winner
   renderMatchSelect(bracketInfo, 1003, ["top"]); // Synthetic third place winner
   renderMatchSelect(bracketInfo, 1005, ["top"]); // Synthetic fifth place winner
+
+  // Match bout numbers and results
+  for (let matchID = 1; matchID <= 54; matchID++) {
+    if (25 <= matchID && matchID <= 32) {
+      continue;
+    }
+    if (matchID == 51) {
+      continue;
+    }
+
+    renderMatchResult(bracketInfo, matchID);
+  }
 }
 
 function setWinner(match, participantID) {
@@ -800,8 +827,7 @@ function replaceChoices(choices, previousSubset, newChoice) {
     withoutPrevious.push(newChoice);
   }
 
-  withoutPrevious.sort(numericalSort);
-  return withoutPrevious;
+  return uniqueNumerical(withoutPrevious);
 }
 
 function updateNextMatchChoices(bracketInfo, matchID, matchPosition, winnerID) {
@@ -862,7 +888,7 @@ function setLoser(bracketInfo, matchID, match, winnerID) {
     choicesMatchPosition.choices.push(loserID);
   }
 
-  choicesMatchPosition.choices.sort(numericalSort);
+  choicesMatchPosition.choices = uniqueNumerical(choicesMatchPosition.choices);
 }
 
 function findLoser(bracketInfo, candidateMatchIDs, winnerID) {
@@ -954,16 +980,17 @@ function handleFollowLeader(bracketInfo, matchID, winnerID) {
     matchPosition3.choices.push(r16MatchLoser);
   }
 
-  matchPosition3.choices.sort(numericalSort);
+  matchPosition3.choices = uniqueNumerical(matchPosition3.choices);
 
   matchPosition3.choice = null;
   round1Match.winner = null;
   if (matchPosition3.choices.length === 1) {
     matchPosition3.choice = matchPosition3.choices[0];
     round1Match.winner = position2;
+    round1Match.result = "Bye";
 
     matchPosition4.choices.push(matchPosition3.choice);
-    matchPosition4.choices.sort(numericalSort);
+    matchPosition4.choices = uniqueNumerical(matchPosition4.choices);
   }
 }
 
