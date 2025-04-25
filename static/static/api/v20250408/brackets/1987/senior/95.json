@@ -1,0 +1,28 @@
+[
+  {
+    "match_slot_id": 1,
+    "bout_number": null,
+    "match_slot": "championship_r32_01",
+    "top_name": "Scott Schwab",
+    "top_team": "Belleville Little Devils",
+    "top_score": null,
+    "bottom_name": null,
+    "bottom_team": null,
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Bye"
+  },
+  {
+    "match_slot_id": 2,
+    "bout_number": 1,
+    "match_slot": "championship_r32_02",
+    "top_name": "Alex Strobl",
+    "top_team": "Arlington Cardinals WC",
+    "top_score": null,
+    "bottom_name": "Tony Lepore",
+    "bottom_team": "Oak Forest Warriors",
+    "bottom_score": null,
+    "top_win": null,
+    "result": ""
+  }
+]

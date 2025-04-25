@@ -407,7 +407,7 @@ VALUES
   (394, 394, 346, 'Steve Williams', 'Steve', 'Williams'),
   (395, 395, 346, 'Joe Williams', 'Joe', 'Williams'),
   (396, 396, 342, 'Scott Schwab', 'Scott', 'Schwab'),
-  (397, 397, 341, 'Alex', 'Alex', 'Strobl'),
+  (397, 397, 341, 'Alex Strobl', 'Alex', 'Strobl'),
   (398, 398, 349, 'Tony Lepore', 'Tony', 'Lepore'),
   (399, 399, 345, 'Paul Blaha', 'Paul', 'Blaha'),
   (400, 400, 343, 'Cass Lundgren', 'Cass', 'Lundgren'),

@@ -407,7 +407,7 @@ VALUES
   (394, 'Steve Williams'),
   (395, 'Joe Williams'),
   (396, 'Scott Schwab'),
-  (397, 'Alex'),
+  (397, 'Alex Strobl'),
   (398, 'Tony Lepore'),
   (399, 'Paul Blaha'),
   (400, 'Cass Lundgren'),

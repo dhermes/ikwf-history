@@ -69,7 +69,7 @@ def main():
             bracket_utils.Match(
                 match_slot="championship_r32_02",
                 top_competitor=bracket_utils.Competitor(
-                    full_name="Alex",
+                    full_name="Alex Strobl",
                     first_name="Alex",
                     last_name="Strobl",
                     team_full="Arlington Cardinals WC",
