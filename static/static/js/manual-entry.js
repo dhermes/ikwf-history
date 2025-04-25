@@ -1046,5 +1046,20 @@ document
     });
   });
 
+document
+  .getElementById("download-json")
+  .addEventListener("click", function (event) {
+    event.preventDefault();
+
+    const fileContents = JSON.stringify(BRACKET_INFO, null, 2);
+    const blob = new Blob([fileContents], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const tempLink = document.createElement("a");
+    tempLink.href = url;
+    tempLink.download = "bracket.json";
+    tempLink.click();
+    URL.revokeObjectURL(url);
+  });
+
 loadFromStorage(BRACKET_INFO);
 renderBracket(BRACKET_INFO);

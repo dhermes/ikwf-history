@@ -63,11 +63,13 @@
 }
 
 #weight-input {
-  width: 3.5ch; /* For up to 3 digits like 125 */
+  width: 3.5ch;
+  /* For up to 3 digits like 125 */
 }
 
 #year-input {
-  width: 4.5ch; /* For 4-digit years with a little breathing room */
+  width: 4.5ch;
+  /* For 4-digit years with a little breathing room */
 }
 
 .header-input:focus {
@@ -78,4 +80,45 @@
 
 select.header-input {
   padding-right: 16px;
+}
+
+.header-container {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.header-container h1 {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.header-container input {
+  padding: 2px 6px;
+}
+
+.download-button {
+  position: absolute;
+  top: 0;
+  right: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 6px;
+  background: #f3f4f6;
+  color: #111;
+  transition: background 0.2s ease;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  background: #e5e7eb;
+}
+
+.download-button .icon {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2;
 }

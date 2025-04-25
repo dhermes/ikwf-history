@@ -6,13 +6,23 @@
   </head>
   <body>
     <div class="brackets-viewer" id="bracket">
-      <h1 class="bracket-header">
-        <input
-          id="description-input"
-          class="header-input"
-          value="{Division} {Weight} ({Year})"
-        />
-      </h1>
+      <div class="header-container">
+        <h1 class="bracket-header">
+          <input
+            id="description-input"
+            class="header-input"
+            value="{Division} {Weight} ({Year})"
+          />
+        </h1>
+        <a
+          href="#"
+          id="download-json"
+          class="download-button"
+          title="Download bracket"
+        >
+          <img src="/images/download.svg" />
+        </a>
+      </div>
       <table class="participant-table">
         <thead>
           <tr>
