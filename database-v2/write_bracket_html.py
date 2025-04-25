@@ -928,6 +928,62 @@ def _render_base_brackets_html(
         file_obj.write(formatted_html)
 
 
+class BracketDescriptor(_ForbidExtra):
+    year: int
+    division: bracket_utils.Division
+    weight: int
+
+
+def _get_brackets_with_image(static_root: pathlib.Path) -> dict[str, BracketDescriptor]:
+    brackets: dict[str, BracketDescriptor] = {}
+
+    image_path = static_root / "images"
+    for file_path in image_path.glob("*"):
+        parts = file_path.stem.split("-")
+        if len(parts) == 3:
+            year_str = parts[0]
+            division = parts[1]
+            weight_str = parts[2]
+        elif len(parts) == 4:
+            year_str = parts[0]
+            division = f"{parts[1]}-{parts[2]}"
+            weight_str = parts[3]
+        else:
+            continue
+
+        if not year_str.isnumeric():
+            continue
+        if not weight_str.isnumeric():
+            continue
+
+        year = int(year_str)
+        weight = int(weight_str)
+        brackets[file_path.name] = BracketDescriptor(
+            year=year, division=division, weight=weight
+        )
+
+    return brackets
+
+
+def _check_missing_brackets(
+    static_root: pathlib.Path,
+    weights_by_year: dict[int, dict[bracket_utils.Division, list[int]]],
+):
+    image_brackets = _get_brackets_with_image(static_root)
+    missing_brackets: list[str] = []
+    for filename, bracket in image_brackets.items():
+        year_weights = weights_by_year.get(bracket.year, {})
+        division_weights = year_weights.get(bracket.division, [])
+        if bracket.weight in division_weights:
+            continue
+
+        missing_brackets.append(filename)
+
+    if missing_brackets:
+        missing_brackets.sort()
+        raise ValueError("Some images do not have a parsed bracket", missing_brackets)
+
+
 def main() -> None:
     static_root = HERE.parent / "static" / "static"
     api_root = static_root / "api" / "v20250408"
@@ -964,6 +1020,8 @@ def main() -> None:
         _render_brackets_year_html(static_root, year, year_weights)
 
     _render_base_brackets_html(static_root, tournament_years)
+
+    _check_missing_brackets(static_root, weights_by_year)
 
 
 if __name__ == "__main__":
