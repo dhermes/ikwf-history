@@ -1,9 +1,7 @@
 // Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
 const BRACKET_INFO = {
-  division: "senior",
-  weight: null,
-  year: null,
+  description: null,
   wrestlerChoices: [
     { id: 0, name: "Wrestler 1", team: "Team 1" },
     { id: 1, name: "Wrestler 2", team: "Team 2" },
@@ -528,9 +526,7 @@ function loadFromStorage(bracketInfo) {
   }
 
   const parsedInputs = JSON.parse(serialized);
-  bracketInfo.division = parsedInputs.division;
-  bracketInfo.weight = parsedInputs.weight;
-  bracketInfo.year = parsedInputs.year;
+  bracketInfo.description = parsedInputs.description;
   bracketInfo.wrestlerChoices = parsedInputs.wrestlerChoices;
   bracketInfo.matches = parsedInputs.matches;
 }
@@ -725,17 +721,10 @@ function renderMatchSelect(bracketInfo, matchID, positions) {
 }
 
 function renderBracket(bracketInfo) {
-  // Division input
-  document.getElementById("division-input").value = bracketInfo.division;
-
-  // Weight input
-  if (bracketInfo.year !== null) {
-    document.getElementById("year-input").value = bracketInfo.year;
-  }
-
-  // Year input
-  if (bracketInfo.weight !== null) {
-    document.getElementById("weight-input").value = bracketInfo.weight;
+  // Description input
+  if (bracketInfo.description !== null) {
+    document.getElementById("description-input").value =
+      bracketInfo.description;
   }
 
   // Wrestler and Team inputs
@@ -1007,23 +996,12 @@ function handleSelectChange(bracketInfo, event) {
 
 function handleHeaderInputChange(bracketInfo, event) {
   const element = event.target;
-  if (element.id === "division-input") {
-    bracketInfo.division = element.value;
+  if (element.id === "description-input") {
+    bracketInfo.description = element.value;
     return;
   }
 
-  const integerInput = Number(element.value);
-  if (!Number.isInteger(integerInput) || integerInput <= 0) {
-    throw new Error(`Invalid integer input: ${element.value}`);
-  }
-
-  if (element.id === "weight-input") {
-    bracketInfo.weight = integerInput;
-  } else if (element.id === "year-input") {
-    bracketInfo.year = integerInput;
-  } else {
-    throw new Error("Invalid input element");
-  }
+  throw new Error("Invalid input element");
 }
 
 function handleParticipantInputChange(bracketInfo, event) {
