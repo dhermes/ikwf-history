@@ -725,7 +725,7 @@ function renderMatchSelect(bracketInfo, matchID, positions) {
   }
 }
 
-function renderMatchResult(bracketInfo, matchID) {
+function renderMatchInfo(bracketInfo, matchID) {
   const match = bracketInfo.matches[matchID];
 
   const matchDiv = document.querySelector(
@@ -733,6 +733,13 @@ function renderMatchResult(bracketInfo, matchID) {
   );
   const resultDiv = matchDiv.querySelector("div.match-result");
   resultDiv.textContent = match.result;
+
+  const boutNumberDiv = matchDiv.querySelector("div.bout-number");
+  if (match.boutNumber === null) {
+    boutNumberDiv.innerHTML = "&nbsp;";
+  } else {
+    boutNumberDiv.textContent = `${match.boutNumber}`;
+  }
 }
 
 function renderBracket(bracketInfo) {
@@ -802,7 +809,7 @@ function renderBracket(bracketInfo) {
       continue;
     }
 
-    renderMatchResult(bracketInfo, matchID);
+    renderMatchInfo(bracketInfo, matchID);
   }
 }
 
