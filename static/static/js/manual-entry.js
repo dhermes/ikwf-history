@@ -1,6 +1,6 @@
 // Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
-const BRACKET_INFO = {
+const INITIAL_BRACKET_INFO = {
   description: null,
   wrestlerChoices: [
     { id: 0, name: "Wrestler 1", team: "Team 1" },
@@ -750,7 +750,10 @@ function renderMatchInfo(bracketInfo, matchID) {
 
 function renderBracket(bracketInfo) {
   // Description input
-  if (bracketInfo.description !== null) {
+  if (bracketInfo.description === null) {
+    document.getElementById("description-input").value =
+      "{Division} {Weight} ({Year})";
+  } else {
     document.getElementById("description-input").value =
       bracketInfo.description;
   }
@@ -1101,6 +1104,15 @@ function closeMatchOverlay() {
   EDIT_MATCH_INFO_CURRENT.matchID = 1;
 }
 
+function clearJSON(bracketInfo) {
+  bracketInfo.description = INITIAL_BRACKET_INFO.description;
+  bracketInfo.wrestlerChoices = INITIAL_BRACKET_INFO.wrestlerChoices;
+  bracketInfo.matches = INITIAL_BRACKET_INFO.matches;
+
+  writeToStorage(bracketInfo);
+  renderBracket(bracketInfo);
+}
+
 document.querySelectorAll("select.participant-select").forEach((select) => {
   select.addEventListener("change", (event) => {
     handleSelectChange(BRACKET_INFO, event);
@@ -1142,5 +1154,14 @@ document
     URL.revokeObjectURL(url);
   });
 
+document
+  .getElementById("clear-json")
+  .addEventListener("click", function (event) {
+    event.preventDefault();
+
+    clearJSON(BRACKET_INFO);
+  });
+
+const BRACKET_INFO = JSON.parse(JSON.stringify(INITIAL_BRACKET_INFO));
 loadFromStorage(BRACKET_INFO);
 renderBracket(BRACKET_INFO);
