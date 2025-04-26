@@ -254,7 +254,7 @@ def _render_html_head(title: str) -> str:
         [
             "<head>",
             f"  <title>{html.escape(title)}</title>",
-            '  <link href="/css/brackets-viewer.98d9c077.min.css" rel="stylesheet" />',
+            '  <link href="/css/brackets-viewer.a5e749b8.min.css" rel="stylesheet" />',
             "</head>",
         ]
     )
@@ -794,7 +794,7 @@ def _render_bracket_html(
     parts.extend(
         [
             "    </div>",
-            '    <script defer="" src="/js/add-hover.e70024f1.js"></script>',
+            '    <script defer="" src="/js/add-hover.a99de10c.min.js"></script>',
             "  </body>",
             "</html>",
         ]
@@ -841,7 +841,7 @@ def _render_brackets_year_html(
         "<html>",
         "  <head>",
         f"    <title>{year}</title>",
-        '    <link href="/css/tournament-view.fb678ab0.min.css" rel="stylesheet" />',
+        '    <link href="/css/tournament-view.fbcf5065.min.css" rel="stylesheet" />',
         "  </head>",
         "  <body>",
         '    <div class="tournament-view">',
@@ -897,7 +897,7 @@ def _render_base_brackets_html(
         "<html>",
         "  <head>",
         "    <title>Brackets</title>",
-        '    <link href="/css/tournament-view.fb678ab0.min.css" rel="stylesheet" />',
+        '    <link href="/css/tournament-view.fbcf5065.min.css" rel="stylesheet" />',
         "  </head>",
         "  <body>",
         '    <div class="tournament-view">',
