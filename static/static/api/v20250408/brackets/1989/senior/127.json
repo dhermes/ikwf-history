@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Ryan Pape",
+    "top_team": "Franklin Park Raiders",
+    "top_score": null,
+    "bottom_name": "Chris Rink",
+    "bottom_team": "Carbondale",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Devon Herman",
+    "top_team": "St. Charles J.H.",
+    "top_score": null,
+    "bottom_name": "Johnny Milam",
+    "bottom_team": "Wheaton Warrenville",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Lenard Randall",
     "top_team": "Harvey Twisters",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Andy Buschon",
+    "bottom_team": "Taylorville",
     "bottom_score": null,
     "top_win": true,
     "result": ""

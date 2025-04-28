@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Kevin Level",
+    "top_team": "Mid-Markham Apaches",
+    "top_score": null,
+    "bottom_name": "Todd Hillard",
+    "bottom_team": "Bismarck Henning",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Peter Smith",
+    "top_team": "Carbondale",
+    "top_score": null,
+    "bottom_name": "Ben Kulbartz",
+    "bottom_team": "Oswego Cougars",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Curt Bee",
-    "top_team": "Lanphier-Springfield WC",
+    "top_team": "Lanphier-Springfield",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Jesse Kennedy",
+    "bottom_team": "Rosemont Cobras",
     "bottom_score": null,
     "top_win": true,
     "result": ""

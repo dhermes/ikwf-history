@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Kurt Hudson",
+    "top_team": "Redbird",
+    "top_score": null,
+    "bottom_name": "Jim Wissig",
+    "bottom_team": "Arlington Cardinals",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Mike Triolo",
+    "top_team": "Tinley Park Bulldogs",
+    "top_score": null,
+    "bottom_name": "Matt Atilano",
+    "bottom_team": "Newman Blue Devils",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Michael French",
-    "top_team": "Mattoon WC",
+    "top_team": "Mattoon W.C.",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Jason Eierman",
+    "bottom_team": "Mustangs W.C.",
     "bottom_score": null,
     "top_win": true,
     "result": ""

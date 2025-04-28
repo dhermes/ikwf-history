@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Ryan Delira",
+    "top_team": "Dolton Park",
+    "top_score": null,
+    "bottom_name": "Todd Combes",
+    "bottom_team": "Dolton Park",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Daniel Burland",
+    "top_team": "Bartonville Blue Crew",
+    "top_score": null,
+    "bottom_name": "Joey Sukley",
+    "bottom_team": "Indian Trail Wild Cats",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Marc Zehr",
-    "top_team": "Arlington Cardinals WC",
+    "top_team": "Arlington Cardinals",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Gerry Hilton",
+    "bottom_team": "Thornwood Kids",
     "bottom_score": null,
     "top_win": true,
     "result": ""

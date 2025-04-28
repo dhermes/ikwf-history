@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "John Ivers",
+    "top_team": "Tinley Park Bulldogs",
+    "top_score": null,
+    "bottom_name": "John Fair",
+    "bottom_team": "Dundee Highlanders",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Jim Brasher",
+    "top_team": "Vittum Cats",
+    "top_score": null,
+    "bottom_name": "Mike Hasty",
+    "bottom_team": "Morton Youth",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Tony Davis",
     "top_team": "Harvey Twisters",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Tommy Lee",
+    "bottom_team": "Oak Forest Warriors",
     "bottom_score": null,
     "top_win": true,
     "result": ""

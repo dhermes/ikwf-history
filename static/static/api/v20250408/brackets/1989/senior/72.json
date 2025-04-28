@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Terrance O'Brien",
+    "top_team": "Panther W.C.",
+    "top_score": null,
+    "bottom_name": "Jareo Camer",
+    "bottom_team": "Mustangs W.C.",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Chad Red",
+    "top_team": "Danville Youth",
+    "top_score": null,
+    "bottom_name": "Thomas Grennan",
+    "bottom_team": "Newman Blue Devils",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Russell Guerrero",
     "top_team": "West Chicago Wildcats",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Tom Marek",
+    "bottom_team": "Arlington Cardinals",
     "bottom_score": null,
     "top_win": true,
     "result": ""

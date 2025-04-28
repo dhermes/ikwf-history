@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Sean Kuriger",
+    "top_team": "Indian Trail Wildcats",
+    "top_score": null,
+    "bottom_name": "Casey Inch",
+    "bottom_team": "Geneseo",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Mike Vakos",
+    "top_team": "Naperville Patriots",
+    "top_score": null,
+    "bottom_name": "Mike Miller",
+    "bottom_team": "Westville Jr. High",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Joe O'Roarke",
-    "top_team": "Mustangs WC",
+    "top_name": "Joe O'Rourke",
+    "top_team": "Mustangs W.C.",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Dan Hollendoner",
+    "bottom_team": "Tinley Park Bulldogs",
     "bottom_score": null,
     "top_win": true,
     "result": ""

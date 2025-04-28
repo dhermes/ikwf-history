@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Gary Bailey",
+    "top_team": "Round Lake Area P.D.",
+    "top_score": null,
+    "bottom_name": "Joe Bee",
+    "bottom_team": "Lanphier-Springfield",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Joel Stockwell",
+    "top_team": "Riverdale Rams",
+    "top_score": null,
+    "bottom_name": "Robert Ott",
+    "bottom_team": "Indian Prairie T'Blazers",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Scott Radosevich",
-    "top_team": "Vittum Cats WC",
+    "top_team": "Vittum Cats",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Mike Douglas",
+    "bottom_team": "Harvey Twisters",
     "bottom_score": null,
     "top_win": true,
     "result": ""

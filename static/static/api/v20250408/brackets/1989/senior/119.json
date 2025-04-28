@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Roger Pascual",
+    "top_team": "Arlington Cardinals",
+    "top_score": null,
+    "bottom_name": "Beau Wright",
+    "bottom_team": "Bismarck Henning",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "David Robinson",
+    "top_team": "Harvey Twisters",
+    "top_score": null,
+    "bottom_name": "Brian Weiskopf",
+    "bottom_team": "Warhawk W.C. Woodstock",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "John Stickler",
-    "top_team": "Riverdale (Rams) Jr. High",
+    "top_team": "Riverdale Rams",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Courtney Taylor",
+    "bottom_team": "Aurora J-Hawks",
     "bottom_score": null,
     "top_win": true,
     "result": ""
