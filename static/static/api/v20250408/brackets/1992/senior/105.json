@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "RYAN POZEN",
+    "top_team": "KNIGHT WC",
+    "top_score": null,
+    "bottom_name": "FRANSISCO VILLARREAL",
+    "bottom_team": "VILLA-LOMBARD COUGARS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "RYAN DUGGAN",
+    "top_team": "ST. TAR'S RAIDERS",
+    "top_score": null,
+    "bottom_name": "TIM GLOVER",
+    "bottom_team": "MORTON YOUTH WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Reginald Wright",
+    "top_name": "REGINALD WRIGHT",
     "top_team": "PIRATES",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "KEVIN MILLIGAN",
+    "bottom_team": "VILLA-LOMBARD COUGARS",
     "bottom_score": null,
     "top_win": true,
     "result": ""

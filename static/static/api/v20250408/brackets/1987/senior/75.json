@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Kevin Dunn",
+    "top_team": "Vittum Cats",
+    "top_score": null,
+    "bottom_name": "Chuy Villarreal",
+    "bottom_team": "Medinah Lancers WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Michael Griffin",
+    "top_team": "Rich Wrestling Ltd",
+    "top_score": null,
+    "bottom_name": "Curt Bee",
+    "bottom_team": "Lanphier-Southeast WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Dan Gilbert",
     "top_team": "Tinley Park Bulldogs",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Jim Soldan",
+    "bottom_team": "Frankfort Falcons",
     "bottom_score": null,
     "top_win": true,
     "result": ""

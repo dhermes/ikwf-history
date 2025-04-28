@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "ANDREW LINARES",
+    "top_team": "HOOPESTON",
+    "top_score": null,
+    "bottom_name": "JOHN DIETERLE",
+    "bottom_team": "QUINCY",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "BRYAN ROUSE",
+    "top_team": "MAIN TWP EAGLES",
+    "top_score": null,
+    "bottom_name": "PARKER PINNELL",
+    "bottom_team": "WAUKEGAN",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "MARCK GENTHE",
-    "top_team": "VILLA LOMBARD",
+    "top_team": "VILLA LOMBARD COUGARS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "NICK CURBY",
+    "bottom_team": "LIONS WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "ZACHARY ANDERSON",
+    "top_team": "TIGERTOWN TANGLERS",
+    "top_score": null,
+    "bottom_name": "JASON ATHERTON",
+    "bottom_team": "METAMORA",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "JEFF ANDERSON",
+    "top_team": "TINLEY PARK BULLDOGS",
+    "top_score": null,
+    "bottom_name": "MATTHEW EARNER",
+    "bottom_team": "ST. BARNABAS CHRIST THE KING",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Steven Bryant",
-    "top_team": "Bethalto",
+    "top_name": "STEVEN BRYANT",
+    "top_team": "BETHALTO",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "MATTHEW FRITZ",
+    "bottom_team": "HARLEM SCHOOL DIST. 122",
     "bottom_score": null,
     "top_win": true,
     "result": ""

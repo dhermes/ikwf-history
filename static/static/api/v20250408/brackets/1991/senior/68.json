@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "ARCHIE GRIFFIN",
+    "top_team": "WARHAWKS",
+    "top_score": null,
+    "bottom_name": "MOSES REED",
+    "bottom_team": "DANVILLE BOYS CLUB",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "JOSEPH SUKLEY",
+    "top_team": "PLAINFIELD INDIAN TRAIL",
+    "top_score": null,
+    "bottom_name": "JASON MALMSTROM",
+    "bottom_team": "OSWEGO PANTHERS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Matt Goldstein",
+    "top_name": "MATT GOLDSTEIN",
     "top_team": "LITTLE GIANTS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "DAVID STOLTZ",
+    "bottom_team": "ARLINGTON CARDINALS",
     "bottom_score": null,
     "top_win": true,
     "result": ""

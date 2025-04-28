@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Charlie England",
+    "top_team": "Plainfield",
+    "top_score": null,
+    "bottom_name": "Dan Oswald",
+    "bottom_team": "Lockport",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Gary Dean",
+    "top_team": "Rochelle",
+    "top_score": null,
+    "bottom_name": "Tim Hinson",
+    "bottom_team": "Rock Ridge",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Richard Harvey",
     "top_team": "Decatur YMCA",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Jack Schomig",
+    "bottom_team": "Wheaton Falcons",
     "bottom_score": null,
     "top_win": true,
     "result": ""

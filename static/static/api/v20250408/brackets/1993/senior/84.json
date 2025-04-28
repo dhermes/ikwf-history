@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "BRIAN WILSON",
+    "top_team": "CRYSTAL LAKE",
+    "top_score": null,
+    "bottom_name": "STEVEN WERNSMAN",
+    "bottom_team": "YORKVILLE",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "JC GAUNT",
+    "top_team": "MT. VERNON",
+    "top_score": null,
+    "bottom_name": "JAKE SULLIVAN",
+    "bottom_team": "BETHALTO",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Roamelle Kizzee",
-    "top_team": "Harvey Twisters",
+    "top_name": "ROAMELLE KIZZEE",
+    "top_team": "HARVEY TWISTERS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "JOE WZOREK",
+    "bottom_team": "ORLAND PARK PIONEERS",
     "bottom_score": null,
     "top_win": true,
     "result": ""

@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "ANDY RAINS",
+    "top_team": "MARION",
+    "top_score": null,
+    "bottom_name": "DAN MCNULTY",
+    "bottom_team": "ST. BARNABAS/CHRIST KING",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "TJ SLAY",
+    "top_team": "GRANITE CITY GRIGSBY",
+    "top_score": null,
+    "bottom_name": "AARON CHRISTIANSEN",
+    "bottom_team": "TIGERTOWN TANGLERS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Tyler Hurry",
-    "top_team": "Riverdale Jr. High",
+    "top_name": "TYLER HURRY",
+    "top_team": "RIVERDALE JR. HIGH",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "MATT WEBSTER",
+    "bottom_team": "METAMORA KIDS",
     "bottom_score": null,
     "top_win": true,
     "result": ""

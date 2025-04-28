@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "RONNIE DALLGE",
+    "top_team": "MT. ZION",
+    "top_score": null,
+    "bottom_name": "CHUCK BURROWS",
+    "bottom_team": "BETHALTO",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "DENNIS PLECKHAM",
+    "top_team": "RICH WRESTLING",
+    "top_score": null,
+    "bottom_name": "CHAD KARLEN",
+    "bottom_team": "ROUND LAKE SPARTANS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Tony Doughty",
-    "top_team": "Franklin Park Raider",
+    "top_name": "TONY DOUGHTY",
+    "top_team": "FRANKLIN PARK RAIDERS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "ERIC WOLDIET",
+    "bottom_team": "VILLA LOMBARD COUGARS",
     "bottom_score": null,
     "top_win": true,
     "result": ""

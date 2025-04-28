@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "J. Wojcik",
+    "top_team": "Panther WC",
+    "top_score": null,
+    "bottom_name": "Scott Venter",
+    "bottom_team": "Geneseo",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Jim Meier",
+    "top_team": "Plano",
+    "top_score": null,
+    "bottom_name": "Dave Rapp",
+    "bottom_team": "Vittum Cats",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Adam Lang",
     "top_team": "Carol Stream",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Jim Hannon",
+    "bottom_team": "Naperville Patriots",
     "bottom_score": null,
     "top_win": true,
     "result": ""

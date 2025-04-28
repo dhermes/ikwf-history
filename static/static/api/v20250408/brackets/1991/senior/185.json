@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "CRAIG TURNER",
+    "top_team": "TRAILBLAZERS",
+    "top_score": null,
+    "bottom_name": "BRYAN EPTING",
+    "bottom_team": "WARHAWKS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "JOSE SAUCEDO",
+    "top_team": "HARVARD",
+    "top_score": null,
+    "bottom_name": "DAVID YOKLEY",
+    "bottom_team": "UNITY YOUTH",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Mark Harvey",
+    "top_name": "MARK HARVEY",
     "top_team": "MT. ZION",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "DAN VOLIPENDENTEST",
+    "bottom_team": "LITTLE GIANTS",
     "bottom_score": null,
     "top_win": true,
     "result": ""

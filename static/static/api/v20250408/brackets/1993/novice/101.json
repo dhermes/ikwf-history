@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "DARLOS GOMEZ",
+    "top_team": "ADDISON INDIAN TRAIL",
+    "top_score": null,
+    "bottom_name": "BRANDON DOLEZAL",
+    "bottom_team": "LOCKPORT",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "NICK UPTON",
+    "top_team": "MATTOON",
+    "top_score": null,
+    "bottom_name": "AARON POWERS",
+    "bottom_team": "ROCKFORD",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "MATT LACKEY",
     "top_team": "MOLINE TIGERS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "DENIS POOL",
+    "bottom_team": "GLENDALE GRAPPLERS",
     "bottom_score": null,
     "top_win": true,
     "result": ""

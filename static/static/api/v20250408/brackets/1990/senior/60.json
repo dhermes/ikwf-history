@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Michael Murphy Jr.",
+    "top_team": "Lockport Grapplers WC",
+    "top_score": null,
+    "bottom_name": "Anthony Opiola",
+    "bottom_team": "Dolton Park Falcons",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Michael Mathews",
+    "top_team": "Naperville Patriots WC",
+    "top_score": null,
+    "bottom_name": "John Murphy",
+    "bottom_team": "Lockport Grapplers WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Todd Combes",
     "top_team": "Dolton Park Falcons",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Leonard Bowens",
+    "bottom_team": "Harvey Park District Twisters",
     "bottom_score": null,
     "top_win": true,
     "result": ""

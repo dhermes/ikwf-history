@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "SHAWN MCDONNELL",
+    "top_team": "CRYSTAL LAKE WIZARDS",
+    "top_score": null,
+    "bottom_name": "PATRICK ARVIN",
+    "bottom_team": "OSWEGO COUGARS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "HORACE FLOURNOY",
+    "top_team": "TRICITY BRAVES",
+    "top_score": null,
+    "bottom_name": "SHAIN PRAHL",
+    "bottom_team": "OSWEGO COUGARS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "SEAN CONSIDINE",
-    "top_team": "VILLA LOMBARD",
+    "top_team": "VILLA LOMBARD COUGARS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "MARK MCCUTCHEON",
+    "bottom_team": "LOCKPORT",
     "bottom_score": null,
     "top_win": true,
     "result": ""

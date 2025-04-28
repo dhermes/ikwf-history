@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "AARON SHADAB",
+    "top_team": "ELGIN",
+    "top_score": null,
+    "bottom_name": "MAATHAN SKELTON",
+    "bottom_team": "BETHALTO",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "HANK STOUT",
+    "top_team": "VANDALIA",
+    "top_score": null,
+    "bottom_name": "STANLEY EVANS JR.",
+    "bottom_team": "PIRATES",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Tommy Grossman",
-    "top_team": "Tinley Park",
+    "top_name": "TOMMY GROSSMAN",
+    "top_team": "TINLEY PARK BULLDOGS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "DEREK STACHURA",
+    "bottom_team": "MORTON YOUTH",
     "bottom_score": null,
     "top_win": true,
     "result": ""

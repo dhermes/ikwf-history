@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Rich Bielik",
+    "top_team": "Hickory Hills",
+    "top_score": null,
+    "bottom_name": "M. Seelye",
+    "bottom_team": "Lyons",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Shawn O'Neil",
+    "top_team": "Rock Ridge",
+    "top_score": null,
+    "bottom_name": "Dan Punkay",
+    "bottom_team": "Champaign",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Bill Novak",
     "top_team": "Panther WC",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Maurice Mance",
+    "bottom_team": "Harvey",
     "bottom_score": null,
     "top_win": true,
     "result": ""

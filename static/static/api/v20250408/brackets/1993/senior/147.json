@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "ADAM LYONS",
+    "top_team": "DANVILLE",
+    "top_score": null,
+    "bottom_name": "WILLIAM REIDY",
+    "bottom_team": "DOLTON FALCONS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "CHARLES MCNEAL",
+    "top_team": "ST. CHARLES",
+    "top_score": null,
+    "bottom_name": "MORIO SANCHEZ",
+    "bottom_team": "BELVIDERE",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Jason Christeson",
-    "top_team": "Bethalto",
+    "top_name": "JASON CHRISTESON",
+    "top_team": "BETHALTO",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "DAVID POTTER",
+    "bottom_team": "ST. CHARLES",
     "bottom_score": null,
     "top_win": true,
     "result": ""

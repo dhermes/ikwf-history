@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "GRIFF POWELL",
+    "top_team": "ARLINGTON CARDINALS",
+    "top_score": null,
+    "bottom_name": "FRAN BLAKE",
+    "bottom_team": "MUSTANGS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "TOMMY LEE",
+    "top_team": "OAK FOREST WARRIORS",
+    "top_score": null,
+    "bottom_name": "TIM GLOVER",
+    "bottom_team": "MORTON YOUTH",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Tony Davis",
-    "top_team": "HARVEY TWISTERS",
+    "top_name": "TONY DAVIS",
+    "top_team": "HARVEY PD TWISTERS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "FRANCISCO BERMUDEZ",
+    "bottom_team": "LOCKPORT GRAPLERS",
     "bottom_score": null,
     "top_win": true,
     "result": ""

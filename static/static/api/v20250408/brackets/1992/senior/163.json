@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "LOUIE SPONSEL",
+    "top_team": "PALATINE CHARGERS",
+    "top_score": null,
+    "bottom_name": "JOE GRIPPO",
+    "bottom_team": "ST. TAR'S RAIDERS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "ARMOND DAVIS",
+    "top_team": "MASON SCHOOL PLAYGROUND",
+    "top_score": null,
+    "bottom_name": "JOHN RUIZ",
+    "bottom_team": "ST. BARNABAS/CHRIST THE KING",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Aaron Valley",
-    "top_team": "ST. CHARLES WC",
+    "top_name": "AARON VALLEY",
+    "top_team": "ST. CHARLES WC DIST 303",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "WES INMAN",
+    "bottom_team": "TRAILBLAZERS WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

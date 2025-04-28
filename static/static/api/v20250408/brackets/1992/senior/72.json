@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "BRADLEE VERMILLION",
+    "top_team": "CRYSTAL LAKE WIZARDS",
+    "top_score": null,
+    "bottom_name": "SAM SCHAEFER",
+    "bottom_team": "WHEATON WARRENVILLE",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "DAVID STOLTZ",
+    "top_team": "ARLINGTON CARDINALS WC",
+    "top_score": null,
+    "bottom_name": "PAUL GARBIS",
+    "bottom_team": "TRAILBLAZER WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Leonard Bowens",
-    "top_team": "HARVEY TWISTERS",
+    "top_name": "LEONARD BOWENS",
+    "top_team": "HARVEY PARK TWISTERS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "NICHOLAS BINGHEIM",
+    "bottom_team": "BETHALTO JR. HIGH",
     "bottom_score": null,
     "top_win": true,
     "result": ""

@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Andrew Larson",
+    "top_team": "East Moline W.C.",
+    "top_score": null,
+    "bottom_name": "Dirk Dorn",
+    "bottom_team": "Naperville Warhawks",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Randy Saller",
+    "top_team": "Dolton Falcons",
+    "top_score": null,
+    "bottom_name": "Matt Cruszka",
+    "bottom_team": "Indian Prairie",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Bill Guide",
     "top_team": "Vittum Cats",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "George Hoffman",
+    "bottom_team": "Joliet YMCA Wrest.",
     "bottom_score": null,
     "top_win": true,
     "result": ""

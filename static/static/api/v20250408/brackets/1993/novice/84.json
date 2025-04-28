@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "RICKY OLSZTA",
+    "top_team": "LITTLE CELTICS",
+    "top_score": null,
+    "bottom_name": "CAL RYDER",
+    "bottom_team": "MATTOON",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "PATRICK ROSS",
+    "top_team": "MUSTANGS",
+    "top_score": null,
+    "bottom_name": "BOB WHITE",
+    "bottom_team": "MORRISON",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "NICK BINGHEIM",
     "top_team": "BETHALTO",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "ANGELO GERVASIO",
+    "bottom_team": "LEMONT BEARS",
     "bottom_score": null,
     "top_win": true,
     "result": ""

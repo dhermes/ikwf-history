@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Scott Ventimiglia",
+    "top_team": "Roxana Roughnecks",
+    "top_score": null,
+    "bottom_name": "Priest Wilson",
+    "bottom_team": "Georgetown WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Mike Ahrens",
+    "top_team": "LaGrange Lions",
+    "top_score": null,
+    "bottom_name": "Patrick Mahoney",
+    "bottom_team": "Villa Lombard WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Chris Ireland",
+    "top_name": "Christopher Ireland",
     "top_team": "Moline Wildcats",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Matt Sell",
+    "bottom_team": "DeKalb WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Andre Mayon",
+    "top_team": "Indian Prairie",
+    "top_score": null,
+    "bottom_name": "Joe Minnitti",
+    "bottom_team": "Wheaton Falcons",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Johan Lerch",
+    "top_team": "Rock Ridge",
+    "top_score": null,
+    "bottom_name": "Ed McDonald",
+    "bottom_team": "Palos",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Andy Sharp",
     "top_team": "DeKalb Huntley",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Joe Ori",
+    "bottom_team": "Crusaders",
     "bottom_score": null,
     "top_win": true,
     "result": ""

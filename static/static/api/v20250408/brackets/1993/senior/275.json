@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "DAVID WITTENBORN",
+    "top_team": "EISENHOWER JR. HAWK",
+    "top_score": null,
+    "bottom_name": "BALTAZAR NINO",
+    "bottom_team": "BATAVIA",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "CHAD JENKINS",
+    "top_team": "DAKOTA",
+    "top_score": null,
+    "bottom_name": "MARTIN GONZALEZ",
+    "bottom_team": "BRADLEY BOURBONAIS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Hubert Thompson",
-    "top_team": "Warhowk WC",
+    "top_name": "HUBERT THOMPSON",
+    "top_team": "WARHAWK WC",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "ANDY MYERS",
+    "bottom_team": "OAK LAWN",
     "bottom_score": null,
     "top_win": true,
     "result": ""

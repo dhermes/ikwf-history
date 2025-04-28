@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "STEVE NIELSEN",
+    "top_team": "HICKORY HILLS",
+    "top_score": null,
+    "bottom_name": "JACOB SMITH",
+    "bottom_team": "VILLA LOMBARD COUGARS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "TRAVIS ZIMMERMAN",
+    "top_team": "BETHALTO",
+    "top_score": null,
+    "bottom_name": "MICHAEL BRUNO",
+    "bottom_team": "PLAINFIELD IT",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Alan Wilson",
-    "top_team": "Crystal Lake",
+    "top_name": "ALAN WILSON",
+    "top_team": "CRYSTAL LAKE WIZARDS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "CHRIS RODRIGUEZ",
+    "bottom_team": "TOMCAT WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

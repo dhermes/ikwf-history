@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "CK ESPOSITO",
+    "top_team": "VILLA LOMBARD COUGARS",
+    "top_score": null,
+    "bottom_name": "ADAM STIMPSON",
+    "bottom_team": "JORDAN SETON",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "ADAM VENTSIAS",
+    "top_team": "PLAINFIELD IT",
+    "top_score": null,
+    "bottom_name": "NICK POEHLMAN",
+    "bottom_team": "MORTON",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "JOE CHIRUMBOLO",
     "top_team": "EAGLE WC",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "NICHOLAS LATUS",
+    "bottom_team": "EAGLE WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

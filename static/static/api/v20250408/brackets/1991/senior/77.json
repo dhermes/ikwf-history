@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "RYAN DELIRA",
+    "top_team": "DOLTON PARK FALCONS",
+    "top_score": null,
+    "bottom_name": "IAN PENZATO",
+    "bottom_team": "VILLA LOMBARD COUGARS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "ALAN CARTWRIGHT",
+    "top_team": "WARHAWKS",
+    "top_score": null,
+    "bottom_name": "JAMES ABERLE",
+    "bottom_team": "ROUND LAKE SPARTANS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Milton Blakely",
-    "top_team": "HARVEY TWISTERS",
+    "top_name": "MILTON BLAKELY",
+    "top_team": "HARVEY PD TWISTERS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "DANIEL BORLAND",
+    "bottom_team": "BLUE CREW",
     "bottom_score": null,
     "top_win": true,
     "result": ""

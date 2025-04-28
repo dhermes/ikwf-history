@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Jim Collin",
+    "top_team": "DeKalb Huntley",
+    "top_score": null,
+    "bottom_name": "Don Neece",
+    "bottom_team": "Rockridge Jr. High",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Sean McKeon",
+    "top_team": "Unity Youth W.C.",
+    "top_score": null,
+    "bottom_name": "Jeffery Rosas",
+    "bottom_team": "Generals W.C.",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Joe Gilbert",
     "top_team": "Tinley Park Bulldogs",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Pat Gallagly",
+    "bottom_team": "Harvard W.C.",
     "bottom_score": null,
     "top_win": true,
     "result": ""

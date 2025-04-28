@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "GEORGE GARCIA",
+    "top_team": "BLACKHAWK II",
+    "top_score": null,
+    "bottom_name": "KOREY REID",
+    "bottom_team": "CHARGER KIDS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "JEREMY DURBIN",
+    "top_team": "VANDALIA",
+    "top_score": null,
+    "bottom_name": "CHAD SHEPHERD",
+    "bottom_team": "BRADLEY BOURBONAIS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Anthony Englese",
-    "top_team": "Mead JH School",
+    "top_name": "ANTHONY ENGLESE",
+    "top_team": "MEAD",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "JASON NAPE",
+    "bottom_team": "CRESTWOOD",
     "bottom_score": null,
     "top_win": true,
     "result": ""

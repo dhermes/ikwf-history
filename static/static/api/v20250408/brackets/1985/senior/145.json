@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Marcus Adkins",
+    "top_team": "Edwardsville W.C.",
+    "top_score": null,
+    "bottom_name": "Kyle Field",
+    "bottom_team": "Youth Razorbacks",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Matt Rood",
+    "top_team": "Villa Lombard",
+    "top_score": null,
+    "bottom_name": "Russell Davis",
+    "bottom_team": "Chicago Ridge P.D.",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Kevin Nolan",
-    "top_team": "Colts WC",
+    "top_team": "Colts W.C.",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Dean McWilliams",
+    "bottom_team": "Vittum Cats",
     "bottom_score": null,
     "top_win": true,
     "result": ""

@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Jermaine White",
+    "top_team": "OPRF Warhawks",
+    "top_score": null,
+    "bottom_name": "Brody Rude",
+    "bottom_team": "Newman Blue Devils",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Scott Benjamin",
+    "top_team": "Catlin Youth WC",
+    "top_score": null,
+    "bottom_name": "Danny Jovanovic",
+    "bottom_team": "Dolton Park Falcons",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Timothy Williams",
     "top_team": "Harvey Park District Twisters",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Ben Gerdes",
+    "bottom_team": "Orland Park Pioneers",
     "bottom_score": null,
     "top_win": true,
     "result": ""

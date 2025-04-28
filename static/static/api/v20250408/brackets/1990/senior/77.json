@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Jim Brasher",
+    "top_team": "Vittum Cats",
+    "top_score": null,
+    "bottom_name": "Andrew O'Malley",
+    "bottom_team": "St. Barnabas",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Blake Hoerr",
+    "top_team": "Chillicothe Wrestling",
+    "top_score": null,
+    "bottom_name": "Durand Womack",
+    "bottom_team": "Harvey Park District Twisters",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Don Bermudez",
-    "top_team": "Lockport Grapplers Wrestling",
+    "top_team": "Lockport Grapplers WC",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Thomas Grennan",
+    "bottom_team": "Newman Blue Devils",
     "bottom_score": null,
     "top_win": true,
     "result": ""

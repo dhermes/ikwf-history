@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "ERIC CASTANEDA",
+    "top_team": "EISENHOWER JR. HAWK",
+    "top_score": null,
+    "bottom_name": "JEFFREY BROUCEK",
+    "bottom_team": "LEMONT",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "ANDY MOORE",
+    "top_team": "ARGENTA OREANA",
+    "top_score": null,
+    "bottom_name": "KEVIN BROWER",
+    "bottom_team": "JR. ROCKET",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Ben Mena",
-    "top_team": "Rockford WC",
+    "top_name": "BEN MENA",
+    "top_team": "ROCKFORD WC",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "JON LOVRICH",
+    "bottom_team": "HICKORY HILLS",
     "bottom_score": null,
     "top_win": true,
     "result": ""

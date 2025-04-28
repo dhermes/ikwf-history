@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Scott Richardson",
+    "top_team": "New Lenox Lions",
+    "top_score": null,
+    "bottom_name": "Lance Earl",
+    "bottom_team": "DeKalb Rosette",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Joe Herrman",
+    "top_team": "Sycamore",
+    "top_score": null,
+    "bottom_name": "Robbie Jeffrey",
+    "bottom_team": "Rich Township",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Sam Geraci",
     "top_team": "Lancers",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Paul Lekousis",
+    "bottom_team": "Vittum Cats",
     "bottom_score": null,
     "top_win": true,
     "result": ""

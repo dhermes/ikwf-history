@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Gilbert Rivera",
+    "top_team": "Eisenhower",
+    "top_score": null,
+    "bottom_name": "Chris Gadziak",
+    "bottom_team": "Hickory Hills P.D.",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Bradley George",
+    "top_team": "St. Tarcissus Raiders",
+    "top_score": null,
+    "bottom_name": "Craig Wall",
+    "bottom_team": "Wilbur Trimpe Jr. High",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Sherif Zegar",
     "top_team": "Panther WC",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Bill Johnson",
+    "bottom_team": "Edwardsville W.C.",
     "bottom_score": null,
     "top_win": true,
     "result": ""

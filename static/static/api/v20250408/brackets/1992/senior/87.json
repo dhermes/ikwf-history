@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "ALAN WILSON",
+    "top_team": "CRYSTAL LAKE WIZARDS",
+    "top_score": null,
+    "bottom_name": "DOMINIC CICCONE",
+    "bottom_team": "TINLEY PARK BULLDOGS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "LUKE EWANIO",
+    "top_team": "ROSEMONT COBRAS",
+    "top_score": null,
+    "bottom_name": "IAN PENZATO",
+    "bottom_team": "VILLA-LOMBARD",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Andy Douglas",
-    "top_team": "ADDAMS JR. HIGH",
+    "top_name": "ANDY DOUGLAS",
+    "top_team": "ADDAMS JH WC",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "MICHAEL BONDI",
+    "bottom_team": "DUNDEE HIGHLANDERS WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

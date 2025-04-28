@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Chad Red",
+    "top_team": "Danville YMCA WC",
+    "top_score": null,
+    "bottom_name": "Jim Brasher",
+    "bottom_team": "Vittum Cats",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Tony Davis",
+    "top_team": "Harvey Twisters",
+    "top_score": null,
+    "bottom_name": "Jerry Delira",
+    "bottom_team": "Lan-Oak Park District",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Ben Gerdes",
     "top_team": "Orland Park Pioneers",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Justin Weber",
+    "bottom_team": "Villa Lombard WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

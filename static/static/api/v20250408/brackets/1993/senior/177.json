@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "MATTHEW KUEBEL",
+    "top_team": "FULTON",
+    "top_score": null,
+    "bottom_name": "SCOTT DAVES",
+    "bottom_team": "PANTHER CUB",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "JASON BERG",
+    "top_team": "DAKOTA",
+    "top_score": null,
+    "bottom_name": "CHRIS PARCK",
+    "bottom_team": "NAPERVILLE WARRIORS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Toby Adams",
-    "top_team": "W. F. Thunderbird",
+    "top_name": "TOBY ADAMS",
+    "top_team": "W.F. THUNDERBIRD",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "JOHN MAILLET",
+    "bottom_team": "DOWNERS GROVE",
     "bottom_score": null,
     "top_win": true,
     "result": ""

@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Bill Sullivan",
+    "top_team": "Dundee Highlanders",
+    "top_score": null,
+    "bottom_name": "Rovon Jones",
+    "bottom_team": "Matburns Wrestlling Club",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Charlie Bedder",
+    "top_team": "Turk WC",
+    "top_score": null,
+    "bottom_name": "Steve Davis",
+    "bottom_team": "Unity Youth WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "George Hollendoner",
-    "top_team": "Tinley Park",
+    "top_team": "Tinley Park Bulldogs",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Russ Bannister",
+    "bottom_team": "DeKalb WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

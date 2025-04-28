@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "DANNY MARTINEZ",
+    "top_team": "BELVIDERE YMCA BANDITS",
+    "top_score": null,
+    "bottom_name": "ANDREW PENNA",
+    "bottom_team": "CRYSTAL LAKE WIZARDS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "PAUL AUGLE",
+    "top_team": "TINLEY PARK BULLDOGS",
+    "top_score": null,
+    "bottom_name": "NICHOLAS CIRRINCIONE",
+    "bottom_team": "VILLA-LOMBARD COUGARS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Jeremy Hayes",
+    "top_name": "JEREMY HAYES",
     "top_team": "MORTON YOUTH WC",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "STEVE RODGERS",
+    "bottom_team": "CROSSFACE WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

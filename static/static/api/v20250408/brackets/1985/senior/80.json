@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Tom Derro",
+    "top_team": "Panther WC",
+    "top_score": null,
+    "bottom_name": "Tom Buenik",
+    "bottom_team": "Vittum Cats",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Shelly Resendez",
+    "top_team": "Oak Forest Warriors",
+    "top_score": null,
+    "bottom_name": "Dan Willis",
+    "bottom_team": "New Lenox Lions",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Doug Hayes",
     "top_team": "Oak Forest Warriors",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Scott Garelli",
+    "bottom_team": "Villa Lombard",
     "bottom_score": null,
     "top_win": true,
     "result": ""

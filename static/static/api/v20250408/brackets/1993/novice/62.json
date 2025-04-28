@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "GEORGE SIMS",
+    "top_team": "JOLIET BOYS CLUB COBRAS",
+    "top_score": null,
+    "bottom_name": "SIM BRANDAU",
+    "bottom_team": "LITTLE CELTICS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "CALEB FERRY",
+    "top_team": "HARLEM SCHOOL DIST. 122",
+    "top_score": null,
+    "bottom_name": "SHAUN DANNENBRINK",
+    "bottom_team": "BETHALTO",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "ISRAEL MARTINEZ",
     "top_team": "TOMCAT WC",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "JUSTIN CLUBB",
+    "bottom_team": "HARLEM SCHOOL DIST. 122",
     "bottom_score": null,
     "top_win": true,
     "result": ""

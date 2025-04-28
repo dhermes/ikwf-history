@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "MATT CASELLA",
+    "top_team": "LIONS WC",
+    "top_score": null,
+    "bottom_name": "JOHNNY KNIGHT",
+    "bottom_team": "MACOMB KIDS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "JOHN JANEK",
+    "top_team": "GCWC COOLIDGE",
+    "top_score": null,
+    "bottom_name": "JASON HOLLENDONER",
+    "bottom_team": "TINLEY PARK BULLDOGS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Terry Griffis",
+    "top_name": "TERRY GRIFFIS",
     "top_team": "ROCKFORD WC",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "LUIS ARREDONDO",
+    "bottom_team": "BLACKHAWK WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

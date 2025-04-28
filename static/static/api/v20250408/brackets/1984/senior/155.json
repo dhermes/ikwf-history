@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Greg Davis",
+    "top_team": "Rochelle",
+    "top_score": null,
+    "bottom_name": "Matt Olson",
+    "bottom_team": "Sterling Redbirds",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Kevin Smith",
+    "top_team": "DeKalb Rosette",
+    "top_score": null,
+    "bottom_name": "Wayne Burke",
+    "bottom_team": "Gibson City",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Jesus Garcia",
     "top_team": "Rich Township",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Charles Nied",
+    "bottom_team": "West Chicago",
     "bottom_score": null,
     "top_win": true,
     "result": ""

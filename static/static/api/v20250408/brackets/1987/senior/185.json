@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Hector Figueroa",
+    "top_team": "Vittum Cats",
+    "top_score": null,
+    "bottom_name": "Greg Stec",
+    "bottom_team": "LaGrange Lions",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Jason Lewis",
+    "top_team": "Moine Wildcats",
+    "top_score": null,
+    "bottom_name": "Harvie Link, Jr.",
+    "bottom_team": "Belleville Little Devils",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Patrick McDonald",
     "top_team": "Harvey Twisters",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Juan Molina",
+    "bottom_team": "Unity Youth WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Jim Leduc",
+    "top_team": "Indian Prairie Trailblazers",
+    "top_score": null,
+    "bottom_name": "Brian Martin",
+    "bottom_team": "Edwardsville",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Ruben Saldana",
+    "top_team": "Tomcat WC",
+    "top_score": null,
+    "bottom_name": "Ryan Reinhart",
+    "bottom_team": "Unity Youth",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Ron Stonitsch",
     "top_team": "Crestwood Colts WC",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Ryan Casey",
+    "bottom_team": "St. Barnabas",
     "bottom_score": null,
     "top_win": true,
     "result": ""

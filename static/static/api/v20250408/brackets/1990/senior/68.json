@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Milton Blakely",
+    "top_team": "Harvey Park District Twisters",
+    "top_score": null,
+    "bottom_name": "Joel Howard",
+    "bottom_team": "Naperville Patriots WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Danny Borland",
+    "top_team": "Blue Crew WC",
+    "top_score": null,
+    "bottom_name": "Jim Aberle",
+    "bottom_team": "Round Lake Spartans",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Marc Zehr",
-    "top_team": "Arlington Cardinals WC",
+    "top_team": "Arlington Cardinals",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Francisco Bermudez",
+    "bottom_team": "Lockport Grapplers WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

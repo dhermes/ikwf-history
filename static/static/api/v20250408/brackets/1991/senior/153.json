@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "WILLIAM ARTHUR",
+    "top_team": "VITTUM CATS",
+    "top_score": null,
+    "bottom_name": "CHUCK BLAZER",
+    "bottom_team": "HARVARD",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "JASON SALLEY",
+    "top_team": "EISENHOWER JR. HIGH",
+    "top_score": null,
+    "bottom_name": "BRENT ROGERS",
+    "bottom_team": "EDWARDSVILLE",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Adam Mool",
-    "top_team": "El Paso",
+    "top_name": "ADAM MOOL",
+    "top_team": "EL PASO",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "TIM ANGSTEN",
+    "bottom_team": "TINLEY PARK BULLDOGS",
     "bottom_score": null,
     "top_win": true,
     "result": ""

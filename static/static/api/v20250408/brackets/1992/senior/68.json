@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "MARK MANKOWSKI",
+    "top_team": "HICKORY HILLS PD",
+    "top_score": null,
+    "bottom_name": "TONY DOUGHTY",
+    "bottom_team": "FRANKLIN PARK RAIDERS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "SCOTT KENNY",
+    "top_team": "ORLAND PARK PIONEERS",
+    "top_score": null,
+    "bottom_name": "ADAM WASON",
+    "bottom_team": "TIGERTOWN TANGLERS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Kyle Oneill",
+    "top_name": "KYLE ONEILL",
     "top_team": "TINLEY PARK BULLDOGS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "ANTHONY OPIOLA",
+    "bottom_team": "DOLTON PARK FALCONS",
     "bottom_score": null,
     "top_win": true,
     "result": ""

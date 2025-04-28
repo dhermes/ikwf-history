@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Dan Limon",
+    "top_team": "Lil' Reaper WC",
+    "top_score": null,
+    "bottom_name": "Brad Wood",
+    "bottom_team": "Metamora Kids WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Brad Gardner",
+    "top_team": "Lanphier-Southeast WC",
+    "top_score": null,
+    "bottom_name": "Mike Barcena",
+    "bottom_team": "Vittum Cats",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Bryan Rebhan",
-    "top_team": "Naperville Warhawk",
+    "top_team": "Naperville Warhawks",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Joseph Lamantia",
+    "bottom_team": "Eisenhower Jr. High",
     "bottom_score": null,
     "top_win": true,
     "result": ""

@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Ken Biala",
+    "top_team": "Villa-Lombard Cougars",
+    "top_score": null,
+    "bottom_name": "Timothy Miller",
+    "bottom_team": "Plainfield Indian Trail Wrest.",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Joseph Opiola",
+    "top_team": "Dolton Park Falcons",
+    "top_score": null,
+    "bottom_name": "Stephen Stanley",
+    "bottom_team": "Mattoon WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Dan Collins",
-    "top_team": "Arlington Cardinals WC",
+    "top_team": "Arlington Cardinals",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "James Crnich",
+    "bottom_team": "Oak Forest Warriors",
     "bottom_score": null,
     "top_win": true,
     "result": ""

@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "KEVIN RANDOLPH",
+    "top_team": "OAK FOREST WARRIORS",
+    "top_score": null,
+    "bottom_name": "ROBERT MURRAY",
+    "bottom_team": "ORLAND PARK PIONEERS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "GRANT HOERR",
+    "top_team": "MORTON YOUTH",
+    "top_score": null,
+    "bottom_name": "IKE SULLIVAN",
+    "bottom_team": "BETHALTO",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Todd Combes",
-    "top_team": "Dolton Park Falcons",
+    "top_name": "TODD COMBES",
+    "top_team": "DOLTON FALCONS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "ARCHIE GRIFFIN",
+    "bottom_team": "PIRATES",
     "bottom_score": null,
     "top_win": true,
     "result": ""

@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "KEVIN O'NIEL",
+    "top_team": "ADAMS JR. HIGH",
+    "top_score": null,
+    "bottom_name": "MATT FERGUSON",
+    "bottom_team": "LITTLE DEVILS BELLEVILLE",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "TIMOTHY DONNAHUE",
+    "top_team": "PANTHERS",
+    "top_score": null,
+    "bottom_name": "STEVEN TORRES",
+    "bottom_team": "VITTUM CATS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Timothy Williams",
-    "top_team": "HARVEY TWISTERS",
+    "top_name": "TIMOTHY WILLIAMS",
+    "top_team": "HARVEY PD TWISTERS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "CODY ABBOTT",
+    "bottom_team": "URBANA KIDS",
     "bottom_score": null,
     "top_win": true,
     "result": ""

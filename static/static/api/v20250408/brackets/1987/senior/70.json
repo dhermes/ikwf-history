@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Daniel Schickel",
+    "top_team": "Colts WC",
+    "top_score": null,
+    "bottom_name": "Bryant Crawford",
+    "bottom_team": "Geneseo WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Matt Bouback",
+    "top_team": "Belvidere Bandits YMCA WC",
+    "top_score": null,
+    "bottom_name": "Tim Stringer",
+    "bottom_team": "Dolton Park Jr. Falcons",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Jay Ford",
+    "top_name": "Jason Ford",
     "top_team": "Rich Wrestling Ltd.",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Ryan Ferguson",
+    "bottom_team": "Medinah Lancers WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""
