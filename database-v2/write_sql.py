@@ -595,7 +595,7 @@ def _handle_tournament(
     extracted: bracket_utils.ExtractedTournament,
     team_name_synonyms: dict[int, list[bracket_utils.TeamNameSynonym]],
 ) -> InsertIDs:
-    team_by_acronym, team_by_name = _build_team_maps(extracted)
+    _, team_by_name = _build_team_maps(extracted)
     team_id_map = _add_team_rows(
         tournament_id, insert_ids, inserts, team_by_name, extracted, team_name_synonyms
     )

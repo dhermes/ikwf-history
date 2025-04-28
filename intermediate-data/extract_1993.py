@@ -71,7 +71,7 @@ _NOVICE_PLACERS: dict[int, list[bracket_utils.Placer]] = {
         bracket_utils.Placer(name="MICHAEL POWELL", team="FISHER"),
         bracket_utils.Placer(name="DANNY QUARTZ", team="LITTLE DEVILS"),
         bracket_utils.Placer(name="DANA HOLLAND", team="VILLA LOMBARD COUGARS"),
-        bracket_utils.Placer(name="MICHAEL POWELL", team="FISHER"),
+        bracket_utils.Placer(name="MICHAEL POWELL(2)", team="FISHER"),  # BIG TYPO
     ],
     101: [
         bracket_utils.Placer(name="MATT LACKEY", team="MOLINE TIGERS"),
