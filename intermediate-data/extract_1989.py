@@ -6,27 +6,167 @@ import bracket_utils
 
 HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
-_SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
-    60: bracket_utils.Placer(name="Marc Zehr", team="Arlington Cardinals WC"),
-    64: bracket_utils.Placer(name="Milton Blakely", team="Harvey Twisters"),
-    68: bracket_utils.Placer(name="Tony Davis", team="Harvey Twisters"),
-    72: bracket_utils.Placer(name="Russell Guerrero", team="West Chicago Wildcats"),
-    77: bracket_utils.Placer(name="Tom Combes", team="Dolton Park Falcons"),
-    82: bracket_utils.Placer(name="Justin Weber", team="Villa Lombard Cougars WC"),
-    87: bracket_utils.Placer(name="Michael French", team="Mattoon WC"),
-    93: bracket_utils.Placer(name="Nick Cina", team="Belvidere Bandits"),
-    99: bracket_utils.Placer(name="Curt Bee", team="Lanphier-Springfield WC"),
-    105: bracket_utils.Placer(name="Bucky Randolph", team="Oak Forest Warriors"),
-    112: bracket_utils.Placer(name="Scott Radosevich", team="Vittum Cats WC"),
-    119: bracket_utils.Placer(name="John Stickler", team="Riverdale (Rams) Jr. High"),
-    127: bracket_utils.Placer(name="Lenard Randall", team="Harvey Twisters"),
-    135: bracket_utils.Placer(name="Joe Williams", team="Harvey Twisters"),
-    144: bracket_utils.Placer(name="Joe Cartwright", team="Oak Park River Fore"),
-    153: bracket_utils.Placer(name="Tracy Sanborn", team="Belleville Little Devils"),
-    163: bracket_utils.Placer(name="Joe O'Roarke", team="Mustangs WC"),
-    173: bracket_utils.Placer(name="Pedro Martinez", team="Aurora J-Hawks"),
-    185: bracket_utils.Placer(name="Jeff Staffeldt", team="Indian Prairie Pioneers"),
-    275: bracket_utils.Placer(name="Hillus Butler", team="Aurora J-Hawks"),
+_SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
+    60: [
+        bracket_utils.Placer(name="Marc Zehr", team="Arlington Cardinals"),
+        bracket_utils.Placer(name="Gerry Hilton", team="Thornwood Kids"),
+        bracket_utils.Placer(name="Daniel Burland", team="Bartonville Blue Crew"),
+        bracket_utils.Placer(name="Joey Sukley", team="Indian Trail Wild Cats"),
+        bracket_utils.Placer(name="Ryan Delira", team="Dolton Park"),
+        bracket_utils.Placer(name="Todd Combes", team="Dolton Park"),
+    ],
+    64: [
+        bracket_utils.Placer(name="Milton Blakely", team="Harvey Twisters"),
+        bracket_utils.Placer(name="Jim Aberle", team="Round Lake Area P.D."),
+        bracket_utils.Placer(name="Francisco Bermudez", team="Lockport Grapplers"),
+        bracket_utils.Placer(name="James Johnson", team="Crossface"),
+        bracket_utils.Placer(name="Brian Hastings", team="Vittum Cats"),
+        bracket_utils.Placer(name="Michael Bondi", team="Dundee Highlanders"),
+    ],
+    68: [
+        bracket_utils.Placer(name="Tony Davis", team="Harvey Twisters"),
+        bracket_utils.Placer(name="Tommy Lee", team="Oak Forest Warriors"),
+        bracket_utils.Placer(name="Jim Brasher", team="Vittum Cats"),
+        bracket_utils.Placer(name="Mike Hasty", team="Morton Youth"),
+        bracket_utils.Placer(name="John Ivers", team="Tinley Park Bulldogs"),
+        bracket_utils.Placer(name="John Fair", team="Dundee Highlanders"),
+    ],
+    72: [
+        bracket_utils.Placer(name="Russell Guerrero", team="West Chicago Wildcats"),
+        bracket_utils.Placer(name="Tom Marek", team="Arlington Cardinals"),
+        bracket_utils.Placer(name="Chad Red", team="Danville Youth"),
+        bracket_utils.Placer(name="Thomas Grennan", team="Newman Blue Devils"),
+        bracket_utils.Placer(name="Terrance O'Brien", team="Panther W.C."),
+        bracket_utils.Placer(name="Jareo Camer", team="Mustangs W.C."),
+    ],
+    77: [
+        bracket_utils.Placer(name="Thomas Combes", team="Dolton Park"),
+        bracket_utils.Placer(name="Jason Chappell", team="Villa-Lombard Cougars"),
+        bracket_utils.Placer(name="Jason Pero", team="Harvey Twisters"),
+        bracket_utils.Placer(name="Ben King", team="Lions W.C."),
+        bracket_utils.Placer(name="Brad Schnowske", team="Geneseo"),
+        bracket_utils.Placer(name="Jim Ancona", team="Lancers W.C."),
+    ],
+    82: [
+        bracket_utils.Placer(name="Justin Weber", team="Villa-Lombard Cougars"),
+        bracket_utils.Placer(name="Ben Gerdes", team="Oak Forest Warriors"),
+        bracket_utils.Placer(name="Mark Bybee", team="Vittum Cats"),
+        bracket_utils.Placer(name="Dan Collins", team="Arlington Cardinals"),
+        bracket_utils.Placer(name="Jimmy Knapp", team="Mid-Markham Apaches"),
+        bracket_utils.Placer(name="Bobby Remily", team="Harlem Boys Club"),
+    ],
+    87: [
+        bracket_utils.Placer(name="Michael French", team="Mattoon W.C."),
+        bracket_utils.Placer(name="Jason Eierman", team="Mustangs W.C."),
+        bracket_utils.Placer(name="Mike Triolo", team="Tinley Park Bulldogs"),
+        bracket_utils.Placer(name="Matt Atilano", team="Newman Blue Devils"),
+        bracket_utils.Placer(name="Kurt Hudson", team="Redbird"),
+        bracket_utils.Placer(name="Jim Wissig", team="Arlington Cardinals"),
+    ],
+    93: [
+        bracket_utils.Placer(name="Nicholas Cina", team="YMCA Bandits"),
+        bracket_utils.Placer(name="Mickey Griffin", team="Rich Wrestling LTD"),
+        bracket_utils.Placer(name="Brent Henschel", team="Mt. Zion"),
+        bracket_utils.Placer(name="Jeff Harvey", team="Tinley Park Bulldogs"),
+        bracket_utils.Placer(name="Curtis Owen", team="Franklin Park Raiders"),
+        bracket_utils.Placer(name="Kevin Barrales", team="Mid-Markham Apaches"),
+    ],
+    99: [
+        bracket_utils.Placer(name="Curt Bee", team="Lanphier-Springfield"),
+        bracket_utils.Placer(name="Jesse Kennedy", team="Rosemont Cobras"),
+        bracket_utils.Placer(name="Peter Smith", team="Carbondale"),
+        bracket_utils.Placer(name="Ben Kulbartz", team="Oswego Cougars"),
+        bracket_utils.Placer(name="Kevin Level", team="Mid-Markham Apaches"),
+        bracket_utils.Placer(name="Todd Hillard", team="Bismarck Henning"),
+    ],
+    105: [
+        bracket_utils.Placer(name="Bucky Randolph", team="Oak Forest Warriors"),
+        bracket_utils.Placer(name="Eric Caldwell", team="Tinley Park Bulldogs"),
+        bracket_utils.Placer(name="Eric Kubatzke", team="Geneseo"),
+        bracket_utils.Placer(name="Israel Castro", team="Elgin Matt Rats"),
+        bracket_utils.Placer(name="Jay Hansen", team="Woodstock Cardinals"),
+        bracket_utils.Placer(name="Theo Hodges", team="OPRF Warhawks"),
+    ],
+    112: [
+        bracket_utils.Placer(name="Scott Radosevich", team="Vittum Cats"),
+        bracket_utils.Placer(name="Mike Douglas", team="Harvey Twisters"),
+        bracket_utils.Placer(name="Joel Stockwell", team="Riverdale Rams"),
+        bracket_utils.Placer(name="Robert Ott", team="Indian Prairie T'Blazers"),
+        bracket_utils.Placer(name="Gary Bailey", team="Round Lake Area P.D."),
+        bracket_utils.Placer(name="Joe Bee", team="Lanphier-Springfield"),
+    ],
+    119: [
+        bracket_utils.Placer(name="John Stickler", team="Riverdale Rams"),
+        bracket_utils.Placer(name="Courtney Taylor", team="Aurora J-Hawks"),
+        bracket_utils.Placer(name="David Robinson", team="Harvey Twisters"),
+        bracket_utils.Placer(name="Brian Weiskopf", team="Warhawk W.C. Woodstock"),
+        bracket_utils.Placer(name="Roger Pascual", team="Arlington Cardinals"),
+        bracket_utils.Placer(name="Beau Wright", team="Bismarck Henning"),
+    ],
+    127: [
+        bracket_utils.Placer(name="Lenard Randall", team="Harvey Twisters"),
+        bracket_utils.Placer(name="Andy Buschon", team="Taylorville"),
+        bracket_utils.Placer(name="Devon Herman", team="St. Charles J.H."),
+        bracket_utils.Placer(name="Johnny Milam", team="Wheaton Warrenville"),
+        bracket_utils.Placer(name="Ryan Pape", team="Franklin Park Raiders"),
+        bracket_utils.Placer(name="Chris Rink", team="Carbondale"),
+    ],
+    135: [
+        bracket_utils.Placer(name="Joseph Williams", team="Harvey Twisters"),
+        bracket_utils.Placer(name="Eric Johnson", team="Bismarck Henning"),
+        bracket_utils.Placer(name="Ryan Followell", team="Murphysboro Jr. High"),
+        bracket_utils.Placer(name="Chris Capps", team="Dundee Highlanders"),
+        bracket_utils.Placer(name="Kasey Alexander", team="Mattoon W.C"),
+        bracket_utils.Placer(name="Kyle Ryan", team="Wheaton-Warrenville"),
+    ],
+    144: [
+        bracket_utils.Placer(name="Joseph Cartwright", team="OPRF Warhawks"),
+        bracket_utils.Placer(name="Dustin Keenan", team="Tomcat W.C."),
+        bracket_utils.Placer(name="Troy Wienk", team="YMCA Bandits"),
+        bracket_utils.Placer(name="T.J. Ribbe", team="Bismarck Henning"),
+        bracket_utils.Placer(name="Chris Klaska", team="Decatur"),
+        bracket_utils.Placer(name="Jason Hart", team="Indian Trail Wildcats"),
+    ],
+    153: [
+        bracket_utils.Placer(name="Tracy Sanborn", team="Belleville Little Devils"),
+        bracket_utils.Placer(name="Joe Adkins", team="Edwardsville"),
+        bracket_utils.Placer(name="Josh Charlton", team="Forman W.C."),
+        bracket_utils.Placer(name="Scott Wulft", team="Panther Oswego"),
+        bracket_utils.Placer(name="Brian Rochacz", team="Hickory Hills P.D."),
+        bracket_utils.Placer(name="Jayme Sondag", team="Forman W.C."),
+    ],
+    163: [
+        bracket_utils.Placer(name="Joe O'Rourke", team="Mustangs W.C."),
+        bracket_utils.Placer(name="Dan Hollendoner", team="Tinley Park Bulldogs"),
+        bracket_utils.Placer(name="Mike Vakos", team="Naperville Patriots"),
+        bracket_utils.Placer(name="Mike Miller", team="Westville Jr. High"),
+        bracket_utils.Placer(name="Sean Kuriger", team="Indian Trail Wildcats"),
+        bracket_utils.Placer(name="Casey Inch", team="Geneseo"),
+    ],
+    173: [
+        bracket_utils.Placer(name="Pedro Martinez", team="Aurora J-Hawks"),
+        bracket_utils.Placer(name="Justin Chambers", team="OPRF Warhawks"),
+        bracket_utils.Placer(name="Enrique Melgoza", team="Indian Trail Wildcats"),
+        bracket_utils.Placer(name="Aaron Franz", team="Redbird"),
+        bracket_utils.Placer(name="Albert Mendoza", team="Dolton Park"),
+        bracket_utils.Placer(name="Matt Feltz", team="Harlem Sch. Dist."),
+    ],
+    185: [
+        bracket_utils.Placer(name="Jeff Staffeldt", team="Indian Prairie Pioneers"),
+        bracket_utils.Placer(name="Matthen Sheets", team="Downers Grove P.D. Cougars"),
+        bracket_utils.Placer(name="Philip Lagioia", team="Mead W.C."),
+        bracket_utils.Placer(name="Eddie Beltran", team="Hinsdale Falcons"),
+        bracket_utils.Placer(name="Andrew Seibert", team="Carbondale"),
+        bracket_utils.Placer(name="Mike Scaggs", team="Knights"),
+    ],
+    275: [
+        bracket_utils.Placer(name="Hillus Butler", team="Aurora J-Hawks"),
+        bracket_utils.Placer(name="Glen Pryor", team="Aurora J-Hawks"),
+        bracket_utils.Placer(name="Jason Owen", team="Franklin Park Raiders"),
+        bracket_utils.Placer(name="John Carlson", team="Harlem Sch. Dist"),
+        bracket_utils.Placer(name="Chad Richards", team="Mt. Zion"),
+        bracket_utils.Placer(name="Chris Landis", team="Bismarck Henning"),
+    ],
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
     "Harvey Twisters": 194.5,
@@ -91,9 +231,9 @@ def main():
         )
 
     weight_classes: list[bracket_utils.WeightClass] = []
-    for weight, champ in _SENIOR_CHAMPS.items():
-        weight_class = bracket_utils.weight_class_from_champ(
-            "senior", weight, champ, _SENIOR_TEAM_REPLACE
+    for weight, placers in _SENIOR_PLACERS.items():
+        weight_class = bracket_utils.create_weight_class_from_placers(
+            "senior", weight, placers, _SENIOR_TEAM_REPLACE
         )
         weight_classes.append(weight_class)
 
