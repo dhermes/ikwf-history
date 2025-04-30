@@ -358,6 +358,10 @@ class ManualBracket(_ForbidExtra):
             raw_matches.append(match_raw)
 
         matches = bracket_utils.clean_raw_matches(raw_matches, name_exceptions)
+        for match in matches:
+            if match.result == "unknown":
+                match.result = ""
+
         return bracket_utils.WeightClass(
             division=division, weight=weight, matches=matches
         )
