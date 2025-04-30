@@ -240,4 +240,7 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
     if result == "NC" or result == "OTHR1":
         return None
 
+    if result == "unknown":
+        return None
+
     raise NotImplementedError(result)

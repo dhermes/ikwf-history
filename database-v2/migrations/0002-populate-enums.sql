@@ -103,7 +103,8 @@ VALUES
   (7, 'major'),
   (8, 'tech'),
   (9, 'walkover'),
-  (10, 'place'); -- placeholder value for partial results / place-only results
+  (10, 'place'), -- placeholder value for partial results / place-only results
+  (11, 'unknown'); -- placeholder value for manual entry
 
 --------------------------------------------------------------------------------
 

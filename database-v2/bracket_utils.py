@@ -130,6 +130,7 @@ ResultType = Literal[
     "tech",
     "walkover",
     "place",
+    "unknown",
 ]
 
 
