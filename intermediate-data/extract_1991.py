@@ -193,25 +193,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {}
 
 
-def _handle_manual_entries() -> list[bracket_utils.WeightClass]:
-    root = HERE.parent / "raw-data" / "1991"
-
-    weight_classes: list[bracket_utils.WeightClass] = []
-    for path in root.glob("manual-entry-*.json"):
-        with open(path) as file_obj:
-            manual_bracket = manual_entry.ManualBracket.model_validate_json(
-                file_obj.read()
-            )
-
-        weight_class = manual_bracket.to_weight_class(1991, _NAME_EXCEPTIONS)
-        weight_classes.append(weight_class)
-
-    return weight_classes
-
-
 def main():
-    manual_weight_classes = _handle_manual_entries()
-
     team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
     team_scores["senior"] = []
     for team_name, score in _SENIOR_TEAM_SCORES.items():
@@ -219,7 +201,9 @@ def main():
             bracket_utils.TeamScore(team=team_name, acronym=None, score=score)
         )
 
-    weight_classes: list[bracket_utils.WeightClass] = manual_weight_classes
+    weight_classes = manual_entry.load_manual_entries(
+        HERE.parent, 1991, _NAME_EXCEPTIONS
+    )
     for weight, placers in _SENIOR_PLACERS.items():
         weight_class = bracket_utils.create_weight_class_from_placers(
             "senior", weight, placers, _SENIOR_TEAM_REPLACE

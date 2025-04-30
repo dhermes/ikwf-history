@@ -1,5 +1,6 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
+import pathlib
 from typing import Literal
 
 import bracket_utils
@@ -365,3 +366,21 @@ class ManualBracket(_ForbidExtra):
         return bracket_utils.WeightClass(
             division=division, weight=weight, matches=matches
         )
+
+
+def load_manual_entries(
+    root: pathlib.Path,
+    year: int,
+    name_exceptions: dict[tuple[str, str], bracket_utils.Competitor],
+) -> list[bracket_utils.WeightClass]:
+    year_raw = root / "raw-data" / str(year)
+
+    weight_classes: list[bracket_utils.WeightClass] = []
+    for path in year_raw.glob("manual-entry-*.json"):
+        with open(path) as file_obj:
+            manual_bracket = ManualBracket.model_validate_json(file_obj.read())
+
+        weight_class = manual_bracket.to_weight_class(year, name_exceptions)
+        weight_classes.append(weight_class)
+
+    return weight_classes
