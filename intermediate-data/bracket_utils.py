@@ -131,6 +131,7 @@ ResultType = Literal[
     "tech",
     "walkover",
     "place",
+    "unknown",
 ]
 
 
@@ -489,6 +490,9 @@ def _determine_result_type(result: str) -> ResultType:
 
     if result == "Forf" or result.startswith("Forf "):
         return "forfeit"
+
+    if result == "unknown":
+        return "unknown"
 
     raise NotImplementedError(result)
 

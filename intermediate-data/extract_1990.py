@@ -3,20 +3,11 @@
 import pathlib
 
 import bracket_utils
+import manual_entry
 
 HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
-    60: [
-        bracket_utils.Placer(name="Todd Combes", team="Dolton Park Falcons"),
-        bracket_utils.Placer(
-            name="Leonard Bowens", team="Harvey Park District Twisters"
-        ),
-        bracket_utils.Placer(name="Michael Mathews", team="Naperville Patriots WC"),
-        bracket_utils.Placer(name="John Murphy", team="Lockport Grapplers WC"),
-        bracket_utils.Placer(name="Michael Murphy", team="Lockport Grapplers WC"),
-        bracket_utils.Placer(name="Anthony Opiola", team="Dolton Park Falcons"),
-    ],
     64: [
         bracket_utils.Placer(name="Matt Goldstein", team="Little Giants WC"),
         bracket_utils.Placer(
@@ -294,9 +285,36 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "Joliet Boy's Club Cobras": 2.0,
     "Lions WC": 2.0,
 }
+_NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
+    ("Michael Murphy, Jr", "Lockport Grap."): bracket_utils.Competitor(
+        full_name="Michael Murphy, Jr",
+        first_name="Michael",
+        last_name="Murphy",
+        team_full="Lockport Grap.",
+        team_acronym=None,
+    ),
+}
+
+
+def _handle_manual_entries() -> list[bracket_utils.WeightClass]:
+    root = HERE.parent / "raw-data" / "1990"
+
+    weight_classes: list[bracket_utils.WeightClass] = []
+    for path in root.glob("manual-entry-*.json"):
+        with open(path) as file_obj:
+            manual_bracket = manual_entry.ManualBracket.model_validate_json(
+                file_obj.read()
+            )
+
+        weight_class = manual_bracket.to_weight_class(1990, _NAME_EXCEPTIONS)
+        weight_classes.append(weight_class)
+
+    return weight_classes
 
 
 def main():
+    manual_weight_classes = _handle_manual_entries()
+
     team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
     team_scores["senior"] = []
     for team_name, score in _SENIOR_TEAM_SCORES.items():
@@ -304,7 +322,7 @@ def main():
             bracket_utils.TeamScore(team=team_name, acronym=None, score=score)
         )
 
-    weight_classes: list[bracket_utils.WeightClass] = []
+    weight_classes: list[bracket_utils.WeightClass] = manual_weight_classes
     for weight, placers in _SENIOR_PLACERS.items():
         weight_class = bracket_utils.create_weight_class_from_placers(
             "senior", weight, placers, _SENIOR_TEAM_REPLACE

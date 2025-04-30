@@ -5,65 +5,881 @@
       "weight": 60,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "championship_r32_01",
           "top_competitor": {
-            "full_name": "Todd Combes",
-            "first_name": "Todd",
-            "last_name": "Combes",
-            "team_full": "Dolton Park Falcons",
+            "full_name": "Justin Henry",
+            "first_name": "Justin",
+            "last_name": "Henry",
+            "team_full": "Bell. Lil' Devils",
             "team_acronym": null
           },
-          "bottom_competitor": {
-            "full_name": "Leonard Bowens",
-            "first_name": "Leonard",
-            "last_name": "Bowens",
-            "team_full": "Harvey Park District Twisters",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "place",
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": null,
           "top_win": true
         },
         {
-          "match_slot": "consolation_third_place",
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "Brenden Joyce",
+            "first_name": "Brenden",
+            "last_name": "Joyce",
+            "team_full": "Tomcat WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Brett Hoerr",
+            "first_name": "Brett",
+            "last_name": "Hoerr",
+            "team_full": "Chillicothe W",
+            "team_acronym": null
+          },
+          "result": "Dec 11-6",
+          "result_type": "decision",
+          "bout_number": 1,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Eugene Sacco",
+            "first_name": "Eugene",
+            "last_name": "Sacco",
+            "team_full": "Franklin Raid.",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "John Murphy",
+            "first_name": "John",
+            "last_name": "Murphy",
+            "team_full": "Lockport Grap.",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Tony Skinner",
+            "first_name": "Tony",
+            "last_name": "Skinner",
+            "team_full": "WSH",
+            "team_acronym": null
+          },
+          "result": "MajDec 8-0",
+          "result_type": "major",
+          "bout_number": 2,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Amador Estrada",
+            "first_name": "Amador",
+            "last_name": "Estrada",
+            "team_full": "Rd. Lk. Spartans",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "Rick McDonald",
+            "first_name": "Rick",
+            "last_name": "McDonald",
+            "team_full": "Crossface",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Steve Wernsman",
+            "first_name": "Steve",
+            "last_name": "Wernsman",
+            "team_full": "Yorkville",
+            "team_acronym": null
+          },
+          "result": "MajDec 17-7",
+          "result_type": "major",
+          "bout_number": 3,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Todd Combes",
+            "first_name": "Todd",
+            "last_name": "Combes",
+            "team_full": "Dolton Falcons",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "Michael Murphy, Jr",
+            "first_name": "Michael",
+            "last_name": "Murphy",
+            "team_full": "Lockport Grap.",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Bob Catalano",
+            "first_name": "Bob",
+            "last_name": "Catalano",
+            "team_full": "Lanphier-Spgfld.",
+            "team_acronym": null
+          },
+          "result": "MajDec 8-0",
+          "result_type": "major",
+          "bout_number": 4,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
           "top_competitor": {
             "full_name": "Michael Mathews",
             "first_name": "Michael",
             "last_name": "Mathews",
-            "team_full": "Naperville Patriots WC",
+            "team_full": "Naperville Patriots",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "Roy Pierce",
+            "first_name": "Roy",
+            "last_name": "Pierce",
+            "team_full": "Spartans WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Raymond Keeler",
+            "first_name": "Raymond",
+            "last_name": "Keeler",
+            "team_full": "Dolton P. Fal.",
+            "team_acronym": null
+          },
+          "result": "Fall :54",
+          "result_type": "fall",
+          "bout_number": 5,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Vince Chambliss",
+            "first_name": "Vince",
+            "last_name": "Chambliss",
+            "team_full": "Catlin Youth WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "Frank Stanke",
+            "first_name": "Frank",
+            "last_name": "Stanke",
+            "team_full": "Maine Twp. Eagles",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Kenny Chrisman",
+            "first_name": "Kenny",
+            "last_name": "Chrisman",
+            "team_full": "Dolton P. Fal.",
+            "team_acronym": null
+          },
+          "result": "Fall 1:52",
+          "result_type": "fall",
+          "bout_number": 6,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Adam Wason",
+            "first_name": "Adam",
+            "last_name": "Wason",
+            "team_full": "Tigertown Tanglers",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "Chad Karlen",
+            "first_name": "Chad",
+            "last_name": "Karlen",
+            "team_full": "Rd. Lk. Spartans",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Ryan Rumfelt",
+            "first_name": "Ryan",
+            "last_name": "Rumfelt",
+            "team_full": "Bethalto Bulls",
+            "team_acronym": null
+          },
+          "result": "Fall 1:04",
+          "result_type": "fall",
+          "bout_number": 7,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Leonard Bowens",
+            "first_name": "Leonard",
+            "last_name": "Bowens",
+            "team_full": "Harvey Twisters",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "Anthony Opiola",
+            "first_name": "Anthony",
+            "last_name": "Opiola",
+            "team_full": "Dolton P. Fal.",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Anthony Doughty",
+            "first_name": "Anthony",
+            "last_name": "Doughty",
+            "team_full": "Jr. Bison WCA",
+            "team_acronym": null
+          },
+          "result": "MajDec 10-2",
+          "result_type": "major",
+          "bout_number": 8,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_01",
+          "top_competitor": {
+            "full_name": "Justin Henry",
+            "first_name": "Justin",
+            "last_name": "Henry",
+            "team_full": "Bell. Lil' Devils",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Brett Hoerr",
+            "first_name": "Brett",
+            "last_name": "Hoerr",
+            "team_full": "Chillicothe W",
+            "team_acronym": null
+          },
+          "result": "Fall 3:19",
+          "result_type": "fall",
+          "bout_number": 9,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_02",
+          "top_competitor": {
+            "full_name": "Eugene Sacco",
+            "first_name": "Eugene",
+            "last_name": "Sacco",
+            "team_full": "Franklin Raid.",
             "team_acronym": null
           },
           "bottom_competitor": {
             "full_name": "John Murphy",
             "first_name": "John",
             "last_name": "Murphy",
-            "team_full": "Lockport Grapplers WC",
+            "team_full": "Lockport Grap.",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "place",
-          "bout_number": null,
+          "result": "MajDec 12-0",
+          "result_type": "major",
+          "bout_number": 10,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_03",
+          "top_competitor": {
+            "full_name": "Amador Estrada",
+            "first_name": "Amador",
+            "last_name": "Estrada",
+            "team_full": "Rd. Lk. Spartans",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Steve Wernsman",
+            "first_name": "Steve",
+            "last_name": "Wernsman",
+            "team_full": "Yorkville",
+            "team_acronym": null
+          },
+          "result": "Dec 4-2",
+          "result_type": "decision",
+          "bout_number": 11,
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_r16_04",
           "top_competitor": {
-            "full_name": "Michael Murphy Jr.",
+            "full_name": "Todd Combes",
+            "first_name": "Todd",
+            "last_name": "Combes",
+            "team_full": "Dolton Falcons",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Michael Murphy, Jr",
             "first_name": "Michael",
             "last_name": "Murphy",
-            "team_full": "Lockport Grapplers WC",
+            "team_full": "Lockport Grap.",
+            "team_acronym": null
+          },
+          "result": "Dec 4-2",
+          "result_type": "decision",
+          "bout_number": 12,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_05",
+          "top_competitor": {
+            "full_name": "Michael Mathews",
+            "first_name": "Michael",
+            "last_name": "Mathews",
+            "team_full": "Naperville Patriots",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Roy Pierce",
+            "first_name": "Roy",
+            "last_name": "Pierce",
+            "team_full": "Spartans WC",
+            "team_acronym": null
+          },
+          "result": "Dec 6-0",
+          "result_type": "decision",
+          "bout_number": 13,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_06",
+          "top_competitor": {
+            "full_name": "Vince Chambliss",
+            "first_name": "Vince",
+            "last_name": "Chambliss",
+            "team_full": "Catlin Youth WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Kenny Chrisman",
+            "first_name": "Kenny",
+            "last_name": "Chrisman",
+            "team_full": "Dolton P. Fal.",
+            "team_acronym": null
+          },
+          "result": "Fall 1:48",
+          "result_type": "fall",
+          "bout_number": 14,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_07",
+          "top_competitor": {
+            "full_name": "Adam Wason",
+            "first_name": "Adam",
+            "last_name": "Wason",
+            "team_full": "Tigertown Tanglers",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Chad Karlen",
+            "first_name": "Chad",
+            "last_name": "Karlen",
+            "team_full": "Rd. Lk. Spartans",
+            "team_acronym": null
+          },
+          "result": "Dec 4-0",
+          "result_type": "decision",
+          "bout_number": 15,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_08",
+          "top_competitor": {
+            "full_name": "Leonard Bowens",
+            "first_name": "Leonard",
+            "last_name": "Bowens",
+            "team_full": "Harvey Twisters",
             "team_acronym": null
           },
           "bottom_competitor": {
             "full_name": "Anthony Opiola",
             "first_name": "Anthony",
             "last_name": "Opiola",
-            "team_full": "Dolton Park Falcons",
+            "team_full": "Dolton P. Fal.",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "place",
+          "result": "Dec 4-2",
+          "result_type": "decision",
+          "bout_number": 16,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "Justin Henry",
+            "first_name": "Justin",
+            "last_name": "Henry",
+            "team_full": "Bell. Lil' Devils",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "John Murphy",
+            "first_name": "John",
+            "last_name": "Murphy",
+            "team_full": "Lockport Grap.",
+            "team_acronym": null
+          },
+          "result": "Dec 4-3",
+          "result_type": "decision",
+          "bout_number": 17,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "Amador Estrada",
+            "first_name": "Amador",
+            "last_name": "Estrada",
+            "team_full": "Rd. Lk. Spartans",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Todd Combes",
+            "first_name": "Todd",
+            "last_name": "Combes",
+            "team_full": "Dolton Falcons",
+            "team_acronym": null
+          },
+          "result": "Fall :56",
+          "result_type": "fall",
+          "bout_number": 18,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "Michael Mathews",
+            "first_name": "Michael",
+            "last_name": "Mathews",
+            "team_full": "Naperville Patriots",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Vince Chambliss",
+            "first_name": "Vince",
+            "last_name": "Chambliss",
+            "team_full": "Catlin Youth WC",
+            "team_acronym": null
+          },
+          "result": "MajDec 13-0",
+          "result_type": "major",
+          "bout_number": 19,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "Adam Wason",
+            "first_name": "Adam",
+            "last_name": "Wason",
+            "team_full": "Tigertown Tanglers",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Leonard Bowens",
+            "first_name": "Leonard",
+            "last_name": "Bowens",
+            "team_full": "Harvey Twisters",
+            "team_acronym": null
+          },
+          "result": "MajDec 17-3",
+          "result_type": "major",
+          "bout_number": 20,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_01",
+          "top_competitor": {
+            "full_name": "Tony Skinner",
+            "first_name": "Tony",
+            "last_name": "Skinner",
+            "team_full": "WSH",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Eugene Sacco",
+            "first_name": "Eugene",
+            "last_name": "Sacco",
+            "team_full": "Franklin Raid.",
+            "team_acronym": null
+          },
+          "result": "Dec 4-2",
+          "result_type": "decision",
+          "bout_number": 21,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_02",
+          "top_competitor": {
+            "full_name": "Michael Murphy, Jr",
+            "first_name": "Michael",
+            "last_name": "Murphy",
+            "team_full": "Lockport Grap.",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 22,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round3_03",
+          "top_competitor": null,
+          "bottom_competitor": {
+            "full_name": "Roy Pierce",
+            "first_name": "Roy",
+            "last_name": "Pierce",
+            "team_full": "Spartans WC",
+            "team_acronym": null
+          },
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 23,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_04",
+          "top_competitor": {
+            "full_name": "Anthony Opiola",
+            "first_name": "Anthony",
+            "last_name": "Opiola",
+            "team_full": "Dolton P. Fal.",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 24,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_01",
+          "top_competitor": {
+            "full_name": "Justin Henry",
+            "first_name": "Justin",
+            "last_name": "Henry",
+            "team_full": "Bell. Lil' Devils",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Eugene Sacco",
+            "first_name": "Eugene",
+            "last_name": "Sacco",
+            "team_full": "Franklin Raid.",
+            "team_acronym": null
+          },
+          "result": "MajDec 8-0",
+          "result_type": "major",
+          "bout_number": 25,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_02",
+          "top_competitor": {
+            "full_name": "Michael Murphy, Jr",
+            "first_name": "Michael",
+            "last_name": "Murphy",
+            "team_full": "Lockport Grap.",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Amador Estrada",
+            "first_name": "Amador",
+            "last_name": "Estrada",
+            "team_full": "Rd. Lk. Spartans",
+            "team_acronym": null
+          },
+          "result": "Dec 7-3",
+          "result_type": "decision",
+          "bout_number": 26,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_03",
+          "top_competitor": {
+            "full_name": "Vince Chambliss",
+            "first_name": "Vince",
+            "last_name": "Chambliss",
+            "team_full": "Catlin Youth WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Roy Pierce",
+            "first_name": "Roy",
+            "last_name": "Pierce",
+            "team_full": "Spartans WC",
+            "team_acronym": null
+          },
+          "result": "Fall 2:17",
+          "result_type": "fall",
+          "bout_number": 27,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_04",
+          "top_competitor": {
+            "full_name": "Anthony Opiola",
+            "first_name": "Anthony",
+            "last_name": "Opiola",
+            "team_full": "Dolton P. Fal.",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Adam Wason",
+            "first_name": "Adam",
+            "last_name": "Wason",
+            "team_full": "Tigertown Tanglers",
+            "team_acronym": null
+          },
+          "result": "Dec 4-2",
+          "result_type": "decision",
+          "bout_number": 28,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "John Murphy",
+            "first_name": "John",
+            "last_name": "Murphy",
+            "team_full": "Lockport Grap.",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Todd Combes",
+            "first_name": "Todd",
+            "last_name": "Combes",
+            "team_full": "Dolton Falcons",
+            "team_acronym": null
+          },
+          "result": "Dec 4-1",
+          "result_type": "decision",
+          "bout_number": 29,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "Michael Mathews",
+            "first_name": "Michael",
+            "last_name": "Mathews",
+            "team_full": "Naperville Patriots",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Leonard Bowens",
+            "first_name": "Leonard",
+            "last_name": "Bowens",
+            "team_full": "Harvey Twisters",
+            "team_acronym": null
+          },
+          "result": "MajDec 11-1",
+          "result_type": "major",
+          "bout_number": 30,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "Justin Henry",
+            "first_name": "Justin",
+            "last_name": "Henry",
+            "team_full": "Bell. Lil' Devils",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Michael Murphy, Jr",
+            "first_name": "Michael",
+            "last_name": "Murphy",
+            "team_full": "Lockport Grap.",
+            "team_acronym": null
+          },
+          "result": "Dec 4-2",
+          "result_type": "decision",
+          "bout_number": 31,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "Vince Chambliss",
+            "first_name": "Vince",
+            "last_name": "Chambliss",
+            "team_full": "Catlin Youth WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Anthony Opiola",
+            "first_name": "Anthony",
+            "last_name": "Opiola",
+            "team_full": "Dolton P. Fal.",
+            "team_acronym": null
+          },
+          "result": "Dec 4-0",
+          "result_type": "decision",
+          "bout_number": 32,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "John Murphy",
+            "first_name": "John",
+            "last_name": "Murphy",
+            "team_full": "Lockport Grap.",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Michael Murphy, Jr",
+            "first_name": "Michael",
+            "last_name": "Murphy",
+            "team_full": "Lockport Grap.",
+            "team_acronym": null
+          },
+          "result": "Dflt",
+          "result_type": "default",
+          "bout_number": 33,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "Anthony Opiola",
+            "first_name": "Anthony",
+            "last_name": "Opiola",
+            "team_full": "Dolton P. Fal.",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Michael Mathews",
+            "first_name": "Michael",
+            "last_name": "Mathews",
+            "team_full": "Naperville Patriots",
+            "team_acronym": null
+          },
+          "result": "Dec 4-0",
+          "result_type": "decision",
+          "bout_number": 32,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Michael Murphy, Jr",
+            "first_name": "Michael",
+            "last_name": "Murphy",
+            "team_full": "Lockport Grap.",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Anthony Opiola",
+            "first_name": "Anthony",
+            "last_name": "Opiola",
+            "team_full": "Dolton P. Fal.",
+            "team_acronym": null
+          },
+          "result": "Dec 2-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "John Murphy",
+            "first_name": "John",
+            "last_name": "Murphy",
+            "team_full": "Lockport Grap.",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Michael Mathews",
+            "first_name": "Michael",
+            "last_name": "Mathews",
+            "team_full": "Naperville Patriots",
+            "team_acronym": null
+          },
+          "result": "Dec OT 3-3",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Todd Combes",
+            "first_name": "Todd",
+            "last_name": "Combes",
+            "team_full": "Dolton Falcons",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Leonard Bowens",
+            "first_name": "Leonard",
+            "last_name": "Bowens",
+            "team_full": "Harvey Twisters",
+            "team_acronym": null
+          },
+          "result": "Dec 6-0",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         }
