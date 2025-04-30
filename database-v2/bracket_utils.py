@@ -543,7 +543,7 @@ class TeamDuplicate(_ForbidExtra):
 
 class VerifiedTeam(_ForbidExtra):
     name_normalized: str
-    url_path_slug: str
+    url_path_slug: str | None
     duplicates: list[TeamDuplicate]
 
 
