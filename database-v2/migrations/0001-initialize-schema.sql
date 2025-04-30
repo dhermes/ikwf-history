@@ -97,7 +97,7 @@ CREATE TABLE tournament_team (
   team_score FLOAT,
   name TEXT NOT NULL,
   acronym TEXT,
-  UNIQUE(tournament_id, division, team_id),
+  -- TODO: UNIQUE(tournament_id, division, team_id),
   UNIQUE(tournament_id, division, name)
 );
 
