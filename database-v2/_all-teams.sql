@@ -1,8 +1,12 @@
 -- Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 SELECT
-    id,
-    name_normalized AS name,
-    url_path_slug AS slug
+    t.id,
+    t.name_normalized AS name,
+    t.url_path_slug AS slug,
+    tou.year,
+    tt.division
 FROM
-    team
-ORDER BY name_normalized, id
+    team AS t
+    INNER JOIN tournament_team AS tt ON t.id = tt.team_id
+    INNER JOIN tournament AS tou ON tt.tournament_id = tou.id
+ORDER BY t.name_normalized, t.id;
