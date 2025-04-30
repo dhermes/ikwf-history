@@ -7,6 +7,7 @@ import bracket_utils
 import pydantic
 
 HERE = pathlib.Path(__file__).resolve().parent
+_ALL_CAPS_PARTS = ("AJ", "AO", "WC")
 
 
 @functools.cache
@@ -40,6 +41,26 @@ def _get_all_teams(
     return rows
 
 
+def _normalize_name(value: str) -> str:
+    parts = value.split()
+    space_normal = " ".join(parts)
+    return space_normal.lower()
+
+
+def _fix_title_part(value: str) -> str:
+    value_upper = value.upper()
+    if value_upper in _ALL_CAPS_PARTS:
+        return value_upper
+
+    return value
+
+
+def _title_case(value: str) -> str:
+    as_title = value.title()
+    parts = [_fix_title_part(part) for part in as_title.split()]
+    return " ".join(parts)
+
+
 def main():
     with sqlite3.connect(HERE / "ikwf.sqlite") as connection:
         connection.row_factory = sqlite3.Row
@@ -47,12 +68,18 @@ def main():
 
     by_name: dict[str, list[TeamInfo]] = {}
     for team_info in all_teams:
-        name_lower = team_info.name.lower()
+        name_lower = _normalize_name(team_info.name)
         by_name.setdefault(name_lower, []).append(team_info)
 
     verified_teams: list[bracket_utils.VerifiedTeam] = []
     for name_lower in sorted(by_name.keys()):
         duplicate_teams = by_name[name_lower]
+        if len(duplicate_teams) == 0:
+            raise RuntimeError("Invariant violation")
+        # If there is no actual duplication, no need to deduplicate (yet)
+        if len(duplicate_teams) == 1:
+            continue
+
         duplicates = [
             bracket_utils.TeamDuplicate(
                 tournament_id=team.tournament_id,
@@ -62,7 +89,7 @@ def main():
             for team in duplicate_teams
         ]
         # Close enough (until human inspection)
-        name_normalized = name_lower.title()
+        name_normalized = _title_case(name_lower)
         verified_team = bracket_utils.VerifiedTeam(
             name_normalized=name_normalized,
             url_path_slug=None,
