@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Jim Maddock",
+    "top_team": "Marshall",
+    "top_score": null,
+    "bottom_name": "Jerry Miller",
+    "bottom_team": "Granite City",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Keith Rogers",
+    "top_team": "Plainfield",
+    "top_score": null,
+    "bottom_name": "Ed DeBevec",
+    "bottom_team": "Tinley Park",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Ed Giese",
     "top_team": "Franklin Park",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Bill Kelly",
+    "bottom_team": "Chicago Ridge",
     "bottom_score": null,
     "top_win": true,
     "result": ""
