@@ -12,7 +12,6 @@ _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
     70: bracket_utils.Placer(name="Bill Horcher", team="Dundee Highlanders"),
     75: bracket_utils.Placer(name="Tony Pellegrini", team="Hazel Crest"),
     80: bracket_utils.Placer(name="Todd Sterr", team="Joliet Boy's Club"),
-    85: bracket_utils.Placer(name="Ed Giese", team="Franklin Park"),
     90: bracket_utils.Placer(name="Kurt Law", team="Savanna"),
     95: bracket_utils.Placer(name="Mark Ruettiger", team="Joliet Boy's Club"),
     100: bracket_utils.Placer(name="Mark Barron", team="Aurora Franklin"),
@@ -25,6 +24,16 @@ _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
     160: bracket_utils.Placer(name="Rich Constable", team="Addison"),
     185: bracket_utils.Placer(name="Bill George", team="St. Thecia"),
     275: bracket_utils.Placer(name="Jeff Sheppard", team="avanna"),
+}
+_SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
+    85: [
+        bracket_utils.Placer(name="Ed Giese", team="Franklin Park"),
+        bracket_utils.Placer(name="Bill Kelly", team="Chicago Ridge"),
+        bracket_utils.Placer(name="Keith Rogers", team="Plainfield"),
+        bracket_utils.Placer(name="Ed DeBevec", team="Tinley Park"),
+        bracket_utils.Placer(name="Jim Maddock", team="Marshall"),
+        bracket_utils.Placer(name="Jerry Miller", team="Granite City"),
+    ],
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
     "PLAINFIELD": 164.0,
@@ -44,6 +53,12 @@ def main():
     for weight, champ in _SENIOR_CHAMPS.items():
         weight_class = bracket_utils.weight_class_from_champ(
             "senior", weight, champ, _SENIOR_TEAM_REPLACE
+        )
+        weight_classes.append(weight_class)
+
+    for weight, placers in _SENIOR_PLACERS.items():
+        weight_class = bracket_utils.create_weight_class_from_placers(
+            "senior", weight, placers, _SENIOR_TEAM_REPLACE
         )
         weight_classes.append(weight_class)
 

@@ -118,7 +118,55 @@
             "team_full": "Franklin Park",
             "team_acronym": null
           },
-          "bottom_competitor": null,
+          "bottom_competitor": {
+            "full_name": "Bill Kelly",
+            "first_name": "Bill",
+            "last_name": "Kelly",
+            "team_full": "Chicago Ridge",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Keith Rogers",
+            "first_name": "Keith",
+            "last_name": "Rogers",
+            "team_full": "Plainfield",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Ed DeBevec",
+            "first_name": "Ed",
+            "last_name": "DeBevec",
+            "team_full": "Tinley Park",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Jim Maddock",
+            "first_name": "Jim",
+            "last_name": "Maddock",
+            "team_full": "Marshall",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Jerry Miller",
+            "first_name": "Jerry",
+            "last_name": "Miller",
+            "team_full": "Granite City",
+            "team_acronym": null
+          },
           "result": "",
           "result_type": "place",
           "bout_number": null,
