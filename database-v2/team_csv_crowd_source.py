@@ -94,11 +94,14 @@ def main():
         all_teams = _get_all_teams(connection)
 
     with open(HERE / "team-crowd-source.csv", "w") as file_obj:
-        writer = csv.DictWriter(file_obj, fieldnames=("name", "slug", "divisions_text"))
+        writer = csv.DictWriter(
+            file_obj, fieldnames=("id", "name", "slug", "divisions_text")
+        )
         writer.writeheader()
         for team in all_teams:
             writer.writerow(
                 {
+                    "id": team.id_,
                     "name": team.name,
                     "slug": team.slug,
                     "divisions_text": team.divisions_text,
