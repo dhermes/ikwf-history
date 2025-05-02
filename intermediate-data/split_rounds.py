@@ -6,10 +6,125 @@ import bs4
 import chardet
 
 HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parent
+
+
+def junior_iwf_1999():
+    path = ROOT / "raw-data" / "iwf" / "1999" / "junior" / "Brackets.html"
+    with open(path) as file_obj:
+        html = file_obj.read()
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    all_brackets = soup.find_all("pre")
+
+    weights_pre = {}
+    for pre in all_brackets:
+        prev_h3 = pre.find_previous("h3")
+        if prev_h3 is None:
+            raise RuntimeError("Invariant violation", pre)
+
+        weight_text = prev_h3.text
+        if not weight_text.startswith("Wt: "):
+            raise RuntimeError("Invariant violation", weight_text)
+
+        weight = int(weight_text[4:])
+        if weight in weights_pre:
+            raise KeyError(weight)
+        weights_pre[weight] = pre.text
+
+    weights = sorted(weights_pre.keys())
+    for weight in weights:
+        pre_text = weights_pre[weight]
+        sections = pre_text.split("\n\n")
+        if len(sections) != 3:
+            raise RuntimeError("Unexpected <pre>", weight)
+
+        new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections])
+        new_html = f"<html><body>{new_html}</body></html>"
+
+        new_path = HERE / "iwf" / "1999" / "junior" / f"{weight}.html"
+        with open(new_path, "w") as file_obj:
+            file_obj.write(new_html)
+
+
+def novice_iwf_1999():
+    path = ROOT / "raw-data" / "iwf" / "1999" / "novice" / "Brackets.html"
+    with open(path) as file_obj:
+        html = file_obj.read()
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    all_brackets = soup.find_all("pre")
+
+    weights_pre = {}
+    for pre in all_brackets:
+        prev_h3 = pre.find_previous("h3")
+        if prev_h3 is None:
+            raise RuntimeError("Invariant violation", pre)
+
+        weight_text = prev_h3.text
+        if not weight_text.startswith("Wt: "):
+            raise RuntimeError("Invariant violation", weight_text)
+
+        weight = int(weight_text[4:])
+        if weight in weights_pre:
+            raise KeyError(weight)
+        weights_pre[weight] = pre.text
+
+    weights = sorted(weights_pre.keys())
+    for weight in weights:
+        pre_text = weights_pre[weight]
+        sections = pre_text.split("\n\n")
+        if len(sections) != 3:
+            raise RuntimeError("Unexpected <pre>", weight)
+
+        new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections])
+        new_html = f"<html><body>{new_html}</body></html>"
+
+        new_path = HERE / "iwf" / "1999" / "novice" / f"{weight}.html"
+        with open(new_path, "w") as file_obj:
+            file_obj.write(new_html)
+
+
+def senior_iwf_1999():
+    path = ROOT / "raw-data" / "iwf" / "1999" / "senior" / "Brackets.html"
+    with open(path) as file_obj:
+        html = file_obj.read()
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+    all_brackets = soup.find_all("pre")
+
+    weights_pre = {}
+    for pre in all_brackets:
+        prev_h3 = pre.find_previous("h3")
+        if prev_h3 is None:
+            raise RuntimeError("Invariant violation", pre)
+
+        weight_text = prev_h3.text
+        if not weight_text.startswith("Wt: "):
+            raise RuntimeError("Invariant violation", weight_text)
+
+        weight = int(weight_text[4:])
+        if weight in weights_pre:
+            raise KeyError(weight)
+        weights_pre[weight] = pre.text
+
+    weights = sorted(weights_pre.keys())
+    for weight in weights:
+        pre_text = weights_pre[weight]
+        sections = pre_text.split("\n\n")
+        if len(sections) != 3:
+            raise RuntimeError("Unexpected <pre>", weight)
+
+        new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections])
+        new_html = f"<html><body>{new_html}</body></html>"
+
+        new_path = HERE / "iwf" / "1999" / "senior" / f"{weight}.html"
+        with open(new_path, "w") as file_obj:
+            file_obj.write(new_html)
 
 
 def novice_2000():
-    path = HERE / ".." / "raw-data" / "2000" / "novice" / "Noice Brackets.html"
+    path = ROOT / "raw-data" / "2000" / "novice" / "Noice Brackets.html"
     with open(path) as file_obj:
         html = file_obj.read()
 
@@ -47,7 +162,7 @@ def novice_2000():
 
 
 def senior_2000():
-    path = HERE / ".." / "raw-data" / "2000" / "senior" / "Senior Brackets.html"
+    path = ROOT / "raw-data" / "2000" / "senior" / "Senior Brackets.html"
     with open(path) as file_obj:
         html = file_obj.read()
 
@@ -86,7 +201,7 @@ def senior_2000():
 
 
 def novice_2001():
-    path = HERE / ".." / "raw-data" / "2001" / "novice" / "novice.htm"
+    path = ROOT / "raw-data" / "2001" / "novice" / "novice.htm"
     with open(path) as file_obj:
         html = file_obj.read()
 
@@ -124,7 +239,7 @@ def novice_2001():
 
 
 def senior_2001():
-    path = HERE / ".." / "raw-data" / "2001" / "senior" / "senior.htm"
+    path = ROOT / "raw-data" / "2001" / "senior" / "senior.htm"
     with open(path) as file_obj:
         html = file_obj.read()
 
@@ -162,7 +277,7 @@ def senior_2001():
 
 
 def novice_2002():
-    path = HERE / ".." / "raw-data" / "2002" / "novice" / "Brackets.html"
+    path = ROOT / "raw-data" / "2002" / "novice" / "Brackets.html"
     with open(path) as file_obj:
         html = file_obj.read()
 
@@ -225,7 +340,7 @@ def novice_2002():
 
 
 def senior_2002():
-    path = HERE / ".." / "raw-data" / "2002" / "senior" / "Brackets.html"
+    path = ROOT / "raw-data" / "2002" / "senior" / "Brackets.html"
     with open(path) as file_obj:
         html = file_obj.read()
 
@@ -288,7 +403,7 @@ def senior_2002():
 
 
 def novice_2003():
-    path = HERE / ".." / "raw-data" / "2003" / "novice" / "Brackets.html"
+    path = ROOT / "raw-data" / "2003" / "novice" / "Brackets.html"
     with open(path) as file_obj:
         html = file_obj.read()
 
@@ -351,7 +466,7 @@ def novice_2003():
 
 
 def senior_2003():
-    path = HERE / ".." / "raw-data" / "2003" / "senior" / "Brackets.html"
+    path = ROOT / "raw-data" / "2003" / "senior" / "Brackets.html"
     with open(path) as file_obj:
         html = file_obj.read()
 
@@ -423,7 +538,7 @@ def _replace_extra_bouts(value, lowest, highest, replace_with):
 def novice_2004():
     weights_pre = {}
     weights = (62, 66, 70, 74, 79, 84, 89, 95, 101, 108, 115, 122, 130, 147, 166, 215)
-    path_prefix = HERE / ".." / "raw-data" / "2004" / "novice"
+    path_prefix = ROOT / "raw-data" / "2004" / "novice"
 
     for weight in weights:
         path = path_prefix / f"Weight Class_ {weight}.html"
@@ -504,7 +619,7 @@ def senior_2004():
         215,
         275,
     )
-    path_prefix = HERE / ".." / "raw-data" / "2004" / "senior"
+    path_prefix = ROOT / "raw-data" / "2004" / "senior"
 
     for weight in weights:
         path = path_prefix / f"Weight Class_ {weight}.html"
@@ -565,7 +680,7 @@ def senior_2004():
 def novice_2005():
     weights_pre = {}
     weights = (62, 66, 70, 74, 79, 84, 89, 95, 101, 108, 115, 122, 130, 147, 166, 215)
-    path_prefix = HERE / ".." / "raw-data" / "2005" / "novice"
+    path_prefix = ROOT / "raw-data" / "2005" / "novice"
 
     for weight in weights:
         path = path_prefix / f"Weight Class_ {weight}.html"
@@ -646,7 +761,7 @@ def senior_2005():
         215,
         275,
     )
-    path_prefix = HERE / ".." / "raw-data" / "2005" / "senior"
+    path_prefix = ROOT / "raw-data" / "2005" / "senior"
 
     for weight in weights:
         path = path_prefix / f"Weight Class_ {weight}.html"
@@ -705,7 +820,7 @@ def senior_2005():
 
 
 def novice_2006():
-    path = HERE / ".." / "raw-data" / "2006" / "novice" / "Brackets.html"
+    path = ROOT / "raw-data" / "2006" / "novice" / "Brackets.html"
     with open(path) as file_obj:
         html = file_obj.read()
 
@@ -768,7 +883,7 @@ def novice_2006():
 
 
 def senior_2006():
-    path = HERE / ".." / "raw-data" / "2006" / "senior" / "Brackets-2006.html"
+    path = ROOT / "raw-data" / "2006" / "senior" / "Brackets-2006.html"
     with open(path) as file_obj:
         html = file_obj.read()
 
@@ -831,8 +946,17 @@ def senior_2006():
 
 
 def main():
+    junior_iwf_1999()
+    novice_iwf_1999()
+    senior_iwf_1999()
+    # junior_iwf_2000()
+    # novice_iwf_2000()
+    # senior_iwf_2000()
     novice_2000()
     senior_2000()
+    # junior_iwf_2001()
+    # novice_iwf_2001()
+    # senior_iwf_2001()
     novice_2001()
     senior_2001()
     novice_2002()
