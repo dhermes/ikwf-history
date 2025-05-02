@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "P. Szigetuari",
+    "top_team": "Jr. Bears",
+    "top_score": 10,
+    "bottom_name": "K. Sigler",
+    "bottom_team": "ElPaso",
+    "bottom_score": 9,
+    "top_win": true,
+    "result": "Dec 10-9"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "J. Lange",
+    "top_team": "Falcons",
+    "top_score": 9,
+    "bottom_name": "C. Scholle",
+    "bottom_team": "Carmel Cors",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "MajDec 9-0"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "C. Muller",
+    "top_team": "Rich Wrestling",
+    "top_score": 4,
+    "bottom_name": "M. Benson",
+    "bottom_team": "Shamrock WC",
+    "bottom_score": 3,
+    "top_win": true,
+    "result": "Dec 4-3"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Christian Brantley",
+    "top_team": "Harvey",
+    "top_score": 14,
+    "bottom_name": "R Panayi",
+    "bottom_team": "Palatine",
+    "bottom_score": 9,
+    "top_win": true,
+    "result": "Dec 14-9"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "M. Jurkovic",
+    "top_team": "Calu City",
+    "top_score": null,
+    "bottom_name": "T. Hefferman",
+    "bottom_team": "Arlington",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:52"
+  }
+]

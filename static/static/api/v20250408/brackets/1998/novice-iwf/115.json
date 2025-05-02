@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "A. Gilliand",
+    "top_team": "El Paso",
+    "top_score": null,
+    "bottom_name": "C. Price",
+    "bottom_team": "El Paso",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 3:32"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "A. Lowe",
+    "top_team": "Harvey",
+    "top_score": null,
+    "bottom_name": "T. Bowken",
+    "bottom_team": "Blackhawk",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall :39"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Michael Goede",
+    "top_team": "Calumet City",
+    "top_score": 5,
+    "bottom_name": "Ben Bernal",
+    "bottom_team": "Hoffman Estates",
+    "bottom_score": 1,
+    "top_win": true,
+    "result": "Dec 5-1"
+  }
+]

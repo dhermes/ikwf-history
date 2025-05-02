@@ -1,0 +1,28 @@
+[
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Jamal Muhammad",
+    "top_team": "Harvey",
+    "top_score": 6,
+    "bottom_name": "John Snyder",
+    "bottom_team": "Pekin",
+    "bottom_score": 4,
+    "top_win": true,
+    "result": "Dec 6-4"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Laquan Melvin",
+    "top_team": "Tomcats",
+    "top_score": null,
+    "bottom_name": "Sean Simon",
+    "bottom_team": "Maywood",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall :36"
+  }
+]

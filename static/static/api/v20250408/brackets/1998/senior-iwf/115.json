@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "N. Aye",
+    "top_team": "West Chicago",
+    "top_score": 6,
+    "bottom_name": "B. Wyatt",
+    "bottom_team": "Granite City",
+    "bottom_score": 3,
+    "top_win": true,
+    "result": "Dec 6-3"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Tony Catour",
+    "top_team": "Moline",
+    "top_score": null,
+    "bottom_name": "J. Coleman",
+    "bottom_team": "Calumet City",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:37"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Frank Keeler",
+    "top_team": "Dolton",
+    "top_score": null,
+    "bottom_name": "Mike Zagorski",
+    "bottom_team": "Jr. Bears",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall :33"
+  }
+]

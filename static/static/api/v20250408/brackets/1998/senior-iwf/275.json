@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "PJ Conway",
+    "top_team": "Panthers",
+    "top_score": null,
+    "bottom_name": "M. Svast",
+    "bottom_team": "West Chicago",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:28"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "James Bradshaw",
+    "top_team": "Raiders",
+    "top_score": null,
+    "bottom_name": "J. Rosiles",
+    "bottom_team": "Joliet",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:27"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Jose Monarrez",
+    "top_team": "Maywood",
+    "top_score": null,
+    "bottom_name": "Wayne Desmet",
+    "bottom_team": "Moline",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 3:58"
+  }
+]

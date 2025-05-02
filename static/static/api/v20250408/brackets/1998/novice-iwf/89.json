@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "L. Silva",
+    "top_team": "Blue Island",
+    "top_score": 16,
+    "bottom_name": "M. Cook",
+    "bottom_team": "DeKalb",
+    "bottom_score": 3,
+    "top_win": true,
+    "result": "MajDec 16-3"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "M. Burke",
+    "top_team": "Bison",
+    "top_score": 0,
+    "bottom_name": "B. Malone",
+    "bottom_team": "Tomcats",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "UTB 0-0"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Jim Griffin",
+    "top_team": "Oak Forest",
+    "top_score": 13,
+    "bottom_name": "A. Hernandez",
+    "bottom_team": "Dolton",
+    "bottom_score": 4,
+    "top_win": true,
+    "result": "MajDec 13-4"
+  }
+]

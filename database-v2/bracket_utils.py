@@ -576,6 +576,15 @@ def get_division_display(division: Division) -> str:
     if division == "senior_girls":
         return "Girls Senior"
 
+    if division == "junior_iwf":
+        return "IWF Junior"
+
+    if division == "novice_iwf":
+        return "IWF Novice"
+
+    if division == "senior_iwf":
+        return "IWF Senior"
+
     raise NotImplementedError(division)
 
 
@@ -604,6 +613,15 @@ def get_division_path(division: Division) -> str:
 
     if division == "senior_girls":
         return "senior-girls"
+
+    if division == "junior_iwf":
+        return "junior-iwf"
+
+    if division == "novice_iwf":
+        return "novice-iwf"
+
+    if division == "senior_iwf":
+        return "senior-iwf"
 
     raise NotImplementedError(division)
 

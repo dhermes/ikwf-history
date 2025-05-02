@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "A. VanKampen",
+    "top_team": "Demons",
+    "top_score": null,
+    "bottom_name": "M. Dombrowski",
+    "bottom_team": "Fenwick",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall :51"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "T. Bagby",
+    "top_team": "Joliet",
+    "top_score": 11,
+    "bottom_name": "B. Mathews",
+    "bottom_team": "Knights",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "MajDec 11-0"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "S. Grece",
+    "top_team": "Jr. Trojans",
+    "top_score": 4,
+    "bottom_name": "J. Yost",
+    "bottom_team": "Grapplin Devils",
+    "bottom_score": 2,
+    "top_win": true,
+    "result": "Dec 4-2"
+  }
+]

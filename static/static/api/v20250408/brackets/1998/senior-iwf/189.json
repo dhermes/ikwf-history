@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "P. Hartsfield",
+    "top_team": "Fenwick",
+    "top_score": null,
+    "bottom_name": "W. Gosnell",
+    "bottom_team": "Pekin",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 3:59"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "D. Olivia",
+    "top_team": "Carmel Corsair",
+    "top_score": null,
+    "bottom_name": "R. Clemons",
+    "bottom_team": "Pekin",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:27"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "David Love",
+    "top_team": "Harvey",
+    "top_score": null,
+    "bottom_name": "Brett Henderson",
+    "bottom_team": "Raiders",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:29"
+  }
+]

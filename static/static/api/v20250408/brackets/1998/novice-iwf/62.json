@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Keenan James",
+    "top_team": "Maywood",
+    "top_score": 13,
+    "bottom_name": "Chris Alexander",
+    "bottom_team": "Pekin",
+    "bottom_score": 3,
+    "top_win": true,
+    "result": "MajDec 13-3"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Charlie Wolf",
+    "top_team": "Fenwick",
+    "top_score": 6,
+    "bottom_name": "Jerard Jones",
+    "bottom_team": "Dolton",
+    "bottom_score": 4,
+    "top_win": true,
+    "result": "Dec 6-4"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Joey Lane",
+    "top_team": "Pekin",
+    "top_score": null,
+    "bottom_name": "Joe Rokowski",
+    "bottom_team": "Panthers",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 2:28"
+  }
+]

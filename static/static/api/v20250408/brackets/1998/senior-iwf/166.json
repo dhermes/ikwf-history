@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "T. Chilcote",
+    "top_team": "Lk Villa",
+    "top_score": null,
+    "bottom_name": "C. Brazzele",
+    "bottom_team": "Lan-Oak",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 2:27"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "J. Halpert",
+    "top_team": "J-Hawks",
+    "top_score": null,
+    "bottom_name": "B. Doyle",
+    "bottom_team": "Rich Wrest",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:33"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "M. Johnson",
+    "top_team": "Falcons",
+    "top_score": 11,
+    "bottom_name": "M. Echevarria",
+    "bottom_team": "Carmel Cor",
+    "bottom_score": 8,
+    "top_win": true,
+    "result": "Dec 11-8"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Chad Truetler",
+    "top_team": "Palatine",
+    "top_score": 9,
+    "bottom_name": "Steve Cincotti",
+    "bottom_team": "Lions",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "MajDec 9-0"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Eric Lueders",
+    "top_team": "Bison",
+    "top_score": 10,
+    "bottom_name": "Adrian Cerrillo",
+    "bottom_team": "Joliet",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "MajDec 10-0"
+  }
+]

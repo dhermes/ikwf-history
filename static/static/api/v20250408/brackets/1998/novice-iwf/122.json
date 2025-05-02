@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "P. McCormic",
+    "top_team": "Central",
+    "top_score": null,
+    "bottom_name": "J. Urrutia",
+    "bottom_team": "Falcons",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 3:19"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "K. Brolsma",
+    "top_team": "St. Charles",
+    "top_score": null,
+    "bottom_name": "D. Ferrell",
+    "bottom_team": "Blackhawk",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 3:15"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Tyler Watkins",
+    "top_team": "OPRF",
+    "top_score": 13,
+    "bottom_name": "B. Suler",
+    "bottom_team": "Blackhawk",
+    "bottom_score": 8,
+    "top_win": true,
+    "result": "Dec 13-8"
+  }
+]

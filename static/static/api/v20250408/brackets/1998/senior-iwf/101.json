@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "B. Bairston",
+    "top_team": "Wrestling Factory",
+    "top_score": 7,
+    "bottom_name": "D. Gibbs",
+    "bottom_team": "Moline",
+    "bottom_score": 2,
+    "top_win": true,
+    "result": "Dec 7-2"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "H. Diedrid",
+    "top_team": "Crystal Lake",
+    "top_score": 7,
+    "bottom_name": "J. DeBias",
+    "bottom_team": "Demons",
+    "bottom_score": 2,
+    "top_win": true,
+    "result": "Dec 7-2"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Eric Scholle",
+    "top_team": "Carmel Corsair",
+    "top_score": 7,
+    "bottom_name": "J. Curby",
+    "bottom_team": "Lions",
+    "bottom_score": 5,
+    "top_win": true,
+    "result": "Dec 7-5"
+  }
+]

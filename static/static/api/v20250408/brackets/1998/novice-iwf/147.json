@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "D. Cozzi",
+    "top_team": "St. Charles",
+    "top_score": null,
+    "bottom_name": "T. Kuna",
+    "bottom_team": "Raiders",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall :51"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "John Hydo",
+    "top_team": "Schaumburg",
+    "top_score": null,
+    "bottom_name": "Sean Stowell",
+    "bottom_team": "Pekin",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall :17"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Robby Walleck",
+    "top_team": "Wrestling Factory",
+    "top_score": null,
+    "bottom_name": "Jason James",
+    "bottom_team": "Maywood",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall :47"
+  }
+]

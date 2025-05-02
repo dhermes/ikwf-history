@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "T. Aufmann",
+    "top_team": "Jr. Bears",
+    "top_score": 11,
+    "bottom_name": "P. Ireland",
+    "bottom_team": "West Chicago",
+    "bottom_score": 5,
+    "top_win": true,
+    "result": "Dec 11-5"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "B. Wapolish",
+    "top_team": "Jr. Bears",
+    "top_score": 8,
+    "bottom_name": "C. Chebny",
+    "bottom_team": "Lake Villa",
+    "bottom_score": 4,
+    "top_win": true,
+    "result": "Dec 8-4"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Larry Amedio",
+    "top_team": "Dolton",
+    "top_score": 7,
+    "bottom_name": "R. Estrada",
+    "bottom_team": "Round Lake",
+    "bottom_score": 5,
+    "top_win": true,
+    "result": "Dec 7-5"
+  }
+]

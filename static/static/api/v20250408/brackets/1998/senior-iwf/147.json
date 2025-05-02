@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "B. Sawer",
+    "top_team": "Knights",
+    "top_score": null,
+    "bottom_name": "K. Crawford",
+    "bottom_team": "Renegades",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 2:24"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "C. Johnson",
+    "top_team": "Falcons",
+    "top_score": 10,
+    "bottom_name": "B. Hoye",
+    "bottom_team": "Pekin",
+    "bottom_score": 6,
+    "top_win": true,
+    "result": "Dec 10-6"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Dustin Doctor",
+    "top_team": "Sycamore",
+    "top_score": null,
+    "bottom_name": "B. Michalowski",
+    "bottom_team": "Calumet City",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 2:00"
+  }
+]

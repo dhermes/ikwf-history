@@ -1,0 +1,28 @@
+[
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Mike Chlamovski",
+    "top_team": "Lions",
+    "top_score": null,
+    "bottom_name": null,
+    "bottom_team": null,
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Bye"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Sean Johnson",
+    "top_team": "Harvey",
+    "top_score": 4,
+    "bottom_name": "Zachary Hausner",
+    "bottom_team": "Panthers",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 4-0"
+  }
+]

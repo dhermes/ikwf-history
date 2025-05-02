@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "J. Kastens",
+    "top_team": "Lake Zurich",
+    "top_score": null,
+    "bottom_name": null,
+    "bottom_team": null,
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Dq"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "R. Stewart",
+    "top_team": "Wrestling Factory",
+    "top_score": 5,
+    "bottom_name": "B. Peach",
+    "bottom_team": "Granite City",
+    "bottom_score": 1,
+    "top_win": true,
+    "result": "Dec 5-1"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Michael Simmons",
+    "top_team": "Wrestling Factory",
+    "top_score": null,
+    "bottom_name": "R. Overby",
+    "bottom_team": "Lake Villa",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 2:03"
+  }
+]

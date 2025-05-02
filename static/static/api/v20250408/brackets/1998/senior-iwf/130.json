@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "J. Curry",
+    "top_team": "Raiders",
+    "top_score": null,
+    "bottom_name": "S. Kehm",
+    "bottom_team": "St. Charles",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:55"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "R. Henderson",
+    "top_team": "Rich Wrestling",
+    "top_score": 6,
+    "bottom_name": "B. Neuberg",
+    "bottom_team": "N Shore Gators",
+    "bottom_score": 4,
+    "top_win": true,
+    "result": "Dec 6-4"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "D. Bedoy",
+    "top_team": "Dolton",
+    "top_score": 15,
+    "bottom_name": "M. Haraf",
+    "bottom_team": "Oak Forest",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "TF 15-0"
+  }
+]

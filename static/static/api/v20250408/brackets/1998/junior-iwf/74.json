@@ -1,0 +1,28 @@
+[
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Scott Zinzer",
+    "top_team": "Tomcats",
+    "top_score": 9,
+    "bottom_name": "Brian Lange",
+    "bottom_team": "Falcon",
+    "bottom_score": 1,
+    "top_win": true,
+    "result": "MajDec 9-1"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Travis Hammons",
+    "top_team": "Harvey",
+    "top_score": 7,
+    "bottom_name": "Jamie Smith",
+    "bottom_team": "Bison",
+    "bottom_score": 3,
+    "top_win": true,
+    "result": "Dec 7-3"
+  }
+]

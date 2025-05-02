@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Jim Treakle",
+    "top_team": "Granite City",
+    "top_score": null,
+    "bottom_name": "M. Galloway",
+    "bottom_team": "St. Charles",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 3:28"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Zach Frazier",
+    "top_team": "Central",
+    "top_score": null,
+    "bottom_name": "Jerry Bowker",
+    "bottom_team": "J-Hawks",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Dflt"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Michael Escobedo",
+    "top_team": "Dolton",
+    "top_score": 9,
+    "bottom_name": "Derek Bly",
+    "bottom_team": "Pekin",
+    "bottom_score": 3,
+    "top_win": true,
+    "result": "Dec 9-3"
+  }
+]

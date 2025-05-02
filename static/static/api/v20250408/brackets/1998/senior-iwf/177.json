@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "S. Descoto",
+    "top_team": "Blackhawk",
+    "top_score": 8,
+    "bottom_name": "J. Jacobs",
+    "bottom_team": "Rochelle",
+    "bottom_score": 2,
+    "top_win": true,
+    "result": "Dec 8-2"
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Jacob Janek",
+    "top_team": "Granite City",
+    "top_score": null,
+    "bottom_name": "Jon Jump",
+    "bottom_team": "Moline",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 2:21"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Brain Galto",
+    "top_team": "Sycamore",
+    "top_score": null,
+    "bottom_name": "Robert Tamillo",
+    "bottom_team": "Addison",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:20"
+  }
+]

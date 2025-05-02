@@ -1,0 +1,28 @@
+[
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Jacob Blanton",
+    "top_team": "Richmond",
+    "top_score": 5,
+    "bottom_name": "Nick Williams",
+    "bottom_team": "Joliet",
+    "bottom_score": 2,
+    "top_win": true,
+    "result": "Dec 5-2"
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "Jarvis Lowe",
+    "top_team": "Harvey",
+    "top_score": null,
+    "bottom_name": "Dustin Arnold",
+    "bottom_team": "Falcons",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 2:41"
+  }
+]
