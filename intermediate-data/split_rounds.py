@@ -1,6 +1,7 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
 import pathlib
+import re
 
 import bs4
 import chardet
@@ -119,6 +120,160 @@ def senior_iwf_1999():
         new_html = f"<html><body>{new_html}</body></html>"
 
         new_path = HERE / "iwf" / "1999" / "senior" / f"{weight}.html"
+        with open(new_path, "w") as file_obj:
+            file_obj.write(new_html)
+
+
+def _iwf_2000_clean_line(line: str) -> str:
+    return line.replace("\xa0", " ").rstrip()
+
+
+def _iwf_2000_clean_pre(text: str) -> str:
+    text = text.rstrip()
+    text = text + "\n"
+
+    for _ in range(50):
+        if text.startswith("\n"):
+            text = text[1:]
+        else:
+            break
+
+    if text.startswith("\n"):
+        raise NotImplementedError
+
+    return text
+
+
+def junior_iwf_2000():
+    path = ROOT / "raw-data" / "iwf" / "2000" / "junior" / "Brackets.html"
+    with open(path) as file_obj:
+        html = file_obj.read()
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+
+    match_headers = soup.find_all("h3", string=re.compile(r"^Wt: "))
+    weights_pre = {}
+    for i, match_header in enumerate(match_headers):
+        weight_text = match_header.text
+        weight = int(weight_text[4:])
+        if weight in weights_pre:
+            raise KeyError(weight)
+
+        end_h3 = None
+        if i < len(match_headers) - 1:
+            end_h3 = match_headers[i + 1]
+
+        pre_between = []
+        for element in match_header.next_siblings:
+            if element == end_h3:
+                break
+            if isinstance(element, bs4.Tag) and element.name == "pre":
+                pre_between.append(_iwf_2000_clean_line(element.text))
+
+        weights_pre[weight] = _iwf_2000_clean_pre("\n".join(pre_between))
+
+    weights = sorted(weights_pre.keys())
+    for weight in weights:
+        pre_text = weights_pre[weight]
+        sections = pre_text.split("\n\n")
+        if len(sections) != 3:
+            raise RuntimeError("Unexpected <pre>", len(sections), weight)
+
+        new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections])
+        new_html = f"<html><body>{new_html}</body></html>"
+
+        new_path = HERE / "iwf" / "2000" / "junior" / f"{weight}.html"
+        with open(new_path, "w") as file_obj:
+            file_obj.write(new_html)
+
+
+def novice_iwf_2000():
+    path = ROOT / "raw-data" / "iwf" / "2000" / "novice" / "Brackets.html"
+    with open(path) as file_obj:
+        html = file_obj.read()
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+
+    match_headers = soup.find_all("h3", string=re.compile(r"^Wt: "))
+    weights_pre = {}
+    for i, match_header in enumerate(match_headers):
+        weight_text = match_header.text
+        weight = int(weight_text[4:])
+        if weight in weights_pre:
+            raise KeyError(weight)
+
+        end_h3 = None
+        if i < len(match_headers) - 1:
+            end_h3 = match_headers[i + 1]
+
+        pre_between = []
+        for element in match_header.next_siblings:
+            if element == end_h3:
+                break
+            if isinstance(element, bs4.Tag) and element.name == "pre":
+                pre_between.append(_iwf_2000_clean_line(element.text))
+
+        weights_pre[weight] = _iwf_2000_clean_pre("\n".join(pre_between))
+
+    weights = sorted(weights_pre.keys())
+    for weight in weights:
+        pre_text = weights_pre[weight]
+
+        if weight == 115:
+            needs_newline = "\n" + " " * 70 + "K ARGUE-RW ------+"
+            pre_text = pre_text.replace(needs_newline, "\n" + needs_newline)
+
+        sections = pre_text.split("\n\n")
+        if len(sections) != 3:
+            raise RuntimeError("Unexpected <pre>", len(sections), weight)
+
+        new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections])
+        new_html = f"<html><body>{new_html}</body></html>"
+
+        new_path = HERE / "iwf" / "2000" / "novice" / f"{weight}.html"
+        with open(new_path, "w") as file_obj:
+            file_obj.write(new_html)
+
+
+def senior_iwf_2000():
+    path = ROOT / "raw-data" / "iwf" / "2000" / "senior" / "Brackets.html"
+    with open(path) as file_obj:
+        html = file_obj.read()
+
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+
+    match_headers = soup.find_all("h3", string=re.compile(r"^Wt: "))
+    weights_pre = {}
+    for i, match_header in enumerate(match_headers):
+        weight_text = match_header.text
+        weight = int(weight_text[4:])
+        if weight in weights_pre:
+            raise KeyError(weight)
+
+        end_h3 = None
+        if i < len(match_headers) - 1:
+            end_h3 = match_headers[i + 1]
+
+        pre_between = []
+        for element in match_header.next_siblings:
+            if element == end_h3:
+                break
+            if isinstance(element, bs4.Tag) and element.name == "pre":
+                pre_between.append(_iwf_2000_clean_line(element.text))
+
+        weights_pre[weight] = _iwf_2000_clean_pre("\n".join(pre_between))
+
+    weights = sorted(weights_pre.keys())
+    for weight in weights:
+        pre_text = weights_pre[weight]
+        sections = pre_text.split("\n\n")
+        if len(sections) != 3:
+            raise RuntimeError("Unexpected <pre>", len(sections), weight)
+
+        new_html = "<hr>".join([f"<pre>{section}</pre>" for section in sections])
+        new_html = f"<html><body>{new_html}</body></html>"
+
+        new_path = HERE / "iwf" / "2000" / "senior" / f"{weight}.html"
         with open(new_path, "w") as file_obj:
             file_obj.write(new_html)
 
@@ -949,9 +1104,9 @@ def main():
     junior_iwf_1999()
     novice_iwf_1999()
     senior_iwf_1999()
-    # junior_iwf_2000()
-    # novice_iwf_2000()
-    # senior_iwf_2000()
+    junior_iwf_2000()
+    novice_iwf_2000()
+    senior_iwf_2000()
     novice_2000()
     senior_2000()
     # junior_iwf_2001()
