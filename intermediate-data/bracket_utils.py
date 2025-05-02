@@ -154,6 +154,9 @@ Division = Literal[
     "intermediate_girls",
     "novice_girls",
     "senior_girls",
+    "junior_iwf",
+    "novice_iwf",
+    "senior_iwf",
 ]
 
 
