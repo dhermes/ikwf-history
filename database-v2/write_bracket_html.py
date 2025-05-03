@@ -812,7 +812,23 @@ def _render_bracket_html(
         file_obj.write(formatted_html)
 
 
-def _get_included_tournament_images(
+def _get_included_tournament_images(static_root: pathlib.Path, year: int) -> list[str]:
+    filenames: list[str] = []
+
+    filename = f"{year}-program-cover.png"
+    image_path = static_root / "images" / filename
+    if image_path.is_file():
+        filenames.append(filename)
+
+    filename = f"{year}-program-cover.jpg"
+    image_path = static_root / "images" / filename
+    if image_path.is_file():
+        filenames.append(filename)
+
+    return filenames
+
+
+def _get_included_division_images(
     static_root: pathlib.Path, year: int, division: bracket_utils.Division
 ) -> list[str]:
     filenames: list[str] = []
@@ -824,7 +840,27 @@ def _get_included_tournament_images(
     if image_path.is_file():
         filenames.append(filename)
 
+    filename = f"{year}-{division_path}-team-scores.jpg"
+    image_path = static_root / "images" / filename
+    if image_path.is_file():
+        filenames.append(filename)
+
     filename = f"{year}-{division_path}-placers.png"
+    image_path = static_root / "images" / filename
+    if image_path.is_file():
+        filenames.append(filename)
+
+    filename = f"{year}-{division_path}-placers.jpg"
+    image_path = static_root / "images" / filename
+    if image_path.is_file():
+        filenames.append(filename)
+
+    filename = f"{year}-{division_path}-team-champion.png"
+    image_path = static_root / "images" / filename
+    if image_path.is_file():
+        filenames.append(filename)
+
+    filename = f"{year}-{division_path}-team-champion.jpg"
     image_path = static_root / "images" / filename
     if image_path.is_file():
         filenames.append(filename)
@@ -848,6 +884,10 @@ def _render_brackets_year_html(
         f"      <h1>{year}</h1>",
     ]
 
+    year_images = _get_included_tournament_images(static_root, year)
+    for included_image in year_images:
+        parts.append(f'<img src="/images/{included_image}" width="100%" />')
+
     divisions = sorted(weights_by_division.keys(), key=bracket_utils.division_sort_key)
     for division in divisions:
         weights = sorted(weights_by_division[division])
@@ -867,8 +907,8 @@ def _render_brackets_year_html(
 
         parts.append("</ul>")
 
-        included_images = _get_included_tournament_images(static_root, year, division)
-        for included_image in included_images:
+        division_images = _get_included_division_images(static_root, year, division)
+        for included_image in division_images:
             parts.append(f'<img src="/images/{included_image}" width="100%" />')
 
     parts.extend(
