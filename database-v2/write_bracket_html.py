@@ -231,12 +231,22 @@ def _get_included_bracket_images(
 ) -> list[str]:
     filenames: list[str] = []
 
-    filename = f"{year}-{division}-{weight}.jpg"
+    filename = f"{year}-{division}-{weight}-bracket-board.png"
+    image_path = static_root / "images" / filename
+    if image_path.is_file():
+        filenames.append(filename)
+
+    filename = f"{year}-{division}-{weight}-bracket-board.jpg"
     image_path = static_root / "images" / filename
     if image_path.is_file():
         filenames.append(filename)
 
     filename = f"{year}-{division}-{weight}.png"
+    image_path = static_root / "images" / filename
+    if image_path.is_file():
+        filenames.append(filename)
+
+    filename = f"{year}-{division}-{weight}.jpg"
     image_path = static_root / "images" / filename
     if image_path.is_file():
         filenames.append(filename)
