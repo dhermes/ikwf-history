@@ -13,12 +13,11 @@ _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
     65: bracket_utils.Placer(name="Jim Zeilenga", team="Oak Forest Warriors"),
     70: bracket_utils.Placer(name="Paul Zina", team="Oak Park"),
     75: bracket_utils.Placer(name="Joe Gilbert", team="Tinley Park Bulldogs"),
-    80: bracket_utils.Placer(name="Mike Mackowiak", team="Tinley Park"),
+    80: bracket_utils.Placer(name="Mike Mackowiak", team="Tinley Park Bulldogs"),
     85: bracket_utils.Placer(name="Dan O'Brien", team="Panther WC"),
     90: bracket_utils.Placer(name="Brian Edelen", team="Tinley Park Bulldogs"),
     95: bracket_utils.Placer(name="Mike Lamonica", team="Orland Park Pionee"),
     100: bracket_utils.Placer(name="Ben Morris", team="Bensenville"),
-    105: bracket_utils.Placer(name="Joe Cascone", team="Vittum Vikings"),
     111: bracket_utils.Placer(name="Chad Gilpin", team="Hamilton"),
     118: bracket_utils.Placer(name="Mark Montgomery", team="DeKalb Huntley"),
     125: bracket_utils.Placer(name="John Sehnert", team="Barrington"),
@@ -29,9 +28,19 @@ _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
     185: bracket_utils.Placer(name="Dana Dunklau", team="Frankfort"),
     275: bracket_utils.Placer(name="Gary Wetzel", team="Oak Forest Warriors"),
 }
+_SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
+    105: [
+        bracket_utils.Placer(name="Joe Cascone", team="Vittum Vikings"),
+        bracket_utils.Placer(name="C. Fisher", team="Byron WC"),  # ??
+        bracket_utils.Placer(name="Paco Hernandez", team="Lockport"),  # ??
+        bracket_utils.Placer(name="Pat Nestor", team="Sterling Newman"),  # ??
+        bracket_utils.Placer(name="Sean Cunningham", team="DeKalb Rosette"),
+        bracket_utils.Placer(name="Bob Marmolejo", team="West Chicago"),  # ??
+    ],
+}
 _SENIOR_TEAM_SCORES: dict[str, float] = {
-    "TINLEY PARK": 149.0,
-    "BURBANK PANTHERS": 129.0,
+    "Tinley Park Bulldogs": 149.0,
+    "Panther WC": 129.0,
 }
 
 
@@ -47,6 +56,12 @@ def main():
     for weight, champ in _SENIOR_CHAMPS.items():
         weight_class = bracket_utils.weight_class_from_champ(
             "senior", weight, champ, _SENIOR_TEAM_REPLACE
+        )
+        weight_classes.append(weight_class)
+
+    for weight, placers in _SENIOR_PLACERS.items():
+        weight_class = bracket_utils.create_weight_class_from_placers(
+            "senior", weight, placers, _SENIOR_TEAM_REPLACE
         )
         weight_classes.append(weight_class)
 

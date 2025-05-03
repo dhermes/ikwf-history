@@ -229,7 +229,55 @@
             "team_full": "Aurora Franklin",
             "team_acronym": null
           },
-          "bottom_competitor": null,
+          "bottom_competitor": {
+            "full_name": "Matt Twitty",
+            "first_name": "Matt",
+            "last_name": "Twitty",
+            "team_full": "Mattoon",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Mike Daughters",
+            "first_name": "Mike",
+            "last_name": "Daughters",
+            "team_full": "Plainfield",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Ken Mansell",
+            "first_name": "Ken",
+            "last_name": "Mansell",
+            "team_full": "Joliet Boy's Club",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Mike Smith",
+            "first_name": "Mike",
+            "last_name": "Smith",
+            "team_full": "Stillman Valley",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Jack Sale",
+            "first_name": "Jack",
+            "last_name": "Sale",
+            "team_full": "Mahomet",
+            "team_acronym": null
+          },
           "result": "",
           "result_type": "place",
           "bout_number": null,
@@ -430,14 +478,54 @@
   "team_scores": {
     "senior": [
       {
-        "team": "PLAINFIELD",
+        "team": "Plainfield",
         "acronym": null,
         "score": 164.0
       },
       {
-        "team": "SAVANNA",
+        "team": "Savanna",
         "acronym": null,
         "score": 119.0
+      },
+      {
+        "team": "New Lenox Oakview",
+        "acronym": null,
+        "score": 85.0
+      },
+      {
+        "team": "Panther",
+        "acronym": null,
+        "score": 73.0
+      },
+      {
+        "team": "Joliet Boy's Club",
+        "acronym": null,
+        "score": 68.0
+      },
+      {
+        "team": "Aurora Simmons",
+        "acronym": null,
+        "score": 58.0
+      },
+      {
+        "team": "Hazel Crest",
+        "acronym": null,
+        "score": 58.0
+      },
+      {
+        "team": "Aurora Franklin",
+        "acronym": null,
+        "score": 57.0
+      },
+      {
+        "team": "Mattoon",
+        "acronym": null,
+        "score": 52.0
+      },
+      {
+        "team": "West Chicago",
+        "acronym": null,
+        "score": 52.0
       }
     ]
   },

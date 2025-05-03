@@ -14,7 +14,6 @@ _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
     80: bracket_utils.Placer(name="Todd Sterr", team="Joliet Boy's Club"),
     90: bracket_utils.Placer(name="Kurt Law", team="Savanna"),
     95: bracket_utils.Placer(name="Mark Ruettiger", team="Joliet Boy's Club"),
-    100: bracket_utils.Placer(name="Mark Barron", team="Aurora Franklin"),
     105: bracket_utils.Placer(name="Todd Ferris", team="Savanna"),
     112: bracket_utils.Placer(name="Mike Rosman", team="Naperville"),
     118: bracket_utils.Placer(name="Ray Villareal", team="West Chicago"),
@@ -34,10 +33,26 @@ _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
         bracket_utils.Placer(name="Jim Maddock", team="Marshall"),
         bracket_utils.Placer(name="Jerry Miller", team="Granite City"),
     ],
+    100: [
+        bracket_utils.Placer(name="Mark Barron", team="Aurora Franklin"),
+        bracket_utils.Placer(name="Matt Twitty", team="Mattoon"),
+        bracket_utils.Placer(name="Mike Daughters", team="Plainfield"),
+        bracket_utils.Placer(name="Ken Mansell", team="Joliet Boy's Club"),
+        bracket_utils.Placer(name="Mike Smith", team="Stillman Valley"),
+        bracket_utils.Placer(name="Jack Sale", team="Mahomet"),
+    ],
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
-    "PLAINFIELD": 164.0,
-    "SAVANNA": 119.0,
+    "Plainfield": 164.0,  # `143`?
+    "Savanna": 119.0,
+    "New Lenox Oakview": 85.0,
+    "Panther": 73.0,
+    "Joliet Boy's Club": 68.0,
+    "Aurora Simmons": 58.0,
+    "Hazel Crest": 58.0,
+    "Aurora Franklin": 57.0,
+    "West Chicago": 52.0,
+    "Mattoon": 52.0,
 }
 
 

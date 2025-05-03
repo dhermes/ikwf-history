@@ -136,7 +136,7 @@
             "full_name": "Mike Mackowiak",
             "first_name": "Mike",
             "last_name": "Mackowiak",
-            "team_full": "Tinley Park",
+            "team_full": "Tinley Park Bulldogs",
             "team_acronym": null
           },
           "bottom_competitor": null,
@@ -244,7 +244,55 @@
             "team_full": "Vittum Vikings",
             "team_acronym": null
           },
-          "bottom_competitor": null,
+          "bottom_competitor": {
+            "full_name": "C. Fisher",
+            "first_name": "C.",
+            "last_name": "Fisher",
+            "team_full": "Byron WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Paco Hernandez",
+            "first_name": "Paco",
+            "last_name": "Hernandez",
+            "team_full": "Lockport",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Pat Nestor",
+            "first_name": "Pat",
+            "last_name": "Nestor",
+            "team_full": "Sterling Newman",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "place",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Sean Cunningham",
+            "first_name": "Sean",
+            "last_name": "Cunningham",
+            "team_full": "DeKalb Rosette",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "Bob Marmolejo",
+            "first_name": "Bob",
+            "last_name": "Marmolejo",
+            "team_full": "West Chicago",
+            "team_acronym": null
+          },
           "result": "",
           "result_type": "place",
           "bout_number": null,
@@ -445,12 +493,12 @@
   "team_scores": {
     "senior": [
       {
-        "team": "TINLEY PARK",
+        "team": "Tinley Park Bulldogs",
         "acronym": null,
         "score": 149.0
       },
       {
-        "team": "BURBANK PANTHERS",
+        "team": "Panther WC",
         "acronym": null,
         "score": 129.0
       }
