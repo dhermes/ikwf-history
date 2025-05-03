@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Mike Smith",
+    "top_team": "Stillman Valley",
+    "top_score": null,
+    "bottom_name": "Jack Sale",
+    "bottom_team": "Mahomet",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Mike Daughters",
+    "top_team": "Plainfield",
+    "top_score": null,
+    "bottom_name": "Ken Mansell",
+    "bottom_team": "Joliet Boy's Club",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Mark Barron",
     "top_team": "Aurora Franklin",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Matt Twitty",
+    "bottom_team": "Mattoon",
     "bottom_score": null,
     "top_win": true,
     "result": ""
