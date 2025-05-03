@@ -13,7 +13,7 @@ _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
     65: bracket_utils.Placer(name="Jim Zeilenga", team="Oak Forest Warriors"),
     70: bracket_utils.Placer(name="Paul Zina", team="Oak Park"),
     75: bracket_utils.Placer(name="Joe Gilbert", team="Tinley Park Bulldogs"),
-    80: bracket_utils.Placer(name="Mike Mackowiak", team="Tinley Park Bulldogs"),
+    80: bracket_utils.Placer(name="Mike Mackowiak", team="Tinley Park"),
     85: bracket_utils.Placer(name="Dan O'Brien", team="Panther WC"),
     90: bracket_utils.Placer(name="Brian Edelen", team="Tinley Park Bulldogs"),
     95: bracket_utils.Placer(name="Mike Lamonica", team="Orland Park Pionee"),
@@ -39,7 +39,7 @@ _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
     ],
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
-    "Tinley Park Bulldogs": 149.0,
+    "TINLEY PARK": 149.0,
     "Panther WC": 129.0,
 }
 

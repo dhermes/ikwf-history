@@ -9447,11 +9447,6 @@
       {
         "tournament_id": 13,
         "division": "senior",
-        "name": "BURBANK PANTHERS"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
         "name": "Panther WC"
       },
       {
@@ -10338,11 +10333,6 @@
     "name_normalized": "Savanna",
     "url_path_slug": "savanna",
     "duplicates": [
-      {
-        "tournament_id": 7,
-        "division": "senior",
-        "name": "SAVANNA"
-      },
       {
         "tournament_id": 7,
         "division": "senior",
@@ -50273,7 +50263,7 @@
       {
         "tournament_id": 7,
         "division": "senior",
-        "name": "PLAINFIELD"
+        "name": "Plainfield"
       },
       {
         "tournament_id": 8,
