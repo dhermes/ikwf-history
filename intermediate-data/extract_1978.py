@@ -3,6 +3,7 @@
 import pathlib
 
 import bracket_utils
+from PIL import Image
 
 HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
@@ -17,7 +18,7 @@ _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
     95: bracket_utils.Placer(name="Tony Prate", team="Orland Park Pioneers"),
     100: bracket_utils.Placer(name="Rick Criscione", team="Joliet YMCA"),
     105: bracket_utils.Placer(name="Mike Smith", team="Stillman Valley"),
-    112: bracket_utils.Placer(name="Guy Milburn", team="Dolton"),
+    112: bracket_utils.Placer(name="Guy Milburn", team="Dolton"),  # Milbourn?
     118: bracket_utils.Placer(name="Evan Dale", team="Joliet Washington"),
     125: bracket_utils.Placer(name="Ken Mansell", team="Joliet Boy's Club"),
     135: bracket_utils.Placer(name="Mike Rosman", team="Walter Sundling"),
@@ -134,7 +135,109 @@ _TEAM_ACRONYM_MAPPING: dict[str, str] = {
 }
 
 
+def _create_placers_image_row(
+    headshot_img, names_img, headshot_width, headshot_height, name_width, name_height
+):
+    # Create padded headshot box
+    headshot_box = Image.new("RGBA", (headshot_width, headshot_height), (0, 0, 0, 0))
+    headshot_box.paste(
+        headshot_img,
+        (
+            (headshot_width - headshot_img.width) // 2,
+            (headshot_height - headshot_img.height) // 2,
+        ),
+    )
+
+    # Create padded name box
+    name_box = Image.new("RGBA", (name_width, name_height), (0, 0, 0, 0))
+    name_box.paste(
+        names_img,
+        ((name_width - names_img.width) // 2, (name_height - names_img.height) // 2),
+    )
+
+    # Stack horizontally
+    row = Image.new(
+        "RGBA",
+        (
+            headshot_width + name_width,
+            max(headshot_height, name_height),
+        ),
+        (0, 0, 0, 0),
+    )
+    row.paste(headshot_box, (0, (row.height - headshot_height) // 2))
+    row.paste(name_box, (headshot_width, (row.height - name_height) // 2))
+
+    return row
+
+
+def _generate_placers_image(year: int):
+    all_weights = set(_SENIOR_CHAMPS.keys())
+    weights = sorted(all_weights)
+
+    raw_root = HERE.parent / "raw-data" / str(year)
+    headshots = [
+        Image.open(raw_root / "placers-headshot" / f"{weight}.jpg")
+        for weight in weights
+    ]
+    headshots = [image.convert("RGBA") for image in headshots]
+    names = [
+        Image.open(raw_root / "placers-names" / f"{weight}.jpg") for weight in weights
+    ]
+    names = [image.convert("RGBA") for image in names]
+
+    max_headshot_width = max(img.width for img in headshots)
+    max_headshot_height = max(img.height for img in headshots)
+    max_name_width = max(img.width for img in names)
+    max_name_height = max(img.height for img in names)
+
+    rows = [
+        _create_placers_image_row(
+            headshot_img,
+            names_img,
+            max_headshot_width,
+            max_headshot_height,
+            max_name_width,
+            max_name_height,
+        )
+        for headshot_img, names_img in zip(headshots, names, strict=True)
+    ]
+
+    midpoint = (len(rows) + 1) // 2  # extra one on left if odd
+    left_column = rows[:midpoint]
+    right_column = rows[midpoint:]
+
+    row_width = max_headshot_width + max_name_width
+    row_height = max(max_headshot_height, max_name_height)
+    column_height = midpoint * row_height
+    total_width = 2 * row_width
+
+    # Create final canvas
+    final_img = Image.new("RGBA", (total_width, column_height), (0, 0, 0, 0))
+
+    # Paste left column
+    for i, row in enumerate(left_column):
+        width_offset = 0
+        height_offset = i * row_height
+        final_img.paste(
+            row, (width_offset + (row_width - row.width) // 2, height_offset)
+        )
+
+    # Paste right column
+    for i, row in enumerate(right_column):
+        width_offset = row_width
+        height_offset = i * row_height
+        final_img.paste(
+            row, (width_offset + (row_width - row.width) // 2, height_offset)
+        )
+
+    static_dir = HERE.parent / "static" / "static" / "images"
+    save_location = static_dir / f"{year}-senior-placers.png"
+    final_img.save(save_location)
+
+
 def main():
+    _generate_placers_image(1978)
+
     team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
     team_scores["senior"] = []
     for team_name, score in _SENIOR_TEAM_SCORES.items():
