@@ -7,12 +7,12 @@ import bracket_utils
 HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
-    60: bracket_utils.Placer(name="Bob Porter", team="Parkview"),
+    60: bracket_utils.Placer(name="Bob Porter", team="Parkview"),  # Bobby?
     65: bracket_utils.Placer(name="Lee Goldsmith", team="Northfield"),
     70: bracket_utils.Placer(name="Kurt Schmidt", team="Des Plaines Gemini"),
     77: bracket_utils.Placer(name="Kevin Walsh", team="Des Plaines Gemini"),
     83: bracket_utils.Placer(name="Jesse Shaw", team="Joliet Boy's Club"),
-    90: bracket_utils.Placer(name="Jerry LaBaude", team="Rockford"),
+    90: bracket_utils.Placer(name="Jerry LaBaude", team="Rockford"),  # LA BANDE?
     97: bracket_utils.Placer(name="Albert Sullivan", team="DeKalb Rosette"),
     105: bracket_utils.Placer(name="Rick Morris", team="Grove"),
     112: bracket_utils.Placer(name="Joe Eisen", team="Northfield"),

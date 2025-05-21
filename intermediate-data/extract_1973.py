@@ -10,13 +10,14 @@ _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
     60: bracket_utils.Placer(name="Dan Nasenbenny", team="Joliet Boy's Club"),
     65: bracket_utils.Placer(name="Gary Gerdes", team="Oak Forest"),
     70: bracket_utils.Placer(name="Tom Gerdes", team="Oak Forest"),
-    75: bracket_utils.Placer(name="Dan Unruh", team="West Chicago"),
+    75: bracket_utils.Placer(name="Dan Unruh", team="West Chicago"),  # Danny
     80: bracket_utils.Placer(name="Lee Goldsmith", team="Northfield"),
     85: bracket_utils.Placer(name="Sean Sterr", team="Joliet Boy's Club"),
-    90: bracket_utils.Placer(name="Fred Ferrin", team="Romeoville Westview"),
+    90: bracket_utils.Placer(name="Fred Ferrin", team="Romeoville Westview"),  # Farrin?
     97: bracket_utils.Placer(name="Bob Guerrero", team="West Chicago"),
+    # Rurmmeier? Franklin Pk.?
     105: bracket_utils.Placer(name="Bill Turnmire", team="Harlem"),
-    112: bracket_utils.Placer(name="Rich Konitski", team="Harlem"),
+    112: bracket_utils.Placer(name="Rich Konitski", team="Harlem"),  # Franklin Pk.?
     118: bracket_utils.Placer(name="Jim Steen", team="New Lenox Oakview"),
     125: bracket_utils.Placer(name="Miguel Cortez", team="West Chicago"),
     134: bracket_utils.Placer(name="Scott Glander", team="Naperville Lincoln"),
