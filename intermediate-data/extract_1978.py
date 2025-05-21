@@ -179,11 +179,9 @@ def _generate_placers_image(year: int):
         Image.open(raw_root / "placers-headshot" / f"{weight}.jpg")
         for weight in weights
     ]
-    headshots = [image.convert("RGBA") for image in headshots]
     names = [
         Image.open(raw_root / "placers-names" / f"{weight}.jpg") for weight in weights
     ]
-    names = [image.convert("RGBA") for image in names]
 
     max_headshot_width = max(img.width for img in headshots)
     max_headshot_height = max(img.height for img in headshots)
