@@ -1,122 +1,474 @@
 {
     "1989": {
         "19": {
-            "ron_urwin": {
-                "name": "JUSTIN WEBER",
-                "team": "VILLA-LOMBARD"
-            }
+            "ron_urwin": [
+                {
+                    "name": "Justin Weber",
+                    "team": "Villa Lombard Cougars"
+                }
+            ]
         }
     },
     "1990": {
         "20": {
-            "ron_urwin": {
-                "name": "RYAN PAPE",
-                "team": "FRANKLIN PARK RAIDERS"
-            }
+            "ron_urwin": [
+                {
+                    "name": "Ryan Pape",
+                    "team": "Franklin Park Raiders"
+                }
+            ]
         }
     },
     "1991": {
         "21": {
-            "ron_urwin": {
-                "name": "STEVEN BRYANT",
-                "team": "BETHALTO JR. HIGH"
-            }
+            "ron_urwin": [
+                {
+                    "name": "Steven Bryant",
+                    "team": "Bethalto Jr. High"
+                }
+            ]
         }
     },
     "1992": {
         "22": {
-            "ron_urwin": {
-                "name": "TONY DAVIS",
-                "team": "HARVEY TWISTERS"
-            }
+            "ron_urwin": [
+                {
+                    "name": "Tony Davis",
+                    "team": "Harvey Twisters"
+                }
+            ]
         }
     },
     "1993": {
         "23": {
-            "ron_urwin": {
-                "name": "TODD COMBES",
-                "team": "DOLTON PARK DISTRICT FALCONS"
-            }
+            "ron_urwin": [
+                {
+                    "name": "Todd Combes",
+                    "team": "Dolton Park District Falcons"
+                }
+            ]
         }
     },
     "1994": {
         "24": {
-            "ron_urwin": {
-                "name": "KYLE ONEILL",
-                "team": "TINLEY PARK BULLDOGS"
-            }
+            "ron_urwin": [
+                {
+                    "name": "Kyle O'Neill",
+                    "team": "Tinley Park Bulldogs"
+                }
+            ]
         }
     },
     "1995": {
         "25": {
-            "marty_combes": {
-                "name": "BRIAN GLYNN",
-                "team": "ORLAND PARK PIONEERS"
-            },
-            "ron_urwin": {
-                "name": "BILL WALSH",
-                "team": "CRYSTAL LAKE WIZARDS"
-            }
+            "marty_combes": [
+                {
+                    "name": "Brian Glynn",
+                    "team": "Orland Park Pioneers"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Bill Walsh",
+                    "team": "Crystal Lake Wizards"
+                }
+            ]
         }
     },
     "1996": {
         "26": {
-            "marty_combes": {
-                "name": "CASSIO PERO",
-                "team": "HARVEY TWISTERS"
-            },
-            "ron_urwin": {
-                "name": "STEVE AMY JR.",
-                "team": "ROCKET W.C."
-            }
+            "marty_combes": [
+                {
+                    "name": "Cassio Pero",
+                    "team": "Harvey Twisters"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Steve Amy",
+                    "team": "Jr. Rocket WC"
+                }
+            ]
         }
     },
     "1997": {
         "27": {
-            "marty_combes": {
-                "name": "D CARPENTER",
-                "team": "BELLEVILLE LITTLE DEVILS"
-            },
-            "ron_urwin": {
-                "name": "ISRA MARTINEZ",
-                "team": "TOMCAT W.C."
-            }
+            "marty_combes": [
+                {
+                    "name": "Dusty Carpenter",
+                    "team": "Belleville Little Devils"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Israel Martinez",
+                    "team": "Tomcat WC"
+                }
+            ]
         }
     },
     "1998": {
         "28": {
-            "marty_combes": {
-                "name": "CHARLES LLYOD",
-                "team": "HARVEY TWISTERS"
-            },
-            "ron_urwin": {
-                "name": "CASSIO PERO",
-                "team": "HARVEY TWISTERS"
-            }
+            "marty_combes": [
+                {
+                    "name": "Eric Tannenbaum",
+                    "team": "Fox Valley WC"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Lambros Fotos",
+                    "team": "East Moline WC"
+                }
+            ]
         }
     },
     "2000": {
         "30": {
-            "marty_combes": {
-                "name": "Jimmy Kennedy",
-                "team": "Wrestling Factory of Libertyville"
-            },
-            "ron_urwin": {
-                "name": "Michael Poeta",
-                "team": "Highland Park Little Giants"
-            }
+            "marty_combes": [
+                {
+                    "name": "Jimmy Kennedy",
+                    "team": "Wrestling Factory of Libertyville"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Michael Poeta",
+                    "team": "Highland Park Little Giants"
+                }
+            ]
         }
     },
     "2006": {
         "36": {
-            "marty_combes": {
-                "name": "Lucas Smith",
-                "team": "Bison WC"
-            },
-            "ron_urwin": {
-                "name": "Sterling Hecox",
-                "team": "Hecox Team Benaiah"
-            }
+            "marty_combes": [
+                {
+                    "name": "Lucas Smith",
+                    "team": "Bison WC"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Sterling Hecox",
+                    "team": "Hecox Team Benaiah"
+                }
+            ]
+        }
+    },
+    "1999": {
+        "29": {
+            "ron_urwin": [
+                {
+                    "name": "Collin McKillip",
+                    "team": "Tinley Park Bulldogs"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Mike Mucha",
+                    "team": "Lemont Bears"
+                }
+            ]
+        }
+    },
+    "2001": {
+        "31": {
+            "ron_urwin": [
+                {
+                    "name": "Michael Mucha",
+                    "team": "Vittum Cats"
+                },
+                {
+                    "name": "Nick Fanthorpe",
+                    "team": "Martinez Fox Valley Elite WC"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Tommy Hill",
+                    "team": "Roxana Kids WC"
+                }
+            ]
+        }
+    },
+    "2002": {
+        "32": {
+            "ron_urwin": [
+                {
+                    "name": "Jimmy Kennedy",
+                    "team": "Wrestling Factory"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Elias Larson",
+                    "team": "Orland Park Pioneers"
+                },
+                {
+                    "name": "Chris Spangler",
+                    "team": "Fox Valley WC"
+                }
+            ]
+        }
+    },
+    "2003": {
+        "33": {
+            "ron_urwin": [
+                {
+                    "name": "Jim Kernats",
+                    "team": "Vittum Cats"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Elias Larson",
+                    "team": "Orland Park Pioneers"
+                }
+            ]
+        }
+    },
+    "2004": {
+        "34": {
+            "ron_urwin": [
+                {
+                    "name": "B.J. Futrell",
+                    "team": "Harvey Twisters"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Tony Ramos",
+                    "team": "Martinez Fox Valley Elite WC"
+                }
+            ]
+        }
+    },
+    "2005": {
+        "35": {
+            "ron_urwin": [
+                {
+                    "name": "Elias Larson",
+                    "team": "Orland Park Pioneers"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Edwin Cooper",
+                    "team": "Little Celtic WC"
+                }
+            ]
+        }
+    },
+    "2007": {
+        "37": {
+            "ron_urwin": [
+                {
+                    "name": "Jacob Gregerson",
+                    "team": "Sons of Thunder"
+                },
+                {
+                    "name": "Jahwon Akui",
+                    "team": "Gladiators"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Cameron Kennedy",
+                    "team": "Wrestling Factory"
+                }
+            ]
+        }
+    },
+    "2008": {
+        "38": {
+            "ron_urwin": [
+                {
+                    "name": "Dylan Reel",
+                    "team": "Central Elite Rebels"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Bryce Brill",
+                    "team": "Fox Valley WC"
+                }
+            ]
+        }
+    },
+    "2009": {
+        "39": {
+            "ron_urwin": [
+                {
+                    "name": "Kyle Langenderfer",
+                    "team": "Orland Park Pioneers"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Michael Pixley",
+                    "team": "Granite City WC"
+                }
+            ]
+        }
+    },
+    "2010": {
+        "40": {
+            "ron_urwin": [
+                {
+                    "name": "Bryce Brill",
+                    "team": "Fox Valley WC"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Christian Robertson",
+                    "team": "Vittum Cats"
+                }
+            ]
+        }
+    },
+    "2011": {
+        "41": {
+            "ron_urwin": [
+                {
+                    "name": "Isaiah White",
+                    "team": "Harvey Twisters"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Brady Rude",
+                    "team": "Sauk Valley WC"
+                }
+            ]
+        }
+    },
+    "2012": {
+        "42": {
+            "ron_urwin": [
+                {
+                    "name": "Dylan Duncan",
+                    "team": "SCN Youth WC"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Jason Renteria",
+                    "team": "Martinez Fox Valley Elite WC"
+                }
+            ]
+        }
+    },
+    "2013": {
+        "43": {
+            "ron_urwin": [
+                {
+                    "name": "George Bessette",
+                    "team": "Lakeland Predators"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Rahveon Valentine",
+                    "team": "The LAW"
+                }
+            ]
+        }
+    },
+    "2014": {
+        "44": {
+            "ron_urwin": [
+                {
+                    "name": "Jack Jessen",
+                    "team": "Martinez Fox Valley Elite WC"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Juan Bazaldua",
+                    "team": "Martinez Fox Valley Elite WC"
+                }
+            ]
+        }
+    },
+    "2015": {
+        "45": {
+            "ron_urwin": [
+                {
+                    "name": "Juan Bazaldua",
+                    "team": "Martinez Fox Valley Elite WC"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Drew Nash",
+                    "team": "Lemont Bears WC"
+                }
+            ]
+        }
+    },
+    "2016": {
+        "46": {
+            "ron_urwin": [
+                {
+                    "name": "Anthony Glauser",
+                    "team": "The Wrestling Factory"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Kennedy Blades",
+                    "team": "Martinez Fox Valley Elite"
+                }
+            ]
+        }
+    },
+    "2017": {
+        "47": {
+            "ron_urwin": [
+                {
+                    "name": "Connor Gaynor",
+                    "team": "Tinley Park Bulldogs"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Jared Gumila",
+                    "team": "Force WC"
+                }
+            ]
+        }
+    },
+    "2018": {
+        "48": {
+            "ron_urwin": [
+                {
+                    "name": "Kannon Webster",
+                    "team": "Super Soldiers WC"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Seth Mendoza",
+                    "team": "Contender Wrestling"
+                }
+            ]
+        }
+    },
+    "2019": {
+        "49": {
+            "ron_urwin": [
+                {
+                    "name": "Kannon Webster",
+                    "team": "Super Soldiers WC"
+                }
+            ],
+            "marty_combes": [
+                {
+                    "name": "Bruno Cassioppi",
+                    "team": "Hononegah WC"
+                }
+            ]
         }
     }
 }
