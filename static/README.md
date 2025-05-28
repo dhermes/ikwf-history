@@ -9,7 +9,7 @@ hugo  # Re-build
 cd ./public/
 
 gcloud storage rsync \
-  --cache-control 'public, max-age=300' \
+  --cache-control 'public, max-age=21600' \
   --recursive \
   --delete-unmatched-destination-objects \
   ./ \
