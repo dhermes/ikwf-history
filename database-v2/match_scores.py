@@ -184,6 +184,11 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
         return None
 
     if result.startswith("TF "):
+        # Cannot parse scores from results like `TF 3:35`, i.e. containing only
+        # TF and the time (not the score)
+        if re.match(r"^TF [0-9]:[0-5][0-9]$", result) is not None:
+            return None
+
         return _parse_match_score(result, "TF ", top_win)
 
     if result.startswith("T-Fall TF"):
@@ -223,6 +228,9 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
     # Forfeit, Disqualification, etc.
 
     if result == "Dflt" or result.startswith("Dflt "):
+        return None
+
+    if result == "Default":
         return None
 
     if result == "Dq" or result.startswith("Dq "):
