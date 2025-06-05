@@ -1634,11 +1634,6 @@
       {
         "tournament_id": 21,
         "division": "senior",
-        "name": "TOMCAT"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
         "name": "TOMCATS"
       },
       {
@@ -17435,22 +17430,6 @@
         "tournament_id": 48,
         "division": "senior",
         "name": "DA WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Danville Boys Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "DANVILLE BOYS CLUB"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "Danville Boys Club"
       }
     ]
   },
@@ -48221,7 +48200,7 @@
       {
         "tournament_id": 21,
         "division": "senior",
-        "name": "OSWEGO PANTHERS"
+        "name": "Oswego Panthers"
       },
       {
         "tournament_id": 30,
