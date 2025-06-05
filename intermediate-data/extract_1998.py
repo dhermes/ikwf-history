@@ -64,7 +64,7 @@ def main():
                     ),
                     bottom_competitor=None,
                     result="",
-                    result_type="place",
+                    result_type="unknown",
                     bout_number=None,
                     top_win=True,
                 )

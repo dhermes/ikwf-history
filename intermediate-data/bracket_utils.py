@@ -130,7 +130,6 @@ ResultType = Literal[
     "major",
     "tech",
     "walkover",
-    "place",
     "unknown",
 ]
 
@@ -466,6 +465,16 @@ def _competitor_raw_equal_enough(
     return _competitor_name_equal_enough(competitor1.name, competitor2.name)
 
 
+def _ensure_overtime_decision(result: str, prefix: str) -> None:
+    without_prefix = result[len(prefix) :]
+    score1_str, score2_str = without_prefix.split("-")
+    score1 = int(score1_str)
+    score2 = int(score2_str)
+    delta = abs(score1 - score2)
+    if delta >= 8:
+        raise ValueError("OT match is not a Decision", result)
+
+
 def _determine_result_type(result: str) -> ResultType:
     if result == "P-Dec" or result.startswith("P-Dec "):
         return "walkover"
@@ -473,10 +482,17 @@ def _determine_result_type(result: str) -> ResultType:
     if result == "Dec" or result.startswith("Dec "):
         return "decision"
 
+    if result.startswith("OT "):
+        _ensure_overtime_decision(result, "OT ")
+        return "decision"
+
     if result.startswith("MajDec ") or result.startswith("M-Dec "):
         return "major"
 
     if result == "T-Fall" or result.startswith("T-Fall "):
+        return "tech"
+
+    if result.startswith("TF "):
         return "tech"
 
     if result == "Fall" or result.startswith("Fall "):
@@ -486,6 +502,9 @@ def _determine_result_type(result: str) -> ResultType:
         return "bye"
 
     if result == "Dflt" or result.startswith("Dflt "):
+        return "default"
+
+    if result == "Default":
         return "default"
 
     if result == "Dq" or result.startswith("Dq "):
@@ -1023,7 +1042,7 @@ def create_weight_class_from_placers(
             top_competitor=placers[0].to_competitor(team_replace),
             bottom_competitor=placers[1].to_competitor(team_replace),
             result="",
-            result_type="place",
+            result_type="unknown",
             bout_number=None,
             top_win=True,
         ),
@@ -1032,7 +1051,7 @@ def create_weight_class_from_placers(
             top_competitor=placers[2].to_competitor(team_replace),
             bottom_competitor=placers[3].to_competitor(team_replace),
             result="",
-            result_type="place",
+            result_type="unknown",
             bout_number=None,
             top_win=True,
         ),
@@ -1041,7 +1060,7 @@ def create_weight_class_from_placers(
             top_competitor=placers[4].to_competitor(team_replace),
             bottom_competitor=placers[5].to_competitor(team_replace),
             result="",
-            result_type="place",
+            result_type="unknown",
             bout_number=None,
             top_win=True,
         ),
@@ -1062,7 +1081,7 @@ def weight_class_from_champ(
                 top_competitor=champ.to_competitor(team_replace),
                 bottom_competitor=None,
                 result="",
-                result_type="place",
+                result_type="unknown",
                 bout_number=None,
                 top_win=True,
             ),
