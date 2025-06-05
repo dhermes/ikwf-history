@@ -164,6 +164,19 @@ class WeightClass(_ForbidExtra):
     weight: int
     matches: list[Match]
 
+    def _validate(self):
+        all_slots: set[MatchSlot] = set()
+        for match in self.matches:
+            if match.match_slot in all_slots:
+                raise ValueError(
+                    "Slot already exists in weight",
+                    self.division,
+                    self.weight,
+                    match.match_slot,
+                )
+
+            all_slots.add(match.match_slot)
+
 
 class TeamScore(_ForbidExtra):
     team: str
@@ -246,10 +259,25 @@ class ExtractedTournament(_ForbidExtra):
     def _sort_deductions(self):
         self.deductions.sort(key=_deduction_sort_key)
 
+    def _validate_weight_classes(self):
+        all_weights: set[tuple[Division, int]] = set()
+        for weight_class in self.weight_classes:
+            weight_key = weight_class.division, weight_class.weight
+            if weight_key in all_weights:
+                raise ValueError(
+                    "Weight already exists in tournament",
+                    weight_class.division,
+                    weight_class.weight,
+                )
+
+            all_weights.add(weight_key)
+            weight_class._validate()
+
     def sort(self):
         self._sort_weight_classes()
         self._sort_team_scores()
         self._sort_deductions()
+        self._validate_weight_classes()
 
 
 def to_int_with_commas(value: str) -> int:

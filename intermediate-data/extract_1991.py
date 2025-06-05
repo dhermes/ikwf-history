@@ -8,30 +8,6 @@ import manual_entry
 HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
-    60: [
-        bracket_utils.Placer(name="STEVEN BRYANT", team="BETHALTO JR. HIGH"),
-        bracket_utils.Placer(name="ANTHONY OPIOLA", team="DOLTON PARK FALCONS"),
-        bracket_utils.Placer(name="DAMIEN BILLOW", team="NAPERVILLE PATRIOTS"),
-        bracket_utils.Placer(name="TONY DOUGHTY", team="FRANKLIN PARK RAIDERS"),
-        bracket_utils.Placer(name="JEFFERY ANDERSON", team="TINLEY PARK BULLDOGS"),
-        bracket_utils.Placer(name="BRENDEN JOYCE", team="TOMCAT"),
-    ],
-    64: [
-        bracket_utils.Placer(name="TODD COMBES", team="DOLTON PARK FALCONS"),
-        bracket_utils.Placer(name="LEONARD BOWENS", team="HARVEY PD TWISTERS"),
-        bracket_utils.Placer(name="JOHN MURPHY", team="LOCKPORT GRAPPLERS"),
-        bracket_utils.Placer(name="AMADOR ESTRADA", team="ROUND LAKE SPARTANS"),
-        bracket_utils.Placer(name="ADAM WASON", team="TIGERTOWN TANGLERS"),
-        bracket_utils.Placer(name="JEFF JEZUIT", team="PANTHERS"),
-    ],
-    68: [
-        bracket_utils.Placer(name="MATT GOLDSTEIN", team="LITTLE GIANTS"),
-        bracket_utils.Placer(name="DAVID STOLTZ", team="ARLINGTON CARDINALS"),
-        bracket_utils.Placer(name="JOSEPH SUKLEY", team="PLAINFIELD INDIAN TRAIL"),
-        bracket_utils.Placer(name="JASON MALMSTROM", team="OSWEGO PANTHERS"),
-        bracket_utils.Placer(name="ARCHIE GRIFFIN", team="WARHAWKS"),
-        bracket_utils.Placer(name="MOSES REED", team="DANVILLE BOYS CLUB"),
-    ],
     72: [
         bracket_utils.Placer(name="LAWAN GRAY", team="WARHAWKS"),
         bracket_utils.Placer(name="GRANT HOERR", team="MORTON YOUTH"),
