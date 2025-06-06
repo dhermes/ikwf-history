@@ -1115,3 +1115,153 @@ def weight_class_from_champ(
             ),
         ],
     )
+
+
+def _placing_competitor_from_str(
+    value: str | None, team_replace: dict[str, str]
+) -> tuple[CompetitorRaw | None, int | None]:
+    if value is None:
+        return None, None
+
+    # Values of the form:
+    #   {NAME} :: {TEAM}
+    # or
+    #   {NAME} :: {TEAM} :: {PLACE}
+    parts = value.split(" :: ")
+    if len(parts) == 2:
+        name, team = parts
+        place = None
+    elif len(parts) == 3:
+        name, team, place_str = parts
+        place = int(place_str)
+    else:
+        raise ValueError("Unexpected format", value)
+
+    team_full = team_replace.get(team, team)
+    competitor_raw = CompetitorRaw(name=name, team_full=team_full, team_acronym=None)
+    return competitor_raw, place
+
+
+def weight_class_from_competitors(
+    division: Division,
+    weight: int,
+    competitors: list[str | None],
+    team_replace: dict[str, str],
+    name_exceptions: dict[tuple[str, str], Competitor],
+) -> WeightClass:
+    if len(competitors) != 24:
+        raise NotImplementedError("Unsupported bracket size", weight, len(competitors))
+
+    champion_position: BracketPosition = "top"
+    placers: dict[int, Competitor] = {}
+    matches: list[Match] = []
+
+    for i in range(8):
+        match_id = 2 * i + 1
+        match_slot: MatchSlot = f"championship_r32_{match_id:02}"
+
+        competitor_str = competitors[3 * i]
+        competitor_raw, place = _placing_competitor_from_str(
+            competitor_str, team_replace
+        )
+        competitor = competitor_from_raw(competitor_raw, name_exceptions)
+
+        if place is not None:
+            placers[place] = competitor
+            if place == 1 and i >= 4:
+                champion_position = "bottom"
+
+        matches.append(
+            Match(
+                match_slot=match_slot,
+                top_competitor=competitor,
+                bottom_competitor=None,
+                result="Bye",
+                result_type="bye",
+                bout_number=None,
+                top_win=True,
+            )
+        )
+
+    for i in range(8):
+        match_id = 2 * i + 2
+        match_slot: MatchSlot = f"championship_r32_{match_id:02}"
+
+        competitor1_str = competitors[3 * i + 1]
+        competitor2_str = competitors[3 * i + 2]
+
+        competitor1_raw, place1 = _placing_competitor_from_str(
+            competitor1_str, team_replace
+        )
+        competitor1 = competitor_from_raw(competitor1_raw, name_exceptions)
+
+        competitor2_raw, place2 = _placing_competitor_from_str(
+            competitor2_str, team_replace
+        )
+        competitor2 = competitor_from_raw(competitor2_raw, name_exceptions)
+
+        if place1 is not None:
+            placers[place1] = competitor1
+            if place1 == 1 and i >= 4:
+                champion_position = "bottom"
+
+        if place2 is not None:
+            placers[place2] = competitor2
+            if place2 == 1 and i >= 4:
+                champion_position = "bottom"
+
+        matches.append(
+            Match(
+                match_slot=match_slot,
+                top_competitor=competitor1,
+                bottom_competitor=competitor2,
+                result="",
+                result_type="unknown",
+                bout_number=i + 1,
+                top_win=None,
+            )
+        )
+
+    if placers.keys() != {1, 2, 3, 4, 5, 6}:
+        raise ValueError("Missing placers", placers.keys())
+
+    matches: list[Match] = [
+        Match(
+            match_slot="consolation_third_place",
+            top_competitor=placers[3],
+            bottom_competitor=placers[4],
+            result="",
+            result_type="unknown",
+            bout_number=None,
+            top_win=True,
+        ),
+        Match(
+            match_slot="consolation_fifth_place",
+            top_competitor=placers[5],
+            bottom_competitor=placers[6],
+            result="",
+            result_type="unknown",
+            bout_number=None,
+            top_win=True,
+        ),
+    ]
+
+    top_competitor = placers[1]
+    bottom_competitor = placers[2]
+    top_win = True
+    if champion_position == "bottom":
+        top_competitor, bottom_competitor = bottom_competitor, top_competitor
+        top_win = False
+
+    matches.append(
+        Match(
+            match_slot="championship_first_place",
+            top_competitor=top_competitor,
+            bottom_competitor=bottom_competitor,
+            result="",
+            result_type="unknown",
+            bout_number=None,
+            top_win=top_win,
+        )
+    )
+    return WeightClass(division=division, weight=weight, matches=matches)

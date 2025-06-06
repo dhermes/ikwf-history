@@ -555,53 +555,46 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "David Kaltmayer :: Granite City Coolidge",
     ],
 }
-_SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
-    50: bracket_utils.Placer(name="Steven Dubois", team="Burbank"),  # Panther WC
-    55: bracket_utils.Placer(name="Keith Snyder", team="Burbank"),  # Panther WC
-    60: bracket_utils.Placer(name="Chris Buenik", team="Bobcats"),  # Cicero Bobcats
-    65: bracket_utils.Placer(
-        name="Jim Zeilenga", team="Oak Forest"
-    ),  # Oak Forest Warriors
-    70: bracket_utils.Placer(name="Paul Zina", team="Oak Park"),
-    75: bracket_utils.Placer(
-        name="Joe Gilbert", team="Tinley Park"
-    ),  # Tinley Park Bulldogs
-    80: bracket_utils.Placer(name="Mike MacKowiak", team="Tinley Park"),
-    85: bracket_utils.Placer(name="Don O'Brien", team="Burbank"),  # Panther WC
-    90: bracket_utils.Placer(
-        name="Brian Edelen", team="Tinley Park"
-    ),  # Tinley Park Bulldogs
-    95: bracket_utils.Placer(
-        name="Mike LaMonica", team="Orland Park"
-    ),  # Orland Park Pionee
-    100: bracket_utils.Placer(name="Ben Morris", team="Bensenville"),
-    111: bracket_utils.Placer(name="Chad Gilpin", team="Hamilton"),
-    118: bracket_utils.Placer(name="Mark Montgomery", team="DeKalb Huntley"),
-    125: bracket_utils.Placer(
-        name="John Sehnert", team="Bronco Wrestling Club"
-    ),  # Barrington
-    135: bracket_utils.Placer(name="Tom Blaha", team="Frankfort"),
-    145: bracket_utils.Placer(name="Darin Anderson", team="DeKalb Huntley"),
-    155: bracket_utils.Placer(name="Pete Pasternak", team="Calumet City"),
-    170: bracket_utils.Placer(name="Dave Seastrom", team="Palos"),
-    185: bracket_utils.Placer(name="Dana Dunklau", team="Frankfort"),
-    275: bracket_utils.Placer(
-        name="Gary Wetzel", team="Oak Forest"
-    ),  # Oak Forest Warriors
-}
-_SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
-    105: [
-        bracket_utils.Placer(name="Joe Cascone", team="Vittum Park"),  # Vittum Vikings
-        bracket_utils.Placer(name="T. Sader", team="Royal Wrestling Club"),
-        bracket_utils.Placer(name="Paco Hernandez", team="Lockport"),
-        bracket_utils.Placer(name="Pat Nestor", team="Sterling Newman"),
-        bracket_utils.Placer(name="Sean Cunningham", team="DeKalb Rosette"),
-        bracket_utils.Placer(name="Bob Marmolejo", team="West Chicago"),
-    ],
-}
 _SENIOR_TEAM_SCORES: dict[str, float] = {
     "TINLEY PARK": 149.0,
     "Burbank": 129.0,  # Panther WC
+}
+_NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
+    ("Kean", "Burbank"): bracket_utils.Competitor(
+        full_name="Kean",
+        first_name="",
+        last_name="Kean",
+        team_full="Burbank",
+        team_acronym=None,
+    ),
+    ("Faley", "Burbank"): bracket_utils.Competitor(
+        full_name="Faley",
+        first_name="",
+        last_name="Faley",
+        team_full="Burbank",
+        team_acronym=None,
+    ),
+    ("Ryan", "Carl Sandburg"): bracket_utils.Competitor(
+        full_name="Ryan",
+        first_name="",
+        last_name="Ryan",
+        team_full="Carl Sandburg",
+        team_acronym=None,
+    ),
+    ("Shin", "Carl Sandburg"): bracket_utils.Competitor(
+        full_name="Shin",
+        first_name="",
+        last_name="Shin",
+        team_full="Carl Sandburg",
+        team_acronym=None,
+    ),
+    ("Philip", "Gower"): bracket_utils.Competitor(
+        full_name="Philip",
+        first_name="",
+        last_name="Philip",
+        team_full="Gower",
+        team_acronym=None,
+    ),
 }
 
 
@@ -641,8 +634,7 @@ def _create_placers_image_row(
 
 
 def _generate_placers_image(year: int):
-    all_weights = set(_SENIOR_CHAMPS.keys())
-    all_weights.update(_SENIOR_PLACERS.keys())
+    all_weights = set(_SENIOR_COMPETITORS.keys())
     weights = sorted(all_weights)
 
     raw_root = HERE.parent / "raw-data" / str(year)
@@ -715,15 +707,9 @@ def main():
         )
 
     weight_classes: list[bracket_utils.WeightClass] = []
-    for weight, champ in _SENIOR_CHAMPS.items():
-        weight_class = bracket_utils.weight_class_from_champ(
-            "senior", weight, champ, _SENIOR_TEAM_REPLACE
-        )
-        weight_classes.append(weight_class)
-
-    for weight, placers in _SENIOR_PLACERS.items():
-        weight_class = bracket_utils.create_weight_class_from_placers(
-            "senior", weight, placers, _SENIOR_TEAM_REPLACE
+    for weight, competitors in _SENIOR_COMPETITORS.items():
+        weight_class = bracket_utils.weight_class_from_competitors(
+            "senior", weight, competitors, _SENIOR_TEAM_REPLACE, _NAME_EXCEPTIONS
         )
         weight_classes.append(weight_class)
 
