@@ -601,7 +601,7 @@ _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
     "TINLEY PARK": 149.0,
-    "Panther WC": 129.0,
+    "Burbank": 129.0,  # Panther WC
 }
 
 
