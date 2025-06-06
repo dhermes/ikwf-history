@@ -875,12 +875,12 @@ UPDATE
 SET
   team_id = 147
 WHERE
-  id IN (147, 164, 203, 224);
+  id IN (147, 164, 205, 224);
 
 DELETE FROM
   team
 WHERE
-  id IN (164, 203, 224);
+  id IN (164, 205, 224);
 
 ----------------------------------------
 -- Barrington Broncos Wrestling Club
@@ -1289,12 +1289,12 @@ UPDATE
 SET
   team_id = 166
 WHERE
-  id IN (166, 204, 227, 296);
+  id IN (166, 203, 227, 296);
 
 DELETE FROM
   team
 WHERE
-  id IN (204, 227, 296);
+  id IN (203, 227, 296);
 
 ----------------------------------------
 -- Benton WC
@@ -2140,12 +2140,12 @@ UPDATE
 SET
   team_id = 150
 WHERE
-  id IN (150, 168, 183, 206, 1193);
+  id IN (150, 168, 183, 207, 1193);
 
 DELETE FROM
   team
 WHERE
-  id IN (168, 183, 206, 1193);
+  id IN (168, 183, 207, 1193);
 
 ----------------------------------------
 -- Calumet Memorial PD Wolverines
@@ -24634,12 +24634,12 @@ UPDATE
 SET
   team_id = 52
 WHERE
-  id IN (52, 219, 220, 283, 1268, 1302);
+  id IN (52, 220, 221, 283, 1268, 1302);
 
 DELETE FROM
   team
 WHERE
-  id IN (219, 220, 283, 1268, 1302);
+  id IN (220, 221, 283, 1268, 1302);
 
 ----------------------------------------
 -- Tinley Park Bulldogs
