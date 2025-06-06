@@ -1,15 +1,41 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Todd Kelly",
+    "top_team": "Glenwood",
+    "top_score": null,
+    "bottom_name": "Ryan Ferguson",
+    "bottom_team": "Lancer",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "George Macey",
+    "top_team": "Vittum Park",
+    "top_score": null,
+    "bottom_name": "Josh Mattio",
+    "bottom_team": "Rich Township",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Steven Dubois",
-    "top_team": "Burbank",
+    "top_name": "Robert Chihoski",
+    "top_team": "Rosemont",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Steven Dubois",
+    "bottom_team": "Burbank",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   }
 ]

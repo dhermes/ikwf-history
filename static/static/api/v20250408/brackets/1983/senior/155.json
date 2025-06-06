@@ -1,15 +1,41 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Phil Scroppo",
+    "top_team": "Palos",
+    "top_score": null,
+    "bottom_name": "Jerry Judd",
+    "bottom_team": "Oak Lawn",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Rich Villareal",
+    "top_team": "Eisenhower",
+    "top_score": null,
+    "bottom_name": "David White",
+    "bottom_team": "Rich Township",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Pete Pasternak",
-    "top_team": "Calumet City",
+    "top_name": "Bill Gallagly",
+    "top_team": "Harvard",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Pete Pasternak",
+    "bottom_team": "Calumet City",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   }
 ]

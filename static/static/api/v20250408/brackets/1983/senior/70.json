@@ -1,15 +1,41 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Sean Bormet",
+    "top_team": "Frankfort",
+    "top_score": null,
+    "bottom_name": "Bill O'Brien",
+    "bottom_team": "Burbank",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Bob Fraher",
+    "top_team": "Villa Lombard",
+    "top_score": null,
+    "bottom_name": "Matt Kestian",
+    "bottom_team": "Oak Lawn",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Paul Zina",
+    "top_name": "Pete Schulte",
     "top_team": "Oak Park",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Paul Zina",
+    "bottom_team": "Oak Park",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   }
 ]

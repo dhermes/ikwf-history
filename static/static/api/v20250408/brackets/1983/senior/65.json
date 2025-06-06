@@ -1,15 +1,41 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Ricky Harris",
+    "top_team": "Tinley Park",
+    "top_score": null,
+    "bottom_name": "Tim Guryn",
+    "bottom_team": "Vittum Park",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Jeff Vasquez",
+    "top_team": "Bronco Wrestling Club",
+    "top_score": null,
+    "bottom_name": "Shelly Resendes",
+    "bottom_team": "Glenwood",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Jim Zeilenga",
-    "top_team": "Oak Forest",
+    "top_name": "Dan Willis",
+    "top_team": "New Lenox Lions",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Jim Zeilenga",
+    "bottom_team": "Oak Forest",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   }
 ]

@@ -1,15 +1,41 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Eric Denning",
+    "top_team": "Sterling Newman",
+    "top_score": null,
+    "bottom_name": "Jeff Turay",
+    "bottom_team": "Rich Township",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Andy Gardner",
+    "top_team": "Springfield",
+    "top_score": null,
+    "bottom_name": "Sean McElligott",
+    "bottom_team": "Oak Forest",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Chris Buenik",
-    "top_team": "Bobcats",
+    "top_name": "Ken Gerdes",
+    "top_team": "Orland Park",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Chris Buenik",
+    "bottom_team": "Bobcats",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   }
 ]

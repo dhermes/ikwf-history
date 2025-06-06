@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Joe Dolce",
+    "top_team": "Oak Lawn",
+    "top_score": null,
+    "bottom_name": "Andre Mayon",
+    "bottom_team": "Hill Jr. High",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Scott McCabe",
+    "top_team": "Mt. Greenwood",
+    "top_score": null,
+    "bottom_name": "Dave Tennant",
+    "bottom_team": "Rock Ridge",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
     "top_name": "Dave Seastrom",
     "top_team": "Palos",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Mark Kuehl",
+    "bottom_team": "Gower",
     "bottom_score": null,
     "top_win": true,
     "result": ""

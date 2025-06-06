@@ -1,15 +1,41 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Justin Gaeta",
+    "top_team": "Palos",
+    "top_score": null,
+    "bottom_name": "Paul Reidy",
+    "bottom_team": "Oak Forest",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "A.T. Arneson",
+    "top_team": "Royal Wrestling Club",
+    "top_score": null,
+    "bottom_name": "Ray Serbick",
+    "bottom_team": "Franklin Park",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Brian Edelen",
-    "top_team": "Tinley Park",
+    "top_name": "Lou Debs",
+    "top_team": "Dolton",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Brian Edelen",
+    "bottom_team": "Tinley Park",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   }
 ]

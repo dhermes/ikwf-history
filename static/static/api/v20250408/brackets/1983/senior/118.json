@@ -1,15 +1,41 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Emmit Higgin",
+    "top_team": "Mattburns",
+    "top_score": null,
+    "bottom_name": "Eric Schultz",
+    "bottom_team": "Tinley Park",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "Richard Harvey",
+    "top_team": "Decatur",
+    "top_score": null,
+    "bottom_name": "Bob Gagne",
+    "bottom_team": "Villa Lombard",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Mark Montgomery",
-    "top_team": "DeKalb Huntley",
+    "top_name": "Rich Bielek",
+    "top_team": "Hickory Hills",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Mark Montgomery",
+    "bottom_team": "DeKalb Huntley",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   }
 ]
