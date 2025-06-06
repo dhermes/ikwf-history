@@ -1225,26 +1225,28 @@ def weight_class_from_competitors(
     if placers.keys() != {1, 2, 3, 4, 5, 6}:
         raise ValueError("Missing placers", placers.keys())
 
-    matches: list[Match] = [
-        Match(
-            match_slot="consolation_third_place",
-            top_competitor=placers[3],
-            bottom_competitor=placers[4],
-            result="",
-            result_type="unknown",
-            bout_number=None,
-            top_win=True,
-        ),
-        Match(
-            match_slot="consolation_fifth_place",
-            top_competitor=placers[5],
-            bottom_competitor=placers[6],
-            result="",
-            result_type="unknown",
-            bout_number=None,
-            top_win=True,
-        ),
-    ]
+    matches.extend(
+        [
+            Match(
+                match_slot="consolation_third_place",
+                top_competitor=placers[3],
+                bottom_competitor=placers[4],
+                result="",
+                result_type="unknown",
+                bout_number=None,
+                top_win=True,
+            ),
+            Match(
+                match_slot="consolation_fifth_place",
+                top_competitor=placers[5],
+                bottom_competitor=placers[6],
+                result="",
+                result_type="unknown",
+                bout_number=None,
+                top_win=True,
+            ),
+        ]
+    )
 
     top_competitor = placers[1]
     bottom_competitor = placers[2]
