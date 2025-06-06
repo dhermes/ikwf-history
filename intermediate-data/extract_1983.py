@@ -556,35 +556,47 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     ],
 }
 _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
-    50: bracket_utils.Placer(name="Steve DuBois", team="Panther WC"),
-    55: bracket_utils.Placer(name="Keith Snyder", team="Panther WC"),
-    60: bracket_utils.Placer(name="Chris Buenik", team="Cicero Bobcats"),
-    65: bracket_utils.Placer(name="Jim Zeilenga", team="Oak Forest Warriors"),
+    50: bracket_utils.Placer(name="Steven Dubois", team="Burbank"),  # Panther WC
+    55: bracket_utils.Placer(name="Keith Snyder", team="Burbank"),  # Panther WC
+    60: bracket_utils.Placer(name="Chris Buenik", team="Bobcats"),  # Cicero Bobcats
+    65: bracket_utils.Placer(
+        name="Jim Zeilenga", team="Oak Forest"
+    ),  # Oak Forest Warriors
     70: bracket_utils.Placer(name="Paul Zina", team="Oak Park"),
-    75: bracket_utils.Placer(name="Joe Gilbert", team="Tinley Park Bulldogs"),
-    80: bracket_utils.Placer(name="Mike Mackowiak", team="Tinley Park"),
-    85: bracket_utils.Placer(name="Dan O'Brien", team="Panther WC"),
-    90: bracket_utils.Placer(name="Brian Edelen", team="Tinley Park Bulldogs"),
-    95: bracket_utils.Placer(name="Mike Lamonica", team="Orland Park Pionee"),
+    75: bracket_utils.Placer(
+        name="Joe Gilbert", team="Tinley Park"
+    ),  # Tinley Park Bulldogs
+    80: bracket_utils.Placer(name="Mike MacKowiak", team="Tinley Park"),
+    85: bracket_utils.Placer(name="Don O'Brien", team="Burbank"),  # Panther WC
+    90: bracket_utils.Placer(
+        name="Brian Edelen", team="Tinley Park"
+    ),  # Tinley Park Bulldogs
+    95: bracket_utils.Placer(
+        name="Mike LaMonica", team="Orland Park"
+    ),  # Orland Park Pionee
     100: bracket_utils.Placer(name="Ben Morris", team="Bensenville"),
     111: bracket_utils.Placer(name="Chad Gilpin", team="Hamilton"),
     118: bracket_utils.Placer(name="Mark Montgomery", team="DeKalb Huntley"),
-    125: bracket_utils.Placer(name="John Sehnert", team="Barrington"),
+    125: bracket_utils.Placer(
+        name="John Sehnert", team="Bronco Wrestling Club"
+    ),  # Barrington
     135: bracket_utils.Placer(name="Tom Blaha", team="Frankfort"),
     145: bracket_utils.Placer(name="Darin Anderson", team="DeKalb Huntley"),
     155: bracket_utils.Placer(name="Pete Pasternak", team="Calumet City"),
     170: bracket_utils.Placer(name="Dave Seastrom", team="Palos"),
     185: bracket_utils.Placer(name="Dana Dunklau", team="Frankfort"),
-    275: bracket_utils.Placer(name="Gary Wetzel", team="Oak Forest Warriors"),
+    275: bracket_utils.Placer(
+        name="Gary Wetzel", team="Oak Forest"
+    ),  # Oak Forest Warriors
 }
 _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
     105: [
-        bracket_utils.Placer(name="Joe Cascone", team="Vittum Vikings"),
-        bracket_utils.Placer(name="C. Fisher", team="Byron WC"),  # ??
-        bracket_utils.Placer(name="Paco Hernandez", team="Lockport"),  # ??
-        bracket_utils.Placer(name="Pat Nestor", team="Sterling Newman"),  # ??
+        bracket_utils.Placer(name="Joe Cascone", team="Vittum Park"),  # Vittum Vikings
+        bracket_utils.Placer(name="T. Sader", team="Royal Wrestling Club"),
+        bracket_utils.Placer(name="Paco Hernandez", team="Lockport"),
+        bracket_utils.Placer(name="Pat Nestor", team="Sterling Newman"),
         bracket_utils.Placer(name="Sean Cunningham", team="DeKalb Rosette"),
-        bracket_utils.Placer(name="Bob Marmolejo", team="West Chicago"),  # ??
+        bracket_utils.Placer(name="Bob Marmolejo", team="West Chicago"),
     ],
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
