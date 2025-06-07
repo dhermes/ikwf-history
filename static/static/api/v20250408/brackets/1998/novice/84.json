@@ -1,13 +1,39 @@
 [
   {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "BRANDON TAYLOR",
+    "top_team": "TIGERTOWN TANGLERS",
+    "top_score": null,
+    "bottom_name": "ANDREW NELSON",
+    "bottom_team": "STERLING NEWMAN WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "KEVIN SHEBER",
+    "top_team": "LEMONT BEARS",
+    "top_score": null,
+    "bottom_name": "BRAD MUTHART",
+    "bottom_team": "LITTLE CELTIC WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": null,
     "match_slot": "championship_first_place",
-    "top_name": "Collin McKillip",
-    "top_team": "Tinley Park Bulldogs",
+    "top_name": "COLLIN MCKILLIP",
+    "top_team": "TINLEY PARK BULLDOGS",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "CODY OVERTON",
+    "bottom_team": "MATTOON YOUTH WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""
