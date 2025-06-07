@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "AARON GUISINGER",
+    "top_team": "TINLEY PARK BULLDOGS",
+    "top_score": null,
+    "bottom_name": "NICK HOLLIS",
+    "bottom_team": "POLO WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "DAN DE BRUN",
+    "top_team": "METAMORA KIDS WC",
+    "top_score": null,
+    "bottom_name": "ROBERT PALUMBO",
+    "bottom_team": "OAK LAWN WILDCATS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "MIKE CIABATTONI",
+    "top_team": "BELLEVILLE LITTLE DEVILS",
+    "top_score": null,
+    "bottom_name": "KYLE JOHNSON",
+    "bottom_team": "SJO YOUTH WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  }
+]

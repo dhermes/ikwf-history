@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "DREW WEIMER",
+    "top_team": "FOX VALLEY WC",
+    "top_score": null,
+    "bottom_name": "JOHN LITCHFIELD",
+    "bottom_team": "SJO YOUTH WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "JOHN DECEAULT",
+    "top_team": "TINLEY PARK BULLDOGS",
+    "top_score": null,
+    "bottom_name": "MIKE TURNMIRE",
+    "bottom_team": "HARLEM COUGARS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "AARON RUJAWITZ",
+    "top_team": "BELLEVILLE LITTLE DEVILS",
+    "top_score": null,
+    "bottom_name": "SEAN WELCH",
+    "bottom_team": "VILLA-LOMBARD COUGARS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  }
+]

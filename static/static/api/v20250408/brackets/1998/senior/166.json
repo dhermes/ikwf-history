@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "PHIL SINETOS",
+    "top_team": "FOX VALLEY WC",
+    "top_score": null,
+    "bottom_name": "ROBERTO MARTINEZ",
+    "bottom_team": "VILLA-LOMBARD COUGARS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "STEVE MAGINITY",
+    "top_team": "CRYSTAL LAKE WIZARDS",
+    "top_score": null,
+    "bottom_name": "MICHAEL PELKOWSKI",
+    "bottom_team": "BADGER WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "RASHAWN THURMAN",
+    "top_team": "COLT & BRAVES WC",
+    "top_score": null,
+    "bottom_name": "JOEL POWERS",
+    "bottom_team": "ROCKFORD WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  }
+]

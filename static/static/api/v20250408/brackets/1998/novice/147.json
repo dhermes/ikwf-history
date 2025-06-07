@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "SHANE BUTLER",
+    "top_team": "MIDWEST CENTRAL YOUTH",
+    "top_score": null,
+    "bottom_name": "JAKE TRADER",
+    "bottom_team": "LEMONT BEARS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "SEAN GUSTAFSON",
+    "top_team": "YORKVILLE WC",
+    "top_score": null,
+    "bottom_name": "KYLE MEEK",
+    "bottom_team": "LAWRENCE COUNTY WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "SONNY LAMBERT",
+    "top_team": "UNITY WC",
+    "top_score": null,
+    "bottom_name": "PATRICK BROWNSON",
+    "bottom_team": "BROWNSON WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  }
+]

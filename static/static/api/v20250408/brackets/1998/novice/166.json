@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "FREDDIE DERAMUS",
+    "top_team": "VITTUM CATS",
+    "top_score": null,
+    "bottom_name": "BRETT VALLE",
+    "bottom_team": "L-P CRUNCHING CAVS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "RYAN JONES",
+    "top_team": "HARLEM COUGARS",
+    "top_score": null,
+    "bottom_name": "SEAN STAFFELDT",
+    "bottom_team": "OSWEGO COUGARS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "GRANT MILLER",
+    "top_team": "BELVIDERE BANDITS",
+    "top_score": null,
+    "bottom_name": "ROBERT CHAVIRA",
+    "bottom_team": "BELVIDERE BANDITS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  }
+]

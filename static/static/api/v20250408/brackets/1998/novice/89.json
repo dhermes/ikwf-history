@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "RYAN BURK",
+    "top_team": "METAMORA KIDS WC",
+    "top_score": null,
+    "bottom_name": "CLAYTON NORBERG",
+    "bottom_team": "STERLING NEWMAN WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "COLIN DEPRATT",
+    "top_team": "PLAINFIELD WOLVES WC",
+    "top_score": null,
+    "bottom_name": "BOB MCCLELLAN",
+    "bottom_team": "TINLEY PARK BULLDOGS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "ERIC TANNENBAUM",
+    "top_team": "FOX VALLEY WC",
+    "top_score": null,
+    "bottom_name": "MIKE MUCHA",
+    "bottom_team": "LEMONT BEARS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "KYLE CROTTY",
+    "top_team": "ROXANA WC",
+    "top_score": null,
+    "bottom_name": "ELJUN WATSON",
+    "bottom_team": "ROCKFORD WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "JAY GILLETTE",
+    "top_team": "FOX VALLEY WC",
+    "top_score": null,
+    "bottom_name": "MURPHY MAHALIK",
+    "bottom_team": "LITTLE CELTIC WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "MIKE BEHNKE",
+    "top_team": "VILLA PARK YOUNG WARRIORS",
+    "top_score": null,
+    "bottom_name": "DAVID JILES",
+    "bottom_team": "BADGER WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  }
+]

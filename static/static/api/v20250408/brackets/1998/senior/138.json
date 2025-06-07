@@ -1,0 +1,41 @@
+[
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "EVAN MCCALLISTER",
+    "top_team": "RIVERBEND/FULTON WC",
+    "top_score": null,
+    "bottom_name": "BEN BAKER",
+    "bottom_team": "CHARGER KIDS WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "KRIS ROBERTS",
+    "top_team": "MARION WC",
+    "top_score": null,
+    "bottom_name": "STANLEY EVANS JR.",
+    "bottom_team": "JR. ROCKET WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 54,
+    "bout_number": null,
+    "match_slot": "championship_first_place",
+    "top_name": "TOM TREADWAY",
+    "top_team": "LEMONT BEARS",
+    "top_score": null,
+    "bottom_name": "DANNY BROWN",
+    "bottom_team": "TINLEY PARK BULLDOGS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  }
+]
