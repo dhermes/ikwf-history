@@ -8401,6 +8401,16 @@
     "url_path_slug": "fox-valley",
     "duplicates": [
       {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "FOX VALLEY WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "FOX VALLEY WC"
+      },
+      {
         "tournament_id": 29,
         "division": "novice",
         "name": "FOX VALLEY WRESTLING CLUB"
