@@ -1164,6 +1164,9 @@ def weight_class_from_competitors(
         competitor_raw, place = _placing_competitor_from_str(
             competitor_str, team_replace
         )
+        if competitor_raw is None:
+            continue
+
         competitor = competitor_from_raw(competitor_raw, name_exceptions)
 
         if place is not None:
@@ -1189,6 +1192,8 @@ def weight_class_from_competitors(
 
         competitor1_str = competitors[3 * i + 1]
         competitor2_str = competitors[3 * i + 2]
+        if competitor1_str is None and competitor2_str is None:
+            continue
 
         competitor1_raw, place1 = _placing_competitor_from_str(
             competitor1_str, team_replace
