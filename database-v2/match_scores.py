@@ -13,6 +13,7 @@ _EDGE_CASES: dict[str, str | None] = {
     "Dec A.A": None,
     "Dec A.A.": None,
     "M-Dec A.A.": None,
+    "Dec CRITE": None,
 }
 
 
@@ -144,6 +145,9 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
     if result == "P-Dec" or result.startswith("P-Dec "):
         return None
 
+    if result.startswith("PD "):
+        return None
+
     # Decision
 
     if result == "Dec":
@@ -168,6 +172,12 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
         )
 
     # Major
+
+    if result.startswith("MD "):
+        return _parse_match_score(result, "MD ", top_win)
+
+    if result.startswith("Maj Dec "):
+        return _parse_match_score(result, "Maj Dec ", top_win)
 
     if result.startswith("Maj "):
         return _parse_match_score(result, "Maj ", top_win)
@@ -230,6 +240,9 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
     if result == "Dflt" or result.startswith("Dflt "):
         return None
 
+    if result.startswith("Df "):
+        return None
+
     if result == "Default":
         return None
 
@@ -239,7 +252,7 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
     if result == "DQ":
         return None
 
-    if result in ("Forf", "Forf FORFEIT", "Forf FF", "FF"):
+    if result in ("Forf", "Forf FORFEIT", "Forf FF", "FF", "Ff FFT"):
         return None
 
     if result == "MFF" or result == "MFFL" or result.startswith("Inj. "):
