@@ -858,7 +858,7 @@
           18
         ]
       },
-      "winner": null,
+      "winner": "top",
       "boutNumber": 944,
       "result": "Dec 4-2"
     },
@@ -934,7 +934,7 @@
     },
     "1005": {
       "top": {
-        "choice": null,
+        "choice": 6,
         "choices": [
           6,
           18

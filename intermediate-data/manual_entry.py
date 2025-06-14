@@ -101,6 +101,9 @@ def _description_division(division_text: str) -> bracket_utils.Division:
     if division_text == "Senior":
         return "senior"
 
+    if division_text == "Novice":
+        return "novice"
+
     raise NotImplementedError(division_text)
 
 

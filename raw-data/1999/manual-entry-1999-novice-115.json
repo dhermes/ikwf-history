@@ -893,13 +893,13 @@
           18
         ]
       },
-      "winner": null,
+      "winner": "top",
       "boutNumber": 961,
       "result": "Dec 4-1"
     },
     "1001": {
       "top": {
-        "choice": null,
+        "choice": 0,
         "choices": [
           0,
           15

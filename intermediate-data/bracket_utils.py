@@ -504,7 +504,7 @@ def _ensure_overtime_decision(result: str, prefix: str) -> None:
 
 
 def _determine_result_type(result: str) -> ResultType:
-    if result == "P-Dec" or result.startswith("P-Dec "):
+    if result == "P-Dec" or result.startswith("P-Dec ") or result.startswith("PD "):
         return "walkover"
 
     if result == "Dec" or result.startswith("Dec "):
@@ -514,7 +514,12 @@ def _determine_result_type(result: str) -> ResultType:
         _ensure_overtime_decision(result, "OT ")
         return "decision"
 
-    if result.startswith("MajDec ") or result.startswith("M-Dec "):
+    if (
+        result.startswith("MajDec ")
+        or result.startswith("M-Dec ")
+        or result.startswith("Maj Dec ")
+        or result.startswith("MD ")
+    ):
         return "major"
 
     if result == "T-Fall" or result.startswith("T-Fall "):
@@ -529,7 +534,7 @@ def _determine_result_type(result: str) -> ResultType:
     if result == "Bye":
         return "bye"
 
-    if result == "Dflt" or result.startswith("Dflt "):
+    if result == "Dflt" or result.startswith("Dflt ") or result.startswith("Df "):
         return "default"
 
     if result == "Default":
@@ -538,7 +543,7 @@ def _determine_result_type(result: str) -> ResultType:
     if result == "Dq" or result.startswith("Dq "):
         return "disqualification"
 
-    if result == "Forf" or result.startswith("Forf "):
+    if result == "Forf" or result.startswith("Forf ") or result.startswith("Ff "):
         return "forfeit"
 
     if result == "unknown":
