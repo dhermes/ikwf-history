@@ -97,6 +97,16 @@ and handling byes (`22.8.4.5`):
 - Senior new weight classes (19): 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 111,
   118, 125, 135, 145, 155, 170, 185, 275
 
+### 1980
+
+- The IESA sanctioned boys wrestling (single class for all schools). This means
+  some of the junior high (school affiliated) teams start to move from IKWF to
+  IESA. Useful links for IESA:
+  - https://www.iesa.org/activities/bwr/qualifiers_Sectional.asp?Year=2001 (year
+    2001 and later)
+  - https://www.iesa.org/activities/bwr/qualifiers_State.asp?Year=2005 (year
+    2005 and later)
+
 ### 1981
 
 - Senior new weight classes (21): 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100,
@@ -160,6 +170,10 @@ and handling byes (`22.8.4.5`):
   122, 130, 138, 156, 177, 215
 - Senior new weight classes (18): 74, 79, 84, 89, 95, 101, 108, 115, 122, 130,
   138, 147, 156, 166, 177, 189, 215, 275
+
+### 2019
+
+- IESA split from one class to A and AA based on enrollment.
 
 ### 2020
 
