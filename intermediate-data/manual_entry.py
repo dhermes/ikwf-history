@@ -300,7 +300,9 @@ def _get_match_slot_from_id(match_slot_id: int) -> bracket_utils.MatchSlot:
 
 class ManualBracket(_ForbidExtra):
     description: str | None
-    wrestler_choices: list[WrestlerChoice] = pydantic.Field(alias="wrestlerChoices")
+    wrestler_choices: list[WrestlerChoice | None] = pydantic.Field(
+        alias="wrestlerChoices"
+    )
     matches: dict[MatchID, ManualMatch]
 
     @pydantic.field_validator("matches", mode="before")

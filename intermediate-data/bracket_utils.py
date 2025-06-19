@@ -540,7 +540,7 @@ def _determine_result_type(result: str) -> ResultType:
     if result == "Default":
         return "default"
 
-    if result == "Dq" or result.startswith("Dq "):
+    if result == "Dq" or result.startswith("Dq ") or result.startswith("DQ "):
         return "disqualification"
 
     if result == "Forf" or result.startswith("Forf ") or result.startswith("Ff "):
