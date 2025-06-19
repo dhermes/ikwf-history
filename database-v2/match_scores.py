@@ -249,10 +249,10 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
     if result == "Dq" or result.startswith("Dq "):
         return None
 
-    if result == "DQ":
+    if result == "DQ" or result.startswith("DQ "):
         return None
 
-    if result in ("Forf", "Forf FORFEIT", "Forf FF", "FF", "Ff FFT"):
+    if result in ("Forf", "Forf FORFEIT", "Forf FF", "FF", "Ff FFT", "Ff FF"):
         return None
 
     if result == "MFF" or result == "MFFL" or result.startswith("Inj. "):
