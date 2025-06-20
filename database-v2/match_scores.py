@@ -173,6 +173,9 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
 
     # Major
 
+    if result == "Maj Dec":
+        return None
+
     if result.startswith("MD "):
         return _parse_match_score(result, "MD ", top_win)
 
@@ -190,7 +193,7 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
 
     # Tech Fall
 
-    if result == "T-Fall":
+    if result == "T-Fall" or result == "TF":
         return None
 
     if result.startswith("TF "):
@@ -252,7 +255,16 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
     if result == "DQ" or result.startswith("DQ "):
         return None
 
-    if result in ("Forf", "Forf FORFEIT", "Forf FF", "FF", "Ff FFT", "Ff FF"):
+    if result in (
+        "Forf",
+        "Forf FORFEIT",
+        "Forf FF",
+        "FF",
+        "Ff FFT",
+        "Ff FF",
+        "Ff FORFE",
+        "Ff",
+    ):
         return None
 
     if result == "MFF" or result == "MFFL" or result.startswith("Inj. "):

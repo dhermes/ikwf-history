@@ -520,6 +520,7 @@ def _determine_result_type(result: str) -> ResultType:
     if (
         result.startswith("MajDec ")
         or result.startswith("M-Dec ")
+        or result == "Maj Dec"
         or result.startswith("Maj Dec ")
         or result.startswith("MD ")
     ):
@@ -528,7 +529,7 @@ def _determine_result_type(result: str) -> ResultType:
     if result == "T-Fall" or result.startswith("T-Fall "):
         return "tech"
 
-    if result.startswith("TF "):
+    if result == "TF" or result.startswith("TF "):
         return "tech"
 
     if result == "Fall" or result.startswith("Fall "):
@@ -543,10 +544,20 @@ def _determine_result_type(result: str) -> ResultType:
     if result == "Default":
         return "default"
 
-    if result == "Dq" or result.startswith("Dq ") or result.startswith("DQ "):
+    if (
+        result == "Dq"
+        or result.startswith("Dq ")
+        or result == "DQ"
+        or result.startswith("DQ ")
+    ):
         return "disqualification"
 
-    if result == "Forf" or result.startswith("Forf ") or result.startswith("Ff "):
+    if (
+        result == "Forf"
+        or result.startswith("Forf ")
+        or result == "Ff"
+        or result.startswith("Ff ")
+    ):
         return "forfeit"
 
     if result == "unknown":
