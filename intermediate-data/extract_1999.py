@@ -9,32 +9,6 @@ HERE = pathlib.Path(__file__).resolve().parent
 _NOVICE_TEAM_SCORES: dict[str, float] = {}
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
-    74: [
-        "JORDAN KOLINSKI :: ROCKFORD WRESTLING CLUB :: 1",
-        "ZACH FULMER :: WARRENSBURG WRESTLING",
-        None,
-        "RYAN ESTES :: CHILLI DAWGS WRESTLING",
-        "TIMOTHY HAYES :: JR. GOLDEN EAGLES",
-        None,
-        "DANIEL LEONARD :: VILLA LOMBARD COUGARS :: 3",
-        "MATT DEWITT :: MUSTANG WC",
-        None,
-        "TONY MARTINEZ :: LITTLE CELTIC WRESTLING :: 5",
-        None,
-        None,
-        "CHRIS MAYNOR :: SOUTHERN ILLINOIS EAGLES :: 6",
-        None,
-        None,
-        "ERIC BAUER :: FOX VALLEY WRESTLING CLUB :: 2",
-        None,
-        "JONATHON HELLER :: PANTHER CUB WRESTLING",
-        "WILLIAM OSWALD :: TINLEY PARK BULLDOGS",
-        "CHRIS GRAMIGNA :: CRYSTAL LAKE WIZARDS",
-        None,
-        "JOSIAH WOOTEN :: URBANA KIDS CLUB :: 4",
-        "KYLE HAWKINS :: WOLFPAK WRESTLING CLUB",
-        None,
-    ],
     79: [
         "BRAD MEDCHILL :: VILLA LOMBARD COUGARS :: 2",
         "JOE ROBERTS :: DECATUR WRESTLING CLUB",
