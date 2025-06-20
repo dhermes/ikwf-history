@@ -504,7 +504,10 @@ def _ensure_overtime_decision(result: str, prefix: str) -> None:
 
 
 def _determine_result_type(result: str) -> ResultType:
-    if result == "P-Dec" or result.startswith("P-Dec ") or result.startswith("PD "):
+    if result == "P-Dec" or result.startswith("P-Dec "):
+        return "walkover"
+
+    if result == "PD" or result.startswith("PD "):
         return "walkover"
 
     if result == "Dec" or result.startswith("Dec "):

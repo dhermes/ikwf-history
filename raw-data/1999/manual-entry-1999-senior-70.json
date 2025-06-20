@@ -1,0 +1,861 @@
+{
+  "description": "Senior 70 (1999)",
+  "wrestlerChoices": [
+    {
+      "id": 0,
+      "name": "BRANDON FULLINGTON",
+      "team": "CARLINVILLE KIDS WRESTLING"
+    },
+    {
+      "id": 1,
+      "name": "CHRIS WILSON",
+      "team": "OAKWOOD WRESTLING CLUB"
+    },
+    null,
+    {
+      "id": 3,
+      "name": "JAKE MCCOMB",
+      "team": "WHEATON MONROE EAGLES"
+    },
+    {
+      "id": 4,
+      "name": "SCOTT EICHBERGER",
+      "team": "ORLAND PARK PIONEERS"
+    },
+    null,
+    {
+      "id": 6,
+      "name": "ANTHONY MONTEITH",
+      "team": "CRYSTAL LAKE WIZARDS"
+    },
+    null,
+    {
+      "id": 8,
+      "name": "MATHEW THOMAS",
+      "team": "UNITY WRESTLING CLUB"
+    },
+    {
+      "id": 9,
+      "name": "JERRY FISCHER",
+      "team": "MORTON YOUTH WRESTLING"
+    },
+    {
+      "id": 10,
+      "name": "CODY DIETZE",
+      "team": "TINLEY PARK BULLDOGS"
+    },
+    null,
+    {
+      "id": 12,
+      "name": "JOSEPH INGRAM",
+      "team": "CAMP POINT CENTRAL"
+    },
+    null,
+    {
+      "id": 14,
+      "name": "ADAM SMITH",
+      "team": "BROWNSON WC"
+    },
+    {
+      "id": 15,
+      "name": "DAVID MURPHY",
+      "team": "LITTLE CELTIC WRESTLING"
+    },
+    {
+      "id": 16,
+      "name": "JAMES WILLIAMSON",
+      "team": "NAPERVILLE EAGLES"
+    },
+    null,
+    {
+      "id": 18,
+      "name": "JOHN WEINERT",
+      "team": "VITTUM CATS"
+    },
+    {
+      "id": 19,
+      "name": "NOLAN JOHNSON",
+      "team": "PANTHER CUB WRESTLING"
+    },
+    null,
+    {
+      "id": 21,
+      "name": "BRANDON ZERFOWSKI",
+      "team": "MT. ZION WRESTLING CLUB"
+    },
+    null,
+    null
+  ],
+  "matches": {
+    "1": {
+      "top": {
+        "choice": 0,
+        "choices": [
+          0
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "2": {
+      "top": {
+        "choice": 1,
+        "choices": [
+          1
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "3": {
+      "top": {
+        "choice": 3,
+        "choices": [
+          3
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "4": {
+      "top": {
+        "choice": 4,
+        "choices": [
+          4
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "5": {
+      "top": {
+        "choice": 6,
+        "choices": [
+          6
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "6": {
+      "top": {
+        "choice": null,
+        "choices": []
+      },
+      "bottom": {
+        "choice": 8,
+        "choices": [
+          8
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "7": {
+      "top": {
+        "choice": 9,
+        "choices": [
+          9
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "8": {
+      "top": {
+        "choice": 10,
+        "choices": [
+          10
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "9": {
+      "top": {
+        "choice": 12,
+        "choices": [
+          12
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "10": {
+      "top": {
+        "choice": null,
+        "choices": []
+      },
+      "bottom": {
+        "choice": 14,
+        "choices": [
+          14
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "11": {
+      "top": {
+        "choice": 15,
+        "choices": [
+          15
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "12": {
+      "top": {
+        "choice": 16,
+        "choices": [
+          16
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "13": {
+      "top": {
+        "choice": 18,
+        "choices": [
+          18
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "14": {
+      "top": {
+        "choice": 19,
+        "choices": [
+          19
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "15": {
+      "top": {
+        "choice": 21,
+        "choices": [
+          21
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "17": {
+      "top": {
+        "choice": 0,
+        "choices": [
+          0
+        ]
+      },
+      "bottom": {
+        "choice": 1,
+        "choices": [
+          1,
+          2
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 289,
+      "result": "Fall 2:15"
+    },
+    "18": {
+      "top": {
+        "choice": 3,
+        "choices": [
+          3
+        ]
+      },
+      "bottom": {
+        "choice": 4,
+        "choices": [
+          4,
+          5
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 290,
+      "result": "Dec 3-1"
+    },
+    "19": {
+      "top": {
+        "choice": 6,
+        "choices": [
+          6
+        ]
+      },
+      "bottom": {
+        "choice": 8,
+        "choices": [
+          7,
+          8
+        ]
+      },
+      "winner": "top",
+      "boutNumber": 291,
+      "result": "Dec 11-7"
+    },
+    "20": {
+      "top": {
+        "choice": 9,
+        "choices": [
+          9
+        ]
+      },
+      "bottom": {
+        "choice": 10,
+        "choices": [
+          10,
+          11
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 292,
+      "result": "Dec 4-2"
+    },
+    "21": {
+      "top": {
+        "choice": 12,
+        "choices": [
+          12
+        ]
+      },
+      "bottom": {
+        "choice": 14,
+        "choices": [
+          13,
+          14
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 293,
+      "result": "MD 13-0"
+    },
+    "22": {
+      "top": {
+        "choice": 15,
+        "choices": [
+          15
+        ]
+      },
+      "bottom": {
+        "choice": 16,
+        "choices": [
+          16,
+          17
+        ]
+      },
+      "winner": "top",
+      "boutNumber": 294,
+      "result": "TF 16-0"
+    },
+    "23": {
+      "top": {
+        "choice": 18,
+        "choices": [
+          18
+        ]
+      },
+      "bottom": {
+        "choice": 19,
+        "choices": [
+          19,
+          20
+        ]
+      },
+      "winner": "top",
+      "boutNumber": 295,
+      "result": "Fall 1:34"
+    },
+    "24": {
+      "top": {
+        "choice": 21,
+        "choices": [
+          21
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": 296,
+      "result": "Bye"
+    },
+    "33": {
+      "top": {
+        "choice": 1,
+        "choices": [
+          0,
+          1
+        ]
+      },
+      "bottom": {
+        "choice": 4,
+        "choices": [
+          3,
+          4
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 721,
+      "result": "Dec 9-4"
+    },
+    "34": {
+      "top": {
+        "choice": 6,
+        "choices": [
+          6,
+          8
+        ]
+      },
+      "bottom": {
+        "choice": 10,
+        "choices": [
+          9,
+          10
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 722,
+      "result": "Fall 0:34"
+    },
+    "35": {
+      "top": {
+        "choice": 14,
+        "choices": [
+          12,
+          14
+        ]
+      },
+      "bottom": {
+        "choice": 15,
+        "choices": [
+          15,
+          16
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 723,
+      "result": "Fall 0:21"
+    },
+    "36": {
+      "top": {
+        "choice": 18,
+        "choices": [
+          18,
+          19
+        ]
+      },
+      "bottom": {
+        "choice": 21,
+        "choices": [
+          21,
+          22
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 724,
+      "result": "Dec 9-8"
+    },
+    "37": {
+      "top": {
+        "choice": null,
+        "choices": []
+      },
+      "bottom": {
+        "choice": 3,
+        "choices": [
+          3
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "38": {
+      "top": {
+        "choice": 9,
+        "choices": [
+          9
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "39": {
+      "top": {
+        "choice": null,
+        "choices": []
+      },
+      "bottom": {
+        "choice": 16,
+        "choices": [
+          16
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": null,
+      "result": "Bye"
+    },
+    "41": {
+      "top": {
+        "choice": 1,
+        "choices": [
+          1
+        ]
+      },
+      "bottom": {
+        "choice": 3,
+        "choices": [
+          3,
+          5
+        ]
+      },
+      "winner": "top",
+      "boutNumber": 865,
+      "result": "MD 11-1"
+    },
+    "42": {
+      "top": {
+        "choice": 9,
+        "choices": [
+          9,
+          11
+        ]
+      },
+      "bottom": {
+        "choice": 6,
+        "choices": [
+          6
+        ]
+      },
+      "winner": "top",
+      "boutNumber": 866,
+      "result": "Fall 1:52"
+    },
+    "43": {
+      "top": {
+        "choice": 14,
+        "choices": [
+          14
+        ]
+      },
+      "bottom": {
+        "choice": 16,
+        "choices": [
+          16
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 867,
+      "result": "Fall 3:57"
+    },
+    "44": {
+      "top": {
+        "choice": null,
+        "choices": []
+      },
+      "bottom": {
+        "choice": 18,
+        "choices": [
+          18
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 868,
+      "result": "Bye"
+    },
+    "45": {
+      "top": {
+        "choice": 4,
+        "choices": [
+          1,
+          4
+        ]
+      },
+      "bottom": {
+        "choice": 10,
+        "choices": [
+          6,
+          10
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 937,
+      "result": "Fall 3:23"
+    },
+    "46": {
+      "top": {
+        "choice": 15,
+        "choices": [
+          14,
+          15
+        ]
+      },
+      "bottom": {
+        "choice": 21,
+        "choices": [
+          18,
+          21
+        ]
+      },
+      "winner": "top",
+      "boutNumber": 938,
+      "result": "Fall 2:15"
+    },
+    "47": {
+      "top": {
+        "choice": 1,
+        "choices": [
+          1,
+          3
+        ]
+      },
+      "bottom": {
+        "choice": 9,
+        "choices": [
+          6,
+          9
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 973,
+      "result": "Dec 4-3"
+    },
+    "48": {
+      "top": {
+        "choice": 16,
+        "choices": [
+          14,
+          16
+        ]
+      },
+      "bottom": {
+        "choice": 18,
+        "choices": [
+          18,
+          22
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 974,
+      "result": "Dec 5-2"
+    },
+    "49": {
+      "top": {
+        "choice": 4,
+        "choices": [
+          4
+        ]
+      },
+      "bottom": {
+        "choice": 9,
+        "choices": [
+          1,
+          9
+        ]
+      },
+      "winner": "top",
+      "boutNumber": 1009,
+      "result": "Dec 11-6"
+    },
+    "50": {
+      "top": {
+        "choice": 18,
+        "choices": [
+          16,
+          18
+        ]
+      },
+      "bottom": {
+        "choice": 21,
+        "choices": [
+          21
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 1010,
+      "result": "PD"
+    },
+    "52": {
+      "top": {
+        "choice": 9,
+        "choices": [
+          9
+        ]
+      },
+      "bottom": {
+        "choice": 18,
+        "choices": [
+          18
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 1045,
+      "result": "Fall 3:34"
+    },
+    "53": {
+      "top": {
+        "choice": 4,
+        "choices": [
+          4,
+          9
+        ]
+      },
+      "bottom": {
+        "choice": 21,
+        "choices": [
+          18,
+          21
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 1046,
+      "result": "Dec 8-1"
+    },
+    "54": {
+      "top": {
+        "choice": 10,
+        "choices": [
+          4,
+          10
+        ]
+      },
+      "bottom": {
+        "choice": 15,
+        "choices": [
+          15,
+          21
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": 1047,
+      "result": "TF 2:06"
+    },
+    "1001": {
+      "top": {
+        "choice": 15,
+        "choices": [
+          10,
+          15
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": null,
+      "boutNumber": null,
+      "result": ""
+    },
+    "1003": {
+      "top": {
+        "choice": 21,
+        "choices": [
+          4,
+          21
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": null,
+      "boutNumber": null,
+      "result": ""
+    },
+    "1005": {
+      "top": {
+        "choice": 18,
+        "choices": [
+          9,
+          18
+        ]
+      },
+      "bottom": {
+        "choice": null,
+        "choices": []
+      },
+      "winner": null,
+      "boutNumber": null,
+      "result": ""
+    }
+  }
+}
