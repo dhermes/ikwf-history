@@ -557,6 +557,7 @@ def _determine_result_type(result: str) -> ResultType:
         or result.startswith("Forf ")
         or result == "Ff"
         or result.startswith("Ff ")
+        or result == "FF"
     ):
         return "forfeit"
 

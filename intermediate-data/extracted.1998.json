@@ -20,6 +20,27 @@
           "top_win": true
         },
         {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "BRIAN MARTIN",
+            "first_name": "BRIAN",
+            "last_name": "MARTIN",
+            "team_full": "WOLFPACK WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "KURT DARGAN",
+            "first_name": "KURT",
+            "last_name": "DARGAN",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "result": "Dec 4-2",
+          "result_type": "decision",
+          "bout_number": 2,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_03",
           "top_competitor": {
             "full_name": "JOSH HARPER",
@@ -35,6 +56,27 @@
           "top_win": true
         },
         {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "M RILEY KRUEGER",
+            "first_name": "RILEY",
+            "last_name": "KRUEGER",
+            "team_full": "PLAINFIELD WOLVES WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JAKE MCCOMB",
+            "first_name": "JAKE",
+            "last_name": "MCCOMB",
+            "team_full": "WHEATON MONROE EAGLES",
+            "team_acronym": null
+          },
+          "result": "Dec 6-1",
+          "result_type": "decision",
+          "bout_number": 3,
+          "top_win": false
+        },
+        {
           "match_slot": "championship_r32_05",
           "top_competitor": {
             "full_name": "ALEXANDER ALANIZ",
@@ -47,6 +89,27 @@
           "result": "Bye",
           "result_type": "bye",
           "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "CONOR BEEBE",
+            "first_name": "CONOR",
+            "last_name": "BEEBE",
+            "team_full": "FOX VALLEY WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CHRIS HANEY",
+            "first_name": "CHRIS",
+            "last_name": "HANEY",
+            "team_full": "ROSEMONT COBRA WC",
+            "team_acronym": null
+          },
+          "result": "Fall 0:46",
+          "result_type": "fall",
+          "bout_number": 6,
           "top_win": true
         },
         {
@@ -65,6 +128,27 @@
           "top_win": true
         },
         {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "DEREK MESSINK",
+            "first_name": "DEREK",
+            "last_name": "MESSINK",
+            "team_full": "HARLEM COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOSHUA PERSICO",
+            "first_name": "JOSHUA",
+            "last_name": "PERSICO",
+            "team_full": "SENECA IRISH CADETS",
+            "team_acronym": null
+          },
+          "result": "Dec 6-1",
+          "result_type": "decision",
+          "bout_number": 7,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_09",
           "top_competitor": {
             "full_name": "SCOTT HORCHER",
@@ -80,6 +164,27 @@
           "top_win": true
         },
         {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "ROBERT LAWSON",
+            "first_name": "ROBERT",
+            "last_name": "LAWSON",
+            "team_full": "MT. VERNON LIONS WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ANDREW DECAP",
+            "first_name": "ANDREW",
+            "last_name": "DECAP",
+            "team_full": "RIVERDALE JR. HIGH WC",
+            "team_acronym": null
+          },
+          "result": "Dec 9-2",
+          "result_type": "decision",
+          "bout_number": 10,
+          "top_win": false
+        },
+        {
           "match_slot": "championship_r32_11",
           "top_competitor": {
             "full_name": "THOMAS GAGAN",
@@ -92,6 +197,27 @@
           "result": "Bye",
           "result_type": "bye",
           "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "MICHAEL SANDS",
+            "first_name": "MICHAEL",
+            "last_name": "SANDS",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "RYAN ESTES",
+            "first_name": "RYAN",
+            "last_name": "ESTES",
+            "team_full": "CHILLI DAWGS WRESTLING",
+            "team_acronym": null
+          },
+          "result": "MD 11-3",
+          "result_type": "major",
+          "bout_number": 11,
           "top_win": true
         },
         {
@@ -110,147 +236,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "MICHAEL ORI",
-            "first_name": "MICHAEL",
-            "last_name": "ORI",
-            "team_full": "GIANTS WRESTLING CLUB",
-            "team_acronym": null
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_02",
-          "top_competitor": {
-            "full_name": "BRIAN MARTIN",
-            "first_name": "BRIAN",
-            "last_name": "MARTIN",
-            "team_full": "WOLFPACK WRESTLING CLUB",
-            "team_acronym": null
-          },
-          "bottom_competitor": {
-            "full_name": "KURT DARGAN",
-            "first_name": "KURT",
-            "last_name": "DARGAN",
-            "team_full": "CRYSTAL LAKE WIZARDS",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 1,
-          "top_win": null
-        },
-        {
-          "match_slot": "championship_r32_04",
-          "top_competitor": {
-            "full_name": "M RILEY KRUEGER",
-            "first_name": "RILEY",
-            "last_name": "KRUEGER",
-            "team_full": "PLAINFIELD WOLVES WC",
-            "team_acronym": null
-          },
-          "bottom_competitor": {
-            "full_name": "JAKE MCCOMB",
-            "first_name": "JAKE",
-            "last_name": "MCCOMB",
-            "team_full": "WHEATON MONROE EAGLES",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 2,
-          "top_win": null
-        },
-        {
-          "match_slot": "championship_r32_06",
-          "top_competitor": {
-            "full_name": "CONOR BEEBE",
-            "first_name": "CONOR",
-            "last_name": "BEEBE",
-            "team_full": "FOX VALLEY WC",
-            "team_acronym": null
-          },
-          "bottom_competitor": {
-            "full_name": "CHRIS HANEY",
-            "first_name": "CHRIS",
-            "last_name": "HANEY",
-            "team_full": "ROSEMONT COBRA WC",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 3,
-          "top_win": null
-        },
-        {
-          "match_slot": "championship_r32_08",
-          "top_competitor": {
-            "full_name": "DEREK MESSINK",
-            "first_name": "DEREK",
-            "last_name": "MESSINK",
-            "team_full": "HARLEM COUGARS",
-            "team_acronym": null
-          },
-          "bottom_competitor": {
-            "full_name": "JOSHUA PERSICO",
-            "first_name": "JOSHUA",
-            "last_name": "PERSICO",
-            "team_full": "SENECA IRISH CADETS",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 4,
-          "top_win": null
-        },
-        {
-          "match_slot": "championship_r32_10",
-          "top_competitor": {
-            "full_name": "ROBERT LAWSON",
-            "first_name": "ROBERT",
-            "last_name": "LAWSON",
-            "team_full": "MT. VERNON LIONS WRESTLING",
-            "team_acronym": null
-          },
-          "bottom_competitor": {
-            "full_name": "ANDREW DECAP",
-            "first_name": "ANDREW",
-            "last_name": "DECAP",
-            "team_full": "RIVERDALE JR. HIGH WC",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 5,
-          "top_win": null
-        },
-        {
-          "match_slot": "championship_r32_12",
-          "top_competitor": {
-            "full_name": "MICHAEL SANDS",
-            "first_name": "MICHAEL",
-            "last_name": "SANDS",
-            "team_full": "TINLEY PARK BULLDOGS",
-            "team_acronym": null
-          },
-          "bottom_competitor": {
-            "full_name": "RYAN ESTES",
-            "first_name": "RYAN",
-            "last_name": "ESTES",
-            "team_full": "CHILLI DAWGS WRESTLING",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 6,
-          "top_win": null
-        },
-        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "CHARLIE PEIRITZ",
@@ -266,10 +251,25 @@
             "team_full": "TINLEY PARK BULLDOGS",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 7,
-          "top_win": null
+          "result": "Dec 6-5",
+          "result_type": "decision",
+          "bout_number": 14,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "MICHAEL ORI",
+            "first_name": "MICHAEL",
+            "last_name": "ORI",
+            "team_full": "GIANTS WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -287,18 +287,504 @@
             "team_full": "CENTRALIA WRESTLING CLUB",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 8,
-          "top_win": null
+          "result": "Fall 0:45",
+          "result_type": "fall",
+          "bout_number": 15,
+          "top_win": true
         },
         {
-          "match_slot": "consolation_third_place",
+          "match_slot": "championship_r16_01",
+          "top_competitor": {
+            "full_name": "BRANDON ZERFOWSKI",
+            "first_name": "BRANDON",
+            "last_name": "ZERFOWSKI",
+            "team_full": "MT. ZION WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRIAN MARTIN",
+            "first_name": "BRIAN",
+            "last_name": "MARTIN",
+            "team_full": "WOLFPACK WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "Dec 4-2",
+          "result_type": "decision",
+          "bout_number": 257,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_02",
+          "top_competitor": {
+            "full_name": "JOSH HARPER",
+            "first_name": "JOSH",
+            "last_name": "HARPER",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JAKE MCCOMB",
+            "first_name": "JAKE",
+            "last_name": "MCCOMB",
+            "team_full": "WHEATON MONROE EAGLES",
+            "team_acronym": null
+          },
+          "result": "Fall 0:17",
+          "result_type": "fall",
+          "bout_number": 258,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_03",
+          "top_competitor": {
+            "full_name": "ALEXANDER ALANIZ",
+            "first_name": "ALEXANDER",
+            "last_name": "ALANIZ",
+            "team_full": "EAST MOLINE WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CONOR BEEBE",
+            "first_name": "CONOR",
+            "last_name": "BEEBE",
+            "team_full": "FOX VALLEY WC",
+            "team_acronym": null
+          },
+          "result": "Dec 5-4",
+          "result_type": "decision",
+          "bout_number": 259,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_04",
+          "top_competitor": {
+            "full_name": "TIM HANEBERG",
+            "first_name": "TIM",
+            "last_name": "HANEBERG",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DEREK MESSINK",
+            "first_name": "DEREK",
+            "last_name": "MESSINK",
+            "team_full": "HARLEM COUGARS",
+            "team_acronym": null
+          },
+          "result": "Dec 5-0",
+          "result_type": "decision",
+          "bout_number": 260,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_05",
+          "top_competitor": {
+            "full_name": "SCOTT HORCHER",
+            "first_name": "SCOTT",
+            "last_name": "HORCHER",
+            "team_full": "JR. GOLDEN EAGLES WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ANDREW DECAP",
+            "first_name": "ANDREW",
+            "last_name": "DECAP",
+            "team_full": "RIVERDALE JR. HIGH WC",
+            "team_acronym": null
+          },
+          "result": "MD 8-0",
+          "result_type": "major",
+          "bout_number": 261,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_06",
+          "top_competitor": {
+            "full_name": "THOMAS GAGAN",
+            "first_name": "THOMAS",
+            "last_name": "GAGAN",
+            "team_full": "LITTLE CELTIC WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MICHAEL SANDS",
+            "first_name": "MICHAEL",
+            "last_name": "SANDS",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "MD 10-2",
+          "result_type": "major",
+          "bout_number": 262,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_07",
+          "top_competitor": {
+            "full_name": "NICK FANTHORPE",
+            "first_name": "NICK",
+            "last_name": "FANTHORPE",
+            "team_full": "FOX VALLEY WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "VINCENT FARINA",
+            "first_name": "VINCENT",
+            "last_name": "FARINA",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "TF 22-6",
+          "result_type": "tech",
+          "bout_number": 263,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_08",
           "top_competitor": {
             "full_name": "MICHAEL ORI",
             "first_name": "MICHAEL",
             "last_name": "ORI",
             "team_full": "GIANTS WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MITCH JONES",
+            "first_name": "MITCH",
+            "last_name": "JONES",
+            "team_full": "MT. ZION WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "Dec 9-5",
+          "result_type": "decision",
+          "bout_number": 264,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "BRANDON ZERFOWSKI",
+            "first_name": "BRANDON",
+            "last_name": "ZERFOWSKI",
+            "team_full": "MT. ZION WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOSH HARPER",
+            "first_name": "JOSH",
+            "last_name": "HARPER",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "team_acronym": null
+          },
+          "result": "Dec 5-3 OT",
+          "result_type": "decision",
+          "bout_number": 641,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "CONOR BEEBE",
+            "first_name": "CONOR",
+            "last_name": "BEEBE",
+            "team_full": "FOX VALLEY WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "TIM HANEBERG",
+            "first_name": "TIM",
+            "last_name": "HANEBERG",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "Dec 5-3",
+          "result_type": "decision",
+          "bout_number": 642,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "SCOTT HORCHER",
+            "first_name": "SCOTT",
+            "last_name": "HORCHER",
+            "team_full": "JR. GOLDEN EAGLES WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "THOMAS GAGAN",
+            "first_name": "THOMAS",
+            "last_name": "GAGAN",
+            "team_full": "LITTLE CELTIC WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "Dec 1-0",
+          "result_type": "decision",
+          "bout_number": 643,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "NICK FANTHORPE",
+            "first_name": "NICK",
+            "last_name": "FANTHORPE",
+            "team_full": "FOX VALLEY WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MICHAEL ORI",
+            "first_name": "MICHAEL",
+            "last_name": "ORI",
+            "team_full": "GIANTS WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "Dec 6-4",
+          "result_type": "decision",
+          "bout_number": 644,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round3_01",
+          "top_competitor": null,
+          "bottom_competitor": {
+            "full_name": "JAKE MCCOMB",
+            "first_name": "JAKE",
+            "last_name": "MCCOMB",
+            "team_full": "WHEATON MONROE EAGLES",
+            "team_acronym": null
+          },
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 705,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_02",
+          "top_competitor": {
+            "full_name": "ALEXANDER ALANIZ",
+            "first_name": "ALEXANDER",
+            "last_name": "ALANIZ",
+            "team_full": "EAST MOLINE WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CHRIS HANEY",
+            "first_name": "CHRIS",
+            "last_name": "HANEY",
+            "team_full": "ROSEMONT COBRA WC",
+            "team_acronym": null
+          },
+          "result": "Fall 3:35",
+          "result_type": "fall",
+          "bout_number": 706,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round3_03",
+          "top_competitor": null,
+          "bottom_competitor": {
+            "full_name": "ANDREW DECAP",
+            "first_name": "ANDREW",
+            "last_name": "DECAP",
+            "team_full": "RIVERDALE JR. HIGH WC",
+            "team_acronym": null
+          },
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 707,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_04",
+          "top_competitor": {
+            "full_name": "VINCENT FARINA",
+            "first_name": "VINCENT",
+            "last_name": "FARINA",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 708,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_01",
+          "top_competitor": {
+            "full_name": "BRANDON ZERFOWSKI",
+            "first_name": "BRANDON",
+            "last_name": "ZERFOWSKI",
+            "team_full": "MT. ZION WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JAKE MCCOMB",
+            "first_name": "JAKE",
+            "last_name": "MCCOMB",
+            "team_full": "WHEATON MONROE EAGLES",
+            "team_acronym": null
+          },
+          "result": "MD 11-2",
+          "result_type": "major",
+          "bout_number": 769,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_02",
+          "top_competitor": {
+            "full_name": "ALEXANDER ALANIZ",
+            "first_name": "ALEXANDER",
+            "last_name": "ALANIZ",
+            "team_full": "EAST MOLINE WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "TIM HANEBERG",
+            "first_name": "TIM",
+            "last_name": "HANEBERG",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "Dec 6-0",
+          "result_type": "decision",
+          "bout_number": 770,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_03",
+          "top_competitor": {
+            "full_name": "THOMAS GAGAN",
+            "first_name": "THOMAS",
+            "last_name": "GAGAN",
+            "team_full": "LITTLE CELTIC WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ANDREW DECAP",
+            "first_name": "ANDREW",
+            "last_name": "DECAP",
+            "team_full": "RIVERDALE JR. HIGH WC",
+            "team_acronym": null
+          },
+          "result": "Dec 6-5",
+          "result_type": "decision",
+          "bout_number": 771,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_04",
+          "top_competitor": {
+            "full_name": "VINCENT FARINA",
+            "first_name": "VINCENT",
+            "last_name": "FARINA",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MICHAEL ORI",
+            "first_name": "MICHAEL",
+            "last_name": "ORI",
+            "team_full": "GIANTS WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "MD 13-3",
+          "result_type": "major",
+          "bout_number": 772,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "JOSH HARPER",
+            "first_name": "JOSH",
+            "last_name": "HARPER",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CONOR BEEBE",
+            "first_name": "CONOR",
+            "last_name": "BEEBE",
+            "team_full": "FOX VALLEY WC",
+            "team_acronym": null
+          },
+          "result": "Dec 5-2",
+          "result_type": "decision",
+          "bout_number": 833,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "SCOTT HORCHER",
+            "first_name": "SCOTT",
+            "last_name": "HORCHER",
+            "team_full": "JR. GOLDEN EAGLES WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "NICK FANTHORPE",
+            "first_name": "NICK",
+            "last_name": "FANTHORPE",
+            "team_full": "FOX VALLEY WC",
+            "team_acronym": null
+          },
+          "result": "Fall 0:33",
+          "result_type": "fall",
+          "bout_number": 834,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "BRANDON ZERFOWSKI",
+            "first_name": "BRANDON",
+            "last_name": "ZERFOWSKI",
+            "team_full": "MT. ZION WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ALEXANDER ALANIZ",
+            "first_name": "ALEXANDER",
+            "last_name": "ALANIZ",
+            "team_full": "EAST MOLINE WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "Dec 4-2",
+          "result_type": "decision",
+          "bout_number": 865,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "THOMAS GAGAN",
+            "first_name": "THOMAS",
+            "last_name": "GAGAN",
+            "team_full": "LITTLE CELTIC WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MICHAEL ORI",
+            "first_name": "MICHAEL",
+            "last_name": "ORI",
+            "team_full": "GIANTS WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "MD 10-1",
+          "result_type": "major",
+          "bout_number": 866,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "CONOR BEEBE",
+            "first_name": "CONOR",
+            "last_name": "BEEBE",
+            "team_full": "FOX VALLEY WC",
             "team_acronym": null
           },
           "bottom_competitor": {
@@ -308,9 +794,30 @@
             "team_full": "MT. ZION WRESTLING CLUB",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
+          "result": "Dec 3-2 2OT",
+          "result_type": "decision",
+          "bout_number": 897,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "MICHAEL ORI",
+            "first_name": "MICHAEL",
+            "last_name": "ORI",
+            "team_full": "GIANTS WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "SCOTT HORCHER",
+            "first_name": "SCOTT",
+            "last_name": "HORCHER",
+            "team_full": "JR. GOLDEN EAGLES WC",
+            "team_acronym": null
+          },
+          "result": "MD 8-0",
+          "result_type": "major",
+          "bout_number": 898,
           "top_win": true
         },
         {
@@ -329,10 +836,31 @@
             "team_full": "JR. GOLDEN EAGLES WC",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
+          "result": "Dec 7-5",
+          "result_type": "decision",
+          "bout_number": 929,
           "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "BRANDON ZERFOWSKI",
+            "first_name": "BRANDON",
+            "last_name": "ZERFOWSKI",
+            "team_full": "MT. ZION WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MICHAEL ORI",
+            "first_name": "MICHAEL",
+            "last_name": "ORI",
+            "team_full": "GIANTS WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "Dec 8-4",
+          "result_type": "decision",
+          "bout_number": 930,
+          "top_win": false
         },
         {
           "match_slot": "championship_first_place",
@@ -350,9 +878,9 @@
             "team_full": "FOX VALLEY WC",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
+          "result": "Dec 4-1",
+          "result_type": "decision",
+          "bout_number": 931,
           "top_win": false
         }
       ]
@@ -377,6 +905,27 @@
           "top_win": true
         },
         {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "BENJAMIN HART",
+            "first_name": "BENJAMIN",
+            "last_name": "HART",
+            "team_full": "WOLFPACK WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BEN CHAMBERLAIN",
+            "first_name": "BEN",
+            "last_name": "CHAMBERLAIN",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "result": "Dec 8-2",
+          "result_type": "decision",
+          "bout_number": 18,
+          "top_win": false
+        },
+        {
           "match_slot": "championship_r32_03",
           "top_competitor": {
             "full_name": "ANTHONY MARTINEZ",
@@ -390,6 +939,27 @@
           "result_type": "bye",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "KEITH MAHLER",
+            "first_name": "KEITH",
+            "last_name": "MAHLER",
+            "team_full": "HUSKIES WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOSIAH WOOTEN",
+            "first_name": "JOSIAH",
+            "last_name": "WOOTEN",
+            "team_full": "URBANA KIDS CLUB",
+            "team_acronym": null
+          },
+          "result": "TF 18-1",
+          "result_type": "tech",
+          "bout_number": 19,
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_05",
@@ -407,6 +977,27 @@
           "top_win": true
         },
         {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "JAMES ASCHENBRENNER",
+            "first_name": "JAMES",
+            "last_name": "ASCHENBRENNER",
+            "team_full": "MT. ZION WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOHN MALIZZIO",
+            "first_name": "JOHN",
+            "last_name": "MALIZZIO",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "result": "Dec 11-4",
+          "result_type": "decision",
+          "bout_number": 22,
+          "top_win": false
+        },
+        {
           "match_slot": "championship_r32_07",
           "top_competitor": {
             "full_name": "ROBBIE UNSELL",
@@ -419,6 +1010,27 @@
           "result": "Bye",
           "result_type": "bye",
           "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "JAKE FLYNN",
+            "first_name": "JAKE",
+            "last_name": "FLYNN",
+            "team_full": "HARLEM COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DANIEL DELIBERTO",
+            "first_name": "DANIEL",
+            "last_name": "DELIBERTO",
+            "team_full": "GLENBARD EAST JR. RAMS",
+            "team_acronym": null
+          },
+          "result": "Fall 1:55",
+          "result_type": "fall",
+          "bout_number": 23,
           "top_win": true
         },
         {
@@ -437,6 +1049,27 @@
           "top_win": true
         },
         {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "DAVID MURPHY",
+            "first_name": "DAVID",
+            "last_name": "MURPHY",
+            "team_full": "LITTLE CELTIC WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JEFF WILLIAMS",
+            "first_name": "JEFF",
+            "last_name": "WILLIAMS",
+            "team_full": "GENESEO WC",
+            "team_acronym": null
+          },
+          "result": "MD 8-0",
+          "result_type": "major",
+          "bout_number": 26,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_11",
           "top_competitor": {
             "full_name": "MATT SHAPIRO",
@@ -449,6 +1082,27 @@
           "result": "Bye",
           "result_type": "bye",
           "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "CHRISTOPHER MAYNOR",
+            "first_name": "CHRISTOPHER",
+            "last_name": "MAYNOR",
+            "team_full": "HERRIN JR. WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MATT DEWITT",
+            "first_name": "MATT",
+            "last_name": "DEWITT",
+            "team_full": "MUSTANG WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "Dec 6-0",
+          "result_type": "decision",
+          "bout_number": 27,
           "top_win": true
         },
         {
@@ -467,147 +1121,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "DANIEL LEONARD",
-            "first_name": "DANIEL",
-            "last_name": "LEONARD",
-            "team_full": "VILLA-LOMBARD COUGARS",
-            "team_acronym": null
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_02",
-          "top_competitor": {
-            "full_name": "BENJAMIN HART",
-            "first_name": "BENJAMIN",
-            "last_name": "HART",
-            "team_full": "WOLFPACK WRESTLING CLUB",
-            "team_acronym": null
-          },
-          "bottom_competitor": {
-            "full_name": "BEN CHAMBERLAIN",
-            "first_name": "BEN",
-            "last_name": "CHAMBERLAIN",
-            "team_full": "CRYSTAL LAKE WIZARDS",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 1,
-          "top_win": null
-        },
-        {
-          "match_slot": "championship_r32_04",
-          "top_competitor": {
-            "full_name": "KEITH MAHLER",
-            "first_name": "KEITH",
-            "last_name": "MAHLER",
-            "team_full": "HUSKIES WRESTLING CLUB",
-            "team_acronym": null
-          },
-          "bottom_competitor": {
-            "full_name": "JOSIAH WOOTEN",
-            "first_name": "JOSIAH",
-            "last_name": "WOOTEN",
-            "team_full": "URBANA KIDS CLUB",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 2,
-          "top_win": null
-        },
-        {
-          "match_slot": "championship_r32_06",
-          "top_competitor": {
-            "full_name": "JAMES ASCHENBRENNER",
-            "first_name": "JAMES",
-            "last_name": "ASCHENBRENNER",
-            "team_full": "MT. ZION WRESTLING CLUB",
-            "team_acronym": null
-          },
-          "bottom_competitor": {
-            "full_name": "JOHN MALIZZIO",
-            "first_name": "JOHN",
-            "last_name": "MALIZZIO",
-            "team_full": "VILLA-LOMBARD COUGARS",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 3,
-          "top_win": null
-        },
-        {
-          "match_slot": "championship_r32_08",
-          "top_competitor": {
-            "full_name": "JAKE FLYNN",
-            "first_name": "JAKE",
-            "last_name": "FLYNN",
-            "team_full": "HARLEM COUGARS",
-            "team_acronym": null
-          },
-          "bottom_competitor": {
-            "full_name": "DANIEL DELIBERTO",
-            "first_name": "DANIEL",
-            "last_name": "DELIBERTO",
-            "team_full": "GLENBARD EAST JR. RAMS",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 4,
-          "top_win": null
-        },
-        {
-          "match_slot": "championship_r32_10",
-          "top_competitor": {
-            "full_name": "DAVID MURPHY",
-            "first_name": "DAVID",
-            "last_name": "MURPHY",
-            "team_full": "LITTLE CELTIC WRESTLING CLUB",
-            "team_acronym": null
-          },
-          "bottom_competitor": {
-            "full_name": "JEFF WILLIAMS",
-            "first_name": "JEFF",
-            "last_name": "WILLIAMS",
-            "team_full": "GENESEO WC",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 5,
-          "top_win": null
-        },
-        {
-          "match_slot": "championship_r32_12",
-          "top_competitor": {
-            "full_name": "CHRISTOPHER MAYNOR",
-            "first_name": "CHRISTOPHER",
-            "last_name": "MAYNOR",
-            "team_full": "HERRIN JR. WRESTLING",
-            "team_acronym": null
-          },
-          "bottom_competitor": {
-            "full_name": "MATT DEWITT",
-            "first_name": "MATT",
-            "last_name": "DEWITT",
-            "team_full": "MUSTANG WRESTLING CLUB",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 6,
-          "top_win": null
-        },
-        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "ISAAC BANKS",
@@ -623,10 +1136,25 @@
             "team_full": "LAWRENCE COUNTY WC",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 7,
-          "top_win": null
+          "result": "Dec 10-9",
+          "result_type": "decision",
+          "bout_number": 30,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "DANIEL LEONARD",
+            "first_name": "DANIEL",
+            "last_name": "LEONARD",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -644,13 +1172,97 @@
             "team_full": "SENECA IRISH CADETS",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 8,
-          "top_win": null
+          "result": "MD 9-1",
+          "result_type": "major",
+          "bout_number": 31,
+          "top_win": true
         },
         {
-          "match_slot": "consolation_third_place",
+          "match_slot": "championship_r16_01",
+          "top_competitor": {
+            "full_name": "GERALD STARZYK",
+            "first_name": "GERALD",
+            "last_name": "STARZYK",
+            "team_full": "VITTUM CATS WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BEN CHAMBERLAIN",
+            "first_name": "BEN",
+            "last_name": "CHAMBERLAIN",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "result": "MD 10-1",
+          "result_type": "major",
+          "bout_number": 265,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_02",
+          "top_competitor": {
+            "full_name": "ANTHONY MARTINEZ",
+            "first_name": "ANTHONY",
+            "last_name": "MARTINEZ",
+            "team_full": "LITTLE CELTIC WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOSIAH WOOTEN",
+            "first_name": "JOSIAH",
+            "last_name": "WOOTEN",
+            "team_full": "URBANA KIDS CLUB",
+            "team_acronym": null
+          },
+          "result": "MD 11-0",
+          "result_type": "major",
+          "bout_number": 266,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_03",
+          "top_competitor": {
+            "full_name": "CHUCKIE PATTEN",
+            "first_name": "CHUCKIE",
+            "last_name": "PATTEN",
+            "team_full": "CROSSFACE WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOHN MALIZZIO",
+            "first_name": "JOHN",
+            "last_name": "MALIZZIO",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "result": "Fall 0:21",
+          "result_type": "fall",
+          "bout_number": 267,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_04",
+          "top_competitor": {
+            "full_name": "ROBBIE UNSELL",
+            "first_name": "ROBBIE",
+            "last_name": "UNSELL",
+            "team_full": "ROXANA WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JAKE FLYNN",
+            "first_name": "JAKE",
+            "last_name": "FLYNN",
+            "team_full": "HARLEM COUGARS",
+            "team_acronym": null
+          },
+          "result": "Dec 2-0",
+          "result_type": "decision",
+          "bout_number": 268,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_05",
           "top_competitor": {
             "full_name": "JORDAN KOLINSKI",
             "first_name": "JORDAN",
@@ -659,23 +1271,257 @@
             "team_acronym": null
           },
           "bottom_competitor": {
+            "full_name": "DAVID MURPHY",
+            "first_name": "DAVID",
+            "last_name": "MURPHY",
+            "team_full": "LITTLE CELTIC WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "Dec 4-2",
+          "result_type": "decision",
+          "bout_number": 269,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_06",
+          "top_competitor": {
+            "full_name": "MATT SHAPIRO",
+            "first_name": "MATT",
+            "last_name": "SHAPIRO",
+            "team_full": "FOX VALLEY WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CHRISTOPHER MAYNOR",
+            "first_name": "CHRISTOPHER",
+            "last_name": "MAYNOR",
+            "team_full": "HERRIN JR. WRESTLING",
+            "team_acronym": null
+          },
+          "result": "Dec 7-4",
+          "result_type": "decision",
+          "bout_number": 270,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_07",
+          "top_competitor": {
+            "full_name": "BRANDON NICE",
+            "first_name": "BRANDON",
+            "last_name": "NICE",
+            "team_full": "CUMBERLAND WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOSH HIGGINS",
+            "first_name": "JOSH",
+            "last_name": "HIGGINS",
+            "team_full": "LAWRENCE COUNTY WC",
+            "team_acronym": null
+          },
+          "result": "MD 12-4",
+          "result_type": "major",
+          "bout_number": 271,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_08",
+          "top_competitor": {
+            "full_name": "DANIEL LEONARD",
+            "first_name": "DANIEL",
+            "last_name": "LEONARD",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "WILLIAM OSWALD",
+            "first_name": "WILLIAM",
+            "last_name": "OSWALD",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "Fall 2:03",
+          "result_type": "fall",
+          "bout_number": 272,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "GERALD STARZYK",
+            "first_name": "GERALD",
+            "last_name": "STARZYK",
+            "team_full": "VITTUM CATS WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ANTHONY MARTINEZ",
+            "first_name": "ANTHONY",
+            "last_name": "MARTINEZ",
+            "team_full": "LITTLE CELTIC WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "Dec 3-2 2OT",
+          "result_type": "decision",
+          "bout_number": 645,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
             "full_name": "CHUCKIE PATTEN",
             "first_name": "CHUCKIE",
             "last_name": "PATTEN",
             "team_full": "CROSSFACE WRESTLING",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
+          "bottom_competitor": {
+            "full_name": "ROBBIE UNSELL",
+            "first_name": "ROBBIE",
+            "last_name": "UNSELL",
+            "team_full": "ROXANA WRESTLING",
+            "team_acronym": null
+          },
+          "result": "Dec 1-0",
+          "result_type": "decision",
+          "bout_number": 646,
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_quarter_03",
           "top_competitor": {
+            "full_name": "DAVID MURPHY",
+            "first_name": "DAVID",
+            "last_name": "MURPHY",
+            "team_full": "LITTLE CELTIC WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MATT SHAPIRO",
+            "first_name": "MATT",
+            "last_name": "SHAPIRO",
+            "team_full": "FOX VALLEY WC",
+            "team_acronym": null
+          },
+          "result": "Dec 7-0",
+          "result_type": "decision",
+          "bout_number": 647,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "BRANDON NICE",
+            "first_name": "BRANDON",
+            "last_name": "NICE",
+            "team_full": "CUMBERLAND WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
             "full_name": "DANIEL LEONARD",
             "first_name": "DANIEL",
             "last_name": "LEONARD",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "result": "Dec 4-0",
+          "result_type": "decision",
+          "bout_number": 648,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_01",
+          "top_competitor": null,
+          "bottom_competitor": {
+            "full_name": "JOSIAH WOOTEN",
+            "first_name": "JOSIAH",
+            "last_name": "WOOTEN",
+            "team_full": "URBANA KIDS CLUB",
+            "team_acronym": null
+          },
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 709,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_02",
+          "top_competitor": {
+            "full_name": "JOHN MALIZZIO",
+            "first_name": "JOHN",
+            "last_name": "MALIZZIO",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 710,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round3_03",
+          "top_competitor": {
+            "full_name": "JEFF WILLIAMS",
+            "first_name": "JEFF",
+            "last_name": "WILLIAMS",
+            "team_full": "GENESEO WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JORDAN KOLINSKI",
+            "first_name": "JORDAN",
+            "last_name": "KOLINSKI",
+            "team_full": "ROCKFORD WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "Fall 3:42",
+          "result_type": "fall",
+          "bout_number": 711,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_04",
+          "top_competitor": {
+            "full_name": "WILLIAM OSWALD",
+            "first_name": "WILLIAM",
+            "last_name": "OSWALD",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 712,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_01",
+          "top_competitor": {
+            "full_name": "GERALD STARZYK",
+            "first_name": "GERALD",
+            "last_name": "STARZYK",
+            "team_full": "VITTUM CATS WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOSIAH WOOTEN",
+            "first_name": "JOSIAH",
+            "last_name": "WOOTEN",
+            "team_full": "URBANA KIDS CLUB",
+            "team_acronym": null
+          },
+          "result": "Dec 5-4",
+          "result_type": "decision",
+          "bout_number": 773,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_02",
+          "top_competitor": {
+            "full_name": "JOHN MALIZZIO",
+            "first_name": "JOHN",
+            "last_name": "MALIZZIO",
             "team_full": "VILLA-LOMBARD COUGARS",
             "team_acronym": null
           },
@@ -686,10 +1532,220 @@
             "team_full": "ROXANA WRESTLING",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
+          "result": "Fall 0:58",
+          "result_type": "fall",
+          "bout_number": 774,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round4_blood_03",
+          "top_competitor": {
+            "full_name": "MATT SHAPIRO",
+            "first_name": "MATT",
+            "last_name": "SHAPIRO",
+            "team_full": "FOX VALLEY WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JORDAN KOLINSKI",
+            "first_name": "JORDAN",
+            "last_name": "KOLINSKI",
+            "team_full": "ROCKFORD WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "Fall 1:32",
+          "result_type": "fall",
+          "bout_number": 775,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round4_blood_04",
+          "top_competitor": {
+            "full_name": "WILLIAM OSWALD",
+            "first_name": "WILLIAM",
+            "last_name": "OSWALD",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRANDON NICE",
+            "first_name": "BRANDON",
+            "last_name": "NICE",
+            "team_full": "CUMBERLAND WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "FF",
+          "result_type": "forfeit",
+          "bout_number": 776,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "ANTHONY MARTINEZ",
+            "first_name": "ANTHONY",
+            "last_name": "MARTINEZ",
+            "team_full": "LITTLE CELTIC WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CHUCKIE PATTEN",
+            "first_name": "CHUCKIE",
+            "last_name": "PATTEN",
+            "team_full": "CROSSFACE WRESTLING",
+            "team_acronym": null
+          },
+          "result": "Dec 3-2",
+          "result_type": "decision",
+          "bout_number": 835,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "DAVID MURPHY",
+            "first_name": "DAVID",
+            "last_name": "MURPHY",
+            "team_full": "LITTLE CELTIC WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DANIEL LEONARD",
+            "first_name": "DANIEL",
+            "last_name": "LEONARD",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "result": "Dec 4-0",
+          "result_type": "decision",
+          "bout_number": 836,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "GERALD STARZYK",
+            "first_name": "GERALD",
+            "last_name": "STARZYK",
+            "team_full": "VITTUM CATS WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ROBBIE UNSELL",
+            "first_name": "ROBBIE",
+            "last_name": "UNSELL",
+            "team_full": "ROXANA WRESTLING",
+            "team_acronym": null
+          },
+          "result": "Dec Criteria 2OT",
+          "result_type": "decision",
+          "bout_number": 867,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "JORDAN KOLINSKI",
+            "first_name": "JORDAN",
+            "last_name": "KOLINSKI",
+            "team_full": "ROCKFORD WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "WILLIAM OSWALD",
+            "first_name": "WILLIAM",
+            "last_name": "OSWALD",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "MD 11-1",
+          "result_type": "major",
+          "bout_number": 868,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "CHUCKIE PATTEN",
+            "first_name": "CHUCKIE",
+            "last_name": "PATTEN",
+            "team_full": "CROSSFACE WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ROBBIE UNSELL",
+            "first_name": "ROBBIE",
+            "last_name": "UNSELL",
+            "team_full": "ROXANA WRESTLING",
+            "team_acronym": null
+          },
+          "result": "PD",
+          "result_type": "walkover",
+          "bout_number": 899,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "JORDAN KOLINSKI",
+            "first_name": "JORDAN",
+            "last_name": "KOLINSKI",
+            "team_full": "ROCKFORD WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DANIEL LEONARD",
+            "first_name": "DANIEL",
+            "last_name": "LEONARD",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "result": "TF 15-0",
+          "result_type": "tech",
+          "bout_number": 900,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "ROBBIE UNSELL",
+            "first_name": "ROBBIE",
+            "last_name": "UNSELL",
+            "team_full": "ROXANA WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DANIEL LEONARD",
+            "first_name": "DANIEL",
+            "last_name": "LEONARD",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "result": "Fall 1:45",
+          "result_type": "fall",
+          "bout_number": 932,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "CHUCKIE PATTEN",
+            "first_name": "CHUCKIE",
+            "last_name": "PATTEN",
+            "team_full": "CROSSFACE WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JORDAN KOLINSKI",
+            "first_name": "JORDAN",
+            "last_name": "KOLINSKI",
+            "team_full": "ROCKFORD WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "MD 10-0",
+          "result_type": "major",
+          "bout_number": 933,
+          "top_win": false
         },
         {
           "match_slot": "championship_first_place",
@@ -707,9 +1763,9 @@
             "team_full": "LITTLE CELTIC WRESTLING CLUB",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
+          "result": "Dec 3-0",
+          "result_type": "decision",
+          "bout_number": 934,
           "top_win": false
         }
       ]
@@ -734,6 +1790,27 @@
           "top_win": true
         },
         {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "MICHAEL ANELLO",
+            "first_name": "MICHAEL",
+            "last_name": "ANELLO",
+            "team_full": "ORLAND PARK PIONEERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DONALD SWAIM",
+            "first_name": "DONALD",
+            "last_name": "SWAIM",
+            "team_full": "WESTVILLE YOUTH WC",
+            "team_acronym": null
+          },
+          "result": "Fall 2:53",
+          "result_type": "fall",
+          "bout_number": 34,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_03",
           "top_competitor": {
             "full_name": "SHANE SAYLOR",
@@ -747,6 +1824,27 @@
           "result_type": "bye",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "TIMOTHY ADAMS",
+            "first_name": "TIMOTHY",
+            "last_name": "ADAMS",
+            "team_full": "WOLFPACK WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JACOB MURPHY",
+            "first_name": "JACOB",
+            "last_name": "MURPHY",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "MD 14-5",
+          "result_type": "major",
+          "bout_number": 35,
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_05",
@@ -764,6 +1862,27 @@
           "top_win": true
         },
         {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "JOSH PULLEN",
+            "first_name": "JOSH",
+            "last_name": "PULLEN",
+            "team_full": "MT. ZION WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CHRIS WEISSGERBER",
+            "first_name": "CHRIS",
+            "last_name": "WEISSGERBER",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "result": "Dec 4-3",
+          "result_type": "decision",
+          "bout_number": 38,
+          "top_win": false
+        },
+        {
           "match_slot": "championship_r32_07",
           "top_competitor": {
             "full_name": "PHIL GARBIS",
@@ -776,6 +1895,27 @@
           "result": "Bye",
           "result_type": "bye",
           "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "JONATHAN WOLF",
+            "first_name": "JONATHAN",
+            "last_name": "WOLF",
+            "team_full": "MUSTANG WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MARCUS WHITE",
+            "first_name": "MARCUS",
+            "last_name": "WHITE",
+            "team_full": "LITTLE CELTIC WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "MD 14-4",
+          "result_type": "major",
+          "bout_number": 39,
           "top_win": true
         },
         {
@@ -794,6 +1934,27 @@
           "top_win": true
         },
         {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "BRYAN ANDERSON",
+            "first_name": "BRYAN",
+            "last_name": "ANDERSON",
+            "team_full": "OSWEGO COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "TERRY HOLCOMB JR.",
+            "first_name": "TERRY",
+            "last_name": "HOLCOMB",
+            "team_full": "MIDWEST CENTRAL YOUTH",
+            "team_acronym": null
+          },
+          "result": "Dec 5-3",
+          "result_type": "decision",
+          "bout_number": 42,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_11",
           "top_competitor": {
             "full_name": "DAVID FEAR",
@@ -809,6 +1970,27 @@
           "top_win": true
         },
         {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "BRETT KNOLHOFF",
+            "first_name": "BRETT",
+            "last_name": "KNOLHOFF",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "OSCAR MARTINEZ",
+            "first_name": "OSCAR",
+            "last_name": "MARTINEZ",
+            "team_full": "BELVIDERE BANDITS",
+            "team_acronym": null
+          },
+          "result": "Dec 5-3",
+          "result_type": "decision",
+          "bout_number": 43,
+          "top_win": false
+        },
+        {
           "match_slot": "championship_r32_13",
           "top_competitor": {
             "full_name": "ROBERT ZEITS",
@@ -821,6 +2003,27 @@
           "result": "Bye",
           "result_type": "bye",
           "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "BRAD DARGAN",
+            "first_name": "BRAD",
+            "last_name": "DARGAN",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOE KOVAR",
+            "first_name": "JOE",
+            "last_name": "KOVAR",
+            "team_full": "VILLA PARK YOUNG WARRIORS",
+            "team_acronym": null
+          },
+          "result": "MD 16-3",
+          "result_type": "major",
+          "bout_number": 46,
           "top_win": true
         },
         {
@@ -839,33 +2042,48 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_02",
+          "match_slot": "championship_r32_16",
           "top_competitor": {
+            "full_name": "VINCE LIND",
+            "first_name": "VINCE",
+            "last_name": "LIND",
+            "team_full": "JORDAN/SETON WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 47,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_01",
+          "top_competitor": {
+            "full_name": "NATHAN BRITT",
+            "first_name": "NATHAN",
+            "last_name": "BRITT",
+            "team_full": "STERLING NEWMAN JR.",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
             "full_name": "MICHAEL ANELLO",
             "first_name": "MICHAEL",
             "last_name": "ANELLO",
             "team_full": "ORLAND PARK PIONEERS",
             "team_acronym": null
           },
-          "bottom_competitor": {
-            "full_name": "DONALD SWAIM",
-            "first_name": "DONALD",
-            "last_name": "SWAIM",
-            "team_full": "WESTVILLE YOUTH WC",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 1,
-          "top_win": null
+          "result": "TF 15-0",
+          "result_type": "tech",
+          "bout_number": 273,
+          "top_win": true
         },
         {
-          "match_slot": "championship_r32_04",
+          "match_slot": "championship_r16_02",
           "top_competitor": {
-            "full_name": "TIMOTHY ADAMS",
-            "first_name": "TIMOTHY",
-            "last_name": "ADAMS",
-            "team_full": "WOLFPACK WRESTLING CLUB",
+            "full_name": "SHANE SAYLOR",
+            "first_name": "SHANE",
+            "last_name": "SAYLOR",
+            "team_full": "EAST ALTON RAMS",
             "team_acronym": null
           },
           "bottom_competitor": {
@@ -875,18 +2093,18 @@
             "team_full": "TINLEY PARK BULLDOGS",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 2,
-          "top_win": null
+          "result": "Dec 4-0",
+          "result_type": "decision",
+          "bout_number": 274,
+          "top_win": true
         },
         {
-          "match_slot": "championship_r32_06",
+          "match_slot": "championship_r16_03",
           "top_competitor": {
-            "full_name": "JOSH PULLEN",
-            "first_name": "JOSH",
-            "last_name": "PULLEN",
-            "team_full": "MT. ZION WRESTLING CLUB",
+            "full_name": "NICK MARINARO",
+            "first_name": "NICK",
+            "last_name": "MARINARO",
+            "team_full": "HARLEM COUGARS",
             "team_acronym": null
           },
           "bottom_competitor": {
@@ -896,60 +2114,60 @@
             "team_full": "VILLA-LOMBARD COUGARS",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 3,
-          "top_win": null
+          "result": "Dec 7-1",
+          "result_type": "decision",
+          "bout_number": 275,
+          "top_win": true
         },
         {
-          "match_slot": "championship_r32_08",
+          "match_slot": "championship_r16_04",
           "top_competitor": {
+            "full_name": "PHIL GARBIS",
+            "first_name": "PHIL",
+            "last_name": "GARBIS",
+            "team_full": "FOX VALLEY WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
             "full_name": "JONATHAN WOLF",
             "first_name": "JONATHAN",
             "last_name": "WOLF",
             "team_full": "MUSTANG WRESTLING CLUB",
             "team_acronym": null
           },
-          "bottom_competitor": {
-            "full_name": "MARCUS WHITE",
-            "first_name": "MARCUS",
-            "last_name": "WHITE",
-            "team_full": "LITTLE CELTIC WRESTLING CLUB",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 4,
-          "top_win": null
+          "result": "Dec 7-6",
+          "result_type": "decision",
+          "bout_number": 276,
+          "top_win": false
         },
         {
-          "match_slot": "championship_r32_10",
+          "match_slot": "championship_r16_05",
           "top_competitor": {
+            "full_name": "DANIEL MANZELLA",
+            "first_name": "DANIEL",
+            "last_name": "MANZELLA",
+            "team_full": "VITTUM CATS WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
             "full_name": "BRYAN ANDERSON",
             "first_name": "BRYAN",
             "last_name": "ANDERSON",
             "team_full": "OSWEGO COUGARS",
             "team_acronym": null
           },
-          "bottom_competitor": {
-            "full_name": "TERRY HOLCOMB JR.",
-            "first_name": "TERRY",
-            "last_name": "HOLCOMB",
-            "team_full": "MIDWEST CENTRAL YOUTH",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 5,
-          "top_win": null
+          "result": "MD 18-4",
+          "result_type": "major",
+          "bout_number": 277,
+          "top_win": true
         },
         {
-          "match_slot": "championship_r32_12",
+          "match_slot": "championship_r16_06",
           "top_competitor": {
-            "full_name": "BRETT KNOLHOFF",
-            "first_name": "BRETT",
-            "last_name": "KNOLHOFF",
-            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "full_name": "DAVID FEAR",
+            "first_name": "DAVID",
+            "last_name": "FEAR",
+            "team_full": "BRADLEY-BOURBONNAIS",
             "team_acronym": null
           },
           "bottom_competitor": {
@@ -959,60 +2177,60 @@
             "team_full": "BELVIDERE BANDITS",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 6,
-          "top_win": null
+          "result": "Dec 3-0",
+          "result_type": "decision",
+          "bout_number": 278,
+          "top_win": true
         },
         {
-          "match_slot": "championship_r32_14",
+          "match_slot": "championship_r16_07",
           "top_competitor": {
+            "full_name": "ROBERT ZEITS",
+            "first_name": "ROBERT",
+            "last_name": "ZEITS",
+            "team_full": "DECATUR WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
             "full_name": "BRAD DARGAN",
             "first_name": "BRAD",
             "last_name": "DARGAN",
             "team_full": "CRYSTAL LAKE WIZARDS",
             "team_acronym": null
           },
-          "bottom_competitor": {
-            "full_name": "JOE KOVAR",
-            "first_name": "JOE",
-            "last_name": "KOVAR",
-            "team_full": "VILLA PARK YOUNG WARRIORS",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 7,
-          "top_win": null
+          "result": "Dec 4-2 OT",
+          "result_type": "decision",
+          "bout_number": 279,
+          "top_win": false
         },
         {
-          "match_slot": "championship_r32_16",
+          "match_slot": "championship_r16_08",
           "top_competitor": {
+            "full_name": "BRAD MEDCHILL",
+            "first_name": "BRAD",
+            "last_name": "MEDCHILL",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
             "full_name": "VINCE LIND",
             "first_name": "VINCE",
             "last_name": "LIND",
             "team_full": "JORDAN/SETON WRESTLING",
             "team_acronym": null
           },
-          "bottom_competitor": {
-            "full_name": "SCOTT BUECHLER",
-            "first_name": "SCOTT",
-            "last_name": "BUECHLER",
-            "team_full": "METRO STALLIONS",
-            "team_acronym": null
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 8,
-          "top_win": null
+          "result": "TF 16-0",
+          "result_type": "tech",
+          "bout_number": 280,
+          "top_win": true
         },
         {
-          "match_slot": "consolation_third_place",
+          "match_slot": "championship_quarter_01",
           "top_competitor": {
-            "full_name": "BRAD MEDCHILL",
-            "first_name": "BRAD",
-            "last_name": "MEDCHILL",
-            "team_full": "VILLA-LOMBARD COUGARS",
+            "full_name": "NATHAN BRITT",
+            "first_name": "NATHAN",
+            "last_name": "BRITT",
+            "team_full": "STERLING NEWMAN JR.",
             "team_acronym": null
           },
           "bottom_competitor": {
@@ -1022,18 +2240,18 @@
             "team_full": "EAST ALTON RAMS",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
+          "result": "Dec 4-3",
+          "result_type": "decision",
+          "bout_number": 649,
+          "top_win": false
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_quarter_02",
           "top_competitor": {
-            "full_name": "BRAD DARGAN",
-            "first_name": "BRAD",
-            "last_name": "DARGAN",
-            "team_full": "CRYSTAL LAKE WIZARDS",
+            "full_name": "NICK MARINARO",
+            "first_name": "NICK",
+            "last_name": "MARINARO",
+            "team_full": "HARLEM COUGARS",
             "team_acronym": null
           },
           "bottom_competitor": {
@@ -1043,10 +2261,364 @@
             "team_full": "MUSTANG WRESTLING CLUB",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
+          "result": "Dec 7-3",
+          "result_type": "decision",
+          "bout_number": 650,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "DANIEL MANZELLA",
+            "first_name": "DANIEL",
+            "last_name": "MANZELLA",
+            "team_full": "VITTUM CATS WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DAVID FEAR",
+            "first_name": "DAVID",
+            "last_name": "FEAR",
+            "team_full": "BRADLEY-BOURBONNAIS",
+            "team_acronym": null
+          },
+          "result": "Fall 1:59",
+          "result_type": "fall",
+          "bout_number": 651,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "BRAD DARGAN",
+            "first_name": "BRAD",
+            "last_name": "DARGAN",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRAD MEDCHILL",
+            "first_name": "BRAD",
+            "last_name": "MEDCHILL",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "result": "MD 12-0",
+          "result_type": "major",
+          "bout_number": 652,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_01",
+          "top_competitor": null,
+          "bottom_competitor": {
+            "full_name": "JACOB MURPHY",
+            "first_name": "JACOB",
+            "last_name": "MURPHY",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 713,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_02",
+          "top_competitor": {
+            "full_name": "CHRIS WEISSGERBER",
+            "first_name": "CHRIS",
+            "last_name": "WEISSGERBER",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 714,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round3_03",
+          "top_competitor": null,
+          "bottom_competitor": {
+            "full_name": "BRYAN ANDERSON",
+            "first_name": "BRYAN",
+            "last_name": "ANDERSON",
+            "team_full": "OSWEGO COUGARS",
+            "team_acronym": null
+          },
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 715,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_04",
+          "top_competitor": {
+            "full_name": "VINCE LIND",
+            "first_name": "VINCE",
+            "last_name": "LIND",
+            "team_full": "JORDAN/SETON WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 716,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_01",
+          "top_competitor": {
+            "full_name": "NATHAN BRITT",
+            "first_name": "NATHAN",
+            "last_name": "BRITT",
+            "team_full": "STERLING NEWMAN JR.",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JACOB MURPHY",
+            "first_name": "JACOB",
+            "last_name": "MURPHY",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "Fall 1:35",
+          "result_type": "fall",
+          "bout_number": 777,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round4_blood_02",
+          "top_competitor": {
+            "full_name": "CHRIS WEISSGERBER",
+            "first_name": "CHRIS",
+            "last_name": "WEISSGERBER",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JONATHAN WOLF",
+            "first_name": "JONATHAN",
+            "last_name": "WOLF",
+            "team_full": "MUSTANG WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "MD 11-3",
+          "result_type": "major",
+          "bout_number": 778,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round4_blood_03",
+          "top_competitor": {
+            "full_name": "DAVID FEAR",
+            "first_name": "DAVID",
+            "last_name": "FEAR",
+            "team_full": "BRADLEY-BOURBONNAIS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRYAN ANDERSON",
+            "first_name": "BRYAN",
+            "last_name": "ANDERSON",
+            "team_full": "OSWEGO COUGARS",
+            "team_acronym": null
+          },
+          "result": "Dec 5-1",
+          "result_type": "decision",
+          "bout_number": 779,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_04",
+          "top_competitor": {
+            "full_name": "VINCE LIND",
+            "first_name": "VINCE",
+            "last_name": "LIND",
+            "team_full": "JORDAN/SETON WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRAD DARGAN",
+            "first_name": "BRAD",
+            "last_name": "DARGAN",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "result": "Dec 10-6",
+          "result_type": "decision",
+          "bout_number": 780,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "SHANE SAYLOR",
+            "first_name": "SHANE",
+            "last_name": "SAYLOR",
+            "team_full": "EAST ALTON RAMS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "NICK MARINARO",
+            "first_name": "NICK",
+            "last_name": "MARINARO",
+            "team_full": "HARLEM COUGARS",
+            "team_acronym": null
+          },
+          "result": "Dec 6-1",
+          "result_type": "decision",
+          "bout_number": 837,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "DANIEL MANZELLA",
+            "first_name": "DANIEL",
+            "last_name": "MANZELLA",
+            "team_full": "VITTUM CATS WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRAD MEDCHILL",
+            "first_name": "BRAD",
+            "last_name": "MEDCHILL",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "result": "MD 12-2",
+          "result_type": "major",
+          "bout_number": 838,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "JACOB MURPHY",
+            "first_name": "JACOB",
+            "last_name": "MURPHY",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JONATHAN WOLF",
+            "first_name": "JONATHAN",
+            "last_name": "WOLF",
+            "team_full": "MUSTANG WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "Dec 5-4",
+          "result_type": "decision",
+          "bout_number": 869,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "DAVID FEAR",
+            "first_name": "DAVID",
+            "last_name": "FEAR",
+            "team_full": "BRADLEY-BOURBONNAIS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRAD DARGAN",
+            "first_name": "BRAD",
+            "last_name": "DARGAN",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "result": "Dec 8-6",
+          "result_type": "decision",
+          "bout_number": 870,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "SHANE SAYLOR",
+            "first_name": "SHANE",
+            "last_name": "SAYLOR",
+            "team_full": "EAST ALTON RAMS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JONATHAN WOLF",
+            "first_name": "JONATHAN",
+            "last_name": "WOLF",
+            "team_full": "MUSTANG WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "Dec 6-3",
+          "result_type": "decision",
+          "bout_number": 901,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "BRAD DARGAN",
+            "first_name": "BRAD",
+            "last_name": "DARGAN",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRAD MEDCHILL",
+            "first_name": "BRAD",
+            "last_name": "MEDCHILL",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "result": "PD",
+          "result_type": "walkover",
+          "bout_number": 902,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "JONATHAN WOLF",
+            "first_name": "JONATHAN",
+            "last_name": "WOLF",
+            "team_full": "MUSTANG WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRAD DARGAN",
+            "first_name": "BRAD",
+            "last_name": "DARGAN",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "result": "Dec 9-4",
+          "result_type": "decision",
+          "bout_number": 935,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "SHANE SAYLOR",
+            "first_name": "SHANE",
+            "last_name": "SAYLOR",
+            "team_full": "EAST ALTON RAMS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRAD MEDCHILL",
+            "first_name": "BRAD",
+            "last_name": "MEDCHILL",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "result": "Dec 6-2",
+          "result_type": "decision",
+          "bout_number": 936,
+          "top_win": false
         },
         {
           "match_slot": "championship_first_place",
@@ -1064,9 +2636,9 @@
             "team_full": "VITTUM CATS WRESTLING CLUB",
             "team_acronym": null
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
+          "result": "MD 10-1",
+          "result_type": "major",
+          "bout_number": 937,
           "top_win": false
         }
       ]

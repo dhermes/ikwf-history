@@ -1,5 +1,5 @@
 {
-  "description": "Novice 70 (1999)",
+  "description": "Novice 70 (1998)",
   "wrestlerChoices": [
     {
       "id": 0,
@@ -116,11 +116,7 @@
       "name": "VINCE LIND",
       "team": "JORDAN/SETON WRESTLING"
     },
-    {
-      "id": 23,
-      "name": "BYE",
-      "team": "BYE"
-    }
+    null
   ],
   "matches": {
     "1": {
@@ -370,14 +366,12 @@
         ]
       },
       "bottom": {
-        "choice": 23,
-        "choices": [
-          23
-        ]
+        "choice": null,
+        "choices": []
       },
       "winner": "top",
       "boutNumber": 47,
-      "result": "{Bye}"
+      "result": "Bye"
     },
     "17": {
       "top": {
@@ -890,7 +884,7 @@
           21
         ]
       },
-      "winner": null,
+      "winner": "bottom",
       "boutNumber": 937,
       "result": "MD 10-1"
     },
