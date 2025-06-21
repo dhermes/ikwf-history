@@ -3,6 +3,7 @@
 import pathlib
 
 import bracket_utils
+import manual_entry
 
 HERE = pathlib.Path(__file__).resolve().parent
 _NOVICE_TEAM_REPLACE: dict[str, str] = {}
@@ -266,32 +267,6 @@ _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
         "TYLER WILLIAMS :: VILLA-LOMBARD COUGARS :: 5",
         "DANIEL MAROLIS :: WHEATON MONROE EAGLES",
         "NICK THACKER :: CHILLI DAWGS WRESTLING",
-    ],
-    115: [
-        "JONATHON WYATT :: WESTVILLE YOUTH WC",
-        "JEFF FOSTER :: VILLA-LOMBARD COUGARS",
-        "RYAN MARKELZ :: PLAINFIELD WOLVES WC",
-        "JOSH ALONZO :: WOODSTOCK PANTHERS :: 2",
-        "SEAN MCGINNIS :: ST. BARNABAS SHARKS :: 6",
-        "JEROD ROBINSON :: JR. MAROON'S WRESTLING",
-        "JOEY BENEFIEL :: FOX VALLEY WC :: 4",
-        "MIKE JOHNSON :: EDWARDSVILLE WRESTLING",
-        "JEFF BROWN :: LAKEVIEW MITEY CATS",
-        "BILLY PYSZKA :: LASALLE PERU CRUNCHING CAVS",
-        "RICHIE GRAVELINE :: BRADLEY-BOURBONNAIS",
-        "TOM MULCRONE :: ST. BARNABAS SHARKS",
-        "BUTCH FARMER :: MT. VERNON LIONS WRESTLING",
-        "CLAYTON MCKNIGHT :: LASALLE PERU CRUNCHING CAVS",
-        "DANNY BAZIGOS :: BRONCO WRESTLING CLUB",
-        "JASON RINGO :: BEARS WRESTLING CLUB :: 3",
-        "DAVID CROCKER :: POLO WRESTLING CLUB :: 5",
-        "BRAD WAKEFIELD :: SJO YOUTH WRESTLING",
-        "MICHAEL STEPHENS :: ORLAND PARK PIONEERS :: 1",
-        "JAY GOODFREIND :: HUSKIES WRESTLING CLUB",
-        "JEREMY HOLMBECK :: HARVARD WRESTLING CLUB",
-        "CHRISTOPHER MILEWSKI :: MAINE EAGLES WRESTLING",
-        "LUKE BAILEY :: MONTICELLO KIDS WC",
-        "ZACH ISENBERGER :: RIVERDALE JR. HIGH WC",
     ],
     122: [
         "JUSTIN OCHOA :: BATAVIA PINNERS WC :: 5",
@@ -992,7 +967,10 @@ def main():
             bracket_utils.TeamScore(team=team_name, acronym=None, score=score)
         )
 
-    weight_classes: list[bracket_utils.WeightClass] = []
+    weight_classes = manual_entry.load_manual_entries(
+        HERE.parent, 1998, _NAME_EXCEPTIONS
+    )
+
     for weight, competitors in _NOVICE_COMPETITORS.items():
         weight_class = bracket_utils.weight_class_from_competitors(
             "novice", weight, competitors, _NOVICE_TEAM_REPLACE, _NAME_EXCEPTIONS
