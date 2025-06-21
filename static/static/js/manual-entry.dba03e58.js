@@ -497,6 +497,65 @@ const DISABLE_BY_EXTRA = Object.freeze({
   53: { top: [52], bottom: [52] },
   54: { top: [49], bottom: [50] },
 });
+const RELATED_MATCH_IDS = Object.freeze([
+  [17, 24],
+  [33, 36],
+  [37, 40],
+  [41, 44],
+  [45, 46],
+  [47, 48],
+  [49, 50],
+]);
+const LISTENER_REGISTERED = {
+  openMatchOverlay: false,
+};
+const OVERLAY_NEXT_MATCH = Object.freeze({
+  2: 4,
+  4: 6,
+  6: 8,
+  8: 10,
+  10: 12,
+  12: 14,
+  14: 16,
+  16: 17,
+  //
+  17: 18,
+  18: 19,
+  19: 20,
+  20: 21,
+  21: 22,
+  22: 23,
+  23: 24,
+  24: 33,
+  //
+  33: 34,
+  34: 35,
+  35: 36,
+  36: 45,
+  //
+  45: 46,
+  46: 54,
+  //
+  54: 37,
+  //
+  37: 38,
+  38: 39,
+  39: 40,
+  40: 41,
+  //
+  41: 42,
+  42: 43,
+  43: 44,
+  44: 47,
+  //
+  47: 48,
+  48: 49,
+  //
+  49: 50,
+  50: 53,
+  //
+  53: 52,
+});
 
 function numericalSort(a, b) {
   return a - b;
@@ -1063,9 +1122,49 @@ function handleParticipantInputChange(bracketInfo, event) {
   }
 }
 
+function getMatchInfoDiv(matchID) {
+  const selector = `.match[data-match-id="${matchID}"] .match-info`;
+  return document.querySelector(selector);
+}
+
+function openMatchOverlayEventListener(e) {
+  if (e.key === "Enter") {
+    e.preventDefault();
+    saveMatchOverlay();
+  }
+
+  if (e.key === "Tab") {
+    e.preventDefault();
+    saveMatchOverlay();
+
+    const matchResultInput = e.currentTarget;
+    const matchID = Number(matchResultInput.dataset.matchId);
+
+    const nextMatchID = OVERLAY_NEXT_MATCH[matchID];
+    if (nextMatchID === undefined) {
+      return;
+    }
+
+    const matchInfoDiv = getMatchInfoDiv(nextMatchID);
+    if (matchInfoDiv === null) {
+      return;
+    }
+
+    openMatchOverlay(matchInfoDiv);
+  }
+}
+
 function openMatchOverlay(matchInfoDiv) {
+  const matchResultInput = document.getElementById("edit-match-result");
   const matchDiv = matchInfoDiv.parentElement.parentElement;
   const matchID = Number(matchDiv.dataset.matchId);
+  matchResultInput.dataset.matchId = matchID;
+
+  if (!LISTENER_REGISTERED.openMatchOverlay) {
+    matchResultInput.addEventListener("keydown", openMatchOverlayEventListener);
+    LISTENER_REGISTERED.openMatchOverlay = true;
+  }
+
   const match = BRACKET_INFO.matches[matchID];
 
   EDIT_MATCH_INFO_CURRENT.matchID = matchID;
@@ -1074,9 +1173,40 @@ function openMatchOverlay(matchInfoDiv) {
   } else {
     document.getElementById("edit-bout-number").value = `${match.boutNumber}`;
   }
-  document.getElementById("edit-match-result").value = match.result;
+  matchResultInput.value = match.result;
 
   document.getElementById("edit-match-info-overlay").classList.remove("hidden");
+}
+
+function propagateBoutNumberEdit(matchID, boutNumber) {
+  if (matchID === 2) {
+    BRACKET_INFO.matches[4].boutNumber = boutNumber + 1;
+    BRACKET_INFO.matches[6].boutNumber = boutNumber + 4;
+    BRACKET_INFO.matches[8].boutNumber = boutNumber + 5;
+    BRACKET_INFO.matches[10].boutNumber = boutNumber + 8;
+    BRACKET_INFO.matches[12].boutNumber = boutNumber + 9;
+    BRACKET_INFO.matches[14].boutNumber = boutNumber + 12;
+    BRACKET_INFO.matches[16].boutNumber = boutNumber + 13;
+    return;
+  }
+
+  const offset = boutNumber - matchID;
+  for (const bound of RELATED_MATCH_IDS) {
+    const [lower, upper] = bound;
+    if (lower <= matchID && matchID <= upper) {
+      for (
+        let relatedMatchID = lower;
+        relatedMatchID <= upper;
+        relatedMatchID++
+      ) {
+        const match = BRACKET_INFO.matches[relatedMatchID];
+        const relatedBoutNumber = offset + relatedMatchID;
+        match.boutNumber = relatedBoutNumber;
+      }
+
+      return;
+    }
+  }
 }
 
 function saveMatchOverlay() {
@@ -1088,6 +1218,7 @@ function saveMatchOverlay() {
     match.boutNumber = null;
   } else {
     match.boutNumber = Number(boutNumberStr);
+    propagateBoutNumberEdit(matchID, match.boutNumber);
   }
   const result = document.getElementById("edit-match-result").value;
   match.result = result;
