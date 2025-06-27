@@ -1248,6 +1248,7 @@ def weight_class_from_competitors(
         )
 
     if placers.keys() != {1, 2, 3, 4, 5, 6}:
+        breakpoint()
         raise ValueError("Missing placers", placers.keys())
 
     matches.extend(
