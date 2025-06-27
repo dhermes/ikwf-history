@@ -1038,19 +1038,98 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         team_acronym=None,
     ),
 }
+_BOUT_NUMBER_INPUTS: dict[tuple[bracket_utils.Division, int], tuple[int, int]] = {
+    ("novice", 62): (1, 577),
+    ("novice", 66): (9, 578),
+    ("novice", 70): (17, 579),
+    ("novice", 74): (25, 580),
+    ("novice", 79): (33, 581),
+    ("novice", 84): (41, 582),
+    ("novice", 89): (49, 583),
+    ("novice", 95): (57, 584),
+    ("novice", 101): (65, 585),
+    ("novice", 108): (73, 586),
+    ("novice", 115): (81, 587),
+    ("novice", 122): (89, 588),
+    ("novice", 130): (97, 589),
+    ("novice", 147): (105, 590),
+    ("novice", 166): (113, 591),
+    ("novice", 215): (121, 592),
+    ("senior", 70): (8, 649),
+    ("senior", 74): (9, 650),
+    ("senior", 79): (17, 651),
+    ("senior", 84): (25, 652),
+    ("senior", 89): (33, 653),
+    ("senior", 95): (41, 654),
+    ("senior", 101): (49, 655),
+    ("senior", 108): (57, 656),
+    ("senior", 115): (65, 657),
+    ("senior", 122): (73, 658),
+    ("senior", 130): (81, 659),
+    ("senior", 138): (89, 660),
+    ("senior", 147): (97, 661),
+    ("senior", 156): (105, 662),
+    ("senior", 166): (113, 663),
+    ("senior", 177): (121, 664),
+    ("senior", 189): (129, 665),
+    ("senior", 275): (137, 666),
+}
+
+
+def _get_bout_numbers(
+    division: bracket_utils.Division, weight: int
+) -> dict[bracket_utils.MatchSlot, int]:
+    key = (division, weight)
+    entry = _BOUT_NUMBER_INPUTS.get(key)
+    if entry is None:
+        return {}
+
+    first_pigtail, first_place = entry
+    if division == "novice":
+        weight_count = 16
+    elif division == "senior":
+        weight_count = 18
+    else:
+        raise NotImplementedError(division)
+
+    return {
+        "championship_r32_02": first_pigtail,
+        "championship_r32_04": first_pigtail + 1,
+        "championship_r32_06": first_pigtail + 2,
+        "championship_r32_08": first_pigtail + 3,
+        "championship_r32_10": first_pigtail + 4,
+        "championship_r32_12": first_pigtail + 5,
+        "championship_r32_14": first_pigtail + 6,
+        "championship_r32_16": first_pigtail + 7,
+        "consolation_fifth_place": first_place - 2 * weight_count,
+        "consolation_third_place": first_place - weight_count,
+        "championship_first_place": first_place,
+    }
 
 
 def main():
     weight_classes: list[bracket_utils.WeightClass] = []
     for weight, competitors in _NOVICE_COMPETITORS.items():
+        bout_numbers = _get_bout_numbers("novice", weight)
         weight_class = bracket_utils.weight_class_from_competitors(
-            "novice", weight, competitors, _NOVICE_TEAM_REPLACE, _NAME_EXCEPTIONS
+            "novice",
+            weight,
+            competitors,
+            _NOVICE_TEAM_REPLACE,
+            _NAME_EXCEPTIONS,
+            bout_numbers=bout_numbers,
         )
         weight_classes.append(weight_class)
 
     for weight, competitors in _SENIOR_COMPETITORS.items():
+        bout_numbers = _get_bout_numbers("senior", weight)
         weight_class = bracket_utils.weight_class_from_competitors(
-            "senior", weight, competitors, _SENIOR_TEAM_REPLACE, _NAME_EXCEPTIONS
+            "senior",
+            weight,
+            competitors,
+            _SENIOR_TEAM_REPLACE,
+            _NAME_EXCEPTIONS,
+            bout_numbers=bout_numbers,
         )
         weight_classes.append(weight_class)
 

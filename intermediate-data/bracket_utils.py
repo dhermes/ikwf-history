@@ -1168,9 +1168,13 @@ def weight_class_from_competitors(
     competitors: list[str | None],
     team_replace: dict[str, str],
     name_exceptions: dict[tuple[str, str], Competitor],
+    bout_numbers: dict[MatchSlot, int] | None = None,
 ) -> WeightClass:
     if len(competitors) != 24:
         raise NotImplementedError("Unsupported bracket size", weight, len(competitors))
+
+    if bout_numbers is None:
+        bout_numbers = {}
 
     champion_position: BracketPosition = "top"
     placers: dict[int, Competitor] = {}
@@ -1201,7 +1205,7 @@ def weight_class_from_competitors(
                 bottom_competitor=None,
                 result="Bye",
                 result_type="bye",
-                bout_number=None,
+                bout_number=bout_numbers.get(match_slot),
                 top_win=True,
             )
         )
@@ -1242,7 +1246,7 @@ def weight_class_from_competitors(
                 bottom_competitor=competitor2,
                 result="",
                 result_type="unknown",
-                bout_number=i + 1,
+                bout_number=bout_numbers.get(match_slot, i + 1),
                 top_win=None,
             )
         )
@@ -1259,7 +1263,7 @@ def weight_class_from_competitors(
                 bottom_competitor=placers[4],
                 result="",
                 result_type="unknown",
-                bout_number=None,
+                bout_number=bout_numbers.get("consolation_third_place"),
                 top_win=True,
             ),
             Match(
@@ -1268,7 +1272,7 @@ def weight_class_from_competitors(
                 bottom_competitor=placers[6],
                 result="",
                 result_type="unknown",
-                bout_number=None,
+                bout_number=bout_numbers.get("consolation_fifth_place"),
                 top_win=True,
             ),
         ]
@@ -1288,7 +1292,7 @@ def weight_class_from_competitors(
             bottom_competitor=bottom_competitor,
             result="",
             result_type="unknown",
-            bout_number=None,
+            bout_number=bout_numbers.get("championship_first_place"),
             top_win=top_win,
         )
     )
