@@ -1679,12 +1679,12 @@
       {
         "tournament_id": 26,
         "division": "senior",
-        "name": "Tomcats"
+        "name": "TOMCAT WRESTLING CLUB"
       },
       {
         "tournament_id": 27,
         "division": "senior",
-        "name": "Tomcat"
+        "name": "TOMCAT WRESTLING CLUB"
       },
       {
         "tournament_id": 32,
@@ -2402,22 +2402,17 @@
       {
         "tournament_id": 26,
         "division": "novice",
-        "name": "BELLEVILLE"
+        "name": "BELLEVILLE LITTLE DEVILS"
       },
       {
         "tournament_id": 27,
         "division": "novice",
-        "name": " BELLEVILLE"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "BELLEVILLE"
+        "name": "BELLEVILLE LITTLE DEVILS"
       },
       {
         "tournament_id": 27,
         "division": "senior",
-        "name": "Belleville Devils"
+        "name": "BELLEVILLE LITTLE DEVILS"
       },
       {
         "tournament_id": 29,
@@ -2773,7 +2768,7 @@
       {
         "tournament_id": 27,
         "division": "senior",
-        "name": "Belvidere Bandits"
+        "name": "BELVIDERE BANDITS"
       },
       {
         "tournament_id": 29,
@@ -3862,7 +3857,7 @@
       {
         "tournament_id": 26,
         "division": "novice",
-        "name": "BLACKHAWK"
+        "name": "BLACKHAWK WRESTLING CLUB"
       },
       {
         "tournament_id": 32,
@@ -4354,7 +4349,7 @@
       {
         "tournament_id": 26,
         "division": "senior",
-        "name": "Pekin Boys Club"
+        "name": "PEKIN BOYS CLUB"
       },
       {
         "tournament_id": 30,
@@ -4660,7 +4655,7 @@
       {
         "tournament_id": 27,
         "division": "senior",
-        "name": "Bradly Bourb."
+        "name": "BRADLEY-BOURBONNAIS"
       },
       {
         "tournament_id": 29,
@@ -7881,7 +7876,7 @@
       {
         "tournament_id": 27,
         "division": "novice",
-        "name": "DAKOTA"
+        "name": "DAKOTA WRESTLING CLUB"
       },
       {
         "tournament_id": 29,
@@ -9091,17 +9086,17 @@
       {
         "tournament_id": 26,
         "division": "novice",
-        "name": "HARVEY TWISTERS"
+        "name": "HARVEY PARK DISTRICT TWISTERS"
       },
       {
         "tournament_id": 27,
         "division": "novice",
-        "name": "HARVEY TWISTERS"
+        "name": "HARVEY PARK DISTRICT"
       },
       {
         "tournament_id": 27,
         "division": "senior",
-        "name": "Harvey Twisters"
+        "name": "HARVEY PARK DISTRICT"
       },
       {
         "tournament_id": 32,
@@ -10865,7 +10860,7 @@
       {
         "tournament_id": 26,
         "division": "senior",
-        "name": "Yorkville WC"
+        "name": "YORKVILLE WRESTLING CLUB"
       },
       {
         "tournament_id": 29,
@@ -11368,22 +11363,6 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Zero Fox Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "???",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "???"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "???"
       }
     ]
   },
@@ -18867,27 +18846,6 @@
         "name": "Dolton Park"
       },
       {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "DOLTON PARK"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "DOLTON PARK"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "DOLTON PARK"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Dolton Park Falcons",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 19,
         "division": "senior",
         "name": "Dolton Park Falcons"
@@ -18908,9 +18866,19 @@
         "name": "DOLTON PARK FALCONS"
       },
       {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "DOLTON PARK"
+      },
+      {
         "tournament_id": 26,
-        "division": "senior",
-        "name": "Dolton Park Falcons"
+        "division": "novice",
+        "name": "DOLTON PARK FALCONS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "DOLTON PARK FALCONS"
       }
     ]
   },
@@ -20239,12 +20207,12 @@
       {
         "tournament_id": 26,
         "division": "novice",
-        "name": "EAST MOLINE"
+        "name": "EAST MOLINE PANTHER"
       },
       {
         "tournament_id": 27,
         "division": "senior",
-        "name": "East Moline"
+        "name": "EAST MOLINE WRESTLING CLUB"
       }
     ]
   },
@@ -26206,7 +26174,7 @@
       {
         "tournament_id": 27,
         "division": "senior",
-        "name": "Granite City"
+        "name": "GRANITE CITY WRESTLING CLUB"
       }
     ]
   },
@@ -26925,22 +26893,6 @@
     ]
   },
   {
-    "name_normalized": "Harlem",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 3,
-        "division": "senior",
-        "name": "Harlem"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "HARLEM"
-      }
-    ]
-  },
-  {
     "name_normalized": "Harlem Cougar WC",
     "url_path_slug": null,
     "duplicates": [
@@ -27008,7 +26960,7 @@
       {
         "tournament_id": 26,
         "division": "senior",
-        "name": "Harlem Cougars"
+        "name": "HARLEM COUGARS WC"
       },
       {
         "tournament_id": 29,
@@ -31607,7 +31559,7 @@
       {
         "tournament_id": 26,
         "division": "novice",
-        "name": "JOLIET BOYS CLUB"
+        "name": "JOLIET BOYS CLUB COBRAS"
       }
     ]
   },
@@ -32048,7 +32000,7 @@
       {
         "tournament_id": 26,
         "division": "senior",
-        "name": "Jr. Rocket WC"
+        "name": "JR. ROCKET WRESTLING CLUB"
       },
       {
         "tournament_id": 29,
@@ -32235,7 +32187,7 @@
       {
         "tournament_id": 26,
         "division": "senior",
-        "name": "Junior Cougar WC"
+        "name": "JUNIOR COUGAR WRESTLING"
       },
       {
         "tournament_id": 41,
@@ -34859,7 +34811,7 @@
       {
         "tournament_id": 26,
         "division": "senior",
-        "name": "Lemont Bears"
+        "name": "LEMONT BEARS"
       },
       {
         "tournament_id": 29,
@@ -36771,7 +36723,7 @@
       {
         "tournament_id": 27,
         "division": "novice",
-        "name": "LIONS WC"
+        "name": "LIONS WRESTLING CLUB"
       },
       {
         "tournament_id": 32,
@@ -37300,17 +37252,12 @@
       {
         "tournament_id": 27,
         "division": "novice",
-        "name": " LITTLE CELTICS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "LITTLE CELTICS"
+        "name": "LITTLE CELTIC WRESTLING CLUB"
       },
       {
         "tournament_id": 27,
         "division": "senior",
-        "name": "Little Celtics"
+        "name": "LITTLE CELTIC WRESTLING CLUB"
       },
       {
         "tournament_id": 29,
@@ -41754,7 +41701,7 @@
       {
         "tournament_id": 27,
         "division": "senior",
-        "name": "Metro Stallions"
+        "name": "METRO STALLIONS"
       },
       {
         "tournament_id": 30,
@@ -43623,7 +43570,7 @@
       {
         "tournament_id": 26,
         "division": "novice",
-        "name": "MT. ZION"
+        "name": "MT. ZION WRESTLING CLUB"
       }
     ]
   },
@@ -45013,12 +44960,12 @@
       {
         "tournament_id": 26,
         "division": "novice",
-        "name": "NAPERVILLE WC"
+        "name": "NAPERVILLE WRESTLING CLUB"
       },
       {
         "tournament_id": 27,
         "division": "novice",
-        "name": "NAPERVILLE WC"
+        "name": "NAPERVILLE WRESTLING CLUB"
       },
       {
         "tournament_id": 30,
@@ -47668,11 +47615,6 @@
         "tournament_id": 25,
         "division": "novice",
         "name": "ORLAND PARK"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "ORLAND PARK"
       }
     ]
   },
@@ -47733,17 +47675,12 @@
       {
         "tournament_id": 26,
         "division": "senior",
-        "name": "Orland Park Pioneers"
+        "name": "ORLAND PARK PIONEERS"
       },
       {
         "tournament_id": 27,
         "division": "novice",
         "name": "ORLAND PARK PIONEERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "Orland Park Pioneers"
       },
       {
         "tournament_id": 29,
@@ -53383,7 +53320,7 @@
       {
         "tournament_id": 27,
         "division": "novice",
-        "name": "RIVERBEND WC"
+        "name": "RIVERBEND WRESTLING CLUB"
       },
       {
         "tournament_id": 30,
@@ -63921,12 +63858,12 @@
       {
         "tournament_id": 26,
         "division": "senior",
-        "name": "Tinley Park Bulldogs"
+        "name": "TINLEY PARK BULLDOGS"
       },
       {
         "tournament_id": 27,
         "division": "senior",
-        "name": "Tinley Park Bulldogs"
+        "name": "TINLEY PARK BULLDOGS"
       },
       {
         "tournament_id": 28,
@@ -66663,7 +66600,7 @@
       {
         "tournament_id": 27,
         "division": "senior",
-        "name": "Villa Lombard Cougars"
+        "name": "VILLA-LOMBARD COUGARS"
       },
       {
         "tournament_id": 32,
@@ -67185,17 +67122,17 @@
       {
         "tournament_id": 26,
         "division": "novice",
-        "name": "VITTUM CATS"
+        "name": "VITTUM CATS WRESTLING CLUB"
       },
       {
         "tournament_id": 26,
         "division": "senior",
-        "name": "Vittum Cats"
+        "name": "VITTUM CATS WRESTLING CLUB"
       },
       {
         "tournament_id": 27,
         "division": "senior",
-        "name": "Vittum Cats"
+        "name": "VITTUM CATS WRESTLING CLUB"
       },
       {
         "tournament_id": 29,
@@ -69271,11 +69208,6 @@
         "tournament_id": 6,
         "division": "senior",
         "name": "Wheaton"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "WHEATON"
       }
     ]
   },
@@ -69285,6 +69217,11 @@
     "duplicates": [
       {
         "tournament_id": 26,
+        "division": "novice",
+        "name": "WHEATON BULLDOGS"
+      },
+      {
+        "tournament_id": 27,
         "division": "novice",
         "name": "WHEATON BULLDOGS"
       },
