@@ -1053,7 +1053,7 @@ def main():
             competitors,
             _NOVICE_TEAM_REPLACE,
             _NAME_EXCEPTIONS,
-            bout_numbers=bout_numbers,
+            bout_numbers,
         )
         weight_classes.append(weight_class)
 
@@ -1065,7 +1065,7 @@ def main():
             competitors,
             _SENIOR_TEAM_REPLACE,
             _NAME_EXCEPTIONS,
-            bout_numbers=bout_numbers,
+            bout_numbers,
         )
         weight_classes.append(weight_class)
 

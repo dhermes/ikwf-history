@@ -558,6 +558,50 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         team_acronym=None,
     ),
 }
+_BOUT_NUMBER_INPUTS: dict[tuple[bracket_utils.Division, int], tuple[int, int]] = {
+    ("senior", 70): (2, 1047),
+    ("senior", 74): (18, 1050),
+    ("senior", 79): (34, 1053),
+    ("senior", 84): (50, 1056),
+    ("senior", 89): (66, 1059),
+    ("senior", 95): (82, 1062),
+    ("senior", 101): (98, 1065),
+    ("senior", 108): (114, 1068),
+    ("senior", 115): (130, 1071),
+    ("senior", 122): (146, 1074),
+    ("senior", 130): (162, 1077),
+    ("senior", 138): (178, 1080),
+    ("senior", 147): (194, 1083),
+    ("senior", 156): (210, 1086),
+    ("senior", 166): (226, 1089),
+    ("senior", 177): (242, 1092),
+    ("senior", 189): (258, 1095),
+    ("senior", 275): (274, 1098),
+}
+
+
+def _get_bout_numbers(
+    division: bracket_utils.Division, weight: int
+) -> dict[bracket_utils.MatchSlot, int]:
+    key = (division, weight)
+    entry = _BOUT_NUMBER_INPUTS.get(key)
+    if entry is None:
+        return {}
+
+    first_pigtail, first_place = entry
+    return {
+        "championship_r32_02": first_pigtail,
+        "championship_r32_04": first_pigtail + 1,
+        "championship_r32_06": first_pigtail + 4,
+        "championship_r32_08": first_pigtail + 5,
+        "championship_r32_10": first_pigtail + 8,
+        "championship_r32_12": first_pigtail + 9,
+        "championship_r32_14": first_pigtail + 12,
+        "championship_r32_16": first_pigtail + 13,
+        "consolation_fifth_place": first_place - 2,
+        "consolation_third_place": first_place - 1,
+        "championship_first_place": first_place,
+    }
 
 
 def main():
@@ -579,8 +623,14 @@ def main():
     )
 
     for weight, competitors in _SENIOR_COMPETITORS.items():
+        bout_numbers = _get_bout_numbers("senior", weight)
         weight_class = bracket_utils.weight_class_from_competitors(
-            "senior", weight, competitors, _SENIOR_TEAM_REPLACE, _NAME_EXCEPTIONS
+            "senior",
+            weight,
+            competitors,
+            _SENIOR_TEAM_REPLACE,
+            _NAME_EXCEPTIONS,
+            bout_numbers,
         )
         weight_classes.append(weight_class)
 

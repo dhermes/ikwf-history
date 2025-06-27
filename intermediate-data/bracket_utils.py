@@ -1168,13 +1168,10 @@ def weight_class_from_competitors(
     competitors: list[str | None],
     team_replace: dict[str, str],
     name_exceptions: dict[tuple[str, str], Competitor],
-    bout_numbers: dict[MatchSlot, int] | None = None,
+    bout_numbers: dict[MatchSlot, int],
 ) -> WeightClass:
     if len(competitors) != 24:
         raise NotImplementedError("Unsupported bracket size", weight, len(competitors))
-
-    if bout_numbers is None:
-        bout_numbers = {}
 
     champion_position: BracketPosition = "top"
     placers: dict[int, Competitor] = {}
