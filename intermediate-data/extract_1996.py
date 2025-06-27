@@ -1055,7 +1055,7 @@ _BOUT_NUMBER_INPUTS: dict[tuple[bracket_utils.Division, int], tuple[int, int]] =
     ("novice", 147): (105, 590),
     ("novice", 166): (113, 591),
     ("novice", 215): (121, 592),
-    ("senior", 70): (8, 649),
+    ("senior", 70): (1, 649),
     ("senior", 74): (9, 650),
     ("senior", 79): (17, 651),
     ("senior", 84): (25, 652),
