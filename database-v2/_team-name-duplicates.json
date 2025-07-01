@@ -950,7 +950,7 @@
       {
         "tournament_id": 22,
         "division": "senior",
-        "name": "ARGENTA OREANA"
+        "name": "ARGENTA-OREANA"
       },
       {
         "tournament_id": 23,
@@ -38326,7 +38326,7 @@
       {
         "tournament_id": 22,
         "division": "senior",
-        "name": "LOCKPORT GRAPPLERS"
+        "name": "LOCKPORT GRAPPLERS WC"
       },
       {
         "tournament_id": 23,
@@ -42855,7 +42855,7 @@
       {
         "tournament_id": 22,
         "division": "senior",
-        "name": "MORTON YOUTH"
+        "name": "MORTON YOUTH WC"
       },
       {
         "tournament_id": 23,
@@ -66909,22 +66909,6 @@
     ]
   },
   {
-    "name_normalized": "Villa-Lombard",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "VILLA-LOMBARD"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "Villa-Lombard"
-      }
-    ]
-  },
-  {
     "name_normalized": "Villa-Lombard Cougars",
     "url_path_slug": null,
     "duplicates": [
@@ -69492,7 +69476,7 @@
       {
         "tournament_id": 22,
         "division": "senior",
-        "name": "WHEATON WARRENVILLE"
+        "name": "WHEATON-WARRENVILLE"
       }
     ]
   },
