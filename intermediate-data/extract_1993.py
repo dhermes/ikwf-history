@@ -4,7 +4,7 @@ import pathlib
 
 import bracket_utils
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _NOVICE_TEAM_REPLACE: dict[str, str] = {}
 _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
     62: [
@@ -210,7 +210,7 @@ _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
         "DUSTY GREEN :: RED HILLS",
         "DANA HOLLAND :: VILLA-LOMBARD :: 5",
         "CHRIS OSBORN :: MORRISON",
-        "BRADLEY WEINHOLD :: PLAINFIELD",
+        "BRADLEY WEINHOLD :: PLAINFIELD INDIAN TRAIL",
         "BRAD OWENS :: MT. ZION :: 1",
         "MARC JUSTICE :: RAIDERS",
         "MATTHEW HOLMES :: WAUKEGAN",
@@ -265,7 +265,7 @@ _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
         "PATRICK ARVIN :: OSWEGO COUGARS :: 6",
         "SHAIN PRAHL :: MATTOON :: 4",
         "MATTHEW KAUPPINEN :: DAKOTA",
-        "JUSTIN GOEBEL :: PLAINFIELD",
+        "JUSTIN GOEBEL :: PLAINFIELD INDIAN TRAIL",
     ],
     115: [
         "GEORGE KIRGAN :: GC COOUDGE",
@@ -283,7 +283,7 @@ _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
         "DREW THOMAS :: ELGIN",
         "JAMES CARROLL :: MEAD",
         "CHAD FEIPEL :: MUSTANG",
-        "CHAD KRNAC :: PLAINFIELD :: 1",  # INDIAN TRAIL
+        "CHAD KRNAC :: PLAINFIELD INDIAN TRAIL :: 1",
         "BRIAN SCHNURSTEIN :: VILLA-LOMBARD",
         "LUCAS DIESSELHORST :: LITCHFIELD",
         "TIM LEWIS :: RIVERDALE :: 4",
@@ -297,7 +297,7 @@ _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
         "MATTHEW PIOTROWICZ :: NOTRE DAME",
         "MATT FESES :: URBANA",
         "MICHEAL GREGORY :: MARION",
-        "LEITH CROWTHER :: PLAINFIELD :: 3",
+        "LEITH CROWTHER :: PLAINFIELD INDIAN TRAIL :: 3",
         "BRET EVINS :: JR. ROCKET :: 2",
         "JOHN WILKANS :: CRYSTAL LAKE",
         "BRENT KRUMPFES :: HINSDALE",
@@ -384,7 +384,7 @@ _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
         "ALAN REYNOLDS :: FAIRFIELD",
         "RYAN HITE :: JOLIET",
         "NICK ESPOSITO :: VILLA-LOMBARD :: 5",
-        "ADAM VENTSIAS :: PLAINFIELD :: 3",
+        "ADAM VENTSIAS :: PLAINFIELD INDIAN TRAIL :: 3",
         "BRYCE PARKS :: MARION",
         "GARY PARQUETTE :: HUBBLE",
         "JOE CHIRUMBOLO :: EAGLE :: 1",
@@ -393,7 +393,7 @@ _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
         "KEVIN MCCORMICK :: ROCKFORD",
         "JON PAOLILLI :: HOMEWOOD-FLOSSMOOR",
         "NICK MYRES :: TRAID",
-        "PHILIP HARBIN :: ARGENTA-OREANA",
+        "PHILIP HARBIN :: ARGENTA / OREANA",
         "JASON TEJERO :: ROSEMONT",
         "ADAM STIMPSON :: JORDAN-SETON :: 6",
     ],
@@ -417,7 +417,7 @@ _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
         "SETH WOMACK :: VANDALIA",
         "JEFFERY MISIOLEK :: ST. BARNABAS / CHRIST THE KING",
         "BRAD RUNKLE :: YORKVILLE :: 1",
-        "MICHAEL MESSENGER :: PLAINFIELD",
+        "MICHAEL MESSENGER :: PLAINFIELD INDIAN TRAIL",
         "MARK DICKER :: PALATINE",
         "JACOB ACORD :: WESTVILLE :: 4",
         "MICHAEL HARRIS :: ST. BARNABAS / CHRIST THE KING",
@@ -438,7 +438,7 @@ _NOVICE_TEAM_SCORES: dict[str, float] = {
     "TOMCATS": 56.0,
     "MT. ZION": 55.0,
     "CRYSTAL LAKE": 53.5,
-    "PANTHER WC": 53.5,
+    "PANTHER BURBANK": 53.5,
     "MUSTANG WC": 53.0,
     "LEMONT": 52.0,
     "ROCKFORD": 49.5,
@@ -447,7 +447,7 @@ _NOVICE_TEAM_SCORES: dict[str, float] = {
     "YORKVILLE": 45.0,
     "LOCKPORT GRAPPLERS": 45.0,
     "TRI-CITY BRAVES": 42.5,
-    "RIVERDALE RAMS": 42.0,
+    "RIVERDALE": 42.0,
     "MORRISON": 42.0,
     "MOLINE TIGERS": 38.5,
     "ST. BARNABAS / CHRIST THE KING": 38.0,
@@ -469,7 +469,7 @@ _NOVICE_TEAM_SCORES: dict[str, float] = {
     "TRAILBLAZER": 20.5,
     "BRONCO": 20.0,
     "HOOPESTON": 20.0,
-    "HARVEY PD TWISTERS": 20.0,
+    "HARVEY": 20.0,
     "LITCHFIELD": 19.0,
     "MURPHYSBORO": 19.0,
     "MORTON": 19.0,
@@ -480,7 +480,7 @@ _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     70: [
         "DEREK DALY :: ADDISON INDIAN TRAIL",
-        "ANDY KONC :: PLAINFIELD",
+        "ANDY KONC :: PLAINFIELD INDIAN TRAIL",
         "JAMES BEAUREGARD :: MUSTANG",
         "MATTHEW FRITZ :: HARLEM :: 2",
         "JERRY STECK :: BRONCO",
@@ -542,7 +542,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "TERENCE KENNEBREW :: PIRATES",
         "MARK MANKOWSKI :: HICKORY HILLS :: 5",
         "BRIAN CLODFELTER :: TIGERTOWN TANGLERS",
-        "SAM MOHR :: PLAINFIELD",
+        "SAM MOHR :: PLAINFIELD INDIAN TRAIL",
         "SEAN PIPPIN :: GENESEO :: 6",
         "BRADY RUEL :: ST. BARNABAS / CHRIST THE KING",
         "DERRICK LOLLIS :: HARVEY",
@@ -646,11 +646,11 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "DAVID KESTER :: HOOPESTON",
         "LANCE WEBER :: ROSEMONT",
         "SCOTT MABUES :: RIVERDALE",
-        "SCOTT HARRISON :: PLAINFIELD",
+        "SCOTT HARRISON :: PLAINFIELD INDIAN TRAIL",
         "TIM ROLEY :: MORTON",
         "CRAIG LOREK :: FRANKLIN PARK",
         "NATHAN GRAUMENZ :: VANDALIA",
-        "MICHAEL BRUNO :: PLAINFIELD :: 4",
+        "MICHAEL BRUNO :: PLAINFIELD INDIAN TRAIL :: 4",
         "STEVE NIELSEN :: HICKORY HILLS :: 5",
         "TOM CHISAMORE :: HARVARD",
         "CHRIS RODRIGUEZ :: TOMCATS :: 2",
@@ -737,7 +737,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "TARL VON HATTEN :: ST. CHARLES",
         "ANDY MARTINEZ :: PONTIAC",
         "BRET DOUGHERTY :: HARVARD",
-        "MATHEW GUILFOYLE :: PLAINFIELD",
+        "MATHEW GUILFOYLE :: PLAINFIELD INDIAN TRAIL",
     ],
     130: [
         "NICK STEELE :: GC COOLIDGE",
@@ -804,7 +804,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "JOSHUA INGERSOLL :: CHARGER KIDS",
         "JEFF RIEGELEIN :: CROSSFACE",
         "JOSH BRUGH :: LITTLE GIANTS",
-        "LUIS MAGANA :: PLAINFIELD",
+        "LUIS MAGANA :: PLAINFIELD INDIAN TRAIL",
         "BOB MEYER :: ADAMS",
         "MATT CORDES :: MOLINE TIGERS",  # MATT COMBES; TYPO?
         "BRIAN LYNDE :: HARLEM",
@@ -969,7 +969,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "MEAD JR. HIGH": 66.5,
     "VANDALIA": 64.5,
     "HICKORY HILLS": 58.0,
-    "BRADLEY BOURBONNAIS": 52.0,
+    "BRADLEY-BOURBONNAIS": 52.0,
     "DANVILE": 49.0,
     "OAK FOREST": 46.0,
     "ROUND LAKE SPARTANS": 46.0,
@@ -985,11 +985,11 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "PONTIAC": 30.0,
     "JR. ROCKET": 29.0,
     "TIGERTOWN TANGLERS": 29.0,
-    "TOMCAT": 28.0,
+    "TOMCATS": 28.0,
     "ROSEMONT": 27.0,
     "ST. BARNABAS / CHRIST THE KING": 26.0,
     "CRESTWOOD COLTS": 26.0,
-    "ARGENTA ORENA": 25.0,
+    "ARGENTA / OREANA": 25.0,
     "DOWNERS GROVE": 24.0,
     "ELGIN": 24.0,
     "MT. VERNON": 23.0,
@@ -1230,7 +1230,7 @@ def main():
         weight_classes=weight_classes, team_scores=team_scores, deductions=[]
     )
     extracted.sort()
-    with open(HERE / "extracted.1993.json", "w") as file_obj:
+    with open(_HERE / "extracted.1993.json", "w") as file_obj:
         file_obj.write(extracted.model_dump_json(indent=2))
         file_obj.write("\n")
 

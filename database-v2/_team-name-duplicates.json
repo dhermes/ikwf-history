@@ -955,12 +955,7 @@
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "ARGENTA OREANA"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "ARGENTA ORENA"
+        "name": "ARGENTA / OREANA"
       },
       {
         "tournament_id": 29,
@@ -1644,22 +1639,12 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "TOMCAT WC"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
         "name": "TOMCATS"
       },
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "TOMCAT WC"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "TOMCAT"
+        "name": "TOMCATS"
       },
       {
         "tournament_id": 24,
@@ -4640,12 +4625,7 @@
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "BRADLEY BOURBONAIS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "BRADLEY BOURBONNAIS"
+        "name": "BRADLEY-BOURBONNAIS"
       },
       {
         "tournament_id": 25,
@@ -7500,17 +7480,7 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "CRYSTAL LAKE WIZARDS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
         "name": "CRYSTAL LAKE"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "CRYSTAL LAKE WIZARDS"
       },
       {
         "tournament_id": 23,
@@ -8779,7 +8749,7 @@
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "FRANKLIN PARK RAIDERS"
+        "name": "FRANKLIN PARK"
       },
       {
         "tournament_id": 30,
@@ -9061,17 +9031,12 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "HARVEY PD TWISTERS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "HARVEY TWISTERS"
+        "name": "HARVEY"
       },
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "HARVEY TWISTERS"
+        "name": "HARVEY"
       },
       {
         "tournament_id": 24,
@@ -9512,17 +9477,12 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "BURBANK PANTERS"
+        "name": "PANTHER BURBANK"
       },
       {
         "tournament_id": 23,
-        "division": "novice",
-        "name": "BURBANK PANTHERS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "PANTHER WC"
+        "division": "senior",
+        "name": "PANTHER BURBANK"
       },
       {
         "tournament_id": 32,
@@ -18806,12 +18766,12 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "DOLTON FALCONS"
+        "name": "DOLTON"
       },
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "DOLTON FALCONS"
+        "name": "DOLTON"
       },
       {
         "tournament_id": 24,
@@ -20140,7 +20100,7 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "EAGLE WC"
+        "name": "EAGLE"
       },
       {
         "tournament_id": 24,
@@ -21222,7 +21182,7 @@
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "EISENHOWER JR. HIGH"
+        "name": "EISENHOWER JH"
       }
     ]
   },
@@ -27268,22 +27228,6 @@
     ]
   },
   {
-    "name_normalized": "Harlem School Dist. 122",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "HARLEM SCHOOL DIST. 122"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "HARLEM SCHOOL DIST. 122"
-      }
-    ]
-  },
-  {
     "name_normalized": "Harlem Wrestling Club",
     "url_path_slug": null,
     "duplicates": [
@@ -31575,7 +31519,7 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "JOLIET BOYS CLUB COBRAS"
+        "name": "JOLIET"
       },
       {
         "tournament_id": 32,
@@ -31698,7 +31642,7 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "JORDAN SETON"
+        "name": "JORDAN-SETON"
       },
       {
         "tournament_id": 25,
@@ -34806,7 +34750,7 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "LEMONT BEARS"
+        "name": "LEMONT"
       },
       {
         "tournament_id": 26,
@@ -36716,11 +36660,6 @@
         "name": "LIONS WC"
       },
       {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "LIONS WC"
-      },
-      {
         "tournament_id": 27,
         "division": "novice",
         "name": "LIONS WRESTLING CLUB"
@@ -37237,7 +37176,7 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "LITTLE CELTICS"
+        "name": "LITTLE CELTIC"
       },
       {
         "tournament_id": 25,
@@ -42860,7 +42799,7 @@
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "MORTON YOUTH"
+        "name": "MORTON"
       },
       {
         "tournament_id": 25,
@@ -44598,7 +44537,7 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "MUSTANGS"
+        "name": "MUSTANG"
       }
     ]
   },
@@ -46524,7 +46463,7 @@
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "OAK FOREST WARRIORS"
+        "name": "OAK FOREST"
       },
       {
         "tournament_id": 24,
@@ -47670,7 +47609,7 @@
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "ORLAND PARK PIONEERS"
+        "name": "ORLAND PARK"
       },
       {
         "tournament_id": 26,
@@ -50174,11 +50113,6 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Plainfield"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "PLAINFIELD"
       }
     ]
   },
@@ -50200,22 +50134,6 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "PLAINFIELD INDIAN TRAIL"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Plainfield It",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "PLAINFIELD IT"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "PLAINFIELD IT"
       }
     ]
   },
@@ -53549,7 +53467,7 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "RIVERDALE JR. HIGH"
+        "name": "RIVERDALE"
       },
       {
         "tournament_id": 33,
@@ -53568,6 +53486,11 @@
     "url_path_slug": null,
     "duplicates": [
       {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Riverdale Rams"
+      },
+      {
         "tournament_id": 34,
         "division": "novice",
         "name": "RIVERDALE JR. RAMS WC"
@@ -53581,22 +53504,6 @@
         "tournament_id": 36,
         "division": "novice",
         "name": "RIVERDALE JR. RAMS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Riverdale Rams",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Riverdale Rams"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "RIVERDALE RAMS"
       }
     ]
   },
@@ -54852,7 +54759,7 @@
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "ROCKFORD WC"
+        "name": "ROCKFORD"
       },
       {
         "tournament_id": 25,
@@ -55304,12 +55211,12 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "ROSEMONT COBRAS"
+        "name": "ROSEMONT"
       },
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "ROSEMONT COBRAS"
+        "name": "ROSEMONT"
       },
       {
         "tournament_id": 24,
@@ -59341,7 +59248,7 @@
     ]
   },
   {
-    "name_normalized": "St. Barnabas/Christ The King",
+    "name_normalized": "St. Barnabas / Christ The King",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -59357,12 +59264,12 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "ST. BARNABAS/CHRIST THE KING"
+        "name": "ST. BARNABAS / CHRIST THE KING"
       },
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "ST. BARNABAS/CHRIST THE KING"
+        "name": "ST. BARNABAS / CHRIST THE KING"
       }
     ]
   },
@@ -63838,12 +63745,12 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "TINLEY PARK BULLDOGS"
+        "name": "TINLEY PARK"
       },
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "TINLEY PARK BULLDOGS"
+        "name": "TINLEY PARK"
       },
       {
         "tournament_id": 24,
@@ -64772,7 +64679,7 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "TRAILBLAZERS"
+        "name": "TRAILBLAZER"
       }
     ]
   },
@@ -66590,12 +66497,12 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "VILLA LOMBARD COUGARS"
+        "name": "VILLA-LOMBARD"
       },
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "VILLA LOMBARD COUGARS"
+        "name": "VILLA-LOMBARD"
       },
       {
         "tournament_id": 27,
@@ -67506,22 +67413,6 @@
     ]
   },
   {
-    "name_normalized": "Warhawk WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "WARHAWK WC"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "WARHAWK WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Warhawks",
     "url_path_slug": null,
     "duplicates": [
@@ -67529,6 +67420,11 @@
         "tournament_id": 21,
         "division": "senior",
         "name": "WARHAWKS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "WARHAWK WC"
       },
       {
         "tournament_id": 23,
