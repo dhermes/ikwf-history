@@ -605,202 +605,322 @@ The MS Kids Club is a self-supporting organization made up of kids from 2nd to
 week. The club has sent 4 wrestlers to the State Championships. As a team they
 have 3 Regional Championships and 3 Sectional Championships.
 
-```
-TEAM: LITTLE CELTIC WRESTLING CLUB AVG. NUMBER OF WRESTLERS: 85
-FOUNDING YEAR: 1990 NUMBER OF COACHES: 12
-FOUNDERS: MARTY & BILL NOWAK PRACTICE FACILITY: PROVIDENCE
-CATHOLIC HS.
-“Believe to Achieve” is the motto of the Little Celtic Wrestling Club. This club is affiliated with Providence Catholic High
-School in New Lenox. They are a self-supporting organization. The team practices 3 times per week and competes in 8 tournaments
-and 10 dual meets during the season. The Little Celtics are one of the IKWF clubs that also wrestles during the Freestyle/Greco
-Roman season.
-With 30 State Qualifiers, the Little Celtics have been well represented at past IKWF State Championships. They have had 13
-State place winners and 1 State champion. The team has won 3 Regional tournaments and | Sectional tournament as well as two top
-four finishes in the State Finals.
-TEAM: ST. CHARLES WRESTLING CLUB AVG. NUMBER OF WRESTLERS: 45
-FOUNDING YEAR: 1984 NUMBER OF COACHES: 14
-FOUNDER: MICK RUETTIGER PRACTICE FACILITY: ST. CHARLES H.S.
+## Little Celtic Wrestling Club
 
-St. Charles Wrestling is affiliated with the Community District 303. They are a self-supported organization with an annual
-budget of $8,400, The St fers team works together with the St. Charles High School Booster club in fund-raising activities. This
-Year the team hosted the Saints Winter Classic Wrestling Tournament. The club practices 2 nights per week and competes in 10
-'ouraments during th
+> [!NOTE]
+> This information is from the 1995 IKWF program
 
-e season. sscist
+|                          |                        |
+| ------------------------ | ---------------------- |
+| FOUNDING YEAR            | 1990                   |
+| FOUNDER(S)               | MARTY & BILL NOWAK     |
+| PRACTICE FACILITY        | PROVIDENCE CATHOLIC HS |
+| AVG. NUMBER OF WRESTLERS | 85                     |
+| NUMBER OF COACHES        | 12                     |
 
-St Charles has had 6 Regional Championships and | Sectional Championship. The team has sent 34 wrestlers to the State
+"Believe to Achieve" is the motto of the Little Celtic Wrestling Club. This club
+is affiliated with Providence Catholic High School in New Lenox. They are a
+self-supporting organization. The team practices 3 times per week and competes
+in 8 tournaments and 10 dual meets during the season. The Little Celtics are one
+of the IKWF clubs that also wrestles during the Freestyle/Greco Roman season.
 
-Championships with 8 place winners and 2 State Champions.
+With 30 State Qualifiers, the Little Celtics have been well represented at past
+IKWF State Championships. They have had 13 State place winners and 1 State
+champion. The team has won 3 Regional tournaments and 1 Sectional tournament as
+well as two top four finishes in the State Finals.
 
+## St. Charles Wrestling Club
 
-TEAM: VANDALIA JR WRESTLING AVG. NUMBER OF WRESTLERS: 40
-FOUNDING YEAR: 1988 NUMBER OF COACHES: 6
-FOUNDERS: BOB CULBERTSON, KEITH PRACTICE FACILITY: VANDALIA
-SANDERS AND MIKE THEMIG COMMUNITY HS.
+> [!NOTE]
+> This information is from the 1995 IKWF program
 
-The Vandalia Jr. Wrestling club is affiliated with the Fayette Co. YMCA. They have an annual budget of $2,000 that they
-support through donations and the Vandalia Jr. Wrestling Tournament that they host each year. During the season the team usually
-Practices two nights per week in order to prepare for the 13 tournaments and 2 dual meets they wrestle. Since the team began in
-1988, they have sent 16 wrestlers to the State Championships with two place winners. The team also placed 16th in the State Finals in
-1993,
+|                          |                  |
+| ------------------------ | ---------------- |
+| FOUNDING YEAR            | 1984             |
+| FOUNDER(S)               | MICK RUETTIGER   |
+| PRACTICE FACILITY        | ST. CHARLES H.S. |
+| AVG. NUMBER OF WRESTLERS | 45               |
+| NUMBER OF COACHES        | 14               |
 
-TEAM: OAK FOREST WARRIORS AVG. NUMBER OF WRESTLERS: 75
-FOUNDING YEAR: 1972 NUMBER OF COACHES: 12
-FOUNDERS: KEN GERDES SR., DALE SCHMIDT, PRACTICE FACILITY: OAK FOREST PARK
-TONY ODDO, BOB CARLSON DISTRICT
-AD SPONSOR: THE GERDES BROTHERS
+St. Charles Wrestling is affiliated with the Community District 303. They are a
+self-supported organization with an annual budget of $8,400. The St. Charles
+team works together with the St. Charles High School Booster club in
+fund-raising activities. This year the team hosted the Saints Winter Classic
+Wrestling Tournament. The club practices 2 nights per week and competes in 10
+touraments during the season.
 
-During their history, the Warriors have finished in the top ten 19 times. winning state championships in 1975 and in 1972 as
-Arbor Park Jr. High. 253 Warrior wrestlers have qualified for the IKWF State Championships, with 106 winning medals, including
-22 state champions. Five brother combinations (Gerdes, Crnich, Schmidt, Porter, Debevec) have won state championships, the most
-in IKWF history.
+St. Charles has had 6 Regional Championships and 1 Sectional Championship. The
+team has sent 34 wrestlers to the State Championships with 8 place winners and 2
+State Champions.
 
-The Warriors have an annual budget of $10,000, the majority of which is raised by hosting toumaments. During their
-history, they have hosted nearly 100 tournaments. Six former Warriors are currently wrestling on college teams.
+## Vandalia Junior Wrestling Club
 
-ee
+> [!NOTE]
+> This information is from the 1995 IKWF program
 
+|                          |                                               |
+| ------------------------ | --------------------------------------------- |
+| FOUNDING YEAR            | 1988                                          |
+| FOUNDER(S)               | BOB CULBERTSON, KEITH SANDERS AND MIKE THEMIG |
+| PRACTICE FACILITY        | VANDALIA COMMUNITY HS                         |
+| AVG. NUMBER OF WRESTLERS | 40                                            |
+| NUMBER OF COACHES        | 6                                             |
 
-TEAM: ROUND LAKE SPARTANS PRACTICE FACILITY: COMMUNITY
-AVG. NUMBER OF WRESTLERS: 30 CENTER
-NUMBER OF COACHES: 4
+The Vandalia Jr. Wrestling club is affiliated with the Fayette Co. YMCA. They
+have an annual budget of $2,000 that they support through donations and the
+Vandalia Jr. Wrestling Tournament that they host each year. During the season
+the team usually practices two nights per week in order to prepare for the 13
+tournaments and 2 dual meets they wrestle. Since the team began in 1988, they
+have sent 16 wrestlers to the State Championships with two place winners. The
+team also placed 16th in the State Finals in 1993.
 
-The Round Lake Spartans are affiliated with the Round Lake Area Park District. They have an annual
-budget of $1,500 that they maintain through registration fees, boosters, and park district support. The team
-practices 2 nights per week and competes in 10 tournaments during the season. The Spartans are coached by
+## Oak Forest Warriors
+
+> [!NOTE]
+> This information is from the 1995 IKWF program
+
+|                          |                                                      |
+| ------------------------ | ---------------------------------------------------- |
+| FOUNDING YEAR            | 1972                                                 |
+| FOUNDER(S)               | KEN GERDES SR., DALE SCHMIDT, TONY ODDO, BOB CARLSON |
+| PRACTICE FACILITY        | OAK FOREST PARK DISTRICT                             |
+| AVG. NUMBER OF WRESTLERS | 75                                                   |
+| NUMBER OF COACHES        | 12                                                   |
+| AD SPONSOR               | THE GERDES BROTHERS                                  |
+
+During their history, the Warriors have finished in the top ten 19 times.
+winning state championships in 1975 and in 1972 **as Arbor Park Jr. High**. 253
+Warrior wrestlers have qualified for the IKWF State Championships, with 106
+winning medals, including 22 state champions. Five brother combinations (Gerdes,
+Crnich, Schmidt, Porter, Debevec) have won state championships, the most in IKWF
+history.
+
+The Warriors have an annual budget of $10,000, the majority of which is raised
+by hosting toumaments. During their history, they have hosted nearly 100
+tournaments. Six former Warriors are currently wrestling on college teams.
+
+## Round Lake Spartans
+
+> [!NOTE]
+> This information is from the 1995 IKWF program
+
+|                          |                  |
+| ------------------------ | ---------------- |
+| FOUNDING YEAR            |                  |
+| FOUNDER(S)               |                  |
+| PRACTICE FACILITY        | COMMUNITY CENTER |
+| AVG. NUMBER OF WRESTLERS | 30               |
+| NUMBER OF COACHES        | 4                |
+
+The Round Lake Spartans are affiliated with the Round Lake Area Park District.
+They have an annual budget of $1,500 that they maintain through registration
+fees, boosters, and park district support. The team practices 2 nights per week
+and competes in 10 tournaments during the season. The Spartans are coached by
 Ken Pawella.
-TEAM: PEKIN BOYS CLUB NUMBER OF COACHES: 8
-FOUNDING YEAR: 1976 PRACTICE FACILITY: PEKIN HIGH WEST
-FOUNDER: RICH HADDOCK AD SPONSOR: THE MCCLISTER FAMILY
-NUMBER OF WRESTLERS: 60
 
-The Pekin Boys Club is affiliated with the Boys club of Pekin. They are supported by the Pekin High School Booster
-Club. The team practices 3 nights per week and competes in 13 tournaments during the season. The club hosts two tournaments per
-year including a IK WF Regional. ; ; .
+## Pekin Boys Club
 
-Pekin has been well represented in past State Tournaments with 20 state qualifiers and 4 place winners. Some noteworthy
-alumni from the club include Doug McClister, Randy Taylor, and Dan Ritchie.
+> [!NOTE]
+> This information is from the 1995 IKWF program
 
-|
+|                          |                      |
+| ------------------------ | -------------------- |
+| FOUNDING YEAR            | 1976                 |
+| FOUNDER(S)               | RICH HADDOCK         |
+| PRACTICE FACILITY        | PEKIN HIGH WEST      |
+| AVG. NUMBER OF WRESTLERS | 60                   |
+| NUMBER OF COACHES        | 8                    |
+| AD SPONSOR               | THE MCCLISTER FAMILY |
 
+The Pekin Boys Club is affiliated with the Boys club of Pekin. They are
+supported by the Pekin High School Booster Club. The team practices 3 nights per
+week and competes in 13 tournaments during the season. The club hosts two
+tournaments per year including a IKWF Regional.
 
-TEAM: TOMCAT WRESTLING CLUB AVG. NUMBER OF WRESTLERS: 45
-FOUNDING YEAR: 1983 NUMBER OF COACHES: 8
-FOUNDERS: STEVEN KENYON, DENNY PRACTICE FACILITY: EAST AURORA
-STENSON, DUANE KEENAN, JIM RHOADS, HIGH SCHOOL
-LARRY MALAKER, TOM GLOVER, RON
-SPANU, RON SIMMONS, AND SID
-RODRIGUEZ
-“No man stands so tall as when he stoops to help a boy," is the motto of the Tomcat Wrestling Club.
-This club is affiliated with the East Aurora Tomcats. They have an annual budget between $3,000 and $5,000
-that they raise during the Tomcat Invitational and other tournaments in which they host. The Tomcats are one
-of the few IKWF teams that also wrestles during the Freestyle/Greco Roman season. The team practices 2 to 5
-times per week and competes in 13 tournaments and 2 dual meets during the season.
-Over the years the Tomcats have sent 41 wrestlers to the State Championships with 7 place winners and
-7 State Champions. Some illustrious alumni that have emerged from this fine club include Ralph Wilson, IHSA
-State Champion and 2 time Division III Collegiate Champion, Javier Quintanilla, IHSA 3 time qualifier, one
+Pekin has been well represented in past State Tournaments with 20 state
+qualifiers and 4 place winners. Some noteworthy alumni from the club include
+Doug McClister, Randy Taylor, and Dan Ritchie.
+
+## Tomcat Wrestling Club
+
+> [!NOTE]
+> This information is from the 1995 IKWF program
+
+|                          |                                                                                                                              |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| FOUNDING YEAR            | 1983                                                                                                                         |
+| FOUNDER(S)               | STEVEN KENYON, DENNY STENSON, DUANE KEENAN, JIM RHOADS, LARRY MALAKER, TOM GLOVER, RON SPANU, RON SIMMONS, AND SID RODRIGUEZ |
+| PRACTICE FACILITY        | EAST AURORA HIGH SCHOOL                                                                                                      |
+| AVG. NUMBER OF WRESTLERS | 45                                                                                                                           |
+| NUMBER OF COACHES        | 8                                                                                                                            |
+
+"No man stands so tall as when he stoops to help a boy," is the motto of the
+Tomcat Wrestling Club. This club is affiliated with the East Aurora Tomcats.
+They have an annual budget between $3,000 and $5,000 that they raise during the
+Tomcat Invitational and other tournaments in which they host. The Tomcats are
+one of the few IKWF teams that also wrestles during the Freestyle/Greco Roman
+season. The team practices 2 to 5 times per week and competes in 13 tournaments
+and 2 dual meets during the season.
+
+Over the years the Tomcats have sent 41 wrestlers to the State Championships
+with 7 place winners and 7 State Champions. Some illustrious alumni that have
+emerged from this fine club include Ralph Wilson, IHSA State Champion and 2 time
+Division III Collegiate Champion, Javier Quintanilla, IHSA 3 time qualifier, one
 time place winner and State Champion.
-- ee
 
+## Junior Cougars (Hoffman Estates)
 
-TEAM: JR. COUGARS AVG. NUMBER OF WRESTLERS: 65
-FOUNDING YEAR: 1988 NUMBER OF COACHES: 6
-FOUNDERS: FRED ARKIN, JIM CARROL, AND JIM PRACTICE FACILITY: CONANT H.S.
-CARTWRIGHT
+> [!NOTE]
+> This information is from the 1995 IKWF program
 
-The Jr. Cougars are affiliated with Conant High School. They are a self-supporting organization that maintains its yearly
-budget of $9,000 through donations, fees and tournament income, This club is one of the more active teams during the Freestyle/
-Greco Roman season. The Jr. Cougars have sent 61 wrestlers to the State Championships and have had 16 place winners and 8 State
-Champions. As a team they placed 6th at the state tournament in 1992. ;
+|                          |                                            |
+| ------------------------ | ------------------------------------------ |
+| FOUNDING YEAR            | 1988                                       |
+| FOUNDER(S)               | FRED ARKIN, JIM CARROL, AND JIM CARTWRIGHT |
+| PRACTICE FACILITY        | CONANT H.S.                                |
+| AVG. NUMBER OF WRESTLERS | 65                                         |
+| NUMBER OF COACHES        | 6                                          |
 
-The Jr. Cougars have had many noteworthy alumnus including: Pete Marx, 2 time THSA State Champ and 2 time All-
-American, Anuj Maniar, 2 time All-American, Tony Esposito, National Champion and All-American, Herb House, 3rd place World
-finish in Greco Roman and 2 time IHSA State place winner, David Stoltz, National finalist in Freestyle and Greco Roman and All-
-American, Courtney Pitter, World Team member, John Kading, NCAA National Champion and All-American, and Dan Weber,
+The Jr. Cougars are affiliated with Conant High School. They are a
+self-supporting organization that maintains its yearly budget of $9,000 through
+donations, fees and tournament income. This club is one of the more active teams
+during the Freestyle / Greco Roman season. The Jr. Cougars have sent 61
+wrestlers to the State Championships and have had 16 place winners and 8 State
+Champions. As a team they placed 6th at the state tournament in 1992.
 
-World Team member.
+The Jr. Cougars have had many noteworthy alumnus including: Pete Marx, 2 time
+IHSA State Champ and 2 time All-American, Anuj Maniar, 2 time All-American,
+Tony Esposito, National Champion and All-American, Herb House, 3rd place World
+finish in Greco Roman and 2 time IHSA State place winner, David Stoltz, National
+finalist in Freestyle and Greco Roman and All-American, Courtney Pitter, World
+Team member, John Kading, NCAA National Champion and All-American, and Dan
+Weber, World Team member.
 
-TEAM: wW, AVG. NUMBER OF WRESTLERS: 100
+## Waubonsie Braves
 
-FOUNDING oo NUMBER OF COACHES: 12
+> [!NOTE]
+> This information is from the 1995 IKWF program
 
-FOUNDER: FRED JOHNSON PRACTICE FACILITY: WAUBONSIE VALLEY H.S.
-Th i i i er Junior High School. They have an annual budget of $5,000 that they
+|                          |                       |
+| ------------------------ | --------------------- |
+| FOUNDING YEAR            | 1986                  |
+| FOUNDER(S)               | FRED JOHNSON          |
+| PRACTICE FACILITY        | WAUBONSIE VALLEY H.S. |
+| AVG. NUMBER OF WRESTLERS | 100                   |
+| NUMBER OF COACHES        | 12                    |
 
-Taise Heough bi er agony sear Waubonsie Invitational and IK WF Sectionals or Regionals. The club
+The Waubonsie Braves are affiliated with the Grainger Junior High School. They
+have an annual budget of $5,000 that they raise through registration fees and
+fund-raisers, including the Waubonsie Invitational and IKWF Sectionals or
+Regionals. The club Practices 2 days per week and competes in 12 tournaments as
+well as 2 dual meets per season. Over the years, the Braves have won 6 Regional
+Championships and 5 Sectional Championships. The team has sent 10 wrestlers to
+the State Championships with 2 place winners.
 
-Practices 2 days per week and competes in 12 tournaments as well as 2 dual meets per season. Over the years, the Braves have won 6
+## Orland Park Pioneers
 
-=a Championships and 5 Sectional Championships. The team has sent 10 wrestlers to the State Championships with 2 place
+> [!NOTE]
+> This information is from the 1995 IKWF program
 
-—
+|                          |                         |
+| ------------------------ | ----------------------- |
+| FOUNDING YEAR            | 1975                    |
+| FOUNDER(S)               | JOE THOLL SR.           |
+| PRACTICE FACILITY        | LOEBE RECREATION CENTER |
+| AVG. NUMBER OF WRESTLERS | 90                      |
+| NUMBER OF COACHES        | 16                      |
 
+The Orland Park Pioneers are affiliated with the Orland Park Recreation
+Department. The Club has an annual budget of $8,500 that they raise on their own
+through different fundraising events. The Pioneer's have a strong organization
+that tends to keep its members for life! Many of there former wrestlers come
+back to the organization as coaches in their adult years.
 
-TEAM: ORLAND PARK PIONEERS AVG. NUMBER OF WRESTLERS: 90
+The Pioneers have had many successes on the mat. Their club has sent 69
+wrestlers to the state championships with 19 place winners and 10 state
+champions. The team has won 6 Regional championships, 3 sectional championships
+and a 4th place finish in the State Finals in 1982. Many fine wrestlers have
+emerged from the Pioneer organization including Mike Urwin, IHSA State Champion,
+Paul Andreotti, 2 time IHSA State Champion, Ken Gerdes Jr., 2 time State
+Champion, and Ben Gerdes, 2 time State Champion and 1995 Junior CollegeChampion.
 
-FOUNDING YEAR: 1975 NUMBER OF COACHES: 16
+## Maine Eagles
 
-FOUNDER: JOE THOLL SR. PRACTICE FACILITY: LOEBE RECREATION
-CENTER
+> [!NOTE]
+> This information is from the 1995 IKWF program
 
-The Orland Park Pioneers are affiliated with the Orland Park Recreation Department. The Club has an annual budget of
-$8,500 that they raise on their own through different fundraising events. The Pioneer's have a strong organization that tends to keep
-'ts members for life! Many of there former wrestlers come back to the organization as coaches in their adult years.
+|                          |                            |
+| ------------------------ | -------------------------- |
+| FOUNDING YEAR            | 1987                       |
+| FOUNDER(S)               | DON PRESERN & JIM SYLVERNE |
+| PRACTICE FACILITY        | MAINE WEST H.S.            |
+| AVG. NUMBER OF WRESTLERS | 36                         |
+| NUMBER OF COACHES        | 4                          |
+| AD SPONSOR               | KATZ CONSTRUCTION          |
 
-The Pioneers have had many successes on the mat. Their club has sent 69 wrestlers to the state championships with 19 place
-Winners and 10 state champions. The team has won 6 Regional championships, 3 sectional championships and a 4th place finish in
-the State Finals in 1982. Many fine wrestlers have emerged from the Pioneer organization including Mike Urwin, IHSA State
-Champion, Paul Andreotti, 2 time IHSA State Champion, Ken Gerdes Jr., 2 time State Champion, and Ben Gerdes, 2 time State
-Champion and 1995 Junior CollegeChampion.
+The Maine Eagles Wrestling Club is a parent run club that supports its annual
+budget of $2,400 through registration, market day, candy sales, and
+contributions. The team practices two nights per week in order to prepare for
+the 10 tournaments they compete in during the season Over the years the team has
+sent seven wrestlers to the state tournament and had one place winner. Some
+illustrious alumni would include Mike Komo and Chris Winter.
 
-TEAM: MAINE EAGLES NUMBER OF COACHES: 4
+The Eagles would like to take this opportunity to thank the coaches of the past
+and present for their contributions to the organization. Their dedication has
+helped the members of the Maine Eagles Wrestling Club to see that wrestling is
+truly a way of life. Special thanks go out to Ralph Milito, John Sullivan, Lupe
+Aguilar, Jim Ossey, Tom Egan, Earl Danan, Mike Conrad, and Bret Nelson.
 
-FOUNDING YEAR: 1987 PRACTICE FACILITY: MAINE WEST H.S.
-FOUNDERS: DON PRESERN & JIM SYLVERNE AD SPONSOR: KATZ CONSTRUCTION
-AVG. NUMBER OF WRESTLERS: 36
+## Villa-Lombard Cougars
 
-The Maine Eagles Wrestling Club is a parent run club that supports its annual budget of $2,400 through registration, market
-ty, candy sales, and contributions. The team practices two nights per week in order to prepare for the 10 tournaments they compete
-rely. the season Over the years the team has sent seven wrestlers to the state tournament and had one place winner. Some |
+> [!NOTE]
+> This information is from the 1995 IKWF program
 
-'stious alumni would i i d Chris Winter.
+|                          |                            |
+| ------------------------ | -------------------------- |
+| FOUNDING YEAR            | 1977                       |
+| FOUNDER(S)               | BILL HENKEL & MARK PAUGA   |
+| PRACTICE FACILITY        | GLENBARD NORTH HIGH SCHOOL |
+| AVG. NUMBER OF WRESTLERS | 55                         |
+| NUMBER OF COACHES        | 12                         |
 
-The hal apy oH a aeeiat to thank the coaches of the past and present for their contributions to the
-eatzaton Their dedication has helped the members of the Maine Eagles Wrestling Club to see that wrestling is truly a way of life.
-Near aks go out to Ralph Milito, John Sullivan, Lupe Aguilar, Jim Ossey. Tom Egan, Batt Danan, Mike Concadl and: Bret
+During the past 16 years the Cougars are the only team to win State
+Championships at all three levels of tournament competition. The Cougars won the
+Senior Division in '94, Novice Div. in '93, and Dual Meet State Titles in '92,
+'93, & '94. The Cougars are the only team in the state to win more than one Dual
+Meet State Championship winning three plus a 4th place finish in '88, and 5th in
+'91. The Cougars also have top six finishes at the State Tournament in '85
+(3rd), '92 (2nd), '93 (2nd), and 2nd in the Novice Div. in '94. They have won
+Sectional Championships in the Sr Div. (7), Novice Div. (1), and Jr. Div. (1).
+Regional Championships in the Sr. Div. (13), Novice Div. (1), Jr. Div. (2). The
+Cougars have 11 State Champions, 57 state place winners, and 147 state
+qualifiers. The current head coach Jim Considine has run the program since the
+1983-84 season.
 
-a 5
+The Cougars run their organization with funds raised by hosting their
+tournament, candy sales, donations from the alumni and friends of the program.
+Our program not only teaches kids the fundamentals of wrestling but also about
+respect for others, discipline, dedication, loyalty, friendship, hopefully to
+love the sport of wrestling, and most importantly of their academic education.
+The Cougars are based in Carol Stream, Il. and belong to the West Chicago
+Sectional. Cougar alumni have wrestled at Indiana Univ., Illinois State, Drake,
+Ohio U., Augustana, Columbia U., and the U.S. Naval Academy.
 
+## St. Tars (Tarcissus) Raiders
 
-TEAM: VILLA-LOMBARD COUGARS AVG. NUMBER OF WRESTLERS: 55
-FOUNDING YEAR: 1977 NUMBER OF COACHES: 12
-FOUNDERS: BILL HENKEL & MARK PAUGA PRACTICE FACILITY: GLENBARD NORTH HIGH
-SCHOOL
+> [!NOTE]
+> This information is from the 1995 IKWF program
 
-During the past 16 years the Cougars are the only team to win State Championships at all three levels of tournament
-competition. The Cougars won the Senior Division in '94, Novice Div. in '93, and Dual Meet State Titles in '92, '93, & '94. The
-Cougars are the only team in the state to win more than one Dual Meet State Championship winning three plus a 4th place finish in
-'68, and Sth in '91. The Cougars also have top six finishes at the State Tournament in '85 (31d), “92 (2nd), “93 (2nd), and 2nd in the
-Novice Div. in '94. They have won Sectional Championships in the Sr Div. (7), Novice Div. (1), and Jr. Div. (1). Regional
-Championships in the Sr. Div. (13), Novice Div. (1), Jr. Div. (2). The Cougars have 11 State Champions, 57 state place winners, and
-147 state qualifiers. The current head coach Jim Considine has run the program since the 1983-84 season. ;
+|                          |                      |
+| ------------------------ | -------------------- |
+| FOUNDING YEAR            | 1971                 |
+| FOUNDER(S)               | MARTY HEBDA          |
+| PRACTICE FACILITY        | ST. TARCISSUS SCHOOL |
+| AVG. NUMBER OF WRESTLERS | 20                   |
+| NUMBER OF COACHES        | 5                    |
 
-The Cougars run their organization with funds raised by hosting their tournament, candy sales, donations from the
-alumni and friends of the program. Our program not only teaches kids the fundamentals of wrestling but also about respect for
-others, discipline, dedication, loyalty, friendship, hopefully to love the sport of wrestling, and most importantly of their academic
-duction, The Cougars are based in Carol Stream, II. and belong to the West Chicago Sectional. Cougar alumni have wrestled at
-Indiana Univ., Illinois State, Drake, Ohio U., Augustana, Columbia U., and the U.S. Naval Academy.
-
-TEAM: Sr, AVG. NUMBER OF WRESTLERS: 20
-
-FOUNDING YEAR Oe RS NUMBER OF COACHES: 5
-
-"OUNDER: MARTY HEBDA PRACTICE FACILITY: ST.TARCISSUS
-SCHOOL
-
-. A i ¥ ir $3,500 budget with hel
-from fis Tars is affiliated with the St. Tars Grade School on the north side 7 ce Oe ea . —t ee =
-St Targ i ents and also some fundraising events. The team practices three times po
-
-a had 28 state qualifiers and 8 state place winners.
-```
+St. Tars is affiliated with the St. Tars Grade School on the north side of
+Chicago. They support their $3,500 budget with help from the parents and also
+some fundraising events. The team practices three times per week and competes
+in 8 tournaments per year. St. Tars has had 28 state qualifiers and 8 state
+place winners.
