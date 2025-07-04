@@ -425,24 +425,6 @@ _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
         None,
     ],
 }
-_NOVICE_CHAMPS: dict[int, bracket_utils.Placer] = {
-    62: bracket_utils.Placer(name="GEORGE SIMS", team="JOLIET BOYS CLUB"),
-    66: bracket_utils.Placer(name="ISRAEL MARTINEZ", team="TOMCATS"),
-    70: bracket_utils.Placer(name="PAUL AUGLE", team="TINLEY PARK"),
-    74: bracket_utils.Placer(name="TIMMY SPRINGS", team="HARVEY TWISTERS"),
-    79: bracket_utils.Placer(name="BLAKE VERMILLION", team="CRYSTAL LAKE"),
-    84: bracket_utils.Placer(name="RAYNELL KIZZEE", team="HARVEY TWISTERS"),
-    89: bracket_utils.Placer(name="JERREL JONES", team="DOLTON FALCONS"),
-    95: bracket_utils.Placer(name="STEVEN AMY", team="JR. ROCKET"),
-    101: bracket_utils.Placer(name="JEFF SCHMERBACH", team="JR. ROCKET"),
-    108: bracket_utils.Placer(name="TOM MEITUS", team="ROSEMONT COBRAS"),
-    115: bracket_utils.Placer(name="AARON POWERS", team="ROCKFORD"),
-    122: bracket_utils.Placer(name="JOE WEBER", team="ROSEMONT COBRAS"),
-    138: bracket_utils.Placer(name="RAYMOND BOYD", team="VITTUM CATS"),
-    156: bracket_utils.Placer(name="NICK ESPOSITO", team="VILLA LOMBARD"),
-    177: bracket_utils.Placer(name="EDMUND NEGRON", team="CPS"),
-    215: bracket_utils.Placer(name="BAILEY FERKEL", team="JR. ROCKET"),
-}
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     70: [
@@ -543,7 +525,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "MATT FRITZ :: HARLEM SCHOOL DISTRICT #122 :: 2",
         "RYAN RUMFELT :: EDWARDSVILLE",
         "JEFF ANDERSON :: TINLEY PARK BULLDOGS :: 3",
-        "MICHAEI DE LOOSE :: MOLINE TIGERS",
+        "MICHAEL DE LOOSE :: MOLINE TIGERS",
         "KEVIN COZZIE :: ST. BARNABAS / CHRIST THE KING",
         "JARED SCHROEDER :: GIBSON YOUTH",
         "JAMES EBERHART :: EAST ALTON-ROXANA RAMS",
@@ -914,39 +896,185 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "BEN TEMPLE :: GRANITE CITY COOLIDGE",
     ],
 }
-_SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
-    70: bracket_utils.Placer(name="Jim Brandau", team="Little Celtics WC"),
-    74: bracket_utils.Placer(name="Nick Cirrincione", team="Villa-Lombard"),
-    79: bracket_utils.Placer(name="Kyle Oneill", team="Tinley Park Bulldogs"),
-    84: bracket_utils.Placer(name="David Drew", team="Mustang WC"),
-    89: bracket_utils.Placer(name="Amador Estrada", team="Round Lake"),
-    95: bracket_utils.Placer(name="Brian Wilson", team="Crystal Lake Wizards"),
-    101: bracket_utils.Placer(name="Anthony Opiola", team="Dolton Park Falcon"),
-    108: bracket_utils.Placer(name="Brad Owens", team="Mt. Zion WC"),
-    115: bracket_utils.Placer(name="Sandro Nunez", team="Lil Reaper Wrestling"),
-    122: bracket_utils.Placer(name="Matt Lackey", team="Moline Tigers"),
-    130: bracket_utils.Placer(name="Billy Izzi", team="Oak Forest Warriors"),
-    138: bracket_utils.Placer(name="Andrew Harrison", team="Addison Indian Tr"),
-    147: bracket_utils.Placer(name="Bill Kopecky", team="Rosemont Cobras"),
-    156: bracket_utils.Placer(name="Joseph Chirumbolo", team="Eagle WC"),
-    166: bracket_utils.Placer(name="Matthew Cordes", team="Moline Tigers"),
-    177: bracket_utils.Placer(name="Jon Lovrich", team="Hickory Hills PD"),
-    189: bracket_utils.Placer(name="Anthony Englese", team="Mead JH School"),
-    275: bracket_utils.Placer(name="Benjamin Bertelsman", team="Little Devils"),
+_NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
+    ("GARY OXFORD JR", "GRANITE CITY COOLIDGE"): bracket_utils.Competitor(
+        full_name="GARY OXFORD JR",
+        first_name="GARY",
+        last_name="OXFORD",
+        team_full="GRANITE CITY COOLIDGE",
+        team_acronym=None,
+    ),
+    ("RICK IRVING JR", "SKOKIE INDIANS WC"): bracket_utils.Competitor(
+        full_name="RICK IRVING JR",
+        first_name="RICK",
+        last_name="IRVING",
+        team_full="SKOKIE INDIANS WC",
+        team_acronym=None,
+    ),
+    ("KENNY LUTZ JR", "COLLINSVILLE RAIDERS"): bracket_utils.Competitor(
+        full_name="KENNY LUTZ JR",
+        first_name="KENNY",
+        last_name="LUTZ",
+        team_full="COLLINSVILLE RAIDERS",
+        team_acronym=None,
+    ),
+    ("MUNDO REY BOYER", "MOLINE LIONS"): bracket_utils.Competitor(
+        full_name="MUNDO REY BOYER",
+        first_name="MUNDO REY",
+        last_name="BOYER",
+        team_full="MOLINE LIONS",
+        team_acronym=None,
+    ),
+    ("NICK PATRICK JR", "GRANITE CITY COOLIDGE"): bracket_utils.Competitor(
+        full_name="NICK PATRICK JR",
+        first_name="NICK",
+        last_name="PATRICK",
+        team_full="GRANITE CITY COOLIDGE",
+        team_acronym=None,
+    ),
+    ("MICHAEL DE LOOSE", "MOLINE TIGERS"): bracket_utils.Competitor(
+        full_name="MICHAEL DE LOOSE",
+        first_name="MICHAEL",
+        last_name="DE LOOSE",
+        team_full="MOLINE TIGERS",
+        team_acronym=None,
+    ),
+    ("FRANK DE FILIPPIS", "VILLA-LOMBARD COUGARS WC"): bracket_utils.Competitor(
+        full_name="FRANK DE FILIPPIS",
+        first_name="FRANK",
+        last_name="DE FILIPPIS",
+        team_full="VILLA-LOMBARD COUGARS WC",
+        team_acronym=None,
+    ),
+    ("DANIEL JORDAN JR", "DOLTON PD FALCONS"): bracket_utils.Competitor(
+        full_name="DANIEL JORDAN JR",
+        first_name="DANIEL",
+        last_name="JORDAN",
+        team_full="DOLTON PD FALCONS",
+        team_acronym=None,
+    ),
+    ("JOSEPH LENA MCCLINTIC", "ST. CHARLES WC"): bracket_utils.Competitor(
+        full_name="JOSEPH LENA MCCLINTIC",
+        first_name="JOSEPH",
+        last_name="MCCLINTIC",
+        team_full="ST. CHARLES WC",
+        team_acronym=None,
+    ),
+    ("RON TICKLE JR", "PONTIAC WC"): bracket_utils.Competitor(
+        full_name="RON TICKLE JR",
+        first_name="RON",
+        last_name="TICKLE",
+        team_full="PONTIAC WC",
+        team_acronym=None,
+    ),
+    ("PHIL TAYLOR JR.", "MT. ZION WC"): bracket_utils.Competitor(
+        full_name="PHIL TAYLOR JR.",
+        first_name="PHIL",
+        last_name="TAYLOR",
+        team_full="MT. ZION WC",
+        team_acronym=None,
+    ),
+    ("DEAN VAN KUREN", "BADGER WC"): bracket_utils.Competitor(
+        full_name="DEAN VAN KUREN",
+        first_name="DEAN",
+        last_name="VAN KUREN",
+        team_full="BADGER WC",
+        team_acronym=None,
+    ),
 }
+_BOUT_NUMBER_INPUTS: dict[tuple[bracket_utils.Division, int], tuple[int, int]] = {
+    ("novice", 62): (1, 577),
+    ("novice", 66): (9, 578),
+    ("novice", 70): (17, 579),
+    ("novice", 74): (25, 580),
+    ("novice", 79): (33, 581),
+    ("novice", 84): (41, 582),
+    ("novice", 89): (49, 583),
+    ("novice", 95): (57, 584),
+    ("novice", 101): (65, 585),
+    ("novice", 108): (73, 586),
+    ("novice", 115): (81, 587),
+    ("novice", 122): (89, 588),
+    ("novice", 138): (97, 589),
+    ("novice", 156): (105, 590),
+    ("novice", 177): (113, 591),
+    ("novice", 215): (121, 592),
+    ("senior", 70): (1, 649),
+    ("senior", 74): (9, 650),
+    ("senior", 79): (17, 651),
+    ("senior", 84): (25, 652),
+    ("senior", 89): (33, 653),
+    ("senior", 95): (41, 654),
+    ("senior", 101): (49, 655),
+    ("senior", 108): (57, 656),
+    ("senior", 115): (65, 657),
+    ("senior", 122): (73, 658),
+    ("senior", 130): (81, 659),
+    ("senior", 138): (89, 660),
+    ("senior", 147): (97, 661),
+    ("senior", 156): (105, 662),
+    ("senior", 166): (113, 663),
+    ("senior", 177): (121, 664),
+    ("senior", 189): (129, 665),
+    ("senior", 275): (137, 666),
+}
+
+
+def _get_bout_numbers(
+    division: bracket_utils.Division, weight: int
+) -> dict[bracket_utils.MatchSlot, int]:
+    key = (division, weight)
+    entry = _BOUT_NUMBER_INPUTS.get(key)
+    if entry is None:
+        return {}
+
+    first_pigtail, first_place = entry
+    if division == "novice":
+        weight_count = 16
+    elif division == "senior":
+        weight_count = 18
+    else:
+        raise NotImplementedError(division)
+
+    return {
+        "championship_r32_02": first_pigtail,
+        "championship_r32_04": first_pigtail + 1,
+        "championship_r32_06": first_pigtail + 2,
+        "championship_r32_08": first_pigtail + 3,
+        "championship_r32_10": first_pigtail + 4,
+        "championship_r32_12": first_pigtail + 5,
+        "championship_r32_14": first_pigtail + 6,
+        "championship_r32_16": first_pigtail + 7,
+        "consolation_fifth_place": first_place - 2 * weight_count,
+        "consolation_third_place": first_place - weight_count,
+        "championship_first_place": first_place,
+    }
 
 
 def main():
     weight_classes: list[bracket_utils.WeightClass] = []
-    for weight, champ in _NOVICE_CHAMPS.items():
-        weight_class = bracket_utils.weight_class_from_champ(
-            "novice", weight, champ, _NOVICE_TEAM_REPLACE
+
+    for weight, competitors in _NOVICE_COMPETITORS.items():
+        bout_numbers = _get_bout_numbers("novice", weight)
+        weight_class = bracket_utils.weight_class_from_competitors(
+            "novice",
+            weight,
+            competitors,
+            _NOVICE_TEAM_REPLACE,
+            _NAME_EXCEPTIONS,
+            bout_numbers,
         )
         weight_classes.append(weight_class)
 
-    for weight, champ in _SENIOR_CHAMPS.items():
-        weight_class = bracket_utils.weight_class_from_champ(
-            "senior", weight, champ, _SENIOR_TEAM_REPLACE
+    for weight, competitors in _SENIOR_COMPETITORS.items():
+        bout_numbers = _get_bout_numbers("senior", weight)
+        weight_class = bracket_utils.weight_class_from_competitors(
+            "senior",
+            weight,
+            competitors,
+            _SENIOR_TEAM_REPLACE,
+            _NAME_EXCEPTIONS,
+            bout_numbers,
         )
         weight_classes.append(weight_class)
 

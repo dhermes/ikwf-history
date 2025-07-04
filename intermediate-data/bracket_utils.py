@@ -378,21 +378,7 @@ def competitor_from_raw(
 
     parts = value.name.split()
     if len(parts) != 2:
-        import sys
-
-        print(
-            f"({repr(value.name)}, {repr(value.team_full)}): bracket_utils.Competitor("
-        )
-        print(f"full_name={repr(value.name)},")
-        print('first_name="",')
-        print('last_name="",')
-        print(f"team_full={repr(value.team_full)},")
-        print("team_acronym=None,")
-        print("),")
-
-        sys.exit(1)
-
-        # raise RuntimeError(value.name, value.team_full, value.team_acronym)
+        raise RuntimeError(value.name, value.team_full, value.team_acronym)
 
     return Competitor(
         full_name=value.name,
