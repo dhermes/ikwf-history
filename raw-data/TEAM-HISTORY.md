@@ -423,87 +423,189 @@ The Warhawks have also been involved in the support and promotion of Freestyle
 and Greco-Roman competition through the IWF for many years and have been an
 annual host of the Team Illinois Qualifier competition for many years.
 
-```
-TEAM: VITTUM CATS WC AVG. NUMBER OF WRESTLERS: 50
-FOUNDING YEAR: 1972 NUMBER OF COACHES: 7
-FOUNDERS: FRANK GUIDE (GRAMPS) PRACTICE FACILITY: VITTUM PARK
+## Cicero Bobcats
 
-The Vittum Cats Wrestling Club was originally two teams. The Cicero Bobcats, founded by Jim DiGregorio (Mr. Didi), and
-the Vittum Vikings, founded by Frank Guide (Gramps), merged in 1983 to become the Vittum Cats Wrestling Club. Today, the Cats
-are a self-supporting organization. They have an annual budget of $9,000. The team supports this budget through registration fees
-and fundraising events.
+> [!NOTE]
+> This information is from the 1995 IKWF program
 
-The Vittum Cats have always been very competitive. From 1984 through 1991 the team placed in the top four at the state
-championships; two of those were first place finishes. Vittum has also had many individual successes. The team sent 123 wrestlers to
-the state championships with 57 place winners and 10 state champs. Many of the Vittum Cat wrestlers have gone on to become IHSA
-state champions including Joe Cascone, Mike Manganiello, Tom Buenik, Bill Guide, Will Lepsi, and Mark Bybee.
+|                          |                           |
+| ------------------------ | ------------------------- |
+| FOUNDING YEAR            | 1972                      |
+| FOUNDER(S)               | Jim DiGregorio (Mr. Didi) |
+| PRACTICE FACILITY        |                           |
+| AVG. NUMBER OF WRESTLERS |                           |
+| NUMBER OF COACHES        |                           |
 
-TEAM: RICHMOND WRESTLING CLUB INC. NUMBER OF COACHES: 6
+The Vittum Cats Wrestling Club was originally two teams. The Cicero Bobcats,
+founded by Jim DiGregorio (Mr. Didi), and the Vittum Vikings, founded by Frank
+Guide (Gramps), merged in 1983 to become the Vittum Cats Wrestling Club.
 
-FOUNDING YEAR: 1988 PRACTICE FACILITY: RICHMOND BURTON
-FOUNDER: WILLIAM DAVIDSON COMMUNITY H.S.
+## Vittum Vikings
 
-AVG. NUMBER OF WRESTLERS: 40 AD SPONSOR: MC HENRY SAVINGS BANK
+> [!NOTE]
+> This information is from the 1995 IKWF program
 
-The Richmond Wrestling Club is a self-supporting organization that maintains its $1,500 budget through membership fees
-and fundraising. The team practices two nights per week and competes in 12 tournaments as well as 2 dual meets during the season.
+|                          |                      |
+| ------------------------ | -------------------- |
+| FOUNDING YEAR            | 1972                 |
+| FOUNDER(S)               | FRANK GUIDE (GRAMPS) |
+| PRACTICE FACILITY        |                      |
+| AVG. NUMBER OF WRESTLERS |                      |
+| NUMBER OF COACHES        |                      |
 
-The Richmond Wrestling Club is a fairly young team and has a very good showing in Novice division competition. The
-team has placed in the top three in their region for the past two years. The Richmond Club has sent seven wrestlers to the state
-championships and has had one place winner.
+The Vittum Cats Wrestling Club was originally two teams. The Cicero Bobcats,
+founded by Jim DiGregorio (Mr. Didi), and the Vittum Vikings, founded by Frank
+Guide (Gramps), merged in 1983 to become the Vittum Cats Wrestling Club.
 
+## Vittum Cats
 
-TEAM: EDWARDSVILLE WRESTLING CLUB AVG. NUMBER OF WRESTLERS: 60
-FOUNDING YEAR: 1971 NUMBER OF COACHES: 12
-FOUNDER: JON DAVIS PRACTICE FACILITY: EDWARDSVILLE H.S.
+> [!NOTE]
+> This information is from the 1995 IKWF program
 
-The Edwardsville Wrestling Club is affiliated with the Edwardsville School District Unit 7. The team enjoys a unique
-relationship with the Edwardsville High School. Both organizations work together in all aspects of the organization including
-fundraising. Since the club practices at the Edwardsville High School, coaches from both the kid's club and the high school train with
-the team. The Club has an annual budget of $1,500. The Edwardsville Wrestling Tigers Booster Club supports the Edwardsville
-Wrestling Club financially.
+|                          |                      |
+| ------------------------ | -------------------- |
+| FOUNDING YEAR            | 1983                 |
+| FOUNDER(S)               | FRANK GUIDE (GRAMPS) |
+| PRACTICE FACILITY        | VITTUM PARK          |
+| AVG. NUMBER OF WRESTLERS | 50                   |
+| NUMBER OF COACHES        | 7                    |
 
-Over the years Edwardsville has sent over 250 wrestlers to the State Championships and has had 14 place winners. As a
-team, the club has won 16 Regional Championships and 15 Sectional Championships.
+The Vittum Cats Wrestling Club was originally two teams. The Cicero Bobcats,
+founded by Jim DiGregorio (Mr. Didi), and the Vittum Vikings, founded by Frank
+Guide (Gramps), merged in 1983 to become the Vittum Cats Wrestling Club. Today,
+the Cats are a self-supporting organization. They have an annual budget of
+$9,000. The team supports this budget through registration fees and fundraising
+events.
 
-TEAM: TIGERTOWN TANGLERS AVG. NUMBER OF WRESTLERS: 75
-FOUNDING YEAR: 1984 NUMBER OF COACHES: 8
-FOUNDER: RANDY SWINFORD PRACTICE FACILITY: ST. LOUIS SCHOOL
+The Vittum Cats have always been very competitive. From 1984 through 1991 the
+team placed in the top four at the state championships; two of those were first
+place finishes. Vittum has also had many individual successes. The team sent 123
+wrestlers to the state championships with 57 place winners and 10 state champs.
+Many of the Vittum Cat wrestlers have gone on to become IHSA state champions
+including Joe Cascone, Mike Manganiello, Tom Buenik, Bill Guide, Will Lepsi, and
+Mark Bybee.
 
-The Tigertown Tanglers are affiliated with Princeton High School. They are a self-supported organization with a $5,000
-annual budget. The club practices 3 times per week and attends 13 tournaments during a season. Head coach, Jason Bird has been
-with the organization since the team joined the IKWF in 1984. Since then, they have sent 39 boys to the State Championships with
-8 place winners and one State Champion. The team has won 7 Regional championships and 5 Sectional championships.
+## Richmond Wrestling Club Inc.
 
-The Tigertown Tanglers have had several outstanding wrestlers emerge from their program. Some of these names include:
-Kipp and Kristian Wahlgren, both wrestling for the Navy, as well as Brian Anderson, wrestling for ISU.
+> [!NOTE]
+> This information is from the 1995 IKWF program
 
+|                          |                                |
+| ------------------------ | ------------------------------ |
+| FOUNDING YEAR            | 1988                           |
+| FOUNDER(S)               | WILLIAM DAVIDSON               |
+| PRACTICE FACILITY        | RICHMOND BURTON COMMUNITY H.S. |
+| AVG. NUMBER OF WRESTLERS | 40                             |
+| NUMBER OF COACHES        | 6                              |
+| AD SPONSOR               | MCHENRY SAVINGS BANK           |
 
-TEAM: HINSDALE RED DEVIL W.C./FALCON AVG. NUMBER OF WRESTLERS: 40
-WRESTLING CLUB NUMBER OF COACHES: 5
-FOUNDING YEAR: 1971 PRACTICE FACILITY: HINSDALE CENTRAL H.S.
-FOUNDERS: DAVE MATTHEWS & REX AD SPONSOR: PAINE WEBBER OF HINSDALE
-WHITLATCH
+The Richmond Wrestling Club is a self-supporting organization that maintains its
+$1,500 budget through membership fees and fundraising. The team practices two
+nights per week and competes in 12 tournaments as well as 2 dual meets during
+the season.
 
-The Hinsdale Red Devil W.C. is affiliated with Hinsdale Central H.S. The Club has an annual budget of $3,200 that it
-maintains with annual registration fees. The team practices 3 nights per week and competes in 5 tournaments and 8 dual meets. In
-past years, the Red Devils have sent 50 wrestlers to the State Championships with 8 place winners.
+The Richmond Wrestling Club is a fairly young team and has a very good showing
+in Novice division competition. The team has placed in the top three in their
+region for the past two years. The Richmond Club has sent seven wrestlers to the
+state championships and has had one place winner.
 
-The Red Devils have many noteworthy alumni. The list includes: John Llewellyn, NCAA Champion (U of 1), Jeff Tolbert,
-IHSA All- American and 3 time MVP at Purdue University, Matt Clark, 2 time IHSA state place winner, Dave Matthews, 7 time State
-Tournament official and 2 time Official of the Year, Eric Wisch, 2 time IHSA state place winner, and Rex Whitlatch, inducted into
-the Illinois High School Coaches Hall of Fame.
-TEAM MS KIDS CLUB AVG. NUMBER OF WRESTLERS: 70
-FOUNDING YEAR: 1990 NUMBER OF COACHES: 8
-FOUNDERS: LADONNA KAISER AND JOHN PRACTICE FACILITY: MS JR. HIGH
-ARNOLD
+## Edwardsville Wrestling Club
 
-The MS Kids Club is a self-supporting organization made up of kids from 2nd to Sth grade. The club
-has an annual budget of $3,500, In order to prepare for the 6 tournaments and 5 dual meets they compete in the
-team practices 2 nights per week. The club has sent 4 wrestlers to the State Championships. As a team they
+> [!NOTE]
+> This information is from the 1995 IKWF program
+
+|                          |                   |
+| ------------------------ | ----------------- |
+| FOUNDING YEAR            | 1971              |
+| FOUNDER(S)               | JON DAVIS         |
+| PRACTICE FACILITY        | EDWARDSVILLE H.S. |
+| AVG. NUMBER OF WRESTLERS | 60                |
+| NUMBER OF COACHES        | 12                |
+
+The Edwardsville Wrestling Club is affiliated with the Edwardsville School
+District Unit 7. The team enjoys a unique relationship with the Edwardsville
+High School. Both organizations work together in all aspects of the organization
+including fundraising. Since the club practices at the Edwardsville High School,
+coaches from both the kid's club and the high school train with the team. The
+Club has an annual budget of $1,500. The Edwardsville Wrestling Tigers Booster
+Club supports the Edwardsville Wrestling Club financially.
+
+Over the years Edwardsville has sent over 250 wrestlers to the State
+Championships and has had 14 place winners. As a team, the club has won 16
+Regional Championships and 15 Sectional Championships.
+
+## Tigertown Tanglers
+
+> [!NOTE]
+> This information is from the 1995 IKWF program
+
+|                          |                  |
+| ------------------------ | ---------------- |
+| FOUNDING YEAR            | 1984             |
+| FOUNDER(S)               | RANDY SWINFORD   |
+| PRACTICE FACILITY        | ST. LOUIS SCHOOL |
+| AVG. NUMBER OF WRESTLERS | 75               |
+| NUMBER OF COACHES        | 8                |
+
+The Tigertown Tanglers are affiliated with Princeton High School. They are a
+self-supported organization with a $5,000 annual budget. The club practices 3
+times per week and attends 13 tournaments during a season. Head coach, Jason
+Bird has been with the organization since the team joined the IKWF in 1984.
+Since then, they have sent 39 boys to the State Championships with 8 place
+winners and one State Champion. The team has won 7 Regional championships and 5
+Sectional championships.
+
+The Tigertown Tanglers have had several outstanding wrestlers emerge from their
+program. Some of these names include: Kipp and Kristian Wahlgren, both wrestling
+for the Navy, as well as Brian Anderson, wrestling for ISU.
+
+## Hinsdale Red Devil Wrestling Club / Falcon Wrestling Club
+
+> [!NOTE]
+> This information is from the 1995 IKWF program
+
+|                          |                               |
+| ------------------------ | ----------------------------- |
+| FOUNDING YEAR            | 1971                          |
+| FOUNDER(S)               | DAVE MATTHEWS & REX WHITLATCH |
+| PRACTICE FACILITY        | HINSDALE CENTRAL H.S.         |
+| AVG. NUMBER OF WRESTLERS | 40                            |
+| NUMBER OF COACHES        | 5                             |
+| AD SPONSOR               | PAINE WEBBER OF HINSDALE      |
+
+The Hinsdale Red Devil W.C. is affiliated with Hinsdale Central H.S. The Club
+has an annual budget of $3,200 that it maintains with annual registration fees.
+The team practices 3 nights per week and competes in 5 tournaments and 8 dual
+meets. In past years, the Red Devils have sent 50 wrestlers to the State
+Championships with 8 place winners.
+
+The Red Devils have many noteworthy alumni. The list includes: John Llewellyn,
+NCAA Champion (U of I), Jeff Tolbert, IHSA All-American and 3 time MVP at
+Purdue University, Matt Clark, 2 time IHSA state place winner, Dave Matthews, 7
+time State Tournament official and 2 time Official of the Year, Eric Wisch, 2
+time IHSA state place winner, and Rex Whitlatch, inducted into the Illinois High
+School Coaches Hall of Fame.
+
+## Mahomet-Seymour (MS) Kids Club
+
+> [!NOTE]
+> This information is from the 1995 IKWF program
+
+|                          |                                |
+| ------------------------ | ------------------------------ |
+| FOUNDING YEAR            | 1990                           |
+| FOUNDER(S)               | LADONNA KAISER AND JOHN ARNOLD |
+| PRACTICE FACILITY        | MS JR. HIGH                    |
+| AVG. NUMBER OF WRESTLERS | 70                             |
+| NUMBER OF COACHES        | 8                              |
+
+The MS Kids Club is a self-supporting organization made up of kids from 2nd to
+5th grade. The club has an annual budget of $3,500, In order to prepare for the
+6 tournaments and 5 dual meets they compete in the team practices 2 nights per
+week. The club has sent 4 wrestlers to the State Championships. As a team they
 have 3 Regional Championships and 3 Sectional Championships.
 
-
+```
 TEAM: LITTLE CELTIC WRESTLING CLUB AVG. NUMBER OF WRESTLERS: 85
 FOUNDING YEAR: 1990 NUMBER OF COACHES: 12
 FOUNDERS: MARTY & BILL NOWAK PRACTICE FACILITY: PROVIDENCE
