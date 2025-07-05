@@ -1654,12 +1654,12 @@
       {
         "tournament_id": 25,
         "division": "novice",
-        "name": "TOMCAT"
+        "name": "TOMCAT WC"
       },
       {
         "tournament_id": 25,
         "division": "senior",
-        "name": "Tomcat WC"
+        "name": "TOMCAT WC"
       },
       {
         "tournament_id": 26,
@@ -2382,7 +2382,7 @@
       {
         "tournament_id": 25,
         "division": "novice",
-        "name": "BELEVILLE DEVIL"
+        "name": "BELLEVILLE LITTLE DEVILS"
       },
       {
         "tournament_id": 26,
@@ -4630,7 +4630,7 @@
       {
         "tournament_id": 25,
         "division": "novice",
-        "name": "BRADLEY BOUR"
+        "name": "BRADLEY - BOURBONNAIS WC"
       },
       {
         "tournament_id": 27,
@@ -7500,7 +7500,7 @@
       {
         "tournament_id": 25,
         "division": "senior",
-        "name": "Crystal Lake Wizards"
+        "name": "CRYSTAL LAKE WIZARDS"
       },
       {
         "tournament_id": 29,
@@ -9046,7 +9046,12 @@
       {
         "tournament_id": 25,
         "division": "novice",
-        "name": "HARVEY TWISTERS"
+        "name": "HARVEY PARK DISTRICT TWISTERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "HARVEY PARK DISTRICT TWISTERS"
       },
       {
         "tournament_id": 26,
@@ -11405,7 +11410,7 @@
       {
         "tournament_id": 25,
         "division": "senior",
-        "name": "Addison Indian Trail"
+        "name": "ADDISON / INDIAN TRAIL"
       }
     ]
   },
@@ -18724,7 +18729,7 @@
     ]
   },
   {
-    "name_normalized": "Dolton",
+    "name_normalized": "Dolton Park Falcons",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -18733,20 +18738,14 @@
         "name": "Dolton"
       },
       {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Dolton"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Dolton Falcons",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 12,
         "division": "senior",
         "name": "DOLTON FALCONS"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Dolton"
       },
       {
         "tournament_id": 15,
@@ -18759,9 +18758,44 @@
         "name": "Dolton Falcons"
       },
       {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Dolton Park"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Dolton Park Falcons"
+      },
+      {
         "tournament_id": 20,
         "division": "senior",
         "name": "Dolton Falcons"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "Dolton P. Fal."
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "Dolton Park Falcons"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "DOLTON PARK FALCONS"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "Dolton P. Fal."
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "DOLTON PARK FALCONS"
       },
       {
         "tournament_id": 23,
@@ -18777,62 +18811,20 @@
         "tournament_id": 24,
         "division": "novice",
         "name": "DOLTON PD FALCONS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Dolton P. Fal.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "Dolton P. Fal."
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "Dolton P. Fal."
-      }
-    ]
-  },
-  {
-    "name_normalized": "Dolton Park",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Dolton Park"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Dolton Park Falcons"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "Dolton Park Falcons"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "DOLTON PARK FALCONS"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "DOLTON PARK FALCONS"
       },
       {
         "tournament_id": 25,
         "division": "novice",
-        "name": "DOLTON PARK"
+        "name": "DOLTON PARK FALCONS"
       },
       {
         "tournament_id": 26,
         "division": "novice",
+        "name": "DOLTON PARK FALCONS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
         "name": "DOLTON PARK FALCONS"
       },
       {
@@ -26155,7 +26147,7 @@
       {
         "tournament_id": 25,
         "division": "senior",
-        "name": "Granite City Coolidge"
+        "name": "GRANITE CITY COOLIDGE"
       }
     ]
   },
@@ -26853,53 +26845,7 @@
     ]
   },
   {
-    "name_normalized": "Harlem Cougar WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Harlem Cougar WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Harlem Cougar WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Harlem Cougar WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Harlem Cougar WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Harlem Cougar WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Harlem Cougar WC"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Harlem Cougar WC"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Harlem Cougar WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Harlem Cougars",
+    "name_normalized": "Harlem Cougars WC",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -26915,7 +26861,12 @@
       {
         "tournament_id": 25,
         "division": "novice",
-        "name": "HARLEM COUGARS"
+        "name": "HARLEM COUGARS WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "HARLEM COUGARS WC"
       },
       {
         "tournament_id": 26,
@@ -27031,17 +26982,46 @@
         "tournament_id": 39,
         "division": "senior",
         "name": "HARLEM COUGARS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Harlem Cougars WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
-        "tournament_id": 25,
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Harlem Cougar WC"
+      },
+      {
+        "tournament_id": 42,
         "division": "senior",
-        "name": "Harlem Cougars WC"
+        "name": "Harlem Cougar WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Harlem Cougar WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Harlem Cougar WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Harlem Cougar WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Harlem Cougar WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Harlem Cougar WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Harlem Cougar WC"
       },
       {
         "tournament_id": 46,
@@ -31490,7 +31470,7 @@
       {
         "tournament_id": 25,
         "division": "senior",
-        "name": "Joliet Boys Club"
+        "name": "JOLIET BOYS CLUB COBRAS"
       },
       {
         "tournament_id": 26,
@@ -31581,7 +31561,7 @@
     ]
   },
   {
-    "name_normalized": "Joliet Ymca",
+    "name_normalized": "Joliet YMCA",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -31612,23 +31592,7 @@
     ]
   },
   {
-    "name_normalized": "Jordan Seton",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "JORDAN-SETON"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "JORDAN SETON"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Jordan WC",
+    "name_normalized": "Jordan / Seton Wrestling Club",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -31640,6 +31604,16 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Jordan WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "JORDAN-SETON"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "JORDAN / SETON WC"
       }
     ]
   },
@@ -37156,13 +37130,13 @@
       },
       {
         "tournament_id": 25,
-        "division": "senior",
-        "name": "Little Celtic WC"
+        "division": "novice",
+        "name": "LITTLE CELTIC WC"
       },
       {
         "tournament_id": 25,
         "division": "senior",
-        "name": "Little Celtics"
+        "name": "LITTLE CELTIC WC"
       },
       {
         "tournament_id": 27,
@@ -42586,9 +42560,44 @@
     ]
   },
   {
-    "name_normalized": "Morton",
+    "name_normalized": "Morton Youth Wrestling Club",
     "url_path_slug": null,
     "duplicates": [
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Morton Youth"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "Morton Youth Wrestling"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "MORTON YOUTH"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "MORTON YOUTH WC"
+      },
       {
         "tournament_id": 23,
         "division": "novice",
@@ -42598,6 +42607,231 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "MORTON"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "MORTON YOUTH"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "MORTON YOUTH"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "MORTON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "MORTON YOUTH WRESTLI"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "MORTON YOUTH WRESTLI"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "MORTON YOUTH WRESTLI"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "MORTON YOUTH WRESTLI"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "MORTON YOUTH WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "MORTON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "MORTON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "MORTON YOUTH WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "MORTON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "MORTON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "MORTON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "MORTON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "MORTON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "MORTON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Morton Youth Wrestling"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Morton Youth Wrestling"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Morton Youth Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Morton Youth Wrestling Club"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Morton Youth WC"
       }
     ]
   },
@@ -42750,301 +42984,6 @@
         "tournament_id": 43,
         "division": "senior",
         "name": "Morton Little Mustangs WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Morton Youth",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Morton Youth"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "MORTON YOUTH"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "MORTON YOUTH WC"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "MORTON"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "Morton Youth"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Morton Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "MORTON YOUTH WC"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "MORTON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "MORTON YOUTH WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "MORTON YOUTH WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Morton Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Morton Youth Wrestli",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "MORTON YOUTH WRESTLI"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "MORTON YOUTH WRESTLI"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "MORTON YOUTH WRESTLI"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "MORTON YOUTH WRESTLI"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Morton Youth Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "Morton Youth Wrestling"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "MORTON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "MORTON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "MORTON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "MORTON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "MORTON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "MORTON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "MORTON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "MORTON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Morton Youth Wrestling"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Morton Youth Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Morton Youth Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Morton Youth Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Morton Youth Wrestling Club"
       }
     ]
   },
@@ -47506,22 +47445,6 @@
     ]
   },
   {
-    "name_normalized": "Orland Park",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Orland Park"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "ORLAND PARK"
-      }
-    ]
-  },
-  {
     "name_normalized": "Orland Park Pioneers",
     "url_path_slug": null,
     "duplicates": [
@@ -47534,6 +47457,11 @@
         "tournament_id": 12,
         "division": "senior",
         "name": "Orland Park Pioneers"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Orland Park"
       },
       {
         "tournament_id": 15,
@@ -47574,6 +47502,11 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "ORLAND PARK"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "ORLAND PARK PIONEERS"
       },
       {
         "tournament_id": 26,
@@ -53333,91 +53266,14 @@
     ]
   },
   {
-    "name_normalized": "Riverdale Jr High",
+    "name_normalized": "Riverdale Junior Rams Wrestling Club",
     "url_path_slug": null,
     "duplicates": [
       {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "RIVERDALE JR HIGH"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "RIVERDALE JR HIGH"
-      },
-      {
-        "tournament_id": 30,
+        "tournament_id": 19,
         "division": "senior",
-        "name": "RIVERDALE JR HIGH"
+        "name": "Riverdale Rams"
       },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "RIVERDALE JR HIGH"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Riverdale Jr Rams WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "RIVERDALE JR RAMS WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "RIVERDALE JR RAMS WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Riverdale Jr Rams WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Riverdale Jr Rams WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "RIVERDALE JR RAMS WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "RIVERDALE JR RAMS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "RIVERDALE JR RAMS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "RIVERDALE JR RAMS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "RIVERDALE JR RAMS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "RIVERDALE JR RAMS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Riverdale Jr. High",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 21,
         "division": "senior",
@@ -53434,6 +53290,31 @@
         "name": "RIVERDALE"
       },
       {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "RIVERDALE JR. HIGH WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "RIVERDALE JR. HIGH WC"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "RIVERDALE JR HIGH"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "RIVERDALE JR HIGH"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "RIVERDALE JR HIGH"
+      },
+      {
         "tournament_id": 33,
         "division": "novice",
         "name": "RIVERDALE JR. HIGH"
@@ -53442,17 +53323,6 @@
         "tournament_id": 33,
         "division": "senior",
         "name": "RIVERDALE JR. HIGH"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Riverdale Jr. Rams WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Riverdale Rams"
       },
       {
         "tournament_id": 34,
@@ -53463,18 +53333,62 @@
         "tournament_id": 34,
         "division": "senior",
         "name": "RIVERDALE JR. RAMS WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "RIVERDALE JR RAMS WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "RIVERDALE JR RAMS WC"
       },
       {
         "tournament_id": 36,
         "division": "novice",
         "name": "RIVERDALE JR. RAMS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Riverdale WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Riverdale Jr Rams WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Riverdale Jr Rams WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "RIVERDALE JR RAMS WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "RIVERDALE JR RAMS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "RIVERDALE JR RAMS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "RIVERDALE JR RAMS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "RIVERDALE JR RAMS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "RIVERDALE JR RAMS WC"
+      },
       {
         "tournament_id": 53,
         "division": "bantam",
@@ -54711,13 +54625,13 @@
       },
       {
         "tournament_id": 25,
-        "division": "senior",
-        "name": "Rockford"
+        "division": "novice",
+        "name": "ROCKFORD WC"
       },
       {
         "tournament_id": 25,
         "division": "senior",
-        "name": "Rockford WC"
+        "name": "ROCKFORD WC"
       },
       {
         "tournament_id": 29,
@@ -55160,8 +55074,13 @@
       },
       {
         "tournament_id": 25,
+        "division": "novice",
+        "name": "ROSEMONT COBRAS"
+      },
+      {
+        "tournament_id": 25,
         "division": "senior",
-        "name": "Rosemont Cobras"
+        "name": "ROSEMONT COBRAS"
       }
     ]
   },
@@ -59135,25 +59054,14 @@
     ]
   },
   {
-    "name_normalized": "St Bar/Christ King",
+    "name_normalized": "St. Bede Wrestling Club",
     "url_path_slug": null,
     "duplicates": [
       {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "ST BAR/CHRIST KING"
-      },
-      {
-        "tournament_id": 25,
+        "tournament_id": 16,
         "division": "senior",
-        "name": "St Bar/Christ King"
-      }
-    ]
-  },
-  {
-    "name_normalized": "St Bede WC",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "St. Bede's"
+      },
       {
         "tournament_id": 30,
         "division": "novice",
@@ -59168,6 +59076,16 @@
         "tournament_id": 31,
         "division": "senior",
         "name": "ST BEDE WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "ST. BEDE'S"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "ST. BEDE'S"
       }
     ]
   },
@@ -59194,27 +59112,16 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "ST. BARNABAS / CHRIST THE KING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "St. Bede'S",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "St. Bede's"
       },
       {
-        "tournament_id": 34,
+        "tournament_id": 25,
         "division": "novice",
-        "name": "ST. BEDE'S"
+        "name": "ST. BARNABAS / CHRIST THE KING SHARKS"
       },
       {
-        "tournament_id": 34,
+        "tournament_id": 25,
         "division": "senior",
-        "name": "ST. BEDE'S"
+        "name": "ST. BARNABAS / CHRIST THE KING SHARKS"
       }
     ]
   },
@@ -63668,12 +63575,12 @@
       {
         "tournament_id": 25,
         "division": "novice",
-        "name": "TINLEY PARK"
+        "name": "TINLEY PARK BULLDOGS"
       },
       {
         "tournament_id": 25,
         "division": "senior",
-        "name": "Tinley Park Bulldogs"
+        "name": "TINLEY PARK BULLDOGS"
       },
       {
         "tournament_id": 26,
@@ -66410,8 +66317,13 @@
       },
       {
         "tournament_id": 25,
+        "division": "novice",
+        "name": "VILLA-LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 25,
         "division": "senior",
-        "name": "Villa Lombard"
+        "name": "VILLA-LOMBARD COUGARS"
       },
       {
         "tournament_id": 27,
