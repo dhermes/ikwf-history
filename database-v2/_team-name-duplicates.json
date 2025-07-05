@@ -1649,7 +1649,7 @@
       {
         "tournament_id": 24,
         "division": "novice",
-        "name": "TOMCATS"
+        "name": "TOMCAT WRESTLING"
       },
       {
         "tournament_id": 25,
@@ -2377,7 +2377,7 @@
       {
         "tournament_id": 24,
         "division": "senior",
-        "name": "Little Devils"
+        "name": "LITTLE DEVILS"
       },
       {
         "tournament_id": 25,
@@ -7490,12 +7490,12 @@
       {
         "tournament_id": 24,
         "division": "novice",
-        "name": "CRYSTAL LAKE"
+        "name": "CRYSTAL LAKE WIZARDS"
       },
       {
         "tournament_id": 24,
         "division": "senior",
-        "name": "Crystal Lake Wizards"
+        "name": "CRYSTAL LAKE WIZARDS"
       },
       {
         "tournament_id": 25,
@@ -18776,7 +18776,7 @@
       {
         "tournament_id": 24,
         "division": "novice",
-        "name": "DOLTON FALCONS"
+        "name": "DOLTON PD FALCONS"
       }
     ]
   },
@@ -20105,7 +20105,7 @@
       {
         "tournament_id": 24,
         "division": "senior",
-        "name": "Eagle WC"
+        "name": "EAGLE WC"
       }
     ]
   },
@@ -28100,7 +28100,7 @@
     ]
   },
   {
-    "name_normalized": "Hickory Hills",
+    "name_normalized": "Hickory Hills Park District",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -28114,32 +28114,10 @@
         "name": "Hickory Hills"
       },
       {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "HICKORY HILLS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hickory Hills P.D.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 15,
         "division": "senior",
         "name": "Hickory Hills P.D."
       },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Hickory Hills P.D."
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hickory Hills Pd",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 15,
         "division": "senior",
@@ -28149,6 +28127,11 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Hickory Hills PD"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Hickory Hills P.D."
       },
       {
         "tournament_id": 21,
@@ -28161,9 +28144,14 @@
         "name": "HICKORY HILLS PD"
       },
       {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "HICKORY HILLS"
+      },
+      {
         "tournament_id": 24,
         "division": "senior",
-        "name": "Hickory Hills PD"
+        "name": "HICKORY HILLS PD"
       }
     ]
   },
@@ -31426,7 +31414,7 @@
     ]
   },
   {
-    "name_normalized": "Joliet Boy'S Club",
+    "name_normalized": "Joliet Boys Club",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -31442,12 +31430,22 @@
       {
         "tournament_id": 3,
         "division": "senior",
+        "name": "JOLIET BOYS CLUB"
+      },
+      {
+        "tournament_id": 3,
+        "division": "senior",
         "name": "Joliet Boy's Club"
       },
       {
         "tournament_id": 4,
         "division": "senior",
         "name": "Joliet Boy's Club"
+      },
+      {
+        "tournament_id": 5,
+        "division": "senior",
+        "name": "JOLIET BOYS CLUB"
       },
       {
         "tournament_id": 5,
@@ -31468,22 +31466,6 @@
         "tournament_id": 8,
         "division": "senior",
         "name": "Joliet Boy's Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Joliet Boys Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 3,
-        "division": "senior",
-        "name": "JOLIET BOYS CLUB"
-      },
-      {
-        "tournament_id": 5,
-        "division": "senior",
-        "name": "JOLIET BOYS CLUB"
       },
       {
         "tournament_id": 21,
@@ -31491,9 +31473,19 @@
         "name": "JOLIET BOYS CLUB"
       },
       {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "JOLIET BOYS CLUB COBRAS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "JOLIET"
+      },
+      {
         "tournament_id": 24,
         "division": "novice",
-        "name": "JOLIET BOYS CLUB"
+        "name": "JOLIET BOYS CLUB COBRAS"
       },
       {
         "tournament_id": 25,
@@ -31504,22 +31496,6 @@
         "tournament_id": 26,
         "division": "novice",
         "name": "JOLIET BOYS CLUB COBRAS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Joliet Boys Club Cobras",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "JOLIET BOYS CLUB COBRAS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "JOLIET"
       },
       {
         "tournament_id": 32,
@@ -31939,7 +31915,7 @@
       {
         "tournament_id": 24,
         "division": "novice",
-        "name": "JR. ROCKET"
+        "name": "JR. ROCKET WC"
       },
       {
         "tournament_id": 26,
@@ -34178,7 +34154,7 @@
     ]
   },
   {
-    "name_normalized": "Lan-Oak Pd",
+    "name_normalized": "Lan-Oak Park District",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -42062,7 +42038,7 @@
       {
         "tournament_id": 24,
         "division": "senior",
-        "name": "Moline Tigers"
+        "name": "MOLINE TIGERS"
       }
     ]
   },
@@ -43483,194 +43459,7 @@
     ]
   },
   {
-    "name_normalized": "Mt. Zion",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Mt. Zion"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "MT. ZION"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "MT. ZION"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "MT. ZION"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "MT. ZION WRESTLING CLUB"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mt. Zion Kids WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Mt. Zion Kids WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mt. Zion WC",
+    "name_normalized": "Mt. Zion Wrestling Club",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -43691,6 +43480,11 @@
       {
         "tournament_id": 19,
         "division": "senior",
+        "name": "Mt. Zion"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
         "name": "Mt. Zion WC"
       },
       {
@@ -43699,14 +43493,34 @@
         "name": "Mt. Zion WC"
       },
       {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "MT. ZION"
+      },
+      {
         "tournament_id": 22,
         "division": "senior",
         "name": "MT. ZION WC"
       },
       {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "MT. ZION"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "MT. ZION"
+      },
+      {
         "tournament_id": 24,
         "division": "senior",
-        "name": "Mt. Zion WC"
+        "name": "MT. ZION WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "MT. ZION WRESTLING CLUB"
       },
       {
         "tournament_id": 29,
@@ -43797,6 +43611,156 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "MT. ZION WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Mt. Zion Kids WC"
       }
     ]
   },
@@ -44230,7 +44194,7 @@
       {
         "tournament_id": 24,
         "division": "senior",
-        "name": "Mustang WC"
+        "name": "MUSTANG WC"
       },
       {
         "tournament_id": 32,
@@ -46468,7 +46432,7 @@
       {
         "tournament_id": 24,
         "division": "senior",
-        "name": "Oak Forest Warriors"
+        "name": "OAK FOREST WARRIORS"
       },
       {
         "tournament_id": 32,
@@ -46792,7 +46756,7 @@
     ]
   },
   {
-    "name_normalized": "Oak Lawn Pd",
+    "name_normalized": "Oak Lawn Park District",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -54717,13 +54681,18 @@
     ]
   },
   {
-    "name_normalized": "Rockford",
+    "name_normalized": "Rockford Wrestling Club",
     "url_path_slug": null,
     "duplicates": [
       {
         "tournament_id": 1,
         "division": "senior",
         "name": "Rockford"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "ROCKFORD WC"
       },
       {
         "tournament_id": 23,
@@ -54738,28 +54707,12 @@
       {
         "tournament_id": 24,
         "division": "novice",
-        "name": "ROCKFORD"
+        "name": "ROCKFORD WC"
       },
       {
         "tournament_id": 25,
         "division": "senior",
         "name": "Rockford"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rockford WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "ROCKFORD WC"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "ROCKFORD"
       },
       {
         "tournament_id": 25,
@@ -54897,6 +54850,16 @@
         "name": "Rockford WC"
       },
       {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Rockford Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Rockford Wrestling Club"
+      },
+      {
         "tournament_id": 46,
         "division": "novice",
         "name": "Rockford WC"
@@ -54975,22 +54938,6 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Rockford WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rockford Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Rockford Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Rockford Wrestling Club"
       }
     ]
   },
@@ -55163,7 +55110,7 @@
     ]
   },
   {
-    "name_normalized": "Rosemont",
+    "name_normalized": "Rosemont Cobras",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -55175,13 +55122,7 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Rosemont"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rosemont Cobra",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 15,
         "division": "senior",
@@ -55191,13 +55132,7 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Rosemont Cobra"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rosemont Cobras",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 19,
         "division": "senior",
@@ -55222,11 +55157,6 @@
         "tournament_id": 24,
         "division": "novice",
         "name": "ROSEMONT COBRAS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "Rosemont Cobras"
       },
       {
         "tournament_id": 25,
@@ -55332,23 +55262,7 @@
     ]
   },
   {
-    "name_normalized": "Round Lake",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Round Lake"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "Round Lake"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Round Lake Area Pd",
+    "name_normalized": "Round Lake Area Park District",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -55475,6 +55389,11 @@
     "url_path_slug": null,
     "duplicates": [
       {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Round Lake"
+      },
+      {
         "tournament_id": 20,
         "division": "senior",
         "name": "Round Lake Spartans"
@@ -55488,6 +55407,11 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "ROUND LAKE SPARTANS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ROUND LAKE SPARTAN"
       }
     ]
   },
@@ -63638,7 +63562,7 @@
     ]
   },
   {
-    "name_normalized": "Tinley Park",
+    "name_normalized": "Tinley Park Bulldogs Wrestling Club",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -63646,37 +63570,6 @@
         "division": "senior",
         "name": "TINLEY PARK"
       },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "TINLEY PARK"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Tinley Park"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Tinley Park"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "TINLEY PARK"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "TINLEY PARK"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Tinley Park Bulldogs",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 4,
         "division": "senior",
@@ -63704,6 +63597,16 @@
       },
       {
         "tournament_id": 13,
+        "division": "senior",
+        "name": "TINLEY PARK"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Tinley Park"
+      },
+      {
+        "tournament_id": 14,
         "division": "senior",
         "name": "Tinley Park"
       },
@@ -63754,8 +63657,18 @@
       },
       {
         "tournament_id": 24,
+        "division": "novice",
+        "name": "TINLEY PARK BULLDOGS"
+      },
+      {
+        "tournament_id": 24,
         "division": "senior",
-        "name": "Tinley Park Bulldogs"
+        "name": "TINLEY PARK BULLDOGS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "TINLEY PARK"
       },
       {
         "tournament_id": 25,
@@ -63938,41 +63851,15 @@
         "name": "Tinley Park Bulldogs"
       },
       {
-        "tournament_id": 48,
+        "tournament_id": 45,
         "division": "novice",
-        "name": "Tinley Park Bulldogs"
+        "name": "Tinley Park Bulldogs Wrestling Club"
       },
       {
-        "tournament_id": 48,
+        "tournament_id": 45,
         "division": "senior",
-        "name": "Tinley Park Bulldogs"
+        "name": "Tinley Park Bulldogs Wrestling Club"
       },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Tinley Park Bulldogs"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Tinley Park Bulldogs"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Tinley Park Bulldogs"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Tinley Park Bulldogs"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Tinley Park Bulldogs WC",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 46,
         "division": "novice",
@@ -63994,6 +63881,26 @@
         "name": "Tinley Park Bulldogs WC"
       },
       {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Tinley Park Bulldogs"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Tinley Park Bulldogs"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Tinley Park Bulldogs"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Tinley Park Bulldogs"
+      },
+      {
         "tournament_id": 50,
         "division": "novice",
         "name": "Tinley Park Bulldogs WC"
@@ -64002,6 +63909,16 @@
         "tournament_id": 50,
         "division": "senior",
         "name": "Tinley Park Bulldogs WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Tinley Park Bulldogs"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Tinley Park Bulldogs"
       },
       {
         "tournament_id": 51,
@@ -64092,22 +64009,6 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Tinley Park Bulldogs WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Tinley Park Bulldogs Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Tinley Park Bulldogs Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Tinley Park Bulldogs Wrestling Club"
       }
     ]
   },
@@ -66434,7 +66335,7 @@
     ]
   },
   {
-    "name_normalized": "Villa Lombard",
+    "name_normalized": "Villa-Lombard Cougars",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -66442,179 +66343,6 @@
         "division": "senior",
         "name": "Villa Lombard"
       },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Villa Lombard"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "VILLA LOMBARD"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "Villa Lombard"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Villa Lombard Cougar",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "VILLA LOMBARD COUGAR"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "VILLA LOMBARD COUGAR"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "VILLA LOMBARD COUGAR"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "VILLA LOMBARD COUGAR"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Villa Lombard Cougars",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "VILLA-LOMBARD"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "VILLA-LOMBARD"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "VILLA-LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Villa Lombard Cougars"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Villa Lombard Cougars"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Villa Lombard Cougars"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Villa Lombard Cougars"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Villa Lombard WC",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 16,
         "division": "senior",
@@ -66624,6 +66352,291 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Villa Lombard WC"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Villa Lombard"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "VILLA-LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "VILLA-LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "VILLA-LOMBARD"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "VILLA-LOMBARD"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "VILLA-LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "VILLA-LOMBARD COUGARS WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "VILLA-LOMBARD COUGARS WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "Villa Lombard"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "VILLA-LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "VILLA LOMBARD COUGAR"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "VILLA LOMBARD COUGAR"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "VILLA LOMBARD COUGAR"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "VILLA LOMBARD COUGAR"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Villa Lombard Cougars"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Villa Lombard Cougars"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "VILLA LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Villa Lombard Cougars"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Villa Lombard Cougars"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Villa-Lombard Cougars"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Villa-Lombard Cougars"
       }
     ]
   },
@@ -66816,137 +66829,6 @@
     ]
   },
   {
-    "name_normalized": "Villa-Lombard Cougars",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "VILLA-LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "VILLA-LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "VILLA-LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "VILLA LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Villa-Lombard Cougars"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Villa-Lombard Cougars"
-      }
-    ]
-  },
-  {
     "name_normalized": "Vittum Cats",
     "url_path_slug": null,
     "duplicates": [
@@ -67008,7 +66890,12 @@
       {
         "tournament_id": 24,
         "division": "novice",
-        "name": "VITTUM CATS"
+        "name": "VITTUM CATS WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "VITTUM CATS WC"
       },
       {
         "tournament_id": 26,
@@ -67174,39 +67061,7 @@
         "tournament_id": 10050,
         "division": "senior",
         "name": "Vittum Cats"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Vittum Cats Of Skt",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Vittum Cats of SKT"
       },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Vittum Cats of SKT"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Vittum Cats of SKT"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Vittum Cats of SKT"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Vittum Cats WC",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 19,
         "division": "senior",
@@ -67331,13 +67186,7 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Vittum Cats WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Vittum Cats Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 45,
         "division": "novice",
@@ -67347,6 +67196,32 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Vittum Cats Wrestling Club"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Vittum Cats Of SKT",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Vittum Cats of SKT"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Vittum Cats of SKT"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Vittum Cats of SKT"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Vittum Cats of SKT"
       }
     ]
   },
@@ -68391,7 +68266,7 @@
     ]
   },
   {
-    "name_normalized": "West Chicago Pd",
+    "name_normalized": "West Chicago Park District",
     "url_path_slug": null,
     "duplicates": [
       {
