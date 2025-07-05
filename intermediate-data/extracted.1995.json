@@ -5,19 +5,355 @@
       "weight": 62,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "PATRICK BARTH",
+            "first_name": "PATRICK",
+            "last_name": "BARTH",
+            "team_full": "MORTON YOUTH",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "STEVEN PEACH",
+            "first_name": "STEVEN",
+            "last_name": "PEACH",
+            "team_full": "GRANITE CITY COOLIDGE",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "BRIAN ARKO",
+            "first_name": "BRIAN",
+            "last_name": "ARKO",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "JEFF KROCKO",
+            "first_name": "JEFF",
+            "last_name": "KROCKO",
+            "team_full": "DUNDEE HIGHLANDERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "RYAN KENNY",
+            "first_name": "RYAN",
+            "last_name": "KENNY",
+            "team_full": "ORLAND PARK PIONEERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
           "top_competitor": {
             "full_name": "CASSIO PERO",
             "first_name": "CASSIO",
             "last_name": "PERO",
-            "team_full": "HARVEY TWISTERS",
+            "team_full": "HARVEY PARK DISTRICT TWISTERS",
             "team_acronym": null
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "NICK PALUMBO",
+            "first_name": "NICK",
+            "last_name": "PALUMBO",
+            "team_full": "NOTRE DAME WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "CHRIS ACREE",
+            "first_name": "CHRIS",
+            "last_name": "ACREE",
+            "team_full": "GCMS FALCON WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "MARY KELLY",
+            "first_name": "MARY",
+            "last_name": "KELLY",
+            "team_full": "MAHOMET-SEYMOUR KIDS CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "TONY BUTZ",
+            "first_name": "TONY",
+            "last_name": "BUTZ",
+            "team_full": "BENSENVILLE BISON",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 1,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "MIKE OGANEKU",
+            "first_name": "MIKE",
+            "last_name": "OGANEKU",
+            "team_full": "BADGER WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOSHUA VOGT",
+            "first_name": "JOSHUA",
+            "last_name": "VOGT",
+            "team_full": "LEMONT BEARS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 2,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "BRETT WAPOTISH",
+            "first_name": "BRETT",
+            "last_name": "WAPOTISH",
+            "team_full": "JR. BEARS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MICHAEL SLADE",
+            "first_name": "MICHAEL",
+            "last_name": "SLADE",
+            "team_full": "MAHOMET-SEYMOUR KIDS CLUB",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 3,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "CHARLIE MANNING",
+            "first_name": "CHARLIE",
+            "last_name": "MANNING",
+            "team_full": "ORLAND PARK PIONEERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "EUGENE BLACK",
+            "first_name": "EUGENE",
+            "last_name": "BLACK",
+            "team_full": "CALUMET MEMORIAL PD",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 4,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "BRICE TURNMIRE",
+            "first_name": "BRICE",
+            "last_name": "TURNMIRE",
+            "team_full": "HARLEM COUGARS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRANDON MURPHY",
+            "first_name": "BRANDON",
+            "last_name": "MURPHY",
+            "team_full": "VILLA PARK YOUNG WARRIORS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 5,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "CALEB DEERE",
+            "first_name": "CALEB",
+            "last_name": "DEERE",
+            "team_full": "HERRIN WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "AARON NEAR",
+            "first_name": "AARON",
+            "last_name": "NEAR",
+            "team_full": "DIXON WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 6,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "TRENT GILL",
+            "first_name": "TRENT",
+            "last_name": "GILL",
+            "team_full": "WAUBONSIE BRAVES",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MATT AUSTIN",
+            "first_name": "MATT",
+            "last_name": "AUSTIN",
+            "team_full": "KNIGHTS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 7,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "BRIAN TAYLOR",
+            "first_name": "BRIAN",
+            "last_name": "TAYLOR",
+            "team_full": "TIGERTOWN TANGLERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MATT WILSON",
+            "first_name": "MATT",
+            "last_name": "WILSON",
+            "team_full": "WEST FRANKFORT THUNDERBIRDS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 8,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "RYAN KENNY",
+            "first_name": "RYAN",
+            "last_name": "KENNY",
+            "team_full": "ORLAND PARK PIONEERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "PATRICK BARTH",
+            "first_name": "PATRICK",
+            "last_name": "BARTH",
+            "team_full": "MORTON YOUTH",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 561,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "JEFF KROCKO",
+            "first_name": "JEFF",
+            "last_name": "KROCKO",
+            "team_full": "DUNDEE HIGHLANDERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "NICK PALUMBO",
+            "first_name": "NICK",
+            "last_name": "PALUMBO",
+            "team_full": "NOTRE DAME WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 545,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "BRIAN ARKO",
+            "first_name": "BRIAN",
+            "last_name": "ARKO",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CASSIO PERO",
+            "first_name": "CASSIO",
+            "last_name": "PERO",
+            "team_full": "HARVEY PARK DISTRICT TWISTERS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 577,
+          "top_win": false
         }
       ]
     },
@@ -26,18 +362,354 @@
       "weight": 66,
       "matches": [
         {
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "PATRICK JOHNSON",
+            "first_name": "PATRICK",
+            "last_name": "JOHNSON",
+            "team_full": "BLACKHAWK WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "SCOTT GRECE",
+            "first_name": "SCOTT",
+            "last_name": "GRECE",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "MATT KUCALA",
+            "first_name": "MATT",
+            "last_name": "KUCALA",
+            "team_full": "LITTLE CELTIC WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "FRANK KEELER",
+            "first_name": "FRANK",
+            "last_name": "KEELER",
+            "team_full": "DOLTON PARK FALCONS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "WESLEY EERTMOED",
+            "first_name": "WESLEY",
+            "last_name": "EERTMOED",
+            "team_full": "PEKIN BOYS CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "AARON RUJAWITZ",
+            "first_name": "AARON",
+            "last_name": "RUJAWITZ",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "SEAN MICHAELS",
+            "first_name": "SEAN",
+            "last_name": "MICHAELS",
+            "team_full": "THE WRESTLING FACTORY",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "JACOB WILLOCK",
+            "first_name": "JACOB",
+            "last_name": "WILLOCK",
+            "team_full": "PONTIAC WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "LUCAS GARDNER",
+            "first_name": "LUCAS",
+            "last_name": "GARDNER",
+            "team_full": "GCMS FALCON WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CHRISTIAN CHEBNY",
+            "first_name": "CHRISTIAN",
+            "last_name": "CHEBNY",
+            "team_full": "LAKE VILLA LANCERS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 9,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "KEITH WALN",
+            "first_name": "KEITH",
+            "last_name": "WALN",
+            "team_full": "METRO STALLIONS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JONATHON GAPINSKI",
+            "first_name": "JONATHON",
+            "last_name": "GAPINSKI",
+            "team_full": "LASALLE-PERU CRUNCHING CAVS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 10,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "PATRICK RIZZO",
+            "first_name": "PATRICK",
+            "last_name": "RIZZO",
+            "team_full": "ADAMS JR. HIGH WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DANIEL THOMPSON",
+            "first_name": "DANIEL",
+            "last_name": "THOMPSON",
+            "team_full": "SJO WRESTLING",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 11,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "ROBERT ROOTS",
+            "first_name": "ROBERT",
+            "last_name": "ROOTS",
+            "team_full": "PEKIN BOYS CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "THOMAS TEDESCO",
+            "first_name": "THOMAS",
+            "last_name": "TEDESCO",
+            "team_full": "GRANITE CITY COOLIDGE",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 12,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "JERMERY YOUNGER",
+            "first_name": "JERMERY",
+            "last_name": "YOUNGER",
+            "team_full": "CPS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JUSTIN BEER",
+            "first_name": "JUSTIN",
+            "last_name": "BEER",
+            "team_full": "LITTLE CELTIC WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 13,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "RUDY REYES",
+            "first_name": "RUDY",
+            "last_name": "REYES",
+            "team_full": "LAKELAND WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DAN CHILLEMI",
+            "first_name": "DAN",
+            "last_name": "CHILLEMI",
+            "team_full": "WHEATON BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 14,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "LUKE JONES",
+            "first_name": "LUKE",
+            "last_name": "JONES",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "KEVIN HASTINGS",
+            "first_name": "KEVIN",
+            "last_name": "HASTINGS",
+            "team_full": "VITTUM CATS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 15,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "ADAM POWERS",
+            "first_name": "ADAM",
+            "last_name": "POWERS",
+            "team_full": "EASTLAND MAT CATS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOSEPH HOPKINS",
+            "first_name": "JOSEPH",
+            "last_name": "HOPKINS",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 16,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "JOSEPH HOPKINS",
+            "first_name": "JOSEPH",
+            "last_name": "HOPKINS",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "PATRICK JOHNSON",
+            "first_name": "PATRICK",
+            "last_name": "JOHNSON",
+            "team_full": "BLACKHAWK WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 562,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "LUKE JONES",
+            "first_name": "LUKE",
+            "last_name": "JONES",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JONATHON GAPINSKI",
+            "first_name": "JONATHON",
+            "last_name": "GAPINSKI",
+            "team_full": "LASALLE-PERU CRUNCHING CAVS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 546,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_first_place",
           "top_competitor": {
             "full_name": "FRANK KEELER",
             "first_name": "FRANK",
             "last_name": "KEELER",
-            "team_full": "DOLTON PARK",
+            "team_full": "DOLTON PARK FALCONS",
             "team_acronym": null
           },
-          "bottom_competitor": null,
+          "bottom_competitor": {
+            "full_name": "WESLEY EERTMOED",
+            "first_name": "WESLEY",
+            "last_name": "EERTMOED",
+            "team_full": "PEKIN BOYS CLUB",
+            "team_acronym": null
+          },
           "result": "",
           "result_type": "unknown",
-          "bout_number": null,
+          "bout_number": 578,
           "top_win": true
         }
       ]
@@ -47,19 +719,355 @@
       "weight": 70,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "DONNELL BRADLEY",
+            "first_name": "DONNELL",
+            "last_name": "BRADLEY",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "BRYAN HARNEY",
+            "first_name": "BRYAN",
+            "last_name": "HARNEY",
+            "team_full": "VITTUM CATS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "JOHN SHARP",
+            "first_name": "JOHN",
+            "last_name": "SHARP",
+            "team_full": "PEKIN BOYS CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "JEFFREY WEINACHT",
+            "first_name": "JEFFREY",
+            "last_name": "WEINACHT",
+            "team_full": "HIGHLAND JUNIOR",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "DREW WEIMER",
+            "first_name": "DREW",
+            "last_name": "WEIMER",
+            "team_full": "WAUBONSIE BRAVES",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
           "top_competitor": {
             "full_name": "CALEB FERRY",
             "first_name": "CALEB",
             "last_name": "FERRY",
-            "team_full": "HARLEM COUGARS",
+            "team_full": "HARLEM COUGARS WC",
             "team_acronym": null
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "JEFF PENNINGTON",
+            "first_name": "JEFF",
+            "last_name": "PENNINGTON",
+            "team_full": "FALCON WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "BRANDON ARNOLD",
+            "first_name": "BRANDON",
+            "last_name": "ARNOLD",
+            "team_full": "MAHOMET-SEYMOUR KIDS CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "MARSHALL HOBBS",
+            "first_name": "MARSHALL",
+            "last_name": "HOBBS",
+            "team_full": "MT. ZION WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "IAN TERRY",
+            "first_name": "IAN",
+            "last_name": "TERRY",
+            "team_full": "MAYWOOD \"PIRATES\" WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 17,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "DAVID SILVA",
+            "first_name": "DAVID",
+            "last_name": "SILVA",
+            "team_full": "DUNDEE HIGHLANDERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRIAN PARSONS",
+            "first_name": "BRIAN",
+            "last_name": "PARSONS",
+            "team_full": "WEST CHICAGO PD WRESTLING",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 18,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "BRAD MONTEITH",
+            "first_name": "BRAD",
+            "last_name": "MONTEITH",
+            "team_full": "ELGIN GRAPPLERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ADAM BULLOCK",
+            "first_name": "ADAM",
+            "last_name": "BULLOCK",
+            "team_full": "BISMARCK-HENNING",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 19,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "ADAM L EGGLESTON",
+            "first_name": "ADAM",
+            "last_name": "EGGLESTON",
+            "team_full": "BLACKHAWK WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MIKE TURLEY",
+            "first_name": "MIKE",
+            "last_name": "TURLEY",
+            "team_full": "HARLEM COUGARS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 20,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "JACOB TRTANJ",
+            "first_name": "JACOB",
+            "last_name": "TRTANJ",
+            "team_full": "GRANITE CITY COOLIDGE",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JASON COMINS",
+            "first_name": "JASON",
+            "last_name": "COMINS",
+            "team_full": "EAST MOLINE WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 21,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "ISAIAH HENRY",
+            "first_name": "ISAIAH",
+            "last_name": "HENRY",
+            "team_full": "HARVEY PARK DISTRICT TWISTERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOHN DECEAULT",
+            "first_name": "JOHN",
+            "last_name": "DECEAULT",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 22,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "LUKE WALTERS",
+            "first_name": "LUKE",
+            "last_name": "WALTERS",
+            "team_full": "LASALLE-PERU CRUNCHING CAVS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CHRISTIAN RATH",
+            "first_name": "CHRISTIAN",
+            "last_name": "RATH",
+            "team_full": "MURPHYSBORO MS BLUE DEVILS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 23,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "TIMOTHY BAGBY",
+            "first_name": "TIMOTHY",
+            "last_name": "BAGBY",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JACOB CURBY",
+            "first_name": "JACOB",
+            "last_name": "CURBY",
+            "team_full": "LIONS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 24,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "TIMOTHY BAGBY",
+            "first_name": "TIMOTHY",
+            "last_name": "BAGBY",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DONNELL BRADLEY",
+            "first_name": "DONNELL",
+            "last_name": "BRADLEY",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 563,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "DAVID SILVA",
+            "first_name": "DAVID",
+            "last_name": "SILVA",
+            "team_full": "DUNDEE HIGHLANDERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DREW WEIMER",
+            "first_name": "DREW",
+            "last_name": "WEIMER",
+            "team_full": "WAUBONSIE BRAVES",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 547,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "JOHN SHARP",
+            "first_name": "JOHN",
+            "last_name": "SHARP",
+            "team_full": "PEKIN BOYS CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CALEB FERRY",
+            "first_name": "CALEB",
+            "last_name": "FERRY",
+            "team_full": "HARLEM COUGARS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 579,
+          "top_win": false
         }
       ]
     },
@@ -68,18 +1076,354 @@
       "weight": 74,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "championship_r32_01",
           "top_competitor": {
-            "full_name": "ISRAIL MARTINEZ",
-            "first_name": "ISRAIL",
-            "last_name": "MARTINEZ",
-            "team_full": "TOMCAT",
+            "full_name": "NICHOLAS MORPHEW",
+            "first_name": "NICHOLAS",
+            "last_name": "MORPHEW",
+            "team_full": "PROPHETSTOWN LYNDON JH WC",
             "team_acronym": null
           },
           "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "RAY BLAKE",
+            "first_name": "RAY",
+            "last_name": "BLAKE",
+            "team_full": "MUSTANG WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "ISRAEL MARTINEZ",
+            "first_name": "ISRAEL",
+            "last_name": "MARTINEZ",
+            "team_full": "TOMCAT WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "CHRIS RUFFINO",
+            "first_name": "CHRIS",
+            "last_name": "RUFFINO",
+            "team_full": "FALCON WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "JAKOB BOTTOMS",
+            "first_name": "JAKOB",
+            "last_name": "BOTTOMS",
+            "team_full": "BETHALTO / JR. HIGH",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "CODY RUDSELL",
+            "first_name": "CODY",
+            "last_name": "RUDSELL",
+            "team_full": "HARLEM COUGARS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "MICHAEL MURPHY",
+            "first_name": "MICHAEL",
+            "last_name": "MURPHY",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "BOBBY HILL",
+            "first_name": "BOBBY",
+            "last_name": "HILL",
+            "team_full": "MAHOMET-SEYMOUR KIDS CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "TYLER BRUCKER",
+            "first_name": "TYLER",
+            "last_name": "BRUCKER",
+            "team_full": "GCMS FALCON WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "RUBEN VILLARREAL",
+            "first_name": "RUBEN",
+            "last_name": "VILLARREAL",
+            "team_full": "LIL REAPER",
+            "team_acronym": null
+          },
           "result": "",
           "result_type": "unknown",
-          "bout_number": null,
+          "bout_number": 25,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "ERIC FERGUSON",
+            "first_name": "ERIC",
+            "last_name": "FERGUSON",
+            "team_full": "SYCAMORE COMMUNITY WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ZACH ZEIGLER",
+            "first_name": "ZACH",
+            "last_name": "ZEIGLER",
+            "team_full": "HERRIN WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 26,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "ELLIOT ETZKORN JR",
+            "first_name": "ELLIOT",
+            "last_name": "ETZKORN",
+            "team_full": "LEMONT BEARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "TODD SCHIFF",
+            "first_name": "TODD",
+            "last_name": "SCHIFF",
+            "team_full": "SJO WRESTLING",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 27,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "MICHAEL WILSON",
+            "first_name": "MICHAEL",
+            "last_name": "WILSON",
+            "team_full": "WEST FRANKFORT THUNDERBIRDS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRANDON MATHEWS",
+            "first_name": "BRANDON",
+            "last_name": "MATHEWS",
+            "team_full": "KNIGHTS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 28,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "MIKE ZAGORSKI",
+            "first_name": "MIKE",
+            "last_name": "ZAGORSKI",
+            "team_full": "JR. BEARS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "STEVE OCKRIM",
+            "first_name": "STEVE",
+            "last_name": "OCKRIM",
+            "team_full": "HINSDALE RED DEVIL WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 29,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "ANTHONY CASTILLO",
+            "first_name": "ANTHONY",
+            "last_name": "CASTILLO",
+            "team_full": "LIONS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "QUINCY CORONELL",
+            "first_name": "QUINCY",
+            "last_name": "CORONELL",
+            "team_full": "CROSSFACE WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 30,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "BRET BAUMGARDNER",
+            "first_name": "BRET",
+            "last_name": "BAUMGARDNER",
+            "team_full": "TRAILBLAZER WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MARK WOJTKIEWICZ",
+            "first_name": "MARK",
+            "last_name": "WOJTKIEWICZ",
+            "team_full": "LAKE VILLA LANCERS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 31,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "DUSTIN SLOAN",
+            "first_name": "DUSTIN",
+            "last_name": "SLOAN",
+            "team_full": "JR. ROCKET WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MAURICE BROWN",
+            "first_name": "MAURICE",
+            "last_name": "BROWN",
+            "team_full": "TRI-CITY BRAVES",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 32,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "RUBEN VILLARREAL",
+            "first_name": "RUBEN",
+            "last_name": "VILLARREAL",
+            "team_full": "LIL REAPER",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ANTHONY CASTILLO",
+            "first_name": "ANTHONY",
+            "last_name": "CASTILLO",
+            "team_full": "LIONS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 564,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "BRET BAUMGARDNER",
+            "first_name": "BRET",
+            "last_name": "BAUMGARDNER",
+            "team_full": "TRAILBLAZER WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "NICHOLAS MORPHEW",
+            "first_name": "NICHOLAS",
+            "last_name": "MORPHEW",
+            "team_full": "PROPHETSTOWN LYNDON JH WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 548,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "ISRAEL MARTINEZ",
+            "first_name": "ISRAEL",
+            "last_name": "MARTINEZ",
+            "team_full": "TOMCAT WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MICHAEL MURPHY",
+            "first_name": "MICHAEL",
+            "last_name": "MURPHY",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 580,
           "top_win": true
         }
       ]
@@ -89,18 +1433,354 @@
       "weight": 79,
       "matches": [
         {
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "ANDREW ZENTNER",
+            "first_name": "ANDREW",
+            "last_name": "ZENTNER",
+            "team_full": "WHEATON BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "RYAN HLINAK",
+            "first_name": "RYAN",
+            "last_name": "HLINAK",
+            "team_full": "LAKE VILLA LANCERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "DUSTY CARPENTER",
+            "first_name": "DUSTY",
+            "last_name": "CARPENTER",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "JUSTIN DARGAN",
+            "first_name": "JUSTIN",
+            "last_name": "DARGAN",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "MATT MCKNIGHT",
+            "first_name": "MATT",
+            "last_name": "MCKNIGHT",
+            "team_full": "LASALLE-PERU CRUNCHING CAVS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "TERRELL WILLIAMS",
+            "first_name": "TERRELL",
+            "last_name": "WILLIAMS",
+            "team_full": "CPS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "PAUL COLLUM",
+            "first_name": "PAUL",
+            "last_name": "COLLUM",
+            "team_full": "LEMONT BEARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "DUSTIN ROGERS",
+            "first_name": "DUSTIN",
+            "last_name": "ROGERS",
+            "team_full": "MATTOON",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "JOSH RUPPRECHT",
+            "first_name": "JOSH",
+            "last_name": "RUPPRECHT",
+            "team_full": "PONTIAC WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MICHAEL KLIMEK",
+            "first_name": "MICHAEL",
+            "last_name": "KLIMEK",
+            "team_full": "ORLAND PARK PIONEERS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 33,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "STEVE MORSE",
+            "first_name": "STEVE",
+            "last_name": "MORSE",
+            "team_full": "OAK FOREST WARRIORS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ANTHONY CATOUR",
+            "first_name": "ANTHONY",
+            "last_name": "CATOUR",
+            "team_full": "MOLINE TIGERS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 34,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "BRANDON HILL",
+            "first_name": "BRANDON",
+            "last_name": "HILL",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DAVID GOFF",
+            "first_name": "DAVID",
+            "last_name": "GOFF",
+            "team_full": "GCMS FALCON WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 35,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "WAYNE WEEMS",
+            "first_name": "WAYNE",
+            "last_name": "WEEMS",
+            "team_full": "MOLINE TIGERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DAN BRODERICK",
+            "first_name": "DAN",
+            "last_name": "BRODERICK",
+            "team_full": "MUSTANG WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "ERIC AUSTIN",
+            "first_name": "ERIC",
+            "last_name": "AUSTIN",
+            "team_full": "KNIGHTS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ADAM LAPE",
+            "first_name": "ADAM",
+            "last_name": "LAPE",
+            "team_full": "VANDALIA JR. WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 37,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "JARED MCCABE",
+            "first_name": "JARED",
+            "last_name": "MCCABE",
+            "team_full": "ROSEMONT COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CRAIG DZIEWIATKOWSKI",
+            "first_name": "CRAIG",
+            "last_name": "DZIEWIATKOWSKI",
+            "team_full": "WAUBONSIE BRAVES",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 38,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "LEO NARENS",
+            "first_name": "LEO",
+            "last_name": "NARENS",
+            "team_full": "BETHALTO / JR. HIGH",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MICHAEL COLLINS",
+            "first_name": "MICHAEL",
+            "last_name": "COLLINS",
+            "team_full": "EASTLAND MAT CATS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 39,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "STEPHEN LOFTON",
+            "first_name": "STEPHEN",
+            "last_name": "LOFTON",
+            "team_full": "HUSKIES WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DOMENIC POETA",
+            "first_name": "DOMENIC",
+            "last_name": "POETA",
+            "team_full": "LITTLE GIANTS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 40,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "RYAN HLINAK",
+            "first_name": "RYAN",
+            "last_name": "HLINAK",
+            "team_full": "LAKE VILLA LANCERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DOMENIC POETA",
+            "first_name": "DOMENIC",
+            "last_name": "POETA",
+            "team_full": "LITTLE GIANTS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 565,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "BRANDON HILL",
+            "first_name": "BRANDON",
+            "last_name": "HILL",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MATT MCKNIGHT",
+            "first_name": "MATT",
+            "last_name": "MCKNIGHT",
+            "team_full": "LASALLE-PERU CRUNCHING CAVS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 549,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_first_place",
           "top_competitor": {
             "full_name": "DUSTY CARPENTER",
             "first_name": "DUSTY",
             "last_name": "CARPENTER",
-            "team_full": "BELEVILLE DEVIL",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
             "team_acronym": null
           },
-          "bottom_competitor": null,
+          "bottom_competitor": {
+            "full_name": "PAUL COLLUM",
+            "first_name": "PAUL",
+            "last_name": "COLLUM",
+            "team_full": "LEMONT BEARS",
+            "team_acronym": null
+          },
           "result": "",
           "result_type": "unknown",
-          "bout_number": null,
+          "bout_number": 581,
           "top_win": true
         }
       ]
@@ -110,19 +1790,355 @@
       "weight": 84,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "GRANT WALSH",
+            "first_name": "GRANT",
+            "last_name": "WALSH",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "DAVID GENTRY",
+            "first_name": "DAVID",
+            "last_name": "GENTRY",
+            "team_full": "DOLTON PARK FALCONS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "SAM SHETLEY",
+            "first_name": "SAM",
+            "last_name": "SHETLEY",
+            "team_full": "BETHALTO / JR. HIGH",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "BOB GRASSER",
+            "first_name": "BOB",
+            "last_name": "GRASSER",
+            "team_full": "LAKE VILLA LANCERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
           "top_competitor": {
             "full_name": "JOSH PRICE",
             "first_name": "JOSH",
             "last_name": "PRICE",
-            "team_full": "RIVERDALE JR HIGH",
+            "team_full": "RIVERDALE JR. HIGH WC",
             "team_acronym": null
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "PETER FRIEDL",
+            "first_name": "PETER",
+            "last_name": "FRIEDL",
+            "team_full": "ORLAND PARK PIONEERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "ERIC RAFFERTY",
+            "first_name": "ERIC",
+            "last_name": "RAFFERTY",
+            "team_full": "BLACKHAWK WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "JOHN BENNETT",
+            "first_name": "JOHN",
+            "last_name": "BENNETT",
+            "team_full": "WESTVILLE JH",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "JOHN LITCHFIELD",
+            "first_name": "JOHN",
+            "last_name": "LITCHFIELD",
+            "team_full": "RANTOUL REC YOUTH",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ANDREW ZENTNER",
+            "first_name": "ANDREW",
+            "last_name": "ZENTNER",
+            "team_full": "WHEATON BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 41,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "MICHAEL CAINE",
+            "first_name": "MICHAEL",
+            "last_name": "CAINE",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JESSE MATTSON",
+            "first_name": "JESSE",
+            "last_name": "MATTSON",
+            "team_full": "PEKIN BOYS CLUB",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 42,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "MATTHEW SAUTER",
+            "first_name": "MATTHEW",
+            "last_name": "SAUTER",
+            "team_full": "ST. CHARLES WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "NATHAN MCMILLIN",
+            "first_name": "NATHAN",
+            "last_name": "MCMILLIN",
+            "team_full": "MT. ZION WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 43,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "LAMBROS FOTOS",
+            "first_name": "LAMBROS",
+            "last_name": "FOTOS",
+            "team_full": "EAST MOLINE WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ANGELO LOVE",
+            "first_name": "ANGELO",
+            "last_name": "LOVE",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 44,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "BRYAN TURK",
+            "first_name": "BRYAN",
+            "last_name": "TURK",
+            "team_full": "EISENHOWER JR. COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BURKE BOHNSACK",
+            "first_name": "BURKE",
+            "last_name": "BOHNSACK",
+            "team_full": "CARBONDALE JR. SPORTS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 45,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "KEVIN FARRELL",
+            "first_name": "KEVIN",
+            "last_name": "FARRELL",
+            "team_full": "ST. BARNABAS / CHRIST THE KING SHARKS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MICHAEL DISCH",
+            "first_name": "MICHAEL",
+            "last_name": "DISCH",
+            "team_full": "HARLEM COUGARS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 46,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "CHAD WILSON",
+            "first_name": "CHAD",
+            "last_name": "WILSON",
+            "team_full": "GRANITE CITY COOLIDGE",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MICHAEL DALE",
+            "first_name": "MICHAEL",
+            "last_name": "DALE",
+            "team_full": "MAYWOOD \"PIRATES\" WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 47,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "TIM LOEFFEL",
+            "first_name": "TIM",
+            "last_name": "LOEFFEL",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ROBERT PALUMBO",
+            "first_name": "ROBERT",
+            "last_name": "PALUMBO",
+            "team_full": "CRESTWOOD COLTS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 48,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "MICHAEL CAINE",
+            "first_name": "MICHAEL",
+            "last_name": "CAINE",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MICHAEL DALE",
+            "first_name": "MICHAEL",
+            "last_name": "DALE",
+            "team_full": "MAYWOOD \"PIRATES\" WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 566,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "ERIC RAFFERTY",
+            "first_name": "ERIC",
+            "last_name": "RAFFERTY",
+            "team_full": "BLACKHAWK WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "GRANT WALSH",
+            "first_name": "GRANT",
+            "last_name": "WALSH",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 550,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "ANGELO LOVE",
+            "first_name": "ANGELO",
+            "last_name": "LOVE",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOSH PRICE",
+            "first_name": "JOSH",
+            "last_name": "PRICE",
+            "team_full": "RIVERDALE JR. HIGH WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 582,
+          "top_win": false
         }
       ]
     },
@@ -131,18 +2147,354 @@
       "weight": 89,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "championship_r32_01",
           "top_competitor": {
-            "full_name": "ERICK NOVAK",
-            "first_name": "ERICK",
-            "last_name": "NOVAK",
-            "team_full": "TINLEY PARK",
+            "full_name": "JED MATHIS",
+            "first_name": "JED",
+            "last_name": "MATHIS",
+            "team_full": "RIVERDALE JR. HIGH WC",
             "team_acronym": null
           },
           "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "ERIC NOVAK",
+            "first_name": "ERIC",
+            "last_name": "NOVAK",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "CHRIS BITAKIS",
+            "first_name": "CHRIS",
+            "last_name": "BITAKIS",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "TIMOTHY SPRINGS",
+            "first_name": "TIMOTHY",
+            "last_name": "SPRINGS",
+            "team_full": "HARVEY PARK DISTRICT TWISTERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "ZACK MAY",
+            "first_name": "ZACK",
+            "last_name": "MAY",
+            "team_full": "GRANITE CITY COOLIDGE",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "CHRIS JACKOWSKI",
+            "first_name": "CHRIS",
+            "last_name": "JACKOWSKI",
+            "team_full": "ST. TARCISSUS RAIDERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "ADAM KARPENSKE",
+            "first_name": "ADAM",
+            "last_name": "KARPENSKE",
+            "team_full": "WHEATON BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "RYAN MOLOHON",
+            "first_name": "RYAN",
+            "last_name": "MOLOHON",
+            "team_full": "CHATHAM WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "BRAD CRAVENS",
+            "first_name": "BRAD",
+            "last_name": "CRAVENS",
+            "team_full": "MT. ZION WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ALAN LAZZARA",
+            "first_name": "ALAN",
+            "last_name": "LAZZARA",
+            "team_full": "HINSDALE RED DEVIL WC",
+            "team_acronym": null
+          },
           "result": "",
           "result_type": "unknown",
-          "bout_number": null,
+          "bout_number": 49,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "CHRIS HENRY",
+            "first_name": "CHRIS",
+            "last_name": "HENRY",
+            "team_full": "WARHAWK WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRYAN CULBERTSON",
+            "first_name": "BRYAN",
+            "last_name": "CULBERTSON",
+            "team_full": "VANDALIA JR. WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 50,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "KEVIN MEYER",
+            "first_name": "KEVIN",
+            "last_name": "MEYER",
+            "team_full": "WHEATON BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MATT SAYERS",
+            "first_name": "MATT",
+            "last_name": "SAYERS",
+            "team_full": "MT. ZION WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 51,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "BRANDON BRANON",
+            "first_name": "BRANDON",
+            "last_name": "BRANON",
+            "team_full": "CENTRALIA WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "STEVEN BAZAREK",
+            "first_name": "STEVEN",
+            "last_name": "BAZAREK",
+            "team_full": "NOTRE DAME WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 52,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "CHRIS HARNEY",
+            "first_name": "CHRIS",
+            "last_name": "HARNEY",
+            "team_full": "VITTUM CATS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MATTHEW POLUYVANSKIS",
+            "first_name": "MATTHEW",
+            "last_name": "POLUYVANSKIS",
+            "team_full": "HARLEM COUGARS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 53,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "DAN RICHARDSON",
+            "first_name": "DAN",
+            "last_name": "RICHARDSON",
+            "team_full": "BRADLEY - BOURBONNAIS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOHN JATKOWSKI",
+            "first_name": "JOHN",
+            "last_name": "JATKOWSKI",
+            "team_full": "CROSSFACE WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 54,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "AARON WATSON",
+            "first_name": "AARON",
+            "last_name": "WATSON",
+            "team_full": "ROCKFORD WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MATTHEW WAGNER",
+            "first_name": "MATTHEW",
+            "last_name": "WAGNER",
+            "team_full": "OAK FOREST WARRIORS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 55,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "JIM WHITE",
+            "first_name": "JIM",
+            "last_name": "WHITE",
+            "team_full": "MORRISON STALLIONS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ANDRE LOVE",
+            "first_name": "ANDRE",
+            "last_name": "LOVE",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 56,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "TIMOTHY SPRINGS",
+            "first_name": "TIMOTHY",
+            "last_name": "SPRINGS",
+            "team_full": "HARVEY PARK DISTRICT TWISTERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DAN RICHARDSON",
+            "first_name": "DAN",
+            "last_name": "RICHARDSON",
+            "team_full": "BRADLEY - BOURBONNAIS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 567,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "ANDRE LOVE",
+            "first_name": "ANDRE",
+            "last_name": "LOVE",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ALAN LAZZARA",
+            "first_name": "ALAN",
+            "last_name": "LAZZARA",
+            "team_full": "HINSDALE RED DEVIL WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 551,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "ERIC NOVAK",
+            "first_name": "ERIC",
+            "last_name": "NOVAK",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CHRIS HARNEY",
+            "first_name": "CHRIS",
+            "last_name": "HARNEY",
+            "team_full": "VITTUM CATS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 583,
           "top_win": true
         }
       ]
@@ -152,18 +2504,354 @@
       "weight": 95,
       "matches": [
         {
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "MICHAEL BOYD",
+            "first_name": "MICHAEL",
+            "last_name": "BOYD",
+            "team_full": "VITTUM CATS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "JERRY GIULIANO",
+            "first_name": "JERRY",
+            "last_name": "GIULIANO",
+            "team_full": "MEAD JR. COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "JIM SWANSON",
+            "first_name": "JIM",
+            "last_name": "SWANSON",
+            "team_full": "HARLEM COUGARS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "MICHAEL KIMBERLIN",
+            "first_name": "MICHAEL",
+            "last_name": "KIMBERLIN",
+            "team_full": "BRADLEY - BOURBONNAIS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "DEREK STOLL",
+            "first_name": "DEREK",
+            "last_name": "STOLL",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "MATT ROTH",
+            "first_name": "MATT",
+            "last_name": "ROTH",
+            "team_full": "VILLA PARK YOUNG WARRIORS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "JOHN BORN",
+            "first_name": "JOHN",
+            "last_name": "BORN",
+            "team_full": "MOLINE TIGERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "JASON PULLEN",
+            "first_name": "JASON",
+            "last_name": "PULLEN",
+            "team_full": "MT. ZION WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "DARRIK KAJANDER",
+            "first_name": "DARRIK",
+            "last_name": "KAJANDER",
+            "team_full": "DECATUR WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DANNY BURK",
+            "first_name": "DANNY",
+            "last_name": "BURK",
+            "team_full": "METAMORA KIDS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 57,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "DAN ALCOCER",
+            "first_name": "DAN",
+            "last_name": "ALCOCER",
+            "team_full": "WAUBONSIE BRAVES",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DANIEL HALL",
+            "first_name": "DANIEL",
+            "last_name": "HALL",
+            "team_full": "ACES WRESTLING",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 58,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "TYLER HERRON",
+            "first_name": "TYLER",
+            "last_name": "HERRON",
+            "team_full": "SAUKEE YOUTH WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "RYAN SHAW",
+            "first_name": "RYAN",
+            "last_name": "SHAW",
+            "team_full": "OAKWOOD WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 59,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "COLBY SCHRUMPF",
+            "first_name": "COLBY",
+            "last_name": "SCHRUMPF",
+            "team_full": "HIGHLAND JUNIOR",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DANE HENDRICKSEN",
+            "first_name": "DANE",
+            "last_name": "HENDRICKSEN",
+            "team_full": "WHEATON BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 60,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "JR WAYDE BEECHY",
+            "first_name": "WAYDE",
+            "last_name": "BEECHY",
+            "team_full": "LITTLE CELTIC WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRAD SENDELE",
+            "first_name": "BRAD",
+            "last_name": "SENDELE",
+            "team_full": "HARLEM COUGARS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 61,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "DANNY SANDERS",
+            "first_name": "DANNY",
+            "last_name": "SANDERS",
+            "team_full": "MAYWOOD \"PIRATES\" WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DORSEY LUCKETT",
+            "first_name": "DORSEY",
+            "last_name": "LUCKETT",
+            "team_full": "CPS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 62,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "BRIAN SMITH",
+            "first_name": "BRIAN",
+            "last_name": "SMITH",
+            "team_full": "BELVIDERE BANDITS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOE NEWREN",
+            "first_name": "JOE",
+            "last_name": "NEWREN",
+            "team_full": "TINLEY PARK BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 63,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "JAMES RIVERA",
+            "first_name": "JAMES",
+            "last_name": "RIVERA",
+            "team_full": "DOLTON PARK FALCONS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DAVID EVANSHANK",
+            "first_name": "DAVID",
+            "last_name": "EVANSHANK",
+            "team_full": "ROSEMONT COBRAS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 64,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "MICHAEL BOYD",
+            "first_name": "MICHAEL",
+            "last_name": "BOYD",
+            "team_full": "VITTUM CATS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JAMES RIVERA",
+            "first_name": "JAMES",
+            "last_name": "RIVERA",
+            "team_full": "DOLTON PARK FALCONS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 568,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "DAN ALCOCER",
+            "first_name": "DAN",
+            "last_name": "ALCOCER",
+            "team_full": "WAUBONSIE BRAVES",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DEREK STOLL",
+            "first_name": "DEREK",
+            "last_name": "STOLL",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 552,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_first_place",
           "top_competitor": {
             "full_name": "MICHAEL KIMBERLIN",
             "first_name": "MICHAEL",
             "last_name": "KIMBERLIN",
-            "team_full": "BRADLEY BOUR",
+            "team_full": "BRADLEY - BOURBONNAIS WC",
             "team_acronym": null
           },
-          "bottom_competitor": null,
+          "bottom_competitor": {
+            "full_name": "MATT ROTH",
+            "first_name": "MATT",
+            "last_name": "ROTH",
+            "team_full": "VILLA PARK YOUNG WARRIORS",
+            "team_acronym": null
+          },
           "result": "",
           "result_type": "unknown",
-          "bout_number": null,
+          "bout_number": 584,
           "top_win": true
         }
       ]
@@ -173,19 +2861,355 @@
       "weight": 101,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "JUSTIN WIEMAN",
+            "first_name": "JUSTIN",
+            "last_name": "WIEMAN",
+            "team_full": "HARLEM COUGARS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "TONY HOULE",
+            "first_name": "TONY",
+            "last_name": "HOULE",
+            "team_full": "YORKVILLE WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "MATTHEW STUMP",
+            "first_name": "MATTHEW",
+            "last_name": "STUMP",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "GEORGE SPRINGER",
+            "first_name": "GEORGE",
+            "last_name": "SPRINGER",
+            "team_full": "ST. CHARLES WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
           "top_competitor": {
             "full_name": "JERREL JONES",
             "first_name": "JERREL",
             "last_name": "JONES",
-            "team_full": "DOLTON PARK",
+            "team_full": "DOLTON PARK FALCONS",
             "team_acronym": null
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "ANDREW IDRIZOVIC",
+            "first_name": "ANDREW",
+            "last_name": "IDRIZOVIC",
+            "team_full": "JR. BEARS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "NICK PYSZKA",
+            "first_name": "NICK",
+            "last_name": "PYSZKA",
+            "team_full": "LASALLE-PERU CRUNCHING CAVS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "BRIAN HAWXHURST",
+            "first_name": "BRIAN",
+            "last_name": "HAWXHURST",
+            "team_full": "MT. ZION WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "CHAD BURGE",
+            "first_name": "CHAD",
+            "last_name": "BURGE",
+            "team_full": "HOOPESTON",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "LUKE FARRARE",
+            "first_name": "LUKE",
+            "last_name": "FARRARE",
+            "team_full": "BULLDOG WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 65,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "CHRIS SCHUTT",
+            "first_name": "CHRIS",
+            "last_name": "SCHUTT",
+            "team_full": "ROSEMONT COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "STEVEN BEREZEWSKI",
+            "first_name": "STEVEN",
+            "last_name": "BEREZEWSKI",
+            "team_full": "OAK LAWN PD WILDCATS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 66,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "MIKE WINDY",
+            "first_name": "MIKE",
+            "last_name": "WINDY",
+            "team_full": "GENESEO WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MARSHALL JOYNER",
+            "first_name": "MARSHALL",
+            "last_name": "JOYNER",
+            "team_full": "DANVILLE BOY'S & GIRL'S CLUB",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 67,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "BRIAN NELSON",
+            "first_name": "BRIAN",
+            "last_name": "NELSON",
+            "team_full": "PANTHER WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ANTONIO FAVELA",
+            "first_name": "ANTONIO",
+            "last_name": "FAVELA",
+            "team_full": "FALCON WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 68,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "DANIEL BERNARDO",
+            "first_name": "DANIEL",
+            "last_name": "BERNARDO",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOE MELVIN",
+            "first_name": "JOE",
+            "last_name": "MELVIN",
+            "team_full": "MURPHYSBORO MS BLUE DEVILS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 69,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "JOSE PEREZ",
+            "first_name": "JOSE",
+            "last_name": "PEREZ",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CHRIS CORNELL",
+            "first_name": "CHRIS",
+            "last_name": "CORNELL",
+            "team_full": "KNIGHTS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 70,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "JASON DOWDY",
+            "first_name": "JASON",
+            "last_name": "DOWDY",
+            "team_full": "COLLINSVILLE RAIDER / T. BIRDS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CHRIS CONVERSA",
+            "first_name": "CHRIS",
+            "last_name": "CONVERSA",
+            "team_full": "VILLA PARK YOUNG WARRIORS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 71,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "AARON CARLOCK",
+            "first_name": "AARON",
+            "last_name": "CARLOCK",
+            "team_full": "EASTLAND MAT CATS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ADAM CLAY",
+            "first_name": "ADAM",
+            "last_name": "CLAY",
+            "team_full": "LEMONT BEARS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 72,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "DANIEL BERNARDO",
+            "first_name": "DANIEL",
+            "last_name": "BERNARDO",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MATTHEW STUMP",
+            "first_name": "MATTHEW",
+            "last_name": "STUMP",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 569,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "CHRIS SCHUTT",
+            "first_name": "CHRIS",
+            "last_name": "SCHUTT",
+            "team_full": "ROSEMONT COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JASON DOWDY",
+            "first_name": "JASON",
+            "last_name": "DOWDY",
+            "team_full": "COLLINSVILLE RAIDER / T. BIRDS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 553,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "GEORGE SPRINGER",
+            "first_name": "GEORGE",
+            "last_name": "SPRINGER",
+            "team_full": "ST. CHARLES WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JERREL JONES",
+            "first_name": "JERREL",
+            "last_name": "JONES",
+            "team_full": "DOLTON PARK FALCONS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 585,
+          "top_win": false
         }
       ]
     },
@@ -194,18 +3218,354 @@
       "weight": 108,
       "matches": [
         {
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "BRANDON KINSEY",
+            "first_name": "BRANDON",
+            "last_name": "KINSEY",
+            "team_full": "MAYWOOD \"PIRATES\" WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "BRIAN GLYNN",
+            "first_name": "BRIAN",
+            "last_name": "GLYNN",
+            "team_full": "ORLAND PARK PIONEERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "ANTHONY FALTIN",
+            "first_name": "ANTHONY",
+            "last_name": "FALTIN",
+            "team_full": "PANTHER WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "RYAN LE BRETON",
+            "first_name": "RYAN",
+            "last_name": "LE BRETON",
+            "team_full": "WHEATON BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "NICK BRADY",
+            "first_name": "NICK",
+            "last_name": "BRADY",
+            "team_full": "HARVARD WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "BILL BLUM",
+            "first_name": "BILL",
+            "last_name": "BLUM",
+            "team_full": "LASALLE-PERU CRUNCHING CAVS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "RICHARD NESS",
+            "first_name": "RICHARD",
+            "last_name": "NESS",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "CASEY RODDIS",
+            "first_name": "CASEY",
+            "last_name": "RODDIS",
+            "team_full": "MT. ZION WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "JEFF SCHWARTZKOPF",
+            "first_name": "JEFF",
+            "last_name": "SCHWARTZKOPF",
+            "team_full": "BISMARCK-HENNING",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "SHAWN HEMKEN",
+            "first_name": "SHAWN",
+            "last_name": "HEMKEN",
+            "team_full": "LITCHFIELD WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 73,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "ANTHONY MULLINS",
+            "first_name": "ANTHONY",
+            "last_name": "MULLINS",
+            "team_full": "METAMORA KIDS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MITCH HILDEN",
+            "first_name": "MITCH",
+            "last_name": "HILDEN",
+            "team_full": "BELVIDERE BANDITS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 74,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "KURT HALLER",
+            "first_name": "KURT",
+            "last_name": "HALLER",
+            "team_full": "HIGHLAND JUNIOR",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRETT SIMPSON",
+            "first_name": "BRETT",
+            "last_name": "SIMPSON",
+            "team_full": "EL PASO WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 75,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "JAMES EARLYWINE",
+            "first_name": "JAMES",
+            "last_name": "EARLYWINE",
+            "team_full": "DAKOTA WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DAN WHITLEY",
+            "first_name": "DAN",
+            "last_name": "WHITLEY",
+            "team_full": "PEKIN BOYS CLUB",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 76,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "DAN POLIZZI",
+            "first_name": "DAN",
+            "last_name": "POLIZZI",
+            "team_full": "INDIAN PRAIRIE PIONEERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOHN HINDE",
+            "first_name": "JOHN",
+            "last_name": "HINDE",
+            "team_full": "OAK LAWN PD WILDCATS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 77,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "OSCAR ESPARZA",
+            "first_name": "OSCAR",
+            "last_name": "ESPARZA",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ERICH MARX",
+            "first_name": "ERICH",
+            "last_name": "MARX",
+            "team_full": "HAWK WRESTLING ASSOCIATION",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 78,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "JAMES MCCARVILLE",
+            "first_name": "JAMES",
+            "last_name": "MCCARVILLE",
+            "team_full": "OAK LAWN PD WILDCATS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BYRON BURNETTE",
+            "first_name": "BYRON",
+            "last_name": "BURNETTE",
+            "team_full": "BLACKHAWK WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 79,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "JONATHAN KIRKSEY",
+            "first_name": "JONATHAN",
+            "last_name": "KIRKSEY",
+            "team_full": "SKOKIE INDIANS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "GRAHAM MARGHERIO",
+            "first_name": "GRAHAM",
+            "last_name": "MARGHERIO",
+            "team_full": "PLAINFIELD INDIAN TRAIL",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 80,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "BRANDON KINSEY",
+            "first_name": "BRANDON",
+            "last_name": "KINSEY",
+            "team_full": "MAYWOOD \"PIRATES\" WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CASEY RODDIS",
+            "first_name": "CASEY",
+            "last_name": "RODDIS",
+            "team_full": "MT. ZION WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 570,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "OSCAR ESPARZA",
+            "first_name": "OSCAR",
+            "last_name": "ESPARZA",
+            "team_full": "JOLIET BOYS CLUB COBRAS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ANTHONY FALTIN",
+            "first_name": "ANTHONY",
+            "last_name": "FALTIN",
+            "team_full": "PANTHER WRESTLING",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 554,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_first_place",
           "top_competitor": {
             "full_name": "BRIAN GLYNN",
             "first_name": "BRIAN",
             "last_name": "GLYNN",
-            "team_full": "ORLAND PARK",
+            "team_full": "ORLAND PARK PIONEERS",
             "team_acronym": null
           },
-          "bottom_competitor": null,
+          "bottom_competitor": {
+            "full_name": "BILL BLUM",
+            "first_name": "BILL",
+            "last_name": "BLUM",
+            "team_full": "LASALLE-PERU CRUNCHING CAVS",
+            "team_acronym": null
+          },
           "result": "",
           "result_type": "unknown",
-          "bout_number": null,
+          "bout_number": 586,
           "top_win": true
         }
       ]
@@ -215,18 +3575,354 @@
       "weight": 115,
       "matches": [
         {
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "ROGER LOWE",
+            "first_name": "ROGER",
+            "last_name": "LOWE",
+            "team_full": "HARVEY PARK DISTRICT TWISTERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "FRANK CANTU",
+            "first_name": "FRANK",
+            "last_name": "CANTU",
+            "team_full": "J-HAWK WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "MIKE LYNCH",
+            "first_name": "MIKE",
+            "last_name": "LYNCH",
+            "team_full": "SYCAMORE COMMUNITY WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "CASEY CREGER",
+            "first_name": "CASEY",
+            "last_name": "CREGER",
+            "team_full": "JORDAN / SETON WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "ERICK DOMINGUEZ",
+            "first_name": "ERICK",
+            "last_name": "DOMINGUEZ",
+            "team_full": "WAUKEGAN HAWKEYE WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "STEVEN HARTLEY",
+            "first_name": "STEVEN",
+            "last_name": "HARTLEY",
+            "team_full": "PLAINFIELD INDIAN TRAIL",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "JONATHAN SAUPE",
+            "first_name": "JONATHAN",
+            "last_name": "SAUPE",
+            "team_full": "MURPHYSBORO MS BLUE DEVILS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "REUBEN ROSCZYK",
+            "first_name": "REUBEN",
+            "last_name": "ROSCZYK",
+            "team_full": "OAKWOOD WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "ANDY POWELL",
+            "first_name": "ANDY",
+            "last_name": "POWELL",
+            "team_full": "OAKWOOD WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "RYAN HOLLAND",
+            "first_name": "RYAN",
+            "last_name": "HOLLAND",
+            "team_full": "HERRIN WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 81,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "JIM FITE",
+            "first_name": "JIM",
+            "last_name": "FITE",
+            "team_full": "PLAINFIELD INDIAN TRAIL",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "SCOTT HODINA",
+            "first_name": "SCOTT",
+            "last_name": "HODINA",
+            "team_full": "LAKE VILLA LANCERS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 82,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "DAVID MURRAY",
+            "first_name": "DAVID",
+            "last_name": "MURRAY",
+            "team_full": "MURPHYSBORO MS BLUE DEVILS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MATT JOHNSON",
+            "first_name": "MATT",
+            "last_name": "JOHNSON",
+            "team_full": "GCMS FALCON WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 83,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "CHRIS JACK",
+            "first_name": "CHRIS",
+            "last_name": "JACK",
+            "team_full": "RAMS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "NICHOLAS WOLF",
+            "first_name": "NICHOLAS",
+            "last_name": "WOLF",
+            "team_full": "BRADLEY - BOURBONNAIS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 84,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "JERAME NICHOLSON",
+            "first_name": "JERAME",
+            "last_name": "NICHOLSON",
+            "team_full": "PEKIN BOYS CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JAY FOX",
+            "first_name": "JAY",
+            "last_name": "FOX",
+            "team_full": "SYCAMORE COMMUNITY WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 85,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "JAKE H KOEHLER",
+            "first_name": "JAKE",
+            "last_name": "KOEHLER",
+            "team_full": "BLACKHAWK WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JON BANKS",
+            "first_name": "JON",
+            "last_name": "BANKS",
+            "team_full": "DOLTON PARK FALCONS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 86,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "NICK ACCARDI",
+            "first_name": "NICK",
+            "last_name": "ACCARDI",
+            "team_full": "KNIGHTS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "KRIS HISEY",
+            "first_name": "KRIS",
+            "last_name": "HISEY",
+            "team_full": "JR. ROCKET WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 87,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "RYAN O'LONE",
+            "first_name": "RYAN",
+            "last_name": "O'LONE",
+            "team_full": "BURBANK RAMS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ALLEN LINDAHL",
+            "first_name": "ALLEN",
+            "last_name": "LINDAHL",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 88,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "FRANK CANTU",
+            "first_name": "FRANK",
+            "last_name": "CANTU",
+            "team_full": "J-HAWK WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "STEVEN HARTLEY",
+            "first_name": "STEVEN",
+            "last_name": "HARTLEY",
+            "team_full": "PLAINFIELD INDIAN TRAIL",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 571,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "NICHOLAS WOLF",
+            "first_name": "NICHOLAS",
+            "last_name": "WOLF",
+            "team_full": "BRADLEY - BOURBONNAIS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JONATHAN SAUPE",
+            "first_name": "JONATHAN",
+            "last_name": "SAUPE",
+            "team_full": "MURPHYSBORO MS BLUE DEVILS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 555,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_first_place",
           "top_competitor": {
             "full_name": "CASEY CREGER",
             "first_name": "CASEY",
             "last_name": "CREGER",
-            "team_full": "JORDAN SETON",
+            "team_full": "JORDAN / SETON WC",
             "team_acronym": null
           },
-          "bottom_competitor": null,
+          "bottom_competitor": {
+            "full_name": "JAKE H KOEHLER",
+            "first_name": "JAKE",
+            "last_name": "KOEHLER",
+            "team_full": "BLACKHAWK WC",
+            "team_acronym": null
+          },
           "result": "",
           "result_type": "unknown",
-          "bout_number": null,
+          "bout_number": 587,
           "top_win": true
         }
       ]
@@ -236,18 +3932,354 @@
       "weight": 122,
       "matches": [
         {
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "JOHN HATFIELD",
+            "first_name": "JOHN",
+            "last_name": "HATFIELD",
+            "team_full": "BOYS & GIRLS CLUB OF FREEPORT",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "NIGEL COLLINS",
+            "first_name": "NIGEL",
+            "last_name": "COLLINS",
+            "team_full": "NEWMAN WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "MATT JOSEPH",
+            "first_name": "MATT",
+            "last_name": "JOSEPH",
+            "team_full": "ARLINGTON CARDINALS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "GREG GOSKA",
+            "first_name": "GREG",
+            "last_name": "GOSKA",
+            "team_full": "LEMONT BEARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "JULIAN THOMAS",
+            "first_name": "JULIAN",
+            "last_name": "THOMAS",
+            "team_full": "CPS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "MIKE BEHNKE",
+            "first_name": "MIKE",
+            "last_name": "BEHNKE",
+            "team_full": "VILLA PARK YOUNG WARRIORS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "MARK VENABLE",
+            "first_name": "MARK",
+            "last_name": "VENABLE",
+            "team_full": "GRANITE CITY COOLIDGE",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "GLEN (BUDDY) COPELAND",
+            "first_name": "GLEN",
+            "last_name": "COPELAND",
+            "team_full": "MT. ZION WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "ADAM FISHEL",
+            "first_name": "ADAM",
+            "last_name": "FISHEL",
+            "team_full": "A-O KIDS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "SAM STAGGS",
+            "first_name": "SAM",
+            "last_name": "STAGGS",
+            "team_full": "COLLINSVILLE RAIDER / T. BIRDS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 89,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "RYAN CROCUS",
+            "first_name": "RYAN",
+            "last_name": "CROCUS",
+            "team_full": "WHEATON BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "KENNETH SMITH",
+            "first_name": "KENNETH",
+            "last_name": "SMITH",
+            "team_full": "DOLTON PARK FALCONS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 90,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "MATT FLACH",
+            "first_name": "MATT",
+            "last_name": "FLACH",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CHRIS MARKWELL",
+            "first_name": "CHRIS",
+            "last_name": "MARKWELL",
+            "team_full": "OAKWOOD WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 91,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "DAVID MEZA",
+            "first_name": "DAVID",
+            "last_name": "MEZA",
+            "team_full": "CPS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JAMES MUETZE",
+            "first_name": "JAMES",
+            "last_name": "MUETZE",
+            "team_full": "ST. CHARLES WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 92,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "MIKE ZIRKELBACH",
+            "first_name": "MIKE",
+            "last_name": "ZIRKELBACH",
+            "team_full": "ORLAND PARK PIONEERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "FRED URYASZ",
+            "first_name": "FRED",
+            "last_name": "URYASZ",
+            "team_full": "ARLINGTON CARDINALS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 93,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "TJ SCHLINK",
+            "first_name": "TJ",
+            "last_name": "SCHLINK",
+            "team_full": "CHILLICOTHE WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "WILLIAM DAVIDSON",
+            "first_name": "WILLIAM",
+            "last_name": "DAVIDSON",
+            "team_full": "RICHMOND WC INC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 94,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "TIM DENWOOD",
+            "first_name": "TIM",
+            "last_name": "DENWOOD",
+            "team_full": "FALCON WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOHN HARTLEY",
+            "first_name": "JOHN",
+            "last_name": "HARTLEY",
+            "team_full": "PLAINFIELD INDIAN TRAIL",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 95,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "DAVID WOOSLEY",
+            "first_name": "DAVID",
+            "last_name": "WOOSLEY",
+            "team_full": "BELVIDERE BANDITS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JAKE HURRY",
+            "first_name": "JAKE",
+            "last_name": "HURRY",
+            "team_full": "RIVERDALE JR. HIGH WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 96,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "NIGEL COLLINS",
+            "first_name": "NIGEL",
+            "last_name": "COLLINS",
+            "team_full": "NEWMAN WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DAVID WOOSLEY",
+            "first_name": "DAVID",
+            "last_name": "WOOSLEY",
+            "team_full": "BELVIDERE BANDITS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 572,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "MARK VENABLE",
+            "first_name": "MARK",
+            "last_name": "VENABLE",
+            "team_full": "GRANITE CITY COOLIDGE",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CHRIS MARKWELL",
+            "first_name": "CHRIS",
+            "last_name": "MARKWELL",
+            "team_full": "OAKWOOD WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 556,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_first_place",
           "top_competitor": {
             "full_name": "JOHN HATFIELD",
             "first_name": "JOHN",
             "last_name": "HATFIELD",
-            "team_full": "BOYS CLUB FREEPORT",
+            "team_full": "BOYS & GIRLS CLUB OF FREEPORT",
             "team_acronym": null
           },
-          "bottom_competitor": null,
+          "bottom_competitor": {
+            "full_name": "JULIAN THOMAS",
+            "first_name": "JULIAN",
+            "last_name": "THOMAS",
+            "team_full": "CPS",
+            "team_acronym": null
+          },
           "result": "",
           "result_type": "unknown",
-          "bout_number": null,
+          "bout_number": 588,
           "top_win": true
         }
       ]
@@ -257,18 +4289,354 @@
       "weight": 130,
       "matches": [
         {
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "ADAM SESSO",
+            "first_name": "ADAM",
+            "last_name": "SESSO",
+            "team_full": "ADAMS JR. COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "ADAM STORTZ",
+            "first_name": "ADAM",
+            "last_name": "STORTZ",
+            "team_full": "ERIE MIDDLE SCHOOL WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "MATT MCMURRAY",
+            "first_name": "MATT",
+            "last_name": "MCMURRAY",
+            "team_full": "LIONS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "COREY FORD",
+            "first_name": "COREY",
+            "last_name": "FORD",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "NATHAN WHITE",
+            "first_name": "NATHAN",
+            "last_name": "WHITE",
+            "team_full": "YORKVILLE WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "JASON VINCENS",
+            "first_name": "JASON",
+            "last_name": "VINCENS",
+            "team_full": "WHEATON BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "CHRIS BARBER",
+            "first_name": "CHRIS",
+            "last_name": "BARBER",
+            "team_full": "RICHMOND WC INC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "CHRIS MACGIBBON",
+            "first_name": "CHRIS",
+            "last_name": "MACGIBBON",
+            "team_full": "MATTOON",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "MICHAEL WALCZEWSKI",
+            "first_name": "MICHAEL",
+            "last_name": "WALCZEWSKI",
+            "team_full": "SJO WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ROBERT THOR",
+            "first_name": "ROBERT",
+            "last_name": "THOR",
+            "team_full": "ROCKFORD WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 97,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "CHRIS LEKOUSIS",
+            "first_name": "CHRIS",
+            "last_name": "LEKOUSIS",
+            "team_full": "VILLA-LOMBARD COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ROBERT PYTEL",
+            "first_name": "ROBERT",
+            "last_name": "PYTEL",
+            "team_full": "LEMONT BEARS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 98,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "ERIK JASKE",
+            "first_name": "ERIK",
+            "last_name": "JASKE",
+            "team_full": "DEKALB WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOSHUA LOCK",
+            "first_name": "JOSHUA",
+            "last_name": "LOCK",
+            "team_full": "CATLIN YOUTH WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 99,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "JOEY BENDERITAIS",
+            "first_name": "JOEY",
+            "last_name": "BENDERITAIS",
+            "team_full": "LITTLE CELTIC WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "RYAN SMITH",
+            "first_name": "RYAN",
+            "last_name": "SMITH",
+            "team_full": "ELMHURST JR. DUKES",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 100,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "PATRICK JARMAN",
+            "first_name": "PATRICK",
+            "last_name": "JARMAN",
+            "team_full": "GRANITE CITY COOLIDGE",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOSHUA SANDERS",
+            "first_name": "JOSHUA",
+            "last_name": "SANDERS",
+            "team_full": "DOLTON PARK FALCONS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 101,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "TYRONE TAYLOR",
+            "first_name": "TYRONE",
+            "last_name": "TAYLOR",
+            "team_full": "MOLINE TIGERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DAVID OLIVA",
+            "first_name": "DAVID",
+            "last_name": "OLIVA",
+            "team_full": "WAUKEGAN HAWKEYE WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 102,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "RUSSELL LANGNER",
+            "first_name": "RUSSELL",
+            "last_name": "LANGNER",
+            "team_full": "OAK FOREST WARRIORS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "TONY HAUN",
+            "first_name": "TONY",
+            "last_name": "HAUN",
+            "team_full": "EAST ALTON ROXANA RAMS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 103,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "ANTHONY CLAUSS",
+            "first_name": "ANTHONY",
+            "last_name": "CLAUSS",
+            "team_full": "WAUKEGAN HAWKEYE WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRANDON FISHER",
+            "first_name": "BRANDON",
+            "last_name": "FISHER",
+            "team_full": "METAMORA KIDS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 104,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "CHRIS BARBER",
+            "first_name": "CHRIS",
+            "last_name": "BARBER",
+            "team_full": "RICHMOND WC INC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ADAM STORTZ",
+            "first_name": "ADAM",
+            "last_name": "STORTZ",
+            "team_full": "ERIE MIDDLE SCHOOL WRESTLING CLUB",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 573,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "MATT MCMURRAY",
+            "first_name": "MATT",
+            "last_name": "MCMURRAY",
+            "team_full": "LIONS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "RUSSELL LANGNER",
+            "first_name": "RUSSELL",
+            "last_name": "LANGNER",
+            "team_full": "OAK FOREST WARRIORS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 557,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_first_place",
           "top_competitor": {
             "full_name": "ADAM SESSO",
             "first_name": "ADAM",
             "last_name": "SESSO",
-            "team_full": "ADAMS JR COUGARS",
+            "team_full": "ADAMS JR. COUGARS",
             "team_acronym": null
           },
-          "bottom_competitor": null,
+          "bottom_competitor": {
+            "full_name": "JASON VINCENS",
+            "first_name": "JASON",
+            "last_name": "VINCENS",
+            "team_full": "WHEATON BULLDOGS",
+            "team_acronym": null
+          },
           "result": "",
           "result_type": "unknown",
-          "bout_number": null,
+          "bout_number": 589,
           "top_win": true
         }
       ]
@@ -278,18 +4646,354 @@
       "weight": 147,
       "matches": [
         {
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "ANDREW CURRAN",
+            "first_name": "ANDREW",
+            "last_name": "CURRAN",
+            "team_full": "ST. BARNABAS / CHRIST THE KING SHARKS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "JOSEPH BEVIS",
+            "first_name": "JOSEPH",
+            "last_name": "BEVIS",
+            "team_full": "EDWARDSVILLE WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "JOSHUA SHANK",
+            "first_name": "JOSHUA",
+            "last_name": "SHANK",
+            "team_full": "RICH WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "COREY JOHNSON",
+            "first_name": "COREY",
+            "last_name": "JOHNSON",
+            "team_full": "WHEATON BULLDOGS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "MATTHEW PIOTROWICZ",
+            "first_name": "MATTHEW",
+            "last_name": "PIOTROWICZ",
+            "team_full": "NOTRE DAME WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "ANDY KNOWLTON",
+            "first_name": "ANDY",
+            "last_name": "KNOWLTON",
+            "team_full": "MENDOTA YOUTH WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "LUCAS MEKEEL",
+            "first_name": "LUCAS",
+            "last_name": "MEKEEL",
+            "team_full": "EASTLAND MAT CATS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "BILLY REBER",
+            "first_name": "BILLY",
+            "last_name": "REBER",
+            "team_full": "TAYLORVILLE WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "BRETT RIES",
+            "first_name": "BRETT",
+            "last_name": "RIES",
+            "team_full": "DEWITT COUNTY WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "WILLIAM KOCKLER",
+            "first_name": "WILLIAM",
+            "last_name": "KOCKLER",
+            "team_full": "CRYSTAL LAKE WIZARDS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 105,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "MATTHEW SEIDEL",
+            "first_name": "MATTHEW",
+            "last_name": "SEIDEL",
+            "team_full": "TIGERTOWN TANGLERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JUSTIN SEEDOFF",
+            "first_name": "JUSTIN",
+            "last_name": "SEEDOFF",
+            "team_full": "LAKE VILLA LANCERS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 106,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "CHAD JONES",
+            "first_name": "CHAD",
+            "last_name": "JONES",
+            "team_full": "BELVIDERE BANDITS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CHRISTIAN CARSON",
+            "first_name": "CHRISTIAN",
+            "last_name": "CARSON",
+            "team_full": "WESTVILLE JH",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 107,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "KYLE DELAHANTY",
+            "first_name": "KYLE",
+            "last_name": "DELAHANTY",
+            "team_full": "ST. TARCISSUS RAIDERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CODY CROUCH",
+            "first_name": "CODY",
+            "last_name": "CROUCH",
+            "team_full": "EUREKA KIDS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 108,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "DANIEL COPPOTH",
+            "first_name": "DANIEL",
+            "last_name": "COPPOTH",
+            "team_full": "HUSKIES WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOSEPH HUNTER",
+            "first_name": "JOSEPH",
+            "last_name": "HUNTER",
+            "team_full": "RICH WRESTLING",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 109,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "BRODY JETERS",
+            "first_name": "BRODY",
+            "last_name": "JETERS",
+            "team_full": "HERRIN WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ETHAN SKLOM",
+            "first_name": "ETHAN",
+            "last_name": "SKLOM",
+            "team_full": "BLUE ISLAND PD BOMBERS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 110,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "DONZELL FRANKLIN",
+            "first_name": "DONZELL",
+            "last_name": "FRANKLIN",
+            "team_full": "BLAZER WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ERIC REINECKE",
+            "first_name": "ERIC",
+            "last_name": "REINECKE",
+            "team_full": "VILLA PARK YOUNG WARRIORS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 111,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "DAN SOTO",
+            "first_name": "DAN",
+            "last_name": "SOTO",
+            "team_full": "HICKORY HILLS PD",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "AARON ANDERSON",
+            "first_name": "AARON",
+            "last_name": "ANDERSON",
+            "team_full": "ACES WRESTLING",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 112,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "JOSHUA SHANK",
+            "first_name": "JOSHUA",
+            "last_name": "SHANK",
+            "team_full": "RICH WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MATTHEW PIOTROWICZ",
+            "first_name": "MATTHEW",
+            "last_name": "PIOTROWICZ",
+            "team_full": "NOTRE DAME WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 574,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "JOSEPH HUNTER",
+            "first_name": "JOSEPH",
+            "last_name": "HUNTER",
+            "team_full": "RICH WRESTLING",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JOSEPH BEVIS",
+            "first_name": "JOSEPH",
+            "last_name": "BEVIS",
+            "team_full": "EDWARDSVILLE WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 558,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_first_place",
           "top_competitor": {
             "full_name": "ANDREW CURRAN",
             "first_name": "ANDREW",
             "last_name": "CURRAN",
-            "team_full": "ST BAR/CHRIST KING",
+            "team_full": "ST. BARNABAS / CHRIST THE KING SHARKS",
             "team_acronym": null
           },
-          "bottom_competitor": null,
+          "bottom_competitor": {
+            "full_name": "DONZELL FRANKLIN",
+            "first_name": "DONZELL",
+            "last_name": "FRANKLIN",
+            "team_full": "BLAZER WC",
+            "team_acronym": null
+          },
           "result": "",
           "result_type": "unknown",
-          "bout_number": null,
+          "bout_number": 590,
           "top_win": true
         }
       ]
@@ -299,19 +5003,355 @@
       "weight": 166,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "championship_r32_01",
           "top_competitor": {
-            "full_name": "JARED BURRES",
-            "first_name": "JARED",
-            "last_name": "BURRES",
-            "team_full": "KELLER JR COUGARS",
+            "full_name": "MIKE SIBRAVA",
+            "first_name": "MIKE",
+            "last_name": "SIBRAVA",
+            "team_full": "GLENBARD EAST JR. RAMS",
             "team_acronym": null
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "MATT REBHOLZ",
+            "first_name": "MATT",
+            "last_name": "REBHOLZ",
+            "team_full": "LASALLE-PERU CRUNCHING CAVS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "MOSES KHALIL",
+            "first_name": "MOSES",
+            "last_name": "KHALIL",
+            "team_full": "LEMONT BEARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "MATT HOUSEMAN",
+            "first_name": "MATT",
+            "last_name": "HOUSEMAN",
+            "team_full": "UNION COUNTY WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "JARED BURRESS",
+            "first_name": "JARED",
+            "last_name": "BURRESS",
+            "team_full": "KELLER JR. COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "NATHANIEL KESSEN",
+            "first_name": "NATHANIEL",
+            "last_name": "KESSEN",
+            "team_full": "ROCHELLE WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "RASHAWN THURMAN",
+            "first_name": "RASHAWN",
+            "last_name": "THURMAN",
+            "team_full": "TRI-CITY BRAVES",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "LUCAS DAUGHERTY",
+            "first_name": "LUCAS",
+            "last_name": "DAUGHERTY",
+            "team_full": "TAYLORVILLE WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "CARL LINDY",
+            "first_name": "CARL",
+            "last_name": "LINDY",
+            "team_full": "CHAMPAIGN CHARGER KIDS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BOBBY MOSEL",
+            "first_name": "BOBBY",
+            "last_name": "MOSEL",
+            "team_full": "BLUE ISLAND PD BOMBERS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 113,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "MIKE MOWEN",
+            "first_name": "MIKE",
+            "last_name": "MOWEN",
+            "team_full": "HONONEGAH WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JAMES DORE",
+            "first_name": "JAMES",
+            "last_name": "DORE",
+            "team_full": "NOTRE DAME WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 114,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "WILLIAM SADEK",
+            "first_name": "WILLIAM",
+            "last_name": "SADEK",
+            "team_full": "VITTUM CATS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "DAVID FRITTS",
+            "first_name": "DAVID",
+            "last_name": "FRITTS",
+            "team_full": "EL PASO WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 115,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "SERGIO ESCOBAR",
+            "first_name": "SERGIO",
+            "last_name": "ESCOBAR",
+            "team_full": "RAMS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "GREG BETTIS",
+            "first_name": "GREG",
+            "last_name": "BETTIS",
+            "team_full": "DAKOTA WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 116,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "CHRIS STONE",
+            "first_name": "CHRIS",
+            "last_name": "STONE",
+            "team_full": "UNION COUNTY WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "BRIAN GREGORY",
+            "first_name": "BRIAN",
+            "last_name": "GREGORY",
+            "team_full": "LIL REAPER",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 117,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "BILLY HOFFERT",
+            "first_name": "BILLY",
+            "last_name": "HOFFERT",
+            "team_full": "FARMINGTON WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JAY PTAK",
+            "first_name": "JAY",
+            "last_name": "PTAK",
+            "team_full": "ELMHURST JR. DUKES",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 118,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "JEFF BROCKMAN",
+            "first_name": "JEFF",
+            "last_name": "BROCKMAN",
+            "team_full": "SENECA IRISH CADETS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "NICHOLAS YARBER",
+            "first_name": "NICHOLAS",
+            "last_name": "YARBER",
+            "team_full": "BELLEVILLE LITTLE DEVILS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 119,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "MATTHEW LOONEY",
+            "first_name": "MATTHEW",
+            "last_name": "LOONEY",
+            "team_full": "DOWNERS GROVE PD COUGARS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MATT FLETCHER",
+            "first_name": "MATT",
+            "last_name": "FLETCHER",
+            "team_full": "LASALLE-PERU CRUNCHING CAVS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 120,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "SERGIO ESCOBAR",
+            "first_name": "SERGIO",
+            "last_name": "ESCOBAR",
+            "team_full": "RAMS WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "NATHANIEL KESSEN",
+            "first_name": "NATHANIEL",
+            "last_name": "KESSEN",
+            "team_full": "ROCHELLE WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 575,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "JAMES DORE",
+            "first_name": "JAMES",
+            "last_name": "DORE",
+            "team_full": "NOTRE DAME WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "RASHAWN THURMAN",
+            "first_name": "RASHAWN",
+            "last_name": "THURMAN",
+            "team_full": "TRI-CITY BRAVES",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 559,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "MATT REBHOLZ",
+            "first_name": "MATT",
+            "last_name": "REBHOLZ",
+            "team_full": "LASALLE-PERU CRUNCHING CAVS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "JARED BURRESS",
+            "first_name": "JARED",
+            "last_name": "BURRESS",
+            "team_full": "KELLER JR. COUGARS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 591,
+          "top_win": false
         }
       ]
     },
@@ -320,7 +5360,97 @@
       "weight": 215,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "DAN SIMPSON",
+            "first_name": "DAN",
+            "last_name": "SIMPSON",
+            "team_full": "HOMEWOOD FLOSSMOOR PARK DISTRICT \"CATS\"",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "JASON NEWMAN",
+            "first_name": "JASON",
+            "last_name": "NEWMAN",
+            "team_full": "GRANITE CITY COOLIDGE",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "JONATHAN HALL",
+            "first_name": "JONATHAN",
+            "last_name": "HALL",
+            "team_full": "ADDISON / INDIAN TRAIL",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "PATRICK BABCOCK",
+            "first_name": "PATRICK",
+            "last_name": "BABCOCK",
+            "team_full": "ROCKFORD WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "TIM DALY",
+            "first_name": "TIM",
+            "last_name": "DALY",
+            "team_full": "VILLA PARK YOUNG WARRIORS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "BRIAN STEELE",
+            "first_name": "BRIAN",
+            "last_name": "STEELE",
+            "team_full": "MACOMB KIDS",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
           "top_competitor": {
             "full_name": "EDMUND NEGRON",
             "first_name": "EDMUND",
@@ -329,10 +5459,256 @@
             "team_acronym": null
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "MICHAEL GREENE",
+            "first_name": "MICHAEL",
+            "last_name": "GREENE",
+            "team_full": "EL PASO WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "RYAN WILD",
+            "first_name": "RYAN",
+            "last_name": "WILD",
+            "team_full": "CHAMPAIGN CHARGER KIDS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CORY LIND",
+            "first_name": "CORY",
+            "last_name": "LIND",
+            "team_full": "BELVIDERE BANDITS WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 121,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "CHRIS DRAKE",
+            "first_name": "CHRIS",
+            "last_name": "DRAKE",
+            "team_full": "TIGERTOWN TANGLERS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "CHAD TINSLEY",
+            "first_name": "CHAD",
+            "last_name": "TINSLEY",
+            "team_full": "WHEATON BULLDOGS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 122,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "DANIEL CANO",
+            "first_name": "DANIEL",
+            "last_name": "CANO",
+            "team_full": "JR. MUSTANG",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "LUKE TAYLOR",
+            "first_name": "LUKE",
+            "last_name": "TAYLOR",
+            "team_full": "CATLIN YOUTH WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 123,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "MIKE MAYOKA",
+            "first_name": "MIKE",
+            "last_name": "MAYOKA",
+            "team_full": "ST. CHARLES WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "PAT LEE",
+            "first_name": "PAT",
+            "last_name": "LEE",
+            "team_full": "GENESEO WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 124,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "RYAN LAUTERBACH",
+            "first_name": "RYAN",
+            "last_name": "LAUTERBACH",
+            "team_full": "ROCKFORD WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "ANDREW QUAIN",
+            "first_name": "ANDREW",
+            "last_name": "QUAIN",
+            "team_full": "EL PASO WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 125,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "MATTHEW MANIS",
+            "first_name": "MATTHEW",
+            "last_name": "MANIS",
+            "team_full": "MT. VERNON LIONS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "TERRY SHANAHAN",
+            "first_name": "TERRY",
+            "last_name": "SHANAHAN",
+            "team_full": "LINCOLN-WAY KNIGHTS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 126,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "MICHAEL DONELSON",
+            "first_name": "MICHAEL",
+            "last_name": "DONELSON",
+            "team_full": "TOMCAT WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "KYLE HAAK",
+            "first_name": "KYLE",
+            "last_name": "HAAK",
+            "team_full": "EASTLAND MAT CATS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 127,
+          "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "CHRIS WILSON",
+            "first_name": "CHRIS",
+            "last_name": "WILSON",
+            "team_full": "PLAINFIELD INDIAN TRAIL",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "COLT MIX",
+            "first_name": "COLT",
+            "last_name": "MIX",
+            "team_full": "LITCHFIELD WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 128,
+          "top_win": null
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "TIM DALY",
+            "first_name": "TIM",
+            "last_name": "DALY",
+            "team_full": "VILLA PARK YOUNG WARRIORS",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "PATRICK BABCOCK",
+            "first_name": "PATRICK",
+            "last_name": "BABCOCK",
+            "team_full": "ROCKFORD WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 576,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "MIKE MAYOKA",
+            "first_name": "MIKE",
+            "last_name": "MAYOKA",
+            "team_full": "ST. CHARLES WC",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "MICHAEL GREENE",
+            "first_name": "MICHAEL",
+            "last_name": "GREENE",
+            "team_full": "EL PASO WC",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 560,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "JASON NEWMAN",
+            "first_name": "JASON",
+            "last_name": "NEWMAN",
+            "team_full": "GRANITE CITY COOLIDGE",
+            "team_acronym": null
+          },
+          "bottom_competitor": {
+            "full_name": "EDMUND NEGRON",
+            "first_name": "EDMUND",
+            "last_name": "NEGRON",
+            "team_full": "CPS",
+            "team_acronym": null
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 592,
+          "top_win": false
         }
       ]
     },
