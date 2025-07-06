@@ -748,7 +748,7 @@ import pathlib
 import bracket_utils
 import manual_entry
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
     72: [
@@ -929,7 +929,7 @@ def main():
         )
 
     weight_classes = manual_entry.load_manual_entries(
-        HERE.parent, 1991, _NAME_EXCEPTIONS
+        _HERE.parent, 1991, _NAME_EXCEPTIONS
     )
     for weight, placers in _SENIOR_PLACERS.items():
         weight_class = bracket_utils.create_weight_class_from_placers(
@@ -950,7 +950,7 @@ def main():
         weight_classes=weight_classes, team_scores=team_scores, deductions=[]
     )
     extracted.sort()
-    with open(HERE / "extracted.1991.json", "w") as file_obj:
+    with open(_HERE / "extracted.1991.json", "w") as file_obj:
         file_obj.write(extracted.model_dump_json(indent=2))
         file_obj.write("\n")
 
