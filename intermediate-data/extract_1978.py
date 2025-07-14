@@ -1,5 +1,435 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
+"""
+The competitor list (from scans from Terry Weber) is contained below. We'll
+use this to fill out a competitor list for this year.
+
+------------------------------------------------
+
+TEAMS
+An UG :: Antioch
+Bel R :: Belleville Red
+Bel W :: Belleville/White
+Belvd Y :: Belvidere YMCA
+Carb :: Carbondale
+Cool :: Coolidge
+CR :: Chicago Ridge
+Dec :: Decatur
+Dix :: Dixon
+Dol :: Dolton Park
+Elm :: Elmhurst
+EM :: East Moline
+Har :: Harvard
+Hart :: Hartford
+High :: Dundee
+Hunt :: Huntley
+In Tr :: Indian Trail
+Jeff :: Jefferson Jr. High
+Jol BC :: Joliet Boys Club
+Jol Y :: Joliet YMCA
+Jor :: Jordon
+Lin :: Lincoln Jr. High
+LJH :: Lundahl Jr. High
+Lk Vil :: Lake Villa
+Lk Zur WC :: Lake Zurich
+Mink :: Minooka
+Mok :: Mokena
+Mt G :: Mt. Greenwood
+Mur :: Murphysboro
+Nap :: Naperville
+OF :: Oak Forest
+Or Pk :: Orland Park
+Pant :: Panthers
+Pek :: Pekin
+Pk For :: Park Forest
+Pln :: Plainfield
+Pon :: Pontiac
+Pon :: Pontiac
+PPD :: Palatine PD
+Raid :: Raiders
+RF :: Rock Falls
+Riv D :: Riverdale
+Ros :: Rosemont
+Rox :: Roxana
+RT :: River Trails
+Shab :: Shabbona
+Spring :: Springfield
+St V :: Stillman Valley
+Sum H :: Summit Hill
+Syc :: Sycamore
+TP :: Tinley PK
+Trim :: Trimpe
+Troy :: Troy
+Urb :: Urbana
+Vil Pk :: Villa Park
+Wal S :: Walter Sundling
+Ward :: Ward Middle
+Wash :: Washington
+Wh Fr :: Franklin/Wheaton
+
+60
+Ed Moholick :: Pln :: 3
+Bonic :: Mat
+Rangel :: Wash
+Jurinek :: Ros
+Becker :: Pant
+>> Calhoun :: Bel R
+>> Mike O'Brien :: CR :: 1
+Tiembier :: EM
+John Galkowski :: PPD :: 6
+Suter :: Dec
+Allgire :: Bel W
+Phil Chihoski :: Ros :: 4
+Besley :: Jol Y
+Craig DeBevec :: OF :: 2
+Spacone :: Lin
+Ken Sheppard :: PPD :: 5
+>>> Brown :: RF
+>>> Gray :: Nap
+
+65
+Jeff Walters :: Pln :: 4
+Eiricson :: High
+Joe Bochenski :: Pant :: 6
+Shroeder :: Mat
+Hanlin :: EM
+>>> Meagher :: Jol Y
+>>> Robackouski :: Ros
+Rob Millazo :: Rox :: 2
+O'Brien :: CR
+Chris Scott :: Jol Y :: 1
+Lind :: Pon
+Lewis :: Urb
+>>> Dorich :: Lin
+>>> Jensen :: Sh Ln
+Bertucci :: Ros
+Williams :: Dix
+Tim Thompson :: TP :: 3
+Brett Clady :: Hart :: 5
+Dorich :: Lin
+
+70
+Daniels :: Troy
+Denning :: Eis
+Larson :: Hunt
+>>> Reidy :: TP
+>>> Navaho Woods :: Wash :: 4
+Mike Trgoeich :: Rox :: 2
+Dave Rathje :: Dec :: 6
+Shelton :: High
+Karkasis :: Elm
+Pat Rajnic :: Wh Fr :: 5
+Elleson :: Shab
+John Ruiter :: Jol Y :: 1
+Pellegrini :: HC
+Campbell :: Mat
+Kristoff :: Hart
+Dan Verr :: Raid :: 3
+>>> Booth :: Gen
+>>> Mores :: High
+
+75
+Pauls :: Nap
+Korcourek :: St V
+Rob Warren :: Rox :: 3
+Scott Pierre :: Wh Fr :: 1
+Stanton :: Deerp
+Joe McNeely :: Sum H :: 6
+Huston :: CR
+>>> Bent :: LJH
+>>> Fitzgibbons :: Raid
+Hermann :: Hunt
+Bob Gonnella :: Elm :: 4
+Keith Healy :: Pant :: 5
+Lemming :: Carb
+Zuehl :: Jeff
+Hruska :: PPD
+Sollars :: Westv
+>>> Marquez :: HC
+>>> Nick Quas :: Pln :: 2
+
+80
+Mentzer :: Pln
+>> Clardy :: Trim
+>> Denison :: Hoop
+Henry Stagnito :: Lk Zur WC :: 6
+Flynn :: Belvd Y
+Tim O'Brien :: CR :: 3
+Mike Pierre :: Wh Fr :: 1
+Marvanic :: Elm
+Conroy :: Wash
+Terry Easton :: Mur :: 5
+Lein :: Nap
+Crown :: Syc
+Callahan :: High
+Jerry Blaney :: Pant :: 2
+Kory Ross :: LJH :: 4
+LeGrand :: Sum H
+>> Walsh :: St Th
+>> McMahon :: TP
+
+85
+Bessette :: Pin
+Campbell :: Dol
+Watters :: RT
+Brian Garelli :: Vil Pk :: 2
+Pierce :: Hoop
+>> White :: Lund
+>> Jacobs :: Mur
+Shawn Mann :: Jol Y :: 6
+Kirk Hollembeak :: Belvd Y :: 4
+Brian Porter :: OF :: 1
+Buck :: Gower
+Cancelli :: CSRM
+Bohenek :: Elm
+Mark Kristoff :: Trim :: 5
+>> Chesky :: Bobc
+>> Christianson :: Dec
+Dennis Gilley :: Belvd Y :: 3
+Fitzgerald :: Gom
+
+90
+Brian McTague :: Shab :: 2
+Girard :: Har
+Gilliam :: HC
+Brown :: Carb
+Gustin :: Apo
+Mike McKeel :: Dix :: 4
+Johnston :: Urb
+>>> Eric Ewoldt :: Wh Fr :: 6
+>>> Capodice :: Mok
+McNeely :: Coop
+Friddle :: Coal C
+Tim Tieman :: Bel W :: 5
+Dave Soraghan :: Or Pk :: 3
+Wills :: St V
+Lechtenberg :: Elm
+Jeff Schultz :: Pant :: 1
+>>> Hanson :: Champ
+>>> Fessler :: TP
+
+95
+Witkawski :: Pln
+Tim Meister :: Syc :: 2
+Kevin Mackey :: Urb :: 3
+Yohe :: TP
+Soraghan :: Or Pk
+>>> Olson :: Nor PD
+>>> Tim Nelson :: High :: 6
+Zimmerman :: Eis
+Knewitz :: Carb
+Bob Guerrieri :: Elm :: 4
+>>> Pierce :: Coal C
+>>> Loy :: Riv D
+McCabe :: Mt G
+Younger :: Mah
+Pahlke :: An UG
+Tony Prate :: Or Pk :: 1
+Bob Dahm :: Bel R :: 5
+Ortega :: Pant
+
+100
+Tom Lind :: Pon :: 3
+Montez :: Hoop
+Rick Criscione :: Jol Y :: 1
+Cortese :: Mat B
+Phil Schiayone :: In Tr :: 5
+>> Walsh :: Mt G
+>> Ziprich :: Rox
+Goodrich :: Hunt
+Wohlfiel :: An UG
+Nelson :: Champ
+Kovacevich :: Pln
+Jeff Morrissey :: Ros :: 4
+>> Sunday :: Lock
+>> Seeland :: Wh Fr
+Triveline :: Dol
+Warner :: Carb
+Mitch Sheppard :: PPD :: 2
+Perry Olsen :: EM :: 6
+
+105
+Don Govoni :: Pln :: 3
+Eichelberger :: Wash
+McWilliams :: Bobc
+Ortiz :: Blm
+Mike Smith :: St V :: 1
+>>> Ramirez :: Holmes
+>>> Wallace :: Lund
+Linze :: Mur
+Tim Cocco :: CR :: 6
+Frankowski :: Or Pk
+>>> Puebla :: Wood Wil
+>>> Slown :: Pon
+Kyle Easter :: Pek :: 2
+Plichta :: Wh Fr
+Hinich :: Ros
+Mike Rowden :: Lk Vil :: 4
+Mark Moore :: OF :: 5
+Phavorachit :: Carb
+
+112
+Rick Tutor :: Mink :: 2
+Sebesta :: Eis
+>> Leahy :: HC
+>> Fabian :: Jol Y
+Kirk Taylor :: Hunt :: 4
+Rick Copeland :: Rox :: 6
+Spencer :: Bism
+Lehn :: An UG
+Coy :: Apo
+Seeland :: Wh Fr
+Holm :: Pln
+>> Mayberry :: Rox
+>>> Scott Hamrick :: EM :: 3
+Jim Kaminski :: Mok :: 5
+Thomas :: Pek
+Guy Milburn :: Dol :: 1
+Cincinelli :: Ros
+McKinzie :: Deerp
+
+118
+Goodwin :: Jane A
+Frivre :: Hunt
+Brian Brown :: Carb :: 2
+>>> Behrle :: Lan
+>>> Olszewski :: Eis
+Todd Patton :: High :: 3
+Aaron Terrell :: Pk For :: 5
+Bntimigilia :: OF
+Herring :: Dec
+Beasey :: Syc
+Bauditt :: Pln
+Mingilino :: Bobc
+Tom Bolas :: Ros :: 6
+Evan Dale :: Wash :: 1
+>>> Schmidt :: Edw
+>>> George Bessette :: An UG :: 4
+Ater :: LJH
+Kultinski :: Mt G
+
+125
+Shannon Taylor :: Nap :: 2
+Lyon :: Mur
+Mack :: CLN
+Morua :: RF
+Dan Martinus :: Mt G :: 5
+Martinez :: Vit P
+Dave Vohaska :: Raid :: 3
+>>> Wills :: Blm
+>>> Hermanson :: Bridge
+Paynic :: Rox
+Crabtree :: Mat
+Rick Flanigan :: Hunt :: 4
+Rick Moreno :: High :: 6
+Kewin :: In Tr
+Zimmer :: Dol
+Conroy :: Wash
+>>> Ken Mansell :: Jol BC :: 1
+>>> Fish :: RT
+
+135
+Mike Hall :: Pln :: 2
+Staver :: Har
+Dale Schmidt :: OF :: 6
+Milier :: Trim
+Ergastalo :: Nor PD
+Mitch Hazelwood :: Dix :: 4
+Shoufler :: Hoop
+>>> Albian :: Jeff
+>>> Chapels :: Vil Pk
+Mike Roseman :: Wal S :: 1
+Phil Williams :: Pk For :: 3
+Edmond :: Edw
+>>>
+Phil Christianson :: RF :: 5
+Jacobs :: Apo
+Swensen :: Eis
+Weiss :: Spring
+>>> Zack :: Gower
+>>> Juricic :: Cal C
+
+145
+Mike Przybysz :: Pln :: 1
+Metzler :: St P
+Killian :: Carl S
+Began :: CLN
+Tom Crawford :: Dec :: 5
+>>> John Lamb :: Riv D :: 4
+>>> Miller :: Carb
+McGinnis :: Jeff
+Dawson :: Hins
+Bob Campbell :: Dol :: 2
+Rossario Scanio :: Ward :: 6
+Gall :: Wal S
+Stachowski :: Apo
+Welsh :: Edw
+>>> Allen :: Dn Gr
+>>> Hughes :: Geog T
+Bill Mitchell :: Jor :: 3
+Gerat :: NL
+
+160
+Don Goodenough :: Troy :: 5
+Shawn Cathcart :: Cool :: 3
+Huckleby :: Hoop
+Bates :: St P
+Dave Baker :: Jeff :: 2
+>>> Cameron :: Ben
+>>> Wolf :: JL
+Wozniak :: Lin
+Wildergrobe :: Edw
+Tom Bieschke :: RT :: 4
+>>> Fluegel :: EM
+>>> Gillespie :: Ward
+Larry Leiparte :: Mt G :: 1
+Richardson :: Spring
+Tomberline :: CLN
+Brown :: Wash
+Stegall :: Alt
+Ron Kubic :: Lin :: 6
+
+185
+Tony Harvey :: Pon :: 2
+Bumbar :: Bat WC
+Terry Collins :: In Tr :: 6
+>>> Haywood :: Wash
+>>> Jarrett :: Dec
+Tod Hart :: EM :: 3
+Mudloff :: RT
+Crowell :: Mur
+VanBuskirk :: Mt G
+Joe Honn :: Jeff :: 4
+Chris Pocowicz :: Nap :: 5
+Washum :: Spring
+>>> Fern :: JL
+>>> BYE
+Latowicz :: RT
+Rick Meier :: Hunt :: 1
+Janik :: Cal C
+BYE
+
+275
+Noa Tyree :: Ward :: 1
+Smith :: Lan
+Howard Nass :: Spring :: 5
+BYE
+Joe Saldivar :: Sum H :: 4
+Armintrout :: Bat WC
+Stevens :: Vit PK
+>>> BYE
+>>> Sauer :: Mur
+Wildeboer :: Mat B
+>>> Scott Tighe :: Pln :: 2
+>>> Crouch :: Nor
+Dziedzic :: Mt G
+BYE
+Manuel Yanez :: Har :: 6
+Potocki :: NL
+Dean Hollis :: Rox :: 3
+Herdzina :: Eis
+"""
+
 import pathlib
 
 import bracket_utils
