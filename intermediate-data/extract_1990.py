@@ -8,33 +8,8 @@ import manual_entry
 _HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
-    60: [
-        "Adam Wason :: TIGERTOWN TANGLERS",
-        "Amador Estrada :: ROUND LAKE SPARTANS",
-        "Anthony Doughty :: JR. BISON WC",
-        "Anthony Opiola :: DOLTON PARK FALCONS :: 6",
-        "Bob Catalano :: LANPHIER-SPRINGFIELD WRESTLING",
-        "Brenden Joyce :: TOMCAT WC",
-        "Chad Karlen :: ROUND LAKE SPARTANS",
-        "Eugene Sacco :: FRANKLIN PARK RAIDERS",
-        "Frank Stanke :: MAINE TOWNSHIP EAGLES",
-        "Grant Hoerr :: CHILLICOTHE WC",
-        "John Murphy :: LOCKPORT GRAPPLERS WC :: 4",
-        "Justin Henry :: BELLEVILLE LITTLE DEVILS",
-        "Kenny Chrisman :: DOLTON PARK FALCONS",
-        "Leonard Bowens :: HARVEY PARK DISTRICT TWISTERS :: 2",
-        "Michael Mathews :: NAPERVILLE PATRIOTS WRESTLING :: 3",
-        "Michael Murphy Jr. :: LOCKPORT GRAPPLERS WC :: 5",
-        "Raymond Keeler :: DOLTON PARK FALCONS",
-        "Rick McDonald :: CROSSFACE WC",
-        "Roy Pierce :: SPARTANS WC",
-        "Ryan Rumfelt :: BETHALTO BOYS CLUB BULLS",
-        "Steve Wernsman :: YORKVILLE WC",
-        "Todd Combes :: DOLTON PARK FALCONS :: 1",
-        "Tony Skinner :: WESTVILLE JR. HIGH",
-        "Vince Chambliss :: CATLIN YOUTH WC",
-    ],
     64: [
+        ########################################################################
         "Adam Jones :: PEORIA RAZORBACKS YOUTH WC",
         "Archie Griffin :: OAK PARK RIVER FOREST WARHAWKS",
         "Brad Prunty :: MACOMB YMCA KIDS WRESTLING",
