@@ -506,25 +506,25 @@ _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
     64: [
         bracket_utils.Placer(name="Matt Goldstein", team="Little Giants WC"),
         bracket_utils.Placer(
-            name="David Douglas", team="Harvey Park District Twisters"
+            name="David Douglas", team="HARVEY PARK DISTRICT TWISTERS"
         ),
         bracket_utils.Placer(name="Sean Hastings", team="Vittum Cats"),
         bracket_utils.Placer(name="Chris Bonati", team="Dundee Highlanders"),
         bracket_utils.Placer(name="Gerry Hilton", team="Thornwood Kids WC"),
-        bracket_utils.Placer(name="Ryan DeLira", team="Dolton Park Falcons"),
+        bracket_utils.Placer(name="Ryan DeLira", team="DOLTON PARK FALCONS"),
     ],
     68: [
-        bracket_utils.Placer(name="Marc Zehr", team="Arlington Cardinals"),
+        bracket_utils.Placer(name="Marc Zehr", team="ARLINGTON CARDINALS WC"),
         bracket_utils.Placer(name="Francisco Bermudez", team="Lockport Grapplers WC"),
         bracket_utils.Placer(name="Danny Borland", team="Blue Crew WC"),
         bracket_utils.Placer(name="Jim Aberle", team="Round Lake Spartans"),
         bracket_utils.Placer(
-            name="Milton Blakely", team="Harvey Park District Twisters"
+            name="Milton Blakely", team="HARVEY PARK DISTRICT TWISTERS"
         ),
-        bracket_utils.Placer(name="Joel Howard", team="Naperville Patriots WC"),
+        bracket_utils.Placer(name="Joel Howard", team="NAPERVILLE PATRIOTS WRESTLING"),
     ],
     72: [
-        bracket_utils.Placer(name="Tony Davis", team="Harvey Park District Twisters"),
+        bracket_utils.Placer(name="Tony Davis", team="HARVEY PARK DISTRICT TWISTERS"),
         bracket_utils.Placer(name="Jim Gahagan", team="Vittum Cats"),
         bracket_utils.Placer(name="Matthew Wegner", team="Warrior WC Niles"),
         bracket_utils.Placer(name="Alan Cartwright", team="OPRF Warhawks"),
@@ -534,19 +534,19 @@ _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
     77: [
         bracket_utils.Placer(name="Don Bermudez", team="Lockport Grapplers WC"),
         bracket_utils.Placer(name="Thomas Grennan", team="Newman Blue Devils"),
-        bracket_utils.Placer(name="Blake Hoerr", team="Chillicothe Wrestling"),
+        bracket_utils.Placer(name="Blake Hoerr", team="CHILLICOTHE WC"),
         bracket_utils.Placer(
-            name="Durand Womack", team="Harvey Park District Twisters"
+            name="Durand Womack", team="HARVEY PARK DISTRICT TWISTERS"
         ),
         bracket_utils.Placer(name="Jim Brasher", team="Vittum Cats"),
         bracket_utils.Placer(name="Andrew O'Malley", team="St. Barnabas"),
     ],
     82: [
-        bracket_utils.Placer(name="Jason Pero", team="Harvey Park District Twisters"),
+        bracket_utils.Placer(name="Jason Pero", team="HARVEY PARK DISTRICT TWISTERS"),
         bracket_utils.Placer(name="Javier Quintanilla", team="Tomcat WC"),
         bracket_utils.Placer(name="Bradley Schnowske", team="Geneseo WC"),
         bracket_utils.Placer(name="Patrick Sheahan", team="St. Barnabas"),
-        bracket_utils.Placer(name="Rafael Avila", team="Belvidere YMCA Bandits"),
+        bracket_utils.Placer(name="Rafael Avila", team="BELVIDERE YMCA BANDITS"),
         bracket_utils.Placer(name="Reginald Wright", team="OPRF Warhawks"),
     ],
     87: [
@@ -555,12 +555,12 @@ _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
         bracket_utils.Placer(name="Terry O'Brien", team="Panther WC"),
         bracket_utils.Placer(name="Ronnie Hansen", team="Edwardsville"),
         bracket_utils.Placer(name="Mark Pishotta", team="Rosemont Cobras WC"),
-        bracket_utils.Placer(name="Robbie Cox", team="Belvidere YMCA Bandits"),
+        bracket_utils.Placer(name="Robbie Cox", team="BELVIDERE YMCA BANDITS"),
     ],
     93: [
-        bracket_utils.Placer(name="Dan Collins", team="Arlington Cardinals"),
+        bracket_utils.Placer(name="Dan Collins", team="ARLINGTON CARDINALS WC"),
         bracket_utils.Placer(name="James Crnich", team="Oak Forest Warriors"),
-        bracket_utils.Placer(name="Joseph Opiola", team="Dolton Park Falcons"),
+        bracket_utils.Placer(name="Joseph Opiola", team="DOLTON PARK FALCONS"),
         bracket_utils.Placer(name="Stephen Stanley", team="Mattoon WC"),
         bracket_utils.Placer(name="Ken Biala", team="Villa-Lombard Cougars"),
         bracket_utils.Placer(
@@ -569,24 +569,24 @@ _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
     ],
     99: [
         bracket_utils.Placer(
-            name="Timothy Williams", team="Harvey Park District Twisters"
+            name="Timothy Williams", team="HARVEY PARK DISTRICT TWISTERS"
         ),
         bracket_utils.Placer(name="Ben Gerdes", team="Orland Park Pioneers"),
         bracket_utils.Placer(name="Scott Benjamin", team="Catlin Youth WC"),
-        bracket_utils.Placer(name="Danny Jovanovic", team="Dolton Park Falcons"),
+        bracket_utils.Placer(name="Danny Jovanovic", team="DOLTON PARK FALCONS"),
         bracket_utils.Placer(name="Jermaine White", team="OPRF Warhawks"),
         bracket_utils.Placer(name="Brody Rude", team="Newman Blue Devils"),
     ],
     105: [
-        bracket_utils.Placer(name="Thomas Combes", team="Dolton Park Falcons"),
+        bracket_utils.Placer(name="Thomas Combes", team="DOLTON PARK FALCONS"),
         bracket_utils.Placer(name="Sam Watts", team="Foreman WC"),
-        bracket_utils.Placer(name="Curtis Owen", team="Franklin Park Raiders"),
+        bracket_utils.Placer(name="Curtis Owen", team="FRANKLIN PARK RAIDERS"),
         bracket_utils.Placer(name="Ryan Ewanio", team="Rosemont Cobras WC"),
         bracket_utils.Placer(name="Bob Remily", team="Harlem Park Boys Club"),
         bracket_utils.Placer(name="Aren Arechiga", team="Thornwood Kids WC"),
     ],
     112: [
-        bracket_utils.Placer(name="Manuel Villarreal", team="Arlington Cardinals"),
+        bracket_utils.Placer(name="Manuel Villarreal", team="ARLINGTON CARDINALS WC"),
         bracket_utils.Placer(name="Kristian Wahlgren", team="Tigertown Tanglers"),
         bracket_utils.Placer(name="Jeremy Neufeld", team="Oak Forest Warriors"),
         bracket_utils.Placer(name="Dan Schmidt", team="Moline Tigers"),
@@ -616,7 +616,7 @@ _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
     135: [
         bracket_utils.Placer(name="Denny Hartwig", team="Oak Forest Warriors"),
         bracket_utils.Placer(name="Kevin Singletary", team="Orland Park Pioneers"),
-        bracket_utils.Placer(name="Austin Collins", team="Franklin Park Raiders"),
+        bracket_utils.Placer(name="Austin Collins", team="FRANKLIN PARK RAIDERS"),
         bracket_utils.Placer(name="C.J. Protsman", team="Macomb YMCA Kids Wrestling"),
         bracket_utils.Placer(
             name="Steve Bailey", team="Plainfield Indian Trail Wrestling"
@@ -624,7 +624,7 @@ _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
         bracket_utils.Placer(name="Mike Etzkorn", team="Lemont WC"),
     ],
     144: [
-        bracket_utils.Placer(name="Ryan Pape", team="Franklin Park Raiders"),
+        bracket_utils.Placer(name="Ryan Pape", team="FRANKLIN PARK RAIDERS"),
         bracket_utils.Placer(name="Chris Timmons", team="Hoopeston East Lynn Jr. High"),
         bracket_utils.Placer(name="Ryan Beivenue", team="Trimpe Junior High"),
         bracket_utils.Placer(name="Jeremy Judd", team="Lil Reaper"),
@@ -642,7 +642,7 @@ _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
     163: [
         bracket_utils.Placer(name="Andy Donaldson", team="Mead Hr. WC"),
         bracket_utils.Placer(name="Michael Acord", team="Westville Jr. High"),
-        bracket_utils.Placer(name="Scott Wulff", team="Oswego Panthers"),
+        bracket_utils.Placer(name="Scott Wulff", team="OSWEGO PANTHERS"),
         bracket_utils.Placer(name="Ray Jebsen", team="Tinley Park Bulldogs"),
         bracket_utils.Placer(name="Chris Williams", team="Indian Prairie Pioneers"),
         bracket_utils.Placer(name="John Sherrill", team="Murphysboro Jr. High"),
@@ -660,28 +660,28 @@ _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
         bracket_utils.Placer(name="Nathan Shelton", team="Aurora J-Hawks"),
         bracket_utils.Placer(name="Don Madenis", team="Harvard WC"),
         bracket_utils.Placer(name="L.T. Garrett", team="Hoopeston East Lynn Jr. High"),
-        bracket_utils.Placer(name="Brian Washington", team="Dolton Park Falcons"),
-        bracket_utils.Placer(name="Jeffrey Rohde", team="Yorkville WC"),
+        bracket_utils.Placer(name="Brian Washington", team="DOLTON PARK FALCONS"),
+        bracket_utils.Placer(name="Jeffrey Rohde", team="YORKVILLE WC"),
     ],
     275: [
         bracket_utils.Placer(name="Peter Marx", team="Eisenhower Jr. High WC"),
         bracket_utils.Placer(name="Jerry Jontry", team="Argenta/Oreana WC"),
-        bracket_utils.Placer(name="Mike Johnson", team="Tri-City Braves"),
+        bracket_utils.Placer(name="Mike Johnson", team="TRI-CITY BRAVES"),
         bracket_utils.Placer(
-            name="Cameron Randolph", team="Harvey Park District Twisters"
+            name="Cameron Randolph", team="HARVEY PARK DISTRICT TWISTERS"
         ),
         bracket_utils.Placer(name="Richard Reynolds", team="Aurora J-Hawks"),
-        bracket_utils.Placer(name="Patrick Parham", team="Tri-City Braves"),
+        bracket_utils.Placer(name="Patrick Parham", team="TRI-CITY BRAVES"),
     ],
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
-    "Harvey Park District Twisters": 195.0,
-    "Dolton Park Falcons": 143.5,
+    "HARVEY PARK DISTRICT TWISTERS": 195.0,
+    "DOLTON PARK FALCONS": 143.5,
     "Vittum Cats": 103.5,
     "Aurora J-Hawks": 102.0,
     "Oak Forest Warriors": 101.5,
-    "Arlington Cardinals WC": 93.0,
-    "Franklin Park Raiders": 83.5,
+    "ARLINGTON CARDINALS WC": 93.0,
+    "FRANKLIN PARK RAIDERS": 83.5,
     "Oak Park River Forest Warhawks": 82.5,
     "Tomcat WC": 80.5,
     "Lockport Grapplers Wrestling": 80.0,
@@ -690,7 +690,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "Mead Jr. High": 66.0,  # Was `Mead Jr. WC` in the program
     "Plainfield Indian Trail Wrestling": 64.0,
     "St. Barnabas/Christ The King": 59.0,
-    "Tri-City Braves": 57.5,
+    "TRI-CITY BRAVES": 57.5,
     "Hoopeston E. Lynn Jr. High": 56.0,
     "Orland Park Pioneers": 54.5,
     "Argenta/Oreana WC": 42.0,
@@ -707,17 +707,17 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "Forman WC": 34.0,
     "St. Charles WC": 33.0,
     "Gordon Tech Rams WC Chicago": 33.0,
-    "Naperville Patriots Wrestling": 32.0,
+    "NAPERVILLE PATRIOTS WRESTLING": 32.0,
     "Westville Jr. High": 31.0,
-    "Belleville Little Devils": 31.0,
+    "BELLEVILLE LITTLE DEVILS": 31.0,
     "Riverdale Jr. High WC": 31.0,
     "Warrior WC Niles": 31.0,
     "Eisenhower Jr. High": 30.0,  # Was `Eisenhower Jr. High WC` in the program
     "Unity Youth": 29.0,
     "Tinley Park Bulldogs": 28.5,
-    "Belvidere YMCA Bandits": 28.0,
+    "BELVIDERE YMCA BANDITS": 28.0,
     "Little Giants WC": 28.0,
-    "Oswego Panthers": 28.0,
+    "OSWEGO PANTHERS": 28.0,
     "Jr. Bison WC": 27.0,
     "Panthers WC": 26.0,
     "Antioch Upper Grade School": 24.0,
@@ -729,11 +729,11 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "Moline Tigers": 21.0,
     "Harvard WC": 20.0,
     "Villa-Lombard Cougars": 20.0,
-    "Yorkville WC": 20.0,
+    "YORKVILLE WC": 20.0,
     "Carol Stream Park Dist": 17.5,
     "Blue Crew WC": 17.0,
     "Calumet Memorial PD": 17.0,
-    "Chillicothe Wrestling": 17.0,
+    "CHILLICOTHE WC": 17.0,
     "Gibson City Youth Wrestling": 17.0,
     "Lil Reaper": 17.0,
     "Blackhawk WC": 16.0,
@@ -741,7 +741,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "Murphysboro Jr. High": 16.0,
     "Centralia WC": 15.0,
     "Indian Prairie Pioneers": 15.0,
-    "Bethalto Boys Club Bulls": 14.0,
+    "BETHALTO BOYS CLUB BULLS": 14.0,
     "Granite City WC Coolidge": 14.0,
     "Macomb YMCA Kids Wrestling": 14.0,
     "Morton Youth Wrestling": 14.0,

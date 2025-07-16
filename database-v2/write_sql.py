@@ -1048,7 +1048,11 @@ def _write_team_deduplicate_sql(
             if (row.tournament_id, row.division, row.name) in keep_tuples
         ]
         if len(duplicated_rows) != len(keep_tuples):
-            raise ValueError("Some duplicates not matched", team_name)
+            duplicated_row_tuples = [
+                (row.tournament_id, row.division, row.name) for row in duplicated_rows
+            ]
+            missing = set(keep_tuples) - set(duplicated_row_tuples)
+            raise ValueError("Some duplicates not matched", team_name, missing)
 
         keep_team_id = min(
             tournament_team.team_id for tournament_team in duplicated_rows
