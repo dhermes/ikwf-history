@@ -590,11 +590,11 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "TIGERTOWN TANGLERS": 41.0,
 }
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
-    ("Darnell D Lollis", "Hrvy. Twisters"): bracket_utils.Competitor(
+    ("Darnell D Lollis", "HARVEY PD TWISTERS"): bracket_utils.Competitor(
         full_name="Darnell D Lollis",
         first_name="Darnell",
         last_name="Lollis",
-        team_full="Hrvy. Twisters",
+        team_full="HARVEY PD TWISTERS",
         team_acronym=None,
     ),
 }

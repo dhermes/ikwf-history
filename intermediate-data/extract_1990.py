@@ -781,11 +781,11 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "Lions WC": 2.0,
 }
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
-    ("Michael Murphy, Jr", "Lockport Grap."): bracket_utils.Competitor(
+    ("Michael Murphy, Jr", "LOCKPORT GRAPPLERS WC"): bracket_utils.Competitor(
         full_name="Michael Murphy, Jr",
         first_name="Michael",
         last_name="Murphy",
-        team_full="Lockport Grap.",
+        team_full="LOCKPORT GRAPPLERS WC",
         team_acronym=None,
     ),
 }
