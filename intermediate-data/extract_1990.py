@@ -8,6 +8,7 @@ import manual_entry
 _HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
+    # 60: "Grant Hoerr :: CHILLICOTHE WC" # ???
     64: [
         ########################################################################
         "Adam Jones :: PEORIA RAZORBACKS YOUTH WC",
