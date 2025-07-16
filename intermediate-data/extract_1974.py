@@ -19,7 +19,7 @@ WHALEN :: Granite City
 RUETTIGER :: Joliet Boys Club :: 3
 DEAN :: West Chicago
 OVERTON :: Mattoon
-POWERS :: Indian Trails :: 6
+POWERS :: Indian Trail :: 6
 BOS :: Sterling
 PRESSNEY :: Gemini Jr. High
 ED DE BEVEC :: Tinley Park :: 1
@@ -47,7 +47,7 @@ WHALEN :: Granite City :: 2
 LANDRY :: Lincoln (Naperville)
 KILLHOFE :: Raiders
 COOKE :: Keller Jr. High :: 5
-GERDES :: Oak Forest  :: 3
+GERDES :: Oak Forest :: 3
 VERCELOTTI :: Troy
 CHAMPION :: East Moline
 GRANT :: Hoopeston
@@ -66,7 +66,7 @@ EVANS :: Elk Grove :: 6
 BRYANT :: Tinley Park :: 2
 STEWART :: Rosette
 DOMBROWSKI :: Sterling :: 4
-GLUCK :: Ke;ler
+GLUCK :: Keller Jr. High
 MURRAY :: Mahomet—Seymour
 SUMIDA :: Downers Grove
 SCHNAUTZ :: Murphysboro
@@ -127,7 +127,7 @@ JANICEK :: Belleville
 GOODWIN :: Urbana Jr. High
 STERIOTI :: Woodridge
 COPTENS :: Coolidge :: 4
-PERRY :: Bensonville :: 5
+PERRY :: Bensenville :: 5
 KELLY :: Chicago Ridge :: 2
 CHERRY :: Huntley
 KERKES :: Gemini Jr. High
@@ -145,7 +145,7 @@ HOESE :: Granite City
 QUAS :: Plainfield :: 5
 FOWLER :: West Chicago
 CHAPMAN :: Fisher
-VARGA :: Indian Trails
+VARGA :: Indian Trail
 VERBEKE :: Wilson
 KRIST :: Raiders :: 3
 FERREIRA :: Oak Forest :: 2
@@ -230,7 +230,7 @@ GUTHRIE :: Park Forest
 RICK SANDERS :: Troy :: 1
 MARCOTTE :: Gemini Jr. High
 REYES :: West Chicago :: 3
-DODMEAD :: Indian Trails
+DODMEAD :: Indian Trail
 FORSHEE :: Granite City
 BEHRENS :: Coolidge
 GREG :: Charleston :: 4
@@ -271,7 +271,7 @@ KAIRER :: Edwardsville
 PHELPS :: Troy :: 2
 TEPLER :: West Chicago :: 5
 THRIFT :: Urbana Jr. High
-FEWS :: Simmons
+FEWS :: Simmons (Aurora)
 POSTON :: Franklin :: 4
 SPIKE :: London Jr. High
 SCHMITT :: Oak Forest
@@ -279,7 +279,7 @@ SCHMITT :: Oak Forest
 275
 LAMP :: Granite City
 MORENO :: Highlanders
-KURT KARAS :: Simmons :: 1
+KURT KARAS :: Simmons (Aurora) :: 1
 ROCKOVSKI :: Morris :: 3
 PERTO :: St. Doms :: 5
 WHITE :: Mattoon
