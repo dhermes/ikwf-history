@@ -432,6 +432,60 @@ _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
         "BOB CUSACK :: VILLA PARK YOUNG WARRIORS",
     ],
 }
+_NOVICE_TEAM_SCORES: dict[str, float] = {
+    "ORLAND PARK PIONEERS": 145.5,
+    "JOLIET BOYS CLUB COBRAS": 127.5,
+    "HARVEY PARK DISTRICT TWISTERS": 110,
+    "BELLEVILLE LITTLE DEVILS": 86,
+    "VILLA-LOMBARD COUGARS": 81.5,
+    "BELVIDERE BANDITS": 80,
+    "TINLEY PARK BULLDOGS": 71.5,
+    "VITTUM CATS WRESTLING CLUB": 64.5,
+    "L-P CRUNCHING CAVS": 63,
+    "MT. ZION WRESTLING CLUB": 62,
+    "WHEATON BULLDOGS": 47,
+    "PEKIN BOYS CLUB": 47,
+    "LEMONT BEARS": 47,
+    "HARLEM COUGARS WC": 45,
+    "WAUBONSIE BRAVES": 44,
+    "DOLTON PARK FALCONS": 44,
+    "BISMARCK-HENNING": 42.5,
+    "LIL REAPER WRESTLING": 41,
+    "LITTLE CELTIC WRESTLING CLUB": 39.5,
+    "VILLA PARK YOUNG WARRIORS": 39,
+    "TIGERTOWN TANGLERS": 39,
+    "NAPERVILLE WRESTLING CLUB": 39,
+    "BLACKHAWK WRESTLING CLUB": 39,
+    "SYCAMORE COMMUNITY": 36.5,
+    "EAST MOLINE PANTHER": 36,
+    "ROCKFORD WRESTLING CLUB": 34,
+    "CRYSTAL LAKE WIZARDS": 33.5,
+    "OSWEGO COUGARS": 31,
+    "JR. BEARS WC": 30,
+    "RICHMOND WRESTLING CLUB": 28,
+    "EDISON WRESTLING CLUB": 27,
+    "GENESEO WRESTLING CLUB": 26.5,
+    "PANTHER WRESTLING": 26,
+    "LAKE VILLA LANCERS": 26,
+    "EDWARDSVILLE WRESTLING": 25,
+    "TOMCAT WRESTLING CLUB": 24.5,
+    "FOX LAKE LAKELAND": 24,
+    "RENAGADE 3 STYLE WRESTLING": 23,
+    "MORTON YOUTH WRESTLING": 23,
+    "METAMORA KIDS WC": 23,
+    "WARHAWK WRESTLING CLUB": 22,
+    "EASTLAND MAT CATS": 22,
+    "DUNDEE HIGHLANDERS": 22,
+    "SJO KIDS WRESTLING": 21,
+    "SOUTHSIDER WRESTLING CLUB": 19,
+    "GCMS FALCON WRESTLING": 18.5,
+    "KNIGHTS WRESTLING": 18,
+    "CALUMET MEMORIAL PARK": 18,
+    "MAINE EAGLES WRESTLING": 17,
+    "LARKIN ROYAL WRESTLING": 17,
+    "CENTRALIA WRESTLING CLUB": 17,
+    "THE WRESTLING FACTORY": 16,
+}
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     70: [
@@ -903,6 +957,60 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "CHRIS TODD :: MURPHYSBORO MIDDLE",
     ],
 }
+_SENIOR_TEAM_SCORES: dict[str, float] = {
+    "TINLEY PARK BULLDOGS": 153,
+    "HARLEM COUGARS WC": 150,
+    "JUNIOR COUGAR WRESTLING": 129,
+    "VILLA-LOMBARD COUGARS": 120,
+    "LEMONT BEARS": 119,
+    "GRANITE CITY WC COOLIDGE": 117,
+    "DOLTON PARK FALCONS": 87,
+    "CRYSTAL LAKE WIZARDS": 79,
+    "LITTLE CELTIC WRESTLING CLUB": 70.5,
+    "GENESEO WRESTLING CLUB": 63.5,
+    "RAMS WRESTLING CLUB": 62,
+    "ROCKFORD WRESTLING CLUB": 56,
+    "WHEATON BULLDOGS": 54,
+    "YORKVILLE WRESTLING CLUB": 52,
+    "WAUBONSIE BRAVES": 49,
+    "VITTUM CATS WRESTLING CLUB": 46,
+    "SOUTH SUBURBAN TIGERS": 46,
+    "PEKIN BOYS CLUB": 46,
+    "LAKE VILLA LANCERS": 43,
+    "MORRISON STALLIONS": 42,
+    "HUSKIES WRESTLING CLUB": 41,
+    "MOLINE SPARTANS": 39,
+    "ERIE MIDDLE SCHOOL WRESTLING CLUB": 39,
+    "ST. BARNABAS / CHRIST THE KING": 38,
+    "JR. ROCKET WRESTLING CLUB": 36.5,
+    "METRO STALLIONS": 36,
+    "MT. ZION WRESTLING CLUB": 34,
+    "RICHMOND WRESTLING CLUB": 31.5,
+    "SYCAMORE COMMUNITY": 30,
+    "TOMCAT WRESTLING CLUB": 27,
+    "L-P CRUNCHING CAVS": 27,
+    "CPS": 27,
+    "BETHALTO/JR. HIGH": 26.5,
+    "ORLAND PARK PIONEERS": 26,
+    "JR. BEARS WC": 26,
+    "HARVARD WRESTLING CLUB": 25,
+    "BISMARCK-HENNING": 24,
+    "RIVERDALE JR. HIGH WC": 23.5,
+    "MURPHYSBORO MIDDLE": 22.5,
+    "WEST CHICAGO PARK DISTRICT": 22,
+    "WAUBONSIE TRAILBLAZERS": 22,
+    "BRADLEY - BOURBONNAIS WC": 22,
+    "VILLA PARK YOUNG WARRIORS": 21,
+    "SOUTHSIDER WRESTLING CLUB": 21,
+    "RICH WRESTLING": 21,
+    "METAMORA KIDS WC": 21,
+    "HAWKEYE WRESTLING CLUB": 21,
+    "BLACKHAWK WRESTLING CLUB": 21,
+    "PLAINFIELD WRESTLING CLUB": 20.5,
+    "PONTIAC PYTHONS WC": 19,
+    "KNIGHTS WRESTLING": 19,
+    "BELLEVILLE LITTLE DEVILS": 19,
+}
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("MICHAEL RZAB JR", "TINLEY PARK BULLDOGS"): bracket_utils.Competitor(
         full_name="MICHAEL RZAB JR",
@@ -1108,6 +1216,19 @@ def _get_bout_numbers(
 
 
 def main():
+    team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
+    team_scores["novice"] = []
+    for team_name, score in _NOVICE_TEAM_SCORES.items():
+        team_scores["novice"].append(
+            bracket_utils.TeamScore(team=team_name, acronym=None, score=score)
+        )
+
+    team_scores["senior"] = []
+    for team_name, score in _SENIOR_TEAM_SCORES.items():
+        team_scores["senior"].append(
+            bracket_utils.TeamScore(team=team_name, acronym=None, score=score)
+        )
+
     weight_classes: list[bracket_utils.WeightClass] = []
     for weight, competitors in _NOVICE_COMPETITORS.items():
         bout_numbers = _get_bout_numbers("novice", weight)
@@ -1134,7 +1255,7 @@ def main():
         weight_classes.append(weight_class)
 
     extracted = bracket_utils.ExtractedTournament(
-        weight_classes=weight_classes, team_scores={}, deductions=[]
+        weight_classes=weight_classes, team_scores=team_scores, deductions=[]
     )
     extracted.sort()
     with open(_HERE / "extracted.1996.json", "w") as file_obj:

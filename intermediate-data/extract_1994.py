@@ -425,6 +425,58 @@ _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
         None,
     ],
 }
+_NOVICE_TEAM_SCORES: dict[str, float] = {
+    "JR. ROCKET WC": 111.5,
+    "VILLA-LOMBARD COUGARS WC": 102.0,
+    "ROSEMONT COBRAS": 89.0,
+    "TINLEY PARK BULLDOGS": 81.5,
+    "MUSTANG WC": 76.0,
+    "CPS": 73.0,
+    "LEMONT BEARS WC": 71.0,
+    "CRYSTAL LAKE WIZARDS": 64.0,
+    "VITTUM CATS WC": 62.0,
+    "JOLIET BOYS CLUB COBRAS": 62.0,
+    "GRANITE CITY COOLIDGE": 62.0,
+    "HARVEY TWISTERS": 54.0,
+    "BLACKHAWK WC": 51.0,
+    "LITTLE CELTICS WC": 50.0,
+    "PEKIN BOYS CLUB": 49.5,
+    "MORTON YOUTH WC": 47.0,
+    "HARLEM SCHOOL DISTRICT #122": 45.0,
+    "BRADLEY BOURBONNAIS WC": 40.0,
+    "ST. BARNABAS / CHRIST THE KING": 39.0,
+    "METAMORA KIDS WC": 36.5,
+    "MOLINE TIGERS": 36.0,
+    "MT. ZION WC": 35.0,
+    "DOLTON PD FALCONS": 35.0,
+    "WAUBONSIE BRAVES WC": 34.0,
+    "ORLAND PARK PIONEERS": 34.0,
+    "MATTOON WC": 34.0,
+    "METRO STALLIONS WC": 33.0,
+    "JR GOLDEN EAGLES WC": 32.0,
+    "MAYWOOD PIRATES WC": 30.0,
+    "LITTLE DEVILS": 29.0,
+    "LEMONT WILDCAT WC": 26.0,
+    "LAKE VILLA LANCERS": 26.0,
+    "VILLA PARK YOUNG WARRIORS": 25.0,
+    "TRI-CITY BRAVES": 24.0,
+    "JORDAN / SETON WC": 23.5,
+    "RIVERDALE JH WC": 23.0,
+    "PANTHER WRESTLING": 22.0,
+    "COLLINSVILLE RAIDERS": 21.0,
+    "PLAINFIELD INDIAN TRAIL WRESTLING": 20.0,
+    "BETHALTO JH": 20.0,
+    "EL PASO WC": 19.0,
+    "EAST ALTON-ROXANA RAMS": 19.0,
+    "ROUND LAKE SPARTAN": 14.0,
+    "FROST JH WC": 14.0,
+    "ADDAMS JH WC": 14.0,
+    "CHAMPAIGN CHARGER KIDS": 14.0,
+    "YORKVILLE WC": 13.0,
+    "HIGHLAND JR. WRESTLING": 12.0,
+    "CROSSFACE WC": 12.0,
+    "FALCON WC": 12.0,
+}
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     70: [
@@ -896,6 +948,58 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "BEN TEMPLE :: GRANITE CITY COOLIDGE",
     ],
 }
+_SENIOR_TEAM_SCORES: dict[str, float] = {
+    "VILLA-LOMBARD COUGARS WC": 129.5,
+    "LEMONT BEARS WC": 121.0,
+    "MOLINE TIGERS": 95.0,
+    "LITTLE CELTICS WC": 93.5,
+    "DOLTON PD FALCONS": 90.0,
+    "ROCKFORD WC": 72.0,
+    "TINLEY PARK BULLDOGS": 69.5,
+    "OAK FOREST WARRIORS": 68.5,
+    "MT. ZION WC": 68.0,
+    "GRANITE CITY COOLIDGE": 67.0,
+    "LITTLE DEVILS": 62.5,
+    "HARLEM SCHOOL DISTRICT #122": 60.0,
+    "PANTHER WRESTLING": 59.0,
+    "PLAINFIELD INDIAN TRAIL WRESTLING": 55.5,
+    "LIL REAPER WRESTLING": 55.0,
+    "EAGLE WC": 53.0,
+    "TIGERTOWN TANGLERS": 52.0,
+    "CRYSTAL LAKE WIZARDS": 51.5,
+    "ADDISON / INDIAN TRAIL": 51.0,
+    "METAMORA KIDS WC": 51.0,
+    "MORTON YOUTH WC": 50.0,
+    "EDWARDSVILLE": 50.0,
+    "BLACKHAWK WC": 49.5,
+    "BELVIDERE BANDIT WC": 47.0,
+    "MEAD JH SCHOOL WC": 46.0,
+    "HICKORY HILLS PD": 45.5,
+    "ROSEMONT COBRAS": 44.0,
+    "TRAILBLAZER WC": 40.0,
+    "NAPERVILLE PATRIOTS": 39.0,
+    "JOLIET BOYS CLUB COBRAS": 37.0,
+    "PONTIAC WC": 36.5,
+    "HARVARD WC": 35.0,
+    "MORRISON STALLIONS WC": 32.0,
+    "JR GOLDEN EAGLES WC": 30.0,
+    "ROUND LAKE SPARTAN": 30.0,
+    "EAST ALTON-ROXANA RAMS": 29.0,
+    "KNIGHTS WC": 27.5,
+    "YORKVILLE WC": 27.0,
+    "WEST CHICAGO PD": 26.0,
+    "CHAMPAIGN CHARGER KIDS": 26.0,
+    "MUSTANG WC": 26.0,
+    "BETHALTO JH": 25.0,
+    "MAYWOOD PIRATES WC": 25.0,
+    "SUNDLING JH CLUB PALATINE": 24.0,
+    "MATTOON WC": 24.0,
+    "FRANKLIN PARK RAIDERS": 22.5,
+    "TRI-CITY BRAVES": 21.0,
+    "HIGHLAND PARK LITTLE GIANTS": 21.0,
+    "LOCKPORT GRAPPLERS": 20.0,
+    "UNITY WC": 20.0,
+}
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("GARY OXFORD JR", "GRANITE CITY COOLIDGE"): bracket_utils.Competitor(
         full_name="GARY OXFORD JR",
@@ -1052,6 +1156,19 @@ def _get_bout_numbers(
 
 
 def main():
+    team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
+    team_scores["novice"] = []
+    for team_name, score in _NOVICE_TEAM_SCORES.items():
+        team_scores["novice"].append(
+            bracket_utils.TeamScore(team=team_name, acronym=None, score=score)
+        )
+
+    team_scores["senior"] = []
+    for team_name, score in _SENIOR_TEAM_SCORES.items():
+        team_scores["senior"].append(
+            bracket_utils.TeamScore(team=team_name, acronym=None, score=score)
+        )
+
     weight_classes: list[bracket_utils.WeightClass] = []
 
     for weight, competitors in _NOVICE_COMPETITORS.items():
@@ -1079,7 +1196,7 @@ def main():
         weight_classes.append(weight_class)
 
     extracted = bracket_utils.ExtractedTournament(
-        weight_classes=weight_classes, team_scores={}, deductions=[]
+        weight_classes=weight_classes, team_scores=team_scores, deductions=[]
     )
     extracted.sort()
     with open(_HERE / "extracted.1994.json", "w") as file_obj:
