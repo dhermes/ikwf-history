@@ -569,11 +569,6 @@
       {
         "tournament_id": 22,
         "division": "senior",
-        "name": "ADDAMS JR. HIGH"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
         "name": "ADDAMS JH WC"
       }
     ]
@@ -1107,11 +1102,6 @@
         "tournament_id": 22,
         "division": "senior",
         "name": "ARLINGTON CARDINALS WC"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "ARLINGTON CARDINALS"
       },
       {
         "tournament_id": 31,
@@ -3310,7 +3300,7 @@
       {
         "tournament_id": 22,
         "division": "senior",
-        "name": "BETHALTO JR. HIGH"
+        "name": "BETHALTO / JR. HIGH"
       },
       {
         "tournament_id": 23,
@@ -3319,28 +3309,18 @@
       },
       {
         "tournament_id": 23,
-        "division": "novice",
-        "name": "BETHALTO JR. HIGH"
-      },
-      {
-        "tournament_id": 23,
         "division": "senior",
         "name": "BETHALTO"
       },
       {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "BETHALTO JR. HIGH"
-      },
-      {
         "tournament_id": 29,
         "division": "novice",
-        "name": "BETHALTO/JR. HIGH"
+        "name": "BETHALTO / JR. HIGH"
       },
       {
         "tournament_id": 29,
         "division": "senior",
-        "name": "BETHALTO/JR. HIGH"
+        "name": "BETHALTO / JR. HIGH"
       },
       {
         "tournament_id": 30,
@@ -7323,11 +7303,6 @@
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "CRESTWOOD COLTS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
         "name": "CRESTWOOD"
       }
     ]
@@ -8927,11 +8902,6 @@
         "tournament_id": 21,
         "division": "senior",
         "name": "HARVEY PD TWISTERS"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "HARVEY TWISTERS"
       },
       {
         "tournament_id": 22,
@@ -26035,7 +26005,7 @@
       {
         "tournament_id": 22,
         "division": "senior",
-        "name": "GRANITE CITY COOLIDGE"
+        "name": "GRANITE CITY WC COOLIDGE"
       },
       {
         "tournament_id": 25,
@@ -26744,12 +26714,12 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "HARLEM COUGARS"
+        "name": "HARLEM"
       },
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "HARLEM COUGARS"
+        "name": "HARLEM"
       },
       {
         "tournament_id": 25,
@@ -37992,7 +37962,7 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "LOCKPORT GRAPPLERS"
+        "name": "LOCKPORT"
       }
     ]
   },
@@ -40651,18 +40621,8 @@
       },
       {
         "tournament_id": 23,
-        "division": "novice",
-        "name": "MEAD JR. HIGH"
-      },
-      {
-        "tournament_id": 23,
         "division": "senior",
         "name": "MEAD"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "MEAD JR. HIGH"
       }
     ]
   },
@@ -43818,8 +43778,8 @@
       },
       {
         "tournament_id": 23,
-        "division": "novice",
-        "name": "MUSTANG WC"
+        "division": "senior",
+        "name": "MUSTANG"
       },
       {
         "tournament_id": 24,
@@ -51213,7 +51173,7 @@
       {
         "tournament_id": 23,
         "division": "novice",
-        "name": "RAMS WC"
+        "name": "RAMS"
       },
       {
         "tournament_id": 30,
@@ -54962,7 +54922,7 @@
       {
         "tournament_id": 23,
         "division": "senior",
-        "name": "ROUND LAKE SPARTANS"
+        "name": "ROUND LAKE"
       },
       {
         "tournament_id": 24,
@@ -58738,7 +58698,7 @@
       {
         "tournament_id": 22,
         "division": "senior",
-        "name": "ST. BARNABAS/CHRIST THE KING"
+        "name": "ST. BARNABAS / CHRIST THE KING"
       },
       {
         "tournament_id": 23,
@@ -58901,7 +58861,7 @@
       {
         "tournament_id": 22,
         "division": "senior",
-        "name": "ST. CHARLES WC"
+        "name": "ST. CHARLES WC DISTRICT 303"
       },
       {
         "tournament_id": 30,
@@ -65858,11 +65818,6 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "VILLA-LOMBARD"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "VILLA-LOMBARD COUGARS"
       },
       {
         "tournament_id": 24,
