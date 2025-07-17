@@ -4,7 +4,7 @@ import pathlib
 
 import bracket_utils
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     60: [
@@ -533,30 +533,30 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     ],
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
-    "HARVEY TWISTERS": 184.0,
+    "HARVEY PARK TWISTERS": 184.0,
     "VILLA-LOMBARD COUGARS": 137.0,
-    "BETHALTO JR. HIGH": 125.0,
+    "BETHALTO / JR. HIGH": 125.0,
     "TRAILBLAZER WC": 124.0,
     "TINLEY PARK BULLDOGS": 112.0,
-    "ADDAMS JR. HIGH": 103.5,
+    "ADDAMS JH WC": 103.5,
     "MUSTANG WC": 71.0,
     "MORTON YOUTH WC": 67.5,
-    "ST. CHARLES WC": 67.0,
+    "ST. CHARLES WC DISTRICT 303": 67.0,
     "ROUND LAKE SPARTAN WC": 66.5,
     "ROSEMONT COBRAS": 65.0,
-    "ARLINGTON CARDINALS": 64.5,
+    "ARLINGTON CARDINALS WC": 64.5,
     "DOLTON PARK FALCONS": 64.5,
-    "GRANITE CITY COOLIDGE": 64.0,
-    "HARLEM SCHOOL DIST 122": 61.0,
+    "GRANITE CITY WC COOLIDGE": 64.0,
+    "HARLEM SCHOOL DISTRICT 122 WC": 61.0,
     "CRYSTAL LAKE WIZARDS": 59.0,
     "PIRATES": 49.0,
-    "MEAD JR HIGH WC": 47.5,
+    "MEAD JH WC": 47.5,
     "VITTUM CATS": 47.5,
     "ORLAND PARK PIONEERS": 44.5,
     "WARHAWK WC": 43.5,
     "ANTIOCH UPPER GRADE": 42.0,
-    "HICKORY HILLS PK. DIST": 42.0,
-    "ST. BARNABAS/CHRIST THE KING": 40.0,
+    "HICKORY HILLS PD": 42.0,
+    "ST. BARNABAS / CHRIST THE KING": 40.0,
     "ROCKFORD WC": 39.0,
 }
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
@@ -633,7 +633,7 @@ def main():
         weight_classes=weight_classes, team_scores=team_scores, deductions=[]
     )
     extracted.sort()
-    with open(HERE / "extracted.1992.json", "w") as file_obj:
+    with open(_HERE / "extracted.1992.json", "w") as file_obj:
         file_obj.write(extracted.model_dump_json(indent=2))
         file_obj.write("\n")
 

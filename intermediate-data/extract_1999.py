@@ -5,7 +5,7 @@ import pathlib
 import bracket_utils
 import manual_entry
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _NOVICE_TEAM_SCORES: dict[str, float] = {}
 _SENIOR_TEAM_SCORES: dict[str, float] = {}
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
@@ -61,14 +61,14 @@ def main():
         )
 
     weight_classes = manual_entry.load_manual_entries(
-        HERE.parent, 1999, _NAME_EXCEPTIONS
+        _HERE.parent, 1999, _NAME_EXCEPTIONS
     )
 
     extracted = bracket_utils.ExtractedTournament(
         weight_classes=weight_classes, team_scores=team_scores, deductions=[]
     )
     extracted.sort()
-    with open(HERE / "extracted.1999.json", "w") as file_obj:
+    with open(_HERE / "extracted.1999.json", "w") as file_obj:
         file_obj.write(extracted.model_dump_json(indent=2))
         file_obj.write("\n")
 

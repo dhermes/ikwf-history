@@ -5,7 +5,7 @@ import pathlib
 import bracket_utils
 import manual_entry
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _NOVICE_TEAM_SCORES: dict[str, float] = {}
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
@@ -100,7 +100,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "DAVID WISENAUER :: EDISON PANTHERS :: 6",
         "ZACK DURHAM :: ROCK ISLAND WRESTLING CLUB",
         "KEVIN CUKIERSKI :: MAINE EAGLES WRESTLING",
-        "JONATHAN MICHL :: JORDAN/SETON WRESTLING :: 2",
+        "JONATHAN MICHL :: JORDAN / SETON WRESTLING :: 2",
         "TIM FINEGAN :: BRONCO WRESTLING CLUB",
         "BRETT SMETANA :: BEARS WRESTLING CLUB",
         "DANIEL THOMPSON :: CHARGER KIDS WRESTLING :: 5",
@@ -168,7 +168,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     101: [
         "JUSTIN BEER :: LITTLE CELTIC WRESTLING CLUB :: 2",
         "GREGORY GOODLETTE :: STREAMWOOD WC",
-        "JAKOB BOTTOMS :: BETHALTO/JR. HIGH",
+        "JAKOB BOTTOMS :: BETHALTO / JR. HIGH",
         "ADAM BULLOCK :: BISMARCK-HENNING",
         "ELIZABETH BRUSA :: GLENBARD EAST JR. RAMS",
         "JACOB MEKEEL :: STERLING NEWMAN JR.",
@@ -206,7 +206,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "NICHOLAS BROWN :: SJO YOUTH WRESTLING",
         "JIM CREMEENS :: PLAINFIELD WRESTLING CLUB",
         "MIKE TURNMIRE :: HARLEM COUGARS :: 4",
-        "NICK HUEBNER :: BETHALTO/JR. HIGH",
+        "NICK HUEBNER :: BETHALTO / JR. HIGH",
         "JOHN LITCHFIELD :: SJO YOUTH WRESTLING :: 6",
         "TIM QUIRK :: HINSDALE RED DEVIL WC",
         "SAMUEL KUNTZ :: VITTUM CATS WRESTLING CLUB",
@@ -299,7 +299,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "THOMAS TOVELLO :: VILLA PARK YOUNG WARRIORS",
         "JEFF JOHNSON :: BELVIDERE BANDITS",
         "JOE AARONSON :: ROCKFORD WRESTLING CLUB",
-        "EVAN MCCALLISTER :: RIVERBEND/FULTON WC :: 5",
+        "EVAN MCCALLISTER :: RIVERBEND / FULTON WC :: 5",
         "RYAN RUBEL :: WOLFPACK WRESTLING CLUB",
         "MICHAEL JOHNSON :: SJO YOUTH WRESTLING",
         "KRIS ROBERTS :: MARION WRESTLING CLUB :: 3",
@@ -619,7 +619,7 @@ def main():
         )
 
     weight_classes = manual_entry.load_manual_entries(
-        HERE.parent, 1998, _NAME_EXCEPTIONS
+        _HERE.parent, 1998, _NAME_EXCEPTIONS
     )
 
     for weight, competitors in _SENIOR_COMPETITORS.items():
@@ -638,7 +638,7 @@ def main():
         weight_classes=weight_classes, team_scores=team_scores, deductions=[]
     )
     extracted.sort()
-    with open(HERE / "extracted.1998.json", "w") as file_obj:
+    with open(_HERE / "extracted.1998.json", "w") as file_obj:
         file_obj.write(extracted.model_dump_json(indent=2))
         file_obj.write("\n")
 

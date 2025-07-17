@@ -4,7 +4,7 @@ import pathlib
 
 import bracket_utils
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _NOVICE_TEAM_REPLACE: dict[str, str] = {}
 _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
     62: [
@@ -1082,7 +1082,7 @@ def main():
         weight_classes=weight_classes, team_scores={}, deductions=[]
     )
     extracted.sort()
-    with open(HERE / "extracted.1994.json", "w") as file_obj:
+    with open(_HERE / "extracted.1994.json", "w") as file_obj:
         file_obj.write(extracted.model_dump_json(indent=2))
         file_obj.write("\n")
 
