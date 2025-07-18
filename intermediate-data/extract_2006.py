@@ -6,7 +6,7 @@ import pathlib
 import bracket_utils
 import bs4
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 EMPTY_SLOT = "                               "
 NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("AARON BREWTON II", "WAUK"): bracket_utils.Competitor(
@@ -425,7 +425,7 @@ def extract_bracket(
     weight: int, division: bracket_utils.Division
 ) -> list[bracket_utils.Match]:
     filename = f"{weight}.html"
-    with open(HERE / "2006" / division / filename) as file_obj:
+    with open(_HERE / "2006" / division / filename) as file_obj:
         html = file_obj.read()
 
     soup = bs4.BeautifulSoup(html, features="html.parser")
@@ -955,10 +955,10 @@ def main():
     year_str = "2006"
     team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {
         "novice": bracket_utils.parse_team_scores(
-            HERE / year_str, "novice", novice_reverse_acronym, TEAM_SCORE_EXCEPTIONS
+            _HERE / year_str, "novice", novice_reverse_acronym, TEAM_SCORE_EXCEPTIONS
         ),
         "senior": bracket_utils.parse_team_scores(
-            HERE / year_str, "senior", senior_reverse_acronym, TEAM_SCORE_EXCEPTIONS
+            _HERE / year_str, "senior", senior_reverse_acronym, TEAM_SCORE_EXCEPTIONS
         ),
     }
 
@@ -967,7 +967,7 @@ def main():
         weight_classes=parsed, team_scores=team_scores, deductions=deductions
     )
     extracted_tournament.sort()
-    with open(HERE / "extracted.2006.json", "w") as file_obj:
+    with open(_HERE / "extracted.2006.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))
         file_obj.write("\n")
 
