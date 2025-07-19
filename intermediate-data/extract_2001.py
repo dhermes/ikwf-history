@@ -196,7 +196,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "HAW": 14.0,
     "MAR": 13.0,
     "VPY": 13.0,
-    "WHE": 13.0,
+    # "WHE": 13.0,
     "BJW": 12.0,
     "FYW": 12.0,
     "HBJ": 12.0,
@@ -238,9 +238,9 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "ACE": 0.0,
     # "ADDISON ANIMALS (2)": 0.0,
     "BAD": 0.0,
-    "BWC": 0.0,
+    # "BWC": 0.0,
     "CEN": 0.0,
-    "CHR": 0.0,
+    # "CHR": 0.0,
     "CYW": 0.0,
     "DEC": 0.0,
     "DC": 0.0,
@@ -1161,12 +1161,6 @@ def main():
         team_scores["senior"].append(
             bracket_utils.TeamScore(team=team_name, acronym=acronym, score=score)
         )
-
-    # Add a **CUSTOM** "missing" negative team score based on the rule that
-    # "all team point deductions applied across all divisions"
-    team_scores["senior"].append(
-        bracket_utils.TeamScore(team="WARRENSBURG WC", acronym="WAR", score=-1.0)
-    )
 
     deductions = bracket_utils.infer_deductions(team_scores)
     extracted_tournament = bracket_utils.ExtractedTournament(

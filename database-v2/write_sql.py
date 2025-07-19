@@ -83,7 +83,6 @@ class TournamentTeamRow(_ForbidExtra):
     team_id: int
     team_score: float | None
     name: str
-    acronym: str | None
 
 
 class TeamPointDeductionRow(_ForbidExtra):
@@ -170,30 +169,21 @@ def _insert_check(data: dict[K, V], key: K, value: V) -> None:
         data[key] = value
 
 
-def _build_team_maps(
+def _map_team_names(
     extracted: bracket_utils.ExtractedTournament,
-) -> tuple[
-    dict[bracket_utils.Division, dict[str, str]],
-    dict[bracket_utils.Division, dict[str, str | None]],
-]:
-    by_acronym: dict[bracket_utils.Division, dict[str, str]] = {}
-    by_name: dict[bracket_utils.Division, dict[str, str | None]] = {}
+) -> dict[bracket_utils.Division, dict[str, bool]]:
+    all_names: dict[bracket_utils.Division, dict[str, bool]] = {}
 
-    # 1. Team name / acronyms from team scores
+    # 1. Team names from team scores
     for division, team_scores in extracted.team_scores.items():
-        by_acronym.setdefault(division, {})
-        by_name.setdefault(division, {})
-
+        division_by_name = all_names.setdefault(division, {})
         for team_score in team_scores:
-            _insert_only(by_name[division], team_score.team, team_score.acronym)
-            if team_score.acronym is not None:
-                _insert_only(by_acronym[division], team_score.acronym, team_score.team)
+            division_by_name[team_score.team] = True
 
-    # 2. Team name / acronyms from match entries (athletes)
+    # 2. Team names from match entries (athletes)
     for weight_class in extracted.weight_classes:
         division = weight_class.division
-        division_by_acronym = by_acronym.setdefault(division, {})
-        division_by_name = by_name.setdefault(division, {})
+        division_by_name = all_names.setdefault(division, {})
 
         for match in weight_class.matches:
             competitors: list[bracket_utils.Competitor] = []
@@ -203,13 +193,9 @@ def _build_team_maps(
                 competitors.append(match.bottom_competitor)
 
             for competitor in competitors:
-                team_full = competitor.team_full
-                team_acronym = competitor.team_acronym
-                _insert_check(division_by_name, team_full, team_acronym)
-                if team_acronym is not None:
-                    _insert_check(division_by_acronym, team_acronym, team_full)
+                division_by_name[competitor.team_full] = True
 
-    return by_acronym, by_name
+    return all_names
 
 
 def _team_score_for_name(
@@ -276,7 +262,7 @@ def _add_team_rows(
     tournament_id: int,
     insert_ids: InsertIDs,
     inserts: Inserts,
-    team_by_name: dict[bracket_utils.Division, dict[str, str | None]],
+    team_names_map: dict[bracket_utils.Division, dict[str, bool]],
     extracted: bracket_utils.ExtractedTournament,
     team_name_synonyms: dict[int, list[bracket_utils.TeamNameSynonym]],
 ) -> dict[bracket_utils.Division, dict[str, int]]:
@@ -284,15 +270,13 @@ def _add_team_rows(
 
     # 1. `TeamRow` (allow duplicates across year and division)
     # 2. `TournamentTeamRow`
-    divisions = sorted(team_by_name.keys(), key=bracket_utils.division_sort_key)
+    divisions = sorted(team_names_map.keys(), key=bracket_utils.division_sort_key)
     for division in divisions:
         team_id_map.setdefault(division, {})
 
-        teams = team_by_name[division]
+        teams = team_names_map[division]
         team_names = sorted(teams.keys())
         for team_name in team_names:
-            acronym = teams[team_name]
-
             team_id = insert_ids.next_team_id
             inserts.team_rows.append(
                 TeamRow(id=team_id, name_normalized=team_name, url_path_slug=None)
@@ -306,7 +290,6 @@ def _add_team_rows(
                 team_id=team_id,
                 team_score=_team_score_for_name(division, team_name, extracted),
                 name=team_name,
-                acronym=acronym,
             )
             inserts.tournament_team_rows.append(tournament_team_row)
             insert_ids.next_tournament_team_id += 1
@@ -595,9 +578,14 @@ def _handle_tournament(
     extracted: bracket_utils.ExtractedTournament,
     team_name_synonyms: dict[int, list[bracket_utils.TeamNameSynonym]],
 ) -> InsertIDs:
-    _, team_by_name = _build_team_maps(extracted)
+    team_names_map = _map_team_names(extracted)
     team_id_map = _add_team_rows(
-        tournament_id, insert_ids, inserts, team_by_name, extracted, team_name_synonyms
+        tournament_id,
+        insert_ids,
+        inserts,
+        team_names_map,
+        extracted,
+        team_name_synonyms,
     )
 
     for weight_class in extracted.weight_classes:
@@ -813,7 +801,7 @@ def _write_tournament_teams_sql(inserts: Inserts) -> None:
         "--------------------------------------------------------------------------------",
         "",
         "INSERT INTO",
-        "  tournament_team (id, tournament_id, division, team_id, team_score, name, acronym)",  # noqa: E501
+        "  tournament_team (id, tournament_id, division, team_id, team_score, name)",  # noqa: E501
         "VALUES",
     ]
 
@@ -824,10 +812,9 @@ def _write_tournament_teams_sql(inserts: Inserts) -> None:
         division_str = _sql_nullable_str(row.division)
         score_str = _sql_nullable_numeric(row.team_score)
         name_str = _sql_nullable_str(row.name)
-        acronym_str = _sql_nullable_str(row.acronym)
         lines.append(
             f"  ({row.id_}, {row.tournament_id}, {division_str}, {row.team_id}, "
-            f"{score_str}, {name_str}, {acronym_str}){line_ending}"
+            f"{score_str}, {name_str}){line_ending}"
         )
 
     lines.append("")

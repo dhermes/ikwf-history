@@ -96,7 +96,6 @@ CREATE TABLE tournament_team (
   team_id INTEGER NOT NULL REFERENCES team(id),
   team_score FLOAT,
   name TEXT NOT NULL,
-  acronym TEXT,
   -- TODO: UNIQUE(tournament_id, division, team_id),
   UNIQUE(tournament_id, division, name)
 );
