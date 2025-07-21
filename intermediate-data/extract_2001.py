@@ -303,28 +303,24 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         first_name="JEFFERY",
         last_name="BYBEE",
         team_full="CHILLICOTHE WC",
-        team_acronym="CHL",
     ),
     ("JERRY BEMIS III", "OLW"): bracket_utils.Competitor(
         full_name="JERRY BEMIS III",
         first_name="JERRY",
         last_name="BEMIS",
         team_full="OAK LAWN P.D. WILDCATS",
-        team_acronym="OLW",
     ),
     ("MICHAEL J. RYAN", "LIT"): bracket_utils.Competitor(
         full_name="MICHAEL J. RYAN",
         first_name="MICHAEL J.",
         last_name="RYAN",
         team_full="LITTLE BOILER WC",
-        team_acronym="LIT",
     ),
     ("SHANE FICH TENMUELLER", "DIX"): bracket_utils.Competitor(
         full_name="SHANE FICH TENMUELLER",
         first_name="SHANE",
         last_name="FICHTENMUELLER",
         team_full="DIXON WC",
-        team_acronym="DIX",
     ),
 }
 TEAM_SCORE_EXCEPTIONS: dict[tuple[bracket_utils.Division, str], float] = {
@@ -638,7 +634,7 @@ def extract_bracket(
 
     if division == "senior" and weight == 84:
         consolation_round3_01_top_competitor = bracket_utils.CompetitorRaw(
-            name="KEITH WILLIAMS", team_full="JUNIOR PIRATE WC", team_acronym="JUN"
+            name="KEITH WILLIAMS", team_full="JUNIOR PIRATE WC"
         )
     else:
         consolation_round3_01_top_competitor = parse_competitor(

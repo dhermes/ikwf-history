@@ -14,49 +14,42 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         first_name="BEN",
         last_name="STUCKEY",
         team_full="MT. VERNON LIONS",
-        team_acronym="MTV",
     ),
     ("BILLY BYRD IV", "SYC"): bracket_utils.Competitor(
         full_name="BILLY BYRD IV",
         first_name="BILLY",
         last_name="BYRD",
         team_full="SYCAMORE WC",
-        team_acronym="SYC",
     ),
     ("BJ FUTRELL II", "HAE"): bracket_utils.Competitor(
         full_name="BJ FUTRELL II",
         first_name="BJ",
         last_name="FUTRELL",
         team_full="HARVEY PARK DIST TWISTERS",
-        team_acronym="HAE",
     ),
     ("CURTIS CRIMS JR.", "BLZ"): bracket_utils.Competitor(
         full_name="CURTIS CRIMS JR.",
         first_name="CURTIS",
         last_name="CRIMS",
         team_full="BLAZER KIDS",
-        team_acronym="BLZ",
     ),
     ("EDDIE LANCE III", "GRA"): bracket_utils.Competitor(
         full_name="EDDIE LANCE III",
         first_name="EDDIE",
         last_name="LANCE",
         team_full="GRANITE CITY JR WARRIORS",
-        team_acronym="GRA",
     ),
     ("GEORGE CANALES IV", "STR"): bracket_utils.Competitor(
         full_name="GEORGE CANALES IV",
         first_name="GEORGE",
         last_name="CANALES",
         team_full="STERLING NEWMAN JR COMETS",
-        team_acronym="STR",
     ),
     ("NICKBRAMHALL", "EDW"): bracket_utils.Competitor(
         full_name="NICKBRAMHALL",
         first_name="NICK",
         last_name="BRAMHALL",
         team_full="EDWARDSVILLE WC",
-        team_acronym="EDW",
     ),
 }
 TEAM_SCORE_EXCEPTIONS: dict[tuple[bracket_utils.Division, str], float] = {}
@@ -380,7 +373,7 @@ def extract_bracket(
 
     if division == "novice" and weight == 108:
         consolation_fifth_place_bottom_competitor = bracket_utils.CompetitorRaw(
-            name="SEPEHR KALHOR", team_full="ROCK ISLAND WC", team_acronym="ROK"
+            name="SEPEHR KALHOR", team_full="ROCK ISLAND WC"
         )
     else:
         consolation_fifth_place_bottom_competitor = parse_competitor(
@@ -389,14 +382,10 @@ def extract_bracket(
 
     if division == "novice" and weight == 166:
         consolation_round6_semi_01_top_competitor = bracket_utils.CompetitorRaw(
-            name="RYAN GAINES",
-            team_full="MARENGO WC",
-            team_acronym="MAR",
+            name="RYAN GAINES", team_full="MARENGO WC"
         )
         consolation_fifth_place_top_competitor = bracket_utils.CompetitorRaw(
-            name="RYAN GAINES",
-            team_full="MARENGO WC",
-            team_acronym="MAR",
+            name="RYAN GAINES", team_full="MARENGO WC"
         )
     else:
         consolation_round6_semi_01_top_competitor = parse_competitor(

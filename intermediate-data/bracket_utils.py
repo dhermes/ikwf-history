@@ -387,7 +387,7 @@ def competitor_from_raw(
 
 
 def _competitor_equal_enough(competitor1: Competitor, competitor2: Competitor) -> bool:
-    if competitor1.team_acronym != competitor2.team_acronym:
+    if competitor1.team_full != competitor2.team_full:
         return False
 
     if competitor1.last_name != competitor2.last_name:
