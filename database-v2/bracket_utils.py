@@ -138,7 +138,6 @@ class Competitor(_ForbidExtra):
     first_name: str
     last_name: str
     team_full: str
-    team_acronym: str | None
 
 
 class Match(_ForbidExtra):
@@ -159,7 +158,6 @@ class WeightClass(_ForbidExtra):
 
 class TeamScore(_ForbidExtra):
     team: str
-    acronym: str | None
     score: float
 
 

@@ -37,7 +37,7 @@ class Competitor(_ForbidExtra):
     first_name: str
     last_name: str
     team_full: str
-    team_acronym: str | None
+    team_acronym: str | None = pydantic.Field(default=None, exclude=True)
 
     @property
     def as_tuple(self) -> CompetitorTuple:
@@ -180,7 +180,7 @@ class WeightClass(_ForbidExtra):
 
 class TeamScore(_ForbidExtra):
     team: str
-    acronym: str | None
+    acronym: str | None = pydantic.Field(default=None, exclude=True)
     score: float
 
 

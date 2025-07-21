@@ -10,8 +10,7 @@
             "full_name": "Bob Sineni",
             "first_name": "Bob",
             "last_name": "Sineni",
-            "team_full": "Tinley Park Bulldogs",
-            "team_acronym": null
+            "team_full": "Tinley Park Bulldogs"
           },
           "bottom_competitor": null,
           "result": "",
@@ -31,8 +30,7 @@
             "full_name": "Todd Sterr",
             "first_name": "Todd",
             "last_name": "Sterr",
-            "team_full": "Joliet Boy's Club",
-            "team_acronym": null
+            "team_full": "Joliet Boy's Club"
           },
           "bottom_competitor": null,
           "result": "",
@@ -52,8 +50,7 @@
             "full_name": "David Harris",
             "first_name": "David",
             "last_name": "Harris",
-            "team_full": "Belleville",
-            "team_acronym": null
+            "team_full": "Belleville"
           },
           "bottom_competitor": null,
           "result": "",
@@ -73,8 +70,7 @@
             "full_name": "Paul Kelly",
             "first_name": "Paul",
             "last_name": "Kelly",
-            "team_full": "Chicago Ridge",
-            "team_acronym": null
+            "team_full": "Chicago Ridge"
           },
           "bottom_competitor": null,
           "result": "",
@@ -94,8 +90,7 @@
             "full_name": "Paul Dina",
             "first_name": "Paul",
             "last_name": "Dina",
-            "team_full": "Burbank",
-            "team_acronym": null
+            "team_full": "Burbank"
           },
           "bottom_competitor": null,
           "result": "",
@@ -115,8 +110,7 @@
             "full_name": "Joe Blaney",
             "first_name": "Joe",
             "last_name": "Blaney",
-            "team_full": "Burbank",
-            "team_acronym": null
+            "team_full": "Burbank"
           },
           "bottom_competitor": null,
           "result": "",
@@ -136,8 +130,7 @@
             "full_name": "Eric Potts",
             "first_name": "Eric",
             "last_name": "Potts",
-            "team_full": "Wilmette",
-            "team_acronym": null
+            "team_full": "Wilmette"
           },
           "bottom_competitor": null,
           "result": "",
@@ -157,8 +150,7 @@
             "full_name": "Al Skiniotes",
             "first_name": "Al",
             "last_name": "Skiniotes",
-            "team_full": "New Lenox Oakview",
-            "team_acronym": null
+            "team_full": "New Lenox Oakview"
           },
           "bottom_competitor": null,
           "result": "",
@@ -178,8 +170,7 @@
             "full_name": "Dan Helminski",
             "first_name": "Dan",
             "last_name": "Helminski",
-            "team_full": "Dundee Highlanders",
-            "team_acronym": null
+            "team_full": "Dundee Highlanders"
           },
           "bottom_competitor": null,
           "result": "",
@@ -199,8 +190,7 @@
             "full_name": "Jon Smith",
             "first_name": "Jon",
             "last_name": "Smith",
-            "team_full": "Mattoon",
-            "team_acronym": null
+            "team_full": "Mattoon"
           },
           "bottom_competitor": null,
           "result": "",
@@ -220,8 +210,7 @@
             "full_name": "Steve Bolsoni",
             "first_name": "Steve",
             "last_name": "Bolsoni",
-            "team_full": "Oak Forest",
-            "team_acronym": null
+            "team_full": "Oak Forest"
           },
           "bottom_competitor": null,
           "result": "",
@@ -241,8 +230,7 @@
             "full_name": "Tony Daidone",
             "first_name": "Tony",
             "last_name": "Daidone",
-            "team_full": "Oak Forest",
-            "team_acronym": null
+            "team_full": "Oak Forest"
           },
           "bottom_competitor": null,
           "result": "",
@@ -262,8 +250,7 @@
             "full_name": "Bob Mansell",
             "first_name": "Bob",
             "last_name": "Mansell",
-            "team_full": "Joliet Boy's Club",
-            "team_acronym": null
+            "team_full": "Joliet Boy's Club"
           },
           "bottom_competitor": null,
           "result": "",
@@ -283,8 +270,7 @@
             "full_name": "Ernie Vatch",
             "first_name": "Ernie",
             "last_name": "Vatch",
-            "team_full": "Addison Indian Trail",
-            "team_acronym": null
+            "team_full": "Addison Indian Trail"
           },
           "bottom_competitor": null,
           "result": "",
@@ -304,8 +290,7 @@
             "full_name": "George Dergo",
             "first_name": "George",
             "last_name": "Dergo",
-            "team_full": "Morris",
-            "team_acronym": null
+            "team_full": "Morris"
           },
           "bottom_competitor": null,
           "result": "",
@@ -325,8 +310,7 @@
             "full_name": "Wayne Frase",
             "first_name": "Wayne",
             "last_name": "Frase",
-            "team_full": "Wheaton",
-            "team_acronym": null
+            "team_full": "Wheaton"
           },
           "bottom_competitor": null,
           "result": "",
@@ -346,8 +330,7 @@
             "full_name": "Emilio Escamile",
             "first_name": "Emilio",
             "last_name": "Escamile",
-            "team_full": "West Chicago",
-            "team_acronym": null
+            "team_full": "West Chicago"
           },
           "bottom_competitor": null,
           "result": "",
@@ -362,12 +345,10 @@
     "senior": [
       {
         "team": "BURBANK PANTHERS",
-        "acronym": null,
         "score": 46.0
       },
       {
         "team": "OAK FOREST",
-        "acronym": null,
         "score": 41.0
       }
     ]

@@ -10,8 +10,7 @@
             "full_name": "Mike O'Brien",
             "first_name": "Mike",
             "last_name": "O'Brien",
-            "team_full": "Chicago Ridge",
-            "team_acronym": null
+            "team_full": "Chicago Ridge"
           },
           "bottom_competitor": null,
           "result": "",
@@ -31,8 +30,7 @@
             "full_name": "Chris Scott",
             "first_name": "Chris",
             "last_name": "Scott",
-            "team_full": "Joliet YMCA",
-            "team_acronym": null
+            "team_full": "Joliet YMCA"
           },
           "bottom_competitor": null,
           "result": "",
@@ -52,8 +50,7 @@
             "full_name": "John Ruiter",
             "first_name": "John",
             "last_name": "Ruiter",
-            "team_full": "Joliet YMCA",
-            "team_acronym": null
+            "team_full": "Joliet YMCA"
           },
           "bottom_competitor": null,
           "result": "",
@@ -73,8 +70,7 @@
             "full_name": "Scott Pierre",
             "first_name": "Scott",
             "last_name": "Pierre",
-            "team_full": "Wheaton Franklin",
-            "team_acronym": null
+            "team_full": "Wheaton Franklin"
           },
           "bottom_competitor": null,
           "result": "",
@@ -94,8 +90,7 @@
             "full_name": "Mike Pierre",
             "first_name": "Mike",
             "last_name": "Pierre",
-            "team_full": "Wheaton Franklin",
-            "team_acronym": null
+            "team_full": "Wheaton Franklin"
           },
           "bottom_competitor": null,
           "result": "",
@@ -115,8 +110,7 @@
             "full_name": "Brian Porter",
             "first_name": "Brian",
             "last_name": "Porter",
-            "team_full": "Oak Forest Warriors",
-            "team_acronym": null
+            "team_full": "Oak Forest Warriors"
           },
           "bottom_competitor": null,
           "result": "",
@@ -136,8 +130,7 @@
             "full_name": "Jeff Schultz",
             "first_name": "Jeff",
             "last_name": "Schultz",
-            "team_full": "Burbank",
-            "team_acronym": null
+            "team_full": "Burbank"
           },
           "bottom_competitor": null,
           "result": "",
@@ -157,8 +150,7 @@
             "full_name": "Tony Prate",
             "first_name": "Tony",
             "last_name": "Prate",
-            "team_full": "Orland Park Pioneers",
-            "team_acronym": null
+            "team_full": "Orland Park Pioneers"
           },
           "bottom_competitor": null,
           "result": "",
@@ -178,8 +170,7 @@
             "full_name": "Rick Criscione",
             "first_name": "Rick",
             "last_name": "Criscione",
-            "team_full": "Joliet YMCA",
-            "team_acronym": null
+            "team_full": "Joliet YMCA"
           },
           "bottom_competitor": null,
           "result": "",
@@ -199,8 +190,7 @@
             "full_name": "Mike Smith",
             "first_name": "Mike",
             "last_name": "Smith",
-            "team_full": "Stillman Valley",
-            "team_acronym": null
+            "team_full": "Stillman Valley"
           },
           "bottom_competitor": null,
           "result": "",
@@ -220,8 +210,7 @@
             "full_name": "Guy Milburn",
             "first_name": "Guy",
             "last_name": "Milburn",
-            "team_full": "Dolton",
-            "team_acronym": null
+            "team_full": "Dolton"
           },
           "bottom_competitor": null,
           "result": "",
@@ -241,8 +230,7 @@
             "full_name": "Evan Dale",
             "first_name": "Evan",
             "last_name": "Dale",
-            "team_full": "Joliet Washington",
-            "team_acronym": null
+            "team_full": "Joliet Washington"
           },
           "bottom_competitor": null,
           "result": "",
@@ -262,8 +250,7 @@
             "full_name": "Ken Mansell",
             "first_name": "Ken",
             "last_name": "Mansell",
-            "team_full": "Joliet Boy's Club",
-            "team_acronym": null
+            "team_full": "Joliet Boy's Club"
           },
           "bottom_competitor": null,
           "result": "",
@@ -283,8 +270,7 @@
             "full_name": "Mike Rosman",
             "first_name": "Mike",
             "last_name": "Rosman",
-            "team_full": "Walter Sundling",
-            "team_acronym": null
+            "team_full": "Walter Sundling"
           },
           "bottom_competitor": null,
           "result": "",
@@ -304,8 +290,7 @@
             "full_name": "Mike Prsybysz",
             "first_name": "Mike",
             "last_name": "Prsybysz",
-            "team_full": "Plainfield Indian Tra",
-            "team_acronym": null
+            "team_full": "Plainfield Indian Tra"
           },
           "bottom_competitor": null,
           "result": "",
@@ -325,8 +310,7 @@
             "full_name": "Larry Leiparte",
             "first_name": "Larry",
             "last_name": "Leiparte",
-            "team_full": "Mt. Greenwood",
-            "team_acronym": null
+            "team_full": "Mt. Greenwood"
           },
           "bottom_competitor": null,
           "result": "",
@@ -346,8 +330,7 @@
             "full_name": "Rick Meier",
             "first_name": "Rick",
             "last_name": "Meier",
-            "team_full": "DeKalb Huntley",
-            "team_acronym": null
+            "team_full": "DeKalb Huntley"
           },
           "bottom_competitor": null,
           "result": "",
@@ -367,8 +350,7 @@
             "full_name": "Noah Tyree",
             "first_name": "Noah",
             "last_name": "Tyree",
-            "team_full": "Bolingbrook Ward",
-            "team_acronym": null
+            "team_full": "Bolingbrook Ward"
           },
           "bottom_competitor": null,
           "result": "",
@@ -383,12 +365,10 @@
     "senior": [
       {
         "team": "PLAINFIELD",
-        "acronym": null,
         "score": 122.5
       },
       {
         "team": "JOLIET YMCA",
-        "acronym": null,
         "score": 86.0
       }
     ]
