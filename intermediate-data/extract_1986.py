@@ -869,7 +869,7 @@ def main():
     team_scores["senior"] = []
     for team_name, score in _SENIOR_TEAM_SCORES.items():
         team_scores["senior"].append(
-            bracket_utils.TeamScore(team=team_name, acronym=None, score=score)
+            bracket_utils.TeamScore(team=team_name, score=score)
         )
 
     weight_classes: list[bracket_utils.WeightClass] = []

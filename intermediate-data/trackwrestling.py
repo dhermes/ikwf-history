@@ -38,7 +38,6 @@ _INITIAL_ENTRY_INFO: tuple[
     ("championship_r32_16", "top", 60),
     ("championship_r32_16", "bottom", 62),
 )
-_ACRONYM_EXCEPTIONS: tuple[str, ...] = ("E1", "G2", "P3WW")
 
 
 MatchSlotMap = dict[
@@ -77,26 +76,6 @@ def normalize_division(division_display: str) -> bracket_utils.Division:
     raise NotImplementedError(division_display)
 
 
-def _determine_acronym(value: str) -> str | None:
-    if value in _ACRONYM_EXCEPTIONS:
-        return value
-
-    # If the "acronym" is an integer team ID, ignore it
-    try:
-        int(value)
-        return None
-    except ValueError:
-        pass
-
-    if value.upper() != value:
-        raise NotImplementedError(value)
-
-    if not value.isalpha():
-        raise NotImplementedError(value)
-
-    return value
-
-
 def _team_scores_from_html(html: Any) -> list[bracket_utils.TeamScore]:
     if not isinstance(html, str):
         raise TypeError("Unexpected value", type(html))
@@ -113,11 +92,8 @@ def _team_scores_from_html(html: Any) -> list[bracket_utils.TeamScore]:
         if len(all_td) != 4 or len(all_th) != 0:
             raise RuntimeError("Invariant violation", tr)
 
-        acronym = _determine_acronym(all_td[2].text)
         scores.append(
-            bracket_utils.TeamScore(
-                team=all_td[1].text, acronym=acronym, score=float(all_td[3].text)
-            )
+            bracket_utils.TeamScore(team=all_td[1].text, score=float(all_td[3].text))
         )
 
     return scores

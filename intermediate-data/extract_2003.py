@@ -920,7 +920,7 @@ def main():
     # Add a **CUSTOM** "missing" negative team score based on the rule that
     # "all team point deductions applied across all divisions"
     team_scores["novice"].append(
-        bracket_utils.TeamScore(team="LIMESTONE YOUTH WC", acronym="LIM", score=-1.0)
+        bracket_utils.TeamScore(team="LIMESTONE YOUTH WC", score=-1.0)
     )
 
     deductions = bracket_utils.infer_deductions(team_scores)

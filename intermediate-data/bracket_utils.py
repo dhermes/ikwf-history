@@ -180,7 +180,6 @@ class WeightClass(_ForbidExtra):
 
 class TeamScore(_ForbidExtra):
     team: str
-    acronym: str | None = pydantic.Field(default=None, exclude=True)
     score: float
 
 
@@ -694,8 +693,7 @@ def parse_team_scores(
         score = team_score_exceptions.get(exception_key, score)
 
         team = _normalize_team_name(team, seen_teams)
-        acronym = reverse_acronym.get(team)
-        result.append(TeamScore(team=team, acronym=acronym, score=score))
+        result.append(TeamScore(team=team, score=score))
 
     return result
 

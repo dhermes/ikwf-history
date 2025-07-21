@@ -391,19 +391,19 @@ def main():
     team_scores["junior_iwf"] = []
     for team_name, score in _JUNIOR_TEAM_SCORES.items():
         team_scores["junior_iwf"].append(
-            bracket_utils.TeamScore(team=team_name, acronym=None, score=score)
+            bracket_utils.TeamScore(team=team_name, score=score)
         )
 
     team_scores["novice_iwf"] = []
     for team_name, score in _NOVICE_TEAM_SCORES.items():
         team_scores["novice_iwf"].append(
-            bracket_utils.TeamScore(team=team_name, acronym=None, score=score)
+            bracket_utils.TeamScore(team=team_name, score=score)
         )
 
     team_scores["senior_iwf"] = []
     for team_name, score in _SENIOR_TEAM_SCORES.items():
         team_scores["senior_iwf"].append(
-            bracket_utils.TeamScore(team=team_name, acronym=None, score=score)
+            bracket_utils.TeamScore(team=team_name, score=score)
         )
 
     weight_classes: list[bracket_utils.WeightClass] = []
