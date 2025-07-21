@@ -465,28 +465,24 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         first_name="Darnell",
         last_name="Lollis",
         team_full="HARVEY PD TWISTERS",
-        team_acronym=None,
     ),
     ("Robert Dela Fuente", "LOCKPORT GRAPPLERS"): bracket_utils.Competitor(
         full_name="Robert Dela Fuente",
         first_name="Robert",
         last_name="Dela Fuente",
         team_full="LOCKPORT GRAPPLERS",
-        team_acronym=None,
     ),
     ("Henry Len Franklin", "BLACKHAWK"): bracket_utils.Competitor(
         full_name="Henry Len Franklin",
         first_name="Henry",
         last_name="Len Franklin",
         team_full="BLACKHAWK",
-        team_acronym=None,
     ),
     ("Ray Todd Guzak", "CRESTWOOD COLTS"): bracket_utils.Competitor(
         full_name="Ray Todd Guzak",
         first_name="Ray Todd",
         last_name="Guzak",
         team_full="CRESTWOOD COLTS",
-        team_acronym=None,
     ),
 }
 

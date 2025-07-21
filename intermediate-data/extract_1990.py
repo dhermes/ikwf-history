@@ -617,42 +617,36 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         first_name="Michael",
         last_name="Murphy",
         team_full="LOCKPORT GRAPPLERS WC",
-        team_acronym=None,
     ),
     ("Ryan De Lira", "DOLTON PARK FALCONS"): bracket_utils.Competitor(
         full_name="Ryan De Lira",
         first_name="Ryan",
         last_name="De Lira",
         team_full="DOLTON PARK FALCONS",
-        team_acronym=None,
     ),
     ("Phillip J. Foster", "NEWMAN BLUE DEVILS"): bracket_utils.Competitor(
         full_name="Phillip J. Foster",
         first_name="Phillip",
         last_name="Foster",
         team_full="NEWMAN BLUE DEVILS",
-        team_acronym=None,
     ),
     ("Ray Todd Guzak", "CRESTWOOD COLTS WC"): bracket_utils.Competitor(
         full_name="Ray Todd Guzak",
         first_name="Ray Todd",
         last_name="Guzak",
         team_full="CRESTWOOD COLTS WC",
-        team_acronym=None,
     ),
     ("Jessie Whitton Jr.", "EL PASO WRESTLING"): bracket_utils.Competitor(
         full_name="Jessie Whitton Jr.",
         first_name="Jessie",
         last_name="Whitton",
         team_full="EL PASO WRESTLING",
-        team_acronym=None,
     ),
     ("Joe De Voss Jr.", "RIVERDALE JR. HIGH WC"): bracket_utils.Competitor(
         full_name="Joe De Voss Jr.",
         first_name="Joe",
         last_name="De Voss",
         team_full="RIVERDALE JR. HIGH WC",
-        team_acronym=None,
     ),
 }
 

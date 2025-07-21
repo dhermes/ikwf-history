@@ -18,7 +18,7 @@ class _ForbidExtra(pydantic.BaseModel):
 class CompetitorRaw(_ForbidExtra):
     name: str
     team_full: str
-    team_acronym: str | None
+    team_acronym: str | None = pydantic.Field(default=None)
 
     @property
     def long_name(self) -> str:
@@ -1071,7 +1071,6 @@ class Placer(NamedTuple):
             first_name=first_name,
             last_name=last_name,
             team_full=team_full,
-            team_acronym=None,
         )
 
 
@@ -1158,7 +1157,7 @@ def _placing_competitor_from_str(
         raise ValueError("Unexpected format", value)
 
     team_full = team_replace.get(team, team)
-    competitor_raw = CompetitorRaw(name=name, team_full=team_full, team_acronym=None)
+    competitor_raw = CompetitorRaw(name=name, team_full=team_full)
     return competitor_raw, place
 
 

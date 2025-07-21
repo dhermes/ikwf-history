@@ -565,35 +565,30 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         first_name="",
         last_name="Kean",
         team_full="Burbank",
-        team_acronym=None,
     ),
     ("Faley", "Burbank"): bracket_utils.Competitor(
         full_name="Faley",
         first_name="",
         last_name="Faley",
         team_full="Burbank",
-        team_acronym=None,
     ),
     ("Ryan", "Carl Sandburg"): bracket_utils.Competitor(
         full_name="Ryan",
         first_name="",
         last_name="Ryan",
         team_full="Carl Sandburg",
-        team_acronym=None,
     ),
     ("Shin", "Carl Sandburg"): bracket_utils.Competitor(
         full_name="Shin",
         first_name="",
         last_name="Shin",
         team_full="Carl Sandburg",
-        team_acronym=None,
     ),
     ("Philip", "Gower"): bracket_utils.Competitor(
         full_name="Philip",
         first_name="",
         last_name="Philip",
         team_full="Gower",
-        team_acronym=None,
     ),
 }
 

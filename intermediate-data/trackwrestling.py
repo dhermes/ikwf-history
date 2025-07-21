@@ -228,20 +228,20 @@ def _is_valid_initial_entry(
 
 def _get_team_matches(
     team_prefix: str, division_scores: list[bracket_utils.TeamScore]
-) -> list[tuple[str, str | None]]:
+) -> list[str]:
     # NOTE: 15 characters is the length where team names get abbreviated, so
     #       for this length only allow exact matches.
     if len(team_prefix) < 15:
         for score in division_scores:
             if score.team == team_prefix:
-                return [(team_prefix, score.acronym)]
+                return [team_prefix]
 
         return []
 
     matches: list[str] = []
     for score in division_scores:
         if score.team.startswith(team_prefix):
-            matches.append((score.team, score.acronym))
+            matches.append(score.team)
 
     return matches
 
@@ -280,12 +280,8 @@ def _split_name_team_initial(
     if len(matches) != 1:
         raise RuntimeError("Invariant violation", name_team, matches)
 
-    team_full, team_acronym = matches[0]
-    return bracket_utils.CompetitorRaw(
-        name=name,
-        team_full=team_full,
-        team_acronym=team_acronym,
-    )
+    team_full = matches[0]
+    return bracket_utils.CompetitorRaw(name=name, team_full=team_full)
 
 
 def initial_entries(

@@ -320,7 +320,6 @@ class ManualBracket(_ForbidExtra):
         return bracket_utils.CompetitorRaw(
             name=wrestler_choice.name,
             team_full=wrestler_choice.team,
-            team_acronym=None,
         )
 
     def to_weight_class(

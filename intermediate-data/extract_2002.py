@@ -14,14 +14,12 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         first_name="ANTHONY",
         last_name="DEGANI",
         team_full="CRYSTAL LAKE WIZARDS",
-        team_acronym="CRY",
     ),
     ("ANTHONY RICH JR.", "LPC"): bracket_utils.Competitor(
         full_name="ANTHONY RICH JR.",
         first_name="ANTHONY",
         last_name="RICH",
         team_full="L-P CRUNCHING CAVS",
-        team_acronym="LPC",
     ),
     # NOTE: This also fixes a typo in BJ's name (BENARD -> BERNARD)
     ("BENARD FUTRELL II", "HAE"): bracket_utils.Competitor(
@@ -29,14 +27,12 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         first_name="BERNARD",
         last_name="FUTRELL",
         team_full="HARVEY TWISTERS",
-        team_acronym="HAE",
     ),
     ("CARL FORESIDE JR", "GLA"): bracket_utils.Competitor(
         full_name="CARL FORESIDE JR",
         first_name="CARL",
         last_name="FORESIDE",
         team_full="GLADIATORS",
-        team_acronym="GLA",
     ),
     # NOTE: This assumes LL was lowercase ll, which resembles capitalized II
     ("DARREN MILLER  LL", "OPR"): bracket_utils.Competitor(
@@ -44,63 +40,54 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         first_name="DARREN",
         last_name="MILLER",
         team_full="OPRF LITTLE HUSKIE WC",
-        team_acronym="OPR",
     ),
     ("FRANK III BOLTON", "HAE"): bracket_utils.Competitor(
         full_name="FRANK III BOLTON",
         first_name="FRANK",
         last_name="BOLTON",
         team_full="HARVEY TWISTERS",
-        team_acronym="HAE",
     ),
     ("HARRY STARKS III", "HAE"): bracket_utils.Competitor(
         full_name="HARRY STARKS III",
         first_name="HARRY",
         last_name="STARKS",
         team_full="HARVEY TWISTERS",
-        team_acronym="HAE",
     ),
     ("JAMES VAN SOMEREN", "WHF"): bracket_utils.Competitor(
         full_name="JAMES VAN SOMEREN",
         first_name="JAMES",
         last_name="VAN SOMEREN",
         team_full="WHEATON FRANKLIN WC",
-        team_acronym="WHF",
     ),
     ("JERRY BEMIS III", "OAL"): bracket_utils.Competitor(
         full_name="JERRY BEMIS III",
         first_name="JERRY",
         last_name="BEMIS",
         team_full="OAK LAWN P.D. WILDCATS",
-        team_acronym="OAL",
     ),
     ("JOSHUA VAN BEHREN", "UNI"): bracket_utils.Competitor(
         full_name="JOSHUA VAN BEHREN",
         first_name="JOSHUA",
         last_name="VAN BEHREN",
         team_full="UNITY WC",
-        team_acronym="UNI",
     ),
     ("MARCUS MC CALL", "ROK"): bracket_utils.Competitor(
         full_name="MARCUS MC CALL",
         first_name="MARCUS",
         last_name="MC CALL",
         team_full="ROCK ISLAND JR. ROCKS",
-        team_acronym="ROK",
     ),
     ("NATHAN ST. CLAIR", "HIN"): bracket_utils.Competitor(
         full_name="NATHAN ST. CLAIR",
         first_name="NATHAN",
         last_name="ST. CLAIR",
         team_full="HINSDALE RED DEVIL WC",
-        team_acronym="HIN",
     ),
     ("TOM REEDY JR", "MOL"): bracket_utils.Competitor(
         full_name="TOM REEDY JR",
         first_name="TOM",
         last_name="REEDY",
         team_full="MOLINE WC",
-        team_acronym="MOL",
     ),
 }
 TEAM_SCORE_EXCEPTIONS: dict[tuple[bracket_utils.Division, str], float] = {}

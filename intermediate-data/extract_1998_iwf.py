@@ -287,7 +287,6 @@ def _to_competitor(name: str, team: str) -> bracket_utils.Competitor:
         first_name=first_name,
         last_name=last_name,
         team_full=team,
-        team_acronym=None,
     )
 
 

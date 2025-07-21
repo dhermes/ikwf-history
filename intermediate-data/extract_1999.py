@@ -198,7 +198,6 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         first_name="AJ",
         last_name="CICCARELLI",
         team_full="ROXANA KIDS WRESTLING CLUB",
-        team_acronym=None,
     ),
     (
         "PATRICK GADIENT YOUNG",
@@ -208,21 +207,18 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         first_name="PATRICK",
         last_name="YOUNG",
         team_full="ERIE MIDDLE SCHOOL WRESTLING CLUB",
-        team_acronym=None,
     ),
     ("RYAN JAMES GLENN", "ELGIN LARKIN JR. ROYALS"): bracket_utils.Competitor(
         full_name="RYAN JAMES GLENN",
         first_name="RYAN",
         last_name="GLENN",
         team_full="ELGIN LARKIN JR. ROYALS",
-        team_acronym=None,
     ),
     ("RYAN ST. JOSEPH", "CRYSTAL LAKE WIZARDS"): bracket_utils.Competitor(
         full_name="RYAN ST. JOSEPH",
         first_name="RYAN",
         last_name="ST. JOSEPH",
         team_full="CRYSTAL LAKE WIZARDS",
-        team_acronym=None,
     ),
 }
 
