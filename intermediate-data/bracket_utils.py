@@ -1,14 +1,8 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
-import pathlib
 from typing import Literal, NamedTuple
 
-import bs4
 import pydantic
-
-# NOTE: In some years, a clearly accidentally added team name appeared in team
-#       scores.
-_TEAM_SCORE_ACCIDENTAL: frozenset[str] = frozenset(["Mike", "TEST"])
 
 
 class _ForbidExtra(pydantic.BaseModel):
@@ -604,94 +598,6 @@ def clean_raw_matches(
         )
 
     _ensure_no_name_duplicates(result)
-
-    return result
-
-
-def _normalize_team_name(team: str, seen_teams: set[str]) -> str:
-    if team not in seen_teams:
-        seen_teams.add(team)
-        return team
-
-    for i in range(2, 10):
-        alternate_name = f"{team} ({i})"
-        if alternate_name in seen_teams:
-            continue
-
-        seen_teams.add(alternate_name)
-        return alternate_name
-
-    raise RuntimeError("Unexpected number of repeats for team name", team)
-
-
-def reverse_acronym_map(
-    team_acronym_mapping: dict[str, str],
-    division_team_acronym_mapping: dict[str, str],
-) -> dict[str, str]:
-    result: dict[str, str] = {}
-
-    for acronym, team_name in division_team_acronym_mapping.items():
-        if team_name in result:
-            raise KeyError("Duplicate", team_name, acronym, result[team_name])
-
-        result[team_name] = acronym
-
-    for acronym, team_name in team_acronym_mapping.items():
-        if team_name in result:
-            raise KeyError("Duplicate", team_name, acronym, result[team_name])
-
-        result[team_name] = acronym
-
-    return result
-
-
-def parse_team_scores(
-    root: pathlib.Path,
-    division: Division,
-    reverse_acronym: dict[str, str],
-    team_score_exceptions: dict[tuple[Division, str], float],
-) -> list[TeamScore]:
-    with open(root / division / "team-scores.html") as file_obj:
-        html = file_obj.read()
-
-    soup = bs4.BeautifulSoup(html, features="html.parser")
-    result: list[TeamScore] = []
-
-    all_tables: list[bs4.Tag] = soup.find_all("table")
-    # NOTE: This assumes every year will have a team with `2.0` points (for
-    #       advancement).
-    score_tables = [table for table in all_tables if "2.0" in table.text]
-    if len(score_tables) != 1:
-        raise ValueError("Invariant violation", division, len(score_tables))
-
-    score_table = score_tables[-1]
-
-    all_tr: list[bs4.Tag] = score_table.find_all("tr")
-    # NOTE: We track the team names we've seen to avoid duplicates / ensure
-    #       all team names are unique.
-    seen_teams: set[str] = set()
-    for table_row in all_tr:
-        if table_row.text.strip() == "":
-            continue
-
-        if tuple(table_row.text.split()) == ("Place", "Team", "Score"):
-            continue
-
-        all_td = table_row.find_all("td")
-        if len(all_td) < 2:
-            raise ValueError("Invariant violation", division, len(all_td), all_td)
-
-        team = all_td[-2].text.strip()
-        if team in _TEAM_SCORE_ACCIDENTAL:
-            continue
-
-        score = float(all_td[-1].text)
-
-        exception_key = division, team
-        score = team_score_exceptions.get(exception_key, score)
-
-        team = _normalize_team_name(team, seen_teams)
-        result.append(TeamScore(team=team, score=score))
 
     return result
 
