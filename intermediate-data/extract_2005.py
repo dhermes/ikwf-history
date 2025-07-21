@@ -312,43 +312,43 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
 }
 EMPTY_SLOT = "                               "
 NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
-    ("ALVIN FOSTER III", "HTW"): bracket_utils.Competitor(
+    ("ALVIN FOSTER III", "HARVEY PARK DISTRICT TWISTERS"): bracket_utils.Competitor(
         full_name="ALVIN FOSTER III",
         first_name="ALVIN",
         last_name="FOSTER",
         team_full="HARVEY PARK DISTRICT TWISTERS",
     ),
-    ("ANTWYONE BROWN JR.", "RRT"): bracket_utils.Competitor(
+    ("ANTWYONE BROWN JR.", "RICH RATTLERS WC"): bracket_utils.Competitor(
         full_name="ANTWYONE BROWN JR.",
         first_name="ANTWYONE",
         last_name="BROWN",
         team_full="RICH RATTLERS WC",
     ),
-    ("CARL FORESIDE JR.", "GLA"): bracket_utils.Competitor(
+    ("CARL FORESIDE JR.", "GLADIATORS"): bracket_utils.Competitor(
         full_name="CARL FORESIDE JR.",
         first_name="CARL",
         last_name="FORESIDE",
         team_full="GLADIATORS",
     ),
-    ("CURTIS CRIMS JR.", "CTC"): bracket_utils.Competitor(
+    ("CURTIS CRIMS JR.", "CROSSTOWN CRUSHERS"): bracket_utils.Competitor(
         full_name="CURTIS CRIMS JR.",
         first_name="CURTIS",
         last_name="CRIMS",
         team_full="CROSSTOWN CRUSHERS",
     ),
-    ("J. ALEXANDER GONZALEZ", "AJW"): bracket_utils.Competitor(
+    ("J. ALEXANDER GONZALEZ", "A-J JUNIOR WILDCATS"): bracket_utils.Competitor(
         full_name="J. ALEXANDER GONZALEZ",
         first_name="J. ALEXANDER",
         last_name="GONZALEZ",
         team_full="A-J JUNIOR WILDCATS",
     ),
-    ("MALIK - JABRI TAYLOR", "HTW"): bracket_utils.Competitor(
+    ("MALIK - JABRI TAYLOR", "HARVEY PARK DISTRICT TWISTERS"): bracket_utils.Competitor(
         full_name="MALIK - JABRI TAYLOR",
         first_name="MALIK - JABRI",
         last_name="TAYLOR",
         team_full="HARVEY PARK DISTRICT TWISTERS",
     ),
-    ("TYRONE  SALLY JR.", "PRP"): bracket_utils.Competitor(
+    ("TYRONE  SALLY JR.", "PROVISO POWERHOUSE"): bracket_utils.Competitor(
         full_name="TYRONE  SALLY JR.",
         first_name="TYRONE",
         last_name="SALLY",
@@ -586,9 +586,7 @@ def parse_competitor_full(
         raise ValueError("Invariant violation", name, cleaned, value)
 
     return bracket_utils.CompetitorRaw(
-        name=name,
-        team_full=_get_team_full(team, division),
-        team_acronym=team,
+        name=name, team_full=_get_team_full(team, division)
     )
 
 

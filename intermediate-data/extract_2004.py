@@ -471,43 +471,43 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
 }
 EMPTY_SLOT = "                               "
 NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
-    ("BEN STUCKEY III", "MTV"): bracket_utils.Competitor(
+    ("BEN STUCKEY III", "MT. VERNON LIONS"): bracket_utils.Competitor(
         full_name="BEN STUCKEY III",
         first_name="BEN",
         last_name="STUCKEY",
         team_full="MT. VERNON LIONS",
     ),
-    ("BILLY BYRD IV", "SYC"): bracket_utils.Competitor(
+    ("BILLY BYRD IV", "SYCAMORE WC"): bracket_utils.Competitor(
         full_name="BILLY BYRD IV",
         first_name="BILLY",
         last_name="BYRD",
         team_full="SYCAMORE WC",
     ),
-    ("BJ FUTRELL II", "HAE"): bracket_utils.Competitor(
+    ("BJ FUTRELL II", "HARVEY PARK DIST TWISTERS"): bracket_utils.Competitor(
         full_name="BJ FUTRELL II",
         first_name="BJ",
         last_name="FUTRELL",
         team_full="HARVEY PARK DIST TWISTERS",
     ),
-    ("CURTIS CRIMS JR.", "BLZ"): bracket_utils.Competitor(
+    ("CURTIS CRIMS JR.", "BLAZER KIDS"): bracket_utils.Competitor(
         full_name="CURTIS CRIMS JR.",
         first_name="CURTIS",
         last_name="CRIMS",
         team_full="BLAZER KIDS",
     ),
-    ("EDDIE LANCE III", "GRA"): bracket_utils.Competitor(
+    ("EDDIE LANCE III", "GRANITE CITY JR WARRIORS"): bracket_utils.Competitor(
         full_name="EDDIE LANCE III",
         first_name="EDDIE",
         last_name="LANCE",
         team_full="GRANITE CITY JR WARRIORS",
     ),
-    ("GEORGE CANALES IV", "STR"): bracket_utils.Competitor(
+    ("GEORGE CANALES IV", "STERLING NEWMAN JR COMETS"): bracket_utils.Competitor(
         full_name="GEORGE CANALES IV",
         first_name="GEORGE",
         last_name="CANALES",
         team_full="STERLING NEWMAN JR COMETS",
     ),
-    ("NICKBRAMHALL", "EDW"): bracket_utils.Competitor(
+    ("NICKBRAMHALL", "EDWARDSVILLE WC"): bracket_utils.Competitor(
         full_name="NICKBRAMHALL",
         first_name="NICK",
         last_name="BRAMHALL",
@@ -731,9 +731,7 @@ def parse_competitor_full(
         raise ValueError("Invariant violation", name, cleaned, value)
 
     return bracket_utils.CompetitorRaw(
-        name=name,
-        team_full=_get_team_full(team, division),
-        team_acronym=team,
+        name=name, team_full=_get_team_full(team, division)
     )
 
 

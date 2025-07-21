@@ -349,81 +349,81 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
 }
 EMPTY_SLOT = "                               "
 NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
-    ("ANTHONY DEGANI JR", "CRY"): bracket_utils.Competitor(
+    ("ANTHONY DEGANI JR", "CRYSTAL LAKE WIZARDS"): bracket_utils.Competitor(
         full_name="ANTHONY DEGANI JR",
         first_name="ANTHONY",
         last_name="DEGANI",
         team_full="CRYSTAL LAKE WIZARDS",
     ),
-    ("ANTHONY RICH JR.", "LPC"): bracket_utils.Competitor(
+    ("ANTHONY RICH JR.", "L-P CRUNCHING CAVS"): bracket_utils.Competitor(
         full_name="ANTHONY RICH JR.",
         first_name="ANTHONY",
         last_name="RICH",
         team_full="L-P CRUNCHING CAVS",
     ),
     # NOTE: This also fixes a typo in BJ's name (BENARD -> BERNARD)
-    ("BENARD FUTRELL II", "HAE"): bracket_utils.Competitor(
+    ("BENARD FUTRELL II", "HARVEY TWISTERS"): bracket_utils.Competitor(
         full_name="BENARD FUTRELL II",
         first_name="BERNARD",
         last_name="FUTRELL",
         team_full="HARVEY TWISTERS",
     ),
-    ("CARL FORESIDE JR", "GLA"): bracket_utils.Competitor(
+    ("CARL FORESIDE JR", "GLADIATORS"): bracket_utils.Competitor(
         full_name="CARL FORESIDE JR",
         first_name="CARL",
         last_name="FORESIDE",
         team_full="GLADIATORS",
     ),
     # NOTE: This assumes LL was lowercase ll, which resembles capitalized II
-    ("DARREN MILLER  LL", "OPR"): bracket_utils.Competitor(
+    ("DARREN MILLER  LL", "OPRF LITTLE HUSKIE WC"): bracket_utils.Competitor(
         full_name="DARREN MILLER  LL",
         first_name="DARREN",
         last_name="MILLER",
         team_full="OPRF LITTLE HUSKIE WC",
     ),
-    ("FRANK III BOLTON", "HAE"): bracket_utils.Competitor(
+    ("FRANK III BOLTON", "HARVEY TWISTERS"): bracket_utils.Competitor(
         full_name="FRANK III BOLTON",
         first_name="FRANK",
         last_name="BOLTON",
         team_full="HARVEY TWISTERS",
     ),
-    ("HARRY STARKS III", "HAE"): bracket_utils.Competitor(
+    ("HARRY STARKS III", "HARVEY TWISTERS"): bracket_utils.Competitor(
         full_name="HARRY STARKS III",
         first_name="HARRY",
         last_name="STARKS",
         team_full="HARVEY TWISTERS",
     ),
-    ("JAMES VAN SOMEREN", "WHF"): bracket_utils.Competitor(
+    ("JAMES VAN SOMEREN", "WHEATON FRANKLIN WC"): bracket_utils.Competitor(
         full_name="JAMES VAN SOMEREN",
         first_name="JAMES",
         last_name="VAN SOMEREN",
         team_full="WHEATON FRANKLIN WC",
     ),
-    ("JERRY BEMIS III", "OAL"): bracket_utils.Competitor(
+    ("JERRY BEMIS III", "OAK LAWN P.D. WILDCATS"): bracket_utils.Competitor(
         full_name="JERRY BEMIS III",
         first_name="JERRY",
         last_name="BEMIS",
         team_full="OAK LAWN P.D. WILDCATS",
     ),
-    ("JOSHUA VAN BEHREN", "UNI"): bracket_utils.Competitor(
+    ("JOSHUA VAN BEHREN", "UNITY WC"): bracket_utils.Competitor(
         full_name="JOSHUA VAN BEHREN",
         first_name="JOSHUA",
         last_name="VAN BEHREN",
         team_full="UNITY WC",
     ),
-    ("MARCUS MC CALL", "ROK"): bracket_utils.Competitor(
+    ("MARCUS MC CALL", "ROCK ISLAND JR. ROCKS"): bracket_utils.Competitor(
         full_name="MARCUS MC CALL",
         first_name="MARCUS",
         last_name="MC CALL",
         team_full="ROCK ISLAND JR. ROCKS",
     ),
-    ("NATHAN ST. CLAIR", "HIN"): bracket_utils.Competitor(
+    ("NATHAN ST. CLAIR", "HINSDALE RED DEVIL WC"): bracket_utils.Competitor(
         full_name="NATHAN ST. CLAIR",
         first_name="NATHAN",
         last_name="ST. CLAIR",
         team_full="HINSDALE RED DEVIL WC",
     ),
-    ("TOM REEDY JR", "MOL"): bracket_utils.Competitor(
+    ("TOM REEDY JR", "MOLINE WC"): bracket_utils.Competitor(
         full_name="TOM REEDY JR",
         first_name="TOM",
         last_name="REEDY",
@@ -639,9 +639,7 @@ def parse_competitor_full(
         raise ValueError("Invariant violation", name, cleaned, value)
 
     return bracket_utils.CompetitorRaw(
-        name=name,
-        team_full=_get_team_full(team, division),
-        team_acronym=team,
+        name=name, team_full=_get_team_full(team, division)
     )
 
 

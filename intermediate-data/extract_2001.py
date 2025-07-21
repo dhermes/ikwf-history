@@ -298,25 +298,25 @@ CONSOLATION_FIXES: tuple[tuple[str, str], ...] = (
     ("JASON WHITE-SY\n", "JASON WHITE-SYW\n"),
 )
 NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
-    ("JEFFERY BYBEE,JR", "CHL"): bracket_utils.Competitor(
+    ("JEFFERY BYBEE,JR", "CHILLICOTHE WC"): bracket_utils.Competitor(
         full_name="JEFFERY BYBEE,JR",
         first_name="JEFFERY",
         last_name="BYBEE",
         team_full="CHILLICOTHE WC",
     ),
-    ("JERRY BEMIS III", "OLW"): bracket_utils.Competitor(
+    ("JERRY BEMIS III", "OAK LAWN P.D. WILDCATS"): bracket_utils.Competitor(
         full_name="JERRY BEMIS III",
         first_name="JERRY",
         last_name="BEMIS",
         team_full="OAK LAWN P.D. WILDCATS",
     ),
-    ("MICHAEL J. RYAN", "LIT"): bracket_utils.Competitor(
+    ("MICHAEL J. RYAN", "LITTLE BOILER WC"): bracket_utils.Competitor(
         full_name="MICHAEL J. RYAN",
         first_name="MICHAEL J.",
         last_name="RYAN",
         team_full="LITTLE BOILER WC",
     ),
-    ("SHANE FICH TENMUELLER", "DIX"): bracket_utils.Competitor(
+    ("SHANE FICH TENMUELLER", "DIXON WC"): bracket_utils.Competitor(
         full_name="SHANE FICH TENMUELLER",
         first_name="SHANE",
         last_name="FICHTENMUELLER",
@@ -539,9 +539,7 @@ def parse_competitor_full(
         raise ValueError("Invariant violation", name, cleaned, value)
 
     return bracket_utils.CompetitorRaw(
-        name=name,
-        team_full=_get_team_full(team, division),
-        team_acronym=team,
+        name=name, team_full=_get_team_full(team, division)
     )
 
 

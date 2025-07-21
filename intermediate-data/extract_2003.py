@@ -284,85 +284,85 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
 }
 EMPTY_SLOT = "                               "
 NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
-    ("ANTHONY RICH JR", "LPC"): bracket_utils.Competitor(
+    ("ANTHONY RICH JR", "L-P CRUNCHING CAVS"): bracket_utils.Competitor(
         full_name="ANTHONY RICH JR",
         first_name="ANTHONY",
         last_name="RICH",
         team_full="L-P CRUNCHING CAVS",
     ),
-    ("BJ FUTRELL II", "HAE"): bracket_utils.Competitor(
+    ("BJ FUTRELL II", "HARVEY TWISTERS"): bracket_utils.Competitor(
         full_name="BJ FUTRELL II",
         first_name="BJ",
         last_name="FUTRELL",
         team_full="HARVEY TWISTERS",
     ),
-    ("CARL FORESIDE, JR.", "GLA"): bracket_utils.Competitor(
+    ("CARL FORESIDE, JR.", "GLADIATORS"): bracket_utils.Competitor(
         full_name="CARL FORESIDE, JR.",
         first_name="CARL",
         last_name="FORESIDE",
         team_full="GLADIATORS",
     ),
-    ("CASEY MC MURRAY", "LIO"): bracket_utils.Competitor(
+    ("CASEY MC MURRAY", "LIONS WC"): bracket_utils.Competitor(
         full_name="CASEY MC MURRAY",
         first_name="CASEY",
         last_name="MC MURRAY",
         team_full="LIONS WC",
     ),
-    ("DWIGHT MC CALL", "ROK"): bracket_utils.Competitor(
+    ("DWIGHT MC CALL", "ROCK ISLAND WC"): bracket_utils.Competitor(
         full_name="DWIGHT MC CALL",
         first_name="DWIGHT",
         last_name="MC CALL",
         team_full="ROCK ISLAND WC",
     ),
-    ("GINO DE FRANCISCO", "HOF"): bracket_utils.Competitor(
+    ("GINO DE FRANCISCO", "HOFFMAN ESTATES WC"): bracket_utils.Competitor(
         full_name="GINO DE FRANCISCO",
         first_name="GINO",
         last_name="DE FRANCISCO",
         team_full="HOFFMAN ESTATES WC",
     ),
-    ("JAMES VAN SOMEREN", "WHF"): bracket_utils.Competitor(
+    ("JAMES VAN SOMEREN", "WHEATON FRANKLIN WC"): bracket_utils.Competitor(
         full_name="JAMES VAN SOMEREN",
         first_name="JAMES",
         last_name="VAN SOMEREN",
         team_full="WHEATON FRANKLIN WC",
     ),
-    ("JOSHUA VAN BEHREN", "UNI"): bracket_utils.Competitor(
+    ("JOSHUA VAN BEHREN", "UNITY WC"): bracket_utils.Competitor(
         full_name="JOSHUA VAN BEHREN",
         first_name="JOSHUA",
         last_name="VAN BEHREN",
         team_full="UNITY WC",
     ),
-    ("MARCUS MC CALL", "ROK"): bracket_utils.Competitor(
+    ("MARCUS MC CALL", "ROCK ISLAND JR. ROCKS"): bracket_utils.Competitor(
         full_name="MARCUS MC CALL",
         first_name="MARCUS",
         last_name="MC CALL",
         team_full="ROCK ISLAND JR. ROCKS",
     ),
-    ("MICHAEL MATOZZI, JR.", "OSW"): bracket_utils.Competitor(
+    ("MICHAEL MATOZZI, JR.", "OSWEGO PANTHERS"): bracket_utils.Competitor(
         full_name="MICHAEL MATOZZI, JR.",
         first_name="MICHAEL",
         last_name="MATOZZI",
         team_full="OSWEGO PANTHERS",
     ),
-    ("REGINALD WILSON JR", "FOR"): bracket_utils.Competitor(
+    ("REGINALD WILSON JR", "FORD HEIGHTS FALCONS"): bracket_utils.Competitor(
         full_name="REGINALD WILSON JR",
         first_name="REGINALD",
         last_name="WILSON",
         team_full="FORD HEIGHTS FALCONS",
     ),
-    ("ROBERT PROVAX III", "NOT"): bracket_utils.Competitor(
+    ("ROBERT PROVAX III", "NOTRE DAME WC"): bracket_utils.Competitor(
         full_name="ROBERT PROVAX III",
         first_name="ROBERT",
         last_name="PROVAX",
         team_full="NOTRE DAME WC",
     ),
-    ("RONALD REEVES JR", "TRI"): bracket_utils.Competitor(
+    ("RONALD REEVES JR", "TRIAD KNIGHTS"): bracket_utils.Competitor(
         full_name="RONALD REEVES JR",
         first_name="RONALD",
         last_name="REEVES",
         team_full="TRIAD KNIGHTS",
     ),
-    ("T. J. WARNER", "HOO"): bracket_utils.Competitor(
+    ("T. J. WARNER", "HOOPESTON AREA WC"): bracket_utils.Competitor(
         full_name="T. J. WARNER",
         first_name="T. J.",
         last_name="WARNER",
@@ -581,9 +581,7 @@ def parse_competitor_full(
         raise ValueError("Invariant violation", name, cleaned, value)
 
     return bracket_utils.CompetitorRaw(
-        name=name,
-        team_full=_get_team_full(team, division),
-        team_acronym=team,
+        name=name, team_full=_get_team_full(team, division)
     )
 
 

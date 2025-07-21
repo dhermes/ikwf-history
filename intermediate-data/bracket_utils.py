@@ -12,7 +12,6 @@ class _ForbidExtra(pydantic.BaseModel):
 class CompetitorRaw(_ForbidExtra):
     name: str
     team_full: str
-    team_acronym: str | None = pydantic.Field(default=None)
 
     @property
     def long_name(self) -> str:
@@ -30,7 +29,6 @@ class Competitor(_ForbidExtra):
     first_name: str
     last_name: str
     team_full: str
-    team_acronym: str | None = pydantic.Field(default=None, exclude=True)
 
     @property
     def as_tuple(self) -> CompetitorTuple:
@@ -355,12 +353,6 @@ def competitor_from_raw(
     if value is None:
         return None
 
-    exception_key = value.name, value.team_acronym
-    if exception_key in name_exceptions:
-        competitor = name_exceptions[exception_key]
-        competitor.full_name = value.name
-        return competitor
-
     exception_key = value.name, value.team_full
     if exception_key in name_exceptions:
         competitor = name_exceptions[exception_key]
@@ -369,14 +361,13 @@ def competitor_from_raw(
 
     parts = value.name.split()
     if len(parts) != 2:
-        raise RuntimeError(value.name, value.team_full, value.team_acronym)
+        raise RuntimeError(value.name, value.team_full)
 
     return Competitor(
         full_name=value.name,
         first_name=parts[0],
         last_name=parts[1],
         team_full=value.team_full,
-        team_acronym=value.team_acronym,
     )
 
 
@@ -476,9 +467,6 @@ def _competitor_raw_equal_enough(
         return competitor1 == competitor2
 
     if competitor1.team_full != competitor2.team_full:
-        return False
-
-    if competitor1.team_acronym != competitor2.team_acronym:
         return False
 
     return _competitor_name_equal_enough(competitor1.name, competitor2.name)
@@ -864,14 +852,14 @@ def _match_team_score_updates(
     loser_team = None
     if match.top_win:
         winner = match.top_competitor
-        winner_team = match.top_competitor.team_acronym
+        winner_team = match.top_competitor.team_full
         if match.bottom_competitor is not None:
-            loser_team = match.bottom_competitor.team_acronym
+            loser_team = match.bottom_competitor.team_full
     else:
         winner = match.bottom_competitor
-        winner_team = match.bottom_competitor.team_acronym
+        winner_team = match.bottom_competitor.team_full
         if match.top_competitor is not None:
-            loser_team = match.top_competitor.team_acronym
+            loser_team = match.top_competitor.team_full
 
     winner_advancement_points = _get_advancement_points(match.match_slot, True)
     loser_advancement_points = _get_advancement_points(match.match_slot, False)
@@ -906,9 +894,9 @@ def _weight_team_score_updates(weight_class: WeightClass) -> dict[str, float]:
             continue
 
         match_updates = _match_team_score_updates(match, by_match)
-        for acronym, score in match_updates.items():
-            result.setdefault(acronym, 0.0)
-            result[acronym] += score
+        for team, score in match_updates.items():
+            result.setdefault(team, 0.0)
+            result[team] += score
 
     return result
 
@@ -917,9 +905,9 @@ def compute_team_scores(weight_classes: list[WeightClass]) -> dict[str, float]:
     result: dict[str, float] = {}
     for weight_class in weight_classes:
         weight_updates = _weight_team_score_updates(weight_class)
-        for acronym, score in weight_updates.items():
-            result.setdefault(acronym, 0.0)
-            result[acronym] += score
+        for team, score in weight_updates.items():
+            result.setdefault(team, 0.0)
+            result[team] += score
 
     return result
 

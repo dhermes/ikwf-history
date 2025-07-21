@@ -264,91 +264,91 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
 }
 EMPTY_SLOT = "                               "
 NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
-    ("AARON BREWTON II", "WAUK"): bracket_utils.Competitor(
+    ("AARON BREWTON II", "WAUKEGAN YOUTH WC"): bracket_utils.Competitor(
         full_name="AARON BREWTON II",
         first_name="AARON",
         last_name="BREWTON",
         team_full="WAUKEGAN YOUTH WC",
     ),
-    ("ALVIN FOSTER III", "HPDT"): bracket_utils.Competitor(
+    ("ALVIN FOSTER III", "HARVEY PARK DIST TWISTERS"): bracket_utils.Competitor(
         full_name="ALVIN FOSTER III",
         first_name="ALVIN",
         last_name="FOSTER",
         team_full="HARVEY PARK DIST TWISTERS",
     ),
-    ("ANTHONY FERRARIS JR", "MNE"): bracket_utils.Competitor(
+    ("ANTHONY FERRARIS JR", "MAINE EAGLES WC"): bracket_utils.Competitor(
         full_name="ANTHONY FERRARIS JR",
         first_name="ANTHONY",
         last_name="FERRARIS",
         team_full="MAINE EAGLES WC",
     ),
-    ("ANTWYONE BROWN JR.", "CRST"): bracket_utils.Competitor(
+    ("ANTWYONE BROWN JR.", "CROSSTOWN CRUSHERS"): bracket_utils.Competitor(
         full_name="ANTWYONE BROWN JR.",
         first_name="ANTWYONE",
         last_name="BROWN",
         team_full="CROSSTOWN CRUSHERS",
     ),
-    ("BRENDAN TYLER HALL", "HPDT"): bracket_utils.Competitor(
+    ("BRENDAN TYLER HALL", "HARVEY PARK DIST TWISTERS"): bracket_utils.Competitor(
         full_name="BRENDAN TYLER HALL",
         first_name="BRENDAN TYLER",
         last_name="HALL",
         team_full="HARVEY PARK DIST TWISTERS",
     ),
-    ("CURTIS CRIMS JR.", "CRST"): bracket_utils.Competitor(
+    ("CURTIS CRIMS JR.", "CROSSTOWN CRUSHERS"): bracket_utils.Competitor(
         full_name="CURTIS CRIMS JR.",
         first_name="CURTIS",
         last_name="CRIMS",
         team_full="CROSSTOWN CRUSHERS",
     ),
-    ("GEORGE CANALES IV", "DIX"): bracket_utils.Competitor(
+    ("GEORGE CANALES IV", "DIXON WC"): bracket_utils.Competitor(
         full_name="GEORGE CANALES IV",
         first_name="GEORGE",
         last_name="CANALES",
         team_full="DIXON WC",
     ),
-    ("JIM JERNIGAN JR.", "MOL"): bracket_utils.Competitor(
+    ("JIM JERNIGAN JR.", "MOLINE WC"): bracket_utils.Competitor(
         full_name="JIM JERNIGAN JR.",
         first_name="JIM",
         last_name="JERNIGAN",
         team_full="MOLINE WC",
     ),
-    ("JOSE MANUEL DEAVILA", "COL"): bracket_utils.Competitor(
+    ("JOSE MANUEL DEAVILA", "COLLINSVILLE RAIDERS"): bracket_utils.Competitor(
         full_name="JOSE MANUEL DEAVILA",
         first_name="JOSE MANUEL",
         last_name="DEAVILA",
         team_full="COLLINSVILLE RAIDERS",
     ),
-    ("LUSIANO JR. CANTU", "GOM"): bracket_utils.Competitor(
+    ("LUSIANO JR. CANTU", "GOMEZ WRESTLING ACADEMY"): bracket_utils.Competitor(
         full_name="LUSIANO JR. CANTU",
         first_name="LUSIANO",
         last_name="CANTU",
         team_full="GOMEZ WRESTLING ACADEMY",
     ),
-    ("MATTHEW SCHEFKE JR.", "NAP"): bracket_utils.Competitor(
+    ("MATTHEW SCHEFKE JR.", "NAPERVILLE WC"): bracket_utils.Competitor(
         full_name="MATTHEW SCHEFKE JR.",
         first_name="MATTHEW",
         last_name="SCHEFKE",
         team_full="NAPERVILLE WC",
     ),
-    ("ROSS FERRARO III", "GOM"): bracket_utils.Competitor(
+    ("ROSS FERRARO III", "GOMEZ WRESTLING ACADEMY"): bracket_utils.Competitor(
         full_name="ROSS FERRARO III",
         first_name="ROSS",
         last_name="FERRARO",
         team_full="GOMEZ WRESTLING ACADEMY",
     ),
-    ("TRAVIS BUCHANAN / WILL", "HPDT"): bracket_utils.Competitor(
+    ("TRAVIS BUCHANAN / WILL", "HARVEY PARK DIST TWISTERS"): bracket_utils.Competitor(
         full_name="TRAVIS BUCHANAN / WILL",
         first_name="TRAVIS / WILL",
         last_name="BUCHANAN",
         team_full="HARVEY PARK DIST TWISTERS",
     ),
-    ("TYRONE  SALLY JR.", "HPDT"): bracket_utils.Competitor(
+    ("TYRONE  SALLY JR.", "HARVEY PARK DIST TWISTERS"): bracket_utils.Competitor(
         full_name="TYRONE  SALLY JR.",
         first_name="TYRONE",
         last_name="SALLY",
         team_full="HARVEY PARK DIST TWISTERS",
     ),
-    ("WARDELL ROSEMAN JR.", "DUN"): bracket_utils.Competitor(
+    ("WARDELL ROSEMAN JR.", "DUNDEE HIGHLANDERS"): bracket_utils.Competitor(
         full_name="WARDELL ROSEMAN JR.",
         first_name="WARDELL",
         last_name="ROSEMAN",
@@ -585,9 +585,7 @@ def parse_competitor_full(
         raise ValueError("Invariant violation", name, cleaned, value)
 
     return bracket_utils.CompetitorRaw(
-        name=name,
-        team_full=_get_team_full(team, division),
-        team_acronym=team,
+        name=name, team_full=_get_team_full(team, division)
     )
 
 
