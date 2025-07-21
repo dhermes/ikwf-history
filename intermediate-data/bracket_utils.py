@@ -29,7 +29,6 @@ class CompetitorTuple(NamedTuple):
     first_name: str
     last_name: str
     team_full: str
-    team_acronym: str | None
 
 
 class Competitor(_ForbidExtra):
@@ -46,7 +45,6 @@ class Competitor(_ForbidExtra):
             first_name=self.first_name,
             last_name=self.last_name,
             team_full=self.team_full,
-            team_acronym=self.team_acronym,
         )
 
 
