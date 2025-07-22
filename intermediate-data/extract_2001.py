@@ -58,6 +58,8 @@ _NOVICE_TEAM_SCORES: dict[str, float] = {
     "GENERALS": 19.0,
     "GLEN ELLYN DUNGEON WC": 19.0,
     "HONONEGAH KIDS WC": 18.0,
+    #### ^ ^ ^  Confirmed by program
+    #### \/\/\/ From HTML
     "LAKELAND PREDATORS": 17.0,
     "MAINE EAGLES WC": 16.0,
     "MACOMB KIDS WRESTLING": 13.0,
@@ -184,6 +186,8 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "RIVERDALE JR HIGH WC": 20.0,
     "FOX VALLEY CRONE WC": 19.5,
     "PANTHER CUB WC": 19.0,
+    #### ^ ^ ^  Confirmed by program
+    #### \/\/\/ From HTML
     "BRAWLERS WC": 17.0,
     "LITTLE BOILER WC": 17.0,
     "SAUKEE YOUTH WC": 17.0,
@@ -251,29 +255,22 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "TAYLORVILLE WC": 0.0,
     "VANDALIA JR WRESTLING": 0.0,
     "YORKVILLE WC": 0.0,
-    # "ADDISON ANIMALS": 0.0, (also #79, 4.0 points)
     "CENTRALIA WC": 0.0,
     "DECATUR WC": 0.0,
     "DUNDEE HIGHLANDERS-CARPENTERSVILLE": 0.0,
     "DUNDEE HIGHLANDERS-WESTFIELD": 0.0,
-    # "ERIE MIDDLE SCHOOL WRESTLING CLUB": 0.0, (also #79, 4.0 points)
     "FISHER WC": 0.0,
     "GALESBURG JR STREAKS": 0.0,
     "LAKE VIEW JR WILDCATS": 0.0,
     "LAKE VILLA LANCERS": 0.0,
     "LIMESTONE YOUTH ROCKET WC": 0.0,
-    # "NAPERVILLE LANCERS": 0.0, (also #17, 41.0 points)
     "NAPERVILLE WC": 0.0,
     "PINCKNEYVILLE JR PANTHERS": 0.0,
     "PLT PROPHETS WC": 0.0,
-    # "RICHMOND WC": 0.0, (also #79, 4.0 points)
     "SHARKS WC": 0.0,
     "ST. BEDE'S": 0.0,
     "TRI-CITY BRAVES": 0.0,
     "WAUBONSIE BULLDOGS": 0.0,
-    # "MANTENO JR PANTHERS": 0.0, (also #79, 4.0 points)
-    # "BRAWLERS WC": 0.0, (also #51, 17.0 points)
-    # "CHARLESTON WC": 0.0, (also #58, 15.0 points)
     "WARRENSBURG WC": -1.0,
     "HINSDALE RED DEVIL WC": -2.0,
 }
