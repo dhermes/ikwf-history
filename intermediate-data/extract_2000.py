@@ -772,8 +772,9 @@ def main():
             )
         )
 
+    team_scores = {}  # TODO
     extracted_tournament = bracket_utils.ExtractedTournament(
-        weight_classes=parsed, team_scores={}, deductions=[]
+        weight_classes=parsed, team_scores=team_scores, deductions=[]
     )
     extracted_tournament.sort()
     with open(_HERE / "extracted.2000.json", "w") as file_obj:
