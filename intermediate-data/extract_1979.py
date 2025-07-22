@@ -1,6 +1,7 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
-"""Produce `extracted.1979.json` brackets.
+"""
+Produce `extracted.1979.json` brackets.
 
 The full names / teams / weights were provided in the 1979 program:
 

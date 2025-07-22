@@ -1,5 +1,18 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
+"""
+Note, there were six novice competitors listed that do not show up in brackets.
+These are likely alternates or scratches:
+
+- CASEY COLP :: HERRIN WC (108) -- Scratched
+- PETER ROTO :: JUNIOR PIRATE WC (108) -- Scratched
+- CLAYTON SULAK :: LITTLE GIANTS (115) -- Scratched
+- MAX GUERRA :: OAK LAWN P.D. WILDCATS (115) -- Scratched
+- DREW BARBIER :: CROSSFACE WRESTLING (122)
+  - Replaced by `JARED KUEBEL :: RIVERBEND WC`
+- THOR WHITWORTH :: SHELBYVILLE JUNIOR RAMS WC (215) -- Scratched
+"""
+
 import functools
 import pathlib
 
@@ -274,6 +287,26 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "WARRENSBURG WC": -1.0,
     "HINSDALE RED DEVIL WC": -2.0,
 }
+_NAME_FIXES: dict[str, str] = {
+    "A KINSELL": "ALEX KINSELLA",
+    "ALEX KINSELL": "ALEX KINSELLA",
+    "CAL CONVILLAIN": "CARL BONVILLAIN",
+    "CHRISTOPHE FLETCHER": "CHRISTOPHER FLETCHER",
+    "CHRISTOPHE MARCIANO": "CHRISTOPHER MARCIANO",
+    "DILON PANTNACK": "DILLON PONTNACK",
+    "GEORGE SCULLY": "PATRICK SCULLY",
+    "KREEG KELLER": "KREGG KELLER",
+    "R KNOWLTON": "RODNEY KNOWLTON II",
+    "RICK REINICHE": "RICK REINICHE, JR",
+    "RICK STONECIPHE": "RICK STONECIPHER",
+    "RODNEY KNOWLTON": "RODNEY KNOWLTON II",
+    "RYAN WILLIAM": "RYAN WILLIAMS",
+    "S ANDRUKAITI": "STEVEN ANDRUKAITIS",
+    "STEVEN ANDRUKAITI": "STEVEN ANDRUKAITIS",
+    "TIM KLANH": "TIM KLAHN",
+    "TRUSTAN COGSWELL": "TRISTAN COGSWELL",
+    "ZACNARY BECKER": "ZACHARY BECKER",
+}
 EMPTY_SLOT = "                          "
 CHAMPIONSHIP_FIXES: tuple[tuple[str, str], ...] = (
     ("M MCAULIFFE-TP\n", "M MCAULIFFE-TPB\n"),
@@ -318,6 +351,18 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         first_name="SHANE",
         last_name="FICHTENMUELLER",
         team_full="DIXON WC",
+    ),
+    ("RICK REINICHE, JR", "LITTLE BOILER WC"): bracket_utils.Competitor(
+        full_name="RICK REINICHE, JR",
+        first_name="RICK",
+        last_name="REINICHE",
+        team_full="LITTLE BOILER WC",
+    ),
+    ("RODNEY KNOWLTON II", "GLEN ELLYN DUNGEON WC"): bracket_utils.Competitor(
+        full_name="RODNEY KNOWLTON II",
+        first_name="RODNEY",
+        last_name="KNOWLTON",
+        team_full="GLEN ELLYN DUNGEON WC",
     ),
 }
 TEAM_SCORE_EXCEPTIONS: dict[tuple[bracket_utils.Division, str], float] = {
@@ -462,7 +507,7 @@ _SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "BRL": "BRAWLERS WC",
     "CEN": "CENTRALIA WC",
     "CHA": "CHARLESTON WC",
-    "CHR": "CHARLESTON WC",  # TODO
+    "CHR": "CHARLESTON WC",
     "DC": "DUNDEE HIGHLANDERS-CARPENTERSVILLE",
     "DW": "DUNDEE HIGHLANDERS-WESTFIELD",
     "DEC": "DECATUR WC",
@@ -495,19 +540,33 @@ _SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "WAB": "WAUBONSIE BULLDOGS",
     "WAG": "WAUBONSIE GRIZZLIES",
     "WB": "WHEATON BULLDOGS",
-    "WHC": "WHEATON WC",  # TODO
-    "WHE": "WHEATON BULLDOGS",  # TODO
+    "WHC": "WHEATON WC",
+    "WHE": "WHEATON BULLDOGS",
     "WHT": "WHEATON WC",
 }
 
 
-def _get_team_full(acronym: str, division: bracket_utils.Division) -> str:
+def _get_team_full(name: str, acronym: str, division: bracket_utils.Division) -> str:
     if division == "senior":
         division_mapping = _SENIOR_TEAM_ACRONYM_MAPPING
     elif division == "novice":
         division_mapping = _NOVICE_TEAM_ACRONYM_MAPPING
     else:
         raise NotImplementedError(division)
+
+    # NOTE: The below are based on cross-referencing the HTML (from PES Sports
+    #       via the Wayback Machine) against the physical program from 2001.
+    if division == "novice" and name == "RYAN WARNER" and acronym == "GEN":
+        return "GENESEO WC"
+
+    if division == "novice" and name == "RYAN BELL" and acronym == "GEN":
+        return "GENESEO WC"
+
+    if division == "novice" and name == "DAVID LEMBAS" and acronym == "PLW":
+        return "PLAINFIELD WC"
+
+    if division == "novice" and name == "D LEMBAS" and acronym == "PLW":
+        return "PLAINFIELD WC"
 
     if acronym in division_mapping:
         return division_mapping[acronym]
@@ -535,8 +594,9 @@ def parse_competitor_full(
     if name == "":
         raise ValueError("Invariant violation", name, cleaned, value)
 
+    name = _NAME_FIXES.get(name, name)
     return bracket_utils.CompetitorRaw(
-        name=name, team_full=_get_team_full(team, division)
+        name=name, team_full=_get_team_full(name, team, division)
     )
 
 
