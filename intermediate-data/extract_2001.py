@@ -1,8 +1,7 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
 """
-Note, there were six novice competitors listed that do not show up in brackets.
-These are likely alternates or scratches:
+Note, there were 6 Novice competitors listed that do not show up in brackets:
 
 - CASEY COLP :: HERRIN WC (108) -- Scratched
 - PETER ROTO :: JUNIOR PIRATE WC (108) -- Scratched
@@ -11,6 +10,19 @@ These are likely alternates or scratches:
 - DREW BARBIER :: CROSSFACE WRESTLING (122)
   - Replaced by `JARED KUEBEL :: RIVERBEND WC`
 - THOR WHITWORTH :: SHELBYVILLE JUNIOR RAMS WC (215) -- Scratched
+
+and 9 Senior competitors listed that do not show up in brackets:
+
+- BRANDON OPPENHEIMER :: WHEATON MONROE EAGLES (70) -- Scratched
+- TIMOTHY MORDINI :: EDISON PANTHERS (70) -- Scratched
+- CHRIS MATTHEWS :: EAST MOLINE PANTHER PINNERS (74) -- Scratched
+- MIKE POLL :: TIGER WC (122)
+  - Replaced by `SCOTT PULLEN :: MT. ZION WC`
+- GARY ORRIS :: HONONEGAH KIDS WC (130) -- Scratched
+- BRIAN CASOLARO :: HUSKIES WC (177) -- Scratched
+- CODIE GANT :: EAST MOLINE PANTHER PINNERS (177) -- Scratched
+- ALAN MADDAMMA :: MANTENO JR PANTHERS (275) -- Scratched
+- IAN MCCOLLUM :: GRAPPLIN' DEVILS WC (275) -- Scratched
 """
 
 import functools
@@ -288,22 +300,43 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "HINSDALE RED DEVIL WC": -2.0,
 }
 _NAME_FIXES: dict[str, str] = {
+    "A BENSCHNEID": "ARRON BENSCHNEIDER",
     "A KINSELL": "ALEX KINSELLA",
+    "A MESTEMACHE": "ADAM MESTEMACHER",
+    "ADAM MESTEMACHE": "ADAM MESTEMACHER",
     "ALEX KINSELL": "ALEX KINSELLA",
+    "ARRON BENSCHNEID": "ARRON BENSCHNEIDER",
+    "ARRON RICHARDS": "AARON RICHARDS",
+    "BEN CHAMBERLAI": "BEN CHAMBERLAIN",
     "CAL CONVILLAIN": "CARL BONVILLAIN",
+    "CHRISTOPHE ARTHURS": "CHRISTOPHER ARTHURS",
     "CHRISTOPHE FLETCHER": "CHRISTOPHER FLETCHER",
     "CHRISTOPHE MARCIANO": "CHRISTOPHER MARCIANO",
     "DILON PANTNACK": "DILLON PONTNACK",
+    "ERIC UMGELDER": "ERICH UMGELDER",
     "GEORGE SCULLY": "PATRICK SCULLY",
+    "J ASCHENBREN": "JAMES ASCHENBRENNER",
+    "J DIGREGORIA": "JOEY DIGREGORIO",
+    "JAMES ASCHENBREN": "JAMES ASCHENBRENNER",
+    "JOEY DIGREGORIA": "JOEY DIGREGORIO",
     "KREEG KELLER": "KREGG KELLER",
+    "KYLE REED": "KYLE REID",
+    "L WINTERHALT": "LUCAS WINTERHALTER",
+    "LUCAS WINTERHALT": "LUCAS WINTERHALTER",
+    "M ENGWAL": "MARTY ENGWALL",
+    "M LUKASZEWSK": "MARK LUKASZEWSKI",
+    "MARK LUKASZEWSK": "MARK LUKASZEWSKI",
+    "MARTY ENGWAL": "MARTY ENGWALL",
     "R KNOWLTON": "RODNEY KNOWLTON II",
     "RICK REINICHE": "RICK REINICHE, JR",
     "RICK STONECIPHE": "RICK STONECIPHER",
     "RODNEY KNOWLTON": "RODNEY KNOWLTON II",
     "RYAN WILLIAM": "RYAN WILLIAMS",
     "S ANDRUKAITI": "STEVEN ANDRUKAITIS",
+    "STEVE JAKE": "JAKE STEVE",
     "STEVEN ANDRUKAITI": "STEVEN ANDRUKAITIS",
     "TIM KLANH": "TIM KLAHN",
+    "TOM AULTMANL": "TOM AULTMAN",
     "TRUSTAN COGSWELL": "TRISTAN COGSWELL",
     "ZACNARY BECKER": "ZACHARY BECKER",
 }
@@ -501,7 +534,6 @@ _NOVICE_TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "YOU": "YOUNG CHAMPIONS",
 }
 _SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
-    # ADA: Duplicate (team name shows up twice in Senior Team Scores)
     "ADA": "ADDISON ANIMALS",
     "BGP": "BOYS & GIRLS CLUB OF PEKIN",
     "BRL": "BRAWLERS WC",
@@ -511,7 +543,6 @@ _SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "DC": "DUNDEE HIGHLANDERS-CARPENTERSVILLE",
     "DW": "DUNDEE HIGHLANDERS-WESTFIELD",
     "DEC": "DECATUR WC",
-    # EMS: Duplicate (team name shows up twice in Senior Team Scores)
     "EMS": "ERIE MIDDLE SCHOOL WRESTLING CLUB",
     "EP": "EDISON PANTHERS",
     "FVC": "FOX VALLEY CRONE WC",
@@ -562,11 +593,32 @@ def _get_team_full(name: str, acronym: str, division: bracket_utils.Division) ->
     if division == "novice" and name == "RYAN BELL" and acronym == "GEN":
         return "GENESEO WC"
 
+    if division == "novice" and name == "D LEMBAS" and acronym == "PLW":
+        return "PLAINFIELD WC"
+
     if division == "novice" and name == "DAVID LEMBAS" and acronym == "PLW":
         return "PLAINFIELD WC"
 
-    if division == "novice" and name == "D LEMBAS" and acronym == "PLW":
-        return "PLAINFIELD WC"
+    if division == "senior" and name == "KORY THIEL" and acronym == "DH":
+        return "DUNDEE HIGHLANDERS-WESTFIELD"
+
+    if division == "senior" and name == "E QUARTERMAN" and acronym == "GJS":
+        return "GALESBURG JR STREAKS"
+
+    if division == "senior" and name == "EVAN QUARTERMAN" and acronym == "GJS":
+        return "GALESBURG JR STREAKS"
+
+    if division == "senior" and name == "DEREK KLOOG" and acronym == "JUN":
+        return "JR SENTINELS"
+
+    if division == "senior" and name == "RYAN JACKSON" and acronym == "ROC":
+        return "ROCKFORD WC"
+
+    if division == "senior" and name == "KARL VEHLOW" and acronym == "WF":
+        return "WRESTLING FACTORY"
+
+    if division == "senior" and name == "JOSH HURST" and acronym == "WHE":
+        return "WHEATON WC"
 
     if acronym in division_mapping:
         return division_mapping[acronym]
