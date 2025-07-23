@@ -1,5 +1,37 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
+"""
+Note, there were 7 Novice competitors listed that do not show up in brackets:
+
+- DANE LUND :: WRESTLING FACTORY OF LIBERTYVILLE (62) -- Scratched
+- DANNY FORNOFF :: WASHINGTON JR. PANTHERS (89)
+  - Replaced by `DOUG JOHNSON :: TIGERTOWN TANGLERS`
+- JAKE MACKEY :: CHAMPAIGN CHARGER KIDS WRESTLING (101)
+  - Replaced by `ADAM WILSON :: OAKWOOD WRESTLING CLUB`
+- ADAN CINTRON :: SANDWICH WC (147) -- Scratched
+- PAUL MAZUREK :: MAINE EAGLES WRESTLING YOUTH PROGRAM (147)
+  - Replaced by `VITO DERISI :: FRANKLIN PARK RAIDERS`
+- HARVY MARQUEZ :: LAKE VIEW JR. WILDCATS (166) -- Scratched
+- ALEX WAHL :: BULLDOG WC (215) -- Scratched
+
+and 1 Novice competitor that was listed on the wrong team in the program, but
+the correct team in the HTML:
+
+- ERIC HUEBNER ::BETHALTO / JR. HIGH (122)
+  - Listed as `EFFINGHAM WC` in the program
+
+and 4 Senior competitors listed that do not show up in brackets:
+
+- STEVEN MANIS :: MURPHYSBORO WRESTLING (138) -- Scratched
+- MICHAEL BZDYK :: OAK LAWN P.D. WILDCATS (166) -- Scratched
+- LUKE RYPKEMA :: ROCKFORD WRESTLING CLUB (166) -- Scratched
+- ERICH UMGELDER :: TINLEY PARK BULLDOGS (275) -- Scratched
+
+and 1 Senior competitor that was added to a bracket that was not full:
+
+- D.J. MERCER :: EDWARDSVILLE WRESTLING CLUB (79)
+"""
+
 import functools
 import pathlib
 
@@ -115,6 +147,45 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "SOUTHERN ILLINOIS EAGLES": 17.0,
     "WESTVILLE YOUTH WRESTLING CLUB": 17.0,
 }
+_NAME_FIXES: dict[str, str] = {
+    "A KINDELSPER": "ARON KINDELSPERGER",
+    "ADAM MESTEMACHE": "ADAM MESTEMACHER",
+    "ANGEL CRUZ": "ANGEL (AJ) CRUZ",
+    "ANTHONY MISERENDIN": "ANTHONY MISERENDINO",
+    "ARON KINDELSPER": "ARON KINDELSPERGER",
+    "ARRON BENSCHNEID": "ARRON BENSCHNEIDER",
+    "B CHAMBERLAI": "BEN CHAMBERLAIN",
+    "BEN CHAMBERLAI": "BEN CHAMBERLAIN",
+    "BRANDON OPPENHEIME": "BRANDON OPPENHEIMER",
+    "BRETT WOLNIAKOWS": "BRETT WOLNIAKOWSKI",
+    "C JOHANNINGM": "CHAD JOHANNINGMEIER",
+    "C WEISSGERBE": "CHRIS WEISSGERBER",
+    "CHAD JOHANNINGM": "CHAD JOHANNINGMEIER",
+    "CHRIS MOHS": "CHRISTOPHER MOHS",
+    "CHRIS RZAB": "CHRISTOPHER RZAB",
+    "CHRIS SMITH": "CHRISTOPHER SMITH",
+    "CHRIS WEISSGERBE": "CHRIS WEISSGERBER",
+    "CHRISTOPHE SEIFRIED": "CHRISTOPHER SEIFRIED",
+    "DALLAS MONREAL": "DALLAS MONREAL-BERNER",
+    "DANIEL DEFRANCISC": "DANIEL DEFRANCISCO",
+    "EVAN WILSON": "EVAN KRUGER-WILSON",
+    "J ASCHENBREN": "JAMES ASCHENBRENNER",
+    "JAKE SCHLICHTIN": "JAKE SCHLICHTING",
+    "JAMES ASCHENBREN": "JAMES ASCHENBRENNER",
+    "JOHN SKRZYMOWSK": "JOHN SKRZYMOWSKI",
+    "JON CRETTOL": "JONATHAN CRETTOL",
+    "L WINTERHALT": "LUCAS WINTERHALTER",
+    "LUCAS WINTERHALT": "LUCAS WINTERHALTER",
+    "M LUKASZEWSK": "MARK LUKASZEWSKI",
+    "MARK LUKASZEWSK": "MARK LUKASZEWSKI",
+    "P GADIENT": "PATRICK GADIENT-YOUNG",
+    "PATRICK GADIENT": "PATRICK GADIENT-YOUNG",
+    "R VANHERIK": "ROB VAN HERIK",
+    "ROB VANHERIK": "ROB VAN HERIK",
+    "RYAN CHRISTOPHE": "RYAN CHRISTOPHERSEN",
+    "T HOSICK": "TAYLOR HOSIEK",
+    "TAYLOR HOSICK": "TAYLOR HOSIEK",
+}
 EMPTY_SLOT = "                          "
 CHAMPIONSHIP_FIXES: tuple[tuple[str, str], ...] = (
     ("JON ISACSON-VL\n", "JON ISACSON-VLC\n"),
@@ -139,7 +210,23 @@ CONSOLATION_FIXES: tuple[tuple[str, str], ...] = (
     ("S DINTELMAN-BL\n", "S DINTELMAN-BLD\n"),
     ("JESUS ORDAZ-CL\n", "JESUS ORDAZ-CLW\n"),
 )
-NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {}
+_NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
+    (
+        "ANGEL (AJ) CRUZ",
+        "MAINE EAGLES WRESTLING YOUTH PROGRAM",
+    ): bracket_utils.Competitor(
+        full_name="ANGEL (AJ) CRUZ",
+        first_name="ANGEL",
+        last_name="CRUZ",
+        team_full="MAINE EAGLES WRESTLING YOUTH PROGRAM",
+    ),
+    ("ROB VAN HERIK", "BATAVIA PINNERS"): bracket_utils.Competitor(
+        full_name="ROB VAN HERIK",
+        first_name="ROB",
+        last_name="VAN HERIK",
+        team_full="BATAVIA PINNERS",
+    ),
+}
 TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "AOK": "A-O KIDS WRESTLING",
     "BAD": "BADGER WRESTLING CLUB",
@@ -290,13 +377,18 @@ SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
 }
 
 
-def _get_team_full(acronym: str, division: bracket_utils.Division) -> str:
+def _get_team_full(name: str, acronym: str, division: bracket_utils.Division) -> str:
     if division == "senior":
         division_mapping = SENIOR_TEAM_ACRONYM_MAPPING
     elif division == "novice":
         division_mapping = NOVICE_TEAM_ACRONYM_MAPPING
     else:
         raise NotImplementedError(division)
+
+    # NOTE: The below are based on cross-referencing the HTML (from PES Sports
+    #       via the Wayback Machine) against the physical program from 2000.
+    if division == "novice" and name == "AARON NAGEL" and acronym == "LB":
+        return "VITTUM CATS"
 
     if acronym in division_mapping:
         return division_mapping[acronym]
@@ -323,8 +415,9 @@ def parse_competitor_full(
     if name == "":
         raise ValueError("Invariant violation", name, cleaned, value)
 
+    name = _NAME_FIXES.get(name, name)
     return bracket_utils.CompetitorRaw(
-        name=name, team_full=_get_team_full(team, division)
+        name=name, team_full=_get_team_full(name, team, division)
     )
 
 
@@ -814,7 +907,7 @@ def extract_bracket(
         # NOTE: This **MUST** happen after `set_winner()` and `set_result()`
         bracket_utils.set_top_competitor(match)
 
-    return bracket_utils.clean_raw_matches(matches, NAME_EXCEPTIONS)
+    return bracket_utils.clean_raw_matches(matches, _NAME_EXCEPTIONS)
 
 
 def main():
