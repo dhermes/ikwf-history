@@ -1,5 +1,29 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
+"""
+Note, there were 4 Novice competitors listed that do not show up in brackets:
+
+- JOHN PAUL MONREAL-BERNER :: TEAM WEST WOLVES (122)
+  - Replaced by `ROBERT MALIK :: SCHAUMBURG JR. SAXONS`
+- NATE JARMAN :: HILLSBORO JR TOPPERS (130)
+  - Replaced by `CURTIS LEGG :: JR. MAROON WC`
+- JUAN SANCHEZ :: JUNIOR PIRATE WC (130) -- Scratched
+- PETER KOWALCZUK JR. :: OPRF LITTLE HUSKIE WC (215) -- Scratched
+
+and 4 Senior competitor listed that do not show up in brackets:
+
+- ANDREW ORTMAN :: ARLINGTON CARDINALS (89) -- Scratched
+- JOSHUA HAWTHORNE :: FALCON YOUTH WC (166)
+  - Replaced by `JOSHUA VAN BEHREN :: UNITY WC`
+- ALEX GRIFFIN :: MT. ZION WC (166)
+  - Typo, actually `ALEXANDER GRIFFIN :: HARVEY TWISTERS`
+- RAYMOND DONOVAN :: BADGER WC (275) -- Scratched
+
+and 1 Senior competitor that was added to a bracket that was not full:
+
+- ANDREW MOTT :: BATAVIA PINNERS (74)
+"""
+
 import functools
 import pathlib
 
@@ -552,7 +576,7 @@ NOVICE_TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "JRM": "JR. MAROON WC",
     "KNI": "KNIGHTS WRESTLING",
     "LAE": "LAKELAND PREDATORS",
-    "LIL": "LITTLE REDBIRD WC",
+    "LIL": "LIL' ROUGHNECKS",
     "MAC": "MACOMB LITTLE BOMBERS",
     "MAI": "MAINE EAGLES WC",
     "PLT": "PLT PROPHETS WC",
@@ -589,7 +613,7 @@ SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "JUP": "JUNIOR PIRATE WC",
     "LAR": "LARKIN JR. ROYALS WC",
     "LIO": "LIONS WC",
-    "LIR": "LIL' ROUGHNECKS",
+    "LIR": "LITTLE REDBIRD WC",
     "MET": "METAMORA KIDS WC",
     "NOR": "NORTHSHORE GATORS",
     "NOT": "NOTRE DAME",
