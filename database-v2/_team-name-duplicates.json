@@ -985,12 +985,12 @@
       {
         "tournament_id": 32,
         "division": "novice",
-        "name": "ARGENTA/OREANA KIDS CLUB"
+        "name": "ARGENTA / OREANA KIDS CLUB"
       },
       {
         "tournament_id": 32,
         "division": "senior",
-        "name": "ARGENTA/OREANA KIDS CLUB"
+        "name": "ARGENTA / OREANA KIDS CLUB"
       },
       {
         "tournament_id": 33,
@@ -54802,152 +54802,60 @@
     ]
   },
   {
-    "name_normalized": "Roxana Kids WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "ROXANA KIDS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "ROXANA KIDS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "ROXANA KIDS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "ROXANA KIDS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "ROXANA KIDS WC"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "ROXANA KIDS WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "ROXANA KIDS WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "ROXANA KIDS WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Roxana Kids WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Roxana Kids WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "ROXANA KIDS WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "ROXANA KIDS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "ROXANA KIDS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "ROXANA KIDS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "ROXANA KIDS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "ROXANA KIDS WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Roxana Kids WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Roxana Kids WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Roxana Kids WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Roxana Kids WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Roxana Kids WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Roxana Kids WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Roxana Kids Wresting Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "ROXANA KIDS WRESTING CLUB"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "ROXANA KIDS WRESTING CLUB"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "ROXANA KIDS WRESTING CLUB"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "ROXANA KIDS WRESTING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "Roxana Kids Wrestling Club",
     "url_path_slug": null,
     "duplicates": [
       {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "ROXANA KIDS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "ROXANA KIDS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "ROXANA KIDS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "ROXANA KIDS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "ROXANA KIDS WC"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "ROXANA KIDS WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "ROXANA KIDS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "ROXANA KIDS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "ROXANA KIDS WRESTING CLUB"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "ROXANA KIDS WRESTING CLUB"
+      },
+      {
         "tournament_id": 34,
         "division": "novice",
         "name": "ROXANA KIDS WRESTLING CLUB"
@@ -54956,6 +54864,176 @@
         "tournament_id": 34,
         "division": "senior",
         "name": "ROXANA KIDS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "ROXANA KIDS WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "ROXANA KIDS WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Roxana Kids WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Roxana Kids WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "ROXANA KIDS WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "ROXANA KIDS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "ROXANA KIDS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "ROXANA KIDS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "ROXANA KIDS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "ROXANA KIDS WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Roxana Kids WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Roxana Kids WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Roxana Kids WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Roxana Kids WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Roxana Kids WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Roxana Kids WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Roxana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Roxana WC"
       }
     ]
   },
@@ -55024,102 +55102,6 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Roxana Vikings"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Roxana WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Roxana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Roxana WC"
       }
     ]
   },
@@ -60474,34 +60456,18 @@
     ]
   },
   {
-    "name_normalized": "T-Bird Raider Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "T-BIRD RAIDER WRESTLING"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "T-BIRD RAIDER WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "T-Bird/Raider Wrestling",
+    "name_normalized": "T-Bird / Raider Wrestling",
     "url_path_slug": null,
     "duplicates": [
       {
         "tournament_id": 32,
         "division": "novice",
-        "name": "T-BIRD/RAIDER WRESTLING"
+        "name": "T-BIRD / RAIDER WRESTLING"
       },
       {
         "tournament_id": 32,
         "division": "senior",
-        "name": "T-BIRD/RAIDER WRESTLING"
+        "name": "T-BIRD / RAIDER WRESTLING"
       },
       {
         "tournament_id": 33,
@@ -60512,6 +60478,16 @@
         "tournament_id": 33,
         "division": "senior",
         "name": "T-BIRD/RAIDER WRESTLING"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "T-BIRD RAIDER WRESTLING"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "T-BIRD RAIDER WRESTLING"
       }
     ]
   },
