@@ -1,5 +1,26 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
+"""
+Note, there were 2 Novice competitors listed that do not show up in brackets:
+
+- PETER KRAHULEC :: FALCON WC (74)
+  - Replaced by `JOHN COOK :: JR. GOLDEN EAGLES`
+- RAYMOND BUELL :: MANTENO JR PANTHERS (115)
+  - Replaced by `CLARENCE SHOOT :: PANTHER WC`
+
+and 3 Senior competitors listed that do not show up in brackets:
+
+- JOSHUA JOHNSON :: WEST FRANKFORT JR. WC (74) -- Scratched
+- WILLIE EDMOND :: FORD HEIGHTS FALCONS (156)
+  - Replaced by `MICHAEL MATOZZI, JR. :: OSWEGO PANTHERS`
+- LES BATES :: LIONS WC (166)
+  - Replaced by `JUAN CERVANTES :: LITTLE VIKINGS OF H-F`
+
+and 1 Senior competitor that was added to a bracket that was not full:
+
+- JACOB SCHUETTE :: HIGHLAND BULLDOG JR WC (275)
+"""
+
 import functools
 import pathlib
 
@@ -17,7 +38,7 @@ _NOVICE_TEAM_SCORES: dict[str, float] = {
     "ARLINGTON CARDINALS": 69.0,
     "CRYSTAL LAKE WIZARDS": 59.0,
     "TINLEY PARK BULLDOGS": 58.0,
-    "HARVEY TWISTERS": 53.0,
+    "HARVEY PARK DISTRICT TWISTERS": 53.0,
     "BELVIDERE BANDITS": 49.0,
     "LINCOLN-WAY WC": 48.0,
     "LEMONT BEARS WC": 47.5,
@@ -53,13 +74,13 @@ _NOVICE_TEAM_SCORES: dict[str, float] = {
     "BRAWLERS WC": 23.0,
     "VANDALIA JR WRESTLING": 22.5,
     "JOLIET BOYS CLUB COBRAS": 22.0,
-    "ARGENTA/OREANA KIDS CLUB": 20.0,
+    "ARGENTA / OREANA KIDS CLUB": 20.0,
     "MATTOON YOUTH WC": 20.0,
     "OAK LAWN P.D. WILDCATS": 20.0,
     "CHENOA MAT CATS": 19.0,
     "DAKOTA WC": 19.0,
     "GRANITE CITY JR WARRIORS": 19.0,
-    "SJO YOUTH WC": 18.5,
+    "SJO YOUTH WRESTLING": 18.5,
     "MAINE EAGLES WC": 18.0,
     "CUMBERLAND YOUTH WC": 17.0,
     "MT. ZION WC": 17.0,
@@ -70,7 +91,7 @@ _NOVICE_TEAM_SCORES: dict[str, float] = {
     "MIDWEST CENTRAL YOUTH": 15.0,
     "WHEATON TIGER WC": 15.0,
     "FISHER WC": 14.0,
-    "RIVERDALE JR. HIGH": 14.0,
+    "RIVERDALE JR. HIGH WC": 14.0,
     "TOMCAT WC": 14.0,
     "PANTHER CUB WC": 12.5,
     "WESTVILLE YOUTH WC": 12.0,
@@ -78,19 +99,19 @@ _NOVICE_TEAM_SCORES: dict[str, float] = {
     "HOOPESTON AREA WC": 11.0,
     "SAUKEE YOUTH WC": 11.0,
     "WHEATON FRANKLIN WC": 11.0,
-    "ROXANA KIDS WRESTING CLUB": 10.0,
+    "ROXANA KIDS WRESTLING CLUB": 10.0,
     "BENTON JR. WC": 9.0,
     "JUNIOR PIRATE WC": 9.0,
     "UNITED TOWNSHIP WC": 9.0,
     "HONONEGAH KIDS WC": 8.5,
-    "SHELBYVILLE JR. RAMS WC": 8.0,
+    "SHELBYVILLE JUNIOR RAMS WC": 8.0,
     "DEKALB WC": 7.0,
     "FALCON WC": 7.0,
     "MORTON LITTLE MUSTANGS": 7.0,
-    "T-BIRD/RAIDER WRESTLING": 7.0,
+    "T-BIRD / RAIDER WRESTLING": 7.0,
     "YORKVILLE WC": 7.0,
     "CHAMPAIGN KIDS WRESTLING": 6.0,
-    "LITTLE VIKINGS OF H-F": 6.0,
+    "LITTLE VIKING WC OF H-F": 6.0,
     "OSWEGO PANTHERS": 6.0,
     "FENWICK FALCONS WC": 4.5,
     "GEORGETOWN YOUTH WC": 4.0,
@@ -106,7 +127,7 @@ _NOVICE_TEAM_SCORES: dict[str, float] = {
     "TRIAD KNIGHTS": 2.0,
     "WOLFPAK WC": 2.0,
     "WARRENSBURG WC": 1.0,
-    "ROCK ISLAND JR. ROCKS": 0.5,
+    "ROCK ISLAND WC": 0.5,
     "ALEDO BEAR COUNTRY WC": 0.0,
     "BLOOMINGTON RAIDER WC": 0.0,
     "CARBONDALE WC": 0.0,
@@ -120,14 +141,14 @@ _NOVICE_TEAM_SCORES: dict[str, float] = {
     "JR. SAXONS WC": 0.0,
     "LAWRENCE COUNTY WC": 0.0,
     "LIL' ROUGHNECKS": 0.0,
-    "LITTLE INDIANS WC": 0.0,
-    "LITTLE PANTHERS WC": 0.0,
+    "LITTLE INDIANS": 0.0,
+    "LITTLE PANTHERS": 0.0,
     "MACOMB LITTLE BOMBERS": 0.0,
     "MANTENO JR PANTHERS": 0.0,
     "MARENGO WC": 0.0,
     "MENDOTA MAT MASTERS": 0.0,
     "METAMORA KIDS WC": 0.0,
-    "MORTON YOUTH WC": 0.0,
+    "MORTON YOUTH WRESTLING": 0.0,
     "NAPERVILLE WC": 0.0,
     "OAKWOOD WC": 0.0,
     "SAVANNA REDHAWKS": 0.0,
@@ -135,12 +156,12 @@ _NOVICE_TEAM_SCORES: dict[str, float] = {
     "ST. TARCISSUS": 0.0,
     "TAYLORVILLE WC": 0.0,
     "WILMINGTON WC": 0.0,
-    "LIMESTONE YOUTH WC": -1.0,
+    "LIMESTONE YOUTH ROCKET WC": -1.0,
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
     "MARTINEZ FOX VALLEY ELITE WC": 300.5,
     "VITTUM CATS": 183.5,
-    "HARVEY TWISTERS": 160.0,
+    "HARVEY PARK DISTRICT TWISTERS": 160.0,
     "LITTLE CELTIC WC": 113.0,
     "WRESTLING FACTORY": 113.0,
     "ORLAND PARK PIONEERS": 88.0,
@@ -163,15 +184,15 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "PANTHER WC": 37.0,
     "CRYSTAL LAKE WIZARDS": 36.0,
     "JOLIET BOYS CLUB COBRAS": 36.0,
-    "SJO YOUTH WC": 36.0,
+    "SJO YOUTH WRESTLING": 36.0,
     "BELLEVILLE LITTLE DEVILS": 33.0,
     "UNITED TOWNSHIP WC": 33.0,
-    "ARGENTA/OREANA KIDS CLUB": 31.5,
+    "ARGENTA / OREANA KIDS CLUB": 31.5,
     "CHAMPAIGN KIDS WRESTLING": 31.5,
     "MURPHYSBORO WRESTLING": 31.5,
     "BISMARCK-HENNING WC": 30.0,
     "CUMBERLAND YOUTH WC": 30.0,
-    "ROXANA KIDS WRESTING CLUB": 30.0,
+    "ROXANA KIDS WRESTLING CLUB": 30.0,
     "CHICAGO BULLDOG WC": 29.5,
     "GLENBARD EAST JR RAMS": 28.0,
     "VANDALIA JR WRESTLING": 28.0,
@@ -190,11 +211,11 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "ST. CHARLES WC": 19.0,
     "DIXON WC": 18.0,
     "DUNDEE HIGHLANDERS": 18.0,
-    "LITTLE VIKINGS OF H-F": 18.0,
+    "LITTLE VIKING WC OF H-F": 18.0,
     "WHEATON MONROE EAGLES": 18.0,
     "ARLINGTON CARDINALS": 17.5,
-    "NOTRE DAME WC": 17.0,
-    "T-BIRD/RAIDER WRESTLING": 17.0,
+    "NOTRE DAME WRESTLING": 17.0,
+    "T-BIRD / RAIDER WRESTLING": 17.0,
     "MATTOON YOUTH WC": 16.0,
     "MIDWEST CENTRAL YOUTH": 15.0,
     "PANTHER CUB WC": 15.0,
@@ -204,7 +225,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "SOUTHERN ILLINOIS EAGLES": 12.0,
     "ALLEMAN JR. PIONEER WC": 11.0,
     "HERRIN WC": 11.0,
-    "JR. ROCKET WC": 11.0,
+    "JR. ROCKET WRESTLING": 11.0,
     "YORKVILLE WC": 11.0,
     "CARY JR. TROJAN MATMEN": 10.0,
     "TAKEDOWN WC": 10.0,
@@ -215,7 +236,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "LITTLE REDBIRD WC": 8.0,
     "UNITY WC": 8.0,
     "WOLFPAK WC": 8.0,
-    "LOCKPORT GATORS": 7.0,
+    "LOCKPORT GATORS WC": 7.0,
     "MOLINE WC": 7.0,
     "OSWEGO PANTHERS": 6.0,
     "MAINE EAGLES WC": 5.0,
@@ -224,7 +245,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "JACKSONVILLE WC": 4.0,
     "LANCER WC": 4.0,
     "MANTENO JR PANTHERS": 4.0,
-    "RIVERDALE JR. HIGH": 4.0,
+    "RIVERDALE JR. HIGH WC": 4.0,
     "WHEATON FRANKLIN WC": 4.0,
     "CARBONDALE WC": 3.5,
     "RAMS WC": 3.5,
@@ -243,7 +264,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "STILLMAN VALLEY WC": 2.0,
     "SYCAMORE WC": 2.0,
     "HONONEGAH KIDS WC": 1.5,
-    "PALATINE PANTHERS": 1.0,
+    "PALATINE PANTHERS WC": 1.0,
     "BADGER WC": 0.0,
     "BARRINGTON BRONCOS": 0.0,
     "BARTLETT HAWK WC": 0.0,
@@ -258,7 +279,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "GENEVA WC": 0.0,
     "HOFFMAN ESTATES WC": 0.0,
     "JR. SAXONS WC": 0.0,
-    "JR. SENTINELS WC": 0.0,
+    "JR. SENTINELS": 0.0,
     "LIL' STORM YOUTH WRESTLING": 0.0,
     "LINCOLN-WAY WC": 0.0,
     "LITTLE BOILER WC": 0.0,
@@ -267,7 +288,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "OAK FOREST WARRIORS": 0.0,
     "OAK LAWN P.D. WILDCATS": 0.0,
     "QUINCY WC": 0.0,
-    "RICH RATTLERS": 0.0,
+    "RICH RATTLERS WC": 0.0,
     "ROCHELLE WC": 0.0,
     "TIGER WC": 0.0,
     "TREVIAN WC": 0.0,
@@ -276,11 +297,14 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "WEST FRANKFORT JR. WC": 0.0,
     "ZEE-BEE STINGERS": 0.0,
     "FOX VALLEY WC": -1.0,
-    "LIMESTONE YOUTH WC": -1.0,
+    "LIMESTONE YOUTH ROCKET WC": -1.0,
     "RIVERBEND WC": -1.0,
     "WARRENSBURG WC": -1.0,
     "FENWICK FALCONS WC": -3.0,
     "ROCK ISLAND WC": -3.0,
+}
+_NAME_FIXES: dict[str, str] = {
+    "CHRIS HIGGERSON": "CHRISTOPHER HIGGERSON",
 }
 EMPTY_SLOT = "                               "
 NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
@@ -290,11 +314,11 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         last_name="RICH",
         team_full="L-P CRUNCHING CAVS",
     ),
-    ("BJ FUTRELL II", "HARVEY TWISTERS"): bracket_utils.Competitor(
+    ("BJ FUTRELL II", "HARVEY PARK DISTRICT TWISTERS"): bracket_utils.Competitor(
         full_name="BJ FUTRELL II",
         first_name="BJ",
         last_name="FUTRELL",
-        team_full="HARVEY TWISTERS",
+        team_full="HARVEY PARK DISTRICT TWISTERS",
     ),
     ("CARL FORESIDE, JR.", "GLADIATORS"): bracket_utils.Competitor(
         full_name="CARL FORESIDE, JR.",
@@ -305,13 +329,13 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("CASEY MC MURRAY", "LIONS WC"): bracket_utils.Competitor(
         full_name="CASEY MC MURRAY",
         first_name="CASEY",
-        last_name="MC MURRAY",
+        last_name="MCMURRAY",
         team_full="LIONS WC",
     ),
     ("DWIGHT MC CALL", "ROCK ISLAND WC"): bracket_utils.Competitor(
         full_name="DWIGHT MC CALL",
         first_name="DWIGHT",
-        last_name="MC CALL",
+        last_name="MCCALL",
         team_full="ROCK ISLAND WC",
     ),
     ("GINO DE FRANCISCO", "HOFFMAN ESTATES WC"): bracket_utils.Competitor(
@@ -332,11 +356,11 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         last_name="VAN BEHREN",
         team_full="UNITY WC",
     ),
-    ("MARCUS MC CALL", "ROCK ISLAND JR. ROCKS"): bracket_utils.Competitor(
+    ("MARCUS MC CALL", "ROCK ISLAND WC"): bracket_utils.Competitor(
         full_name="MARCUS MC CALL",
         first_name="MARCUS",
-        last_name="MC CALL",
-        team_full="ROCK ISLAND JR. ROCKS",
+        last_name="MCCALL",
+        team_full="ROCK ISLAND WC",
     ),
     ("MICHAEL MATOZZI, JR.", "OSWEGO PANTHERS"): bracket_utils.Competitor(
         full_name="MICHAEL MATOZZI, JR.",
@@ -350,11 +374,11 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         last_name="WILSON",
         team_full="FORD HEIGHTS FALCONS",
     ),
-    ("ROBERT PROVAX III", "NOTRE DAME WC"): bracket_utils.Competitor(
+    ("ROBERT PROVAX III", "NOTRE DAME WRESTLING"): bracket_utils.Competitor(
         full_name="ROBERT PROVAX III",
         first_name="ROBERT",
         last_name="PROVAX",
-        team_full="NOTRE DAME WC",
+        team_full="NOTRE DAME WRESTLING",
     ),
     ("RONALD REEVES JR", "TRIAD KNIGHTS"): bracket_utils.Competitor(
         full_name="RONALD REEVES JR",
@@ -364,7 +388,7 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ),
     ("T. J. WARNER", "HOOPESTON AREA WC"): bracket_utils.Competitor(
         full_name="T. J. WARNER",
-        first_name="T. J.",
+        first_name="T.J.",
         last_name="WARNER",
         team_full="HOOPESTON AREA WC",
     ),
@@ -372,7 +396,7 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
 TEAM_SCORE_EXCEPTIONS: dict[tuple[bracket_utils.Division, str], float] = {}
 TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "ALE": "ALEDO BEAR COUNTRY WC",
-    "ARG": "ARGENTA/OREANA KIDS CLUB",
+    "ARG": "ARGENTA / OREANA KIDS CLUB",
     "ARL": "ARLINGTON CARDINALS",
     "BAD": "BADGER WC",
     "BAT": "BATAVIA PINNERS",
@@ -404,7 +428,7 @@ TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "GLN": "GLENBARD EAST JR RAMS",
     "GRA": "GRANITE CITY JR WARRIORS",
     "GRP": "GRAPPLIN' DEVILS WC",
-    "HAE": "HARVEY TWISTERS",
+    "HAE": "HARVEY PARK DISTRICT TWISTERS",
     "HAR": "HARLEM COUGARS",
     "HIG": "HIGHLAND BULLDOG JR WC",
     "HIN": "HINSDALE RED DEVIL WC",
@@ -419,7 +443,7 @@ TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "LAW": "LAWRENCE COUNTY WC",
     "LEM": "LEMONT BEARS WC",
     "LIC": "LITTLE CELTIC WC",
-    "LIV": "LITTLE VIKINGS OF H-F",
+    "LIV": "LITTLE VIKING WC OF H-F",
     "LPC": "L-P CRUNCHING CAVS",
     "MAF": "MARTINEZ FOX VALLEY ELITE WC",
     "MAI": "MAINE EAGLES WC",
@@ -443,17 +467,17 @@ TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "PLA": "PLAINFIELD WC",
     "POL": "POLO WC",
     "RIV": "RIVERBEND WC",
-    "RJH": "RIVERDALE JR. HIGH",
+    "RJH": "RIVERDALE JR. HIGH WC",
     "ROX": "ROXANA KIDS WRESTLING CLUB",
     "SAU": "SAUKEE YOUTH WC",
     "SAV": "SAVANNA REDHAWKS",
-    "SJO": "SJO YOUTH WC",
+    "SJO": "SJO YOUTH WRESTLING",
     "SOU": "SOUTHERN ILLINOIS EAGLES",
     "SPR": "SPRINGFIELD CAPITALS",
     "STC": "ST. CHARLES WC",
     "STI": "STILLMAN VALLEY WC",
     "SYC": "SYCAMORE WC",
-    "TBI": "T-BIRD/RAIDER WRESTLING",
+    "TBI": "T-BIRD / RAIDER WRESTLING",
     "TIG": "TIGER WC",
     "TIN": "TINLEY PARK BULLDOGS",
     "TRI": "TRIAD KNIGHTS",
@@ -485,16 +509,16 @@ NOVICE_TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "HIL": "HILLSBORO JR TOPPERS",
     "JUP": "JUNIOR PIRATE WC",
     "LAE": "LAKELAND PREDATORS",
-    "LII": "LITTLE INDIANS WC",
+    "LII": "LITTLE INDIANS",
     "LIL": "LIL' ROUGHNECKS",
     "LIN": "LINCOLN-WAY WC",
-    "LIP": "LITTLE PANTHERS WC",
+    "LIP": "LITTLE PANTHERS",
     "MAC": "MACOMB LITTLE BOMBERS",
     "MTZ": "MT. ZION WC",
     "ROF": "ROCKFORD WC",
-    "ROK": "ROCK ISLAND JR. ROCKS",
+    "ROK": "ROCK ISLAND WC",
     "SHA": "SHAMROCK WC",
-    "SHE": "SHELBYVILLE JR. RAMS WC",
+    "SHE": "SHELBYVILLE JUNIOR RAMS WC",
     "SIL": "SILVER & BLACK ATTACK",
     "STT": "ST. TARCISSUS",
     "TAY": "TAYLORVILLE WC",
@@ -518,22 +542,22 @@ SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
     "GEN": "GENEVA WC",
     "HER": "HERRIN WC",
     "JAC": "JACKSONVILLE WC",
-    "JRR": "JR. ROCKET WC",
-    "JRS": "JR. SENTINELS WC",
+    "JRR": "JR. ROCKET WRESTLING",
+    "JRS": "JR. SENTINELS",
     "LAN": "LANCER WC",
     "LIB": "LITTLE BOILER WC",
-    "LIM": "LIMESTONE YOUTH WC",
+    "LIM": "LIMESTONE YOUTH ROCKET WC",
     "LIO": "LIONS WC",
     "LIR": "LITTLE REDBIRD WC",
-    "LOC": "LOCKPORT GATORS",
-    "NOT": "NOTRE DAME WC",
+    "LOC": "LOCKPORT GATORS WC",
+    "NOT": "NOTRE DAME WRESTLING",
     "OAK": "OAK FOREST WARRIORS",
-    "PAL": "PALATINE PANTHERS",
+    "PAL": "PALATINE PANTHERS WC",
     "PON": "PONTIAC PYTHONS",
     "QUI": "QUINCY WC",
     "RAI": "RAIDER WC",
     "RAM": "RAMS WC",
-    "RIC": "RICH RATTLERS",
+    "RIC": "RICH RATTLERS WC",
     "ROC": "ROCHELLE WC",
     "ROK": "ROCK ISLAND WC",
     "SCN": "SCN YOUTH WC",
@@ -547,13 +571,21 @@ SENIOR_TEAM_ACRONYM_MAPPING: dict[str, str] = {
 }
 
 
-def _get_team_full(acronym: str, division: bracket_utils.Division) -> str:
+def _get_team_full(name: str, acronym: str, division: bracket_utils.Division) -> str:
     if division == "senior":
         division_mapping = SENIOR_TEAM_ACRONYM_MAPPING
     elif division == "novice":
         division_mapping = NOVICE_TEAM_ACRONYM_MAPPING
     else:
         raise NotImplementedError(division)
+
+    # NOTE: The below are based on cross-referencing the HTML (from PES Sports
+    #       via the Wayback Machine) against the physical program from 2003.
+    if division == "novice" and name == "ERIC MEYER" and acronym == "MOT":
+        return "MORTON YOUTH WRESTLING"
+
+    if division == "senior" and name == "GARRETT BUELL" and acronym == "CHA":
+        return "CHARLESTON WC"
 
     if acronym in division_mapping:
         return division_mapping[acronym]
@@ -580,8 +612,9 @@ def parse_competitor_full(
     if name == "":
         raise ValueError("Invariant violation", name, cleaned, value)
 
+    name = _NAME_FIXES.get(name, name)
     return bracket_utils.CompetitorRaw(
-        name=name, team_full=_get_team_full(team, division)
+        name=name, team_full=_get_team_full(name, team, division)
     )
 
 

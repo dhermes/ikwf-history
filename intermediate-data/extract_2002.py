@@ -10,7 +10,7 @@ Note, there were 4 Novice competitors listed that do not show up in brackets:
 - JUAN SANCHEZ :: JUNIOR PIRATE WC (130) -- Scratched
 - PETER KOWALCZUK JR. :: OPRF LITTLE HUSKIE WC (215) -- Scratched
 
-and 4 Senior competitor listed that do not show up in brackets:
+and 4 Senior competitors listed that do not show up in brackets:
 
 - ANDREW ORTMAN :: ARLINGTON CARDINALS (89) -- Scratched
 - JOSHUA HAWTHORNE :: FALCON YOUTH WC (166)
@@ -438,7 +438,7 @@ NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("MARCUS MC CALL", "ROCK ISLAND JR. ROCKS"): bracket_utils.Competitor(
         full_name="MARCUS MC CALL",
         first_name="MARCUS",
-        last_name="MC CALL",
+        last_name="MCCALL",
         team_full="ROCK ISLAND JR. ROCKS",
     ),
     ("NATHAN ST. CLAIR", "HINSDALE RED DEVIL WC"): bracket_utils.Competitor(
