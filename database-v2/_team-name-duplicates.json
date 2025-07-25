@@ -995,12 +995,12 @@
       {
         "tournament_id": 33,
         "division": "novice",
-        "name": "ARGENTA/OREANA KIDS CLUB"
+        "name": "ARGENTA / OREANA KIDS CLUB"
       },
       {
         "tournament_id": 33,
         "division": "senior",
-        "name": "ARGENTA/OREANA KIDS CLUB"
+        "name": "ARGENTA / OREANA KIDS CLUB"
       },
       {
         "tournament_id": 34,
@@ -8946,12 +8946,12 @@
       {
         "tournament_id": 33,
         "division": "novice",
-        "name": "HARVEY TWISTERS"
+        "name": "HARVEY PARK DISTRICT TWISTERS"
       },
       {
         "tournament_id": 33,
         "division": "senior",
-        "name": "HARVEY TWISTERS"
+        "name": "HARVEY PARK DISTRICT TWISTERS"
       },
       {
         "tournament_id": 34,
@@ -9543,7 +9543,7 @@
       {
         "tournament_id": 33,
         "division": "senior",
-        "name": "RICH RATTLERS"
+        "name": "RICH RATTLERS WC"
       },
       {
         "tournament_id": 34,
@@ -31736,7 +31736,7 @@
       {
         "tournament_id": 33,
         "division": "senior",
-        "name": "JR. ROCKET WC"
+        "name": "JR. ROCKET WRESTLING"
       }
     ]
   },
@@ -35514,12 +35514,12 @@
       {
         "tournament_id": 33,
         "division": "novice",
-        "name": "LIMESTONE YOUTH WC"
+        "name": "LIMESTONE YOUTH ROCKET WC"
       },
       {
         "tournament_id": 33,
         "division": "senior",
-        "name": "LIMESTONE YOUTH WC"
+        "name": "LIMESTONE YOUTH ROCKET WC"
       },
       {
         "tournament_id": 36,
@@ -37732,12 +37732,12 @@
       {
         "tournament_id": 33,
         "division": "novice",
-        "name": "LITTLE VIKINGS OF H-F"
+        "name": "LITTLE VIKING WC OF H-F"
       },
       {
         "tournament_id": 33,
         "division": "senior",
-        "name": "LITTLE VIKINGS OF H-F"
+        "name": "LITTLE VIKING WC OF H-F"
       }
     ]
   },
@@ -42163,7 +42163,7 @@
       {
         "tournament_id": 33,
         "division": "novice",
-        "name": "MORTON YOUTH WC"
+        "name": "MORTON YOUTH WRESTLING"
       },
       {
         "tournament_id": 34,
@@ -44988,7 +44988,7 @@
       {
         "tournament_id": 33,
         "division": "senior",
-        "name": "NOTRE DAME WC"
+        "name": "NOTRE DAME WRESTLING"
       },
       {
         "tournament_id": 35,
@@ -47942,7 +47942,7 @@
       {
         "tournament_id": 33,
         "division": "senior",
-        "name": "PALATINE PANTHERS"
+        "name": "PALATINE PANTHERS WC"
       },
       {
         "tournament_id": 36,
@@ -52758,12 +52758,12 @@
       {
         "tournament_id": 33,
         "division": "novice",
-        "name": "RIVERDALE JR. HIGH"
+        "name": "RIVERDALE JR. HIGH WC"
       },
       {
         "tournament_id": 33,
         "division": "senior",
-        "name": "RIVERDALE JR. HIGH"
+        "name": "RIVERDALE JR. HIGH WC"
       },
       {
         "tournament_id": 34,
@@ -53528,11 +53528,6 @@
       {
         "tournament_id": 32,
         "division": "senior",
-        "name": "ROCK ISLAND JR. ROCKS"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
         "name": "ROCK ISLAND JR. ROCKS"
       }
     ]
@@ -54848,12 +54843,12 @@
       {
         "tournament_id": 33,
         "division": "novice",
-        "name": "ROXANA KIDS WRESTING CLUB"
+        "name": "ROXANA KIDS WRESTLING CLUB"
       },
       {
         "tournament_id": 33,
         "division": "senior",
-        "name": "ROXANA KIDS WRESTING CLUB"
+        "name": "ROXANA KIDS WRESTLING CLUB"
       },
       {
         "tournament_id": 34,
@@ -56527,7 +56522,7 @@
       {
         "tournament_id": 33,
         "division": "novice",
-        "name": "SHELBYVILLE JR. RAMS WC"
+        "name": "SHELBYVILLE JUNIOR RAMS WC"
       },
       {
         "tournament_id": 35,
@@ -56851,7 +56846,7 @@
     ]
   },
   {
-    "name_normalized": "Sjo Spartan WC",
+    "name_normalized": "SJO Spartan WC",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -56867,7 +56862,7 @@
     ]
   },
   {
-    "name_normalized": "Sjo Spartan Youth WC",
+    "name_normalized": "SJO Spartan Youth WC",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -56943,7 +56938,7 @@
     ]
   },
   {
-    "name_normalized": "Sjo Spartan Ywc",
+    "name_normalized": "SJO Spartan Ywc",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -56989,7 +56984,7 @@
     ]
   },
   {
-    "name_normalized": "Sjo Spartans Youth WC",
+    "name_normalized": "SJO Spartans Youth WC",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -57005,7 +57000,7 @@
     ]
   },
   {
-    "name_normalized": "Sjo Spratan Youth",
+    "name_normalized": "SJO Spratan Youth",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -57021,18 +57016,18 @@
     ]
   },
   {
-    "name_normalized": "Sjo Youth WC",
+    "name_normalized": "SJO Youth WC",
     "url_path_slug": null,
     "duplicates": [
       {
         "tournament_id": 33,
         "division": "novice",
-        "name": "SJO YOUTH WC"
+        "name": "SJO YOUTH WRESTLING"
       },
       {
         "tournament_id": 33,
         "division": "senior",
-        "name": "SJO YOUTH WC"
+        "name": "SJO YOUTH WRESTLING"
       },
       {
         "tournament_id": 42,
@@ -57107,7 +57102,7 @@
     ]
   },
   {
-    "name_normalized": "Sjo Youth Wrestling",
+    "name_normalized": "SJO Youth Wrestling",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -60472,12 +60467,12 @@
       {
         "tournament_id": 33,
         "division": "novice",
-        "name": "T-BIRD/RAIDER WRESTLING"
+        "name": "T-BIRD / RAIDER WRESTLING"
       },
       {
         "tournament_id": 33,
         "division": "senior",
-        "name": "T-BIRD/RAIDER WRESTLING"
+        "name": "T-BIRD / RAIDER WRESTLING"
       },
       {
         "tournament_id": 34,
