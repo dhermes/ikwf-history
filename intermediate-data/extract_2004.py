@@ -170,6 +170,7 @@ _NOVICE_TEAM_SCORES: dict[str, float] = {
     "PALATINE JUNIOR PIRATES": 0.0,
     "PANTHER CUB WC": 0.0,
     "PONTIAC PYTHONS": 0.0,
+    "RAMS WC": 0.0,
     "REED CUSTER KNIGHTS": 0.0,
     "RICHMOND WC": 0.0,
     "RIVERBEND WC": 0.0,
