@@ -711,7 +711,7 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "ALEDO BEAR COUNTRY"
+        "name": "ALEDO BEAR COUNTRY WC"
       },
       {
         "tournament_id": 36,
@@ -752,7 +752,7 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "ALLEMAN JR. PIONEERS"
+        "name": "ALLEMAN JR PIONEER WC"
       },
       {
         "tournament_id": 36,
@@ -995,7 +995,7 @@
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "ARGENTA-OREANA KIDS CLUB"
+        "name": "ARGENTA / OREANA KIDS CLUB"
       },
       {
         "tournament_id": 36,
@@ -1121,12 +1121,12 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "ARLINGTON CARDNALS"
+        "name": "ARLINGTON CARDINALS"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "ARLINGTON CARDNALS"
+        "name": "ARLINGTON CARDINALS"
       },
       {
         "tournament_id": 36,
@@ -3476,7 +3476,7 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "BISMARK-HENNING WC"
+        "name": "BISMARK HENNING WC"
       },
       {
         "tournament_id": 36,
@@ -4249,17 +4249,12 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "PEKIN BOYS AND GIRLS CLUB"
+        "name": "BOYS & GIRLS CLUB OF PEKIN"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "PEKIN BOY AND GIRLS CLUB"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "PEKIN BOYS AND GIRLS CLUB"
+        "name": "BOYS & GIRLS CLUB OF PEKIN"
       },
       {
         "tournament_id": 39,
@@ -4586,12 +4581,12 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "BRAWLERS"
+        "name": "BRAWLERS WC"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "BRAWLERS"
+        "name": "BRAWLERS WC"
       },
       {
         "tournament_id": 36,
@@ -5059,12 +5054,12 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "CALUMET MEMORIAL PD WOLVERINES"
+        "name": "CALUMET MEMORIAL P.D. WOLVERINES"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "CALUMET MEMORIAL PD WOLVERINES"
+        "name": "CALUMET MEMORIAL P.D. WOLVERINES"
       },
       {
         "tournament_id": 36,
@@ -5890,7 +5885,7 @@
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "CENTRAILIA"
+        "name": "CENTRALIA"
       },
       {
         "tournament_id": 40,
@@ -6071,12 +6066,12 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "CHAMPAIGN KIDS WC"
+        "name": "CHAMPAIGN KIDS WRESTLING"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "CHAMPAIGN KIDS WC"
+        "name": "CHAMPAIGN KIDS WRESTLING"
       },
       {
         "tournament_id": 36,
@@ -8638,16 +8633,6 @@
         "name": "HARVARD WC"
       },
       {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "HARVARD WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "HARVARD WC"
-      },
-      {
         "tournament_id": 49,
         "division": "novice",
         "name": "Harvard WC"
@@ -10314,12 +10299,12 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "XTREME WC"
+        "name": "XTREME WRESTLING"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "XTREME WC"
+        "name": "XTREME WRESTLING"
       },
       {
         "tournament_id": 36,
@@ -10930,11 +10915,6 @@
       },
       {
         "tournament_id": 34,
-        "division": "senior",
-        "name": "ZEE-BEE STINGERS"
-      },
-      {
-        "tournament_id": 35,
         "division": "senior",
         "name": "ZEE-BEE STINGERS"
       },
@@ -12086,6 +12066,16 @@
     "url_path_slug": null,
     "duplicates": [
       {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "BADGER WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "BADGER WC"
+      },
+      {
         "tournament_id": 45,
         "division": "novice",
         "name": "Badger Wrestling Club"
@@ -12094,22 +12084,6 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Badger Wrestling Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Badgers WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "BADGERS WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "BADGERS WC"
       }
     ]
   },
@@ -13043,6 +13017,16 @@
         "name": "BLOOMINGTON RAIDER WC"
       },
       {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "BLOOMINGTON RAIDER WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "BLOOMINGTON RAIDER WC"
+      },
+      {
         "tournament_id": 36,
         "division": "novice",
         "name": "BLOOMINGTON RAIDER WC"
@@ -13076,22 +13060,6 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Bloomington Raider WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bloomington Raiders WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "BLOOMINGTON RAIDERS WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "BLOOMINGTON RAIDERS WC"
       }
     ]
   },
@@ -20978,18 +20946,18 @@
     ]
   },
   {
-    "name_normalized": "El Paso/Gridley WC",
+    "name_normalized": "El Paso / Gridley WC",
     "url_path_slug": null,
     "duplicates": [
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "EL PASO/GRIDLEY WC"
+        "name": "EL PASO / GRIDLEY WC"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "EL PASO/GRIDLEY WC"
+        "name": "EL PASO / GRIDLEY WC"
       },
       {
         "tournament_id": 36,
@@ -21375,6 +21343,16 @@
         "name": "ELMHURST JR. DUKES"
       },
       {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
         "tournament_id": 36,
         "division": "novice",
         "name": "ELMHURST JR. DUKES"
@@ -21535,22 +21513,6 @@
         "tournament_id": 49,
         "division": "senior",
         "name": "Elmhurst WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Elmhusrt Jr. Dukes",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "ELMHUSRT JR. DUKES"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "ELMHUSRT JR. DUKES"
       }
     ]
   },
@@ -27725,12 +27687,12 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "HIGHLAND BULLDOGS JR. WC"
+        "name": "HIGHLAND BULLDOG JR WC"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "HIGHLAND BULLDOGS JR. WC"
+        "name": "HIGHLAND BULLDOG JR WC"
       },
       {
         "tournament_id": 36,
@@ -28446,12 +28408,12 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "HINSDALE RED DEVILS"
+        "name": "HINSDALE RED DEVIL WC"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "HINSDALE RED DEVILS"
+        "name": "HINSDALE RED DEVIL WC"
       },
       {
         "tournament_id": 36,
@@ -29167,6 +29129,16 @@
         "name": "HOOPESTON AREA WC"
       },
       {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "HOOPESTON AREA WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "HOOPESTON AREA WC"
+      },
+      {
         "tournament_id": 36,
         "division": "novice",
         "name": "HOOPESTON AREA WC"
@@ -29459,23 +29431,7 @@
     ]
   },
   {
-    "name_normalized": "Hoopston Area WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "HOOPSTON AREA WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "HOOPSTON AREA WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hpl Wrestling",
+    "name_normalized": "HPL Wrestling",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -32867,7 +32823,7 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "KNIGHTS WC"
+        "name": "KNIGHTS WRESTLING"
       },
       {
         "tournament_id": 37,
@@ -34841,22 +34797,6 @@
     ]
   },
   {
-    "name_normalized": "Lil' Storm Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "LIL' STORM YOUTH WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "LIL' STORM YOUTH WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Lil' Storm Youth Wrestling",
     "url_path_slug": null,
     "duplicates": [
@@ -34882,6 +34822,16 @@
       },
       {
         "tournament_id": 34,
+        "division": "senior",
+        "name": "LIL' STORM YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "LIL' STORM YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 35,
         "division": "senior",
         "name": "LIL' STORM YOUTH WRESTLING"
       }
@@ -35647,22 +35597,6 @@
     ]
   },
   {
-    "name_normalized": "Lionheart Intense WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "LIONHEART INTENSE WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "LIONHEART INTENSE WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Lionheart Intense Wrestling",
     "url_path_slug": null,
     "duplicates": [
@@ -35673,6 +35607,16 @@
       },
       {
         "tournament_id": 34,
+        "division": "senior",
+        "name": "LIONHEART INTENSE WRESTLING"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "LIONHEART INTENSE WRESTLING"
+      },
+      {
+        "tournament_id": 35,
         "division": "senior",
         "name": "LIONHEART INTENSE WRESTLING"
       },
@@ -36357,6 +36301,11 @@
         "name": "LITTLE BOILER WC"
       },
       {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "LITTLE BOILER WC"
+      },
+      {
         "tournament_id": 38,
         "division": "novice",
         "name": "LITTLE BOILER WC"
@@ -36365,17 +36314,6 @@
         "tournament_id": 38,
         "division": "senior",
         "name": "LITTLE BOILER WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Little Boilers WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "LITTLE BOILERS WC"
       },
       {
         "tournament_id": 44,
@@ -36462,12 +36400,12 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "LITTLE CELTICS"
+        "name": "LITTLE CELTIC WC"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "LITTLE CELTICS"
+        "name": "LITTLE CELTIC WC"
       },
       {
         "tournament_id": 30,
@@ -36774,187 +36712,115 @@
     ]
   },
   {
-    "name_normalized": "Little Huskie WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "LITTLE HUSKIE WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "LITTLE HUSKIE WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "LITTLE HUSKIE WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "LITTLE HUSKIE WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Little Huskie WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Little Huskie WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "LITTLE HUSKIE WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "LITTLE HUSKIE WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "LITTLE HUSKIE WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "LITTLE HUSKIE WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "LITTLE HUSKIE WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "LITTLE HUSKIE WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Little Huskie WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Little Huskie WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Little Huskies WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "LITTLE HUSKIES WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Little Huskies WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Little Huskies WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Little Huskies Wrestling Club",
     "url_path_slug": null,
     "duplicates": [
       {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "LITTLE HUSKIE WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "LITTLE HUSKIE WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "LITTLE HUSKIE WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "LITTLE HUSKIE WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "LITTLE HUSKIE WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Little Huskie WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Little Huskie WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "LITTLE HUSKIE WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "LITTLE HUSKIE WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "LITTLE HUSKIE WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "LITTLE HUSKIE WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "LITTLE HUSKIE WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "LITTLE HUSKIE WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Little Huskie WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Little Huskie WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Little Huskies WC"
+      },
+      {
         "tournament_id": 45,
         "division": "novice",
         "name": "Little Huskies Wrestling Club"
@@ -36963,6 +36829,66 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Little Huskies Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Little Huskies WC"
       }
     ]
   },
@@ -37414,25 +37340,19 @@
     ]
   },
   {
-    "name_normalized": "Lockport Jr Porters",
+    "name_normalized": "Lockport Jr Porters WC",
     "url_path_slug": null,
     "duplicates": [
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "LOCKPORT JR PORTERS"
+        "name": "LOCKPORT JR PORTERS WC"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "LOCKPORT JR PORTERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lockport Jr Porters WC",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "LOCKPORT JR PORTERS WC"
+      },
       {
         "tournament_id": 36,
         "division": "novice",
@@ -38201,12 +38121,12 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "MAINE EAGLES"
+        "name": "MAINE EAGLES WC"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "MAINE EAGLES"
+        "name": "MAINE EAGLES WC"
       },
       {
         "tournament_id": 39,
@@ -38590,25 +38510,19 @@
     ]
   },
   {
-    "name_normalized": "Marengo Indians Youth WC",
+    "name_normalized": "Marengo Indians Youth Wrestling",
     "url_path_slug": null,
     "duplicates": [
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "MARENGO INDIANS YOUTH WC"
+        "name": "MARENGO INDIANS YOUTH WRESTLING"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "MARENGO INDIANS YOUTH WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Marengo Indians Youth Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "MARENGO INDIANS YOUTH WRESTLING"
+      },
       {
         "tournament_id": 36,
         "division": "novice",
@@ -40133,6 +40047,11 @@
         "name": "MENDOTA MAT MASTERS"
       },
       {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "MENDOTA MAT MASTERS"
+      },
+      {
         "tournament_id": 37,
         "division": "novice",
         "name": "Mendota Mat Masters"
@@ -40258,11 +40177,6 @@
     "name_normalized": "Mendota WC",
     "url_path_slug": null,
     "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "MENDOTA WC"
-      },
       {
         "tournament_id": 36,
         "division": "senior",
@@ -40760,7 +40674,7 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "MIDWEST CENTRAL YOUTH WC"
+        "name": "MIDWEST CENTRAL YOUTH"
       },
       {
         "tournament_id": 36,
@@ -41726,7 +41640,7 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "MORTON YOUTH WC"
+        "name": "MORTON YOUTH WRESTLING"
       },
       {
         "tournament_id": 36,
@@ -42880,12 +42794,12 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "MURPHYSBORO WC"
+        "name": "MURPHYSBORO WRESTLING"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "MURPHYSBORO WC"
+        "name": "MURPHYSBORO WRESTLING"
       },
       {
         "tournament_id": 36,
@@ -44531,12 +44445,12 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "NOTRE DAME WC"
+        "name": "NOTRE DAME WRESTLING"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "NOTRE DAME WC"
+        "name": "NOTRE DAME WRESTLING"
       },
       {
         "tournament_id": 42,
@@ -44893,22 +44807,6 @@
     ]
   },
   {
-    "name_normalized": "O'Fallion Little Panthers",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "O'FALLION LITTLE PANTHERS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "O'FALLION LITTLE PANTHERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "O'Fallon Little Panthers",
     "url_path_slug": null,
     "duplicates": [
@@ -44919,6 +44817,16 @@
       },
       {
         "tournament_id": 34,
+        "division": "senior",
+        "name": "O'FALLON LITTLE PANTHERS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "O'FALLON LITTLE PANTHERS"
+      },
+      {
+        "tournament_id": 35,
         "division": "senior",
         "name": "O'FALLON LITTLE PANTHERS"
       },
@@ -45663,6 +45571,16 @@
         "name": "OAK LAWN P.D. WILDCATS"
       },
       {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "OAK LAWN P.D. WILDCATS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "OAK LAWN P.D. WILDCATS"
+      },
+      {
         "tournament_id": 36,
         "division": "novice",
         "name": "OAK LAWN P.D. WILDCATS"
@@ -45671,22 +45589,6 @@
         "tournament_id": 36,
         "division": "senior",
         "name": "OAK LAWN P.D. WILDCATS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oak Lawn Park District Wildcats",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "OAK LAWN PARK DISTRICT WILDCATS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "OAK LAWN PARK DISTRICT WILDCATS"
       }
     ]
   },
@@ -48268,7 +48170,7 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "PEORIA RAZORBACKS"
+        "name": "PEORIA RAZORBACKS YOUTH WC"
       },
       {
         "tournament_id": 42,
@@ -49935,22 +49837,6 @@
     ]
   },
   {
-    "name_normalized": "Proviso Powerhouse",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "PROVISO POWERHOUSE"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "PROVISO POWERHOUSE"
-      }
-    ]
-  },
-  {
     "name_normalized": "Proviso Powerhouse WC",
     "url_path_slug": null,
     "duplicates": [
@@ -49961,6 +49847,16 @@
       },
       {
         "tournament_id": 34,
+        "division": "senior",
+        "name": "PROVISO POWERHOUSE WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "PROVISO POWERHOUSE WC"
+      },
+      {
+        "tournament_id": 35,
         "division": "senior",
         "name": "PROVISO POWERHOUSE WC"
       },
@@ -52570,7 +52466,7 @@
     ]
   },
   {
-    "name_normalized": "Rochelle",
+    "name_normalized": "Rochelle WC",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -52578,17 +52474,6 @@
         "division": "senior",
         "name": "Rochelle"
       },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "ROCHELLE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rochelle WC",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 30,
         "division": "novice",
@@ -52617,6 +52502,11 @@
       {
         "tournament_id": 34,
         "division": "senior",
+        "name": "ROCHELLE WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
         "name": "ROCHELLE WC"
       },
       {
@@ -53801,7 +53691,7 @@
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "ROCKRIDGE WC"
+        "name": "ROCK RIDGE WC"
       },
       {
         "tournament_id": 36,
@@ -55962,12 +55852,12 @@
       {
         "tournament_id": 35,
         "division": "novice",
-        "name": "SHELBYVILLE JR. RAMS WC"
+        "name": "SHELBYVILLE JR RAMS WRESTLING"
       },
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "SHELBYVILLE JR. RAMS WC"
+        "name": "SHELBYVILLE JR RAMS WRESTLING"
       }
     ]
   },
@@ -56423,6 +56313,16 @@
     "url_path_slug": null,
     "duplicates": [
       {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "SJO SPARTAN YOUTH WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "SJO SPARTAN YOUTH WC"
+      },
+      {
         "tournament_id": 43,
         "division": "novice",
         "name": "SJO Spartans Youth WC"
@@ -56431,22 +56331,6 @@
         "tournament_id": 43,
         "division": "senior",
         "name": "SJO Spartans Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SJO Spratan Youth",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "SJO SPRATAN YOUTH"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "SJO SPRATAN YOUTH"
       }
     ]
   },
@@ -59575,7 +59459,7 @@
       {
         "tournament_id": 35,
         "division": "senior",
-        "name": "SYCAMORE"
+        "name": "SYCAMORE WC"
       },
       {
         "tournament_id": 36,
@@ -64649,10 +64533,20 @@
     ]
   },
   {
-    "name_normalized": "Vandalia Jr Wrestling",
+    "name_normalized": "Vandalia Jr. Wrestling",
     "url_path_slug": null,
     "duplicates": [
       {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "VANDALIA JR WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "VANDALIA JR WRESTLING"
+      },
+      {
         "tournament_id": 30,
         "division": "novice",
         "name": "VANDALIA JR WRESTLING"
@@ -64701,6 +64595,16 @@
         "tournament_id": 34,
         "division": "senior",
         "name": "VANDALIA JR WRESTLING"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "VANDALIA JR. WRESTLING"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "VANDALIA JR. WRESTLING"
       },
       {
         "tournament_id": 36,
@@ -64762,32 +64666,6 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Vandalia Jr Wrestling Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Vandalia Jr. Wreslting",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "VANDALIA JR WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "VANDALIA JR WRESTLING"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "VANDALIA JR. WRESLTING"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "VANDALIA JR. WRESLTING"
       }
     ]
   },
@@ -67675,6 +67553,16 @@
         "name": "WHEATON TIGER WC"
       },
       {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "WHEATON TIGER WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "WHEATON TIGER WC"
+      },
+      {
         "tournament_id": 36,
         "division": "novice",
         "name": "WHEATON TIGER WC"
@@ -67683,29 +67571,7 @@
         "tournament_id": 36,
         "division": "senior",
         "name": "WHEATON TIGER WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Wheaton Tigers",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "WHEATON TIGERS"
       },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "WHEATON TIGERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Wheaton Tigers WC",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 50,
         "division": "novice",
