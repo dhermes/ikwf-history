@@ -2277,11 +2277,6 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Belleville L'I Devils"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
         "name": "Belleville Little Devils"
       },
       {
@@ -2634,11 +2629,6 @@
         "tournament_id": 16,
         "division": "senior",
         "name": "Belvidere Bandits"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Belvidere Bandits YMCA"
       },
       {
         "tournament_id": 17,
@@ -3402,11 +3392,6 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Bismarck-Henning WC"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Bismark-Henning WC"
       },
       {
         "tournament_id": 19,
@@ -7193,7 +7178,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Crestwood Colts"
+        "name": "Crestwood Colts WC"
       },
       {
         "tournament_id": 20,
@@ -9186,11 +9171,6 @@
       },
       {
         "tournament_id": 16,
-        "division": "senior",
-        "name": "Panther WC"
-      },
-      {
-        "tournament_id": 17,
         "division": "senior",
         "name": "Panther WC"
       },
@@ -12962,7 +12942,7 @@
     ]
   },
   {
-    "name_normalized": "Bloomington Jhs",
+    "name_normalized": "Bloomington JHS",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -12973,7 +12953,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Bloomington JHS"
+        "name": "Bloomington Jr. High"
       }
     ]
   },
@@ -14127,7 +14107,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Cahokia WC"
+        "name": "Cahokia WC South"
       }
     ]
   },
@@ -20736,7 +20716,7 @@
     ]
   },
   {
-    "name_normalized": "Eisenhower Jhs",
+    "name_normalized": "Eisenhower Jr. High",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -20744,17 +20724,6 @@
         "division": "senior",
         "name": "Eisenhower JHS"
       },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Eisenhower JHS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Eisenhower Jr. High",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 17,
         "division": "senior",
@@ -23464,11 +23433,6 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Foreman WC"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
         "name": "Forman WC"
       },
       {
@@ -24552,7 +24516,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Gibson City Youth"
+        "name": "Gibson City Youth WC"
       }
     ]
   },
@@ -25893,7 +25857,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Granite City-Grigsby"
+        "name": "Granite City Grigsby WC"
       }
     ]
   },
@@ -27591,7 +27555,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Hickory Hills PD"
+        "name": "Hickory Hills Park Dist."
       },
       {
         "tournament_id": 19,
@@ -29416,7 +29380,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Hoopeston-East Lynn"
+        "name": "Hoopeston-East Lynn Jr. High"
       }
     ]
   },
@@ -33574,7 +33538,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Lan-Oak PD"
+        "name": "Lan-Oak Park District"
       }
     ]
   },
@@ -37290,11 +37254,6 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Lockport Grapplers"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
         "name": "Lockport Grapplers WC"
       },
       {
@@ -39341,7 +39300,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Matburns WC"
+        "name": "Matburns Wrestling Club"
       }
     ]
   },
@@ -40003,7 +39962,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Medinah Lancer WC"
+        "name": "Medinah Lancers WC"
       }
     ]
   },
@@ -42703,7 +42662,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Murphysboro JHS"
+        "name": "Murphysboro Jr. High"
       },
       {
         "tournament_id": 19,
@@ -45678,7 +45637,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Oak Park-River Forest WC"
+        "name": "Oak Park River Forest WC"
       }
     ]
   },
@@ -51445,12 +51404,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Rich Wrestling Ltd"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Rich Wrestling Ltd."
+        "name": "Rich Wrestling LTD"
       },
       {
         "tournament_id": 19,
@@ -53599,22 +53553,6 @@
     ]
   },
   {
-    "name_normalized": "Rockridge JHS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Rockridge JHS"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Rockridge JHS"
-      }
-    ]
-  },
-  {
     "name_normalized": "Rockridge Jr. High",
     "url_path_slug": null,
     "duplicates": [
@@ -53622,6 +53560,11 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Rockridge Jr. High"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Rockridge JHS"
       },
       {
         "tournament_id": 17,
@@ -53788,7 +53731,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Rosemont Cobra"
+        "name": "Rosemont Cobras"
       },
       {
         "tournament_id": 19,
@@ -54403,12 +54346,12 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Roxana Vikings"
+        "name": "Roxana Jr. High Vikings"
       }
     ]
   },
   {
-    "name_normalized": "Rtc Wrestling",
+    "name_normalized": "RTC Wrestling",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -57900,7 +57843,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "St. Charles WC"
+        "name": "St. Charles J.H. WC"
       },
       {
         "tournament_id": 20,
@@ -64116,7 +64059,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Urbana Kids Club"
+        "name": "Urbana Kids WC"
       },
       {
         "tournament_id": 20,
@@ -67064,7 +67007,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Westville JHS"
+        "name": "Westville Jr. High"
       },
       {
         "tournament_id": 19,
