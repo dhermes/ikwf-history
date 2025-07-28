@@ -3230,7 +3230,7 @@
       {
         "tournament_id": 14,
         "division": "senior",
-        "name": "Belhalto"
+        "name": "Bethalto"
       },
       {
         "tournament_id": 15,
@@ -4455,7 +4455,7 @@
       {
         "tournament_id": 14,
         "division": "senior",
-        "name": "Bradley-Bourbonnais"
+        "name": "Bradley Bourbonnais"
       },
       {
         "tournament_id": 15,
@@ -9132,7 +9132,7 @@
       {
         "tournament_id": 14,
         "division": "senior",
-        "name": "Panther WC"
+        "name": "Burbank"
       },
       {
         "tournament_id": 15,
@@ -12049,7 +12049,7 @@
       {
         "tournament_id": 14,
         "division": "senior",
-        "name": "Barrington"
+        "name": "Barrington Colts"
       }
     ]
   },
@@ -17665,7 +17665,7 @@
       {
         "tournament_id": 14,
         "division": "senior",
-        "name": "DeKalb Huntley"
+        "name": "DeKalb / Huntley"
       },
       {
         "tournament_id": 15,
@@ -17686,7 +17686,7 @@
       {
         "tournament_id": 14,
         "division": "senior",
-        "name": "DeKalb Rosette"
+        "name": "DeKalb / Rosette"
       }
     ]
   },
@@ -33616,7 +33616,7 @@
       {
         "tournament_id": 14,
         "division": "senior",
-        "name": "Lancers"
+        "name": "Lancer W.C."
       },
       {
         "tournament_id": 15,
@@ -43397,7 +43397,7 @@
       {
         "tournament_id": 14,
         "division": "senior",
-        "name": "Naperville"
+        "name": "Naperville W.C."
       }
     ]
   },
@@ -43980,7 +43980,7 @@
       {
         "tournament_id": 14,
         "division": "senior",
-        "name": "New Lenox Lions"
+        "name": "New Lenox"
       },
       {
         "tournament_id": 15,
@@ -52739,7 +52739,12 @@
       {
         "tournament_id": 14,
         "division": "senior",
-        "name": "Rock Island"
+        "name": "Rock Island (I)"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Rock Island (II)"
       },
       {
         "tournament_id": 21,
