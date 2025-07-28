@@ -1058,6 +1058,8 @@ def weight_class_from_competitors(
     team_replace: dict[str, str],
     name_exceptions: dict[tuple[str, str], Competitor],
     bout_numbers: dict[MatchSlot, int],
+    *,
+    placers_type: Literal["champ", "top6"] = "top6",
 ) -> WeightClass:
     if len(competitors) != 24:
         raise NotImplementedError("Unsupported bracket size", weight, len(competitors))
@@ -1137,48 +1139,69 @@ def weight_class_from_competitors(
             )
         )
 
-    if placers.keys() != {1, 2, 3, 4, 5, 6}:
-        raise ValueError("Missing placers", weight, division, placers.keys())
+    if placers_type == "top6":
+        if placers.keys() != {1, 2, 3, 4, 5, 6}:
+            raise ValueError("Missing placers", weight, division, placers.keys())
 
-    matches.extend(
-        [
-            Match(
-                match_slot="consolation_third_place",
-                top_competitor=placers[3],
-                bottom_competitor=placers[4],
-                result="",
-                result_type="unknown",
-                bout_number=bout_numbers.get("consolation_third_place"),
-                top_win=True,
-            ),
-            Match(
-                match_slot="consolation_fifth_place",
-                top_competitor=placers[5],
-                bottom_competitor=placers[6],
-                result="",
-                result_type="unknown",
-                bout_number=bout_numbers.get("consolation_fifth_place"),
-                top_win=True,
-            ),
-        ]
-    )
-
-    top_competitor = placers[1]
-    bottom_competitor = placers[2]
-    top_win = True
-    if champion_position == "bottom":
-        top_competitor, bottom_competitor = bottom_competitor, top_competitor
-        top_win = False
-
-    matches.append(
-        Match(
-            match_slot="championship_first_place",
-            top_competitor=top_competitor,
-            bottom_competitor=bottom_competitor,
-            result="",
-            result_type="unknown",
-            bout_number=bout_numbers.get("championship_first_place"),
-            top_win=top_win,
+        matches.extend(
+            [
+                Match(
+                    match_slot="consolation_third_place",
+                    top_competitor=placers[3],
+                    bottom_competitor=placers[4],
+                    result="",
+                    result_type="unknown",
+                    bout_number=bout_numbers.get("consolation_third_place"),
+                    top_win=True,
+                ),
+                Match(
+                    match_slot="consolation_fifth_place",
+                    top_competitor=placers[5],
+                    bottom_competitor=placers[6],
+                    result="",
+                    result_type="unknown",
+                    bout_number=bout_numbers.get("consolation_fifth_place"),
+                    top_win=True,
+                ),
+            ]
         )
-    )
+
+        top_competitor = placers[1]
+        bottom_competitor = placers[2]
+        top_win = True
+        if champion_position == "bottom":
+            top_competitor, bottom_competitor = bottom_competitor, top_competitor
+            top_win = False
+
+        matches.append(
+            Match(
+                match_slot="championship_first_place",
+                top_competitor=top_competitor,
+                bottom_competitor=bottom_competitor,
+                result="",
+                result_type="unknown",
+                bout_number=bout_numbers.get("championship_first_place"),
+                top_win=top_win,
+            )
+        )
+    elif placers_type == "champ":
+        if placers.keys() != {1}:
+            raise ValueError("Missing placers", weight, division, placers.keys())
+
+        top_competitor = placers[1]
+        top_win = True
+        matches.append(
+            Match(
+                match_slot="championship_first_place",
+                top_competitor=top_competitor,
+                bottom_competitor=None,
+                result="",
+                result_type="unknown",
+                bout_number=bout_numbers.get("championship_first_place"),
+                top_win=top_win,
+            )
+        )
+    else:
+        raise NotImplementedError(placers_type)
+
     return WeightClass(division=division, weight=weight, matches=matches)
