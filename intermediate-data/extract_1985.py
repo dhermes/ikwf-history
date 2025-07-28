@@ -2,6 +2,8 @@
 
 """
 The competitor list (from scans from Corey Atwell) is contained below.
+
+Note that 95, 100, and 105 are missing from the competitor lists.
 """
 
 import pathlib
