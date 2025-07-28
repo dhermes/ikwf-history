@@ -1775,7 +1775,7 @@
       {
         "tournament_id": 15,
         "division": "senior",
-        "name": "Barrington Broncs"
+        "name": "Barrington Broncos"
       },
       {
         "tournament_id": 33,
@@ -2056,11 +2056,6 @@
       {
         "tournament_id": 15,
         "division": "senior",
-        "name": "Batavia W.C."
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
         "name": "Batavia WC"
       },
       {
@@ -2267,7 +2262,7 @@
       {
         "tournament_id": 15,
         "division": "senior",
-        "name": "Belleville L'l Devils"
+        "name": "Belleville Little Devils"
       },
       {
         "tournament_id": 16,
@@ -4465,11 +4460,6 @@
       {
         "tournament_id": 15,
         "division": "senior",
-        "name": "Bradley Bourbonnais W.C."
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
         "name": "Bradley Bourbonnais WC"
       },
       {
@@ -5357,12 +5347,7 @@
       {
         "tournament_id": 15,
         "division": "senior",
-        "name": "Carbondale Park Dist"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Carbondale Park Dist."
+        "name": "Carbondale PD"
       },
       {
         "tournament_id": 16,
@@ -6755,11 +6740,6 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Chicago Ridge"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Chicago Ridge P.D."
       },
       {
         "tournament_id": 15,
@@ -8570,11 +8550,6 @@
       {
         "tournament_id": 15,
         "division": "senior",
-        "name": "Harvard W.C."
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
         "name": "Harvard WC"
       },
       {
@@ -8726,12 +8701,7 @@
       {
         "tournament_id": 15,
         "division": "senior",
-        "name": "Harvey P.D. Twisters"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Harvey PD Twisters"
+        "name": "Harvey Twisters"
       },
       {
         "tournament_id": 16,
@@ -17659,7 +17629,7 @@
     ]
   },
   {
-    "name_normalized": "Dekalb Huntley",
+    "name_normalized": "DeKalb Huntley",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -17700,12 +17670,12 @@
       {
         "tournament_id": 15,
         "division": "senior",
-        "name": "DeKalb Huntley"
+        "name": "DeKalb-Huntley"
       }
     ]
   },
   {
-    "name_normalized": "Dekalb Rosette",
+    "name_normalized": "DeKalb Rosette",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -17721,7 +17691,7 @@
     ]
   },
   {
-    "name_normalized": "Dekalb WC",
+    "name_normalized": "DeKalb WC",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -22814,7 +22784,7 @@
       {
         "tournament_id": 15,
         "division": "senior",
-        "name": "Fisher WC"
+        "name": "Fischer WC"
       },
       {
         "tournament_id": 17,
@@ -23428,7 +23398,7 @@
       {
         "tournament_id": 15,
         "division": "senior",
-        "name": "Foreman"
+        "name": "Foreman WC"
       },
       {
         "tournament_id": 17,
@@ -24485,7 +24455,7 @@
       {
         "tournament_id": 15,
         "division": "senior",
-        "name": "Georgetown"
+        "name": "Georgetown WC"
       },
       {
         "tournament_id": 16,
@@ -27541,11 +27511,6 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Hickory Hills"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Hickory Hills P.D."
       },
       {
         "tournament_id": 15,
@@ -39317,11 +39282,6 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Mattoon"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Mattoon W.C."
       },
       {
         "tournament_id": 15,
@@ -51386,11 +51346,6 @@
     "name_normalized": "Rich Wrestling Club",
     "url_path_slug": null,
     "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Rich Wrestling Ltd"
-      },
       {
         "tournament_id": 15,
         "division": "senior",
