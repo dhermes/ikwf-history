@@ -2608,6 +2608,195 @@
     },
     {
       "division": "senior",
+      "weight": 95,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Bill O'Brien",
+            "first_name": "Bill",
+            "last_name": "O'Brien",
+            "team_full": "Panther WC"
+          },
+          "bottom_competitor": {
+            "full_name": "Vince Cascone",
+            "first_name": "Vince",
+            "last_name": "Cascone",
+            "team_full": "Vittum Cats"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Brent Davis",
+            "first_name": "Brent",
+            "last_name": "Davis",
+            "team_full": "Granite City-Grigsby"
+          },
+          "bottom_competitor": {
+            "full_name": "Jeff Cordova",
+            "first_name": "Jeff",
+            "last_name": "Cordova",
+            "team_full": "Lockport Grapplers"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Brian Ezell",
+            "first_name": "Brian",
+            "last_name": "Ezell",
+            "team_full": "Frankfort Falcons"
+          },
+          "bottom_competitor": {
+            "full_name": "Scott Carfagnini",
+            "first_name": "Scott",
+            "last_name": "Carfagnini",
+            "team_full": "Stickers"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 100,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Bill Guide",
+            "first_name": "Bill",
+            "last_name": "Guide",
+            "team_full": "Vittum Cats"
+          },
+          "bottom_competitor": {
+            "full_name": "George Hoffman",
+            "first_name": "George",
+            "last_name": "Hoffman",
+            "team_full": "Joliet YMCA Wrest."
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Randy Saller",
+            "first_name": "Randy",
+            "last_name": "Saller",
+            "team_full": "Dolton Falcons"
+          },
+          "bottom_competitor": {
+            "full_name": "Matt Cruszka",
+            "first_name": "Matt",
+            "last_name": "Cruszka",
+            "team_full": "Indian Prairie"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Andrew Larson",
+            "first_name": "Andrew",
+            "last_name": "Larson",
+            "team_full": "East Moline W.C."
+          },
+          "bottom_competitor": {
+            "full_name": "Dirk Dorn",
+            "first_name": "Dirk",
+            "last_name": "Dorn",
+            "team_full": "Naperville Warhawks"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
+      "weight": 105,
+      "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Ryan Shafer",
+            "first_name": "Ryan",
+            "last_name": "Shafer",
+            "team_full": "Warrior W.C."
+          },
+          "bottom_competitor": {
+            "full_name": "Steven Smerz",
+            "first_name": "Steven",
+            "last_name": "Smerz",
+            "team_full": "Franklin Park Raiders"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Patrick Henley",
+            "first_name": "Patrick",
+            "last_name": "Henley",
+            "team_full": "Harvey P.D. Twisters"
+          },
+          "bottom_competitor": {
+            "full_name": "Bob Bartkowaik",
+            "first_name": "Bob",
+            "last_name": "Bartkowaik",
+            "team_full": "Oak Forest Warriors"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Matt Rademaker",
+            "first_name": "Matt",
+            "last_name": "Rademaker",
+            "team_full": "Illini Bluffs W.C."
+          },
+          "bottom_competitor": {
+            "full_name": "Sock Woodruff",
+            "first_name": "Sock",
+            "last_name": "Woodruff",
+            "team_full": "Deerpath W.C."
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        }
+      ]
+    },
+    {
+      "division": "senior",
       "weight": 111,
       "matches": [
         {

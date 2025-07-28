@@ -11,6 +11,32 @@ from PIL import Image
 
 _HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
+_SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
+    95: [
+        bracket_utils.Placer(name="Bill O'Brien", team="Panther WC"),
+        bracket_utils.Placer(name="Vince Cascone", team="Vittum Cats"),
+        bracket_utils.Placer(name="Brent Davis", team="Granite City-Grigsby"),
+        bracket_utils.Placer(name="Jeff Cordova", team="Lockport Grapplers"),
+        bracket_utils.Placer(name="Brian Ezell", team="Frankfort Falcons"),
+        bracket_utils.Placer(name="Scott Carfagnini", team="Stickers"),
+    ],
+    100: [
+        bracket_utils.Placer(name="Bill Guide", team="Vittum Cats"),
+        bracket_utils.Placer(name="George Hoffman", team="Joliet YMCA Wrest."),
+        bracket_utils.Placer(name="Randy Saller", team="Dolton Falcons"),
+        bracket_utils.Placer(name="Matt Cruszka", team="Indian Prairie"),
+        bracket_utils.Placer(name="Andrew Larson", team="East Moline W.C."),
+        bracket_utils.Placer(name="Dirk Dorn", team="Naperville Warhawks"),
+    ],
+    105: [
+        bracket_utils.Placer(name="Ryan Shafer", team="Warrior W.C."),  # Sterling?
+        bracket_utils.Placer(name="Steven Smerz", team="Franklin Park Raiders"),
+        bracket_utils.Placer(name="Patrick Henley", team="Harvey P.D. Twisters"),
+        bracket_utils.Placer(name="Bob Bartkowaik", team="Oak Forest Warriors"),
+        bracket_utils.Placer(name="Matt Rademaker", team="Illini Bluffs W.C."),
+        bracket_utils.Placer(name="Sock Woodruff", team="Deerpath W.C."),
+    ],
+}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     55: [
         "Joey O'Sullivan :: Colts WC :: 5",
@@ -599,6 +625,7 @@ def _create_placers_image_row(
 
 def _generate_placers_image(year: int):
     all_weights = set(_SENIOR_COMPETITORS.keys())
+    all_weights.update(_SENIOR_PLACERS.keys())
     weights = sorted(all_weights)
 
     raw_root = _HERE.parent / "raw-data" / str(year)
@@ -680,6 +707,12 @@ def main():
             _SENIOR_TEAM_REPLACE,
             _NAME_EXCEPTIONS,
             bout_numbers,
+        )
+        weight_classes.append(weight_class)
+
+    for weight, placers in _SENIOR_PLACERS.items():
+        weight_class = bracket_utils.create_weight_class_from_placers(
+            "senior", weight, placers, _SENIOR_TEAM_REPLACE
         )
         weight_classes.append(weight_class)
 
