@@ -757,7 +757,7 @@
       {
         "tournament_id": 36,
         "division": "senior",
-        "name": "ALLEMAN JR PIONEERS"
+        "name": "ALLEMAN JR PIONEER WC"
       },
       {
         "tournament_id": 37,
@@ -1000,7 +1000,7 @@
       {
         "tournament_id": 36,
         "division": "senior",
-        "name": "ARGENTA/OREANA KIDS CLUB"
+        "name": "ARGENTA / OREANA KIDS CLUB"
       },
       {
         "tournament_id": 37,
@@ -2076,7 +2076,7 @@
       {
         "tournament_id": 36,
         "division": "novice",
-        "name": "BATAVIA"
+        "name": "BATAVIA PINNERS"
       },
       {
         "tournament_id": 44,
@@ -3481,7 +3481,7 @@
       {
         "tournament_id": 36,
         "division": "senior",
-        "name": "BISMARCK HENNING WRESTLING CLUB"
+        "name": "BISMARCK HENNING WC"
       },
       {
         "tournament_id": 37,
@@ -5064,7 +5064,7 @@
       {
         "tournament_id": 36,
         "division": "novice",
-        "name": "CALUMET MEMORIAL PD WOLVERINES"
+        "name": "CALUMET MEMORIAL P.D. WOLVERINES"
       },
       {
         "tournament_id": 37,
@@ -5839,7 +5839,7 @@
       {
         "tournament_id": 36,
         "division": "novice",
-        "name": "CENTRAL WRESTLING CLUB"
+        "name": "CENTRAL WC"
       },
       {
         "tournament_id": 37,
@@ -6945,11 +6945,6 @@
     "duplicates": [
       {
         "tournament_id": 35,
-        "division": "novice",
-        "name": "CLIPPER WC"
-      },
-      {
-        "tournament_id": 36,
         "division": "novice",
         "name": "CLIPPER WC"
       },
@@ -8876,12 +8871,12 @@
       {
         "tournament_id": 36,
         "division": "novice",
-        "name": "HARVEY PARK DIST TWISTERS"
+        "name": "HARVEY PARK DISTRICT TWISTERS"
       },
       {
         "tournament_id": 36,
         "division": "senior",
-        "name": "HARVEY PARK DIST TWISTERS"
+        "name": "HARVEY PARK DISTRICT TWISTERS"
       },
       {
         "tournament_id": 37,
@@ -9800,12 +9795,12 @@
       {
         "tournament_id": 36,
         "division": "novice",
-        "name": "SAUK VALLEY WRESTLING CLUB"
+        "name": "SAUK VALLEY WC"
       },
       {
         "tournament_id": 36,
         "division": "senior",
-        "name": "SAUK VALLEY WRESTLING CLUB"
+        "name": "SAUK VALLEY WC"
       },
       {
         "tournament_id": 37,
@@ -10650,12 +10645,12 @@
       {
         "tournament_id": 36,
         "division": "novice",
-        "name": "YORKVILLE WRESTLING CLUB"
+        "name": "YORKVILLE WC"
       },
       {
         "tournament_id": 36,
         "division": "senior",
-        "name": "YORKVILLE WRESTLING CLUB"
+        "name": "YORKVILLE WC"
       },
       {
         "tournament_id": 37,
@@ -20962,12 +20957,12 @@
       {
         "tournament_id": 36,
         "division": "novice",
-        "name": "EL PASO/GRIDLEY WC"
+        "name": "EL PASO / GRIDLEY WC"
       },
       {
         "tournament_id": 36,
         "division": "senior",
-        "name": "EL PASO/GRIDLEY WC"
+        "name": "EL PASO / GRIDLEY WC"
       },
       {
         "tournament_id": 37,
@@ -22240,12 +22235,12 @@
       {
         "tournament_id": 36,
         "division": "novice",
-        "name": "FALCON WRESTLING CLUB"
+        "name": "FALCON WC"
       },
       {
         "tournament_id": 36,
         "division": "senior",
-        "name": "FALCON WRESTLING CLUB"
+        "name": "FALCON WC"
       }
     ]
   },
@@ -31237,7 +31232,7 @@
       {
         "tournament_id": 36,
         "division": "senior",
-        "name": "JR. COUGARS WC"
+        "name": "JUNIOR COUGARS WC"
       }
     ]
   },
@@ -40052,6 +40047,11 @@
         "name": "MENDOTA MAT MASTERS"
       },
       {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "MENDOTA MAT MASTERS"
+      },
+      {
         "tournament_id": 37,
         "division": "novice",
         "name": "Mendota Mat Masters"
@@ -40177,11 +40177,6 @@
     "name_normalized": "Mendota WC",
     "url_path_slug": null,
     "duplicates": [
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "MENDOTA WC"
-      },
       {
         "tournament_id": 49,
         "division": "novice",
@@ -47355,7 +47350,7 @@
       {
         "tournament_id": 36,
         "division": "senior",
-        "name": "PALATINE PANTHERS"
+        "name": "PALATINE PANTHERS WC"
       },
       {
         "tournament_id": 42,
@@ -47477,109 +47472,103 @@
     ]
   },
   {
-    "name_normalized": "Panther Cub WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "PANTHER CUB WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "PANTHER CUB WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "PANTHER CUB WC"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "PANTHER CUB WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "PANTHER CUB WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "PANTHER CUB WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "PANTHER CUB WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "PANTHER CUB WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "PANTHER CUB WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "PANTHER CUB WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Panther Cub WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Panther Cub WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "PANTHER CUB WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "PANTHER CUB WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "PANTHER CUB WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "PANTHER CUB WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Panther Cub Wrestling Club",
     "url_path_slug": null,
     "duplicates": [
       {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "PANTHER CUB WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "PANTHER CUB WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "PANTHER CUB WC"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "PANTHER CUB WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "PANTHER CUB WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "PANTHER CUB WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "PANTHER CUB WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "PANTHER CUB WC"
+      },
+      {
         "tournament_id": 34,
         "division": "novice",
         "name": "PANTHER CUB WC"
       },
       {
         "tournament_id": 34,
+        "division": "senior",
+        "name": "PANTHER CUB WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "PANTHER CUB WC"
+      },
+      {
+        "tournament_id": 35,
         "division": "senior",
         "name": "PANTHER CUB WC"
       },
       {
         "tournament_id": 36,
         "division": "senior",
-        "name": "PANTHER CUB WRESTLING CLUB"
+        "name": "PANTHER CUB WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Panther Cub WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Panther Cub WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "PANTHER CUB WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "PANTHER CUB WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "PANTHER CUB WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "PANTHER CUB WC"
       }
     ]
   },
@@ -51501,11 +51490,21 @@
     ]
   },
   {
-    "name_normalized": "Richmond WC",
+    "name_normalized": "Richmond Wrestling Club",
     "url_path_slug": null,
     "duplicates": [
       {
         "tournament_id": 31,
+        "division": "senior",
+        "name": "RICHMOND WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "RICHMOND WC"
+      },
+      {
+        "tournament_id": 34,
         "division": "senior",
         "name": "RICHMOND WC"
       },
@@ -51516,6 +51515,16 @@
       },
       {
         "tournament_id": 35,
+        "division": "senior",
+        "name": "RICHMOND WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "RICHMOND WC"
+      },
+      {
+        "tournament_id": 36,
         "division": "senior",
         "name": "RICHMOND WC"
       },
@@ -51668,32 +51677,6 @@
         "tournament_id": 52,
         "division": "senior_girls",
         "name": "Richmond WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Richmond Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "RICHMOND WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "RICHMOND WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "RICHMOND WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "RICHMOND WRESTLING CLUB"
       }
     ]
   },
@@ -53100,22 +53083,6 @@
     ]
   },
   {
-    "name_normalized": "Rock Ridge WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "ROCK RIDGE WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "ROCK RIDGE WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Rocket Fuel WC",
     "url_path_slug": null,
     "duplicates": [
@@ -53637,7 +53604,7 @@
     ]
   },
   {
-    "name_normalized": "Rockridge Jhs",
+    "name_normalized": "Rockridge JHS",
     "url_path_slug": null,
     "duplicates": [
       {
@@ -53689,6 +53656,16 @@
     "url_path_slug": null,
     "duplicates": [
       {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "ROCK RIDGE WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "ROCK RIDGE WC"
+      },
+      {
         "tournament_id": 35,
         "division": "senior",
         "name": "ROCK RIDGE WC"
@@ -53696,7 +53673,7 @@
       {
         "tournament_id": 36,
         "division": "senior",
-        "name": "ROCKRIDGE WC"
+        "name": "ROCK RIDGE WC"
       }
     ]
   },
@@ -66989,7 +66966,7 @@
       {
         "tournament_id": 36,
         "division": "senior",
-        "name": "WEST HANCOCK WC"
+        "name": "WEST HANCOCK TITAN WC"
       },
       {
         "tournament_id": 42,
