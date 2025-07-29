@@ -511,8 +511,8 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     ],
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
-    "PLAINFIELD": 146.0,
-    "JOLIET YMCA": 119.0,
+    "Indian Trail / Plainfield": 146.0,  # PLAINFIELD
+    "Joliet YMCA": 119.0,
 }
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("Bam Bam Pustelnik", "East Moline"): bracket_utils.Competitor(
