@@ -22,7 +22,7 @@ _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
     135: bracket_utils.Placer(name="Alan Porter", team="Oak Forest"),
     145: bracket_utils.Placer(name="Bill McCue", team="Aurora Simmons"),
     160: bracket_utils.Placer(name="Rich Constable", team="Addison"),
-    185: bracket_utils.Placer(name="Bill George", team="St. Thecia"),
+    185: bracket_utils.Placer(name="Bill George", team="St. Thecla"),
     275: bracket_utils.Placer(name="Jeff Sheppard", team="avanna"),
 }
 _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
