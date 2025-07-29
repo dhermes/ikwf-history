@@ -5,7 +5,7 @@ import pathlib
 import bracket_utils
 from PIL import Image
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     50: [
@@ -15,7 +15,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Josh Mattio :: Rich Township :: 4",
         "Mike Dickinson :: Roxana Park District",
         "John Zuspann :: Jefferson",
-        "Ryan Ferguson :: Lancer :: 6",
+        "Ryan Ferguson :: Lancers :: 6",
         "Tom Hincks :: Mt. Greenwood",
         None,
         "John Stanley :: Mattoon",
@@ -38,7 +38,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Kurt Kalchbrenner :: Vittum Park :: 5",
         "Ryan Smith :: Roxana Park District",
         "Jim Foley :: Dundee",
-        "John Virnich :: Lancer",
+        "John Virnich :: Lancers",
         "Joe Wilhelm :: Calumet City :: 3",
         "Jim Soldan :: Frankfort",
         "Aron Roddis :: Decatur",
@@ -109,7 +109,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Todd Ryan :: Bensenville",
         "Shelly Resendes :: Glenwood :: 4",
         "Jim Zeilenga :: Oak Forest :: 1",
-        "Lavell Stennis :: Masson",
+        "Lavell Stennis :: Mason",
         "Tom Williams :: Bronco Wrestling Club",
     ],
     70: [
@@ -157,7 +157,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Scott Richardson :: New Lenox Lions",
         "Dave Campbell :: Dolton",
         "Stan Valle :: Park Ridge",
-        "Sam Geraci :: Lancer :: 3",
+        "Sam Geraci :: Lancers :: 3",
         "Steve Smerz :: Franklin Park",
         "Mike McInnes :: Mt. Greenwood",
         "Bryan Schultz :: Decatur :: 6",
@@ -185,7 +185,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Brian Zust :: Bronco Wrestling Club",
         "Robbie Grayson :: Foreman",
         "Joe Rzepinski :: Lansing :: 2",
-        "Bob Toth :: Vitum Park",
+        "Bob Toth :: Vittum Park",
         "Brian Williams :: East Moline",
         "Mark Lucas :: Dundee",
         "Jeff Heimkamp :: Roxana Jr. High",
@@ -204,7 +204,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "J. Kossakowski :: Dundee",
         "Angelo Alvarez :: Belleville Little Devils",
         "Bob Mena :: Sterling Newman",
-        "Bill Guide :: Vitum Park :: 5",
+        "Bill Guide :: Vittum Park :: 5",
         "T.J. Manzeri :: Gower",
         "Eric Roberson :: Roxana Jr. High :: 3",
         "Terry Rich :: Lockport",
@@ -236,7 +236,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Craig Pfotenhauer :: Jay Stream",
         "Nate Booth :: Geneseo",
         "A.T. Arneson :: Royal Wrestling Club :: 3",
-        "Dave Flies :: Dectaur",
+        "Dave Flies :: Decatur",
         "Kean :: Burbank",
         "Justin Gaeta :: Palos :: 5",
         "Tom Juenger :: Wilson",
@@ -269,14 +269,14 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Matt Engstrom :: DeKalb Huntley",
     ],
     100: [
-        "David Frencl :: Vitum Park",
+        "David Frencl :: Vittum Park",
         "Dave McClure :: Gibson City :: 6",
         "Marty Evans :: Edwardsville",
         "Mike Cheatham :: Bronco Wrestling Club",
         "Tony Benitez :: Oswego :: 4",
         "Brian Schiller :: Mt. Greenwood",
         "Ken Thompson :: Glenwood",
-        "Brad Stockstill :: Bethalto",
+        "Brad Stockstill :: Bethalto Boys Club",
         "Tony Woods :: Illini Bluff",
         "Ben Morris :: Bensenville :: 1",
         "Mike Gryga :: Oak Lawn",
@@ -509,7 +509,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Jim Shaffer :: DeKalb Rosette :: 5",
         "Mark Topping :: Huth",
         "Glen Bourdueox :: Gower",
-        "Adam Lang ::  Murphysboro",
+        "Adam Lang :: Murphysboro",
         "Mark Crawford :: Bensenville",
         "Buddy Estes :: Round Lake",
         "Eric Sebahar :: Calumet City",
@@ -556,7 +556,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     ],
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
-    "TINLEY PARK": 149.0,
+    "Tinley Park": 149.0,
     "Burbank": 129.0,  # Panther WC
 }
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
@@ -648,7 +648,7 @@ def _generate_placers_image(year: int):
     all_weights = set(_SENIOR_COMPETITORS.keys())
     weights = sorted(all_weights)
 
-    raw_root = HERE.parent / "raw-data" / str(year)
+    raw_root = _HERE.parent / "raw-data" / str(year)
     headshots = [
         Image.open(raw_root / "placers-headshot" / f"{weight}.jpg")
         for weight in weights
@@ -702,7 +702,7 @@ def _generate_placers_image(year: int):
             row, (width_offset + (row_width - row.width) // 2, height_offset)
         )
 
-    static_dir = HERE.parent / "static" / "static" / "images"
+    static_dir = _HERE.parent / "static" / "static" / "images"
     save_location = static_dir / f"{year}-senior-placers.png"
     final_img.save(save_location)
 
@@ -734,7 +734,7 @@ def main():
         weight_classes=weight_classes, team_scores=team_scores, deductions=[]
     )
     extracted.sort()
-    with open(HERE / "extracted.1983.json", "w") as file_obj:
+    with open(_HERE / "extracted.1983.json", "w") as file_obj:
         file_obj.write(extracted.model_dump_json(indent=2))
         file_obj.write("\n")
 
