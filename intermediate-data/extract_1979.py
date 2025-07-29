@@ -1,371 +1,766 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
 """
-Produce `extracted.1979.json` brackets.
+The competitor list (from scans from Terry Weber) is contained below.
 
-The full names / teams / weights were provided in the 1979 program:
-
-| Team                      | Name               | Weight |
-| ------------------------- | ------------------ | ------ |
-| Alton W.C.                | Kip Kristoff       | 75     |
-|                           | Charlie Sherertz   | 100    |
-|                           | Jeff Nichols       | 125    |
-| Antioch Upper Grade       | Jeff Hieze         | 80     |
-|                           | Tad DeRousse       | 90     |
-|                           | Steve Case         | 95     |
-|                           | Tim Curtis         | 100    |
-|                           | John Oelkees       | 105    |
-|                           | Andy Lehn          | 125    |
-|                           | George Bessette    | 135    |
-|                           | Pibor Jung         | 145    |
-|                           | Bill Carney        | 155    |
-| Apollo Jr. High           | Dave Sherran       | 90     |
-|                           | Angelo Campanella  | 125    |
-| Belleville                | Ed Cantrell        | 60     |
-|                           | John Churchill     | 60     |
-|                           | Tim Allgire        | 65     |
-|                           | Bob Calhoun        | 70     |
-|                           | Mike Neiner        | 80     |
-| Belvidere                 | Dave Doulghenbauch | 75     |
-|                           | Kerry Flynn        | 90     |
-|                           | Jody Flynn         | 95     |
-|                           | Dave Loos          | 125    |
-| Big Hollow W.C.           | Rich Ilmberger     | 170    |
-| Bismarck                  | Mike Hoover        | 70     |
-|                           | Dan Smalley        | 100    |
-| Bloomington Jr. High      | Brad Johnson       | 70     |
-|                           | Carlos Ortiz       | 111    |
-|                           | Randy Evans        | 118    |
-|                           | Charles Robb       | 125    |
-|                           | Gill Crutcher      | 275    |
-| Indian Trail / Addison    | Rodriguez          | 111    |
-|                           | Lullo              | 118    |
-| Indian Trail / Plainfield | John Walter        | 60     |
-|                           | Ed Moholick        | 65     |
-|                           | Mike Witkowski     | 65     |
-|                           | Chuck McCann       | 75     |
-|                           | Dave Dupree        | 75     |
-|                           | Nick Quas          | 85     |
-|                           | John Rajich        | 95     |
-|                           | Darren Herbst      | 111    |
-|                           | Rich Henderson     | 118    |
-|                           | Guy Pennington     | 155    |
-|                           | Eric Greenup       | 185    |
-| Jack London               | Jeff Brannan       | 60     |
-|                           | Steve Petersen     | 85     |
-|                           | Mark Nowak         | 111    |
-|                           | Mike Wilson        | 185    |
-|                           | Marcelino Garcia   | 275    |
-| Jane Adams                | Mike Oshiro        | 111    |
-|                           | Jeff Goodwin       | 135    |
-|                           | Lou Rinaldi        | 185    |
-| Joliet YMCA               | Tim Meagher        | 70     |
-|                           | Chris Scott        | 80     |
-|                           | Vincent Criscione  | 90     |
-|                           | Sean Mann          | 95     |
-|                           | Todd Conroy        | 100    |
-|                           | Keith Rumchuck     | 118    |
-| Jordon Jr. High           | Mike Patting       | 95     |
-|                           | John Doak          | 111    |
-|                           | John Wetderell     | 118    |
-| King Upper Grade          | Rodger Mayer       | 118    |
-| Lake Villa                | Carl Hildinger     | 85     |
-|                           | Todd Jenkins       | 90     |
-|                           | Bob Ratajczyk      | 118    |
-| Blue Island W.C.          | Kevin Goudeau      | 275    |
-| Bower                     | Randy Crow         | 170    |
-| Calumet Pk. Dist.         | Mark Antonietti    | 170    |
-| Carbondale                | Eric Walker        | 65     |
-|                           | Scott Grammer      | 90     |
-|                           | Matt Lemming       | 100    |
-|                           | Tim Brown          | 111    |
-|                           | Adam Phavorachit   | 118    |
-| Champaign W.C.            | Eric Mueller       | 75     |
-|                           | Dennis Stabl       | 185    |
-|                           | Dana Anastasia     | 135    |
-| Chicago Ridge             | Dan Evensen        | 60     |
-|                           | Mike O'Brien       | 65     |
-|                           | Greg Flores        | 90     |
-|                           | Pat Nolan          | 95     |
-|                           | Tony Evenson       | 105    |
-|                           | Tim Cocco          | 125    |
-| Bobcats                   | Nino Chiapetta     | 60     |
-|                           | Joe Chiapetta      | 75     |
-|                           | Gennevali          | 170    |
-| Coal City                 | Dan Residori       | 95     |
-|                           | Mike Friddle       | 105    |
-| Cooper                    | Tony Rivoppo       | 100    |
-|                           | Bob Bruno          | 185    |
-| Decatur                   | Jeff Scott         | 60     |
-|                           | Walter Scott       | 65     |
-|                           | Scoh Mitchell      | 85     |
-|                           | Tom Velek          | 118    |
-| Lake Zurich W.C.          | Kollin Stagnito    | 65     |
-|                           | Jeff Pahlos        | 70     |
-|                           | Dave Berg          | 75     |
-|                           | Korry Stagnito     | 95     |
-|                           | Mike Meinhart      | 275    |
-| Lil Reaper W.C.           | Dan Goldsmith      | 170    |
-|                           | Rich Spears        | 185    |
-|                           | Dave Browning      | 275    |
-| Lincoln Jr. High          | Joe Landis         | 90     |
-|                           | Daron Smith        | 145    |
-| Lincoln Cicero            | Spacone            | 65     |
-|                           | Dorich             | 70     |
-|                           | Flanagan           | 80     |
-| Lisle                     | Winze              | 275    |
-| Lockport Wrestlers        | Mitchell           | 185    |
-| Lombard Jr. Rams          | Zezuiak            | 185    |
-| Lundahl Jr. High          | Steve Schrey       | 111    |
-|                           | Chuck Sherman      | 155    |
-|                           | Joe Fortin         | 170    |
-| Mahomet Seymour           | Robbie Porter      | 65     |
-|                           | Greg Durst         | 75     |
-|                           | Gary Campbell      | 80     |
-|                           | Steve Zehr         | 85     |
-| Mat Burns                 | Terry Higgins      | 80     |
-|                           | Fernado Malablhar  | 111    |
-|                           | Tony Cortese       | 118    |
-|                           | Mike Burke         | 118    |
-|                           | Eric Koeller       | 170    |
-|                           | Lou Rodriguez      | 275    |
-| Deerpath                  | Todd Stanton       | 80     |
-| Dolton                    | Jim Throw          | 60     |
-|                           | John Bulf          | 95     |
-|                           | Bill Anderson      | 155    |
-| Dundee Highlanders        | Roger Shelton      | 75     |
-|                           | Dave Alborn        | 135    |
-| East Moline               | Bam Bam Pustelnik  | 60     |
-|                           | Chris Tiemeier     | 70     |
-|                           | Shawn Harris       | 135    |
-|                           | Dale Johnson       | 185    |
-| Edwardsville              | Steve Schmidt      | 90     |
-|                           | Greg Mihalich      | 125    |
-|                           | Eric Brown         | 135    |
-|                           | Tracy Bradford     | 170    |
-|                           | Eric Wildgrube     | 185    |
-| Eisenhower                | Johnson            | 65     |
-|                           | Denning            | 80     |
-|                           | Knez               | 100    |
-|                           | Kallas             | 135    |
-|                           | Little             | 145    |
-|                           | Miller             | 155    |
-| Franklin Pk Raiders       | Kevin Powers       | 70     |
-|                           | Peter Tarzygnat    | 80     |
-|                           | Scott Fitzgibbons  | 95     |
-|                           | Dave Vohaska       | 155    |
-| Glenview                  | Mike Redden        | 135    |
-| Glenwood                  | Lance Pero         | 65     |
-|                           | Jeff Adams         | 170    |
-| Mattoon W.C.              | Terry Thomason     | 105    |
-|                           | Greg Winchester    | 111    |
-| McDonough County YMCA     | Troy Protsman      | 65     |
-| Mokena                    | Dwane Maue         | 70     |
-|                           | Bryant Capodice    | 100    |
-|                           | Rick Pedigo        | 111    |
-| Mount Greenwood           | Bob Clancy         | 155    |
-|                           | Mike Eperjesi      | 275    |
-| Naperville                | Phil Gray          | 60     |
-|                           | Reid Diehl         | 80     |
-|                           | Ralf Diehl         | 85     |
-|                           | Bob Davies         | 125    |
-|                           | Connor McCarthy    | 145    |
-|                           | Larry Parece       | 155    |
-| Normal                    | Jammie Abbott      | 170    |
-| Oak Forest                | Craig DeBevec      | 70     |
-|                           | Mike Muilli        | 80     |
-|                           | Brian Porter       | 105    |
-|                           | Kevin Jarchow      | 118    |
-|                           | Dale Schmidt       | 145    |
-| Oak Park                  | Rich Ryser         | 75     |
-|                           | Jeff Sorensen      | 155    |
-|                           | James Holman       | 170    |
-|                           | Craig Drummond     | 185    |
-|                           | John Phelan        | 275    |
-| Orland Park               | Mike LaMonica      | 60     |
-|                           | Mike Urwin         | 60     |
-|                           | Mark Olsen         | 90     |
-|                           | Tom Hoch           | 105    |
-| Gompers Jr. High          | Reed               | 135    |
-|                           | Sefcik             | 185    |
-| Gower                     | Pat Kohl           | 90     |
-|                           | Kevin Craggs       | 100    |
-| Grigsby                   | Mike Bellipanni    | 85     |
-|                           | Kent Patterson     | 105    |
-|                           | Bob Unger          | 111    |
-|                           | Mike Kessler       | 135    |
-|                           | Frank Edwards      | 145    |
-|                           | John Morris        | 170    |
-| Harvard W.C.              | Dan Muehl          | 65     |
-|                           | Tim Linhart        | 145    |
-| Hickory Hills             | Joe Zaccone        | 85     |
-|                           | Bill Collins       | 105    |
-|                           | Steve Myers        | 111    |
-|                           | Mike Flannery      | 125    |
-|                           | Tim Johnson        | 145    |
-|                           | Scott Scelfo       | 170    |
-| Holmes Jr. High           | Alegoz Satlimis    | 135    |
-|                           | Derek Grandt       | 145    |
-| Hoopeston E. Lynn         | Doug Dennison      | 95     |
-|                           | Darrin Pierce      | 100    |
-| Hufford                   | Craig Sterr        | 70     |
-|                           | Jim Henderson      | 100    |
-| Huntley Middle School     | Brad Larson        | 80     |
-|                           | Jeff Meier         | 85     |
-|                           | Bill Herrmann      | 90     |
-|                           | Paul Hemmett       | 105    |
-|                           | Ken Taylor         | 275    |
-| Huth Jr. High             | Dean Rodgers       | 118    |
-|                           | Mike Webster       | 275    |
-| Palatine P.D.             | Jim Rosman         | 118    |
-| Palos South               | Joe White          | 75     |
-|                           | Dave Elkin         | 80     |
-|                           | Scott Barczi       | 111    |
-|                           | John Connel        | 135    |
-| Panther W.C.              | Mark Becker        | 60     |
-|                           | Joe Bochenski      | 70     |
-|                           | Jon Popp           | 75     |
-|                           | Ken Sroka          | 85     |
-|                           | Jim Schultz        | 90     |
-|                           | Keith Healy        | 90     |
-|                           | Jerry Blaney       | 95     |
-|                           | Jim Popp           | 111    |
-|                           | Gary Enquita       | 135    |
-| Park Ridge                | Bill Lamanna       | 60     |
-|                           | John Loos          | 65     |
-|                           | Ralph Milito       | 85     |
-| Pekin B.C.                | Chuck Reed         | 60     |
-|                           | Todd Spraggs       | 105    |
-|                           | Kip Flairty        | 155    |
-| Peter Claver              | Fredrick Ferguson  | 75     |
-| Pontiac                   | Joe Lind           | 70     |
-|                           | Richard Weaver     | 275    |
-| Prather                   | Collin Davis       | 70     |
-|                           | Bruce Widel        | 95     |
-|                           | Mark Gowdy         | 105    |
-|                           | John Frangovils    | 118    |
-|                           | Bill Zimmer        | 155    |
-|                           | Eric Gunderson     | 185    |
-|                           | Bob Allen          | 275    |
-| Quincy                    | Randy Womack       | 85     |
-| Rantoul                   | Jim Scherbering    | 185    |
-| Rich Township             | Dean Souder        | 65     |
-|                           | Scott Zayner       | 80     |
-|                           | Mike Terrell       | 85     |
-|                           | Todd Kunz          | 95     |
-|                           | John Terrell       | 125    |
-|                           | James Cotton       | 135    |
-|                           | Charles VanGamert  | 145    |
-|                           | Ed Lusting         | 275    |
-| Riverdale                 | Shawn Wildermuth   | 145    |
-| River Trails              | Robert Watters     | 100    |
-|                           | Ronald Renaud      | 185    |
-| Rock Falls                | Darren Brown       | 60     |
-|                           | Danny Bushaw       | 155    |
-|                           | Gilbert Almanza    | 155    |
-| Rosemont Cobras           | Mike Chicoski      | 60     |
-|                           | Kirk Jurinek       | 65     |
-|                           | Phillip Chihoski   | 70     |
-|                           | Marvin Robackowski | 75     |
-|                           | Tom Klescyk        | 100    |
-| Rosette Middle School     | Scott Sisler       | 80     |
-|                           | Tim Weeks          | 85     |
-|                           | Don Butler         | 100    |
-|                           | Joe Hoiness        | 125    |
-|                           | Scott Herbert      | 145    |
-| Roxana Jr. High           | Rob Millazzo       | 75     |
-|                           | Chris Paynic       | 80     |
-|                           | Rob Mauser         | 95     |
-| Shady Lane W.C.           | Scott Sutton       | 60     |
-|                           | Jeff Jensen        | 70     |
-|                           | John Corrigan      | 105    |
-|                           | Mike Rowden        | 125    |
-| Springfield S.E.          | Kane Robertson     | 125    |
-|                           | Jerry Ware         | 170    |
-| Springfield W.C.          | John Suter         | 80     |
-|                           | Dick McCormick     | 135    |
-|                           | John Rodlands      | 145    |
-| St. Barnabas              | Tom Carroll        | 70     |
-|                           | Hal Olofsson       | 85     |
-|                           | Mah Fassan         | 100    |
-|                           | Ed Cineda          | 145    |
-| St. Phillips              | Laparker Evereh    | 75     |
-|                           | Rod Martin         | 170    |
-| St. Tarcissus             | John Egan          | 125    |
-| Summit Hill               | Don Miller         | 155    |
-| Sycamore                  | Steve Glawe        | 75     |
-|                           | Bill Schepler      | 100    |
-|                           | Jerry Dobson       | 111    |
-|                           | Ric Petruchius     | 118    |
-|                           | Paul Klink         | 170    |
-| Tinley Park               | Mike Pfingston     | 65     |
-|                           | Ted Howlett        | 85     |
-|                           | Dave Arndt         | 90     |
-|                           | Dion Stewart       | 125    |
-| Trimpe                    | Dave Miller        | 155    |
-| Troy                      | Phil Daniels       | 80     |
-|                           | Jamie Litchfield   | 90     |
-|                           | Rene Robles        | 105    |
-|                           | Bob Atkinson       | 118    |
-|                           | Frank Ostir        | 135    |
-|                           | Jim Taylor         | 170    |
-| Urbana                    | Mike Arnold        | 90     |
-|                           | Mark Mannen        | 95     |
-| Vittum Vikings            | Schilling          | 100    |
-| Ward Middle School        | Ken Johnson        | 145    |
-|                           | Ray Tyree          | 275    |
-| Washington Jr. High       | Navel Woods        | 75     |
-|                           | Houston            | 155    |
-| West Chicago              | Carlson            | 95     |
-|                           | Cothron            | 105    |
-|                           | Hernandez          | 125    |
-|                           | Jaskowke           | 155    |
-|                           | Shemshedini        | 170    |
-|                           | King               | 185    |
-| West Leyden               | Mike Hruska        | 85     |
-|                           | Bob Gonnella       | 90     |
-|                           | Danny Marcinac     | 95     |
-|                           | Wayne Bohenek      | 105    |
-|                           | Dave Paske         | 105    |
-|                           | Bob Guerrieri      | 111    |
-| Westview Hills            | Martin             | 145    |
-|                           | Schrock            | 275    |
-| Wheaton Pk Dist.          | Pierre             | 85     |
-| Dixon W.C.                | Joe Williams       | 70     |
-| Stephens Middle School    | Chris Greham       | 125    |
-| Murphysboro               | Chett McAdams      | 145    |
+Note in 1979 there were not 24 qualifiers. Instead it was an "extended" 16 man
+bracket. 14 normal spots and then 2 pigtails in random places for a total of
+18 wrestlers per bracket.
 """
 
 import pathlib
 
 import bracket_utils
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
-_SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
-    60: bracket_utils.Placer(name="Phil Gray", team="Naperville"),
-    65: bracket_utils.Placer(name="Mike O'Brien", team="Chicago Ridge"),
-    70: bracket_utils.Placer(name="Tim Meagher", team="Joliet YMCA"),
-    75: bracket_utils.Placer(name="Rob Milazzo", team="Roxana"),
-    80: bracket_utils.Placer(name="Chris Scott", team="Joliet YMCA"),
-    85: bracket_utils.Placer(name="Nick Quaz", team="Plainfield"),
-    90: bracket_utils.Placer(name="Keith Healy", team="Burbank"),
-    95: bracket_utils.Placer(name="Jerry Blaney", team="Burbank"),
-    100: bracket_utils.Placer(name="Brian Capodice", team="Mokena"),
-    105: bracket_utils.Placer(name="Tony Evensen", team="Chicago Ridge"),
-    111: bracket_utils.Placer(name="Bob Guirriero", team="West Leyden"),
-    118: bracket_utils.Placer(name="Rich Henderson", team="Plainfield Indian Tr"),
-    125: bracket_utils.Placer(name="Tim Cocco", team="Chicago Ridge"),
-    135: bracket_utils.Placer(name="George Bessette", team="Antioch"),
-    145: bracket_utils.Placer(name="Dale Schmidt", team="Oak Forest Warriors"),
-    155: bracket_utils.Placer(name="Dave Vohaska", team="Franklin Park"),
-    170: bracket_utils.Placer(name="Rod Martin", team="St. Philip Neri"),
-    185: bracket_utils.Placer(name="Dennis Stabl", team="Champaign"),
-    275: bracket_utils.Placer(name="Ray Tyree", team="Bolingbrook Ward"),
+_SENIOR_COMPETITORS: dict[int, list[str | None]] = {
+    60: [
+        "Bam Bam Pustelnik :: East Moline",
+        "Mike Urwin :: Orland Park",
+        None,
+        "Phil Gray :: Naperville :: 1",
+        "Jeff Scott :: Decatur",
+        None,
+        "Ed Cantrell :: Belleville",
+        "Jeff Brannan :: Jack London",
+        None,
+        "Mark Becker :: Panther W.C.",
+        "Jim Throw :: Dolton",
+        "Mike Chihoski :: Rosemont Cobras",
+        "Mike LaMonica :: Orland Park",
+        "Darren Brown :: Rock Falls",
+        "Nino Chiapetta :: Bobcats",
+        "Chuck Reed :: Pekin B.C.",
+        "John Walter :: Indian Trail / Plainfield",
+        None,
+        "Scott Sutton :: Shady Lane W.C.",
+        "John Churchill :: Belleville",
+        None,
+        "Dan Evensen :: Chicago Ridge",
+        "Bill Lamanna :: Park Ridge",
+        None,
+    ],
+    65: [
+        "Welsh :: Coolidge",
+        "Mike Witkowski :: Indian Trail / Plainfield",
+        None,
+        "Lance Pero :: Glenwood",
+        "Walter Scott :: Decatur",
+        "Mike Pfingston :: Tinley Park",
+        "Tim Allgire :: Belleville",
+        "Johnson :: Eisenhower",
+        None,
+        "Dan Muehl :: Harvard W.C.",
+        "Troy Protsman :: McDonough County YMCA",
+        None,
+        "Ed Moholick :: Indian Trail / Plainfield",
+        "Kirk Jurinek :: Rosemont Cobras",
+        None,
+        "Robbie Porter :: Mahomet Seymour",
+        "Mike O'Brien :: Chicago Ridge :: 1",
+        None,
+        "Spacone :: Lincoln Cicero",
+        "Eric Walker :: Carbondale",
+        "Dean Souder :: Rich Township",
+        "John Loos :: Park Ridge",
+        "Kollin Stagnito :: Lake Zurich W.C.",
+        None,
+    ],
+    70: [
+        "Chris Tiemeier :: East Moline",
+        "Brad Johnson :: Bloomington Jr. High",
+        None,
+        "Tim Meagher :: Joliet YMCA :: 1",
+        "Bob Calhoun :: Belleville",
+        None,
+        "Joe Lind :: Pontiac",
+        "Joe Bochenski :: Panther W.C.",
+        None,
+        "Craig DeBevec :: Oak Forest",
+        "Jeff Jensen :: Shady Lane W.C.",
+        "Phillip Chihoski :: Rosemont Cobras",
+        "Mike Hoover :: Bismarck",
+        "Joe Williams :: Dixon W.C.",
+        None,
+        "Collin Davis :: Prather",
+        "Dwane Maue :: Mokena",
+        None,
+        "Jeff Pahlos :: Lake Zurich W.C.",
+        "Dorich :: Lincoln Cicero",
+        "Craig Sterr :: Hufford",
+        "Kevin Powers :: Franklin Pk Raiders",
+        "Tom Carroll :: St. Barnabas",
+        None,
+    ],
+    75: [
+        "Steve Glawe :: Sycamore",
+        "Dave Berg :: Lake Zurich W.C.",
+        "Kip Kristoff :: Alton W.C.",
+        "Fredrick Ferguson :: Peter Claver",
+        "Jon Popp :: Panther W.C.",
+        None,
+        "Chuck McCann :: Indian Trail / Plainfield",
+        "Laparker Everett :: St. Phillips",
+        None,
+        "Eric Mueller :: Champaign W.C.",
+        "Rich Ryser :: Oak Park",
+        None,
+        "Rob Millazzo :: Roxana Jr. High :: 1",
+        "Roger Shelton :: Dundee Highlanders",
+        None,
+        "Joe Chiapetta :: Bobcats",
+        "Navel Woods :: Washington Jr. High",
+        None,
+        "Joe White :: Palos South",
+        "Dave Dupree :: Indian Trail / Plainfield",
+        None,
+        "Marvin Robackowski :: Rosemont Cobras",
+        "Greg Durst :: Mahomet Seymour",
+        "Dave Doulghenbauch :: Belvidere",
+    ],
+    80: [
+        "Scott Sisler :: Rosette Middle School",
+        "Peter Tarzygnat :: Franklin Pk Raiders",
+        "Reid Diehl :: Naperville",
+        "Chris Scott :: Joliet YMCA :: 1",
+        "Jeff Nieze :: Antioch Upper Grade",
+        None,
+        "Mike Neiner :: Belleville",
+        "Denning :: Eisenhower",
+        None,
+        "John Suter :: Springfield W.C.",
+        "Dave Elkin :: Palos South",
+        None,
+        "Terry Higgins :: Mat Burns",
+        "Brad Larson :: Huntley Middle School",
+        None,
+        "Todd Stanton :: Deerpath",
+        "Chris Paynic :: Roxana Jr. High",
+        "Scott Zayner :: Rich Township",
+        "Phil Daniels :: Troy",
+        "Flanagan :: Lincoln Cicero",
+        None,
+        "Mike Muilli :: Oak Forest",
+        "Gary Campbell :: Mahomet Seymour",
+        None,
+    ],
+    85: [
+        "Tim Weeks :: Rosette Middle School",
+        "Steve Zehr :: Mahomet Seymour",
+        None,
+        "Joe Zaccone :: Hickory Hills",
+        "Ralf Diehl :: Naperville",
+        None,
+        "Mike Hruska :: West Leyden",
+        "Randy Womack :: Quincy",
+        None,
+        "Carl Hildinger :: Lake Villa",
+        "Ken Sroka :: Panther W.C.",
+        "Hal Olofsson :: St. Barnabas",
+        "Pierre :: Wheaton Pk Dist.",
+        "Jeff Meier :: Huntley Middle School",
+        "Scoh Mitchell :: Decatur",
+        "Nick Quas :: Indian Trail / Plainfield :: 1",
+        "Mike Terrell :: Rich Township",
+        None,
+        "Mike Bellipanni :: Grigsby",
+        "Ralph Milito :: Park Ridge",
+        None,
+        "Ted Howlett :: Tinley Park",
+        "Steve Petersen :: Jack London",
+        None,
+    ],
+    90: [
+        "Bill Herrmann :: Huntley Middle School",
+        "Dave Arndt :: Tinley Park",
+        None,
+        "Vincent Criscione :: Joliet YMCA",
+        "Jamie Litchfield :: Troy",
+        None,
+        "Mike Arnold :: Urbana",
+        "Steve Schmidt :: Edwardsville",
+        None,
+        "Jim Schultz :: Panther W.C.",
+        "Dave Sherman :: Apollo Jr. High",
+        "Todd Jenkins :: Lake Villa",
+        "Greg Flores :: Chicago Ridge",
+        "Kerry Flynn :: Belvidere",
+        None,
+        "Bob Gonnella :: West Leyden",
+        "Pat Kohl :: Gower",
+        "Mark Olsen :: Orland Park",
+        "Scott Grammer :: Carbondale",
+        "Joe Landis :: Lincoln Jr. High",
+        None,
+        "Tad DeRousse :: Antioch Upper Grade",
+        "Keith Healy :: Panther W.C. :: 1",
+        None,
+    ],
+    95: [
+        "Jody Flynn :: Belvidere",
+        "Todd Kunz :: Rich Township",
+        "Steve Case :: Antioch Upper Grade",
+        "Dan Residori :: Coal City",
+        "Danny Marcinac :: West Leyden",
+        None,
+        "Doug Dennison :: Hoopeston E. Lynn",
+        "Carlson :: West Chicago",
+        None,
+        "Bruce Widel :: Prather",
+        "Pat Nolan :: Chicago Ridge",
+        None,
+        "Korry Stagnito :: Lake Zurich W.C.",
+        "Sean Mann :: Joliet YMCA",
+        None,
+        "Scott Fitzgibbons :: Franklin Pk Raiders",
+        "John Rajich :: Indian Trail / Plainfield",
+        None,
+        "Jerry Blaney :: Panther W.C. :: 1",
+        "Mike Patting :: Jordon Jr. High",
+        "Mark Mannen :: Urbana",
+        "John Bulf :: Dolton",
+        "Rob Mauser :: Roxana Jr. High",
+        None,
+    ],
+    100: [
+        "Todd Conroy :: Joliet YMCA",
+        "Don Butler :: Rosette Middle School",
+        None,
+        "Jim Henderson :: Hufford",
+        "Charlie Sherertz :: Alton W.C.",
+        "Mah Fassan :: St. Barnabas",
+        "Dan Smalley :: Bismarck",
+        "Tim Curtis :: Antioch Upper Grade",
+        None,
+        "Knez :: Eisenhower",
+        "Tom Klescyk :: Rosemont Cobras",
+        None,
+        "Fitzgerald :: Oak Lawn",
+        "Bryant Capodice :: Mokena :: 1",
+        None,
+        "Matt Lemming :: Carbondale",
+        "Schilling :: Vittum Vikings",
+        "Kevin Craggs :: Gower",
+        "Tony Rivoppo :: Cooper",
+        "Darrin Pierce :: Hoopeston E. Lynn",
+        None,
+        "Robert Watters :: River Trails",
+        "Bill Schepler :: Sycamore",
+        None,
+    ],
+    105: [
+        "Welch :: Coolidge",
+        "Bill Collins :: Hickory Hills",
+        None,
+        "Mike Friddle :: Coal City",
+        "Todd Spraggs :: Pekin B.C.",
+        None,
+        "Mark Gowdy :: Prather",
+        "John Corrigan :: Shady Lane W.C.",
+        None,
+        "Jacobs :: Lincoln Cicero",
+        "Brian Porter :: Oak Forest",
+        "Dave Paske :: West Leyden",
+        "Tom Hoch :: Orland Park",
+        "Paul Hammett :: Huntley Middle School",
+        "Cothron :: West Chicago",
+        "Terry Thomason :: Mattoon W.C.",
+        "Rene Robles :: Troy",
+        None,
+        "John Oelkers :: Antioch Upper Grade",
+        "Kent Patterson :: Grigsby",
+        None,
+        "Tony Evensen :: Chicago Ridge :: 1",
+        "Wayne Bohenek :: West Leyden",
+        None,
+    ],
+    111: [
+        "John Doak :: Jordon Jr. High",
+        "Mike Oshiro :: Jane Adams",
+        None,
+        "Rick Pedigo :: Mokena",
+        "Greg Winchester :: Mattoon W.C.",
+        "Scott Barczi :: Palos South",
+        "Bob Unger :: Grigsby",
+        "Rodriguez :: Indian Trail / Addison",
+        None,
+        "Steve Schrey :: Lundahl Jr. High",
+        "Fernado Malabehar :: Mat Burns",
+        None,
+        "Darren Herbst :: Indian Trail / Plainfield",
+        "Jerry Dobson :: Sycamore",
+        None,
+        "Carlos Ortiz :: Bloomington Jr. High",
+        "Denton :: Hazel Crest",
+        None,
+        "Jim Popp :: Panther W.C.",
+        "Tim Brown :: Carbondale",
+        "Steve Myers :: Hickory Hills",
+        "Bob Guerrieri :: West Leyden :: 1",
+        "Mark Nowak :: Jack London",
+        None,
+    ],
+    118: [
+        "Ric Petruchius :: Sycamore",
+        "Tom Vielek :: Decatur",
+        None,
+        "Dean Rodgers :: Huth Jr. High",
+        "John Frangovils :: Prather",
+        None,
+        "Rich Henderson :: Indian Trail / Plainfield :: 1",
+        "Taylor :: West Chicago",
+        None,
+        "Kevin Jarchow :: Oak Forest",
+        "Jim Rosman :: Palatine P.D.",
+        "Mike Burke :: Mat Burns",
+        "Randy Evans :: Bloomington Jr. High",
+        "John Wetherell :: Jordon Jr. High",
+        None,
+        "Adam Phavorachit :: Carbondale",
+        "Keith Rumchuck :: Joliet YMCA",
+        None,
+        "Bob Ratajczyk :: Lake Villa",
+        "Lullo :: Indian Trail / Addison",
+        "Bob Atkinson :: Troy",
+        "Tony Cortese :: Mat Burns",
+        "Rodger Mayer :: King Upper Grade",
+        None,
+    ],
+    125: [
+        "Dave Loos :: Belvidere",
+        "Andy Lehn :: Antioch Upper Grade",
+        "Greg Mihalich :: Edwardsville",
+        "John Terrell :: Rich Township",
+        "Lavenske :: Lincoln Cicero",
+        None,
+        "Chris Gresham :: Stephens Middle School",
+        "Dion Stewart :: Tinley Park",
+        None,
+        "Charles Robb :: Bloomington Jr. High",
+        "John Egan :: St. Tarcissus",
+        None,
+        "Jeff Nichols :: Alton W.C.",
+        "Mike Rowden :: Shady Lane W.C.",
+        None,
+        "Hernandez :: West Chicago",
+        "Mike Flannery :: Hickory Hills",
+        None,
+        "Tim Cocco :: Chicago Ridge :: 1",
+        "Bob Davies :: Naperville",
+        None,
+        "Angelo Campanella :: Apollo Jr. High",
+        "Joe Hoiness :: Rosette Middle School",
+        "Kane Robertson :: Springfield S.E.",
+    ],
+    135: [
+        "Williams :: Coolidge",
+        "Dana Anastasia :: Champaign W.C.",
+        "Frank Ostir :: Troy",
+        "Reed :: Gompers Jr. High",
+        "Dave Alborn :: Dundee Highlanders",
+        None,
+        "Gary Enquita :: Panther W.C.",
+        "Eric Brown :: Edwardsville",
+        None,
+        "Dick McCormick :: Springfield W.C.",
+        "John Connel :: Palos South",
+        None,
+        "Mike Redden :: Glenview",
+        "Shawn Harris :: East Moline",
+        None,
+        "George Bessette :: Antioch Upper Grade :: 1",
+        "Mike Kessler :: Grigsby",
+        "James Cotton :: Rich Township",
+        "Jeff Goodwin :: Jane Adams",
+        "Kallas :: Eisenhower",
+        None,
+        "Mucenski :: Calumet City",
+        "Alegoz Satlimis :: Holmes Jr. High",
+        None,
+    ],
+    145: [
+        "Scott Herbert :: Rosette Middle School",
+        "John Rodlands :: Springfield W.C.",
+        None,
+        "Tim Johnson :: Hickory Hills",
+        "Connor McCarthy :: Naperville",
+        None,
+        "Asquini :: Glenview",
+        "Frank Edwards :: Grigsby",
+        None,
+        "Tim Linhart :: Harvard W.C.",
+        "Martin :: Westview Hills",
+        "Ed Cineda :: St. Barnabas",
+        "Little :: Eisenhower",
+        "Shawn Wildermuth :: Riverdale",
+        "Daron Smith :: Lincoln Jr. High",
+        "Ken Johnson :: Ward Middle School",
+        "Charles VanGamert :: Rich Township",
+        None,
+        "Chett McAdams :: Murphysboro",
+        "Derek Grandt :: Holmes Jr. High",
+        None,
+        "Dale Schmidt :: Oak Forest :: 1",
+        "Pibor Jung :: Antioch Upper Grade",
+        None,
+    ],
+    155: [
+        "Danny Bushaw :: Rock Falls",
+        "Bob Clancy :: Mount Greenwood",
+        None,
+        "Houston :: Washington Jr. High",
+        "Larry Parece :: Naperville",
+        None,
+        "Geese :: Mahomet Seymour",
+        "Dave Miller :: Trimpe",
+        None,
+        "Miller :: Eisenhower",
+        "Jeff Sorensen :: Oak Park",
+        "Chuck Sherman :: Lundahl Jr. High",
+        "Bill Anderson :: Dolton",
+        "Gilbert Almanza :: Rock Falls",
+        None,
+        "Dave Vohaska :: Franklin Pk Raiders :: 1",
+        "Guy Pennington :: Indian Trail / Plainfield",
+        "Don Miller :: Summit Hill",
+        "Bill Zimmer :: Prather",
+        "Kip Flairty :: Pekin B.C.",
+        None,
+        "Bill Carney :: Antioch Upper Grade",
+        "Jaskowke :: West Chicago",
+        None,
+    ],
+    170: [
+        "Dan Goldsmith :: Lil Reaper W.C.",
+        "Scott Scelfo :: Hickory Hills",
+        "Joe Fortin :: Lundahl Jr. High",
+        "Jim Taylor :: Troy",
+        "James Holman :: Oak Park",
+        None,
+        "Jammie Abbott :: Normal",
+        "Gennevali :: Bobcats",
+        None,
+        "Tracy Bradford :: Edwardsville",
+        "Mark Antonietti :: Calumet Pk. Dist.",
+        None,
+        "Rich Ilmberger :: Big Hollow W.C.",
+        "Eric Koeller :: Mat Burns",
+        None,
+        "Jeff Adams :: Glenwood",
+        "Randy Crow :: Bower",
+        None,
+        "Shemshedini :: West Chicago",
+        "Paul Klink :: Sycamore",
+        "Jerry Ware :: Springfield S.E.",
+        "Rod Martin :: St. Phillips :: 1",
+        "John Morris :: Grigsby",
+        None,
+    ],
+    185: [
+        "Sefcik :: Gompers Jr. High",
+        "Dale Johnson :: East Moline",
+        None,
+        "Eric Greenup :: Indian Trail / Plainfield",
+        "Eric Gunderson :: Prather",
+        None,
+        "Dennis Stabl :: Champaign W.C. :: 1",
+        "Mike Wilson :: Jack London",
+        None,
+        "King :: West Chicago",
+        "Craig Drummond :: Oak Park",
+        None,
+        None,
+        "Mitchell :: Lockport Wrestlers",
+        None,
+        "Eric Wildgrube :: Edwardsville",
+        "Zezulak :: Lombard Jr. Rams",
+        "Lou Rinaldi :: Jane Adams",
+        "Bob Bruno :: Cooper",
+        "Jim Scherbering :: Rantoul",
+        None,
+        "Ronald Renaud :: River Trails",
+        "Rich Spears :: Lil Reaper W.C.",
+        None,
+    ],
+    275: [
+        "Ken Taylor :: Huntley Middle School",
+        "Ed Lusting :: Rich Township",
+        None,
+        "Ray Tyree :: Ward Middle School :: 1",  # Bolingbrook
+        None,
+        None,
+        "Davis :: Trimpe",
+        "Mike Meinhart :: Lake Zurich W.C.",
+        None,
+        "Winze :: Lisle",
+        "Kevin Goudeau :: Blue Island W.C.",
+        "John Phelan :: Oak Park",
+        "Mike Webster :: Huth Jr. High",
+        "Dave Browning :: Lil Reaper W.C.",
+        "Schrock :: Westview Hills",
+        "Gill Crutcher :: Bloomington Jr. High",
+        "Richard Weaver :: Pontiac",
+        None,
+        "Marcelino Garcia :: Jack London",
+        "Bob Allen :: Prather",
+        None,
+        "Mike Eperjesi :: Mount Greenwood",
+        "Lou Rodriguez :: Mat Burns",
+        None,
+    ],
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
     "PLAINFIELD": 146.0,
     "JOLIET YMCA": 119.0,
+}
+_NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
+    ("Bam Bam Pustelnik", "East Moline"): bracket_utils.Competitor(
+        full_name="Bam Bam Pustelnik",
+        first_name="Bam Bam",
+        last_name="Pustelnik",
+        team_full="East Moline",
+    ),
+    ("Welsh", "Coolidge"): bracket_utils.Competitor(
+        full_name="Welsh",
+        first_name="",
+        last_name="Welsh",
+        team_full="Coolidge",
+    ),
+    ("Spacone", "Lincoln Cicero"): bracket_utils.Competitor(
+        full_name="Spacone",
+        first_name="",
+        last_name="Spacone",
+        team_full="Lincoln Cicero",
+    ),
+    ("Johnson", "Eisenhower"): bracket_utils.Competitor(
+        full_name="Johnson",
+        first_name="",
+        last_name="Johnson",
+        team_full="Eisenhower",
+    ),
+    ("Dorich", "Lincoln Cicero"): bracket_utils.Competitor(
+        full_name="Dorich",
+        first_name="",
+        last_name="Dorich",
+        team_full="Lincoln Cicero",
+    ),
+    ("Denning", "Eisenhower"): bracket_utils.Competitor(
+        full_name="Denning",
+        first_name="",
+        last_name="Denning",
+        team_full="Eisenhower",
+    ),
+    ("Flanagan", "Lincoln Cicero"): bracket_utils.Competitor(
+        full_name="Flanagan",
+        first_name="",
+        last_name="Flanagan",
+        team_full="Lincoln Cicero",
+    ),
+    ("Pierre", "Wheaton Pk Dist."): bracket_utils.Competitor(
+        full_name="Pierre",
+        first_name="",
+        last_name="Pierre",
+        team_full="Wheaton Pk Dist.",
+    ),
+    ("Carlson", "West Chicago"): bracket_utils.Competitor(
+        full_name="Carlson",
+        first_name="",
+        last_name="Carlson",
+        team_full="West Chicago",
+    ),
+    ("Knez", "Eisenhower"): bracket_utils.Competitor(
+        full_name="Knez",
+        first_name="",
+        last_name="Knez",
+        team_full="Eisenhower",
+    ),
+    ("Fitzgerald", "Oak Lawn"): bracket_utils.Competitor(
+        full_name="Fitzgerald",
+        first_name="",
+        last_name="Fitzgerald",
+        team_full="Oak Lawn",
+    ),
+    ("Schilling", "Vittum Vikings"): bracket_utils.Competitor(
+        full_name="Schilling",
+        first_name="",
+        last_name="Schilling",
+        team_full="Vittum Vikings",
+    ),
+    ("Welch", "Coolidge"): bracket_utils.Competitor(
+        full_name="Welch",
+        first_name="",
+        last_name="Welch",
+        team_full="Coolidge",
+    ),
+    ("Jacobs", "Lincoln Cicero"): bracket_utils.Competitor(
+        full_name="Jacobs",
+        first_name="",
+        last_name="Jacobs",
+        team_full="Lincoln Cicero",
+    ),
+    ("Cothron", "West Chicago"): bracket_utils.Competitor(
+        full_name="Cothron",
+        first_name="",
+        last_name="Cothron",
+        team_full="West Chicago",
+    ),
+    ("Rodriguez", "Indian Trail / Addison"): bracket_utils.Competitor(
+        full_name="Rodriguez",
+        first_name="",
+        last_name="Rodriguez",
+        team_full="Indian Trail / Addison",
+    ),
+    ("Denton", "Hazel Crest"): bracket_utils.Competitor(
+        full_name="Denton",
+        first_name="",
+        last_name="Denton",
+        team_full="Hazel Crest",
+    ),
+    ("Taylor", "West Chicago"): bracket_utils.Competitor(
+        full_name="Taylor",
+        first_name="",
+        last_name="Taylor",
+        team_full="West Chicago",
+    ),
+    ("Lullo", "Indian Trail / Addison"): bracket_utils.Competitor(
+        full_name="Lullo",
+        first_name="",
+        last_name="Lullo",
+        team_full="Indian Trail / Addison",
+    ),
+    ("Hernandez", "West Chicago"): bracket_utils.Competitor(
+        full_name="Hernandez",
+        first_name="",
+        last_name="Hernandez",
+        team_full="West Chicago",
+    ),
+    ("Lavenske", "Lincoln Cicero"): bracket_utils.Competitor(
+        full_name="Lavenske",
+        first_name="",
+        last_name="Lavenske",
+        team_full="Lincoln Cicero",
+    ),
+    ("Williams", "Coolidge"): bracket_utils.Competitor(
+        full_name="Williams",
+        first_name="",
+        last_name="Williams",
+        team_full="Coolidge",
+    ),
+    ("Reed", "Gompers Jr. High"): bracket_utils.Competitor(
+        full_name="Reed",
+        first_name="",
+        last_name="Reed",
+        team_full="Gompers Jr. High",
+    ),
+    ("Mucenski", "Calumet City"): bracket_utils.Competitor(
+        full_name="Mucenski",
+        first_name="",
+        last_name="Mucenski",
+        team_full="Calumet City",
+    ),
+    ("Kallas", "Eisenhower"): bracket_utils.Competitor(
+        full_name="Kallas",
+        first_name="",
+        last_name="Kallas",
+        team_full="Eisenhower",
+    ),
+    ("Asquini", "Glenview"): bracket_utils.Competitor(
+        full_name="Asquini",
+        first_name="",
+        last_name="Asquini",
+        team_full="Glenview",
+    ),
+    ("Little", "Eisenhower"): bracket_utils.Competitor(
+        full_name="Little",
+        first_name="",
+        last_name="Little",
+        team_full="Eisenhower",
+    ),
+    ("Martin", "Westview Hills"): bracket_utils.Competitor(
+        full_name="Martin",
+        first_name="",
+        last_name="Martin",
+        team_full="Westview Hills",
+    ),
+    ("Houston", "Washington Jr. High"): bracket_utils.Competitor(
+        full_name="Houston",
+        first_name="",
+        last_name="Houston",
+        team_full="Washington Jr. High",
+    ),
+    ("Geese", "Mahomet Seymour"): bracket_utils.Competitor(
+        full_name="Geese",
+        first_name="",
+        last_name="Geese",
+        team_full="Mahomet Seymour",
+    ),
+    ("Miller", "Eisenhower"): bracket_utils.Competitor(
+        full_name="Miller",
+        first_name="",
+        last_name="Miller",
+        team_full="Eisenhower",
+    ),
+    ("Jaskowke", "West Chicago"): bracket_utils.Competitor(
+        full_name="Jaskowke",
+        first_name="",
+        last_name="Jaskowke",
+        team_full="West Chicago",
+    ),
+    ("Shemshedini", "West Chicago"): bracket_utils.Competitor(
+        full_name="Shemshedini",
+        first_name="",
+        last_name="Shemshedini",
+        team_full="West Chicago",
+    ),
+    ("Gennevali", "Bobcats"): bracket_utils.Competitor(
+        full_name="Gennevali",
+        first_name="",
+        last_name="Gennevali",
+        team_full="Bobcats",
+    ),
+    ("Sefcik", "Gompers Jr. High"): bracket_utils.Competitor(
+        full_name="Sefcik",
+        first_name="",
+        last_name="Sefcik",
+        team_full="Gompers Jr. High",
+    ),
+    ("King", "West Chicago"): bracket_utils.Competitor(
+        full_name="King",
+        first_name="",
+        last_name="King",
+        team_full="West Chicago",
+    ),
+    ("Mitchell", "Lockport Wrestlers"): bracket_utils.Competitor(
+        full_name="Mitchell",
+        first_name="",
+        last_name="Mitchell",
+        team_full="Lockport Wrestlers",
+    ),
+    ("Zezulak", "Lombard Jr. Rams"): bracket_utils.Competitor(
+        full_name="Zezulak",
+        first_name="",
+        last_name="Zezulak",
+        team_full="Lombard Jr. Rams",
+    ),
+    ("Davis", "Trimpe"): bracket_utils.Competitor(
+        full_name="Davis",
+        first_name="",
+        last_name="Davis",
+        team_full="Trimpe",
+    ),
+    ("Winze", "Lisle"): bracket_utils.Competitor(
+        full_name="Winze",
+        first_name="",
+        last_name="Winze",
+        team_full="Lisle",
+    ),
+    ("Schrock", "Westview Hills"): bracket_utils.Competitor(
+        full_name="Schrock",
+        first_name="",
+        last_name="Schrock",
+        team_full="Westview Hills",
+    ),
 }
 
 
@@ -378,9 +773,16 @@ def main():
         )
 
     weight_classes: list[bracket_utils.WeightClass] = []
-    for weight, champ in _SENIOR_CHAMPS.items():
-        weight_class = bracket_utils.weight_class_from_champ(
-            "senior", weight, champ, _SENIOR_TEAM_REPLACE
+    for weight, competitors in _SENIOR_COMPETITORS.items():
+        bout_numbers = {}  # No bout numbers at all in 1979
+        weight_class = bracket_utils.weight_class_from_competitors(
+            "senior",
+            weight,
+            competitors,
+            _SENIOR_TEAM_REPLACE,
+            _NAME_EXCEPTIONS,
+            bout_numbers,
+            placers_type="champ",
         )
         weight_classes.append(weight_class)
 
@@ -388,7 +790,7 @@ def main():
         weight_classes=weight_classes, team_scores=team_scores, deductions=[]
     )
     extracted.sort()
-    with open(HERE / "extracted.1979.json", "w") as file_obj:
+    with open(_HERE / "extracted.1979.json", "w") as file_obj:
         file_obj.write(extracted.model_dump_json(indent=2))
         file_obj.write("\n")
 
