@@ -740,29 +740,6 @@ def main():
         file_obj.write(extracted.model_dump_json(indent=2))
         file_obj.write("\n")
 
-    with open(_HERE / "p81.txt") as file_obj:
-        accepted_names = set(file_obj.read().strip().split("\n"))
-
-    for wc in extracted.weight_classes:
-        for mm in wc.matches:
-            cc_l = []
-            if mm.top_competitor is not None:
-                cc_l.append(mm.top_competitor)
-            if mm.bottom_competitor is not None:
-                cc_l.append(mm.bottom_competitor)
-            for cc in cc_l:
-                if cc.team_full not in accepted_names:
-                    print(cc.team_full)
-
-    for _, scores in extracted.team_scores.items():
-        for score in scores:
-            if score.team not in accepted_names:
-                print(score.team)
-
-    for deduction in extracted.deductions:
-        if deduction.team not in accepted_names:
-            print(deduction.team)
-
 
 if __name__ == "__main__":
     main()
