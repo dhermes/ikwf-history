@@ -615,6 +615,22 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
 }
 
 
+def _get_bout_numbers() -> dict[bracket_utils.MatchSlot, int]:
+    return {
+        "championship_r32_02": 1,
+        "championship_r32_04": 2,
+        "championship_r32_06": 3,
+        "championship_r32_08": 4,
+        "championship_r32_10": 5,
+        "championship_r32_12": 6,
+        "championship_r32_14": 7,
+        "championship_r32_16": 8,
+        "consolation_fifth_place": 35,
+        "consolation_third_place": 36,
+        "championship_first_place": 37,
+    }
+
+
 def main():
     team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
     team_scores["senior"] = []
@@ -625,7 +641,7 @@ def main():
 
     weight_classes: list[bracket_utils.WeightClass] = []
     for weight, competitors in _SENIOR_COMPETITORS.items():
-        bout_numbers = {}
+        bout_numbers = _get_bout_numbers()
         weight_class = bracket_utils.weight_class_from_competitors(
             "senior",
             weight,

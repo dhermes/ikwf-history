@@ -576,6 +576,22 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
 }
 
 
+def _get_bout_numbers() -> dict[bracket_utils.MatchSlot, int]:
+    return {
+        "championship_r32_02": 1,
+        "championship_r32_04": 2,
+        "championship_r32_06": 3,
+        "championship_r32_08": 4,
+        "championship_r32_10": 5,
+        "championship_r32_12": 6,
+        "championship_r32_14": 7,
+        "championship_r32_16": 8,
+        "consolation_fifth_place": 35,
+        "consolation_third_place": 36,
+        "championship_first_place": 37,
+    }
+
+
 def _create_placers_image_row(
     headshot_img, names_img, headshot_width, headshot_height, name_width, name_height
 ):
@@ -686,7 +702,7 @@ def main():
 
     weight_classes: list[bracket_utils.WeightClass] = []
     for weight, competitors in _SENIOR_COMPETITORS.items():
-        bout_numbers = {}
+        bout_numbers = _get_bout_numbers()
         placers_type = "top6"
         if weight in (95, 100, 105):
             placers_type = "champ"
