@@ -784,6 +784,7 @@ def main():
             bout_numbers,
             placers_type="champ",
         )
+        bracket_utils.promote_first_round(weight_class)
         weight_classes.append(weight_class)
 
     extracted = bracket_utils.ExtractedTournament(

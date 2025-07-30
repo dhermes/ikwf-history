@@ -1771,90 +1771,6 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
 }
 
 
-def _check_match_conclusive(
-    match: bracket_utils.Match | None,
-) -> tuple[bool, bracket_utils.Competitor | None]:
-    if match is None:
-        return True, None
-
-    if match.top_win is None:
-        return False, None
-
-    if match.result_type != "bye":
-        raise ValueError("Unexpected result", match)
-    if not match.top_win:
-        raise ValueError("Unexpected result", match)
-
-    return True, match.top_competitor
-
-
-def _make_next_match(
-    match_slot: bracket_utils.MatchSlot,
-    top_competitor: bracket_utils.MatchSlot | None,
-    bottom_competitor: bracket_utils.MatchSlot | None,
-) -> bracket_utils.Match | None:
-    if top_competitor is None and bottom_competitor is None:
-        return None
-
-    result = ""
-    result_type: bracket_utils.ResultType = "unknown"
-    top_win = None
-
-    if top_competitor is None:
-        result = "Bye"
-        result_type = "bye"
-        top_win = False
-
-    if bottom_competitor is None:
-        result = "Bye"
-        result_type = "bye"
-        top_win = True
-
-    return bracket_utils.Match(
-        match_slot=match_slot,
-        top_competitor=top_competitor,
-        bottom_competitor=bottom_competitor,
-        result=result,
-        result_type=result_type,
-        bout_number=None,
-        top_win=top_win,
-    )
-
-
-def _promote_first_round(weight_class: bracket_utils.WeightClass) -> None:
-    matches: list[bracket_utils.Match] = []
-    first_round: dict[bracket_utils.MatchSlot, bracket_utils.Match] = {}
-    for match in weight_class.matches:
-        if match.match_slot.startswith("championship_r32_"):
-            first_round[match.match_slot] = match
-        else:
-            matches.append(match)
-
-    for i in range(8):
-        top_match_slot = f"championship_r32_{2 * i + 1:02}"
-        top_match = first_round.get(top_match_slot)
-        bottom_match_slot = f"championship_r32_{2 * i + 2:02}"
-        bottom_match = first_round.get(bottom_match_slot)
-
-        top_conclusive, top_competitor = _check_match_conclusive(top_match)
-        bottom_conclusive, bottom_competitor = _check_match_conclusive(bottom_match)
-
-        if top_conclusive and bottom_conclusive:
-            next_match_slot = f"championship_r16_{i + 1:02}"
-            next_match = _make_next_match(
-                next_match_slot, top_competitor, bottom_competitor
-            )
-            if next_match is not None:
-                matches.append(next_match)
-        else:
-            if top_match is not None:
-                matches.append(top_match)
-            if bottom_match is not None:
-                matches.append(bottom_match)
-
-    weight_class.matches = matches
-
-
 def main():
     team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
     team_scores["senior"] = []
@@ -1875,7 +1791,7 @@ def main():
             bout_numbers,
             placers_type="champ",
         )
-        _promote_first_round(weight_class)
+        bracket_utils.promote_first_round(weight_class)
         weight_classes.append(weight_class)
 
     extracted = bracket_utils.ExtractedTournament(
