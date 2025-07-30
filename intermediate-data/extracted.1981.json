@@ -19,104 +19,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Jim Czajkowski",
-            "first_name": "Jim",
-            "last_name": "Czajkowski",
-            "team_full": "Burbank"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Keith Ruiter",
-            "first_name": "Keith",
-            "last_name": "Ruiter",
-            "team_full": "Oak View"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Chuck Collins",
-            "first_name": "Chuck",
-            "last_name": "Collins",
-            "team_full": "Barrington"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Sean McElligott",
-            "first_name": "Sean",
-            "last_name": "McElligott",
-            "team_full": "Oak Forest"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Mark Smith",
-            "first_name": "Mark",
-            "last_name": "Smith",
-            "team_full": "Prather"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Chris Trenhaile",
-            "first_name": "Chris",
-            "last_name": "Trenhaile",
-            "team_full": "West Leyden"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Brett Camden",
-            "first_name": "Brett",
-            "last_name": "Camden",
-            "team_full": "Fisher"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Erin McElligott",
@@ -134,6 +36,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Jim Czajkowski",
+            "first_name": "Jim",
+            "last_name": "Czajkowski",
+            "team_full": "Burbank"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -155,6 +71,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Keith Ruiter",
+            "first_name": "Keith",
+            "last_name": "Ruiter",
+            "team_full": "Oak View"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Joe Reyes",
@@ -172,6 +102,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Chuck Collins",
+            "first_name": "Chuck",
+            "last_name": "Collins",
+            "team_full": "Barrington"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -193,6 +137,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Sean McElligott",
+            "first_name": "Sean",
+            "last_name": "McElligott",
+            "team_full": "Oak Forest"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Shawn Creasy",
@@ -210,6 +168,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Mark Smith",
+            "first_name": "Mark",
+            "last_name": "Smith",
+            "team_full": "Prather"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -231,6 +203,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Chris Trenhaile",
+            "first_name": "Chris",
+            "last_name": "Trenhaile",
+            "team_full": "West Leyden"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Sean Meagher",
@@ -248,6 +234,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Brett Camden",
+            "first_name": "Brett",
+            "last_name": "Camden",
+            "team_full": "Fisher"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -269,25 +269,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Jim Czajkowski",
-            "first_name": "Jim",
-            "last_name": "Czajkowski",
-            "team_full": "Burbank"
-          },
-          "bottom_competitor": {
-            "full_name": "Sean McElligott",
-            "first_name": "Sean",
-            "last_name": "McElligott",
-            "team_full": "Oak Forest"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Sean Meagher",
@@ -304,6 +285,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Jim Czajkowski",
+            "first_name": "Jim",
+            "last_name": "Czajkowski",
+            "team_full": "Burbank"
+          },
+          "bottom_competitor": {
+            "full_name": "Sean McElligott",
+            "first_name": "Sean",
+            "last_name": "McElligott",
+            "team_full": "Oak Forest"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -346,104 +346,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Brian Moon",
-            "first_name": "Brian",
-            "last_name": "Moon",
-            "team_full": "Joliet YMCA"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Jeff Vasquez",
-            "first_name": "Jeff",
-            "last_name": "Vasquez",
-            "team_full": "Barrington"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Jim Zeilenga",
-            "first_name": "Jim",
-            "last_name": "Zeilenga",
-            "team_full": "Oak Forest"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Derek Page",
-            "first_name": "Derek",
-            "last_name": "Page",
-            "team_full": "Edwardsville"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Chris Buenik",
-            "first_name": "Chris",
-            "last_name": "Buenik",
-            "team_full": "Cicero"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Eric Fincham",
-            "first_name": "Eric",
-            "last_name": "Fincham",
-            "team_full": "Urbana"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Jack Maines",
-            "first_name": "Jack",
-            "last_name": "Maines",
-            "team_full": "Burbank"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Ken Howell",
@@ -461,6 +363,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Brian Moon",
+            "first_name": "Brian",
+            "last_name": "Moon",
+            "team_full": "Joliet YMCA"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -482,6 +398,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Jeff Vasquez",
+            "first_name": "Jeff",
+            "last_name": "Vasquez",
+            "team_full": "Barrington"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Andy Gardner",
@@ -499,6 +429,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Jim Zeilenga",
+            "first_name": "Jim",
+            "last_name": "Zeilenga",
+            "team_full": "Oak Forest"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -520,6 +464,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Derek Page",
+            "first_name": "Derek",
+            "last_name": "Page",
+            "team_full": "Edwardsville"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Bruce Tiemeier",
@@ -537,6 +495,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Chris Buenik",
+            "first_name": "Chris",
+            "last_name": "Buenik",
+            "team_full": "Cicero"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -558,6 +530,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Eric Fincham",
+            "first_name": "Eric",
+            "last_name": "Fincham",
+            "team_full": "Urbana"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Jay McAlear",
@@ -575,6 +561,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Jack Maines",
+            "first_name": "Jack",
+            "last_name": "Maines",
+            "team_full": "Burbank"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -596,25 +596,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "John Kurtz",
-            "first_name": "John",
-            "last_name": "Kurtz",
-            "team_full": "Matburns"
-          },
-          "bottom_competitor": {
-            "full_name": "Bruce Tiemeier",
-            "first_name": "Bruce",
-            "last_name": "Tiemeier",
-            "team_full": "East Moline"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Chris Buenik",
@@ -631,6 +612,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "John Kurtz",
+            "first_name": "John",
+            "last_name": "Kurtz",
+            "team_full": "Matburns"
+          },
+          "bottom_competitor": {
+            "full_name": "Bruce Tiemeier",
+            "first_name": "Bruce",
+            "last_name": "Tiemeier",
+            "team_full": "East Moline"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -673,104 +673,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "George Bednarczyk",
-            "first_name": "George",
-            "last_name": "Bednarczyk",
-            "team_full": "Harvard"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Matt Kestian",
-            "first_name": "Matt",
-            "last_name": "Kestian",
-            "team_full": "Oak Lawn"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Craig McDougle",
-            "first_name": "Craig",
-            "last_name": "McDougle",
-            "team_full": "Murphysboro"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Sam Geraci",
-            "first_name": "Sam",
-            "last_name": "Geraci",
-            "team_full": "Bensenville"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Brett Schultz",
-            "first_name": "Brett",
-            "last_name": "Schultz",
-            "team_full": "Decatur"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Pat Coleman",
-            "first_name": "Pat",
-            "last_name": "Coleman",
-            "team_full": "Burbank"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Mike Urwin",
-            "first_name": "Mike",
-            "last_name": "Urwin",
-            "team_full": "Orland Park"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Steve Smerz",
@@ -788,6 +690,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "George Bednarczyk",
+            "first_name": "George",
+            "last_name": "Bednarczyk",
+            "team_full": "Harvard"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -809,6 +725,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Matt Kestian",
+            "first_name": "Matt",
+            "last_name": "Kestian",
+            "team_full": "Oak Lawn"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Bob Fraher",
@@ -826,6 +756,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Craig McDougle",
+            "first_name": "Craig",
+            "last_name": "McDougle",
+            "team_full": "Murphysboro"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -847,6 +791,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Sam Geraci",
+            "first_name": "Sam",
+            "last_name": "Geraci",
+            "team_full": "Bensenville"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Randy Saller",
@@ -864,6 +822,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Brett Schultz",
+            "first_name": "Brett",
+            "last_name": "Schultz",
+            "team_full": "Decatur"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -885,6 +857,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Pat Coleman",
+            "first_name": "Pat",
+            "last_name": "Coleman",
+            "team_full": "Burbank"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Mike Sheehy",
@@ -902,6 +888,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Mike Urwin",
+            "first_name": "Mike",
+            "last_name": "Urwin",
+            "team_full": "Orland Park"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -923,25 +923,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Mike Urwin",
-            "first_name": "Mike",
-            "last_name": "Urwin",
-            "team_full": "Orland Park"
-          },
-          "bottom_competitor": {
-            "full_name": "Ray Palacious",
-            "first_name": "Ray",
-            "last_name": "Palacious",
-            "team_full": "Troy"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Pat Coleman",
@@ -958,6 +939,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Mike Urwin",
+            "first_name": "Mike",
+            "last_name": "Urwin",
+            "team_full": "Orland Park"
+          },
+          "bottom_competitor": {
+            "full_name": "Ray Palacious",
+            "first_name": "Ray",
+            "last_name": "Palacious",
+            "team_full": "Troy"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -1000,104 +1000,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Cory Ronk",
-            "first_name": "Cory",
-            "last_name": "Ronk",
-            "team_full": "Urbana"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Jeff Binder",
-            "first_name": "Jeff",
-            "last_name": "Binder",
-            "team_full": "Darien"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Phil Hayes",
-            "first_name": "Phil",
-            "last_name": "Hayes",
-            "team_full": "Orland Park"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Len Ellis",
-            "first_name": "Len",
-            "last_name": "Ellis",
-            "team_full": "Neal Jr."
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Jim Throw",
-            "first_name": "Jim",
-            "last_name": "Throw",
-            "team_full": "Dolton"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Eric Roberson",
-            "first_name": "Eric",
-            "last_name": "Roberson",
-            "team_full": "Roxana"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Paul Zina",
-            "first_name": "Paul",
-            "last_name": "Zina",
-            "team_full": "Oak Park"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Pete Treadwill",
@@ -1115,6 +1017,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Cory Ronk",
+            "first_name": "Cory",
+            "last_name": "Ronk",
+            "team_full": "Urbana"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -1136,6 +1052,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Jeff Binder",
+            "first_name": "Jeff",
+            "last_name": "Binder",
+            "team_full": "Darien"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Matt Averamavich",
@@ -1153,6 +1083,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Phil Hayes",
+            "first_name": "Phil",
+            "last_name": "Hayes",
+            "team_full": "Orland Park"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -1174,6 +1118,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Len Ellis",
+            "first_name": "Len",
+            "last_name": "Ellis",
+            "team_full": "Neal Jr."
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Chad Roepenack",
@@ -1191,6 +1149,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Jim Throw",
+            "first_name": "Jim",
+            "last_name": "Throw",
+            "team_full": "Dolton"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -1212,6 +1184,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Eric Roberson",
+            "first_name": "Eric",
+            "last_name": "Roberson",
+            "team_full": "Roxana"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Scott Sheen",
@@ -1229,6 +1215,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Paul Zina",
+            "first_name": "Paul",
+            "last_name": "Zina",
+            "team_full": "Oak Park"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -1250,25 +1250,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Phil Hayes",
-            "first_name": "Phil",
-            "last_name": "Hayes",
-            "team_full": "Orland Park"
-          },
-          "bottom_competitor": {
-            "full_name": "Scott Sheen",
-            "first_name": "Scott",
-            "last_name": "Sheen",
-            "team_full": "Bolingbrook"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Paul Zina",
@@ -1285,6 +1266,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Phil Hayes",
+            "first_name": "Phil",
+            "last_name": "Hayes",
+            "team_full": "Orland Park"
+          },
+          "bottom_competitor": {
+            "full_name": "Scott Sheen",
+            "first_name": "Scott",
+            "last_name": "Sheen",
+            "team_full": "Bolingbrook"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -1327,104 +1327,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Nino Chiappetta",
-            "first_name": "Nino",
-            "last_name": "Chiappetta",
-            "team_full": "Cicero"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Chuck Reed",
-            "first_name": "Chuck",
-            "last_name": "Reed",
-            "team_full": "Forman"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Tom Ngoyen",
-            "first_name": "Tom",
-            "last_name": "Ngoyen",
-            "team_full": "Wheaton P.D."
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Derek Smith",
-            "first_name": "Derek",
-            "last_name": "Smith",
-            "team_full": "Mokena"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Ron Covers",
-            "first_name": "Ron",
-            "last_name": "Covers",
-            "team_full": "Barrington"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Mike Walsh",
-            "first_name": "Mike",
-            "last_name": "Walsh",
-            "team_full": "Dolton"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Steve Parker",
-            "first_name": "Steve",
-            "last_name": "Parker",
-            "team_full": "Lawrenceville"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Kris Armstrong",
@@ -1442,6 +1344,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Nino Chiappetta",
+            "first_name": "Nino",
+            "last_name": "Chiappetta",
+            "team_full": "Cicero"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -1463,6 +1379,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Chuck Reed",
+            "first_name": "Chuck",
+            "last_name": "Reed",
+            "team_full": "Forman"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Chad Stone",
@@ -1480,6 +1410,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Tom Ngoyen",
+            "first_name": "Tom",
+            "last_name": "Ngoyen",
+            "team_full": "Wheaton P.D."
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -1501,6 +1445,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Derek Smith",
+            "first_name": "Derek",
+            "last_name": "Smith",
+            "team_full": "Mokena"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Chris Welsh",
@@ -1518,6 +1476,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Ron Covers",
+            "first_name": "Ron",
+            "last_name": "Covers",
+            "team_full": "Barrington"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -1539,6 +1511,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Mike Walsh",
+            "first_name": "Mike",
+            "last_name": "Walsh",
+            "team_full": "Dolton"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Walt Scott",
@@ -1556,6 +1542,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Steve Parker",
+            "first_name": "Steve",
+            "last_name": "Parker",
+            "team_full": "Lawrenceville"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -1577,25 +1577,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Mike LaMonica",
-            "first_name": "Mike",
-            "last_name": "LaMonica",
-            "team_full": "Orland Park"
-          },
-          "bottom_competitor": {
-            "full_name": "Derek Smith",
-            "first_name": "Derek",
-            "last_name": "Smith",
-            "team_full": "Mokena"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Dan Walsh",
@@ -1612,6 +1593,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Mike LaMonica",
+            "first_name": "Mike",
+            "last_name": "LaMonica",
+            "team_full": "Orland Park"
+          },
+          "bottom_competitor": {
+            "full_name": "Derek Smith",
+            "first_name": "Derek",
+            "last_name": "Smith",
+            "team_full": "Mokena"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -1654,104 +1654,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Mark Gaynor",
-            "first_name": "Mark",
-            "last_name": "Gaynor",
-            "team_full": "Tinley Park"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Craig Schwalb",
-            "first_name": "Craig",
-            "last_name": "Schwalb",
-            "team_full": "Belleville"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Matt Besler",
-            "first_name": "Matt",
-            "last_name": "Besler",
-            "team_full": "Park Ridge"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Ken Filipiak",
-            "first_name": "Ken",
-            "last_name": "Filipiak",
-            "team_full": "Mattoon"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Chris Hurst",
-            "first_name": "Chris",
-            "last_name": "Hurst",
-            "team_full": "Waldo"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Ken Thompson",
-            "first_name": "Ken",
-            "last_name": "Thompson",
-            "team_full": "Glenwood"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Ken Bishop",
-            "first_name": "Ken",
-            "last_name": "Bishop",
-            "team_full": "Addams"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Jeff Adkins",
@@ -1769,6 +1671,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Mark Gaynor",
+            "first_name": "Mark",
+            "last_name": "Gaynor",
+            "team_full": "Tinley Park"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -1790,6 +1706,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Craig Schwalb",
+            "first_name": "Craig",
+            "last_name": "Schwalb",
+            "team_full": "Belleville"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Ted Grant",
@@ -1807,6 +1737,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Matt Besler",
+            "first_name": "Matt",
+            "last_name": "Besler",
+            "team_full": "Park Ridge"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -1828,6 +1772,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Ken Filipiak",
+            "first_name": "Ken",
+            "last_name": "Filipiak",
+            "team_full": "Mattoon"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Thad Summers",
@@ -1845,6 +1803,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Chris Hurst",
+            "first_name": "Chris",
+            "last_name": "Hurst",
+            "team_full": "Waldo"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -1866,6 +1838,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Ken Thompson",
+            "first_name": "Ken",
+            "last_name": "Thompson",
+            "team_full": "Glenwood"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Wayne Davis",
@@ -1883,6 +1869,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Ken Bishop",
+            "first_name": "Ken",
+            "last_name": "Bishop",
+            "team_full": "Addams"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -1904,25 +1904,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Chris Hurst",
-            "first_name": "Chris",
-            "last_name": "Hurst",
-            "team_full": "Waldo"
-          },
-          "bottom_competitor": {
-            "full_name": "Matt Besler",
-            "first_name": "Matt",
-            "last_name": "Besler",
-            "team_full": "Park Ridge"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Dan O'Brien",
@@ -1939,6 +1920,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Chris Hurst",
+            "first_name": "Chris",
+            "last_name": "Hurst",
+            "team_full": "Waldo"
+          },
+          "bottom_competitor": {
+            "full_name": "Matt Besler",
+            "first_name": "Matt",
+            "last_name": "Besler",
+            "team_full": "Park Ridge"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -1981,104 +1981,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Jeff Dixon",
-            "first_name": "Jeff",
-            "last_name": "Dixon",
-            "team_full": "Roxana"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Mike Cincinelli",
-            "first_name": "Mike",
-            "last_name": "Cincinelli",
-            "team_full": "Rosemont"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Derold Doughty",
-            "first_name": "Derold",
-            "last_name": "Doughty",
-            "team_full": "Mattoon"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Mike Oostdyk",
-            "first_name": "Mike",
-            "last_name": "Oostdyk",
-            "team_full": "Jay Stream"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Steve Merrick",
-            "first_name": "Steve",
-            "last_name": "Merrick",
-            "team_full": "Mokena"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Kollin Stagnito",
-            "first_name": "Kollin",
-            "last_name": "Stagnito",
-            "team_full": "Barrington"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Alan Crnich",
-            "first_name": "Alan",
-            "last_name": "Crnich",
-            "team_full": "Oak Forest"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Jon Martin",
@@ -2096,6 +1998,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Jeff Dixon",
+            "first_name": "Jeff",
+            "last_name": "Dixon",
+            "team_full": "Roxana"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -2117,6 +2033,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Mike Cincinelli",
+            "first_name": "Mike",
+            "last_name": "Cincinelli",
+            "team_full": "Rosemont"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "John Bakis",
@@ -2134,6 +2064,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Derold Doughty",
+            "first_name": "Derold",
+            "last_name": "Doughty",
+            "team_full": "Mattoon"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -2155,6 +2099,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Mike Oostdyk",
+            "first_name": "Mike",
+            "last_name": "Oostdyk",
+            "team_full": "Jay Stream"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Troy Protsman",
@@ -2172,6 +2130,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Steve Merrick",
+            "first_name": "Steve",
+            "last_name": "Merrick",
+            "team_full": "Mokena"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -2193,6 +2165,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Kollin Stagnito",
+            "first_name": "Kollin",
+            "last_name": "Stagnito",
+            "team_full": "Barrington"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "John Loos",
@@ -2210,6 +2196,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Alan Crnich",
+            "first_name": "Alan",
+            "last_name": "Crnich",
+            "team_full": "Oak Forest"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -2231,25 +2231,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Derold Doughty",
-            "first_name": "Derold",
-            "last_name": "Doughty",
-            "team_full": "Mattoon"
-          },
-          "bottom_competitor": {
-            "full_name": "John Loos",
-            "first_name": "John",
-            "last_name": "Loos",
-            "team_full": "Park Ridge"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Scott Holbrook",
@@ -2266,6 +2247,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Derold Doughty",
+            "first_name": "Derold",
+            "last_name": "Doughty",
+            "team_full": "Mattoon"
+          },
+          "bottom_competitor": {
+            "full_name": "John Loos",
+            "first_name": "John",
+            "last_name": "Loos",
+            "team_full": "Park Ridge"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -2308,104 +2308,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Mark Becker",
-            "first_name": "Mark",
-            "last_name": "Becker",
-            "team_full": "Burbank"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Craig Pallot",
-            "first_name": "Craig",
-            "last_name": "Pallot",
-            "team_full": "Rich Township"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Calvin Knutsen",
-            "first_name": "Calvin",
-            "last_name": "Knutsen",
-            "team_full": "Antioch"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Dean Souder",
-            "first_name": "Dean",
-            "last_name": "Souder",
-            "team_full": "Chicago Ridge"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Ben Finke",
-            "first_name": "Ben",
-            "last_name": "Finke",
-            "team_full": "Roxana"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Mark Rogers",
-            "first_name": "Mark",
-            "last_name": "Rogers",
-            "team_full": "Oak Park"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Tim Green",
-            "first_name": "Tim",
-            "last_name": "Green",
-            "team_full": "Forman"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Jim Connolly",
@@ -2423,6 +2325,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Mark Becker",
+            "first_name": "Mark",
+            "last_name": "Becker",
+            "team_full": "Burbank"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -2444,6 +2360,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Craig Pallot",
+            "first_name": "Craig",
+            "last_name": "Pallot",
+            "team_full": "Rich Township"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "John Flanagan",
@@ -2461,6 +2391,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Calvin Knutsen",
+            "first_name": "Calvin",
+            "last_name": "Knutsen",
+            "team_full": "Antioch"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -2482,6 +2426,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Dean Souder",
+            "first_name": "Dean",
+            "last_name": "Souder",
+            "team_full": "Chicago Ridge"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Brett Tucker",
@@ -2499,6 +2457,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Ben Finke",
+            "first_name": "Ben",
+            "last_name": "Finke",
+            "team_full": "Roxana"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -2520,6 +2492,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Mark Rogers",
+            "first_name": "Mark",
+            "last_name": "Rogers",
+            "team_full": "Oak Park"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Bill Bembenek",
@@ -2537,6 +2523,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Tim Green",
+            "first_name": "Tim",
+            "last_name": "Green",
+            "team_full": "Forman"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -2558,25 +2558,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "John Davis",
-            "first_name": "John",
-            "last_name": "Davis",
-            "team_full": "East Moline"
-          },
-          "bottom_competitor": {
-            "full_name": "Frank Herrmann",
-            "first_name": "Frank",
-            "last_name": "Herrmann",
-            "team_full": "Sycamore"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Mark Rogers",
@@ -2593,6 +2574,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "John Davis",
+            "first_name": "John",
+            "last_name": "Davis",
+            "team_full": "East Moline"
+          },
+          "bottom_competitor": {
+            "full_name": "Frank Herrmann",
+            "first_name": "Frank",
+            "last_name": "Herrmann",
+            "team_full": "Sycamore"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -2635,104 +2635,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Tom Blaha",
-            "first_name": "Tom",
-            "last_name": "Blaha",
-            "team_full": "Mokena"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Greg Farnsworth",
-            "first_name": "Greg",
-            "last_name": "Farnsworth",
-            "team_full": "Batavia"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Tony Oddo",
-            "first_name": "Tony",
-            "last_name": "Oddo",
-            "team_full": "Oak Forest"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Ken Baldwin",
-            "first_name": "Ken",
-            "last_name": "Baldwin",
-            "team_full": "Belleville"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Joe Chiappetta",
-            "first_name": "Joe",
-            "last_name": "Chiappetta",
-            "team_full": "Cicero"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Jeff Gardner",
-            "first_name": "Jeff",
-            "last_name": "Gardner",
-            "team_full": "Springfield"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Steve Kaltofen",
-            "first_name": "Steve",
-            "last_name": "Kaltofen",
-            "team_full": "Wheaton P.D."
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Bill Martin",
@@ -2750,6 +2652,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Tom Blaha",
+            "first_name": "Tom",
+            "last_name": "Blaha",
+            "team_full": "Mokena"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -2771,6 +2687,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Greg Farnsworth",
+            "first_name": "Greg",
+            "last_name": "Farnsworth",
+            "team_full": "Batavia"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Donnie Bright",
@@ -2788,6 +2718,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Tony Oddo",
+            "first_name": "Tony",
+            "last_name": "Oddo",
+            "team_full": "Oak Forest"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -2809,6 +2753,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Ken Baldwin",
+            "first_name": "Ken",
+            "last_name": "Baldwin",
+            "team_full": "Belleville"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "George DePuy",
@@ -2826,6 +2784,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Joe Chiappetta",
+            "first_name": "Joe",
+            "last_name": "Chiappetta",
+            "team_full": "Cicero"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -2847,6 +2819,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Jeff Gardner",
+            "first_name": "Jeff",
+            "last_name": "Gardner",
+            "team_full": "Springfield"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Rob Vasquez",
@@ -2864,6 +2850,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Steve Kaltofen",
+            "first_name": "Steve",
+            "last_name": "Kaltofen",
+            "team_full": "Wheaton P.D."
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -2885,25 +2885,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Jeff Gardner",
-            "first_name": "Jeff",
-            "last_name": "Gardner",
-            "team_full": "Springfield"
-          },
-          "bottom_competitor": {
-            "full_name": "Dale Klein",
-            "first_name": "Dale",
-            "last_name": "Klein",
-            "team_full": "Burbank"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Adam Caldwell",
@@ -2920,6 +2901,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Jeff Gardner",
+            "first_name": "Jeff",
+            "last_name": "Gardner",
+            "team_full": "Springfield"
+          },
+          "bottom_competitor": {
+            "full_name": "Dale Klein",
+            "first_name": "Dale",
+            "last_name": "Klein",
+            "team_full": "Burbank"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -2962,104 +2962,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "K. Ryan",
-            "first_name": "K.",
-            "last_name": "Ryan",
-            "team_full": "Addams"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Tom O'Brien",
-            "first_name": "Tom",
-            "last_name": "O'Brien",
-            "team_full": "Chicago Ridge"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Jim Jarman",
-            "first_name": "Jim",
-            "last_name": "Jarman",
-            "team_full": "Prather"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Mike Haugen",
-            "first_name": "Mike",
-            "last_name": "Haugen",
-            "team_full": "St. Tarcissus"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Kirk Mammen",
-            "first_name": "Kirk",
-            "last_name": "Mammen",
-            "team_full": "Urbana"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Mike Gonzales",
-            "first_name": "Mike",
-            "last_name": "Gonzales",
-            "team_full": "West Chicago"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Steve Berman",
-            "first_name": "Steve",
-            "last_name": "Berman",
-            "team_full": "Joliet YMCA"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Walt Wrona",
@@ -3077,6 +2979,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "K. Ryan",
+            "first_name": "K.",
+            "last_name": "Ryan",
+            "team_full": "Addams"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -3098,6 +3014,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Tom O'Brien",
+            "first_name": "Tom",
+            "last_name": "O'Brien",
+            "team_full": "Chicago Ridge"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Kurt Griesheim",
@@ -3115,6 +3045,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Jim Jarman",
+            "first_name": "Jim",
+            "last_name": "Jarman",
+            "team_full": "Prather"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -3136,6 +3080,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Mike Haugen",
+            "first_name": "Mike",
+            "last_name": "Haugen",
+            "team_full": "St. Tarcissus"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Dan Moore",
@@ -3153,6 +3111,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Kirk Mammen",
+            "first_name": "Kirk",
+            "last_name": "Mammen",
+            "team_full": "Urbana"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -3174,6 +3146,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Mike Gonzales",
+            "first_name": "Mike",
+            "last_name": "Gonzales",
+            "team_full": "West Chicago"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "M. Frey",
@@ -3191,6 +3177,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Steve Berman",
+            "first_name": "Steve",
+            "last_name": "Berman",
+            "team_full": "Joliet YMCA"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -3212,25 +3212,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "K. Ryan",
-            "first_name": "K.",
-            "last_name": "Ryan",
-            "team_full": "Addams"
-          },
-          "bottom_competitor": {
-            "full_name": "Steve Berman",
-            "first_name": "Steve",
-            "last_name": "Berman",
-            "team_full": "Joliet YMCA"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Mike Haugen",
@@ -3247,6 +3228,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "K. Ryan",
+            "first_name": "K.",
+            "last_name": "Ryan",
+            "team_full": "Addams"
+          },
+          "bottom_competitor": {
+            "full_name": "Steve Berman",
+            "first_name": "Steve",
+            "last_name": "Berman",
+            "team_full": "Joliet YMCA"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -3289,104 +3289,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Bob Edwards",
-            "first_name": "Bob",
-            "last_name": "Edwards",
-            "team_full": "Pekin"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Jon Popp",
-            "first_name": "Jon",
-            "last_name": "Popp",
-            "team_full": "Burbank"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Brian Wagnon",
-            "first_name": "Brian",
-            "last_name": "Wagnon",
-            "team_full": "Plainfield"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Ken Sheppard",
-            "first_name": "Ken",
-            "last_name": "Sheppard",
-            "team_full": "Barrington"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Ron Bednarczyk",
-            "first_name": "Ron",
-            "last_name": "Bednarczyk",
-            "team_full": "Tinley Park"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Glen March",
-            "first_name": "Glen",
-            "last_name": "March",
-            "team_full": "Prather"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Rob Alexander",
-            "first_name": "Rob",
-            "last_name": "Alexander",
-            "team_full": "Cicero"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Marty Turner",
@@ -3404,6 +3306,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Bob Edwards",
+            "first_name": "Bob",
+            "last_name": "Edwards",
+            "team_full": "Pekin"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -3425,6 +3341,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Jon Popp",
+            "first_name": "Jon",
+            "last_name": "Popp",
+            "team_full": "Burbank"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Roque Winchester",
@@ -3442,6 +3372,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Brian Wagnon",
+            "first_name": "Brian",
+            "last_name": "Wagnon",
+            "team_full": "Plainfield"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -3463,6 +3407,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Ken Sheppard",
+            "first_name": "Ken",
+            "last_name": "Sheppard",
+            "team_full": "Barrington"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Greg Gardner",
@@ -3480,6 +3438,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Ron Bednarczyk",
+            "first_name": "Ron",
+            "last_name": "Bednarczyk",
+            "team_full": "Tinley Park"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -3501,6 +3473,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Glen March",
+            "first_name": "Glen",
+            "last_name": "March",
+            "team_full": "Prather"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Ron Hosford",
@@ -3518,6 +3504,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Rob Alexander",
+            "first_name": "Rob",
+            "last_name": "Alexander",
+            "team_full": "Cicero"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -3539,25 +3539,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Rob Alexander",
-            "first_name": "Rob",
-            "last_name": "Alexander",
-            "team_full": "Cicero"
-          },
-          "bottom_competitor": {
-            "full_name": "Brian Wagnon",
-            "first_name": "Brian",
-            "last_name": "Wagnon",
-            "team_full": "Plainfield"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Ron Hosford",
@@ -3574,6 +3555,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Rob Alexander",
+            "first_name": "Rob",
+            "last_name": "Alexander",
+            "team_full": "Cicero"
+          },
+          "bottom_competitor": {
+            "full_name": "Brian Wagnon",
+            "first_name": "Brian",
+            "last_name": "Wagnon",
+            "team_full": "Plainfield"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -3616,104 +3616,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Eric Morrissey",
-            "first_name": "Eric",
-            "last_name": "Morrissey",
-            "team_full": "Rosemont"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Todd Howell",
-            "first_name": "Todd",
-            "last_name": "Howell",
-            "team_full": "Rantoul"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Steve Holland",
-            "first_name": "Steve",
-            "last_name": "Holland",
-            "team_full": "Wheaton P.D."
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Mark Olsen",
-            "first_name": "Mark",
-            "last_name": "Olsen",
-            "team_full": "Orland Park"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Pat Sheehy",
-            "first_name": "Pat",
-            "last_name": "Sheehy",
-            "team_full": "Dundee"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Rob Ledin",
-            "first_name": "Rob",
-            "last_name": "Ledin",
-            "team_full": "Vittum Park"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Gregg Majac",
-            "first_name": "Gregg",
-            "last_name": "Majac",
-            "team_full": "Edwardsville"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Mark Henry",
@@ -3731,6 +3633,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Eric Morrissey",
+            "first_name": "Eric",
+            "last_name": "Morrissey",
+            "team_full": "Rosemont"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -3752,6 +3668,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Todd Howell",
+            "first_name": "Todd",
+            "last_name": "Howell",
+            "team_full": "Rantoul"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Mike Mingle",
@@ -3769,6 +3699,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Steve Holland",
+            "first_name": "Steve",
+            "last_name": "Holland",
+            "team_full": "Wheaton P.D."
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -3790,6 +3734,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Mark Olsen",
+            "first_name": "Mark",
+            "last_name": "Olsen",
+            "team_full": "Orland Park"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Dave Rapp",
@@ -3807,6 +3765,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Pat Sheehy",
+            "first_name": "Pat",
+            "last_name": "Sheehy",
+            "team_full": "Dundee"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -3828,6 +3800,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Rob Ledin",
+            "first_name": "Rob",
+            "last_name": "Ledin",
+            "team_full": "Vittum Park"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Brian Brown",
@@ -3845,6 +3831,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Gregg Majac",
+            "first_name": "Gregg",
+            "last_name": "Majac",
+            "team_full": "Edwardsville"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -3866,25 +3866,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Greg Flores",
-            "first_name": "Greg",
-            "last_name": "Flores",
-            "team_full": "Chicago Ridge"
-          },
-          "bottom_competitor": {
-            "full_name": "Dave Rapp",
-            "first_name": "Dave",
-            "last_name": "Rapp",
-            "team_full": "Huntley"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Grant Kessler",
@@ -3901,6 +3882,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Greg Flores",
+            "first_name": "Greg",
+            "last_name": "Flores",
+            "team_full": "Chicago Ridge"
+          },
+          "bottom_competitor": {
+            "full_name": "Dave Rapp",
+            "first_name": "Dave",
+            "last_name": "Rapp",
+            "team_full": "Huntley"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -3943,104 +3943,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Brian Cascone",
-            "first_name": "Brian",
-            "last_name": "Cascone",
-            "team_full": "Vittum Park"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Todd Cortkamp",
-            "first_name": "Todd",
-            "last_name": "Cortkamp",
-            "team_full": "Murphysboro"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Mike Doyle",
-            "first_name": "Mike",
-            "last_name": "Doyle",
-            "team_full": "West Leyden"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Mark Mammen",
-            "first_name": "Mark",
-            "last_name": "Mammen",
-            "team_full": "Urbana"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Scott Pierre",
-            "first_name": "Scott",
-            "last_name": "Pierre",
-            "team_full": "Wheaton P.D."
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Joe Longhini",
-            "first_name": "Joe",
-            "last_name": "Longhini",
-            "team_full": "Orland Park"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Dave Lehn",
-            "first_name": "Dave",
-            "last_name": "Lehn",
-            "team_full": "Antioch"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Matt Meyer",
@@ -4058,6 +3960,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Brian Cascone",
+            "first_name": "Brian",
+            "last_name": "Cascone",
+            "team_full": "Vittum Park"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -4079,6 +3995,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Todd Cortkamp",
+            "first_name": "Todd",
+            "last_name": "Cortkamp",
+            "team_full": "Murphysboro"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Tim Miczysak",
@@ -4096,6 +4026,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Mike Doyle",
+            "first_name": "Mike",
+            "last_name": "Doyle",
+            "team_full": "West Leyden"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -4117,6 +4061,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Mark Mammen",
+            "first_name": "Mark",
+            "last_name": "Mammen",
+            "team_full": "Urbana"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Rick Hawkins",
@@ -4134,6 +4092,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Scott Pierre",
+            "first_name": "Scott",
+            "last_name": "Pierre",
+            "team_full": "Wheaton P.D."
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -4155,6 +4127,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Joe Longhini",
+            "first_name": "Joe",
+            "last_name": "Longhini",
+            "team_full": "Orland Park"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Marty Bowell",
@@ -4172,6 +4158,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Dave Lehn",
+            "first_name": "Dave",
+            "last_name": "Lehn",
+            "team_full": "Antioch"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -4193,25 +4193,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Bob O'Sullivan",
-            "first_name": "Bob",
-            "last_name": "O'Sullivan",
-            "team_full": "Palos South"
-          },
-          "bottom_competitor": {
-            "full_name": "Todd Cortkamp",
-            "first_name": "Todd",
-            "last_name": "Cortkamp",
-            "team_full": "Murphysboro"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Matt Roach",
@@ -4228,6 +4209,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Bob O'Sullivan",
+            "first_name": "Bob",
+            "last_name": "O'Sullivan",
+            "team_full": "Palos South"
+          },
+          "bottom_competitor": {
+            "full_name": "Todd Cortkamp",
+            "first_name": "Todd",
+            "last_name": "Cortkamp",
+            "team_full": "Murphysboro"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -4270,104 +4270,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Mark Smith",
-            "first_name": "Mark",
-            "last_name": "Smith",
-            "team_full": "Roxana"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Jeff Nudera",
-            "first_name": "Jeff",
-            "last_name": "Nudera",
-            "team_full": "Cicero"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Mike Kelly",
-            "first_name": "Mike",
-            "last_name": "Kelly",
-            "team_full": "Bloomington Jr."
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Terry Navarro",
-            "first_name": "Terry",
-            "last_name": "Navarro",
-            "team_full": "Burbank"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Phil Marchio",
-            "first_name": "Phil",
-            "last_name": "Marchio",
-            "team_full": "Joliet YMCA"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Bill Turner",
-            "first_name": "Bill",
-            "last_name": "Turner",
-            "team_full": "Dundee"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Mike Neufeld",
-            "first_name": "Mike",
-            "last_name": "Neufeld",
-            "team_full": "Oak Forest"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Brandon Bily",
@@ -4385,6 +4287,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Mark Smith",
+            "first_name": "Mark",
+            "last_name": "Smith",
+            "team_full": "Roxana"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -4406,6 +4322,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Jeff Nudera",
+            "first_name": "Jeff",
+            "last_name": "Nudera",
+            "team_full": "Cicero"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Brian Bushy",
@@ -4423,6 +4353,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Mike Kelly",
+            "first_name": "Mike",
+            "last_name": "Kelly",
+            "team_full": "Bloomington Jr."
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -4444,6 +4388,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Terry Navarro",
+            "first_name": "Terry",
+            "last_name": "Navarro",
+            "team_full": "Burbank"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Jeff Dziekunskas",
@@ -4461,6 +4419,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Phil Marchio",
+            "first_name": "Phil",
+            "last_name": "Marchio",
+            "team_full": "Joliet YMCA"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -4482,6 +4454,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Bill Turner",
+            "first_name": "Bill",
+            "last_name": "Turner",
+            "team_full": "Dundee"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Mark Brooks",
@@ -4499,6 +4485,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Mike Neufeld",
+            "first_name": "Mike",
+            "last_name": "Neufeld",
+            "team_full": "Oak Forest"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -4520,25 +4520,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Mike Neufeld",
-            "first_name": "Mike",
-            "last_name": "Neufeld",
-            "team_full": "Oak Forest"
-          },
-          "bottom_competitor": {
-            "full_name": "Dwayne Tucker",
-            "first_name": "Dwayne",
-            "last_name": "Tucker",
-            "team_full": "Glenwood"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Phil Marchio",
@@ -4555,6 +4536,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Mike Neufeld",
+            "first_name": "Mike",
+            "last_name": "Neufeld",
+            "team_full": "Oak Forest"
+          },
+          "bottom_competitor": {
+            "full_name": "Dwayne Tucker",
+            "first_name": "Dwayne",
+            "last_name": "Tucker",
+            "team_full": "Glenwood"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -4597,104 +4597,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Garry Hodonicky",
-            "first_name": "Garry",
-            "last_name": "Hodonicky",
-            "team_full": "Jefferson"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Bob Kijewski",
-            "first_name": "Bob",
-            "last_name": "Kijewski",
-            "team_full": "Joliet YMCA"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Ski Rice",
-            "first_name": "Ski",
-            "last_name": "Rice",
-            "team_full": "Harvard"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Brian Antonietti",
-            "first_name": "Brian",
-            "last_name": "Antonietti",
-            "team_full": "Calumet City"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Erik Anderson",
-            "first_name": "Erik",
-            "last_name": "Anderson",
-            "team_full": "Edwardsville"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Bill Heidrich",
-            "first_name": "Bill",
-            "last_name": "Heidrich",
-            "team_full": "St. Tarcissus"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Andy Ringer",
-            "first_name": "Andy",
-            "last_name": "Ringer",
-            "team_full": "Bloomington Jr."
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Steve Pretto",
@@ -4712,6 +4614,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Garry Hodonicky",
+            "first_name": "Garry",
+            "last_name": "Hodonicky",
+            "team_full": "Jefferson"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -4733,6 +4649,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Bob Kijewski",
+            "first_name": "Bob",
+            "last_name": "Kijewski",
+            "team_full": "Joliet YMCA"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Ken Hendrickson",
@@ -4750,6 +4680,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Ski Rice",
+            "first_name": "Ski",
+            "last_name": "Rice",
+            "team_full": "Harvard"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -4771,6 +4715,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Brian Antonietti",
+            "first_name": "Brian",
+            "last_name": "Antonietti",
+            "team_full": "Calumet City"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Don Smith",
@@ -4788,6 +4746,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Erik Anderson",
+            "first_name": "Erik",
+            "last_name": "Anderson",
+            "team_full": "Edwardsville"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -4809,6 +4781,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Bill Heidrich",
+            "first_name": "Bill",
+            "last_name": "Heidrich",
+            "team_full": "St. Tarcissus"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Darrell Gilliam",
@@ -4826,6 +4812,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Andy Ringer",
+            "first_name": "Andy",
+            "last_name": "Ringer",
+            "team_full": "Bloomington Jr."
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -4847,25 +4847,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "D. Rowden",
-            "first_name": "D.",
-            "last_name": "Rowden",
-            "team_full": "Fox Lake"
-          },
-          "bottom_competitor": {
-            "full_name": "Bob Kijewski",
-            "first_name": "Bob",
-            "last_name": "Kijewski",
-            "team_full": "Joliet YMCA"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Mike Frawley",
@@ -4882,6 +4863,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "D. Rowden",
+            "first_name": "D.",
+            "last_name": "Rowden",
+            "team_full": "Fox Lake"
+          },
+          "bottom_competitor": {
+            "full_name": "Bob Kijewski",
+            "first_name": "Bob",
+            "last_name": "Kijewski",
+            "team_full": "Joliet YMCA"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -4924,104 +4924,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Scott Thomas",
-            "first_name": "Scott",
-            "last_name": "Thomas",
-            "team_full": "Rich Township"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Steve Piron",
-            "first_name": "Steve",
-            "last_name": "Piron",
-            "team_full": "Batavia"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Brian Morriarity",
-            "first_name": "Brian",
-            "last_name": "Morriarity",
-            "team_full": "Mt. Greenwood"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Darrin Richardson",
-            "first_name": "Darrin",
-            "last_name": "Richardson",
-            "team_full": "Prather"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Brian O'Neill",
-            "first_name": "Brian",
-            "last_name": "O'Neill",
-            "team_full": "Rosemont"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Kevin Schudder",
-            "first_name": "Kevin",
-            "last_name": "Schudder",
-            "team_full": "Rantoul"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "John Cortez",
-            "first_name": "John",
-            "last_name": "Cortez",
-            "team_full": "West Chicago"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Melvin Rodgers",
@@ -5039,6 +4941,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Scott Thomas",
+            "first_name": "Scott",
+            "last_name": "Thomas",
+            "team_full": "Rich Township"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -5060,6 +4976,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Steve Piron",
+            "first_name": "Steve",
+            "last_name": "Piron",
+            "team_full": "Batavia"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Mickey Clay",
@@ -5077,6 +5007,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Brian Morriarity",
+            "first_name": "Brian",
+            "last_name": "Morriarity",
+            "team_full": "Mt. Greenwood"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -5098,6 +5042,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Darrin Richardson",
+            "first_name": "Darrin",
+            "last_name": "Richardson",
+            "team_full": "Prather"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Carl Craig",
@@ -5115,6 +5073,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Brian O'Neill",
+            "first_name": "Brian",
+            "last_name": "O'Neill",
+            "team_full": "Rosemont"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -5136,6 +5108,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Kevin Schudder",
+            "first_name": "Kevin",
+            "last_name": "Schudder",
+            "team_full": "Rantoul"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Charles Gayden",
@@ -5153,6 +5139,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "John Cortez",
+            "first_name": "John",
+            "last_name": "Cortez",
+            "team_full": "West Chicago"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -5174,25 +5174,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Brian O'Neill",
-            "first_name": "Brian",
-            "last_name": "O'Neill",
-            "team_full": "Rosemont"
-          },
-          "bottom_competitor": {
-            "full_name": "Jeff Corwell",
-            "first_name": "Jeff",
-            "last_name": "Corwell",
-            "team_full": "Challand"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Scott Thomas",
@@ -5209,6 +5190,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Brian O'Neill",
+            "first_name": "Brian",
+            "last_name": "O'Neill",
+            "team_full": "Rosemont"
+          },
+          "bottom_competitor": {
+            "full_name": "Jeff Corwell",
+            "first_name": "Jeff",
+            "last_name": "Corwell",
+            "team_full": "Challand"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -5251,104 +5251,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Jim Pattison",
-            "first_name": "Jim",
-            "last_name": "Pattison",
-            "team_full": "Barrington"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Curt Nehmzow",
-            "first_name": "Curt",
-            "last_name": "Nehmzow",
-            "team_full": "Oak Lawn"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "John Michaels",
-            "first_name": "John",
-            "last_name": "Michaels",
-            "team_full": "Coolidge"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Mike Burke",
-            "first_name": "Mike",
-            "last_name": "Burke",
-            "team_full": "Matburns"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Myron Pender",
-            "first_name": "Myron",
-            "last_name": "Pender",
-            "team_full": "Decatur"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Kurt Bednar",
-            "first_name": "Kurt",
-            "last_name": "Bednar",
-            "team_full": "Gower"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Juan Jodinez",
-            "first_name": "Juan",
-            "last_name": "Jodinez",
-            "team_full": "Plainfield"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Eric Stahmer",
@@ -5366,6 +5268,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Jim Pattison",
+            "first_name": "Jim",
+            "last_name": "Pattison",
+            "team_full": "Barrington"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -5387,6 +5303,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Curt Nehmzow",
+            "first_name": "Curt",
+            "last_name": "Nehmzow",
+            "team_full": "Oak Lawn"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Bob Casto",
@@ -5404,6 +5334,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "John Michaels",
+            "first_name": "John",
+            "last_name": "Michaels",
+            "team_full": "Coolidge"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -5425,6 +5369,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Mike Burke",
+            "first_name": "Mike",
+            "last_name": "Burke",
+            "team_full": "Matburns"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Tino McCabe",
@@ -5442,6 +5400,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Myron Pender",
+            "first_name": "Myron",
+            "last_name": "Pender",
+            "team_full": "Decatur"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -5463,6 +5435,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Kurt Bednar",
+            "first_name": "Kurt",
+            "last_name": "Bednar",
+            "team_full": "Gower"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "T. Mussel",
@@ -5480,6 +5466,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Juan Jodinez",
+            "first_name": "Juan",
+            "last_name": "Jodinez",
+            "team_full": "Plainfield"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -5501,25 +5501,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Scott Birkett",
-            "first_name": "Scott",
-            "last_name": "Birkett",
-            "team_full": "Rosette"
-          },
-          "bottom_competitor": {
-            "full_name": "John Michaels",
-            "first_name": "John",
-            "last_name": "Michaels",
-            "team_full": "Coolidge"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Kurt Bednar",
@@ -5536,6 +5517,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Scott Birkett",
+            "first_name": "Scott",
+            "last_name": "Birkett",
+            "team_full": "Rosette"
+          },
+          "bottom_competitor": {
+            "full_name": "John Michaels",
+            "first_name": "John",
+            "last_name": "Michaels",
+            "team_full": "Coolidge"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -5578,104 +5578,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Dannell Vinson",
-            "first_name": "Dannell",
-            "last_name": "Vinson",
-            "team_full": "Decatur"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Don Ferguson",
-            "first_name": "Don",
-            "last_name": "Ferguson",
-            "team_full": "Naperville"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Jim Neal",
-            "first_name": "Jim",
-            "last_name": "Neal",
-            "team_full": "Plainfield"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Mark Schults",
-            "first_name": "Mark",
-            "last_name": "Schults",
-            "team_full": "Barrington"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Bill Perry",
-            "first_name": "Bill",
-            "last_name": "Perry",
-            "team_full": "Dolton"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Chuck Hoorman",
-            "first_name": "Chuck",
-            "last_name": "Hoorman",
-            "team_full": "Roxana"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Mike Rothman",
-            "first_name": "Mike",
-            "last_name": "Rothman",
-            "team_full": "Matburns"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Brian Cavin",
@@ -5693,6 +5595,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Dannell Vinson",
+            "first_name": "Dannell",
+            "last_name": "Vinson",
+            "team_full": "Decatur"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -5714,6 +5630,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Don Ferguson",
+            "first_name": "Don",
+            "last_name": "Ferguson",
+            "team_full": "Naperville"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Mike Barton",
@@ -5733,6 +5663,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Jim Neal",
+            "first_name": "Jim",
+            "last_name": "Neal",
+            "team_full": "Plainfield"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_08",
           "top_competitor": {
             "full_name": "John Pagan",
@@ -5745,6 +5689,20 @@
           "result_type": "unknown",
           "bout_number": 4,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Mark Schults",
+            "first_name": "Mark",
+            "last_name": "Schults",
+            "team_full": "Barrington"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_10",
@@ -5766,6 +5724,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Bill Perry",
+            "first_name": "Bill",
+            "last_name": "Perry",
+            "team_full": "Dolton"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_12",
           "top_competitor": {
             "full_name": "Mike Basinger",
@@ -5783,6 +5755,20 @@
           "result_type": "unknown",
           "bout_number": 6,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Chuck Hoorman",
+            "first_name": "Chuck",
+            "last_name": "Hoorman",
+            "team_full": "Roxana"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_14",
@@ -5804,6 +5790,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Mike Rothman",
+            "first_name": "Mike",
+            "last_name": "Rothman",
+            "team_full": "Matburns"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_16",
           "top_competitor": {
             "full_name": "Jon Catterton",
@@ -5823,25 +5823,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Don Ferguson",
-            "first_name": "Don",
-            "last_name": "Ferguson",
-            "team_full": "Naperville"
-          },
-          "bottom_competitor": {
-            "full_name": "Chuck Hoorman",
-            "first_name": "Chuck",
-            "last_name": "Hoorman",
-            "team_full": "Roxana"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Joe Traglia",
@@ -5858,6 +5839,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Don Ferguson",
+            "first_name": "Don",
+            "last_name": "Ferguson",
+            "team_full": "Naperville"
+          },
+          "bottom_competitor": {
+            "full_name": "Chuck Hoorman",
+            "first_name": "Chuck",
+            "last_name": "Hoorman",
+            "team_full": "Roxana"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -5900,104 +5900,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Rick Hufnus",
-            "first_name": "Rick",
-            "last_name": "Hufnus",
-            "team_full": "Sandburg"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Steve Bayne",
-            "first_name": "Steve",
-            "last_name": "Bayne",
-            "team_full": "Bloomington Jr."
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Freeman Shaheen",
-            "first_name": "Freeman",
-            "last_name": "Shaheen",
-            "team_full": "Jefferson"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Ed Alexis",
-            "first_name": "Ed",
-            "last_name": "Alexis",
-            "team_full": "Huth"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Eric Schimke",
-            "first_name": "Eric",
-            "last_name": "Schimke",
-            "team_full": "Harvard"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Brian Krasowski",
-            "first_name": "Brian",
-            "last_name": "Krasowski",
-            "team_full": "Chicago Ridge"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Tony Stanker",
-            "first_name": "Tony",
-            "last_name": "Stanker",
-            "team_full": "Lawrenceville"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Tim Moran",
@@ -6015,6 +5917,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Rick Hufnus",
+            "first_name": "Rick",
+            "last_name": "Hufnus",
+            "team_full": "Sandburg"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -6036,6 +5952,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Steve Bayne",
+            "first_name": "Steve",
+            "last_name": "Bayne",
+            "team_full": "Bloomington Jr."
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Rich Longmire",
@@ -6053,6 +5983,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Freeman Shaheen",
+            "first_name": "Freeman",
+            "last_name": "Shaheen",
+            "team_full": "Jefferson"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -6074,6 +6018,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Ed Alexis",
+            "first_name": "Ed",
+            "last_name": "Alexis",
+            "team_full": "Huth"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "John Guderyon",
@@ -6093,6 +6051,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Eric Schimke",
+            "first_name": "Eric",
+            "last_name": "Schimke",
+            "team_full": "Harvard"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_12",
           "top_competitor": {
             "full_name": "Doug Bade",
@@ -6105,6 +6077,20 @@
           "result_type": "unknown",
           "bout_number": 6,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Brian Krasowski",
+            "first_name": "Brian",
+            "last_name": "Krasowski",
+            "team_full": "Chicago Ridge"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_14",
@@ -6126,6 +6112,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Tony Stanker",
+            "first_name": "Tony",
+            "last_name": "Stanker",
+            "team_full": "Lawrenceville"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_16",
           "top_competitor": {
             "full_name": "Mark Tamburino",
@@ -6145,25 +6145,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Dave Blaha",
-            "first_name": "Dave",
-            "last_name": "Blaha",
-            "team_full": "Hickory Hills"
-          },
-          "bottom_competitor": {
-            "full_name": "Tony Stanker",
-            "first_name": "Tony",
-            "last_name": "Stanker",
-            "team_full": "Lawrenceville"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Eric Schimke",
@@ -6180,6 +6161,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Dave Blaha",
+            "first_name": "Dave",
+            "last_name": "Blaha",
+            "team_full": "Hickory Hills"
+          },
+          "bottom_competitor": {
+            "full_name": "Tony Stanker",
+            "first_name": "Tony",
+            "last_name": "Stanker",
+            "team_full": "Lawrenceville"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -6222,104 +6222,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Scott Szymanski",
-            "first_name": "Scott",
-            "last_name": "Szymanski",
-            "team_full": "Conrady"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Joe Crawford",
-            "first_name": "Joe",
-            "last_name": "Crawford",
-            "team_full": "Prather"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Phil Messina",
-            "first_name": "Phil",
-            "last_name": "Messina",
-            "team_full": "Matburns"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Dirrk McQueen",
-            "first_name": "Dirrk",
-            "last_name": "McQueen",
-            "team_full": "Decatur"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "Rich Manchester",
-            "first_name": "Rich",
-            "last_name": "Manchester",
-            "team_full": "West Chicago"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Lee Harris",
-            "first_name": "Lee",
-            "last_name": "Harris",
-            "team_full": "Troy"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Pete Robson",
-            "first_name": "Pete",
-            "last_name": "Robson",
-            "team_full": "Dundee"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Todd Smith",
@@ -6339,6 +6241,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Scott Szymanski",
+            "first_name": "Scott",
+            "last_name": "Szymanski",
+            "team_full": "Conrady"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_04",
           "top_competitor": {
             "full_name": "Mike Lambke",
@@ -6351,6 +6267,20 @@
           "result_type": "unknown",
           "bout_number": 2,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Joe Crawford",
+            "first_name": "Joe",
+            "last_name": "Crawford",
+            "team_full": "Prather"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_06",
@@ -6372,6 +6302,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Phil Messina",
+            "first_name": "Phil",
+            "last_name": "Messina",
+            "team_full": "Matburns"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_08",
           "top_competitor": {
             "full_name": "Chris Buxton",
@@ -6384,6 +6328,20 @@
           "result_type": "unknown",
           "bout_number": 4,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Dirrk McQueen",
+            "first_name": "Dirrk",
+            "last_name": "McQueen",
+            "team_full": "Decatur"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_10",
@@ -6405,6 +6363,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Rich Manchester",
+            "first_name": "Rich",
+            "last_name": "Manchester",
+            "team_full": "West Chicago"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_12",
           "top_competitor": {
             "full_name": "Dan Malagoli",
@@ -6422,6 +6394,20 @@
           "result_type": "unknown",
           "bout_number": 6,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Lee Harris",
+            "first_name": "Lee",
+            "last_name": "Harris",
+            "team_full": "Troy"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_14",
@@ -6443,6 +6429,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Pete Robson",
+            "first_name": "Pete",
+            "last_name": "Robson",
+            "team_full": "Dundee"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_16",
           "top_competitor": {
             "full_name": "Nick DiCarlo",
@@ -6462,25 +6462,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Scott Szymanski",
-            "first_name": "Scott",
-            "last_name": "Szymanski",
-            "team_full": "Conrady"
-          },
-          "bottom_competitor": {
-            "full_name": "Rich Manchester",
-            "first_name": "Rich",
-            "last_name": "Manchester",
-            "team_full": "West Chicago"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Bill Smith",
@@ -6497,6 +6478,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Scott Szymanski",
+            "first_name": "Scott",
+            "last_name": "Szymanski",
+            "team_full": "Conrady"
+          },
+          "bottom_competitor": {
+            "full_name": "Rich Manchester",
+            "first_name": "Rich",
+            "last_name": "Manchester",
+            "team_full": "West Chicago"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {
@@ -6539,104 +6539,6 @@
           "top_win": true
         },
         {
-          "match_slot": "championship_r32_03",
-          "top_competitor": {
-            "full_name": "Mike Newman",
-            "first_name": "Mike",
-            "last_name": "Newman",
-            "team_full": "Edwardsville"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_05",
-          "top_competitor": {
-            "full_name": "Mike Mroczek",
-            "first_name": "Mike",
-            "last_name": "Mroczek",
-            "team_full": "Matburns"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_07",
-          "top_competitor": {
-            "full_name": "Dave Hart",
-            "first_name": "Dave",
-            "last_name": "Hart",
-            "team_full": "Decatur"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_09",
-          "top_competitor": {
-            "full_name": "Rick Surma",
-            "first_name": "Rick",
-            "last_name": "Surma",
-            "team_full": "Naperville"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_11",
-          "top_competitor": {
-            "full_name": "James Washington",
-            "first_name": "James",
-            "last_name": "Washington",
-            "team_full": "Rich Township"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_13",
-          "top_competitor": {
-            "full_name": "Adams Evans",
-            "first_name": "Adams",
-            "last_name": "Evans",
-            "team_full": "Neal Jr."
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "championship_r32_15",
-          "top_competitor": {
-            "full_name": "Frank Pesole",
-            "first_name": "Frank",
-            "last_name": "Pesole",
-            "team_full": "Vittum Park"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "championship_r32_02",
           "top_competitor": {
             "full_name": "Joe Kwasniak",
@@ -6654,6 +6556,20 @@
           "result_type": "unknown",
           "bout_number": 1,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Mike Newman",
+            "first_name": "Mike",
+            "last_name": "Newman",
+            "team_full": "Edwardsville"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_04",
@@ -6675,6 +6591,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Mike Mroczek",
+            "first_name": "Mike",
+            "last_name": "Mroczek",
+            "team_full": "Matburns"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_06",
           "top_competitor": {
             "full_name": "Tony Rosa",
@@ -6692,6 +6622,20 @@
           "result_type": "unknown",
           "bout_number": 3,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Dave Hart",
+            "first_name": "Dave",
+            "last_name": "Hart",
+            "team_full": "Decatur"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_08",
@@ -6713,6 +6657,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Rick Surma",
+            "first_name": "Rick",
+            "last_name": "Surma",
+            "team_full": "Naperville"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_10",
           "top_competitor": {
             "full_name": "Mike McFadden",
@@ -6730,6 +6688,20 @@
           "result_type": "unknown",
           "bout_number": 5,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "James Washington",
+            "first_name": "James",
+            "last_name": "Washington",
+            "team_full": "Rich Township"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_12",
@@ -6751,6 +6723,20 @@
           "top_win": null
         },
         {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Adams Evans",
+            "first_name": "Adams",
+            "last_name": "Evans",
+            "team_full": "Neal Jr."
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_14",
           "top_competitor": {
             "full_name": "Paul Soto",
@@ -6768,6 +6754,20 @@
           "result_type": "unknown",
           "bout_number": 7,
           "top_win": null
+        },
+        {
+          "match_slot": "championship_r32_15",
+          "top_competitor": {
+            "full_name": "Frank Pesole",
+            "first_name": "Frank",
+            "last_name": "Pesole",
+            "team_full": "Vittum Park"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_16",
@@ -6789,25 +6789,6 @@
           "top_win": null
         },
         {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Chris Sakowski",
-            "first_name": "Chris",
-            "last_name": "Sakowski",
-            "team_full": "Burbank"
-          },
-          "bottom_competitor": {
-            "full_name": "James Washington",
-            "first_name": "James",
-            "last_name": "Washington",
-            "team_full": "Rich Township"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 36,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_fifth_place",
           "top_competitor": {
             "full_name": "Frank Pesole",
@@ -6824,6 +6805,25 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": 35,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Chris Sakowski",
+            "first_name": "Chris",
+            "last_name": "Sakowski",
+            "team_full": "Burbank"
+          },
+          "bottom_competitor": {
+            "full_name": "James Washington",
+            "first_name": "James",
+            "last_name": "Washington",
+            "team_full": "Rich Township"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 36,
           "top_win": true
         },
         {

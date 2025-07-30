@@ -105,18 +105,18 @@
       "weight": 85,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Ed Giese",
-            "first_name": "Ed",
-            "last_name": "Giese",
-            "team_full": "Franklin Park"
+            "full_name": "Jim Maddock",
+            "first_name": "Jim",
+            "last_name": "Maddock",
+            "team_full": "Marshall"
           },
           "bottom_competitor": {
-            "full_name": "Bill Kelly",
-            "first_name": "Bill",
-            "last_name": "Kelly",
-            "team_full": "Chicago Ridge"
+            "full_name": "Jerry Miller",
+            "first_name": "Jerry",
+            "last_name": "Miller",
+            "team_full": "Granite City"
           },
           "result": "",
           "result_type": "unknown",
@@ -143,18 +143,18 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "Jim Maddock",
-            "first_name": "Jim",
-            "last_name": "Maddock",
-            "team_full": "Marshall"
+            "full_name": "Ed Giese",
+            "first_name": "Ed",
+            "last_name": "Giese",
+            "team_full": "Franklin Park"
           },
           "bottom_competitor": {
-            "full_name": "Jerry Miller",
-            "first_name": "Jerry",
-            "last_name": "Miller",
-            "team_full": "Granite City"
+            "full_name": "Bill Kelly",
+            "first_name": "Bill",
+            "last_name": "Kelly",
+            "team_full": "Chicago Ridge"
           },
           "result": "",
           "result_type": "unknown",
@@ -208,18 +208,18 @@
       "weight": 100,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Mark Barron",
-            "first_name": "Mark",
-            "last_name": "Barron",
-            "team_full": "Aurora Franklin"
+            "full_name": "Mike Smith",
+            "first_name": "Mike",
+            "last_name": "Smith",
+            "team_full": "Stillman Valley"
           },
           "bottom_competitor": {
-            "full_name": "Matt Twitty",
-            "first_name": "Matt",
-            "last_name": "Twitty",
-            "team_full": "Mattoon"
+            "full_name": "Jack Sale",
+            "first_name": "Jack",
+            "last_name": "Sale",
+            "team_full": "Mahomet"
           },
           "result": "",
           "result_type": "unknown",
@@ -246,18 +246,18 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "Mike Smith",
-            "first_name": "Mike",
-            "last_name": "Smith",
-            "team_full": "Stillman Valley"
+            "full_name": "Mark Barron",
+            "first_name": "Mark",
+            "last_name": "Barron",
+            "team_full": "Aurora Franklin"
           },
           "bottom_competitor": {
-            "full_name": "Jack Sale",
-            "first_name": "Jack",
-            "last_name": "Sale",
-            "team_full": "Mahomet"
+            "full_name": "Matt Twitty",
+            "first_name": "Matt",
+            "last_name": "Twitty",
+            "team_full": "Mattoon"
           },
           "result": "",
           "result_type": "unknown",

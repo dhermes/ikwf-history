@@ -5,25 +5,6 @@
       "weight": 55,
       "matches": [
         {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "D. Lund",
-            "first_name": "D.",
-            "last_name": "Lund",
-            "team_full": "Wrestling Factory"
-          },
-          "bottom_competitor": {
-            "full_name": "C. Nance",
-            "first_name": "C.",
-            "last_name": "Nance",
-            "team_full": "Granite City"
-          },
-          "result": "Dec 7-0",
-          "result_type": "decision",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
           "match_slot": "consolation_third_place",
           "top_competitor": {
             "full_name": "T Webster",
@@ -41,6 +22,25 @@
           "result_type": "major",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "D. Lund",
+            "first_name": "D.",
+            "last_name": "Lund",
+            "team_full": "Wrestling Factory"
+          },
+          "bottom_competitor": {
+            "full_name": "C. Nance",
+            "first_name": "C.",
+            "last_name": "Nance",
+            "team_full": "Granite City"
+          },
+          "result": "Dec 7-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
         }
       ]
     },
@@ -48,25 +48,6 @@
       "division": "junior_iwf",
       "weight": 58,
       "matches": [
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "J. Kennedy",
-            "first_name": "J.",
-            "last_name": "Kennedy",
-            "team_full": "Wrestling Factory"
-          },
-          "bottom_competitor": {
-            "full_name": "M. Morgan",
-            "first_name": "M.",
-            "last_name": "Morgan",
-            "team_full": "Harvey"
-          },
-          "result": "Fall 2:44",
-          "result_type": "fall",
-          "bout_number": null,
-          "top_win": true
-        },
         {
           "match_slot": "consolation_third_place",
           "top_competitor": {
@@ -85,6 +66,25 @@
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "J. Kennedy",
+            "first_name": "J.",
+            "last_name": "Kennedy",
+            "team_full": "Wrestling Factory"
+          },
+          "bottom_competitor": {
+            "full_name": "M. Morgan",
+            "first_name": "M.",
+            "last_name": "Morgan",
+            "team_full": "Harvey"
+          },
+          "result": "Fall 2:44",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
         }
       ]
     },
@@ -92,25 +92,6 @@
       "division": "junior_iwf",
       "weight": 62,
       "matches": [
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "Troy Howell",
-            "first_name": "Troy",
-            "last_name": "Howell",
-            "team_full": "Granite City"
-          },
-          "bottom_competitor": {
-            "full_name": "Steve Walsh",
-            "first_name": "Steve",
-            "last_name": "Walsh",
-            "team_full": "Panthers"
-          },
-          "result": "Dec 2-0",
-          "result_type": "decision",
-          "bout_number": null,
-          "top_win": true
-        },
         {
           "match_slot": "consolation_third_place",
           "top_competitor": {
@@ -129,6 +110,25 @@
           "result_type": "major",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Troy Howell",
+            "first_name": "Troy",
+            "last_name": "Howell",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "Steve Walsh",
+            "first_name": "Steve",
+            "last_name": "Walsh",
+            "team_full": "Panthers"
+          },
+          "result": "Dec 2-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
         }
       ]
     },
@@ -136,25 +136,6 @@
       "division": "junior_iwf",
       "weight": 66,
       "matches": [
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "J. Keske",
-            "first_name": "J.",
-            "last_name": "Keske",
-            "team_full": "Wrestling Factory"
-          },
-          "bottom_competitor": {
-            "full_name": "A. Wagoner",
-            "first_name": "A.",
-            "last_name": "Wagoner",
-            "team_full": "Gran City"
-          },
-          "result": "Dec 7-1",
-          "result_type": "decision",
-          "bout_number": null,
-          "top_win": true
-        },
         {
           "match_slot": "consolation_third_place",
           "top_competitor": {
@@ -173,6 +154,25 @@
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "J. Keske",
+            "first_name": "J.",
+            "last_name": "Keske",
+            "team_full": "Wrestling Factory"
+          },
+          "bottom_competitor": {
+            "full_name": "A. Wagoner",
+            "first_name": "A.",
+            "last_name": "Wagoner",
+            "team_full": "Gran City"
+          },
+          "result": "Dec 7-1",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
         }
       ]
     },
@@ -180,25 +180,6 @@
       "division": "junior_iwf",
       "weight": 70,
       "matches": [
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "Jeff Carney",
-            "first_name": "Jeff",
-            "last_name": "Carney",
-            "team_full": "Granite City"
-          },
-          "bottom_competitor": {
-            "full_name": "Erik Hanson",
-            "first_name": "Erik",
-            "last_name": "Hanson",
-            "team_full": "Lan-Oak"
-          },
-          "result": "Dec 9-4",
-          "result_type": "decision",
-          "bout_number": null,
-          "top_win": true
-        },
         {
           "match_slot": "consolation_third_place",
           "top_competitor": {
@@ -217,6 +198,25 @@
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jeff Carney",
+            "first_name": "Jeff",
+            "last_name": "Carney",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "Erik Hanson",
+            "first_name": "Erik",
+            "last_name": "Hanson",
+            "team_full": "Lan-Oak"
+          },
+          "result": "Dec 9-4",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
         }
       ]
     },
@@ -224,25 +224,6 @@
       "division": "junior_iwf",
       "weight": 74,
       "matches": [
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "Travis Hammons",
-            "first_name": "Travis",
-            "last_name": "Hammons",
-            "team_full": "Harvey"
-          },
-          "bottom_competitor": {
-            "full_name": "Jamie Smith",
-            "first_name": "Jamie",
-            "last_name": "Smith",
-            "team_full": "Bison"
-          },
-          "result": "Dec 7-3",
-          "result_type": "decision",
-          "bout_number": null,
-          "top_win": true
-        },
         {
           "match_slot": "consolation_third_place",
           "top_competitor": {
@@ -261,6 +242,25 @@
           "result_type": "major",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Travis Hammons",
+            "first_name": "Travis",
+            "last_name": "Hammons",
+            "team_full": "Harvey"
+          },
+          "bottom_competitor": {
+            "full_name": "Jamie Smith",
+            "first_name": "Jamie",
+            "last_name": "Smith",
+            "team_full": "Bison"
+          },
+          "result": "Dec 7-3",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
         }
       ]
     },
@@ -268,25 +268,6 @@
       "division": "junior_iwf",
       "weight": 79,
       "matches": [
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "Ben Petry",
-            "first_name": "Ben",
-            "last_name": "Petry",
-            "team_full": "Blackhawk"
-          },
-          "bottom_competitor": {
-            "full_name": "David Wells",
-            "first_name": "David",
-            "last_name": "Wells",
-            "team_full": "Collinsville"
-          },
-          "result": "Dec 1-0",
-          "result_type": "decision",
-          "bout_number": null,
-          "top_win": true
-        },
         {
           "match_slot": "consolation_third_place",
           "top_competitor": {
@@ -305,6 +286,25 @@
           "result_type": "major",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Ben Petry",
+            "first_name": "Ben",
+            "last_name": "Petry",
+            "team_full": "Blackhawk"
+          },
+          "bottom_competitor": {
+            "full_name": "David Wells",
+            "first_name": "David",
+            "last_name": "Wells",
+            "team_full": "Collinsville"
+          },
+          "result": "Dec 1-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
         }
       ]
     },
@@ -312,25 +312,6 @@
       "division": "junior_iwf",
       "weight": 84,
       "matches": [
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "Laquan Melvin",
-            "first_name": "Laquan",
-            "last_name": "Melvin",
-            "team_full": "Tomcats"
-          },
-          "bottom_competitor": {
-            "full_name": "Sean Simon",
-            "first_name": "Sean",
-            "last_name": "Simon",
-            "team_full": "Maywood"
-          },
-          "result": "Fall :36",
-          "result_type": "fall",
-          "bout_number": null,
-          "top_win": true
-        },
         {
           "match_slot": "consolation_third_place",
           "top_competitor": {
@@ -349,6 +330,25 @@
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Laquan Melvin",
+            "first_name": "Laquan",
+            "last_name": "Melvin",
+            "team_full": "Tomcats"
+          },
+          "bottom_competitor": {
+            "full_name": "Sean Simon",
+            "first_name": "Sean",
+            "last_name": "Simon",
+            "team_full": "Maywood"
+          },
+          "result": "Fall :36",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
         }
       ]
     },
@@ -356,25 +356,6 @@
       "division": "junior_iwf",
       "weight": 89,
       "matches": [
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "TJ Nance",
-            "first_name": "TJ",
-            "last_name": "Nance",
-            "team_full": "Granite City"
-          },
-          "bottom_competitor": {
-            "full_name": "James Kernats",
-            "first_name": "James",
-            "last_name": "Kernats",
-            "team_full": "Panthers"
-          },
-          "result": "Dec 6-4",
-          "result_type": "decision",
-          "bout_number": null,
-          "top_win": true
-        },
         {
           "match_slot": "consolation_third_place",
           "top_competitor": {
@@ -393,6 +374,25 @@
           "result_type": "fall",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "TJ Nance",
+            "first_name": "TJ",
+            "last_name": "Nance",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "James Kernats",
+            "first_name": "James",
+            "last_name": "Kernats",
+            "team_full": "Panthers"
+          },
+          "result": "Dec 6-4",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
         }
       ]
     },
@@ -400,25 +400,6 @@
       "division": "junior_iwf",
       "weight": 95,
       "matches": [
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "Omar Abdullah",
-            "first_name": "Omar",
-            "last_name": "Abdullah",
-            "team_full": "Lockport"
-          },
-          "bottom_competitor": {
-            "full_name": "N. Howard",
-            "first_name": "N.",
-            "last_name": "Howard",
-            "team_full": "MS Kids"
-          },
-          "result": "TF 17-0",
-          "result_type": "tech",
-          "bout_number": null,
-          "top_win": true
-        },
         {
           "match_slot": "consolation_third_place",
           "top_competitor": {
@@ -437,6 +418,25 @@
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Omar Abdullah",
+            "first_name": "Omar",
+            "last_name": "Abdullah",
+            "team_full": "Lockport"
+          },
+          "bottom_competitor": {
+            "full_name": "N. Howard",
+            "first_name": "N.",
+            "last_name": "Howard",
+            "team_full": "MS Kids"
+          },
+          "result": "TF 17-0",
+          "result_type": "tech",
+          "bout_number": null,
+          "top_win": true
         }
       ]
     },
@@ -444,25 +444,6 @@
       "division": "junior_iwf",
       "weight": 108,
       "matches": [
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "Jarvis Lowe",
-            "first_name": "Jarvis",
-            "last_name": "Lowe",
-            "team_full": "Harvey"
-          },
-          "bottom_competitor": {
-            "full_name": "Dustin Arnold",
-            "first_name": "Dustin",
-            "last_name": "Arnold",
-            "team_full": "Falcons"
-          },
-          "result": "Fall 2:41",
-          "result_type": "fall",
-          "bout_number": null,
-          "top_win": true
-        },
         {
           "match_slot": "consolation_third_place",
           "top_competitor": {
@@ -481,6 +462,25 @@
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Jarvis Lowe",
+            "first_name": "Jarvis",
+            "last_name": "Lowe",
+            "team_full": "Harvey"
+          },
+          "bottom_competitor": {
+            "full_name": "Dustin Arnold",
+            "first_name": "Dustin",
+            "last_name": "Arnold",
+            "team_full": "Falcons"
+          },
+          "result": "Fall 2:41",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
         }
       ]
     },
@@ -488,25 +488,6 @@
       "division": "junior_iwf",
       "weight": 122,
       "matches": [
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "Eric Lueders",
-            "first_name": "Eric",
-            "last_name": "Lueders",
-            "team_full": "Bison"
-          },
-          "bottom_competitor": {
-            "full_name": "Adrian Cerrillo",
-            "first_name": "Adrian",
-            "last_name": "Cerrillo",
-            "team_full": "Joliet"
-          },
-          "result": "MajDec 10-0",
-          "result_type": "major",
-          "bout_number": null,
-          "top_win": true
-        },
         {
           "match_slot": "consolation_third_place",
           "top_competitor": {
@@ -525,6 +506,25 @@
           "result_type": "major",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Eric Lueders",
+            "first_name": "Eric",
+            "last_name": "Lueders",
+            "team_full": "Bison"
+          },
+          "bottom_competitor": {
+            "full_name": "Adrian Cerrillo",
+            "first_name": "Adrian",
+            "last_name": "Cerrillo",
+            "team_full": "Joliet"
+          },
+          "result": "MajDec 10-0",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": true
         }
       ]
     },
@@ -532,25 +532,6 @@
       "division": "junior_iwf",
       "weight": 138,
       "matches": [
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "M. Jurkovic",
-            "first_name": "M.",
-            "last_name": "Jurkovic",
-            "team_full": "Calu City"
-          },
-          "bottom_competitor": {
-            "full_name": "T. Hefferman",
-            "first_name": "T.",
-            "last_name": "Hefferman",
-            "team_full": "Arlington"
-          },
-          "result": "Fall 1:52",
-          "result_type": "fall",
-          "bout_number": null,
-          "top_win": true
-        },
         {
           "match_slot": "consolation_third_place",
           "top_competitor": {
@@ -569,6 +550,25 @@
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "M. Jurkovic",
+            "first_name": "M.",
+            "last_name": "Jurkovic",
+            "team_full": "Calu City"
+          },
+          "bottom_competitor": {
+            "full_name": "T. Hefferman",
+            "first_name": "T.",
+            "last_name": "Hefferman",
+            "team_full": "Arlington"
+          },
+          "result": "Fall 1:52",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
         }
       ]
     },
@@ -576,6 +576,20 @@
       "division": "junior_iwf",
       "weight": 170,
       "matches": [
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Mike Chlamovski",
+            "first_name": "Mike",
+            "last_name": "Chlamovski",
+            "team_full": "Lions"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_first_place",
           "top_competitor": {
@@ -594,20 +608,6 @@
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
-        },
-        {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "Mike Chlamovski",
-            "first_name": "Mike",
-            "last_name": "Chlamovski",
-            "team_full": "Lions"
-          },
-          "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -616,21 +616,21 @@
       "weight": 62,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Joey Lane",
-            "first_name": "Joey",
-            "last_name": "Lane",
-            "team_full": "Pekin"
+            "full_name": "Keenan James",
+            "first_name": "Keenan",
+            "last_name": "James",
+            "team_full": "Maywood"
           },
           "bottom_competitor": {
-            "full_name": "Joe Rokowski",
-            "first_name": "Joe",
-            "last_name": "Rokowski",
-            "team_full": "Panthers"
+            "full_name": "Chris Alexander",
+            "first_name": "Chris",
+            "last_name": "Alexander",
+            "team_full": "Pekin"
           },
-          "result": "Fall 2:28",
-          "result_type": "fall",
+          "result": "MajDec 13-3",
+          "result_type": "major",
           "bout_number": null,
           "top_win": true
         },
@@ -654,21 +654,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "Keenan James",
-            "first_name": "Keenan",
-            "last_name": "James",
-            "team_full": "Maywood"
-          },
-          "bottom_competitor": {
-            "full_name": "Chris Alexander",
-            "first_name": "Chris",
-            "last_name": "Alexander",
+            "full_name": "Joey Lane",
+            "first_name": "Joey",
+            "last_name": "Lane",
             "team_full": "Pekin"
           },
-          "result": "MajDec 13-3",
-          "result_type": "major",
+          "bottom_competitor": {
+            "full_name": "Joe Rokowski",
+            "first_name": "Joe",
+            "last_name": "Rokowski",
+            "team_full": "Panthers"
+          },
+          "result": "Fall 2:28",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         }
@@ -679,20 +679,20 @@
       "weight": 66,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Kenny Jordan",
-            "first_name": "Kenny",
-            "last_name": "Jordan",
-            "team_full": "Dolton"
+            "full_name": "Vince Castillo",
+            "first_name": "Vince",
+            "last_name": "Castillo",
+            "team_full": "Lions"
           },
           "bottom_competitor": {
-            "full_name": "Angel Escobedo",
-            "first_name": "Angel",
-            "last_name": "Escobedo",
-            "team_full": "Dolton"
+            "full_name": "G. Melvan",
+            "first_name": "G.",
+            "last_name": "Melvan",
+            "team_full": "Oak Forest"
           },
-          "result": "Dec 3-1",
+          "result": "Dec 9-2",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -717,20 +717,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "Vince Castillo",
-            "first_name": "Vince",
-            "last_name": "Castillo",
-            "team_full": "Lions"
+            "full_name": "Kenny Jordan",
+            "first_name": "Kenny",
+            "last_name": "Jordan",
+            "team_full": "Dolton"
           },
           "bottom_competitor": {
-            "full_name": "G. Melvan",
-            "first_name": "G.",
-            "last_name": "Melvan",
-            "team_full": "Oak Forest"
+            "full_name": "Angel Escobedo",
+            "first_name": "Angel",
+            "last_name": "Escobedo",
+            "team_full": "Dolton"
           },
-          "result": "Dec 9-2",
+          "result": "Dec 3-1",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -742,21 +742,16 @@
       "weight": 70,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Michael Simmons",
-            "first_name": "Michael",
-            "last_name": "Simmons",
-            "team_full": "Wrestling Factory"
+            "full_name": "J. Kastens",
+            "first_name": "J.",
+            "last_name": "Kastens",
+            "team_full": "Lake Zurich"
           },
-          "bottom_competitor": {
-            "full_name": "R. Overby",
-            "first_name": "R.",
-            "last_name": "Overby",
-            "team_full": "Lake Villa"
-          },
-          "result": "Fall 2:03",
-          "result_type": "fall",
+          "bottom_competitor": null,
+          "result": "Dq",
+          "result_type": "disqualification",
           "bout_number": null,
           "top_win": true
         },
@@ -780,16 +775,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "J. Kastens",
-            "first_name": "J.",
-            "last_name": "Kastens",
-            "team_full": "Lake Zurich"
+            "full_name": "Michael Simmons",
+            "first_name": "Michael",
+            "last_name": "Simmons",
+            "team_full": "Wrestling Factory"
           },
-          "bottom_competitor": null,
-          "result": "Dq",
-          "result_type": "disqualification",
+          "bottom_competitor": {
+            "full_name": "R. Overby",
+            "first_name": "R.",
+            "last_name": "Overby",
+            "team_full": "Lake Villa"
+          },
+          "result": "Fall 2:03",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         }
@@ -800,21 +800,21 @@
       "weight": 74,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Dan Zeman",
-            "first_name": "Dan",
-            "last_name": "Zeman",
-            "team_full": "Lions"
+            "full_name": "M. Smith",
+            "first_name": "M.",
+            "last_name": "Smith",
+            "team_full": "Bison"
           },
           "bottom_competitor": {
-            "full_name": "K. Scholle",
-            "first_name": "K.",
-            "last_name": "Scholle",
-            "team_full": "Carmel Corsair"
+            "full_name": "H. Felgar",
+            "first_name": "H.",
+            "last_name": "Felgar",
+            "team_full": "Moline"
           },
-          "result": "Fall :48",
-          "result_type": "fall",
+          "result": "Dec 5-2",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         },
@@ -838,21 +838,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "M. Smith",
-            "first_name": "M.",
-            "last_name": "Smith",
-            "team_full": "Bison"
+            "full_name": "Dan Zeman",
+            "first_name": "Dan",
+            "last_name": "Zeman",
+            "team_full": "Lions"
           },
           "bottom_competitor": {
-            "full_name": "H. Felgar",
-            "first_name": "H.",
-            "last_name": "Felgar",
-            "team_full": "Moline"
+            "full_name": "K. Scholle",
+            "first_name": "K.",
+            "last_name": "Scholle",
+            "team_full": "Carmel Corsair"
           },
-          "result": "Dec 5-2",
-          "result_type": "decision",
+          "result": "Fall :48",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         }
@@ -863,21 +863,21 @@
       "weight": 79,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Jeffery Canella",
-            "first_name": "Jeffery",
-            "last_name": "Canella",
-            "team_full": "Wrestling Factory"
+            "full_name": "E. Munox",
+            "first_name": "E.",
+            "last_name": "Munox",
+            "team_full": "Joliet"
           },
           "bottom_competitor": {
-            "full_name": "T. Campbell",
-            "first_name": "T.",
-            "last_name": "Campbell",
-            "team_full": "Granite City"
+            "full_name": "S. Stoltz",
+            "first_name": "S.",
+            "last_name": "Stoltz",
+            "team_full": "Arlington"
           },
-          "result": "Fall :30",
-          "result_type": "fall",
+          "result": "MajDec 16-4",
+          "result_type": "major",
           "bout_number": null,
           "top_win": true
         },
@@ -901,21 +901,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "E. Munox",
-            "first_name": "E.",
-            "last_name": "Munox",
-            "team_full": "Joliet"
+            "full_name": "Jeffery Canella",
+            "first_name": "Jeffery",
+            "last_name": "Canella",
+            "team_full": "Wrestling Factory"
           },
           "bottom_competitor": {
-            "full_name": "S. Stoltz",
-            "first_name": "S.",
-            "last_name": "Stoltz",
-            "team_full": "Arlington"
+            "full_name": "T. Campbell",
+            "first_name": "T.",
+            "last_name": "Campbell",
+            "team_full": "Granite City"
           },
-          "result": "MajDec 16-4",
-          "result_type": "major",
+          "result": "Fall :30",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         }
@@ -926,20 +926,20 @@
       "weight": 84,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Charles Lloyd",
-            "first_name": "Charles",
-            "last_name": "Lloyd",
-            "team_full": "Harvey"
+            "full_name": "Jeff Broadway",
+            "first_name": "Jeff",
+            "last_name": "Broadway",
+            "team_full": "Joliet"
           },
           "bottom_competitor": {
-            "full_name": "Mark Friend",
-            "first_name": "Mark",
-            "last_name": "Friend",
-            "team_full": "Wrestling Factory"
+            "full_name": "J. Clark",
+            "first_name": "J.",
+            "last_name": "Clark",
+            "team_full": "Arlington"
           },
-          "result": "Dec 4-2",
+          "result": "Dec 8-6",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -964,20 +964,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "Jeff Broadway",
-            "first_name": "Jeff",
-            "last_name": "Broadway",
-            "team_full": "Joliet"
+            "full_name": "Charles Lloyd",
+            "first_name": "Charles",
+            "last_name": "Lloyd",
+            "team_full": "Harvey"
           },
           "bottom_competitor": {
-            "full_name": "J. Clark",
-            "first_name": "J.",
-            "last_name": "Clark",
-            "team_full": "Arlington"
+            "full_name": "Mark Friend",
+            "first_name": "Mark",
+            "last_name": "Friend",
+            "team_full": "Wrestling Factory"
           },
-          "result": "Dec 8-6",
+          "result": "Dec 4-2",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -989,20 +989,20 @@
       "weight": 89,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Jim Griffin",
-            "first_name": "Jim",
-            "last_name": "Griffin",
-            "team_full": "Oak Forest"
+            "full_name": "L. Silva",
+            "first_name": "L.",
+            "last_name": "Silva",
+            "team_full": "Blue Island"
           },
           "bottom_competitor": {
-            "full_name": "A. Hernandez",
-            "first_name": "A.",
-            "last_name": "Hernandez",
-            "team_full": "Dolton"
+            "full_name": "M. Cook",
+            "first_name": "M.",
+            "last_name": "Cook",
+            "team_full": "DeKalb"
           },
-          "result": "MajDec 13-4",
+          "result": "MajDec 16-3",
           "result_type": "major",
           "bout_number": null,
           "top_win": true
@@ -1027,20 +1027,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "L. Silva",
-            "first_name": "L.",
-            "last_name": "Silva",
-            "team_full": "Blue Island"
+            "full_name": "Jim Griffin",
+            "first_name": "Jim",
+            "last_name": "Griffin",
+            "team_full": "Oak Forest"
           },
           "bottom_competitor": {
-            "full_name": "M. Cook",
-            "first_name": "M.",
-            "last_name": "Cook",
-            "team_full": "DeKalb"
+            "full_name": "A. Hernandez",
+            "first_name": "A.",
+            "last_name": "Hernandez",
+            "team_full": "Dolton"
           },
-          "result": "MajDec 16-3",
+          "result": "MajDec 13-4",
           "result_type": "major",
           "bout_number": null,
           "top_win": true
@@ -1052,21 +1052,21 @@
       "weight": 95,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "G. Pruger",
-            "first_name": "G.",
-            "last_name": "Pruger",
-            "team_full": "Fenwick"
+            "full_name": "B. Urbaniak",
+            "first_name": "B.",
+            "last_name": "Urbaniak",
+            "team_full": "Hoffman Estate"
           },
           "bottom_competitor": {
-            "full_name": "E. Dardanes",
-            "first_name": "E.",
-            "last_name": "Dardanes",
-            "team_full": "OPRF"
+            "full_name": "M. Wojcik",
+            "first_name": "M.",
+            "last_name": "Wojcik",
+            "team_full": "Carmel Corsair"
           },
-          "result": "Dec 6-0",
-          "result_type": "decision",
+          "result": "MajDec 10-0",
+          "result_type": "major",
           "bout_number": null,
           "top_win": true
         },
@@ -1090,21 +1090,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "B. Urbaniak",
-            "first_name": "B.",
-            "last_name": "Urbaniak",
-            "team_full": "Hoffman Estate"
+            "full_name": "G. Pruger",
+            "first_name": "G.",
+            "last_name": "Pruger",
+            "team_full": "Fenwick"
           },
           "bottom_competitor": {
-            "full_name": "M. Wojcik",
-            "first_name": "M.",
-            "last_name": "Wojcik",
-            "team_full": "Carmel Corsair"
+            "full_name": "E. Dardanes",
+            "first_name": "E.",
+            "last_name": "Dardanes",
+            "team_full": "OPRF"
           },
-          "result": "MajDec 10-0",
-          "result_type": "major",
+          "result": "Dec 6-0",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         }
@@ -1115,20 +1115,20 @@
       "weight": 101,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Mark Kehm",
-            "first_name": "Mark",
-            "last_name": "Kehm",
-            "team_full": "St. Charles"
+            "full_name": "D. Lyons",
+            "first_name": "D.",
+            "last_name": "Lyons",
+            "team_full": "St. Tars"
           },
           "bottom_competitor": {
-            "full_name": "Chris Mellender",
-            "first_name": "Chris",
-            "last_name": "Mellender",
-            "team_full": "Carmel Corsair"
+            "full_name": "J. Polich",
+            "first_name": "J.",
+            "last_name": "Polich",
+            "team_full": "Panthers"
           },
-          "result": "Dec 9-4",
+          "result": "Dec 8-1",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -1153,20 +1153,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "D. Lyons",
-            "first_name": "D.",
-            "last_name": "Lyons",
-            "team_full": "St. Tars"
+            "full_name": "Mark Kehm",
+            "first_name": "Mark",
+            "last_name": "Kehm",
+            "team_full": "St. Charles"
           },
           "bottom_competitor": {
-            "full_name": "J. Polich",
-            "first_name": "J.",
-            "last_name": "Polich",
-            "team_full": "Panthers"
+            "full_name": "Chris Mellender",
+            "first_name": "Chris",
+            "last_name": "Mellender",
+            "team_full": "Carmel Corsair"
           },
-          "result": "Dec 8-1",
+          "result": "Dec 9-4",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -1178,21 +1178,16 @@
       "weight": 108,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Alonzo Noble",
-            "first_name": "Alonzo",
-            "last_name": "Noble",
-            "team_full": "Harvey"
+            "full_name": "Bobby Hopkins",
+            "first_name": "Bobby",
+            "last_name": "Hopkins",
+            "team_full": "Knights"
           },
-          "bottom_competitor": {
-            "full_name": "Chris Potter",
-            "first_name": "Chris",
-            "last_name": "Potter",
-            "team_full": "St. Charles"
-          },
-          "result": "Dec 12-10",
-          "result_type": "decision",
+          "bottom_competitor": null,
+          "result": "Forf",
+          "result_type": "forfeit",
           "bout_number": null,
           "top_win": true
         },
@@ -1216,16 +1211,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "Bobby Hopkins",
-            "first_name": "Bobby",
-            "last_name": "Hopkins",
-            "team_full": "Knights"
+            "full_name": "Alonzo Noble",
+            "first_name": "Alonzo",
+            "last_name": "Noble",
+            "team_full": "Harvey"
           },
-          "bottom_competitor": null,
-          "result": "Forf",
-          "result_type": "forfeit",
+          "bottom_competitor": {
+            "full_name": "Chris Potter",
+            "first_name": "Chris",
+            "last_name": "Potter",
+            "team_full": "St. Charles"
+          },
+          "result": "Dec 12-10",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         }
@@ -1236,21 +1236,21 @@
       "weight": 115,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Michael Goede",
-            "first_name": "Michael",
-            "last_name": "Goede",
-            "team_full": "Calumet City"
+            "full_name": "A. Gilliand",
+            "first_name": "A.",
+            "last_name": "Gilliand",
+            "team_full": "El Paso"
           },
           "bottom_competitor": {
-            "full_name": "Ben Bernal",
-            "first_name": "Ben",
-            "last_name": "Bernal",
-            "team_full": "Hoffman Estates"
+            "full_name": "C. Price",
+            "first_name": "C.",
+            "last_name": "Price",
+            "team_full": "El Paso"
           },
-          "result": "Dec 5-1",
-          "result_type": "decision",
+          "result": "Fall 3:32",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         },
@@ -1274,21 +1274,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "A. Gilliand",
-            "first_name": "A.",
-            "last_name": "Gilliand",
-            "team_full": "El Paso"
+            "full_name": "Michael Goede",
+            "first_name": "Michael",
+            "last_name": "Goede",
+            "team_full": "Calumet City"
           },
           "bottom_competitor": {
-            "full_name": "C. Price",
-            "first_name": "C.",
-            "last_name": "Price",
-            "team_full": "El Paso"
+            "full_name": "Ben Bernal",
+            "first_name": "Ben",
+            "last_name": "Bernal",
+            "team_full": "Hoffman Estates"
           },
-          "result": "Fall 3:32",
-          "result_type": "fall",
+          "result": "Dec 5-1",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         }
@@ -1299,21 +1299,21 @@
       "weight": 122,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Tyler Watkins",
-            "first_name": "Tyler",
-            "last_name": "Watkins",
-            "team_full": "OPRF"
+            "full_name": "P. McCormic",
+            "first_name": "P.",
+            "last_name": "McCormic",
+            "team_full": "Central"
           },
           "bottom_competitor": {
-            "full_name": "B. Suler",
-            "first_name": "B.",
-            "last_name": "Suler",
-            "team_full": "Blackhawk"
+            "full_name": "J. Urrutia",
+            "first_name": "J.",
+            "last_name": "Urrutia",
+            "team_full": "Falcons"
           },
-          "result": "Dec 13-8",
-          "result_type": "decision",
+          "result": "Fall 3:19",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         },
@@ -1337,21 +1337,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "P. McCormic",
-            "first_name": "P.",
-            "last_name": "McCormic",
-            "team_full": "Central"
+            "full_name": "Tyler Watkins",
+            "first_name": "Tyler",
+            "last_name": "Watkins",
+            "team_full": "OPRF"
           },
           "bottom_competitor": {
-            "full_name": "J. Urrutia",
-            "first_name": "J.",
-            "last_name": "Urrutia",
-            "team_full": "Falcons"
+            "full_name": "B. Suler",
+            "first_name": "B.",
+            "last_name": "Suler",
+            "team_full": "Blackhawk"
           },
-          "result": "Fall 3:19",
-          "result_type": "fall",
+          "result": "Dec 13-8",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         }
@@ -1362,20 +1362,20 @@
       "weight": 130,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "C. Muller",
-            "first_name": "C.",
-            "last_name": "Muller",
-            "team_full": "Rich Wrestling"
+            "full_name": "P. Szigetuari",
+            "first_name": "P.",
+            "last_name": "Szigetuari",
+            "team_full": "Jr. Bears"
           },
           "bottom_competitor": {
-            "full_name": "M. Benson",
-            "first_name": "M.",
-            "last_name": "Benson",
-            "team_full": "Shamrock WC"
+            "full_name": "K. Sigler",
+            "first_name": "K.",
+            "last_name": "Sigler",
+            "team_full": "ElPaso"
           },
-          "result": "Dec 4-3",
+          "result": "Dec 10-9",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -1400,20 +1400,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "P. Szigetuari",
-            "first_name": "P.",
-            "last_name": "Szigetuari",
-            "team_full": "Jr. Bears"
+            "full_name": "C. Muller",
+            "first_name": "C.",
+            "last_name": "Muller",
+            "team_full": "Rich Wrestling"
           },
           "bottom_competitor": {
-            "full_name": "K. Sigler",
-            "first_name": "K.",
-            "last_name": "Sigler",
-            "team_full": "ElPaso"
+            "full_name": "M. Benson",
+            "first_name": "M.",
+            "last_name": "Benson",
+            "team_full": "Shamrock WC"
           },
-          "result": "Dec 10-9",
+          "result": "Dec 4-3",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -1425,20 +1425,20 @@
       "weight": 147,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Robby Walleck",
-            "first_name": "Robby",
-            "last_name": "Walleck",
-            "team_full": "Wrestling Factory"
+            "full_name": "D. Cozzi",
+            "first_name": "D.",
+            "last_name": "Cozzi",
+            "team_full": "St. Charles"
           },
           "bottom_competitor": {
-            "full_name": "Jason James",
-            "first_name": "Jason",
-            "last_name": "James",
-            "team_full": "Maywood"
+            "full_name": "T. Kuna",
+            "first_name": "T.",
+            "last_name": "Kuna",
+            "team_full": "Raiders"
           },
-          "result": "Fall :47",
+          "result": "Fall :51",
           "result_type": "fall",
           "bout_number": null,
           "top_win": true
@@ -1463,20 +1463,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "D. Cozzi",
-            "first_name": "D.",
-            "last_name": "Cozzi",
-            "team_full": "St. Charles"
+            "full_name": "Robby Walleck",
+            "first_name": "Robby",
+            "last_name": "Walleck",
+            "team_full": "Wrestling Factory"
           },
           "bottom_competitor": {
-            "full_name": "T. Kuna",
-            "first_name": "T.",
-            "last_name": "Kuna",
-            "team_full": "Raiders"
+            "full_name": "Jason James",
+            "first_name": "Jason",
+            "last_name": "James",
+            "team_full": "Maywood"
           },
-          "result": "Fall :51",
+          "result": "Fall :47",
           "result_type": "fall",
           "bout_number": null,
           "top_win": true
@@ -1488,20 +1488,20 @@
       "weight": 166,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Dave Herrera",
-            "first_name": "Dave",
-            "last_name": "Herrera",
-            "team_full": "Falcons"
+            "full_name": "Tyler Breusewitz",
+            "first_name": "Tyler",
+            "last_name": "Breusewitz",
+            "team_full": "Elmhurst"
           },
           "bottom_competitor": {
-            "full_name": "Russ Flanders",
-            "first_name": "Russ",
-            "last_name": "Flanders",
-            "team_full": "Knights"
+            "full_name": "T. Noonan",
+            "first_name": "T.",
+            "last_name": "Noonan",
+            "team_full": "Raiders"
           },
-          "result": "Dec 8-2",
+          "result": "Dec 5-0",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -1526,20 +1526,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "Tyler Breusewitz",
-            "first_name": "Tyler",
-            "last_name": "Breusewitz",
-            "team_full": "Elmhurst"
+            "full_name": "Dave Herrera",
+            "first_name": "Dave",
+            "last_name": "Herrera",
+            "team_full": "Falcons"
           },
           "bottom_competitor": {
-            "full_name": "T. Noonan",
-            "first_name": "T.",
-            "last_name": "Noonan",
-            "team_full": "Raiders"
+            "full_name": "Russ Flanders",
+            "first_name": "Russ",
+            "last_name": "Flanders",
+            "team_full": "Knights"
           },
-          "result": "Dec 5-0",
+          "result": "Dec 8-2",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -1551,21 +1551,21 @@
       "weight": 215,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Tim Fitzgerald",
-            "first_name": "Tim",
-            "last_name": "Fitzgerald",
-            "team_full": "Lions"
+            "full_name": "L. Bulow",
+            "first_name": "L.",
+            "last_name": "Bulow",
+            "team_full": "Lockport"
           },
           "bottom_competitor": {
-            "full_name": "Nathan Perez",
-            "first_name": "Nathan",
-            "last_name": "Perez",
-            "team_full": "West Chicago"
+            "full_name": "M. Walsh",
+            "first_name": "M.",
+            "last_name": "Walsh",
+            "team_full": "DeKalb"
           },
-          "result": "Fall :43",
-          "result_type": "fall",
+          "result": "Dflt",
+          "result_type": "default",
           "bout_number": null,
           "top_win": true
         },
@@ -1589,21 +1589,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "L. Bulow",
-            "first_name": "L.",
-            "last_name": "Bulow",
-            "team_full": "Lockport"
+            "full_name": "Tim Fitzgerald",
+            "first_name": "Tim",
+            "last_name": "Fitzgerald",
+            "team_full": "Lions"
           },
           "bottom_competitor": {
-            "full_name": "M. Walsh",
-            "first_name": "M.",
-            "last_name": "Walsh",
-            "team_full": "DeKalb"
+            "full_name": "Nathan Perez",
+            "first_name": "Nathan",
+            "last_name": "Perez",
+            "team_full": "West Chicago"
           },
-          "result": "Dflt",
-          "result_type": "default",
+          "result": "Fall :43",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         }
@@ -1639,21 +1639,16 @@
       "weight": 74,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Frank Agnoli",
-            "first_name": "Frank",
-            "last_name": "Agnoli",
-            "team_full": "Lake Villa"
+            "full_name": "Arturo Flores",
+            "first_name": "Arturo",
+            "last_name": "Flores",
+            "team_full": "Addison"
           },
-          "bottom_competitor": {
-            "full_name": "Joseph Neubauer",
-            "first_name": "Joseph",
-            "last_name": "Neubauer",
-            "team_full": "St. Charles"
-          },
-          "result": "Dec 9-5",
-          "result_type": "decision",
+          "bottom_competitor": null,
+          "result": "Forf",
+          "result_type": "forfeit",
           "bout_number": null,
           "top_win": true
         },
@@ -1677,16 +1672,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "Arturo Flores",
-            "first_name": "Arturo",
-            "last_name": "Flores",
-            "team_full": "Addison"
+            "full_name": "Frank Agnoli",
+            "first_name": "Frank",
+            "last_name": "Agnoli",
+            "team_full": "Lake Villa"
           },
-          "bottom_competitor": null,
-          "result": "Forf",
-          "result_type": "forfeit",
+          "bottom_competitor": {
+            "full_name": "Joseph Neubauer",
+            "first_name": "Joseph",
+            "last_name": "Neubauer",
+            "team_full": "St. Charles"
+          },
+          "result": "Dec 9-5",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         }
@@ -1697,21 +1697,21 @@
       "weight": 79,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Cassio Pero",
-            "first_name": "Cassio",
-            "last_name": "Pero",
-            "team_full": "Harvey"
-          },
-          "bottom_competitor": {
-            "full_name": "Taylor Hosick",
-            "first_name": "Taylor",
-            "last_name": "Hosick",
+            "full_name": "R. Schuster",
+            "first_name": "R.",
+            "last_name": "Schuster",
             "team_full": "Lake Villa"
           },
-          "result": "Fall 1:39",
-          "result_type": "fall",
+          "bottom_competitor": {
+            "full_name": "A. Hartline",
+            "first_name": "A.",
+            "last_name": "Hartline",
+            "team_full": "Granite City"
+          },
+          "result": "MajDec 9-1",
+          "result_type": "major",
           "bout_number": null,
           "top_win": true
         },
@@ -1735,21 +1735,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "R. Schuster",
-            "first_name": "R.",
-            "last_name": "Schuster",
-            "team_full": "Lake Villa"
+            "full_name": "Cassio Pero",
+            "first_name": "Cassio",
+            "last_name": "Pero",
+            "team_full": "Harvey"
           },
           "bottom_competitor": {
-            "full_name": "A. Hartline",
-            "first_name": "A.",
-            "last_name": "Hartline",
-            "team_full": "Granite City"
+            "full_name": "Taylor Hosick",
+            "first_name": "Taylor",
+            "last_name": "Hosick",
+            "team_full": "Lake Villa"
           },
-          "result": "MajDec 9-1",
-          "result_type": "major",
+          "result": "Fall 1:39",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         }
@@ -1760,21 +1760,21 @@
       "weight": 84,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "David Silva",
-            "first_name": "David",
-            "last_name": "Silva",
-            "team_full": "Jr. Bears"
+            "full_name": "A. Kernats",
+            "first_name": "A.",
+            "last_name": "Kernats",
+            "team_full": "Panthers"
           },
           "bottom_competitor": {
-            "full_name": "Nick Fyock",
-            "first_name": "Nick",
-            "last_name": "Fyock",
-            "team_full": "Bisons"
+            "full_name": "A. Rex",
+            "first_name": "A.",
+            "last_name": "Rex",
+            "team_full": "Central"
           },
-          "result": "Fall :46",
-          "result_type": "fall",
+          "result": "MajDec 12-1",
+          "result_type": "major",
           "bout_number": null,
           "top_win": true
         },
@@ -1798,21 +1798,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "A. Kernats",
-            "first_name": "A.",
-            "last_name": "Kernats",
-            "team_full": "Panthers"
+            "full_name": "David Silva",
+            "first_name": "David",
+            "last_name": "Silva",
+            "team_full": "Jr. Bears"
           },
           "bottom_competitor": {
-            "full_name": "A. Rex",
-            "first_name": "A.",
-            "last_name": "Rex",
-            "team_full": "Central"
+            "full_name": "Nick Fyock",
+            "first_name": "Nick",
+            "last_name": "Fyock",
+            "team_full": "Bisons"
           },
-          "result": "MajDec 12-1",
-          "result_type": "major",
+          "result": "Fall :46",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         }
@@ -1823,20 +1823,20 @@
       "weight": 89,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Larry Amedio",
-            "first_name": "Larry",
-            "last_name": "Amedio",
-            "team_full": "Dolton"
+            "full_name": "T. Aufmann",
+            "first_name": "T.",
+            "last_name": "Aufmann",
+            "team_full": "Jr. Bears"
           },
           "bottom_competitor": {
-            "full_name": "R. Estrada",
-            "first_name": "R.",
-            "last_name": "Estrada",
-            "team_full": "Round Lake"
+            "full_name": "P. Ireland",
+            "first_name": "P.",
+            "last_name": "Ireland",
+            "team_full": "West Chicago"
           },
-          "result": "Dec 7-5",
+          "result": "Dec 11-5",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -1861,20 +1861,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "T. Aufmann",
-            "first_name": "T.",
-            "last_name": "Aufmann",
-            "team_full": "Jr. Bears"
+            "full_name": "Larry Amedio",
+            "first_name": "Larry",
+            "last_name": "Amedio",
+            "team_full": "Dolton"
           },
           "bottom_competitor": {
-            "full_name": "P. Ireland",
-            "first_name": "P.",
-            "last_name": "Ireland",
-            "team_full": "West Chicago"
+            "full_name": "R. Estrada",
+            "first_name": "R.",
+            "last_name": "Estrada",
+            "team_full": "Round Lake"
           },
-          "result": "Dec 11-5",
+          "result": "Dec 7-5",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -1886,20 +1886,20 @@
       "weight": 95,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Tom Tedesco",
-            "first_name": "Tom",
-            "last_name": "Tedesco",
-            "team_full": "Granite City"
+            "full_name": "J. Besse",
+            "first_name": "J.",
+            "last_name": "Besse",
+            "team_full": "Lan-Oak"
           },
           "bottom_competitor": {
-            "full_name": "E. Gerdes",
-            "first_name": "E.",
-            "last_name": "Gerdes",
-            "team_full": "Oak Forest"
+            "full_name": "B. Ghenardini",
+            "first_name": "B.",
+            "last_name": "Ghenardini",
+            "team_full": "Charleston"
           },
-          "result": "OT 3-1",
+          "result": "Dec 2-0",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -1924,20 +1924,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "J. Besse",
-            "first_name": "J.",
-            "last_name": "Besse",
-            "team_full": "Lan-Oak"
+            "full_name": "Tom Tedesco",
+            "first_name": "Tom",
+            "last_name": "Tedesco",
+            "team_full": "Granite City"
           },
           "bottom_competitor": {
-            "full_name": "B. Ghenardini",
-            "first_name": "B.",
-            "last_name": "Ghenardini",
-            "team_full": "Charleston"
+            "full_name": "E. Gerdes",
+            "first_name": "E.",
+            "last_name": "Gerdes",
+            "team_full": "Oak Forest"
           },
-          "result": "Dec 2-0",
+          "result": "OT 3-1",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -1949,20 +1949,20 @@
       "weight": 101,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Eric Scholle",
-            "first_name": "Eric",
-            "last_name": "Scholle",
-            "team_full": "Carmel Corsair"
+            "full_name": "B. Bairston",
+            "first_name": "B.",
+            "last_name": "Bairston",
+            "team_full": "Wrestling Factory"
           },
           "bottom_competitor": {
-            "full_name": "J. Curby",
-            "first_name": "J.",
-            "last_name": "Curby",
-            "team_full": "Lions"
+            "full_name": "D. Gibbs",
+            "first_name": "D.",
+            "last_name": "Gibbs",
+            "team_full": "Moline"
           },
-          "result": "Dec 7-5",
+          "result": "Dec 7-2",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -1987,20 +1987,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "B. Bairston",
-            "first_name": "B.",
-            "last_name": "Bairston",
-            "team_full": "Wrestling Factory"
+            "full_name": "Eric Scholle",
+            "first_name": "Eric",
+            "last_name": "Scholle",
+            "team_full": "Carmel Corsair"
           },
           "bottom_competitor": {
-            "full_name": "D. Gibbs",
-            "first_name": "D.",
-            "last_name": "Gibbs",
-            "team_full": "Moline"
+            "full_name": "J. Curby",
+            "first_name": "J.",
+            "last_name": "Curby",
+            "team_full": "Lions"
           },
-          "result": "Dec 7-2",
+          "result": "Dec 7-5",
           "result_type": "decision",
           "bout_number": null,
           "top_win": true
@@ -2012,21 +2012,21 @@
       "weight": 108,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "S. Grece",
-            "first_name": "S.",
-            "last_name": "Grece",
-            "team_full": "Jr. Trojans"
+            "full_name": "A. VanKampen",
+            "first_name": "A.",
+            "last_name": "VanKampen",
+            "team_full": "Demons"
           },
           "bottom_competitor": {
-            "full_name": "J. Yost",
-            "first_name": "J.",
-            "last_name": "Yost",
-            "team_full": "Grapplin Devils"
+            "full_name": "M. Dombrowski",
+            "first_name": "M.",
+            "last_name": "Dombrowski",
+            "team_full": "Fenwick"
           },
-          "result": "Dec 4-2",
-          "result_type": "decision",
+          "result": "Fall :51",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         },
@@ -2050,21 +2050,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "A. VanKampen",
-            "first_name": "A.",
-            "last_name": "VanKampen",
-            "team_full": "Demons"
+            "full_name": "S. Grece",
+            "first_name": "S.",
+            "last_name": "Grece",
+            "team_full": "Jr. Trojans"
           },
           "bottom_competitor": {
-            "full_name": "M. Dombrowski",
-            "first_name": "M.",
-            "last_name": "Dombrowski",
-            "team_full": "Fenwick"
+            "full_name": "J. Yost",
+            "first_name": "J.",
+            "last_name": "Yost",
+            "team_full": "Grapplin Devils"
           },
-          "result": "Fall :51",
-          "result_type": "fall",
+          "result": "Dec 4-2",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         }
@@ -2075,21 +2075,21 @@
       "weight": 115,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Frank Keeler",
-            "first_name": "Frank",
-            "last_name": "Keeler",
-            "team_full": "Dolton"
+            "full_name": "N. Aye",
+            "first_name": "N.",
+            "last_name": "Aye",
+            "team_full": "West Chicago"
           },
           "bottom_competitor": {
-            "full_name": "Mike Zagorski",
-            "first_name": "Mike",
-            "last_name": "Zagorski",
-            "team_full": "Jr. Bears"
+            "full_name": "B. Wyatt",
+            "first_name": "B.",
+            "last_name": "Wyatt",
+            "team_full": "Granite City"
           },
-          "result": "Fall :33",
-          "result_type": "fall",
+          "result": "Dec 6-3",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         },
@@ -2113,21 +2113,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "N. Aye",
-            "first_name": "N.",
-            "last_name": "Aye",
-            "team_full": "West Chicago"
+            "full_name": "Frank Keeler",
+            "first_name": "Frank",
+            "last_name": "Keeler",
+            "team_full": "Dolton"
           },
           "bottom_competitor": {
-            "full_name": "B. Wyatt",
-            "first_name": "B.",
-            "last_name": "Wyatt",
-            "team_full": "Granite City"
+            "full_name": "Mike Zagorski",
+            "first_name": "Mike",
+            "last_name": "Zagorski",
+            "team_full": "Jr. Bears"
           },
-          "result": "Dec 6-3",
-          "result_type": "decision",
+          "result": "Fall :33",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         }
@@ -2138,20 +2138,20 @@
       "weight": 122,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Brandon Hill",
-            "first_name": "Brandon",
-            "last_name": "Hill",
-            "team_full": "Joliet"
+            "full_name": "A. Clay",
+            "first_name": "A.",
+            "last_name": "Clay",
+            "team_full": "Lockport"
           },
           "bottom_competitor": {
-            "full_name": "Ryan McMurray",
-            "first_name": "Ryan",
-            "last_name": "McMurray",
-            "team_full": "Lions"
+            "full_name": "D. Clifford",
+            "first_name": "D.",
+            "last_name": "Clifford",
+            "team_full": "Granite City"
           },
-          "result": "Fall 1:42",
+          "result": "Fall :56",
           "result_type": "fall",
           "bout_number": null,
           "top_win": true
@@ -2176,20 +2176,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "A. Clay",
-            "first_name": "A.",
-            "last_name": "Clay",
-            "team_full": "Lockport"
+            "full_name": "Brandon Hill",
+            "first_name": "Brandon",
+            "last_name": "Hill",
+            "team_full": "Joliet"
           },
           "bottom_competitor": {
-            "full_name": "D. Clifford",
-            "first_name": "D.",
-            "last_name": "Clifford",
-            "team_full": "Granite City"
+            "full_name": "Ryan McMurray",
+            "first_name": "Ryan",
+            "last_name": "McMurray",
+            "team_full": "Lions"
           },
-          "result": "Fall :56",
+          "result": "Fall 1:42",
           "result_type": "fall",
           "bout_number": null,
           "top_win": true
@@ -2201,21 +2201,21 @@
       "weight": 130,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "D. Bedoy",
-            "first_name": "D.",
-            "last_name": "Bedoy",
-            "team_full": "Dolton"
+            "full_name": "J. Curry",
+            "first_name": "J.",
+            "last_name": "Curry",
+            "team_full": "Raiders"
           },
           "bottom_competitor": {
-            "full_name": "M. Haraf",
-            "first_name": "M.",
-            "last_name": "Haraf",
-            "team_full": "Oak Forest"
+            "full_name": "S. Kehm",
+            "first_name": "S.",
+            "last_name": "Kehm",
+            "team_full": "St. Charles"
           },
-          "result": "TF 15-0",
-          "result_type": "tech",
+          "result": "Fall 1:55",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         },
@@ -2239,21 +2239,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "J. Curry",
-            "first_name": "J.",
-            "last_name": "Curry",
-            "team_full": "Raiders"
+            "full_name": "D. Bedoy",
+            "first_name": "D.",
+            "last_name": "Bedoy",
+            "team_full": "Dolton"
           },
           "bottom_competitor": {
-            "full_name": "S. Kehm",
-            "first_name": "S.",
-            "last_name": "Kehm",
-            "team_full": "St. Charles"
+            "full_name": "M. Haraf",
+            "first_name": "M.",
+            "last_name": "Haraf",
+            "team_full": "Oak Forest"
           },
-          "result": "Fall 1:55",
-          "result_type": "fall",
+          "result": "TF 15-0",
+          "result_type": "tech",
           "bout_number": null,
           "top_win": true
         }
@@ -2264,21 +2264,21 @@
       "weight": 138,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Michael Escobedo",
-            "first_name": "Michael",
-            "last_name": "Escobedo",
-            "team_full": "Dolton"
+            "full_name": "Jim Treakle",
+            "first_name": "Jim",
+            "last_name": "Treakle",
+            "team_full": "Granite City"
           },
           "bottom_competitor": {
-            "full_name": "Derek Bly",
-            "first_name": "Derek",
-            "last_name": "Bly",
-            "team_full": "Pekin"
+            "full_name": "M. Galloway",
+            "first_name": "M.",
+            "last_name": "Galloway",
+            "team_full": "St. Charles"
           },
-          "result": "Dec 9-3",
-          "result_type": "decision",
+          "result": "Fall 3:28",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         },
@@ -2302,21 +2302,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "Jim Treakle",
-            "first_name": "Jim",
-            "last_name": "Treakle",
-            "team_full": "Granite City"
+            "full_name": "Michael Escobedo",
+            "first_name": "Michael",
+            "last_name": "Escobedo",
+            "team_full": "Dolton"
           },
           "bottom_competitor": {
-            "full_name": "M. Galloway",
-            "first_name": "M.",
-            "last_name": "Galloway",
-            "team_full": "St. Charles"
+            "full_name": "Derek Bly",
+            "first_name": "Derek",
+            "last_name": "Bly",
+            "team_full": "Pekin"
           },
-          "result": "Fall 3:28",
-          "result_type": "fall",
+          "result": "Dec 9-3",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         }
@@ -2327,20 +2327,20 @@
       "weight": 147,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Dustin Doctor",
-            "first_name": "Dustin",
-            "last_name": "Doctor",
-            "team_full": "Sycamore"
+            "full_name": "B. Sawer",
+            "first_name": "B.",
+            "last_name": "Sawer",
+            "team_full": "Knights"
           },
           "bottom_competitor": {
-            "full_name": "B. Michalowski",
-            "first_name": "B.",
-            "last_name": "Michalowski",
-            "team_full": "Calumet City"
+            "full_name": "K. Crawford",
+            "first_name": "K.",
+            "last_name": "Crawford",
+            "team_full": "Renegades"
           },
-          "result": "Fall 2:00",
+          "result": "Fall 2:24",
           "result_type": "fall",
           "bout_number": null,
           "top_win": true
@@ -2365,20 +2365,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "B. Sawer",
-            "first_name": "B.",
-            "last_name": "Sawer",
-            "team_full": "Knights"
+            "full_name": "Dustin Doctor",
+            "first_name": "Dustin",
+            "last_name": "Doctor",
+            "team_full": "Sycamore"
           },
           "bottom_competitor": {
-            "full_name": "K. Crawford",
-            "first_name": "K.",
-            "last_name": "Crawford",
-            "team_full": "Renegades"
+            "full_name": "B. Michalowski",
+            "first_name": "B.",
+            "last_name": "Michalowski",
+            "team_full": "Calumet City"
           },
-          "result": "Fall 2:24",
+          "result": "Fall 2:00",
           "result_type": "fall",
           "bout_number": null,
           "top_win": true
@@ -2390,20 +2390,20 @@
       "weight": 156,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Josh Hendricks",
-            "first_name": "Josh",
-            "last_name": "Hendricks",
-            "team_full": "St. Charles"
+            "full_name": "Brian Booth",
+            "first_name": "Brian",
+            "last_name": "Booth",
+            "team_full": "Knights"
           },
           "bottom_competitor": {
-            "full_name": "Tony Sosin",
-            "first_name": "Tony",
-            "last_name": "Sosin",
-            "team_full": "Sycamore"
+            "full_name": "J. Weber",
+            "first_name": "J.",
+            "last_name": "Weber",
+            "team_full": "Wrestling Factory"
           },
-          "result": "Fall 1:02",
+          "result": "Fall 1:26",
           "result_type": "fall",
           "bout_number": null,
           "top_win": true
@@ -2428,20 +2428,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "Brian Booth",
-            "first_name": "Brian",
-            "last_name": "Booth",
-            "team_full": "Knights"
+            "full_name": "Josh Hendricks",
+            "first_name": "Josh",
+            "last_name": "Hendricks",
+            "team_full": "St. Charles"
           },
           "bottom_competitor": {
-            "full_name": "J. Weber",
-            "first_name": "J.",
-            "last_name": "Weber",
-            "team_full": "Wrestling Factory"
+            "full_name": "Tony Sosin",
+            "first_name": "Tony",
+            "last_name": "Sosin",
+            "team_full": "Sycamore"
           },
-          "result": "Fall 1:26",
+          "result": "Fall 1:02",
           "result_type": "fall",
           "bout_number": null,
           "top_win": true
@@ -2453,21 +2453,21 @@
       "weight": 166,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "M. Johnson",
-            "first_name": "M.",
-            "last_name": "Johnson",
-            "team_full": "Falcons"
+            "full_name": "T. Chilcote",
+            "first_name": "T.",
+            "last_name": "Chilcote",
+            "team_full": "Lk Villa"
           },
           "bottom_competitor": {
-            "full_name": "M. Echevarria",
-            "first_name": "M.",
-            "last_name": "Echevarria",
-            "team_full": "Carmel Cor"
+            "full_name": "C. Brazzele",
+            "first_name": "C.",
+            "last_name": "Brazzele",
+            "team_full": "Lan-Oak"
           },
-          "result": "Dec 11-8",
-          "result_type": "decision",
+          "result": "Fall 2:27",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         },
@@ -2491,21 +2491,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "T. Chilcote",
-            "first_name": "T.",
-            "last_name": "Chilcote",
-            "team_full": "Lk Villa"
+            "full_name": "M. Johnson",
+            "first_name": "M.",
+            "last_name": "Johnson",
+            "team_full": "Falcons"
           },
           "bottom_competitor": {
-            "full_name": "C. Brazzele",
-            "first_name": "C.",
-            "last_name": "Brazzele",
-            "team_full": "Lan-Oak"
+            "full_name": "M. Echevarria",
+            "first_name": "M.",
+            "last_name": "Echevarria",
+            "team_full": "Carmel Cor"
           },
-          "result": "Fall 2:27",
-          "result_type": "fall",
+          "result": "Dec 11-8",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         }
@@ -2516,21 +2516,21 @@
       "weight": 177,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Brain Galto",
-            "first_name": "Brain",
-            "last_name": "Galto",
-            "team_full": "Sycamore"
+            "full_name": "S. Descoto",
+            "first_name": "S.",
+            "last_name": "Descoto",
+            "team_full": "Blackhawk"
           },
           "bottom_competitor": {
-            "full_name": "Robert Tamillo",
-            "first_name": "Robert",
-            "last_name": "Tamillo",
-            "team_full": "Addison"
+            "full_name": "J. Jacobs",
+            "first_name": "J.",
+            "last_name": "Jacobs",
+            "team_full": "Rochelle"
           },
-          "result": "Fall 1:20",
-          "result_type": "fall",
+          "result": "Dec 8-2",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         },
@@ -2554,21 +2554,21 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "S. Descoto",
-            "first_name": "S.",
-            "last_name": "Descoto",
-            "team_full": "Blackhawk"
+            "full_name": "Brain Galto",
+            "first_name": "Brain",
+            "last_name": "Galto",
+            "team_full": "Sycamore"
           },
           "bottom_competitor": {
-            "full_name": "J. Jacobs",
-            "first_name": "J.",
-            "last_name": "Jacobs",
-            "team_full": "Rochelle"
+            "full_name": "Robert Tamillo",
+            "first_name": "Robert",
+            "last_name": "Tamillo",
+            "team_full": "Addison"
           },
-          "result": "Dec 8-2",
-          "result_type": "decision",
+          "result": "Fall 1:20",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         }
@@ -2579,20 +2579,20 @@
       "weight": 189,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "David Love",
-            "first_name": "David",
-            "last_name": "Love",
-            "team_full": "Harvey"
+            "full_name": "P. Hartsfield",
+            "first_name": "P.",
+            "last_name": "Hartsfield",
+            "team_full": "Fenwick"
           },
           "bottom_competitor": {
-            "full_name": "Brett Henderson",
-            "first_name": "Brett",
-            "last_name": "Henderson",
-            "team_full": "Raiders"
+            "full_name": "W. Gosnell",
+            "first_name": "W.",
+            "last_name": "Gosnell",
+            "team_full": "Pekin"
           },
-          "result": "Fall 1:29",
+          "result": "Fall 3:59",
           "result_type": "fall",
           "bout_number": null,
           "top_win": true
@@ -2617,20 +2617,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "P. Hartsfield",
-            "first_name": "P.",
-            "last_name": "Hartsfield",
-            "team_full": "Fenwick"
+            "full_name": "David Love",
+            "first_name": "David",
+            "last_name": "Love",
+            "team_full": "Harvey"
           },
           "bottom_competitor": {
-            "full_name": "W. Gosnell",
-            "first_name": "W.",
-            "last_name": "Gosnell",
-            "team_full": "Pekin"
+            "full_name": "Brett Henderson",
+            "first_name": "Brett",
+            "last_name": "Henderson",
+            "team_full": "Raiders"
           },
-          "result": "Fall 3:59",
+          "result": "Fall 1:29",
           "result_type": "fall",
           "bout_number": null,
           "top_win": true
@@ -2642,20 +2642,20 @@
       "weight": 275,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "consolation_fifth_place",
           "top_competitor": {
-            "full_name": "Jose Monarrez",
-            "first_name": "Jose",
-            "last_name": "Monarrez",
-            "team_full": "Maywood"
+            "full_name": "PJ Conway",
+            "first_name": "PJ",
+            "last_name": "Conway",
+            "team_full": "Panthers"
           },
           "bottom_competitor": {
-            "full_name": "Wayne Desmet",
-            "first_name": "Wayne",
-            "last_name": "Desmet",
-            "team_full": "Moline"
+            "full_name": "M. Svast",
+            "first_name": "M.",
+            "last_name": "Svast",
+            "team_full": "West Chicago"
           },
-          "result": "Fall 3:58",
+          "result": "Fall 1:28",
           "result_type": "fall",
           "bout_number": null,
           "top_win": true
@@ -2680,20 +2680,20 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_first_place",
           "top_competitor": {
-            "full_name": "PJ Conway",
-            "first_name": "PJ",
-            "last_name": "Conway",
-            "team_full": "Panthers"
+            "full_name": "Jose Monarrez",
+            "first_name": "Jose",
+            "last_name": "Monarrez",
+            "team_full": "Maywood"
           },
           "bottom_competitor": {
-            "full_name": "M. Svast",
-            "first_name": "M.",
-            "last_name": "Svast",
-            "team_full": "West Chicago"
+            "full_name": "Wayne Desmet",
+            "first_name": "Wayne",
+            "last_name": "Desmet",
+            "team_full": "Moline"
           },
-          "result": "Fall 1:28",
+          "result": "Fall 3:58",
           "result_type": "fall",
           "bout_number": null,
           "top_win": true
