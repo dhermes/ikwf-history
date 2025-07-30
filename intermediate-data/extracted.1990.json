@@ -6131,10 +6131,10 @@
             "team_full": "BISMARCK-HENNING WRESTLING"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -6159,10 +6159,10 @@
             "team_full": "MARQUART MIDDLE JR. HIGH"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -6253,10 +6253,10 @@
             "team_full": "FRANKLIN PARK RAIDERS"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -6281,10 +6281,10 @@
             "team_full": "ST. CHARLES WC"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",

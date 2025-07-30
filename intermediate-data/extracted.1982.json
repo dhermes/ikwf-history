@@ -60,10 +60,10 @@
             "team_full": "Orland Park"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_06",
@@ -107,10 +107,10 @@
             "last_name": "Soldan",
             "team_full": "Frankfort"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_09",
@@ -135,10 +135,10 @@
             "team_full": "Calumet City"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -196,10 +196,10 @@
             "last_name": "Givhan",
             "team_full": "Dolton"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_15",
@@ -6011,10 +6011,10 @@
             "last_name": "Rolon",
             "team_full": "West Chicago"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_11",
@@ -6105,10 +6105,10 @@
             "team_full": "Urbana"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -6196,10 +6196,10 @@
             "last_name": "Neuman",
             "team_full": "Fox Lake"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_03",
@@ -6224,10 +6224,10 @@
             "team_full": "Huntley"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -6252,10 +6252,10 @@
             "team_full": "Edwardsville"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -6360,10 +6360,10 @@
             "team_full": "Palos"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -6517,10 +6517,10 @@
             "team_full": "Prather"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -6545,10 +6545,10 @@
             "team_full": "Antioch"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",

@@ -27,10 +27,10 @@
             "team_full": "Mattoon"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -55,10 +55,10 @@
             "team_full": "Rosemont"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -116,10 +116,10 @@
             "team_full": "Palatine Park District"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -144,10 +144,10 @@
             "team_full": "Belleville White"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -172,10 +172,10 @@
             "team_full": "Joliet YMCA"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -200,10 +200,10 @@
             "team_full": "Lincoln / Cicero"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -324,10 +324,10 @@
             "team_full": "Dundee"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -352,10 +352,10 @@
             "team_full": "Mattoon"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -413,10 +413,10 @@
             "team_full": "Chicago Ridge"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -441,10 +441,10 @@
             "team_full": "Pontiac"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -502,10 +502,10 @@
             "team_full": "Dixon"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -530,10 +530,10 @@
             "team_full": "Hartford"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -621,10 +621,10 @@
             "team_full": "Eisenhower"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -682,10 +682,10 @@
             "team_full": "Decatur"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -710,10 +710,10 @@
             "team_full": "Elmhurst"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -738,10 +738,10 @@
             "team_full": "Shabbona"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -766,10 +766,10 @@
             "team_full": "Hazelcrest"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -794,10 +794,10 @@
             "team_full": "Hartford"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -918,10 +918,10 @@
             "team_full": "Stillman Valley"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -946,10 +946,10 @@
             "team_full": "Wheaton Franklin"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -974,10 +974,10 @@
             "team_full": "Summit Hill"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -1035,10 +1035,10 @@
             "team_full": "Elmhurst"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -1063,10 +1063,10 @@
             "team_full": "Carbondale"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -1091,10 +1091,10 @@
             "team_full": "Palatine Park District"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -1248,10 +1248,10 @@
             "team_full": "Belvidere YMCA"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -1276,10 +1276,10 @@
             "team_full": "Wheaton Franklin"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -1304,10 +1304,10 @@
             "team_full": "Washington"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -1332,10 +1332,10 @@
             "team_full": "Naperville Wrestlers"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -1360,10 +1360,10 @@
             "team_full": "Dundee"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -1388,10 +1388,10 @@
             "team_full": "Lincoln Jr. High / Lincoln"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -1512,10 +1512,10 @@
             "team_full": "Dolton Park"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -1540,10 +1540,10 @@
             "team_full": "Villa Park"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -1601,10 +1601,10 @@
             "team_full": "Belvidere YMCA"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -1629,10 +1629,10 @@
             "team_full": "Gower"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -1657,10 +1657,10 @@
             "team_full": "Elmhurst"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -1718,10 +1718,10 @@
             "team_full": "Gompers"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -1809,10 +1809,10 @@
             "team_full": "Harvard"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -1837,10 +1837,10 @@
             "team_full": "Carbondale"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -1865,10 +1865,10 @@
             "team_full": "Dixon"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -1926,10 +1926,10 @@
             "team_full": "Coal City"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -1954,10 +1954,10 @@
             "team_full": "Orland Park"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -1982,10 +1982,10 @@
             "team_full": "Elmhurst"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -2106,10 +2106,10 @@
             "team_full": "Sycamore"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -2134,10 +2134,10 @@
             "team_full": "Tinley Park"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -2195,10 +2195,10 @@
             "team_full": "Carbondale"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -2256,10 +2256,10 @@
             "team_full": "Mahomet Seymour"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -2284,10 +2284,10 @@
             "team_full": "Orland Park"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -2312,10 +2312,10 @@
             "team_full": "Panthers"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -2403,10 +2403,10 @@
             "team_full": "Hoopeston"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -2431,10 +2431,10 @@
             "team_full": "Mat Burns"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -2492,10 +2492,10 @@
             "team_full": "Antioch Upper Grade"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -2520,10 +2520,10 @@
             "team_full": "Plainfield"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -2581,10 +2581,10 @@
             "team_full": "Carbondale"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -2609,10 +2609,10 @@
             "team_full": "East Moline"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -2700,10 +2700,10 @@
             "team_full": "Washington"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -2728,10 +2728,10 @@
             "team_full": "Bloomington"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -2789,10 +2789,10 @@
             "team_full": "Chicago Ridge"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -2850,10 +2850,10 @@
             "team_full": "Wheaton Franklin"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -2878,10 +2878,10 @@
             "team_full": "Lake Villa"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -2906,10 +2906,10 @@
             "team_full": "Carbondale"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -2997,10 +2997,10 @@
             "team_full": "Eisenhower"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -3058,10 +3058,10 @@
             "team_full": "Bismark-Henning"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -3086,10 +3086,10 @@
             "team_full": "Apollo Jr. High"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -3114,10 +3114,10 @@
             "team_full": "Plainfield"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -3175,10 +3175,10 @@
             "team_full": "Dolton Park"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -3203,10 +3203,10 @@
             "team_full": "Deerpath"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -3294,10 +3294,10 @@
             "team_full": "Huntley"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -3355,10 +3355,10 @@
             "team_full": "Park Forest"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -3383,10 +3383,10 @@
             "team_full": "Decatur"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -3411,10 +3411,10 @@
             "team_full": "Plainfield"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -3439,10 +3439,10 @@
             "team_full": "Rosemont"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -3500,10 +3500,10 @@
             "team_full": "Mt. Greenwood"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -3591,10 +3591,10 @@
             "team_full": "Murphysboro"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -3619,10 +3619,10 @@
             "team_full": "Rock Falls"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -3647,10 +3647,10 @@
             "team_full": "Vittum Park"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -3708,10 +3708,10 @@
             "team_full": "Mattoon"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -3736,10 +3736,10 @@
             "team_full": "Dundee"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -3764,10 +3764,10 @@
             "team_full": "Dolton Park"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -3888,10 +3888,10 @@
             "team_full": "Harvard"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -3916,10 +3916,10 @@
             "team_full": "Trimpe"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -3944,10 +3944,10 @@
             "team_full": "Dixon"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -4005,10 +4005,10 @@
             "team_full": "Park Forest"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -4066,10 +4066,10 @@
             "team_full": "Apollo Jr. High"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -4094,10 +4094,10 @@
             "team_full": "Springfield"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -4185,10 +4185,10 @@
             "team_full": "St. Phillip Neri"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -4213,10 +4213,10 @@
             "team_full": "Crystal Lake North"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -4274,10 +4274,10 @@
             "team_full": "Hinsdale"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -4302,10 +4302,10 @@
             "team_full": "Ward Middle School"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -4330,10 +4330,10 @@
             "team_full": "Apollo Jr. High"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -4391,10 +4391,10 @@
             "team_full": "New Lenox"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -4482,10 +4482,10 @@
             "team_full": "Coolidge"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -4510,10 +4510,10 @@
             "team_full": "St. Phillip Neri"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -4571,10 +4571,10 @@
             "team_full": "Edwardsville"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -4632,10 +4632,10 @@
             "team_full": "Springfield"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -4660,10 +4660,10 @@
             "team_full": "Washington"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -4688,10 +4688,10 @@
             "team_full": "Lincoln / Cicero"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -4779,10 +4779,10 @@
             "team_full": "Batavia Wrestling Club"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -4840,10 +4840,10 @@
             "team_full": "River Trails"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -4868,10 +4868,10 @@
             "team_full": "Mt. Greenwood"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -4896,10 +4896,10 @@
             "team_full": "Naperville Wrestlers"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -4924,10 +4924,10 @@
             "team_full": "Jack London"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -4952,10 +4952,10 @@
             "team_full": "Huntley"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -5057,10 +5057,10 @@
             "team_full": "Lancers"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -5099,10 +5099,10 @@
             "team_full": "Batavia Wrestling Club"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -5127,10 +5127,10 @@
             "team_full": "Murphysboro"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -5202,10 +5202,10 @@
             "team_full": "New Lenox"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -5230,10 +5230,10 @@
             "team_full": "Eisenhower"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",

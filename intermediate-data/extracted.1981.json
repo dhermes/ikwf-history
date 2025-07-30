@@ -5685,10 +5685,10 @@
             "team_full": "West Leyden"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -6073,10 +6073,10 @@
             "team_full": "Jay Stream"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -6263,10 +6263,10 @@
             "team_full": "Darien"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -6324,10 +6324,10 @@
             "team_full": "Antioch"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",

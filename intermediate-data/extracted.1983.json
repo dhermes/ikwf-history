@@ -93,10 +93,10 @@
             "team_full": "Mt. Greenwood"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -6400,10 +6400,10 @@
             "team_full": "Oak Lawn"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -6557,10 +6557,10 @@
             "team_full": "Frankfort"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -6717,10 +6717,10 @@
             "team_full": "Prather Granite City"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -6778,10 +6778,10 @@
             "last_name": "Kaltmayer",
             "team_full": "Granite City Coolidge"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "consolation_fifth_place",

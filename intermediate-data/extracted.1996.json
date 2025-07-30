@@ -5652,10 +5652,10 @@
             "team_full": "LEMONT BEARS"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 11,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",

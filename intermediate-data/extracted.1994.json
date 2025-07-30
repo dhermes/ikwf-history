@@ -4946,10 +4946,10 @@
             "team_full": "EDWARDSVILLE"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 122,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -5002,10 +5002,10 @@
             "team_full": "MORTON YOUTH WC"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 125,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -5044,10 +5044,10 @@
             "team_full": "MAYWOOD PIRATES WC"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 128,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",

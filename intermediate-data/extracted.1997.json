@@ -5259,10 +5259,10 @@
             "team_full": "MURPHYSBORO MIDDLE"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -5320,10 +5320,10 @@
             "team_full": "FRANKLIN PARK RAIDERS"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -5348,10 +5348,10 @@
             "team_full": "ROCK ISLAND WRESTLING CLUB"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -5423,10 +5423,10 @@
             "team_full": "TINLEY PARK BULLDOGS"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 14,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -5451,10 +5451,10 @@
             "team_full": "OSWEGO COUGARS"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 15,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",

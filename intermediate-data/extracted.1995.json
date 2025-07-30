@@ -5259,10 +5259,10 @@
             "last_name": "PRIMOZIC",
             "team_full": "TINLEY PARK BULLDOGS"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_03",
@@ -5320,10 +5320,10 @@
             "team_full": "BRADLEY - BOURBONNAIS WC"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -5348,10 +5348,10 @@
             "team_full": "VILLA-LOMBARD COUGARS"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -5409,10 +5409,10 @@
             "team_full": "CRYSTAL LAKE WIZARDS"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -5470,10 +5470,10 @@
             "last_name": "MCKINNEY",
             "team_full": "HARLEM COUGARS WC"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "consolation_fifth_place",

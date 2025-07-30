@@ -486,10 +486,10 @@
             "team_full": "TIGERTOWN TANGLERS"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -6073,10 +6073,10 @@
             "last_name": "FERGUSON",
             "team_full": "MORTON YOUTH WC"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_13",
@@ -6134,10 +6134,10 @@
             "last_name": "ENGLESE",
             "team_full": "MEAD JH WC"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -6225,10 +6225,10 @@
             "team_full": "MT. ZION WC"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -6385,10 +6385,10 @@
             "team_full": "MURPHYSBORO JH"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",

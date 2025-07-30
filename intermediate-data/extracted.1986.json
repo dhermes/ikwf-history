@@ -5377,10 +5377,10 @@
             "team_full": "Tigertown Tanglers"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -5438,10 +5438,10 @@
             "last_name": "Regna",
             "team_full": "Edwardsville WC"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_15",
@@ -5628,10 +5628,10 @@
             "team_full": "DeKalb Wrestling"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -5884,10 +5884,10 @@
             "team_full": "DeKalb Wrestling"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -5945,10 +5945,10 @@
             "last_name": "Taylor",
             "team_full": "Bloomington Jr. High"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_07",
@@ -6039,10 +6039,10 @@
             "team_full": "Eisenhower Jr. High"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",

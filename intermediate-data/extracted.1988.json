@@ -225,10 +225,10 @@
             "team_full": "Lancers Wrestling Club"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -4632,10 +4632,10 @@
             "team_full": "Mokena WC"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -4878,10 +4878,10 @@
             "team_full": "El Paso"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -4939,10 +4939,10 @@
             "last_name": "Murdock",
             "team_full": "Bartonville Blue Crew WC"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_09",
@@ -4967,10 +4967,10 @@
             "last_name": "Chambers",
             "team_full": "Oak Park River Forest Warhawks"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_11",
@@ -4995,10 +4995,10 @@
             "last_name": "Knopf",
             "team_full": "Round Lake P.D. Spartans"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_13",
@@ -5023,10 +5023,10 @@
             "team_full": "Franklin Park Raiders"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 7,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -5051,10 +5051,10 @@
             "team_full": "Sycamore WC"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_first_place",
@@ -5099,10 +5099,10 @@
             "last_name": "Svehla",
             "team_full": "LaGrange Lions WC"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_03",
@@ -5127,10 +5127,10 @@
             "last_name": "Patt",
             "team_full": "Elgin Matt Rats WC"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_05",
@@ -5155,10 +5155,10 @@
             "team_full": "Junior Bison Wrestling"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -5183,10 +5183,10 @@
             "team_full": "Antioch Upper Grade"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -5211,10 +5211,10 @@
             "team_full": "Murphysboro Jr. High"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 5,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -5239,10 +5239,10 @@
             "last_name": "Robbins",
             "team_full": "El Paso"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 6,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_13",
@@ -5300,10 +5300,10 @@
             "team_full": "Geneseo WC"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_first_place",
@@ -5348,10 +5348,10 @@
             "team_full": "J-Hawk WC"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -5376,10 +5376,10 @@
             "team_full": "Westville Wildcats"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 2,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -5404,10 +5404,10 @@
             "team_full": "J-Hawk WC"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 3,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -5564,10 +5564,10 @@
             "team_full": "Matburns WC"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_first_place",

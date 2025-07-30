@@ -5358,10 +5358,10 @@
             "team_full": "BRADLEY-BOURBONNAIS"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 8,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -5419,10 +5419,10 @@
             "team_full": "CRYSTAL LAKE"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 12,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -5480,10 +5480,10 @@
             "last_name": "FREESE",
             "team_full": "LIL REAPER"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 16,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -9954,10 +9954,10 @@
             "team_full": "MOLINE TIGERS"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 234,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -9982,10 +9982,10 @@
             "team_full": "LEMONT"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 236,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -10793,10 +10793,10 @@
             "team_full": "GIBSON CITY"
           },
           "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
+          "result": "Bye",
+          "result_type": "bye",
           "bout_number": 274,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
