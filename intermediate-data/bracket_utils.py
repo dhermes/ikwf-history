@@ -97,6 +97,173 @@ MatchSlot = Literal[
     "championship_first_place",
 ]
 
+
+def _get_match_slot_id(match_slot: MatchSlot) -> int:
+    if match_slot == "championship_r32_01":
+        return 1
+
+    if match_slot == "championship_r32_02":
+        return 2
+
+    if match_slot == "championship_r32_03":
+        return 3
+
+    if match_slot == "championship_r32_04":
+        return 4
+
+    if match_slot == "championship_r32_05":
+        return 5
+
+    if match_slot == "championship_r32_06":
+        return 6
+
+    if match_slot == "championship_r32_07":
+        return 7
+
+    if match_slot == "championship_r32_08":
+        return 8
+
+    if match_slot == "championship_r32_09":
+        return 9
+
+    if match_slot == "championship_r32_10":
+        return 10
+
+    if match_slot == "championship_r32_11":
+        return 11
+
+    if match_slot == "championship_r32_12":
+        return 12
+
+    if match_slot == "championship_r32_13":
+        return 13
+
+    if match_slot == "championship_r32_14":
+        return 14
+
+    if match_slot == "championship_r32_15":
+        return 15
+
+    if match_slot == "championship_r32_16":
+        return 16
+
+    if match_slot == "championship_r16_01":
+        return 17
+
+    if match_slot == "championship_r16_02":
+        return 18
+
+    if match_slot == "championship_r16_03":
+        return 19
+
+    if match_slot == "championship_r16_04":
+        return 20
+
+    if match_slot == "championship_r16_05":
+        return 21
+
+    if match_slot == "championship_r16_06":
+        return 22
+
+    if match_slot == "championship_r16_07":
+        return 23
+
+    if match_slot == "championship_r16_08":
+        return 24
+
+    if match_slot == "consolation_round2_01":
+        return 25
+
+    if match_slot == "consolation_round2_02":
+        return 26
+
+    if match_slot == "consolation_round2_03":
+        return 27
+
+    if match_slot == "consolation_round2_04":
+        return 28
+
+    if match_slot == "consolation_round2_05":
+        return 29
+
+    if match_slot == "consolation_round2_06":
+        return 30
+
+    if match_slot == "consolation_round2_07":
+        return 31
+
+    if match_slot == "consolation_round2_08":
+        return 32
+
+    if match_slot == "championship_quarter_01":
+        return 33
+
+    if match_slot == "championship_quarter_02":
+        return 34
+
+    if match_slot == "championship_quarter_03":
+        return 35
+
+    if match_slot == "championship_quarter_04":
+        return 36
+
+    if match_slot == "consolation_round3_01":
+        return 37
+
+    if match_slot == "consolation_round3_02":
+        return 38
+
+    if match_slot == "consolation_round3_03":
+        return 39
+
+    if match_slot == "consolation_round3_04":
+        return 40
+
+    if match_slot == "consolation_round4_blood_01":
+        return 41
+
+    if match_slot == "consolation_round4_blood_02":
+        return 42
+
+    if match_slot == "consolation_round4_blood_03":
+        return 43
+
+    if match_slot == "consolation_round4_blood_04":
+        return 44
+
+    if match_slot == "championship_semi_01":
+        return 45
+
+    if match_slot == "championship_semi_02":
+        return 46
+
+    if match_slot == "consolation_round5_01":
+        return 47
+
+    if match_slot == "consolation_round5_02":
+        return 48
+
+    if match_slot == "consolation_round6_semi_01":
+        return 49
+
+    if match_slot == "consolation_round6_semi_02":
+        return 50
+
+    if match_slot == "consolation_seventh_place":
+        return 51
+
+    if match_slot == "consolation_fifth_place":
+        return 52
+
+    if match_slot == "consolation_third_place":
+        return 53
+
+    if match_slot == "championship_first_place":
+        return 54
+
+    raise NotImplementedError(match_slot)
+
+
 BracketPosition = Literal["top", "bottom"]
 
 
@@ -149,6 +316,10 @@ Division = Literal[
 ]
 
 
+def _match_sort_key(match: Match) -> int:
+    return _get_match_slot_id(match.match_slot)
+
+
 class WeightClass(_ForbidExtra):
     division: Division
     weight: int
@@ -166,6 +337,9 @@ class WeightClass(_ForbidExtra):
                 )
 
             all_slots.add(match.match_slot)
+
+    def _sort(self) -> None:
+        self.matches.sort(key=_match_sort_key)
 
 
 class TeamScore(_ForbidExtra):
@@ -236,6 +410,8 @@ class ExtractedTournament(_ForbidExtra):
 
     def _sort_weight_classes(self):
         self.weight_classes.sort(key=_weight_class_sort_key)
+        for weight_class in self.weight_classes:
+            weight_class._sort()
 
     def _sort_team_scores(self):
         divisions = sorted(self.team_scores.keys(), key=_division_sort_key)
