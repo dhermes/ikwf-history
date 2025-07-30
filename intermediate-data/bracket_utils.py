@@ -1303,15 +1303,29 @@ def weight_class_from_competitors(
             if place2 == 1 and i >= 4:
                 champion_position = "bottom"
 
+        result = ""
+        result_type: ResultType = "unknown"
+        top_win = None
+
+        if competitor1 is None:
+            result = "Bye"
+            result_type = "bye"
+            top_win = False
+
+        if competitor2 is None:
+            result = "Bye"
+            result_type = "bye"
+            top_win = True
+
         matches.append(
             Match(
                 match_slot=match_slot,
                 top_competitor=competitor1,
                 bottom_competitor=competitor2,
-                result="",
-                result_type="unknown",
+                result=result,
+                result_type=result_type,
                 bout_number=bout_numbers.get(match_slot, i + 1),
-                top_win=None,
+                top_win=top_win,
             )
         )
 
