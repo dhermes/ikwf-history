@@ -1849,6 +1849,7 @@ def main():
             bout_numbers,
         )
         bracket_utils.promote_first_round(weight_class)
+        bracket_utils.clear_bout_numbers(weight_class)
         weight_classes.append(weight_class)
 
     extracted = bracket_utils.ExtractedTournament(

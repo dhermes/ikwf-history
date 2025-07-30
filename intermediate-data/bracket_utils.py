@@ -1482,3 +1482,8 @@ def promote_first_round(weight_class: WeightClass) -> None:
                 matches.append(bottom_match)
 
     weight_class.matches = matches
+
+
+def clear_bout_numbers(weight_class: WeightClass) -> None:
+    for match in weight_class.matches:
+        match.bout_number = None

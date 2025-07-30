@@ -14,7 +14,7 @@
   },
   {
     "match_slot_id": 4,
-    "bout_number": 2,
+    "bout_number": null,
     "match_slot": "championship_r32_04",
     "top_name": "Leahy",
     "top_team": "Hazelcrest",
@@ -40,7 +40,7 @@
   },
   {
     "match_slot_id": 12,
-    "bout_number": 6,
+    "bout_number": null,
     "match_slot": "championship_r32_12",
     "top_name": "Mayberry",
     "top_team": "Roxana",
