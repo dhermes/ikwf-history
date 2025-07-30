@@ -13,7 +13,7 @@ import pathlib
 import bracket_utils
 from PIL import Image
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     60: [
@@ -486,8 +486,8 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     ],
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
-    "PLAINFIELD": 122.5,
-    "JOLIET YMCA": 86.0,
+    "Plainfield": 122.5,
+    "Joliet YMCA": 86.0,
 }
 _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
     ("Bonic", "Mattoon"): bracket_utils.Competitor(
@@ -1768,7 +1768,7 @@ def _generate_placers_image(year: int):
     all_weights = set(_SENIOR_COMPETITORS.keys())
     weights = sorted(all_weights)
 
-    raw_root = HERE.parent / "raw-data" / str(year)
+    raw_root = _HERE.parent / "raw-data" / str(year)
     headshots = [
         Image.open(raw_root / "placers-headshot" / f"{weight}.jpg")
         for weight in weights
@@ -1822,7 +1822,7 @@ def _generate_placers_image(year: int):
             row, (width_offset + (row_width - row.width) // 2, height_offset)
         )
 
-    static_dir = HERE.parent / "static" / "static" / "images"
+    static_dir = _HERE.parent / "static" / "static" / "images"
     save_location = static_dir / f"{year}-senior-placers.png"
     final_img.save(save_location)
 
@@ -1854,7 +1854,7 @@ def main():
         weight_classes=weight_classes, team_scores=team_scores, deductions=[]
     )
     extracted.sort()
-    with open(HERE / "extracted.1978.json", "w") as file_obj:
+    with open(_HERE / "extracted.1978.json", "w") as file_obj:
         file_obj.write(extracted.model_dump_json(indent=2))
         file_obj.write("\n")
 
