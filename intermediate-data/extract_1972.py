@@ -1771,6 +1771,21 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
 }
 
 
+def _promote_first_round(weight_class: bracket_utils.WeightClass) -> None:
+    matches: list[bracket_utils.Match] = []
+    first_round: dict[bracket_utils.MatchSlot, bracket_utils.Match] = {}
+    for match in weight_class.matches:
+        if match.match_slot.startswith("championship_r32_"):
+            first_round[match.match_slot] = match
+        else:
+            matches.append(match)
+
+    for match in first_round.values():
+        matches.append(match)
+
+    weight_class.matches = matches
+
+
 def main():
     team_scores: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
     team_scores["senior"] = []
@@ -1791,6 +1806,7 @@ def main():
             bout_numbers,
             placers_type="champ",
         )
+        _promote_first_round(weight_class)
         weight_classes.append(weight_class)
 
     extracted = bracket_utils.ExtractedTournament(

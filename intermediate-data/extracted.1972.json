@@ -5,6 +5,20 @@
       "weight": 60,
       "matches": [
         {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "PAT STERR",
+            "first_name": "PAT",
+            "last_name": "STERR",
+            "team_full": "Joliet Boys Club"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_r32_01",
           "top_competitor": {
             "full_name": "GERDES",
@@ -227,20 +241,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "PAT STERR",
-            "first_name": "PAT",
-            "last_name": "STERR",
-            "team_full": "Joliet Boys Club"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -248,6 +248,20 @@
       "division": "senior",
       "weight": 65,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "TOM GERDES",
+            "first_name": "TOM",
+            "last_name": "GERDES",
+            "team_full": "Arbor Park"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -471,20 +485,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "TOM GERDES",
-            "first_name": "TOM",
-            "last_name": "GERDES",
-            "team_full": "Arbor Park"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -492,6 +492,20 @@
       "division": "senior",
       "weight": 70,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "LEE GOLDSMITH",
+            "first_name": "LEE",
+            "last_name": "GOLDSMITH",
+            "team_full": "Northfield"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -715,20 +729,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "LEE GOLDSMITH",
-            "first_name": "LEE",
-            "last_name": "GOLDSMITH",
-            "team_full": "Northfield"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -736,6 +736,20 @@
       "division": "senior",
       "weight": 77,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "JIM BARRETT",
+            "first_name": "JIM",
+            "last_name": "BARRETT",
+            "team_full": "Apollo Jr. High"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -959,20 +973,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "JIM BARRETT",
-            "first_name": "JIM",
-            "last_name": "BARRETT",
-            "team_full": "Apollo Jr. High"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -980,6 +980,20 @@
       "division": "senior",
       "weight": 83,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "JOE WILLIAMS",
+            "first_name": "JOE",
+            "last_name": "WILLIAMS",
+            "team_full": "Huntley"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -1203,20 +1217,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "JOE WILLIAMS",
-            "first_name": "JOE",
-            "last_name": "WILLIAMS",
-            "team_full": "Huntley"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -1224,6 +1224,20 @@
       "division": "senior",
       "weight": 90,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "JOHN JACKSON",
+            "first_name": "JOHN",
+            "last_name": "JACKSON",
+            "team_full": "New Lenox"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -1447,20 +1461,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "JOHN JACKSON",
-            "first_name": "JOHN",
-            "last_name": "JACKSON",
-            "team_full": "New Lenox"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -1468,6 +1468,20 @@
       "division": "senior",
       "weight": 97,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "JEFF GERDES",
+            "first_name": "JEFF",
+            "last_name": "GERDES",
+            "team_full": "Arbor Park"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -1691,20 +1705,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "JEFF GERDES",
-            "first_name": "JEFF",
-            "last_name": "GERDES",
-            "team_full": "Arbor Park"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -1712,6 +1712,20 @@
       "division": "senior",
       "weight": 105,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "CHIP CONNOR",
+            "first_name": "CHIP",
+            "last_name": "CONNOR",
+            "team_full": "New Lenox"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -1935,20 +1949,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "CHIP CONNOR",
-            "first_name": "CHIP",
-            "last_name": "CONNOR",
-            "team_full": "New Lenox"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -1956,6 +1956,20 @@
       "division": "senior",
       "weight": 112,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "CARL SCHULTZ",
+            "first_name": "CARL",
+            "last_name": "SCHULTZ",
+            "team_full": "Northbrook"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -2179,20 +2193,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "CARL SCHULTZ",
-            "first_name": "CARL",
-            "last_name": "SCHULTZ",
-            "team_full": "Northbrook"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -2200,6 +2200,20 @@
       "division": "senior",
       "weight": 118,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "KING MUELLER",
+            "first_name": "KING",
+            "last_name": "MUELLER",
+            "team_full": "Westview"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -2423,20 +2437,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "KING MUELLER",
-            "first_name": "KING",
-            "last_name": "MUELLER",
-            "team_full": "Westview"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -2444,6 +2444,20 @@
       "division": "senior",
       "weight": 125,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "RON CUEVAS",
+            "first_name": "RON",
+            "last_name": "CUEVAS",
+            "team_full": "Sterling"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -2667,20 +2681,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "RON CUEVAS",
-            "first_name": "RON",
-            "last_name": "CUEVAS",
-            "team_full": "Sterling"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -2688,6 +2688,20 @@
       "division": "senior",
       "weight": 132,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "JIM MOUROUKAS",
+            "first_name": "JIM",
+            "last_name": "MOUROUKAS",
+            "team_full": "Des Plaines"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -2911,20 +2925,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "JIM MOUROUKAS",
-            "first_name": "JIM",
-            "last_name": "MOUROUKAS",
-            "team_full": "Des Plaines"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -2932,6 +2932,20 @@
       "division": "senior",
       "weight": 138,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "GREG ENERSON",
+            "first_name": "GREG",
+            "last_name": "ENERSON",
+            "team_full": "Morris"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -3155,20 +3169,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "GREG ENERSON",
-            "first_name": "GREG",
-            "last_name": "ENERSON",
-            "team_full": "Morris"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -3176,6 +3176,20 @@
       "division": "senior",
       "weight": 145,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "GEHRIG DERGO",
+            "first_name": "GEHRIG",
+            "last_name": "DERGO",
+            "team_full": "Morris"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -3399,20 +3413,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "GEHRIG DERGO",
-            "first_name": "GEHRIG",
-            "last_name": "DERGO",
-            "team_full": "Morris"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -3420,6 +3420,20 @@
       "division": "senior",
       "weight": 152,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "TIM CAIRNS",
+            "first_name": "TIM",
+            "last_name": "CAIRNS",
+            "team_full": "Rock Falls"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -3615,20 +3629,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "TIM CAIRNS",
-            "first_name": "TIM",
-            "last_name": "CAIRNS",
-            "team_full": "Rock Falls"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     },
@@ -3636,6 +3636,20 @@
       "division": "senior",
       "weight": 275,
       "matches": [
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "ROB BOEHMER",
+            "first_name": "ROB",
+            "last_name": "BOEHMER",
+            "team_full": "Carol Stream"
+          },
+          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
         {
           "match_slot": "championship_r32_01",
           "top_competitor": {
@@ -3859,20 +3873,6 @@
           "result_type": "unknown",
           "bout_number": 8,
           "top_win": null
-        },
-        {
-          "match_slot": "championship_first_place",
-          "top_competitor": {
-            "full_name": "ROB BOEHMER",
-            "first_name": "ROB",
-            "last_name": "BOEHMER",
-            "team_full": "Carol Stream"
-          },
-          "bottom_competitor": null,
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
         }
       ]
     }
