@@ -22,8 +22,8 @@
     "bottom_name": "NEIL PAVELA",
     "bottom_team": "BEARS WRESTLING CLUB",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "Bye"
   },
   {
     "match_slot_id": 3,
@@ -61,8 +61,8 @@
     "bottom_name": null,
     "bottom_team": null,
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Bye"
   },
   {
     "match_slot_id": 7,
@@ -87,8 +87,8 @@
     "bottom_name": null,
     "bottom_team": null,
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Bye"
   },
   {
     "match_slot_id": 9,
@@ -126,8 +126,8 @@
     "bottom_name": null,
     "bottom_team": null,
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Bye"
   },
   {
     "match_slot_id": 13,
@@ -165,8 +165,8 @@
     "bottom_name": null,
     "bottom_team": null,
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Bye"
   },
   {
     "match_slot_id": 52,

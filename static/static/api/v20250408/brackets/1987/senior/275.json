@@ -48,8 +48,8 @@
     "bottom_name": null,
     "bottom_team": null,
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Bye"
   },
   {
     "match_slot_id": 5,
@@ -74,8 +74,8 @@
     "bottom_name": "Jason Rogers",
     "bottom_team": "Eisenhower Jr. High",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "Bye"
   },
   {
     "match_slot_id": 7,

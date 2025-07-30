@@ -61,8 +61,8 @@
     "bottom_name": null,
     "bottom_team": null,
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Bye"
   },
   {
     "match_slot_id": 7,
@@ -113,8 +113,8 @@
     "bottom_name": null,
     "bottom_team": null,
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Bye"
   },
   {
     "match_slot_id": 11,
