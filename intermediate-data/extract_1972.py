@@ -1,327 +1,1773 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
 """
-The competitor list (from scans from Terry Weber) is contained below. We'll
-use this to fill out a competitor list for this year.
+The competitor list (from scans from Terry Weber) is contained below.
 
-------------------------------------------------
-
-60
-GERDES :: Arbor Park
-CARPENTER :: Holmes
-HARRIS :: Belleville
-UNRUH :: West Chicago
-PATTON :: Granite City
-OLALDE :: Sterling
-SLUSARSKI :: St. Mary's
-EVANS :: Elk Grove
-WHELAN :: Granite City
-PATTON :: Woodstock
-PAT STERR :: Joliet Boys Club :: 1
-LUCANSKI :: Des Plaines
-NASENBENNY :: Joliet Boys Club
-BLACKMAN :: Shabbona Park
-MILETELLO :: East Alton
-ROSENTHAL :: Moline
-
-65
-PORTER :: Northfield
-HANNER :: East Alton
-TOM GERDES :: Arbor Park :: 1
-DAMBRUSH :: Sterling
-IPPOLITE :: Tinley Park
-DLUGOPOLSKI :: West Chicago
-GROSS :: Gemini Jr.
-HOWELL :: Granite City
-SWANK :: Joliet Boys Club
-BARR :: Huntley
-MANIKA :: Fraziers
-REID :: Granite City
-LUCANSKY :: Des Plaines
-PATTON :: Granite City
-JACKSON :: New Lenox
-TURNER :: Rosette
-
-70
-KELLEMS :: Scanlon
-BASORE :: Granite City
-PORTER :: Northfield
-BURNS :: Rosette
-CONRAD :: Shabbona Park
-UNRUH :: West Chicago
-JEFFREY :: New Lenox
-WHELAN :: Granite City
-LEE GOLDSMITH :: Northfield :: 1
-BURGOS :: Rosette
-CRISCIONE :: New Lenox
-BOLERJACK :: Carmi
-VERCELOTE :: Troy
-HENDRICK :: Murphysboro
-SILCROFT :: Gemini Jr.
-SCHAFER :: Sterling
-
-77
-STERR :: Joliet
-FALLEN :: Fraziers
-McCULLOUGH :: Granite City
-RYAN :: Sterling
-McGLYNN :: Belleville
-COX :: West Chicago
-BOTHWELL :: Tinley Park
-JIM BARRETT :: Apollo Jr. High :: 1
-JANICIK :: Belleville
-BURKE :: Rosette
-McGHEE :: Palos South
-GADDI :: Deerpath
-SCHUMACHER :: Joliet
-RUH :: Fraziers
-BENNETT :: East Alton
-LARSON :: Huntley
-
-83
-FACTOR :: Gemini Jr.
-JANICIK :: Belleville
-KENNY :: Darkin Park
-BLACK :: West Chicago
-CABRERA :: Joliet
-BERGEN :: Rock Falls
-VERMILLION :: Highlanders
-BAKER :: Murphysboro
-HUTTENHOFF :: New Lenox
-CUNZ :: Huntley
-WALTERS :: Des Plaines
-ALLGIRE :: Belleville
-McAVOY :: Apollo Jr. High
-CONNELL :: Murphysboro
-HAYSE :: Morris
-JOE WILLIAMS :: Huntley :: 1
-
-90
-JOHN JACKSON :: New Lenox :: 1
-SZELES :: Granite City
-UJIIYE :: Gemini Jr.
-DODD :: West Chicago
-WHITTFIELD :: Glenview
-ROGERS :: Huntley
-EVANS :: Joliet
-BLESOE :: Granite City
-DRIBIN :: Apollo Jr. High
-MILLER :: Moline
-DURGO :: Morris
-GAINES :: Granite City
-MURPHY :: Hazel Crest
-HALL :: Murphysboro
-HELMINSKI :: Highlanders
-GUERRERO :: West Chicago
-
-97
-JEFF GERDES :: Arbor Park :: 1
-DALTON :: Cooper
-CLEMONS :: Edwardsville
-BUSSLEE :: West Chicago
-CARPENTER :: Centralia
-PROVOST :: West Chicago
-MONREAIL :: Tinley Park
-FEICH :: Des Plaines
-TOLLE :: Edwardsville
-GRIFFIN :: Rock Falls
-BEECHY :: Arbor Park
-IWASAKI :: Fraziers
-MUELLER :: Huth
-FISKE :: Apollo Jr. High
-HODSHIRE :: Granite City
-PUEBIA :: Moline
-
-105
-DE BOO :: Shabbona Park
-LITTLEJOHN :: Granite City
-MARCOTTE :: Tinley Park
-BURLEY :: West Chicago
-FOSTER :: Joliet
-CERVANTES :: Rock Falls
-BARRON :: London
-BURKETT :: Centralia
-CHIP CONNOR :: New Lenox :: 1
-RICHMOND :: Sterling
-THOMAS :: Schaumberg
-MILTON :: Granite City
-BEAM :: Des Plaines
-SLEMER :: Edwardsville
-McCUE :: Simmons
-PASTENS :: Huntley
-
-112
-TRIZZINO :: Joliet
-BURKE :: Murphysboro
-MORRIS :: (unattached)
-PLADA :: Rock Falls
-BARRINGER :: Des Plaines
-FULLMER :: Rock Falls
-STEEN :: New Lenox
-AVEDESIAN :: Granite City
-CARL SCHULTZ :: Northbrook :: 1
-PERMA :: Rock Falls
-MOORE :: Tinley Park
-HOFFMAN :: Edwardsville
-CHANDLER :: Joliet
-BENJAMIN :: Centralia
-KILRAIN :: Schaumberg
-BINWELL :: Rosette
-
-118
-KING MUELLER :: Westview :: 1
-WALTERS :: Apollo Jr. High
-WEBER :: Edwardsville
-KNUDSEN :: Moline
-ALLAN :: Jerseyville
-HOGGARD :: Moline
-VELAZQUES :: Simmons
-THOMAS :: Northfield
-LEE :: Belleville
-TAYLOR :: Huntley
-DEGARMO :: Simmons
-THEDFORD :: Fraziers
-PASSLEY :: Simmons
-CAVAZOS :: Cooper
-SEARHART :: Murphysboro
-WILLIAMS :: Sterling
-
-125
-TAIT :: Apollo Jr. High
-WEBSTER :: Belleville
-GONZALES :: Joliet
-McMILLAN :: Sycamore
-TYNER :: New Lenox
-SHERIBAN :: Moline
-WILD :: Des Plaines
-UNANGEP :: Edwardsville
-WILMS :: Tinley Park
-HARSETH :: McHenry
-OLBRISH :: Gemini Jr.
-BALWIN :: East Alton
-McGINNIS :: London
-BURKE :: Murphysboro
-WARF :: Kirby
-RON CUEVAS :: Sterling :: 1
-
-132
-WATSON :: Simmons
-COUNTS :: Jerseyville
-DE WAR :: Holmes
-DIR :: Sterling
-BARRISH :: Gemini Jr.
-SANDERSON :: Rosette
-ALBERICO :: Troy
-WOPAT :: Edwardsville
-JIM MOUROUKAS :: Des Plaines :: 1
-BUEHLER :: Huntley
-MAGER :: New Lenox
-FLOWERS :: Murphysboro
-PACHECO :: Westview
-WADE :: Jerseyville
-GOERGIN :: Schaumberg
-ZIDANS :: Sterling
-
-138
-GREG ENERSON :: Morris :: 1
-VAN WALLEGHAN :: Jerseyville
-HEY :: Sterling
-ALDRIGES :: Granite City
-REGLIN :: Sterling
-GRAHAM :: Troy
-CASHMORE :: Prospect Heights
-HARTMAN :: Granite City
-PRATT :: Rock Falls
-SUVINSKI :: Mokena
-WATSON :: Deerpath
-MOSS :: Troy
-IDRIZOWICZ :: London
-SWAN :: Granite City
-AUSTIN :: Huntley
-
-145
-De CHAMBRE :: London
-LEWIS :: Carmi
-ROBINSON :: Huth
-BONNELL :: Rock Falls
-POTERALA :: West Chicago
-RAMBI :: Orland Park
-NELSON :: Holmes
-GELLESPIE :: Belleville
-GEHRIG DERGO :: Morris :: 1
-MEIER :: Savanna
-BELL :: Palatine
-GREER :: Jerseyville
-CORR :: Des Plaines
-GUETERSLOH :: Murphysboro
-GALARZA :: Mokena
-BRUGOTH :: West Chicago
-
-152
-HRVATIN :: Joliet
-BYE
-EDDY :: Carol Stream
-AGBEROECK :: Moline
-FULLER :: Des Plaines
-HILLSTRAND :: Huntley
-MANNS :: New Lenox
-MILEUR :: Murphysboro
-GRABLE :: London
-GRIFFIN :: Moline
-SCHWARTZ :: Troy
-BYE
-ALABAN :: Morris
-LUND :: Belleville
-KRAUSS :: Cooper
-TIM CAIRNS :: Rock Falls :: 1
-
-275
-DAMIANI :: Bloom
-KRUEGER :: Holmes
-HARRING :: Edwardsville
-CLIFTON :: Huntley
-McCOY :: Edwardsville
-MITAL :: Moline
-FORREST :: New Lenox
-ROB BOEHMER :: Carol Stream :: 1
-PATTERSON :: Granite City
-RICH :: Huntley
-HOERR :: Simmons
-BARDEL :: Glenwood
-STRONK :: Kirby
-KLOCKE :: Deerpath
-BATEMAN :: Murphysboro
-PERRONEZ :: Rock Falls
+In 1972 there were only 16 qualifiers.
 """
 
 import pathlib
 
 import bracket_utils
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
-_SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
-    60: bracket_utils.Placer(name="Pat Sterr", team="Joliet Boy's Club"),
-    65: bracket_utils.Placer(name="Tom Gerdes", team="Arbor Park"),
-    70: bracket_utils.Placer(name="Lee Goldsmith", team="Northfield"),
-    77: bracket_utils.Placer(name="Jim Barrett", team="Des Plaines Apollo"),
-    83: bracket_utils.Placer(name="Joe Williams", team="DeKalb Huntley"),
-    90: bracket_utils.Placer(name="John Jackson", team="New Lenox Oakview"),
-    97: bracket_utils.Placer(name="Jeff Gerdes", team="Oak Forest"),
-    105: bracket_utils.Placer(name="Chip Connor", team="New Lenox Oakview"),
-    112: bracket_utils.Placer(name="Carl Schultz", team="Northbrook"),
-    118: bracket_utils.Placer(name="King Mueller", team="Romeoville Westview"),
-    125: bracket_utils.Placer(name="Ron Cuevas", team="Sterling Challand"),
-    132: bracket_utils.Placer(name="Jim Mouroukas", team="Des Plaines Park"),
-    138: bracket_utils.Placer(name="Greg Enerson", team="Morris"),
-    145: bracket_utils.Placer(name="Gehrig Dergo", team="Morris"),
-    152: bracket_utils.Placer(name="Tim Cairns", team="Rock Falls"),
-    275: bracket_utils.Placer(name="Rob Boehmer", team="Carol Stream"),
+_SENIOR_COMPETITORS: dict[int, list[str | None]] = {
+    60: [
+        "GERDES :: Arbor Park",
+        "CARPENTER :: Holmes",
+        None,
+        "HARRIS :: Belleville",
+        "A UNRUH :: West Chicago",
+        None,
+        "A PATTON :: Granite City",
+        "OLALDE :: Sterling",
+        None,
+        "SLUSARSKI :: St. Mary's",
+        "EVANS :: Elk Grove",
+        None,
+        "A WHELAN :: Granite City",
+        "PATTON :: Woodstock",
+        None,
+        "PAT STERR :: Joliet Boys Club :: 1",
+        "LUCANSKI :: Des Plaines",
+        None,
+        "NASENBENNY :: Joliet Boys Club",
+        "BLACKMAN :: Shabbona Park",
+        None,
+        "MILETELLO :: East Alton",
+        "ROSENTHAL :: Moline",
+        None,
+    ],
+    65: [
+        "A PORTER :: Northfield",
+        "HANNER :: East Alton",
+        None,
+        "TOM GERDES :: Arbor Park :: 1",
+        "DAMBRUSH :: Sterling",
+        None,
+        "IPPOLITE :: Tinley Park",
+        "DLUGOPOLSKI :: West Chicago",
+        None,
+        "GROSS :: Gemini Jr.",
+        "HOWELL :: Granite City",
+        None,
+        "SWANK :: Joliet Boys Club",
+        "BARR :: Huntley",
+        None,
+        "MANIKA :: Fraziers",
+        "REID :: Granite City",
+        None,
+        "LUCANSKY :: Des Plaines",
+        "B PATTON :: Granite City",
+        None,
+        "JACKSON :: New Lenox",
+        "TURNER :: Rosette",
+        None,
+    ],
+    70: [
+        "KELLEMS :: Scanlon",
+        "BASORE :: Granite City",
+        None,
+        "B PORTER :: Northfield",
+        "BURNS :: Rosette",
+        None,
+        "CONRAD :: Shabbona Park",
+        "B UNRUH :: West Chicago",
+        None,
+        "JEFFREY :: New Lenox",
+        "B WHELAN :: Granite City",
+        None,
+        "LEE GOLDSMITH :: Northfield :: 1",
+        "BURGOS :: Rosette",
+        None,
+        "CRISCIONE :: New Lenox",
+        "BOLERJACK :: Carmi",
+        None,
+        "VERCELOTE :: Troy",
+        "HENDRICK :: Murphysboro",
+        None,
+        "SILCROFT :: Gemini Jr.",
+        "SCHAFER :: Sterling",
+        None,
+    ],
+    77: [
+        "STERR :: Joliet",
+        "FALLEN :: Fraziers",
+        None,
+        "McCULLOUGH :: Granite City",
+        "RYAN :: Sterling",
+        None,
+        "McGLYNN :: Belleville",
+        "COX :: West Chicago",
+        None,
+        "BOTHWELL :: Tinley Park",
+        "JIM BARRETT :: Apollo Jr. High :: 1",
+        None,
+        "A JANICIK :: Belleville",
+        "BURKE :: Rosette",
+        None,
+        "McGHEE :: Palos South",
+        "GADDI :: Deerpath",
+        None,
+        "SCHUMACHER :: Joliet",
+        "RUH :: Fraziers",
+        None,
+        "BENNETT :: East Alton",
+        "LARSON :: Huntley",
+        None,
+    ],
+    83: [
+        "FACTOR :: Gemini Jr.",
+        "B JANICIK :: Belleville",
+        None,
+        "KENNY :: Darkin Park",
+        "BLACK :: West Chicago",
+        None,
+        "CABRERA :: Joliet",
+        "BERGEN :: Rock Falls",
+        None,
+        "VERMILLION :: Highlanders",
+        "BAKER :: Murphysboro",
+        None,
+        "HUTTENHOFF :: New Lenox",
+        "CUNZ :: Huntley",
+        None,
+        "WALTERS :: Des Plaines",
+        "ALLGIRE :: Belleville",
+        None,
+        "McAVOY :: Apollo Jr. High",
+        "CONNELL :: Murphysboro",
+        None,
+        "HAYSE :: Morris",
+        "JOE WILLIAMS :: Huntley :: 1",
+        None,
+    ],
+    90: [
+        "JOHN JACKSON :: New Lenox :: 1",
+        "SZELES :: Granite City",
+        None,
+        "UJIIYE :: Gemini Jr.",
+        "DODD :: West Chicago",
+        None,
+        "WHITTFIELD :: Glenview",
+        "ROGERS :: Huntley",
+        None,
+        "EVANS :: Joliet",
+        "BLESOE :: Granite City",
+        None,
+        "DRIBIN :: Apollo Jr. High",
+        "MILLER :: Moline",
+        None,
+        "DURGO :: Morris",
+        "GAINES :: Granite City",
+        None,
+        "MURPHY :: Hazel Crest",
+        "HALL :: Murphysboro",
+        None,
+        "HELMINSKI :: Highlanders",
+        "GUERRERO :: West Chicago",
+        None,
+    ],
+    97: [
+        "JEFF GERDES :: Arbor Park :: 1",
+        "DALTON :: Cooper",
+        None,
+        "CLEMONS :: Edwardsville",
+        "BUSSLEE :: West Chicago",
+        None,
+        "CARPENTER :: Centralia",
+        "PROVOST :: West Chicago",
+        None,
+        "MONREAIL :: Tinley Park",
+        "FEICH :: Des Plaines",
+        None,
+        "TOLLE :: Edwardsville",
+        "GRIFFIN :: Rock Falls",
+        None,
+        "BEECHY :: Arbor Park",
+        "IWASAKI :: Fraziers",
+        None,
+        "MUELLER :: Huth",
+        "FISKE :: Apollo Jr. High",
+        None,
+        "HODSHIRE :: Granite City",
+        "PUEBIA :: Moline",
+        None,
+    ],
+    105: [
+        "DE BOO :: Shabbona Park",
+        "LITTLEJOHN :: Granite City",
+        None,
+        "MARCOTTE :: Tinley Park",
+        "BURLEY :: West Chicago",
+        None,
+        "FOSTER :: Joliet",
+        "CERVANTES :: Rock Falls",
+        None,
+        "BARRON :: London",
+        "BURKETT :: Centralia",
+        None,
+        "CHIP CONNOR :: New Lenox :: 1",
+        "RICHMOND :: Sterling",
+        None,
+        "THOMAS :: Schaumberg",
+        "MILTON :: Granite City",
+        None,
+        "BEAM :: Des Plaines",
+        "SLEMER :: Edwardsville",
+        None,
+        "McCUE :: Simmons",
+        "PASTENS :: Huntley",
+        None,
+    ],
+    112: [
+        "TRIZZINO :: Joliet",
+        "A BURKE :: Murphysboro",
+        None,
+        "MORRIS :: (unattached)",
+        "PLADA :: Rock Falls",
+        None,
+        "BARRINGER :: Des Plaines",
+        "FULLMER :: Rock Falls",
+        None,
+        "STEEN :: New Lenox",
+        "AVEDESIAN :: Granite City",
+        None,
+        "CARL SCHULTZ :: Northbrook :: 1",
+        "PERMA :: Rock Falls",
+        None,
+        "MOORE :: Tinley Park",
+        "HOFFMAN :: Edwardsville",
+        None,
+        "CHANDLER :: Joliet",
+        "BENJAMIN :: Centralia",
+        None,
+        "KILRAIN :: Schaumberg",
+        "BINWELL :: Rosette",
+        None,
+    ],
+    118: [
+        "KING MUELLER :: Westview :: 1",
+        "WALTERS :: Apollo Jr. High",
+        None,
+        "WEBER :: Edwardsville",
+        "KNUDSEN :: Moline",
+        None,
+        "ALLAN :: Jerseyville",
+        "HOGGARD :: Moline",
+        None,
+        "VELAZQUES :: Simmons",
+        "THOMAS :: Northfield",
+        None,
+        "LEE :: Belleville",
+        "TAYLOR :: Huntley",
+        None,
+        "DEGARMO :: Simmons",
+        "THEDFORD :: Fraziers",
+        None,
+        "PASSLEY :: Simmons",
+        "CAVAZOS :: Cooper",
+        None,
+        "SEARHART :: Murphysboro",
+        "WILLIAMS :: Sterling",
+        None,
+    ],
+    125: [
+        "TAIT :: Apollo Jr. High",
+        "WEBSTER :: Belleville",
+        None,
+        "GONZALES :: Joliet",
+        "McMILLAN :: Sycamore",
+        None,
+        "TYNER :: New Lenox",
+        "SHERIBAN :: Moline",
+        None,
+        "WILD :: Des Plaines",
+        "UNANGEP :: Edwardsville",
+        None,
+        "WILMS :: Tinley Park",
+        "HARSETH :: McHenry",
+        None,
+        "OLBRISH :: Gemini Jr.",
+        "BALWIN :: East Alton",
+        None,
+        "McGINNIS :: London",
+        "B BURKE :: Murphysboro",
+        None,
+        "WARF :: Kirby",
+        "RON CUEVAS :: Sterling :: 1",
+        None,
+    ],
+    132: [
+        "WATSON :: Simmons",
+        "COUNTS :: Jerseyville",
+        None,
+        "DE WAR :: Holmes",
+        "DIR :: Sterling",
+        None,
+        "BARRISH :: Gemini Jr.",
+        "SANDERSON :: Rosette",
+        None,
+        "ALBERICO :: Troy",
+        "WOPAT :: Edwardsville",
+        None,
+        "JIM MOUROUKAS :: Des Plaines :: 1",
+        "BUEHLER :: Huntley",
+        None,
+        "MAGER :: New Lenox",
+        "FLOWERS :: Murphysboro",
+        None,
+        "PACHECO :: Westview",
+        "WADE :: Jerseyville",
+        None,
+        "GOERGIN :: Schaumberg",
+        "ZIDANS :: Sterling",
+        None,
+    ],
+    138: [
+        "GREG ENERSON :: Morris :: 1",
+        "KAITCHUK :: Durkin Park",
+        None,
+        "VAN WALLEGHAN :: Jerseyville",
+        "HEY :: Sterling",
+        None,
+        "ALDRIGES :: Granite City",
+        "REGLIN :: Sterling",
+        None,
+        "GRAHAM :: Troy",
+        "CASHMORE :: Prospect Heights",
+        None,
+        "HARTMAN :: Granite City",
+        "PRATT :: Rock Falls",
+        None,
+        "SUVINSKI :: Mokena",
+        "WATSON :: Deerpath",
+        None,
+        "MOSS :: Troy",
+        "IDRIZOWICZ :: London",
+        None,
+        "SWAN :: Granite City",
+        "AUSTIN :: Huntley",
+        None,
+    ],
+    145: [
+        "De CHAMBRE :: London",
+        "LEWIS :: Carmi",
+        None,
+        "ROBINSON :: Huth",
+        "BONNELL :: Rock Falls",
+        None,
+        "POTERALA :: West Chicago",
+        "RAMBI :: Orland Park",
+        None,
+        "NELSON :: Holmes",
+        "GELLESPIE :: Belleville",
+        None,
+        "GEHRIG DERGO :: Morris :: 1",
+        "MEIER :: Savanna",
+        None,
+        "BELL :: Palatine",
+        "GREER :: Jerseyville",
+        None,
+        "CORR :: Des Plaines",
+        "GUETERSLOH :: Murphysboro",
+        None,
+        "GALARZA :: Mokena",
+        "BRUGOTH :: West Chicago",
+        None,
+    ],
+    152: [
+        "HRVATIN :: Joliet",
+        None,
+        None,
+        "EDDY :: Carol Stream",
+        "AGBEROECK :: Moline",
+        None,
+        "FULLER :: Des Plaines",
+        "HILLSTRAND :: Huntley",
+        None,
+        "MANNS :: New Lenox",
+        "MILEUR :: Murphysboro",
+        None,
+        "GRABLE :: London",
+        "GRIFFIN :: Moline",
+        None,
+        "SCHWARTZ :: Troy",
+        None,
+        None,
+        "ALABAN :: Morris",
+        "LUND :: Belleville",
+        None,
+        "KRAUSS :: Cooper",
+        "TIM CAIRNS :: Rock Falls :: 1",
+        None,
+    ],
+    275: [
+        "DAMIANI :: Bloom",
+        "KRUEGER :: Holmes",
+        None,
+        "HARRING :: Edwardsville",
+        "CLIFTON :: Huntley",
+        None,
+        "McCOY :: Edwardsville",
+        "MITAL :: Moline",
+        None,
+        "FORREST :: New Lenox",
+        "ROB BOEHMER :: Carol Stream :: 1",
+        None,
+        "PATTERSON :: Granite City",
+        "RICH :: Huntley",
+        None,
+        "HOERR :: Simmons",
+        "BARDEL :: Glenwood",
+        None,
+        "STRONK :: Kirby",
+        "KLOCKE :: Deerpath",
+        None,
+        "BATEMAN :: Murphysboro",
+        "PERRONEZ :: Rock Falls",
+        None,
+    ],
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
-    "ARBOR PARK": 24.0,
-    "NEW LENOX": 24.0,
-    "DeKALB-HUNTLEY": 21.0,
+    "Arbor Park": 24.0,
+    "New Lenox": 24.0,
+    "Huntley": 21.0,  # DeKALB-HUNTLEY
+}
+_NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
+    ("GERDES", "Arbor Park"): bracket_utils.Competitor(
+        full_name="GERDES",
+        first_name="",
+        last_name="",
+        team_full="Arbor Park",
+    ),
+    ("CARPENTER", "Holmes"): bracket_utils.Competitor(
+        full_name="CARPENTER",
+        first_name="",
+        last_name="",
+        team_full="Holmes",
+    ),
+    ("HARRIS", "Belleville"): bracket_utils.Competitor(
+        full_name="HARRIS",
+        first_name="",
+        last_name="",
+        team_full="Belleville",
+    ),
+    ("OLALDE", "Sterling"): bracket_utils.Competitor(
+        full_name="OLALDE",
+        first_name="",
+        last_name="",
+        team_full="Sterling",
+    ),
+    ("SLUSARSKI", "St. Mary's"): bracket_utils.Competitor(
+        full_name="SLUSARSKI",
+        first_name="",
+        last_name="",
+        team_full="St. Mary's",
+    ),
+    ("EVANS", "Elk Grove"): bracket_utils.Competitor(
+        full_name="EVANS",
+        first_name="",
+        last_name="",
+        team_full="Elk Grove",
+    ),
+    ("PATTON", "Woodstock"): bracket_utils.Competitor(
+        full_name="PATTON",
+        first_name="",
+        last_name="",
+        team_full="Woodstock",
+    ),
+    ("LUCANSKI", "Des Plaines"): bracket_utils.Competitor(
+        full_name="LUCANSKI",
+        first_name="",
+        last_name="",
+        team_full="Des Plaines",
+    ),
+    ("NASENBENNY", "Joliet Boys Club"): bracket_utils.Competitor(
+        full_name="NASENBENNY",
+        first_name="",
+        last_name="",
+        team_full="Joliet Boys Club",
+    ),
+    ("BLACKMAN", "Shabbona Park"): bracket_utils.Competitor(
+        full_name="BLACKMAN",
+        first_name="",
+        last_name="",
+        team_full="Shabbona Park",
+    ),
+    ("MILETELLO", "East Alton"): bracket_utils.Competitor(
+        full_name="MILETELLO",
+        first_name="",
+        last_name="",
+        team_full="East Alton",
+    ),
+    ("ROSENTHAL", "Moline"): bracket_utils.Competitor(
+        full_name="ROSENTHAL",
+        first_name="",
+        last_name="",
+        team_full="Moline",
+    ),
+    ("HANNER", "East Alton"): bracket_utils.Competitor(
+        full_name="HANNER",
+        first_name="",
+        last_name="",
+        team_full="East Alton",
+    ),
+    ("DAMBRUSH", "Sterling"): bracket_utils.Competitor(
+        full_name="DAMBRUSH",
+        first_name="",
+        last_name="",
+        team_full="Sterling",
+    ),
+    ("IPPOLITE", "Tinley Park"): bracket_utils.Competitor(
+        full_name="IPPOLITE",
+        first_name="",
+        last_name="",
+        team_full="Tinley Park",
+    ),
+    ("DLUGOPOLSKI", "West Chicago"): bracket_utils.Competitor(
+        full_name="DLUGOPOLSKI",
+        first_name="",
+        last_name="",
+        team_full="West Chicago",
+    ),
+    ("GROSS", "Gemini Jr."): bracket_utils.Competitor(
+        full_name="GROSS",
+        first_name="",
+        last_name="",
+        team_full="Gemini Jr.",
+    ),
+    ("HOWELL", "Granite City"): bracket_utils.Competitor(
+        full_name="HOWELL",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("SWANK", "Joliet Boys Club"): bracket_utils.Competitor(
+        full_name="SWANK",
+        first_name="",
+        last_name="",
+        team_full="Joliet Boys Club",
+    ),
+    ("BARR", "Huntley"): bracket_utils.Competitor(
+        full_name="BARR",
+        first_name="",
+        last_name="",
+        team_full="Huntley",
+    ),
+    ("MANIKA", "Fraziers"): bracket_utils.Competitor(
+        full_name="MANIKA",
+        first_name="",
+        last_name="",
+        team_full="Fraziers",
+    ),
+    ("REID", "Granite City"): bracket_utils.Competitor(
+        full_name="REID",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("LUCANSKY", "Des Plaines"): bracket_utils.Competitor(
+        full_name="LUCANSKY",
+        first_name="",
+        last_name="",
+        team_full="Des Plaines",
+    ),
+    ("JACKSON", "New Lenox"): bracket_utils.Competitor(
+        full_name="JACKSON",
+        first_name="",
+        last_name="",
+        team_full="New Lenox",
+    ),
+    ("TURNER", "Rosette"): bracket_utils.Competitor(
+        full_name="TURNER",
+        first_name="",
+        last_name="",
+        team_full="Rosette",
+    ),
+    ("KELLEMS", "Scanlon"): bracket_utils.Competitor(
+        full_name="KELLEMS",
+        first_name="",
+        last_name="",
+        team_full="Scanlon",
+    ),
+    ("BASORE", "Granite City"): bracket_utils.Competitor(
+        full_name="BASORE",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("BURNS", "Rosette"): bracket_utils.Competitor(
+        full_name="BURNS",
+        first_name="",
+        last_name="",
+        team_full="Rosette",
+    ),
+    ("CONRAD", "Shabbona Park"): bracket_utils.Competitor(
+        full_name="CONRAD",
+        first_name="",
+        last_name="",
+        team_full="Shabbona Park",
+    ),
+    ("JEFFREY", "New Lenox"): bracket_utils.Competitor(
+        full_name="JEFFREY",
+        first_name="",
+        last_name="",
+        team_full="New Lenox",
+    ),
+    ("BURGOS", "Rosette"): bracket_utils.Competitor(
+        full_name="BURGOS",
+        first_name="",
+        last_name="",
+        team_full="Rosette",
+    ),
+    ("CRISCIONE", "New Lenox"): bracket_utils.Competitor(
+        full_name="CRISCIONE",
+        first_name="",
+        last_name="",
+        team_full="New Lenox",
+    ),
+    ("BOLERJACK", "Carmi"): bracket_utils.Competitor(
+        full_name="BOLERJACK",
+        first_name="",
+        last_name="",
+        team_full="Carmi",
+    ),
+    ("VERCELOTE", "Troy"): bracket_utils.Competitor(
+        full_name="VERCELOTE",
+        first_name="",
+        last_name="",
+        team_full="Troy",
+    ),
+    ("HENDRICK", "Murphysboro"): bracket_utils.Competitor(
+        full_name="HENDRICK",
+        first_name="",
+        last_name="",
+        team_full="Murphysboro",
+    ),
+    ("SILCROFT", "Gemini Jr."): bracket_utils.Competitor(
+        full_name="SILCROFT",
+        first_name="",
+        last_name="",
+        team_full="Gemini Jr.",
+    ),
+    ("SCHAFER", "Sterling"): bracket_utils.Competitor(
+        full_name="SCHAFER",
+        first_name="",
+        last_name="",
+        team_full="Sterling",
+    ),
+    ("STERR", "Joliet"): bracket_utils.Competitor(
+        full_name="STERR",
+        first_name="",
+        last_name="",
+        team_full="Joliet",
+    ),
+    ("FALLEN", "Fraziers"): bracket_utils.Competitor(
+        full_name="FALLEN",
+        first_name="",
+        last_name="",
+        team_full="Fraziers",
+    ),
+    ("McCULLOUGH", "Granite City"): bracket_utils.Competitor(
+        full_name="McCULLOUGH",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("RYAN", "Sterling"): bracket_utils.Competitor(
+        full_name="RYAN",
+        first_name="",
+        last_name="",
+        team_full="Sterling",
+    ),
+    ("McGLYNN", "Belleville"): bracket_utils.Competitor(
+        full_name="McGLYNN",
+        first_name="",
+        last_name="",
+        team_full="Belleville",
+    ),
+    ("COX", "West Chicago"): bracket_utils.Competitor(
+        full_name="COX",
+        first_name="",
+        last_name="",
+        team_full="West Chicago",
+    ),
+    ("BOTHWELL", "Tinley Park"): bracket_utils.Competitor(
+        full_name="BOTHWELL",
+        first_name="",
+        last_name="",
+        team_full="Tinley Park",
+    ),
+    ("BURKE", "Rosette"): bracket_utils.Competitor(
+        full_name="BURKE",
+        first_name="",
+        last_name="",
+        team_full="Rosette",
+    ),
+    ("McGHEE", "Palos South"): bracket_utils.Competitor(
+        full_name="McGHEE",
+        first_name="",
+        last_name="",
+        team_full="Palos South",
+    ),
+    ("GADDI", "Deerpath"): bracket_utils.Competitor(
+        full_name="GADDI",
+        first_name="",
+        last_name="",
+        team_full="Deerpath",
+    ),
+    ("SCHUMACHER", "Joliet"): bracket_utils.Competitor(
+        full_name="SCHUMACHER",
+        first_name="",
+        last_name="",
+        team_full="Joliet",
+    ),
+    ("RUH", "Fraziers"): bracket_utils.Competitor(
+        full_name="RUH",
+        first_name="",
+        last_name="",
+        team_full="Fraziers",
+    ),
+    ("BENNETT", "East Alton"): bracket_utils.Competitor(
+        full_name="BENNETT",
+        first_name="",
+        last_name="",
+        team_full="East Alton",
+    ),
+    ("LARSON", "Huntley"): bracket_utils.Competitor(
+        full_name="LARSON",
+        first_name="",
+        last_name="",
+        team_full="Huntley",
+    ),
+    ("FACTOR", "Gemini Jr."): bracket_utils.Competitor(
+        full_name="FACTOR",
+        first_name="",
+        last_name="",
+        team_full="Gemini Jr.",
+    ),
+    ("KENNY", "Darkin Park"): bracket_utils.Competitor(
+        full_name="KENNY",
+        first_name="",
+        last_name="",
+        team_full="Darkin Park",
+    ),
+    ("BLACK", "West Chicago"): bracket_utils.Competitor(
+        full_name="BLACK",
+        first_name="",
+        last_name="",
+        team_full="West Chicago",
+    ),
+    ("CABRERA", "Joliet"): bracket_utils.Competitor(
+        full_name="CABRERA",
+        first_name="",
+        last_name="",
+        team_full="Joliet",
+    ),
+    ("BERGEN", "Rock Falls"): bracket_utils.Competitor(
+        full_name="BERGEN",
+        first_name="",
+        last_name="",
+        team_full="Rock Falls",
+    ),
+    ("VERMILLION", "Highlanders"): bracket_utils.Competitor(
+        full_name="VERMILLION",
+        first_name="",
+        last_name="",
+        team_full="Highlanders",
+    ),
+    ("BAKER", "Murphysboro"): bracket_utils.Competitor(
+        full_name="BAKER",
+        first_name="",
+        last_name="",
+        team_full="Murphysboro",
+    ),
+    ("HUTTENHOFF", "New Lenox"): bracket_utils.Competitor(
+        full_name="HUTTENHOFF",
+        first_name="",
+        last_name="",
+        team_full="New Lenox",
+    ),
+    ("CUNZ", "Huntley"): bracket_utils.Competitor(
+        full_name="CUNZ",
+        first_name="",
+        last_name="",
+        team_full="Huntley",
+    ),
+    ("WALTERS", "Des Plaines"): bracket_utils.Competitor(
+        full_name="WALTERS",
+        first_name="",
+        last_name="",
+        team_full="Des Plaines",
+    ),
+    ("ALLGIRE", "Belleville"): bracket_utils.Competitor(
+        full_name="ALLGIRE",
+        first_name="",
+        last_name="",
+        team_full="Belleville",
+    ),
+    ("McAVOY", "Apollo Jr. High"): bracket_utils.Competitor(
+        full_name="McAVOY",
+        first_name="",
+        last_name="",
+        team_full="Apollo Jr. High",
+    ),
+    ("CONNELL", "Murphysboro"): bracket_utils.Competitor(
+        full_name="CONNELL",
+        first_name="",
+        last_name="",
+        team_full="Murphysboro",
+    ),
+    ("HAYSE", "Morris"): bracket_utils.Competitor(
+        full_name="HAYSE",
+        first_name="",
+        last_name="",
+        team_full="Morris",
+    ),
+    ("SZELES", "Granite City"): bracket_utils.Competitor(
+        full_name="SZELES",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("UJIIYE", "Gemini Jr."): bracket_utils.Competitor(
+        full_name="UJIIYE",
+        first_name="",
+        last_name="",
+        team_full="Gemini Jr.",
+    ),
+    ("DODD", "West Chicago"): bracket_utils.Competitor(
+        full_name="DODD",
+        first_name="",
+        last_name="",
+        team_full="West Chicago",
+    ),
+    ("WHITTFIELD", "Glenview"): bracket_utils.Competitor(
+        full_name="WHITTFIELD",
+        first_name="",
+        last_name="",
+        team_full="Glenview",
+    ),
+    ("ROGERS", "Huntley"): bracket_utils.Competitor(
+        full_name="ROGERS",
+        first_name="",
+        last_name="",
+        team_full="Huntley",
+    ),
+    ("EVANS", "Joliet"): bracket_utils.Competitor(
+        full_name="EVANS",
+        first_name="",
+        last_name="",
+        team_full="Joliet",
+    ),
+    ("BLESOE", "Granite City"): bracket_utils.Competitor(
+        full_name="BLESOE",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("DRIBIN", "Apollo Jr. High"): bracket_utils.Competitor(
+        full_name="DRIBIN",
+        first_name="",
+        last_name="",
+        team_full="Apollo Jr. High",
+    ),
+    ("MILLER", "Moline"): bracket_utils.Competitor(
+        full_name="MILLER",
+        first_name="",
+        last_name="",
+        team_full="Moline",
+    ),
+    ("DURGO", "Morris"): bracket_utils.Competitor(
+        full_name="DURGO",
+        first_name="",
+        last_name="",
+        team_full="Morris",
+    ),
+    ("GAINES", "Granite City"): bracket_utils.Competitor(
+        full_name="GAINES",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("MURPHY", "Hazel Crest"): bracket_utils.Competitor(
+        full_name="MURPHY",
+        first_name="",
+        last_name="",
+        team_full="Hazel Crest",
+    ),
+    ("HALL", "Murphysboro"): bracket_utils.Competitor(
+        full_name="HALL",
+        first_name="",
+        last_name="",
+        team_full="Murphysboro",
+    ),
+    ("HELMINSKI", "Highlanders"): bracket_utils.Competitor(
+        full_name="HELMINSKI",
+        first_name="",
+        last_name="",
+        team_full="Highlanders",
+    ),
+    ("GUERRERO", "West Chicago"): bracket_utils.Competitor(
+        full_name="GUERRERO",
+        first_name="",
+        last_name="",
+        team_full="West Chicago",
+    ),
+    ("DALTON", "Cooper"): bracket_utils.Competitor(
+        full_name="DALTON",
+        first_name="",
+        last_name="",
+        team_full="Cooper",
+    ),
+    ("CLEMONS", "Edwardsville"): bracket_utils.Competitor(
+        full_name="CLEMONS",
+        first_name="",
+        last_name="",
+        team_full="Edwardsville",
+    ),
+    ("BUSSLEE", "West Chicago"): bracket_utils.Competitor(
+        full_name="BUSSLEE",
+        first_name="",
+        last_name="",
+        team_full="West Chicago",
+    ),
+    ("CARPENTER", "Centralia"): bracket_utils.Competitor(
+        full_name="CARPENTER",
+        first_name="",
+        last_name="",
+        team_full="Centralia",
+    ),
+    ("PROVOST", "West Chicago"): bracket_utils.Competitor(
+        full_name="PROVOST",
+        first_name="",
+        last_name="",
+        team_full="West Chicago",
+    ),
+    ("MONREAIL", "Tinley Park"): bracket_utils.Competitor(
+        full_name="MONREAIL",
+        first_name="",
+        last_name="",
+        team_full="Tinley Park",
+    ),
+    ("FEICH", "Des Plaines"): bracket_utils.Competitor(
+        full_name="FEICH",
+        first_name="",
+        last_name="",
+        team_full="Des Plaines",
+    ),
+    ("TOLLE", "Edwardsville"): bracket_utils.Competitor(
+        full_name="TOLLE",
+        first_name="",
+        last_name="",
+        team_full="Edwardsville",
+    ),
+    ("GRIFFIN", "Rock Falls"): bracket_utils.Competitor(
+        full_name="GRIFFIN",
+        first_name="",
+        last_name="",
+        team_full="Rock Falls",
+    ),
+    ("BEECHY", "Arbor Park"): bracket_utils.Competitor(
+        full_name="BEECHY",
+        first_name="",
+        last_name="",
+        team_full="Arbor Park",
+    ),
+    ("IWASAKI", "Fraziers"): bracket_utils.Competitor(
+        full_name="IWASAKI",
+        first_name="",
+        last_name="",
+        team_full="Fraziers",
+    ),
+    ("MUELLER", "Huth"): bracket_utils.Competitor(
+        full_name="MUELLER",
+        first_name="",
+        last_name="",
+        team_full="Huth",
+    ),
+    ("FISKE", "Apollo Jr. High"): bracket_utils.Competitor(
+        full_name="FISKE",
+        first_name="",
+        last_name="",
+        team_full="Apollo Jr. High",
+    ),
+    ("HODSHIRE", "Granite City"): bracket_utils.Competitor(
+        full_name="HODSHIRE",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("PUEBIA", "Moline"): bracket_utils.Competitor(
+        full_name="PUEBIA",
+        first_name="",
+        last_name="",
+        team_full="Moline",
+    ),
+    ("LITTLEJOHN", "Granite City"): bracket_utils.Competitor(
+        full_name="LITTLEJOHN",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("MARCOTTE", "Tinley Park"): bracket_utils.Competitor(
+        full_name="MARCOTTE",
+        first_name="",
+        last_name="",
+        team_full="Tinley Park",
+    ),
+    ("BURLEY", "West Chicago"): bracket_utils.Competitor(
+        full_name="BURLEY",
+        first_name="",
+        last_name="",
+        team_full="West Chicago",
+    ),
+    ("FOSTER", "Joliet"): bracket_utils.Competitor(
+        full_name="FOSTER",
+        first_name="",
+        last_name="",
+        team_full="Joliet",
+    ),
+    ("CERVANTES", "Rock Falls"): bracket_utils.Competitor(
+        full_name="CERVANTES",
+        first_name="",
+        last_name="",
+        team_full="Rock Falls",
+    ),
+    ("BARRON", "London"): bracket_utils.Competitor(
+        full_name="BARRON",
+        first_name="",
+        last_name="",
+        team_full="London",
+    ),
+    ("BURKETT", "Centralia"): bracket_utils.Competitor(
+        full_name="BURKETT",
+        first_name="",
+        last_name="",
+        team_full="Centralia",
+    ),
+    ("RICHMOND", "Sterling"): bracket_utils.Competitor(
+        full_name="RICHMOND",
+        first_name="",
+        last_name="",
+        team_full="Sterling",
+    ),
+    ("THOMAS", "Schaumberg"): bracket_utils.Competitor(
+        full_name="THOMAS",
+        first_name="",
+        last_name="",
+        team_full="Schaumberg",
+    ),
+    ("MILTON", "Granite City"): bracket_utils.Competitor(
+        full_name="MILTON",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("BEAM", "Des Plaines"): bracket_utils.Competitor(
+        full_name="BEAM",
+        first_name="",
+        last_name="",
+        team_full="Des Plaines",
+    ),
+    ("SLEMER", "Edwardsville"): bracket_utils.Competitor(
+        full_name="SLEMER",
+        first_name="",
+        last_name="",
+        team_full="Edwardsville",
+    ),
+    ("McCUE", "Simmons"): bracket_utils.Competitor(
+        full_name="McCUE",
+        first_name="",
+        last_name="",
+        team_full="Simmons",
+    ),
+    ("PASTENS", "Huntley"): bracket_utils.Competitor(
+        full_name="PASTENS",
+        first_name="",
+        last_name="",
+        team_full="Huntley",
+    ),
+    ("TRIZZINO", "Joliet"): bracket_utils.Competitor(
+        full_name="TRIZZINO",
+        first_name="",
+        last_name="",
+        team_full="Joliet",
+    ),
+    ("MORRIS", "(unattached)"): bracket_utils.Competitor(
+        full_name="MORRIS",
+        first_name="",
+        last_name="",
+        team_full="(unattached)",
+    ),
+    ("PLADA", "Rock Falls"): bracket_utils.Competitor(
+        full_name="PLADA",
+        first_name="",
+        last_name="",
+        team_full="Rock Falls",
+    ),
+    ("BARRINGER", "Des Plaines"): bracket_utils.Competitor(
+        full_name="BARRINGER",
+        first_name="",
+        last_name="",
+        team_full="Des Plaines",
+    ),
+    ("FULLMER", "Rock Falls"): bracket_utils.Competitor(
+        full_name="FULLMER",
+        first_name="",
+        last_name="",
+        team_full="Rock Falls",
+    ),
+    ("STEEN", "New Lenox"): bracket_utils.Competitor(
+        full_name="STEEN",
+        first_name="",
+        last_name="",
+        team_full="New Lenox",
+    ),
+    ("AVEDESIAN", "Granite City"): bracket_utils.Competitor(
+        full_name="AVEDESIAN",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("PERMA", "Rock Falls"): bracket_utils.Competitor(
+        full_name="PERMA",
+        first_name="",
+        last_name="",
+        team_full="Rock Falls",
+    ),
+    ("MOORE", "Tinley Park"): bracket_utils.Competitor(
+        full_name="MOORE",
+        first_name="",
+        last_name="",
+        team_full="Tinley Park",
+    ),
+    ("HOFFMAN", "Edwardsville"): bracket_utils.Competitor(
+        full_name="HOFFMAN",
+        first_name="",
+        last_name="",
+        team_full="Edwardsville",
+    ),
+    ("CHANDLER", "Joliet"): bracket_utils.Competitor(
+        full_name="CHANDLER",
+        first_name="",
+        last_name="",
+        team_full="Joliet",
+    ),
+    ("BENJAMIN", "Centralia"): bracket_utils.Competitor(
+        full_name="BENJAMIN",
+        first_name="",
+        last_name="",
+        team_full="Centralia",
+    ),
+    ("KILRAIN", "Schaumberg"): bracket_utils.Competitor(
+        full_name="KILRAIN",
+        first_name="",
+        last_name="",
+        team_full="Schaumberg",
+    ),
+    ("BINWELL", "Rosette"): bracket_utils.Competitor(
+        full_name="BINWELL",
+        first_name="",
+        last_name="",
+        team_full="Rosette",
+    ),
+    ("WALTERS", "Apollo Jr. High"): bracket_utils.Competitor(
+        full_name="WALTERS",
+        first_name="",
+        last_name="",
+        team_full="Apollo Jr. High",
+    ),
+    ("WEBER", "Edwardsville"): bracket_utils.Competitor(
+        full_name="WEBER",
+        first_name="",
+        last_name="",
+        team_full="Edwardsville",
+    ),
+    ("KNUDSEN", "Moline"): bracket_utils.Competitor(
+        full_name="KNUDSEN",
+        first_name="",
+        last_name="",
+        team_full="Moline",
+    ),
+    ("ALLAN", "Jerseyville"): bracket_utils.Competitor(
+        full_name="ALLAN",
+        first_name="",
+        last_name="",
+        team_full="Jerseyville",
+    ),
+    ("HOGGARD", "Moline"): bracket_utils.Competitor(
+        full_name="HOGGARD",
+        first_name="",
+        last_name="",
+        team_full="Moline",
+    ),
+    ("VELAZQUES", "Simmons"): bracket_utils.Competitor(
+        full_name="VELAZQUES",
+        first_name="",
+        last_name="",
+        team_full="Simmons",
+    ),
+    ("THOMAS", "Northfield"): bracket_utils.Competitor(
+        full_name="THOMAS",
+        first_name="",
+        last_name="",
+        team_full="Northfield",
+    ),
+    ("LEE", "Belleville"): bracket_utils.Competitor(
+        full_name="LEE",
+        first_name="",
+        last_name="",
+        team_full="Belleville",
+    ),
+    ("TAYLOR", "Huntley"): bracket_utils.Competitor(
+        full_name="TAYLOR",
+        first_name="",
+        last_name="",
+        team_full="Huntley",
+    ),
+    ("DEGARMO", "Simmons"): bracket_utils.Competitor(
+        full_name="DEGARMO",
+        first_name="",
+        last_name="",
+        team_full="Simmons",
+    ),
+    ("THEDFORD", "Fraziers"): bracket_utils.Competitor(
+        full_name="THEDFORD",
+        first_name="",
+        last_name="",
+        team_full="Fraziers",
+    ),
+    ("PASSLEY", "Simmons"): bracket_utils.Competitor(
+        full_name="PASSLEY",
+        first_name="",
+        last_name="",
+        team_full="Simmons",
+    ),
+    ("CAVAZOS", "Cooper"): bracket_utils.Competitor(
+        full_name="CAVAZOS",
+        first_name="",
+        last_name="",
+        team_full="Cooper",
+    ),
+    ("SEARHART", "Murphysboro"): bracket_utils.Competitor(
+        full_name="SEARHART",
+        first_name="",
+        last_name="",
+        team_full="Murphysboro",
+    ),
+    ("WILLIAMS", "Sterling"): bracket_utils.Competitor(
+        full_name="WILLIAMS",
+        first_name="",
+        last_name="",
+        team_full="Sterling",
+    ),
+    ("TAIT", "Apollo Jr. High"): bracket_utils.Competitor(
+        full_name="TAIT",
+        first_name="",
+        last_name="",
+        team_full="Apollo Jr. High",
+    ),
+    ("WEBSTER", "Belleville"): bracket_utils.Competitor(
+        full_name="WEBSTER",
+        first_name="",
+        last_name="",
+        team_full="Belleville",
+    ),
+    ("GONZALES", "Joliet"): bracket_utils.Competitor(
+        full_name="GONZALES",
+        first_name="",
+        last_name="",
+        team_full="Joliet",
+    ),
+    ("McMILLAN", "Sycamore"): bracket_utils.Competitor(
+        full_name="McMILLAN",
+        first_name="",
+        last_name="",
+        team_full="Sycamore",
+    ),
+    ("TYNER", "New Lenox"): bracket_utils.Competitor(
+        full_name="TYNER",
+        first_name="",
+        last_name="",
+        team_full="New Lenox",
+    ),
+    ("SHERIBAN", "Moline"): bracket_utils.Competitor(
+        full_name="SHERIBAN",
+        first_name="",
+        last_name="",
+        team_full="Moline",
+    ),
+    ("WILD", "Des Plaines"): bracket_utils.Competitor(
+        full_name="WILD",
+        first_name="",
+        last_name="",
+        team_full="Des Plaines",
+    ),
+    ("UNANGEP", "Edwardsville"): bracket_utils.Competitor(
+        full_name="UNANGEP",
+        first_name="",
+        last_name="",
+        team_full="Edwardsville",
+    ),
+    ("WILMS", "Tinley Park"): bracket_utils.Competitor(
+        full_name="WILMS",
+        first_name="",
+        last_name="",
+        team_full="Tinley Park",
+    ),
+    ("HARSETH", "McHenry"): bracket_utils.Competitor(
+        full_name="HARSETH",
+        first_name="",
+        last_name="",
+        team_full="McHenry",
+    ),
+    ("OLBRISH", "Gemini Jr."): bracket_utils.Competitor(
+        full_name="OLBRISH",
+        first_name="",
+        last_name="",
+        team_full="Gemini Jr.",
+    ),
+    ("BALWIN", "East Alton"): bracket_utils.Competitor(
+        full_name="BALWIN",
+        first_name="",
+        last_name="",
+        team_full="East Alton",
+    ),
+    ("McGINNIS", "London"): bracket_utils.Competitor(
+        full_name="McGINNIS",
+        first_name="",
+        last_name="",
+        team_full="London",
+    ),
+    ("WARF", "Kirby"): bracket_utils.Competitor(
+        full_name="WARF",
+        first_name="",
+        last_name="",
+        team_full="Kirby",
+    ),
+    ("WATSON", "Simmons"): bracket_utils.Competitor(
+        full_name="WATSON",
+        first_name="",
+        last_name="",
+        team_full="Simmons",
+    ),
+    ("COUNTS", "Jerseyville"): bracket_utils.Competitor(
+        full_name="COUNTS",
+        first_name="",
+        last_name="",
+        team_full="Jerseyville",
+    ),
+    ("DIR", "Sterling"): bracket_utils.Competitor(
+        full_name="DIR",
+        first_name="",
+        last_name="",
+        team_full="Sterling",
+    ),
+    ("BARRISH", "Gemini Jr."): bracket_utils.Competitor(
+        full_name="BARRISH",
+        first_name="",
+        last_name="",
+        team_full="Gemini Jr.",
+    ),
+    ("SANDERSON", "Rosette"): bracket_utils.Competitor(
+        full_name="SANDERSON",
+        first_name="",
+        last_name="",
+        team_full="Rosette",
+    ),
+    ("ALBERICO", "Troy"): bracket_utils.Competitor(
+        full_name="ALBERICO",
+        first_name="",
+        last_name="",
+        team_full="Troy",
+    ),
+    ("WOPAT", "Edwardsville"): bracket_utils.Competitor(
+        full_name="WOPAT",
+        first_name="",
+        last_name="",
+        team_full="Edwardsville",
+    ),
+    ("BUEHLER", "Huntley"): bracket_utils.Competitor(
+        full_name="BUEHLER",
+        first_name="",
+        last_name="",
+        team_full="Huntley",
+    ),
+    ("MAGER", "New Lenox"): bracket_utils.Competitor(
+        full_name="MAGER",
+        first_name="",
+        last_name="",
+        team_full="New Lenox",
+    ),
+    ("FLOWERS", "Murphysboro"): bracket_utils.Competitor(
+        full_name="FLOWERS",
+        first_name="",
+        last_name="",
+        team_full="Murphysboro",
+    ),
+    ("PACHECO", "Westview"): bracket_utils.Competitor(
+        full_name="PACHECO",
+        first_name="",
+        last_name="",
+        team_full="Westview",
+    ),
+    ("WADE", "Jerseyville"): bracket_utils.Competitor(
+        full_name="WADE",
+        first_name="",
+        last_name="",
+        team_full="Jerseyville",
+    ),
+    ("GOERGIN", "Schaumberg"): bracket_utils.Competitor(
+        full_name="GOERGIN",
+        first_name="",
+        last_name="",
+        team_full="Schaumberg",
+    ),
+    ("ZIDANS", "Sterling"): bracket_utils.Competitor(
+        full_name="ZIDANS",
+        first_name="",
+        last_name="",
+        team_full="Sterling",
+    ),
+    ("KAITCHUK", "Durkin Park"): bracket_utils.Competitor(
+        full_name="KAITCHUK",
+        first_name="",
+        last_name="",
+        team_full="Durkin Park",
+    ),
+    ("HEY", "Sterling"): bracket_utils.Competitor(
+        full_name="HEY",
+        first_name="",
+        last_name="",
+        team_full="Sterling",
+    ),
+    ("ALDRIGES", "Granite City"): bracket_utils.Competitor(
+        full_name="ALDRIGES",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("REGLIN", "Sterling"): bracket_utils.Competitor(
+        full_name="REGLIN",
+        first_name="",
+        last_name="",
+        team_full="Sterling",
+    ),
+    ("GRAHAM", "Troy"): bracket_utils.Competitor(
+        full_name="GRAHAM",
+        first_name="",
+        last_name="",
+        team_full="Troy",
+    ),
+    ("CASHMORE", "Prospect Heights"): bracket_utils.Competitor(
+        full_name="CASHMORE",
+        first_name="",
+        last_name="",
+        team_full="Prospect Heights",
+    ),
+    ("HARTMAN", "Granite City"): bracket_utils.Competitor(
+        full_name="HARTMAN",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("PRATT", "Rock Falls"): bracket_utils.Competitor(
+        full_name="PRATT",
+        first_name="",
+        last_name="",
+        team_full="Rock Falls",
+    ),
+    ("SUVINSKI", "Mokena"): bracket_utils.Competitor(
+        full_name="SUVINSKI",
+        first_name="",
+        last_name="",
+        team_full="Mokena",
+    ),
+    ("WATSON", "Deerpath"): bracket_utils.Competitor(
+        full_name="WATSON",
+        first_name="",
+        last_name="",
+        team_full="Deerpath",
+    ),
+    ("MOSS", "Troy"): bracket_utils.Competitor(
+        full_name="MOSS",
+        first_name="",
+        last_name="",
+        team_full="Troy",
+    ),
+    ("IDRIZOWICZ", "London"): bracket_utils.Competitor(
+        full_name="IDRIZOWICZ",
+        first_name="",
+        last_name="",
+        team_full="London",
+    ),
+    ("SWAN", "Granite City"): bracket_utils.Competitor(
+        full_name="SWAN",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("AUSTIN", "Huntley"): bracket_utils.Competitor(
+        full_name="AUSTIN",
+        first_name="",
+        last_name="",
+        team_full="Huntley",
+    ),
+    ("LEWIS", "Carmi"): bracket_utils.Competitor(
+        full_name="LEWIS",
+        first_name="",
+        last_name="",
+        team_full="Carmi",
+    ),
+    ("ROBINSON", "Huth"): bracket_utils.Competitor(
+        full_name="ROBINSON",
+        first_name="",
+        last_name="",
+        team_full="Huth",
+    ),
+    ("BONNELL", "Rock Falls"): bracket_utils.Competitor(
+        full_name="BONNELL",
+        first_name="",
+        last_name="",
+        team_full="Rock Falls",
+    ),
+    ("POTERALA", "West Chicago"): bracket_utils.Competitor(
+        full_name="POTERALA",
+        first_name="",
+        last_name="",
+        team_full="West Chicago",
+    ),
+    ("RAMBI", "Orland Park"): bracket_utils.Competitor(
+        full_name="RAMBI",
+        first_name="",
+        last_name="",
+        team_full="Orland Park",
+    ),
+    ("NELSON", "Holmes"): bracket_utils.Competitor(
+        full_name="NELSON",
+        first_name="",
+        last_name="",
+        team_full="Holmes",
+    ),
+    ("GELLESPIE", "Belleville"): bracket_utils.Competitor(
+        full_name="GELLESPIE",
+        first_name="",
+        last_name="",
+        team_full="Belleville",
+    ),
+    ("MEIER", "Savanna"): bracket_utils.Competitor(
+        full_name="MEIER",
+        first_name="",
+        last_name="",
+        team_full="Savanna",
+    ),
+    ("BELL", "Palatine"): bracket_utils.Competitor(
+        full_name="BELL",
+        first_name="",
+        last_name="",
+        team_full="Palatine",
+    ),
+    ("GREER", "Jerseyville"): bracket_utils.Competitor(
+        full_name="GREER",
+        first_name="",
+        last_name="",
+        team_full="Jerseyville",
+    ),
+    ("CORR", "Des Plaines"): bracket_utils.Competitor(
+        full_name="CORR",
+        first_name="",
+        last_name="",
+        team_full="Des Plaines",
+    ),
+    ("GUETERSLOH", "Murphysboro"): bracket_utils.Competitor(
+        full_name="GUETERSLOH",
+        first_name="",
+        last_name="",
+        team_full="Murphysboro",
+    ),
+    ("GALARZA", "Mokena"): bracket_utils.Competitor(
+        full_name="GALARZA",
+        first_name="",
+        last_name="",
+        team_full="Mokena",
+    ),
+    ("BRUGOTH", "West Chicago"): bracket_utils.Competitor(
+        full_name="BRUGOTH",
+        first_name="",
+        last_name="",
+        team_full="West Chicago",
+    ),
+    ("HRVATIN", "Joliet"): bracket_utils.Competitor(
+        full_name="HRVATIN",
+        first_name="",
+        last_name="",
+        team_full="Joliet",
+    ),
+    ("EDDY", "Carol Stream"): bracket_utils.Competitor(
+        full_name="EDDY",
+        first_name="",
+        last_name="",
+        team_full="Carol Stream",
+    ),
+    ("AGBEROECK", "Moline"): bracket_utils.Competitor(
+        full_name="AGBEROECK",
+        first_name="",
+        last_name="",
+        team_full="Moline",
+    ),
+    ("FULLER", "Des Plaines"): bracket_utils.Competitor(
+        full_name="FULLER",
+        first_name="",
+        last_name="",
+        team_full="Des Plaines",
+    ),
+    ("HILLSTRAND", "Huntley"): bracket_utils.Competitor(
+        full_name="HILLSTRAND",
+        first_name="",
+        last_name="",
+        team_full="Huntley",
+    ),
+    ("MANNS", "New Lenox"): bracket_utils.Competitor(
+        full_name="MANNS",
+        first_name="",
+        last_name="",
+        team_full="New Lenox",
+    ),
+    ("MILEUR", "Murphysboro"): bracket_utils.Competitor(
+        full_name="MILEUR",
+        first_name="",
+        last_name="",
+        team_full="Murphysboro",
+    ),
+    ("GRABLE", "London"): bracket_utils.Competitor(
+        full_name="GRABLE",
+        first_name="",
+        last_name="",
+        team_full="London",
+    ),
+    ("GRIFFIN", "Moline"): bracket_utils.Competitor(
+        full_name="GRIFFIN",
+        first_name="",
+        last_name="",
+        team_full="Moline",
+    ),
+    ("SCHWARTZ", "Troy"): bracket_utils.Competitor(
+        full_name="SCHWARTZ",
+        first_name="",
+        last_name="",
+        team_full="Troy",
+    ),
+    ("ALABAN", "Morris"): bracket_utils.Competitor(
+        full_name="ALABAN",
+        first_name="",
+        last_name="",
+        team_full="Morris",
+    ),
+    ("LUND", "Belleville"): bracket_utils.Competitor(
+        full_name="LUND",
+        first_name="",
+        last_name="",
+        team_full="Belleville",
+    ),
+    ("KRAUSS", "Cooper"): bracket_utils.Competitor(
+        full_name="KRAUSS",
+        first_name="",
+        last_name="",
+        team_full="Cooper",
+    ),
+    ("DAMIANI", "Bloom"): bracket_utils.Competitor(
+        full_name="DAMIANI",
+        first_name="",
+        last_name="",
+        team_full="Bloom",
+    ),
+    ("KRUEGER", "Holmes"): bracket_utils.Competitor(
+        full_name="KRUEGER",
+        first_name="",
+        last_name="",
+        team_full="Holmes",
+    ),
+    ("HARRING", "Edwardsville"): bracket_utils.Competitor(
+        full_name="HARRING",
+        first_name="",
+        last_name="",
+        team_full="Edwardsville",
+    ),
+    ("CLIFTON", "Huntley"): bracket_utils.Competitor(
+        full_name="CLIFTON",
+        first_name="",
+        last_name="",
+        team_full="Huntley",
+    ),
+    ("McCOY", "Edwardsville"): bracket_utils.Competitor(
+        full_name="McCOY",
+        first_name="",
+        last_name="",
+        team_full="Edwardsville",
+    ),
+    ("MITAL", "Moline"): bracket_utils.Competitor(
+        full_name="MITAL",
+        first_name="",
+        last_name="",
+        team_full="Moline",
+    ),
+    ("FORREST", "New Lenox"): bracket_utils.Competitor(
+        full_name="FORREST",
+        first_name="",
+        last_name="",
+        team_full="New Lenox",
+    ),
+    ("PATTERSON", "Granite City"): bracket_utils.Competitor(
+        full_name="PATTERSON",
+        first_name="",
+        last_name="",
+        team_full="Granite City",
+    ),
+    ("RICH", "Huntley"): bracket_utils.Competitor(
+        full_name="RICH",
+        first_name="",
+        last_name="",
+        team_full="Huntley",
+    ),
+    ("HOERR", "Simmons"): bracket_utils.Competitor(
+        full_name="HOERR",
+        first_name="",
+        last_name="",
+        team_full="Simmons",
+    ),
+    ("BARDEL", "Glenwood"): bracket_utils.Competitor(
+        full_name="BARDEL",
+        first_name="",
+        last_name="",
+        team_full="Glenwood",
+    ),
+    ("STRONK", "Kirby"): bracket_utils.Competitor(
+        full_name="STRONK",
+        first_name="",
+        last_name="",
+        team_full="Kirby",
+    ),
+    ("KLOCKE", "Deerpath"): bracket_utils.Competitor(
+        full_name="KLOCKE",
+        first_name="",
+        last_name="",
+        team_full="Deerpath",
+    ),
+    ("BATEMAN", "Murphysboro"): bracket_utils.Competitor(
+        full_name="BATEMAN",
+        first_name="",
+        last_name="",
+        team_full="Murphysboro",
+    ),
+    ("PERRONEZ", "Rock Falls"): bracket_utils.Competitor(
+        full_name="PERRONEZ",
+        first_name="",
+        last_name="",
+        team_full="Rock Falls",
+    ),
 }
 
 
@@ -334,9 +1780,16 @@ def main():
         )
 
     weight_classes: list[bracket_utils.WeightClass] = []
-    for weight, champ in _SENIOR_CHAMPS.items():
-        weight_class = bracket_utils.weight_class_from_champ(
-            "senior", weight, champ, _SENIOR_TEAM_REPLACE
+    for weight, competitors in _SENIOR_COMPETITORS.items():
+        bout_numbers = {}  # No bout numbers at all in 1972
+        weight_class = bracket_utils.weight_class_from_competitors(
+            "senior",
+            weight,
+            competitors,
+            _SENIOR_TEAM_REPLACE,
+            _NAME_EXCEPTIONS,
+            bout_numbers,
+            placers_type="champ",
         )
         weight_classes.append(weight_class)
 
@@ -344,7 +1797,7 @@ def main():
         weight_classes=weight_classes, team_scores=team_scores, deductions=[]
     )
     extracted.sort()
-    with open(HERE / "extracted.1972.json", "w") as file_obj:
+    with open(_HERE / "extracted.1972.json", "w") as file_obj:
         file_obj.write(extracted.model_dump_json(indent=2))
         file_obj.write("\n")
 

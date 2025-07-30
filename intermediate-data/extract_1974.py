@@ -4,6 +4,9 @@
 The competitor list (from scans from Terry Weber) is contained below.
 
 Note in 1974 there were only 16 qualifiers.
+
+The 152 pound bracket is under question. Newer records indicate a champion
+(Dave Conciera :: Des Plaines Gemini) that was not even in the bracket.
 """
 
 import pathlib
@@ -378,9 +381,6 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         None,
     ],
     152: [
-        # WAT?
-        # Newer records indicate a champion that was not even in the bracket:
-        # Dave Conciera :: Des Plaines Gemini
         "SCHANUEL :: Granite City :: 6",
         "SUMEVA :: Downers Grove :: 1",
         None,
