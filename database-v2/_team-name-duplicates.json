@@ -9082,7 +9082,7 @@
       {
         "tournament_id": 8,
         "division": "senior",
-        "name": "Burbank"
+        "name": "Panthers"
       },
       {
         "tournament_id": 9,
@@ -11405,7 +11405,7 @@
       {
         "tournament_id": 4,
         "division": "senior",
-        "name": "Aurora Simmons"
+        "name": "Simmons (Aurora)"
       },
       {
         "tournament_id": 7,
@@ -13222,7 +13222,7 @@
       {
         "tournament_id": 8,
         "division": "senior",
-        "name": "Bolingbrook Ward"
+        "name": "Ward Middle School"
       },
       {
         "tournament_id": 9,
@@ -17620,7 +17620,7 @@
       {
         "tournament_id": 4,
         "division": "senior",
-        "name": "DeKalb Huntley"
+        "name": "Huntley"
       },
       {
         "tournament_id": 5,
@@ -17630,7 +17630,7 @@
       {
         "tournament_id": 8,
         "division": "senior",
-        "name": "DeKalb Huntley"
+        "name": "Huntley"
       },
       {
         "tournament_id": 12,
@@ -17959,7 +17959,7 @@
       {
         "tournament_id": 4,
         "division": "senior",
-        "name": "Des Plaines Gemini"
+        "name": "Gemini Jr. High"
       }
     ]
   },
@@ -18323,7 +18323,7 @@
       {
         "tournament_id": 8,
         "division": "senior",
-        "name": "Dolton"
+        "name": "Dolton Park"
       },
       {
         "tournament_id": 12,
@@ -23739,7 +23739,7 @@
       {
         "tournament_id": 4,
         "division": "senior",
-        "name": "Franklin Park"
+        "name": "Franklin"
       },
       {
         "tournament_id": 5,
@@ -30801,7 +30801,7 @@
       {
         "tournament_id": 4,
         "division": "senior",
-        "name": "Joliet Boy's Club"
+        "name": "Joliet Boys Club"
       },
       {
         "tournament_id": 5,
@@ -30826,7 +30826,7 @@
       {
         "tournament_id": 8,
         "division": "senior",
-        "name": "Joliet Boy's Club"
+        "name": "Joliet Boys Club"
       },
       {
         "tournament_id": 20,
@@ -30950,11 +30950,6 @@
     "name_normalized": "Joliet YMCA",
     "url_path_slug": null,
     "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "JOLIET YMCA"
-      },
       {
         "tournament_id": 8,
         "division": "senior",
@@ -44281,7 +44276,7 @@
       {
         "tournament_id": 4,
         "division": "senior",
-        "name": "Northfield"
+        "name": "Northfield Pk. Dist."
       }
     ]
   },
@@ -45099,7 +45094,7 @@
       {
         "tournament_id": 8,
         "division": "senior",
-        "name": "Oak Forest Warriors"
+        "name": "Oak Forest"
       },
       {
         "tournament_id": 9,
@@ -46217,7 +46212,7 @@
       {
         "tournament_id": 8,
         "division": "senior",
-        "name": "Orland Park Pioneers"
+        "name": "Orland Park"
       },
       {
         "tournament_id": 12,
@@ -48708,7 +48703,7 @@
       {
         "tournament_id": 8,
         "division": "senior",
-        "name": "PLAINFIELD"
+        "name": "Plainfield"
       },
       {
         "tournament_id": 9,
@@ -58311,7 +58306,7 @@
       {
         "tournament_id": 4,
         "division": "senior",
-        "name": "Sterling Challand"
+        "name": "Sterling"
       },
       {
         "tournament_id": 10,
@@ -61893,12 +61888,7 @@
       {
         "tournament_id": 4,
         "division": "senior",
-        "name": "TINLEY PARK"
-      },
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Tinley Park Bulldogs"
+        "name": "Tinley Park"
       },
       {
         "tournament_id": 5,
@@ -66416,11 +66406,6 @@
         "tournament_id": 3,
         "division": "senior",
         "name": "West Chicago"
-      },
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "WEST CHICAGO"
       },
       {
         "tournament_id": 4,
