@@ -11281,22 +11281,6 @@
     ]
   },
   {
-    "name_normalized": "Arbor Park",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 2,
-        "division": "senior",
-        "name": "ARBOR PARK"
-      },
-      {
-        "tournament_id": 2,
-        "division": "senior",
-        "name": "Arbor Park"
-      }
-    ]
-  },
-  {
     "name_normalized": "Assumption Elite WC",
     "url_path_slug": null,
     "duplicates": [
@@ -17615,7 +17599,7 @@
       {
         "tournament_id": 2,
         "division": "senior",
-        "name": "DeKalb Huntley"
+        "name": "Huntley"
       },
       {
         "tournament_id": 4,
@@ -30786,7 +30770,7 @@
       {
         "tournament_id": 2,
         "division": "senior",
-        "name": "Joliet Boy's Club"
+        "name": "Joliet Boys Club"
       },
       {
         "tournament_id": 3,
@@ -43934,7 +43918,7 @@
       {
         "tournament_id": 2,
         "division": "senior",
-        "name": "NEW LENOX"
+        "name": "New Lenox"
       }
     ]
   },
@@ -43965,11 +43949,6 @@
     "duplicates": [
       {
         "tournament_id": 1,
-        "division": "senior",
-        "name": "New Lenox Oakview"
-      },
-      {
-        "tournament_id": 2,
         "division": "senior",
         "name": "New Lenox Oakview"
       },
@@ -44978,11 +44957,6 @@
     "name_normalized": "Oak Forest",
     "url_path_slug": null,
     "duplicates": [
-      {
-        "tournament_id": 2,
-        "division": "senior",
-        "name": "Oak Forest"
-      },
       {
         "tournament_id": 3,
         "division": "senior",
@@ -53599,7 +53573,7 @@
       {
         "tournament_id": 2,
         "division": "senior",
-        "name": "Romeoville Westview"
+        "name": "Westview"
       },
       {
         "tournament_id": 3,
@@ -58296,7 +58270,7 @@
       {
         "tournament_id": 2,
         "division": "senior",
-        "name": "Sterling Challand"
+        "name": "Sterling"
       },
       {
         "tournament_id": 3,
