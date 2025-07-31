@@ -130,7 +130,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Dan Walsh :: Dolton :: 5",
         "Marck Mahan :: Edwardsville",
         "Derek Smith :: Mokena :: 4",
-        "Chris Welsh :: Moline Deere",
+        "Chris Welsh :: Moline Deere",  # Program says "John Deere"
         "Bill Grayson :: Forman",
         "Ron Covers :: Barrington",
         "Hugh Powers :: Lyons",
@@ -160,7 +160,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Dan O'Brien :: Chicago Ridge :: 5",
         "Chris Hurst :: Waldo :: 3",
         "Dino Karambelas :: Park Ridge",
-        "Matt Mostek :: Moline Deere",
+        "Matt Mostek :: Moline Deere",  # Program says "Deere"
         "Ken Thompson :: Glenwood",
         "Wayne Davis :: Rock Falls",
         "Mike Chihoski :: Rosemont",
@@ -242,7 +242,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Jeff Gardner :: Springfield :: 3",
         "Rob Vasquez :: Barrington",
         "Mark Montgomery :: Sycamore",
-        "Steve Kaltofen :: Wheaton P.D.",
+        "Steve Kaltofen :: Wheaton P.D.",  # Program says "Wheaton"
         "Neal Gaynor :: Tinley Park",
         "Duane Maue :: Mokena :: 2",
     ],
@@ -270,10 +270,10 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Rich Newton :: Rosette",
         "Steve Berman :: Joliet YMCA :: 4",
         "Don Carter :: Roxana",
-        "Eric Phillips :: Chicago Ridge",
+        "Eric Phillips :: Chicago Ridge",  # Missing team name in program
     ],
     100: [
-        "Jeff Mendoza :: Moline Deere :: 6",
+        "Jeff Mendoza :: Moline Deere :: 6",  # Program says "Deere"
         "Marty Turner :: Dundee",
         "Bob Tow :: Roxana",
         "Bob Edwards :: Pekin",
@@ -287,7 +287,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Paul Dagenais :: Tinley Park",
         "Ken Sheppard :: Barrington :: 2",
         "Greg Gardner :: Springfield",
-        "Dan Smith :: Moline Deere",
+        "Dan Smith :: Moline Deere",  # Program says "Deere"
         "Ron Bednarczyk :: Tinley Park",
         "Brian Hendricks :: Gower",
         "Pete Andreotti :: Orland Park",
@@ -308,7 +308,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Todd Howell :: Rantoul",
         "Mike Mingle :: Barrington",
         "John DeJarld :: Troy",
-        "Steve Holland :: Wheaton P.D.",
+        "Steve Holland :: Wheaton P.D.",  # Program says "Wheaton"
         "Greg Flores :: Chicago Ridge :: 3",
         "Chris Hall :: Roxana",
         "Mark Olsen :: Orland Park",
@@ -339,10 +339,10 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Ernesto Pretelt :: Jefferson",
         "Mark Mammen :: Urbana :: 6",
         "Rick Hawkins :: Lawrenceville",
-        "Pete Pasternak :: Calumet City",
-        "Scott Pierre :: Wheaton P.D. :: 1",
+        "Pete Pasternak :: Calumet City",  # Program says "Cal City"
+        "Scott Pierre :: Wheaton P.D. :: 1",  # Program says "Wheaton"
         "Scott Gegenheimer :: Bensenville",
-        "Mike Mahieu :: Moline Deere",
+        "Mike Mahieu :: Moline Deere",  # Program says "Deere"
         "Joe Longhini :: Orland Park",
         "Marty Bowell :: Plano",
         "Tom Hennigan :: St. Tarcissus",
@@ -378,7 +378,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     ],
     125: [
         "Ron Lynch :: Rosette",
-        "Steve Pretto :: Hickory Hills :: 2",  # CC2
+        "Steve Pretto :: Hickory Hills :: 2",
         "John Kurz :: Sandburg",
         "Garry Hodonicky :: Jefferson",
         "Chris Gilliam :: Murphysboro",
@@ -393,7 +393,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Ski Rice :: Harvard",
         "Nick Foster :: Decatur",
         "Tim Brown :: Prather",
-        "Brian Antonietti :: Calumet City :: 1",  # CC1
+        "Brian Antonietti :: Calumet City :: 1",  # Program says "Cal City"
         "Don Smith :: Huntley",
         "Ron Snedic :: Plainfield",
         "Erik Anderson :: Edwardsville",
@@ -512,7 +512,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     ],
     185: [
         "Bill Smith :: Freeport :: 5",
-        "Todd Smith :: Argenta",
+        "Todd Smith :: Argenta",  # Program says "Argena"
         "Alex Mason :: Neal Jr.",
         "Scott Szymanski :: Conrady :: 3",
         "Mike Lambke :: Darien",
@@ -536,7 +536,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Nick DiCarlo :: Palos :: 6",
         "Clinton Taber :: Edwardsville",
     ],
-    275: [
+    275: [  # Program says "UNLIMITED"
         "Frank Garza :: Challand :: 6",
         "Joe Kwasniak :: Burbank",
         "Dan Pauley :: Harvard",

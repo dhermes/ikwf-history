@@ -14,9 +14,10 @@ _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     50: [
         "Curt Bellone :: Palos",
-        "R. Chihoski :: Rosemont Cobras :: 5",
+        "R. Chihoski :: Rosemont Cobras :: 5",  # Program says "Rosement"
         "Phillip Schwing :: Fisher",
         "Mike Mostek :: John Deere Wrestling Club :: 2",
+        # ^^^ Program says "John Deere Jr. High"
         "Luke Pascale :: Orland Park",
         None,
         None,
@@ -43,7 +44,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Sean Meagher :: New Lenox Lions :: 4",
         "Dave Sawyer :: West Chicago",
         "Darby Waggoner :: Lawrenceville",
-        "Brett Camden :: Mahomet",
+        "Brett Camden :: Mahomet",  # Program says "Mohomet"
         "Marc Motzer :: Geneseo WC",
         "Chuck Collins :: Broncos",
         "John Vernich :: Lancers Wrestling Club",
@@ -62,7 +63,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Brent LaRoche :: Oak Lawn",
         "Eric Denning :: Sterling Rock Falls YMCA :: 5",
         "T. Guryn :: Vittum Park",
-        "Randy Tedesco :: Belleville Little Devils",
+        "Randy Tedesco :: Belleville Little Devils",  # Program says "Belleville"
     ],
     60: [
         "Jim Pellegrini :: Hazel Crest :: 3",
@@ -71,9 +72,10 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Jeff Vasquez :: Broncos :: 2",
         "Todd Ryan :: Bensenville",
         "Larry LeFavre :: Sterling Rock Falls YMCA",
+        # ^^^ Program says "Sterline Rock Falls"
         "C. Buenik :: Cicero Bobcats",
         "Brian Tiemier :: East Moline W.C.",
-        "Jeff Creech :: Mahomet",
+        "Jeff Creech :: Mahomet",  # Program says "Mohomet"
         "Brian Moon :: Joliet YMCA :: 5",
         "Derek Baugh :: Bethalto Boys Club",
         "Mike McElwee :: Gower",
@@ -137,7 +139,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Cory Deck :: Urbana",
         "B. Albach :: Niles Weasles :: 6",
         "Cory Cullinan :: Villa-Lombard",
-        "Matt Burright :: DeKalb Rosette",
+        "Matt Burright :: DeKalb Rosette",  # Program says "Rosette"
         "Scott Sheen :: Joliet YMCA",
         "David Bidwell :: Urbana",
         "Joe Gilbert :: Tinley Park",
@@ -149,7 +151,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "N. Chiappetta :: Cicero Bobcats",
         "Todd Murphy :: Pekin",
         "Kris Armstrong :: Belleville Little Devils",
-        "Jeff Meagher :: New Lenox Lions :: 3",
+        "Jeff Meagher :: New Lenox Lions :: 3",  # Program says "New Lenox"
         "Jeff Kindall :: Prather",
         "P.J. Manzari :: Gower",
         "Clarence Ralph :: Fisher",
@@ -158,12 +160,12 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Ben Morris :: Bensenville",
         "Toby Willis :: New Lenox Lions :: 5",
         "J. Regan :: Vittum Park",
-        "Mark Pustelnik :: East Moline W.C. :: 1",
+        "Mark Pustelnik :: East Moline W.C. :: 1",  # Program says "East Moline"
         "Cory Ronk :: Urbana",
         "Bob Kaleta :: Oak Forest",
         "Mark McMahan :: Edwardsville",
         "Dan Walsh :: Dolton",
-        "Jeff Scott :: Decatur YMCA",
+        "Jeff Scott :: Decatur YMCA",  # Program says "Decatur"
         "Chad Stone :: Dundee",
         "Bill Guide :: Vittum Park :: 4",
         "Tim Chaplin :: Joliet YMCA",
@@ -191,7 +193,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Jeff Adkins :: Decatur YMCA",
         "Bret Cassata :: Tinley Park",
         "R. Minauskas :: Vittum Park",
-        "Mike Mokas :: Wheaton Franklin",
+        "Mike Mokas :: Wheaton Franklin",  # Program says "Franklin"
         "Dare Duggan :: Troy :: 6",
     ],
     85: [
@@ -206,7 +208,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "M. Haggadus :: Burbank :: 6",
         "Jimmy Cole :: Neal Eagles",
         "Eric Monte :: Gower",
-        "Todd Casagrande :: New Lenox Lions",
+        "Todd Casagrande :: New Lenox Lions",  # Program says "New Lenox"
         "P. McGowean :: Arlington Heights Cardinals",
         "Ed Saller :: Dolton",
         "Craig Schwab :: Belleville Little Devils",
@@ -223,7 +225,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     90: [
         "John Crnich :: Oak Forest :: 3",
         "Henry Kijewski :: New Lenox Lions",
-        "Paul Schewe :: Wheaton Franklin",
+        "Paul Schewe :: Wheaton Franklin",  # Program says "Franklin"
         "Brad Stockstill :: Bethalto Boys Club",
         "Dave McClure :: Gibson City",
         "Darrin Cormier :: DeKalb Rosette",
@@ -242,7 +244,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Rich Votava :: West Chicago",
         "Todd Veltman :: Antioch",
         "Tony Ventimiglia :: Oak Forest :: 4",
-        "Tom Nelson :: Foreman Wrestling Club",
+        "Tom Nelson :: Foreman Wrestling Club",  # Program says "Forman Wres. Club"
         "J. Loos :: Park Ridge :: 5",
         "Mike Wilkening :: Edwardsville",
     ],
@@ -254,15 +256,15 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "John Llewellyn :: Hinsdale Wrestling Club",
         "Jason Butt :: Challand",
         "T. Guryn :: Vittum Park",
-        "Sean Cunningham :: DeKalb Rosette",
-        "James Clifton :: Buffalo Tri City",
+        "Sean Cunningham :: DeKalb Rosette",  # Program says "Rosette"
+        "James Clifton :: Buffalo Tri City",  # Program says "Buffalo"
         "Keith Hutchinson :: Joliet YMCA",
         "Chris Marcy :: Murphysboro",
         "Kirk Siegler :: Hill Jr. High :: 6",
         "Richard Harvey :: Decatur YMCA",
         "J. Schabillion :: West Leyden",
         "Brad Demmitt :: Dundee",
-        "Steve Kaltofen :: Wheaton Franklin :: 4",
+        "Steve Kaltofen :: Wheaton Franklin :: 4",  # Program says "Franklin"
         "Eric Schultz :: Tinley Park",
         "G. Coles :: Frankfort",
         "Scott Holbrook :: Sterling Newman :: 1",
@@ -286,10 +288,10 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Jeff Sliva :: Georgetown",
         "M. Chihoski :: Rosemont Cobras",
         "Steve Kennicott :: Broncos",
-        "Dan Kildane :: Naperville Park District",
+        "Dan Kildane :: Naperville Park District",  # Program says "Naperville"
         "Jeff Anderson :: Tinley Park",
         "J. Lebron :: Vittum Park :: 3",
-        "Jim Quilty :: Jordan",
+        "Jim Quilty :: Jordan",  # Program says "Jorden"
         "Mike Layne :: Murphysboro",
         "Dennis Duchene :: Rich Township",
         "Rodney Rutz :: Edwardsville",
@@ -317,8 +319,8 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Rob Vasquez :: Broncos :: 4",
         "Jeff Baker :: Plano",
         "Tim Summers :: Hoopeston",
-        "M. Rodgers :: Oak Park Huskies :: 1",
-        "Mark Sodago :: Wheaton Franklin",
+        "M. Rodgers :: Oak Park Huskies :: 1",  # Program says "Oak Park"
+        "Mark Sodago :: Wheaton Franklin",  # Program says "Franklin"
         "Chad Gilpin :: Hamilton",
         "Mike Tisza :: Rich Township",
         "Jeff Roedl :: Urbana",
@@ -329,7 +331,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Jose Ortez :: Bensenville",
         "Mike Busch :: Broncos",
         "B. Carlstrom :: Carl Sandburg Des Plaines",
-        "Mark Wisdom :: DeKalb Rosette",
+        "Mark Wisdom :: DeKalb Rosette",  # Program says "Rosette"
         "Tom Sparks :: Coolidge Granite City",
         "Tom Blaha :: Frankfort :: 1",
         "Mark Heffner :: Roxana Wrestling Club",
@@ -340,7 +342,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Craig Witt :: West Chicago :: 5",
         "Mike Murry :: New Lenox Oakview",
         "D. O'Connor :: Chicago Mat Burns",
-        "Jeff Norin :: Coolidge Granite City :: 3",
+        "Jeff Norin :: Coolidge Granite City :: 3",  # Program says "Coolidge"
         "Charles Sprandle :: Decatur YMCA",
         "Alex Dumas :: Dolton",
         "Chuck Nelson :: Edwardsville",
@@ -352,8 +354,8 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     ],
     118: [
         "Paul Dagenais :: Tinley Park :: 1",
-        "Owen Doak :: Jordan",
-        "Jim Walker :: Geneseo WC",
+        "Owen Doak :: Jordan",  # Program says "Jorden"
+        "Jim Walker :: Geneseo WC",  # Program is missing team info
         "Pete Andreotti :: Orland Park :: 3",
         "Rob Trimpl :: Mascoutah",
         "M. Hufnus :: Carl Sandburg Des Plaines",
@@ -363,7 +365,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Mike Lewingham :: Lancers Wrestling Club :: 6",
         "B. McBride :: Burbank",
         "Kip Simpson :: Grigsby",
-        "Matt Hagger :: DeKalb Rosette",
+        "Matt Hagger :: DeKalb Rosette",  # Program says "Rosette"
         "Joe Liberatore :: Tinley Park :: 2",
         "Tom Johnson :: Hoopeston",
         "Bruce Musgrave :: Mascoutah",
@@ -373,14 +375,14 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Dave Ebersol :: Bradley Bourbonnais",
         "Mike Harms :: Oak Forest :: 4",
         "E. Swenson :: Glenview Northbrook",
-        "Greg Silitto :: Wheaton Franklin",
+        "Greg Silitto :: Wheaton Franklin",  # Program says "Franklin"
         "Pat Wheeler :: Frankfort",
     ],
     125: [
         "Terry McGuire :: Oak Forest",
         "S. Case :: Franklin Park Raiders",
         "Todd Howell :: Rantoul",
-        "Matt Roach :: DeKalb Rosette :: 2",
+        "Matt Roach :: DeKalb Rosette :: 2",  # Program says "Rosette"
         "Jack Baumann :: New Lenox Oakview",
         "Harry Leitner :: Eisenhower",
         "Chris Lindsay :: Mascoutah :: 6",
@@ -410,7 +412,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Jim Garecht :: Mt. Zion",
         "Jon Elias :: Sycamore",
         "Anton Kossakowski :: Dundee",
-        "Kevin Kerr :: Wheaton Franklin",
+        "Kevin Kerr :: Wheaton Franklin",  # Program says "Franklin"
         "Craig Buckland :: Joliet YMCA",
         "J. Miner :: Burbank :: 3",
         "Brad Cameran :: East Moline W.C. :: 5",
@@ -465,7 +467,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Dave LaPasa :: Troy",
         "Tim Halverson :: Batavia",
         "Scott Maberry :: Roxana Wrestling Club",
-        "Jim Cruthird :: Decatur YMCA",
+        "Jim Cruthird :: Decatur Boy's Club",
         "L. Boudreaux :: LaGrange Lions",
         "Charles Gayden :: Neal Eagles",
         "Harry Geller :: Washington",
@@ -500,7 +502,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Sam Anderson :: Huntley",
         "Pat Dillman :: Georgetown",
         "A. Parker :: West Leyden",
-        "Jim Skillen :: Wheaton Franklin :: 6",
+        "Jim Skillen :: Wheaton Franklin :: 6",  # Program says "Franklin"
         "David Hudson :: Canton Wrestling Club",
         "R. Webb :: Plainfield :: 1",
         "Rob Siders :: Urbana",
@@ -518,7 +520,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         None,
         "Tim Lambert :: Decatur YMCA :: 5",
         "B. Stiltson :: Freeport",
-        "Craig Smith :: DeKalb Rosette",
+        "Craig Smith :: DeKalb Rosette",  # Program says "Rosette"
         "Chuck Gehring :: Eisenhower",
         "Tony Gatlin :: Rich Township",
         "M. Scott :: Oak Park Huskies",
@@ -532,7 +534,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "B. Metzger :: Oak Park Huskies",
         "S. Tighe :: Plainfield :: 6",
     ],
-    275: [
+    275: [  # Program says "UNLIMITED"
         "J. Rickhoff :: Oak Lawn",
         "Bruce Goyen :: Canton Wrestling Club",
         "Scott Jahl :: Broncos",
@@ -555,7 +557,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Milt Johnson :: Buffalo Tri City",
         "Todd Hunzinga :: Lansing",
         "J. Galvan :: Burbank",
-        "Dave Fank :: Wheaton Franklin :: 4",
+        "Dave Fank :: Wheaton Franklin :: 4",  # Program says "Franklin"
         "Dave Coughlin :: Glenwood",
     ],
 }

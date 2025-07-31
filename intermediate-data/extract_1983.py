@@ -12,10 +12,10 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Robert Chihoski :: Rosemont :: 2",
         "Randy Berke :: DeKalb Huntley",
         "Tim Condit :: Oak Forest",
-        "Josh Mattio :: Rich Township :: 4",
+        "Josh Mattio :: Rich Township :: 4",  # Program says "Rich"
         "Mike Dickinson :: Roxana Park District",
         "John Zuspann :: Jefferson",
-        "Ryan Ferguson :: Lancers :: 6",
+        "Ryan Ferguson :: Lancers :: 6",  # Program says "Lancer"
         "Tom Hincks :: Mt. Greenwood",
         None,
         "John Stanley :: Mattoon",
@@ -38,8 +38,8 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Kurt Kalchbrenner :: Vittum Park :: 5",
         "Ryan Smith :: Roxana Park District",
         "Jim Foley :: Dundee",
-        "John Virnich :: Lancers",
-        "Joe Wilhelm :: Calumet City :: 3",
+        "John Virnich :: Lancers",  # Program says "Lancer"
+        "Joe Wilhelm :: Calumet City :: 3",  # Program says "Cal City"
         "Jim Soldan :: Frankfort",
         "Aron Roddis :: Decatur",
         "Ryan Radosh :: Bronco Wrestling Club",
@@ -109,7 +109,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Todd Ryan :: Bensenville",
         "Shelly Resendes :: Glenwood :: 4",
         "Jim Zeilenga :: Oak Forest :: 1",
-        "Lavell Stennis :: Mason",
+        "Lavell Stennis :: Mason",  # Program says "Masson"
         "Tom Williams :: Bronco Wrestling Club",
     ],
     70: [
@@ -146,6 +146,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Sean Chiarodo :: Rich Township",
         "Cory Cullian :: Villa Lombard",
         "Richie Wilson :: Granite City Coolidge",
+        # ^^^ Program says "Coolidge Granite City"
         "Craig Dourherty :: Naperville",
         "Rich Umland :: Harvard",
         "Joe Gilbert :: Tinley Park :: 1",
@@ -157,7 +158,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Scott Richardson :: New Lenox Lions",
         "Dave Campbell :: Dolton",
         "Stan Valle :: Park Ridge",
-        "Sam Geraci :: Lancers :: 3",
+        "Sam Geraci :: Lancers :: 3",  # Program says "Lancer"
         "Steve Smerz :: Franklin Park",
         "Mike McInnes :: Mt. Greenwood",
         "Bryan Schultz :: Decatur :: 6",
@@ -276,7 +277,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Tony Benitez :: Oswego :: 4",
         "Brian Schiller :: Mt. Greenwood",
         "Ken Thompson :: Glenwood",
-        "Brad Stockstill :: Bethalto Boys Club",
+        "Brad Stockstill :: Bethalto Boys Club",  # Program says "Bethalto"
         "Tony Woods :: Illini Bluff",
         "Ben Morris :: Bensenville :: 1",
         "Mike Gryga :: Oak Lawn",
@@ -367,7 +368,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Tim Winger :: Bronco Wrestling Club",
         "Richard Harvey :: Decatur :: 3",
         "Jeff Anderson :: Tinley Park",
-        "Karl Cloherty :: St. Tars",
+        "Karl Cloherty :: St. Tarcissus",  # Program says "St. Tars"
         "Mark Montgomery :: DeKalb Huntley :: 1",
         "Rob Russo :: Round Lake",
         "Paul Brandt :: Prather Granite City",
@@ -528,7 +529,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Blair Hatten :: Geneseo :: 6",
         "Ross Karbarski :: Granite City Coolidge",
     ],
-    275: [
+    275: [  # Program says "UNLIMITED"
         "Andy Low :: Northbrook",
         "Kin Hau :: Frankfort :: 3",
         None,
