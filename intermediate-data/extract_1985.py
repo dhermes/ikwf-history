@@ -62,7 +62,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Boyd Stropes :: Rockridge Jr. High",
         "Rafeal Mejia :: Belvidere YMCA Bandits",
         "Rocky DeAngelo :: Dolton Falcons",
-        "Cory Daker :: Foreman WC :: 3",
+        "Cory Daker :: Foreman WC :: 3",  # Program says "Foreman"
         "Ernie Lopez :: Lockport Grapplers",
         "Dan Neybert :: Panther WC",
     ],
@@ -95,7 +95,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     65: [
         "Dan Gilbert :: Tinley Park Bulldogs :: 3",
         "Carey Shearer :: Clinton Rosette M.S.",
-        "Ryan Radosh :: Barrington Broncos",
+        "Ryan Radosh :: Barrington Broncos",  # Program says "Barrington Broncs"
         "Luke Pascale :: Orland Park Pioneers",
         "Peter Stanley :: Mattoon WC",
         "Kurt Kalchbrenner :: Vittum Cats :: 5",
@@ -104,7 +104,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Steve King :: Geneseo WC",
         "Randy Tedesco :: Belleville Little Devils",
         "Jerry Gille :: Belvidere YMCA Bandits",
-        "JJ Galvin :: Foreman WC",
+        "JJ Galvin :: Foreman WC",  # Program says "Forman WC"
         "Louie Montez :: Geneseo WC",
         "Brandon Donofrio :: Gower",
         "Josh Mattio :: Rich Wrestling Ltd.",
@@ -149,7 +149,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Brett Sutphin :: Granite City-Grigsby",
         "Jeff Finley :: Orland Park Pioneers",
         "Cass Lundgren :: DeKalb-Huntley",
-        "Christopher Perlitz :: Barrington Broncos",
+        "Christopher Perlitz :: Barrington Broncos",  # Program says "Barrington Broncs"
         "Chis Seher :: Wheaton Falcons",
         "Andrew Gardner :: Lanphier-Southeast WC :: 5",
         "James Mattio :: Rich Wrestling Ltd.",
@@ -158,13 +158,13 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "John Virnich :: Lancers",
         "Christopher Moore :: Grandemasters",
         "Roger Wise :: Dundee Highlanders",
-        "Steve Willams :: Harvey Twisters",
+        "Steve Willams :: Harvey Twisters",  # Program says "Harvey PD Twisters"
         "Marvin Fitzwater :: Georgetown WC",
         "Chis Shefts :: Rich Wrestling Ltd.",
         "Dave Neybert :: Panther WC :: 2",
         "Ray Callahan :: Clinton Rosette M.S.",
         "Todd Ryan :: Bensenville :: 4",
-        "Shane Daker :: Foreman WC",
+        "Shane Daker :: Foreman WC",  # Program says "Forman WC"
         "Tony Chierico :: Vittum Cats :: 6",
         "Jeff Killebrew :: Murphysboro Jr. High",
         "Daryl Grennan :: Newman Middle School",
