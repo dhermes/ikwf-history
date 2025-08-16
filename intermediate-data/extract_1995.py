@@ -320,6 +320,7 @@ _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
         "JAKE HURRY :: RIVERDALE JR. HIGH WC",
     ],
     130: [
+        # Yes, this is different than `ADAMS JR. HIGH WC`
         "ADAM SESSO :: ADAMS JR. COUGARS :: 1",
         "MICHAEL WALCZEWSKI :: SJO WRESTLING",
         "ROBERT THOR :: ROCKFORD WC",
@@ -806,6 +807,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "CRAIG BOONE :: BELLEVILLE LITTLE DEVILS",
         "RAYMOND BOYD :: VITTUM CATS :: 2",
         "ANDY LAUER :: MENDOTA YOUTH WC",
+        # Yes, this is different than `ADAMS JR. HIGH WC`
         "NICK STAUBER :: ADAMS JR. COUGARS",
         "TABEEL PEARSON :: MURPHYSBORO MS BLUE DEVILS",
         "THOMAS BURY :: GLENBARD EAST JR. RAMS",
