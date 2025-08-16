@@ -23,17 +23,9 @@ _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
     145: bracket_utils.Placer(name="Bill McCue", team="Aurora Simmons"),
     160: bracket_utils.Placer(name="Rich Constable", team="Addison"),
     185: bracket_utils.Placer(name="Bill George", team="St. Thecla"),
-    275: bracket_utils.Placer(name="Jeff Sheppard", team="avanna"),
+    275: bracket_utils.Placer(name="Jeff Sheppard", team="Savanna"),
 }
 _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
-    85: [
-        bracket_utils.Placer(name="Ed Giese", team="Franklin Park"),
-        bracket_utils.Placer(name="Bill Kelly", team="Chicago Ridge"),
-        bracket_utils.Placer(name="Keith Rogers", team="Plainfield"),
-        bracket_utils.Placer(name="Ed DeBevec", team="Tinley Park"),
-        bracket_utils.Placer(name="Jim Maddock", team="Marshall"),
-        bracket_utils.Placer(name="Jerry Miller", team="Granite City"),
-    ],
     100: [
         bracket_utils.Placer(name="Mark Barron", team="Aurora Franklin"),
         bracket_utils.Placer(name="Matt Twitty", team="Mattoon"),
@@ -41,6 +33,34 @@ _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
         bracket_utils.Placer(name="Ken Mansell", team="Joliet Boy's Club"),
         bracket_utils.Placer(name="Mike Smith", team="Stillman Valley"),
         bracket_utils.Placer(name="Jack Sale", team="Mahomet"),
+    ],
+}
+_SENIOR_COMPETITORS: dict[int, list[str | None]] = {
+    85: [
+        "Jerry Miller :: Granite City :: 6",
+        "Marcus Gunaka :: Tinley Park",
+        "Walsh :: St. Thecla",
+        "Sampson :: Moline",
+        "Dempsey :: Naperville",
+        None,
+        "Cawson :: Huntley",
+        "Bill Kelly :: Chicago Ridge :: 2",
+        "Jaraczewski :: Panther",
+        "Keith Rodgers :: Plainfield :: 3",
+        "Nowak :: Wheaton Franklin",
+        None,
+        "Ed Giese :: Franklin Park :: 1",
+        "Tieman :: Bellevile West",
+        "Sloan :: Pontiac",
+        "McCausland :: Wheaton Franklin",
+        "Nelson :: Champaign",
+        None,
+        "Ed DeBevec :: Tinley Park :: 4",
+        "Jim Maddock :: Marshall :: 5",
+        None,
+        "Vickens :: Lake Villa",
+        "Govoni :: Joliet Boy's Club",
+        None,
     ],
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
@@ -54,6 +74,80 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "Aurora Franklin": 57.0,
     "West Chicago": 52.0,
     "Mattoon": 52.0,
+}
+_NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
+    ("Sampson", "Moline"): bracket_utils.Competitor(
+        full_name="Sampson",
+        first_name="",
+        last_name="Sampson",
+        team_full="Moline",
+    ),
+    ("Cawson", "Huntley"): bracket_utils.Competitor(
+        full_name="Cawson",
+        first_name="",
+        last_name="Cawson",
+        team_full="Huntley",
+    ),
+    ("McCausland", "Wheaton Franklin"): bracket_utils.Competitor(
+        full_name="McCausland",
+        first_name="",
+        last_name="McCausland",
+        team_full="Wheaton Franklin",
+    ),
+    ("Vickens", "Lake Villa"): bracket_utils.Competitor(
+        full_name="Vickens",
+        first_name="",
+        last_name="Vickens",
+        team_full="Lake Villa",
+    ),
+    ("Walsh", "St. Thecla"): bracket_utils.Competitor(
+        full_name="Walsh",
+        first_name="",
+        last_name="Walsh",
+        team_full="St. Thecla",
+    ),
+    ("Dempsey", "Naperville"): bracket_utils.Competitor(
+        full_name="Dempsey",
+        first_name="",
+        last_name="Dempsey",
+        team_full="Naperville",
+    ),
+    ("Jaraczewski", "Panther"): bracket_utils.Competitor(
+        full_name="Jaraczewski",
+        first_name="",
+        last_name="Jaraczewski",
+        team_full="Panther",
+    ),
+    ("Nowak", "Wheaton Franklin"): bracket_utils.Competitor(
+        full_name="Nowak",
+        first_name="",
+        last_name="Nowak",
+        team_full="Wheaton Franklin",
+    ),
+    ("Tieman", "Bellevile West"): bracket_utils.Competitor(
+        full_name="Tieman",
+        first_name="",
+        last_name="Tieman",
+        team_full="Bellevile West",
+    ),
+    ("Sloan", "Pontiac"): bracket_utils.Competitor(
+        full_name="Sloan",
+        first_name="",
+        last_name="Sloan",
+        team_full="Pontiac",
+    ),
+    ("Nelson", "Champaign"): bracket_utils.Competitor(
+        full_name="Nelson",
+        first_name="",
+        last_name="Nelson",
+        team_full="Champaign",
+    ),
+    ("Govoni", "Joliet Boy's Club"): bracket_utils.Competitor(
+        full_name="Govoni",
+        first_name="",
+        last_name="Govoni",
+        team_full="Joliet Boy's Club",
+    ),
 }
 
 
@@ -95,6 +189,7 @@ def _create_placers_image_row(
 def _generate_placers_image(year: int):
     all_weights = set(_SENIOR_CHAMPS.keys())
     all_weights.update(_SENIOR_PLACERS.keys())
+    all_weights.update(_SENIOR_COMPETITORS.keys())
     weights = sorted(all_weights)
 
     raw_root = HERE.parent / "raw-data" / str(year)
@@ -176,6 +271,18 @@ def main():
     for weight, placers in _SENIOR_PLACERS.items():
         weight_class = bracket_utils.create_weight_class_from_placers(
             "senior", weight, placers, _SENIOR_TEAM_REPLACE
+        )
+        weight_classes.append(weight_class)
+
+    for weight, competitors in _SENIOR_COMPETITORS.items():
+        bout_numbers = {}
+        weight_class = bracket_utils.weight_class_from_competitors(
+            "senior",
+            weight,
+            competitors,
+            _SENIOR_TEAM_REPLACE,
+            _NAME_EXCEPTIONS,
+            bout_numbers,
         )
         weight_classes.append(weight_class)
 

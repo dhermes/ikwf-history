@@ -1124,8 +1124,19 @@ class Placer(NamedTuple):
     name: str
     team: str
 
-    def to_competitor(self, team_replace: dict[str, str]) -> Competitor:
+    def to_competitor(
+        self,
+        team_replace: dict[str, str],
+        name_exceptions: dict[tuple[str, str], Competitor],
+    ) -> Competitor:
         team_full = team_replace.get(self.team, self.team)
+
+        exception_key = self.name, team_full
+        if exception_key in name_exceptions:
+            competitor = name_exceptions[exception_key]
+            competitor.full_name = self.name
+            return competitor
+
         parts = self.name.split()
         if len(parts) != 2:
             raise NotImplementedError(self.name)
@@ -1145,15 +1156,20 @@ def create_weight_class_from_placers(
     weight: int,
     placers: list[Placer],
     team_replace: dict[str, str],
+    *,
+    name_exceptions: dict[tuple[str, str], Competitor] | None = None,
 ) -> WeightClass:
+    if name_exceptions is None:
+        name_exceptions = {}
+
     if len(placers) != 6:
         raise RuntimeError("Invalid placers", division, weight)
 
     matches: list[Match] = [
         Match(
             match_slot="championship_first_place",
-            top_competitor=placers[0].to_competitor(team_replace),
-            bottom_competitor=placers[1].to_competitor(team_replace),
+            top_competitor=placers[0].to_competitor(team_replace, name_exceptions),
+            bottom_competitor=placers[1].to_competitor(team_replace, name_exceptions),
             result="",
             result_type="unknown",
             bout_number=None,
@@ -1161,8 +1177,8 @@ def create_weight_class_from_placers(
         ),
         Match(
             match_slot="consolation_third_place",
-            top_competitor=placers[2].to_competitor(team_replace),
-            bottom_competitor=placers[3].to_competitor(team_replace),
+            top_competitor=placers[2].to_competitor(team_replace, name_exceptions),
+            bottom_competitor=placers[3].to_competitor(team_replace, name_exceptions),
             result="",
             result_type="unknown",
             bout_number=None,
@@ -1170,8 +1186,8 @@ def create_weight_class_from_placers(
         ),
         Match(
             match_slot="consolation_fifth_place",
-            top_competitor=placers[4].to_competitor(team_replace),
-            bottom_competitor=placers[5].to_competitor(team_replace),
+            top_competitor=placers[4].to_competitor(team_replace, name_exceptions),
+            bottom_competitor=placers[5].to_competitor(team_replace, name_exceptions),
             result="",
             result_type="unknown",
             bout_number=None,
@@ -1183,15 +1199,23 @@ def create_weight_class_from_placers(
 
 
 def weight_class_from_champ(
-    division: Division, weight: int, champ: Placer, team_replace: dict[str, str]
+    division: Division,
+    weight: int,
+    champ: Placer,
+    team_replace: dict[str, str],
+    *,
+    name_exceptions: dict[tuple[str, str], Competitor] | None = None,
 ) -> WeightClass:
+    if name_exceptions is None:
+        name_exceptions = {}
+
     return WeightClass(
         division=division,
         weight=weight,
         matches=[
             Match(
                 match_slot="championship_first_place",
-                top_competitor=champ.to_competitor(team_replace),
+                top_competitor=champ.to_competitor(team_replace, name_exceptions),
                 bottom_competitor=None,
                 result="",
                 result_type="unknown",

@@ -25,7 +25,203 @@
       "weight": 65,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "championship_r32_01",
+          "top_competitor": {
+            "full_name": "Chris Richards",
+            "first_name": "Chris",
+            "last_name": "Richards",
+            "team_full": "Hoopeston"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_02",
+          "top_competitor": {
+            "full_name": "Silvey",
+            "first_name": "",
+            "last_name": "Silvey",
+            "team_full": "Murphysboro"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 1,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_03",
+          "top_competitor": {
+            "full_name": "Gonnella",
+            "first_name": "",
+            "last_name": "Rodriguez",
+            "team_full": "Elmhurst"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_04",
+          "top_competitor": {
+            "full_name": "Healy",
+            "first_name": "",
+            "last_name": "Healy",
+            "team_full": "Burbank"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 2,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_05",
+          "top_competitor": {
+            "full_name": "Royer",
+            "first_name": "",
+            "last_name": "Royer",
+            "team_full": "Huntley"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_06",
+          "top_competitor": {
+            "full_name": "O'Brien",
+            "first_name": "",
+            "last_name": "O'Brien",
+            "team_full": "Asborn Park"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 3,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_07",
+          "top_competitor": {
+            "full_name": "Anderson",
+            "first_name": "",
+            "last_name": "Anderson",
+            "team_full": "Batavia"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_08",
+          "top_competitor": {
+            "full_name": "Quas",
+            "first_name": "",
+            "last_name": "Quas",
+            "team_full": "Joliet Boy's Club"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 4,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_09",
+          "top_competitor": {
+            "full_name": "Don Hansen",
+            "first_name": "Don",
+            "last_name": "Hansen",
+            "team_full": "Champaign W.C."
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_10",
+          "top_competitor": {
+            "full_name": "Whelan",
+            "first_name": "",
+            "last_name": "Whelan",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 5,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_11",
+          "top_competitor": {
+            "full_name": "Carpenter",
+            "first_name": "",
+            "last_name": "Carpenter",
+            "team_full": "Holmes"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_12",
+          "top_competitor": {
+            "full_name": "McCarthy",
+            "first_name": "",
+            "last_name": "McCarthy",
+            "team_full": "Jefferson"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 6,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_13",
+          "top_competitor": {
+            "full_name": "Hernandez",
+            "first_name": "",
+            "last_name": "Hernandez",
+            "team_full": "Challand"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_14",
+          "top_competitor": {
+            "full_name": "Rodriguez",
+            "first_name": "",
+            "last_name": "Gonnella",
+            "team_full": "Hazel Crest"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 7,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_15",
           "top_competitor": {
             "full_name": "Todd Sterr",
             "first_name": "Todd",
@@ -33,10 +229,81 @@
             "team_full": "Joliet Boy's Club"
           },
           "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r32_16",
+          "top_competitor": {
+            "full_name": "Callahan",
+            "first_name": "",
+            "last_name": "Callahan",
+            "team_full": "Highlanders"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 8,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Whelan",
+            "first_name": "",
+            "last_name": "Whelan",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "Anderson",
+            "first_name": "",
+            "last_name": "Anderson",
+            "team_full": "Batavia"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Gonnella",
+            "first_name": "",
+            "last_name": "Rodriguez",
+            "team_full": "Elmhurst"
+          },
+          "bottom_competitor": {
+            "full_name": "Rodriguez",
+            "first_name": "",
+            "last_name": "Gonnella",
+            "team_full": "Hazel Crest"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Healy",
+            "first_name": "",
+            "last_name": "Healy",
+            "team_full": "Burbank"
+          },
+          "bottom_competitor": {
+            "full_name": "Todd Sterr",
+            "first_name": "Todd",
+            "last_name": "Sterr",
+            "team_full": "Joliet Boy's Club"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
         }
       ]
     },
@@ -285,6 +552,44 @@
       "weight": 145,
       "matches": [
         {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Franks",
+            "first_name": "",
+            "last_name": "Franks",
+            "team_full": "London"
+          },
+          "bottom_competitor": {
+            "full_name": "Ramirez",
+            "first_name": "",
+            "last_name": "Ramirez",
+            "team_full": "Spartans"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "Bryant",
+            "first_name": "",
+            "last_name": "Bryant",
+            "team_full": "Marshall"
+          },
+          "bottom_competitor": {
+            "full_name": "Fuller",
+            "first_name": "",
+            "last_name": "Fuller",
+            "team_full": "Addison Indian Trail"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
           "match_slot": "championship_first_place",
           "top_competitor": {
             "full_name": "George Dergo",
@@ -292,7 +597,12 @@
             "last_name": "Dergo",
             "team_full": "Morris"
           },
-          "bottom_competitor": null,
+          "bottom_competitor": {
+            "full_name": "Morris",
+            "first_name": "",
+            "last_name": "Morris",
+            "team_full": "Geneseo"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
@@ -344,11 +654,11 @@
   "team_scores": {
     "senior": [
       {
-        "team": "BURBANK PANTHERS",
+        "team": "Burbank",
         "score": 46.0
       },
       {
-        "team": "OAK FOREST",
+        "team": "Oak Forest",
         "score": 41.0
       }
     ]
