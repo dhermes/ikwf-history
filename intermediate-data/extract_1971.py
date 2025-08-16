@@ -25,8 +25,8 @@ _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
     275: bracket_utils.Placer(name="John Gurka", team="New Lenox Oakview"),
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
-    "NEW LENOX": 53.0,
-    "GEMINI JR. HIGH": 30.0,
+    "New Lenox Oakview": 53.0,  # NEW LENOX
+    "Des Plaines Gemini": 30.0,  # GEMINI JR. HIGH
 }
 
 

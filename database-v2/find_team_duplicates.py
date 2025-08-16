@@ -7,13 +7,13 @@ import sqlite3
 import bracket_utils
 import pydantic
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _ALL_CAPS_PARTS = ("AJ", "AO", "WC")
 
 
 @functools.cache
 def _get_sql(filename: str) -> str:
-    with open(HERE / filename) as file_obj:
+    with open(_HERE / filename) as file_obj:
         return file_obj.read()
 
 
@@ -63,7 +63,7 @@ def _title_case(value: str) -> str:
 
 
 def main():
-    with sqlite3.connect(HERE / "ikwf.sqlite") as connection:
+    with sqlite3.connect(_HERE / "ikwf.sqlite") as connection:
         connection.row_factory = sqlite3.Row
         all_teams = _get_all_teams(connection)
 

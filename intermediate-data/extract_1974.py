@@ -91,7 +91,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "DANE NASENBENNY :: Joliet Boys Club :: 1",
         None,
         "A SCHINVILLE :: Sterling",
-        "SAMPSON :: Mahomet—Seymour :: 6",
+        "SAMPSON :: Mahomet-Seymour :: 6",
         None,
     ],
     75: [
@@ -104,7 +104,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "DOMBROWSKI :: Sterling :: 4",
         "GLUCK :: Keller Jr. High",
         None,
-        "MURRAY :: Mahomet—Seymour",
+        "MURRAY :: Mahomet-Seymour",
         "SUMIDA :: Downers Grove",
         None,
         "SCHNAUTZ :: Murphysboro",
@@ -166,7 +166,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "DAIDONE :: Oak Forest",
         None,
         "McTAGUE :: Morris",
-        "BOB PORTER :: Northfield Pk. Dist. :: 1",
+        "BOB PORTER :: Northfield Park District :: 1",
         None,
         "HORN :: Highlanders",
         "DAVIS :: Huntley :: 3",
@@ -254,7 +254,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "TERRY :: Murphysboro",
         "KELLY :: Lincoln (Naperville)",
         None,
-        "RICH YALE :: Northfield Pk. Dist. :: 1",
+        "RICH YALE :: Northfield Park District :: 1",
         "PERALES :: Frost :: 5",
         None,
         "NOAK :: Tinley Park :: 3",
@@ -273,7 +273,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "DILLMAN :: Troy :: 2",
         None,
         "HERNANDEZ :: Sterling",
-        "SEKANDER :: Mahomet—Seymour",
+        "SEKANDER :: Mahomet-Seymour",
         None,
     ],
     118: [
@@ -648,11 +648,11 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         last_name="HURWITZ",
         team_full="London Jr. High",
     ),
-    ("SAMPSON", "Mahomet—Seymour"): bracket_utils.Competitor(
+    ("SAMPSON", "Mahomet-Seymour"): bracket_utils.Competitor(
         full_name="SAMPSON",
         first_name="",
         last_name="SAMPSON",
-        team_full="Mahomet—Seymour",
+        team_full="Mahomet-Seymour",
     ),
     ("COLYOTTE", "Granite City"): bracket_utils.Competitor(
         full_name="COLYOTTE",
@@ -690,11 +690,11 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         last_name="GLUCK",
         team_full="Keller Jr. High",
     ),
-    ("MURRAY", "Mahomet—Seymour"): bracket_utils.Competitor(
+    ("MURRAY", "Mahomet-Seymour"): bracket_utils.Competitor(
         full_name="MURRAY",
         first_name="",
         last_name="MURRAY",
-        team_full="Mahomet—Seymour",
+        team_full="Mahomet-Seymour",
     ),
     ("SUMIDA", "Downers Grove"): bracket_utils.Competitor(
         full_name="SUMIDA",
@@ -1206,11 +1206,11 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         last_name="HERNANDEZ",
         team_full="Sterling",
     ),
-    ("SEKANDER", "Mahomet—Seymour"): bracket_utils.Competitor(
+    ("SEKANDER", "Mahomet-Seymour"): bracket_utils.Competitor(
         full_name="SEKANDER",
         first_name="",
         last_name="SEKANDER",
-        team_full="Mahomet—Seymour",
+        team_full="Mahomet-Seymour",
     ),
     ("SCHOONOVER", "Holmes"): bracket_utils.Competitor(
         full_name="SCHOONOVER",

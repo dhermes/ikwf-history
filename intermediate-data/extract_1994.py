@@ -586,7 +586,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
     89: [
         "JOEL CATOUR :: MOLINE TIGERS",
         "SEAN PHILLIPS :: UNITY WC",
-        "ART SONS :: HOMEWOOD FLOSSMOOR CATS WC",
+        "ART SONS :: HOMEWOOD-FLOSSMOOR CATS WC",
         "NICK KERR :: ST. BARNABAS / CHRIST THE KING :: 6",
         "AARON CRONE :: HARVARD WC",
         "RYAN WILLIAMS :: LITCHFIELD WC",
@@ -745,7 +745,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "ISAAC DIESSELHORST :: LITCHFIELD WC",
         "BILLY IZZI :: OAK FOREST WARRIORS :: 1",
         "BRYAN BELLINI :: NEWMAN BLUE DEVILS",
-        "TED VOIGHT :: RICHMOND WC INC",
+        "TED VOIGHT :: RICHMOND WC INC.",
         "DANIEL JORDAN JR :: DOLTON PD FALCONS",
         "KURT RUJAWITZ :: LITTLE DEVILS",
         "JOSH PATRICK :: MT. ZION WC",
@@ -841,7 +841,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "DAVID HOHL :: MOLINE TIGERS",
         "JOSHUA INGERSOLL :: CHAMPAIGN CHARGER KIDS",
         "WILL MCDERMOTT :: LITTLE CELTICS WC",
-        "MIKE GREGORY :: PANTHER WC",
+        "MIKE GREGORY :: PANTHER WC",  # Yes, this is different than `PANTHER WRESTLING`
     ],
     166: [
         "CORY DAVENPORT :: ADDAMS JH WC",

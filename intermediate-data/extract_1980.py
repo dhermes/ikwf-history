@@ -29,8 +29,8 @@ _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
     275: bracket_utils.Placer(name="Jim McCoy", team="Barrington"),
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
-    "CHICAGO RIDGE": 192.0,
-    "PLAINFIELD": 139.0,
+    "Chicago Ridge": 192.0,
+    "Plainfield": 139.0,
 }
 
 

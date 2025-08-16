@@ -97,7 +97,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Joe Steiner :: Bloomington Jr. High",
         "Michael Griffin :: Rich Wrestling LTD :: 3",
         "Van Whitcanack :: Moline Wildcats",
-        "Nick Parisi :: Hickory Hills Park Dist.",
+        "Nick Parisi :: Hickory Hills Park District",
         "Jack Vu :: Newman Middle School",
         "Jamit Swift :: Arlington Cardinals WC",
         "Jim Soldan :: Frankfort Falcons :: 2",
@@ -595,7 +595,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "Geneva Vikings": 2.5,
     "Chillicothe WC": 2.0,
     "East Moline WC": 2.0,
-    "Hickory Hills Park Dist.": 2.0,
+    "Hickory Hills Park District": 2.0,
     "Naperville Warriors": 2.0,
     "Wood River Marooners": 2.0,
 }

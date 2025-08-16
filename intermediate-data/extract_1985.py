@@ -24,19 +24,19 @@ _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
     ],
     100: [
         bracket_utils.Placer(name="Bill Guide", team="Vittum Cats"),
-        bracket_utils.Placer(name="George Hoffman", team="Joliet YMCA Wrest."),
+        bracket_utils.Placer(name="George Hoffman", team="Joliet YMCA Wrestling"),
         bracket_utils.Placer(name="Randy Saller", team="Dolton Falcons"),
         bracket_utils.Placer(name="Matt Cruszka", team="Indian Prairie"),
-        bracket_utils.Placer(name="Andrew Larson", team="East Moline W.C."),
+        bracket_utils.Placer(name="Andrew Larson", team="East Moline WC"),
         bracket_utils.Placer(name="Dirk Dorn", team="Naperville Warhawks"),
     ],
     105: [
-        bracket_utils.Placer(name="Ryan Shafer", team="Warrior W.C."),  # Sterling?
+        bracket_utils.Placer(name="Ryan Shafer", team="Warrior WC"),  # Sterling?
         bracket_utils.Placer(name="Steven Smerz", team="Franklin Park Raiders"),
-        bracket_utils.Placer(name="Patrick Henley", team="Harvey P.D. Twisters"),
+        bracket_utils.Placer(name="Patrick Henley", team="Harvey Twisters"),
         bracket_utils.Placer(name="Bob Bartkowaik", team="Oak Forest Warriors"),
-        bracket_utils.Placer(name="Matt Rademaker", team="Illini Bluffs W.C."),
-        bracket_utils.Placer(name="Sock Woodruff", team="Deerpath W.C."),
+        bracket_utils.Placer(name="Matt Rademaker", team="Illini Bluffs WC"),
+        bracket_utils.Placer(name="Sock Woodruff", team="Deerpath WC"),
     ],
 }
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {

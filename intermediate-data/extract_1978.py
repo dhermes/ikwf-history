@@ -124,7 +124,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Mentzer :: Plainfield",
         "Clardy :: Trimpe",
         "Denison :: Hoopeston",
-        "Henry Stagnito :: Lake Zurich Wr. Club :: 6",
+        "Henry Stagnito :: Lake Zurich Wrestling Club :: 6",
         "Flynn :: Belvidere YMCA",
         None,
         "Tim O'Brien :: Chicago Ridge :: 3",

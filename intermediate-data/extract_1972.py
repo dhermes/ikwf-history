@@ -121,7 +121,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "FACTOR :: Gemini Jr.",
         "B JANICIK :: Belleville",
         None,
-        "KENNY :: Darkin Park",
+        "KENNY :: Durkin Park",
         "BLACK :: West Chicago",
         None,
         "CABRERA :: Joliet",
@@ -748,11 +748,11 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         last_name="FACTOR",
         team_full="Gemini Jr.",
     ),
-    ("KENNY", "Darkin Park"): bracket_utils.Competitor(
+    ("KENNY", "Durkin Park"): bracket_utils.Competitor(
         full_name="KENNY",
         first_name="",
         last_name="KENNY",
-        team_full="Darkin Park",
+        team_full="Durkin Park",
     ),
     ("BLACK", "West Chicago"): bracket_utils.Competitor(
         full_name="BLACK",

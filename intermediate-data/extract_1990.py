@@ -602,7 +602,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "TAYLORVILLE WC": 4.0,
     "URBANA KIDS WC": 4.0,
     "GRANITE CITY WC GRIGSBY": 3.5,
-    "JR. BISON WC (2)": 3.0,
+    # "JR. BISON WC": 3.0,  # Unclear why this shows up twice in scores?
     "PALATINE P.D. SUNDLING": 3.0,
     "PEKIN BOY'S CLUB": 3.0,
     "ELGIN GRAPPLERS": 2.0,
