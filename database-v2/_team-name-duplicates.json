@@ -1061,11 +1061,6 @@
       {
         "tournament_id": 19,
         "division": "senior",
-        "name": "Arlington Cardinals WC"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
         "name": "Arlington Cardinals"
       },
       {
@@ -1565,11 +1560,6 @@
         "tournament_id": 18,
         "division": "senior",
         "name": "Tomcat WC"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Tomcats WC"
       },
       {
         "tournament_id": 19,
@@ -2636,11 +2626,6 @@
         "name": "YMCA Bandits"
       },
       {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "YMCA Bandits Wrestling"
-      },
-      {
         "tournament_id": 20,
         "division": "senior",
         "name": "BELVIDERE YMCA BANDITS"
@@ -3392,11 +3377,6 @@
         "tournament_id": 19,
         "division": "senior",
         "name": "Bismarck Henning"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Bismarck Henning WC"
       },
       {
         "tournament_id": 20,
@@ -5360,11 +5340,6 @@
         "name": "Carbondale"
       },
       {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Carbondale WC"
-      },
-      {
         "tournament_id": 20,
         "division": "senior",
         "name": "CARBONDALE WC"
@@ -6710,11 +6685,6 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Chicago Ridge"
-      },
-      {
-        "tournament_id": 10,
-        "division": "senior",
-        "name": "CHICAGO RIDGE"
       },
       {
         "tournament_id": 10,
@@ -9130,11 +9100,6 @@
         "name": "Panther W.C."
       },
       {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Panther WC"
-      },
-      {
         "tournament_id": 20,
         "division": "senior",
         "name": "PANTHER WC"
@@ -10067,12 +10032,12 @@
       {
         "tournament_id": 29,
         "division": "novice",
-        "name": "STERLING NEWMAN JR."
+        "name": "STERLING NEWMAN JR. COMETS"
       },
       {
         "tournament_id": 29,
         "division": "senior",
-        "name": "STERLING NEWMAN JR."
+        "name": "STERLING NEWMAN JR. COMETS"
       },
       {
         "tournament_id": 30,
@@ -17394,27 +17359,6 @@
     ]
   },
   {
-    "name_normalized": "Decatur",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Decatur"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Decatur"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "DECATUR"
-      }
-    ]
-  },
-  {
     "name_normalized": "Decatur Dawgs WC",
     "url_path_slug": null,
     "duplicates": [
@@ -17551,6 +17495,11 @@
     "url_path_slug": null,
     "duplicates": [
       {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Decatur"
+      },
+      {
         "tournament_id": 16,
         "division": "senior",
         "name": "Decatur WC"
@@ -17564,6 +17513,11 @@
         "tournament_id": 20,
         "division": "senior",
         "name": "DECATUR WC"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "DECATUR"
       },
       {
         "tournament_id": 22,
@@ -18318,11 +18272,6 @@
         "tournament_id": 16,
         "division": "senior",
         "name": "Dolton Wrestling Falcons"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Dolton Park"
       },
       {
         "tournament_id": 19,
@@ -23362,7 +23311,7 @@
       {
         "tournament_id": 19,
         "division": "senior",
-        "name": "Forman WC"
+        "name": "Forman W.C."
       },
       {
         "tournament_id": 20,
@@ -23728,7 +23677,7 @@
       {
         "tournament_id": 9,
         "division": "senior",
-        "name": "Franklin Pk Raiders"
+        "name": "Franklin Park Raiders"
       },
       {
         "tournament_id": 14,
@@ -24156,11 +24105,6 @@
         "tournament_id": 19,
         "division": "senior",
         "name": "Geneseo"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Geneseo WC"
       },
       {
         "tournament_id": 20,
@@ -27474,7 +27418,7 @@
       {
         "tournament_id": 17,
         "division": "senior",
-        "name": "Hickory Hills Park Dist."
+        "name": "Hickory Hills Park District"
       },
       {
         "tournament_id": 19,
@@ -30765,22 +30709,12 @@
       {
         "tournament_id": 3,
         "division": "senior",
-        "name": "JOLIET BOYS CLUB"
-      },
-      {
-        "tournament_id": 3,
-        "division": "senior",
         "name": "Joliet Boy's Club"
       },
       {
         "tournament_id": 4,
         "division": "senior",
         "name": "Joliet Boys Club"
-      },
-      {
-        "tournament_id": 5,
-        "division": "senior",
-        "name": "JOLIET BOYS CLUB"
       },
       {
         "tournament_id": 5,
@@ -32659,22 +32593,6 @@
     ]
   },
   {
-    "name_normalized": "Knights",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Knights"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "KNIGHTS"
-      }
-    ]
-  },
-  {
     "name_normalized": "Knights WC",
     "url_path_slug": null,
     "duplicates": [
@@ -32682,6 +32600,11 @@
         "tournament_id": 19,
         "division": "senior",
         "name": "Knights WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "KNIGHTS"
       },
       {
         "tournament_id": 35,
@@ -37171,11 +37094,6 @@
         "name": "Lockport Grapplers"
       },
       {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Lockport Grapplers WC"
-      },
-      {
         "tournament_id": 20,
         "division": "senior",
         "name": "LOCKPORT GRAPPLERS WC"
@@ -39241,11 +39159,6 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Mattoon WC"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Mattoon W.C."
       },
       {
         "tournament_id": 19,
@@ -42222,11 +42135,6 @@
         "name": "Mt. Zion"
       },
       {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Mt. Zion WC"
-      },
-      {
         "tournament_id": 20,
         "division": "senior",
         "name": "MT. ZION WC"
@@ -42913,7 +42821,7 @@
       {
         "tournament_id": 19,
         "division": "senior",
-        "name": "Mustangs WC"
+        "name": "Mustangs W.C."
       },
       {
         "tournament_id": 20,
@@ -43897,22 +43805,6 @@
     ]
   },
   {
-    "name_normalized": "New Lenox",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 1,
-        "division": "senior",
-        "name": "NEW LENOX"
-      },
-      {
-        "tournament_id": 2,
-        "division": "senior",
-        "name": "New Lenox"
-      }
-    ]
-  },
-  {
     "name_normalized": "New Lenox Lions",
     "url_path_slug": null,
     "duplicates": [
@@ -43941,6 +43833,11 @@
         "tournament_id": 1,
         "division": "senior",
         "name": "New Lenox Oakview"
+      },
+      {
+        "tournament_id": 2,
+        "division": "senior",
+        "name": "New Lenox"
       },
       {
         "tournament_id": 3,
@@ -44245,7 +44142,7 @@
       {
         "tournament_id": 4,
         "division": "senior",
-        "name": "Northfield Pk. Dist."
+        "name": "Northfield Park District"
       }
     ]
   },
@@ -44951,11 +44848,6 @@
         "tournament_id": 3,
         "division": "senior",
         "name": "Oak Forest"
-      },
-      {
-        "tournament_id": 5,
-        "division": "senior",
-        "name": "OAK FOREST"
       },
       {
         "tournament_id": 5,
@@ -48672,7 +48564,7 @@
       {
         "tournament_id": 10,
         "division": "senior",
-        "name": "PLAINFIELD"
+        "name": "Plainfield"
       },
       {
         "tournament_id": 12,
@@ -51291,11 +51183,6 @@
         "name": "Rich Wrestling LTD"
       },
       {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Rich Wrestling Ltd"
-      },
-      {
         "tournament_id": 20,
         "division": "senior",
         "name": "RICH WRESTLING LTD."
@@ -53767,7 +53654,7 @@
       {
         "tournament_id": 19,
         "division": "senior",
-        "name": "Round Lake Area PD"
+        "name": "Round Lake Area P.D."
       }
     ]
   },
@@ -59586,7 +59473,7 @@
       {
         "tournament_id": 19,
         "division": "senior",
-        "name": "Taylorville WC"
+        "name": "Taylorville"
       },
       {
         "tournament_id": 20,
@@ -61020,7 +60907,7 @@
       {
         "tournament_id": 19,
         "division": "senior",
-        "name": "Thornwood Kids WC"
+        "name": "Thornwood Kids"
       },
       {
         "tournament_id": 20,
@@ -65274,11 +65161,6 @@
         "name": "Vittum Cats"
       },
       {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Vittum Cats WC"
-      },
-      {
         "tournament_id": 43,
         "division": "novice",
         "name": "Vittum Cats WC"
@@ -66359,22 +66241,12 @@
       {
         "tournament_id": 3,
         "division": "senior",
-        "name": "WEST CHICAGO"
-      },
-      {
-        "tournament_id": 3,
-        "division": "senior",
         "name": "West Chicago"
       },
       {
         "tournament_id": 4,
         "division": "senior",
         "name": "West Chicago"
-      },
-      {
-        "tournament_id": 5,
-        "division": "senior",
-        "name": "WEST CHICAGO"
       },
       {
         "tournament_id": 5,
@@ -67375,7 +67247,7 @@
       {
         "tournament_id": 19,
         "division": "senior",
-        "name": "Wheaton Warrenville"
+        "name": "Wheaton-Warrenville"
       },
       {
         "tournament_id": 21,
