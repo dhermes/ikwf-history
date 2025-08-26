@@ -1181,12 +1181,12 @@ function openMatchOverlay(matchInfoDiv) {
 function propagateBoutNumberEdit(matchID, boutNumber) {
   if (matchID === 2) {
     BRACKET_INFO.matches[4].boutNumber = boutNumber + 1;
-    BRACKET_INFO.matches[6].boutNumber = boutNumber + 4;
-    BRACKET_INFO.matches[8].boutNumber = boutNumber + 5;
-    BRACKET_INFO.matches[10].boutNumber = boutNumber + 8;
-    BRACKET_INFO.matches[12].boutNumber = boutNumber + 9;
-    BRACKET_INFO.matches[14].boutNumber = boutNumber + 12;
-    BRACKET_INFO.matches[16].boutNumber = boutNumber + 13;
+    BRACKET_INFO.matches[6].boutNumber = boutNumber + 2;
+    BRACKET_INFO.matches[8].boutNumber = boutNumber + 3;
+    BRACKET_INFO.matches[10].boutNumber = boutNumber + 4;
+    BRACKET_INFO.matches[12].boutNumber = boutNumber + 5;
+    BRACKET_INFO.matches[14].boutNumber = boutNumber + 6;
+    BRACKET_INFO.matches[16].boutNumber = boutNumber + 7;
     return;
   }
 

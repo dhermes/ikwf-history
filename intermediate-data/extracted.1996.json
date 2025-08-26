@@ -4937,10 +4937,10 @@
             "last_name": "DRAKE",
             "team_full": "TIGERTOWN TANGLERS"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 0:21",
+          "result_type": "fall",
           "bout_number": 121,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -4970,10 +4970,10 @@
             "last_name": "RODRIGUEZ",
             "team_full": "FRANKLIN PARK RAIDERS"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 0:46",
+          "result_type": "fall",
           "bout_number": 122,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_05",
@@ -5003,10 +5003,10 @@
             "last_name": "HUTTON",
             "team_full": "CHARLESTON WRESTLING CLUB"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 0:59",
+          "result_type": "fall",
           "bout_number": 123,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -5036,10 +5036,10 @@
             "last_name": "QUAIN",
             "team_full": "CHENOA WRESTLING CLUB"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 7-5",
+          "result_type": "decision",
           "bout_number": 124,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_09",
@@ -5069,10 +5069,10 @@
             "last_name": "LESHER",
             "team_full": "VILLA-LOMBARD COUGARS"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 3:06",
+          "result_type": "fall",
           "bout_number": 125,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_11",
@@ -5102,10 +5102,10 @@
             "last_name": "LEVAND",
             "team_full": "ROSEMONT COBRA WRESTLING"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 1:40",
+          "result_type": "fall",
           "bout_number": 126,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_13",
@@ -5135,10 +5135,10 @@
             "last_name": "HANDY",
             "team_full": "JACKSONVILLE WRESTLING"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 2:08",
+          "result_type": "fall",
           "bout_number": 127,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_15",
@@ -5168,13 +5168,108 @@
             "last_name": "CUSACK",
             "team_full": "VILLA PARK YOUNG WARRIORS"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec",
+          "result_type": "decision",
           "bout_number": 128,
-          "top_win": null
+          "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_r16_01",
+          "top_competitor": {
+            "full_name": "PHILLIP HARTSFIELD",
+            "first_name": "PHILLIP",
+            "last_name": "HARTSFIELD",
+            "team_full": "WARHAWK WRESTLING CLUB"
+          },
+          "bottom_competitor": {
+            "full_name": "SEAN CARPENTER",
+            "first_name": "SEAN",
+            "last_name": "CARPENTER",
+            "team_full": "FLANAGAN PANTHERS"
+          },
+          "result": "Fall 0:17",
+          "result_type": "fall",
+          "bout_number": 249,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_02",
+          "top_competitor": {
+            "full_name": "SHAWN WULGAERT",
+            "first_name": "SHAWN",
+            "last_name": "WULGAERT",
+            "team_full": "MOLINE SPARTANS"
+          },
+          "bottom_competitor": {
+            "full_name": "JUSTIN KLITZING",
+            "first_name": "JUSTIN",
+            "last_name": "KLITZING",
+            "team_full": "VANDALIA JR WRESTLING"
+          },
+          "result": "Fall 2:08",
+          "result_type": "fall",
+          "bout_number": 250,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_03",
+          "top_competitor": {
+            "full_name": "SEAN BARNES",
+            "first_name": "SEAN",
+            "last_name": "BARNES",
+            "team_full": "EDISON WRESTLING CLUB"
+          },
+          "bottom_competitor": {
+            "full_name": "T.J. FRANCIS",
+            "first_name": "T.J.",
+            "last_name": "FRANCIS",
+            "team_full": "RIVERDALE JR. HIGH WC"
+          },
+          "result": "Fall 1:39",
+          "result_type": "fall",
+          "bout_number": 251,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_04",
+          "top_competitor": {
+            "full_name": "MATT FLETCHER",
+            "first_name": "MATT",
+            "last_name": "FLETCHER",
+            "team_full": "L-P CRUNCHING CAVS"
+          },
+          "bottom_competitor": {
+            "full_name": "ANDREW QUAIN",
+            "first_name": "ANDREW",
+            "last_name": "QUAIN",
+            "team_full": "CHENOA WRESTLING CLUB"
+          },
+          "result": "Fall 0:11",
+          "result_type": "fall",
+          "bout_number": 252,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_05",
+          "top_competitor": {
+            "full_name": "MOSES KHALIL",
+            "first_name": "MOSES",
+            "last_name": "KHALIL",
+            "team_full": "LEMONT BEARS"
+          },
+          "bottom_competitor": {
+            "full_name": "MARK MARCKESE",
+            "first_name": "MARK",
+            "last_name": "MARCKESE",
+            "team_full": "MOLINE SPARTANS"
+          },
+          "result": "Fall 2:02",
+          "result_type": "fall",
+          "bout_number": 253,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_06",
           "top_competitor": {
             "full_name": "RICHARD MOORE",
             "first_name": "RICHARD",
@@ -5182,23 +5277,212 @@
             "team_full": "EDWARDSVILLE WRESTLING"
           },
           "bottom_competitor": {
+            "full_name": "JAMES LEVAND",
+            "first_name": "JAMES",
+            "last_name": "LEVAND",
+            "team_full": "ROSEMONT COBRA WRESTLING"
+          },
+          "result": "Fall 0:14",
+          "result_type": "fall",
+          "bout_number": 254,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_07",
+          "top_competitor": {
+            "full_name": "PATRICK CONWAY",
+            "first_name": "PATRICK",
+            "last_name": "CONWAY",
+            "team_full": "PANTHER WRESTLING"
+          },
+          "bottom_competitor": {
+            "full_name": "PAUL MURPHY",
+            "first_name": "PAUL",
+            "last_name": "MURPHY",
+            "team_full": "BRONCO WRESTLING CLUB"
+          },
+          "result": "Fall 3:50",
+          "result_type": "fall",
+          "bout_number": 255,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_08",
+          "top_competitor": {
+            "full_name": "BEN BRADFIELD",
+            "first_name": "BEN",
+            "last_name": "BRADFIELD",
+            "team_full": "BISMARCK-HENNING"
+          },
+          "bottom_competitor": {
+            "full_name": "MICHAEL SMITH",
+            "first_name": "MICHAEL",
+            "last_name": "SMITH",
+            "team_full": "WARHAWK WRESTLING CLUB"
+          },
+          "result": "Fall 0:42",
+          "result_type": "fall",
+          "bout_number": 256,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
             "full_name": "PHILLIP HARTSFIELD",
             "first_name": "PHILLIP",
             "last_name": "HARTSFIELD",
             "team_full": "WARHAWK WRESTLING CLUB"
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 560,
+          "bottom_competitor": {
+            "full_name": "JUSTIN KLITZING",
+            "first_name": "JUSTIN",
+            "last_name": "KLITZING",
+            "team_full": "VANDALIA JR WRESTLING"
+          },
+          "result": "Fall 3:55",
+          "result_type": "fall",
+          "bout_number": 317,
           "top_win": true
         },
         {
-          "match_slot": "consolation_third_place",
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "SEAN BARNES",
+            "first_name": "SEAN",
+            "last_name": "BARNES",
+            "team_full": "EDISON WRESTLING CLUB"
+          },
+          "bottom_competitor": {
+            "full_name": "MATT FLETCHER",
+            "first_name": "MATT",
+            "last_name": "FLETCHER",
+            "team_full": "L-P CRUNCHING CAVS"
+          },
+          "result": "Fall 2:22",
+          "result_type": "fall",
+          "bout_number": 318,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_03",
           "top_competitor": {
             "full_name": "MOSES KHALIL",
             "first_name": "MOSES",
             "last_name": "KHALIL",
             "team_full": "LEMONT BEARS"
+          },
+          "bottom_competitor": {
+            "full_name": "RICHARD MOORE",
+            "first_name": "RICHARD",
+            "last_name": "MOORE",
+            "team_full": "EDWARDSVILLE WRESTLING"
+          },
+          "result": "Fall 1:45",
+          "result_type": "fall",
+          "bout_number": 319,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "PATRICK CONWAY",
+            "first_name": "PATRICK",
+            "last_name": "CONWAY",
+            "team_full": "PANTHER WRESTLING"
+          },
+          "bottom_competitor": {
+            "full_name": "BEN BRADFIELD",
+            "first_name": "BEN",
+            "last_name": "BRADFIELD",
+            "team_full": "BISMARCK-HENNING"
+          },
+          "result": "Fall 2:57",
+          "result_type": "fall",
+          "bout_number": 320,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round3_01",
+          "top_competitor": null,
+          "bottom_competitor": {
+            "full_name": "SEAN CARPENTER",
+            "first_name": "SEAN",
+            "last_name": "CARPENTER",
+            "team_full": "FLANAGAN PANTHERS"
+          },
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 381,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_02",
+          "top_competitor": {
+            "full_name": "ANDREW QUAIN",
+            "first_name": "ANDREW",
+            "last_name": "QUAIN",
+            "team_full": "CHENOA WRESTLING CLUB"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 382,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round3_03",
+          "top_competitor": null,
+          "bottom_competitor": {
+            "full_name": "MARK MARCKESE",
+            "first_name": "MARK",
+            "last_name": "MARCKESE",
+            "team_full": "MOLINE SPARTANS"
+          },
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 383,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_04",
+          "top_competitor": {
+            "full_name": "PAUL MURPHY",
+            "first_name": "PAUL",
+            "last_name": "MURPHY",
+            "team_full": "BRONCO WRESTLING CLUB"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 384,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_01",
+          "top_competitor": {
+            "full_name": "JUSTIN KLITZING",
+            "first_name": "JUSTIN",
+            "last_name": "KLITZING",
+            "team_full": "VANDALIA JR WRESTLING"
+          },
+          "bottom_competitor": {
+            "full_name": "SEAN CARPENTER",
+            "first_name": "SEAN",
+            "last_name": "CARPENTER",
+            "team_full": "FLANAGAN PANTHERS"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 445,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round4_blood_02",
+          "top_competitor": {
+            "full_name": "ANDREW QUAIN",
+            "first_name": "ANDREW",
+            "last_name": "QUAIN",
+            "team_full": "CHENOA WRESTLING CLUB"
           },
           "bottom_competitor": {
             "full_name": "SEAN BARNES",
@@ -5208,8 +5492,198 @@
           },
           "result": "",
           "result_type": "unknown",
-          "bout_number": 576,
+          "bout_number": 446,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round4_blood_03",
+          "top_competitor": {
+            "full_name": "RICHARD MOORE",
+            "first_name": "RICHARD",
+            "last_name": "MOORE",
+            "team_full": "EDWARDSVILLE WRESTLING"
+          },
+          "bottom_competitor": {
+            "full_name": "MARK MARCKESE",
+            "first_name": "MARK",
+            "last_name": "MARCKESE",
+            "team_full": "MOLINE SPARTANS"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 447,
           "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_04",
+          "top_competitor": {
+            "full_name": "PAUL MURPHY",
+            "first_name": "PAUL",
+            "last_name": "MURPHY",
+            "team_full": "BRONCO WRESTLING CLUB"
+          },
+          "bottom_competitor": {
+            "full_name": "BEN BRADFIELD",
+            "first_name": "BEN",
+            "last_name": "BRADFIELD",
+            "team_full": "BISMARCK-HENNING"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 448,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "PHILLIP HARTSFIELD",
+            "first_name": "PHILLIP",
+            "last_name": "HARTSFIELD",
+            "team_full": "WARHAWK WRESTLING CLUB"
+          },
+          "bottom_competitor": {
+            "full_name": "MATT FLETCHER",
+            "first_name": "MATT",
+            "last_name": "FLETCHER",
+            "team_full": "L-P CRUNCHING CAVS"
+          },
+          "result": "Fall 1:59",
+          "result_type": "fall",
+          "bout_number": 509,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "MOSES KHALIL",
+            "first_name": "MOSES",
+            "last_name": "KHALIL",
+            "team_full": "LEMONT BEARS"
+          },
+          "bottom_competitor": {
+            "full_name": "PATRICK CONWAY",
+            "first_name": "PATRICK",
+            "last_name": "CONWAY",
+            "team_full": "PANTHER WRESTLING"
+          },
+          "result": "Dec 7-6",
+          "result_type": "decision",
+          "bout_number": 510,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "SEAN CARPENTER",
+            "first_name": "SEAN",
+            "last_name": "CARPENTER",
+            "team_full": "FLANAGAN PANTHERS"
+          },
+          "bottom_competitor": {
+            "full_name": "SEAN BARNES",
+            "first_name": "SEAN",
+            "last_name": "BARNES",
+            "team_full": "EDISON WRESTLING CLUB"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 511,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "RICHARD MOORE",
+            "first_name": "RICHARD",
+            "last_name": "MOORE",
+            "team_full": "EDWARDSVILLE WRESTLING"
+          },
+          "bottom_competitor": {
+            "full_name": "PAUL MURPHY",
+            "first_name": "PAUL",
+            "last_name": "MURPHY",
+            "team_full": "BRONCO WRESTLING CLUB"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 512,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "PHILLIP HARTSFIELD",
+            "first_name": "PHILLIP",
+            "last_name": "HARTSFIELD",
+            "team_full": "WARHAWK WRESTLING CLUB"
+          },
+          "bottom_competitor": {
+            "full_name": "SEAN BARNES",
+            "first_name": "SEAN",
+            "last_name": "BARNES",
+            "team_full": "EDISON WRESTLING CLUB"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 543,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "RICHARD MOORE",
+            "first_name": "RICHARD",
+            "last_name": "MOORE",
+            "team_full": "EDWARDSVILLE WRESTLING"
+          },
+          "bottom_competitor": {
+            "full_name": "MOSES KHALIL",
+            "first_name": "MOSES",
+            "last_name": "KHALIL",
+            "team_full": "LEMONT BEARS"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 544,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "PHILLIP HARTSFIELD",
+            "first_name": "PHILLIP",
+            "last_name": "HARTSFIELD",
+            "team_full": "WARHAWK WRESTLING CLUB"
+          },
+          "bottom_competitor": {
+            "full_name": "RICHARD MOORE",
+            "first_name": "RICHARD",
+            "last_name": "MOORE",
+            "team_full": "EDWARDSVILLE WRESTLING"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 560,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "SEAN BARNES",
+            "first_name": "SEAN",
+            "last_name": "BARNES",
+            "team_full": "EDISON WRESTLING CLUB"
+          },
+          "bottom_competitor": {
+            "full_name": "MOSES KHALIL",
+            "first_name": "MOSES",
+            "last_name": "KHALIL",
+            "team_full": "LEMONT BEARS"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": 576,
+          "top_win": false
         },
         {
           "match_slot": "championship_first_place",
@@ -5225,8 +5699,8 @@
             "last_name": "CONWAY",
             "team_full": "PANTHER WRESTLING"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 0:18",
+          "result_type": "fall",
           "bout_number": 592,
           "top_win": true
         }

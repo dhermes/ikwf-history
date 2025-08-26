@@ -11,6 +11,7 @@ are likely alternates:
 import pathlib
 
 import bracket_utils
+import manual_entry
 
 _HERE = pathlib.Path(__file__).resolve().parent
 _NOVICE_TEAM_REPLACE: dict[str, str] = {}
@@ -404,32 +405,6 @@ _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
         "BILLY REBER :: TAYLORVILLE WRESTLING CLUB",
         "BRYAN YOUNGSMA :: SENECA IRISH CADETS",
         "BRODY JETERS :: HERRIN JR. WRESTLING CLUB",
-    ],
-    215: [
-        "PHILLIP HARTSFIELD :: WARHAWK WRESTLING CLUB :: 6",
-        "SEAN CARPENTER :: FLANAGAN PANTHERS",
-        "CHRIS DRAKE :: TIGERTOWN TANGLERS",
-        "SHAWN WULGAERT :: MOLINE SPARTANS",
-        "JUSTIN KLITZING :: VANDALIA JR WRESTLING",
-        "JESSE RODRIGUEZ :: FRANKLIN PARK RAIDERS",
-        "SEAN BARNES :: EDISON WRESTLING CLUB :: 4",
-        "T.J. FRANCIS :: RIVERDALE JR. HIGH WC",
-        "NICK HUTTON :: CHARLESTON WRESTLING CLUB",
-        "MATT FLETCHER :: L-P CRUNCHING CAVS :: 1",
-        "JIMMY LULIAS :: LITTLE CELTIC WRESTLING CLUB",
-        "ANDREW QUAIN :: CHENOA WRESTLING CLUB",
-        "MOSES KHALIL :: LEMONT BEARS :: 3",
-        "MARK MARCKESE :: MOLINE SPARTANS",
-        "PATRICK LESHER :: VILLA-LOMBARD COUGARS",
-        "RICHARD MOORE :: EDWARDSVILLE WRESTLING :: 5",
-        "BOBBY UNZICKER :: GCMS FALCON WRESTLING",
-        "JAMES LEVAND :: ROSEMONT COBRA WRESTLING",
-        "PATRICK CONWAY :: PANTHER WRESTLING :: 2",
-        "PAUL MURPHY :: BRONCO WRESTLING CLUB",
-        "BEN HANDY :: JACKSONVILLE WRESTLING",
-        "BEN BRADFIELD :: BISMARCK-HENNING",
-        "MICHAEL SMITH :: WARHAWK WRESTLING CLUB",
-        "BOB CUSACK :: VILLA PARK YOUNG WARRIORS",
     ],
 }
 _NOVICE_TEAM_SCORES: dict[str, float] = {
@@ -1210,7 +1185,10 @@ def main():
             bracket_utils.TeamScore(team=team_name, score=score)
         )
 
-    weight_classes: list[bracket_utils.WeightClass] = []
+    weight_classes = manual_entry.load_manual_entries(
+        _HERE.parent, 1996, _NAME_EXCEPTIONS
+    )
+
     for weight, competitors in _NOVICE_COMPETITORS.items():
         bout_numbers = _get_bout_numbers("novice", weight)
         weight_class = bracket_utils.weight_class_from_competitors(
