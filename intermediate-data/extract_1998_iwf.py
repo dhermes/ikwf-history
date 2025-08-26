@@ -28,6 +28,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "Jr. Bears": 89.5,
     "Joliet Boys Club": 83.5,
 }
+# ruff: noqa: E501
 _JUNIOR_PLACERS_TEXT = """\
 55
 1st--D. Lund, Wrestling Factory, d, C. Nance, Granite City Coolidge, Dec 7-0.
@@ -85,6 +86,7 @@ _JUNIOR_PLACERS_TEXT = """\
 1st--Sean Johnson, Harvey Twisters, d, Zachary Hausner, Panther Wrestling Club, Dec 4-0.
 3rd--Mike Chlamovski, Lions Wrestling Club, uncontested.
 """
+# ruff: enable=E501
 _NOVICE_PLACERS_TEXT = """\
 62
 1st--Joey Lane, Pekin, f, Joe Rokowski, Panther Wrestling Club, Fall 2:28.
