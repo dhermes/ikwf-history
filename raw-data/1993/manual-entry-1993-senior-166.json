@@ -71,11 +71,7 @@
       "name": "JOHN LAMB",
       "team": "MOLINE TIGERS"
     },
-    {
-      "id": 14,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 15,
       "name": "THOMAS RIGGINS",
@@ -86,11 +82,7 @@
       "name": "BRIAN ANDERSON",
       "team": "LEMONT"
     },
-    {
-      "id": 17,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 18,
       "name": "RYAN LEMBERG",
@@ -274,14 +266,12 @@
         ]
       },
       "bottom": {
-        "choice": 14,
-        "choices": [
-          14
-        ]
+        "choice": null,
+        "choices": []
       },
       "winner": "top",
       "boutNumber": 234,
-      "result": ""
+      "result": "Bye"
     },
     "11": {
       "top": {
@@ -306,14 +296,12 @@
         ]
       },
       "bottom": {
-        "choice": 17,
-        "choices": [
-          17
-        ]
+        "choice": null,
+        "choices": []
       },
       "winner": "top",
       "boutNumber": 236,
-      "result": ""
+      "result": "Bye"
     },
     "13": {
       "top": {
@@ -461,8 +449,7 @@
       "bottom": {
         "choice": 13,
         "choices": [
-          13,
-          14
+          13
         ]
       },
       "winner": "top",
@@ -479,8 +466,7 @@
       "bottom": {
         "choice": 16,
         "choices": [
-          16,
-          17
+          16
         ]
       },
       "winner": "top",

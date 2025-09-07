@@ -56,11 +56,7 @@
       "name": "SHAWN GOLDEN",
       "team": "BRADLEY-BOURBONNAIS"
     },
-    {
-      "id": 11,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 12,
       "name": "JEFF ANDERSON",
@@ -86,11 +82,7 @@
       "name": "BRIAN CREIGHTON",
       "team": "CRYSTAL LAKE"
     },
-    {
-      "id": 17,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 18,
       "name": "DOMINIC CURATOLO",
@@ -111,11 +103,7 @@
       "name": "NEIL REW",
       "team": "SJO KIDS"
     },
-    {
-      "id": 22,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 23,
       "name": "ADAM FREESE",
@@ -242,14 +230,12 @@
         ]
       },
       "bottom": {
-        "choice": 11,
-        "choices": [
-          11
-        ]
+        "choice": null,
+        "choices": []
       },
       "winner": "top",
       "boutNumber": 8,
-      "result": ""
+      "result": "Bye"
     },
     "9": {
       "top": {
@@ -306,14 +292,12 @@
         ]
       },
       "bottom": {
-        "choice": 17,
-        "choices": [
-          17
-        ]
+        "choice": null,
+        "choices": []
       },
       "winner": "top",
       "boutNumber": 12,
-      "result": ""
+      "result": "Bye"
     },
     "13": {
       "top": {
@@ -364,10 +348,8 @@
     },
     "16": {
       "top": {
-        "choice": 22,
-        "choices": [
-          22
-        ]
+        "choice": null,
+        "choices": []
       },
       "bottom": {
         "choice": 23,
@@ -377,7 +359,7 @@
       },
       "winner": "bottom",
       "boutNumber": 16,
-      "result": ""
+      "result": "Bye"
     },
     "17": {
       "top": {
@@ -443,8 +425,7 @@
       "bottom": {
         "choice": 10,
         "choices": [
-          10,
-          11
+          10
         ]
       },
       "winner": "top",
@@ -479,8 +460,7 @@
       "bottom": {
         "choice": 16,
         "choices": [
-          16,
-          17
+          16
         ]
       },
       "winner": "top",
@@ -515,7 +495,6 @@
       "bottom": {
         "choice": 23,
         "choices": [
-          22,
           23
         ]
       },

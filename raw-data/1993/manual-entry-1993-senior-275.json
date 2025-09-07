@@ -11,11 +11,7 @@
       "name": "JASON CORKER",
       "team": "GIBSON CITY"
     },
-    {
-      "id": 2,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 3,
       "name": "JEREMY WINSTEAD",
@@ -146,10 +142,8 @@
         ]
       },
       "bottom": {
-        "choice": 2,
-        "choices": [
-          2
-        ]
+        "choice": null,
+        "choices": []
       },
       "winner": "top",
       "boutNumber": 274,
@@ -389,8 +383,7 @@
       "bottom": {
         "choice": 1,
         "choices": [
-          1,
-          2
+          1
         ]
       },
       "winner": "top",

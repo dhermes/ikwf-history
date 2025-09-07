@@ -665,6 +665,9 @@ def _determine_result_type(result: str) -> ResultType:
     if result == "PD" or result.startswith("PD "):
         return "walkover"
 
+    if result == "Walkover":
+        return "walkover"
+
     if result == "Dec" or result.startswith("Dec "):
         return "decision"
 
@@ -690,10 +693,16 @@ def _determine_result_type(result: str) -> ResultType:
     if result == "Fall" or result.startswith("Fall "):
         return "fall"
 
+    if result == "F":
+        return "fall"
+
     if result == "Bye":
         return "bye"
 
     if result == "Dflt" or result.startswith("Dflt ") or result.startswith("Df "):
+        return "default"
+
+    if result == "Inj. Def.":
         return "default"
 
     if result == "Default":
@@ -713,6 +722,7 @@ def _determine_result_type(result: str) -> ResultType:
         or result == "Ff"
         or result.startswith("Ff ")
         or result == "FF"
+        or result == "FFT"
     ):
         return "forfeit"
 
