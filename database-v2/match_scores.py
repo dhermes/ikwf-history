@@ -146,6 +146,9 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
     if result == "P-Dec" or result.startswith("P-Dec "):
         return None
 
+    if result == "Walkover":
+        return None
+
     if result.startswith("PD "):
         return None
 
@@ -216,6 +219,9 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
     if result == "Fall" or result.startswith("Fall "):
         return None
 
+    if result == "F":
+        return None
+
     if "(Fall)" in result:
         return None
 
@@ -261,6 +267,7 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
         "Forf FORFEIT",
         "Forf FF",
         "FF",
+        "FFT",
         "Ff FFT",
         "Ff FF",
         "Ff FORFE",
