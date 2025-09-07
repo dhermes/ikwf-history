@@ -8503,6 +8503,31 @@
     "url_path_slug": "harvard",
     "duplicates": [
       {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Harvard"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Harvard W.C."
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Harvard"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Harvard"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Harvard"
+      },
+      {
         "tournament_id": 14,
         "division": "senior",
         "name": "Harvard"
@@ -8523,6 +8548,11 @@
         "name": "Harvard WC"
       },
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Harvard WC"
+      },
+      {
         "tournament_id": 20,
         "division": "senior",
         "name": "HARVARD WC"
@@ -8533,6 +8563,11 @@
         "name": "HARVARD"
       },
       {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "HARVARD WC"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "HARVARD"
@@ -8543,8 +8578,58 @@
         "name": "HARVARD"
       },
       {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "HARVARD WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "HARVARD WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "HARVARD WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "HARVARD WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "HARVARD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "HARVARD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "HARVARD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "HARVARD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "HARVARD WRESTLING CLUB"
+      },
+      {
         "tournament_id": 29,
         "division": "novice",
+        "name": "HARVARD WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
         "name": "HARVARD WC"
       },
       {
