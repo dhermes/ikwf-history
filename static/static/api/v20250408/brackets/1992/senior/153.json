@@ -18,12 +18,12 @@
     "match_slot": "championship_r32_02",
     "top_name": "CHRIS HENSON",
     "top_team": "PONTIAC WC",
-    "top_score": null,
+    "top_score": 8,
     "bottom_name": "TOBY ADAMS",
     "bottom_team": "W.F. THUNDERBIRD",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 7,
+    "top_win": true,
+    "result": "Dec 8-7"
   },
   {
     "match_slot_id": 3,
@@ -48,8 +48,8 @@
     "bottom_name": "MATTHEW STACH",
     "bottom_team": "MEAD JH WC",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "Fall 1:22"
   },
   {
     "match_slot_id": 5,
@@ -74,8 +74,8 @@
     "bottom_name": "JOHN LOCKHART",
     "bottom_team": "HOOPESTON-EAST LYNN JH",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall 3:37"
   },
   {
     "match_slot_id": 7,
@@ -100,8 +100,8 @@
     "bottom_name": "CHARLES DYXIN",
     "bottom_team": "PLAINFIELD INDIAN TRAIL WRESTLING",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall 0:24"
   },
   {
     "match_slot_id": 9,
@@ -122,12 +122,12 @@
     "match_slot": "championship_r32_10",
     "top_name": "SCOTT CLINE",
     "top_team": "METAMORA KIDS WC",
-    "top_score": null,
+    "top_score": 9,
     "bottom_name": "RODNEY JOHNSON",
     "bottom_team": "KNIGHT WC",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 6,
+    "top_win": true,
+    "result": "Dec 9-6"
   },
   {
     "match_slot_id": 11,
@@ -152,8 +152,8 @@
     "bottom_name": "RON NOWAK",
     "bottom_team": "BRIDGEVIEW PD",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall 2:23"
   },
   {
     "match_slot_id": 13,
@@ -174,12 +174,12 @@
     "match_slot": "championship_r32_14",
     "top_name": "BOWEN HOPPER",
     "top_team": "HARLEM SCHOOL DISTRICT 122 WC",
-    "top_score": null,
+    "top_score": 8,
     "bottom_name": "JOSE DELTORO",
     "bottom_team": "CROSSFACE WC",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "MD 8-0"
   },
   {
     "match_slot_id": 15,
@@ -204,7 +204,345 @@
     "bottom_name": "PHILP POWELL",
     "bottom_team": "EISENHOWER JH",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
+    "result": "Fall 2:05"
+  },
+  {
+    "match_slot_id": 17,
+    "bout_number": 9,
+    "match_slot": "championship_r16_01",
+    "top_name": "RANDY ANDERSON",
+    "top_team": "CRESTWOOD COLTS",
+    "top_score": null,
+    "bottom_name": "CHRIS HENSON",
+    "bottom_team": "PONTIAC WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:30"
+  },
+  {
+    "match_slot_id": 18,
+    "bout_number": 10,
+    "match_slot": "championship_r16_02",
+    "top_name": "CHAD MILLER",
+    "top_team": "WHEATON-WARRENVILLE",
+    "top_score": 12,
+    "bottom_name": "MATTHEW STACH",
+    "bottom_team": "MEAD JH WC",
+    "bottom_score": 14,
+    "top_win": false,
+    "result": "Dec 14-12"
+  },
+  {
+    "match_slot_id": 19,
+    "bout_number": 11,
+    "match_slot": "championship_r16_03",
+    "top_name": "SCOTT HAMPTON",
+    "top_team": "YORKVILLE WC",
+    "top_score": 11,
+    "bottom_name": "JIM WATKINS",
+    "bottom_team": "GRANITE CITY WC GRIGSBY",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "MD 11-0"
+  },
+  {
+    "match_slot_id": 20,
+    "bout_number": 12,
+    "match_slot": "championship_r16_04",
+    "top_name": "KEVIN KEMPHER",
+    "top_team": "GENESEO WC",
+    "top_score": 2,
+    "bottom_name": "GEO BROWN",
+    "bottom_team": "ELMHURST JR. DUKES",
+    "bottom_score": 3,
+    "top_win": false,
+    "result": "Dec 3-2"
+  },
+  {
+    "match_slot_id": 21,
+    "bout_number": 13,
+    "match_slot": "championship_r16_05",
+    "top_name": "MATT MOYNIHAN",
+    "top_team": "ARLINGTON CARDINALS WC",
+    "top_score": 11,
+    "bottom_name": "SCOTT CLINE",
+    "bottom_team": "METAMORA KIDS WC",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "MD 11-0"
+  },
+  {
+    "match_slot_id": 22,
+    "bout_number": 14,
+    "match_slot": "championship_r16_06",
+    "top_name": "ERIC RIGGI",
+    "top_team": "OAK FOREST WARRIORS",
+    "top_score": 7,
+    "bottom_name": "JEREMY MARTIN",
+    "bottom_team": "TRAILBLAZER WC",
+    "bottom_score": 4,
+    "top_win": true,
+    "result": "Dec 7-4"
+  },
+  {
+    "match_slot_id": 23,
+    "bout_number": 15,
+    "match_slot": "championship_r16_07",
+    "top_name": "KEVIN BRIDGES",
+    "top_team": "EDWARDSVILLE",
+    "top_score": null,
+    "bottom_name": "BOWEN HOPPER",
+    "bottom_team": "HARLEM SCHOOL DISTRICT 122 WC",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall 0:45"
+  },
+  {
+    "match_slot_id": 24,
+    "bout_number": 16,
+    "match_slot": "championship_r16_08",
+    "top_name": "ANDY MOORE",
+    "top_team": "ARGENTA-OREANA",
+    "top_score": null,
+    "bottom_name": "PHILP POWELL",
+    "bottom_team": "EISENHOWER JH",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 0:59"
+  },
+  {
+    "match_slot_id": 33,
+    "bout_number": 17,
+    "match_slot": "championship_quarter_01",
+    "top_name": "RANDY ANDERSON",
+    "top_team": "CRESTWOOD COLTS",
+    "top_score": null,
+    "bottom_name": "MATTHEW STACH",
+    "bottom_team": "MEAD JH WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:58"
+  },
+  {
+    "match_slot_id": 34,
+    "bout_number": 18,
+    "match_slot": "championship_quarter_02",
+    "top_name": "SCOTT HAMPTON",
+    "top_team": "YORKVILLE WC",
+    "top_score": 9,
+    "bottom_name": "GEO BROWN",
+    "bottom_team": "ELMHURST JR. DUKES",
+    "bottom_score": 1,
+    "top_win": true,
+    "result": "MD 9-1"
+  },
+  {
+    "match_slot_id": 35,
+    "bout_number": 19,
+    "match_slot": "championship_quarter_03",
+    "top_name": "MATT MOYNIHAN",
+    "top_team": "ARLINGTON CARDINALS WC",
+    "top_score": null,
+    "bottom_name": "ERIC RIGGI",
+    "bottom_team": "OAK FOREST WARRIORS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:52"
+  },
+  {
+    "match_slot_id": 36,
+    "bout_number": 20,
+    "match_slot": "championship_quarter_04",
+    "top_name": "BOWEN HOPPER",
+    "top_team": "HARLEM SCHOOL DISTRICT 122 WC",
+    "top_score": 3,
+    "bottom_name": "ANDY MOORE",
+    "bottom_team": "ARGENTA-OREANA",
+    "bottom_score": 12,
+    "top_win": false,
+    "result": "MD 12-3"
+  },
+  {
+    "match_slot_id": 37,
+    "bout_number": 21,
+    "match_slot": "consolation_round3_01",
+    "top_name": null,
+    "top_team": null,
+    "top_score": null,
+    "bottom_name": "CHRIS HENSON",
+    "bottom_team": "PONTIAC WC",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Bye"
+  },
+  {
+    "match_slot_id": 38,
+    "bout_number": 22,
+    "match_slot": "consolation_round3_02",
+    "top_name": "JIM WATKINS",
+    "top_team": "GRANITE CITY WC GRIGSBY",
+    "top_score": null,
+    "bottom_name": null,
+    "bottom_team": null,
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Bye"
+  },
+  {
+    "match_slot_id": 39,
+    "bout_number": 23,
+    "match_slot": "consolation_round3_03",
+    "top_name": null,
+    "top_team": null,
+    "top_score": null,
+    "bottom_name": "SCOTT CLINE",
+    "bottom_team": "METAMORA KIDS WC",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Bye"
+  },
+  {
+    "match_slot_id": 40,
+    "bout_number": 24,
+    "match_slot": "consolation_round3_04",
+    "top_name": "PHILP POWELL",
+    "top_team": "EISENHOWER JH",
+    "top_score": null,
+    "bottom_name": null,
+    "bottom_team": null,
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Bye"
+  },
+  {
+    "match_slot_id": 41,
+    "bout_number": 25,
+    "match_slot": "consolation_round4_blood_01",
+    "top_name": "MATTHEW STACH",
+    "top_team": "MEAD JH WC",
+    "top_score": 10,
+    "bottom_name": "CHRIS HENSON",
+    "bottom_team": "PONTIAC WC",
+    "bottom_score": 1,
+    "top_win": true,
+    "result": "MD 10-1"
+  },
+  {
+    "match_slot_id": 42,
+    "bout_number": 26,
+    "match_slot": "consolation_round4_blood_02",
+    "top_name": "JIM WATKINS",
+    "top_team": "GRANITE CITY WC GRIGSBY",
+    "top_score": 0,
+    "bottom_name": "GEO BROWN",
+    "bottom_team": "ELMHURST JR. DUKES",
+    "bottom_score": 3,
+    "top_win": false,
+    "result": "Dec 3-0"
+  },
+  {
+    "match_slot_id": 43,
+    "bout_number": 27,
+    "match_slot": "consolation_round4_blood_03",
+    "top_name": "ERIC RIGGI",
+    "top_team": "OAK FOREST WARRIORS",
+    "top_score": 2,
+    "bottom_name": "SCOTT CLINE",
+    "bottom_team": "METAMORA KIDS WC",
+    "bottom_score": 6,
+    "top_win": false,
+    "result": "Dec 6-2"
+  },
+  {
+    "match_slot_id": 44,
+    "bout_number": 28,
+    "match_slot": "consolation_round4_blood_04",
+    "top_name": "PHILP POWELL",
+    "top_team": "EISENHOWER JH",
+    "top_score": 3,
+    "bottom_name": "BOWEN HOPPER",
+    "bottom_team": "HARLEM SCHOOL DISTRICT 122 WC",
+    "bottom_score": 2,
+    "top_win": true,
+    "result": "Dec 3-2"
+  },
+  {
+    "match_slot_id": 45,
+    "bout_number": 29,
+    "match_slot": "championship_semi_01",
+    "top_name": "RANDY ANDERSON",
+    "top_team": "CRESTWOOD COLTS",
+    "top_score": null,
+    "bottom_name": "SCOTT HAMPTON",
+    "bottom_team": "YORKVILLE WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:58"
+  },
+  {
+    "match_slot_id": 46,
+    "bout_number": 30,
+    "match_slot": "championship_semi_02",
+    "top_name": "MATT MOYNIHAN",
+    "top_team": "ARLINGTON CARDINALS WC",
+    "top_score": 8,
+    "bottom_name": "ANDY MOORE",
+    "bottom_team": "ARGENTA-OREANA",
+    "bottom_score": 2,
+    "top_win": true,
+    "result": "Dec 8-2"
+  },
+  {
+    "match_slot_id": 47,
+    "bout_number": 31,
+    "match_slot": "consolation_round5_01",
+    "top_name": "MATTHEW STACH",
+    "top_team": "MEAD JH WC",
+    "top_score": 0,
+    "bottom_name": "GEO BROWN",
+    "bottom_team": "ELMHURST JR. DUKES",
+    "bottom_score": 3,
+    "top_win": false,
+    "result": "Dec 3-0"
+  },
+  {
+    "match_slot_id": 48,
+    "bout_number": 32,
+    "match_slot": "consolation_round5_02",
+    "top_name": "SCOTT CLINE",
+    "top_team": "METAMORA KIDS WC",
+    "top_score": null,
+    "bottom_name": "PHILP POWELL",
+    "bottom_team": "EISENHOWER JH",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall 1:40"
+  },
+  {
+    "match_slot_id": 49,
+    "bout_number": 33,
+    "match_slot": "consolation_round6_semi_01",
+    "top_name": "SCOTT HAMPTON",
+    "top_team": "YORKVILLE WC",
+    "top_score": null,
+    "bottom_name": "GEO BROWN",
+    "bottom_team": "ELMHURST JR. DUKES",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 50,
+    "bout_number": 34,
+    "match_slot": "consolation_round6_semi_02",
+    "top_name": "PHILP POWELL",
+    "top_team": "EISENHOWER JH",
+    "top_score": null,
+    "bottom_name": "ANDY MOORE",
+    "bottom_team": "ARGENTA-OREANA",
+    "bottom_score": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -213,12 +551,12 @@
     "match_slot": "consolation_fifth_place",
     "top_name": "GEO BROWN",
     "top_team": "ELMHURST JR. DUKES",
-    "top_score": null,
+    "top_score": 8,
     "bottom_name": "PHILP POWELL",
     "bottom_team": "EISENHOWER JH",
-    "bottom_score": null,
+    "bottom_score": 4,
     "top_win": true,
-    "result": ""
+    "result": "Dec 8-4"
   },
   {
     "match_slot_id": 53,
@@ -231,7 +569,7 @@
     "bottom_team": "ARGENTA-OREANA",
     "bottom_score": null,
     "top_win": true,
-    "result": ""
+    "result": "Fall 0:58"
   },
   {
     "match_slot_id": 54,
@@ -239,11 +577,11 @@
     "match_slot": "championship_first_place",
     "top_name": "RANDY ANDERSON",
     "top_team": "CRESTWOOD COLTS",
-    "top_score": null,
+    "top_score": 10,
     "bottom_name": "MATT MOYNIHAN",
     "bottom_team": "ARLINGTON CARDINALS WC",
-    "bottom_score": null,
+    "bottom_score": 1,
     "top_win": true,
-    "result": ""
+    "result": "MD 10-1"
   }
 ]

@@ -22,8 +22,8 @@
     "bottom_name": "NATHAN LABELLE",
     "bottom_team": "OLSON JR. HIGH",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "Fall 2:45"
   },
   {
     "match_slot_id": 3,
@@ -48,8 +48,8 @@
     "bottom_name": "JERRY KRAY",
     "bottom_team": "LEMONT WC",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall 1:27"
   },
   {
     "match_slot_id": 5,
@@ -74,8 +74,8 @@
     "bottom_name": "ADAM DETMERS",
     "bottom_team": "MT. ZION WC",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall 0:26"
   },
   {
     "match_slot_id": 7,
@@ -100,8 +100,8 @@
     "bottom_name": "DAVID CRUZ",
     "bottom_team": "AURORA J-HAWKS",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall 2:00"
   },
   {
     "match_slot_id": 9,
@@ -122,12 +122,12 @@
     "match_slot": "championship_r32_10",
     "top_name": "TROY MARKLEY",
     "top_team": "SPARTANS",
-    "top_score": null,
+    "top_score": 7,
     "bottom_name": "HERIBERTO FLORES",
     "bottom_team": "CORKERY COUGARS",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 6,
+    "top_win": true,
+    "result": "Dec 7-6"
   },
   {
     "match_slot_id": 11,
@@ -153,7 +153,7 @@
     "bottom_team": "MORTON YOUTH WC",
     "bottom_score": null,
     "top_win": false,
-    "result": "Bye"
+    "result": "FF"
   },
   {
     "match_slot_id": 13,
@@ -174,12 +174,12 @@
     "match_slot": "championship_r32_14",
     "top_name": "PETER DIGANGI",
     "top_team": "BRIDGEVIEW PD",
-    "top_score": null,
+    "top_score": 5,
     "bottom_name": "MICHAEL HARRIS",
     "bottom_team": "ST. BARNABAS / CHRIST THE KING",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 2,
+    "top_win": true,
+    "result": "Dec 5-2"
   },
   {
     "match_slot_id": 15,
@@ -205,7 +205,345 @@
     "bottom_team": "MEAD JH WC",
     "bottom_score": null,
     "top_win": false,
+    "result": "FF"
+  },
+  {
+    "match_slot_id": 17,
+    "bout_number": 9,
+    "match_slot": "championship_r16_01",
+    "top_name": "JOSHUA CARTER",
+    "top_team": "WARHAWK WC",
+    "top_score": null,
+    "bottom_name": "NATHAN LABELLE",
+    "bottom_team": "OLSON JR. HIGH",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall 2:59"
+  },
+  {
+    "match_slot_id": 18,
+    "bout_number": 10,
+    "match_slot": "championship_r16_02",
+    "top_name": "LONNIE NUNLEY",
+    "top_team": "NEIGHBORHOODD HOUSE RAZORBACKS",
+    "top_score": 6,
+    "bottom_name": "MATT MCNICHOLAS",
+    "bottom_team": "BRONCO WC",
+    "bottom_score": 11,
+    "top_win": false,
+    "result": "Dec 11-6"
+  },
+  {
+    "match_slot_id": 19,
+    "bout_number": 11,
+    "match_slot": "championship_r16_03",
+    "top_name": "CHRIS ROWELL",
+    "top_team": "VITTUM CATS",
+    "top_score": 11,
+    "bottom_name": "BOB REESE",
+    "bottom_team": "ROCKFORD WC",
+    "bottom_score": 1,
+    "top_win": true,
+    "result": "MD 11-1"
+  },
+  {
+    "match_slot_id": 20,
+    "bout_number": 12,
+    "match_slot": "championship_r16_04",
+    "top_name": "ROBBIE BURGENER",
+    "top_team": "GRANITE CITY WC COOLIDGE",
+    "top_score": null,
+    "bottom_name": "STEVE MEYERS",
+    "bottom_team": "ANTIOCH UPPER GRADE",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 2:16"
+  },
+  {
+    "match_slot_id": 21,
+    "bout_number": 13,
+    "match_slot": "championship_r16_05",
+    "top_name": "BOB ZINK",
+    "top_team": "IRISH CADET WC",
+    "top_score": null,
+    "bottom_name": "TROY MARKLEY",
+    "bottom_team": "SPARTANS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 0:43"
+  },
+  {
+    "match_slot_id": 22,
+    "bout_number": 14,
+    "match_slot": "championship_r16_06",
+    "top_name": "ROSS WILLIAMS",
+    "top_team": "VILLA-LOMBARD COUGARS",
+    "top_score": null,
+    "bottom_name": "JIM FERGUSON",
+    "bottom_team": "MORTON YOUTH WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 0:20"
+  },
+  {
+    "match_slot_id": 23,
+    "bout_number": 15,
+    "match_slot": "championship_r16_07",
+    "top_name": "BRANDON KEEP",
+    "top_team": "DAKOTA WC",
+    "top_score": null,
+    "bottom_name": "PETER DIGANGI",
+    "bottom_team": "BRIDGEVIEW PD",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:51"
+  },
+  {
+    "match_slot_id": 24,
+    "bout_number": 16,
+    "match_slot": "championship_r16_08",
+    "top_name": "KOREY REID",
+    "top_team": "CHARGER KIDS WC",
+    "top_score": null,
+    "bottom_name": "TONY ENGLESE",
+    "bottom_team": "MEAD JH WC",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall 3:12"
+  },
+  {
+    "match_slot_id": 33,
+    "bout_number": 17,
+    "match_slot": "championship_quarter_01",
+    "top_name": "NATHAN LABELLE",
+    "top_team": "OLSON JR. HIGH",
+    "top_score": null,
+    "bottom_name": "MATT MCNICHOLAS",
+    "bottom_team": "BRONCO WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 0:45"
+  },
+  {
+    "match_slot_id": 34,
+    "bout_number": 18,
+    "match_slot": "championship_quarter_02",
+    "top_name": "CHRIS ROWELL",
+    "top_team": "VITTUM CATS",
+    "top_score": 9,
+    "bottom_name": "ROBBIE BURGENER",
+    "bottom_team": "GRANITE CITY WC COOLIDGE",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "MD 9-0"
+  },
+  {
+    "match_slot_id": 35,
+    "bout_number": 19,
+    "match_slot": "championship_quarter_03",
+    "top_name": "BOB ZINK",
+    "top_team": "IRISH CADET WC",
+    "top_score": null,
+    "bottom_name": "ROSS WILLIAMS",
+    "bottom_team": "VILLA-LOMBARD COUGARS",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall 0:51"
+  },
+  {
+    "match_slot_id": 36,
+    "bout_number": 20,
+    "match_slot": "championship_quarter_04",
+    "top_name": "BRANDON KEEP",
+    "top_team": "DAKOTA WC",
+    "top_score": 2,
+    "bottom_name": "TONY ENGLESE",
+    "bottom_team": "MEAD JH WC",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 2-0"
+  },
+  {
+    "match_slot_id": 37,
+    "bout_number": 21,
+    "match_slot": "consolation_round3_01",
+    "top_name": "SHANE HUBBARD",
+    "top_team": "WESTVILLE JR. HIGH",
+    "top_score": null,
+    "bottom_name": "JOSHUA CARTER",
+    "bottom_team": "WARHAWK WC",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Default"
+  },
+  {
+    "match_slot_id": 38,
+    "bout_number": 22,
+    "match_slot": "consolation_round3_02",
+    "top_name": "BOB REESE",
+    "top_team": "ROCKFORD WC",
+    "top_score": null,
+    "bottom_name": null,
+    "bottom_team": null,
+    "bottom_score": null,
+    "top_win": true,
     "result": "Bye"
+  },
+  {
+    "match_slot_id": 39,
+    "bout_number": 23,
+    "match_slot": "consolation_round3_03",
+    "top_name": null,
+    "top_team": null,
+    "top_score": null,
+    "bottom_name": "JIM FERGUSON",
+    "bottom_team": "MORTON YOUTH WC",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Bye"
+  },
+  {
+    "match_slot_id": 40,
+    "bout_number": 24,
+    "match_slot": "consolation_round3_04",
+    "top_name": "PETER DIGANGI",
+    "top_team": "BRIDGEVIEW PD",
+    "top_score": null,
+    "bottom_name": null,
+    "bottom_team": null,
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Bye"
+  },
+  {
+    "match_slot_id": 41,
+    "bout_number": 25,
+    "match_slot": "consolation_round4_blood_01",
+    "top_name": "MATT MCNICHOLAS",
+    "top_team": "BRONCO WC",
+    "top_score": null,
+    "bottom_name": "JOSHUA CARTER",
+    "bottom_team": "WARHAWK WC",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "TF"
+  },
+  {
+    "match_slot_id": 42,
+    "bout_number": 26,
+    "match_slot": "consolation_round4_blood_02",
+    "top_name": "BOB REESE",
+    "top_team": "ROCKFORD WC",
+    "top_score": 2,
+    "bottom_name": "ROBBIE BURGENER",
+    "bottom_team": "GRANITE CITY WC COOLIDGE",
+    "bottom_score": 6,
+    "top_win": false,
+    "result": "Dec 6-2"
+  },
+  {
+    "match_slot_id": 43,
+    "bout_number": 27,
+    "match_slot": "consolation_round4_blood_03",
+    "top_name": "BOB ZINK",
+    "top_team": "IRISH CADET WC",
+    "top_score": null,
+    "bottom_name": "JIM FERGUSON",
+    "bottom_team": "MORTON YOUTH WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 0:32"
+  },
+  {
+    "match_slot_id": 44,
+    "bout_number": 28,
+    "match_slot": "consolation_round4_blood_04",
+    "top_name": "PETER DIGANGI",
+    "top_team": "BRIDGEVIEW PD",
+    "top_score": null,
+    "bottom_name": "TONY ENGLESE",
+    "bottom_team": "MEAD JH WC",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall 0:40"
+  },
+  {
+    "match_slot_id": 45,
+    "bout_number": 29,
+    "match_slot": "championship_semi_01",
+    "top_name": "NATHAN LABELLE",
+    "top_team": "OLSON JR. HIGH",
+    "top_score": null,
+    "bottom_name": "CHRIS ROWELL",
+    "bottom_team": "VITTUM CATS",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall 3:30"
+  },
+  {
+    "match_slot_id": 46,
+    "bout_number": 30,
+    "match_slot": "championship_semi_02",
+    "top_name": "ROSS WILLIAMS",
+    "top_team": "VILLA-LOMBARD COUGARS",
+    "top_score": 2,
+    "bottom_name": "BRANDON KEEP",
+    "bottom_team": "DAKOTA WC",
+    "bottom_score": 7,
+    "top_win": false,
+    "result": "Dec 7-2"
+  },
+  {
+    "match_slot_id": 47,
+    "bout_number": 31,
+    "match_slot": "consolation_round5_01",
+    "top_name": "JOSHUA CARTER",
+    "top_team": "WARHAWK WC",
+    "top_score": 1,
+    "bottom_name": "ROBBIE BURGENER",
+    "bottom_team": "GRANITE CITY WC COOLIDGE",
+    "bottom_score": 7,
+    "top_win": false,
+    "result": "Dec 7-1"
+  },
+  {
+    "match_slot_id": 48,
+    "bout_number": 32,
+    "match_slot": "consolation_round5_02",
+    "top_name": "BOB ZINK",
+    "top_team": "IRISH CADET WC",
+    "top_score": null,
+    "bottom_name": "TONY ENGLESE",
+    "bottom_team": "MEAD JH WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 1:42"
+  },
+  {
+    "match_slot_id": 49,
+    "bout_number": 33,
+    "match_slot": "consolation_round6_semi_01",
+    "top_name": "NATHAN LABELLE",
+    "top_team": "OLSON JR. HIGH",
+    "top_score": null,
+    "bottom_name": "ROBBIE BURGENER",
+    "bottom_team": "GRANITE CITY WC COOLIDGE",
+    "bottom_score": null,
+    "top_win": false,
+    "result": ""
+  },
+  {
+    "match_slot_id": 50,
+    "bout_number": 34,
+    "match_slot": "consolation_round6_semi_02",
+    "top_name": "BOB ZINK",
+    "top_team": "IRISH CADET WC",
+    "top_score": null,
+    "bottom_name": "ROSS WILLIAMS",
+    "bottom_team": "VILLA-LOMBARD COUGARS",
+    "bottom_score": null,
+    "top_win": false,
+    "result": ""
   },
   {
     "match_slot_id": 52,
@@ -218,20 +556,20 @@
     "bottom_team": "IRISH CADET WC",
     "bottom_score": null,
     "top_win": true,
-    "result": ""
+    "result": "Fall 1:25"
   },
   {
     "match_slot_id": 53,
     "bout_number": 36,
     "match_slot": "consolation_third_place",
-    "top_name": "ROSS WILLIAMS",
-    "top_team": "VILLA-LOMBARD COUGARS",
-    "top_score": null,
-    "bottom_name": "ROBBIE BURGENER",
-    "bottom_team": "GRANITE CITY WC COOLIDGE",
-    "bottom_score": null,
-    "top_win": true,
-    "result": ""
+    "top_name": "ROBBIE BURGENER",
+    "top_team": "GRANITE CITY WC COOLIDGE",
+    "top_score": 2,
+    "bottom_name": "ROSS WILLIAMS",
+    "bottom_team": "VILLA-LOMBARD COUGARS",
+    "bottom_score": 10,
+    "top_win": false,
+    "result": "MD 10-2"
   },
   {
     "match_slot_id": 54,
@@ -244,6 +582,6 @@
     "bottom_team": "DAKOTA WC",
     "bottom_score": null,
     "top_win": true,
-    "result": ""
+    "result": "TF"
   }
 ]

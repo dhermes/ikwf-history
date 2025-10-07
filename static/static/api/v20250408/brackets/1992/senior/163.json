@@ -22,8 +22,8 @@
     "bottom_name": "RICHARD ARRINGTON",
     "bottom_team": "W.F. THUNDERBIRD",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "Fall 0:47"
   },
   {
     "match_slot_id": 3,
@@ -48,8 +48,8 @@
     "bottom_name": "WARD CAMER",
     "bottom_team": "MUSTANG WC",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall 0:46"
   },
   {
     "match_slot_id": 5,
@@ -74,8 +74,8 @@
     "bottom_name": "CHAD ADAMS",
     "bottom_team": "BISMARK-HENNING WC",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall 0:19"
   },
   {
     "match_slot_id": 7,
@@ -96,12 +96,12 @@
     "match_slot": "championship_r32_08",
     "top_name": "JOHN RUIZ",
     "top_team": "ST. BARNABAS / CHRIST THE KING",
-    "top_score": null,
+    "top_score": 12,
     "bottom_name": "JOSEPH TERRY",
     "bottom_team": "PANTHER WC",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 1,
+    "top_win": true,
+    "result": "MD 12-1"
   },
   {
     "match_slot_id": 9,
@@ -126,8 +126,8 @@
     "bottom_name": "DAN KIM",
     "bottom_team": "MEAD JH WC",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "TF"
   },
   {
     "match_slot_id": 11,
@@ -152,8 +152,8 @@
     "bottom_name": "BRIAN MOORE",
     "bottom_team": "DAKOTA WC",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "Fall 0:23"
   },
   {
     "match_slot_id": 13,
@@ -178,8 +178,8 @@
     "bottom_name": "ADAM ROSILLO",
     "bottom_team": "PLAINFIELD INDIAN TRAIL WRESTLING",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall 0:49"
   },
   {
     "match_slot_id": 15,
@@ -204,8 +204,346 @@
     "bottom_name": "TOBY ROMLYSON",
     "bottom_team": "MIDWEST CENTRAL WC",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
+    "result": "Fall 0:12"
+  },
+  {
+    "match_slot_id": 17,
+    "bout_number": 9,
+    "match_slot": "championship_r16_01",
+    "top_name": "BRANDON COLE",
+    "top_team": "BELVIDERE YMCA BANDITS",
+    "top_score": null,
+    "bottom_name": "RICHARD ARRINGTON",
+    "bottom_team": "W.F. THUNDERBIRD",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 0:06"
+  },
+  {
+    "match_slot_id": 18,
+    "bout_number": 10,
+    "match_slot": "championship_r16_02",
+    "top_name": "ERIC CLARY",
+    "top_team": "TIGERTOWN TANGLERS",
+    "top_score": null,
+    "bottom_name": "AARON VALLEY",
+    "bottom_team": "ST. CHARLES WC DISTRICT 303",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall 0:45"
+  },
+  {
+    "match_slot_id": 19,
+    "bout_number": 11,
+    "match_slot": "championship_r16_03",
+    "top_name": "LOUIE SPONSEL",
+    "top_team": "PALATINE CHARGERS",
+    "top_score": null,
+    "bottom_name": "CHRIS THACKER",
+    "bottom_team": "BELLEVILLE LITTLE DEVILS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 0:42"
+  },
+  {
+    "match_slot_id": 20,
+    "bout_number": 12,
+    "match_slot": "championship_r16_04",
+    "top_name": "MICHAEL O GRADNEY",
+    "top_team": "LOCKPORT GRAPPLERS WC",
+    "top_score": null,
+    "bottom_name": "JOHN RUIZ",
+    "bottom_team": "ST. BARNABAS / CHRIST THE KING",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall 0:19"
+  },
+  {
+    "match_slot_id": 21,
+    "bout_number": 13,
+    "match_slot": "championship_r16_05",
+    "top_name": "ARMOND DAVIS",
+    "top_team": "MASON SCHOOL PLAYGROUND",
+    "top_score": 3,
+    "bottom_name": "DAN KIM",
+    "bottom_team": "MEAD JH WC",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 3-0"
+  },
+  {
+    "match_slot_id": 22,
+    "bout_number": 14,
+    "match_slot": "championship_r16_06",
+    "top_name": "WES INMAN",
+    "top_team": "TRAILBLAZER WC",
+    "top_score": 9,
+    "bottom_name": "BRIAN MOORE",
+    "bottom_team": "DAKOTA WC",
+    "bottom_score": 5,
+    "top_win": true,
+    "result": "Dec 9-5"
+  },
+  {
+    "match_slot_id": 23,
+    "bout_number": 15,
+    "match_slot": "championship_r16_07",
+    "top_name": "JOHN HEATER",
+    "top_team": "EDWARDSVILLE",
+    "top_score": null,
+    "bottom_name": "JOE GRIPPO",
+    "bottom_team": "ST. TARCISSUS RAIDERS",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall 0:34"
+  },
+  {
+    "match_slot_id": 24,
+    "bout_number": 16,
+    "match_slot": "championship_r16_08",
+    "top_name": "JAMES CURRY",
+    "top_team": "UNITY YOUTH WC",
+    "top_score": null,
+    "bottom_name": "TOBY ROMLYSON",
+    "bottom_team": "MIDWEST CENTRAL WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 0:26"
+  },
+  {
+    "match_slot_id": 33,
+    "bout_number": 17,
+    "match_slot": "championship_quarter_01",
+    "top_name": "BRANDON COLE",
+    "top_team": "BELVIDERE YMCA BANDITS",
+    "top_score": 5,
+    "bottom_name": "AARON VALLEY",
+    "bottom_team": "ST. CHARLES WC DISTRICT 303",
+    "bottom_score": 13,
+    "top_win": false,
+    "result": "MD 13-5"
+  },
+  {
+    "match_slot_id": 34,
+    "bout_number": 18,
+    "match_slot": "championship_quarter_02",
+    "top_name": "LOUIE SPONSEL",
+    "top_team": "PALATINE CHARGERS",
+    "top_score": 1,
+    "bottom_name": "JOHN RUIZ",
+    "bottom_team": "ST. BARNABAS / CHRIST THE KING",
+    "bottom_score": 6,
+    "top_win": false,
+    "result": "Dec 6-1"
+  },
+  {
+    "match_slot_id": 35,
+    "bout_number": 19,
+    "match_slot": "championship_quarter_03",
+    "top_name": "ARMOND DAVIS",
+    "top_team": "MASON SCHOOL PLAYGROUND",
+    "top_score": 2,
+    "bottom_name": "WES INMAN",
+    "bottom_team": "TRAILBLAZER WC",
+    "bottom_score": 7,
+    "top_win": false,
+    "result": "Dec 7-2"
+  },
+  {
+    "match_slot_id": 36,
+    "bout_number": 20,
+    "match_slot": "championship_quarter_04",
+    "top_name": "JOE GRIPPO",
+    "top_team": "ST. TARCISSUS RAIDERS",
+    "top_score": null,
+    "bottom_name": "JAMES CURRY",
+    "bottom_team": "UNITY YOUTH WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 0:05"
+  },
+  {
+    "match_slot_id": 37,
+    "bout_number": 21,
+    "match_slot": "consolation_round3_01",
+    "top_name": "WARD CAMER",
+    "top_team": "MUSTANG WC",
+    "top_score": 17,
+    "bottom_name": "ERIC CLARY",
+    "bottom_team": "TIGERTOWN TANGLERS",
+    "bottom_score": 3,
+    "top_win": true,
+    "result": "MD 17-3"
+  },
+  {
+    "match_slot_id": 38,
+    "bout_number": 22,
+    "match_slot": "consolation_round3_02",
+    "top_name": "MICHAEL O GRADNEY",
+    "top_team": "LOCKPORT GRAPPLERS WC",
+    "top_score": 11,
+    "bottom_name": "JOSEPH TERRY",
+    "bottom_team": "PANTHER WC",
+    "bottom_score": 4,
+    "top_win": true,
+    "result": "Dec 11-4"
+  },
+  {
+    "match_slot_id": 39,
+    "bout_number": 23,
+    "match_slot": "consolation_round3_03",
+    "top_name": null,
+    "top_team": null,
+    "top_score": null,
+    "bottom_name": "BRIAN MOORE",
+    "bottom_team": "DAKOTA WC",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Bye"
+  },
+  {
+    "match_slot_id": 40,
+    "bout_number": 24,
+    "match_slot": "consolation_round3_04",
+    "top_name": "JOHN HEATER",
+    "top_team": "EDWARDSVILLE",
+    "top_score": null,
+    "bottom_name": "ADAM ROSILLO",
+    "bottom_team": "PLAINFIELD INDIAN TRAIL WRESTLING",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 0:30"
+  },
+  {
+    "match_slot_id": 41,
+    "bout_number": 25,
+    "match_slot": "consolation_round4_blood_01",
+    "top_name": "BRANDON COLE",
+    "top_team": "BELVIDERE YMCA BANDITS",
+    "top_score": null,
+    "bottom_name": "WARD CAMER",
+    "bottom_team": "MUSTANG WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 0:21"
+  },
+  {
+    "match_slot_id": 42,
+    "bout_number": 26,
+    "match_slot": "consolation_round4_blood_02",
+    "top_name": "MICHAEL O GRADNEY",
+    "top_team": "LOCKPORT GRAPPLERS WC",
+    "top_score": null,
+    "bottom_name": "LOUIE SPONSEL",
+    "bottom_team": "PALATINE CHARGERS",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall 0:53"
+  },
+  {
+    "match_slot_id": 43,
+    "bout_number": 27,
+    "match_slot": "consolation_round4_blood_03",
+    "top_name": "ARMOND DAVIS",
+    "top_team": "MASON SCHOOL PLAYGROUND",
+    "top_score": 12,
+    "bottom_name": "BRIAN MOORE",
+    "bottom_team": "DAKOTA WC",
+    "bottom_score": 2,
+    "top_win": true,
+    "result": "MD 12-2"
+  },
+  {
+    "match_slot_id": 44,
+    "bout_number": 28,
+    "match_slot": "consolation_round4_blood_04",
+    "top_name": "JOHN HEATER",
+    "top_team": "EDWARDSVILLE",
+    "top_score": 6,
+    "bottom_name": "JAMES CURRY",
+    "bottom_team": "UNITY YOUTH WC",
+    "bottom_score": 7,
+    "top_win": false,
+    "result": "Dec 7-6"
+  },
+  {
+    "match_slot_id": 45,
+    "bout_number": 29,
+    "match_slot": "championship_semi_01",
+    "top_name": "AARON VALLEY",
+    "top_team": "ST. CHARLES WC DISTRICT 303",
+    "top_score": null,
+    "bottom_name": "JOHN RUIZ",
+    "bottom_team": "ST. BARNABAS / CHRIST THE KING",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 0:10"
+  },
+  {
+    "match_slot_id": 46,
+    "bout_number": 30,
+    "match_slot": "championship_semi_02",
+    "top_name": "WES INMAN",
+    "top_team": "TRAILBLAZER WC",
+    "top_score": null,
+    "bottom_name": "JOE GRIPPO",
+    "bottom_team": "ST. TARCISSUS RAIDERS",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall 0:34"
+  },
+  {
+    "match_slot_id": 47,
+    "bout_number": 31,
+    "match_slot": "consolation_round5_01",
+    "top_name": "BRANDON COLE",
+    "top_team": "BELVIDERE YMCA BANDITS",
+    "top_score": 1,
+    "bottom_name": "LOUIE SPONSEL",
+    "bottom_team": "PALATINE CHARGERS",
+    "bottom_score": 7,
+    "top_win": false,
+    "result": "Dec 7-1"
+  },
+  {
+    "match_slot_id": 48,
+    "bout_number": 32,
+    "match_slot": "consolation_round5_02",
+    "top_name": "ARMOND DAVIS",
+    "top_team": "MASON SCHOOL PLAYGROUND",
+    "top_score": 8,
+    "bottom_name": "JAMES CURRY",
+    "bottom_team": "UNITY YOUTH WC",
+    "bottom_score": 1,
+    "top_win": true,
+    "result": "Dec 8-1"
+  },
+  {
+    "match_slot_id": 49,
+    "bout_number": 33,
+    "match_slot": "consolation_round6_semi_01",
+    "top_name": "JOHN RUIZ",
+    "top_team": "ST. BARNABAS / CHRIST THE KING",
+    "top_score": null,
+    "bottom_name": "LOUIE SPONSEL",
+    "bottom_team": "PALATINE CHARGERS",
+    "bottom_score": null,
+    "top_win": true,
     "result": ""
+  },
+  {
+    "match_slot_id": 50,
+    "bout_number": 34,
+    "match_slot": "consolation_round6_semi_02",
+    "top_name": "ARMOND DAVIS",
+    "top_team": "MASON SCHOOL PLAYGROUND",
+    "top_score": 9,
+    "bottom_name": "JOE GRIPPO",
+    "bottom_team": "ST. TARCISSUS RAIDERS",
+    "bottom_score": 1,
+    "top_win": true,
+    "result": "MD 9-1"
   },
   {
     "match_slot_id": 52,
@@ -218,20 +556,20 @@
     "bottom_team": "ST. TARCISSUS RAIDERS",
     "bottom_score": null,
     "top_win": true,
-    "result": ""
+    "result": "Fall 0:49"
   },
   {
     "match_slot_id": 53,
     "bout_number": 36,
     "match_slot": "consolation_third_place",
-    "top_name": "ARMOND DAVIS",
-    "top_team": "MASON SCHOOL PLAYGROUND",
-    "top_score": null,
-    "bottom_name": "JOHN RUIZ",
-    "bottom_team": "ST. BARNABAS / CHRIST THE KING",
-    "bottom_score": null,
-    "top_win": true,
-    "result": ""
+    "top_name": "JOHN RUIZ",
+    "top_team": "ST. BARNABAS / CHRIST THE KING",
+    "top_score": 0,
+    "bottom_name": "ARMOND DAVIS",
+    "bottom_team": "MASON SCHOOL PLAYGROUND",
+    "bottom_score": 5,
+    "top_win": false,
+    "result": "Dec 5-0"
   },
   {
     "match_slot_id": 54,
@@ -239,11 +577,11 @@
     "match_slot": "championship_first_place",
     "top_name": "AARON VALLEY",
     "top_team": "ST. CHARLES WC DISTRICT 303",
-    "top_score": null,
+    "top_score": 11,
     "bottom_name": "WES INMAN",
     "bottom_team": "TRAILBLAZER WC",
-    "bottom_score": null,
+    "bottom_score": 4,
     "top_win": true,
-    "result": ""
+    "result": "Dec 11-4"
   }
 ]
