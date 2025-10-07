@@ -1,5 +1,20 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
+"""
+Note, there were four competitors listed that do not show up in brackets. These
+are likely alternates:
+
+- 185: "CASEY JONES :: EL PASO WC"
+- 185: "JESSE PIERCE :: ADDISON / INDIAN TRAIL ANIMALS"
+- 275: "DANIEL STIEFEL :: YORKVILLE WC"
+- 275: "LOUIS HILL :: ROCKFORD WC"
+
+Some other notes:
+
+- "W.F. THUNDERBIRD" --> "WEST FRANKFORT THUNDERBIRDS"
+- "PANTHER WC" is indeed different than "PANTHER WRESTLING"
+"""
+
 import pathlib
 
 import bracket_utils

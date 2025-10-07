@@ -1,5 +1,21 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
+"""
+Note, there were five competitors listed that do not show up in brackets. These
+are likely alternates:
+
+- 60: "Peter Ruffino :: FALCONS MAYWOOD"
+- 64: "Tim Nelson :: BARRINGTON"
+- 112: "Nick Schumacher :: ADDISON / INDIAN TRAIL ANIMALS"
+- 153: "John Deligiannis :: HICKORY HILLS PD"
+- 173: "Matthew Jacobs :: MURPHY JR. HIGH"
+
+Another curiosity, either the "official" 2nd placer at 135 from the 1992
+program is incorrect or the manually written bracket is. We went with the
+manually written bracket (official from IKWF / Mike Urwin) because the backside
+also seems to indicate that `Bill Zeman` placed 2nd, not `Chris Kucharski`.
+"""
+
 import pathlib
 
 import bracket_utils
@@ -8,8 +24,6 @@ import manual_entry
 _HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
-    # 60: "Peter Ruffino :: FALCONS MAYWOOD" # ???
-    # 64: "Tim Nelson :: BARRINGTON" # ???
     72: [
         "Grant Hoerr :: MORTON YOUTH :: 2",
         "Cal Ryder :: MATTOON",
@@ -191,7 +205,6 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Cody Abbott :: URBANA KIDS :: 2",
         "Ronnie Gill :: MURPHY JR. HIGH",
         "Kevin O'Niell :: ADDAMS JR. HIGH SCHOOL W.C. :: 5",
-        # "Nick Schumacher :: ADDISON / INDIAN TRAIL ANIMALS" # ???
     ],
     119: [
         "Sam Crowder :: JORDON",
@@ -322,7 +335,6 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Bill Baird :: BISMARK - HENNING",
         "Nate Vaughn :: MEAD JR. HIGH SCHOOL",
         "Quincy Porter :: TRI-CITY BRAVES",
-        # "John Deligiannis :: HICKORY HILLS PD" # ???
     ],
     163: [
         "Anthony Munizzi :: MUSTANGS",
@@ -375,7 +387,6 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Jason Crippin :: BISMARK - HENNING",
         "Stanley Hayes :: WAUKEGAN PD HAWKEYE",
         "Tony Wright :: TIGERTOWN TANGLERS",
-        # "Matthew Jacobs :: MURPHY JR. HIGH" # ???
     ],
     185: [
         "Lewis Lang :: RICH WRESTLING",
