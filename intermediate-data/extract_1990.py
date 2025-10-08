@@ -1,5 +1,14 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
+"""
+Note, there were three competitors listed that do not show up in brackets.
+These are likely alternates:
+
+- 60: "Grant Hoerr :: CHILLICOTHE WC"
+- 119: "Marcos Navarro :: GORDON TECH RAMS WC CHICAGO"
+- 173: "Mark Conmy :: PALATINE P.D. CHARGERS"
+"""
+
 import pathlib
 
 import bracket_utils
@@ -8,7 +17,6 @@ import manual_entry
 _HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
-    # 60: "Grant Hoerr :: CHILLICOTHE WC" # ???
     64: [
         "Mike Smith :: BETHALTO BOYS CLUB BULLS",
         "Juan Salgado :: JR. BISON WC",
@@ -274,7 +282,7 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Matt Berg :: ARGENTA-OREANA WC",
         "Kenneth Mills :: DOLTON PARK FALCONS",
         "Marc Hornsby :: ELGIN MATT RATS",
-        "Ramon Navarro :: GORDON TECH RAMS WC CHICAGO",  # Marcos Navarro?
+        "Ramon Navarro :: GORDON TECH RAMS WC CHICAGO",
         "Jon Bussert :: RIVERDALE JR. HIGH WC",
         "Issac Hampton :: CALUMET MEMORIAL PARK DISTRICT",
         "Ron Stonitsch :: CRESTWOOD COLTS WC :: 1",
@@ -450,7 +458,6 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Ken Keltnee :: BLUE CREW WRESTLING CLUB",
         "Ken Robinson :: ST. CHARLES WC :: 1",
         None,
-        # "Mark Conmy :: PALATINE P.D. CHARGERS", # SCRATCH
     ],
     185: [
         "Andy Sutt :: GOLDEN EAGLES",
