@@ -723,6 +723,7 @@ def _determine_result_type(result: str) -> ResultType:
         or result.startswith("Ff ")
         or result == "FF"
         or result == "FFT"
+        or result == "Forfeit"
     ):
         return "forfeit"
 
