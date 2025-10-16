@@ -272,6 +272,7 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
         "Ff FF",
         "Ff FORFE",
         "Ff",
+        "Forfeit",
     ):
         return None
 
