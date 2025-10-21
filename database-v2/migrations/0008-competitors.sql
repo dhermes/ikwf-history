@@ -3937,7 +3937,7 @@ VALUES
   (3924, 'Tim Mitra'),
   (3925, 'Brad Dzedunskas'),
   (3926, 'Kevin Bracken'),
-  (3927, 'Robert O’Connor'),
+  (3927, 'Robert O''Connor'),
   (3928, 'Bob Nelson'),
   (3929, 'Darren Ferguson'),
   (3930, 'Mike Tumilty'),

@@ -3937,7 +3937,7 @@ VALUES
   (3924, 3924, 1070, 'Tim Mitra', 'Tim', 'Mitra'),
   (3925, 3925, 1044, 'Brad Dzedunskas', 'Brad', 'Dzedunskas'),
   (3926, 3926, 1122, 'Kevin Bracken', 'Kevin', 'Bracken'),
-  (3927, 3927, 1093, 'Robert O’Connor', 'Robert', 'O’Connor'),
+  (3927, 3927, 1093, 'Robert O''Connor', 'Robert', 'O''Connor'),
   (3928, 3928, 1045, 'Bob Nelson', 'Bob', 'Nelson'),
   (3929, 3929, 1078, 'Darren Ferguson', 'Darren', 'Ferguson'),
   (3930, 3930, 1024, 'Mike Tumilty', 'Mike', 'Tumilty'),
