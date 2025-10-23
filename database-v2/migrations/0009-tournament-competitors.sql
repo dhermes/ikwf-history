@@ -3462,7 +3462,7 @@ VALUES
   (3449, 3449, 923, 'Jeff Montgomery', 'Jeff', 'Montgomery'),
   (3450, 3450, 909, 'Benjy Shafer', 'Benjy', 'Shafer'),
   (3451, 3451, 904, 'Joe Abegg', 'Joe', 'Abegg'),
-  (3452, 3452, 911, 'Malt McClister', 'Malt', 'McClister'),
+  (3452, 3452, 911, 'Matt McClister', 'Matt', 'McClister'),
   (3453, 3453, 955, 'Kurt Buhle', 'Kurt', 'Buhle'),
   (3454, 3454, 927, 'Joe Verlinden', 'Joe', 'Verlinden'),
   (3455, 3455, 920, 'Ed Enright', 'Ed', 'Enright'),

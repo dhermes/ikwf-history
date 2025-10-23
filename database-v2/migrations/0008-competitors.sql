@@ -3462,7 +3462,7 @@ VALUES
   (3449, 'Jeff Montgomery'),
   (3450, 'Benjy Shafer'),
   (3451, 'Joe Abegg'),
-  (3452, 'Malt McClister'),
+  (3452, 'Matt McClister'),
   (3453, 'Kurt Buhle'),
   (3454, 'Joe Verlinden'),
   (3455, 'Ed Enright'),
