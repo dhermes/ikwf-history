@@ -303,66 +303,6 @@
       "boutNumber": null,
       "result": "Dec 4-2"
     },
-    "37": {
-      "top": {
-        "choice": null,
-        "choices": []
-      },
-      "bottom": {
-        "choice": 4,
-        "choices": [
-          4
-        ]
-      },
-      "winner": "bottom",
-      "boutNumber": null,
-      "result": "Bye"
-    },
-    "38": {
-      "top": {
-        "choice": 9,
-        "choices": [
-          9
-        ]
-      },
-      "bottom": {
-        "choice": null,
-        "choices": []
-      },
-      "winner": "top",
-      "boutNumber": null,
-      "result": ""
-    },
-    "39": {
-      "top": {
-        "choice": null,
-        "choices": []
-      },
-      "bottom": {
-        "choice": 15,
-        "choices": [
-          15
-        ]
-      },
-      "winner": "bottom",
-      "boutNumber": null,
-      "result": ""
-    },
-    "40": {
-      "top": {
-        "choice": 21,
-        "choices": [
-          21
-        ]
-      },
-      "bottom": {
-        "choice": null,
-        "choices": []
-      },
-      "winner": "top",
-      "boutNumber": null,
-      "result": ""
-    },
     "41": {
       "top": {
         "choice": 1,

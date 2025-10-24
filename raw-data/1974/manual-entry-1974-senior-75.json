@@ -303,66 +303,6 @@
       "boutNumber": null,
       "result": ""
     },
-    "37": {
-      "top": {
-        "choice": null,
-        "choices": []
-      },
-      "bottom": {
-        "choice": 4,
-        "choices": [
-          4
-        ]
-      },
-      "winner": "bottom",
-      "boutNumber": null,
-      "result": "Bye"
-    },
-    "38": {
-      "top": {
-        "choice": 7,
-        "choices": [
-          7
-        ]
-      },
-      "bottom": {
-        "choice": null,
-        "choices": []
-      },
-      "winner": "top",
-      "boutNumber": null,
-      "result": "Bye"
-    },
-    "39": {
-      "top": {
-        "choice": null,
-        "choices": []
-      },
-      "bottom": {
-        "choice": 16,
-        "choices": [
-          16
-        ]
-      },
-      "winner": "bottom",
-      "boutNumber": null,
-      "result": "Bye"
-    },
-    "40": {
-      "top": {
-        "choice": 21,
-        "choices": [
-          21
-        ]
-      },
-      "bottom": {
-        "choice": null,
-        "choices": []
-      },
-      "winner": "top",
-      "boutNumber": null,
-      "result": ""
-    },
     "41": {
       "top": {
         "choice": 1,
