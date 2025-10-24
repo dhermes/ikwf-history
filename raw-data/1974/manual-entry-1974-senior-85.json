@@ -11,11 +11,7 @@
       "name": "REGLIN",
       "team": "Sterling"
     },
-    {
-      "id": 2,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 3,
       "name": "A IBEN",
@@ -26,11 +22,7 @@
       "name": "BEECHY",
       "team": "Oak Forest"
     },
-    {
-      "id": 5,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 6,
       "name": "CARTER",
@@ -41,11 +33,7 @@
       "name": "CONRAD",
       "team": "Raiders"
     },
-    {
-      "id": 8,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 9,
       "name": "RICE",
@@ -56,11 +44,7 @@
       "name": "B McCUE",
       "team": "Simmons (Aurora)"
     },
-    {
-      "id": 11,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 12,
       "name": "DAHM",
@@ -71,11 +55,7 @@
       "name": "KINKEAD",
       "team": "East Moline"
     },
-    {
-      "id": 14,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 15,
       "name": "SLIFER",
@@ -86,11 +66,7 @@
       "name": "DAIDONE",
       "team": "Oak Forest"
     },
-    {
-      "id": 17,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 18,
       "name": "McTAGUE",
@@ -101,11 +77,7 @@
       "name": "BOB PORTER",
       "team": "Northfield Park District"
     },
-    {
-      "id": 20,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 21,
       "name": "HORN",
@@ -116,11 +88,7 @@
       "name": "DAVIS",
       "team": "Huntley"
     },
-    {
-      "id": 23,
-      "name": "Bye",
-      "team": "Bye"
-    }
+    null
   ],
   "matches": {
     "1": {

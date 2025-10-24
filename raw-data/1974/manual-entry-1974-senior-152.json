@@ -11,11 +11,7 @@
       "name": "SUMEVA",
       "team": "Downers Grove"
     },
-    {
-      "id": 2,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 3,
       "name": "McNALLY",
@@ -26,11 +22,7 @@
       "name": "BROWN",
       "team": "Chanute A.F.B."
     },
-    {
-      "id": 5,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 6,
       "name": "GRUBBS",
@@ -41,11 +33,7 @@
       "name": "VANCIL",
       "team": "Sterling"
     },
-    {
-      "id": 8,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 9,
       "name": "GARRETT",
@@ -56,11 +44,7 @@
       "name": "NOLAN",
       "team": "South Stickney"
     },
-    {
-      "id": 11,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 12,
       "name": "KAIRER",
@@ -71,11 +55,7 @@
       "name": "PHELPS",
       "team": "Troy"
     },
-    {
-      "id": 14,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 15,
       "name": "TEPLER",
@@ -86,11 +66,7 @@
       "name": "THRIFT",
       "team": "Urbana Jr. High"
     },
-    {
-      "id": 17,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 18,
       "name": "FEWS",
@@ -101,11 +77,7 @@
       "name": "POSTON",
       "team": "Franklin"
     },
-    {
-      "id": 20,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 21,
       "name": "SPIKE",
@@ -116,11 +88,7 @@
       "name": "SCHMITT",
       "team": "Oak Forest"
     },
-    {
-      "id": 23,
-      "name": "Bye",
-      "team": "Bye"
-    }
+    null
   ],
   "matches": {
     "1": {

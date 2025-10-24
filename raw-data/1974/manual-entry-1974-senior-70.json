@@ -11,11 +11,7 @@
       "name": "LANDRY",
       "team": "Lincoln (Naperville)"
     },
-    {
-      "id": 2,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 3,
       "name": "KILLHOFE",
@@ -26,11 +22,7 @@
       "name": "COOKE",
       "team": "Keller Jr. High"
     },
-    {
-      "id": 5,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 6,
       "name": "A GERDES",
@@ -41,11 +33,7 @@
       "name": "VERCELOTTI",
       "team": "Troy"
     },
-    {
-      "id": 8,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 9,
       "name": "CHAMPION",
@@ -56,11 +44,7 @@
       "name": "GRANT",
       "team": "Hoopeston"
     },
-    {
-      "id": 11,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 12,
       "name": "KOONS",
@@ -71,11 +55,7 @@
       "name": "WALTERS",
       "team": "Rosette"
     },
-    {
-      "id": 14,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 15,
       "name": "HURWITZ",
@@ -86,11 +66,7 @@
       "name": "A FOWLER",
       "team": "West Chicago"
     },
-    {
-      "id": 17,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 18,
       "name": "A KELLY",
@@ -101,11 +77,7 @@
       "name": "DANE NASENBENNY",
       "team": "Joliet Boys Club"
     },
-    {
-      "id": 20,
-      "name": "Bye",
-      "team": "Bye"
-    },
+    null,
     {
       "id": 21,
       "name": "A SCHINVILLE",
@@ -116,11 +88,7 @@
       "name": "SAMPSON",
       "team": "Mahomet-Seymour"
     },
-    {
-      "id": 23,
-      "name": "Bye",
-      "team": "Bye"
-    }
+    null
   ],
   "matches": {
     "1": {
