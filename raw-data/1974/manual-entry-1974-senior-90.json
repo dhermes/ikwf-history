@@ -409,44 +409,6 @@
       "boutNumber": null,
       "result": "Dec 4-1"
     },
-    "47": {
-      "top": {
-        "choice": 0,
-        "choices": [
-          0,
-          4
-        ]
-      },
-      "bottom": {
-        "choice": 10,
-        "choices": [
-          7,
-          10
-        ]
-      },
-      "winner": "bottom",
-      "boutNumber": null,
-      "result": ""
-    },
-    "48": {
-      "top": {
-        "choice": 12,
-        "choices": [
-          12,
-          15
-        ]
-      },
-      "bottom": {
-        "choice": 18,
-        "choices": [
-          18,
-          21
-        ]
-      },
-      "winner": "bottom",
-      "boutNumber": null,
-      "result": ""
-    },
     "49": {
       "top": {
         "choice": 3,

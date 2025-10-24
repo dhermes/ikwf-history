@@ -409,44 +409,6 @@
       "boutNumber": null,
       "result": "Fall"
     },
-    "47": {
-      "top": {
-        "choice": 0,
-        "choices": [
-          0,
-          3
-        ]
-      },
-      "bottom": {
-        "choice": 9,
-        "choices": [
-          7,
-          9
-        ]
-      },
-      "winner": "bottom",
-      "boutNumber": null,
-      "result": ""
-    },
-    "48": {
-      "top": {
-        "choice": 15,
-        "choices": [
-          12,
-          15
-        ]
-      },
-      "bottom": {
-        "choice": 19,
-        "choices": [
-          19,
-          21
-        ]
-      },
-      "winner": "top",
-      "boutNumber": null,
-      "result": ""
-    },
     "49": {
       "top": {
         "choice": 1,
