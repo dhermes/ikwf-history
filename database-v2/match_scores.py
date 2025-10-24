@@ -15,6 +15,9 @@ _EDGE_CASES: dict[str, str | None] = {
     "M-Dec A.A.": None,
     "Dec CRITE": None,
     "Dec Criteria 2OT": None,
+    "OT Ref. Dec.": None,
+    "Ref. Dec.": None,
+    "Ref. Dec. 2-2": "2-2",
 }
 
 
