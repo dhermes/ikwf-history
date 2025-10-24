@@ -18,10 +18,10 @@
             "last_name": "SLUSARSKI",
             "team_full": "New Lenox"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_02",
@@ -40,7 +40,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_03",
@@ -59,7 +59,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -75,10 +75,10 @@
             "last_name": "ODDO",
             "team_full": "Oak Forest"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "OT Ref. Dec.",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_05",
@@ -94,10 +94,10 @@
             "last_name": "RUETTIGER",
             "team_full": "Joliet Boys Club"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_06",
@@ -116,7 +116,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_07",
@@ -132,10 +132,10 @@
             "last_name": "BOS",
             "team_full": "Sterling"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 4-1",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_08",
@@ -154,7 +154,197 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "A SLUSARSKI",
+            "first_name": "A",
+            "last_name": "SLUSARSKI",
+            "team_full": "New Lenox"
+          },
+          "bottom_competitor": {
+            "full_name": "HORCHER",
+            "first_name": "",
+            "last_name": "HORCHER",
+            "team_full": "Highlanders"
+          },
+          "result": "Dec 6-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "PIERRE",
+            "first_name": "",
+            "last_name": "PIERRE",
+            "team_full": "Wheaton"
+          },
+          "bottom_competitor": {
+            "full_name": "MAHLER",
+            "first_name": "",
+            "last_name": "MAHLER",
+            "team_full": "St. Doms"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "RUETTIGER",
+            "first_name": "",
+            "last_name": "RUETTIGER",
+            "team_full": "Joliet Boys Club"
+          },
+          "bottom_competitor": {
+            "full_name": "DEAN",
+            "first_name": "",
+            "last_name": "DEAN",
+            "team_full": "West Chicago"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "POWERS",
+            "first_name": "",
+            "last_name": "POWERS",
+            "team_full": "Indian Trail"
+          },
+          "bottom_competitor": {
+            "full_name": "ED DE BEVEC",
+            "first_name": "ED",
+            "last_name": "DE BEVEC",
+            "team_full": "Tinley Park"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "A SLUSARSKI",
+            "first_name": "A",
+            "last_name": "SLUSARSKI",
+            "team_full": "New Lenox"
+          },
+          "bottom_competitor": {
+            "full_name": "MAHLER",
+            "first_name": "",
+            "last_name": "MAHLER",
+            "team_full": "St. Doms"
+          },
+          "result": "Dec 5-4",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "RUETTIGER",
+            "first_name": "",
+            "last_name": "RUETTIGER",
+            "team_full": "Joliet Boys Club"
+          },
+          "bottom_competitor": {
+            "full_name": "ED DE BEVEC",
+            "first_name": "ED",
+            "last_name": "DE BEVEC",
+            "team_full": "Tinley Park"
+          },
+          "result": "Dec 6-5",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "ODDO",
+            "first_name": "",
+            "last_name": "ODDO",
+            "team_full": "Oak Forest"
+          },
+          "bottom_competitor": {
+            "full_name": "PIERRE",
+            "first_name": "",
+            "last_name": "PIERRE",
+            "team_full": "Wheaton"
+          },
+          "result": "Dec 2-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "PRESSNEY",
+            "first_name": "",
+            "last_name": "PRESSNEY",
+            "team_full": "Gemini Jr. High"
+          },
+          "bottom_competitor": {
+            "full_name": "POWERS",
+            "first_name": "",
+            "last_name": "POWERS",
+            "team_full": "Indian Trail"
+          },
+          "result": "Ref. Dec. 2-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "A SLUSARSKI",
+            "first_name": "A",
+            "last_name": "SLUSARSKI",
+            "team_full": "New Lenox"
+          },
+          "bottom_competitor": {
+            "full_name": "ODDO",
+            "first_name": "",
+            "last_name": "ODDO",
+            "team_full": "Oak Forest"
+          },
+          "result": "Dec 2-1",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "POWERS",
+            "first_name": "",
+            "last_name": "POWERS",
+            "team_full": "Indian Trail"
+          },
+          "bottom_competitor": {
+            "full_name": "RUETTIGER",
+            "first_name": "",
+            "last_name": "RUETTIGER",
+            "team_full": "Joliet Boys Club"
+          },
+          "result": "Dec 7-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -178,21 +368,21 @@
         {
           "match_slot": "consolation_third_place",
           "top_competitor": {
-            "full_name": "RUETTIGER",
-            "first_name": "",
-            "last_name": "RUETTIGER",
-            "team_full": "Joliet Boys Club"
-          },
-          "bottom_competitor": {
             "full_name": "A SLUSARSKI",
             "first_name": "A",
             "last_name": "SLUSARSKI",
             "team_full": "New Lenox"
           },
-          "result": "",
-          "result_type": "unknown",
+          "bottom_competitor": {
+            "full_name": "RUETTIGER",
+            "first_name": "",
+            "last_name": "RUETTIGER",
+            "team_full": "Joliet Boys Club"
+          },
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": true
+          "top_win": false
         },
         {
           "match_slot": "championship_first_place",
@@ -233,10 +423,10 @@
             "last_name": "GIBSON",
             "team_full": "Antioch"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 4-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_02",
@@ -252,10 +442,10 @@
             "last_name": "SLUSARSKI",
             "team_full": "New Lenox"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 3:15",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_03",
@@ -271,10 +461,10 @@
             "last_name": "GIVEN",
             "team_full": "Lincoln, Ill."
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -290,10 +480,10 @@
             "last_name": "BROWN",
             "team_full": "Franklin"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_05",
@@ -309,10 +499,10 @@
             "last_name": "BOGI",
             "team_full": "Adams"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "MD 8-0",
+          "result_type": "major",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_06",
@@ -331,7 +521,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_07",
@@ -350,7 +540,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_08",
@@ -366,13 +556,51 @@
             "last_name": "ANDREI",
             "team_full": "Hoffman"
           },
+          "result": "Default",
+          "result_type": "default",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "GIBSON",
+            "first_name": "",
+            "last_name": "GIBSON",
+            "team_full": "Antioch"
+          },
+          "bottom_competitor": {
+            "full_name": "B SLUSARSKI",
+            "first_name": "B",
+            "last_name": "SLUSARSKI",
+            "team_full": "New Lenox"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "LUCANSKY",
+            "first_name": "",
+            "last_name": "LUCANSKY",
+            "team_full": "Des Plaines"
+          },
+          "bottom_competitor": {
+            "full_name": "A QUINLAN",
+            "first_name": "A",
+            "last_name": "QUINLAN",
+            "team_full": "Tinley Park"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_quarter_03",
           "top_competitor": {
             "full_name": "BOGI",
             "first_name": "",
@@ -380,23 +608,42 @@
             "team_full": "Adams"
           },
           "bottom_competitor": {
-            "full_name": "GIBSON",
-            "first_name": "",
-            "last_name": "GIBSON",
-            "team_full": "Antioch"
+            "full_name": "BOB WHITLEY",
+            "first_name": "BOB",
+            "last_name": "WHITLEY",
+            "team_full": "Joliet Boys Club"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 5-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": true
+          "top_win": false
         },
         {
-          "match_slot": "consolation_third_place",
+          "match_slot": "championship_quarter_04",
           "top_competitor": {
+            "full_name": "GRAFF",
+            "first_name": "",
+            "last_name": "GRAFF",
+            "team_full": "Gemini Jr. High"
+          },
+          "bottom_competitor": {
             "full_name": "KELLEY",
             "first_name": "",
             "last_name": "KELLEY",
             "team_full": "Chicago Ridge"
+          },
+          "result": "MD 9-0",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "B SLUSARSKI",
+            "first_name": "B",
+            "last_name": "SLUSARSKI",
+            "team_full": "New Lenox"
           },
           "bottom_competitor": {
             "full_name": "LUCANSKY",
@@ -404,10 +651,143 @@
             "last_name": "LUCANSKY",
             "team_full": "Des Plaines"
           },
+          "result": "Dec 1-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "BOB WHITLEY",
+            "first_name": "BOB",
+            "last_name": "WHITLEY",
+            "team_full": "Joliet Boys Club"
+          },
+          "bottom_competitor": {
+            "full_name": "KELLEY",
+            "first_name": "",
+            "last_name": "KELLEY",
+            "team_full": "Chicago Ridge"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "GIBSON",
+            "first_name": "",
+            "last_name": "GIBSON",
+            "team_full": "Antioch"
+          },
+          "bottom_competitor": {
+            "full_name": "PATTON",
+            "first_name": "",
+            "last_name": "PATTON",
+            "team_full": "Woodstock"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "BOGI",
+            "first_name": "",
+            "last_name": "BOGI",
+            "team_full": "Adams"
+          },
+          "bottom_competitor": {
+            "full_name": "A EWOLDT",
+            "first_name": "A",
+            "last_name": "EWOLDT",
+            "team_full": "Wheaton"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "LUCANSKY",
+            "first_name": "",
+            "last_name": "LUCANSKY",
+            "team_full": "Des Plaines"
+          },
+          "bottom_competitor": {
+            "full_name": "GIBSON",
+            "first_name": "",
+            "last_name": "GIBSON",
+            "team_full": "Antioch"
+          },
+          "result": "Dec 6-5",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "BOGI",
+            "first_name": "",
+            "last_name": "BOGI",
+            "team_full": "Adams"
+          },
+          "bottom_competitor": {
+            "full_name": "KELLEY",
+            "first_name": "",
+            "last_name": "KELLEY",
+            "team_full": "Chicago Ridge"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "GIBSON",
+            "first_name": "",
+            "last_name": "GIBSON",
+            "team_full": "Antioch"
+          },
+          "bottom_competitor": {
+            "full_name": "BOGI",
+            "first_name": "",
+            "last_name": "BOGI",
+            "team_full": "Adams"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "LUCANSKY",
+            "first_name": "",
+            "last_name": "LUCANSKY",
+            "team_full": "Des Plaines"
+          },
+          "bottom_competitor": {
+            "full_name": "KELLEY",
+            "first_name": "",
+            "last_name": "KELLEY",
+            "team_full": "Chicago Ridge"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "championship_first_place",
@@ -423,8 +803,8 @@
             "last_name": "WHITLEY",
             "team_full": "Joliet Boys Club"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 4-2",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": false
         }
@@ -451,7 +831,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_02",
@@ -467,10 +847,10 @@
             "last_name": "COOKE",
             "team_full": "Keller Jr. High"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_03",
@@ -486,10 +866,10 @@
             "last_name": "VERCELOTTI",
             "team_full": "Troy"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 4-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -505,10 +885,10 @@
             "last_name": "GRANT",
             "team_full": "Hoopeston"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 5-1",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_05",
@@ -527,7 +907,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_06",
@@ -546,7 +926,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_07",
@@ -565,7 +945,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_08",
@@ -581,10 +961,200 @@
             "last_name": "SAMPSON",
             "team_full": "Mahomet-Seymour"
           },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "B WHALEN",
+            "first_name": "B",
+            "last_name": "WHALEN",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "COOKE",
+            "first_name": "",
+            "last_name": "COOKE",
+            "team_full": "Keller Jr. High"
+          },
+          "result": "Dec 3-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "A GERDES",
+            "first_name": "A",
+            "last_name": "GERDES",
+            "team_full": "Oak Forest"
+          },
+          "bottom_competitor": {
+            "full_name": "GRANT",
+            "first_name": "",
+            "last_name": "GRANT",
+            "team_full": "Hoopeston"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "WALTERS",
+            "first_name": "",
+            "last_name": "WALTERS",
+            "team_full": "Rosette"
+          },
+          "bottom_competitor": {
+            "full_name": "A FOWLER",
+            "first_name": "A",
+            "last_name": "FOWLER",
+            "team_full": "West Chicago"
+          },
+          "result": "Fall 0:48",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "DANE NASENBENNY",
+            "first_name": "DANE",
+            "last_name": "NASENBENNY",
+            "team_full": "Joliet Boys Club"
+          },
+          "bottom_competitor": {
+            "full_name": "SAMPSON",
+            "first_name": "",
+            "last_name": "SAMPSON",
+            "team_full": "Mahomet-Seymour"
+          },
+          "result": "Dec 6-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "B WHALEN",
+            "first_name": "B",
+            "last_name": "WHALEN",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "A GERDES",
+            "first_name": "A",
+            "last_name": "GERDES",
+            "team_full": "Oak Forest"
+          },
+          "result": "Dec 5-3",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "A FOWLER",
+            "first_name": "A",
+            "last_name": "FOWLER",
+            "team_full": "West Chicago"
+          },
+          "bottom_competitor": {
+            "full_name": "DANE NASENBENNY",
+            "first_name": "DANE",
+            "last_name": "NASENBENNY",
+            "team_full": "Joliet Boys Club"
+          },
+          "result": "Dec 3-1",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "COOKE",
+            "first_name": "",
+            "last_name": "COOKE",
+            "team_full": "Keller Jr. High"
+          },
+          "bottom_competitor": {
+            "full_name": "LANDRY",
+            "first_name": "",
+            "last_name": "LANDRY",
+            "team_full": "Lincoln (Naperville)"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "A KELLY",
+            "first_name": "A",
+            "last_name": "KELLY",
+            "team_full": "Chicago Ridge"
+          },
+          "bottom_competitor": {
+            "full_name": "SAMPSON",
+            "first_name": "",
+            "last_name": "SAMPSON",
+            "team_full": "Mahomet-Seymour"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "A GERDES",
+            "first_name": "A",
+            "last_name": "GERDES",
+            "team_full": "Oak Forest"
+          },
+          "bottom_competitor": {
+            "full_name": "COOKE",
+            "first_name": "",
+            "last_name": "COOKE",
+            "team_full": "Keller Jr. High"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "SAMPSON",
+            "first_name": "",
+            "last_name": "SAMPSON",
+            "team_full": "Mahomet-Seymour"
+          },
+          "bottom_competitor": {
+            "full_name": "A FOWLER",
+            "first_name": "A",
+            "last_name": "FOWLER",
+            "team_full": "West Chicago"
+          },
+          "result": "Dec 7-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -638,8 +1208,8 @@
             "last_name": "NASENBENNY",
             "team_full": "Joliet Boys Club"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 4-2",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": false
         }
@@ -666,7 +1236,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_02",
@@ -682,10 +1252,10 @@
             "last_name": "STEWART",
             "team_full": "Rosette"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_03",
@@ -701,10 +1271,10 @@
             "last_name": "GLUCK",
             "team_full": "Keller Jr. High"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 6-3",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -723,7 +1293,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_05",
@@ -742,7 +1312,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_06",
@@ -761,7 +1331,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_07",
@@ -780,7 +1350,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_08",
@@ -796,13 +1366,70 @@
             "last_name": "TREZZINO",
             "team_full": "Joliet Boys Club"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 2:50",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "EVANS",
+            "first_name": "",
+            "last_name": "EVANS",
+            "team_full": "Elk Grove"
+          },
+          "bottom_competitor": {
+            "full_name": "BRYANT",
+            "first_name": "",
+            "last_name": "BRYANT",
+            "team_full": "Tinley Park"
+          },
+          "result": "Dec 7-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "DOMBROWSKI",
+            "first_name": "",
+            "last_name": "DOMBROWSKI",
+            "team_full": "Sterling"
+          },
+          "bottom_competitor": {
+            "full_name": "SUMIDA",
+            "first_name": "",
+            "last_name": "SUMIDA",
+            "team_full": "Downers Grove"
+          },
+          "result": "Dec 4-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "UJIIYE",
+            "first_name": "",
+            "last_name": "UJIIYE",
+            "team_full": "Gemini Jr. High"
+          },
+          "bottom_competitor": {
+            "full_name": "STEVENS",
+            "first_name": "",
+            "last_name": "STEVENS",
+            "team_full": "Tinley Park"
+          },
+          "result": "Dec 8-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_04",
           "top_competitor": {
             "full_name": "OLALDE",
             "first_name": "",
@@ -810,22 +1437,22 @@
             "team_full": "Sterling"
           },
           "bottom_competitor": {
-            "full_name": "EVANS",
-            "first_name": "",
-            "last_name": "EVANS",
-            "team_full": "Elk Grove"
+            "full_name": "MARK TREZZINO",
+            "first_name": "MARK",
+            "last_name": "TREZZINO",
+            "team_full": "Joliet Boys Club"
           },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": true
+          "top_win": false
         },
         {
-          "match_slot": "consolation_third_place",
+          "match_slot": "championship_semi_01",
           "top_competitor": {
-            "full_name": "STEVENS",
+            "full_name": "BRYANT",
             "first_name": "",
-            "last_name": "STEVENS",
+            "last_name": "BRYANT",
             "team_full": "Tinley Park"
           },
           "bottom_competitor": {
@@ -834,10 +1461,143 @@
             "last_name": "DOMBROWSKI",
             "team_full": "Sterling"
           },
+          "result": "Dec 6-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "STEVENS",
+            "first_name": "",
+            "last_name": "STEVENS",
+            "team_full": "Tinley Park"
+          },
+          "bottom_competitor": {
+            "full_name": "MARK TREZZINO",
+            "first_name": "MARK",
+            "last_name": "TREZZINO",
+            "team_full": "Joliet Boys Club"
+          },
+          "result": "Dec 3-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "EVANS",
+            "first_name": "",
+            "last_name": "EVANS",
+            "team_full": "Elk Grove"
+          },
+          "bottom_competitor": {
+            "full_name": "STEWART",
+            "first_name": "",
+            "last_name": "STEWART",
+            "team_full": "Rosette"
+          },
+          "result": "Dec 1-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "CHECK",
+            "first_name": "",
+            "last_name": "CHECK",
+            "team_full": "Lincoln, Ill."
+          },
+          "bottom_competitor": {
+            "full_name": "OLALDE",
+            "first_name": "",
+            "last_name": "OLALDE",
+            "team_full": "Sterling"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "DOMBROWSKI",
+            "first_name": "",
+            "last_name": "DOMBROWSKI",
+            "team_full": "Sterling"
+          },
+          "bottom_competitor": {
+            "full_name": "EVANS",
+            "first_name": "",
+            "last_name": "EVANS",
+            "team_full": "Elk Grove"
+          },
+          "result": "Dec 10-3",
+          "result_type": "decision",
+          "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "OLALDE",
+            "first_name": "",
+            "last_name": "OLALDE",
+            "team_full": "Sterling"
+          },
+          "bottom_competitor": {
+            "full_name": "STEVENS",
+            "first_name": "",
+            "last_name": "STEVENS",
+            "team_full": "Tinley Park"
+          },
+          "result": "Dec 6-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "EVANS",
+            "first_name": "",
+            "last_name": "EVANS",
+            "team_full": "Elk Grove"
+          },
+          "bottom_competitor": {
+            "full_name": "OLALDE",
+            "first_name": "",
+            "last_name": "OLALDE",
+            "team_full": "Sterling"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "DOMBROWSKI",
+            "first_name": "",
+            "last_name": "DOMBROWSKI",
+            "team_full": "Sterling"
+          },
+          "bottom_competitor": {
+            "full_name": "STEVENS",
+            "first_name": "",
+            "last_name": "STEVENS",
+            "team_full": "Tinley Park"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "championship_first_place",
@@ -853,8 +1613,8 @@
             "last_name": "TREZZINO",
             "team_full": "Joliet Boys Club"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 2-0",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": false
         }
@@ -881,7 +1641,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_02",
@@ -900,7 +1660,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_03",
@@ -916,10 +1676,10 @@
             "last_name": "McCUE",
             "team_full": "Simmons (Aurora)"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 7-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -935,10 +1695,10 @@
             "last_name": "BLOUNT",
             "team_full": "Keller Jr. High"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 1-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_05",
@@ -954,10 +1714,10 @@
             "last_name": "GERDES",
             "team_full": "Oak Forest"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 2:46",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_06",
@@ -973,10 +1733,10 @@
             "last_name": "POLZ",
             "team_full": "Raiders"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_07",
@@ -995,7 +1755,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_08",
@@ -1011,18 +1771,94 @@
             "last_name": "UNRUH",
             "team_full": "West Chicago"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 2-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_quarter_01",
           "top_competitor": {
-            "full_name": "STERR",
+            "full_name": "McMAHON",
             "first_name": "",
-            "last_name": "STERR",
+            "last_name": "McMAHON",
+            "team_full": "Tinley Park"
+          },
+          "bottom_competitor": {
+            "full_name": "SUTCLIFFE",
+            "first_name": "",
+            "last_name": "SUTCLIFFE",
+            "team_full": "Apollo Jr. High"
+          },
+          "result": "Dec 6-4",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "MARIANI",
+            "first_name": "",
+            "last_name": "MARIANI",
+            "team_full": "Bloomington"
+          },
+          "bottom_competitor": {
+            "full_name": "ROTH",
+            "first_name": "",
+            "last_name": "ROTH",
             "team_full": "Joliet Boys Club"
+          },
+          "result": "Dec 2-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "B GERDES",
+            "first_name": "B",
+            "last_name": "GERDES",
+            "team_full": "Oak Forest"
+          },
+          "bottom_competitor": {
+            "full_name": "POLZ",
+            "first_name": "",
+            "last_name": "POLZ",
+            "team_full": "Raiders"
+          },
+          "result": "OT Ref. Dec.",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "B EWOLDT",
+            "first_name": "B",
+            "last_name": "EWOLDT",
+            "team_full": "Wheaton"
+          },
+          "bottom_competitor": {
+            "full_name": "DAN UNRUH",
+            "first_name": "DAN",
+            "last_name": "UNRUH",
+            "team_full": "West Chicago"
+          },
+          "result": "MD 12-2",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "McMAHON",
+            "first_name": "",
+            "last_name": "McMAHON",
+            "team_full": "Tinley Park"
           },
           "bottom_competitor": {
             "full_name": "MARIANI",
@@ -1030,18 +1866,75 @@
             "last_name": "MARIANI",
             "team_full": "Bloomington"
           },
+          "result": "Dec 6-2 OT",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "POLZ",
+            "first_name": "",
+            "last_name": "POLZ",
+            "team_full": "Raiders"
+          },
+          "bottom_competitor": {
+            "full_name": "DAN UNRUH",
+            "first_name": "DAN",
+            "last_name": "UNRUH",
+            "team_full": "West Chicago"
+          },
+          "result": "Dec 4-2 OT",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "SUTCLIFFE",
+            "first_name": "",
+            "last_name": "SUTCLIFFE",
+            "team_full": "Apollo Jr. High"
+          },
+          "bottom_competitor": {
+            "full_name": "MILITELLO",
+            "first_name": "",
+            "last_name": "MILITELLO",
+            "team_full": "East Alton"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
           "top_win": true
         },
         {
-          "match_slot": "consolation_third_place",
+          "match_slot": "consolation_round5_02",
           "top_competitor": {
-            "full_name": "POLZ",
+            "full_name": "STERR",
             "first_name": "",
-            "last_name": "POLZ",
-            "team_full": "Raiders"
+            "last_name": "STERR",
+            "team_full": "Joliet Boys Club"
+          },
+          "bottom_competitor": {
+            "full_name": "B EWOLDT",
+            "first_name": "B",
+            "last_name": "EWOLDT",
+            "team_full": "Wheaton"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "MARIANI",
+            "first_name": "",
+            "last_name": "MARIANI",
+            "team_full": "Bloomington"
           },
           "bottom_competitor": {
             "full_name": "SUTCLIFFE",
@@ -1052,7 +1945,64 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": true
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "STERR",
+            "first_name": "",
+            "last_name": "STERR",
+            "team_full": "Joliet Boys Club"
+          },
+          "bottom_competitor": {
+            "full_name": "POLZ",
+            "first_name": "",
+            "last_name": "POLZ",
+            "team_full": "Raiders"
+          },
+          "result": "Dec 13-8",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "MARIANI",
+            "first_name": "",
+            "last_name": "MARIANI",
+            "team_full": "Bloomington"
+          },
+          "bottom_competitor": {
+            "full_name": "STERR",
+            "first_name": "",
+            "last_name": "STERR",
+            "team_full": "Joliet Boys Club"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "SUTCLIFFE",
+            "first_name": "",
+            "last_name": "SUTCLIFFE",
+            "team_full": "Apollo Jr. High"
+          },
+          "bottom_competitor": {
+            "full_name": "POLZ",
+            "first_name": "",
+            "last_name": "POLZ",
+            "team_full": "Raiders"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "championship_first_place",
@@ -1068,8 +2018,8 @@
             "last_name": "UNRUH",
             "team_full": "West Chicago"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 1-0",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": false
         }
@@ -1093,10 +2043,10 @@
             "last_name": "REGLIN",
             "team_full": "Sterling"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 4-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_02",
@@ -1112,10 +2062,10 @@
             "last_name": "BEECHY",
             "team_full": "Oak Forest"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 9-2",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_03",
@@ -1134,7 +2084,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -1150,10 +2100,10 @@
             "last_name": "McCUE",
             "team_full": "Simmons (Aurora)"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 6-4",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_05",
@@ -1169,10 +2119,10 @@
             "last_name": "KINKEAD",
             "team_full": "East Moline"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 6-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_06",
@@ -1191,7 +2141,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_07",
@@ -1207,10 +2157,10 @@
             "last_name": "PORTER",
             "team_full": "Northfield Park District"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 4-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_08",
@@ -1226,18 +2176,18 @@
             "last_name": "DAVIS",
             "team_full": "Huntley"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_quarter_01",
           "top_competitor": {
-            "full_name": "KINKEAD",
+            "full_name": "REGLIN",
             "first_name": "",
-            "last_name": "KINKEAD",
-            "team_full": "East Moline"
+            "last_name": "REGLIN",
+            "team_full": "Sterling"
           },
           "bottom_competitor": {
             "full_name": "BEECHY",
@@ -1251,12 +2201,69 @@
           "top_win": true
         },
         {
-          "match_slot": "consolation_third_place",
+          "match_slot": "championship_quarter_02",
           "top_competitor": {
+            "full_name": "CARTER",
+            "first_name": "",
+            "last_name": "CARTER",
+            "team_full": "Woodridge"
+          },
+          "bottom_competitor": {
+            "full_name": "RICE",
+            "first_name": "",
+            "last_name": "RICE",
+            "team_full": "Adams"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "KINKEAD",
+            "first_name": "",
+            "last_name": "KINKEAD",
+            "team_full": "East Moline"
+          },
+          "bottom_competitor": {
+            "full_name": "DAIDONE",
+            "first_name": "",
+            "last_name": "DAIDONE",
+            "team_full": "Oak Forest"
+          },
+          "result": "MD 11-3",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "BOB PORTER",
+            "first_name": "BOB",
+            "last_name": "PORTER",
+            "team_full": "Northfield Park District"
+          },
+          "bottom_competitor": {
             "full_name": "DAVIS",
             "first_name": "",
             "last_name": "DAVIS",
             "team_full": "Huntley"
+          },
+          "result": "Dec 1-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "REGLIN",
+            "first_name": "",
+            "last_name": "REGLIN",
+            "team_full": "Sterling"
           },
           "bottom_competitor": {
             "full_name": "CARTER",
@@ -1264,10 +2271,143 @@
             "last_name": "CARTER",
             "team_full": "Woodridge"
           },
+          "result": "OT Ref. Dec.",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "KINKEAD",
+            "first_name": "",
+            "last_name": "KINKEAD",
+            "team_full": "East Moline"
+          },
+          "bottom_competitor": {
+            "full_name": "BOB PORTER",
+            "first_name": "BOB",
+            "last_name": "PORTER",
+            "team_full": "Northfield Park District"
+          },
+          "result": "Dec 2-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "BEECHY",
+            "first_name": "",
+            "last_name": "BEECHY",
+            "team_full": "Oak Forest"
+          },
+          "bottom_competitor": {
+            "full_name": "EADS",
+            "first_name": "",
+            "last_name": "EADS",
+            "team_full": "Jerseyville"
+          },
+          "result": "Dec 4-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "McTAGUE",
+            "first_name": "",
+            "last_name": "McTAGUE",
+            "team_full": "Morris"
+          },
+          "bottom_competitor": {
+            "full_name": "DAVIS",
+            "first_name": "",
+            "last_name": "DAVIS",
+            "team_full": "Huntley"
+          },
+          "result": "Dec 3-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "CARTER",
+            "first_name": "",
+            "last_name": "CARTER",
+            "team_full": "Woodridge"
+          },
+          "bottom_competitor": {
+            "full_name": "BEECHY",
+            "first_name": "",
+            "last_name": "BEECHY",
+            "team_full": "Oak Forest"
+          },
+          "result": "Dec 9-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "DAVIS",
+            "first_name": "",
+            "last_name": "DAVIS",
+            "team_full": "Huntley"
+          },
+          "bottom_competitor": {
+            "full_name": "KINKEAD",
+            "first_name": "",
+            "last_name": "KINKEAD",
+            "team_full": "East Moline"
+          },
+          "result": "Dec 7-3",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "BEECHY",
+            "first_name": "",
+            "last_name": "BEECHY",
+            "team_full": "Oak Forest"
+          },
+          "bottom_competitor": {
+            "full_name": "KINKEAD",
+            "first_name": "",
+            "last_name": "KINKEAD",
+            "team_full": "East Moline"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": true
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "CARTER",
+            "first_name": "",
+            "last_name": "CARTER",
+            "team_full": "Woodridge"
+          },
+          "bottom_competitor": {
+            "full_name": "DAVIS",
+            "first_name": "",
+            "last_name": "DAVIS",
+            "team_full": "Huntley"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "championship_first_place",
@@ -1283,8 +2423,8 @@
             "last_name": "PORTER",
             "team_full": "Northfield Park District"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 3-0",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": false
         }
@@ -1308,10 +2448,10 @@
             "last_name": "HOBBS",
             "team_full": "Catlin"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_02",
@@ -1327,10 +2467,10 @@
             "last_name": "TUCKER",
             "team_full": "Franklin"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_03",
@@ -1346,10 +2486,10 @@
             "last_name": "QUINLAN",
             "team_full": "Tinley Park"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 6-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -1365,10 +2505,10 @@
             "last_name": "BLACKMAN",
             "team_full": "Raiders"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 6-3",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_05",
@@ -1387,7 +2527,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_06",
@@ -1406,7 +2546,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_07",
@@ -1422,10 +2562,10 @@
             "last_name": "KELLY",
             "team_full": "Chicago Ridge"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 8-2",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_08",
@@ -1441,18 +2581,37 @@
             "last_name": "KERKES",
             "team_full": "Gemini Jr. High"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 6-3",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_quarter_01",
           "top_competitor": {
-            "full_name": "PERRY",
+            "full_name": "A VOORHEES",
+            "first_name": "A",
+            "last_name": "VOORHEES",
+            "team_full": "East Alton"
+          },
+          "bottom_competitor": {
+            "full_name": "WELLNER",
             "first_name": "",
-            "last_name": "PERRY",
-            "team_full": "Bensenville"
+            "last_name": "WELLNER",
+            "team_full": "Joliet Boys Club"
+          },
+          "result": "Dec 4-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "TONY CRUZ",
+            "first_name": "TONY",
+            "last_name": "CRUZ",
+            "team_full": "West Chicago"
           },
           "bottom_competitor": {
             "full_name": "BLACKMAN",
@@ -1464,6 +2623,177 @@
           "result_type": "unknown",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "JANICEK",
+            "first_name": "",
+            "last_name": "JANICEK",
+            "team_full": "Belleville"
+          },
+          "bottom_competitor": {
+            "full_name": "COPTENS",
+            "first_name": "",
+            "last_name": "COPTENS",
+            "team_full": "Coolidge"
+          },
+          "result": "Dec 7-1",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "B KELLY",
+            "first_name": "B",
+            "last_name": "KELLY",
+            "team_full": "Chicago Ridge"
+          },
+          "bottom_competitor": {
+            "full_name": "CHERRY",
+            "first_name": "",
+            "last_name": "CHERRY",
+            "team_full": "Huntley"
+          },
+          "result": "Dec 10-4",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "WELLNER",
+            "first_name": "",
+            "last_name": "WELLNER",
+            "team_full": "Joliet Boys Club"
+          },
+          "bottom_competitor": {
+            "full_name": "TONY CRUZ",
+            "first_name": "TONY",
+            "last_name": "CRUZ",
+            "team_full": "West Chicago"
+          },
+          "result": "Dec 4-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "COPTENS",
+            "first_name": "",
+            "last_name": "COPTENS",
+            "team_full": "Coolidge"
+          },
+          "bottom_competitor": {
+            "full_name": "B KELLY",
+            "first_name": "B",
+            "last_name": "KELLY",
+            "team_full": "Chicago Ridge"
+          },
+          "result": "Dec 4-1",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "B QUINLAN",
+            "first_name": "B",
+            "last_name": "QUINLAN",
+            "team_full": "Tinley Park"
+          },
+          "bottom_competitor": {
+            "full_name": "BLACKMAN",
+            "first_name": "",
+            "last_name": "BLACKMAN",
+            "team_full": "Raiders"
+          },
+          "result": "Dec 6-5",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "PERRY",
+            "first_name": "",
+            "last_name": "PERRY",
+            "team_full": "Bensenville"
+          },
+          "bottom_competitor": {
+            "full_name": "CHERRY",
+            "first_name": "",
+            "last_name": "CHERRY",
+            "team_full": "Huntley"
+          },
+          "result": "Dec 7-4",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "WELLNER",
+            "first_name": "",
+            "last_name": "WELLNER",
+            "team_full": "Joliet Boys Club"
+          },
+          "bottom_competitor": {
+            "full_name": "BLACKMAN",
+            "first_name": "",
+            "last_name": "BLACKMAN",
+            "team_full": "Raiders"
+          },
+          "result": "Dec 3-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "PERRY",
+            "first_name": "",
+            "last_name": "PERRY",
+            "team_full": "Bensenville"
+          },
+          "bottom_competitor": {
+            "full_name": "COPTENS",
+            "first_name": "",
+            "last_name": "COPTENS",
+            "team_full": "Coolidge"
+          },
+          "result": "Dec 8-4",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "BLACKMAN",
+            "first_name": "",
+            "last_name": "BLACKMAN",
+            "team_full": "Raiders"
+          },
+          "bottom_competitor": {
+            "full_name": "PERRY",
+            "first_name": "",
+            "last_name": "PERRY",
+            "team_full": "Bensenville"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "consolation_third_place",
@@ -1479,8 +2809,8 @@
             "last_name": "COPTENS",
             "team_full": "Coolidge"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 3-2",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         },
@@ -1523,10 +2853,10 @@
             "last_name": "SLUSARSKLI",
             "team_full": "New Lenox"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 6-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_02",
@@ -1542,10 +2872,10 @@
             "last_name": "ALLMAN",
             "team_full": "Chanute A.F.B."
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_03",
@@ -1564,7 +2894,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -1580,10 +2910,10 @@
             "last_name": "CAPODICE",
             "team_full": "Tinley Park"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 4-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_05",
@@ -1599,10 +2929,10 @@
             "last_name": "QUAS",
             "team_full": "Plainfield"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 4-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_06",
@@ -1618,10 +2948,10 @@
             "last_name": "CHAPMAN",
             "team_full": "Fisher"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 0:56",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_07",
@@ -1640,7 +2970,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_08",
@@ -1656,37 +2986,18 @@
             "last_name": "FERREIRA",
             "team_full": "Oak Forest"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 4-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_quarter_01",
           "top_competitor": {
-            "full_name": "QUAS",
-            "first_name": "",
-            "last_name": "QUAS",
-            "team_full": "Plainfield"
-          },
-          "bottom_competitor": {
-            "full_name": "BURGOS",
-            "first_name": "",
-            "last_name": "BURGOS",
-            "team_full": "Rosette"
-          },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": null,
-          "top_win": true
-        },
-        {
-          "match_slot": "consolation_third_place",
-          "top_competitor": {
-            "full_name": "KRIST",
-            "first_name": "",
-            "last_name": "KRIST",
-            "team_full": "Raiders"
+            "full_name": "B VOORHEES",
+            "first_name": "B",
+            "last_name": "VOORHEES",
+            "team_full": "East Alton"
           },
           "bottom_competitor": {
             "full_name": "MARGIOTTA",
@@ -1697,7 +3008,216 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "BURGOS",
+            "first_name": "",
+            "last_name": "BURGOS",
+            "team_full": "Rosette"
+          },
+          "bottom_competitor": {
+            "full_name": "PHIL WALTERS",
+            "first_name": "PHIL",
+            "last_name": "WALTERS",
+            "team_full": "Des Plaines"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "QUAS",
+            "first_name": "",
+            "last_name": "QUAS",
+            "team_full": "Plainfield"
+          },
+          "bottom_competitor": {
+            "full_name": "B FOWLER",
+            "first_name": "B",
+            "last_name": "FOWLER",
+            "team_full": "West Chicago"
+          },
+          "result": "Dec 3-0",
+          "result_type": "decision",
+          "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "VERBEKE",
+            "first_name": "",
+            "last_name": "VERBEKE",
+            "team_full": "Wilson"
+          },
+          "bottom_competitor": {
+            "full_name": "FERREIRA",
+            "first_name": "",
+            "last_name": "FERREIRA",
+            "team_full": "Oak Forest"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "MARGIOTTA",
+            "first_name": "",
+            "last_name": "MARGIOTTA",
+            "team_full": "Highlanders"
+          },
+          "bottom_competitor": {
+            "full_name": "PHIL WALTERS",
+            "first_name": "PHIL",
+            "last_name": "WALTERS",
+            "team_full": "Des Plaines"
+          },
+          "result": "Dec 2-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "QUAS",
+            "first_name": "",
+            "last_name": "QUAS",
+            "team_full": "Plainfield"
+          },
+          "bottom_competitor": {
+            "full_name": "FERREIRA",
+            "first_name": "",
+            "last_name": "FERREIRA",
+            "team_full": "Oak Forest"
+          },
+          "result": "Dec 5-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "CAPODICE",
+            "first_name": "",
+            "last_name": "CAPODICE",
+            "team_full": "Tinley Park"
+          },
+          "bottom_competitor": {
+            "full_name": "BURGOS",
+            "first_name": "",
+            "last_name": "BURGOS",
+            "team_full": "Rosette"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "KRIST",
+            "first_name": "",
+            "last_name": "KRIST",
+            "team_full": "Raiders"
+          },
+          "bottom_competitor": {
+            "full_name": "VERBEKE",
+            "first_name": "",
+            "last_name": "VERBEKE",
+            "team_full": "Wilson"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "MARGIOTTA",
+            "first_name": "",
+            "last_name": "MARGIOTTA",
+            "team_full": "Highlanders"
+          },
+          "bottom_competitor": {
+            "full_name": "BURGOS",
+            "first_name": "",
+            "last_name": "BURGOS",
+            "team_full": "Rosette"
+          },
+          "result": "Dec 7-5",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "KRIST",
+            "first_name": "",
+            "last_name": "KRIST",
+            "team_full": "Raiders"
+          },
+          "bottom_competitor": {
+            "full_name": "QUAS",
+            "first_name": "",
+            "last_name": "QUAS",
+            "team_full": "Plainfield"
+          },
+          "result": "Ref. Dec.",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "BURGOS",
+            "first_name": "",
+            "last_name": "BURGOS",
+            "team_full": "Rosette"
+          },
+          "bottom_competitor": {
+            "full_name": "QUAS",
+            "first_name": "",
+            "last_name": "QUAS",
+            "team_full": "Plainfield"
+          },
+          "result": "Dec 7-5",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "MARGIOTTA",
+            "first_name": "",
+            "last_name": "MARGIOTTA",
+            "team_full": "Highlanders"
+          },
+          "bottom_competitor": {
+            "full_name": "KRIST",
+            "first_name": "",
+            "last_name": "KRIST",
+            "team_full": "Raiders"
+          },
+          "result": "Dec 2-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "championship_first_place",
@@ -1713,8 +3233,8 @@
             "last_name": "FERREIRA",
             "team_full": "Oak Forest"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 7-0",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         }
@@ -1741,7 +3261,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_02",
@@ -1757,10 +3277,10 @@
             "last_name": "DANIELS",
             "team_full": "Troy"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_03",
@@ -1776,10 +3296,10 @@
             "last_name": "TWITTEY",
             "team_full": "Mattoon"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "MD 11-2",
+          "result_type": "major",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -1798,7 +3318,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_05",
@@ -1814,10 +3334,10 @@
             "last_name": "LUNDQUIST",
             "team_full": "West Chicago"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 5-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_06",
@@ -1836,7 +3356,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_07",
@@ -1855,7 +3375,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_08",
@@ -1871,10 +3391,200 @@
             "last_name": "RYAN",
             "team_full": "Sterling"
           },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "DUCKWORTH",
+            "first_name": "",
+            "last_name": "DUCKWORTH",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "SUMMERS",
+            "first_name": "",
+            "last_name": "SUMMERS",
+            "team_full": "Huntley"
+          },
+          "result": "MD 8-0",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "MILLER",
+            "first_name": "",
+            "last_name": "MILLER",
+            "team_full": "Holmes"
+          },
+          "bottom_competitor": {
+            "full_name": "BOTHWELL",
+            "first_name": "",
+            "last_name": "BOTHWELL",
+            "team_full": "Tinley Park"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "LUNDQUIST",
+            "first_name": "",
+            "last_name": "LUNDQUIST",
+            "team_full": "West Chicago"
+          },
+          "bottom_competitor": {
+            "full_name": "CHANCEY",
+            "first_name": "",
+            "last_name": "CHANCEY",
+            "team_full": "Plainfield"
+          },
+          "result": "Dec 2-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "MARTINEZ",
+            "first_name": "",
+            "last_name": "MARTINEZ",
+            "team_full": "Holmes"
+          },
+          "bottom_competitor": {
+            "full_name": "BOB RYAN",
+            "first_name": "BOB",
+            "last_name": "RYAN",
+            "team_full": "Sterling"
+          },
+          "result": "MD 10-2",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "SUMMERS",
+            "first_name": "",
+            "last_name": "SUMMERS",
+            "team_full": "Huntley"
+          },
+          "bottom_competitor": {
+            "full_name": "BOTHWELL",
+            "first_name": "",
+            "last_name": "BOTHWELL",
+            "team_full": "Tinley Park"
+          },
+          "result": "Dec 4-3",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "LUNDQUIST",
+            "first_name": "",
+            "last_name": "LUNDQUIST",
+            "team_full": "West Chicago"
+          },
+          "bottom_competitor": {
+            "full_name": "BOB RYAN",
+            "first_name": "BOB",
+            "last_name": "RYAN",
+            "team_full": "Sterling"
+          },
+          "result": "Dec 7-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "CORTEZ",
+            "first_name": "",
+            "last_name": "CORTEZ",
+            "team_full": "East Moline"
+          },
+          "bottom_competitor": {
+            "full_name": "MILLER",
+            "first_name": "",
+            "last_name": "MILLER",
+            "team_full": "Holmes"
+          },
+          "result": "Dec 7-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "GASCA",
+            "first_name": "",
+            "last_name": "GASCA",
+            "team_full": "Conrady"
+          },
+          "bottom_competitor": {
+            "full_name": "MARTINEZ",
+            "first_name": "",
+            "last_name": "MARTINEZ",
+            "team_full": "Holmes"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "SUMMERS",
+            "first_name": "",
+            "last_name": "SUMMERS",
+            "team_full": "Huntley"
+          },
+          "bottom_competitor": {
+            "full_name": "MILLER",
+            "first_name": "",
+            "last_name": "MILLER",
+            "team_full": "Holmes"
+          },
+          "result": "Dec 9-7",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "GASCA",
+            "first_name": "",
+            "last_name": "GASCA",
+            "team_full": "Conrady"
+          },
+          "bottom_competitor": {
+            "full_name": "LUNDQUIST",
+            "first_name": "",
+            "last_name": "LUNDQUIST",
+            "team_full": "West Chicago"
+          },
+          "result": "Dec 7-5",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -1928,8 +3638,8 @@
             "last_name": "RYAN",
             "team_full": "Sterling"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 4-0",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": false
         }
@@ -1953,10 +3663,10 @@
             "last_name": "KELLY",
             "team_full": "Lincoln (Naperville)"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 6-4",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_02",
@@ -1972,10 +3682,10 @@
             "last_name": "PERALES",
             "team_full": "Frost"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 0:54",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_03",
@@ -1991,10 +3701,10 @@
             "last_name": "COLBERT",
             "team_full": "New Lenox"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 9-5",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -2010,10 +3720,10 @@
             "last_name": "POWELL",
             "team_full": "Mattoon"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 2-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_05",
@@ -2029,10 +3739,10 @@
             "last_name": "KOEHLING",
             "team_full": "Huntley"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 4-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_06",
@@ -2051,7 +3761,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_07",
@@ -2067,10 +3777,10 @@
             "last_name": "DILLMAN",
             "team_full": "Troy"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 6-2",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_08",
@@ -2086,10 +3796,200 @@
             "last_name": "SEKANDER",
             "team_full": "Mahomet-Seymour"
           },
+          "result": "Fall 0:43",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "KELLY",
+            "first_name": "",
+            "last_name": "KELLY",
+            "team_full": "Lincoln (Naperville)"
+          },
+          "bottom_competitor": {
+            "full_name": "RICH YALE",
+            "first_name": "RICH",
+            "last_name": "YALE",
+            "team_full": "Northfield Park District"
+          },
+          "result": "Dec 5-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "NOAK",
+            "first_name": "",
+            "last_name": "NOAK",
+            "team_full": "Tinley Park"
+          },
+          "bottom_competitor": {
+            "full_name": "CARLSON",
+            "first_name": "",
+            "last_name": "CARLSON",
+            "team_full": "East Moline"
+          },
+          "result": "MD 10-2",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "KOEHLING",
+            "first_name": "",
+            "last_name": "KOEHLING",
+            "team_full": "Huntley"
+          },
+          "bottom_competitor": {
+            "full_name": "MANUSOS",
+            "first_name": "",
+            "last_name": "MANUSOS",
+            "team_full": "Lake Villa"
+          },
+          "result": "Dec 7-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "DILLMAN",
+            "first_name": "",
+            "last_name": "DILLMAN",
+            "team_full": "Troy"
+          },
+          "bottom_competitor": {
+            "full_name": "SEKANDER",
+            "first_name": "",
+            "last_name": "SEKANDER",
+            "team_full": "Mahomet-Seymour"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "RICH YALE",
+            "first_name": "RICH",
+            "last_name": "YALE",
+            "team_full": "Northfield Park District"
+          },
+          "bottom_competitor": {
+            "full_name": "NOAK",
+            "first_name": "",
+            "last_name": "NOAK",
+            "team_full": "Tinley Park"
+          },
+          "result": "Dec 8-6",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "KOEHLING",
+            "first_name": "",
+            "last_name": "KOEHLING",
+            "team_full": "Huntley"
+          },
+          "bottom_competitor": {
+            "full_name": "DILLMAN",
+            "first_name": "",
+            "last_name": "DILLMAN",
+            "team_full": "Troy"
+          },
+          "result": "Dec 3-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "KELLY",
+            "first_name": "",
+            "last_name": "KELLY",
+            "team_full": "Lincoln (Naperville)"
+          },
+          "bottom_competitor": {
+            "full_name": "PERALES",
+            "first_name": "",
+            "last_name": "PERALES",
+            "team_full": "Frost"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "SANDS",
+            "first_name": "",
+            "last_name": "SANDS",
+            "team_full": "Scanlon"
+          },
+          "bottom_competitor": {
+            "full_name": "SEKANDER",
+            "first_name": "",
+            "last_name": "SEKANDER",
+            "team_full": "Mahomet-Seymour"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "NOAK",
+            "first_name": "",
+            "last_name": "NOAK",
+            "team_full": "Tinley Park"
+          },
+          "bottom_competitor": {
+            "full_name": "PERALES",
+            "first_name": "",
+            "last_name": "PERALES",
+            "team_full": "Frost"
+          },
+          "result": "Dec 4-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "SANDS",
+            "first_name": "",
+            "last_name": "SANDS",
+            "team_full": "Scanlon"
+          },
+          "bottom_competitor": {
+            "full_name": "KOEHLING",
+            "first_name": "",
+            "last_name": "KOEHLING",
+            "team_full": "Huntley"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -2143,8 +4043,8 @@
             "last_name": "DILLMAN",
             "team_full": "Troy"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 11-10",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         }
@@ -2171,7 +4071,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_02",
@@ -2190,7 +4090,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_03",
@@ -2209,7 +4109,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -2225,10 +4125,10 @@
             "last_name": "SMITH",
             "team_full": "Woodridge"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 3-2",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_05",
@@ -2247,7 +4147,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_06",
@@ -2266,7 +4166,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_07",
@@ -2285,7 +4185,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_08",
@@ -2304,7 +4204,197 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "DARRELL HASTY",
+            "first_name": "DARRELL",
+            "last_name": "HASTY",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "ZOLNER",
+            "first_name": "",
+            "last_name": "ZOLNER",
+            "team_full": "Tinley Park"
+          },
+          "result": "Dec 4-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "PEAL",
+            "first_name": "",
+            "last_name": "PEAL",
+            "team_full": "Geneseo"
+          },
+          "bottom_competitor": {
+            "full_name": "SMITH",
+            "first_name": "",
+            "last_name": "SMITH",
+            "team_full": "Woodridge"
+          },
+          "result": "Dec 1-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "STEWART",
+            "first_name": "",
+            "last_name": "STEWART",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "HAMMETT",
+            "first_name": "",
+            "last_name": "HAMMETT",
+            "team_full": "Huntley"
+          },
+          "result": "Dec 3-1",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "GOBE",
+            "first_name": "",
+            "last_name": "GOBE",
+            "team_full": "West Chicago"
+          },
+          "bottom_competitor": {
+            "full_name": "POWELL",
+            "first_name": "",
+            "last_name": "POWELL",
+            "team_full": "Troy"
+          },
+          "result": "Dec 5-3 OT",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "DARRELL HASTY",
+            "first_name": "DARRELL",
+            "last_name": "HASTY",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "SMITH",
+            "first_name": "",
+            "last_name": "SMITH",
+            "team_full": "Woodridge"
+          },
+          "result": "Dec 6-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "HAMMETT",
+            "first_name": "",
+            "last_name": "HAMMETT",
+            "team_full": "Huntley"
+          },
+          "bottom_competitor": {
+            "full_name": "GOBE",
+            "first_name": "",
+            "last_name": "GOBE",
+            "team_full": "West Chicago"
+          },
+          "result": "OT Ref. Dec.",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "ZOLNER",
+            "first_name": "",
+            "last_name": "ZOLNER",
+            "team_full": "Tinley Park"
+          },
+          "bottom_competitor": {
+            "full_name": "SCHOONOVER",
+            "first_name": "",
+            "last_name": "SCHOONOVER",
+            "team_full": "Holmes"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "STEWART",
+            "first_name": "",
+            "last_name": "STEWART",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "KLEINSCHMIDT",
+            "first_name": "",
+            "last_name": "KLEINSCHMIDT",
+            "team_full": "Oak Forest"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "SMITH",
+            "first_name": "",
+            "last_name": "SMITH",
+            "team_full": "Woodridge"
+          },
+          "bottom_competitor": {
+            "full_name": "ZOLNER",
+            "first_name": "",
+            "last_name": "ZOLNER",
+            "team_full": "Tinley Park"
+          },
+          "result": "Dec 9-4",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "STEWART",
+            "first_name": "",
+            "last_name": "STEWART",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "GOBE",
+            "first_name": "",
+            "last_name": "GOBE",
+            "team_full": "West Chicago"
+          },
+          "result": "Dec 3-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -2328,21 +4418,21 @@
         {
           "match_slot": "consolation_third_place",
           "top_competitor": {
-            "full_name": "GOBE",
-            "first_name": "",
-            "last_name": "GOBE",
-            "team_full": "West Chicago"
-          },
-          "bottom_competitor": {
             "full_name": "SMITH",
             "first_name": "",
             "last_name": "SMITH",
             "team_full": "Woodridge"
           },
+          "bottom_competitor": {
+            "full_name": "GOBE",
+            "first_name": "",
+            "last_name": "GOBE",
+            "team_full": "West Chicago"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": true
+          "top_win": false
         },
         {
           "match_slot": "championship_first_place",
@@ -2386,7 +4476,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_02",
@@ -2402,10 +4492,10 @@
             "last_name": "OTTE",
             "team_full": "Raiders"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 7-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_03",
@@ -2421,10 +4511,10 @@
             "last_name": "WILLIAMS",
             "team_full": "Huntley"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_04",
@@ -2443,7 +4533,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_05",
@@ -2462,7 +4552,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_06",
@@ -2481,7 +4571,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_07",
@@ -2497,10 +4587,10 @@
             "last_name": "CHIRICO",
             "team_full": "Lincoln (Naperville)"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 0:23",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_08",
@@ -2516,18 +4606,18 @@
             "last_name": "PINEDA",
             "team_full": "West Chicago"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 0:27",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_quarter_01",
           "top_competitor": {
-            "full_name": "BRENNAN",
+            "full_name": "GRIFFIN",
             "first_name": "",
-            "last_name": "BRENNAN",
-            "team_full": "Gemini Jr. High"
+            "last_name": "GRIFFIN",
+            "team_full": "Oak Forest"
           },
           "bottom_competitor": {
             "full_name": "CAVAZOS",
@@ -2535,18 +4625,113 @@
             "last_name": "CAVAZOS",
             "team_full": "Sterling"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 9-2",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": true
+          "top_win": false
         },
         {
-          "match_slot": "consolation_third_place",
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "WILLIAMS",
+            "first_name": "",
+            "last_name": "WILLIAMS",
+            "team_full": "Huntley"
+          },
+          "bottom_competitor": {
+            "full_name": "ZIMMERMAN",
+            "first_name": "",
+            "last_name": "ZIMMERMAN",
+            "team_full": "Highlanders"
+          },
+          "result": "Dec 7-6",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "HARTMAN",
+            "first_name": "",
+            "last_name": "HARTMAN",
+            "team_full": "Carterville"
+          },
+          "bottom_competitor": {
+            "full_name": "BRENNAN",
+            "first_name": "",
+            "last_name": "BRENNAN",
+            "team_full": "Gemini Jr. High"
+          },
+          "result": "TF 15-0",
+          "result_type": "tech",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_04",
           "top_competitor": {
             "full_name": "CHIRICO",
             "first_name": "",
             "last_name": "CHIRICO",
             "team_full": "Lincoln (Naperville)"
+          },
+          "bottom_competitor": {
+            "full_name": "ED PINEDA",
+            "first_name": "ED",
+            "last_name": "PINEDA",
+            "team_full": "West Chicago"
+          },
+          "result": "Dec 4-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "CAVAZOS",
+            "first_name": "",
+            "last_name": "CAVAZOS",
+            "team_full": "Sterling"
+          },
+          "bottom_competitor": {
+            "full_name": "ZIMMERMAN",
+            "first_name": "",
+            "last_name": "ZIMMERMAN",
+            "team_full": "Highlanders"
+          },
+          "result": "Dec 6-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "BRENNAN",
+            "first_name": "",
+            "last_name": "BRENNAN",
+            "team_full": "Gemini Jr. High"
+          },
+          "bottom_competitor": {
+            "full_name": "ED PINEDA",
+            "first_name": "ED",
+            "last_name": "PINEDA",
+            "team_full": "West Chicago"
+          },
+          "result": "Dec 6-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "THOMAS",
+            "first_name": "",
+            "last_name": "THOMAS",
+            "team_full": "Hinsdale"
           },
           "bottom_competitor": {
             "full_name": "WILLIAMS",
@@ -2557,7 +4742,102 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "TWAIT",
+            "first_name": "",
+            "last_name": "TWAIT",
+            "team_full": "Wilmington"
+          },
+          "bottom_competitor": {
+            "full_name": "CHIRICO",
+            "first_name": "",
+            "last_name": "CHIRICO",
+            "team_full": "Lincoln (Naperville)"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "CAVAZOS",
+            "first_name": "",
+            "last_name": "CAVAZOS",
+            "team_full": "Sterling"
+          },
+          "bottom_competitor": {
+            "full_name": "WILLIAMS",
+            "first_name": "",
+            "last_name": "WILLIAMS",
+            "team_full": "Huntley"
+          },
+          "result": "Default",
+          "result_type": "default",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "CHIRICO",
+            "first_name": "",
+            "last_name": "CHIRICO",
+            "team_full": "Lincoln (Naperville)"
+          },
+          "bottom_competitor": {
+            "full_name": "BRENNAN",
+            "first_name": "",
+            "last_name": "BRENNAN",
+            "team_full": "Gemini Jr. High"
+          },
+          "result": "Dec 2-0",
+          "result_type": "decision",
+          "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "CAVAZOS",
+            "first_name": "",
+            "last_name": "CAVAZOS",
+            "team_full": "Sterling"
+          },
+          "bottom_competitor": {
+            "full_name": "BRENNAN",
+            "first_name": "",
+            "last_name": "BRENNAN",
+            "team_full": "Gemini Jr. High"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "WILLIAMS",
+            "first_name": "",
+            "last_name": "WILLIAMS",
+            "team_full": "Huntley"
+          },
+          "bottom_competitor": {
+            "full_name": "CHIRICO",
+            "first_name": "",
+            "last_name": "CHIRICO",
+            "team_full": "Lincoln (Naperville)"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "championship_first_place",
@@ -2573,8 +4853,8 @@
             "last_name": "PINEDA",
             "team_full": "West Chicago"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "MD 10-1",
+          "result_type": "major",
           "bout_number": null,
           "top_win": false
         }
@@ -2601,7 +4881,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_02",
@@ -2617,10 +4897,10 @@
             "last_name": "GUTHRIE",
             "team_full": "Park Forest"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_03",
@@ -2639,7 +4919,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -2658,7 +4938,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_05",
@@ -2677,7 +4957,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_06",
@@ -2693,10 +4973,10 @@
             "last_name": "PHILLIPS",
             "team_full": "Hazelcrest"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 2-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_07",
@@ -2712,10 +4992,10 @@
             "last_name": "SOMMERS",
             "team_full": "Gemini Jr. High"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 9-3",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_08",
@@ -2734,26 +5014,216 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_quarter_01",
           "top_competitor": {
-            "full_name": "CLARK",
-            "first_name": "",
-            "last_name": "CLARK",
-            "team_full": "Lincoln (Naperville)"
-          },
-          "bottom_competitor": {
             "full_name": "NISKA",
             "first_name": "",
             "last_name": "NISKA",
             "team_full": "Wilson"
           },
+          "bottom_competitor": {
+            "full_name": "OWENSBY",
+            "first_name": "",
+            "last_name": "OWENSBY",
+            "team_full": "Hoopeston"
+          },
+          "result": "Dec 2-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "RICK SANDERS",
+            "first_name": "RICK",
+            "last_name": "SANDERS",
+            "team_full": "Troy"
+          },
+          "bottom_competitor": {
+            "full_name": "REYES",
+            "first_name": "",
+            "last_name": "REYES",
+            "team_full": "West Chicago"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "FORSHEE",
+            "first_name": "",
+            "last_name": "FORSHEE",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "PHILLIPS",
+            "first_name": "",
+            "last_name": "PHILLIPS",
+            "team_full": "Hazelcrest"
+          },
+          "result": "MD 11-3",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "SOMMERS",
+            "first_name": "",
+            "last_name": "SOMMERS",
+            "team_full": "Gemini Jr. High"
+          },
+          "bottom_competitor": {
+            "full_name": "CLARK",
+            "first_name": "",
+            "last_name": "CLARK",
+            "team_full": "Lincoln (Naperville)"
+          },
+          "result": "Dec 4-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "NISKA",
+            "first_name": "",
+            "last_name": "NISKA",
+            "team_full": "Wilson"
+          },
+          "bottom_competitor": {
+            "full_name": "RICK SANDERS",
+            "first_name": "RICK",
+            "last_name": "SANDERS",
+            "team_full": "Troy"
+          },
+          "result": "Dec 1-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "PHILLIPS",
+            "first_name": "",
+            "last_name": "PHILLIPS",
+            "team_full": "Hazelcrest"
+          },
+          "bottom_competitor": {
+            "full_name": "CLARK",
+            "first_name": "",
+            "last_name": "CLARK",
+            "team_full": "Lincoln (Naperville)"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "MARCOTTE",
+            "first_name": "",
+            "last_name": "MARCOTTE",
+            "team_full": "Gemini Jr. High"
+          },
+          "bottom_competitor": {
+            "full_name": "REYES",
+            "first_name": "",
+            "last_name": "REYES",
+            "team_full": "West Chicago"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "FORSHEE",
+            "first_name": "",
+            "last_name": "FORSHEE",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "GREG",
+            "first_name": "",
+            "last_name": "GREG",
+            "team_full": "Charleston"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "NISKA",
+            "first_name": "",
+            "last_name": "NISKA",
+            "team_full": "Wilson"
+          },
+          "bottom_competitor": {
+            "full_name": "REYES",
+            "first_name": "",
+            "last_name": "REYES",
+            "team_full": "West Chicago"
+          },
+          "result": "Dec 4-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "GREG",
+            "first_name": "",
+            "last_name": "GREG",
+            "team_full": "Charleston"
+          },
+          "bottom_competitor": {
+            "full_name": "CLARK",
+            "first_name": "",
+            "last_name": "CLARK",
+            "team_full": "Lincoln (Naperville)"
+          },
+          "result": "Dec 3-1",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "NISKA",
+            "first_name": "",
+            "last_name": "NISKA",
+            "team_full": "Wilson"
+          },
+          "bottom_competitor": {
+            "full_name": "CLARK",
+            "first_name": "",
+            "last_name": "CLARK",
+            "team_full": "Lincoln (Naperville)"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "consolation_third_place",
@@ -2769,8 +5239,8 @@
             "last_name": "GREG",
             "team_full": "Charleston"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 10-6",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         },
@@ -2788,8 +5258,8 @@
             "last_name": "PHILLIPS",
             "team_full": "Hazelcrest"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 9-2",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         }
@@ -2813,10 +5283,10 @@
             "last_name": "PAGE",
             "team_full": "Hoopeston"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 0:57",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_02",
@@ -2832,10 +5302,10 @@
             "last_name": "PAPINI",
             "team_full": "Marshall"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 0:50",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_03",
@@ -2851,10 +5321,10 @@
             "last_name": "ERICKSON",
             "team_full": "Matteson"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -2870,10 +5340,10 @@
             "last_name": "SUAREZ",
             "team_full": "Des Plaines"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_05",
@@ -2889,10 +5359,10 @@
             "last_name": "DONNA",
             "team_full": "Charleston"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_06",
@@ -2908,10 +5378,10 @@
             "last_name": "BLATZ",
             "team_full": "Rock Falls"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_07",
@@ -2927,10 +5397,10 @@
             "last_name": "RUBENOW",
             "team_full": "Matteson"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 2-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_08",
@@ -2949,7 +5419,197 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "HARTLINE",
+            "first_name": "",
+            "last_name": "HARTLINE",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "INGOLD",
+            "first_name": "",
+            "last_name": "INGOLD",
+            "team_full": "Glen Ellyn"
+          },
+          "result": "Dec 3-1",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "BLACK",
+            "first_name": "",
+            "last_name": "BLACK",
+            "team_full": "West Chicago"
+          },
+          "bottom_competitor": {
+            "full_name": "TRENT TAYLOR",
+            "first_name": "TRENT",
+            "last_name": "TAYLOR",
+            "team_full": "Huntley"
+          },
+          "result": "Dec 3-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "HOWERTON",
+            "first_name": "",
+            "last_name": "HOWERTON",
+            "team_full": "Edwardsville"
+          },
+          "bottom_competitor": {
+            "full_name": "BLATZ",
+            "first_name": "",
+            "last_name": "BLATZ",
+            "team_full": "Rock Falls"
+          },
+          "result": "Dec 8-4",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "BRENNAN",
+            "first_name": "",
+            "last_name": "BRENNAN",
+            "team_full": "Cooper"
+          },
+          "bottom_competitor": {
+            "full_name": "GOLDFINE",
+            "first_name": "",
+            "last_name": "GOLDFINE",
+            "team_full": "Golf Jr. High"
+          },
+          "result": "MD 12-0",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "HARTLINE",
+            "first_name": "",
+            "last_name": "HARTLINE",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "TRENT TAYLOR",
+            "first_name": "TRENT",
+            "last_name": "TAYLOR",
+            "team_full": "Huntley"
+          },
+          "result": "Dec 3-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "HOWERTON",
+            "first_name": "",
+            "last_name": "HOWERTON",
+            "team_full": "Edwardsville"
+          },
+          "bottom_competitor": {
+            "full_name": "BRENNAN",
+            "first_name": "",
+            "last_name": "BRENNAN",
+            "team_full": "Cooper"
+          },
+          "result": "Dec 6-4",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "SUAREZ",
+            "first_name": "",
+            "last_name": "SUAREZ",
+            "team_full": "Des Plaines"
+          },
+          "bottom_competitor": {
+            "full_name": "BLACK",
+            "first_name": "",
+            "last_name": "BLACK",
+            "team_full": "West Chicago"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "RUBENOW",
+            "first_name": "",
+            "last_name": "RUBENOW",
+            "team_full": "Matteson"
+          },
+          "bottom_competitor": {
+            "full_name": "GOLDFINE",
+            "first_name": "",
+            "last_name": "GOLDFINE",
+            "team_full": "Golf Jr. High"
+          },
+          "result": "Forfeit",
+          "result_type": "forfeit",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "HARTLINE",
+            "first_name": "",
+            "last_name": "HARTLINE",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "BLACK",
+            "first_name": "",
+            "last_name": "BLACK",
+            "team_full": "West Chicago"
+          },
+          "result": "Dec 6-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "GOLDFINE",
+            "first_name": "",
+            "last_name": "GOLDFINE",
+            "team_full": "Golf Jr. High"
+          },
+          "bottom_competitor": {
+            "full_name": "HOWERTON",
+            "first_name": "",
+            "last_name": "HOWERTON",
+            "team_full": "Edwardsville"
+          },
+          "result": "Dec 3-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -2965,8 +5625,8 @@
             "last_name": "HOWERTON",
             "team_full": "Edwardsville"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 8-6",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         },
@@ -3031,7 +5691,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_02",
@@ -3047,10 +5707,10 @@
             "last_name": "BROWN",
             "team_full": "Chanute A.F.B."
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_03",
@@ -3066,10 +5726,10 @@
             "last_name": "VANCIL",
             "team_full": "Sterling"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -3088,7 +5748,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_05",
@@ -3104,10 +5764,10 @@
             "last_name": "PHELPS",
             "team_full": "Troy"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_06",
@@ -3123,10 +5783,10 @@
             "last_name": "THRIFT",
             "team_full": "Urbana Jr. High"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 6-0",
+          "result_type": "decision",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_07",
@@ -3145,7 +5805,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_08",
@@ -3161,18 +5821,132 @@
             "last_name": "SCHMITT",
             "team_full": "Oak Forest"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_quarter_01",
           "top_competitor": {
+            "full_name": "SUMEVA",
+            "first_name": "",
+            "last_name": "SUMEVA",
+            "team_full": "Downers Grove"
+          },
+          "bottom_competitor": {
+            "full_name": "McNALLY",
+            "first_name": "",
+            "last_name": "McNALLY",
+            "team_full": "Eisenhower Jr. High"
+          },
+          "result": "MD 12-0",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "GRUBBS",
+            "first_name": "",
+            "last_name": "GRUBBS",
+            "team_full": "Indian Trail"
+          },
+          "bottom_competitor": {
+            "full_name": "GARRETT",
+            "first_name": "",
+            "last_name": "GARRETT",
+            "team_full": "Raiders"
+          },
+          "result": "MD 8-0",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "PHELPS",
+            "first_name": "",
+            "last_name": "PHELPS",
+            "team_full": "Troy"
+          },
+          "bottom_competitor": {
             "full_name": "TEPLER",
             "first_name": "",
             "last_name": "TEPLER",
             "team_full": "West Chicago"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "POSTON",
+            "first_name": "",
+            "last_name": "POSTON",
+            "team_full": "Franklin"
+          },
+          "bottom_competitor": {
+            "full_name": "SPIKE",
+            "first_name": "",
+            "last_name": "SPIKE",
+            "team_full": "London Jr. High"
+          },
+          "result": "Dec 10-8",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "SUMEVA",
+            "first_name": "",
+            "last_name": "SUMEVA",
+            "team_full": "Downers Grove"
+          },
+          "bottom_competitor": {
+            "full_name": "GARRETT",
+            "first_name": "",
+            "last_name": "GARRETT",
+            "team_full": "Raiders"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "PHELPS",
+            "first_name": "",
+            "last_name": "PHELPS",
+            "team_full": "Troy"
+          },
+          "bottom_competitor": {
+            "full_name": "POSTON",
+            "first_name": "",
+            "last_name": "POSTON",
+            "team_full": "Franklin"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "McNALLY",
+            "first_name": "",
+            "last_name": "McNALLY",
+            "team_full": "Eisenhower Jr. High"
           },
           "bottom_competitor": {
             "full_name": "SCHANUEL",
@@ -3183,7 +5957,83 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "TEPLER",
+            "first_name": "",
+            "last_name": "TEPLER",
+            "team_full": "West Chicago"
+          },
+          "bottom_competitor": {
+            "full_name": "KAIRER",
+            "first_name": "",
+            "last_name": "KAIRER",
+            "team_full": "Edwardsville"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "GARRETT",
+            "first_name": "",
+            "last_name": "GARRETT",
+            "team_full": "Raiders"
+          },
+          "bottom_competitor": {
+            "full_name": "SCHANUEL",
+            "first_name": "",
+            "last_name": "SCHANUEL",
+            "team_full": "Granite City"
+          },
+          "result": "Dec 7-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "TEPLER",
+            "first_name": "",
+            "last_name": "TEPLER",
+            "team_full": "West Chicago"
+          },
+          "bottom_competitor": {
+            "full_name": "POSTON",
+            "first_name": "",
+            "last_name": "POSTON",
+            "team_full": "Franklin"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "SCHANUEL",
+            "first_name": "",
+            "last_name": "SCHANUEL",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "TEPLER",
+            "first_name": "",
+            "last_name": "TEPLER",
+            "team_full": "West Chicago"
+          },
+          "result": "Dec 2-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "consolation_third_place",
@@ -3218,8 +6068,8 @@
             "last_name": "PHELPS",
             "team_full": "Troy"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 9-2",
+          "result_type": "decision",
           "bout_number": null,
           "top_win": true
         }
@@ -3246,7 +6096,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_02",
@@ -3262,10 +6112,10 @@
             "last_name": "ROCKOVSKI",
             "team_full": "Morris"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_03",
@@ -3281,10 +6131,10 @@
             "last_name": "WHITE",
             "team_full": "Mattoon"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_04",
@@ -3303,7 +6153,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_05",
@@ -3319,10 +6169,10 @@
             "last_name": "BELLO",
             "team_full": "Frost"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "MD 10-0",
+          "result_type": "major",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_06",
@@ -3338,10 +6188,10 @@
             "last_name": "MALONEY",
             "team_full": "Woodridge"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r16_07",
@@ -3360,7 +6210,7 @@
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r16_08",
@@ -3376,10 +6226,200 @@
             "last_name": "JOHNSTON",
             "team_full": "East Moline"
           },
+          "result": "Fall 0:53",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "MORENO",
+            "first_name": "",
+            "last_name": "MORENO",
+            "team_full": "Highlanders"
+          },
+          "bottom_competitor": {
+            "full_name": "KURT KARAS",
+            "first_name": "KURT",
+            "last_name": "KARAS",
+            "team_full": "Simmons (Aurora)"
+          },
+          "result": "Dec 3-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "PERTO",
+            "first_name": "",
+            "last_name": "PERTO",
+            "team_full": "St. Doms"
+          },
+          "bottom_competitor": {
+            "full_name": "POWERS",
+            "first_name": "",
+            "last_name": "POWERS",
+            "team_full": "Geneseo"
+          },
+          "result": "Dec 2-1",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "BELLO",
+            "first_name": "",
+            "last_name": "BELLO",
+            "team_full": "Frost"
+          },
+          "bottom_competitor": {
+            "full_name": "MALONEY",
+            "first_name": "",
+            "last_name": "MALONEY",
+            "team_full": "Woodridge"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "BANKSON",
+            "first_name": "",
+            "last_name": "BANKSON",
+            "team_full": "Raiders"
+          },
+          "bottom_competitor": {
+            "full_name": "JOHNSTON",
+            "first_name": "",
+            "last_name": "JOHNSTON",
+            "team_full": "East Moline"
+          },
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "KURT KARAS",
+            "first_name": "KURT",
+            "last_name": "KARAS",
+            "team_full": "Simmons (Aurora)"
+          },
+          "bottom_competitor": {
+            "full_name": "PERTO",
+            "first_name": "",
+            "last_name": "PERTO",
+            "team_full": "St. Doms"
+          },
+          "result": "Dec 1-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "BELLO",
+            "first_name": "",
+            "last_name": "BELLO",
+            "team_full": "Frost"
+          },
+          "bottom_competitor": {
+            "full_name": "BANKSON",
+            "first_name": "",
+            "last_name": "BANKSON",
+            "team_full": "Raiders"
+          },
+          "result": "Dec 8-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "MORENO",
+            "first_name": "",
+            "last_name": "MORENO",
+            "team_full": "Highlanders"
+          },
+          "bottom_competitor": {
+            "full_name": "ROCKOVSKI",
+            "first_name": "",
+            "last_name": "ROCKOVSKI",
+            "team_full": "Morris"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": null
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "TYLER",
+            "first_name": "",
+            "last_name": "TYLER",
+            "team_full": "Urbana Jr. High"
+          },
+          "bottom_competitor": {
+            "full_name": "JOHNSTON",
+            "first_name": "",
+            "last_name": "JOHNSTON",
+            "team_full": "East Moline"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "PERTO",
+            "first_name": "",
+            "last_name": "PERTO",
+            "team_full": "St. Doms"
+          },
+          "bottom_competitor": {
+            "full_name": "ROCKOVSKI",
+            "first_name": "",
+            "last_name": "ROCKOVSKI",
+            "team_full": "Morris"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "JOHNSTON",
+            "first_name": "",
+            "last_name": "JOHNSTON",
+            "team_full": "East Moline"
+          },
+          "bottom_competitor": {
+            "full_name": "BELLO",
+            "first_name": "",
+            "last_name": "BELLO",
+            "team_full": "Frost"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -3433,8 +6473,8 @@
             "last_name": "BANKSON",
             "team_full": "Raiders"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall",
+          "result_type": "fall",
           "bout_number": null,
           "top_win": true
         }

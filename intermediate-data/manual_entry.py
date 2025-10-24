@@ -326,6 +326,8 @@ class ManualBracket(_ForbidExtra):
         self,
         year: int,
         name_exceptions: dict[tuple[str, str], bracket_utils.Competitor],
+        *,
+        skip_duplicate_check: bool = False,
     ) -> bracket_utils.WeightClass:
         actual_year, division, weight = _parse_description(self.description)
         if actual_year != year:
@@ -362,7 +364,9 @@ class ManualBracket(_ForbidExtra):
             )
             raw_matches.append(match_raw)
 
-        matches = bracket_utils.clean_raw_matches(raw_matches, name_exceptions)
+        matches = bracket_utils.clean_raw_matches(
+            raw_matches, name_exceptions, skip_duplicate_check=skip_duplicate_check
+        )
         for match in matches:
             if match.result == "unknown":
                 match.result = ""
@@ -376,6 +380,8 @@ def load_manual_entries(
     root: pathlib.Path,
     year: int,
     name_exceptions: dict[tuple[str, str], bracket_utils.Competitor],
+    *,
+    skip_duplicate_check: bool = False,
 ) -> list[bracket_utils.WeightClass]:
     year_raw = root / "raw-data" / str(year)
 
@@ -384,7 +390,9 @@ def load_manual_entries(
         with open(path) as file_obj:
             manual_bracket = ManualBracket.model_validate_json(file_obj.read())
 
-        weight_class = manual_bracket.to_weight_class(year, name_exceptions)
+        weight_class = manual_bracket.to_weight_class(
+            year, name_exceptions, skip_duplicate_check=skip_duplicate_check
+        )
         weight_classes.append(weight_class)
 
     return weight_classes

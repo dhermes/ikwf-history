@@ -668,6 +668,9 @@ def _determine_result_type(result: str) -> ResultType:
     if result == "Walkover":
         return "walkover"
 
+    if result in ("Ref. Dec.", "OT Ref. Dec.", "Ref. Dec. 2-2"):
+        return "decision"
+
     if result == "Dec" or result.startswith("Dec "):
         return "decision"
 
@@ -734,7 +737,10 @@ def _determine_result_type(result: str) -> ResultType:
 
 
 def clean_raw_matches(
-    matches: list[MatchRaw], name_exceptions: dict[tuple[str, str], Competitor]
+    matches: list[MatchRaw],
+    name_exceptions: dict[tuple[str, str], Competitor],
+    *,
+    skip_duplicate_check: bool = False,
 ) -> list[Match]:
     result: list[Match] = []
     for match in matches:
@@ -772,7 +778,8 @@ def clean_raw_matches(
             )
         )
 
-    _ensure_no_name_duplicates(result)
+    if not skip_duplicate_check:
+        _ensure_no_name_duplicates(result)
 
     return result
 
