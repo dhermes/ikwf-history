@@ -303,74 +303,6 @@
       "boutNumber": null,
       "result": "Fall"
     },
-    "41": {
-      "top": {
-        "choice": 0,
-        "choices": [
-          0
-        ]
-      },
-      "bottom": {
-        "choice": 4,
-        "choices": [
-          4
-        ]
-      },
-      "winner": "top",
-      "boutNumber": null,
-      "result": ""
-    },
-    "42": {
-      "top": {
-        "choice": 10,
-        "choices": [
-          10
-        ]
-      },
-      "bottom": {
-        "choice": 6,
-        "choices": [
-          6
-        ]
-      },
-      "winner": "bottom",
-      "boutNumber": null,
-      "result": "Fall"
-    },
-    "43": {
-      "top": {
-        "choice": 15,
-        "choices": [
-          15
-        ]
-      },
-      "bottom": {
-        "choice": 12,
-        "choices": [
-          12
-        ]
-      },
-      "winner": "bottom",
-      "boutNumber": null,
-      "result": ""
-    },
-    "44": {
-      "top": {
-        "choice": 21,
-        "choices": [
-          21
-        ]
-      },
-      "bottom": {
-        "choice": 19,
-        "choices": [
-          19
-        ]
-      },
-      "winner": "top",
-      "boutNumber": null,
-      "result": "Fall"
-    },
     "45": {
       "top": {
         "choice": 3,
@@ -409,6 +341,40 @@
       "boutNumber": null,
       "result": "Dec 5-0"
     },
+    "47": {
+      "top": {
+        "choice": 10,
+        "choices": [
+          10
+        ]
+      },
+      "bottom": {
+        "choice": 6,
+        "choices": [
+          6
+        ]
+      },
+      "winner": "bottom",
+      "boutNumber": null,
+      "result": "Fall"
+    },
+    "48": {
+      "top": {
+        "choice": 21,
+        "choices": [
+          21
+        ]
+      },
+      "bottom": {
+        "choice": 19,
+        "choices": [
+          19
+        ]
+      },
+      "winner": "top",
+      "boutNumber": null,
+      "result": "Fall"
+    },
     "49": {
       "top": {
         "choice": 3,
@@ -419,8 +385,8 @@
       "bottom": {
         "choice": 6,
         "choices": [
-          0,
-          6
+          6,
+          10
         ]
       },
       "winner": "top",
@@ -438,7 +404,8 @@
       "bottom": {
         "choice": 13,
         "choices": [
-          13
+          19,
+          21
         ]
       },
       "winner": "top",
