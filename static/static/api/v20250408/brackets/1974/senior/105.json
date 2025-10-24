@@ -9,7 +9,7 @@
     "bottom_name": "McGRATH",
     "bottom_team": "Mundelein",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": true,
     "result": ""
   },
   {
@@ -22,8 +22,8 @@
     "bottom_name": "DANIELS",
     "bottom_team": "Troy",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall"
   },
   {
     "match_slot_id": 19,
@@ -31,12 +31,12 @@
     "match_slot": "championship_r16_03",
     "top_name": "MILLER",
     "top_team": "Holmes",
-    "top_score": null,
+    "top_score": 11,
     "bottom_name": "TWITTEY",
     "bottom_team": "Mattoon",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 2,
+    "top_win": true,
+    "result": "MD 11-2"
   },
   {
     "match_slot_id": 20,
@@ -48,7 +48,7 @@
     "bottom_name": "CORTEZ",
     "bottom_team": "East Moline",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": true,
     "result": ""
   },
   {
@@ -57,12 +57,12 @@
     "match_slot": "championship_r16_05",
     "top_name": "RUSSO",
     "top_team": "Edwardsville",
-    "top_score": null,
+    "top_score": 0,
     "bottom_name": "LUNDQUIST",
     "bottom_team": "West Chicago",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 5,
+    "top_win": false,
+    "result": "Dec 5-0"
   },
   {
     "match_slot_id": 22,
@@ -74,7 +74,7 @@
     "bottom_name": "CHANCEY",
     "bottom_team": "Plainfield",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -87,7 +87,7 @@
     "bottom_name": "B IBEN",
     "bottom_team": "Champaign Jr. High",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": true,
     "result": ""
   },
   {
@@ -100,8 +100,138 @@
     "bottom_name": "BOB RYAN",
     "bottom_team": "Sterling",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
+    "result": "Fall"
+  },
+  {
+    "match_slot_id": 33,
+    "bout_number": null,
+    "match_slot": "championship_quarter_01",
+    "top_name": "DUCKWORTH",
+    "top_team": "Granite City",
+    "top_score": 0,
+    "bottom_name": "SUMMERS",
+    "bottom_team": "Huntley",
+    "bottom_score": 8,
+    "top_win": false,
+    "result": "MD 8-0"
+  },
+  {
+    "match_slot_id": 34,
+    "bout_number": null,
+    "match_slot": "championship_quarter_02",
+    "top_name": "MILLER",
+    "top_team": "Holmes",
+    "top_score": null,
+    "bottom_name": "BOTHWELL",
+    "bottom_team": "Tinley Park",
+    "bottom_score": null,
+    "top_win": false,
     "result": ""
+  },
+  {
+    "match_slot_id": 35,
+    "bout_number": null,
+    "match_slot": "championship_quarter_03",
+    "top_name": "LUNDQUIST",
+    "top_team": "West Chicago",
+    "top_score": 2,
+    "bottom_name": "CHANCEY",
+    "bottom_team": "Plainfield",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 2-0"
+  },
+  {
+    "match_slot_id": 36,
+    "bout_number": null,
+    "match_slot": "championship_quarter_04",
+    "top_name": "MARTINEZ",
+    "top_team": "Holmes",
+    "top_score": 2,
+    "bottom_name": "BOB RYAN",
+    "bottom_team": "Sterling",
+    "bottom_score": 10,
+    "top_win": false,
+    "result": "MD 10-2"
+  },
+  {
+    "match_slot_id": 45,
+    "bout_number": null,
+    "match_slot": "championship_semi_01",
+    "top_name": "SUMMERS",
+    "top_team": "Huntley",
+    "top_score": 3,
+    "bottom_name": "BOTHWELL",
+    "bottom_team": "Tinley Park",
+    "bottom_score": 4,
+    "top_win": false,
+    "result": "Dec 4-3"
+  },
+  {
+    "match_slot_id": 46,
+    "bout_number": null,
+    "match_slot": "championship_semi_02",
+    "top_name": "LUNDQUIST",
+    "top_team": "West Chicago",
+    "top_score": 0,
+    "bottom_name": "BOB RYAN",
+    "bottom_team": "Sterling",
+    "bottom_score": 7,
+    "top_win": false,
+    "result": "Dec 7-0"
+  },
+  {
+    "match_slot_id": 47,
+    "bout_number": null,
+    "match_slot": "consolation_round5_01",
+    "top_name": "CORTEZ",
+    "top_team": "East Moline",
+    "top_score": 0,
+    "bottom_name": "MILLER",
+    "bottom_team": "Holmes",
+    "bottom_score": 7,
+    "top_win": false,
+    "result": "Dec 7-0"
+  },
+  {
+    "match_slot_id": 48,
+    "bout_number": null,
+    "match_slot": "consolation_round5_02",
+    "top_name": "GASCA",
+    "top_team": "Conrady",
+    "top_score": null,
+    "bottom_name": "MARTINEZ",
+    "bottom_team": "Holmes",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall"
+  },
+  {
+    "match_slot_id": 49,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_01",
+    "top_name": "SUMMERS",
+    "top_team": "Huntley",
+    "top_score": 7,
+    "bottom_name": "MILLER",
+    "bottom_team": "Holmes",
+    "bottom_score": 9,
+    "top_win": false,
+    "result": "Dec 9-7"
+  },
+  {
+    "match_slot_id": 50,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_02",
+    "top_name": "GASCA",
+    "top_team": "Conrady",
+    "top_score": 7,
+    "bottom_name": "LUNDQUIST",
+    "bottom_team": "West Chicago",
+    "bottom_score": 5,
+    "top_win": true,
+    "result": "Dec 7-5"
   },
   {
     "match_slot_id": 52,
@@ -135,11 +265,11 @@
     "match_slot": "championship_first_place",
     "top_name": "BOTHWELL",
     "top_team": "Tinley Park",
-    "top_score": null,
+    "top_score": 0,
     "bottom_name": "BOB RYAN",
     "bottom_team": "Sterling",
-    "bottom_score": null,
+    "bottom_score": 4,
     "top_win": false,
-    "result": ""
+    "result": "Dec 4-0"
   }
 ]

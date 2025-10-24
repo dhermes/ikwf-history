@@ -5,12 +5,12 @@
     "match_slot": "championship_r16_01",
     "top_name": "B VOORHEES",
     "top_team": "East Alton",
-    "top_score": null,
+    "top_score": 6,
     "bottom_name": "SLUSARSKLI",
     "bottom_team": "New Lenox",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 6-0"
   },
   {
     "match_slot_id": 18,
@@ -22,8 +22,8 @@
     "bottom_name": "ALLMAN",
     "bottom_team": "Chanute A.F.B.",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall"
   },
   {
     "match_slot_id": 19,
@@ -35,7 +35,7 @@
     "bottom_name": "BALLARD",
     "bottom_team": "Sterling",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": true,
     "result": ""
   },
   {
@@ -44,12 +44,12 @@
     "match_slot": "championship_r16_04",
     "top_name": "PHIL WALTERS",
     "top_team": "Des Plaines",
-    "top_score": null,
+    "top_score": 4,
     "bottom_name": "CAPODICE",
     "bottom_team": "Tinley Park",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 4-0"
   },
   {
     "match_slot_id": 21,
@@ -57,12 +57,12 @@
     "match_slot": "championship_r16_05",
     "top_name": "HOESE",
     "top_team": "Granite City",
-    "top_score": null,
+    "top_score": 0,
     "bottom_name": "QUAS",
     "bottom_team": "Plainfield",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 4,
+    "top_win": false,
+    "result": "Dec 4-0"
   },
   {
     "match_slot_id": 22,
@@ -74,8 +74,8 @@
     "bottom_name": "CHAPMAN",
     "bottom_team": "Fisher",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall 0:56"
   },
   {
     "match_slot_id": 23,
@@ -87,7 +87,7 @@
     "bottom_name": "VERBEKE",
     "bottom_team": "Wilson",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -96,38 +96,168 @@
     "match_slot": "championship_r16_08",
     "top_name": "KRIST",
     "top_team": "Raiders",
+    "top_score": 0,
+    "bottom_name": "FERREIRA",
+    "bottom_team": "Oak Forest",
+    "bottom_score": 4,
+    "top_win": false,
+    "result": "Dec 4-0"
+  },
+  {
+    "match_slot_id": 33,
+    "bout_number": null,
+    "match_slot": "championship_quarter_01",
+    "top_name": "B VOORHEES",
+    "top_team": "East Alton",
+    "top_score": null,
+    "bottom_name": "MARGIOTTA",
+    "bottom_team": "Highlanders",
+    "bottom_score": null,
+    "top_win": false,
+    "result": ""
+  },
+  {
+    "match_slot_id": 34,
+    "bout_number": null,
+    "match_slot": "championship_quarter_02",
+    "top_name": "BURGOS",
+    "top_team": "Rosette",
+    "top_score": null,
+    "bottom_name": "PHIL WALTERS",
+    "bottom_team": "Des Plaines",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall"
+  },
+  {
+    "match_slot_id": 35,
+    "bout_number": null,
+    "match_slot": "championship_quarter_03",
+    "top_name": "QUAS",
+    "top_team": "Plainfield",
+    "top_score": 3,
+    "bottom_name": "B FOWLER",
+    "bottom_team": "West Chicago",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 3-0"
+  },
+  {
+    "match_slot_id": 36,
+    "bout_number": null,
+    "match_slot": "championship_quarter_04",
+    "top_name": "VERBEKE",
+    "top_team": "Wilson",
     "top_score": null,
     "bottom_name": "FERREIRA",
     "bottom_team": "Oak Forest",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "Fall"
+  },
+  {
+    "match_slot_id": 45,
+    "bout_number": null,
+    "match_slot": "championship_semi_01",
+    "top_name": "MARGIOTTA",
+    "top_team": "Highlanders",
+    "top_score": 0,
+    "bottom_name": "PHIL WALTERS",
+    "bottom_team": "Des Plaines",
+    "bottom_score": 2,
+    "top_win": false,
+    "result": "Dec 2-0"
+  },
+  {
+    "match_slot_id": 46,
+    "bout_number": null,
+    "match_slot": "championship_semi_02",
+    "top_name": "QUAS",
+    "top_team": "Plainfield",
+    "top_score": 0,
+    "bottom_name": "FERREIRA",
+    "bottom_team": "Oak Forest",
+    "bottom_score": 5,
+    "top_win": false,
+    "result": "Dec 5-0"
+  },
+  {
+    "match_slot_id": 47,
+    "bout_number": null,
+    "match_slot": "consolation_round5_01",
+    "top_name": "CAPODICE",
+    "top_team": "Tinley Park",
+    "top_score": null,
+    "bottom_name": "BURGOS",
+    "bottom_team": "Rosette",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall"
+  },
+  {
+    "match_slot_id": 48,
+    "bout_number": null,
+    "match_slot": "consolation_round5_02",
+    "top_name": "KRIST",
+    "top_team": "Raiders",
+    "top_score": null,
+    "bottom_name": "VERBEKE",
+    "bottom_team": "Wilson",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall"
+  },
+  {
+    "match_slot_id": 49,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_01",
+    "top_name": "MARGIOTTA",
+    "top_team": "Highlanders",
+    "top_score": 7,
+    "bottom_name": "BURGOS",
+    "bottom_team": "Rosette",
+    "bottom_score": 5,
+    "top_win": true,
+    "result": "Dec 7-5"
+  },
+  {
+    "match_slot_id": 50,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_02",
+    "top_name": "KRIST",
+    "top_team": "Raiders",
+    "top_score": null,
+    "bottom_name": "QUAS",
+    "bottom_team": "Plainfield",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Ref. Dec."
   },
   {
     "match_slot_id": 52,
     "bout_number": null,
     "match_slot": "consolation_fifth_place",
-    "top_name": "QUAS",
-    "top_team": "Plainfield",
-    "top_score": null,
-    "bottom_name": "BURGOS",
-    "bottom_team": "Rosette",
-    "bottom_score": null,
-    "top_win": true,
-    "result": ""
+    "top_name": "BURGOS",
+    "top_team": "Rosette",
+    "top_score": 5,
+    "bottom_name": "QUAS",
+    "bottom_team": "Plainfield",
+    "bottom_score": 7,
+    "top_win": false,
+    "result": "Dec 7-5"
   },
   {
     "match_slot_id": 53,
     "bout_number": null,
     "match_slot": "consolation_third_place",
-    "top_name": "KRIST",
-    "top_team": "Raiders",
-    "top_score": null,
-    "bottom_name": "MARGIOTTA",
-    "bottom_team": "Highlanders",
-    "bottom_score": null,
-    "top_win": true,
-    "result": ""
+    "top_name": "MARGIOTTA",
+    "top_team": "Highlanders",
+    "top_score": 0,
+    "bottom_name": "KRIST",
+    "bottom_team": "Raiders",
+    "bottom_score": 2,
+    "top_win": false,
+    "result": "Dec 2-0"
   },
   {
     "match_slot_id": 54,
@@ -135,11 +265,11 @@
     "match_slot": "championship_first_place",
     "top_name": "PHIL WALTERS",
     "top_team": "Des Plaines",
-    "top_score": null,
+    "top_score": 7,
     "bottom_name": "FERREIRA",
     "bottom_team": "Oak Forest",
-    "bottom_score": null,
+    "bottom_score": 0,
     "top_win": true,
-    "result": ""
+    "result": "Dec 7-0"
   }
 ]

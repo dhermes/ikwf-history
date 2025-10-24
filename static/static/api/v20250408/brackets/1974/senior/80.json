@@ -9,7 +9,7 @@
     "bottom_name": "McMAHON",
     "bottom_team": "Tinley Park",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -22,7 +22,7 @@
     "bottom_name": "SUTCLIFFE",
     "bottom_team": "Apollo Jr. High",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -31,12 +31,12 @@
     "match_slot": "championship_r16_03",
     "top_name": "MARIANI",
     "top_team": "Bloomington",
-    "top_score": null,
+    "top_score": 7,
     "bottom_name": "A McCUE",
     "bottom_team": "Simmons (Aurora)",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 7-0"
   },
   {
     "match_slot_id": 20,
@@ -44,12 +44,12 @@
     "match_slot": "championship_r16_04",
     "top_name": "ROTH",
     "top_team": "Joliet Boys Club",
-    "top_score": null,
+    "top_score": 1,
     "bottom_name": "BLOUNT",
     "bottom_team": "Keller Jr. High",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 1-0"
   },
   {
     "match_slot_id": 21,
@@ -61,8 +61,8 @@
     "bottom_name": "B GERDES",
     "bottom_team": "Oak Forest",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "Fall 2:46"
   },
   {
     "match_slot_id": 22,
@@ -74,8 +74,8 @@
     "bottom_name": "POLZ",
     "bottom_team": "Raiders",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "Fall"
   },
   {
     "match_slot_id": 23,
@@ -87,7 +87,7 @@
     "bottom_name": "B EWOLDT",
     "bottom_team": "Wheaton",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -96,37 +96,167 @@
     "match_slot": "championship_r16_08",
     "top_name": "STERR",
     "top_team": "Joliet Boys Club",
-    "top_score": null,
+    "top_score": 0,
     "bottom_name": "DAN UNRUH",
     "bottom_team": "West Chicago",
+    "bottom_score": 2,
+    "top_win": false,
+    "result": "Dec 2-0"
+  },
+  {
+    "match_slot_id": 33,
+    "bout_number": null,
+    "match_slot": "championship_quarter_01",
+    "top_name": "McMAHON",
+    "top_team": "Tinley Park",
+    "top_score": 6,
+    "bottom_name": "SUTCLIFFE",
+    "bottom_team": "Apollo Jr. High",
+    "bottom_score": 4,
+    "top_win": true,
+    "result": "Dec 6-4"
+  },
+  {
+    "match_slot_id": 34,
+    "bout_number": null,
+    "match_slot": "championship_quarter_02",
+    "top_name": "MARIANI",
+    "top_team": "Bloomington",
+    "top_score": 2,
+    "bottom_name": "ROTH",
+    "bottom_team": "Joliet Boys Club",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 2-0"
+  },
+  {
+    "match_slot_id": 35,
+    "bout_number": null,
+    "match_slot": "championship_quarter_03",
+    "top_name": "B GERDES",
+    "top_team": "Oak Forest",
+    "top_score": null,
+    "bottom_name": "POLZ",
+    "bottom_team": "Raiders",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
+    "result": "OT Ref. Dec."
+  },
+  {
+    "match_slot_id": 36,
+    "bout_number": null,
+    "match_slot": "championship_quarter_04",
+    "top_name": "B EWOLDT",
+    "top_team": "Wheaton",
+    "top_score": 2,
+    "bottom_name": "DAN UNRUH",
+    "bottom_team": "West Chicago",
+    "bottom_score": 12,
+    "top_win": false,
+    "result": "MD 12-2"
+  },
+  {
+    "match_slot_id": 45,
+    "bout_number": null,
+    "match_slot": "championship_semi_01",
+    "top_name": "McMAHON",
+    "top_team": "Tinley Park",
+    "top_score": 6,
+    "bottom_name": "MARIANI",
+    "bottom_team": "Bloomington",
+    "bottom_score": 2,
+    "top_win": true,
+    "result": "Dec 6-2 OT"
+  },
+  {
+    "match_slot_id": 46,
+    "bout_number": null,
+    "match_slot": "championship_semi_02",
+    "top_name": "POLZ",
+    "top_team": "Raiders",
+    "top_score": 2,
+    "bottom_name": "DAN UNRUH",
+    "bottom_team": "West Chicago",
+    "bottom_score": 4,
+    "top_win": false,
+    "result": "Dec 4-2 OT"
+  },
+  {
+    "match_slot_id": 47,
+    "bout_number": null,
+    "match_slot": "consolation_round5_01",
+    "top_name": "SUTCLIFFE",
+    "top_team": "Apollo Jr. High",
+    "top_score": null,
+    "bottom_name": "MILITELLO",
+    "bottom_team": "East Alton",
+    "bottom_score": null,
+    "top_win": true,
     "result": ""
+  },
+  {
+    "match_slot_id": 48,
+    "bout_number": null,
+    "match_slot": "consolation_round5_02",
+    "top_name": "STERR",
+    "top_team": "Joliet Boys Club",
+    "top_score": null,
+    "bottom_name": "B EWOLDT",
+    "bottom_team": "Wheaton",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall"
+  },
+  {
+    "match_slot_id": 49,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_01",
+    "top_name": "MARIANI",
+    "top_team": "Bloomington",
+    "top_score": null,
+    "bottom_name": "SUTCLIFFE",
+    "bottom_team": "Apollo Jr. High",
+    "bottom_score": null,
+    "top_win": false,
+    "result": ""
+  },
+  {
+    "match_slot_id": 50,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_02",
+    "top_name": "STERR",
+    "top_team": "Joliet Boys Club",
+    "top_score": 8,
+    "bottom_name": "POLZ",
+    "bottom_team": "Raiders",
+    "bottom_score": 13,
+    "top_win": false,
+    "result": "Dec 13-8"
   },
   {
     "match_slot_id": 52,
     "bout_number": null,
     "match_slot": "consolation_fifth_place",
-    "top_name": "STERR",
-    "top_team": "Joliet Boys Club",
+    "top_name": "MARIANI",
+    "top_team": "Bloomington",
     "top_score": null,
-    "bottom_name": "MARIANI",
-    "bottom_team": "Bloomington",
+    "bottom_name": "STERR",
+    "bottom_team": "Joliet Boys Club",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   },
   {
     "match_slot_id": 53,
     "bout_number": null,
     "match_slot": "consolation_third_place",
-    "top_name": "POLZ",
-    "top_team": "Raiders",
+    "top_name": "SUTCLIFFE",
+    "top_team": "Apollo Jr. High",
     "top_score": null,
-    "bottom_name": "SUTCLIFFE",
-    "bottom_team": "Apollo Jr. High",
+    "bottom_name": "POLZ",
+    "bottom_team": "Raiders",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   },
   {
@@ -135,11 +265,11 @@
     "match_slot": "championship_first_place",
     "top_name": "McMAHON",
     "top_team": "Tinley Park",
-    "top_score": null,
+    "top_score": 0,
     "bottom_name": "DAN UNRUH",
     "bottom_team": "West Chicago",
-    "bottom_score": null,
+    "bottom_score": 1,
     "top_win": false,
-    "result": ""
+    "result": "Dec 1-0"
   }
 ]

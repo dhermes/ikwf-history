@@ -9,7 +9,7 @@
     "bottom_name": "NISKA",
     "bottom_team": "Wilson",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -22,8 +22,8 @@
     "bottom_name": "GUTHRIE",
     "bottom_team": "Park Forest",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall"
   },
   {
     "match_slot_id": 19,
@@ -35,7 +35,7 @@
     "bottom_name": "MARCOTTE",
     "bottom_team": "Gemini Jr. High",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": true,
     "result": ""
   },
   {
@@ -48,7 +48,7 @@
     "bottom_name": "DODMEAD",
     "bottom_team": "Indian Trail",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": true,
     "result": ""
   },
   {
@@ -61,7 +61,7 @@
     "bottom_name": "BEHRENS",
     "bottom_team": "Coolidge",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": true,
     "result": ""
   },
   {
@@ -70,12 +70,12 @@
     "match_slot": "championship_r16_06",
     "top_name": "GREG",
     "top_team": "Charleston",
-    "top_score": null,
+    "top_score": 0,
     "bottom_name": "PHILLIPS",
     "bottom_team": "Hazelcrest",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 2,
+    "top_win": false,
+    "result": "Dec 2-0"
   },
   {
     "match_slot_id": 23,
@@ -83,12 +83,12 @@
     "match_slot": "championship_r16_07",
     "top_name": "WILMSON",
     "top_team": "New Lenox",
-    "top_score": null,
+    "top_score": 3,
     "bottom_name": "SOMMERS",
     "bottom_team": "Gemini Jr. High",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 9,
+    "top_win": false,
+    "result": "Dec 9-3"
   },
   {
     "match_slot_id": 24,
@@ -100,20 +100,150 @@
     "bottom_name": "CLARK",
     "bottom_team": "Lincoln (Naperville)",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
+  },
+  {
+    "match_slot_id": 33,
+    "bout_number": null,
+    "match_slot": "championship_quarter_01",
+    "top_name": "NISKA",
+    "top_team": "Wilson",
+    "top_score": 2,
+    "bottom_name": "OWENSBY",
+    "bottom_team": "Hoopeston",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 2-0"
+  },
+  {
+    "match_slot_id": 34,
+    "bout_number": null,
+    "match_slot": "championship_quarter_02",
+    "top_name": "RICK SANDERS",
+    "top_team": "Troy",
+    "top_score": null,
+    "bottom_name": "REYES",
+    "bottom_team": "West Chicago",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 35,
+    "bout_number": null,
+    "match_slot": "championship_quarter_03",
+    "top_name": "FORSHEE",
+    "top_team": "Granite City",
+    "top_score": 3,
+    "bottom_name": "PHILLIPS",
+    "bottom_team": "Hazelcrest",
+    "bottom_score": 11,
+    "top_win": false,
+    "result": "MD 11-3"
+  },
+  {
+    "match_slot_id": 36,
+    "bout_number": null,
+    "match_slot": "championship_quarter_04",
+    "top_name": "SOMMERS",
+    "top_team": "Gemini Jr. High",
+    "top_score": 2,
+    "bottom_name": "CLARK",
+    "bottom_team": "Lincoln (Naperville)",
+    "bottom_score": 4,
+    "top_win": false,
+    "result": "Dec 4-2"
+  },
+  {
+    "match_slot_id": 45,
+    "bout_number": null,
+    "match_slot": "championship_semi_01",
+    "top_name": "NISKA",
+    "top_team": "Wilson",
+    "top_score": 0,
+    "bottom_name": "RICK SANDERS",
+    "bottom_team": "Troy",
+    "bottom_score": 1,
+    "top_win": false,
+    "result": "Dec 1-0"
+  },
+  {
+    "match_slot_id": 46,
+    "bout_number": null,
+    "match_slot": "championship_semi_02",
+    "top_name": "PHILLIPS",
+    "top_team": "Hazelcrest",
+    "top_score": null,
+    "bottom_name": "CLARK",
+    "bottom_team": "Lincoln (Naperville)",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall"
+  },
+  {
+    "match_slot_id": 47,
+    "bout_number": null,
+    "match_slot": "consolation_round5_01",
+    "top_name": "MARCOTTE",
+    "top_team": "Gemini Jr. High",
+    "top_score": null,
+    "bottom_name": "REYES",
+    "bottom_team": "West Chicago",
+    "bottom_score": null,
+    "top_win": false,
+    "result": ""
+  },
+  {
+    "match_slot_id": 48,
+    "bout_number": null,
+    "match_slot": "consolation_round5_02",
+    "top_name": "FORSHEE",
+    "top_team": "Granite City",
+    "top_score": null,
+    "bottom_name": "GREG",
+    "bottom_team": "Charleston",
+    "bottom_score": null,
+    "top_win": false,
+    "result": ""
+  },
+  {
+    "match_slot_id": 49,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_01",
+    "top_name": "NISKA",
+    "top_team": "Wilson",
+    "top_score": 0,
+    "bottom_name": "REYES",
+    "bottom_team": "West Chicago",
+    "bottom_score": 4,
+    "top_win": false,
+    "result": "Dec 4-0"
+  },
+  {
+    "match_slot_id": 50,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_02",
+    "top_name": "GREG",
+    "top_team": "Charleston",
+    "top_score": 3,
+    "bottom_name": "CLARK",
+    "bottom_team": "Lincoln (Naperville)",
+    "bottom_score": 1,
+    "top_win": true,
+    "result": "Dec 3-1"
   },
   {
     "match_slot_id": 52,
     "bout_number": null,
     "match_slot": "consolation_fifth_place",
-    "top_name": "CLARK",
-    "top_team": "Lincoln (Naperville)",
+    "top_name": "NISKA",
+    "top_team": "Wilson",
     "top_score": null,
-    "bottom_name": "NISKA",
-    "bottom_team": "Wilson",
+    "bottom_name": "CLARK",
+    "bottom_team": "Lincoln (Naperville)",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   },
   {
@@ -122,12 +252,12 @@
     "match_slot": "consolation_third_place",
     "top_name": "REYES",
     "top_team": "West Chicago",
-    "top_score": null,
+    "top_score": 10,
     "bottom_name": "GREG",
     "bottom_team": "Charleston",
-    "bottom_score": null,
+    "bottom_score": 6,
     "top_win": true,
-    "result": ""
+    "result": "Dec 10-6"
   },
   {
     "match_slot_id": 54,
@@ -135,11 +265,11 @@
     "match_slot": "championship_first_place",
     "top_name": "RICK SANDERS",
     "top_team": "Troy",
-    "top_score": null,
+    "top_score": 9,
     "bottom_name": "PHILLIPS",
     "bottom_team": "Hazelcrest",
-    "bottom_score": null,
+    "bottom_score": 2,
     "top_win": true,
-    "result": ""
+    "result": "Dec 9-2"
   }
 ]

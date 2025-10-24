@@ -5,12 +5,12 @@
     "match_slot": "championship_r16_01",
     "top_name": "HARRIS",
     "top_team": "Belleville",
-    "top_score": null,
+    "top_score": 0,
     "bottom_name": "GIBSON",
     "bottom_team": "Antioch",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 4,
+    "top_win": false,
+    "result": "Dec 4-0"
   },
   {
     "match_slot_id": 18,
@@ -22,8 +22,8 @@
     "bottom_name": "B SLUSARSKI",
     "bottom_team": "New Lenox",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "Fall 3:15"
   },
   {
     "match_slot_id": 19,
@@ -35,8 +35,8 @@
     "bottom_name": "GIVEN",
     "bottom_team": "Lincoln, Ill.",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall"
   },
   {
     "match_slot_id": 20,
@@ -48,8 +48,8 @@
     "bottom_name": "BROWN",
     "bottom_team": "Franklin",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": true,
+    "result": "Fall"
   },
   {
     "match_slot_id": 21,
@@ -57,12 +57,12 @@
     "match_slot": "championship_r16_05",
     "top_name": "OLLAR",
     "top_team": "Carterville",
-    "top_score": null,
+    "top_score": 0,
     "bottom_name": "BOGI",
     "bottom_team": "Adams",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 8,
+    "top_win": false,
+    "result": "MD 8-0"
   },
   {
     "match_slot_id": 22,
@@ -74,7 +74,7 @@
     "bottom_name": "BOB WHITLEY",
     "bottom_team": "Joliet Boys Club",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -87,7 +87,7 @@
     "bottom_name": "MONTEZ",
     "bottom_team": "Hoopeston",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": true,
     "result": ""
   },
   {
@@ -100,33 +100,163 @@
     "bottom_name": "ANDREI",
     "bottom_team": "Hoffman",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": true,
+    "result": "Default"
+  },
+  {
+    "match_slot_id": 33,
+    "bout_number": null,
+    "match_slot": "championship_quarter_01",
+    "top_name": "GIBSON",
+    "top_team": "Antioch",
+    "top_score": null,
+    "bottom_name": "B SLUSARSKI",
+    "bottom_team": "New Lenox",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall"
+  },
+  {
+    "match_slot_id": 34,
+    "bout_number": null,
+    "match_slot": "championship_quarter_02",
+    "top_name": "LUCANSKY",
+    "top_team": "Des Plaines",
+    "top_score": null,
+    "bottom_name": "A QUINLAN",
+    "bottom_team": "Tinley Park",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 35,
+    "bout_number": null,
+    "match_slot": "championship_quarter_03",
+    "top_name": "BOGI",
+    "top_team": "Adams",
+    "top_score": 0,
+    "bottom_name": "BOB WHITLEY",
+    "bottom_team": "Joliet Boys Club",
+    "bottom_score": 5,
+    "top_win": false,
+    "result": "Dec 5-0"
+  },
+  {
+    "match_slot_id": 36,
+    "bout_number": null,
+    "match_slot": "championship_quarter_04",
+    "top_name": "GRAFF",
+    "top_team": "Gemini Jr. High",
+    "top_score": 0,
+    "bottom_name": "KELLEY",
+    "bottom_team": "Chicago Ridge",
+    "bottom_score": 9,
+    "top_win": false,
+    "result": "MD 9-0"
+  },
+  {
+    "match_slot_id": 45,
+    "bout_number": null,
+    "match_slot": "championship_semi_01",
+    "top_name": "B SLUSARSKI",
+    "top_team": "New Lenox",
+    "top_score": 1,
+    "bottom_name": "LUCANSKY",
+    "bottom_team": "Des Plaines",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 1-0"
+  },
+  {
+    "match_slot_id": 46,
+    "bout_number": null,
+    "match_slot": "championship_semi_02",
+    "top_name": "BOB WHITLEY",
+    "top_team": "Joliet Boys Club",
+    "top_score": null,
+    "bottom_name": "KELLEY",
+    "bottom_team": "Chicago Ridge",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 47,
+    "bout_number": null,
+    "match_slot": "consolation_round5_01",
+    "top_name": "GIBSON",
+    "top_team": "Antioch",
+    "top_score": null,
+    "bottom_name": "PATTON",
+    "bottom_team": "Woodstock",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 48,
+    "bout_number": null,
+    "match_slot": "consolation_round5_02",
+    "top_name": "BOGI",
+    "top_team": "Adams",
+    "top_score": null,
+    "bottom_name": "A EWOLDT",
+    "bottom_team": "Wheaton",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 49,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_01",
+    "top_name": "LUCANSKY",
+    "top_team": "Des Plaines",
+    "top_score": 6,
+    "bottom_name": "GIBSON",
+    "bottom_team": "Antioch",
+    "bottom_score": 5,
+    "top_win": true,
+    "result": "Dec 6-5"
+  },
+  {
+    "match_slot_id": 50,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_02",
+    "top_name": "BOGI",
+    "top_team": "Adams",
+    "top_score": null,
+    "bottom_name": "KELLEY",
+    "bottom_team": "Chicago Ridge",
+    "bottom_score": null,
+    "top_win": false,
     "result": ""
   },
   {
     "match_slot_id": 52,
     "bout_number": null,
     "match_slot": "consolation_fifth_place",
-    "top_name": "BOGI",
-    "top_team": "Adams",
+    "top_name": "GIBSON",
+    "top_team": "Antioch",
     "top_score": null,
-    "bottom_name": "GIBSON",
-    "bottom_team": "Antioch",
+    "bottom_name": "BOGI",
+    "bottom_team": "Adams",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   },
   {
     "match_slot_id": 53,
     "bout_number": null,
     "match_slot": "consolation_third_place",
-    "top_name": "KELLEY",
-    "top_team": "Chicago Ridge",
+    "top_name": "LUCANSKY",
+    "top_team": "Des Plaines",
     "top_score": null,
-    "bottom_name": "LUCANSKY",
-    "bottom_team": "Des Plaines",
+    "bottom_name": "KELLEY",
+    "bottom_team": "Chicago Ridge",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   },
   {
@@ -135,11 +265,11 @@
     "match_slot": "championship_first_place",
     "top_name": "B SLUSARSKI",
     "top_team": "New Lenox",
-    "top_score": null,
+    "top_score": 2,
     "bottom_name": "BOB WHITLEY",
     "bottom_team": "Joliet Boys Club",
-    "bottom_score": null,
+    "bottom_score": 4,
     "top_win": false,
-    "result": ""
+    "result": "Dec 4-2"
   }
 ]

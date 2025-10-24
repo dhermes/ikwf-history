@@ -9,7 +9,7 @@
     "bottom_name": "LANDRY",
     "bottom_team": "Lincoln (Naperville)",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": true,
     "result": ""
   },
   {
@@ -22,8 +22,8 @@
     "bottom_name": "COOKE",
     "bottom_team": "Keller Jr. High",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "Fall"
   },
   {
     "match_slot_id": 19,
@@ -31,12 +31,12 @@
     "match_slot": "championship_r16_03",
     "top_name": "A GERDES",
     "top_team": "Oak Forest",
-    "top_score": null,
+    "top_score": 4,
     "bottom_name": "VERCELOTTI",
     "bottom_team": "Troy",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 4-0"
   },
   {
     "match_slot_id": 20,
@@ -44,12 +44,12 @@
     "match_slot": "championship_r16_04",
     "top_name": "CHAMPION",
     "top_team": "East Moline",
-    "top_score": null,
+    "top_score": 1,
     "bottom_name": "GRANT",
     "bottom_team": "Hoopeston",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 5,
+    "top_win": false,
+    "result": "Dec 5-1"
   },
   {
     "match_slot_id": 21,
@@ -61,7 +61,7 @@
     "bottom_name": "WALTERS",
     "bottom_team": "Rosette",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -74,7 +74,7 @@
     "bottom_name": "A FOWLER",
     "bottom_team": "West Chicago",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -87,7 +87,7 @@
     "bottom_name": "DANE NASENBENNY",
     "bottom_team": "Joliet Boys Club",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -100,8 +100,138 @@
     "bottom_name": "SAMPSON",
     "bottom_team": "Mahomet-Seymour",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
+    "result": "Fall"
+  },
+  {
+    "match_slot_id": 33,
+    "bout_number": null,
+    "match_slot": "championship_quarter_01",
+    "top_name": "B WHALEN",
+    "top_team": "Granite City",
+    "top_score": 3,
+    "bottom_name": "COOKE",
+    "bottom_team": "Keller Jr. High",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 3-0"
+  },
+  {
+    "match_slot_id": 34,
+    "bout_number": null,
+    "match_slot": "championship_quarter_02",
+    "top_name": "A GERDES",
+    "top_team": "Oak Forest",
+    "top_score": null,
+    "bottom_name": "GRANT",
+    "bottom_team": "Hoopeston",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall"
+  },
+  {
+    "match_slot_id": 35,
+    "bout_number": null,
+    "match_slot": "championship_quarter_03",
+    "top_name": "WALTERS",
+    "top_team": "Rosette",
+    "top_score": null,
+    "bottom_name": "A FOWLER",
+    "bottom_team": "West Chicago",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall 0:48"
+  },
+  {
+    "match_slot_id": 36,
+    "bout_number": null,
+    "match_slot": "championship_quarter_04",
+    "top_name": "DANE NASENBENNY",
+    "top_team": "Joliet Boys Club",
+    "top_score": 6,
+    "bottom_name": "SAMPSON",
+    "bottom_team": "Mahomet-Seymour",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 6-0"
+  },
+  {
+    "match_slot_id": 45,
+    "bout_number": null,
+    "match_slot": "championship_semi_01",
+    "top_name": "B WHALEN",
+    "top_team": "Granite City",
+    "top_score": 5,
+    "bottom_name": "A GERDES",
+    "bottom_team": "Oak Forest",
+    "bottom_score": 3,
+    "top_win": true,
+    "result": "Dec 5-3"
+  },
+  {
+    "match_slot_id": 46,
+    "bout_number": null,
+    "match_slot": "championship_semi_02",
+    "top_name": "A FOWLER",
+    "top_team": "West Chicago",
+    "top_score": 1,
+    "bottom_name": "DANE NASENBENNY",
+    "bottom_team": "Joliet Boys Club",
+    "bottom_score": 3,
+    "top_win": false,
+    "result": "Dec 3-1"
+  },
+  {
+    "match_slot_id": 47,
+    "bout_number": null,
+    "match_slot": "consolation_round5_01",
+    "top_name": "COOKE",
+    "top_team": "Keller Jr. High",
+    "top_score": null,
+    "bottom_name": "LANDRY",
+    "bottom_team": "Lincoln (Naperville)",
+    "bottom_score": null,
+    "top_win": true,
     "result": ""
+  },
+  {
+    "match_slot_id": 48,
+    "bout_number": null,
+    "match_slot": "consolation_round5_02",
+    "top_name": "A KELLY",
+    "top_team": "Chicago Ridge",
+    "top_score": null,
+    "bottom_name": "SAMPSON",
+    "bottom_team": "Mahomet-Seymour",
+    "bottom_score": null,
+    "top_win": false,
+    "result": ""
+  },
+  {
+    "match_slot_id": 49,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_01",
+    "top_name": "A GERDES",
+    "top_team": "Oak Forest",
+    "top_score": null,
+    "bottom_name": "COOKE",
+    "bottom_team": "Keller Jr. High",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 50,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_02",
+    "top_name": "SAMPSON",
+    "top_team": "Mahomet-Seymour",
+    "top_score": 2,
+    "bottom_name": "A FOWLER",
+    "bottom_team": "West Chicago",
+    "bottom_score": 7,
+    "top_win": false,
+    "result": "Dec 7-2"
   },
   {
     "match_slot_id": 52,
@@ -135,11 +265,11 @@
     "match_slot": "championship_first_place",
     "top_name": "B WHALEN",
     "top_team": "Granite City",
-    "top_score": null,
+    "top_score": 2,
     "bottom_name": "DANE NASENBENNY",
     "bottom_team": "Joliet Boys Club",
-    "bottom_score": null,
+    "bottom_score": 4,
     "top_win": false,
-    "result": ""
+    "result": "Dec 4-2"
   }
 ]

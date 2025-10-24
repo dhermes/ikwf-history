@@ -5,12 +5,12 @@
     "match_slot": "championship_r16_01",
     "top_name": "EADS",
     "top_team": "Jerseyville",
-    "top_score": null,
+    "top_score": 0,
     "bottom_name": "REGLIN",
     "bottom_team": "Sterling",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 4,
+    "top_win": false,
+    "result": "Dec 4-0"
   },
   {
     "match_slot_id": 18,
@@ -18,12 +18,12 @@
     "match_slot": "championship_r16_02",
     "top_name": "A IBEN",
     "top_team": "Champaign Jr. High",
-    "top_score": null,
+    "top_score": 2,
     "bottom_name": "BEECHY",
     "bottom_team": "Oak Forest",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 9,
+    "top_win": false,
+    "result": "Dec 9-2"
   },
   {
     "match_slot_id": 19,
@@ -35,7 +35,7 @@
     "bottom_name": "CONRAD",
     "bottom_team": "Raiders",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": true,
     "result": ""
   },
   {
@@ -44,12 +44,12 @@
     "match_slot": "championship_r16_04",
     "top_name": "RICE",
     "top_team": "Adams",
-    "top_score": null,
+    "top_score": 6,
     "bottom_name": "B McCUE",
     "bottom_team": "Simmons (Aurora)",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 4,
+    "top_win": true,
+    "result": "Dec 6-4"
   },
   {
     "match_slot_id": 21,
@@ -57,12 +57,12 @@
     "match_slot": "championship_r16_05",
     "top_name": "DAHM",
     "top_team": "Belleville",
-    "top_score": null,
+    "top_score": 0,
     "bottom_name": "KINKEAD",
     "bottom_team": "East Moline",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 6,
+    "top_win": false,
+    "result": "Dec 6-0"
   },
   {
     "match_slot_id": 22,
@@ -74,7 +74,7 @@
     "bottom_name": "DAIDONE",
     "bottom_team": "Oak Forest",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -83,12 +83,12 @@
     "match_slot": "championship_r16_07",
     "top_name": "McTAGUE",
     "top_team": "Morris",
-    "top_score": null,
+    "top_score": 0,
     "bottom_name": "BOB PORTER",
     "bottom_team": "Northfield Park District",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 4,
+    "top_win": false,
+    "result": "Dec 4-0"
   },
   {
     "match_slot_id": 24,
@@ -100,15 +100,15 @@
     "bottom_name": "DAVIS",
     "bottom_team": "Huntley",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "Fall"
   },
   {
-    "match_slot_id": 52,
+    "match_slot_id": 33,
     "bout_number": null,
-    "match_slot": "consolation_fifth_place",
-    "top_name": "KINKEAD",
-    "top_team": "East Moline",
+    "match_slot": "championship_quarter_01",
+    "top_name": "REGLIN",
+    "top_team": "Sterling",
     "top_score": null,
     "bottom_name": "BEECHY",
     "bottom_team": "Oak Forest",
@@ -117,16 +117,146 @@
     "result": ""
   },
   {
-    "match_slot_id": 53,
+    "match_slot_id": 34,
     "bout_number": null,
-    "match_slot": "consolation_third_place",
-    "top_name": "DAVIS",
-    "top_team": "Huntley",
+    "match_slot": "championship_quarter_02",
+    "top_name": "CARTER",
+    "top_team": "Woodridge",
+    "top_score": null,
+    "bottom_name": "RICE",
+    "bottom_team": "Adams",
+    "bottom_score": null,
+    "top_win": true,
+    "result": "Fall"
+  },
+  {
+    "match_slot_id": 35,
+    "bout_number": null,
+    "match_slot": "championship_quarter_03",
+    "top_name": "KINKEAD",
+    "top_team": "East Moline",
+    "top_score": 11,
+    "bottom_name": "DAIDONE",
+    "bottom_team": "Oak Forest",
+    "bottom_score": 3,
+    "top_win": true,
+    "result": "MD 11-3"
+  },
+  {
+    "match_slot_id": 36,
+    "bout_number": null,
+    "match_slot": "championship_quarter_04",
+    "top_name": "BOB PORTER",
+    "top_team": "Northfield Park District",
+    "top_score": 1,
+    "bottom_name": "DAVIS",
+    "bottom_team": "Huntley",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 1-0"
+  },
+  {
+    "match_slot_id": 45,
+    "bout_number": null,
+    "match_slot": "championship_semi_01",
+    "top_name": "REGLIN",
+    "top_team": "Sterling",
     "top_score": null,
     "bottom_name": "CARTER",
     "bottom_team": "Woodridge",
     "bottom_score": null,
     "top_win": true,
+    "result": "OT Ref. Dec."
+  },
+  {
+    "match_slot_id": 46,
+    "bout_number": null,
+    "match_slot": "championship_semi_02",
+    "top_name": "KINKEAD",
+    "top_team": "East Moline",
+    "top_score": 0,
+    "bottom_name": "BOB PORTER",
+    "bottom_team": "Northfield Park District",
+    "bottom_score": 2,
+    "top_win": false,
+    "result": "Dec 2-0"
+  },
+  {
+    "match_slot_id": 47,
+    "bout_number": null,
+    "match_slot": "consolation_round5_01",
+    "top_name": "BEECHY",
+    "top_team": "Oak Forest",
+    "top_score": 4,
+    "bottom_name": "EADS",
+    "bottom_team": "Jerseyville",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 4-0"
+  },
+  {
+    "match_slot_id": 48,
+    "bout_number": null,
+    "match_slot": "consolation_round5_02",
+    "top_name": "McTAGUE",
+    "top_team": "Morris",
+    "top_score": 0,
+    "bottom_name": "DAVIS",
+    "bottom_team": "Huntley",
+    "bottom_score": 3,
+    "top_win": false,
+    "result": "Dec 3-0"
+  },
+  {
+    "match_slot_id": 49,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_01",
+    "top_name": "CARTER",
+    "top_team": "Woodridge",
+    "top_score": 9,
+    "bottom_name": "BEECHY",
+    "bottom_team": "Oak Forest",
+    "bottom_score": 2,
+    "top_win": true,
+    "result": "Dec 9-2"
+  },
+  {
+    "match_slot_id": 50,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_02",
+    "top_name": "DAVIS",
+    "top_team": "Huntley",
+    "top_score": 7,
+    "bottom_name": "KINKEAD",
+    "bottom_team": "East Moline",
+    "bottom_score": 3,
+    "top_win": true,
+    "result": "Dec 7-3"
+  },
+  {
+    "match_slot_id": 52,
+    "bout_number": null,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "BEECHY",
+    "top_team": "Oak Forest",
+    "top_score": null,
+    "bottom_name": "KINKEAD",
+    "bottom_team": "East Moline",
+    "bottom_score": null,
+    "top_win": false,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": null,
+    "match_slot": "consolation_third_place",
+    "top_name": "CARTER",
+    "top_team": "Woodridge",
+    "top_score": null,
+    "bottom_name": "DAVIS",
+    "bottom_team": "Huntley",
+    "bottom_score": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -135,11 +265,11 @@
     "match_slot": "championship_first_place",
     "top_name": "REGLIN",
     "top_team": "Sterling",
-    "top_score": null,
+    "top_score": 0,
     "bottom_name": "BOB PORTER",
     "bottom_team": "Northfield Park District",
-    "bottom_score": null,
+    "bottom_score": 3,
     "top_win": false,
-    "result": ""
+    "result": "Dec 3-0"
   }
 ]

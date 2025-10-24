@@ -9,7 +9,7 @@
     "bottom_name": "GRIFFIN",
     "bottom_team": "Oak Forest",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -18,12 +18,12 @@
     "match_slot": "championship_r16_02",
     "top_name": "CAVAZOS",
     "top_team": "Sterling",
-    "top_score": null,
+    "top_score": 7,
     "bottom_name": "OTTE",
     "bottom_team": "Raiders",
-    "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 7-0"
   },
   {
     "match_slot_id": 19,
@@ -35,8 +35,8 @@
     "bottom_name": "WILLIAMS",
     "bottom_team": "Huntley",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "Fall"
   },
   {
     "match_slot_id": 20,
@@ -48,7 +48,7 @@
     "bottom_name": "ZIMMERMAN",
     "bottom_team": "Highlanders",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -61,7 +61,7 @@
     "bottom_name": "GESIORSKI",
     "bottom_team": "Central Stickney",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": true,
     "result": ""
   },
   {
@@ -74,7 +74,7 @@
     "bottom_name": "BRENNAN",
     "bottom_team": "Gemini Jr. High",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
     "result": ""
   },
   {
@@ -87,8 +87,8 @@
     "bottom_name": "CHIRICO",
     "bottom_team": "Lincoln (Naperville)",
     "bottom_score": null,
-    "top_win": null,
-    "result": ""
+    "top_win": false,
+    "result": "Fall 0:23"
   },
   {
     "match_slot_id": 24,
@@ -100,33 +100,163 @@
     "bottom_name": "ED PINEDA",
     "bottom_team": "West Chicago",
     "bottom_score": null,
-    "top_win": null,
+    "top_win": false,
+    "result": "Fall 0:27"
+  },
+  {
+    "match_slot_id": 33,
+    "bout_number": null,
+    "match_slot": "championship_quarter_01",
+    "top_name": "GRIFFIN",
+    "top_team": "Oak Forest",
+    "top_score": 2,
+    "bottom_name": "CAVAZOS",
+    "bottom_team": "Sterling",
+    "bottom_score": 9,
+    "top_win": false,
+    "result": "Dec 9-2"
+  },
+  {
+    "match_slot_id": 34,
+    "bout_number": null,
+    "match_slot": "championship_quarter_02",
+    "top_name": "WILLIAMS",
+    "top_team": "Huntley",
+    "top_score": 6,
+    "bottom_name": "ZIMMERMAN",
+    "bottom_team": "Highlanders",
+    "bottom_score": 7,
+    "top_win": false,
+    "result": "Dec 7-6"
+  },
+  {
+    "match_slot_id": 35,
+    "bout_number": null,
+    "match_slot": "championship_quarter_03",
+    "top_name": "HARTMAN",
+    "top_team": "Carterville",
+    "top_score": 0,
+    "bottom_name": "BRENNAN",
+    "bottom_team": "Gemini Jr. High",
+    "bottom_score": 15,
+    "top_win": false,
+    "result": "TF 15-0"
+  },
+  {
+    "match_slot_id": 36,
+    "bout_number": null,
+    "match_slot": "championship_quarter_04",
+    "top_name": "CHIRICO",
+    "top_team": "Lincoln (Naperville)",
+    "top_score": 2,
+    "bottom_name": "ED PINEDA",
+    "bottom_team": "West Chicago",
+    "bottom_score": 4,
+    "top_win": false,
+    "result": "Dec 4-2"
+  },
+  {
+    "match_slot_id": 45,
+    "bout_number": null,
+    "match_slot": "championship_semi_01",
+    "top_name": "CAVAZOS",
+    "top_team": "Sterling",
+    "top_score": 2,
+    "bottom_name": "ZIMMERMAN",
+    "bottom_team": "Highlanders",
+    "bottom_score": 6,
+    "top_win": false,
+    "result": "Dec 6-2"
+  },
+  {
+    "match_slot_id": 46,
+    "bout_number": null,
+    "match_slot": "championship_semi_02",
+    "top_name": "BRENNAN",
+    "top_team": "Gemini Jr. High",
+    "top_score": 2,
+    "bottom_name": "ED PINEDA",
+    "bottom_team": "West Chicago",
+    "bottom_score": 6,
+    "top_win": false,
+    "result": "Dec 6-2"
+  },
+  {
+    "match_slot_id": 47,
+    "bout_number": null,
+    "match_slot": "consolation_round5_01",
+    "top_name": "THOMAS",
+    "top_team": "Hinsdale",
+    "top_score": null,
+    "bottom_name": "WILLIAMS",
+    "bottom_team": "Huntley",
+    "bottom_score": null,
+    "top_win": false,
     "result": ""
+  },
+  {
+    "match_slot_id": 48,
+    "bout_number": null,
+    "match_slot": "consolation_round5_02",
+    "top_name": "TWAIT",
+    "top_team": "Wilmington",
+    "top_score": null,
+    "bottom_name": "CHIRICO",
+    "bottom_team": "Lincoln (Naperville)",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Fall"
+  },
+  {
+    "match_slot_id": 49,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_01",
+    "top_name": "CAVAZOS",
+    "top_team": "Sterling",
+    "top_score": null,
+    "bottom_name": "WILLIAMS",
+    "bottom_team": "Huntley",
+    "bottom_score": null,
+    "top_win": false,
+    "result": "Default"
+  },
+  {
+    "match_slot_id": 50,
+    "bout_number": null,
+    "match_slot": "consolation_round6_semi_02",
+    "top_name": "CHIRICO",
+    "top_team": "Lincoln (Naperville)",
+    "top_score": 2,
+    "bottom_name": "BRENNAN",
+    "bottom_team": "Gemini Jr. High",
+    "bottom_score": 0,
+    "top_win": true,
+    "result": "Dec 2-0"
   },
   {
     "match_slot_id": 52,
     "bout_number": null,
     "match_slot": "consolation_fifth_place",
-    "top_name": "BRENNAN",
-    "top_team": "Gemini Jr. High",
+    "top_name": "CAVAZOS",
+    "top_team": "Sterling",
     "top_score": null,
-    "bottom_name": "CAVAZOS",
-    "bottom_team": "Sterling",
+    "bottom_name": "BRENNAN",
+    "bottom_team": "Gemini Jr. High",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   },
   {
     "match_slot_id": 53,
     "bout_number": null,
     "match_slot": "consolation_third_place",
-    "top_name": "CHIRICO",
-    "top_team": "Lincoln (Naperville)",
+    "top_name": "WILLIAMS",
+    "top_team": "Huntley",
     "top_score": null,
-    "bottom_name": "WILLIAMS",
-    "bottom_team": "Huntley",
+    "bottom_name": "CHIRICO",
+    "bottom_team": "Lincoln (Naperville)",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   },
   {
@@ -135,11 +265,11 @@
     "match_slot": "championship_first_place",
     "top_name": "ZIMMERMAN",
     "top_team": "Highlanders",
-    "top_score": null,
+    "top_score": 1,
     "bottom_name": "ED PINEDA",
     "bottom_team": "West Chicago",
-    "bottom_score": null,
+    "bottom_score": 10,
     "top_win": false,
-    "result": ""
+    "result": "MD 10-1"
   }
 ]
