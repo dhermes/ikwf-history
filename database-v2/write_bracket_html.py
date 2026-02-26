@@ -775,6 +775,8 @@ def _render_bracket_html(
     division: bracket_utils.Division,
     weight: int,
     match_data_rows: list[MatchData],
+    *,
+    _hazmat_skip_backside: bool = False,
 ) -> None:
     match_map = _get_match_map(match_data_rows)
     participant_map = _get_participant_map(match_map)
@@ -793,10 +795,11 @@ def _render_bracket_html(
         ]
     )
     parts.extend(_render_championship_html(match_map, participant_map))
-    parts.extend(_render_consolation_html(match_map, participant_map, config))
-    parts.extend(_render_fifth_place_html(match_map, participant_map))
-    if config.medalist_count == 8:
-        parts.extend(_render_seventh_place_html(match_map, participant_map))
+    if not _hazmat_skip_backside:
+        parts.extend(_render_consolation_html(match_map, participant_map, config))
+        parts.extend(_render_fifth_place_html(match_map, participant_map))
+        if config.medalist_count == 8:
+            parts.extend(_render_seventh_place_html(match_map, participant_map))
 
     for included_image in included_images:
         parts.append(f'<img src="/images/{included_image}" width="100%" />')
