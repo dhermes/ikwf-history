@@ -1,0 +1,86 @@
+/*
+ * Copyright (c) 2026 - Present. IKWF History. All rights reserved.
+ */
+
+.brackets-viewer .standings h2 {
+    font-size: 1.5em;
+    color: gray;
+}
+
+.brackets-viewer .bracket-table {
+    border-collapse: collapse;
+    font-size: var(--text-size);
+    margin-top: 20px;
+    min-width: 600px;
+}
+
+.brackets-viewer .bracket-table th {
+    background: var(--secondary-background);
+    color: var(--font-color);
+    font-weight: 500;
+    text-align: left;
+    padding: 8px 10px;
+    border: 1px solid var(--border-color);
+}
+
+.brackets-viewer .bracket-table td {
+    padding: 8px 10px;
+    border: 1px solid var(--border-color);
+}
+
+.brackets-viewer .bracket-table tbody tr:hover {
+    background: var(--secondary-background);
+}
+
+.brackets-viewer .sectional-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 18px;
+    margin: 10px 0 20px 0;
+}
+
+.brackets-viewer .sectional-option {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-size: var(--text-size);
+    color: var(--font-color);
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background 0.15s ease, border 0.15s ease;
+}
+
+.brackets-viewer .sectional-option:hover {
+    background: var(--secondary-background);
+}
+
+.brackets-viewer .sectional-option input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    background: var(--primary-background);
+}
+
+.brackets-viewer .sectional-option input[type="checkbox"]:checked {
+    background: var(--win-color);
+    border-color: var(--win-color);
+}
+
+.brackets-viewer .sectional-option input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 1px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
