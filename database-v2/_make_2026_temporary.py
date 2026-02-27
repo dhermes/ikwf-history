@@ -104,11 +104,20 @@ if __name__ == "__main__":
 # TODO: Back button on the page
 
 # JS TO HELP FILTERING ALL athlete rows
-# function involvesSectional(tr, sectional) {
-#   return tr.dataset.sectional === sectional;
+# function involvesSectional(tr, allowedSectionals) {
+#   return allowedSectionals.includes(tr.dataset.sectional);
 # }
 
 # JS TO HELP FILTERING ALL head to head rows
-# function involvesSectional(tr, sectional) {
-#   return tr.querySelector(`[data-sectional="${sectional}"]`) !== null;
+# function involvesOnlySectionals(tr, allowedSectionals) {
+#   const tds = tr.querySelectorAll("td[data-sectional]");
+#
+#   // Must have exactly 2 (winner + loser)
+#   if (tds.length !== 2) {
+#     return false;
+#   }
+#
+#   return Array.from(tds).every(td =>
+#     allowedSectionals.includes(td.dataset.sectional)
+#   );
 # }
