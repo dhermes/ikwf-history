@@ -102,3 +102,13 @@ if __name__ == "__main__":
 
 
 # TODO: Back button on the page
+
+# JS TO HELP FILTERING ALL athlete rows
+# function involvesSectional(tr, sectional) {
+#   return tr.dataset.sectional === sectional;
+# }
+
+# JS TO HELP FILTERING ALL head to head rows
+# function involvesSectional(tr, sectional) {
+#   return tr.querySelector(`[data-sectional="${sectional}"]`) !== null;
+# }
