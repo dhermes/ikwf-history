@@ -35,52 +35,41 @@
 .brackets-viewer .sectional-filters {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 18px;
+    gap: 10px 14px;
     margin: 10px 0 20px 0;
 }
 
-.brackets-viewer .sectional-option {
-    display: flex;
-    align-items: center;
-    gap: 6px;
+.brackets-viewer .sectional-chip {
+    position: relative;
     cursor: pointer;
     font-size: var(--text-size);
-    color: var(--font-color);
-    padding: 4px 8px;
-    border-radius: 4px;
-    transition: background 0.15s ease, border 0.15s ease;
 }
 
-.brackets-viewer .sectional-option:hover {
+.brackets-viewer .sectional-chip input {
+    display: none;
+}
+
+.brackets-viewer .sectional-chip span {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 999px;
+    background: var(--primary-background);
+    color: var(--font-color);
+    transition: all 0.15s ease;
+}
+
+.brackets-viewer .sectional-chip:hover span {
     background: var(--secondary-background);
 }
 
-.brackets-viewer .sectional-option input[type="checkbox"] {
-    appearance: none;
-    -webkit-appearance: none;
-    width: 14px;
-    height: 14px;
-    border: 1px solid var(--border-color);
-    border-radius: 3px;
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    background: var(--primary-background);
-}
-
-.brackets-viewer .sectional-option input[type="checkbox"]:checked {
+.brackets-viewer .sectional-chip input:checked + span {
     background: var(--win-color);
     border-color: var(--win-color);
+    color: white;
+    font-weight: 500;
 }
 
-.brackets-viewer .sectional-option input[type="checkbox"]:checked::after {
-    content: "";
-    position: absolute;
-    left: 3px;
-    top: 1px;
-    width: 4px;
-    height: 8px;
-    border: solid white;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
+.brackets-viewer .sectional-chip input:checked + span:hover {
+    opacity: 0.9;
 }
