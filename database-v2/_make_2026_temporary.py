@@ -99,6 +99,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-
-# TODO: Back button on the page
