@@ -55,6 +55,43 @@ function decodeSectionals(mask) {
 }
 
 /**
+ * Hide rows in `#preview-athletes` for athletes not in one of the allowed
+ * sectionals.
+ * @param {string[]} allowedSectionals
+ */
+function hideAthleteRows(allowedSectionals) {
+  document.querySelectorAll("#preview-athletes tr").forEach((tr) => {
+    const sectional = tr.dataset.sectional;
+
+    tr.hidden = !allowedSectionals.includes(sectional);
+  });
+}
+
+/**
+ * Hide rows in `#preview-head-to-heads` for matches where at least one of the
+ * athlets is not in one of the allowed sectionals.
+ * @param {string[]} allowedSectionals
+ */
+function hideHeadToHeadRows(allowedSectionals) {
+  document.querySelectorAll("#preview-head-to-heads tr").forEach((tr) => {
+    const athleteCells = tr.querySelectorAll("td[data-sectional]");
+
+    if (athleteCells.length !== 2) {
+      tr.hidden = true;
+      return;
+    }
+
+    const winnerSectional = athleteCells[0].dataset.sectional;
+    const loserSectional = athleteCells[1].dataset.sectional;
+    const visible =
+      allowedSectionals.includes(winnerSectional) &&
+      allowedSectionals.includes(loserSectional);
+
+    tr.hidden = !visible;
+  });
+}
+
+/**
  * Filter rows in `#preview-athletes` and `#preview-head-to-heads` based on the
  * set of allowed sectionals.
  * @param {string[]} allowedSectionals
@@ -69,8 +106,15 @@ function onSectionalsChanged(allowedSectionals) {
     url.searchParams.set("filter", encoded.toString());
   }
   history.replaceState(null, "", url);
+
+  hideAthleteRows(allowedSectionals);
+  hideHeadToHeadRows(allowedSectionals);
 }
 
+/**
+ * Event handler intended to be invoked when **ANY** of the `CHECKBOXES` gets
+ * checked or unchecked.
+ */
 function handleSectionalChange() {
   const allowedSectionals = Array.from(CHECKBOXES)
     .filter((checkbox) => checkbox.checked)
@@ -78,10 +122,6 @@ function handleSectionalChange() {
 
   onSectionalsChanged(allowedSectionals);
 }
-
-CHECKBOXES.forEach((checkbox) => {
-  checkbox.addEventListener("change", handleSectionalChange);
-});
 
 /**
  * Parse the `filter` mask from the URL.
@@ -116,5 +156,13 @@ function initSectionals() {
 
   onSectionalsChanged(allowedSectionals);
 }
+
+/**
+ * Perform initialization, this assumes loaded via `<script defer>`
+ */
+
+CHECKBOXES.forEach((checkbox) => {
+  checkbox.addEventListener("change", handleSectionalChange);
+});
 
 initSectionals();
