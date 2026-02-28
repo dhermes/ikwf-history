@@ -1,5 +1,6 @@
 # Copyright (c) 2025 - Present. IKWF History. All rights reserved.
 
+import datetime
 import functools
 import html
 import pathlib
@@ -10,18 +11,18 @@ import bracket_utils
 import bs4
 import pydantic
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _MAX_MATCH_ID = 54
-
-
-@functools.cache
-def _get_sql(filename: str) -> str:
-    with open(HERE / filename) as file_obj:
-        return file_obj.read()
 
 
 class _ForbidExtra(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(extra="forbid")
+
+
+@functools.cache
+def _get_sql(filename: str) -> str:
+    with open(_HERE / filename) as file_obj:
+        return file_obj.read()
 
 
 class TournamentConfig(_ForbidExtra):
@@ -772,7 +773,110 @@ def _render_seventh_place_html(
     return parts
 
 
+_HazmatSectional = Literal[
+    "central",
+    "central_chicago",
+    "north",
+    "north_chicago",
+    "south",
+    "south_chicago",
+    "west",
+    "west_chicago",
+]
+
+
+def _pretty_sectional(sectional: _HazmatSectional) -> str:
+    if sectional == "central":
+        return "Central"
+
+    if sectional == "central_chicago":
+        return "Central Chicago"
+
+    if sectional == "north":
+        return "North"
+
+    if sectional == "north_chicago":
+        return "North Chicago"
+
+    if sectional == "south":
+        return "South"
+
+    if sectional == "south_chicago":
+        return "South Chicago"
+
+    if sectional == "west":
+        return "West"
+
+    if sectional == "west_chicago":
+        return "West Chicago"
+
+    raise NotImplementedError(sectional)
+
+
+class _HazmatPreviewAthlete(_ForbidExtra):
+    name: str
+    club: str
+    sectional: _HazmatSectional
+    wins: int
+    losses: int
+    ikwf_age: int
+    state_result_2025: str | None
+
+
+class _HazmatPreviewHeadToHead(_ForbidExtra):
+    winner: str
+    winner_club: str
+    winner_sectional: _HazmatSectional
+    loser: str
+    loser_club: str
+    loser_sectional: _HazmatSectional
+    result: str
+    event_date: datetime.date
+
+
+class _HazmatPreview(_ForbidExtra):
+    athletes: list[_HazmatPreviewAthlete]
+    head_to_heads: list[_HazmatPreviewHeadToHead]
+
+
+_HazmatPreviews = dict[bracket_utils.Division, dict[int, _HazmatPreview]]
+
+
+class _HazmatPreviewsRoot(pydantic.RootModel[_HazmatPreviews]):
+    pass
+
+
+@functools.cache
+def _get_previews() -> _HazmatPreviews:
+    filename = _HERE / "_2026-state-preview.json"
+    with open(filename, "rb") as file_obj:
+        as_json = file_obj.read()
+
+    root = _HazmatPreviewsRoot.model_validate_json(as_json)
+    return root.root
+
+
+def _head_to_head_athlete(
+    head_to_head: _HazmatPreviewHeadToHead, *, winner: bool
+) -> str:
+    if winner:
+        sectional = head_to_head.winner_sectional
+        name = head_to_head.winner
+        club = head_to_head.winner_club
+    else:
+        sectional = head_to_head.loser_sectional
+        name = head_to_head.loser
+        club = head_to_head.loser_club
+
+    return f'  <td data-sectional="{sectional}">{name} ({club})</td>'
+
+
 def _render_standings_html(division: bracket_utils.Division, weight: int) -> list[str]:
+    previews = _get_previews()
+    preview = previews.get(division, {}).get(weight)
+    if preview is None:
+        raise RuntimeError("Unexpected missing preview", division, weight)
+
     parts = [
         '<section class="standings">',
         '  <div class="sectional-filters">',
@@ -824,6 +928,24 @@ def _render_standings_html(division: bracket_utils.Division, weight: int) -> lis
         "    </thead>",
         '    <tbody id="preview-athletes">',
     ]
+
+    for athlete in preview.athletes:
+        state_result_2025 = athlete.state_result_2025 or ""
+        sectional_display = _pretty_sectional(athlete.sectional)
+        parts.extend(
+            [
+                f'<tr data-sectional="{athlete.sectional}">'
+                f"  <td>{athlete.name}</td>"
+                f"  <td>{athlete.club}</td>"
+                f"  <td>{sectional_display}</td>"
+                f"  <td>{athlete.wins}</td>"
+                f"  <td>{athlete.losses}</td>"
+                f"  <td>{athlete.ikwf_age}</td>"
+                f"  <td>{state_result_2025}</td>"
+                "</tr>"
+            ]
+        )
+
     parts.extend(
         [
             "    </tbody>",
@@ -841,6 +963,19 @@ def _render_standings_html(division: bracket_utils.Division, weight: int) -> lis
             '    <tbody id="preview-head-to-heads">',
         ]
     )
+
+    for head_to_head in preview.head_to_heads:
+        parts.extend(
+            [
+                "<tr>",
+                _head_to_head_athlete(head_to_head, winner=True),
+                _head_to_head_athlete(head_to_head, winner=False),
+                f"  <td>{head_to_head.result}</td>",
+                f"  <td>{head_to_head.event_date}</td>",
+                "</tr>",
+            ]
+        )
+
     parts.extend(
         [
             "    </tbody>",
@@ -1144,11 +1279,11 @@ def _check_missing_brackets(
 
 
 def main() -> None:
-    static_root = HERE.parent / "static" / "static"
+    static_root = _HERE.parent / "static" / "static"
     api_root = static_root / "api" / "v20250408"
 
     weights_by_year: dict[int, dict[bracket_utils.Division, list[int]]] = {}
-    with sqlite3.connect(HERE / "ikwf.sqlite") as connection:
+    with sqlite3.connect(_HERE / "ikwf.sqlite") as connection:
         connection.row_factory = sqlite3.Row
 
         all_tournaments = _get_all_tournaments(connection)

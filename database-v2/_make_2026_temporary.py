@@ -49,7 +49,7 @@ _WEIGHTS: dict[bracket_utils.Division, tuple[int, ...]] = {
 
 
 def main() -> None:
-    static_root = write_bracket_html.HERE.parent / "static" / "static"
+    static_root = write_bracket_html._HERE.parent / "static" / "static"
     match_data_rows: list[write_bracket_html.MatchData] = []
     for division, weights in _WEIGHTS.items():
         for weight in weights:
