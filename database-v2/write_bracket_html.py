@@ -1008,21 +1008,15 @@ def _render_bracket_html(
             _render_html_head(html_title, _hazmat_2026_preview=_hazmat_2026_preview),
             "<body>",
             '  <div class="brackets-viewer" id="bracket">',
+            '<div class="page-back">',
+            f'  <a href="/brackets/{config.year}/" class="back-link">',
+            '    <span class="back-arrow">&larr;</span>',
+            f"    <span>Back to {config.year} Brackets</span>",
+            "  </a>",
+            "</div>",
+            f"    <h1>{html.escape(html_title)}</h1>",
         ]
     )
-    if _hazmat_2026_preview:
-        parts.extend(
-            [
-                '<div class="page-back">',
-                '  <a href="/brackets/2026/" class="back-link">',
-                '    <span class="back-arrow">&larr;</span>',
-                "    <span>Back to 2026 Brackets</span>",
-                "  </a>",
-                "</div>",
-            ]
-        )
-
-    parts.append(f"    <h1>{html.escape(html_title)}</h1>")
 
     if _hazmat_2026_preview:
         parts.extend(_render_standings_html(division, weight))

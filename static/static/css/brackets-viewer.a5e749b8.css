@@ -373,3 +373,29 @@
     font-size: 0.9em;
     font-style: italic;
 }
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1d4ed8; /* strong blue */
+    padding: 0.35rem 0.6rem;
+    border-radius: 6px;
+    transition: background 0.15s ease, transform 0.05s ease;
+}
+
+.back-link:hover {
+    background: rgba(29, 78, 216, 0.08);
+}
+
+.back-link:active {
+    transform: translateX(-2px);
+}
+
+.back-arrow {
+    font-size: 1.1rem;
+    line-height: 1;
+}
