@@ -62,7 +62,7 @@ def main() -> None:
                 division,
                 weight,
                 match_data_rows,
-                _hazmat_skip_backside=True,
+                _hazmat_2026_preview=True,
             )
 
     write_bracket_html._render_brackets_year_html(static_root, 2026, _WEIGHTS)

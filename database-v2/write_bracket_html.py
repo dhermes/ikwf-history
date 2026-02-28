@@ -259,15 +259,18 @@ def _get_html_title(year: int, division: bracket_utils.Division, weight: int) ->
     return f"{division_display} {weight} ({year})"
 
 
-def _render_html_head(title: str) -> str:
-    return "\n".join(
-        [
-            "<head>",
-            f"  <title>{html.escape(title)}</title>",
-            '  <link href="/css/brackets-viewer.a5e749b8.min.css" rel="stylesheet" />',
-            "</head>",
-        ]
-    )
+def _render_html_head(title: str, *, _hazmat_2026_preview: bool = False) -> str:
+    parts = [
+        "<head>",
+        f"  <title>{html.escape(title)}</title>",
+        '  <link href="/css/brackets-viewer.a5e749b8.min.css" rel="stylesheet" />',
+    ]
+    if _hazmat_2026_preview:
+        parts.append(
+            '  <link href="/css/state-preview.f2ad84ed.min.css" rel="stylesheet" />'
+        )
+    parts.append("</head>")
+    return "\n".join(parts)
 
 
 def _format_null(value: int | None) -> str:
@@ -776,7 +779,7 @@ def _render_bracket_html(
     weight: int,
     match_data_rows: list[MatchData],
     *,
-    _hazmat_skip_backside: bool = False,
+    _hazmat_2026_preview: bool = False,
 ) -> None:
     match_map = _get_match_map(match_data_rows)
     participant_map = _get_participant_map(match_map)
@@ -788,14 +791,14 @@ def _render_bracket_html(
     parts: list[str] = ["<html>"]
     parts.extend(
         [
-            _render_html_head(html_title),
+            _render_html_head(html_title, _hazmat_2026_preview=_hazmat_2026_preview),
             "<body>",
             '  <div class="brackets-viewer" id="bracket">',
             f"    <h1>{html.escape(html_title)}</h1>",
         ]
     )
     parts.extend(_render_championship_html(match_map, participant_map))
-    if not _hazmat_skip_backside:
+    if not _hazmat_2026_preview:
         parts.extend(_render_consolation_html(match_map, participant_map, config))
         parts.extend(_render_fifth_place_html(match_map, participant_map))
         if config.medalist_count == 8:
@@ -808,6 +811,14 @@ def _render_bracket_html(
         [
             "    </div>",
             '    <script defer="" src="/js/add-hover.a99de10c.min.js"></script>',
+        ]
+    )
+    if _hazmat_2026_preview:
+        parts.append(
+            '    <script defer="" src="/js/state-preview.75f0de66.min.js"></script>',
+        )
+    parts.extend(
+        [
             "  </body>",
             "</html>",
         ]
