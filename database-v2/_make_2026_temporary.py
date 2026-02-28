@@ -50,37 +50,8 @@ _WEIGHTS: dict[bracket_utils.Division, tuple[int, ...]] = {
 
 def main() -> None:
     static_root = write_bracket_html.HERE.parent / "static" / "static"
-    dummy_match = write_bracket_html.MatchData(
-        match_slot_id=1,
-        match_slot="championship_r32_01",
-        top_name="Ben Davino",
-        top_team="Team USA",
-        bottom_name=None,
-        bottom_team=None,
-        bout_number=None,
-        top_score=None,
-        bottom_score=None,
-        top_win=True,
-        result="Bye",
-    )
-    dummy_match_girls = write_bracket_html.MatchData(
-        match_slot_id=1,
-        match_slot="championship_r32_01",
-        top_name="Kennedy Blades",
-        top_team="Team USA",
-        bottom_name=None,
-        bottom_team=None,
-        bout_number=None,
-        top_score=None,
-        bottom_score=None,
-        top_win=True,
-        result="Bye",
-    )
+    match_data_rows: list[write_bracket_html.MatchData] = []
     for division, weights in _WEIGHTS.items():
-        if division.endswith("_girls"):
-            match_data_rows = [dummy_match_girls]
-        else:
-            match_data_rows = [dummy_match]
         for weight in weights:
             config = write_bracket_html.TournamentConfig(
                 id=54, year=2026, wrestleback_type="full", medalist_count=8
