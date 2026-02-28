@@ -772,6 +772,85 @@ def _render_seventh_place_html(
     return parts
 
 
+def _render_standings_html(division: bracket_utils.Division, weight: int) -> list[str]:
+    parts = [
+        '<section class="standings">',
+        '  <div class="sectional-filters">',
+        '    <label class="sectional-chip">',
+        '      <input type="checkbox" value="central" checked />',
+        "      <span>Central</span>",
+        "    </label>",
+        '    <label class="sectional-chip">',
+        '      <input type="checkbox" value="central_chicago" checked />',
+        "      <span>Central Chicago</span>",
+        "    </label>",
+        '    <label class="sectional-chip">',
+        '      <input type="checkbox" value="north" checked />',
+        "      <span>North</span>",
+        "    </label>",
+        '    <label class="sectional-chip">',
+        '      <input type="checkbox" value="north_chicago" checked />',
+        "      <span>North Chicago</span>",
+        "    </label>",
+        '    <label class="sectional-chip">',
+        '      <input type="checkbox" value="south" checked />',
+        "      <span>South</span>",
+        "    </label>",
+        '    <label class="sectional-chip">',
+        '      <input type="checkbox" value="south_chicago" checked />',
+        "      <span>South Chicago</span>",
+        "    </label>",
+        '    <label class="sectional-chip">',
+        '      <input type="checkbox" value="west" checked />',
+        "      <span>West</span>",
+        "    </label>",
+        '    <label class="sectional-chip">',
+        '      <input type="checkbox" value="west_chicago" checked />',
+        "      <span>West Chicago</span>",
+        "    </label>",
+        "  </div>",
+        "  <h2>Wrestlers</h2>",
+        '  <table class="bracket-table">',
+        "    <thead>",
+        "      <tr>",
+        "        <th>Name</th>",
+        "        <th>Club</th>",
+        "        <th>Sectional</th>",
+        "        <th>Wins</th>",
+        "        <th>Losses</th>",
+        "        <th>IKWF age</th>",
+        "        <th>State result (2025)</th>",
+        "      </tr>",
+        "    </thead>",
+        '    <tbody id="preview-athletes">',
+    ]
+    parts.extend(
+        [
+            "    </tbody>",
+            "  </table>",
+            "  <h2>Head to head results</h2>",
+            '  <table class="bracket-table">',
+            "    <thead>",
+            "      <tr>",
+            "        <th>Winner</th>",
+            "        <th>Loser</th>",
+            "        <th>Result</th>",
+            "        <th>Date</th>",
+            "      </tr>",
+            "    </thead>",
+            '    <tbody id="preview-head-to-heads">',
+        ]
+    )
+    parts.extend(
+        [
+            "    </tbody>",
+            "  </table>",
+            "</section>",
+        ]
+    )
+    return parts
+
+
 def _render_bracket_html(
     static_root: pathlib.Path,
     config: TournamentConfig,
@@ -794,9 +873,25 @@ def _render_bracket_html(
             _render_html_head(html_title, _hazmat_2026_preview=_hazmat_2026_preview),
             "<body>",
             '  <div class="brackets-viewer" id="bracket">',
-            f"    <h1>{html.escape(html_title)}</h1>",
         ]
     )
+    if _hazmat_2026_preview:
+        parts.extend(
+            [
+                '<div class="page-back">',
+                '  <a href="/brackets/2026/" class="back-link">',
+                '    <span class="back-arrow">&larr;</span>',
+                "    <span>Back to 2026 Brackets</span>",
+                "  </a>",
+                "</div>",
+            ]
+        )
+
+    parts.append(f"    <h1>{html.escape(html_title)}</h1>")
+
+    if _hazmat_2026_preview:
+        parts.extend(_render_standings_html(division, weight))
+
     parts.extend(_render_championship_html(match_map, participant_map))
     if not _hazmat_2026_preview:
         parts.extend(_render_consolation_html(match_map, participant_map, config))
