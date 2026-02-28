@@ -84,23 +84,23 @@ CHECKBOXES.forEach((checkbox) => {
 });
 
 /**
- * Decode the allowed sectionals based on the URL.
- * @returns string[]
+ * Parse the `filter` mask from the URL.
+ * @returns number
  */
-function decodeSectionalsFromURL() {
+function parseMaskFromURL() {
   const params = new URLSearchParams(window.location.search);
   const raw = params.get("filter");
 
   if (raw === null) {
-    return decodeSectionals(255);
+    return 255;
   }
 
   const mask = Number(raw);
   if (!Number.isInteger(mask) || mask < 0 || mask > 255) {
-    return decodeSectionals(255);
+    return 255;
   }
 
-  return decodeSectionals(mask);
+  return mask;
 }
 
 /**
@@ -108,7 +108,8 @@ function decodeSectionalsFromURL() {
  * parameter currently on the page.
  */
 function initSectionals() {
-  const allowedSectionals = decodeSectionalsFromURL();
+  const mask = parseMaskFromURL();
+  const allowedSectionals = decodeSectionals(mask);
   CHECKBOXES.forEach((checkbox) => {
     checkbox.checked = allowedSectionals.includes(checkbox.value);
   });
