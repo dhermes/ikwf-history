@@ -1,0 +1,644 @@
+{
+    "bantam": {
+        "43": {
+            "athletes": [
+                {
+                    "name": "Rowan Lemke",
+                    "club": "Ottawa Wolfpack Wrestling Club",
+                    "sectional": "west",
+                    "wins": 2,
+                    "losses": 0,
+                    "ikwf_age": 7,
+                    "state_result_2025": null
+                },
+                {
+                    "name": "Emeree Eimer",
+                    "club": "Olympia Wrestling Club",
+                    "sectional": "central",
+                    "wins": 9,
+                    "losses": 5,
+                    "ikwf_age": 8,
+                    "state_result_2025": null
+                },
+                {
+                    "name": "Phinneas Kloepfer",
+                    "club": "Round Lake Jr. Panthers Wrestling Club",
+                    "sectional": "north_chicago",
+                    "wins": 2,
+                    "losses": 0,
+                    "ikwf_age": 7,
+                    "state_result_2025": null
+                },
+                {
+                    "name": "Blake Henrich",
+                    "club": "SCN Youth Wrestling Club",
+                    "sectional": "west_chicago",
+                    "wins": 3,
+                    "losses": 1,
+                    "ikwf_age": 7,
+                    "state_result_2025": null
+                },
+                {
+                    "name": "Scotlynn Hartmann",
+                    "club": "Tiger Town Tanglers Wrestling Club",
+                    "sectional": "west",
+                    "wins": 12,
+                    "losses": 8,
+                    "ikwf_age": 8,
+                    "state_result_2025": null
+                },
+                {
+                    "name": "Landon Mayberry",
+                    "club": "Vandalia Jr Wrestling Club",
+                    "sectional": "south",
+                    "wins": 1,
+                    "losses": 0,
+                    "ikwf_age": 7,
+                    "state_result_2025": null
+                },
+                {
+                    "name": "Quentin Bergstrom",
+                    "club": "McHenry Wrestling Club",
+                    "sectional": "north",
+                    "wins": 1,
+                    "losses": 0,
+                    "ikwf_age": 7,
+                    "state_result_2025": null
+                },
+                {
+                    "name": "Mateo Ocampo",
+                    "club": "Peoria Razorbacks Wrestling Club",
+                    "sectional": "west",
+                    "wins": 1,
+                    "losses": 0,
+                    "ikwf_age": 7,
+                    "state_result_2025": null
+                },
+                {
+                    "name": "Jenson Briscoe",
+                    "club": "Morris Wrestling Club",
+                    "sectional": "west",
+                    "wins": 3,
+                    "losses": 2,
+                    "ikwf_age": 7,
+                    "state_result_2025": "Bantam 43 SQ"
+                },
+                {
+                    "name": "Brantley Fischer",
+                    "club": "Celtic Wrestling Academy",
+                    "sectional": "south_chicago",
+                    "wins": 4,
+                    "losses": 4,
+                    "ikwf_age": 8,
+                    "state_result_2025": "Bantam 43 SQ"
+                },
+                {
+                    "name": "Michael Olsick Jr",
+                    "club": "Lemont Bears WC",
+                    "sectional": "central_chicago",
+                    "wins": 1,
+                    "losses": 1,
+                    "ikwf_age": 7,
+                    "state_result_2025": null
+                },
+                {
+                    "name": "Kaden Anderson",
+                    "club": "Dundee Highlanders WC",
+                    "sectional": "north",
+                    "wins": 1,
+                    "losses": 1,
+                    "ikwf_age": 7,
+                    "state_result_2025": null
+                },
+                {
+                    "name": "Angelo Best",
+                    "club": "Rockets Wrestling Club",
+                    "sectional": "north",
+                    "wins": 2,
+                    "losses": 2,
+                    "ikwf_age": 7,
+                    "state_result_2025": "Bantam 43 SQ"
+                },
+                {
+                    "name": "Dawson Czaja",
+                    "club": "Lil' Coalers Wrestling Club",
+                    "sectional": "south_chicago",
+                    "wins": 3,
+                    "losses": 3,
+                    "ikwf_age": 7,
+                    "state_result_2025": null
+                }
+            ],
+            "head_to_heads": [
+                {
+                    "winner": "Blake Henrich",
+                    "winner_club": "SCN Youth Wrestling Club",
+                    "winner_sectional": "west_chicago",
+                    "loser": "Brantley Fischer",
+                    "loser_club": "Celtic Wrestling Academy",
+                    "loser_sectional": "south_chicago",
+                    "result": "Fall 1:40",
+                    "event_date": "2025-12-07"
+                },
+                {
+                    "winner": "Brantley Fischer",
+                    "winner_club": "Celtic Wrestling Academy",
+                    "winner_sectional": "south_chicago",
+                    "loser": "Michael Olsick Jr",
+                    "loser_club": "Lemont Bears WC",
+                    "loser_sectional": "central_chicago",
+                    "result": "TF 19-3",
+                    "event_date": "2026-01-04"
+                },
+                {
+                    "winner": "Kaden Anderson",
+                    "winner_club": "Dundee Highlanders WC",
+                    "winner_sectional": "north",
+                    "loser": "Scotlynn Hartmann",
+                    "loser_club": "Tiger Town Tanglers Wrestling Club",
+                    "loser_sectional": "west",
+                    "result": "Dec 11-8",
+                    "event_date": "2026-02-01"
+                },
+                {
+                    "winner": "Brantley Fischer",
+                    "winner_club": "Celtic Wrestling Academy",
+                    "winner_sectional": "south_chicago",
+                    "loser": "Angelo Best",
+                    "loser_club": "Rockets Wrestling Club",
+                    "loser_sectional": "north",
+                    "result": "Maj 16-3",
+                    "event_date": "2025-12-21"
+                },
+                {
+                    "winner": "Brantley Fischer",
+                    "winner_club": "Celtic Wrestling Academy",
+                    "winner_sectional": "south_chicago",
+                    "loser": "Angelo Best",
+                    "loser_club": "Rockets Wrestling Club",
+                    "loser_sectional": "north",
+                    "result": "SV-1 10-7",
+                    "event_date": "2026-01-04"
+                },
+                {
+                    "winner": "Rowan Lemke",
+                    "winner_club": "Ottawa Wolfpack Wrestling Club",
+                    "winner_sectional": "west",
+                    "loser": "Scotlynn Hartmann",
+                    "loser_club": "Tiger Town Tanglers Wrestling Club",
+                    "loser_sectional": "west",
+                    "result": "SV-1 9-6",
+                    "event_date": "2026-02-15"
+                },
+                {
+                    "winner": "Jenson Briscoe",
+                    "winner_club": "Morris Wrestling Club",
+                    "winner_sectional": "west",
+                    "loser": "Scotlynn Hartmann",
+                    "loser_club": "Tiger Town Tanglers Wrestling Club",
+                    "loser_sectional": "west",
+                    "result": "F. 0:58",
+                    "event_date": "2026-01-11"
+                }
+            ]
+        },
+        "46": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "49": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "52": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "55": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "58": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "62": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "66": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "70": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "76": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "84": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "95": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "120": {
+            "athletes": [],
+            "head_to_heads": []
+        }
+    },
+    "intermediate": {
+        "55": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "59": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "64": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "69": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "74": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "79": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "84": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "90": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "98": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "108": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "122": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "148": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "177": {
+            "athletes": [],
+            "head_to_heads": []
+        }
+    },
+    "novice": {
+        "60": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "64": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "69": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "74": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "80": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "86": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "93": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "100": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "108": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "116": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "125": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "134": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "154": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "178": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "215": {
+            "athletes": [],
+            "head_to_heads": []
+        }
+    },
+    "senior": {
+        "74": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "79": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "84": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "90": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "96": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "103": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "110": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "118": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "126": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "135": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "144": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "154": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "164": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "176": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "188": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "215": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "275": {
+            "athletes": [],
+            "head_to_heads": []
+        }
+    },
+    "bantam_girls": {
+        "45": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "50": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "55": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "61": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "67": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "74": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "85": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "95": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "115": {
+            "athletes": [],
+            "head_to_heads": []
+        }
+    },
+    "intermediate_girls": {
+        "53": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "57": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "62": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "67": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "72": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "77": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "82": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "88": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "95": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "115": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "135": {
+            "athletes": [],
+            "head_to_heads": []
+        }
+    },
+    "novice_girls": {
+        "63": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "68": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "74": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "80": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "85": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "90": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "96": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "102": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "108": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "115": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "125": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "140": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "185": {
+            "athletes": [],
+            "head_to_heads": []
+        }
+    },
+    "senior_girls": {
+        "75": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "80": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "85": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "90": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "95": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "100": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "105": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "110": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "115": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "120": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "125": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "130": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "135": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "145": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "185": {
+            "athletes": [],
+            "head_to_heads": []
+        },
+        "240": {
+            "athletes": [],
+            "head_to_heads": []
+        }
+    }
+}
