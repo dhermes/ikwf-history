@@ -264,11 +264,11 @@ def _render_html_head(title: str, *, _hazmat_2026_preview: bool = False) -> str:
     parts = [
         "<head>",
         f"  <title>{html.escape(title)}</title>",
-        '  <link href="/css/brackets-viewer.a5e749b8.min.css" rel="stylesheet" />',
+        '  <link href="/css/brackets-viewer.e0d3a281.min.css" rel="stylesheet" />',
     ]
     if _hazmat_2026_preview:
         parts.append(
-            '  <link href="/css/state-preview.f2ad84ed.min.css" rel="stylesheet" />'
+            '  <link href="/css/state-preview.801a3ed2.min.css" rel="stylesheet" />'
         )
     parts.append("</head>")
     return "\n".join(parts)
