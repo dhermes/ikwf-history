@@ -82,3 +82,38 @@ function handleSectionalChange() {
 CHECKBOXES.forEach((checkbox) => {
   checkbox.addEventListener("change", handleSectionalChange);
 });
+
+/**
+ * Decode the allowed sectionals based on the URL.
+ * @returns string[]
+ */
+function decodeSectionalsFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  const raw = params.get("filter");
+
+  if (raw === null) {
+    return decodeSectionals(255);
+  }
+
+  const mask = Number(raw);
+  if (!Number.isInteger(mask) || mask < 0 || mask > 255) {
+    return decodeSectionals(255);
+  }
+
+  return decodeSectionals(mask);
+}
+
+/**
+ * Initialize by calling `onSectionalsChanged()` based on the `filter` query
+ * parameter currently on the page.
+ */
+function initSectionals() {
+  const allowedSectionals = decodeSectionalsFromURL();
+  CHECKBOXES.forEach((checkbox) => {
+    checkbox.checked = allowedSectionals.includes(checkbox.value);
+  });
+
+  onSectionalsChanged(allowedSectionals);
+}
+
+initSectionals();
