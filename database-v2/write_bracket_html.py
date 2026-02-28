@@ -913,7 +913,7 @@ def _render_standings_html(division: bracket_utils.Division, weight: int) -> lis
         "      <span>West Chicago</span>",
         "    </label>",
         "  </div>",
-        "  <h2>Wrestlers</h2>",
+        "  <h2>Sectional wrestlers</h2>",
         '  <table class="bracket-table">',
         "    <thead>",
         "      <tr>",
