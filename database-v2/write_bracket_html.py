@@ -905,6 +905,10 @@ def _render_standings_html(division: bracket_utils.Division, weight: int) -> lis
     for athlete in preview.athletes:
         state_result_2025 = athlete.state_result_2025 or ""
         sectional_display = _pretty_sectional(athlete.sectional)
+        sectional_placement = athlete.sectional_placement
+        if sectional_placement is None:
+            sectional_placement = "DNP"
+        sectional_display = f"{sectional_display} ({sectional_placement})"
         parts.extend(
             [
                 f'<tr data-sectional="{athlete.sectional}">'
