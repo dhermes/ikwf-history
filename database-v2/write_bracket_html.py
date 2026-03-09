@@ -817,6 +817,7 @@ class _HazmatPreviewAthlete(_ForbidExtra):
     name: str
     club: str
     sectional: _HazmatSectional
+    sectional_placement: str | None
     wins: int
     losses: int
     ikwf_age: int
@@ -834,9 +835,15 @@ class _HazmatPreviewHeadToHead(_ForbidExtra):
     event_date: datetime.date
 
 
+class _HazmatSimpleAthlete(_ForbidExtra):
+    name: str
+    club: str
+
+
 class _HazmatPreview(_ForbidExtra):
     athletes: list[_HazmatPreviewAthlete]
     head_to_heads: list[_HazmatPreviewHeadToHead]
+    bracket_slots: list[_HazmatSimpleAthlete | None]
 
 
 _HazmatPreviews = dict[bracket_utils.Division, dict[int, _HazmatPreview]]
