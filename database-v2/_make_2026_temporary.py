@@ -50,12 +50,12 @@ _WEIGHTS: dict[bracket_utils.Division, tuple[int, ...]] = {
 
 def main() -> None:
     static_root = write_bracket_html._HERE.parent / "static" / "static"
-    match_data_rows: list[write_bracket_html.MatchData] = []
     for division, weights in _WEIGHTS.items():
         for weight in weights:
             config = write_bracket_html.TournamentConfig(
                 id=54, year=2026, wrestleback_type="full", medalist_count=8
             )
+            match_data_rows: list[write_bracket_html.MatchData] = []
             write_bracket_html._render_bracket_html(
                 static_root,
                 config,

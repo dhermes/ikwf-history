@@ -963,6 +963,127 @@ def _render_standings_html(division: bracket_utils.Division, weight: int) -> lis
     return parts
 
 
+def _tidy_add_r32_bye(
+    computed_matches: list[MatchData],
+    index: int,
+    match_slot_id: int,
+    bracket_slots: list[_HazmatSimpleAthlete | None],
+) -> None:
+    slot = bracket_slots[index]
+    if slot is None:
+        return
+
+    match_slot = bracket_utils.get_match_slot_from_id(match_slot_id)
+    computed_matches.append(
+        MatchData(
+            match_slot_id=match_slot_id,
+            bout_number=None,
+            match_slot=match_slot,
+            top_name=slot.name,
+            top_team=slot.club,
+            top_score=None,
+            bottom_name=None,
+            bottom_team=None,
+            bottom_score=None,
+            top_win=True,
+            result="Bye",
+        )
+    )
+
+
+def _tidy_add_r32_match(
+    computed_matches: list[MatchData],
+    first_index: int,
+    match_slot_id: int,
+    bracket_slots: list[_HazmatSimpleAthlete | None],
+) -> None:
+    slot1 = bracket_slots[first_index]
+    slot2 = bracket_slots[first_index + 1]
+    if slot1 is None and slot2 is None:
+        return
+
+    match_slot = bracket_utils.get_match_slot_from_id(match_slot_id)
+    top_win = None
+    result = ""
+
+    if slot1 is None:
+        top_name = None
+        top_team = None
+        top_win = False
+        result = "Bye"
+    else:
+        top_name = slot1.name
+        top_team = slot1.club
+
+    if slot2 is None:
+        bottom_name = None
+        bottom_team = None
+        top_win = True
+        result = "Bye"
+    else:
+        bottom_name = slot2.name
+        bottom_team = slot2.club
+
+    computed_matches.append(
+        MatchData(
+            match_slot_id=match_slot_id,
+            bout_number=None,
+            match_slot=match_slot,
+            top_name=top_name,
+            top_team=top_team,
+            top_score=None,
+            bottom_name=bottom_name,
+            bottom_team=bottom_team,
+            bottom_score=None,
+            top_win=top_win,
+            result=result,
+        )
+    )
+
+
+def _tidy_match_data_rows(
+    match_data_rows: list[MatchData],
+    division: bracket_utils.Division,
+    weight: int,
+    *,
+    _hazmat_2026_preview: bool,
+) -> list[MatchData]:
+    if not _hazmat_2026_preview:
+        return match_data_rows
+
+    if match_data_rows:
+        raise ValueError("Should not pass any rows in 2026 preview")
+
+    previews = _get_previews()
+    preview = previews.get(division, {}).get(weight)
+    if preview is None:
+        raise RuntimeError("Unexpected missing preview", division, weight)
+
+    bracket_slots = preview.bracket_slots
+    if len(bracket_slots) != 24:
+        raise RuntimeError("Unexpected bracket slots", division, weight)
+
+    computed_matches: list[MatchData] = []
+    _tidy_add_r32_bye(computed_matches, 0, 1, bracket_slots)
+    _tidy_add_r32_match(computed_matches, 1, 2, bracket_slots)
+    _tidy_add_r32_bye(computed_matches, 3, 3, bracket_slots)
+    _tidy_add_r32_match(computed_matches, 4, 4, bracket_slots)
+    _tidy_add_r32_bye(computed_matches, 6, 5, bracket_slots)
+    _tidy_add_r32_match(computed_matches, 7, 6, bracket_slots)
+    _tidy_add_r32_bye(computed_matches, 9, 7, bracket_slots)
+    _tidy_add_r32_match(computed_matches, 10, 8, bracket_slots)
+    _tidy_add_r32_bye(computed_matches, 12, 9, bracket_slots)
+    _tidy_add_r32_match(computed_matches, 13, 10, bracket_slots)
+    _tidy_add_r32_bye(computed_matches, 15, 11, bracket_slots)
+    _tidy_add_r32_match(computed_matches, 16, 12, bracket_slots)
+    _tidy_add_r32_bye(computed_matches, 18, 13, bracket_slots)
+    _tidy_add_r32_match(computed_matches, 19, 14, bracket_slots)
+    _tidy_add_r32_bye(computed_matches, 21, 15, bracket_slots)
+    _tidy_add_r32_match(computed_matches, 22, 16, bracket_slots)
+
+    return computed_matches
+
+
 def _render_bracket_html(
     static_root: pathlib.Path,
     config: TournamentConfig,
@@ -972,6 +1093,10 @@ def _render_bracket_html(
     *,
     _hazmat_2026_preview: bool = False,
 ) -> None:
+    match_data_rows = _tidy_match_data_rows(
+        match_data_rows, division, weight, _hazmat_2026_preview=_hazmat_2026_preview
+    )
+
     match_map = _get_match_map(match_data_rows)
     participant_map = _get_participant_map(match_map)
     included_images = _get_included_bracket_images(
