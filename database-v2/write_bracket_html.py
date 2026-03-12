@@ -835,6 +835,11 @@ class _HazmatPreviewHeadToHead(_ForbidExtra):
     event_date: datetime.date
 
 
+class _HazmatPreviewHeadToHeadExtra(_HazmatPreviewHeadToHead):
+    other_division: bracket_utils.Division
+    other_weight: int
+
+
 class _HazmatSimpleAthlete(_ForbidExtra):
     name: str
     club: str
@@ -844,6 +849,7 @@ class _HazmatPreview(_ForbidExtra):
     athletes: list[_HazmatPreviewAthlete]
     head_to_heads: list[_HazmatPreviewHeadToHead]
     bracket_slots: list[_HazmatSimpleAthlete | None]
+    against_other_qualifiers: list[_HazmatPreviewHeadToHeadExtra]
 
 
 _HazmatPreviews = dict[bracket_utils.Division, dict[int, _HazmatPreview]]
@@ -968,9 +974,46 @@ def _render_standings_html(division: bracket_utils.Division, weight: int) -> lis
         [
             "    </tbody>",
             "  </table>",
+            "  <h2>Results against other weights</h2>",
+            '  <table class="bracket-table">',
+            "    <thead>",
+            "      <tr>",
+            "        <th>Winner</th>",
+            "        <th>Loser</th>",
+            "        <th>Result</th>",
+            "        <th>Date</th>",
+            "        <th>Weight</th>",
+            "      </tr>",
+            "    </thead>",
+            '    <tbody id="preview-against-other-qualifiers">',
+        ]
+    )
+
+    for against_other in preview.against_other_qualifiers:
+        other_division = bracket_utils.get_division_display(
+            against_other.other_division
+        )
+        other_display = f"{other_division} {against_other.other_weight}"
+        parts.extend(
+            [
+                '<tr class="head-to-head-row">',
+                _head_to_head_athlete(against_other, winner=True),
+                _head_to_head_athlete(against_other, winner=False),
+                f"  <td>{against_other.result}</td>",
+                f"  <td>{against_other.event_date}</td>",
+                f"  <td>{other_display}</td>",
+                "</tr>",
+            ]
+        )
+
+    parts.extend(
+        [
+            "    </tbody>",
+            "  </table>",
             "</section>",
         ]
     )
+
     return parts
 
 
