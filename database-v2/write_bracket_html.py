@@ -268,7 +268,7 @@ def _render_html_head(title: str, *, _hazmat_2026_preview: bool = False) -> str:
     ]
     if _hazmat_2026_preview:
         parts.append(
-            '  <link href="/css/state-preview.801a3ed2.min.css" rel="stylesheet" />'
+            '  <link href="/css/state-preview.da35837d.min.css" rel="stylesheet" />'
         )
     parts.append("</head>")
     return "\n".join(parts)
@@ -875,7 +875,13 @@ def _head_to_head_athlete(
         name = head_to_head.loser
         club = head_to_head.loser_club
 
-    return f'  <td data-sectional="{sectional}">{name} ({club})</td>'
+    return "\n".join(
+        [
+            f'<td data-sectional="{sectional}" data-athlete-name="{name}">'
+            f"  {name} ({club})"
+            "</td>"
+        ]
+    )
 
 
 def _render_standings_html(division: bracket_utils.Division, weight: int) -> list[str]:
@@ -890,6 +896,7 @@ def _render_standings_html(division: bracket_utils.Division, weight: int) -> lis
         '  <table class="bracket-table">',
         "    <thead>",
         "      <tr>",
+        "        <th></th>",
         "        <th>Name</th>",
         "        <th>Club</th>",
         "        <th>Sectional</th>",
@@ -911,7 +918,11 @@ def _render_standings_html(division: bracket_utils.Division, weight: int) -> lis
         sectional_display = f"{sectional_display} ({sectional_placement})"
         parts.extend(
             [
-                f'<tr data-sectional="{athlete.sectional}">'
+                f'<tr class="qualifier-row"'
+                f'    data-sectional="{athlete.sectional}" '
+                f'    data-athlete-name="{athlete.name}"',
+                ">",
+                '  <td class="filter-chip"><input type="checkbox" /></td>',
                 f"  <td>{athlete.name}</td>"
                 f"  <td>{athlete.club}</td>"
                 f"  <td>{sectional_display}</td>"
@@ -919,7 +930,7 @@ def _render_standings_html(division: bracket_utils.Division, weight: int) -> lis
                 f"  <td>{athlete.losses}</td>"
                 f"  <td>{athlete.ikwf_age}</td>"
                 f"  <td>{state_result_2025}</td>"
-                "</tr>"
+                "</tr>",
             ]
         )
 
@@ -944,7 +955,7 @@ def _render_standings_html(division: bracket_utils.Division, weight: int) -> lis
     for head_to_head in preview.head_to_heads:
         parts.extend(
             [
-                "<tr>",
+                '<tr class="head-to-head-row">',
                 _head_to_head_athlete(head_to_head, winner=True),
                 _head_to_head_athlete(head_to_head, winner=False),
                 f"  <td>{head_to_head.result}</td>",
@@ -1141,7 +1152,7 @@ def _render_bracket_html(
     )
     if _hazmat_2026_preview:
         parts.append(
-            '    <script defer="" src="/js/state-preview.75f0de66.min.js"></script>',
+            '    <script defer="" src="/js/state-preview.2b2d5139.min.js"></script>',
         )
     parts.extend(
         [
