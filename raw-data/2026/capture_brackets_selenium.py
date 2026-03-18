@@ -1,3 +1,5 @@
+# Copyright (c) 2026 - Present. IKWF History. All rights reserved.
+
 import datetime
 import json
 import os
