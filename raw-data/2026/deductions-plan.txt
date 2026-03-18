@@ -1,0 +1,7 @@
+For deductions:
+
+- Visit: https://www.usabracketing.com/events/005e58e6-2d77-4c47-a1db-189347644f95/team_scoring/teams
+- Iterate through **EVERY** team page, e.g. https://www.usabracketing.com/events/team_scoring/team/078f3d3e-b9c1-46a4-b962-35862dfa199d
+- From each of the (272) team pages, parse the table containing adjustments,
+  for example https://www.usabracketing.com/events/team_scoring/team/228612e5-d692-49dc-ac51-c18c79e7a9ee
+  says "USC Justin Carr-Jones: -1"
