@@ -7,6 +7,7 @@ import pathlib
 import time
 from collections.abc import Callable
 
+import bs4
 import pydantic
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -25,6 +26,7 @@ _IGNORE_SEARCH_RESULTS = (
     "2026 USA Wrestling 16U & Junior Folkstyle National Championship",
     "2026 U17 Pan-Am Team Trials",
 )
+_REASON_PARENTS = ("div", "th", "tr", "thead", "table")
 
 
 class _ForbidExtra(pydantic.BaseModel):
@@ -373,9 +375,91 @@ def _capture_outer() -> None:
     return captured
 
 
+class _Deduction(_ForbidExtra):
+    team: str
+    reason: str
+    value: float
+
+
+class _Deductions(pydantic.RootModel[list[_Deduction]]):
+    pass
+
+
+def _get_deductions_for_team(url: str, html: str) -> list[_Deduction]:
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+
+    reason_spans = [
+        span
+        for span in soup.find_all("span", {"wire:key": "0"})
+        if span.text.strip() == "Reason"
+    ]
+    if len(reason_spans) == 0:
+        return []
+
+    if len(reason_spans) != 1:
+        raise ValueError(
+            "Unexpected number of <span>Reason</span>", url, len(reason_spans)
+        )
+
+    (reason_span,) = reason_spans
+
+    path_to_table: list[bs4.Tag] = []
+    for parent in reason_span.parents:
+        path_to_table.append(parent)
+        if parent.name == "table":
+            break
+
+    parent_tags = tuple(parent.name for parent in path_to_table)
+    if parent_tags != _REASON_PARENTS:
+        raise ValueError("Unexpected <span>Reason</span> parents", url, parent_tags)
+
+    table = path_to_table[-1]
+
+    matches: list[tuple[str, str]] = []
+    for tr in table.find_all("tr"):
+        row_entry = [td.text.strip() for td in tr.find_all("td")]
+        if len(row_entry) == 0:
+            continue
+
+        if len(row_entry) != 2:
+            raise ValueError("Unexpected table row", url, len(row_entry))
+
+        matches.append(tuple(row_entry))
+
+    if not matches:
+        return []
+
+    all_h2 = soup.find_all("h2")
+    if len(all_h2) != 1:
+        raise ValueError("Unexpected page structure <h2>", url, len(all_h2))
+
+    team_name = all_h2[0].text.strip()
+
+    return [
+        _Deduction(team=team_name, reason=reason, value=value)
+        for reason, value in matches
+    ]
+
+
+def _get_all_deductions(captured: dict[str, str]) -> list[_Deduction]:
+    result: list[_Deduction] = []
+    for url, html in captured.items():
+        result.extend(_get_deductions_for_team(url, html))
+
+    return result
+
+
 def main() -> None:
     captured = _capture_outer()
-    print(len(captured))
+    deductions = _get_all_deductions(captured)
+
+    deductions_root = _Deductions(root=deductions)
+    as_json = deductions_root.model_dump_json(indent=2)
+
+    filename = _HERE / "deductions.selenium.json"
+    with open(filename, "w") as file_obj:
+        file_obj.write(as_json)
+        file_obj.write("\n")
 
 
 if __name__ == "__main__":
