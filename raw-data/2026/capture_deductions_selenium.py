@@ -269,7 +269,7 @@ def _make_teams_next_page_ready(
     start_str = f"{range_start}"
     xpath_query = "//span[normalize-space(.)='Showing']/following-sibling::span[1]"
 
-    def _weights_next_page_ready(driver: webdriver.Chrome) -> str | None:
+    def _teams_next_page_ready(driver: webdriver.Chrome) -> str | None:
         span = driver.find_element(By.XPATH, xpath_query)
         if span is None:
             return None
@@ -277,7 +277,7 @@ def _make_teams_next_page_ready(
         text = span.text.strip()
         return text if text == start_str else None
 
-    return _weights_next_page_ready
+    return _teams_next_page_ready
 
 
 def _teams_click_next_page(driver: webdriver.Chrome, page_number: int) -> bool:

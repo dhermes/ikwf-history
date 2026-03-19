@@ -5,7 +5,9 @@ import json
 import os
 import pathlib
 import time
+from collections.abc import Callable
 
+import bs4
 import pydantic
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -16,7 +18,6 @@ _HERE = pathlib.Path(__file__).resolve().parent
 _ENV_USERNAME = "USA_BRACKETING_USERNAME"
 _ENV_PASSWORD = "USA_BRACKETING_PASSWORD"
 _WAIT_TIME = 3
-_LONG_CONTENT_WAIT_TIME = 15
 _OPTION_ILLINOIS_VALUE = "14"
 _OPTION_ILLINOIS_TEXT = "Illinois, USA"
 _IGNORE_SEARCH_RESULTS = (
@@ -222,162 +223,106 @@ def _open_event(event: _Event, login_info: _LoginInfo) -> webdriver.Chrome:
     return driver
 
 
-def _click_results(driver: webdriver.Chrome) -> None:
-    reports_link = WebDriverWait(driver, _WAIT_TIME).until(
-        EC.element_to_be_clickable(
-            (By.XPATH, "//a[.//div[contains(text(),'Reports')]]")
-        )
+def _click_teams(driver: webdriver.Chrome) -> None:
+    brackets_link = WebDriverWait(driver, _WAIT_TIME).until(
+        EC.element_to_be_clickable((By.XPATH, "//a[.//div[contains(text(),'Teams')]]"))
     )
 
-    reports_link.click()
+    brackets_link.click()
 
 
-def _choose_by_round(driver: webdriver.Chrome) -> None:
-    # Wait until the report <select> is clickable
-    report_select_element = WebDriverWait(driver, _WAIT_TIME).until(
-        EC.element_to_be_clickable((By.ID, "report"))
-    )
-
-    # Wrap it in Selenium's Select
-    report_select = Select(report_select_element)
-
-    # Select the option by value
-    report_select.select_by_value("round")
-
-
-def _allow_all_predicate(driver: webdriver.Chrome) -> None:
-    all_my_wrestlers = driver.find_elements(By.ID, "my_wrestlers")
-    all_my_teams = driver.find_elements(By.ID, "my_teams")
-
-    my_wrestlers = None
-    if len(all_my_wrestlers) > 1:
-        raise RuntimeError("Unexpected `my_wrestlers` count")
-    elif len(all_my_wrestlers) == 1:
-        my_wrestlers = all_my_wrestlers[0]
-
-    my_teams = None
-    if len(all_my_teams) > 1:
-        raise RuntimeError("Unexpected `my_teams` count")
-    elif len(all_my_teams) == 1:
-        my_teams = all_my_teams[0]
-
-    if my_teams is not None and my_wrestlers is not None:
-        raise RuntimeError("Unexpected both `my_teams` and `my_wrestlers` present")
-
-    return my_teams or my_wrestlers
-
-
-def _allow_all(driver: webdriver.Chrome) -> None:
-    # Wait until the "My Wrestlers Only" or "My Teams Only" <select> is clickable
-    my_only_select_element = WebDriverWait(driver, _WAIT_TIME).until(
-        _allow_all_predicate
-    )
-
-    my_only_select = Select(my_only_select_element)
-
-    # Select the option by value
-    time.sleep(2.0)
-    my_only_select.select_by_value("")
-
-
-class _OptionInfo(_ForbidExtra):
-    value: str
-    label: str
-
-
-def _all_round_option_values(driver: webdriver.Chrome) -> list[_OptionInfo]:
-    select_element = WebDriverWait(driver, _WAIT_TIME).until(
-        EC.presence_of_element_located((By.ID, "round_ids"))
-    )
-
-    select = Select(select_element)
-
-    options: list[_OptionInfo] = []
-    for opt in select.options:
-        options.append(
-            _OptionInfo(value=opt.get_attribute("value"), label=opt.text.strip())
-        )
-
-    return options
-
-
-def _has_multiple_tabs(driver: webdriver.Chrome):
-    return len(driver.window_handles) > 1
-
-
-def _capture_round_html(
-    driver: webdriver.Chrome, option_info: _OptionInfo, original_window: str
-) -> str | None:
-    # Clear old rounds and pick round ID
-    round_select_outer = WebDriverWait(driver, _WAIT_TIME).until(
-        EC.presence_of_element_located((By.ID, "round_ids"))
-    )
-    round_select = Select(round_select_outer)
-    round_select.deselect_all()
-    time.sleep(0.05)
-    round_select.select_by_value(option_info.value)
-    time.sleep(0.05)
-
-    # Click "Submit"
-    submit_xpath = "//button[normalize-space()='Submit']"
-    submit_button = WebDriverWait(driver, _WAIT_TIME).until(
-        EC.element_to_be_clickable((By.XPATH, submit_xpath))
-    )
-    submit_button.click()
-
-    # Wait until the new tab exists
-    WebDriverWait(driver, _WAIT_TIME).until(_has_multiple_tabs)
-
-    # Switch to the new tab
-    new_handles = [
-        handle for handle in driver.window_handles if handle != original_window
-    ]
-    (new_window,) = new_handles
-    driver.switch_to.window(new_window)
-
-    # Wait until content finishes loading
-    WebDriverWait(driver, _LONG_CONTENT_WAIT_TIME).until(
-        EC.url_contains("/printing/matches")
-    )
-
-    # Grab the full HTML for the bracket once loaded
-    root_div_element = WebDriverWait(driver, _WAIT_TIME).until(
+def _show_100_per_page(driver: webdriver.Chrome) -> None:
+    select_elem = WebDriverWait(driver, _WAIT_TIME).until(
         EC.presence_of_element_located(
-            (By.CSS_SELECTOR, "body > div[style='font-size:12pt;']")
+            (By.CSS_SELECTOR, 'select[wire\\:model\\.live="perPage"]')
         )
     )
-    round_html = root_div_element.get_attribute("outerHTML")
-
-    # Close the current tab
-    driver.close()
-
-    # Back to original tab
-    driver.switch_to.window(original_window)
-
-    return round_html
+    select = Select(select_elem)
+    select.select_by_value("100")
+    time.sleep(2.0)
 
 
-def _fetch_tournament_rounds(event: _Event, login_info: _LoginInfo) -> dict[str, str]:
-    driver = _open_event(event, login_info)
-    _click_results(driver)
-    _choose_by_round(driver)
-    _allow_all(driver)
-    all_rounds = _all_round_option_values(driver)
+def _make_teams_next_page_ready(
+    range_start: int,
+) -> Callable[[webdriver.Chrome], str | None]:
+    """Find the "Showing 101 to 200" text and wait for our page to load.
 
-    original_window = driver.current_window_handle
-    captured_html: dict[str, str] = {}
-    for option in all_rounds:
-        key = option.label
-        if key in captured_html:
-            raise KeyError("Duplicate key", key)
+    <p class="text-sm text-gray-700 leading-5 mr-2">
+      <span>Showing</span>
+      <span class="font-medium">101</span>
+      <span>to</span>
+      <span class="font-medium">200</span>
+    </p>
+    """
+    start_str = f"{range_start}"
+    xpath_query = "//span[normalize-space(.)='Showing']/following-sibling::span[1]"
 
-        html = _capture_round_html(driver, option, original_window)
-        if html is not None:
-            captured_html[key] = html
+    def _teams_next_page_ready(driver: webdriver.Chrome) -> str | None:
+        span = driver.find_element(By.XPATH, xpath_query)
+        if span is None:
+            return None
 
-    driver.quit()
+        text = span.text.strip()
+        return text if text == start_str else None
 
-    return captured_html
+    return _teams_next_page_ready
+
+
+def _teams_click_next_page(driver: webdriver.Chrome, page_number: int) -> bool:
+    range_start = 100 * page_number + 1
+
+    buttons = driver.find_elements(By.CSS_SELECTOR, 'button[rel="next"]')
+
+    if len(buttons) not in (0, 2):
+        raise RuntimeError("Unexpected number of next buttons", len(buttons))
+
+    next_page_exists = len(buttons) == 2
+    if next_page_exists:
+        button = buttons[0]
+        button.click()
+        predicate = _make_teams_next_page_ready(range_start)
+        WebDriverWait(driver, _WAIT_TIME).until(predicate)
+        time.sleep(0.5)
+
+    return next_page_exists
+
+
+def _parse_html_abbreviations(html: str) -> dict[str, str]:
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+
+    team_tables = soup.find_all("tbody", {"wire:sortable": "updateSortOrder"})
+    if len(team_tables) != 1:
+        raise ValueError("Unexpected HTML structure", len(team_tables))
+
+    (team_table,) = team_tables
+
+    abbreviation_map: dict[str, str] = {}
+    for tr in team_table.find_all("tr"):
+        all_td = tr.find_all("td")
+        all_th = tr.find_all("th")
+        if len(all_td) != 6 or len(all_th) != 0:
+            raise RuntimeError("Invariant violation", len(all_td), len(all_th), tr)
+
+        full = all_td[0].text.strip()
+        abbreviation = all_td[1].text.strip()
+        if abbreviation in abbreviation_map:
+            raise KeyError("Duplicate abbreviation", abbreviation)
+        abbreviation_map[abbreviation] = full
+
+    return abbreviation_map
+
+
+def _to_abbreviation_map(captured: dict[int, str]) -> dict[str, str]:
+    abbreviation_map: dict[str, str] = {}
+
+    for html in captured.values():
+        new_abbreviations = _parse_html_abbreviations(html)
+        for key, value in new_abbreviations.items():
+            if key in abbreviation_map:
+                raise KeyError("Duplicate key", key)
+            abbreviation_map[key] = value
+
+    return abbreviation_map
 
 
 def main() -> None:
@@ -387,10 +332,44 @@ def main() -> None:
         name="IKWF State Championships", start_date="2026-03-13", end_date="2026-03-14"
     )
 
-    captured = _fetch_tournament_rounds(event, login_info)
+    driver = _open_event(event, login_info)
+    _click_teams(driver)
+    _show_100_per_page(driver)
 
-    with open(_HERE / "rounds.selenium.json", "w") as file_obj:
-        json.dump(captured, file_obj, indent=2)
+    captured: dict[int, str] = {}
+    next_page_exists = True
+    previous_html: str | None = None
+    # NOTE: This is a bounded `for` loop instead of a `while` loop.
+    for i in range(10000):
+        if not next_page_exists:
+            break
+
+        html = driver.page_source
+
+        loop_count = 4
+        for _ in range(loop_count):
+            if html != previous_html:
+                break
+
+            time.sleep(5.0)
+            html = driver.page_source
+
+        if html == previous_html:
+            raise ValueError("HTML did not change after sleeping", loop_count)
+
+        captured[i] = html
+        time.sleep(10.0)
+
+        # Prepare for next iteration of loop
+        next_page_exists = _teams_click_next_page(driver, i)
+        time.sleep(5.0)
+        previous_html = html
+
+    driver.quit()
+
+    abbreviation_map = _to_abbreviation_map(captured)
+    with open(_HERE / "abbreviations.selenium.json", "w") as file_obj:
+        json.dump(abbreviation_map, file_obj, indent=2, sort_keys=True)
         file_obj.write("\n")
 
 

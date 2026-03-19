@@ -6,7 +6,7 @@ from typing import Any
 import bracket_utils
 import trackwrestling
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _NAME_FIXES: dict[str, str] = {
     "Cataleya Castillo-Cisner": "Cataleya Castillo-Cisneros",
     "Christophe Hilliard Jr.": "Christopher Hilliard Jr.",
@@ -382,8 +382,8 @@ def _parse_rounds(
     return matches
 
 
-def main():
-    root = HERE.parent / "raw-data" / "2025"
+def main() -> None:
+    root = _HERE.parent / "raw-data" / "2025"
     extracted_tournament = trackwrestling.extract_year(
         root,
         _parse_rounds,
@@ -393,7 +393,7 @@ def main():
         _TEAM_FIXES,
     )
     extracted_tournament.sort()
-    with open(HERE / "extracted.2025.json", "w") as file_obj:
+    with open(_HERE / "extracted.2025.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))
         file_obj.write("\n")
 

@@ -117,7 +117,7 @@ def parse_team_scores(
     return result
 
 
-class Deductions(pydantic.RootModel[list[bracket_utils.Deduction]]):
+class _Deductions(pydantic.RootModel[list[bracket_utils.Deduction]]):
     pass
 
 
@@ -2299,7 +2299,7 @@ def extract_year(
     team_scores = parse_team_scores(selenium_team_scores)
 
     with open(root / "deductions.selenium.json") as file_obj:
-        extracted = Deductions.model_validate_json(file_obj.read())
+        extracted = _Deductions.model_validate_json(file_obj.read())
 
     deductions = _strip_suffix_deductions(extracted.root)
 
