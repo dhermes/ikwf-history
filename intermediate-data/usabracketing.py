@@ -2,6 +2,7 @@
 
 import json
 import pathlib
+import re
 from collections.abc import Callable
 from typing import Any
 
@@ -10,6 +11,10 @@ import bs4
 import pydantic
 
 _MISSING_BOUT_NUMBER_SENTINEL = -54572
+_TITLE_MARGIN_LEFT = "margin-left:0px"
+_MATCH_MARGIN_LEFT = "margin-left:20px"
+_BOUT_MAT_RE = re.compile(r"^Bout (\d+) \(Mat (\d+)\)$")
+_BOUT_RE = re.compile(r"^Bout (\d+)$")
 
 
 class _ForbidExtra(pydantic.BaseModel):
@@ -108,6 +113,7 @@ def parse_team_scores(
 class _Deductions(pydantic.RootModel[list[bracket_utils.Deduction]]):
     pass
 
+
 def _get_margin_left_style(tag: bs4.Tag) -> str:
     style = tag.get("style", "")
     matches = [part for part in style.split(";") if part.startswith("margin-left:")]
@@ -118,6 +124,33 @@ def _get_margin_left_style(tag: bs4.Tag) -> str:
         raise RuntimeError("Unexpected tag style", style)
 
     return matches[0]
+
+
+def _get_bout_number(bout_mat: str) -> int:
+    """Parse the bout number out of "Bout N (Mat M)"."""
+    match_ = _BOUT_MAT_RE.match(bout_mat)
+    if match_ is not None:
+        bout_number_str, _ = match_.groups()
+        return int(bout_number_str)
+
+    match_ = _BOUT_RE.match(bout_mat)
+    if match_ is None:
+        raise ValueError("Unexpected bout mat string", bout_mat)
+
+    (bout_number_str,) = match_.groups()
+    return int(bout_number_str)
+
+
+def _extract_division(
+    prefix_division: str, match_prefix: str
+) -> bracket_utils.Division:
+    """Parse the bout number out of "Bout N (Mat M)"."""
+    full_prefix = f"{match_prefix}: "
+    if not prefix_division.startswith(full_prefix):
+        raise ValueError("Unexpected prefix + division", prefix_division, match_prefix)
+
+    division_display = prefix_division[len(full_prefix) :]
+    return normalize_division(division_display)
 
 
 def _get_all_opening_bout_numbers(
@@ -131,36 +164,43 @@ def _get_all_opening_bout_numbers(
         raise TypeError("Unexpected value", type(html), round_name)
 
     soup = bs4.BeautifulSoup(html, features="html.parser")
-    all_h1_text = [h1.text for h1 in soup.find_all("h1")]
-    if all_h1_text != [round_name]:
-        raise RuntimeError("Invariant violation", all_h1_text)
+    all_div = soup.find_all("div")
 
-    all_h2: list[bs4.Tag] = soup.find_all("h2")
+    if len(all_div) < 3:
+        raise ValueError("Unexpected div count", len(all_div))
+
+    outer_div, title_div = all_div[:2]
+    if _get_margin_left_style(outer_div) != "":
+        raise ValueError("Unexpected outer div")
+
+    if _get_margin_left_style(title_div) != _TITLE_MARGIN_LEFT:
+        raise ValueError("Unexpected title div", _get_margin_left_style(title_div))
+
+    if title_div.text.strip() != round_name:
+        raise ValueError("Unexpected title div", title_div.text.strip())
+
+    match_divs = all_div[2:]
     result: dict[tuple[bracket_utils.Division, int], list[int]] = {}
-    for h2 in all_h2:
-        division_display, weight_str = h2.text.rsplit(None, 1)
+    for match_div in match_divs:
+        if _get_margin_left_style(match_div) != _MATCH_MARGIN_LEFT:
+            raise ValueError("Unexpected match div", _get_margin_left_style(match_div))
+
+        match_line = match_div.text.strip()
+        bout_mat, prefix_division, weight_str, match_info = match_line.split(" - ")
+        division = _extract_division(prefix_division, match_prefix)
+        bout_number = _get_bout_number(bout_mat)
         weight = int(weight_str)
-        division = normalize_division(division_display)
         key = (division, weight)
-        if key in result:
-            raise RuntimeError("Invariant violation", key)
-        result[key] = []
+        result.setdefault(key, [])
 
-        ul_sibling = h2.find_next_sibling()
-        if ul_sibling.name != "ul":
-            raise RuntimeError("Invariant violation", ul_sibling)
-
-        all_entries: list[bs4.Tag] = [li for li in ul_sibling.find_all("li")]
-        if len(all_entries) != 8:
-            raise RuntimeError("Invariant violation", all_entries)
-
-        for i in range(8):
-            entry = all_entries[i]
-            bout_number, _, _, _ = _round_line_split(entry.text, match_prefix)
-            if bout_number != _MISSING_BOUT_NUMBER_SENTINEL:
-                result[key].append(bout_number)
+        result[key].append(bout_number)
+        result[key].sort()
 
     return result
+
+
+class _Abbreviations(pydantic.RootModel[dict[str, str]]):
+    pass
 
 
 def extract_year(
@@ -177,9 +217,9 @@ def extract_year(
     team_scores = parse_team_scores(selenium_team_scores)
 
     with open(root / "deductions.selenium.json") as file_obj:
-        extracted = _Deductions.model_validate_json(file_obj.read())
+        extracted_deductions = _Deductions.model_validate_json(file_obj.read())
 
-    deductions = extracted.root
+    deductions = extracted_deductions.root
 
     with open(root / "brackets.selenium.json") as file_obj:
         selenium_brackets = json.load(file_obj)
@@ -187,10 +227,15 @@ def extract_year(
     with open(root / "rounds.selenium.json") as file_obj:
         selenium_rounds = json.load(file_obj)
 
+    with open(root / "abbreviations.selenium.json") as file_obj:
+        extracted_abbreviations = _Abbreviations.model_validate_json(file_obj.read())
+
+    abbreviations = extracted_abbreviations.root
+
     match_slots_by_bracket: MatchSlotsByBracket = {}
 
     all_opening_bout_numbers = _get_all_opening_bout_numbers(
         selenium_rounds, prelim_round_name, prelim_match_prefix
     )
 
-    print(len(team_scores), len(deductions))
+    print(len(team_scores), len(deductions), all_opening_bout_numbers)
