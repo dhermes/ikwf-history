@@ -52244,8 +52244,8 @@
     ]
   },
   {
-    "name_normalized": "Rochelle WC",
-    "url_path_slug": null,
+    "name_normalized": "Rochelle Wrestling Club",
+    "url_path_slug": "Rochelle Wrestling Club",
     "duplicates": [
       {
         "tournament_id": 14,
@@ -52328,6 +52328,16 @@
         "name": "Rochelle WC"
       },
       {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Rochelle Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Rochelle Wrestling Club"
+      },
+      {
         "tournament_id": 47,
         "division": "novice",
         "name": "Rochelle WC"
@@ -52358,22 +52368,22 @@
         "name": "Rochelle WC"
       },
       {
-        "tournament_id": 10050,
+        "tournament_id": 50,
         "division": "novice",
         "name": "Rochelle WC"
       },
       {
-        "tournament_id": 10050,
+        "tournament_id": 50,
         "division": "senior",
         "name": "Rochelle WC"
       },
       {
-        "tournament_id": 50,
+        "tournament_id": 10050,
         "division": "novice",
         "name": "Rochelle WC"
       },
       {
-        "tournament_id": 50,
+        "tournament_id": 10050,
         "division": "senior",
         "name": "Rochelle WC"
       },
@@ -52406,22 +52416,6 @@
         "tournament_id": 52,
         "division": "senior_girls",
         "name": "Rochelle WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rochelle Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Rochelle Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Rochelle Wrestling Club"
       },
       {
         "tournament_id": 10052,
