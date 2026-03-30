@@ -17173,7 +17173,7 @@ UPDATE
   team
 SET
   name_normalized = 'Rochelle Wrestling Club',
-  url_path_slug = 'Rochelle Wrestling Club'
+  url_path_slug = 'rochelle'
 WHERE
   id = 875;
 
