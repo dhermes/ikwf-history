@@ -208,16 +208,42 @@
     "result": ""
   },
   {
+    "match_slot_id": 52,
+    "bout_number": 35,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Tim Gits",
+    "top_team": "Lancers Wrestling Club",
+    "top_score": null,
+    "bottom_name": "Thomas Hincks",
+    "bottom_team": "Mustangs Wrestling Club",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": 36,
+    "match_slot": "consolation_third_place",
+    "top_name": "Peter Stanley",
+    "top_team": "Mattoon WC",
+    "top_score": null,
+    "bottom_name": "Oswaldo Quintanilla",
+    "bottom_team": "Tomcat WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": 37,
     "match_slot": "championship_first_place",
-    "top_name": "Alvin Jones",
-    "top_team": "Harvey Park District Twisters",
+    "top_name": "Steven Brito",
+    "top_team": "Roxana Vikings",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Alvin Jones",
+    "bottom_team": "Harvey Park District Twisters",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   }
 ]

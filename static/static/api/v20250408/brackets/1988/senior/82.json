@@ -208,14 +208,40 @@
     "result": ""
   },
   {
+    "match_slot_id": 52,
+    "bout_number": 35,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Tim Stringer",
+    "top_team": "Dolton Park Falcons",
+    "top_score": null,
+    "bottom_name": "Jesse Kennedy",
+    "bottom_team": "Rosemont Cobras",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": 36,
+    "match_slot": "consolation_third_place",
+    "top_name": "Jamil Swift",
+    "top_team": "Arlington Cardinals WC",
+    "top_score": null,
+    "bottom_name": "Jack Vu",
+    "bottom_team": "Newman Blue Devils",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": 37,
     "match_slot": "championship_first_place",
     "top_name": "Ryan Ferguson",
     "top_team": "Lancers Wrestling Club",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Nicholas Cina",
+    "bottom_team": "Belvidere Bandits YMCA WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

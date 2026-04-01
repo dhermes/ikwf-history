@@ -208,14 +208,40 @@
     "result": ""
   },
   {
+    "match_slot_id": 52,
+    "bout_number": 35,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Cory Daker",
+    "top_team": "Forman Wrestling Club",
+    "top_score": null,
+    "bottom_name": "Frank Kowal",
+    "bottom_team": "Newman Blue Devils",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": 36,
+    "match_slot": "consolation_third_place",
+    "top_name": "Derrick Noble",
+    "top_team": "Arlington Cardinals WC",
+    "top_score": null,
+    "bottom_name": "Matt Hayes",
+    "bottom_team": "Arlington Cardinals WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": 37,
     "match_slot": "championship_first_place",
     "top_name": "Mike Renella",
     "top_team": "Naperville Patriots",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Daniel Schickel",
+    "bottom_team": "Mustangs Wrestling Club",
     "bottom_score": null,
     "top_win": true,
     "result": ""

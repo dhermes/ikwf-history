@@ -208,16 +208,42 @@
     "result": ""
   },
   {
+    "match_slot_id": 52,
+    "bout_number": 35,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Mike Bodeker",
+    "top_team": "Murphysboro Jr. High",
+    "top_score": null,
+    "bottom_name": "Vern Huff",
+    "bottom_team": "Bartonville Blue Crew WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": 36,
+    "match_slot": "consolation_third_place",
+    "top_name": "Greg Humphrey",
+    "top_team": "Lockport Grapplers WC",
+    "top_score": null,
+    "bottom_name": "Bob Cuppernell",
+    "bottom_team": "Unity Youth WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": 37,
     "match_slot": "championship_first_place",
-    "top_name": "Wayne McDaniel",
-    "top_team": "Indian Trail Jr. High",
+    "top_name": "George Riddler",
+    "top_team": "Bloomington Jr. High",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Wayne McDaniel",
+    "bottom_team": "Indian Trail Jr. High",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   }
 ]

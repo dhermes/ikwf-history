@@ -208,16 +208,42 @@
     "result": ""
   },
   {
+    "match_slot_id": 52,
+    "bout_number": 35,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Mike Hughes",
+    "top_team": "Vittum Cats Wrestling Club",
+    "top_score": null,
+    "bottom_name": "Dan Walters",
+    "bottom_team": "Panther Wrestling Club",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": 36,
+    "match_slot": "consolation_third_place",
+    "top_name": "Gerrard Lucas",
+    "top_team": "Harvey Park District Twisters",
+    "top_score": null,
+    "bottom_name": "Tim Combes",
+    "bottom_team": "Dolton Park Falcons",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": 37,
     "match_slot": "championship_first_place",
-    "top_name": "Bucky Randolph",
-    "top_team": "Oak Forest Warriors",
+    "top_name": "Ryan Meagher",
+    "top_team": "Orland Park Pioneers",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Bucky Randolph",
+    "bottom_team": "Oak Forest Warriors",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   }
 ]

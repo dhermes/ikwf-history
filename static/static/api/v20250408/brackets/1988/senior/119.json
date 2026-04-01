@@ -208,14 +208,40 @@
     "result": ""
   },
   {
+    "match_slot_id": 52,
+    "bout_number": 35,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Chris Dwyer",
+    "top_team": "Oak Forest Warriors",
+    "top_score": null,
+    "bottom_name": "Eric Johnson",
+    "bottom_team": "Bismarck Henning WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": 36,
+    "match_slot": "consolation_third_place",
+    "top_name": "Derek Walker",
+    "top_team": "Oak Park River Forest Warhawks",
+    "top_score": null,
+    "bottom_name": "Alex Strobl",
+    "bottom_team": "Arlington Cardinals WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": 37,
     "match_slot": "championship_first_place",
     "top_name": "Herbert House",
     "top_team": "Oak Park River Forest Warhawks",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Joseph Williams",
+    "bottom_team": "Harvey Park District Twisters",
     "bottom_score": null,
     "top_win": true,
     "result": ""

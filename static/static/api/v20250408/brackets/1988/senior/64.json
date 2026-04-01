@@ -208,14 +208,40 @@
     "result": ""
   },
   {
+    "match_slot_id": 52,
+    "bout_number": 35,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Jason Kolecke",
+    "top_team": "Vittum Cats Wrestling Club",
+    "top_score": null,
+    "bottom_name": "Justin Weber",
+    "bottom_team": "Villa-Lombard Cougars WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": 36,
+    "match_slot": "consolation_third_place",
+    "top_name": "Tom Grennan",
+    "top_team": "Newman Blue Devils",
+    "top_score": null,
+    "bottom_name": "Tom Combes",
+    "bottom_team": "Dolton Park Falcons",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": 37,
     "match_slot": "championship_first_place",
     "top_name": "Tony Davis",
     "top_team": "Harvey Park District Twisters",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Chad Red",
+    "bottom_team": "Danville Youth WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

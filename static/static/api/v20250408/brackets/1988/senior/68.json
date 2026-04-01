@@ -208,16 +208,42 @@
     "result": ""
   },
   {
+    "match_slot_id": 52,
+    "bout_number": 35,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Bobby Remily",
+    "top_team": "Harlem Boys Club",
+    "top_score": null,
+    "bottom_name": "Jermaine White",
+    "bottom_team": "Oak Park River Forest Warhawks",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": 36,
+    "match_slot": "consolation_third_place",
+    "top_name": "Joey Opiola",
+    "top_team": "Dolton Park Falcons",
+    "top_score": null,
+    "bottom_name": "Don Bermudez",
+    "bottom_team": "Lockport Grapplers WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": 37,
     "match_slot": "championship_first_place",
-    "top_name": "Ben Gerdes",
-    "top_team": "Orland Park Pioneers",
+    "top_name": "Jason Pero",
+    "top_team": "Harvey Park District Twisters",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Ben Gerdes",
+    "bottom_team": "Orland Park Pioneers",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   }
 ]

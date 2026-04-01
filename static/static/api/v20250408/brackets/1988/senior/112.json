@@ -208,14 +208,40 @@
     "result": ""
   },
   {
+    "match_slot_id": 52,
+    "bout_number": 35,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Scott Benson",
+    "top_team": "Naperville Lancers",
+    "top_score": null,
+    "bottom_name": "Lenny Popp",
+    "bottom_team": "Harvard WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": 36,
+    "match_slot": "consolation_third_place",
+    "top_name": "Jason Querciagrossa",
+    "top_team": "Crossface WC",
+    "top_score": null,
+    "bottom_name": "Doug Griffith",
+    "bottom_team": "Lan-Oak Lazers",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": 37,
     "match_slot": "championship_first_place",
     "top_name": "Terry Dantzler",
     "top_team": "Harvey Park District Twisters",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Phil Benjamin",
+    "bottom_team": "Catlin WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""

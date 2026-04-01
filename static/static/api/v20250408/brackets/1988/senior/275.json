@@ -208,14 +208,40 @@
     "result": "Bye"
   },
   {
+    "match_slot_id": 52,
+    "bout_number": 35,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Alex Fuentes",
+    "top_team": "Rams Wrestling Club",
+    "top_score": null,
+    "bottom_name": "Jason Rables",
+    "bottom_team": "Elgin Matt Rats WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": 36,
+    "match_slot": "consolation_third_place",
+    "top_name": "Grayson Hendricks",
+    "top_team": "Edwardsville",
+    "top_score": null,
+    "bottom_name": "Chad Larson",
+    "bottom_team": "Sycamore WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": 37,
     "match_slot": "championship_first_place",
     "top_name": "Patrick McDonald",
     "top_team": "Harvey Park District Twisters",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Jason Rogers",
+    "bottom_team": "Darien Park District",
     "bottom_score": null,
     "top_win": true,
     "result": ""

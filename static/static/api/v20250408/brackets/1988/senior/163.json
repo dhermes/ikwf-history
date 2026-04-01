@@ -208,16 +208,42 @@
     "result": ""
   },
   {
+    "match_slot_id": 52,
+    "bout_number": 35,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Pedro Martinez",
+    "top_team": "J-Hawk WC",
+    "top_score": null,
+    "bottom_name": "Danny Reardon",
+    "bottom_team": "Peoria Razorbacks Youth Wrestling",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": 36,
+    "match_slot": "consolation_third_place",
+    "top_name": "Norbert Burza",
+    "top_team": "Vittum Cats Wrestling Club",
+    "top_score": null,
+    "bottom_name": "Kevin Duffy",
+    "bottom_team": "Matburns WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": 37,
     "match_slot": "championship_first_place",
-    "top_name": "Darrin Orta",
-    "top_team": "Tomcat WC",
+    "top_name": "Russell Vanwetzinga",
+    "top_team": "Belvidere Bandits YMCA WC",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Darrin Orta",
+    "bottom_team": "Tomcat WC",
     "bottom_score": null,
-    "top_win": true,
+    "top_win": false,
     "result": ""
   }
 ]

@@ -208,14 +208,40 @@
     "result": "Bye"
   },
   {
+    "match_slot_id": 52,
+    "bout_number": 35,
+    "match_slot": "consolation_fifth_place",
+    "top_name": "Juan Mauricio",
+    "top_team": "J-Hawk WC",
+    "top_score": null,
+    "bottom_name": "Thomas Peach",
+    "bottom_team": "Georgetown WC",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
+    "match_slot_id": 53,
+    "bout_number": 36,
+    "match_slot": "consolation_third_place",
+    "top_name": "Clarence Lamping",
+    "top_team": "Indian Trail Jr. High",
+    "top_score": null,
+    "bottom_name": "Jason Owen",
+    "bottom_team": "Franklin Park Raiders",
+    "bottom_score": null,
+    "top_win": true,
+    "result": ""
+  },
+  {
     "match_slot_id": 54,
     "bout_number": 37,
     "match_slot": "championship_first_place",
     "top_name": "Sonny Dodd",
     "top_team": "Junior Bison Wrestling",
     "top_score": null,
-    "bottom_name": null,
-    "bottom_team": null,
+    "bottom_name": "Gregory Zimmerman",
+    "bottom_team": "Villa-Lombard Cougars WC",
     "bottom_score": null,
     "top_win": true,
     "result": ""
