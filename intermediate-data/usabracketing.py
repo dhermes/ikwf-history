@@ -114,93 +114,23 @@ class _Deductions(pydantic.RootModel[list[bracket_utils.Deduction]]):
     pass
 
 
-def _get_margin_left_style(tag: bs4.Tag) -> str:
-    style = tag.get("style", "")
-    matches = [part for part in style.split(";") if part.startswith("margin-left:")]
-    if len(matches) == 0:
-        return ""
-
-    if len(matches) != 1:
-        raise RuntimeError("Unexpected tag style", style)
-
-    return matches[0]
-
-
-def _get_bout_number(bout_mat: str) -> int:
-    """Parse the bout number out of "Bout N (Mat M)"."""
-    match_ = _BOUT_MAT_RE.match(bout_mat)
-    if match_ is not None:
-        bout_number_str, _ = match_.groups()
-        return int(bout_number_str)
-
-    match_ = _BOUT_RE.match(bout_mat)
-    if match_ is None:
-        raise ValueError("Unexpected bout mat string", bout_mat)
-
-    (bout_number_str,) = match_.groups()
-    return int(bout_number_str)
-
-
-def _extract_division(
-    prefix_division: str, match_prefix: str
-) -> bracket_utils.Division:
-    """Parse the bout number out of "Bout N (Mat M)"."""
-    full_prefix = f"{match_prefix}: "
-    if not prefix_division.startswith(full_prefix):
-        raise ValueError("Unexpected prefix + division", prefix_division, match_prefix)
-
-    division_display = prefix_division[len(full_prefix) :]
-    return normalize_division(division_display)
-
-
-def _get_all_opening_bout_numbers(
-    selenium_rounds: Any, round_name: str, match_prefix: str
-) -> dict[tuple[bracket_utils.Division, int], list[int]]:
-    if not isinstance(selenium_rounds, dict):
-        raise TypeError("Unexpected value", type(selenium_rounds))
-
-    html = selenium_rounds.get(round_name, None)
-    if not isinstance(html, str):
-        raise TypeError("Unexpected value", type(html), round_name)
-
-    soup = bs4.BeautifulSoup(html, features="html.parser")
-    all_div = soup.find_all("div")
-
-    if len(all_div) < 3:
-        raise ValueError("Unexpected div count", len(all_div))
-
-    outer_div, title_div = all_div[:2]
-    if _get_margin_left_style(outer_div) != "":
-        raise ValueError("Unexpected outer div")
-
-    if _get_margin_left_style(title_div) != _TITLE_MARGIN_LEFT:
-        raise ValueError("Unexpected title div", _get_margin_left_style(title_div))
-
-    if title_div.text.strip() != round_name:
-        raise ValueError("Unexpected title div", title_div.text.strip())
-
-    match_divs = all_div[2:]
-    result: dict[tuple[bracket_utils.Division, int], list[int]] = {}
-    for match_div in match_divs:
-        if _get_margin_left_style(match_div) != _MATCH_MARGIN_LEFT:
-            raise ValueError("Unexpected match div", _get_margin_left_style(match_div))
-
-        match_line = match_div.text.strip()
-        bout_mat, prefix_division, weight_str, match_info = match_line.split(" - ")
-        division = _extract_division(prefix_division, match_prefix)
-        bout_number = _get_bout_number(bout_mat)
-        weight = int(weight_str)
-        key = (division, weight)
-        result.setdefault(key, [])
-
-        result[key].append(bout_number)
-        result[key].sort()
-
-    return result
-
-
 class _Abbreviations(pydantic.RootModel[dict[str, str]]):
     pass
+
+
+def _extract_bracket_name(soup: bs4.BeautifulSoup) -> str:
+    bracket_spans = soup.find_all(
+        "span", class_="font-gotham antialiased text-xl text-usa-red font-extrabold"
+    )
+    if len(bracket_spans) != 2:
+        raise RuntimeError("Failed to load bracket", len(bracket_spans), key)
+
+    bracket_names = set(bracket_span.text for bracket_span in bracket_spans)
+    if len(bracket_names) != 1:
+        raise RuntimeError("Failed to load bracket", len(bracket_names), key)
+
+    (bracket_name,) = list(bracket_names)
+    return bracket_name
 
 
 def extract_year(
@@ -234,8 +164,13 @@ def extract_year(
 
     match_slots_by_bracket: MatchSlotsByBracket = {}
 
-    all_opening_bout_numbers = _get_all_opening_bout_numbers(
-        selenium_rounds, prelim_round_name, prelim_match_prefix
-    )
+    for bracket_url, html in selenium_brackets.items():
+        soup = bs4.BeautifulSoup(html, features="html.parser")
 
-    print(len(team_scores), len(deductions), all_opening_bout_numbers)
+        bracket_name = _extract_bracket_name(soup)
+        division_display, weight_str = bracket_name.rsplit(" ", 1)
+        weight = int(weight_str)
+        division = normalize_division(division_display)
+        division_scores = team_scores[division]
+
+        key = (division, weight)

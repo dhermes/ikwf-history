@@ -318,6 +318,24 @@ def _capture_round_html(
     round_select.select_by_value(option_info.value)
     time.sleep(0.05)
 
+    # Change "Basic Search" to "Advanced Search"
+    search_select_outer = WebDriverWait(driver, _WAIT_TIME).until(
+        EC.presence_of_element_located((By.ID, "filter_type"))
+    )
+    search_select = Select(search_select_outer)
+    time.sleep(0.05)
+    search_select.select_by_value("advanced")
+    time.sleep(0.05)
+
+    # Change "Basic Search" to "Advanced Search"
+    byes_select_outer = WebDriverWait(driver, _WAIT_TIME).until(
+        EC.presence_of_element_located((By.ID, "byes"))
+    )
+    byes_select = Select(byes_select_outer)
+    time.sleep(0.05)
+    byes_select.select_by_value("")
+    time.sleep(0.05)
+
     # Click "Submit"
     submit_xpath = "//button[normalize-space()='Submit']"
     submit_button = WebDriverWait(driver, _WAIT_TIME).until(
