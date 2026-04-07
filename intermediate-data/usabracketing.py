@@ -16,6 +16,54 @@ _MATCH_MARGIN_LEFT = "margin-left:20px"
 _BOUT_PHANTOM_RE = re.compile(r"^Bout m(\d+)$")
 _BOUT_MAT_RE = re.compile(r"^Bout (\d+) \(Mat (\d+)\)$")
 _BOUT_RE = re.compile(r"^Bout (\d+)$")
+_ROUND_PREFIXES = {
+    "Championship Round 1": {"Champ. Rd of 32": "championship_r32"},
+    "Championship Round 2": {"Champ. Rd of 16": "championship_r16"},
+    "Consolation Round 2": {"Cons. Rd of 16": "consolation_round2"},
+    "Championship Quarterfinals & Consolation Round 3": {
+        "Quarters": "championship_quarter",
+        "Cons. Sub-Quarters": "consolation_round3",
+    },
+    "Consolation Round 4": {"Cons. Quarters": "consolation_round4_blood"},
+    "Championships Semifinals & Consolation Round 5": {
+        "Semis": "championship_semi",
+        "Cons. Sub-Semis": "consolation_round5",
+    },
+    "Consolation Semifinals": {"Cons. Semis": "consolation_round6_semi"},
+    "3rd, 5th, 7th Place Bouts": {
+        "3rd Place Match": "consolation_third_place",
+        "5th Place Match": "consolation_fifth_place",
+        "7th Place Match": "consolation_seventh_place",
+    },
+    "Championship Bouts": {"1st Place Match": "championship_first_place"},
+}
+_EXPECTED_BRACKET_ROWS_LENGTH = 65
+_ENTRY_INDICES = (
+    0,
+    4,
+    6,
+    8,
+    12,
+    14,
+    16,
+    20,
+    22,
+    24,
+    28,
+    30,
+    32,
+    36,
+    38,
+    40,
+    44,
+    46,
+    48,
+    52,
+    54,
+    56,
+    60,
+    62,
+)
 
 
 class _ForbidExtra(pydantic.BaseModel):
@@ -115,7 +163,7 @@ class _Deductions(pydantic.RootModel[list[bracket_utils.Deduction]]):
     pass
 
 
-class _Abbreviations(pydantic.RootModel[dict[str, str]]):
+class _DictStrStr(pydantic.RootModel[dict[str, str]]):
     pass
 
 
@@ -308,11 +356,17 @@ def _extract_match_info(
     return competitor1, competitor2, result
 
 
+_EntriesMap = dict[
+    tuple[bracket_utils.Division, int], list[bracket_utils.CompetitorRaw | None]
+]
+
+
 def _extract_bouts(
     soup: bs4.BeautifulSoup,
     round_name: str,
     match_prefixes: dict[str, str],
     abbreviations: dict[str, str],
+    entries_map: _EntriesMap,
 ) -> list[bracket_utils.MatchRaw]:
     all_div = soup.find_all("div")
     if len(all_div) < 3:
@@ -363,6 +417,67 @@ def _extract_bouts(
     return parsed_matches
 
 
+def _extract_entry_athlete(td: bs4.Tag) -> tuple[str, str] | None:
+    parts = list(td.stripped_strings)
+    parts = [part for part in parts if part != "_"]
+    if parts == ["Bye"]:
+        return None
+
+    if len(parts) == 4:
+        first_name, last_name, team, bout_number = parts
+        int(bout_number)  # Assert it is an integer
+    elif len(parts) == 3:
+        first_name, last_name, team = parts
+    else:
+        raise ValueError("Unexpected athlete <td>", len(parts), parts, td)
+
+    name = f"{first_name} {last_name}"
+    team = team.strip().lstrip("(").rstrip(")").strip()
+    return name.strip(), team
+
+
+def _add_initial_entries(soup: bs4.BeautifulSoup, entries_map: _EntriesMap) -> None:
+    bracket_name = _extract_bracket_name(soup)
+    division_display, weight_str = bracket_name.rsplit(" ", 1)
+    weight = int(weight_str)
+    division = normalize_division(division_display)
+
+    (bracket_pages,) = soup.find_all("div", id="bracketPages")
+    inner_divs = bracket_pages.find_all("div", recursive=False)
+    if len(inner_divs) != 2:
+        raise RuntimeError("Failed to bracket pages", len(inner_divs), key)
+
+    championship_bouts, _ = inner_divs
+    (bracket_table,) = championship_bouts.find_all("table", recursive=False)
+    (bracket_tbody,) = bracket_table.find_all("tbody", recursive=False)
+    table_rows = bracket_tbody.find_all("tr", attrs={"height": "13px"}, recursive=False)
+    if len(table_rows) != _EXPECTED_BRACKET_ROWS_LENGTH:
+        raise ValueError("Unexpected rows", len(table_rows))
+
+    entries: list[bracket_utils.CompetitorRaw | None] = []
+    for index in _ENTRY_INDICES:
+        tr = table_rows[index]
+        all_td = tr.find_all("td", recursive=False)
+        if len(all_td) < 2:
+            raise ValueError("Unexpected row", index, len(all_td))
+        athlete_td = all_td[1]
+        extracted = _extract_entry_athlete(athlete_td)
+        if extracted is not None:
+            name, team = extracted
+            entries.append(bracket_utils.CompetitorRaw(name=name, team_full=team))
+        else:
+            entries.append(None)
+
+    if len(entries) != 24:
+        raise RuntimeError("Unexpected number of entries")
+
+    key = (division, weight)
+    if key in entries_map:
+        raise KeyError("Unexpected duplicate bracket", key)
+
+    entries_map[key] = entries
+
+
 def extract_year(
     root: pathlib.Path,
     parse_rounds: ParseRoundsFunc,
@@ -388,7 +503,7 @@ def extract_year(
         selenium_rounds = json.load(file_obj)
 
     with open(root / "abbreviations.selenium.json") as file_obj:
-        extracted_abbreviations = _Abbreviations.model_validate_json(file_obj.read())
+        extracted_abbreviations = _DictStrStr.model_validate_json(file_obj.read())
 
     abbreviations = extracted_abbreviations.root
 
@@ -410,40 +525,30 @@ def main_tmp() -> None:
     here = pathlib.Path(__file__).resolve().parent
     root = here.parent
     path = root / "raw-data" / "2026" / "rounds.selenium.json"
-    with open(path) as file_obj:
+    with open(path, "rb") as file_obj:
         by_round = json.load(file_obj)
 
     path = root / "raw-data" / "2026" / "abbreviations.selenium.json"
-    with open(path) as file_obj:
-        extracted_abbreviations = _Abbreviations.model_validate_json(file_obj.read())
+    with open(path, "rb") as file_obj:
+        extracted_abbreviations = _DictStrStr.model_validate_json(file_obj.read())
 
     abbreviations = extracted_abbreviations.root
 
-    prefixes = {
-        "Championship Round 1": {"Champ. Rd of 32": "championship_r32"},
-        "Championship Round 2": {"Champ. Rd of 16": "championship_r16"},
-        "Consolation Round 2": {"Cons. Rd of 16": "consolation_round2"},
-        "Championship Quarterfinals & Consolation Round 3": {
-            "Quarters": "championship_quarter",
-            "Cons. Sub-Quarters": "consolation_round3",
-        },
-        "Consolation Round 4": {"Cons. Quarters": "consolation_round4_blood"},
-        "Championships Semifinals & Consolation Round 5": {
-            "Semis": "championship_semi",
-            "Cons. Sub-Semis": "consolation_round5",
-        },
-        "Consolation Semifinals": {"Cons. Semis": "consolation_round6_semi"},
-        "3rd, 5th, 7th Place Bouts": {
-            "3rd Place Match": "consolation_third_place",
-            "5th Place Match": "consolation_fifth_place",
-            "7th Place Match": "consolation_seventh_place",
-        },
-        "Championship Bouts": {"1st Place Match": "championship_first_place"},
-    }
+    path = root / "raw-data" / "2026" / "brackets.selenium.json"
+    with open(path, "rb") as file_obj:
+        extracted_brackets = _DictStrStr.model_validate_json(file_obj.read())
+
+    brackets = extracted_brackets.root
+
+    entries_map: _EntriesMap = {}
+    for html in brackets.values():
+        soup = bs4.BeautifulSoup(html, features="html.parser")
+        _add_initial_entries(soup, entries_map)
+
     for round_name, html in by_round.items():
         soup = bs4.BeautifulSoup(html, features="html.parser")
-        match_prefixes = prefixes[round_name]
-        _extract_bouts(soup, round_name, match_prefixes, abbreviations)
+        match_prefixes = _ROUND_PREFIXES[round_name]
+        _extract_bouts(soup, round_name, match_prefixes, abbreviations, entries_map)
 
 
 if __name__ == "__main__":
