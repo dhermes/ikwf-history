@@ -481,6 +481,21 @@ def _extract_bouts(
         entries = entries_map[(division, weight)]
         # NOTE: This approach fails. It assumes (`_extract_division_match_slot`)
         #       that the matches show up in order, but they do not.
+        #
+        # NOTE: For the "no bout here" bouts, they have special sentinel numbers
+        #       * championship_r32:          m2, m4, m6, m8, m10, m12, m14, m16
+        #       * championship_r16:          m17, m19, m21, m23, m25, m27, m29, m31
+        #       * consolation_round2:        m33, m34, m35, m36, m37, m38, m39, m40
+        #       * championship_quarter:      m41, m42, m43, m44
+        #       * consolation_round3:        m45, m46, m47, m48
+        #       * consolation_round4_blood:  m49, m50, m51, m52
+        #       * championship_semi:         m53, m54
+        #       * consolation_round5:        m55, m56
+        #       * consolation_round6_semi:   m57, m58
+        #       * consolation_seventh_place: m59
+        #       * consolation_fifth_place:   m60
+        #       * consolation_third_place:   m61
+
         _determine_top_bottom(winner, loser, entries, match_slot)
         match_ = bracket_utils.MatchRaw(
             match_slot=match_slot,

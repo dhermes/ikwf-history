@@ -222,7 +222,7 @@ def _open_event(event: _Event, login_info: _LoginInfo) -> webdriver.Chrome:
     return driver
 
 
-def _click_results(driver: webdriver.Chrome) -> None:
+def _click_reports(driver: webdriver.Chrome) -> None:
     reports_link = WebDriverWait(driver, _WAIT_TIME).until(
         EC.element_to_be_clickable(
             (By.XPATH, "//a[.//div[contains(text(),'Reports')]]")
@@ -232,7 +232,7 @@ def _click_results(driver: webdriver.Chrome) -> None:
     reports_link.click()
 
 
-def _choose_by_round(driver: webdriver.Chrome) -> None:
+def _choose_by_round_weight(driver: webdriver.Chrome) -> None:
     # Wait until the report <select> is clickable
     report_select_element = WebDriverWait(driver, _WAIT_TIME).until(
         EC.element_to_be_clickable((By.ID, "report"))
@@ -241,8 +241,8 @@ def _choose_by_round(driver: webdriver.Chrome) -> None:
     # Wrap it in Selenium's Select
     report_select = Select(report_select_element)
 
-    # Select the option by value
-    report_select.select_by_value("round")
+    # Select the option by value ("Bouts by Round then Weight")
+    report_select.select_by_value("round_weight")
 
 
 def _allow_all_predicate(driver: webdriver.Chrome) -> None:
@@ -377,8 +377,8 @@ def _capture_round_html(
 
 def _fetch_tournament_rounds(event: _Event, login_info: _LoginInfo) -> dict[str, str]:
     driver = _open_event(event, login_info)
-    _click_results(driver)
-    _choose_by_round(driver)
+    _click_reports(driver)
+    _choose_by_round_weight(driver)
     _allow_all(driver)
     all_rounds = _all_round_option_values(driver)
 
