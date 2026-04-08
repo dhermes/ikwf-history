@@ -361,6 +361,79 @@ _EntriesMap = dict[
 ]
 
 
+def _match_r32_bye(
+    winner: bracket_utils.CompetitorRaw | None,
+    loser: bracket_utils.CompetitorRaw | None,
+    entry: bracket_utils.CompetitorRaw | None,
+) -> None:
+    if loser is not None:
+        raise ValueError("Unexpected bye", loser)
+
+
+def _match_r32_match(
+    winner: bracket_utils.CompetitorRaw | None,
+    loser: bracket_utils.CompetitorRaw | None,
+    top_entry: bracket_utils.CompetitorRaw | None,
+    bottom_entry: bracket_utils.CompetitorRaw | None,
+) -> None:
+    pass
+
+
+def _determine_top_bottom(
+    winner: bracket_utils.CompetitorRaw | None,
+    loser: bracket_utils.CompetitorRaw | None,
+    entries: list[bracket_utils.CompetitorRaw | None],
+    match_slot: bracket_utils.MatchSlot,
+) -> None:
+    if match_slot == "championship_r32_01":
+        _match_r32_bye(winner, loser, entries[0])
+
+    if match_slot == "championship_r32_02":
+        _match_r32_match(winner, loser, entries[1], entries[2])
+
+    if match_slot == "championship_r32_03":
+        _match_r32_bye(winner, loser, entries[3])
+
+    if match_slot == "championship_r32_04":
+        _match_r32_match(winner, loser, entries[4], entries[5])
+
+    if match_slot == "championship_r32_05":
+        _match_r32_bye(winner, loser, entries[6])
+
+    if match_slot == "championship_r32_06":
+        _match_r32_match(winner, loser, entries[7], entries[8])
+
+    if match_slot == "championship_r32_07":
+        _match_r32_bye(winner, loser, entries[9])
+
+    if match_slot == "championship_r32_08":
+        _match_r32_match(winner, loser, entries[10], entries[11])
+
+    if match_slot == "championship_r32_09":
+        _match_r32_bye(winner, loser, entries[12])
+
+    if match_slot == "championship_r32_10":
+        _match_r32_match(winner, loser, entries[13], entries[14])
+
+    if match_slot == "championship_r32_11":
+        _match_r32_bye(winner, loser, entries[15])
+
+    if match_slot == "championship_r32_12":
+        _match_r32_match(winner, loser, entries[16], entries[17])
+
+    if match_slot == "championship_r32_13":
+        _match_r32_bye(winner, loser, entries[18])
+
+    if match_slot == "championship_r32_14":
+        _match_r32_match(winner, loser, entries[19], entries[20])
+
+    if match_slot == "championship_r32_15":
+        _match_r32_bye(winner, loser, entries[21])
+
+    if match_slot == "championship_r32_16":
+        _match_r32_match(winner, loser, entries[22], entries[23])
+
+
 def _extract_bouts(
     soup: bs4.BeautifulSoup,
     round_name: str,
@@ -390,6 +463,8 @@ def _extract_bouts(
             raise ValueError("Unexpected match div", _get_margin_left_style(match_div))
 
         match_line = match_div.text.strip()
+        if not isinstance(match_line, str):
+            raise NotImplementedError
         bout_mat, prefix_division, weight_str, match_info = match_line.split(" - ", 3)
         weight = int(weight_str)
 
@@ -403,6 +478,10 @@ def _extract_bouts(
         if bout_number is None and result_type != "bye":
             raise ValueError("Unexpected missing bout number", match_line)
 
+        entries = entries_map[(division, weight)]
+        # NOTE: This approach fails. It assumes (`_extract_division_match_slot`)
+        #       that the matches show up in order, but they do not.
+        _determine_top_bottom(winner, loser, entries, match_slot)
         match_ = bracket_utils.MatchRaw(
             match_slot=match_slot,
             top_competitor=winner,  # TODO
