@@ -630,7 +630,10 @@ def _extract_bouts(
 
         by_bout_number[bout_number_str] = match_info
 
-    # 2. Go through each bracket, sort the bouts to determine `match_slot`, then
+    # 2. Go through each bracket and use the bouts to update the entries
+    #    in `entries_map` (athlete and team names may be abbreviated).
+
+    # 3. Go through each bracket, sort the bouts to determine `match_slot`, then
     #    continue parsing the match info (wrestlers, teams, result).
     parsed_matches: list[bracket_utils.MatchRaw] = []
     for bracket_key, by_prefix in brackets_first_pass.items():
