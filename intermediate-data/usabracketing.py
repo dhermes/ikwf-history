@@ -634,11 +634,34 @@ def _extract_bouts(
     #    continue parsing the match info (wrestlers, teams, result).
     parsed_matches: list[bracket_utils.MatchRaw] = []
     for bracket_key, by_prefix in brackets_first_pass.items():
+        entries = entries_map[bracket_key]
         for match_slot_prefix, by_bout_number in by_prefix.items():
             bout_number_strs = list(by_bout_number.keys())
             match_slot_map = _extract_match_slots(match_slot_prefix, bout_number_strs)
             for bout_number_str, match_slot in match_slot_map.items():
                 match_info = by_bout_number[bout_number_str]
+                bout_number = (
+                    None if bout_number_str.startswith("m") else int(bout_number_str)
+                )
+                winner, loser, result = _extract_match_info(match_info, abbreviations)
+                result_type = _determine_result_type(result)
+
+                if bout_number is None and result_type != "bye":
+                    raise ValueError(
+                        "Unexpected missing bout number", bout_number_str, match_info
+                    )
+
+                _determine_top_bottom(winner, loser, entries, match_slot)
+                match_ = bracket_utils.MatchRaw(
+                    match_slot=match_slot,
+                    top_competitor=winner,  # TODO
+                    bottom_competitor=loser,  # TODO
+                    result=result,
+                    bout_number=bout_number,
+                    winner=winner,  # TODO
+                    winner_from=None,  # TODO
+                )
+                parsed_matches.append(match_)
 
     return parsed_matches
 
