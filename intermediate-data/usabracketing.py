@@ -663,6 +663,23 @@ def _extract_bouts(
                 )
                 parsed_matches.append(match_)
 
+            if match_slot_prefix == "championship_r32":
+                for bye_index in range(8):
+                    slot_index = 2 * bye_index + 1
+                    match_slot = f"championship_r32_{slot_index:02}"
+                    entry_index = 3 * bye_index
+                    winner = entries[entry_index]
+                    match_ = bracket_utils.MatchRaw(
+                        match_slot=match_slot,
+                        top_competitor=winner,
+                        bottom_competitor=None,
+                        result=result,
+                        bout_number=bout_number,
+                        winner=winner,
+                        winner_from=None,
+                    )
+                    parsed_matches.append(match_)
+
     return parsed_matches
 
 
