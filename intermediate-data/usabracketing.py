@@ -12,11 +12,12 @@ import pydantic
 
 _MISSING_BOUT_NUMBER_SENTINEL = -54572
 _TITLE_MARGIN_LEFT = "margin-left:0px"
-_MATCH_MARGIN_LEFT = "margin-left:20px"
+_BRACKET_MARGIN_LEFT = "margin-left:20px"
+_MATCH_MARGIN_LEFT = "margin-left:40px"
 _BOUT_PHANTOM_RE = re.compile(r"^Bout m(\d+)$")
 _BOUT_MAT_RE = re.compile(r"^Bout (\d+) \(Mat (\d+)\)$")
 _BOUT_RE = re.compile(r"^Bout (\d+)$")
-_ROUND_PREFIXES = {
+_ROUND_PREFIXES: dict[str, dict[str, str]] = {
     "Championship Round 1": {"Champ. Rd of 32": "championship_r32"},
     "Championship Round 2": {"Champ. Rd of 16": "championship_r16"},
     "Consolation Round 2": {"Cons. Rd of 16": "consolation_round2"},
@@ -194,66 +195,199 @@ def _get_margin_left_style(tag: bs4.Tag) -> str:
     return matches[0]
 
 
-def _extract_division_match_slot(
-    weight: int,
-    prefix_division: str,
-    match_prefixes: dict[str, str],
-    all_prefix_counters: dict[tuple[bracket_utils.Division, int], dict[str, int]],
-) -> tuple[bracket_utils.Division, bracket_utils.MatchSlot]:
-    matched: list[str] = []
-    for match_prefix in match_prefixes:
-        full_prefix = f"{match_prefix}: "
-        if prefix_division.startswith(full_prefix):
-            matched.append(match_prefix)
+def _bout_number_sort(values: list[str], m_positions: dict[str, int]) -> list[str]:
+    if len(values) != len(m_positions):
+        raise ValueError("Invalid bout count", len(values), len(m_positions))
 
-    if len(matched) != 1:
-        raise ValueError(
-            "Unexpected prefix + division", prefix_division, match_prefixes
+    reserved_indices: dict[int, str] = {}
+    numerical_values: list[int] = []
+    for value in values:
+        reserved_index = m_positions.get(value)
+        if reserved_index is None:
+            value_int = int(value)
+            numerical_values.append(value_int)
+        else:
+            reserved_indices[reserved_index] = value
+
+    numerical_values.sort()
+    num_values = len(values)
+
+    sorted_result: list[str] = []
+    numerical_value_index = 0
+    for index in range(num_values):
+        reserved_value = reserved_indices.get(index)
+        if reserved_value is None:
+            numerical_value = numerical_values[numerical_value_index]
+            sorted_result.append(str(numerical_value))
+            numerical_value_index += 1
+        else:
+            sorted_result.append(reserved_value)
+
+    return sorted_result
+
+
+def _to_match_slot_map(match_slot_prefix: str, bout_number_strs: list[str]) -> dict:
+    result: dict[str, bracket_utils.MatchSlot] = {}
+    for index, bout_number_str in enumerate(bout_number_strs):
+        slot_index = index + 1
+        match_slot = f"{match_slot_prefix}_{slot_index:02}"
+        result[bout_number_str] = match_slot
+
+    return result
+
+
+def _extract_match_slots(
+    match_slot_prefix: str, bout_number_strs: list[str]
+) -> dict[str, bracket_utils.MatchSlot]:
+    # NOTE: For the "no bout here" bouts, they have special sentinel numbers
+    #       * championship_r32:          m2, m4, m6, m8, m10, m12, m14, m16
+    #       * championship_r16:          m17, m19, m21, m23, m25, m27, m29, m31
+    #       * consolation_round2:        m33, m34, m35, m36, m37, m38, m39, m40
+    #       * championship_quarter:      m41, m42, m43, m44
+    #       * consolation_round3:        m45, m46, m47, m48
+    #       * consolation_round4_blood:  m49, m50, m51, m52
+    #       * championship_semi:         m53, m54
+    #       * consolation_round5:        m55, m56
+    #       * consolation_round6_semi:   m57, m58
+    #       * consolation_seventh_place: m59
+    #       * consolation_fifth_place:   m60
+    #       * consolation_third_place:   m61
+    if match_slot_prefix == "championship_r32":
+        sorted_bout_number_strs = _bout_number_sort(
+            bout_number_strs,
+            {
+                "m2": 0,
+                "m4": 1,
+                "m6": 2,
+                "m8": 3,
+                "m10": 4,
+                "m12": 5,
+                "m14": 6,
+                "m16": 7,
+            },
         )
 
-    match_prefix = matched[0]
-    full_prefix = f"{match_prefix}: "
-    division_display = prefix_division[len(full_prefix) :]
-    division = normalize_division(division_display)
+        result: dict[str, bracket_utils.MatchSlot] = {}
+        for index, bout_number_str in enumerate(sorted_bout_number_strs):
+            slot_index = 2 * (index + 1)
+            # NOTE: We skip the byes for the sectional champions, they do
+            #       not show up as bouts.
+            match_slot = f"championship_r32_{slot_index:02}"
+            result[bout_number_str] = match_slot
 
-    match_slot_prefix = match_prefixes[match_prefix]
-    all_prefix_counters.setdefault((division, weight), {})
-    prefix_counters = all_prefix_counters[(division, weight)]
-    prefix_counters[match_slot_prefix] = prefix_counters.get(match_slot_prefix, 0) + 1
+        return result
 
-    match_slot_index = prefix_counters[match_slot_prefix]
-    if match_slot_prefix.endswith("_place"):
-        match_slot = match_slot_prefix
-    else:
-        match_slot = f"{match_slot_prefix}_{match_slot_index:02d}"
+    if match_slot_prefix == "championship_r16":
+        sorted_bout_number_strs = _bout_number_sort(
+            bout_number_strs,
+            {
+                "m17": 0,
+                "m19": 1,
+                "m21": 2,
+                "m23": 3,
+                "m25": 4,
+                "m27": 5,
+                "m29": 6,
+                "m31": 7,
+            },
+        )
+        return _to_match_slot_map(match_slot_prefix, sorted_bout_number_strs)
 
-    return division, match_slot
+    if match_slot_prefix == "consolation_round2":
+        sorted_bout_number_strs = _bout_number_sort(
+            bout_number_strs,
+            {
+                "m33": 0,
+                "m34": 1,
+                "m35": 2,
+                "m36": 3,
+                "m37": 4,
+                "m38": 5,
+                "m39": 6,
+                "m40": 7,
+            },
+        )
+        return _to_match_slot_map(match_slot_prefix, sorted_bout_number_strs)
+
+    if match_slot_prefix == "championship_quarter":
+        sorted_bout_number_strs = _bout_number_sort(
+            bout_number_strs,
+            {"m41": 0, "m42": 1, "m43": 2, "m44": 3},
+        )
+        return _to_match_slot_map(match_slot_prefix, sorted_bout_number_strs)
+
+    if match_slot_prefix == "consolation_round3":
+        sorted_bout_number_strs = _bout_number_sort(
+            bout_number_strs,
+            {"m45": 0, "m46": 1, "m47": 2, "m48": 3},
+        )
+        return _to_match_slot_map(match_slot_prefix, sorted_bout_number_strs)
+
+    if match_slot_prefix == "consolation_round4_blood":
+        sorted_bout_number_strs = _bout_number_sort(
+            bout_number_strs,
+            {"m49": 0, "m50": 1, "m51": 2, "m52": 3},
+        )
+        return _to_match_slot_map(match_slot_prefix, sorted_bout_number_strs)
+
+    if match_slot_prefix == "championship_semi":
+        sorted_bout_number_strs = _bout_number_sort(
+            bout_number_strs, {"m53": 0, "m54": 1}
+        )
+        return _to_match_slot_map(match_slot_prefix, sorted_bout_number_strs)
+
+    if match_slot_prefix == "consolation_round5":
+        sorted_bout_number_strs = _bout_number_sort(
+            bout_number_strs, {"m55": 0, "m56": 1}
+        )
+        return _to_match_slot_map(match_slot_prefix, sorted_bout_number_strs)
+
+    if match_slot_prefix == "consolation_round6_semi":
+        sorted_bout_number_strs = _bout_number_sort(
+            bout_number_strs, {"m57": 0, "m58": 1}
+        )
+        return _to_match_slot_map(match_slot_prefix, sorted_bout_number_strs)
+
+    if match_slot_prefix in (
+        "consolation_seventh_place",
+        "consolation_fifth_place",
+        "consolation_third_place",
+        "championship_first_place",
+    ):
+        (bout_number_str,) = bout_number_strs
+        result: dict[str, bracket_utils.MatchSlot] = {
+            bout_number_str: match_slot_prefix
+        }
+        return result
+
+    raise ValueError("Unexpected match slot prefix", match_slot_prefix)
 
 
-def _get_bout_number(bout_mat: str) -> int | None:
+def _get_bout_number_str(bout_mat: str) -> str:
     """Parse the bout number.
 
     The `bout_mat` string may be of the form
 
-    * "Bout m{N}": reserved fora Bye where there is no actual bout number
+    * "Bout m{N}": reserved for a Bye where there is no actual bout number
     * "Bout N (Mat M)": bout with a mat number too
     * "Bout N": bout without a mat number
     """
     match_ = _BOUT_PHANTOM_RE.match(bout_mat)
     if match_ is not None:
-        return None
+        (bout_number_str,) = match_.groups()
+        return f"m{bout_number_str}"
 
     match_ = _BOUT_MAT_RE.match(bout_mat)
     if match_ is not None:
         bout_number_str, _ = match_.groups()
-        return int(bout_number_str)
+        return bout_number_str
 
     match_ = _BOUT_RE.match(bout_mat)
     if match_ is None:
         raise ValueError("Unexpected bout mat string", bout_mat)
 
     (bout_number_str,) = match_.groups()
-    return int(bout_number_str)
+    return bout_number_str
 
 
 def _determine_ot_type(score: str) -> bracket_utils.ResultType:
@@ -437,7 +571,7 @@ def _determine_top_bottom(
 def _extract_bouts(
     soup: bs4.BeautifulSoup,
     round_name: str,
-    match_prefixes: dict[str, str],
+    match_slot_prefixes: dict[str, str],
     abbreviations: dict[str, str],
     entries_map: _EntriesMap,
 ) -> list[bracket_utils.MatchRaw]:
@@ -455,58 +589,56 @@ def _extract_bouts(
     if title_div.text.strip() != round_name:
         raise ValueError("Unexpected title div", title_div.text.strip(), round_name)
 
+    # 1. Do a first pass to bucket all matches by bracket. Only after that can
+    #    we resolve the `match_slot` because the matches do not appear in order.
+    #    (We can order them with the bout numbers.)
     match_divs = all_div[2:]
-    all_prefix_counters: dict[tuple[bracket_utils.Division, int], dict[str, int]] = {}
-    parsed_matches: list[bracket_utils.MatchRaw] = []
+    bracket_key: tuple[bracket_utils.Division, int] | None = None
+    brackets_first_pass: dict[
+        tuple[bracket_utils.Division, int], dict[str, dict[str, str]]
+    ] = {}
     for match_div in match_divs:
-        if _get_margin_left_style(match_div) != _MATCH_MARGIN_LEFT:
-            raise ValueError("Unexpected match div", _get_margin_left_style(match_div))
+        margin_left_style = _get_margin_left_style(match_div)
+
+        if margin_left_style == _BRACKET_MARGIN_LEFT:
+            bracket_line = match_div.text.strip()
+            division_display, weight_str = bracket_line.split(" - ")
+            weight = int(weight_str)
+            division = normalize_division(division_display)
+            bracket_key = division, weight
+            continue
+
+        if margin_left_style != _MATCH_MARGIN_LEFT:
+            raise ValueError("Unexpected match div", margin_left_style)
+
+        if bracket_key is None:
+            raise ValueError("Expected bracket key to be set", match_div)
 
         match_line = match_div.text.strip()
         if not isinstance(match_line, str):
-            raise NotImplementedError
-        bout_mat, prefix_division, weight_str, match_info = match_line.split(" - ", 3)
-        weight = int(weight_str)
+            raise TypeError("Invalid type", match_line)
+        bout_mat, round_description, match_info = match_line.split(" - ", 2)
+        match_slot_prefix = match_slot_prefixes[round_description]
+        bout_number_str = _get_bout_number_str(bout_mat)
 
-        division, match_slot = _extract_division_match_slot(
-            weight, prefix_division, match_prefixes, all_prefix_counters
-        )
-        bout_number = _get_bout_number(bout_mat)
-        winner, loser, result = _extract_match_info(match_info, abbreviations)
-        result_type = _determine_result_type(result)
+        by_prefix = brackets_first_pass.setdefault(bracket_key, {})
+        by_bout_number = by_prefix.setdefault(match_slot_prefix, {})
+        if bout_number_str in by_bout_number:
+            raise KeyError(
+                "Bout already seen", bracket_key, match_slot_prefix, bout_number_str
+            )
 
-        if bout_number is None and result_type != "bye":
-            raise ValueError("Unexpected missing bout number", match_line)
+        by_bout_number[bout_number_str] = match_info
 
-        entries = entries_map[(division, weight)]
-        # NOTE: This approach fails. It assumes (`_extract_division_match_slot`)
-        #       that the matches show up in order, but they do not.
-        #
-        # NOTE: For the "no bout here" bouts, they have special sentinel numbers
-        #       * championship_r32:          m2, m4, m6, m8, m10, m12, m14, m16
-        #       * championship_r16:          m17, m19, m21, m23, m25, m27, m29, m31
-        #       * consolation_round2:        m33, m34, m35, m36, m37, m38, m39, m40
-        #       * championship_quarter:      m41, m42, m43, m44
-        #       * consolation_round3:        m45, m46, m47, m48
-        #       * consolation_round4_blood:  m49, m50, m51, m52
-        #       * championship_semi:         m53, m54
-        #       * consolation_round5:        m55, m56
-        #       * consolation_round6_semi:   m57, m58
-        #       * consolation_seventh_place: m59
-        #       * consolation_fifth_place:   m60
-        #       * consolation_third_place:   m61
-
-        _determine_top_bottom(winner, loser, entries, match_slot)
-        match_ = bracket_utils.MatchRaw(
-            match_slot=match_slot,
-            top_competitor=winner,  # TODO
-            bottom_competitor=loser,  # TODO
-            result=result,
-            bout_number=bout_number,
-            winner=winner,  # TODO
-            winner_from=None,  # TODO
-        )
-        parsed_matches.append(match_)
+    # 2. Go through each bracket, sort the bouts to determine `match_slot`, then
+    #    continue parsing the match info (wrestlers, teams, result).
+    parsed_matches: list[bracket_utils.MatchRaw] = []
+    for bracket_key, by_prefix in brackets_first_pass.items():
+        for match_slot_prefix, by_bout_number in by_prefix.items():
+            bout_number_strs = list(by_bout_number.keys())
+            match_slot_map = _extract_match_slots(match_slot_prefix, bout_number_strs)
+            for bout_number_str, match_slot in match_slot_map.items():
+                match_info = by_bout_number[bout_number_str]
 
     return parsed_matches
 
@@ -620,7 +752,9 @@ def main_tmp() -> None:
     root = here.parent
     path = root / "raw-data" / "2026" / "rounds.selenium.json"
     with open(path, "rb") as file_obj:
-        by_round = json.load(file_obj)
+        extracted_by_round = _DictStrStr.model_validate_json(file_obj.read())
+
+    by_round = extracted_by_round.root
 
     path = root / "raw-data" / "2026" / "abbreviations.selenium.json"
     with open(path, "rb") as file_obj:
@@ -641,8 +775,10 @@ def main_tmp() -> None:
 
     for round_name, html in by_round.items():
         soup = bs4.BeautifulSoup(html, features="html.parser")
-        match_prefixes = _ROUND_PREFIXES[round_name]
-        _extract_bouts(soup, round_name, match_prefixes, abbreviations, entries_map)
+        match_slot_prefixes = _ROUND_PREFIXES[round_name]
+        _extract_bouts(
+            soup, round_name, match_slot_prefixes, abbreviations, entries_map
+        )
 
 
 if __name__ == "__main__":
