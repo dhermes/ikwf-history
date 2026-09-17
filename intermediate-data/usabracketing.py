@@ -77,11 +77,12 @@ class MatchWithBracket(_ForbidExtra):
     match: bracket_utils.Match
 
 
+_BracketKey = tuple[bracket_utils.Division, int]
 MatchSlotMap = dict[
     tuple[bracket_utils.MatchSlot, bracket_utils.BracketPosition],
     list[bracket_utils.CompetitorRaw],
 ]
-MatchSlotsByBracket = dict[tuple[bracket_utils.Division, int], MatchSlotMap]
+MatchSlotsByBracket = dict[_BracketKey, MatchSlotMap]
 ParseRoundsFunc = Callable[[Any, MatchSlotsByBracket], list[MatchWithBracket]]
 
 
@@ -490,9 +491,8 @@ def _extract_match_info(
     return competitor1, competitor2, result
 
 
-_EntriesMap = dict[
-    tuple[bracket_utils.Division, int], list[bracket_utils.CompetitorRaw | None]
-]
+_EntriesMap = dict[_BracketKey, list[bracket_utils.CompetitorRaw | None]]
+_BracketsFirstPass = dict[_BracketKey, dict[str, dict[str, str]]]
 
 
 def _match_r32_bye(
@@ -568,6 +568,119 @@ def _determine_top_bottom(
         _match_r32_match(winner, loser, entries[22], entries[23])
 
 
+def _match_names(name_short: str, name_full: str) -> bool:
+    if name_short == name_full:
+        return True
+
+    short_parts = name_short.split()
+    full_parts = name_full.split()
+
+    if len(short_parts) != len(full_parts):
+        return False
+
+    return all(
+        full_part.startswith(short_part)
+        for short_part, full_part in zip(short_parts, full_parts, strict=True)
+    )
+
+
+def _update_from_match(
+    entry: bracket_utils.CompetitorRaw, competitor: bracket_utils.CompetitorRaw
+) -> bool:
+    if not _match_names(entry.name, competitor.name):
+        return False
+
+    if competitor.team_full.startswith(entry.team_full):
+        entry.name = competitor.name
+        entry.team_full = competitor.team_full
+        return True
+
+    raise ValueError("Invalid partial match", entry, competitor)
+
+
+def _match_update_entry(
+    entry: bracket_utils.CompetitorRaw | None,
+    winner: bracket_utils.CompetitorRaw | None,
+    loser: bracket_utils.CompetitorRaw | None,
+) -> None:
+    if entry is None:
+        return
+
+    updated = False
+    if winner is not None:
+        updated = _update_from_match(entry, winner)
+
+    if not updated and loser is not None:
+        updated = _update_from_match(entry, loser)
+
+    if not updated:
+        breakpoint()
+        raise ValueError("Failed to match entry", entry, winner, loser)
+
+
+def _resolve_abbreviated_entries(
+    match_slot: bracket_utils.MatchSlot,
+    entries: list[bracket_utils.CompetitorRaw | None],
+    winner: bracket_utils.CompetitorRaw | None,
+    loser: bracket_utils.CompetitorRaw | None,
+) -> None:
+    if match_slot == "championship_r16_01":
+        _match_update_entry(entries[0], winner, loser)
+
+    if match_slot == "championship_r32_02":
+        _match_update_entry(entries[1], winner, loser)
+        _match_update_entry(entries[2], winner, loser)
+
+    if match_slot == "championship_r16_02":
+        _match_update_entry(entries[3], winner, loser)
+
+    if match_slot == "championship_r32_04":
+        _match_update_entry(entries[4], winner, loser)
+        _match_update_entry(entries[5], winner, loser)
+
+    if match_slot == "championship_r16_03":
+        _match_update_entry(entries[6], winner, loser)
+
+    if match_slot == "championship_r32_06":
+        _match_update_entry(entries[7], winner, loser)
+        _match_update_entry(entries[8], winner, loser)
+
+    if match_slot == "championship_r16_04":
+        _match_update_entry(entries[9], winner, loser)
+
+    if match_slot == "championship_r32_08":
+        _match_update_entry(entries[10], winner, loser)
+        _match_update_entry(entries[11], winner, loser)
+
+    if match_slot == "championship_r16_05":
+        _match_update_entry(entries[12], winner, loser)
+
+    if match_slot == "championship_r32_10":
+        _match_update_entry(entries[13], winner, loser)
+        _match_update_entry(entries[14], winner, loser)
+
+    if match_slot == "championship_r16_06":
+        _match_update_entry(entries[15], winner, loser)
+
+    if match_slot == "championship_r32_12":
+        _match_update_entry(entries[16], winner, loser)
+        _match_update_entry(entries[17], winner, loser)
+
+    if match_slot == "championship_r16_07":
+        _match_update_entry(entries[18], winner, loser)
+
+    if match_slot == "championship_r32_14":
+        _match_update_entry(entries[19], winner, loser)
+        _match_update_entry(entries[20], winner, loser)
+
+    if match_slot == "championship_r16_08":
+        _match_update_entry(entries[21], winner, loser)
+
+    if match_slot == "championship_r32_16":
+        _match_update_entry(entries[22], winner, loser)
+        _match_update_entry(entries[23], winner, loser)
+
+
 def _extract_bouts(
     soup: bs4.BeautifulSoup,
     round_name: str,
@@ -593,10 +706,8 @@ def _extract_bouts(
     #    we resolve the `match_slot` because the matches do not appear in order.
     #    (We can order them with the bout numbers.)
     match_divs = all_div[2:]
-    bracket_key: tuple[bracket_utils.Division, int] | None = None
-    brackets_first_pass: dict[
-        tuple[bracket_utils.Division, int], dict[str, dict[str, str]]
-    ] = {}
+    bracket_key: _BracketKey | None = None
+    brackets_first_pass: _BracketsFirstPass = {}
     for match_div in match_divs:
         margin_left_style = _get_margin_left_style(match_div)
 
@@ -630,10 +741,7 @@ def _extract_bouts(
 
         by_bout_number[bout_number_str] = match_info
 
-    # 2. Go through each bracket and use the bouts to update the entries
-    #    in `entries_map` (athlete and team names may be abbreviated).
-
-    # 3. Go through each bracket, sort the bouts to determine `match_slot`, then
+    # 2. Go through each bracket, sort the bouts to determine `match_slot`, then
     #    continue parsing the match info (wrestlers, teams, result).
     parsed_matches: list[bracket_utils.MatchRaw] = []
     for bracket_key, by_prefix in brackets_first_pass.items():
@@ -648,6 +756,10 @@ def _extract_bouts(
                 )
                 winner, loser, result = _extract_match_info(match_info, abbreviations)
                 result_type = _determine_result_type(result)
+
+                # Use the bouts to update the entries (athlete and team names may
+                # be abbreviated).
+                _resolve_abbreviated_entries(match_slot, entries, winner, loser)
 
                 if bout_number is None and result_type != "bye":
                     raise ValueError(
