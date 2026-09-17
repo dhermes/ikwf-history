@@ -933,3 +933,55 @@ def main_tmp() -> None:
 
 if __name__ == "__main__":
     main_tmp()
+
+# TOP/BOTTOM sources
+
+# championship_r16_01 <- W championship_r32_01 / W championship_r32_02
+# championship_r16_02 <- W championship_r32_03 / W championship_r32_04
+# championship_r16_03 <- W championship_r32_05 / W championship_r32_06
+# championship_r16_04 <- W championship_r32_07 / W championship_r32_08
+# championship_r16_05 <- W championship_r32_09 / W championship_r32_10
+# championship_r16_06 <- W championship_r32_11 / W championship_r32_12
+# championship_r16_07 <- W championship_r32_13 / W championship_r32_14
+# championship_r16_08 <- W championship_r32_15 / W championship_r32_16
+
+# championship_quarter_01 <- W championship_r16_01 / W championship_r16_02
+# championship_quarter_02 <- W championship_r16_03 / W championship_r16_04
+# championship_quarter_03 <- W championship_r16_05 / W championship_r16_06
+# championship_quarter_04 <- W championship_r16_07 / W championship_r16_08
+
+# championship_semi_01 <- W championship_quarter_01 / W championship_quarter_02
+# championship_semi_02 <- W championship_quarter_03 / W championship_quarter_04
+
+# championship_first_place <- W championship_semi_01 / W championship_semi_02
+
+# consolation_round2_01 <- L championship_r16_08 / L championship_r32_02
+# consolation_round2_02 <- L championship_r16_07 / L championship_r32_04
+# consolation_round2_03 <- L championship_r16_06 / L championship_r32_06
+# consolation_round2_04 <- L championship_r16_05 / L championship_r32_08
+# consolation_round2_05 <- L championship_r32_10 / L championship_r16_04
+# consolation_round2_06 <- L championship_r32_12 / L championship_r16_03
+# consolation_round2_07 <- L championship_r32_14 / L championship_r16_02
+# consolation_round2_08 <- L championship_r32_16 / L championship_r16_01
+
+# consolation_round3_01 <- W consolation_round2_01 / W consolation_round2_02
+# consolation_round3_02 <- W consolation_round2_03 / W consolation_round2_04
+# consolation_round3_03 <- W consolation_round2_05 / W consolation_round2_06
+# consolation_round3_04 <- W consolation_round2_07 / W consolation_round2_08
+
+# consolation_round4_blood_01 <- L championship_quarter_02 / W consolation_round3_01
+# consolation_round4_blood_02 <- L championship_quarter_01 / W consolation_round3_02
+# consolation_round4_blood_03 <- W consolation_round3_03 / L championship_quarter_04
+# consolation_round4_blood_04 <- W consolation_round3_04 / L championship_quarter_03
+
+# consolation_round5_01 <- W consolation_round4_blood_01 / W consolation_round4_blood_02
+# consolation_round5_02 <- W consolation_round4_blood_03 / W consolation_round4_blood_04
+
+# consolation_round6_semi_01 <- L championship_semi_02 / W consolation_round5_01
+# consolation_round6_semi_02 <- W consolation_round5_02 / L championship_semi_01
+
+# consolation_seventh_place <- L consolation_round5_01 / L consolation_round5_02
+
+# consolation_fifth_place <- L consolation_round6_semi_01 / L consolation_round6_semi_02
+
+# consolation_third_place <- W consolation_round6_semi_01 / W consolation_round6_semi_02
