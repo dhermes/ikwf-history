@@ -495,77 +495,67 @@ _EntriesMap = dict[_BracketKey, list[bracket_utils.CompetitorRaw | None]]
 _BracketsFirstPass = dict[_BracketKey, dict[str, dict[str, str]]]
 
 
-def _match_r32_bye(
-    winner: bracket_utils.CompetitorRaw | None,
-    loser: bracket_utils.CompetitorRaw | None,
-    entry: bracket_utils.CompetitorRaw | None,
-) -> None:
-    if loser is not None:
-        raise ValueError("Unexpected bye", loser)
-
-
-def _match_r32_match(
+def _r32_winner_is_top(
     winner: bracket_utils.CompetitorRaw | None,
     loser: bracket_utils.CompetitorRaw | None,
     top_entry: bracket_utils.CompetitorRaw | None,
     bottom_entry: bracket_utils.CompetitorRaw | None,
-) -> None:
-    pass
+) -> bool:
+    if winner is None:
+        if not (loser is None and top_entry is None and bottom_entry is None):
+            raise ValueError("Invalid match", winner, loser, top_entry, bottom_entry)
+        return True
+
+    if (
+        top_entry is not None
+        and winner.name == top_entry.name
+        and winner.team_full == top_entry.team_full
+    ):
+        return True
+
+    if (
+        bottom_entry is not None
+        and winner.name == bottom_entry.name
+        and winner.team_full == bottom_entry.team_full
+    ):
+        return False
+
+    raise ValueError(
+        "Could not match the winner", winner, loser, top_entry, bottom_entry
+    )
 
 
-def _determine_top_bottom(
+def _winner_is_top(
     winner: bracket_utils.CompetitorRaw | None,
     loser: bracket_utils.CompetitorRaw | None,
     entries: list[bracket_utils.CompetitorRaw | None],
     match_slot: bracket_utils.MatchSlot,
-) -> None:
-    if match_slot == "championship_r32_01":
-        _match_r32_bye(winner, loser, entries[0])
-
+) -> bool:
     if match_slot == "championship_r32_02":
-        _match_r32_match(winner, loser, entries[1], entries[2])
-
-    if match_slot == "championship_r32_03":
-        _match_r32_bye(winner, loser, entries[3])
+        return _r32_winner_is_top(winner, loser, entries[1], entries[2])
 
     if match_slot == "championship_r32_04":
-        _match_r32_match(winner, loser, entries[4], entries[5])
-
-    if match_slot == "championship_r32_05":
-        _match_r32_bye(winner, loser, entries[6])
+        return _r32_winner_is_top(winner, loser, entries[4], entries[5])
 
     if match_slot == "championship_r32_06":
-        _match_r32_match(winner, loser, entries[7], entries[8])
-
-    if match_slot == "championship_r32_07":
-        _match_r32_bye(winner, loser, entries[9])
+        return _r32_winner_is_top(winner, loser, entries[7], entries[8])
 
     if match_slot == "championship_r32_08":
-        _match_r32_match(winner, loser, entries[10], entries[11])
-
-    if match_slot == "championship_r32_09":
-        _match_r32_bye(winner, loser, entries[12])
+        return _r32_winner_is_top(winner, loser, entries[10], entries[11])
 
     if match_slot == "championship_r32_10":
-        _match_r32_match(winner, loser, entries[13], entries[14])
-
-    if match_slot == "championship_r32_11":
-        _match_r32_bye(winner, loser, entries[15])
+        return _r32_winner_is_top(winner, loser, entries[13], entries[14])
 
     if match_slot == "championship_r32_12":
-        _match_r32_match(winner, loser, entries[16], entries[17])
-
-    if match_slot == "championship_r32_13":
-        _match_r32_bye(winner, loser, entries[18])
+        return _r32_winner_is_top(winner, loser, entries[16], entries[17])
 
     if match_slot == "championship_r32_14":
-        _match_r32_match(winner, loser, entries[19], entries[20])
-
-    if match_slot == "championship_r32_15":
-        _match_r32_bye(winner, loser, entries[21])
+        return _r32_winner_is_top(winner, loser, entries[19], entries[20])
 
     if match_slot == "championship_r32_16":
-        _match_r32_match(winner, loser, entries[22], entries[23])
+        return _r32_winner_is_top(winner, loser, entries[22], entries[23])
+
+    return True  # TODO
 
 
 def _match_names(name_short: str, name_full: str) -> bool:
@@ -614,7 +604,6 @@ def _match_update_entry(
         updated = _update_from_match(entry, loser)
 
     if not updated:
-        breakpoint()
         raise ValueError("Failed to match entry", entry, winner, loser)
 
 
@@ -766,15 +755,21 @@ def _extract_bouts(
                         "Unexpected missing bout number", bout_number_str, match_info
                     )
 
-                _determine_top_bottom(winner, loser, entries, match_slot)
+                winner_top = _winner_is_top(winner, loser, entries, match_slot)
+                top_competitor = winner
+                bottom_competitor = loser
+                if not winner_top:
+                    top_competitor = loser
+                    bottom_competitor = winner
+
                 match_ = bracket_utils.MatchRaw(
                     match_slot=match_slot,
-                    top_competitor=winner,  # TODO
-                    bottom_competitor=loser,  # TODO
+                    top_competitor=top_competitor,
+                    bottom_competitor=bottom_competitor,
                     result=result,
                     bout_number=bout_number,
-                    winner=winner,  # TODO
-                    winner_from=None,  # TODO
+                    winner=winner,
+                    winner_from=None,
                 )
                 parsed_matches.append(match_)
 
@@ -788,7 +783,7 @@ def _extract_bouts(
                         match_slot=match_slot,
                         top_competitor=winner,
                         bottom_competitor=None,
-                        result=result,
+                        result="Bye",
                         bout_number=bout_number,
                         winner=winner,
                         winner_from=None,
