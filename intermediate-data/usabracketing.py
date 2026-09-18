@@ -505,18 +505,10 @@ def _r32_winner_is_top(
             raise ValueError("Invalid match", winner, loser, top_entry, bottom_entry)
         return True
 
-    if (
-        top_entry is not None
-        and winner.name == top_entry.name
-        and winner.team_full == top_entry.team_full
-    ):
+    if top_entry is not None and winner == top_entry:
         return True
 
-    if (
-        bottom_entry is not None
-        and winner.name == bottom_entry.name
-        and winner.team_full == bottom_entry.team_full
-    ):
+    if bottom_entry is not None and winner == bottom_entry:
         return False
 
     raise ValueError(
@@ -669,6 +661,35 @@ def _resolve_abbreviated_entries(
         _match_update_entry(entries[23], winner, loser)
 
 
+def _get_competitor(
+    match_: bracket_utils.MatchRaw, winner: bool
+) -> bracket_utils.CompetitorRaw | None:
+    match_winner = match_.winner
+    if winner:
+        return match_winner
+
+    top_competitor = match_.top_competitor
+    bottom_competitor = match_.bottom_competitor
+    if match_winner is None:
+        if not (top_competitor is None and bottom_competitor is None):
+            raise ValueError("No winner requires no loser", match_)
+        return None
+
+    if top_competitor is not None:
+        if top_competitor == match_winner:
+            return bottom_competitor
+
+        return top_competitor
+
+    if bottom_competitor is not None:
+        if bottom_competitor == match_winner:
+            return top_competitor
+
+        return bottom_competitor
+
+    raise NotImplementedError("Invariant violation", match_)
+
+
 def _fix_match_top_bottom(
     match_: bracket_utils.MatchRaw,
     top_match: bracket_utils.MatchRaw,
@@ -676,12 +697,31 @@ def _fix_match_top_bottom(
     bottom_match: bracket_utils.MatchRaw,
     bottom_winner: bool,
 ) -> None:
-    pass
+    top_competitor = _get_competitor(top_match, top_winner)
+    bottom_competitor = _get_competitor(bottom_match, bottom_winner)
+
+    competitor1 = match_.top_competitor
+    competitor2 = match_.bottom_competitor
+
+    if competitor1 == bottom_competitor:
+        competitor1, competitor2 = competitor2, competitor1
+
+    if competitor1 != top_competitor or competitor2 != bottom_competitor:
+        raise ValueError(
+            "Source wrestlers do not match those on match",
+            match_,
+            top_competitor,
+            bottom_competitor,
+        )
+
+    match_.top_competitor = top_competitor
+    match_.bottom_competitor = bottom_competitor
 
 
 def _fix_bracket_top_bottom(
     bracket_matches: dict[bracket_utils.MatchSlot, bracket_utils.MatchRaw],
 ) -> None:
+    # 1. Fix `championship_r16_*`
     _fix_match_top_bottom(
         bracket_matches["championship_r16_01"],
         bracket_matches["championship_r32_01"],
@@ -689,44 +729,320 @@ def _fix_bracket_top_bottom(
         bracket_matches["championship_r32_02"],
         True,
     )
-    # championship_r16_02 <- W championship_r32_03 / W championship_r32_04
-    # championship_r16_03 <- W championship_r32_05 / W championship_r32_06
-    # championship_r16_04 <- W championship_r32_07 / W championship_r32_08
-    # championship_r16_05 <- W championship_r32_09 / W championship_r32_10
-    # championship_r16_06 <- W championship_r32_11 / W championship_r32_12
-    # championship_r16_07 <- W championship_r32_13 / W championship_r32_14
-    # championship_r16_08 <- W championship_r32_15 / W championship_r32_16
-    # championship_quarter_01 <- W championship_r16_01 / W championship_r16_02
-    # championship_quarter_02 <- W championship_r16_03 / W championship_r16_04
-    # championship_quarter_03 <- W championship_r16_05 / W championship_r16_06
-    # championship_quarter_04 <- W championship_r16_07 / W championship_r16_08
-    # championship_semi_01 <- W championship_quarter_01 / W championship_quarter_02
-    # championship_semi_02 <- W championship_quarter_03 / W championship_quarter_04
-    # championship_first_place <- W championship_semi_01 / W championship_semi_02
-    # consolation_round2_01 <- L championship_r16_08 / L championship_r32_02
-    # consolation_round2_02 <- L championship_r16_07 / L championship_r32_04
-    # consolation_round2_03 <- L championship_r16_06 / L championship_r32_06
-    # consolation_round2_04 <- L championship_r16_05 / L championship_r32_08
-    # consolation_round2_05 <- L championship_r32_10 / L championship_r16_04
-    # consolation_round2_06 <- L championship_r32_12 / L championship_r16_03
-    # consolation_round2_07 <- L championship_r32_14 / L championship_r16_02
-    # consolation_round2_08 <- L championship_r32_16 / L championship_r16_01
-    # consolation_round3_01 <- W consolation_round2_01 / W consolation_round2_02
-    # consolation_round3_02 <- W consolation_round2_03 / W consolation_round2_04
-    # consolation_round3_03 <- W consolation_round2_05 / W consolation_round2_06
-    # consolation_round3_04 <- W consolation_round2_07 / W consolation_round2_08
-    # consolation_round4_blood_01 <- L championship_quarter_02 / W consolation_round3_01
-    # consolation_round4_blood_02 <- L championship_quarter_01 / W consolation_round3_02
-    # consolation_round4_blood_03 <- W consolation_round3_03 / L championship_quarter_04
-    # consolation_round4_blood_04 <- W consolation_round3_04 / L championship_quarter_03
-    # consolation_round5_01 <- W consolation_round4_blood_01 / W consolation_round4_blood_02
-    # consolation_round5_02 <- W consolation_round4_blood_03 / W consolation_round4_blood_04
-    # consolation_round6_semi_01 <- L championship_semi_02 / W consolation_round5_01
-    # consolation_round6_semi_02 <- W consolation_round5_02 / L championship_semi_01
-    # consolation_seventh_place <- L consolation_round5_01 / L consolation_round5_02
-    # consolation_fifth_place <- L consolation_round6_semi_01 / L consolation_round6_semi_02
-    # consolation_third_place <- W consolation_round6_semi_01 / W consolation_round6_semi_02
-    pass
+
+    _fix_match_top_bottom(
+        bracket_matches["championship_r16_02"],
+        bracket_matches["championship_r32_03"],
+        True,
+        bracket_matches["championship_r32_04"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["championship_r16_03"],
+        bracket_matches["championship_r32_05"],
+        True,
+        bracket_matches["championship_r32_06"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["championship_r16_04"],
+        bracket_matches["championship_r32_07"],
+        True,
+        bracket_matches["championship_r32_08"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["championship_r16_05"],
+        bracket_matches["championship_r32_09"],
+        True,
+        bracket_matches["championship_r32_10"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["championship_r16_06"],
+        bracket_matches["championship_r32_11"],
+        True,
+        bracket_matches["championship_r32_12"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["championship_r16_07"],
+        bracket_matches["championship_r32_13"],
+        True,
+        bracket_matches["championship_r32_14"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["championship_r16_08"],
+        bracket_matches["championship_r32_15"],
+        True,
+        bracket_matches["championship_r32_16"],
+        True,
+    )
+
+    # 2. Fix `championship_quarter_*`
+
+    _fix_match_top_bottom(
+        bracket_matches["championship_quarter_01"],
+        bracket_matches["championship_r16_01"],
+        True,
+        bracket_matches["championship_r16_02"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["championship_quarter_02"],
+        bracket_matches["championship_r16_03"],
+        True,
+        bracket_matches["championship_r16_04"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["championship_quarter_03"],
+        bracket_matches["championship_r16_05"],
+        True,
+        bracket_matches["championship_r16_06"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["championship_quarter_04"],
+        bracket_matches["championship_r16_07"],
+        True,
+        bracket_matches["championship_r16_08"],
+        True,
+    )
+
+    # 3. Fix `championship_semi_*`
+
+    _fix_match_top_bottom(
+        bracket_matches["championship_semi_01"],
+        bracket_matches["championship_quarter_01"],
+        True,
+        bracket_matches["championship_quarter_02"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["championship_semi_02"],
+        bracket_matches["championship_quarter_03"],
+        True,
+        bracket_matches["championship_quarter_04"],
+        True,
+    )
+
+    # 4. Fix `championship_first_place`
+
+    _fix_match_top_bottom(
+        bracket_matches["championship_first_place"],
+        bracket_matches["championship_semi_01"],
+        True,
+        bracket_matches["championship_semi_02"],
+        True,
+    )
+
+    # 5. Fix `consolation_round2_*`
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round2_01"],
+        bracket_matches["championship_r16_08"],
+        False,
+        bracket_matches["championship_r32_02"],
+        False,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round2_02"],
+        bracket_matches["championship_r16_07"],
+        False,
+        bracket_matches["championship_r32_04"],
+        False,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round2_03"],
+        bracket_matches["championship_r16_06"],
+        False,
+        bracket_matches["championship_r32_06"],
+        False,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round2_04"],
+        bracket_matches["championship_r16_05"],
+        False,
+        bracket_matches["championship_r32_08"],
+        False,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round2_05"],
+        bracket_matches["championship_r32_10"],
+        False,
+        bracket_matches["championship_r16_04"],
+        False,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round2_06"],
+        bracket_matches["championship_r32_12"],
+        False,
+        bracket_matches["championship_r16_03"],
+        False,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round2_07"],
+        bracket_matches["championship_r32_14"],
+        False,
+        bracket_matches["championship_r16_02"],
+        False,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round2_08"],
+        bracket_matches["championship_r32_16"],
+        False,
+        bracket_matches["championship_r16_01"],
+        False,
+    )
+
+    # 6. Fix `consolation_round3_*`
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round3_01"],
+        bracket_matches["consolation_round2_01"],
+        True,
+        bracket_matches["consolation_round2_02"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round3_02"],
+        bracket_matches["consolation_round2_03"],
+        True,
+        bracket_matches["consolation_round2_04"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round3_03"],
+        bracket_matches["consolation_round2_05"],
+        True,
+        bracket_matches["consolation_round2_06"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round3_04"],
+        bracket_matches["consolation_round2_07"],
+        True,
+        bracket_matches["consolation_round2_08"],
+        True,
+    )
+
+    # 7. Fix `consolation_round4_blood_*`
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round4_blood_01"],
+        bracket_matches["championship_quarter_02"],
+        False,
+        bracket_matches["consolation_round3_01"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round4_blood_02"],
+        bracket_matches["championship_quarter_01"],
+        False,
+        bracket_matches["consolation_round3_02"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round4_blood_03"],
+        bracket_matches["consolation_round3_03"],
+        True,
+        bracket_matches["championship_quarter_04"],
+        False,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round4_blood_04"],
+        bracket_matches["consolation_round3_04"],
+        True,
+        bracket_matches["championship_quarter_03"],
+        False,
+    )
+
+    # 8. Fix `consolation_round5_*`
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round5_01"],
+        bracket_matches["consolation_round4_blood_01"],
+        True,
+        bracket_matches["consolation_round4_blood_02"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round5_02"],
+        bracket_matches["consolation_round4_blood_03"],
+        True,
+        bracket_matches["consolation_round4_blood_04"],
+        True,
+    )
+
+    # 9. Fix `consolation_round6_semi_*`
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round6_semi_01"],
+        bracket_matches["championship_semi_02"],
+        False,
+        bracket_matches["consolation_round5_01"],
+        True,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_round6_semi_02"],
+        bracket_matches["consolation_round5_02"],
+        True,
+        bracket_matches["championship_semi_01"],
+        False,
+    )
+
+    # 10. Fix `consolation_*_place`
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_seventh_place"],
+        bracket_matches["consolation_round5_01"],
+        False,
+        bracket_matches["consolation_round5_02"],
+        False,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_fifth_place"],
+        bracket_matches["consolation_round6_semi_01"],
+        False,
+        bracket_matches["consolation_round6_semi_02"],
+        False,
+    )
+
+    _fix_match_top_bottom(
+        bracket_matches["consolation_third_place"],
+        bracket_matches["consolation_round6_semi_01"],
+        True,
+        bracket_matches["consolation_round6_semi_02"],
+        True,
+    )
 
 
 def _extract_bouts_for_round(
@@ -735,7 +1051,10 @@ def _extract_bouts_for_round(
     match_slot_prefixes: dict[str, str],
     abbreviations: dict[str, str],
     entries_map: _EntriesMap,
-) -> list[bracket_utils.MatchRaw]:
+    parsed_matches: dict[
+        _BracketKey, dict[bracket_utils.MatchSlot, bracket_utils.MatchRaw]
+    ],
+) -> None:
     all_div = soup.find_all("div")
     if len(all_div) < 3:
         raise ValueError("Unexpected div count", len(all_div))
@@ -791,9 +1110,8 @@ def _extract_bouts_for_round(
 
     # 2. Go through each bracket, sort the bouts to determine `match_slot`, then
     #    continue parsing the match info (wrestlers, teams, result).
-    parsed_matches: list[bracket_utils.MatchRaw] = []
     for bracket_key, by_prefix in brackets_first_pass.items():
-        bracket_matches: dict[bracket_utils.MatchSlot, bracket_utils.MatchRaw] = {}
+        bracket_matches = parsed_matches.setdefault(bracket_key, {})
 
         entries = entries_map[bracket_key]
         for match_slot_prefix, by_bout_number in by_prefix.items():
@@ -822,6 +1140,9 @@ def _extract_bouts_for_round(
                 if not winner_top:
                     top_competitor = loser
                     bottom_competitor = winner
+
+                if result == "DFF":
+                    winner = None
 
                 match_ = bracket_utils.MatchRaw(
                     match_slot=match_slot,
@@ -854,14 +1175,6 @@ def _extract_bouts_for_round(
                     if match_slot in bracket_matches:
                         raise KeyError("Already set", match_slot)
                     bracket_matches[match_slot] = match_
-
-        # Use the lookup map to correct the top and bottom wrestler
-        # TODO: _fix_bracket_top_bottom(bracket_matches)
-
-        # Once complete, append to `parsed_matches` (the final result)
-        parsed_matches.extend(bracket_matches.values())
-
-    return parsed_matches
 
 
 def _extract_entry_athlete(td: bs4.Tag) -> tuple[str, str] | None:
@@ -994,12 +1307,23 @@ def main_tmp() -> None:
         soup = bs4.BeautifulSoup(html, features="html.parser")
         _add_initial_entries(soup, entries_map)
 
+    parsed_matches: dict[
+        _BracketKey, dict[bracket_utils.MatchSlot, bracket_utils.MatchRaw]
+    ] = {}
     for round_name, html in by_round.items():
         soup = bs4.BeautifulSoup(html, features="html.parser")
         match_slot_prefixes = _ROUND_PREFIXES[round_name]
         _extract_bouts_for_round(
-            soup, round_name, match_slot_prefixes, abbreviations, entries_map
+            soup,
+            round_name,
+            match_slot_prefixes,
+            abbreviations,
+            entries_map,
+            parsed_matches,
         )
+
+    for bracket_matches in parsed_matches.values():
+        _fix_bracket_top_bottom(bracket_matches)
 
 
 if __name__ == "__main__":
