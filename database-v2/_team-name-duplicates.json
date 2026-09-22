@@ -8429,6 +8429,31 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Fox Valley WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Fox Valley WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Fox Valley WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Fox Valley WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Fox Valley WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Fox Valley WC"
       }
     ]
   },
@@ -10292,6 +10317,26 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "West Suburban Girls WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "West Suburban Girls WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "West Suburban Girls WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "West Suburban Girls WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "West Suburban Girls WC"
       }
