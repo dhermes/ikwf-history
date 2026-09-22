@@ -67,4 +67,5 @@ VALUES
   (51, 2023, 'IKWF State Championships', 'BMO Center (Rockford)', '2023-03-10', '2023-03-11', 'full', 8),
   (52, 2024, 'IKWF Senior/Novice State Championships', 'BMO Center (Rockford)', '2024-03-08', '2024-03-09', 'full', 8),
   (10052, 2024, 'IKWF Int/Ban State Championships', 'Civic Center (Decatur)', '2024-03-16', '2024-03-17', 'full', 8),
-  (53, 2025, 'IKWF State Championships', 'Civic Center (Peoria)', '2025-03-07', '2025-03-08', 'full', 8);
+  (53, 2025, 'IKWF State Championships', 'Civic Center (Peoria)', '2025-03-07', '2025-03-08', 'full', 8),
+  (54, 2026, 'IKWF State Championships', 'Civic Center (Peoria)', '2026-03-13', '2025-03-14', 'full', 8);

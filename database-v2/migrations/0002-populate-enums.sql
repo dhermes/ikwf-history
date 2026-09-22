@@ -98,13 +98,14 @@ VALUES
   (2, 'decision'),
   (3, 'default'),
   (4, 'disqualification'),
-  (5, 'fall'),
-  (6, 'forfeit'),
-  (7, 'major'),
-  (8, 'tech'),
-  (9, 'walkover'),
-  (10, 'place'), -- placeholder value for partial results / place-only results
-  (11, 'unknown'); -- placeholder value for manual entry
+  (5, 'double_forfeit'),
+  (6, 'fall'),
+  (7, 'forfeit'),
+  (8, 'major'),
+  (9, 'tech'),
+  (10, 'walkover'),
+  (11, 'place'), -- placeholder value for partial results / place-only results
+  (12, 'unknown'); -- placeholder value for manual entry
 
 --------------------------------------------------------------------------------
 

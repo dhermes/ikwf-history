@@ -124,6 +124,7 @@ ResultType = Literal[
     "decision",
     "default",
     "disqualification",
+    "double_forfeit",
     "fall",
     "forfeit",
     "major",

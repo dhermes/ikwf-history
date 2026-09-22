@@ -121,7 +121,7 @@ def _handle_tech_fall(
 
 def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
     if top_win is None:
-        if result not in ("", "Bye"):
+        if result not in ("", "Bye", "DFF"):
             raise NotImplementedError(result, top_win)
 
         return None
@@ -209,6 +209,14 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
         if re.match(r"^TF [0-9]:[0-5][0-9]$", result) is not None:
             return None
 
+        if re.match(r"^TF (\d+)-(\d+) \([0-9]:[0-5][0-9]\)$", result) is not None:
+            before_time, _ = result.split(" (")
+            return _parse_match_score(before_time, "TF ", top_win)
+
+        if re.match(r"^TF (\d+)-(\d+) \(\)$", result) is not None:
+            before_time, _ = result.split(" (")
+            return _parse_match_score(before_time, "TF ", top_win)
+
         return _parse_match_score(result, "TF ", top_win)
 
     if result.startswith("T-Fall TF"):
@@ -222,7 +230,10 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
     if result == "Fall" or result.startswith("Fall "):
         return None
 
-    if result == "F":
+    if result == "F" or result.startswith("F "):
+        return None
+
+    if result.startswith("F-SV "):
         return None
 
     if "(Fall)" in result:
@@ -236,8 +247,14 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
     if result.startswith("2-OT "):
         return _parse_match_score(result, "2-OT ", top_win)
 
+    if result.startswith("TB "):
+        return _parse_match_score(result, "TB ", top_win)
+
     if result.startswith("TB-1 "):
         return _parse_match_score(result, "TB-1 ", top_win)
+
+    if result.startswith("SV "):
+        return _parse_match_score(result, "SV ", top_win)
 
     if result.startswith("SV-1 "):
         return _parse_match_score(result, "SV-1 ", top_win)
@@ -254,6 +271,9 @@ def parse_scores(result: str, top_win: bool | None) -> tuple[int, int] | None:
         return None
 
     if result.startswith("Df "):
+        return None
+
+    if result.startswith("ID "):
         return None
 
     if result == "Default":
