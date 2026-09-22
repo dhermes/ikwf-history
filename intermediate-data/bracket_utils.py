@@ -679,6 +679,14 @@ def _determine_result_type(result: str) -> ResultType:
         _ensure_overtime_decision(result, "OT ")
         return "decision"
 
+    if result.startswith("SV "):
+        _ensure_overtime_decision(result, "SV ")
+        return "decision"
+
+    if result.startswith("TB "):
+        _ensure_overtime_decision(result, "TB ")
+        return "decision"
+
     if (
         result.startswith("MajDec ")
         or result.startswith("M-Dec ")
@@ -697,7 +705,10 @@ def _determine_result_type(result: str) -> ResultType:
     if result == "Fall" or result.startswith("Fall "):
         return "fall"
 
-    if result == "F":
+    if result == "F" or result.startswith("F "):
+        return "fall"
+
+    if result.startswith("F-SV "):
         return "fall"
 
     if result == "Bye":
@@ -706,10 +717,16 @@ def _determine_result_type(result: str) -> ResultType:
     if result == "Dflt" or result.startswith("Dflt ") or result.startswith("Df "):
         return "default"
 
+    if result.startswith("ID "):
+        return "default"
+
     if result == "Inj. Def.":
         return "default"
 
     if result == "Default":
+        return "default"
+
+    if result == "MFF":
         return "default"
 
     if (
@@ -730,6 +747,9 @@ def _determine_result_type(result: str) -> ResultType:
         or result == "Forfeit"
     ):
         return "forfeit"
+
+    if result == "DFF":
+        return "double_forfeit"
 
     if result == "unknown":
         return "unknown"
@@ -762,8 +782,10 @@ def clean_raw_matches(
         ):
             top_win = False
 
-        if top_win is None and (
-            bottom_competitor is not None or top_competitor is not None
+        if (
+            top_win is None
+            and (bottom_competitor is not None or top_competitor is not None)
+            and match.result != "DFF"
         ):
             raise RuntimeError("Invariant violation")
 
