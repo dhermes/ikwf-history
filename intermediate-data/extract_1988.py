@@ -7,6 +7,7 @@ The competitor list (from scans from Corey Atwell) is contained below.
 import pathlib
 
 import bracket_utils
+import manual_entry
 
 _HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
@@ -192,32 +193,6 @@ _SENIOR_COMPETITORS: dict[int, list[str | None]] = {
         "Matt Atilano :: Newman Blue Devils",
         "Jeff Milder :: Lemont Bears Wrestling Club",
         "David Didio :: Redbird Wrestling Club",
-    ],
-    93: [
-        "Nick Milazzo :: Roxana Roughnecks",
-        "Richard Alexander :: Oak Park River Forest Warhawks :: 3",
-        "Greg Ivey :: Naperville Lancers",
-        "Dan Gilbert :: Orland Park Pioneers :: 1",
-        "Kevin Spears :: Belvidere Bandits YMCA WC",
-        "Bruce Kensinger :: Delavan Mat Wrats",
-        "Joe Bee :: Lanphier-Springfield WC",
-        "Devin Sullivan :: Naperville Patriots",
-        "Scott Radosevich :: Vittum Cats Wrestling Club",
-        "Don Womack :: Harvey Park District Twisters :: 5",
-        "Luke Steen :: Jordan WC",
-        "Joseph Meyers :: Rochelle Area WC",
-        "Steve Gerstung :: Arlington Cardinals WC :: 2",
-        "Chuck Mellor :: Wood River Marooners",
-        "Juston Nobiling :: Redbird Wrestling Club",
-        "Jay Hansen :: Woodstock Cardinals",
-        "Pat O'Donnell :: Oak Forest Warriors :: 4",
-        "Eric Dudek :: Mid-Markham Apaches",
-        "Bart Pfeifer :: Batavia WC :: 6",
-        "Troy Hatton :: Catlin WC",
-        "Mark MeKechan :: Granite City Grigsby",
-        "Eric Kubatzke :: Geneseo WC",
-        "Joe Paglia :: Lan-Oak Lazers",
-        "Josh Mattio :: Rich Wrestling Ltd.",
     ],
     99: [
         "Jermaine Boyd :: Edwardsville",
@@ -576,7 +551,10 @@ def main():
             bracket_utils.TeamScore(team=team_name, score=score)
         )
 
-    weight_classes: list[bracket_utils.WeightClass] = []
+    weight_classes = manual_entry.load_manual_entries(
+        _HERE.parent, 1988, _NAME_EXCEPTIONS
+    )
+
     for weight, competitors in _SENIOR_COMPETITORS.items():
         bout_numbers = _get_bout_numbers()
         weight_class = bracket_utils.weight_class_from_competitors(

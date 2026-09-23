@@ -2316,10 +2316,10 @@
             "last_name": "Ivey",
             "team_full": "Naperville Lancers"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 2:08",
+          "result_type": "fall",
           "bout_number": 1,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -2349,10 +2349,10 @@
             "last_name": "Kensinger",
             "team_full": "Delavan Mat Wrats"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "MD 11-3",
+          "result_type": "major",
           "bout_number": 2,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_05",
@@ -2382,10 +2382,10 @@
             "last_name": "Radosevich",
             "team_full": "Vittum Cats Wrestling Club"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "TF 4:00",
+          "result_type": "tech",
           "bout_number": 3,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_07",
@@ -2415,10 +2415,10 @@
             "last_name": "Meyers",
             "team_full": "Rochelle Area WC"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 3-0 OT",
+          "result_type": "decision",
           "bout_number": 4,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_09",
@@ -2448,10 +2448,10 @@
             "last_name": "Nobiling",
             "team_full": "Redbird Wrestling Club"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "MD 12-2",
+          "result_type": "major",
           "bout_number": 5,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_11",
@@ -2481,10 +2481,10 @@
             "last_name": "Dudek",
             "team_full": "Mid-Markham Apaches"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Fall 2:28",
+          "result_type": "fall",
           "bout_number": 6,
-          "top_win": null
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_13",
@@ -2514,10 +2514,10 @@
             "last_name": "MeKechan",
             "team_full": "Granite City Grigsby"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 4-1",
+          "result_type": "decision",
           "bout_number": 7,
-          "top_win": null
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_15",
@@ -2547,10 +2547,484 @@
             "last_name": "Mattio",
             "team_full": "Rich Wrestling Ltd."
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "TF 2:30",
+          "result_type": "tech",
           "bout_number": 8,
-          "top_win": null
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_01",
+          "top_competitor": {
+            "full_name": "Nick Milazzo",
+            "first_name": "Nick",
+            "last_name": "Milazzo",
+            "team_full": "Roxana Roughnecks"
+          },
+          "bottom_competitor": {
+            "full_name": "Richard Alexander",
+            "first_name": "Richard",
+            "last_name": "Alexander",
+            "team_full": "Oak Park River Forest Warhawks"
+          },
+          "result": "Fall 2:05",
+          "result_type": "fall",
+          "bout_number": 9,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_02",
+          "top_competitor": {
+            "full_name": "Dan Gilbert",
+            "first_name": "Dan",
+            "last_name": "Gilbert",
+            "team_full": "Orland Park Pioneers"
+          },
+          "bottom_competitor": {
+            "full_name": "Bruce Kensinger",
+            "first_name": "Bruce",
+            "last_name": "Kensinger",
+            "team_full": "Delavan Mat Wrats"
+          },
+          "result": "TF 1:43",
+          "result_type": "tech",
+          "bout_number": 10,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_03",
+          "top_competitor": {
+            "full_name": "Joe Bee",
+            "first_name": "Joe",
+            "last_name": "Bee",
+            "team_full": "Lanphier-Springfield WC"
+          },
+          "bottom_competitor": {
+            "full_name": "Scott Radosevich",
+            "first_name": "Scott",
+            "last_name": "Radosevich",
+            "team_full": "Vittum Cats Wrestling Club"
+          },
+          "result": "Dec 10-4",
+          "result_type": "decision",
+          "bout_number": 11,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_04",
+          "top_competitor": {
+            "full_name": "Don Womack",
+            "first_name": "Don",
+            "last_name": "Womack",
+            "team_full": "Harvey Park District Twisters"
+          },
+          "bottom_competitor": {
+            "full_name": "Luke Steen",
+            "first_name": "Luke",
+            "last_name": "Steen",
+            "team_full": "Jordan WC"
+          },
+          "result": "Dec 8-3",
+          "result_type": "decision",
+          "bout_number": 12,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_05",
+          "top_competitor": {
+            "full_name": "Steve Gerstung",
+            "first_name": "Steve",
+            "last_name": "Gerstung",
+            "team_full": "Arlington Cardinals WC"
+          },
+          "bottom_competitor": {
+            "full_name": "Juston Nobiling",
+            "first_name": "Juston",
+            "last_name": "Nobiling",
+            "team_full": "Redbird Wrestling Club"
+          },
+          "result": "TF 2:30",
+          "result_type": "tech",
+          "bout_number": 13,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_06",
+          "top_competitor": {
+            "full_name": "Jay Hansen",
+            "first_name": "Jay",
+            "last_name": "Hansen",
+            "team_full": "Woodstock Cardinals"
+          },
+          "bottom_competitor": {
+            "full_name": "Pat O'Donnell",
+            "first_name": "Pat",
+            "last_name": "O'Donnell",
+            "team_full": "Oak Forest Warriors"
+          },
+          "result": "Fall 2:07",
+          "result_type": "fall",
+          "bout_number": 14,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_07",
+          "top_competitor": {
+            "full_name": "Bart Pfeifer",
+            "first_name": "Bart",
+            "last_name": "Pfeifer",
+            "team_full": "Batavia WC"
+          },
+          "bottom_competitor": {
+            "full_name": "Mark MeKechan",
+            "first_name": "Mark",
+            "last_name": "MeKechan",
+            "team_full": "Granite City Grigsby"
+          },
+          "result": "Fall 0:34",
+          "result_type": "fall",
+          "bout_number": 15,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_08",
+          "top_competitor": {
+            "full_name": "Eric Kubatzke",
+            "first_name": "Eric",
+            "last_name": "Kubatzke",
+            "team_full": "Geneseo WC"
+          },
+          "bottom_competitor": {
+            "full_name": "Josh Mattio",
+            "first_name": "Josh",
+            "last_name": "Mattio",
+            "team_full": "Rich Wrestling Ltd."
+          },
+          "result": "Dec 2-0",
+          "result_type": "decision",
+          "bout_number": 16,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "Richard Alexander",
+            "first_name": "Richard",
+            "last_name": "Alexander",
+            "team_full": "Oak Park River Forest Warhawks"
+          },
+          "bottom_competitor": {
+            "full_name": "Dan Gilbert",
+            "first_name": "Dan",
+            "last_name": "Gilbert",
+            "team_full": "Orland Park Pioneers"
+          },
+          "result": "MD 12-4",
+          "result_type": "major",
+          "bout_number": 17,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "Joe Bee",
+            "first_name": "Joe",
+            "last_name": "Bee",
+            "team_full": "Lanphier-Springfield WC"
+          },
+          "bottom_competitor": {
+            "full_name": "Don Womack",
+            "first_name": "Don",
+            "last_name": "Womack",
+            "team_full": "Harvey Park District Twisters"
+          },
+          "result": "Fall 3:36",
+          "result_type": "fall",
+          "bout_number": 18,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "Steve Gerstung",
+            "first_name": "Steve",
+            "last_name": "Gerstung",
+            "team_full": "Arlington Cardinals WC"
+          },
+          "bottom_competitor": {
+            "full_name": "Pat O'Donnell",
+            "first_name": "Pat",
+            "last_name": "O'Donnell",
+            "team_full": "Oak Forest Warriors"
+          },
+          "result": "Fall 2:12",
+          "result_type": "fall",
+          "bout_number": 19,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "Bart Pfeifer",
+            "first_name": "Bart",
+            "last_name": "Pfeifer",
+            "team_full": "Batavia WC"
+          },
+          "bottom_competitor": {
+            "full_name": "Josh Mattio",
+            "first_name": "Josh",
+            "last_name": "Mattio",
+            "team_full": "Rich Wrestling Ltd."
+          },
+          "result": "Dec 9-5",
+          "result_type": "decision",
+          "bout_number": 20,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round3_01",
+          "top_competitor": null,
+          "bottom_competitor": {
+            "full_name": "Bruce Kensinger",
+            "first_name": "Bruce",
+            "last_name": "Kensinger",
+            "team_full": "Delavan Mat Wrats"
+          },
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 21,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_02",
+          "top_competitor": {
+            "full_name": "Luke Steen",
+            "first_name": "Luke",
+            "last_name": "Steen",
+            "team_full": "Jordan WC"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 22,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round3_03",
+          "top_competitor": null,
+          "bottom_competitor": {
+            "full_name": "Juston Nobiling",
+            "first_name": "Juston",
+            "last_name": "Nobiling",
+            "team_full": "Redbird Wrestling Club"
+          },
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 23,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round3_04",
+          "top_competitor": {
+            "full_name": "Mark MeKechan",
+            "first_name": "Mark",
+            "last_name": "MeKechan",
+            "team_full": "Granite City Grigsby"
+          },
+          "bottom_competitor": null,
+          "result": "Bye",
+          "result_type": "bye",
+          "bout_number": 24,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_01",
+          "top_competitor": {
+            "full_name": "Richard Alexander",
+            "first_name": "Richard",
+            "last_name": "Alexander",
+            "team_full": "Oak Park River Forest Warhawks"
+          },
+          "bottom_competitor": {
+            "full_name": "Bruce Kensinger",
+            "first_name": "Bruce",
+            "last_name": "Kensinger",
+            "team_full": "Delavan Mat Wrats"
+          },
+          "result": "TF 3:46",
+          "result_type": "tech",
+          "bout_number": 25,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_02",
+          "top_competitor": {
+            "full_name": "Luke Steen",
+            "first_name": "Luke",
+            "last_name": "Steen",
+            "team_full": "Jordan WC"
+          },
+          "bottom_competitor": {
+            "full_name": "Joe Bee",
+            "first_name": "Joe",
+            "last_name": "Bee",
+            "team_full": "Lanphier-Springfield WC"
+          },
+          "result": "Fall 0:50",
+          "result_type": "fall",
+          "bout_number": 26,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round4_blood_03",
+          "top_competitor": {
+            "full_name": "Pat O'Donnell",
+            "first_name": "Pat",
+            "last_name": "O'Donnell",
+            "team_full": "Oak Forest Warriors"
+          },
+          "bottom_competitor": {
+            "full_name": "Juston Nobiling",
+            "first_name": "Juston",
+            "last_name": "Nobiling",
+            "team_full": "Redbird Wrestling Club"
+          },
+          "result": "TF 3:15",
+          "result_type": "tech",
+          "bout_number": 27,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_04",
+          "top_competitor": {
+            "full_name": "Mark MeKechan",
+            "first_name": "Mark",
+            "last_name": "MeKechan",
+            "team_full": "Granite City Grigsby"
+          },
+          "bottom_competitor": {
+            "full_name": "Josh Mattio",
+            "first_name": "Josh",
+            "last_name": "Mattio",
+            "team_full": "Rich Wrestling Ltd."
+          },
+          "result": "Fall 1:37",
+          "result_type": "fall",
+          "bout_number": 28,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "Dan Gilbert",
+            "first_name": "Dan",
+            "last_name": "Gilbert",
+            "team_full": "Orland Park Pioneers"
+          },
+          "bottom_competitor": {
+            "full_name": "Don Womack",
+            "first_name": "Don",
+            "last_name": "Womack",
+            "team_full": "Harvey Park District Twisters"
+          },
+          "result": "MD 12-0",
+          "result_type": "major",
+          "bout_number": 29,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "Steve Gerstung",
+            "first_name": "Steve",
+            "last_name": "Gerstung",
+            "team_full": "Arlington Cardinals WC"
+          },
+          "bottom_competitor": {
+            "full_name": "Bart Pfeifer",
+            "first_name": "Bart",
+            "last_name": "Pfeifer",
+            "team_full": "Batavia WC"
+          },
+          "result": "MD 10-2",
+          "result_type": "major",
+          "bout_number": 30,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "Richard Alexander",
+            "first_name": "Richard",
+            "last_name": "Alexander",
+            "team_full": "Oak Park River Forest Warhawks"
+          },
+          "bottom_competitor": {
+            "full_name": "Joe Bee",
+            "first_name": "Joe",
+            "last_name": "Bee",
+            "team_full": "Lanphier-Springfield WC"
+          },
+          "result": "MD 11-0",
+          "result_type": "major",
+          "bout_number": 31,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "Pat O'Donnell",
+            "first_name": "Pat",
+            "last_name": "O'Donnell",
+            "team_full": "Oak Forest Warriors"
+          },
+          "bottom_competitor": {
+            "full_name": "Josh Mattio",
+            "first_name": "Josh",
+            "last_name": "Mattio",
+            "team_full": "Rich Wrestling Ltd."
+          },
+          "result": "Dec 8-5",
+          "result_type": "decision",
+          "bout_number": 32,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "Don Womack",
+            "first_name": "Don",
+            "last_name": "Womack",
+            "team_full": "Harvey Park District Twisters"
+          },
+          "bottom_competitor": {
+            "full_name": "Richard Alexander",
+            "first_name": "Richard",
+            "last_name": "Alexander",
+            "team_full": "Oak Park River Forest Warhawks"
+          },
+          "result": "Fall 0:34",
+          "result_type": "fall",
+          "bout_number": 33,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "Pat O'Donnell",
+            "first_name": "Pat",
+            "last_name": "O'Donnell",
+            "team_full": "Oak Forest Warriors"
+          },
+          "bottom_competitor": {
+            "full_name": "Bart Pfeifer",
+            "first_name": "Bart",
+            "last_name": "Pfeifer",
+            "team_full": "Batavia WC"
+          },
+          "result": "Fall 2:04",
+          "result_type": "fall",
+          "bout_number": 34,
+          "top_win": true
         },
         {
           "match_slot": "consolation_fifth_place",
@@ -2566,8 +3040,8 @@
             "last_name": "Pfeifer",
             "team_full": "Batavia WC"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 13-7",
+          "result_type": "decision",
           "bout_number": 35,
           "top_win": true
         },
@@ -2585,8 +3059,8 @@
             "last_name": "O'Donnell",
             "team_full": "Oak Forest Warriors"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "MD 14-1",
+          "result_type": "major",
           "bout_number": 36,
           "top_win": true
         },
@@ -2604,8 +3078,8 @@
             "last_name": "Gerstung",
             "team_full": "Arlington Cardinals WC"
           },
-          "result": "",
-          "result_type": "unknown",
+          "result": "Dec 2-1",
+          "result_type": "decision",
           "bout_number": 37,
           "top_win": true
         }
