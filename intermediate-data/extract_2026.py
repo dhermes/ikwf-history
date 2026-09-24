@@ -298,10 +298,16 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
 
 def main() -> None:
     rounds, abbreviations, brackets = usabracketing.load_data(_ROOT, 2026)
-    print(len(rounds))
-    print(len(abbreviations))
-    print(len(brackets))
-    print(len(_NAME_EXCEPTIONS))
+    extracted_tournament = usabracketing.main_tmp(
+        rounds, abbreviations, brackets, _NAME_EXCEPTIONS
+    )
+
+    as_json = extracted_tournament.model_dump_json(indent=2)
+
+    path = _HERE / "extracted.2026.json"
+    with open(path, "w") as file_obj:
+        file_obj.write(as_json)
+        file_obj.write("\n")
 
 
 if __name__ == "__main__":
