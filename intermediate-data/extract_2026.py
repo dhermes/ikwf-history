@@ -298,7 +298,7 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
 
 def main() -> None:
     rounds, abbreviations, brackets = usabracketing.load_data(_ROOT, 2026)
-    extracted_tournament = usabracketing.main_tmp(
+    extracted_tournament = usabracketing.extract_tournament(
         rounds, abbreviations, brackets, _NAME_EXCEPTIONS
     )
 

@@ -1,6 +1,5 @@
 # Copyright (c) 2026 - Present. IKWF History. All rights reserved.
 
-import json
 import pathlib
 import re
 from collections.abc import Callable
@@ -160,10 +159,6 @@ def parse_team_scores(
     return result
 
 
-class _Deductions(pydantic.RootModel[list[bracket_utils.Deduction]]):
-    pass
-
-
 class _DictStrStr(pydantic.RootModel[dict[str, str]]):
     pass
 
@@ -173,11 +168,11 @@ def _extract_bracket_name(soup: bs4.BeautifulSoup) -> str:
         "span", class_="font-gotham antialiased text-xl text-usa-red font-extrabold"
     )
     if len(bracket_spans) != 2:
-        raise RuntimeError("Failed to load bracket", len(bracket_spans), key)
+        raise RuntimeError("Failed to load bracket", len(bracket_spans))
 
     bracket_names = set(bracket_span.text for bracket_span in bracket_spans)
     if len(bracket_names) != 1:
-        raise RuntimeError("Failed to load bracket", len(bracket_names), key)
+        raise RuntimeError("Failed to load bracket", len(bracket_names))
 
     (bracket_name,) = list(bracket_names)
     return bracket_name
@@ -1205,7 +1200,7 @@ def _add_initial_entries(soup: bs4.BeautifulSoup, entries_map: _EntriesMap) -> N
     (bracket_pages,) = soup.find_all("div", id="bracketPages")
     inner_divs = bracket_pages.find_all("div", recursive=False)
     if len(inner_divs) != 2:
-        raise RuntimeError("Failed to bracket pages", len(inner_divs), key)
+        raise RuntimeError("Failed to bracket pages", len(inner_divs))
 
     championship_bouts, _ = inner_divs
     (bracket_table,) = championship_bouts.find_all("table", recursive=False)
@@ -1238,49 +1233,6 @@ def _add_initial_entries(soup: bs4.BeautifulSoup, entries_map: _EntriesMap) -> N
     entries_map[key] = entries
 
 
-def extract_year(
-    root: pathlib.Path,
-    parse_rounds: ParseRoundsFunc,
-    prelim_round_name: str,
-    prelim_match_prefix: str,
-    name_fixes: dict[str, str],
-    team_fixes: dict[str, tuple[str, str]],
-) -> bracket_utils.ExtractedTournament:
-    with open(root / "team_scores.selenium.json") as file_obj:
-        selenium_team_scores = json.load(file_obj)
-
-    team_scores = parse_team_scores(selenium_team_scores)
-
-    with open(root / "deductions.selenium.json") as file_obj:
-        extracted_deductions = _Deductions.model_validate_json(file_obj.read())
-
-    deductions = extracted_deductions.root
-
-    with open(root / "brackets.selenium.json") as file_obj:
-        selenium_brackets = json.load(file_obj)
-
-    with open(root / "rounds.selenium.json") as file_obj:
-        selenium_rounds = json.load(file_obj)
-
-    with open(root / "abbreviations.selenium.json") as file_obj:
-        extracted_abbreviations = _DictStrStr.model_validate_json(file_obj.read())
-
-    abbreviations = extracted_abbreviations.root
-
-    match_slots_by_bracket: MatchSlotsByBracket = {}
-
-    for bracket_url, html in selenium_brackets.items():
-        soup = bs4.BeautifulSoup(html, features="html.parser")
-
-        bracket_name = _extract_bracket_name(soup)
-        division_display, weight_str = bracket_name.rsplit(" ", 1)
-        weight = int(weight_str)
-        division = normalize_division(division_display)
-        division_scores = team_scores[division]
-
-        key = (division, weight)
-
-
 def load_data(
     root: pathlib.Path, year: int
 ) -> tuple[dict[str, str], dict[str, str], dict[str, str]]:
@@ -1305,7 +1257,7 @@ def load_data(
     return rounds, abbreviations, brackets
 
 
-def main_tmp(
+def extract_tournament(
     rounds: dict[str, str],
     abbreviations: dict[str, str],
     brackets: dict[str, str],
