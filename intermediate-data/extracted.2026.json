@@ -102726,14 +102726,3222 @@
     }
   ],
   "team_scores": {
-    "bantam": [],
-    "intermediate": [],
-    "novice": [],
-    "senior": [],
-    "bantam_girls": [],
-    "intermediate_girls": [],
-    "novice_girls": [],
-    "senior_girls": []
+    "bantam": [
+      {
+        "team": "Cory Clark Wrestling",
+        "score": 141.0
+      },
+      {
+        "team": "Lemont Bears WC",
+        "score": 102.0
+      },
+      {
+        "team": "SJO Spartan YWC",
+        "score": 90.5
+      },
+      {
+        "team": "SCN Youth WC",
+        "score": 86.5
+      },
+      {
+        "team": "Tinley Park Bulldogs WC",
+        "score": 85.5
+      },
+      {
+        "team": "Celtic Wrestling Academy",
+        "score": 65.0
+      },
+      {
+        "team": "Thunder WC",
+        "score": 59.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Avondale",
+        "score": 56.0
+      },
+      {
+        "team": "Dundee Highlanders WC",
+        "score": 51.5
+      },
+      {
+        "team": "Lincoln-Way WC",
+        "score": 49.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Midway",
+        "score": 45.5
+      },
+      {
+        "team": "Dakota WC",
+        "score": 44.5
+      },
+      {
+        "team": "Lake Zurich Cubs WC",
+        "score": 38.0
+      },
+      {
+        "team": "Bulls WC",
+        "score": 37.0
+      },
+      {
+        "team": "Englewood Live Wire WC",
+        "score": 35.0
+      },
+      {
+        "team": "Sandwich WC",
+        "score": 35.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Oak Park",
+        "score": 34.5
+      },
+      {
+        "team": "Fit & Fight Gym WC",
+        "score": 34.5
+      },
+      {
+        "team": "Morris WC",
+        "score": 34.5
+      },
+      {
+        "team": "Demolition WC",
+        "score": 32.0
+      },
+      {
+        "team": "Alber Athletics WC",
+        "score": 30.5
+      },
+      {
+        "team": "Harvey Twisters WC",
+        "score": 30.0
+      },
+      {
+        "team": "PSF Wrestling Academy",
+        "score": 30.0
+      },
+      {
+        "team": "Rochelle WC",
+        "score": 29.5
+      },
+      {
+        "team": "Belleville Little Devils WC",
+        "score": 29.0
+      },
+      {
+        "team": "Stillman Valley WC",
+        "score": 28.0
+      },
+      {
+        "team": "Westville Youth Wrestling",
+        "score": 28.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Roseland",
+        "score": 27.0
+      },
+      {
+        "team": "Crystal Lake Wizards WC",
+        "score": 26.5
+      },
+      {
+        "team": "Martinez Fox Valley Elite WC",
+        "score": 26.0
+      },
+      {
+        "team": "Pontiac WC",
+        "score": 26.0
+      },
+      {
+        "team": "Rockets WC",
+        "score": 26.0
+      },
+      {
+        "team": "Rocket Fuel WC",
+        "score": 25.0
+      },
+      {
+        "team": "nWo WC",
+        "score": 25.0
+      },
+      {
+        "team": "Barrington Broncos WC",
+        "score": 24.0
+      },
+      {
+        "team": "Mat Rat WC",
+        "score": 24.0
+      },
+      {
+        "team": "Suplex WC",
+        "score": 23.5
+      },
+      {
+        "team": "Wilmington WC",
+        "score": 23.5
+      },
+      {
+        "team": "Impact Wrestling Academy, LLC",
+        "score": 23.0
+      },
+      {
+        "team": "Warrensburg-Latham Jr. Cardinals WC",
+        "score": 23.0
+      },
+      {
+        "team": "Wolves WC",
+        "score": 23.0
+      },
+      {
+        "team": "Lil' Coalers WC",
+        "score": 22.0
+      },
+      {
+        "team": "TJ Trained Wrestling",
+        "score": 22.0
+      },
+      {
+        "team": "Hononegah WC",
+        "score": 21.5
+      },
+      {
+        "team": "Springs Elite WC",
+        "score": 18.5
+      },
+      {
+        "team": "Carthage WC",
+        "score": 18.0
+      },
+      {
+        "team": "Antioch Predators WC",
+        "score": 17.0
+      },
+      {
+        "team": "Headlock Wrestling Academy",
+        "score": 17.0
+      },
+      {
+        "team": "Dinamo Wrestling",
+        "score": 16.5
+      },
+      {
+        "team": "Force Elite WC",
+        "score": 16.5
+      },
+      {
+        "team": "Knights WC",
+        "score": 16.0
+      },
+      {
+        "team": "Stockton Renegades WC",
+        "score": 16.0
+      },
+      {
+        "team": "Iguana Athletics WC",
+        "score": 14.5
+      },
+      {
+        "team": "Collinsville WC",
+        "score": 13.0
+      },
+      {
+        "team": "Fox Lake WC",
+        "score": 12.0
+      },
+      {
+        "team": "Herrin Tiger Wrestling",
+        "score": 12.0
+      },
+      {
+        "team": "Homewood-Flossmoor RTC",
+        "score": 11.0
+      },
+      {
+        "team": "El Paso Gridley Youth WC",
+        "score": 10.5
+      },
+      {
+        "team": "Yorkville WC",
+        "score": 10.5
+      },
+      {
+        "team": "East St. Louis WC",
+        "score": 10.0
+      },
+      {
+        "team": "Petersburg WC",
+        "score": 10.0
+      },
+      {
+        "team": "Spartan WC",
+        "score": 10.0
+      },
+      {
+        "team": "Vittum Cats WC",
+        "score": 10.0
+      },
+      {
+        "team": "Badger WC",
+        "score": 9.5
+      },
+      {
+        "team": "Wheaton WC",
+        "score": 9.5
+      },
+      {
+        "team": "Camp Point Youth Wrestling",
+        "score": 9.0
+      },
+      {
+        "team": "Downers Grove WC",
+        "score": 9.0
+      },
+      {
+        "team": "Hoopeston Area Youth Wrestling",
+        "score": 9.0
+      },
+      {
+        "team": "JRW Wrestling",
+        "score": 9.0
+      },
+      {
+        "team": "Riot Room Wrestling",
+        "score": 9.0
+      },
+      {
+        "team": "O'Fallon Little Panthers WC",
+        "score": 8.0
+      },
+      {
+        "team": "Ottawa Wolfpack WC",
+        "score": 8.0
+      },
+      {
+        "team": "MS Youth WC",
+        "score": 7.5
+      },
+      {
+        "team": "Edwardsville WC",
+        "score": 7.0
+      },
+      {
+        "team": "Katana Wrestling",
+        "score": 7.0
+      },
+      {
+        "team": "Red Raiders Wrestling Team",
+        "score": 7.0
+      },
+      {
+        "team": "Will County Warriors WC",
+        "score": 7.0
+      },
+      {
+        "team": "Du-Pec WC",
+        "score": 6.0
+      },
+      {
+        "team": "Jacksonville Area Wrestling",
+        "score": 6.0
+      },
+      {
+        "team": "Lawrence County Knights WC",
+        "score": 6.0
+      },
+      {
+        "team": "Monticello Youth WC",
+        "score": 6.0
+      },
+      {
+        "team": "Wauconda WC",
+        "score": 6.0
+      },
+      {
+        "team": "Elk Grove Junior Grens WC",
+        "score": 5.0
+      },
+      {
+        "team": "Fox Valley WC",
+        "score": 5.0
+      },
+      {
+        "team": "LaSalle Peru Crunching Cavs Youth WC",
+        "score": 5.0
+      },
+      {
+        "team": "Mattoon Youth WC",
+        "score": 5.0
+      },
+      {
+        "team": "Murphysboro Wrestling",
+        "score": 5.0
+      },
+      {
+        "team": "Sherrard Jr. Tigers WC",
+        "score": 5.0
+      },
+      {
+        "team": "Southern Illinois Bulldogs WC",
+        "score": 5.0
+      },
+      {
+        "team": "TJ Trained WC-Clinton",
+        "score": 5.0
+      },
+      {
+        "team": "Wheeling Wildcat WC",
+        "score": 5.0
+      },
+      {
+        "team": "Reed-Custer WC",
+        "score": 4.5
+      },
+      {
+        "team": "Arlington Cardinals WC",
+        "score": 4.0
+      },
+      {
+        "team": "Built By Brunson Wrestling",
+        "score": 4.0
+      },
+      {
+        "team": "Gladiator Elite WC",
+        "score": 4.0
+      },
+      {
+        "team": "Macomb Little Bombers Wrestling",
+        "score": 4.0
+      },
+      {
+        "team": "Rantoul Youth Wrestling",
+        "score": 4.0
+      },
+      {
+        "team": "River Bend WC",
+        "score": 4.0
+      },
+      {
+        "team": "Rockford WC",
+        "score": 4.0
+      },
+      {
+        "team": "Sparta Junior Bulldogs WC",
+        "score": 4.0
+      }
+    ],
+    "intermediate": [
+      {
+        "team": "Cory Clark Wrestling",
+        "score": 153.0
+      },
+      {
+        "team": "Alber Athletics WC",
+        "score": 99.0
+      },
+      {
+        "team": "Demolition WC",
+        "score": 88.5
+      },
+      {
+        "team": "Toss Em Up Wrestling Academy",
+        "score": 88.0
+      },
+      {
+        "team": "Celtic Wrestling Academy",
+        "score": 78.0
+      },
+      {
+        "team": "St. Charles WC",
+        "score": 77.0
+      },
+      {
+        "team": "SJO Spartan YWC",
+        "score": 74.5
+      },
+      {
+        "team": "Morris WC",
+        "score": 58.5
+      },
+      {
+        "team": "Lincoln-Way WC",
+        "score": 54.5
+      },
+      {
+        "team": "Force Elite WC",
+        "score": 53.0
+      },
+      {
+        "team": "JRW Wrestling",
+        "score": 47.5
+      },
+      {
+        "team": "Rochelle WC",
+        "score": 46.5
+      },
+      {
+        "team": "PSF Wrestling Academy",
+        "score": 45.5
+      },
+      {
+        "team": "Dakota WC",
+        "score": 42.5
+      },
+      {
+        "team": "Lemont Bears WC",
+        "score": 42.0
+      },
+      {
+        "team": "Young Warrior Wrestling Academy",
+        "score": 39.0
+      },
+      {
+        "team": "Arlington Cardinals WC",
+        "score": 34.5
+      },
+      {
+        "team": "Iguana Athletics WC",
+        "score": 34.5
+      },
+      {
+        "team": "Stillman Valley WC",
+        "score": 34.0
+      },
+      {
+        "team": "Crystal Lake Wizards WC",
+        "score": 33.0
+      },
+      {
+        "team": "Vittum Cats WC",
+        "score": 32.0
+      },
+      {
+        "team": "Hononegah WC",
+        "score": 31.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Roseland",
+        "score": 30.0
+      },
+      {
+        "team": "Gladiator Elite WC",
+        "score": 29.5
+      },
+      {
+        "team": "Red Raiders Wrestling Team",
+        "score": 29.0
+      },
+      {
+        "team": "Harvey Twisters WC",
+        "score": 28.5
+      },
+      {
+        "team": "Batavia WC",
+        "score": 28.0
+      },
+      {
+        "team": "Homewood-Flossmoor RTC",
+        "score": 27.5
+      },
+      {
+        "team": "Wildcats Wrestling Academy",
+        "score": 27.0
+      },
+      {
+        "team": "TJ Trained Wrestling",
+        "score": 26.0
+      },
+      {
+        "team": "Orland Park Pioneers WC",
+        "score": 25.5
+      },
+      {
+        "team": "SOT-C WC",
+        "score": 25.5
+      },
+      {
+        "team": "SCN Youth WC",
+        "score": 25.0
+      },
+      {
+        "team": "Storm Youth WC",
+        "score": 25.0
+      },
+      {
+        "team": "Blue Line Training Academy WC",
+        "score": 24.5
+      },
+      {
+        "team": "Team 312 WC",
+        "score": 24.0
+      },
+      {
+        "team": "Doom Wrestling",
+        "score": 23.5
+      },
+      {
+        "team": "Spartan WC",
+        "score": 23.5
+      },
+      {
+        "team": "Fisher WC",
+        "score": 23.0
+      },
+      {
+        "team": "Dinamo Wrestling",
+        "score": 19.0
+      },
+      {
+        "team": "McHenry WC",
+        "score": 19.0
+      },
+      {
+        "team": "Wilmington WC",
+        "score": 18.0
+      },
+      {
+        "team": "Antioch Predators WC",
+        "score": 17.0
+      },
+      {
+        "team": "DC WC",
+        "score": 17.0
+      },
+      {
+        "team": "Mustang WC",
+        "score": 17.0
+      },
+      {
+        "team": "Olney Cubs WC",
+        "score": 17.0
+      },
+      {
+        "team": "Panther WC",
+        "score": 17.0
+      },
+      {
+        "team": "Decatur Dawgs WC",
+        "score": 15.0
+      },
+      {
+        "team": "Vandalia Jr WC",
+        "score": 15.0
+      },
+      {
+        "team": "Champions WC",
+        "score": 14.0
+      },
+      {
+        "team": "The Law WC",
+        "score": 13.5
+      },
+      {
+        "team": "Unity Youth WC",
+        "score": 13.0
+      },
+      {
+        "team": "Yorkville WC",
+        "score": 13.0
+      },
+      {
+        "team": "Southern Illinois Bulldogs WC",
+        "score": 12.5
+      },
+      {
+        "team": "Gomez Wrestling RTC",
+        "score": 12.0
+      },
+      {
+        "team": "Edwardsville WC",
+        "score": 11.0
+      },
+      {
+        "team": "Martinez Fox Valley Elite WC",
+        "score": 11.0
+      },
+      {
+        "team": "Blackhawk WC",
+        "score": 10.0
+      },
+      {
+        "team": "Chatham WC",
+        "score": 10.0
+      },
+      {
+        "team": "Limestone WC",
+        "score": 10.0
+      },
+      {
+        "team": "Monticello Youth WC",
+        "score": 10.0
+      },
+      {
+        "team": "Alton Little Redbirds WC",
+        "score": 9.5
+      },
+      {
+        "team": "Barrington Broncos WC",
+        "score": 8.0
+      },
+      {
+        "team": "Jersey Junior Panthers Wrestling",
+        "score": 8.0
+      },
+      {
+        "team": "Olympia WC",
+        "score": 7.5
+      },
+      {
+        "team": "Dundee Highlanders WC",
+        "score": 7.0
+      },
+      {
+        "team": "Fox Valley WC",
+        "score": 7.0
+      },
+      {
+        "team": "Champaign WC",
+        "score": 6.5
+      },
+      {
+        "team": "Beat the Streets Chicago-Oak Park",
+        "score": 6.0
+      },
+      {
+        "team": "River Bend WC",
+        "score": 6.0
+      },
+      {
+        "team": "Rocket Fuel WC",
+        "score": 6.0
+      },
+      {
+        "team": "Sandwich WC",
+        "score": 6.0
+      },
+      {
+        "team": "Springs Elite WC",
+        "score": 6.0
+      },
+      {
+        "team": "Badger WC",
+        "score": 5.0
+      },
+      {
+        "team": "Lake Zurich Cubs WC",
+        "score": 5.0
+      },
+      {
+        "team": "Macomb Little Bombers Wrestling",
+        "score": 5.0
+      },
+      {
+        "team": "Ottawa Wolfpack WC",
+        "score": 5.0
+      },
+      {
+        "team": "Team Mascoutah WC",
+        "score": 5.0
+      },
+      {
+        "team": "Top Dog WC",
+        "score": 5.0
+      },
+      {
+        "team": "Brawlers WC",
+        "score": 4.0
+      },
+      {
+        "team": "FCA Force WC",
+        "score": 4.0
+      },
+      {
+        "team": "Mattoon Youth WC",
+        "score": 4.0
+      },
+      {
+        "team": "Naperville WC",
+        "score": 4.0
+      },
+      {
+        "team": "Peoria Razorbacks WC",
+        "score": 4.0
+      },
+      {
+        "team": "Pontiac WC",
+        "score": 4.0
+      },
+      {
+        "team": "Sherrard Jr. Tigers WC",
+        "score": 4.0
+      },
+      {
+        "team": "TJ Trained WC-Clinton",
+        "score": 4.0
+      },
+      {
+        "team": "Tiger Elite Wrestling Inc.",
+        "score": 4.0
+      },
+      {
+        "team": "Tiger Town Tanglers WC",
+        "score": 4.0
+      },
+      {
+        "team": "Xtreme WC",
+        "score": 4.0
+      },
+      {
+        "team": "Dixon WC",
+        "score": 3.5
+      },
+      {
+        "team": "Mat Rat WC",
+        "score": 3.5
+      },
+      {
+        "team": "Southside Outlaws WC",
+        "score": 3.5
+      },
+      {
+        "team": "309 Wrestling",
+        "score": 3.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Avondale",
+        "score": 3.0
+      },
+      {
+        "team": "Collinsville WC",
+        "score": 3.0
+      },
+      {
+        "team": "Du-Pec WC",
+        "score": 3.0
+      },
+      {
+        "team": "Hillsboro Jr Toppers WC",
+        "score": 3.0
+      },
+      {
+        "team": "Lawrence County Knights WC",
+        "score": 3.0
+      },
+      {
+        "team": "Streator WC",
+        "score": 3.0
+      }
+    ],
+    "novice": [
+      {
+        "team": "Alber Athletics WC",
+        "score": 199.5
+      },
+      {
+        "team": "Cory Clark Wrestling",
+        "score": 132.5
+      },
+      {
+        "team": "SCN Youth WC",
+        "score": 117.0
+      },
+      {
+        "team": "St. Charles WC",
+        "score": 105.5
+      },
+      {
+        "team": "Demolition WC",
+        "score": 104.5
+      },
+      {
+        "team": "Vittum Cats WC",
+        "score": 74.5
+      },
+      {
+        "team": "JRW Wrestling",
+        "score": 70.0
+      },
+      {
+        "team": "Fit & Fight Gym WC",
+        "score": 66.5
+      },
+      {
+        "team": "Lincoln-Way WC",
+        "score": 61.0
+      },
+      {
+        "team": "Harvard WC",
+        "score": 60.0
+      },
+      {
+        "team": "Reed-Custer WC",
+        "score": 55.5
+      },
+      {
+        "team": "PSF Wrestling Academy",
+        "score": 54.0
+      },
+      {
+        "team": "Southern Illinois Bulldogs WC",
+        "score": 48.0
+      },
+      {
+        "team": "Young Warrior Wrestling Academy",
+        "score": 47.0
+      },
+      {
+        "team": "Storm Youth WC",
+        "score": 44.0
+      },
+      {
+        "team": "Toss Em Up Wrestling Academy",
+        "score": 42.5
+      },
+      {
+        "team": "Fox Valley WC",
+        "score": 42.0
+      },
+      {
+        "team": "Callan Wrestling Academy",
+        "score": 40.5
+      },
+      {
+        "team": "TJ Trained Wrestling",
+        "score": 39.5
+      },
+      {
+        "team": "Arlington Cardinals WC",
+        "score": 38.5
+      },
+      {
+        "team": "Team 312 WC",
+        "score": 38.0
+      },
+      {
+        "team": "Built By Brunson Wrestling",
+        "score": 36.5
+      },
+      {
+        "team": "Dinamo Wrestling",
+        "score": 36.5
+      },
+      {
+        "team": "Lemont Bears WC",
+        "score": 36.5
+      },
+      {
+        "team": "Hoopeston Area Youth Wrestling",
+        "score": 32.0
+      },
+      {
+        "team": "Fighting Farmers WC",
+        "score": 30.0
+      },
+      {
+        "team": "Yorkville WC",
+        "score": 30.0
+      },
+      {
+        "team": "Edwardsville WC",
+        "score": 29.5
+      },
+      {
+        "team": "Englewood Live Wire WC",
+        "score": 29.5
+      },
+      {
+        "team": "Orland Park Pioneers WC",
+        "score": 29.5
+      },
+      {
+        "team": "Champaign WC",
+        "score": 29.0
+      },
+      {
+        "team": "1006 Legacy Elite WC",
+        "score": 28.5
+      },
+      {
+        "team": "Backyard Brawlers North Wrestling",
+        "score": 28.0
+      },
+      {
+        "team": "SJO Spartan YWC",
+        "score": 28.0
+      },
+      {
+        "team": "Combative Sports Athletic Center Wrestling",
+        "score": 26.0
+      },
+      {
+        "team": "Sparta Junior Bulldogs WC",
+        "score": 25.0
+      },
+      {
+        "team": "Little Giants WC",
+        "score": 24.0
+      },
+      {
+        "team": "Belvidere Bandits WC",
+        "score": 23.5
+      },
+      {
+        "team": "Bismarck-Henning Youth WC",
+        "score": 23.5
+      },
+      {
+        "team": "Izzy Style Wrestling",
+        "score": 23.0
+      },
+      {
+        "team": "Morton Youth WC",
+        "score": 23.0
+      },
+      {
+        "team": "Will County Warriors WC",
+        "score": 22.5
+      },
+      {
+        "team": "Beat the Streets Chicago-Midway",
+        "score": 21.0
+      },
+      {
+        "team": "DeKalb WC",
+        "score": 20.5
+      },
+      {
+        "team": "Saukee Youth WC",
+        "score": 20.0
+      },
+      {
+        "team": "Headlock Wrestling Academy",
+        "score": 19.5
+      },
+      {
+        "team": "Oakwood Youth WC",
+        "score": 19.0
+      },
+      {
+        "team": "Lockport Junior Porters WC",
+        "score": 18.0
+      },
+      {
+        "team": "Murphysboro Wrestling",
+        "score": 18.0
+      },
+      {
+        "team": "Springs Elite WC",
+        "score": 18.0
+      },
+      {
+        "team": "Hononegah WC",
+        "score": 17.5
+      },
+      {
+        "team": "Caravan Kids WC",
+        "score": 17.0
+      },
+      {
+        "team": "Oak Forest Park District Warriors Wrestling",
+        "score": 16.5
+      },
+      {
+        "team": "Quincy Little Raiders WC",
+        "score": 16.5
+      },
+      {
+        "team": "Celtic Wrestling Academy",
+        "score": 16.0
+      },
+      {
+        "team": "Clipper WC",
+        "score": 16.0
+      },
+      {
+        "team": "Crystal Lake Wizards WC",
+        "score": 16.0
+      },
+      {
+        "team": "Elmhurst Titans Wrestling Academy",
+        "score": 15.5
+      },
+      {
+        "team": "Streator WC",
+        "score": 15.0
+      },
+      {
+        "team": "Herrin Tiger Wrestling",
+        "score": 14.0
+      },
+      {
+        "team": "Marshall Red Rush Wrestling",
+        "score": 14.0
+      },
+      {
+        "team": "Warrensburg-Latham Jr. Cardinals WC",
+        "score": 14.0
+      },
+      {
+        "team": "Ottawa Wolfpack WC",
+        "score": 13.5
+      },
+      {
+        "team": "Lions WC",
+        "score": 13.0
+      },
+      {
+        "team": "Olney Cubs WC",
+        "score": 13.0
+      },
+      {
+        "team": "Bulls WC",
+        "score": 12.5
+      },
+      {
+        "team": "Collinsville WC",
+        "score": 12.5
+      },
+      {
+        "team": "Notre Dame WC",
+        "score": 12.5
+      },
+      {
+        "team": "Beat the Streets Chicago-Roseland",
+        "score": 11.5
+      },
+      {
+        "team": "Beat the Streets Chicago-Avondale",
+        "score": 10.0
+      },
+      {
+        "team": "Lawrence County Knights WC",
+        "score": 10.0
+      },
+      {
+        "team": "Meridian Hawks Youth WC",
+        "score": 10.0
+      },
+      {
+        "team": "Rockets WC",
+        "score": 10.0
+      },
+      {
+        "team": "nWo WC",
+        "score": 9.0
+      },
+      {
+        "team": "Wauconda WC",
+        "score": 8.0
+      },
+      {
+        "team": "Wolves WC",
+        "score": 8.0
+      },
+      {
+        "team": "Force Elite WC",
+        "score": 7.5
+      },
+      {
+        "team": "Team El1te Wrestling",
+        "score": 7.5
+      },
+      {
+        "team": "Blackhawk WC",
+        "score": 7.0
+      },
+      {
+        "team": "Harvey Twisters WC",
+        "score": 7.0
+      },
+      {
+        "team": "Panther WC",
+        "score": 7.0
+      },
+      {
+        "team": "Timber Wolves WC",
+        "score": 7.0
+      },
+      {
+        "team": "Wheaton WC",
+        "score": 7.0
+      },
+      {
+        "team": "Glenbard East Jr Rams WC",
+        "score": 6.5
+      },
+      {
+        "team": "Riot Room Wrestling",
+        "score": 6.5
+      },
+      {
+        "team": "Astro WC",
+        "score": 6.0
+      },
+      {
+        "team": "Iguana Athletics WC",
+        "score": 6.0
+      },
+      {
+        "team": "Junior Patriots WC",
+        "score": 6.0
+      },
+      {
+        "team": "Maine Eagles WC",
+        "score": 6.0
+      },
+      {
+        "team": "Martinez Fox Valley Elite WC",
+        "score": 6.0
+      },
+      {
+        "team": "Sycamore WC",
+        "score": 6.0
+      },
+      {
+        "team": "Tinley Park Bulldogs WC",
+        "score": 6.0
+      },
+      {
+        "team": "Alton Little Redbirds WC",
+        "score": 5.5
+      },
+      {
+        "team": "Mattoon Youth WC",
+        "score": 5.5
+      },
+      {
+        "team": "Beat the Streets Chicago-Oak Park",
+        "score": 5.0
+      },
+      {
+        "team": "Dundee Highlanders WC",
+        "score": 5.0
+      },
+      {
+        "team": "Frankfort Wildcats Wrestling",
+        "score": 5.0
+      },
+      {
+        "team": "Metamora Kids WC",
+        "score": 5.0
+      },
+      {
+        "team": "309 Wrestling",
+        "score": 4.5
+      },
+      {
+        "team": "Pekin Boys & Girls Club WC",
+        "score": 4.5
+      }
+    ],
+    "senior": [
+      {
+        "team": "Alber Athletics WC",
+        "score": 147.5
+      },
+      {
+        "team": "Demolition WC",
+        "score": 144.0
+      },
+      {
+        "team": "Lincoln-Way WC",
+        "score": 140.0
+      },
+      {
+        "team": "Izzy Style Wrestling",
+        "score": 106.5
+      },
+      {
+        "team": "Callan Wrestling Academy",
+        "score": 106.0
+      },
+      {
+        "team": "Cory Clark Wrestling",
+        "score": 104.0
+      },
+      {
+        "team": "Edwardsville WC",
+        "score": 97.0
+      },
+      {
+        "team": "nWo WC",
+        "score": 78.5
+      },
+      {
+        "team": "Barrington Broncos WC",
+        "score": 76.5
+      },
+      {
+        "team": "St. Charles WC",
+        "score": 75.5
+      },
+      {
+        "team": "Hononegah WC",
+        "score": 71.0
+      },
+      {
+        "team": "Force Elite WC",
+        "score": 67.0
+      },
+      {
+        "team": "Lemont Bears WC",
+        "score": 67.0
+      },
+      {
+        "team": "PSF Wrestling Academy",
+        "score": 67.0
+      },
+      {
+        "team": "SCN Youth WC",
+        "score": 59.5
+      },
+      {
+        "team": "Mat Rat WC",
+        "score": 59.0
+      },
+      {
+        "team": "Southern Illinois Bulldogs WC",
+        "score": 59.0
+      },
+      {
+        "team": "Fox Lake WC",
+        "score": 54.0
+      },
+      {
+        "team": "Blackhawk WC",
+        "score": 53.0
+      },
+      {
+        "team": "Mustang WC",
+        "score": 52.5
+      },
+      {
+        "team": "Dundee Highlanders WC",
+        "score": 51.5
+      },
+      {
+        "team": "Vittum Cats WC",
+        "score": 50.5
+      },
+      {
+        "team": "Tinley Park Bulldogs WC",
+        "score": 48.5
+      },
+      {
+        "team": "Ottawa Wolfpack WC",
+        "score": 45.0
+      },
+      {
+        "team": "Red Raiders Wrestling Team",
+        "score": 44.5
+      },
+      {
+        "team": "Toss Em Up Wrestling Academy",
+        "score": 43.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Midway",
+        "score": 40.0
+      },
+      {
+        "team": "TJ Trained Wrestling",
+        "score": 39.5
+      },
+      {
+        "team": "Panther WC",
+        "score": 38.5
+      },
+      {
+        "team": "Team El1te Wrestling",
+        "score": 38.0
+      },
+      {
+        "team": "Olney Cubs WC",
+        "score": 34.5
+      },
+      {
+        "team": "Belleville Little Devils WC",
+        "score": 33.0
+      },
+      {
+        "team": "East St. Louis WC",
+        "score": 32.5
+      },
+      {
+        "team": "Antioch Predators WC",
+        "score": 32.0
+      },
+      {
+        "team": "Sycamore WC",
+        "score": 31.0
+      },
+      {
+        "team": "Collinsville WC",
+        "score": 30.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Oak Park",
+        "score": 29.0
+      },
+      {
+        "team": "Harvey Twisters WC",
+        "score": 29.0
+      },
+      {
+        "team": "Fox Valley WC",
+        "score": 26.5
+      },
+      {
+        "team": "Englewood Live Wire WC",
+        "score": 25.5
+      },
+      {
+        "team": "Headlock Wrestling Academy",
+        "score": 23.5
+      },
+      {
+        "team": "Backyard Brawlers Midwest WC",
+        "score": 23.0
+      },
+      {
+        "team": "Caravan Kids WC",
+        "score": 23.0
+      },
+      {
+        "team": "Gladiator Elite WC",
+        "score": 23.0
+      },
+      {
+        "team": "Sauk Valley WC",
+        "score": 23.0
+      },
+      {
+        "team": "815 Stateline WC",
+        "score": 22.0
+      },
+      {
+        "team": "Rochelle WC",
+        "score": 22.0
+      },
+      {
+        "team": "Frankfort Wildcats Wrestling",
+        "score": 21.0
+      },
+      {
+        "team": "Benton WC",
+        "score": 20.5
+      },
+      {
+        "team": "Batavia WC",
+        "score": 19.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Avondale",
+        "score": 19.0
+      },
+      {
+        "team": "Belvidere Bandits WC",
+        "score": 19.0
+      },
+      {
+        "team": "Bulls WC",
+        "score": 19.0
+      },
+      {
+        "team": "Riot Room Wrestling",
+        "score": 18.5
+      },
+      {
+        "team": "Dinamo Wrestling",
+        "score": 18.0
+      },
+      {
+        "team": "DC WC",
+        "score": 17.0
+      },
+      {
+        "team": "Built By Brunson Wrestling",
+        "score": 16.5
+      },
+      {
+        "team": "Crystal Lake Wizards WC",
+        "score": 15.5
+      },
+      {
+        "team": "Harvard WC",
+        "score": 15.0
+      },
+      {
+        "team": "Young Warrior Wrestling Academy",
+        "score": 14.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Roseland",
+        "score": 13.5
+      },
+      {
+        "team": "Aces WC",
+        "score": 13.0
+      },
+      {
+        "team": "Brawlers WC",
+        "score": 13.0
+      },
+      {
+        "team": "Maine Eagles WC",
+        "score": 13.0
+      },
+      {
+        "team": "Carlinville WC",
+        "score": 12.5
+      },
+      {
+        "team": "Naperville WC",
+        "score": 12.5
+      },
+      {
+        "team": "Oak Forest Park District Warriors Wrestling",
+        "score": 12.0
+      },
+      {
+        "team": "Villa Park Young Warriors WC",
+        "score": 12.0
+      },
+      {
+        "team": "Dakota WC",
+        "score": 11.5
+      },
+      {
+        "team": "West Frankfort Jr. Redbirds WC",
+        "score": 11.5
+      },
+      {
+        "team": "Badger WC",
+        "score": 11.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Tri Taylor",
+        "score": 11.0
+      },
+      {
+        "team": "Celtic Wrestling Academy",
+        "score": 10.5
+      },
+      {
+        "team": "Greg Gomez Trained Wrestling",
+        "score": 10.5
+      },
+      {
+        "team": "Herrin Tiger Wrestling",
+        "score": 9.0
+      },
+      {
+        "team": "Meridian Hawks Youth WC",
+        "score": 9.0
+      },
+      {
+        "team": "SJO Spartan YWC",
+        "score": 9.0
+      },
+      {
+        "team": "SOT-C WC",
+        "score": 8.0
+      },
+      {
+        "team": "Suplex WC",
+        "score": 7.5
+      },
+      {
+        "team": "Storm Youth WC",
+        "score": 7.0
+      },
+      {
+        "team": "Wheaton WC",
+        "score": 7.0
+      },
+      {
+        "team": "Elk Grove Junior Grens WC",
+        "score": 6.5
+      },
+      {
+        "team": "Chatham WC",
+        "score": 6.0
+      },
+      {
+        "team": "Decatur Dawgs WC",
+        "score": 6.0
+      },
+      {
+        "team": "Dwight WC",
+        "score": 6.0
+      },
+      {
+        "team": "Peoria Razorbacks WC",
+        "score": 6.0
+      },
+      {
+        "team": "Stockton Renegades WC",
+        "score": 6.0
+      },
+      {
+        "team": "Yorkville WC",
+        "score": 6.0
+      },
+      {
+        "team": "Thunder WC",
+        "score": 5.5
+      },
+      {
+        "team": "Fit & Fight Gym WC",
+        "score": 5.0
+      },
+      {
+        "team": "JRW Wrestling",
+        "score": 5.0
+      },
+      {
+        "team": "LaSalle Peru Crunching Cavs Youth WC",
+        "score": 5.0
+      },
+      {
+        "team": "Sparta Junior Bulldogs WC",
+        "score": 5.0
+      },
+      {
+        "team": "Top Dog WC",
+        "score": 5.0
+      },
+      {
+        "team": "309 Wrestling",
+        "score": 4.5
+      },
+      {
+        "team": "Champaign WC",
+        "score": 4.0
+      },
+      {
+        "team": "Hoopeston Area Youth Wrestling",
+        "score": 4.0
+      },
+      {
+        "team": "Midwest Central Youth WC",
+        "score": 4.0
+      },
+      {
+        "team": "Oswego WC",
+        "score": 4.0
+      },
+      {
+        "team": "Pekin Boys & Girls Club WC",
+        "score": 4.0
+      }
+    ],
+    "bantam_girls": [
+      {
+        "team": "Edwardsville WC",
+        "score": 82.0
+      },
+      {
+        "team": "Lincoln-Way WC",
+        "score": 53.0
+      },
+      {
+        "team": "DC WC",
+        "score": 47.5
+      },
+      {
+        "team": "Brawlers WC",
+        "score": 44.0
+      },
+      {
+        "team": "Alber Athletics WC",
+        "score": 37.5
+      },
+      {
+        "team": "Tinley Park Bulldogs WC",
+        "score": 37.5
+      },
+      {
+        "team": "Warrensburg-Latham Jr. Cardinals WC",
+        "score": 37.0
+      },
+      {
+        "team": "Toss Em Up Wrestling Academy",
+        "score": 36.0
+      },
+      {
+        "team": "Doom Wrestling",
+        "score": 33.0
+      },
+      {
+        "team": "TJ Trained Wrestling",
+        "score": 31.0
+      },
+      {
+        "team": "DeKalb WC",
+        "score": 30.5
+      },
+      {
+        "team": "Beat the Streets Chicago-Midway",
+        "score": 30.0
+      },
+      {
+        "team": "Gladiator Elite WC",
+        "score": 30.0
+      },
+      {
+        "team": "Sparta Junior Bulldogs WC",
+        "score": 30.0
+      },
+      {
+        "team": "Badger WC",
+        "score": 29.0
+      },
+      {
+        "team": "Mt. Zion Kids WC",
+        "score": 28.5
+      },
+      {
+        "team": "Lionheart Intense Wrestling",
+        "score": 28.0
+      },
+      {
+        "team": "Taylorville WC",
+        "score": 27.0
+      },
+      {
+        "team": "Greg Gomez Trained Wrestling",
+        "score": 25.5
+      },
+      {
+        "team": "Reed-Custer WC",
+        "score": 25.0
+      },
+      {
+        "team": "Decatur Dawgs WC",
+        "score": 24.5
+      },
+      {
+        "team": "Saber WC",
+        "score": 24.0
+      },
+      {
+        "team": "Springs Elite WC",
+        "score": 24.0
+      },
+      {
+        "team": "Bolingbrook Junior Raiders WC",
+        "score": 23.5
+      },
+      {
+        "team": "JRW Wrestling",
+        "score": 23.0
+      },
+      {
+        "team": "Force Elite WC",
+        "score": 22.5
+      },
+      {
+        "team": "Cory Clark Wrestling",
+        "score": 21.5
+      },
+      {
+        "team": "SJO Spartan YWC",
+        "score": 21.0
+      },
+      {
+        "team": "St. Charles WC",
+        "score": 21.0
+      },
+      {
+        "team": "Storm Youth WC",
+        "score": 21.0
+      },
+      {
+        "team": "nWo WC",
+        "score": 21.0
+      },
+      {
+        "team": "Litchfield WC",
+        "score": 20.5
+      },
+      {
+        "team": "Marengo Youth WC",
+        "score": 20.5
+      },
+      {
+        "team": "Unity Youth WC",
+        "score": 20.5
+      },
+      {
+        "team": "Oak Forest Park District Warriors Wrestling",
+        "score": 20.0
+      },
+      {
+        "team": "Mat Rat WC",
+        "score": 19.5
+      },
+      {
+        "team": "N.Y.A Jr. Rebels WC",
+        "score": 18.0
+      },
+      {
+        "team": "The Law WC",
+        "score": 18.0
+      },
+      {
+        "team": "The Island City Misfits Elite Wrestling",
+        "score": 17.0
+      },
+      {
+        "team": "Wilmington WC",
+        "score": 17.0
+      },
+      {
+        "team": "Mattoon Youth WC",
+        "score": 16.5
+      },
+      {
+        "team": "Rockets WC",
+        "score": 16.5
+      },
+      {
+        "team": "Sauk Valley WC",
+        "score": 16.5
+      },
+      {
+        "team": "Collinsville WC",
+        "score": 16.0
+      },
+      {
+        "team": "Dundee Highlanders WC",
+        "score": 16.0
+      },
+      {
+        "team": "Oakwood Youth WC",
+        "score": 15.5
+      },
+      {
+        "team": "MadDog Wrestling Academy",
+        "score": 15.0
+      },
+      {
+        "team": "Rock Island WC",
+        "score": 15.0
+      },
+      {
+        "team": "Arlington Cardinals WC",
+        "score": 13.0
+      },
+      {
+        "team": "Harlem Huskies WC",
+        "score": 13.0
+      },
+      {
+        "team": "Bismarck-Henning Youth WC",
+        "score": 12.0
+      },
+      {
+        "team": "Yorkville WC",
+        "score": 11.5
+      },
+      {
+        "team": "Streator WC",
+        "score": 11.0
+      },
+      {
+        "team": "Vandalia Jr WC",
+        "score": 11.0
+      },
+      {
+        "team": "Crosstown Spartan Elite WC",
+        "score": 10.0
+      },
+      {
+        "team": "Downers Grove WC",
+        "score": 10.0
+      },
+      {
+        "team": "Harvey Twisters WC",
+        "score": 10.0
+      },
+      {
+        "team": "Lions WC",
+        "score": 10.0
+      },
+      {
+        "team": "Antioch Predators WC",
+        "score": 9.5
+      },
+      {
+        "team": "Grayslake Youth WC",
+        "score": 9.5
+      },
+      {
+        "team": "Englewood Live Wire WC",
+        "score": 9.0
+      },
+      {
+        "team": "Fox Lake WC",
+        "score": 9.0
+      },
+      {
+        "team": "Orland Park Pioneers WC",
+        "score": 9.0
+      },
+      {
+        "team": "PSF Wrestling Academy",
+        "score": 9.0
+      },
+      {
+        "team": "Illinois Valley WC",
+        "score": 8.5
+      },
+      {
+        "team": "Decatur Lakers WC",
+        "score": 8.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Tri Taylor",
+        "score": 7.5
+      },
+      {
+        "team": "Harvard WC",
+        "score": 7.0
+      },
+      {
+        "team": "Wheaton WC",
+        "score": 7.0
+      },
+      {
+        "team": "Belvidere Bandits WC",
+        "score": 6.0
+      },
+      {
+        "team": "Headlock Wrestling Academy",
+        "score": 6.0
+      },
+      {
+        "team": "Rolling Meadows Park District Mustangs Wrestling",
+        "score": 6.0
+      },
+      {
+        "team": "Saukee Youth WC",
+        "score": 6.0
+      },
+      {
+        "team": "Carthage WC",
+        "score": 5.0
+      },
+      {
+        "team": "East Peoria River Bandits Wrestling",
+        "score": 5.0
+      },
+      {
+        "team": "Midway WC",
+        "score": 5.0
+      },
+      {
+        "team": "O'Fallon Little Panthers WC",
+        "score": 5.0
+      },
+      {
+        "team": "Dinamo Wrestling",
+        "score": 4.0
+      },
+      {
+        "team": "Little Giants WC",
+        "score": 4.0
+      },
+      {
+        "team": "Metamora Kids WC",
+        "score": 4.0
+      },
+      {
+        "team": "Villa Park Young Warriors WC",
+        "score": 4.0
+      },
+      {
+        "team": "AJ Jr. Wildcats WC",
+        "score": 3.0
+      },
+      {
+        "team": "Belleville Little Devils WC",
+        "score": 3.0
+      },
+      {
+        "team": "Benton WC",
+        "score": 3.0
+      },
+      {
+        "team": "Bulls WC",
+        "score": 3.0
+      },
+      {
+        "team": "Thunder WC",
+        "score": 3.0
+      },
+      {
+        "team": "West Suburban Girls WC",
+        "score": 3.0
+      },
+      {
+        "team": "Carlinville WC",
+        "score": 2.0
+      },
+      {
+        "team": "Effingham Youth WC",
+        "score": 2.0
+      },
+      {
+        "team": "Glenbard East Jr Rams WC",
+        "score": 2.0
+      },
+      {
+        "team": "Hawk WC",
+        "score": 2.0
+      },
+      {
+        "team": "Hononegah WC",
+        "score": 2.0
+      },
+      {
+        "team": "Midwest Central Youth WC",
+        "score": 2.0
+      },
+      {
+        "team": "Morris WC",
+        "score": 2.0
+      },
+      {
+        "team": "Clipper WC",
+        "score": 1.0
+      },
+      {
+        "team": "Fighting Farmers WC",
+        "score": 1.0
+      },
+      {
+        "team": "Petersburg WC",
+        "score": 1.0
+      },
+      {
+        "team": "TCS WC",
+        "score": 1.0
+      },
+      {
+        "team": "West Frankfort Jr. Redbirds WC",
+        "score": 1.0
+      },
+      {
+        "team": "Fisher WC",
+        "score": 0.0
+      }
+    ],
+    "intermediate_girls": [
+      {
+        "team": "DeKalb WC",
+        "score": 64.0
+      },
+      {
+        "team": "The Island City Misfits Elite Wrestling",
+        "score": 61.0
+      },
+      {
+        "team": "Alber Athletics WC",
+        "score": 58.5
+      },
+      {
+        "team": "Bulls WC",
+        "score": 58.0
+      },
+      {
+        "team": "Mat Rat WC",
+        "score": 57.5
+      },
+      {
+        "team": "West Suburban Girls WC",
+        "score": 55.0
+      },
+      {
+        "team": "Naperville WC",
+        "score": 51.0
+      },
+      {
+        "team": "Celtic Wrestling Academy",
+        "score": 50.5
+      },
+      {
+        "team": "Lincoln-Way WC",
+        "score": 46.5
+      },
+      {
+        "team": "Beat the Streets Chicago-Midway",
+        "score": 46.0
+      },
+      {
+        "team": "Chatham WC",
+        "score": 45.0
+      },
+      {
+        "team": "Arlington Cardinals WC",
+        "score": 44.5
+      },
+      {
+        "team": "Sandwich WC",
+        "score": 38.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Avondale",
+        "score": 36.5
+      },
+      {
+        "team": "Fox Lake WC",
+        "score": 35.5
+      },
+      {
+        "team": "Collinsville WC",
+        "score": 32.0
+      },
+      {
+        "team": "Greg Gomez Trained Wrestling",
+        "score": 31.0
+      },
+      {
+        "team": "PSF Wrestling Academy",
+        "score": 30.5
+      },
+      {
+        "team": "Tinley Park Bulldogs WC",
+        "score": 30.5
+      },
+      {
+        "team": "Built By Brunson Wrestling",
+        "score": 30.0
+      },
+      {
+        "team": "Stillman Valley WC",
+        "score": 30.0
+      },
+      {
+        "team": "Thunder WC",
+        "score": 30.0
+      },
+      {
+        "team": "Demolition WC",
+        "score": 29.5
+      },
+      {
+        "team": "JRW Wrestling",
+        "score": 29.0
+      },
+      {
+        "team": "Fox Valley WC",
+        "score": 27.5
+      },
+      {
+        "team": "Litchfield WC",
+        "score": 26.5
+      },
+      {
+        "team": "Dundee Highlanders WC",
+        "score": 26.0
+      },
+      {
+        "team": "Antioch Predators WC",
+        "score": 25.5
+      },
+      {
+        "team": "Mt. Zion Kids WC",
+        "score": 25.0
+      },
+      {
+        "team": "Sycamore WC",
+        "score": 25.0
+      },
+      {
+        "team": "Shelbyville Jr. Wrestling Rams",
+        "score": 23.5
+      },
+      {
+        "team": "Gomez Wrestling RTC",
+        "score": 22.0
+      },
+      {
+        "team": "Southern Illinois Bulldogs WC",
+        "score": 21.5
+      },
+      {
+        "team": "Fisher WC",
+        "score": 21.0
+      },
+      {
+        "team": "SJO Spartan YWC",
+        "score": 20.5
+      },
+      {
+        "team": "Springs Elite WC",
+        "score": 20.5
+      },
+      {
+        "team": "Lil' Coalers WC",
+        "score": 19.0
+      },
+      {
+        "team": "Decatur Lakers WC",
+        "score": 18.0
+      },
+      {
+        "team": "Mattoon Youth WC",
+        "score": 18.0
+      },
+      {
+        "team": "Westville Youth Wrestling",
+        "score": 18.0
+      },
+      {
+        "team": "Batavia WC",
+        "score": 17.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Tri Taylor",
+        "score": 17.0
+      },
+      {
+        "team": "Glenbard East Jr Rams WC",
+        "score": 17.0
+      },
+      {
+        "team": "Panther Powerhouse Wrestling",
+        "score": 17.0
+      },
+      {
+        "team": "Will County Warriors WC",
+        "score": 16.5
+      },
+      {
+        "team": "Tiger Elite Wrestling Inc.",
+        "score": 16.0
+      },
+      {
+        "team": "Wolves WC",
+        "score": 15.5
+      },
+      {
+        "team": "Impact Wrestling Academy, LLC",
+        "score": 15.0
+      },
+      {
+        "team": "Morris WC",
+        "score": 15.0
+      },
+      {
+        "team": "Storm Youth WC",
+        "score": 15.0
+      },
+      {
+        "team": "Wilmington WC",
+        "score": 15.0
+      },
+      {
+        "team": "Crosstown Spartan Elite WC",
+        "score": 14.5
+      },
+      {
+        "team": "Edwardsville WC",
+        "score": 13.0
+      },
+      {
+        "team": "Martinez Fox Valley Elite WC",
+        "score": 13.0
+      },
+      {
+        "team": "Rockets WC",
+        "score": 13.0
+      },
+      {
+        "team": "Tiger Town Tanglers WC",
+        "score": 13.0
+      },
+      {
+        "team": "Caravan Kids WC",
+        "score": 12.5
+      },
+      {
+        "team": "Stockton Renegades WC",
+        "score": 12.5
+      },
+      {
+        "team": "SOT-C WC",
+        "score": 11.0
+      },
+      {
+        "team": "Champions WC",
+        "score": 10.0
+      },
+      {
+        "team": "Lawrence County Knights WC",
+        "score": 10.0
+      },
+      {
+        "team": "Little Giants WC",
+        "score": 10.0
+      },
+      {
+        "team": "Midwest Central Youth WC",
+        "score": 10.0
+      },
+      {
+        "team": "Murphysboro Wrestling",
+        "score": 10.0
+      },
+      {
+        "team": "MadDog Wrestling Academy",
+        "score": 9.5
+      },
+      {
+        "team": "Yorkville WC",
+        "score": 9.0
+      },
+      {
+        "team": "Astro WC",
+        "score": 8.0
+      },
+      {
+        "team": "Dixon WC",
+        "score": 8.0
+      },
+      {
+        "team": "Top Dog WC",
+        "score": 8.0
+      },
+      {
+        "team": "Illinois Valley WC",
+        "score": 7.5
+      },
+      {
+        "team": "Integrity Elite Wrestling",
+        "score": 7.0
+      },
+      {
+        "team": "Li'L Trojan WC",
+        "score": 7.0
+      },
+      {
+        "team": "Polo WC",
+        "score": 7.0
+      },
+      {
+        "team": "TJ Trained Wrestling",
+        "score": 7.0
+      },
+      {
+        "team": "Vittum Cats WC",
+        "score": 7.0
+      },
+      {
+        "team": "Riot Room Wrestling",
+        "score": 6.5
+      },
+      {
+        "team": "Woodstock Cyclones WC",
+        "score": 6.5
+      },
+      {
+        "team": "Camp Point Youth Wrestling",
+        "score": 6.0
+      },
+      {
+        "team": "Falcon Youth Wrestling",
+        "score": 6.0
+      },
+      {
+        "team": "Fighting Farmers WC",
+        "score": 6.0
+      },
+      {
+        "team": "Lockport Junior Porters WC",
+        "score": 6.0
+      },
+      {
+        "team": "Oakwood Youth WC",
+        "score": 6.0
+      },
+      {
+        "team": "Rock Island WC",
+        "score": 6.0
+      },
+      {
+        "team": "Roxana WC",
+        "score": 6.0
+      },
+      {
+        "team": "Team Mascoutah WC",
+        "score": 6.0
+      },
+      {
+        "team": "Jacksonville Area Wrestling",
+        "score": 5.5
+      },
+      {
+        "team": "Evanston School of Wrestling",
+        "score": 5.0
+      },
+      {
+        "team": "Villa Park Young Warriors WC",
+        "score": 5.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Roseland",
+        "score": 4.5
+      },
+      {
+        "team": "Cumberland Youth WC",
+        "score": 4.5
+      },
+      {
+        "team": "Decatur Dawgs WC",
+        "score": 4.5
+      },
+      {
+        "team": "Blackhawk WC",
+        "score": 4.0
+      },
+      {
+        "team": "Grayslake Youth WC",
+        "score": 4.0
+      },
+      {
+        "team": "Meridian Hawks Youth WC",
+        "score": 4.0
+      },
+      {
+        "team": "Ottawa WC",
+        "score": 4.0
+      },
+      {
+        "team": "Proviso Township Gladiators WC",
+        "score": 4.0
+      },
+      {
+        "team": "RWC",
+        "score": 4.0
+      },
+      {
+        "team": "Rantoul Youth Wrestling",
+        "score": 4.0
+      },
+      {
+        "team": "Sauk Valley WC",
+        "score": 4.0
+      },
+      {
+        "team": "St. Charles WC",
+        "score": 4.0
+      }
+    ],
+    "novice_girls": [
+      {
+        "team": "Demolition WC",
+        "score": 131.0
+      },
+      {
+        "team": "Force Elite WC",
+        "score": 95.5
+      },
+      {
+        "team": "Sparta Junior Bulldogs WC",
+        "score": 76.5
+      },
+      {
+        "team": "Tinley Park Bulldogs WC",
+        "score": 67.0
+      },
+      {
+        "team": "Dundee Highlanders WC",
+        "score": 63.0
+      },
+      {
+        "team": "O'Fallon Little Panthers WC",
+        "score": 49.0
+      },
+      {
+        "team": "Stillman Valley WC",
+        "score": 48.0
+      },
+      {
+        "team": "Bismarck-Henning Youth WC",
+        "score": 47.0
+      },
+      {
+        "team": "Oak Forest Park District Warriors Wrestling",
+        "score": 45.5
+      },
+      {
+        "team": "Lawrence County Knights WC",
+        "score": 45.0
+      },
+      {
+        "team": "Will County Warriors WC",
+        "score": 44.5
+      },
+      {
+        "team": "Edwardsville WC",
+        "score": 43.0
+      },
+      {
+        "team": "Rockets WC",
+        "score": 43.0
+      },
+      {
+        "team": "St. Charles WC",
+        "score": 38.0
+      },
+      {
+        "team": "Bulls WC",
+        "score": 37.0
+      },
+      {
+        "team": "Orland Park Pioneers WC",
+        "score": 34.0
+      },
+      {
+        "team": "Blackhawk WC",
+        "score": 33.0
+      },
+      {
+        "team": "Sherrard Jr. Tigers WC",
+        "score": 33.0
+      },
+      {
+        "team": "East St. Louis WC",
+        "score": 32.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Roseland",
+        "score": 31.0
+      },
+      {
+        "team": "JRW Wrestling",
+        "score": 30.5
+      },
+      {
+        "team": "Antioch Predators WC",
+        "score": 30.0
+      },
+      {
+        "team": "Astro WC",
+        "score": 30.0
+      },
+      {
+        "team": "McHenry WC",
+        "score": 30.0
+      },
+      {
+        "team": "Springs Elite WC",
+        "score": 30.0
+      },
+      {
+        "team": "RWC",
+        "score": 29.5
+      },
+      {
+        "team": "Frankfort Gladiator Wrestling",
+        "score": 29.0
+      },
+      {
+        "team": "Reed-Custer WC",
+        "score": 29.0
+      },
+      {
+        "team": "Fox Lake WC",
+        "score": 28.5
+      },
+      {
+        "team": "Downers Grove WC",
+        "score": 28.0
+      },
+      {
+        "team": "Crawford County WC",
+        "score": 27.5
+      },
+      {
+        "team": "Little Giants WC",
+        "score": 27.0
+      },
+      {
+        "team": "nWo WC",
+        "score": 27.0
+      },
+      {
+        "team": "Mattoon Youth WC",
+        "score": 26.0
+      },
+      {
+        "team": "Southern Illinois Bulldogs WC",
+        "score": 26.0
+      },
+      {
+        "team": "Lockport Junior Porters WC",
+        "score": 25.0
+      },
+      {
+        "team": "Team HoneyBadger WC",
+        "score": 24.0
+      },
+      {
+        "team": "Twin City Tigers WC",
+        "score": 24.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Avondale",
+        "score": 23.5
+      },
+      {
+        "team": "Clinton WC",
+        "score": 23.0
+      },
+      {
+        "team": "Olympia WC",
+        "score": 23.0
+      },
+      {
+        "team": "LaSalle Peru Crunching Cavs Youth WC",
+        "score": 22.5
+      },
+      {
+        "team": "Beat the Streets Chicago-Oak Park",
+        "score": 21.5
+      },
+      {
+        "team": "Rock Island WC",
+        "score": 21.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Midway",
+        "score": 20.0
+      },
+      {
+        "team": "Riot Room Wrestling",
+        "score": 19.5
+      },
+      {
+        "team": "Greg Gomez Trained Wrestling",
+        "score": 18.0
+      },
+      {
+        "team": "Dixon WC",
+        "score": 17.0
+      },
+      {
+        "team": "Falcon Youth Wrestling",
+        "score": 17.0
+      },
+      {
+        "team": "Yorkville WC",
+        "score": 17.0
+      },
+      {
+        "team": "Lil' Coalers WC",
+        "score": 16.0
+      },
+      {
+        "team": "Doom Wrestling",
+        "score": 15.5
+      },
+      {
+        "team": "Elk Grove Junior Grens WC",
+        "score": 15.0
+      },
+      {
+        "team": "Stateline Stingers WC",
+        "score": 15.0
+      },
+      {
+        "team": "Triad Knights WC",
+        "score": 15.0
+      },
+      {
+        "team": "Vandalia Jr WC",
+        "score": 15.0
+      },
+      {
+        "team": "Sandwich WC",
+        "score": 14.5
+      },
+      {
+        "team": "Wolves WC",
+        "score": 14.0
+      },
+      {
+        "team": "Marengo Youth WC",
+        "score": 13.5
+      },
+      {
+        "team": "Oswego WC",
+        "score": 13.5
+      },
+      {
+        "team": "Collinsville WC",
+        "score": 13.0
+      },
+      {
+        "team": "East Peoria River Bandits Wrestling",
+        "score": 13.0
+      },
+      {
+        "team": "Headlock Wrestling Academy",
+        "score": 13.0
+      },
+      {
+        "team": "Shelbyville Jr. Wrestling Rams",
+        "score": 13.0
+      },
+      {
+        "team": "The Law WC",
+        "score": 13.0
+      },
+      {
+        "team": "Lionheart Intense Wrestling",
+        "score": 12.0
+      },
+      {
+        "team": "Irish WC",
+        "score": 11.5
+      },
+      {
+        "team": "Sauk Valley WC",
+        "score": 11.0
+      },
+      {
+        "team": "DeKalb WC",
+        "score": 10.0
+      },
+      {
+        "team": "Izzy Style Wrestling",
+        "score": 10.0
+      },
+      {
+        "team": "Jacksonville Area Wrestling",
+        "score": 10.0
+      },
+      {
+        "team": "Midway WC",
+        "score": 10.0
+      },
+      {
+        "team": "Gladiator Elite WC",
+        "score": 9.0
+      },
+      {
+        "team": "Hononegah WC",
+        "score": 9.0
+      },
+      {
+        "team": "Roughnecks WC",
+        "score": 9.0
+      },
+      {
+        "team": "Red Raiders Wrestling Team",
+        "score": 8.5
+      },
+      {
+        "team": "Badger WC",
+        "score": 8.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Tri Taylor",
+        "score": 8.0
+      },
+      {
+        "team": "Chatham WC",
+        "score": 8.0
+      },
+      {
+        "team": "Litchfield WC",
+        "score": 8.0
+      },
+      {
+        "team": "Midwest Central Youth WC",
+        "score": 8.0
+      },
+      {
+        "team": "AJ Jr. Wildcats WC",
+        "score": 7.5
+      },
+      {
+        "team": "Barrington Broncos WC",
+        "score": 7.5
+      },
+      {
+        "team": "Brawlers WC",
+        "score": 7.5
+      },
+      {
+        "team": "Carbondale WC",
+        "score": 7.0
+      },
+      {
+        "team": "Crosstown Spartan Elite WC",
+        "score": 7.0
+      },
+      {
+        "team": "Metamora Kids WC",
+        "score": 7.0
+      },
+      {
+        "team": "Stockton Renegades WC",
+        "score": 7.0
+      },
+      {
+        "team": "Tiger Town Tanglers WC",
+        "score": 7.0
+      },
+      {
+        "team": "Trico WC",
+        "score": 7.0
+      },
+      {
+        "team": "Cory Clark Wrestling",
+        "score": 6.5
+      },
+      {
+        "team": "Peoria Razorbacks WC",
+        "score": 6.5
+      },
+      {
+        "team": "815 Stateline WC",
+        "score": 6.0
+      },
+      {
+        "team": "Batavia WC",
+        "score": 6.0
+      },
+      {
+        "team": "Eureka WC",
+        "score": 6.0
+      },
+      {
+        "team": "Morton Youth WC",
+        "score": 6.0
+      },
+      {
+        "team": "P3 Warrior Wrestling Academy",
+        "score": 6.0
+      },
+      {
+        "team": "Peotone Little Devils WC",
+        "score": 6.0
+      },
+      {
+        "team": "Wolfpak WC",
+        "score": 6.0
+      },
+      {
+        "team": "SOT-C WC",
+        "score": 5.0
+      }
+    ],
+    "senior_girls": [
+      {
+        "team": "Edwardsville WC",
+        "score": 103.0
+      },
+      {
+        "team": "McHenry WC",
+        "score": 91.0
+      },
+      {
+        "team": "Tinley Park Bulldogs WC",
+        "score": 79.0
+      },
+      {
+        "team": "Arlington Cardinals WC",
+        "score": 65.0
+      },
+      {
+        "team": "Sauk Valley WC",
+        "score": 58.0
+      },
+      {
+        "team": "Antioch Predators WC",
+        "score": 57.5
+      },
+      {
+        "team": "Collinsville WC",
+        "score": 56.5
+      },
+      {
+        "team": "Bulls WC",
+        "score": 55.5
+      },
+      {
+        "team": "Demolition WC",
+        "score": 54.0
+      },
+      {
+        "team": "Sherrard Jr. Tigers WC",
+        "score": 54.0
+      },
+      {
+        "team": "East Peoria River Bandits Wrestling",
+        "score": 51.0
+      },
+      {
+        "team": "Rock Island WC",
+        "score": 50.0
+      },
+      {
+        "team": "Toss Em Up Wrestling Academy",
+        "score": 50.0
+      },
+      {
+        "team": "Batavia WC",
+        "score": 49.0
+      },
+      {
+        "team": "Petersburg WC",
+        "score": 48.5
+      },
+      {
+        "team": "Beat the Streets Chicago-Midway",
+        "score": 46.0
+      },
+      {
+        "team": "Knights WC",
+        "score": 44.0
+      },
+      {
+        "team": "Harlem Huskies WC",
+        "score": 43.5
+      },
+      {
+        "team": "Gomez Wrestling RTC",
+        "score": 43.0
+      },
+      {
+        "team": "Dundee Highlanders WC",
+        "score": 42.0
+      },
+      {
+        "team": "Badger WC",
+        "score": 40.0
+      },
+      {
+        "team": "Unity Youth WC",
+        "score": 40.0
+      },
+      {
+        "team": "Beat the Streets Chicago-Roseland",
+        "score": 39.0
+      },
+      {
+        "team": "Roughnecks WC",
+        "score": 34.0
+      },
+      {
+        "team": "Frankfort Gladiator Wrestling",
+        "score": 32.5
+      },
+      {
+        "team": "Alber Athletics WC",
+        "score": 32.0
+      },
+      {
+        "team": "Lil Reaper WC",
+        "score": 32.0
+      },
+      {
+        "team": "Stockton Renegades WC",
+        "score": 31.5
+      },
+      {
+        "team": "Twin City Tigers WC",
+        "score": 31.0
+      },
+      {
+        "team": "Celtic Wrestling Academy",
+        "score": 30.0
+      },
+      {
+        "team": "Lions WC",
+        "score": 30.0
+      },
+      {
+        "team": "Harvard WC",
+        "score": 29.0
+      },
+      {
+        "team": "Alton Little Redbirds WC",
+        "score": 28.0
+      },
+      {
+        "team": "Built By Brunson Wrestling",
+        "score": 28.0
+      },
+      {
+        "team": "PSF Wrestling Academy",
+        "score": 28.0
+      },
+      {
+        "team": "Sparta Junior Bulldogs WC",
+        "score": 27.5
+      },
+      {
+        "team": "St. Charles WC",
+        "score": 26.5
+      },
+      {
+        "team": "Beat the Streets Chicago-Oak Park",
+        "score": 26.0
+      },
+      {
+        "team": "Oak Forest Park District Warriors Wrestling",
+        "score": 26.0
+      },
+      {
+        "team": "Marengo Youth WC",
+        "score": 25.5
+      },
+      {
+        "team": "West Suburban Girls WC",
+        "score": 25.0
+      },
+      {
+        "team": "Belleville Little Devils WC",
+        "score": 24.0
+      },
+      {
+        "team": "Blue Line Training Academy WC",
+        "score": 24.0
+      },
+      {
+        "team": "Effingham Youth WC",
+        "score": 24.0
+      },
+      {
+        "team": "LaSalle Peru Crunching Cavs Youth WC",
+        "score": 24.0
+      },
+      {
+        "team": "Lawrence County Knights WC",
+        "score": 24.0
+      },
+      {
+        "team": "Panther Powerhouse Wrestling",
+        "score": 23.5
+      },
+      {
+        "team": "Zero Fox Wrestling",
+        "score": 23.5
+      },
+      {
+        "team": "Cory Clark Wrestling",
+        "score": 23.0
+      },
+      {
+        "team": "Suplex WC",
+        "score": 23.0
+      },
+      {
+        "team": "Wheeling Wildcat WC",
+        "score": 23.0
+      },
+      {
+        "team": "DeKalb WC",
+        "score": 22.0
+      },
+      {
+        "team": "Gladiator Elite WC",
+        "score": 22.0
+      },
+      {
+        "team": "Southern Illinois Bulldogs WC",
+        "score": 22.0
+      },
+      {
+        "team": "Elk Grove Junior Grens WC",
+        "score": 21.0
+      },
+      {
+        "team": "Storm Youth WC",
+        "score": 21.0
+      },
+      {
+        "team": "Astro WC",
+        "score": 20.5
+      },
+      {
+        "team": "Jacksonville Area Wrestling",
+        "score": 19.5
+      },
+      {
+        "team": "Li'L Trojan WC",
+        "score": 19.5
+      },
+      {
+        "team": "Blackhawk WC",
+        "score": 18.0
+      },
+      {
+        "team": "MadDog Wrestling Academy",
+        "score": 18.0
+      },
+      {
+        "team": "Riot Room Wrestling",
+        "score": 18.0
+      },
+      {
+        "team": "Red Raiders Wrestling Team",
+        "score": 17.5
+      },
+      {
+        "team": "East St. Louis WC",
+        "score": 16.0
+      },
+      {
+        "team": "Crawford County WC",
+        "score": 15.0
+      },
+      {
+        "team": "Mat Rat WC",
+        "score": 15.0
+      },
+      {
+        "team": "Murphysboro Wrestling",
+        "score": 15.0
+      },
+      {
+        "team": "Trico WC",
+        "score": 14.5
+      },
+      {
+        "team": "Callan Wrestling Academy",
+        "score": 13.5
+      },
+      {
+        "team": "TCS WC",
+        "score": 13.5
+      },
+      {
+        "team": "Mt. Zion Kids WC",
+        "score": 13.0
+      },
+      {
+        "team": "Tiger Elite Wrestling Inc.",
+        "score": 13.0
+      },
+      {
+        "team": "Hoopeston Area Youth Wrestling",
+        "score": 11.0
+      },
+      {
+        "team": "Orland Park Pioneers WC",
+        "score": 11.0
+      },
+      {
+        "team": "Oswego WC",
+        "score": 11.0
+      },
+      {
+        "team": "Peoria Razorbacks WC",
+        "score": 11.0
+      },
+      {
+        "team": "Reed-Custer WC",
+        "score": 10.0
+      },
+      {
+        "team": "Xtreme WC",
+        "score": 10.0
+      },
+      {
+        "team": "P3 Warrior Wrestling Academy",
+        "score": 9.0
+      },
+      {
+        "team": "Doom Wrestling",
+        "score": 8.5
+      },
+      {
+        "team": "Evanston School of Wrestling",
+        "score": 8.5
+      },
+      {
+        "team": "Bolingbrook Girls WC",
+        "score": 8.0
+      },
+      {
+        "team": "Geneva Junior Vikings WC",
+        "score": 8.0
+      },
+      {
+        "team": "Villa Park Young Warriors WC",
+        "score": 8.0
+      },
+      {
+        "team": "815 Stateline WC",
+        "score": 7.0
+      },
+      {
+        "team": "Brawlers WC",
+        "score": 7.0
+      },
+      {
+        "team": "JRW Wrestling",
+        "score": 7.0
+      },
+      {
+        "team": "Junior Kahoks-Tribe Fellowship",
+        "score": 7.0
+      },
+      {
+        "team": "Litchfield WC",
+        "score": 7.0
+      },
+      {
+        "team": "Tiger Town Tanglers WC",
+        "score": 7.0
+      },
+      {
+        "team": "Carthage WC",
+        "score": 6.0
+      },
+      {
+        "team": "Integrity Elite Wrestling",
+        "score": 6.0
+      },
+      {
+        "team": "Lake Zurich Cubs WC",
+        "score": 6.0
+      },
+      {
+        "team": "Martinez Fox Valley Elite WC",
+        "score": 6.0
+      },
+      {
+        "team": "Wheaton WC",
+        "score": 6.0
+      },
+      {
+        "team": "Woodstock Cyclones WC",
+        "score": 6.0
+      },
+      {
+        "team": "Young Warrior Wrestling Academy",
+        "score": 6.0
+      },
+      {
+        "team": "Champions WC",
+        "score": 5.0
+      },
+      {
+        "team": "Fox Lake WC",
+        "score": 5.0
+      },
+      {
+        "team": "Springs Elite WC",
+        "score": 5.0
+      }
+    ]
   },
   "deductions": [
     {

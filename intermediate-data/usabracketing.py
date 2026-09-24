@@ -1223,8 +1223,31 @@ def load_data(root: pathlib.Path, year: int) -> tuple[
     return rounds, abbreviations, brackets, team_scores, deductions
 
 
+def _score_from_tag(tr: bs4.Tag) -> bracket_utils.TeamScore:
+    all_td = tr.find_all("td")
+    if len(all_td) != 5:
+        raise RuntimeError("Unexpected scores row", len(all_td))
+
+    _, team_td, _, _, score_td = all_td
+
+    team_full = team_td.text.strip()
+    score_str = score_td.text.strip()
+    score = float(score_str)
+
+    return bracket_utils.TeamScore(team=team_full, score=score)
+
+
 def _extract_team_scores(html: str) -> list[bracket_utils.TeamScore]:
-    return []
+    soup = bs4.BeautifulSoup(html, features="html.parser")
+
+    all_tbody = soup.find_all("tbody")
+    if len(all_tbody) != 1:
+        raise RuntimeError("Failed to load table", len(all_tbody))
+
+    (tbody,) = all_tbody
+    all_tr = tbody.find_all("tr")
+
+    return [_score_from_tag(tr) for tr in all_tr]
 
 
 def _extract_all_team_scores(
