@@ -297,9 +297,11 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
 
 
 def main() -> None:
-    rounds, abbreviations, brackets = usabracketing.load_data(_ROOT, 2026)
+    rounds, abbreviations, brackets, team_scores, deductions = usabracketing.load_data(
+        _ROOT, 2026
+    )
     extracted_tournament = usabracketing.extract_tournament(
-        rounds, abbreviations, brackets, _NAME_EXCEPTIONS
+        rounds, abbreviations, brackets, deductions, _NAME_EXCEPTIONS
     )
 
     as_json = extracted_tournament.model_dump_json(indent=2)

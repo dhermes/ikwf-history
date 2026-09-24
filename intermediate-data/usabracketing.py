@@ -63,6 +63,14 @@ _ENTRY_INDICES = (
 )
 
 
+class _ForbidExtra(pydantic.BaseModel):
+    model_config = pydantic.ConfigDict(extra="forbid")
+
+
+class _Deductions(pydantic.RootModel[list[bracket_utils.Deduction]]):
+    pass
+
+
 _BracketKey = tuple[bracket_utils.Division, int]
 
 
@@ -1175,9 +1183,13 @@ def _add_initial_entries(soup: bs4.BeautifulSoup, entries_map: _EntriesMap) -> N
     entries_map[key] = entries
 
 
-def load_data(
-    root: pathlib.Path, year: int
-) -> tuple[dict[str, str], dict[str, str], dict[str, str]]:
+def load_data(root: pathlib.Path, year: int) -> tuple[
+    dict[str, str],
+    dict[str, str],
+    dict[str, str],
+    dict[str, str],
+    list[bracket_utils.Deduction],
+]:
     path = root / "raw-data" / str(year) / "rounds.selenium.json"
     with open(path, "rb") as file_obj:
         extracted_rounds = _DictStrStr.model_validate_json(file_obj.read())
@@ -1196,13 +1208,26 @@ def load_data(
 
     brackets = extracted_brackets.root
 
-    return rounds, abbreviations, brackets
+    path = root / "raw-data" / str(year) / "team_scores.selenium.json"
+    with open(path, "rb") as file_obj:
+        extracted_team_scores = _DictStrStr.model_validate_json(file_obj.read())
+
+    team_scores = extracted_team_scores.root
+
+    path = root / "raw-data" / str(year) / "deductions.selenium.json"
+    with open(path, "rb") as file_obj:
+        extracted_deductions = _Deductions.model_validate_json(file_obj.read())
+
+    deductions = extracted_deductions.root
+
+    return rounds, abbreviations, brackets, team_scores, deductions
 
 
 def extract_tournament(
     rounds: dict[str, str],
     abbreviations: dict[str, str],
     brackets: dict[str, str],
+    deductions: list[bracket_utils.Deduction],
     name_exceptions: dict[tuple[str, str], bracket_utils.Competitor],
 ) -> bracket_utils.ExtractedTournament:
     entries_map: _EntriesMap = {}
@@ -1238,7 +1263,7 @@ def extract_tournament(
         weight_classes.append(weight_class)
 
     extracted_tournament = bracket_utils.ExtractedTournament(
-        weight_classes=weight_classes, team_scores={}, deductions=[]
+        weight_classes=weight_classes, team_scores={}, deductions=deductions
     )
     extracted_tournament.sort()
 
