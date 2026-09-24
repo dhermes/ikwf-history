@@ -224,6 +224,8 @@ def _match_deduction(
     divisions: list[bracket_utils.Division],
     team_id_map: dict[bracket_utils.Division, dict[str, int]],
     tournament_synonyms: list[bracket_utils.TeamNameSynonym],
+    *,
+    all_divisions: bool,
 ) -> list[int]:
     all_synonyms: set[str] = set([team_name])
     for tournament_synonym in tournament_synonyms:
@@ -238,7 +240,7 @@ def _match_deduction(
 
             matches.setdefault(division, []).append(division_teams[team_name])
 
-    if set(matches.keys()) != set(divisions):
+    if all_divisions and set(matches.keys()) != set(divisions):
         raise ValueError(
             "Did not match all divisions", team_name, divisions, matches.keys()
         )
@@ -256,6 +258,10 @@ def _match_deduction(
 
 def _deductions_sort_key(deduction: bracket_utils.Deduction):
     return deduction.team, deduction.reason, deduction.value
+
+
+def _get_all_divisions(tournament_id: int) -> bool:
+    return tournament_id != 54
 
 
 def _add_team_rows(
@@ -309,8 +315,13 @@ def _add_team_rows(
 
         # Ensure team is in all divisions (because deductions apply across all
         # divisions)
+        all_divisions = _get_all_divisions(tournament_id)
         team_ids = _match_deduction(
-            deduction.team, divisions, team_id_map, tournament_synonyms
+            deduction.team,
+            divisions,
+            team_id_map,
+            tournament_synonyms,
+            all_divisions=all_divisions,
         )
         for team_id in team_ids:
             deduction_id = insert_ids.next_team_point_deduction_id
