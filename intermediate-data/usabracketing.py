@@ -78,6 +78,10 @@ class _DictStrStr(pydantic.RootModel[dict[str, str]]):
     pass
 
 
+class _DictStrListStr(pydantic.RootModel[dict[str, list[str]]]):
+    pass
+
+
 _EntriesMap = dict[_BracketKey, list[bracket_utils.CompetitorRaw | None]]
 _BracketsFirstPass = dict[_BracketKey, dict[str, dict[str, str]]]
 
@@ -1187,7 +1191,7 @@ def load_data(root: pathlib.Path, year: int) -> tuple[
     dict[str, str],
     dict[str, str],
     dict[str, str],
-    dict[str, str],
+    dict[str, list[str]],
     list[bracket_utils.Deduction],
 ]:
     path = root / "raw-data" / str(year) / "rounds.selenium.json"
@@ -1210,7 +1214,7 @@ def load_data(root: pathlib.Path, year: int) -> tuple[
 
     path = root / "raw-data" / str(year) / "team_scores.selenium.json"
     with open(path, "rb") as file_obj:
-        extracted_team_scores = _DictStrStr.model_validate_json(file_obj.read())
+        extracted_team_scores = _DictStrListStr.model_validate_json(file_obj.read())
 
     team_scores = extracted_team_scores.root
 
@@ -1251,14 +1255,17 @@ def _extract_team_scores(html: str) -> list[bracket_utils.TeamScore]:
 
 
 def _extract_all_team_scores(
-    team_scores: dict[str, str],
+    team_scores: dict[str, list[str]],
 ) -> dict[bracket_utils.Division, list[bracket_utils.TeamScore]]:
     result: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
-    for division_display, html in team_scores.items():
+    for division_display, html_list in team_scores.items():
         division = normalize_division(division_display)
-        team_scores = _extract_team_scores(html)
         if division in result:
             raise KeyError("division already encountered", division)
+
+        team_scores: list[bracket_utils.TeamScore] = []
+        for html in html_list:
+            team_scores.extend(_extract_team_scores(html))
 
         result[division] = team_scores
 
@@ -1270,7 +1277,7 @@ def extract_tournament(
     abbreviations: dict[str, str],
     brackets: dict[str, str],
     deductions: list[bracket_utils.Deduction],
-    team_scores: dict[str, str],
+    team_scores: dict[str, list[str]],
     name_exceptions: dict[tuple[str, str], bracket_utils.Competitor],
 ) -> bracket_utils.ExtractedTournament:
     entries_map: _EntriesMap = {}
