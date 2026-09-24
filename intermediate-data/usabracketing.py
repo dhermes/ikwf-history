@@ -1223,11 +1223,31 @@ def load_data(root: pathlib.Path, year: int) -> tuple[
     return rounds, abbreviations, brackets, team_scores, deductions
 
 
+def _extract_team_scores(html: str) -> list[bracket_utils.TeamScore]:
+    return []
+
+
+def _extract_all_team_scores(
+    team_scores: dict[str, str],
+) -> dict[bracket_utils.Division, list[bracket_utils.TeamScore]]:
+    result: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
+    for division_display, html in team_scores.items():
+        division = normalize_division(division_display)
+        team_scores = _extract_team_scores(html)
+        if division in result:
+            raise KeyError("division already encountered", division)
+
+        result[division] = team_scores
+
+    return result
+
+
 def extract_tournament(
     rounds: dict[str, str],
     abbreviations: dict[str, str],
     brackets: dict[str, str],
     deductions: list[bracket_utils.Deduction],
+    team_scores: dict[str, str],
     name_exceptions: dict[tuple[str, str], bracket_utils.Competitor],
 ) -> bracket_utils.ExtractedTournament:
     entries_map: _EntriesMap = {}
@@ -1262,8 +1282,11 @@ def extract_tournament(
         )
         weight_classes.append(weight_class)
 
+    extracted_team_scores = _extract_all_team_scores(team_scores)
     extracted_tournament = bracket_utils.ExtractedTournament(
-        weight_classes=weight_classes, team_scores={}, deductions=deductions
+        weight_classes=weight_classes,
+        team_scores=extracted_team_scores,
+        deductions=deductions,
     )
     extracted_tournament.sort()
 

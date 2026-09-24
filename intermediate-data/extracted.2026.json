@@ -102725,7 +102725,16 @@
       ]
     }
   ],
-  "team_scores": {},
+  "team_scores": {
+    "bantam": [],
+    "intermediate": [],
+    "novice": [],
+    "senior": [],
+    "bantam_girls": [],
+    "intermediate_girls": [],
+    "novice_girls": [],
+    "senior_girls": []
+  },
   "deductions": [
     {
       "team": "AJ Jr. Wildcats WC",

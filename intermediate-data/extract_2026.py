@@ -301,7 +301,7 @@ def main() -> None:
         _ROOT, 2026
     )
     extracted_tournament = usabracketing.extract_tournament(
-        rounds, abbreviations, brackets, deductions, _NAME_EXCEPTIONS
+        rounds, abbreviations, brackets, deductions, team_scores, _NAME_EXCEPTIONS
     )
 
     as_json = extracted_tournament.model_dump_json(indent=2)
