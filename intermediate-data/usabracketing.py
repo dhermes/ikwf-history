@@ -1568,6 +1568,30 @@ def extract_year(
         key = (division, weight)
 
 
+def load_data(
+    root: pathlib.Path, year: int
+) -> tuple[dict[str, str], dict[str, str], dict[str, str]]:
+    path = root / "raw-data" / str(year) / "rounds.selenium.json"
+    with open(path, "rb") as file_obj:
+        extracted_rounds = _DictStrStr.model_validate_json(file_obj.read())
+
+    rounds = extracted_rounds.root
+
+    path = root / "raw-data" / str(year) / "abbreviations.selenium.json"
+    with open(path, "rb") as file_obj:
+        extracted_abbreviations = _DictStrStr.model_validate_json(file_obj.read())
+
+    abbreviations = extracted_abbreviations.root
+
+    path = root / "raw-data" / str(year) / "brackets.selenium.json"
+    with open(path, "rb") as file_obj:
+        extracted_brackets = _DictStrStr.model_validate_json(file_obj.read())
+
+    brackets = extracted_brackets.root
+
+    return rounds, abbreviations, brackets
+
+
 def main_tmp() -> None:
     here = pathlib.Path(__file__).resolve().parent
     root = here.parent
