@@ -5,6 +5,8 @@ import json
 import os
 import pathlib
 import time
+import urllib.parse
+from collections.abc import Callable
 
 import pydantic
 from selenium import webdriver
@@ -282,7 +284,77 @@ def _get_team_scores_filters(driver: webdriver.Chrome) -> list[tuple[str, str]]:
     return team_scores_filters
 
 
-def _get_team_scores(driver: webdriver.Chrome, option_value: str, division: str) -> str:
+def _make_scores_next_page_ready(
+    range_start: int,
+) -> Callable[[webdriver.Chrome], str | None]:
+    """Find the "Showing 101 to 200" text and wait for our page to load.
+
+    <p class="text-sm text-gray-700 leading-5 mr-2">
+      <span>Showing</span>
+      <span class="font-medium">101</span>
+      <span>to</span>
+      <span class="font-medium">200</span>
+    </p>
+    """
+    start_str = f"{range_start}"
+    xpath_query = "//span[normalize-space(.)='Showing']/following-sibling::span[1]"
+
+    def _scores_next_page_ready(driver: webdriver.Chrome) -> str | None:
+        span = driver.find_element(By.XPATH, xpath_query)
+        if span is None:
+            return None
+
+        text = span.text.strip()
+        return text if text == start_str else None
+
+    return _scores_next_page_ready
+
+
+def _scores_click_next_page(driver: webdriver.Chrome, page_number: int) -> bool:
+    range_start = 100 * page_number + 1
+
+    buttons = driver.find_elements(By.CSS_SELECTOR, 'button[rel="next"]')
+
+    if len(buttons) not in (0, 2):
+        raise RuntimeError("Unexpected number of next buttons", len(buttons))
+
+    next_page_exists = len(buttons) == 2
+    if next_page_exists:
+        button = buttons[0]
+        button.click()
+        predicate = _make_scores_next_page_ready(range_start)
+        WebDriverWait(driver, _WAIT_TIME).until(predicate)
+        time.sleep(0.5)
+
+    return next_page_exists
+
+
+def _get_score_html(driver: webdriver.Chrome) -> str:
+    # Grab the HTML from the table
+    tables = driver.find_elements(By.TAG_NAME, "table")
+    if len(tables) != 1:
+        raise RuntimeError("Unexpected page layout, table count", len(tables))
+
+    table = tables[0]
+    return table.get_attribute("outerHTML")
+
+
+def _ensure_page1(driver: webdriver.Chrome) -> None:
+    url = urllib.parse.urlparse(driver.current_url)
+    params = urllib.parse.parse_qs(url.query)
+    page_param = params.pop("page", None)
+    if page_param is None:
+        return
+
+    new_query = urllib.parse.urlencode(params, doseq=True)
+    new_url = url._replace(query=new_query)
+    new_current_url = urllib.parse.urlunparse(new_url)
+    driver.get(new_current_url)
+
+    time.sleep(10.0)
+
+
+def _get_team_scores(driver: webdriver.Chrome, option_value: str) -> list[str]:
     # Click the "Filter Scores" button to open modal
     filter_scores_button = WebDriverWait(driver, _WAIT_TIME).until(
         EC.element_to_be_clickable(
@@ -299,6 +371,7 @@ def _get_team_scores(driver: webdriver.Chrome, option_value: str, division: str)
     filter_scores_button.click()
     time.sleep(0.5)
 
+    # Filter by the specified division
     division_filter = driver.find_element(By.NAME, "filter_division_ids[]")
     division_select = Select(division_filter)
     division_select.deselect_all()
@@ -315,15 +388,42 @@ def _get_team_scores(driver: webdriver.Chrome, option_value: str, division: str)
     filter_scores_in_modal.click()
     time.sleep(5.0)
 
-    # Grab the HTML from the table
-    tables = driver.find_elements(By.TAG_NAME, "table")
-    if len(tables) != 1:
-        raise RuntimeError("Unexpected page layout, table count", len(tables))
+    # Iterate through every page of results
+    captured: list[str] = []
+    next_page_exists = True
+    previous_html: str | None = None
+    # NOTE: This is a bounded `for` loop instead of a `while` loop.
+    for i in range(10000):
+        if not next_page_exists:
+            break
 
-    table = tables[0]
-    html = table.get_attribute("outerHTML")
-    time.sleep(2.0)
-    return html
+        html = _get_score_html(driver)
+
+        # NOTE: Ensure it has ACTUALLY changed (finished loading) before we
+        #       keep `html`.
+        loop_count = 4
+        for _ in range(loop_count):
+            if html != previous_html:
+                break
+
+            time.sleep(5.0)
+            html = _get_score_html(driver)
+
+        if html == previous_html:
+            raise ValueError("HTML did not change after sleeping", loop_count)
+
+        captured.append(html)
+        time.sleep(10.0)
+
+        # Prepare for next iteration of loop
+        next_page_exists = _scores_click_next_page(driver, i)
+        time.sleep(5.0)
+        previous_html = html
+
+    # Go back to page 1 so future page loads don't start on page 2 etc.
+    _ensure_page1(driver)
+
+    return captured
 
 
 def main() -> None:
@@ -338,15 +438,12 @@ def main() -> None:
     _show_100_per_page(driver)
     team_scores_filters = _get_team_scores_filters(driver)
 
-    by_division: dict[str, str] = {}
+    by_division: dict[str, list[str]] = {}
     for option_value, division in team_scores_filters:
         if division in by_division:
             raise KeyError("Duplicate key", division)
-        html = _get_team_scores(driver, option_value, division)
-        by_division[division] = html
-
-    if len(set(by_division.values())) != len(by_division):
-        raise ValueError("HTML captured before loading completed")
+        html_list = _get_team_scores(driver, option_value)
+        by_division[division] = html_list
 
     driver.quit()
 
