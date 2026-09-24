@@ -1229,10 +1229,12 @@ def load_data(root: pathlib.Path, year: int) -> tuple[
 
 def _score_from_tag(tr: bs4.Tag) -> bracket_utils.TeamScore:
     all_td = tr.find_all("td")
-    if len(all_td) != 5:
+    if len(all_td) == 5:
+        _, team_td, _, _, score_td = all_td
+    elif len(all_td) == 6:
+        _, _, team_td, _, _, score_td = all_td
+    else:
         raise RuntimeError("Unexpected scores row", len(all_td))
-
-    _, team_td, _, _, score_td = all_td
 
     team_full = team_td.text.strip()
     score_str = score_td.text.strip()
