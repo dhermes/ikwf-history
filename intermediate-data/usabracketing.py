@@ -2,8 +2,6 @@
 
 import pathlib
 import re
-from collections.abc import Callable
-from typing import Any
 
 import bracket_utils
 import bs4
@@ -65,23 +63,15 @@ _ENTRY_INDICES = (
 )
 
 
-class _ForbidExtra(pydantic.BaseModel):
-    model_config = pydantic.ConfigDict(extra="forbid")
-
-
-class MatchWithBracket(_ForbidExtra):
-    division: bracket_utils.Division
-    weight: int
-    match: bracket_utils.Match
-
-
 _BracketKey = tuple[bracket_utils.Division, int]
-MatchSlotMap = dict[
-    tuple[bracket_utils.MatchSlot, bracket_utils.BracketPosition],
-    list[bracket_utils.CompetitorRaw],
-]
-MatchSlotsByBracket = dict[_BracketKey, MatchSlotMap]
-ParseRoundsFunc = Callable[[Any, MatchSlotsByBracket], list[MatchWithBracket]]
+
+
+class _DictStrStr(pydantic.RootModel[dict[str, str]]):
+    pass
+
+
+_EntriesMap = dict[_BracketKey, list[bracket_utils.CompetitorRaw | None]]
+_BracketsFirstPass = dict[_BracketKey, dict[str, dict[str, str]]]
 
 
 def normalize_division(division_display: str) -> bracket_utils.Division:
@@ -113,54 +103,10 @@ def normalize_division(division_display: str) -> bracket_utils.Division:
     raise NotImplementedError(division_display)
 
 
-def _team_scores_from_html(html: Any) -> list[bracket_utils.TeamScore]:
-    if not isinstance(html, str):
-        raise TypeError("Unexpected value", type(html))
-
-    soup = bs4.BeautifulSoup(html, features="html.parser")
-
-    team_tables = soup.find_all("tbody", {"wire:sortable": "updateSortOrder"})
-    if len(team_tables) != 1:
-        raise ValueError("Unexpected HTML structure", len(team_tables))
-
-    (team_table,) = team_tables
-
-    scores: list[bracket_utils.TeamScore] = []
-    for tr in team_table.find_all("tr"):
-        all_td = tr.find_all("td")
-        all_th = tr.find_all("th")
-        if len(all_td) != 5 or len(all_th) != 0:
-            raise RuntimeError("Invariant violation", tr)
-
-        scores.append(
-            bracket_utils.TeamScore(
-                team=all_td[1].text.strip(), score=float(all_td[4].text.strip())
-            )
-        )
-
-    return scores
-
-
 def parse_team_scores(
-    selenium_team_scores: Any,
+    html: str,
 ) -> dict[bracket_utils.Division, list[bracket_utils.TeamScore]]:
-    if not isinstance(selenium_team_scores, dict):
-        raise TypeError("Unexpected value", type(selenium_team_scores))
-
-    result: dict[bracket_utils.Division, list[bracket_utils.TeamScore]] = {}
-    for division_display, html in selenium_team_scores.items():
-        division = normalize_division(division_display)
-        if division in result:
-            raise KeyError("Duplicate value", division)
-
-        scores = _team_scores_from_html(html)
-        result[division] = scores
-
-    return result
-
-
-class _DictStrStr(pydantic.RootModel[dict[str, str]]):
-    pass
+    raise NotImplementedError
 
 
 def _extract_bracket_name(soup: bs4.BeautifulSoup) -> str:
@@ -485,10 +431,6 @@ def _extract_match_info(
     return competitor1, competitor2, result
 
 
-_EntriesMap = dict[_BracketKey, list[bracket_utils.CompetitorRaw | None]]
-_BracketsFirstPass = dict[_BracketKey, dict[str, dict[str, str]]]
-
-
 def _r32_winner_is_top(
     winner: bracket_utils.CompetitorRaw | None,
     loser: bracket_utils.CompetitorRaw | None,
@@ -541,7 +483,7 @@ def _winner_is_top(
     if match_slot == "championship_r32_16":
         return _r32_winner_is_top(winner, loser, entries[22], entries[23])
 
-    return True  # TODO
+    return True
 
 
 def _match_names(name_short: str, name_full: str) -> bool:
