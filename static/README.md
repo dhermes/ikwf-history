@@ -5,8 +5,11 @@
 To sync with the `gs://ikwf-history-website/` bucket, do the following:
 
 ```
+git status --ignored .  # Ensure nothin extra is lingering
+rm -fr ./public/
 hugo  # Re-build
 cd ./public/
+cp ../hey-corey.html .
 
 gcloud storage rsync \
   --cache-control 'public, max-age=21600' \
