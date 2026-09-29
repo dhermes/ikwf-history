@@ -5,7 +5,7 @@
 To sync with the `gs://ikwf-history-website/` bucket, do the following:
 
 ```
-git status --ignored .  # Ensure nothin extra is lingering
+git status --ignored .  # Ensure nothing extra is lingering
 rm -fr ./public/
 hugo  # Re-build
 cd ./public/
