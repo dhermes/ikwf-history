@@ -100,6 +100,10 @@ def _teams_landing_html(teams: list[TeamInfo]) -> str:
             ]
         )
 
+    team_nav = (
+        '        <nav class="pagination" id="pagination" '
+        'aria-label="Team pages"></nav>'
+    )
     parts.extend(
         [
             "        </ul>",
@@ -110,7 +114,7 @@ def _teams_landing_html(teams: list[TeamInfo]) -> str:
             "          <p>Try a different search.</p>",
             "        </div>",
             "",
-            '        <nav class="pagination" id="pagination" aria-label="Team pages"></nav>',
+            team_nav,
             "      </section>",
             "",
             '      <footer class="teams-footer">',
