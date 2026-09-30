@@ -404,6 +404,12 @@ def _get_team_html(
     static_root: pathlib.Path, team: TeamInfo, qualifiers: list[Qualifier]
 ) -> str:
     name = team.name_normalized
+    state_champion_count = sum(1 for qualifier in qualifiers if qualifier.place == 1)
+    state_placer_count = sum(
+        1 for qualifier in qualifiers if qualifier.place is not None
+    )
+    state_qualifier_count = len(qualifiers)
+
     parts: list[str] = [
         "<!doctype html>",
         '<html lang="en">',
@@ -413,7 +419,7 @@ def _get_team_html(
         "",
         f"    <title>{html.escape(name)} &mdash; IKWF History</title>",
         "",
-        '    <link rel="stylesheet" href="/css/team-page.b3b2d88d.min.css" />',
+        '    <link rel="stylesheet" href="/css/team-page.eccbb9f0.min.css" />',
         '    <link rel="stylesheet" href="/css/footer.cb84bd19.min.css" />',
         "  </head>",
         "",
@@ -435,10 +441,41 @@ def _get_team_html(
         '            alt="Illinois Kids Wrestling Federation"',
         "          />",
         "        </div>",
-        "      </header>",
-        "",
-        '      <div class="team-content">',
     ]
+
+    if (
+        state_champion_count > 1
+        and state_placer_count > 1
+        and state_qualifier_count > 1
+    ):
+        parts.extend(
+            [
+                '        <div class="team-summary" aria-label="Team career summary">',
+                '          <div class="summary-stat">',
+                f"            <strong>{state_champion_count}</strong>",
+                "            <span>State Champions</span>",
+                "          </div>",
+                "",
+                '          <div class="summary-divider"></div>',
+                "",
+                '          <div class="summary-stat">',
+                f"            <strong>{state_placer_count}</strong>",
+                "            <span>State Placers</span>",
+                "          </div>",
+                "",
+                '          <div class="summary-divider"></div>',
+                "",
+                '          <div class="summary-stat">',
+                f"            <strong>{state_qualifier_count}</strong>",
+                "            <span>State Qualifiers</span>",
+                "          </div>",
+                "        </div>",
+                "      </header>",
+                "",
+            ]
+        )
+
+    parts.append('      <div class="team-content">')
 
     parts.extend(_get_champs_html_parts(static_root, qualifiers))
     parts.extend(_get_placers_html_parts(static_root, qualifiers))

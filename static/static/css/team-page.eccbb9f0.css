@@ -408,3 +408,65 @@ a {
     padding: 0 1.25rem;
   }
 }
+
+.team-summary {
+  display: flex;
+  align-items: stretch;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.summary-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0 1.5rem;
+}
+
+.summary-stat:first-child {
+  padding-left: 0;
+}
+
+.summary-stat strong {
+  color: var(--navy);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.summary-stat span {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.summary-divider {
+  width: 1px;
+  background: var(--border);
+}
+
+@media (max-width: 600px) {
+  .team-summary {
+    justify-content: space-between;
+  }
+
+  .summary-stat {
+    padding: 0 0.75rem;
+  }
+
+  .summary-stat:first-child {
+    padding-left: 0;
+  }
+
+  .summary-stat strong {
+    font-size: 1.5rem;
+  }
+
+  .summary-stat span {
+    font-size: 0.65rem;
+  }
+}
