@@ -190,40 +190,30 @@ def _get_weight_ref_html(
     return f'<a href="{url}">{html.escape(weight_text)}</a>'
 
 
-def _get_placement_suffix(place: int | None, year: int | None = None) -> str:
-    if place is None:
-        if year is not None:
-            raise NotImplementedError("Cannot render year without placement")
-
-        return ""
-
-    year_text = ""
-    if year is not None:
-        year_text = f"{year}, "
-
+def _get_placement_display(place: int) -> str:
     if place == 1:
-        return f" ({year_text}Champion)"
+        return "Champion"
 
     if place == 2:
-        return f" ({year_text}2nd place)"
+        return "2nd place"
 
     if place == 3:
-        return f" ({year_text}3rd place)"
+        return "3rd place"
 
     if place == 4:
-        return f" ({year_text}4th place)"
+        return "4th place"
 
     if place == 5:
-        return f" ({year_text}5th place)"
+        return "5th place"
 
     if place == 6:
-        return f" ({year_text}6th place)"
+        return "6th place"
 
     if place == 7:
-        return f" ({year_text}7th place)"
+        return "7th place"
 
     if place == 8:
-        return f" ({year_text}8th place)"
+        return "8th place"
 
     raise NotImplementedError(place)
 
@@ -240,22 +230,46 @@ def _get_champs_html_parts(
         return []
 
     parts: list[str] = [
-        f"<h2>State Champions ({len(champions)})</h2>",
-        "<ol>",
+        '<section class="achievement-section champions">',
+        '  <div class="section-heading">',
+        "    <div>",
+        '      <span class="section-eyebrow">TOP STEP</span>',
+        "      <h2>State Champions</h2>",
+        "    </div>",
+        "",
+        f'   <span class="section-count">{len(champions)}</span>',
+        "  </div>",
+        "",
+        '  <ol class="achievement-list">',
     ]
 
     for qualifier in champions:
-        weight_link = _get_weight_ref_html(static_root, qualifier.year, qualifier)
+        weight_anchor = _get_weight_ref_html(static_root, qualifier.year, qualifier)
         parts.extend(
             [
-                "        <li>",
-                f"{html.escape(qualifier.full_name)}, {weight_link} ({qualifier.year})",
-                "        </li>",
+                "    <li>",
+                f'     <span class="athlete">{html.escape(qualifier.full_name)}</span>',
+                f"     {weight_anchor}",
+                f'      <span class="year">{qualifier.year}</span>',
+                "    </li>",
             ]
         )
 
-    parts.append("</ol>")
+    parts.extend(
+        [
+            "  </ol>",
+            "</section>",
+            "",
+        ]
+    )
     return parts
+
+
+def _get_result_class(result: str) -> str:
+    if result == "Champion":
+        return "result champion"
+
+    return "result"
 
 
 def _get_placers_html_parts(
@@ -270,22 +284,42 @@ def _get_placers_html_parts(
         return []
 
     parts: list[str] = [
-        f"<h2>State Placers ({len(placers)})</h2>",
-        "<ol>",
+        '<section class="achievement-section placers">',
+        '  <div class="section-heading">',
+        "    <div>",
+        '      <span class="section-eyebrow">THE PODIUM</span>',
+        "      <h2>State Placers</h2>",
+        "    </div>",
+        "",
+        f'    <span class="section-count">{len(placers)}</span>',
+        "  </div>",
+        "",
+        '  <ol class="achievement-list">',
     ]
 
     for qualifier in placers:
-        weight_link = _get_weight_ref_html(static_root, qualifier.year, qualifier)
-        place_suffix = _get_placement_suffix(qualifier.place, year=qualifier.year)
+        weight_anchor = _get_weight_ref_html(static_root, qualifier.year, qualifier)
+        full_name = html.escape(qualifier.full_name)
+        result = _get_placement_display(qualifier.place)
+        result_class = _get_result_class(result)
         parts.extend(
             [
-                "        <li>",
-                f"{html.escape(qualifier.full_name)}, {weight_link}{place_suffix}",
-                "        </li>",
+                "    <li>",
+                f'      <span class="athlete">{full_name}</span>',
+                f"      {weight_anchor}",
+                f'       <span class="{result_class}">{result}</span>',
+                f'       <span class="year">{qualifier.year}</span>',
+                "    </li>",
             ]
         )
 
-    parts.append("</ol>")
+    parts.extend(
+        [
+            "  </ol>",
+            "</section>",
+            "",
+        ]
+    )
     return parts
 
 
@@ -293,35 +327,76 @@ def _get_qualifiers_html_parts(
     static_root: pathlib.Path, qualifiers: list[Qualifier]
 ) -> list[str]:
     parts: list[str] = [
-        f"      <h2>State Qualifiers ({len(qualifiers)})</h2>",
+        '<section class="achievement-section qualifiers">',
+        '  <div class="section-heading">',
+        "    <div>",
+        '      <span class="section-eyebrow">THE ROAD TO STATE</span>',
+        "      <h2>State Qualifiers</h2>",
+        "    </div>",
+        "",
+        f'    <span class="section-count">{len(qualifiers)}</span>',
+        "  </div>",
+        "",
+        '  <div class="qualifier-years">',
     ]
 
     by_year: dict[int, list[Qualifier]] = {}
     for qualifier in qualifiers:
         by_year.setdefault(qualifier.year, []).append(qualifier)
 
-    years = sorted(by_year.keys())
-    for year in years:
+    years = sorted(by_year.keys(), reverse=True)
+    for i, year in enumerate(years):
         year_qualifiers = by_year[year]
+        open_prop = ' open="open"' if i == 0 else ""
+        qualifier_str = "qualifier" if len(year_qualifiers) == 1 else "qualifiers"
+        summary_count = (
+            f'    <span class="summary-count">'
+            f"{len(year_qualifiers)} {qualifier_str}</span>"
+        )
         parts.extend(
             [
-                f"      <h3>{year} ({len(year_qualifiers)})</h3>",
-                "      <ol>",
+                f"<details{open_prop}>",
+                "  <summary>",
+                f'    <span class="summary-year">{year}</span>',
+                summary_count,
+                "  </summary>",
+                "",
+                '  <ol class="achievement-list">',
             ]
         )
         for qualifier in year_qualifiers:
-            weight_link = _get_weight_ref_html(static_root, year, qualifier)
-            place_suffix = _get_placement_suffix(qualifier.place)
+            weight_anchor = _get_weight_ref_html(static_root, year, qualifier)
+            if qualifier.place is None:
+                result_span = ""
+            else:
+                result = _get_placement_display(qualifier.place)
+                result_class = _get_result_class(result)
+                result_span = f'<span class="{result_class}">{result}</span>'
+
+            full_name = html.escape(qualifier.full_name)
             parts.extend(
                 [
-                    "        <li>",
-                    f"{html.escape(qualifier.full_name)}, {weight_link}{place_suffix}",
-                    "        </li>",
+                    "    <li>",
+                    f'      <span class="athlete">{full_name}</span>',
+                    f"      {weight_anchor}",
+                    f"      {result_span}",
+                    "    </li>",
                 ]
             )
 
-        parts.append("      </ol>")
+        parts.extend(
+            [
+                "  </ol>",
+                "</details>",
+            ]
+        )
 
+    parts.extend(
+        [
+            "  </div>",
+            "</section>",
+        ]
+    )
     return parts
 
 
@@ -330,14 +405,39 @@ def _get_team_html(
 ) -> str:
     name = team.name_normalized
     parts: list[str] = [
-        "<html>",
+        "<!doctype html>",
+        '<html lang="en">',
         "  <head>",
-        f"    <title>Team: {html.escape(name)}</title>",
-        '    <link href="/css/tournament-view.fbcf5065.min.css" rel="stylesheet" />',
+        '    <meta charset="UTF-8" />',
+        '    <meta name="viewport" content="width=device-width, initial-scale=1" />',
+        "",
+        f"    <title>{html.escape(name)} &mdash; IKWF History</title>",
+        "",
+        '    <link rel="stylesheet" href="/css/team-page.b3b2d88d.min.css" />',
+        '    <link rel="stylesheet" href="/css/footer.cb84bd19.min.css" />',
         "  </head>",
+        "",
         "  <body>",
-        '    <div class="tournament-view">',
-        f"      <h1>{html.escape(name)}</h1>",
+        '    <main class="team-page">',
+        '      <header class="team-header">',
+        '        <a class="back-link" href="/teams/"> &larr; Teams </a>',
+        "",
+        '        <div class="team-header-main">',
+        "          <div>",
+        '            <span class="eyebrow">TEAM HISTORY</span>',
+        "",
+        f"            <h1>{html.escape(name)}</h1>",
+        "          </div>",
+        "",
+        "          <img",
+        '            class="header-logo"',
+        '            src="/images/ikwf-logo-300x300.png"',
+        '            alt="Illinois Kids Wrestling Federation"',
+        "          />",
+        "        </div>",
+        "      </header>",
+        "",
+        '      <div class="team-content">',
     ]
 
     parts.extend(_get_champs_html_parts(static_root, qualifiers))
@@ -346,7 +446,20 @@ def _get_team_html(
 
     parts.extend(
         [
-            "    </div>",
+            "      </div>",
+            "",
+            '      <footer class="footer">',
+            "        <p>",
+            "          An independent project preserving and exploring the history of",
+            "          Illinois youth wrestling.",
+            "        </p>",
+            "",
+            "        <p>",
+            "          Created by Coach",
+            '          <a href="https://blog.bossylobster.com/">Danny Hermes</a>',
+            "        </p>",
+            "      </footer>",
+            "    </main>",
             "  </body>",
             "</html>",
         ]
