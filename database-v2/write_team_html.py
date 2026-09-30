@@ -50,7 +50,7 @@ def _teams_landing_html(teams: list[TeamInfo]) -> str:
         "",
         "    <title>Teams &mdash; IKWF History</title>",
         "",
-        '    <link rel="stylesheet" href="/css/teams.88aebffb.min.css" />',
+        '    <link rel="stylesheet" href="/css/teams.f908a804.min.css" />',
         '    <link rel="stylesheet" href="/css/footer.cb84bd19.min.css" />',
         "  </head>",
         "",
@@ -141,7 +141,7 @@ def _teams_landing_html(teams: list[TeamInfo]) -> str:
             "      </footer>",
             "    </main>",
             "",
-            '    <script src="/js/teams-search.94998e52.min.js"></script>',
+            '    <script src="/js/teams-search.2ba506ec.min.js"></script>',
             "  </body>",
             "</html>",
         ]

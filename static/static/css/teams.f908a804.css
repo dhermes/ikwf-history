@@ -292,7 +292,7 @@ a {
 }
 
 .team-list a::after {
-  content: "→";
+  content: "\2192";
 
   position: absolute;
   right: 1rem;

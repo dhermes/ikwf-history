@@ -40,7 +40,7 @@ function render() {
     const first = start + 1;
     const last = Math.min(end, filteredTeams.length);
 
-    count.textContent = `${first}–${last} of ${filteredTeams.length} teams`;
+    count.textContent = `${first}-${last} of ${filteredTeams.length} teams`;
   }
 
   renderPagination(totalPages);
@@ -53,7 +53,7 @@ function renderPagination(totalPages) {
     return;
   }
 
-  addPageButton("←", currentPage - 1, currentPage === 1);
+  addPageButton("\u2190", currentPage - 1, currentPage === 1);
 
   const pages = getPageNumbers(totalPages);
 
@@ -61,7 +61,7 @@ function renderPagination(totalPages) {
     if (page === "...") {
       const span = document.createElement("span");
       span.className = "ellipsis";
-      span.textContent = "…";
+      span.textContent = "...";
       pagination.appendChild(span);
       continue;
     }
@@ -69,7 +69,7 @@ function renderPagination(totalPages) {
     addPageButton(page, page, false, page === currentPage);
   }
 
-  addPageButton("→", currentPage + 1, currentPage === totalPages);
+  addPageButton("\u2192", currentPage + 1, currentPage === totalPages);
 }
 
 function addPageButton(label, page, disabled = false, active = false) {
