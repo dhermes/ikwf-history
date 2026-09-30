@@ -470,12 +470,16 @@ def _get_team_html(
                 "            <span>State Qualifiers</span>",
                 "          </div>",
                 "        </div>",
-                "      </header>",
-                "",
             ]
         )
 
-    parts.append('      <div class="team-content">')
+    parts.extend(
+        [
+            "      </header>",
+            "",
+            '      <div class="team-content">',
+        ]
+    )
 
     parts.extend(_get_champs_html_parts(static_root, qualifiers))
     parts.extend(_get_placers_html_parts(static_root, qualifiers))
