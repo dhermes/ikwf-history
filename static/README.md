@@ -9,7 +9,6 @@ git status --ignored .  # Ensure nothing extra is lingering
 rm -fr ./public/
 hugo  # Re-build
 cd ./public/
-cp ../hey-corey.html .
 
 gcloud storage rsync \
   --cache-control 'public, max-age=21600' \
