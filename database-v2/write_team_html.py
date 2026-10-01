@@ -66,7 +66,7 @@ def _teams_landing_html(teams: list[TeamInfo]) -> str:
         "              <h1>Teams</h1>",
         "              <p>",
         "                Explore the wrestling clubs and teams that have been part of",
-        "                Illinois youth wrestling history.",
+        "                Illinois youth wrestling history",
         "              </p>",
         "            </div>",
         "",
