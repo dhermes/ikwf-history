@@ -82,7 +82,7 @@ Division = Literal[
 ]
 
 
-def division_sort_key(division: Division) -> int:
+def division_sort_key_v1(division: Division) -> int:
     if division == "bantam":
         return 1
 
@@ -102,6 +102,43 @@ def division_sort_key(division: Division) -> int:
         return 6
 
     if division == "novice_girls":
+        return 7
+
+    if division == "senior_girls":
+        return 8
+
+    if division == "junior_iwf":
+        return 9
+
+    if division == "novice_iwf":
+        return 10
+
+    if division == "senior_iwf":
+        return 11
+
+    raise NotImplementedError(division)
+
+
+def division_sort_key_v2(division: Division) -> int:
+    if division == "bantam":
+        return 1
+
+    if division == "bantam_girls":
+        return 2
+
+    if division == "intermediate":
+        return 3
+
+    if division == "intermediate_girls":
+        return 4
+
+    if division == "novice":
+        return 5
+
+    if division == "novice_girls":
+        return 6
+
+    if division == "senior":
         return 7
 
     if division == "senior_girls":

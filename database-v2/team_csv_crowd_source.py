@@ -37,7 +37,7 @@ class TeamInfo(_ForbidExtra):
 
 
 def _info_sort_key(info: TeamYearInfo) -> tuple[int, int]:
-    return info.year, bracket_utils.division_sort_key(info.division)
+    return info.year, bracket_utils.division_sort_key_v1(info.division)
 
 
 def _unique(values: list[str]) -> list[str]:

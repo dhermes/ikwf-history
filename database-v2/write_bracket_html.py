@@ -1216,60 +1216,99 @@ def _render_bracket_html(
         file_obj.write(formatted_html)
 
 
-def _get_included_tournament_images(static_root: pathlib.Path, year: int) -> list[str]:
-    filenames: list[str] = []
+def _get_included_tournament_images(
+    static_root: pathlib.Path, year: int
+) -> list[tuple[str, str]]:
+    image_metadata: list[tuple[str, str]] = []
 
     filename = f"{year}-program-cover.png"
     image_path = static_root / "images" / filename
     if image_path.is_file():
-        filenames.append(filename)
+        image_metadata.append((filename, f"{year} IKWF State Tournament program cover"))
 
     filename = f"{year}-program-cover.jpg"
     image_path = static_root / "images" / filename
     if image_path.is_file():
-        filenames.append(filename)
+        image_metadata.append((filename, f"{year} IKWF State Tournament program cover"))
 
-    return filenames
+    return image_metadata
 
 
 def _get_included_division_images(
     static_root: pathlib.Path, year: int, division: bracket_utils.Division
-) -> list[str]:
-    filenames: list[str] = []
+) -> list[tuple[str, str, str]]:
+    image_metadata: list[tuple[str, str, str]] = []
 
     division_path = bracket_utils.get_division_path(division)
+    division_display = bracket_utils.get_division_display(division)
 
     filename = f"{year}-{division_path}-team-scores.png"
     image_path = static_root / "images" / filename
     if image_path.is_file():
-        filenames.append(filename)
+        image_metadata.append(
+            (
+                filename,
+                f"{year} {division_display} team scores",
+                f"{division_display} team scores",
+            )
+        )
 
     filename = f"{year}-{division_path}-team-scores.jpg"
     image_path = static_root / "images" / filename
     if image_path.is_file():
-        filenames.append(filename)
+        image_metadata.append(
+            (
+                filename,
+                f"{year} {division_display} team scores",
+                f"{division_display} team scores",
+            )
+        )
 
     filename = f"{year}-{division_path}-placers.png"
     image_path = static_root / "images" / filename
     if image_path.is_file():
-        filenames.append(filename)
+        image_metadata.append(
+            (
+                filename,
+                f"{year} {division_display} state placers",
+                f"{division_display} state placers",
+            )
+        )
 
     filename = f"{year}-{division_path}-placers.jpg"
     image_path = static_root / "images" / filename
     if image_path.is_file():
-        filenames.append(filename)
+        image_metadata.append(
+            (
+                filename,
+                f"{year} {division_display} state placers",
+                f"{division_display} state placers",
+            )
+        )
 
     filename = f"{year}-{division_path}-team-champion.png"
     image_path = static_root / "images" / filename
     if image_path.is_file():
-        filenames.append(filename)
+        image_metadata.append(
+            (
+                filename,
+                f"{year} {division_display} team champion",
+                f"{division_display} team champion",
+            )
+        )
 
     filename = f"{year}-{division_path}-team-champion.jpg"
     image_path = static_root / "images" / filename
     if image_path.is_file():
-        filenames.append(filename)
+        image_metadata.append(
+            (
+                filename,
+                f"{year} {division_display} team champion",
+                f"{division_display} team champion",
+            )
+        )
 
-    return filenames
+    return image_metadata
 
 
 def _render_brackets_year_html(
@@ -1278,48 +1317,142 @@ def _render_brackets_year_html(
     weights_by_division: dict[bracket_utils.Division, list[int]],
 ) -> None:
     parts: list[str] = [
-        "<html>",
+        "<!doctype html>",
+        '<html lang="en">',
         "  <head>",
-        f"    <title>{year}</title>",
-        '    <link href="/css/tournament-view.fbcf5065.min.css" rel="stylesheet" />',
+        '    <meta charset="utf-8" />',
+        '    <meta name="viewport" content="width=device-width, initial-scale=1" />',
+        "",
+        f"    <title>{year} &mdash; IKWF History</title>",
+        "",
+        '    <link rel="stylesheet" href="/css/year.5f5aa160.min.css" />',
+        '    <link rel="stylesheet" href="/css/footer.cb84bd19.min.css" />',
         "  </head>",
+        "",
         "  <body>",
-        '    <div class="tournament-view">',
-        f"      <h1>{year}</h1>",
+        '    <main class="year-page">',
+        '      <header class="year-header">',
+        '        <a class="back-link" href="/brackets/">&larr; Brackets</a>',
+        "",
+        '        <div class="year-header-main">',
+        "          <div>",
+        '            <span class="eyebrow">TOURNAMENT ARCHIVE</span>',
+        f"            <h1>{year}</h1>",
+        "            <p>",
+        f"              Explore the {year} IKWF state tournament, organized ",
+        "              by division and weight",
+        "            </p>",
+        "          </div>",
+        "",
+        "          <img",
+        '            class="header-logo"',
+        '            src="/images/ikwf-logo-300x300.png"',
+        '            alt="Illinois Kids Wrestling Federation"',
+        "          />",
+        "        </div>",
+        "      </header>",
     ]
 
     year_images = _get_included_tournament_images(static_root, year)
-    for included_image in year_images:
-        parts.append(f'<img src="/images/{included_image}" width="100%" />')
+    if year_images:
+        parts.append('<section class="program-cover">')
+        for included_image, alt_text in year_images:
+            parts.append(f'<img src="/images/{included_image}" alt="{alt_text}"/>')
+        parts.append("</section>")
 
-    divisions = sorted(weights_by_division.keys(), key=bracket_utils.division_sort_key)
+    parts.append('<section class="divisions">')
+
+    divisions = sorted(
+        weights_by_division.keys(), key=bracket_utils.division_sort_key_v2
+    )
+    all_division_images: list[tuple[str, str, str]] = []
     for division in divisions:
         weights = sorted(weights_by_division[division])
+        weight_count = len(weights)
         division_display = bracket_utils.get_division_display(division)
         division_path = bracket_utils.get_division_path(division)
 
         parts.extend(
             [
-                f"<h2>{division_display}</h2>",
-                "<ul>",
+                '<section class="division">',
+                '  <header class="division-header">',
+                f"    <h2>{division_display}</h2>",
+                f"    <span>{weight_count} weights</span>",
+                "  </header>",
+                "",
+                '<div class="weight-grid">',
+                "",
             ]
         )
 
         for weight in weights:
             url = f"/brackets/{year}/{division_path}/{weight}.html"
-            parts.append(f'<li><a href="{url}">{weight}</a></li>')
+            parts.append(f'<a href="{url}">{weight}</a>')
 
-        parts.append("</ul>")
+        parts.extend(
+            [
+                "  </div>",
+                "</section>",
+            ]
+        )
 
-        division_images = _get_included_division_images(static_root, year, division)
-        for included_image in division_images:
-            parts.append(f'<img src="/images/{included_image}" width="100%" />')
+        all_division_images.extend(
+            _get_included_division_images(static_root, year, division)
+        )
+
+    parts.append("</section>")
+
+    if all_division_images:
+        parts.extend(
+            [
+                '<section class="historical-material">',
+                '  <span class="section-eyebrow">FROM THE ARCHIVE</span>',
+                f"  <h2>{year} Tournament</h2>",
+                "",
+                '  <div class="archive-gallery">',
+            ]
+        )
+
+        for included_image, alt_text, caption_text in all_division_images:
+            img_tag = (
+                f'<img src="/images/{included_image}" alt="{alt_text}" '
+                'loading="lazy" />'
+            )
+            parts.extend(
+                [
+                    "<figure>",
+                    f"  {img_tag}",
+                    f"  <figcaption>{caption_text}</figcaption>",
+                    "</figure>",
+                    "",
+                ]
+            )
+
+        parts.extend(
+            [
+                "  </div>",
+                "</section>",
+            ]
+        )
 
     parts.extend(
         [
-            "    </div>",
+            "",
+            '      <footer class="footer">',
+            "        <p>",
+            "          An independent project preserving and exploring the history of",
+            "          Illinois youth wrestling.",
+            "        </p>",
+            "",
+            "        <p>",
+            "          Created by Coach",
+            '          <a href="/bios/danny-hermes/">Danny Hermes</a>',
+            "        </p>",
+            "      </footer>",
+            "    </main>",
             "  </body>",
             "</html>",
+            "",
         ]
     )
 

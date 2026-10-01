@@ -30,7 +30,7 @@ def _validate_division_sort_key():
     for division_row in division_rows:
         actual_id = division_row["id"]
         division = division_row["key"]
-        sort_id = bracket_utils.division_sort_key(division)
+        sort_id = bracket_utils.division_sort_key_v1(division)
         if actual_id != sort_id:
             raise ValueError("Mismatch", division, actual_id, sort_id)
 
@@ -272,7 +272,7 @@ def _add_team_rows(
 
     # 1. `TeamRow` (allow duplicates across year and division)
     # 2. `TournamentTeamRow`
-    divisions = sorted(team_names_map.keys(), key=bracket_utils.division_sort_key)
+    divisions = sorted(team_names_map.keys(), key=bracket_utils.division_sort_key_v1)
     for division in divisions:
         team_id_map.setdefault(division, {})
 
@@ -677,7 +677,9 @@ def _write_brackets_sql() -> dict[BracketInfoTuple, int]:
         for index2, tournament_id in enumerate(tournament_ids):
             last2 = index2 == len(tournament_ids) - 1
             by_division = by_tournament[tournament_id]
-            divisions = sorted(by_division.keys(), key=bracket_utils.division_sort_key)
+            divisions = sorted(
+                by_division.keys(), key=bracket_utils.division_sort_key_v1
+            )
             for index3, division in enumerate(divisions):
                 last3 = index3 == len(divisions) - 1
                 weights = by_division[division]
