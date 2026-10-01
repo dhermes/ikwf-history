@@ -3,7 +3,7 @@ name = "ikwf-history"
 version = "0.0.1"
 description = "IKWF History: collecting old brackets and building website"
 readme = "README.md"
-requires-python = "== 3.13.3"
+requires-python = "== 3.14.7"
 dependencies = [
     "beautifulsoup4",
     "chardet",
@@ -13,6 +13,10 @@ dependencies = [
     "ruff",
     "selenium",
 ]
+
+[tool.uv]
+required-version = "0.12.21"
+exclude-newer = "7 days"
 
 [tool.ruff]
 target-version = "py313"

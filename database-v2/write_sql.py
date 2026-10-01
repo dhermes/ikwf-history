@@ -2,7 +2,7 @@
 
 import pathlib
 import sqlite3
-from typing import Literal, NamedTuple, TypeVar
+from typing import Literal, NamedTuple
 
 import bracket_utils
 import match_scores
@@ -151,17 +151,13 @@ class Inserts(_ForbidExtra):
     placer_denormalized_rows: list[PlacerDenormalizedRow]
 
 
-K = TypeVar("K")
-V = TypeVar("V")
-
-
-def _insert_only(data: dict[K, V], key: K, value: V) -> None:
+def _insert_only[K, V](data: dict[K, V], key: K, value: V) -> None:
     if key in data:
         raise KeyError("Duplicate", key, data[key], value)
     data[key] = value
 
 
-def _insert_check(data: dict[K, V], key: K, value: V) -> None:
+def _insert_check[K, V](data: dict[K, V], key: K, value: V) -> None:
     if key in data:
         if data[key] != value:
             raise KeyError("Conflict", key, data[key], value)
