@@ -228,10 +228,6 @@ a {
     0 15px 40px rgba(0, 0, 0, 0.04);
 }
 
-.archive-gallery figure:first-child {
-  grid-column: 1 / -1;
-}
-
 .archive-gallery img {
   display: block;
   width: 100%;
@@ -276,10 +272,6 @@ a {
 
   .archive-gallery {
     grid-template-columns: 1fr;
-  }
-
-  .archive-gallery figure:first-child {
-    grid-column: auto;
   }
 
   .weight-grid {

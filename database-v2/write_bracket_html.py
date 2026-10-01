@@ -1325,7 +1325,7 @@ def _render_brackets_year_html(
         "",
         f"    <title>{year} &mdash; IKWF History</title>",
         "",
-        '    <link rel="stylesheet" href="/css/year.5f5aa160.min.css" />',
+        '    <link rel="stylesheet" href="/css/year.c28a8b42.min.css" />',
         '    <link rel="stylesheet" href="/css/footer.cb84bd19.min.css" />',
         "  </head>",
         "",
