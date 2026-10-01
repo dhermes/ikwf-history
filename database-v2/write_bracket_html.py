@@ -1334,44 +1334,6 @@ def _render_brackets_year_html(
         file_obj.write(formatted_html)
 
 
-def _render_base_brackets_html(
-    static_root: pathlib.Path, tournament_years: list[int]
-) -> None:
-    parts: list[str] = [
-        "<html>",
-        "  <head>",
-        "    <title>Brackets</title>",
-        '    <link href="/css/tournament-view.fbcf5065.min.css" rel="stylesheet" />',
-        "  </head>",
-        "  <body>",
-        '    <div class="tournament-view">',
-        "      <h1>Brackets</h1>",
-        "      <ul>",
-    ]
-
-    for year in tournament_years:
-        parts.append(f'<li><a href="/brackets/{year}/index.html">{year}</a></li>')
-
-    parts.extend(
-        [
-            "      </ul>",
-            "    </div>",
-            "  </body>",
-            "</html>",
-        ]
-    )
-
-    soup = bs4.BeautifulSoup("\n".join(parts), features="html.parser")
-    formatted_html = soup.prettify(formatter="html")
-
-    destination = static_root / "brackets"
-    destination.mkdir(parents=True, exist_ok=True)
-    html_path = destination / "index.html"
-
-    with open(html_path, "w") as file_obj:
-        file_obj.write(formatted_html)
-
-
 class BracketDescriptor(_ForbidExtra):
     year: int
     division: bracket_utils.Division
@@ -1462,8 +1424,6 @@ def main() -> None:
     for year in tournament_years:
         year_weights = weights_by_year[year]
         _render_brackets_year_html(static_root, year, year_weights)
-
-    _render_base_brackets_html(static_root, tournament_years)
 
     _check_missing_brackets(static_root, weights_by_year)
 
