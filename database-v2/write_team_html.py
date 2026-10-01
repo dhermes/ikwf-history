@@ -112,8 +112,7 @@ def _teams_landing_html(teams: list[TeamInfo]) -> str:
         )
 
     team_nav = (
-        '        <nav class="pagination" id="pagination" '
-        'aria-label="Team pages"></nav>'
+        '        <nav class="pagination" id="pagination" aria-label="Team pages"></nav>'
     )
     parts.extend(
         [

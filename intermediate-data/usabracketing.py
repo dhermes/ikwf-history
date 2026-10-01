@@ -1187,7 +1187,9 @@ def _add_initial_entries(soup: bs4.BeautifulSoup, entries_map: _EntriesMap) -> N
     entries_map[key] = entries
 
 
-def load_data(root: pathlib.Path, year: int) -> tuple[
+def load_data(
+    root: pathlib.Path, year: int
+) -> tuple[
     dict[str, str],
     dict[str, str],
     dict[str, str],
