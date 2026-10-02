@@ -2928,37 +2928,6 @@
     ]
   },
   {
-    "name_normalized": "Astro WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Astro WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Astro WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Astro WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Astro WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Astro WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Astro Wrestling Club",
     "url_path_slug": "astro",
     "duplicates": [
@@ -3059,6 +3028,31 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Astro WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Astro WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Astro WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Astro WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Astro WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Astro WC"
       },
