@@ -56544,6 +56544,26 @@
         "tournament_id": 31,
         "division": "novice",
         "name": "SOUTHERN ILLINOIS EAGLES"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "SOUTHERN ILLINOIS EAGLES"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "SOUTHERN ILLINOIS EAGLES"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "SOUTHERN ILLINOIS EAGLES"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "SOUTHERN ILLINOIS EAGLES"
       }
     ]
   },
@@ -56640,32 +56660,6 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Southern Illinois Bulldogs WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Southern Illinois Eagles",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "SOUTHERN ILLINOIS EAGLES"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "SOUTHERN ILLINOIS EAGLES"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "SOUTHERN ILLINOIS EAGLES"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "SOUTHERN ILLINOIS EAGLES"
       }
     ]
   },

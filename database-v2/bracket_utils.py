@@ -576,14 +576,31 @@ class TeamDuplicate(_ForbidExtra):
         return self.tournament_id, self.division, self.name
 
 
+def _verified_team_sort_func(
+    team_duplicate: TeamDuplicate,
+) -> tuple[int, Division, str]:
+    return team_duplicate.to_tuple()
+
+
 class VerifiedTeam(_ForbidExtra):
     name_normalized: str
     url_path_slug: str | None
     duplicates: list[TeamDuplicate]
 
+    def sort(self) -> None:
+        self.duplicates.sort(key=_verified_team_sort_func)
+
+
+def _duplicate_sort_func(verified_team: VerifiedTeam) -> tuple[str, str | None]:
+    return verified_team.name_normalized, verified_team.url_path_slug
+
 
 class TeamDuplicates(pydantic.RootModel[list[VerifiedTeam]]):
-    pass
+    def sort(self) -> None:
+        self.root.sort(key=_duplicate_sort_func)
+
+        for verified_team in self.root:
+            verified_team.sort()
 
 
 def get_division_display(division: Division) -> str:
