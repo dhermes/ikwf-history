@@ -11941,122 +11941,6 @@
     ]
   },
   {
-    "name_normalized": "CHILLI DAWGS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "CHILLI DAWGS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CHILLI DAWGS WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "CHILLI DAWGS WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "CHILLI DAWGS WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "CHILLI DAWGS WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "CHILLI DAWGS WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "CHILLI DAWGS WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CHILLICOTHE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "CHILLICOTHE"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "CHILLICOTHE"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "CHILLICOTHE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CHILLICOTHE WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "CHILLICOTHE WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "CHILLICOTHE WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CHILLICOTHE WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "CHILLICOTHE WRESTLING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "CHILLICOTHE WRESTLING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "CHILLICOTHE WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CHILLICOTHE WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "CHILLICOTHE WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "CHILLICOTHE WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "CMPD WRESTLING WOLVERINES",
     "url_path_slug": null,
     "duplicates": [
@@ -16432,9 +16316,89 @@
         "name": "Chillicothe WC"
       },
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Chillicothe Wrestling Club"
+      },
+      {
         "tournament_id": 20,
         "division": "senior",
         "name": "CHILLICOTHE WC"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "CHILLICOTHE"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "CHILLICOTHE WRESTLING"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "CHILLICOTHE"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "CHILLICOTHE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "CHILLICOTHE WRESTLING"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "CHILLICOTHE WRESTLING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "CHILLICOTHE WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "CHILLICOTHE WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "CHILLICOTHE WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "CHILLICOTHE WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "CHILLI DAWGS WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "CHILLI DAWGS WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "CHILLI DAWGS WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "CHILLI DAWGS WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "CHILLI DAWGS WRESTLING"
       },
       {
         "tournament_id": 29,
@@ -16494,6 +16458,11 @@
       {
         "tournament_id": 35,
         "division": "novice",
+        "name": "CHILLI DAWGS WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
         "name": "CHILLI DAWGS WC"
       },
       {
@@ -16570,17 +16539,6 @@
         "tournament_id": 43,
         "division": "senior",
         "name": "Chilli Dawgs WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Chillicothe Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Chillicothe Wrestling Club"
       }
     ]
   },
