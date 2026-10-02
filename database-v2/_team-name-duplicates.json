@@ -224,80 +224,6 @@
     ]
   },
   {
-    "name_normalized": "ADAMS JR. COUGARS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "ADAMS JR. COUGARS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "ADAMS JR. COUGARS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ADAMS JR. HIGH WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "ADAMS JR. HIGH WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "ADAMS JR. HIGH WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "ADAMS JR. HIGH WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "ADAMS JR. HIGH WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ADDAMS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "ADDAMS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "ADDAMS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ADDAMS JH WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "ADDAMS JH WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ADDAMS JH WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "ADDISON / INDIAN TRAIL",
     "url_path_slug": null,
     "duplicates": [
@@ -1078,31 +1004,29 @@
     ]
   },
   {
-    "name_normalized": "Adams",
-    "url_path_slug": null,
+    "name_normalized": "Addams Junior High WC",
+    "url_path_slug": "addams-jh",
     "duplicates": [
       {
         "tournament_id": 4,
         "division": "senior",
         "name": "Adams"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Addams",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Jane Adams"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Jane Adams"
+      },
       {
         "tournament_id": 11,
         "division": "senior",
         "name": "Addams"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Addams Junior High WC",
-    "url_path_slug": "addams-jh",
-    "duplicates": [
+      },
       {
         "tournament_id": 20,
         "division": "senior",
@@ -1117,6 +1041,56 @@
         "tournament_id": 22,
         "division": "senior",
         "name": "ADDAMS JH WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "ADDAMS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "ADDAMS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "ADDAMS JH WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ADDAMS JH WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "ADAMS JR. HIGH WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "ADAMS JR. COUGARS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "ADAMS JR. HIGH WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "ADAMS JR. COUGARS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "ADAMS JR. HIGH WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "ADAMS JR. HIGH WC"
       }
     ]
   },
@@ -41563,22 +41537,6 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "James Hart"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Jane Adams",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Jane Adams"
-      },
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Jane Adams"
       }
     ]
   },
