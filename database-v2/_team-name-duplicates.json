@@ -18904,69 +18904,6 @@
     ]
   },
   {
-    "name_normalized": "DAKOTA",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "DAKOTA"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DAKOTA WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "DAKOTA WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "DAKOTA WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "DAKOTA WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "DAKOTA WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DAKOTA WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "DAKOTA WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "DAKOTA WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "DAKOTA WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "DAKOTA WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "DANVILLE",
     "url_path_slug": null,
     "duplicates": [
@@ -19543,32 +19480,6 @@
     ]
   },
   {
-    "name_normalized": "Dakota WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Dakota WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Dakota WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Dakota WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Dakota WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Dakota Wrestling Club",
     "url_path_slug": "dakota",
     "duplicates": [
@@ -19584,8 +19495,33 @@
       },
       {
         "tournament_id": 23,
+        "division": "novice",
+        "name": "DAKOTA"
+      },
+      {
+        "tournament_id": 23,
         "division": "senior",
         "name": "DAKOTA"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "DAKOTA WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "DAKOTA WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "DAKOTA WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "DAKOTA WC"
       },
       {
         "tournament_id": 27,
@@ -19593,8 +19529,28 @@
         "name": "DAKOTA WRESTLING CLUB"
       },
       {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "DAKOTA WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "DAKOTA WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "DAKOTA WRESTLING CLUB"
+      },
+      {
         "tournament_id": 29,
         "division": "novice",
+        "name": "DAKOTA WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
         "name": "DAKOTA WRESTLING CLUB"
       },
       {
@@ -19865,6 +19821,26 @@
       {
         "tournament_id": 53,
         "division": "senior_girls",
+        "name": "Dakota WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Dakota WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Dakota WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Dakota WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
         "name": "Dakota WC"
       },
       {
