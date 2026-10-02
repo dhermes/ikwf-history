@@ -54,6 +54,9 @@ def main() -> None:
     if target_match is None:
         raise RuntimeError("Normalized name not found", target_name_normalized)
 
+    if target_match.url_path_slug is None:
+        raise RuntimeError("Cannot merge onto a target that has no URL slug")
+
     target_match.duplicates.extend(source_match.duplicates)
 
     updated_team_duplicates = bracket_utils.TeamDuplicates(

@@ -577,38 +577,6 @@
     ]
   },
   {
-    "name_normalized": "ANTIOCH",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "ANTIOCH"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "ANTIOCH"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ANTIOCH UPPER GRADE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "ANTIOCH UPPER GRADE"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ANTIOCH UPPER GRADE"
-      }
-    ]
-  },
-  {
     "name_normalized": "ARGENTA / OREANA",
     "url_path_slug": null,
     "duplicates": [
@@ -2040,32 +2008,6 @@
     ]
   },
   {
-    "name_normalized": "Antioch",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Antioch"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Antioch"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Antioch"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Antioch"
-      }
-    ]
-  },
-  {
     "name_normalized": "Antioch Predators WC",
     "url_path_slug": null,
     "duplicates": [
@@ -2187,25 +2129,19 @@
     ]
   },
   {
-    "name_normalized": "Antioch Upper Grade",
-    "url_path_slug": null,
+    "name_normalized": "Antioch Upper Grade School",
+    "url_path_slug": "antioch-upper",
     "duplicates": [
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Antioch"
+      },
       {
         "tournament_id": 8,
         "division": "senior",
         "name": "Antioch Upper Grade"
       },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Antioch Upper Grade"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Antioch Upper Grade School",
-    "url_path_slug": "antioch-upper",
-    "duplicates": [
       {
         "tournament_id": 9,
         "division": "senior",
@@ -2213,6 +2149,21 @@
       },
       {
         "tournament_id": 10,
+        "division": "senior",
+        "name": "Antioch"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Antioch"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Antioch"
+      },
+      {
+        "tournament_id": 14,
         "division": "senior",
         "name": "Antioch"
       },
@@ -2227,12 +2178,37 @@
         "name": "Antioch Upper Grade"
       },
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Antioch Upper Grade"
+      },
+      {
         "tournament_id": 20,
         "division": "senior",
         "name": "ANTIOCH UPPER GRADE"
       },
       {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "ANTIOCH UPPER GRADE"
+      },
+      {
         "tournament_id": 22,
+        "division": "senior",
+        "name": "ANTIOCH UPPER GRADE"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "ANTIOCH"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "ANTIOCH"
+      },
+      {
+        "tournament_id": 24,
         "division": "senior",
         "name": "ANTIOCH UPPER GRADE"
       }
