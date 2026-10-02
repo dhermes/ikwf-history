@@ -1690,6 +1690,61 @@
         "name": "Alton W.C."
       },
       {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Redbirds"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Redbirds"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Redbird WC"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Redbird WC"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Redbird WC"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Redbird Wrestling Club"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Redbird"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "REDBIRD WC"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "REDBIRDS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "REDBIRD WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "REDBIRD"
+      },
+      {
         "tournament_id": 27,
         "division": "novice",
         "name": "LITTLE REDBIRDS WRESTLING"
@@ -69403,39 +69458,6 @@
     ]
   },
   {
-    "name_normalized": "REDBIRD",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "REDBIRD"
-      }
-    ]
-  },
-  {
-    "name_normalized": "REDBIRD WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "REDBIRD WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "REDBIRDS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "REDBIRDS"
-      }
-    ]
-  },
-  {
     "name_normalized": "RENAGADE 3 STYLE WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -70923,70 +70945,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Red Raiders Wrestling Team"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Redbird",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Redbird"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Redbird WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Redbird WC"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Redbird WC"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Redbird WC"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "REDBIRD WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Redbird Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Redbird Wrestling Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Redbirds",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Redbirds"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Redbirds"
       }
     ]
   },

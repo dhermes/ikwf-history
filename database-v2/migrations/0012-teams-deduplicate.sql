@@ -523,19 +523,19 @@ SET
   name_normalized = 'Alton Little Redbirds WC',
   url_path_slug = 'alton-redbirds'
 WHERE
-  id = 6565;
+  id = 233;
 
 UPDATE
   tournament_team
 SET
-  team_id = 6565
+  team_id = 233
 WHERE
-  id IN (6565, 6747, 10578, 10761, 10945, 11107, 11593, 11806, 12019, 12232, 13354, 13624, 13894, 14164, 14434, 14704, 14974, 15244, 15648, 15788, 16071, 16468);
+  id IN (233, 335, 761, 873, 985, 1100, 1211, 1322, 1397, 1509, 1637, 1768, 1907, 3010, 3167, 3296, 3402, 3625, 3744, 3861, 3978, 4234, 4390, 4558, 4837, 4987, 5161, 5474, 5618, 5921, 6100, 6284, 6468, 6565, 6747, 10578, 10761, 10945, 11107, 11593, 11806, 12019, 12232, 13354, 13624, 13894, 14164, 14434, 14704, 14974, 15244, 15648, 15788, 16071, 16468);
 
 DELETE FROM
   team
 WHERE
-  id IN (6747, 10578, 10761, 10945, 11107, 11593, 11806, 12019, 12232, 13354, 13624, 13894, 14164, 14434, 14704, 14974, 15244, 15648, 15788, 16071, 16468);
+  id IN (335, 761, 873, 985, 1100, 1211, 1322, 1397, 1509, 1637, 1768, 1907, 3010, 3167, 3296, 3402, 3625, 3744, 3861, 3978, 4234, 4390, 4558, 4837, 4987, 5161, 5474, 5618, 5921, 6100, 6284, 6468, 6565, 6747, 10578, 10761, 10945, 11107, 11593, 11806, 12019, 12232, 13354, 13624, 13894, 14164, 14434, 14704, 14974, 15244, 15648, 15788, 16071, 16468);
 
 ----------------------------------------
 -- Animal WC
@@ -18317,52 +18317,6 @@ WHERE
   id IN (2009, 2283);
 
 ----------------------------------------
--- LITTLE REDBIRD WRESTLING
-
-UPDATE
-  team
-SET
-  name_normalized = 'LITTLE REDBIRD WRESTLING',
-  url_path_slug = NULL
-WHERE
-  id = 3625;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 3625
-WHERE
-  id IN (3625, 3744);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3744);
-
-----------------------------------------
--- LITTLE REDBIRDS WRESTLING
-
-UPDATE
-  team
-SET
-  name_normalized = 'LITTLE REDBIRDS WRESTLING',
-  url_path_slug = NULL
-WHERE
-  id = 3010;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 3010
-WHERE
-  id IN (3010, 3167, 3296, 3402);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3167, 3296, 3402);
-
-----------------------------------------
 -- LIVINGSTON LIGHTNING
 
 UPDATE
@@ -19971,29 +19925,6 @@ DELETE FROM
   team
 WHERE
   id IN (9100, 9277, 9452, 9625, 9792, 9964, 10141);
-
-----------------------------------------
--- Little Redbird WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'Little Redbird WC',
-  url_path_slug = NULL
-WHERE
-  id = 3861;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 3861
-WHERE
-  id IN (3861, 3978, 4234, 4390, 4558, 4837, 4987, 5161, 5474, 5618, 5921, 6100, 6284, 6468);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3978, 4234, 4390, 4558, 4837, 4987, 5161, 5474, 5618, 5921, 6100, 6284, 6468);
 
 ----------------------------------------
 -- Little Redskins WC
@@ -28918,52 +28849,6 @@ DELETE FROM
   team
 WHERE
   id IN (8753, 8946, 9137, 9313, 9488, 9664, 9831, 10002, 10179, 10356, 10527, 10702, 10885, 11057, 11219, 11382, 11544, 11743, 11956, 12169, 12382, 12605, 12832, 13059, 13286, 13539, 13809, 14079, 14349, 14619, 14889, 15159, 15429, 15598, 15744, 15889, 16033, 16415, 16564);
-
-----------------------------------------
--- Redbird WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'Redbird WC',
-  url_path_slug = NULL
-WHERE
-  id = 985;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 985
-WHERE
-  id IN (985, 1100, 1211, 1509);
-
-DELETE FROM
-  team
-WHERE
-  id IN (1100, 1211, 1509);
-
-----------------------------------------
--- Redbirds
-
-UPDATE
-  team
-SET
-  name_normalized = 'Redbirds',
-  url_path_slug = NULL
-WHERE
-  id = 761;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 761
-WHERE
-  id IN (761, 873);
-
-DELETE FROM
-  team
-WHERE
-  id IN (873);
 
 ----------------------------------------
 -- Redhawk WC

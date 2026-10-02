@@ -48,6 +48,9 @@ def main() -> None:
     if source_match is None:
         raise RuntimeError("Normalized name not found", source_name_normalized)
 
+    if source_match.url_path_slug is not None:
+        raise RuntimeError("Cannot merge from a source that already has a URL slug")
+
     if target_match is None:
         raise RuntimeError("Normalized name not found", target_name_normalized)
 
