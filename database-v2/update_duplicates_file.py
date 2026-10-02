@@ -89,7 +89,10 @@ def main() -> None:
     team_duplicates = bracket_utils.TeamDuplicates(root=verified_teams.values())
     team_duplicates.sort()
 
-    print(len(team_duplicates.root))
+    as_json = team_duplicates.model_dump_json(indent=2)
+    with open(_HERE / "_team-name-duplicates.json", "w") as file_obj:
+        file_obj.write(as_json)
+        file_obj.write("\n")
 
 
 if __name__ == "__main__":
