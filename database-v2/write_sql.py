@@ -1032,7 +1032,8 @@ def _write_team_deduplicate_sql(
         team_name = verified_team.name_normalized
         duplicates = verified_team.duplicates
         if len(duplicates) < 2:
-            raise ValueError("Need at least 2 duplicates", team_name)
+            # NOTE: Need at least 2 duplicates
+            continue
 
         keep_tuples = set(duplicate.to_tuple() for duplicate in duplicates)
         if len(keep_tuples) != len(duplicates):
