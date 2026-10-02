@@ -34185,17 +34185,6 @@
     ]
   },
   {
-    "name_normalized": "HARVEY TWISTERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "HARVEY TWISTERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "HAVANA",
     "url_path_slug": null,
     "duplicates": [
@@ -35778,20 +35767,14 @@
     ]
   },
   {
-    "name_normalized": "Harvey",
-    "url_path_slug": null,
+    "name_normalized": "Harvey Twisters",
+    "url_path_slug": "twisters",
     "duplicates": [
       {
         "tournament_id": 13,
         "division": "senior",
         "name": "Harvey"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Harvey Twisters",
-    "url_path_slug": "twisters",
-    "duplicates": [
+      },
       {
         "tournament_id": 14,
         "division": "senior",
@@ -35850,6 +35833,11 @@
       {
         "tournament_id": 24,
         "division": "novice",
+        "name": "HARVEY TWISTERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
         "name": "HARVEY TWISTERS"
       },
       {
@@ -36138,6 +36126,31 @@
         "name": "Harvey Twisters WC"
       },
       {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Harvey Twisters WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Harvey Twisters WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Harvey Twisters WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Harvey Twisters WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Harvey Twisters WC"
+      },
+      {
         "tournament_id": 10028,
         "division": "junior_iwf",
         "name": "Harvey Twisters"
@@ -36180,37 +36193,6 @@
       {
         "tournament_id": 10052,
         "division": "intermediate_girls",
-        "name": "Harvey Twisters WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Harvey Twisters WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Harvey Twisters WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Harvey Twisters WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Harvey Twisters WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Harvey Twisters WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
         "name": "Harvey Twisters WC"
       }
     ]
