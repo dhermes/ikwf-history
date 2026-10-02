@@ -150,17 +150,6 @@
     ]
   },
   {
-    "name_normalized": "A-J JUNIOR WILDCATS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "A-J JUNIOR WILDCATS"
-      }
-    ]
-  },
-  {
     "name_normalized": "ADDISON / INDIAN TRAIL",
     "url_path_slug": null,
     "duplicates": [
@@ -245,6 +234,11 @@
     "name_normalized": "AJ Junior Wildcats WC",
     "url_path_slug": "aj-jr-wildcats",
     "duplicates": [
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "A-J JUNIOR WILDCATS"
+      },
       {
         "tournament_id": 29,
         "division": "novice",
