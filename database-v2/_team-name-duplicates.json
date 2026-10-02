@@ -69646,59 +69646,6 @@
     ]
   },
   {
-    "name_normalized": "ROCHELLE AREA WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "ROCHELLE AREA WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ROCHELLE WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "ROCHELLE WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ROCHELLE WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "ROCHELLE WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "ROCHELLE WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ROCHELLE WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "ROCHELLE WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "ROCHELLE WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "ROCK FALLS WRESTLING CLUB",
     "url_path_slug": null,
     "duplicates": [
@@ -72600,54 +72547,6 @@
     ]
   },
   {
-    "name_normalized": "Rochelle",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "Rochelle"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rochelle Area WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Rochelle Area WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rochelle WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Rochelle WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Rochelle WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Rochelle WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Rochelle WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Rochelle Wrestling Club",
     "url_path_slug": "rochelle",
     "duplicates": [
@@ -72655,6 +72554,46 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Rochelle"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Rochelle Area WC"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "ROCHELLE AREA WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "ROCHELLE WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ROCHELLE WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "ROCHELLE WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "ROCHELLE WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "ROCHELLE WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "ROCHELLE WRESTLING CLUB"
       },
       {
         "tournament_id": 30,
@@ -72850,6 +72789,31 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Rochelle Wrestling Club"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Rochelle WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Rochelle WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Rochelle WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Rochelle WC"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "Rochelle"
       },
       {
         "tournament_id": 10050,
