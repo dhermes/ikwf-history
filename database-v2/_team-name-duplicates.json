@@ -3120,6 +3120,16 @@
     "url_path_slug": "aurora-j-hawks",
     "duplicates": [
       {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "J-Hawk WC"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "J-Hawk WC"
+      },
+      {
         "tournament_id": 19,
         "division": "senior",
         "name": "Aurora J-Hawks"
@@ -3138,6 +3148,26 @@
         "tournament_id": 22,
         "division": "senior",
         "name": "AURORA J-HAWKS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "J-HAWK WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "J-HAWK WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "J-HAWK WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "J-Hawks"
       }
     ]
   },
@@ -40857,60 +40887,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Izzy Style Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "J-HAWK WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "J-HAWK WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "J-HAWK WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "J-HAWK WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "J-HAWK WRESTLING CLUB"
-      }
-    ]
-  },
-  {
-    "name_normalized": "J-Hawk WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "J-Hawk WC"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "J-Hawk WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "J-Hawks",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "J-Hawks"
       }
     ]
   },
