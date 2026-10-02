@@ -224,42 +224,6 @@
     ]
   },
   {
-    "name_normalized": "ACES WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ACES WRESTLING"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "ACES WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "ACES WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "ACES WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "ACES WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "ACES WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "ADAMS JR. COUGARS",
     "url_path_slug": null,
     "duplicates": [
@@ -813,30 +777,39 @@
     ]
   },
   {
-    "name_normalized": "Aces WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Aces WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Aces WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Aces WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Aces Wrestling Club",
     "url_path_slug": "aces-wc",
     "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ACES WRESTLING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "ACES WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "ACES WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "ACES WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "ACES WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "ACES WRESTLING"
+      },
       {
         "tournament_id": 29,
         "division": "senior",
@@ -1065,6 +1038,21 @@
       {
         "tournament_id": 53,
         "division": "senior_girls",
+        "name": "Aces WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Aces WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Aces WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
         "name": "Aces WC"
       },
       {
