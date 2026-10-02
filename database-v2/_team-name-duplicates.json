@@ -1158,47 +1158,6 @@
     ]
   },
   {
-    "name_normalized": "Alber Athletics WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Alber Athletics WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Alber Athletics WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Alber Athletics WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Alber Athletics WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Alber Athletics WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Alber Athletics WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Alber Athletics WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Alber Athletics Wrestling Club",
     "url_path_slug": "alber-athletics",
     "duplicates": [
@@ -1279,6 +1238,41 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Alber Athletics WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Alber Athletics WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Alber Athletics WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Alber Athletics WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Alber Athletics WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Alber Athletics WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Alber Athletics WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Alber Athletics WC"
       },
