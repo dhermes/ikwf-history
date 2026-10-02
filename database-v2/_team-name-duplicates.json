@@ -35507,47 +35507,6 @@
     ]
   },
   {
-    "name_normalized": "Harvard WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Harvard WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Harvard WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Harvard WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Harvard WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Harvard WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Harvard WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Harvard WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Harvard Wrestling Club",
     "url_path_slug": "harvard",
     "duplicates": [
@@ -35758,6 +35717,41 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Harvard WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Harvard WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Harvard WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Harvard WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Harvard WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Harvard WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Harvard WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Harvard WC"
       },
