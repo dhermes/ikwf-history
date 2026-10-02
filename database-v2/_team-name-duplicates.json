@@ -75175,32 +75175,6 @@
     ]
   },
   {
-    "name_normalized": "SCN Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "SCN Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "SCN Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "SCN Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "SCN Youth WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "SCN Youth Wrestling Club",
     "url_path_slug": "scn",
     "duplicates": [
@@ -75447,6 +75421,26 @@
       {
         "tournament_id": 53,
         "division": "senior_girls",
+        "name": "SCN Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "SCN Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "SCN Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "SCN Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
         "name": "SCN Youth WC"
       },
       {
