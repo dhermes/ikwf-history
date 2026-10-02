@@ -75624,8 +75624,8 @@
     ]
   },
   {
-    "name_normalized": "SJO KIDS",
-    "url_path_slug": null,
+    "name_normalized": "SJO Spartan Youth Wrestling Club",
+    "url_path_slug": "sjo",
     "duplicates": [
       {
         "tournament_id": 23,
@@ -75636,13 +75636,7 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "SJO KIDS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SJO KIDS WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 24,
         "division": "novice",
@@ -75652,13 +75646,17 @@
         "tournament_id": 24,
         "division": "senior",
         "name": "SJO KIDS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SJO KIDS WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "SJO WRESTLING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "SJO WRESTLING"
+      },
       {
         "tournament_id": 26,
         "division": "novice",
@@ -75678,13 +75676,47 @@
         "tournament_id": 27,
         "division": "senior",
         "name": "SJO KIDS WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SJO Spartan WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "SJO YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "SJO YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "SJO YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "SJO YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "SJO YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "SJO YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "SJO YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "SJO YOUTH WRESTLING"
+      },
       {
         "tournament_id": 32,
         "division": "novice",
@@ -75694,49 +75726,17 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "SJO SPARTAN WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SJO Spartan YWC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "SJO Spartan YWC"
       },
       {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "SJO Spartan YWC"
-      },
-      {
-        "tournament_id": 54,
+        "tournament_id": 33,
         "division": "novice",
-        "name": "SJO Spartan YWC"
+        "name": "SJO YOUTH WRESTLING"
       },
       {
-        "tournament_id": 54,
+        "tournament_id": 33,
         "division": "senior",
-        "name": "SJO Spartan YWC"
+        "name": "SJO YOUTH WRESTLING"
       },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "SJO Spartan YWC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "SJO Spartan YWC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SJO Spartan Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 34,
         "division": "novice",
@@ -75744,6 +75744,16 @@
       },
       {
         "tournament_id": 34,
+        "division": "senior",
+        "name": "SJO SPARTAN YOUTH WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "SJO SPARTAN YOUTH WC"
+      },
+      {
+        "tournament_id": 35,
         "division": "senior",
         "name": "SJO SPARTAN YOUTH WC"
       },
@@ -75806,141 +75816,6 @@
         "tournament_id": 41,
         "division": "senior",
         "name": "SJO Spartan Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SJO Spartan Ywc",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "SJO Spartan YWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "SJO Spartan YWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "SJO Spartan YWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "SJO Spartan YWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "SJO Spartan YWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "SJO Spartan YWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "SJO Spartan YWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "SJO Spartan YWC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SJO Spartans Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "SJO SPARTAN YOUTH WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "SJO SPARTAN YOUTH WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "SJO Spartans Youth WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "SJO Spartans Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SJO WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "SJO WRESTLING"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "SJO WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SJO YOUTH WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "SJO YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "SJO YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "SJO YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "SJO YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "SJO YOUTH WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SJO Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "SJO YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "SJO YOUTH WRESTLING"
       },
       {
         "tournament_id": 42,
@@ -75951,6 +75826,56 @@
         "tournament_id": 42,
         "division": "senior",
         "name": "SJO Youth WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "SJO Spartans Youth WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "SJO Spartans Youth WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "St. Joseph Odgen Youth Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "St. Joseph Odgen Youth Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "St. Joseph Ogden Youth WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "St. Joseph Ogden Youth WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "St. Joseph Ogden Youth WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "St. Joseph Ogden Youth WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "St. Joseph Ogden Youth WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "St. Joseph Ogden Youth WC"
       },
       {
         "tournament_id": 50,
@@ -75993,6 +75918,86 @@
         "name": "SJO Youth WC"
       },
       {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "SJO Spartan YWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "SJO Spartan YWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "SJO Spartan YWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "SJO Spartan YWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "SJO Spartan YWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "SJO Spartan YWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "SJO Spartan YWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "SJO Spartan YWC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "SJO Spartan YWC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "SJO Spartan YWC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "SJO Spartan YWC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "SJO Spartan YWC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "SJO Spartan YWC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "SJO Spartan YWC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "St. Joseph Ogden Youth WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "St. Joseph Ogden Youth WC"
+      },
+      {
         "tournament_id": 10052,
         "division": "bantam",
         "name": "SJO Youth WC"
@@ -76011,27 +76016,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "SJO Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SJO Youth Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "SJO YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "SJO YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "SJO YOUTH WRESTLING"
       }
     ]
   },
@@ -80949,68 +80933,6 @@
         "tournament_id": 4,
         "division": "senior",
         "name": "St. Doms"
-      }
-    ]
-  },
-  {
-    "name_normalized": "St. Joseph Odgen Youth Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "St. Joseph Odgen Youth Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "St. Joseph Odgen Youth Wrestling Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "St. Joseph Ogden Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "St. Joseph Ogden Youth WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "St. Joseph Ogden Youth WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "St. Joseph Ogden Youth WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "St. Joseph Ogden Youth WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "St. Joseph Ogden Youth WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "St. Joseph Ogden Youth WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "St. Joseph Ogden Youth WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "St. Joseph Ogden Youth WC"
       }
     ]
   },
