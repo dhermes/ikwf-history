@@ -415,32 +415,6 @@
     ]
   },
   {
-    "name_normalized": "AJ Jr. Wildcats WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "AJ Jr. Wildcats WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "AJ Jr. Wildcats WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "AJ Jr. Wildcats WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "AJ Jr. Wildcats WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "AJ Junior Wildcats WC",
     "url_path_slug": "aj-jr-wildcats",
     "duplicates": [
@@ -646,6 +620,26 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "AJ Jr. Wildcats WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "AJ Jr. Wildcats WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "AJ Jr. Wildcats WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "AJ Jr. Wildcats WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "AJ Jr. Wildcats WC"
       },
