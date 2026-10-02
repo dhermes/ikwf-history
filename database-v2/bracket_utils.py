@@ -578,8 +578,9 @@ class TeamDuplicate(_ForbidExtra):
 
 def _verified_team_sort_func(
     team_duplicate: TeamDuplicate,
-) -> tuple[int, Division, str]:
-    return team_duplicate.to_tuple()
+) -> tuple[int, int]:
+    sort_id = division_sort_key_v1(team_duplicate.division)
+    return team_duplicate.tournament_id, sort_id
 
 
 class VerifiedTeam(_ForbidExtra):
