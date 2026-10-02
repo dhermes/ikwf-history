@@ -3192,6 +3192,11 @@
     "url_path_slug": "aurora-tomcats",
     "duplicates": [
       {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Tomcat W.C."
+      },
+      {
         "tournament_id": 15,
         "division": "senior",
         "name": "Aurora Tomcats"
@@ -3227,6 +3232,11 @@
         "name": "TOMCATS"
       },
       {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "TOMCAT WC"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "TOMCATS"
@@ -3242,6 +3252,11 @@
         "name": "TOMCAT WRESTLING"
       },
       {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "TOMCAT WRESTLING"
+      },
+      {
         "tournament_id": 25,
         "division": "novice",
         "name": "TOMCAT WC"
@@ -3253,7 +3268,17 @@
       },
       {
         "tournament_id": 26,
+        "division": "novice",
+        "name": "TOMCAT WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
         "division": "senior",
+        "name": "TOMCAT WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
         "name": "TOMCAT WRESTLING CLUB"
       },
       {
@@ -3395,6 +3420,16 @@
         "tournament_id": 49,
         "division": "senior",
         "name": "Tomcat WC"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "junior_iwf",
+        "name": "Tomcats"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Tomcats"
       },
       {
         "tournament_id": 10050,
@@ -83520,44 +83555,6 @@
     ]
   },
   {
-    "name_normalized": "TOMCAT WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "TOMCAT WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "TOMCAT WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "TOMCAT WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "TOMCAT WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "TOMCAT WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "TOMCAT WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "TRAILBLAZER",
     "url_path_slug": null,
     "duplicates": [
@@ -87093,33 +87090,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "TJ Trained-Springfield Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Tomcat W.C.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Tomcat W.C."
-      }
-    ]
-  },
-  {
-    "name_normalized": "Tomcats",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "junior_iwf",
-        "name": "Tomcats"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Tomcats"
       }
     ]
   },
