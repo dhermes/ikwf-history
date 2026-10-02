@@ -186,6 +186,40 @@ a {
   font-style: italic;
 }
 
+/* Bio image */
+
+.bio-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 2.5rem;
+  align-items: start;
+  margin-bottom: 3rem;
+}
+
+.bio-intro-text {
+  min-width: 0;
+}
+
+.bio-photo {
+  margin: 0;
+}
+
+.bio-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 14px rgba(23, 43, 61, 0.1);
+}
+
+.bio-photo figcaption {
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
 /* Mobile */
 
 @media (max-width: 700px) {
@@ -244,5 +278,15 @@ a {
 
   .bio-quote p {
     font-size: 1.25rem;
+  }
+
+  .bio-intro {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .bio-photo {
+    max-width: 320px;
+    margin: 0 auto;
   }
 }
