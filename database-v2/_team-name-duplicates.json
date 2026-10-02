@@ -77128,47 +77128,6 @@
     ]
   },
   {
-    "name_normalized": "Sauk Valley WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Sauk Valley WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Sauk Valley WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Sauk Valley WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Sauk Valley WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Sauk Valley WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Sauk Valley WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Sauk Valley WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Sauk Valley Wrestling Club",
     "url_path_slug": "sauk-valley",
     "duplicates": [
@@ -77399,6 +77358,41 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Sauk Valley WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Sauk Valley WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Sauk Valley WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Sauk Valley WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Sauk Valley WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Sauk Valley WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Sauk Valley WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Sauk Valley WC"
       },
