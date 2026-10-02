@@ -1299,20 +1299,14 @@
     ]
   },
   {
-    "name_normalized": "Aledo",
-    "url_path_slug": null,
+    "name_normalized": "Aledo Bear Country WC",
+    "url_path_slug": "aledo-bear-country",
     "duplicates": [
       {
         "tournament_id": 14,
         "division": "senior",
         "name": "Aledo"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Aledo Bear Country WC",
-    "url_path_slug": "aledo-bear-country",
-    "duplicates": [
+      },
       {
         "tournament_id": 29,
         "division": "senior",
