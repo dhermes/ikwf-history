@@ -446,29 +446,6 @@ WHERE
   id IN (10760);
 
 ----------------------------------------
--- Alber Athletics WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'Alber Athletics WC',
-  url_path_slug = NULL
-WHERE
-  id = 15511;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 15511
-WHERE
-  id IN (15511, 15647, 15787, 15935, 16070, 16185, 16467);
-
-DELETE FROM
-  team
-WHERE
-  id IN (15647, 15787, 15935, 16070, 16185, 16467);
-
-----------------------------------------
 -- Alber Athletics Wrestling Club
 
 UPDATE
@@ -484,12 +461,12 @@ UPDATE
 SET
   team_id = 10944
 WHERE
-  id IN (10944, 11106, 11266, 11428, 11592, 11805, 12018, 12231, 12444, 12671, 12898, 13125, 13353, 13623, 13893, 14163, 14433, 14703, 14973, 15243);
+  id IN (10944, 11106, 11266, 11428, 11592, 11805, 12018, 12231, 12444, 12671, 12898, 13125, 13353, 13623, 13893, 14163, 14433, 14703, 14973, 15243, 15511, 15647, 15787, 15935, 16070, 16185, 16467);
 
 DELETE FROM
   team
 WHERE
-  id IN (11106, 11266, 11428, 11592, 11805, 12018, 12231, 12444, 12671, 12898, 13125, 13353, 13623, 13893, 14163, 14433, 14703, 14973, 15243);
+  id IN (11106, 11266, 11428, 11592, 11805, 12018, 12231, 12444, 12671, 12898, 13125, 13353, 13623, 13893, 14163, 14433, 14703, 14973, 15243, 15511, 15647, 15787, 15935, 16070, 16185, 16467);
 
 ----------------------------------------
 -- Aledo Bear Country WC
@@ -500,19 +477,19 @@ SET
   name_normalized = 'Aledo Bear Country WC',
   url_path_slug = 'aledo-bear-country'
 WHERE
-  id = 3688;
+  id = 792;
 
 UPDATE
   tournament_team
 SET
-  team_id = 3688
+  team_id = 792
 WHERE
-  id IN (3688, 4045, 4170, 4636, 4764, 4907, 5080, 5256, 5551, 6197, 6381, 7685, 7875);
+  id IN (792, 3688, 4045, 4170, 4636, 4764, 4907, 5080, 5256, 5551, 6197, 6381, 7685, 7875);
 
 DELETE FROM
   team
 WHERE
-  id IN (4045, 4170, 4636, 4764, 4907, 5080, 5256, 5551, 6197, 6381, 7685, 7875);
+  id IN (3688, 4045, 4170, 4636, 4764, 4907, 5080, 5256, 5551, 6197, 6381, 7685, 7875);
 
 ----------------------------------------
 -- Alleman Jr Pioneer WC
@@ -523,19 +500,19 @@ SET
   name_normalized = 'Alleman Jr Pioneer WC',
   url_path_slug = 'alleman'
 WHERE
-  id = 4765;
+  id = 282;
 
 UPDATE
   tournament_team
 SET
-  team_id = 4765
+  team_id = 282
 WHERE
-  id IN (4765, 5257, 5691, 5837, 6016, 6198, 6382);
+  id IN (282, 621, 729, 840, 956, 1067, 1180, 1287, 1726, 1856, 1994, 2133, 2424, 2558, 2697, 2853, 2994, 3151, 3287, 3394, 4765, 5257, 5691, 5837, 6016, 6198, 6382, 6639, 6821, 6997, 7185, 7380, 7568, 8892, 9083, 9267, 9442, 9615, 9782, 9954, 10131, 10312, 10483, 10651, 10834, 11012, 11174, 11685, 11898, 12111, 12324, 13471, 13741, 14011, 14281, 14551, 14821, 15091, 15361);
 
 DELETE FROM
   team
 WHERE
-  id IN (5257, 5691, 5837, 6016, 6198, 6382);
+  id IN (621, 729, 840, 956, 1067, 1180, 1287, 1726, 1856, 1994, 2133, 2424, 2558, 2697, 2853, 2994, 3151, 3287, 3394, 4765, 5257, 5691, 5837, 6016, 6198, 6382, 6639, 6821, 6997, 7185, 7380, 7568, 8892, 9083, 9267, 9442, 9615, 9782, 9954, 10131, 10312, 10483, 10651, 10834, 11012, 11174, 11685, 11898, 12111, 12324, 13471, 13741, 14011, 14281, 14551, 14821, 15091, 15361);
 
 ----------------------------------------
 -- Alton Little Redbirds WC
@@ -15741,52 +15718,6 @@ WHERE
   id IN (2423, 2852, 2993, 3150);
 
 ----------------------------------------
--- JORDAN / SETON WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'JORDAN / SETON WC',
-  url_path_slug = NULL
-WHERE
-  id = 2133;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2133
-WHERE
-  id IN (2133, 2558);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2558);
-
-----------------------------------------
--- JORDAN / SETON WRESTLING
-
-UPDATE
-  team
-SET
-  name_normalized = 'JORDAN / SETON WRESTLING',
-  url_path_slug = NULL
-WHERE
-  id = 2697;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2697
-WHERE
-  id IN (2697, 2853, 2994, 3151, 3287, 3394);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2853, 2994, 3151, 3287, 3394);
-
-----------------------------------------
 -- JR GOLDEN EAGLES WC
 
 UPDATE
@@ -16452,75 +16383,6 @@ DELETE FROM
   team
 WHERE
   id IN (380, 508, 620, 728, 839);
-
-----------------------------------------
--- Jordan
-
-UPDATE
-  team
-SET
-  name_normalized = 'Jordan',
-  url_path_slug = NULL
-WHERE
-  id = 282;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 282
-WHERE
-  id IN (282, 621, 729, 840);
-
-DELETE FROM
-  team
-WHERE
-  id IN (621, 729, 840);
-
-----------------------------------------
--- Jordan / Seton Wrestling Club
-
-UPDATE
-  team
-SET
-  name_normalized = 'Jordan / Seton Wrestling Club',
-  url_path_slug = NULL
-WHERE
-  id = 1067;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1067
-WHERE
-  id IN (1067, 1180, 1856, 2424);
-
-DELETE FROM
-  team
-WHERE
-  id IN (1180, 1856, 2424);
-
-----------------------------------------
--- Jordan WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'Jordan WC',
-  url_path_slug = NULL
-WHERE
-  id = 956;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 956
-WHERE
-  id IN (956, 1287);
-
-DELETE FROM
-  team
-WHERE
-  id IN (1287);
 
 ----------------------------------------
 -- Jr Maroon WC
@@ -17211,52 +17073,6 @@ DELETE FROM
   team
 WHERE
   id IN (9082);
-
-----------------------------------------
--- Junior Pioneer WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'Junior Pioneer WC',
-  url_path_slug = NULL
-WHERE
-  id = 6639;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 6639
-WHERE
-  id IN (6639, 6821, 6997, 7185, 7380, 7568, 9267, 9442, 9615, 9782, 9954, 10131, 10312, 10483, 10651, 10834, 11012, 11174, 11685, 11898, 12111, 12324, 13471, 13741, 14011, 14281, 14551, 14821, 15091, 15361);
-
-DELETE FROM
-  team
-WHERE
-  id IN (6821, 6997, 7185, 7380, 7568, 9267, 9442, 9615, 9782, 9954, 10131, 10312, 10483, 10651, 10834, 11012, 11174, 11685, 11898, 12111, 12324, 13471, 13741, 14011, 14281, 14551, 14821, 15091, 15361);
-
-----------------------------------------
--- Junior Pioneer Wrestling Club
-
-UPDATE
-  team
-SET
-  name_normalized = 'Junior Pioneer Wrestling Club',
-  url_path_slug = NULL
-WHERE
-  id = 8892;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 8892
-WHERE
-  id IN (8892, 9083);
-
-DELETE FROM
-  team
-WHERE
-  id IN (9083);
 
 ----------------------------------------
 -- Junior Pirate WC
