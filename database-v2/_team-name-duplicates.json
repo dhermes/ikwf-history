@@ -3719,99 +3719,6 @@
     ]
   },
   {
-    "name_normalized": "BISMARCK HENNING WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "BISMARCK HENNING WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BISMARCK-HENNING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "BISMARCK-HENNING"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "BISMARCK-HENNING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "BISMARCK-HENNING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "BISMARCK-HENNING"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "BISMARCK-HENNING"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "BISMARCK-HENNING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "BISMARCK-HENNING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "BISMARCK-HENNING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "BISMARCK-HENNING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "BISMARCK-HENNING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "BISMARCK-HENNING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "BISMARCK-HENNING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "BISMARCK-HENNING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BISMARK-HENNING WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "BISMARK-HENNING WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "BISON",
     "url_path_slug": null,
     "duplicates": [
@@ -8024,57 +7931,19 @@
     ]
   },
   {
-    "name_normalized": "Bismarck",
-    "url_path_slug": null,
+    "name_normalized": "Bismarck-Henning Youth Wrestling Club",
+    "url_path_slug": "bismarck-henning",
     "duplicates": [
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Bismark-Henning"
+      },
       {
         "tournament_id": 9,
         "division": "senior",
         "name": "Bismarck"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bismarck Henning WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Bismarck Henning WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bismarck-Henning Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Bismarck-Henning Youth WC"
       },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Bismarck-Henning Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Bismarck-Henning Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Bismarck-Henning Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bismarck-Henning Youth Wrestling Club",
-    "url_path_slug": "bismarck-henning",
-    "duplicates": [
       {
         "tournament_id": 15,
         "division": "senior",
@@ -8091,6 +7960,11 @@
         "name": "Bismarck-Henning WC"
       },
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Bismarck Henning WC"
+      },
+      {
         "tournament_id": 19,
         "division": "senior",
         "name": "Bismarck Henning"
@@ -8104,6 +7978,76 @@
         "tournament_id": 21,
         "division": "senior",
         "name": "BISMARK - HENNING"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "BISMARK-HENNING WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "BISMARCK-HENNING"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "BISMARCK-HENNING"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "BISMARCK-HENNING"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "BISMARCK-HENNING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "BISMARCK-HENNING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "BISMARCK-HENNING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "BISMARCK-HENNING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "BISMARCK-HENNING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "BISMARCK-HENNING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "BISMARCK-HENNING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "BISMARCK-HENNING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "BISMARCK-HENNING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "BISMARCK-HENNING"
       },
       {
         "tournament_id": 29,
@@ -8144,6 +8088,11 @@
         "tournament_id": 33,
         "division": "senior",
         "name": "BISMARCK-HENNING WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "BISMARCK HENNING WC"
       },
       {
         "tournament_id": 34,
@@ -8341,6 +8290,26 @@
         "name": "Bismarck-Henning Youth WC"
       },
       {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Bismarck-Henning Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Bismarck-Henning Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Bismarck-Henning Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Bismarck-Henning Youth WC"
+      },
+      {
         "tournament_id": 10050,
         "division": "novice",
         "name": "Bismarck-Henning Youth WC"
@@ -8369,17 +8338,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Bismarck-Henning Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bismark-Henning",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Bismark-Henning"
       }
     ]
   },
