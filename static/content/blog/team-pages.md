@@ -25,7 +25,7 @@ shout out to:
 - Corey Atwell for brackets from 1987 and his bracket board from 1986
 - Collin McKillip for his two bracket boards from 1998 and 1999 (1998 is
   currently the **only** year I don't have champions for)
-- Clayton Norberg for his bracked board from 1999
+- Clayton Norberg for his bracket board from 1999
 - Don Stuckly for the 1975 bracket sheet and for his great ideas
 
 With these new sources of information, I've started to include the
