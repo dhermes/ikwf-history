@@ -11616,43 +11616,6 @@
     ]
   },
   {
-    "name_normalized": "CRESTWOOD COLTS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "CRESTWOOD COLTS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "CRESTWOOD COLTS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "CRESTWOOD COLTS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CRESTWOOD COLTS WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "CRESTWOOD COLTS WRESTLING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "CRESTWOOD COLTS WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "CRIMSON HEAT WC",
     "url_path_slug": null,
     "duplicates": [
@@ -16893,27 +16856,6 @@
     ]
   },
   {
-    "name_normalized": "Colts WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Colts WC"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Colts WC"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Colts WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Combative Sports Athletic Center",
     "url_path_slug": null,
     "duplicates": [
@@ -17561,9 +17503,24 @@
     "url_path_slug": "crestwood-colts",
     "duplicates": [
       {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Colts WC"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Colts WC"
+      },
+      {
         "tournament_id": 17,
         "division": "senior",
         "name": "Crestwood Colts WC"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Colts WC"
       },
       {
         "tournament_id": 18,
@@ -17589,6 +17546,31 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "CRESTWOOD"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "CRESTWOOD COLTS WRESTLING"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "CRESTWOOD COLTS WRESTLING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "CRESTWOOD COLTS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "CRESTWOOD COLTS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "CRESTWOOD COLTS"
       }
     ]
   },
