@@ -9,12 +9,18 @@ import bracket_utils
 import bs4
 import pydantic
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
+_NAME_OVERLAPS: dict[int, dict[str, str]] = {
+    2024: {
+        # Different names used in Rockford/Decatur
+        "Rochelle WC": "Rochelle Wrestling Club",
+    }
+}
 
 
 @functools.cache
 def _get_sql(filename: str) -> str:
-    with open(HERE / filename) as file_obj:
+    with open(_HERE / filename) as file_obj:
         return file_obj.read()
 
 
@@ -155,6 +161,7 @@ class Qualifier(_ForbidExtra):
     year: int
     division: bracket_utils.Division
     weight: int
+    team_name: str
     full_name: str
     place: int | None
 
@@ -323,7 +330,7 @@ def _get_placers_html_parts(
 
 
 def _get_qualifiers_html_parts(
-    static_root: pathlib.Path, qualifiers: list[Qualifier]
+    static_root: pathlib.Path, qualifiers: list[Qualifier], team_name_normalized: str
 ) -> list[str]:
     parts: list[str] = [
         '<section class="achievement-section qualifiers">',
@@ -340,12 +347,28 @@ def _get_qualifiers_html_parts(
     ]
 
     by_year: dict[int, list[Qualifier]] = {}
+    name_by_year: dict[int, str] = {}
     for qualifier in qualifiers:
         by_year.setdefault(qualifier.year, []).append(qualifier)
+        team_name = qualifier.team_name
+        team_name = _NAME_OVERLAPS.get(qualifier.year, {}).get(team_name, team_name)
+        if qualifier.year not in name_by_year:
+            name_by_year[qualifier.year] = team_name
+
+        if name_by_year[qualifier.year] != team_name:
+            raise RuntimeError(
+                "Multiple team names in one year",
+                qualifier.year,
+                team_name,
+                name_by_year[qualifier.year],
+                qualifier.team_name,
+            )
 
     years = sorted(by_year.keys(), reverse=True)
     for i, year in enumerate(years):
         year_qualifiers = by_year[year]
+        team_name = name_by_year[year]
+
         open_prop = ' open="open"' if i == 0 else ""
         qualifier_str = "qualifier" if len(year_qualifiers) == 1 else "qualifiers"
         summary_count = (
@@ -357,6 +380,7 @@ def _get_qualifiers_html_parts(
                 f"<details{open_prop}>",
                 "  <summary>",
                 f'    <span class="summary-year">{year}</span>',
+                f'    <span class="summary-team">{html.escape(team_name)}</span>',
                 summary_count,
                 "  </summary>",
                 "",
@@ -418,7 +442,7 @@ def _get_team_html(
         "",
         f"    <title>{html.escape(name)} &mdash; IKWF History</title>",
         "",
-        '    <link rel="stylesheet" href="/css/team-page.eccbb9f0.min.css" />',
+        '    <link rel="stylesheet" href="/css/team-page.aedd06ee.min.css" />',
         '    <link rel="stylesheet" href="/css/footer.cb84bd19.min.css" />',
         "  </head>",
         "",
@@ -482,7 +506,7 @@ def _get_team_html(
 
     parts.extend(_get_champs_html_parts(static_root, qualifiers))
     parts.extend(_get_placers_html_parts(static_root, qualifiers))
-    parts.extend(_get_qualifiers_html_parts(static_root, qualifiers))
+    parts.extend(_get_qualifiers_html_parts(static_root, qualifiers, name))
 
     parts.extend(
         [
@@ -510,11 +534,11 @@ def _get_team_html(
 
 
 def main() -> None:
-    static_root = HERE.parent / "static" / "static"
+    static_root = _HERE.parent / "static" / "static"
     teams_root = static_root / "teams"
     teams_root.mkdir(parents=True, exist_ok=True)
 
-    with sqlite3.connect(HERE / "ikwf.sqlite") as connection:
+    with sqlite3.connect(_HERE / "ikwf.sqlite") as connection:
         connection.row_factory = sqlite3.Row
 
         teams = _get_team_info(connection)

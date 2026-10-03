@@ -4,7 +4,8 @@ WITH tournament_qualifier AS (
     m.top_competitor_id AS competitor_id,
     b.division,
     b.weight,
-    t.year
+    t.year,
+    tt.name AS team_name
   FROM
     match AS m
     INNER JOIN tournament_competitor AS tc ON tc.id = m.top_competitor_id
@@ -20,7 +21,8 @@ WITH tournament_qualifier AS (
     m.bottom_competitor_id AS competitor_id,
     b.division,
     b.weight,
-    t.year
+    t.year,
+    tt.name AS team_name
   FROM
     match AS m
     INNER JOIN tournament_competitor AS tc ON tc.id = m.bottom_competitor_id
@@ -36,6 +38,7 @@ SELECT
   tq.year,
   tq.division,
   tq.weight,
+  tq.team_name,
   tc.full_name,
   pd.place
 FROM

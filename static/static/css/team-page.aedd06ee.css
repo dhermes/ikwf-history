@@ -331,8 +331,12 @@ a {
 
   font-size: 1.15rem;
   font-weight: 700;
+}
 
-  color: var(--navy);
+.summary-team {
+  margin-left: 0.45rem;
+  color: var(--muted);
+  font-size: 0.78rem;
 }
 
 .summary-count {
