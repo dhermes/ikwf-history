@@ -508,52 +508,6 @@
     ]
   },
   {
-    "name_normalized": "ARLINGTON CARDINALS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "ARLINGTON CARDINALS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ARLINGTON CARDINALS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "ARLINGTON CARDINALS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "ARLINGTON CARDINALS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "ARLINGTON CARDINALS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "ARLINGTON CARDINALS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "ARLINGTON CARDINALS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "ARLINGTON CARDINALS"
-      }
-    ]
-  },
-  {
     "name_normalized": "Academy Grapplers",
     "url_path_slug": null,
     "duplicates": [
@@ -2389,98 +2343,29 @@
     ]
   },
   {
-    "name_normalized": "Arlington",
-    "url_path_slug": null,
+    "name_normalized": "Arlington Cardinals Wrestling Club",
+    "url_path_slug": "arlington-cardinals",
     "duplicates": [
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Arlington Heights Cardinals"
+      },
       {
         "tournament_id": 13,
         "division": "senior",
         "name": "Arlington"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Arlington (AR)",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 14,
         "division": "senior",
         "name": "Arlington (AR)"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Arlington Cardinals",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "junior_iwf",
-        "name": "Arlington Cardinals"
       },
       {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Arlington Cardinals"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "Arlington Cardinals"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Arlington Cardinals WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
+        "tournament_id": 15,
         "division": "senior",
-        "name": "Arlington Cardinals WC"
+        "name": "Arlington Heights WC"
       },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Arlington Cardinals WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Arlington Cardinals WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Arlington Cardinals WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Arlington Cardinals WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Arlington Cardinals WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Arlington Cardinals WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Arlington Cardinals WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Arlington Cardinals Wrestling Club",
-    "url_path_slug": "arlington-cardinals",
-    "duplicates": [
       {
         "tournament_id": 16,
         "division": "senior",
@@ -2488,6 +2373,11 @@
       },
       {
         "tournament_id": 17,
+        "division": "senior",
+        "name": "Arlington Cardinals WC"
+      },
+      {
+        "tournament_id": 18,
         "division": "senior",
         "name": "Arlington Cardinals WC"
       },
@@ -2510,6 +2400,46 @@
         "tournament_id": 22,
         "division": "senior",
         "name": "ARLINGTON CARDINALS WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "ARLINGTON CARDINALS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ARLINGTON CARDINALS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "ARLINGTON CARDINALS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "ARLINGTON CARDINALS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "ARLINGTON CARDINALS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "ARLINGTON CARDINALS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "ARLINGTON CARDINALS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "ARLINGTON CARDINALS"
       },
       {
         "tournament_id": 31,
@@ -2777,6 +2707,56 @@
         "name": "Arlington Cardinals WC"
       },
       {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Arlington Cardinals WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Arlington Cardinals WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Arlington Cardinals WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Arlington Cardinals WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Arlington Cardinals WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Arlington Cardinals WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Arlington Cardinals WC"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "junior_iwf",
+        "name": "Arlington Cardinals"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Arlington Cardinals"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "Arlington Cardinals"
+      },
+      {
         "tournament_id": 10050,
         "division": "novice",
         "name": "Arlington Cardinals WC"
@@ -2805,28 +2785,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Arlington Cardinals WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Arlington Heights Cardinals",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Arlington Heights Cardinals"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Arlington Heights WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Arlington Heights WC"
       }
     ]
   },
