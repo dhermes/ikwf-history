@@ -7555,20 +7555,14 @@
     ]
   },
   {
-    "name_normalized": "Bethalto",
-    "url_path_slug": null,
+    "name_normalized": "Bethalto Bulls WC",
+    "url_path_slug": "bethalto-bulls",
     "duplicates": [
       {
         "tournament_id": 11,
         "division": "senior",
         "name": "Bethalto"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bethalto Boys Club",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 12,
         "division": "senior",
@@ -7579,17 +7573,6 @@
         "division": "senior",
         "name": "Bethalto Boys Club"
       },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Bethalto Boys Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bethalto Bulls WC",
-    "url_path_slug": "bethalto-bulls",
-    "duplicates": [
       {
         "tournament_id": 14,
         "division": "senior",
@@ -7607,6 +7590,11 @@
       },
       {
         "tournament_id": 17,
+        "division": "senior",
+        "name": "Bethalto Boys Club"
+      },
+      {
+        "tournament_id": 18,
         "division": "senior",
         "name": "Bethalto Boys Club"
       },
@@ -7729,6 +7717,276 @@
         "tournament_id": 37,
         "division": "senior",
         "name": "Bethalto Bulls WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "BULLS WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "BULLS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "BULLS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "BULLS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "BULLS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "BULLS WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Bulls Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Bulls Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Bulls WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Bulls WC"
       }
     ]
   },
@@ -10914,288 +11172,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Bulldog Youth Sports Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bulls WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "BULLS WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "BULLS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "BULLS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "BULLS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "BULLS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "BULLS WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Bulls WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Bulls WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bulls Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Bulls Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Bulls Wrestling Club"
       }
     ]
   },
