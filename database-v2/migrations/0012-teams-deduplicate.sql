@@ -15,21 +15,21 @@ UPDATE
   team
 SET
   name_normalized = '1006 Legacy Elite WC',
-  url_path_slug = NULL
+  url_path_slug = '1006'
 WHERE
-  id = 15644;
+  id = 8591;
 
 UPDATE
   tournament_team
 SET
-  team_id = 15644
+  team_id = 8591
 WHERE
-  id IN (15644, 15785, 15930);
+  id IN (8591, 8782, 8977, 9168, 9341, 9516, 9687, 9854, 10027, 10204, 10379, 10550, 10730, 10913, 11079, 11241, 15644, 15785, 15930);
 
 DELETE FROM
   team
 WHERE
-  id IN (15785, 15930);
+  id IN (8782, 8977, 9168, 9341, 9516, 9687, 9854, 10027, 10204, 10379, 10550, 10730, 10913, 11079, 11241, 15644, 15785, 15930);
 
 ----------------------------------------
 -- 309 Wrestling
@@ -38,7 +38,7 @@ UPDATE
   team
 SET
   name_normalized = '309 Wrestling',
-  url_path_slug = NULL
+  url_path_slug = '309-wrestling'
 WHERE
   id = 15645;
 
@@ -99,52 +99,6 @@ DELETE FROM
   team
 WHERE
   id IN (7490, 8058, 8245, 8432, 8623);
-
-----------------------------------------
--- ADDISON / INDIAN TRAIL
-
-UPDATE
-  team
-SET
-  name_normalized = 'ADDISON / INDIAN TRAIL',
-  url_path_slug = NULL
-WHERE
-  id = 2079;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2079
-WHERE
-  id IN (2079, 2208, 2357);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2208, 2357);
-
-----------------------------------------
--- ADDISON / INDIAN TRAIL ANIMALS
-
-UPDATE
-  team
-SET
-  name_normalized = 'ADDISON / INDIAN TRAIL ANIMALS',
-  url_path_slug = NULL
-WHERE
-  id = 1542;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1542
-WHERE
-  id IN (1542, 1669);
-
-DELETE FROM
-  team
-WHERE
-  id IN (1669);
 
 ----------------------------------------
 -- AJ Junior Wildcats WC
@@ -239,36 +193,13 @@ WHERE
   id IN (278, 379, 457, 1416, 1541, 1668, 1799, 1943, 2078, 2207, 2355, 2356, 2503, 2504, 2640, 2790);
 
 ----------------------------------------
--- Addison
-
-UPDATE
-  team
-SET
-  name_normalized = 'Addison',
-  url_path_slug = NULL
-WHERE
-  id = 203;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 203
-WHERE
-  id IN (203, 561, 3487, 3527);
-
-DELETE FROM
-  team
-WHERE
-  id IN (561, 3487, 3527);
-
-----------------------------------------
 -- Addison Indian Trail
 
 UPDATE
   team
 SET
   name_normalized = 'Addison Indian Trail',
-  url_path_slug = NULL
+  url_path_slug = 'addison-indian-trail'
 WHERE
   id = 172;
 
@@ -277,12 +208,12 @@ UPDATE
 SET
   team_id = 172
 WHERE
-  id IN (172, 1800, 2505);
+  id IN (172, 203, 276, 376, 561, 1542, 1669, 1800, 1944, 2079, 2208, 2357, 2505, 2791, 2937, 3487, 3527, 4169);
 
 DELETE FROM
   team
 WHERE
-  id IN (1800, 2505);
+  id IN (203, 276, 376, 561, 1542, 1669, 1800, 1944, 2079, 2208, 2357, 2505, 2791, 2937, 3487, 3527, 4169);
 
 ----------------------------------------
 -- Addison Street WC
@@ -16017,52 +15948,6 @@ WHERE
   id IN (2571);
 
 ----------------------------------------
--- LIL REAPER
-
-UPDATE
-  team
-SET
-  name_normalized = 'LIL REAPER',
-  url_path_slug = NULL
-WHERE
-  id = 2434;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2434
-WHERE
-  id IN (2434, 2572);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2572);
-
-----------------------------------------
--- LIL REAPER WRESTLING
-
-UPDATE
-  team
-SET
-  name_normalized = 'LIL REAPER WRESTLING',
-  url_path_slug = NULL
-WHERE
-  id = 1731;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1731
-WHERE
-  id IN (1731, 2278, 2708);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2278, 2708);
-
-----------------------------------------
 -- LIMESTONE YOUTH ROCKET
 
 UPDATE
@@ -17075,29 +16960,6 @@ WHERE
   id IN (9093);
 
 ----------------------------------------
--- Lil Reaper WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'Lil Reaper WC',
-  url_path_slug = NULL
-WHERE
-  id = 1072;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1072
-WHERE
-  id IN (1072, 1475, 1599, 1864, 2003, 7765, 7955, 8142, 8329, 8518, 8709, 10658, 10841, 11691, 11904, 12117, 12330, 12547, 12774, 13001, 13228, 13479, 13749, 14019, 14289, 14559, 14829, 15099, 15369, 15572, 16536);
-
-DELETE FROM
-  team
-WHERE
-  id IN (1475, 1599, 1864, 2003, 7765, 7955, 8142, 8329, 8518, 8709, 10658, 10841, 11691, 11904, 12117, 12330, 12547, 12774, 13001, 13228, 13479, 13749, 14019, 14289, 14559, 14829, 15099, 15369, 15572, 16536);
-
-----------------------------------------
 -- Lil Storm Youth
 
 UPDATE
@@ -17150,21 +17012,21 @@ UPDATE
   team
 SET
   name_normalized = 'Lil'' Reaper WC',
-  url_path_slug = NULL
+  url_path_slug = 'lil-reaper'
 WHERE
-  id = 1186;
+  id = 385;
 
 UPDATE
   tournament_team
 SET
-  team_id = 1186
+  team_id = 385
 WHERE
-  id IN (1186, 1295);
+  id IN (385, 533, 650, 759, 871, 1072, 1186, 1295, 1475, 1599, 1731, 1864, 2003, 2278, 2434, 2572, 2708, 3043, 3201, 7765, 7955, 8142, 8329, 8518, 8709, 10658, 10841, 11691, 11904, 12117, 12330, 12547, 12774, 13001, 13228, 13479, 13749, 14019, 14289, 14559, 14829, 15099, 15369, 15572, 16536);
 
 DELETE FROM
   team
 WHERE
-  id IN (1295);
+  id IN (533, 650, 759, 871, 1072, 1186, 1295, 1475, 1599, 1731, 1864, 2003, 2278, 2434, 2572, 2708, 3043, 3201, 7765, 7955, 8142, 8329, 8518, 8709, 10658, 10841, 11691, 11904, 12117, 12330, 12547, 12774, 13001, 13228, 13479, 13749, 14019, 14289, 14559, 14829, 15099, 15369, 15572, 16536);
 
 ----------------------------------------
 -- Lil' Roughnecks
@@ -24044,29 +23906,6 @@ WHERE
   id IN (3200);
 
 ----------------------------------------
--- PLANO WRESTLING CLUB
-
-UPDATE
-  team
-SET
-  name_normalized = 'PLANO WRESTLING CLUB',
-  url_path_slug = NULL
-WHERE
-  id = 3043;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 3043
-WHERE
-  id IN (3043, 3201);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3201);
-
-----------------------------------------
 -- PLT PROPHETS WC
 
 UPDATE
@@ -25146,29 +24985,6 @@ DELETE FROM
   team
 WHERE
   id IN (4256);
-
-----------------------------------------
--- Plano
-
-UPDATE
-  team
-SET
-  name_normalized = 'Plano',
-  url_path_slug = NULL
-WHERE
-  id = 533;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 533
-WHERE
-  id IN (533, 650, 759, 871);
-
-DELETE FROM
-  team
-WHERE
-  id IN (650, 759, 871);
 
 ----------------------------------------
 -- Plt Prophets WC
@@ -26296,29 +26112,6 @@ DELETE FROM
   team
 WHERE
   id IN (1644);
-
-----------------------------------------
--- ROXANA WRESTLING
-
-UPDATE
-  team
-SET
-  name_normalized = 'ROXANA WRESTLING',
-  url_path_slug = NULL
-WHERE
-  id = 3058;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 3058
-WHERE
-  id IN (3058, 3215, 3324, 3433);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3215, 3324, 3433);
 
 ----------------------------------------
 -- RTC Wrestling
@@ -28161,29 +27954,6 @@ WHERE
   id IN (8013, 8198, 8385);
 
 ----------------------------------------
--- Roxana
-
-UPDATE
-  team
-SET
-  name_normalized = 'Roxana',
-  url_path_slug = NULL
-WHERE
-  id = 314;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 314
-WHERE
-  id IN (314, 542);
-
-DELETE FROM
-  team
-WHERE
-  id IN (542);
-
-----------------------------------------
 -- Roxana Jr. High
 
 UPDATE
@@ -28207,29 +27977,6 @@ WHERE
   id IN (766);
 
 ----------------------------------------
--- Roxana Kids Wrestling Club
-
-UPDATE
-  team
-SET
-  name_normalized = 'Roxana Kids Wrestling Club',
-  url_path_slug = NULL
-WHERE
-  id = 3655;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 3655
-WHERE
-  id IN (3655, 3775, 3894, 4008, 4136, 4266, 4430, 4598, 4730, 4873, 5037, 5211, 5365, 5515, 5971, 6150, 6331, 6515, 6702, 6884, 7068, 7256, 7444, 7632, 7824, 8014, 8199, 8386, 10011, 10188, 11752, 11965, 12178, 12391, 12614, 12841, 13068, 13295, 13551, 13821, 14091, 14361, 14631, 14901, 15171, 15441);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3775, 3894, 4008, 4136, 4266, 4430, 4598, 4730, 4873, 5037, 5211, 5365, 5515, 5971, 6150, 6331, 6515, 6702, 6884, 7068, 7256, 7444, 7632, 7824, 8014, 8199, 8386, 10011, 10188, 11752, 11965, 12178, 12391, 12614, 12841, 13068, 13295, 13551, 13821, 14091, 14361, 14631, 14901, 15171, 15441);
-
-----------------------------------------
 -- Roxana Outlaws
 
 UPDATE
@@ -28251,29 +27998,6 @@ DELETE FROM
   team
 WHERE
   id IN (9146, 9320, 9495, 9672, 9839);
-
-----------------------------------------
--- Roxana Park District
-
-UPDATE
-  team
-SET
-  name_normalized = 'Roxana Park District',
-  url_path_slug = NULL
-WHERE
-  id = 767;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 767
-WHERE
-  id IN (767, 881);
-
-DELETE FROM
-  team
-WHERE
-  id IN (881);
 
 ----------------------------------------
 -- Roxana Roughnecks
@@ -28322,27 +28046,27 @@ WHERE
   id IN (1216, 1329);
 
 ----------------------------------------
--- Roxana WC
+-- Roxana Wrestling Club
 
 UPDATE
   team
 SET
-  name_normalized = 'Roxana WC',
-  url_path_slug = NULL
+  name_normalized = 'Roxana Wrestling Club',
+  url_path_slug = 'roxana'
 WHERE
-  id = 15748;
+  id = 314;
 
 UPDATE
   tournament_team
 SET
-  team_id = 15748
+  team_id = 314
 WHERE
-  id IN (15748, 15893, 16286);
+  id IN (314, 542, 658, 767, 881, 882, 992, 3058, 3215, 3324, 3433, 3655, 3775, 3894, 4008, 4136, 4266, 4430, 4598, 4730, 4873, 5037, 5211, 5365, 5515, 5971, 6150, 6331, 6515, 6702, 6884, 7068, 7256, 7444, 7632, 7824, 8014, 8199, 8386, 10011, 10188, 11752, 11965, 12178, 12391, 12614, 12841, 13068, 13295, 13551, 13821, 14091, 14361, 14631, 14901, 15171, 15441, 15748, 15893, 16286);
 
 DELETE FROM
   team
 WHERE
-  id IN (15893, 16286);
+  id IN (542, 658, 767, 881, 882, 992, 3058, 3215, 3324, 3433, 3655, 3775, 3894, 4008, 4136, 4266, 4430, 4598, 4730, 4873, 5037, 5211, 5365, 5515, 5971, 6150, 6331, 6515, 6702, 6884, 7068, 7256, 7444, 7632, 7824, 8014, 8199, 8386, 10011, 10188, 11752, 11965, 12178, 12391, 12614, 12841, 13068, 13295, 13551, 13821, 14091, 14361, 14631, 14901, 15171, 15441, 15748, 15893, 16286);
 
 ----------------------------------------
 -- Rwc
@@ -31724,52 +31448,6 @@ DELETE FROM
   team
 WHERE
   id IN (4023, 4445, 4613);
-
-----------------------------------------
--- Team 1006
-
-UPDATE
-  team
-SET
-  name_normalized = 'Team 1006',
-  url_path_slug = NULL
-WHERE
-  id = 8591;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 8591
-WHERE
-  id IN (8591, 8782, 8977, 9168);
-
-DELETE FROM
-  team
-WHERE
-  id IN (8782, 8977, 9168);
-
-----------------------------------------
--- Team 1006 Wrestling
-
-UPDATE
-  team
-SET
-  name_normalized = 'Team 1006 Wrestling',
-  url_path_slug = NULL
-WHERE
-  id = 9341;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 9341
-WHERE
-  id IN (9341, 9516, 9687, 9854, 10027, 10204, 10379, 10550, 10730, 10913, 11079, 11241);
-
-DELETE FROM
-  team
-WHERE
-  id IN (9516, 9687, 9854, 10027, 10204, 10379, 10550, 10730, 10913, 11079, 11241);
 
 ----------------------------------------
 -- Team 312
