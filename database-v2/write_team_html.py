@@ -24,6 +24,7 @@ _COACH_BIOS: dict[str, dict[str, str]] = {
 _TEAM_LOGOS: dict[str, str] = {
     "dakota": "dakota.png",
     "fox-valley": "fox-valley.png",
+    "rochelle": "rochelle.jpg",
 }
 
 
