@@ -3866,17 +3866,6 @@
     ]
   },
   {
-    "name_normalized": "BOYS & GIRLS CLUB PEKIN",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "BOYS & GIRLS CLUB PEKIN"
-      }
-    ]
-  },
-  {
     "name_normalized": "BOYS & GIRLS OF FREEPORT",
     "url_path_slug": null,
     "duplicates": [
@@ -9678,14 +9667,54 @@
     "url_path_slug": "bg-pekin",
     "duplicates": [
       {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Pekin"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Pekin B.C."
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Pekin"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Pekin"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Pekin"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Pekin"
+      },
+      {
         "tournament_id": 15,
         "division": "senior",
         "name": "Boys Club of Pekin"
       },
       {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Pekin"
+      },
+      {
         "tournament_id": 16,
         "division": "senior",
         "name": "Boys Club of Pekin"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Pekin Boys Club"
       },
       {
         "tournament_id": 20,
@@ -9698,7 +9727,57 @@
         "name": "PEKIN BOYS CLUB"
       },
       {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "BOYS & GIRLS CLUB PEKIN"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "PEKIN"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "PEKIN"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "PEKIN BOYS CLUB"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "PEKIN BOYS CLUB"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "PEKIN BOYS CLUB"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "PEKIN BOYS CLUB"
+      },
+      {
         "tournament_id": 26,
+        "division": "novice",
+        "name": "PEKIN BOYS CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "PEKIN BOYS CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "PEKIN BOYS CLUB"
+      },
+      {
+        "tournament_id": 27,
         "division": "senior",
         "name": "PEKIN BOYS CLUB"
       },
@@ -9911,6 +9990,41 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Pekin Boys & Girls Club"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Pekin Boys & Girls Club WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Pekin Boys & Girls Club WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Pekin Boys & Girls Club WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Pekin Boys & Girls Club WC"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "junior_iwf",
+        "name": "Pekin"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Pekin"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "Pekin"
       },
       {
         "tournament_id": 10050,
@@ -64187,63 +64301,6 @@
     ]
   },
   {
-    "name_normalized": "PEKIN",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "PEKIN"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "PEKIN"
-      }
-    ]
-  },
-  {
-    "name_normalized": "PEKIN BOYS CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "PEKIN BOYS CLUB"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "PEKIN BOYS CLUB"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "PEKIN BOYS CLUB"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "PEKIN BOYS CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "PEKIN BOYS CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "PEKIN BOYS CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "PEKIN BOYS CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "PEORIA",
     "url_path_slug": null,
     "duplicates": [
@@ -65992,105 +66049,6 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Paxton Youth Wrestling Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Pekin",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Pekin"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Pekin"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Pekin"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Pekin"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Pekin"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Pekin"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "junior_iwf",
-        "name": "Pekin"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Pekin"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "Pekin"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Pekin B.C.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Pekin B.C."
-      }
-    ]
-  },
-  {
-    "name_normalized": "Pekin Boys & Girls Club WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Pekin Boys & Girls Club WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Pekin Boys & Girls Club WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Pekin Boys & Girls Club WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Pekin Boys & Girls Club WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Pekin Boys Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Pekin Boys Club"
       }
     ]
   },
