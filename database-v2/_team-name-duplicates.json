@@ -12,8 +12,78 @@
   },
   {
     "name_normalized": "1006 Legacy Elite WC",
-    "url_path_slug": null,
+    "url_path_slug": "1006",
     "duplicates": [
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Team 1006"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Team 1006"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Team 1006"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Team 1006"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Team 1006 Wrestling"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Team 1006 Wrestling"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Team 1006 Wrestling"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Team 1006 Wrestling"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Team 1006 Wrestling"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Team 1006 Wrestling"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Team 1006 Wrestling"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Team 1006 Wrestling"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Team 1006 Wrestling"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Team 1006 Wrestling"
+      },
       {
         "tournament_id": 54,
         "division": "intermediate",
@@ -28,6 +98,16 @@
         "tournament_id": 54,
         "division": "senior",
         "name": "1006 Legacy Elite WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Team 1006 Wrestling"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Team 1006 Wrestling"
       }
     ]
   },
@@ -83155,98 +83235,6 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "TAZEWELL COUNTY KIDZ WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Team 1006",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Team 1006"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Team 1006"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Team 1006"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Team 1006"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Team 1006 Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Team 1006 Wrestling"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Team 1006 Wrestling"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Team 1006 Wrestling"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Team 1006 Wrestling"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Team 1006 Wrestling"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Team 1006 Wrestling"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Team 1006 Wrestling"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Team 1006 Wrestling"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Team 1006 Wrestling"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Team 1006 Wrestling"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Team 1006 Wrestling"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Team 1006 Wrestling"
       }
     ]
   },
