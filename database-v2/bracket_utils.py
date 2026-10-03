@@ -578,9 +578,9 @@ class TeamDuplicate(_ForbidExtra):
 
 def _verified_team_sort_func(
     team_duplicate: TeamDuplicate,
-) -> tuple[int, int]:
+) -> tuple[int, int, str]:
     sort_id = division_sort_key_v1(team_duplicate.division)
-    return team_duplicate.tournament_id, sort_id
+    return team_duplicate.tournament_id, sort_id, team_duplicate.name
 
 
 class VerifiedTeam(_ForbidExtra):
@@ -590,6 +590,20 @@ class VerifiedTeam(_ForbidExtra):
 
     def sort(self) -> None:
         self.duplicates.sort(key=_verified_team_sort_func)
+
+        ensure_uniques: dict[int, dict[Division, str]] = {}
+        for team_duplicate in self.duplicates:
+            by_division = ensure_uniques.setdefault(team_duplicate.tournament_id, {})
+            if team_duplicate.division in by_division:
+                raise RuntimeError(
+                    "Duplicate teams in same tournament",
+                    team_duplicate.tournament_id,
+                    team_duplicate.division,
+                    team_duplicate.name,
+                    by_division[team_duplicate.division],
+                )
+
+            by_division[team_duplicate.division] = team_duplicate.name
 
 
 def _duplicate_sort_func(verified_team: VerifiedTeam) -> tuple[str, str | None]:
