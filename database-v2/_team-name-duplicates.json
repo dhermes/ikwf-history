@@ -28312,35 +28312,139 @@
     ]
   },
   {
-    "name_normalized": "Force Elite",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Force Elite"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Force Elite"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Force Elite"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Force Elite"
-      }
-    ]
-  },
-  {
     "name_normalized": "Force Elite WC",
-    "url_path_slug": null,
+    "url_path_slug": "force",
     "duplicates": [
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Force Wrestling"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Force Wrestling"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "FORCE WRESTLING"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "FORCE WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "FORCE WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "FORCE WRESTLING"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "FORCE WRESTLING"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "FORCE WRESTLING"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Force Wrestling"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Force Wrestling"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Force WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Force WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Force WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Force WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Force WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Force WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Force Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Force Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Force WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Force WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Force WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Force WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Force WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Force WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Force Elite"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Force Elite"
+      },
       {
         "tournament_id": 50,
         "division": "novice",
@@ -28462,6 +28566,16 @@
         "name": "Force Elite WC"
       },
       {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Force Elite"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Force Elite"
+      },
+      {
         "tournament_id": 10052,
         "division": "bantam",
         "name": "Force Elite WC"
@@ -28480,144 +28594,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Force Elite WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Force WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Force WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Force WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Force WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Force WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Force WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Force WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Force WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Force WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Force WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Force WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Force WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Force WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Force Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Force Wrestling"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Force Wrestling"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "FORCE WRESTLING"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "FORCE WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "FORCE WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "FORCE WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "FORCE WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "FORCE WRESTLING"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Force Wrestling"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Force Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Force Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Force Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Force Wrestling Club"
       }
     ]
   },
