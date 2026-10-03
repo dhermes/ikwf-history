@@ -11211,49 +11211,6 @@
     ]
   },
   {
-    "name_normalized": "CALUMET MEMORIAL PARK",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "CALUMET MEMORIAL PARK"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "CALUMET MEMORIAL PARK"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CALUMET MEMORIAL PD",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "CALUMET MEMORIAL PD"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "CALUMET MEMORIAL PD"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CALUMET MEMORIAL PD WOLVERINES",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "CALUMET MEMORIAL PD WOLVERINES"
-      }
-    ]
-  },
-  {
     "name_normalized": "CAMP POINT CENTRAL",
     "url_path_slug": null,
     "duplicates": [
@@ -12347,24 +12304,28 @@
     ]
   },
   {
-    "name_normalized": "Calumet Memorial Park District",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Calumet Memorial Park District"
-      }
-    ]
-  },
-  {
     "name_normalized": "Calumet Memorial Park District Wolverines",
     "url_path_slug": "calumet-wolverines",
     "duplicates": [
       {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Calumet Park District"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Calumet Park"
+      },
+      {
         "tournament_id": 16,
         "division": "senior",
         "name": "Calumet Memorial PD"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Calumet Memorial Park District"
       },
       {
         "tournament_id": 20,
@@ -12380,6 +12341,31 @@
         "tournament_id": 22,
         "division": "senior",
         "name": "CALUMET MEMORIAL PD"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "CALUMET MEMORIAL PD WOLVERINES"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "CALUMET MEMORIAL PD"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "CALUMET MEMORIAL PD"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "CALUMET MEMORIAL PARK"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "CALUMET MEMORIAL PARK"
       },
       {
         "tournament_id": 35,
@@ -12475,28 +12461,6 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Calumet Memorial PD Wolverines"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Calumet Park",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Calumet Park"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Calumet Park District",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Calumet Park District"
       }
     ]
   },
