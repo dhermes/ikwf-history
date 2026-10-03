@@ -16,6 +16,11 @@ _NAME_OVERLAPS: dict[int, dict[str, str]] = {
         "Rochelle WC": "Rochelle Wrestling Club",
     }
 }
+_COACH_BIOS: dict[str, dict[str, str]] = {
+    "dakota": {
+        "pete-alber": "Pete Alber",
+    },
+}
 
 
 @functools.cache
@@ -442,7 +447,7 @@ def _get_team_html(
         "",
         f"    <title>{html.escape(name)} &mdash; IKWF History</title>",
         "",
-        '    <link rel="stylesheet" href="/css/team-page.aedd06ee.min.css" />',
+        '    <link rel="stylesheet" href="/css/team-page.6e2a271c.min.css" />',
         '    <link rel="stylesheet" href="/css/footer.cb84bd19.min.css" />',
         "  </head>",
         "",
@@ -495,6 +500,26 @@ def _get_team_html(
                 "        </div>",
             ]
         )
+
+    coach_bios = _COACH_BIOS.get(team.url_path_slug, {})
+    if coach_bios:
+        coach_text = "coach" if len(coach_bios) == 1 else "coaches"
+        parts.extend(
+            [
+                '<aside class="team-coach-bios" aria-label="Historical coaches">',
+                '  <span class="coach-bios-label">FROM THE ARCHIVE</span>',
+                "  <p>",
+                f"    Learn about the {coach_text} who shaped this club:",
+            ]
+        )
+
+        for i, (slug, coach_name) in enumerate(coach_bios.items()):
+            if i != 0:
+                parts.append('    <span class="coach-bios-separator">&middot;</span>')
+
+            parts.append(f'    <a href="/bios/{slug}/">{coach_name}</a>')
+
+        parts.extend(["  </p>", "</aside>"])
 
     parts.extend(
         [
