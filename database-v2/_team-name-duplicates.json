@@ -68725,57 +68725,6 @@
     ]
   },
   {
-    "name_normalized": "RICH WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "RICH WRESTLING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "RICH WRESTLING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "RICH WRESTLING"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "RICH WRESTLING"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "RICH WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "RICH WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "RICH WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "RICH WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "RICH WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "RICHMOND",
     "url_path_slug": null,
     "duplicates": [
@@ -70622,6 +70571,126 @@
     "url_path_slug": "rich-rattlers",
     "duplicates": [
       {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Rich Township"
+      },
+      {
+        "tournament_id": 10,
+        "division": "senior",
+        "name": "Rich Township"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Rich Township"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Rich Township"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Rich Township"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Rich Township"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Rich Wrestling Ltd."
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Rich Wrestling Ltd."
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Rich Wrestling LTD"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Rich Wrestling Ltd."
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Rich Wrestling LTD"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "RICH WRESTLING LTD."
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "RICH WRESTLING"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "RICH WRESTLING"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "RICH WRESTLING"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "RICH WRESTLING"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "RICH WRESTLING"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "RICH WRESTLING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "RICH WRESTLING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "RICH WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "RICH WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "RICH WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "RICH WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "RICH WRESTLING"
+      },
+      {
         "tournament_id": 32,
         "division": "novice",
         "name": "RICH RATTLERS WC"
@@ -70690,49 +70759,7 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "RICH RATTLERS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rich Township",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Rich Township"
       },
-      {
-        "tournament_id": 10,
-        "division": "senior",
-        "name": "Rich Township"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Rich Township"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Rich Township"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Rich Township"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Rich Township"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rich Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 10028,
         "division": "junior_iwf",
@@ -70747,63 +70774,6 @@
         "tournament_id": 10028,
         "division": "senior_iwf",
         "name": "Rich Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rich Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Rich Wrestling Ltd."
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Rich Wrestling Ltd."
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Rich Wrestling LTD"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Rich Wrestling LTD"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "RICH WRESTLING LTD."
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "RICH WRESTLING"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "RICH WRESTLING"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "RICH WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rich Wrestling Ltd.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Rich Wrestling Ltd."
       }
     ]
   },
