@@ -11211,32 +11211,6 @@
     ]
   },
   {
-    "name_normalized": "CAMP POINT CENTRAL",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "CAMP POINT CENTRAL"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "CAMP POINT CENTRAL"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "CAMP POINT CENTRAL"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "CAMP POINT CENTRAL"
-      }
-    ]
-  },
-  {
     "name_normalized": "CARBONDALE",
     "url_path_slug": null,
     "duplicates": [
@@ -12468,6 +12442,26 @@
     "name_normalized": "Camp Point Youth Wrestling",
     "url_path_slug": "camp-point",
     "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "CAMP POINT CENTRAL"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "CAMP POINT CENTRAL"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "CAMP POINT CENTRAL"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "CAMP POINT CENTRAL"
+      },
       {
         "tournament_id": 31,
         "division": "novice",
