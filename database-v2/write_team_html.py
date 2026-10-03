@@ -119,7 +119,7 @@ def _teams_landing_html(teams: list[TeamInfo]) -> str:
         parts.extend(
             [
                 "      <li>",
-                f'        <a href="/teams/{team.url_path_slug}/index.html">',
+                f'        <a href="/teams/{team.url_path_slug}/">',
                 f'          <span class="team-name">{html_name}</span>',
                 "        </a>",
                 "      </li>",
