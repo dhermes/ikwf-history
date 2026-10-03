@@ -3608,37 +3608,6 @@
     ]
   },
   {
-    "name_normalized": "BELLEVILLE LITTLE DEVILS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "BELLEVILLE LITTLE DEVILS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "BELLEVILLE LITTLE DEVILS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "BELLEVILLE LITTLE DEVILS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "BELLEVILLE LITTLE DEVILS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "BELLEVILLE LITTLE DEVILS"
-      }
-    ]
-  },
-  {
     "name_normalized": "BELVIDERE",
     "url_path_slug": null,
     "duplicates": [
@@ -6322,32 +6291,6 @@
     ]
   },
   {
-    "name_normalized": "Belleville",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 2,
-        "division": "senior",
-        "name": "Belleville"
-      },
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Belleville"
-      },
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Belleville"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Belleville"
-      }
-    ]
-  },
-  {
     "name_normalized": "Belleville Junior Hit Squad",
     "url_path_slug": null,
     "duplicates": [
@@ -6374,9 +6317,34 @@
     ]
   },
   {
-    "name_normalized": "Belleville Little Devils",
-    "url_path_slug": null,
+    "name_normalized": "Belleville Little Devils Wrestling Club",
+    "url_path_slug": "belleville-devils",
     "duplicates": [
+      {
+        "tournament_id": 2,
+        "division": "senior",
+        "name": "Belleville"
+      },
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Belleville"
+      },
+      {
+        "tournament_id": 6,
+        "division": "senior",
+        "name": "Belleville"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Belleville"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Belleville"
+      },
       {
         "tournament_id": 12,
         "division": "senior",
@@ -6386,53 +6354,6 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Belleville Little Devils"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Belleville Little Devils WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Belleville Little Devils WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Belleville Little Devils WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Belleville Little Devils WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Belleville Little Devils WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Belleville Little Devils WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Belleville Little Devils WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Belleville Little Devils Wrestling Club",
-    "url_path_slug": "belleville-devils",
-    "duplicates": [
-      {
-        "tournament_id": 6,
-        "division": "senior",
-        "name": "Belleville"
       },
       {
         "tournament_id": 14,
@@ -6453,6 +6374,11 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Belleville Little Devils"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Belleville Little Devils WC"
       },
       {
         "tournament_id": 19,
@@ -6480,6 +6406,16 @@
         "name": "LITTLE DEVILS"
       },
       {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "LITTLE DEVILS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "LITTLE DEVILS"
+      },
+      {
         "tournament_id": 24,
         "division": "senior",
         "name": "LITTLE DEVILS"
@@ -6490,8 +6426,18 @@
         "name": "BELLEVILLE LITTLE DEVILS"
       },
       {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "BELLEVILLE LITTLE DEVILS"
+      },
+      {
         "tournament_id": 26,
         "division": "novice",
+        "name": "BELLEVILLE LITTLE DEVILS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
         "name": "BELLEVILLE LITTLE DEVILS"
       },
       {
@@ -6505,8 +6451,23 @@
         "name": "BELLEVILLE LITTLE DEVILS"
       },
       {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "BELLEVILLE LITTLE DEVILS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "BELLEVILLE LITTLE DEVILS"
+      },
+      {
         "tournament_id": 29,
         "division": "novice",
+        "name": "BELLEVILLE LITTLE DEVILS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
         "name": "BELLEVILLE LITTLE DEVILS"
       },
       {
@@ -6756,6 +6717,31 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Belleville Little Devils WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Belleville Little Devils WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Belleville Little Devils WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Belleville Little Devils WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Belleville Little Devils WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Belleville Little Devils WC"
       },
@@ -45095,22 +45081,6 @@
         "tournament_id": 24,
         "division": "senior",
         "name": "LITTLE CELTICS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LITTLE DEVILS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "LITTLE DEVILS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "LITTLE DEVILS"
       }
     ]
   },
