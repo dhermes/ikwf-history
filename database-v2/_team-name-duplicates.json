@@ -11297,17 +11297,6 @@
     ]
   },
   {
-    "name_normalized": "CENTRAL WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "CENTRAL WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "CENTRALIA",
     "url_path_slug": null,
     "duplicates": [
@@ -14006,22 +13995,6 @@
     ]
   },
   {
-    "name_normalized": "Central",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Central"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "Central"
-      }
-    ]
-  },
-  {
     "name_normalized": "Central Elite Rebels",
     "url_path_slug": null,
     "duplicates": [
@@ -14311,6 +14284,11 @@
         "name": "CENTRAL WC"
       },
       {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "CENTRAL WC"
+      },
+      {
         "tournament_id": 36,
         "division": "novice",
         "name": "CENTRAL WC"
@@ -14324,6 +14302,16 @@
         "tournament_id": 37,
         "division": "senior",
         "name": "Central WC"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Central"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "Central"
       }
     ]
   },
