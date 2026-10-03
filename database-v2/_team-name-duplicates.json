@@ -11297,32 +11297,6 @@
     ]
   },
   {
-    "name_normalized": "CHAMPAIGN CHARGER KIDS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "CHAMPAIGN CHARGER KIDS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "CHAMPAIGN CHARGER KIDS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "CHAMPAIGN CHARGER KIDS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "CHAMPAIGN CHARGER KIDS"
-      }
-    ]
-  },
-  {
     "name_normalized": "CHARGER KIDS",
     "url_path_slug": null,
     "duplicates": [
@@ -14460,32 +14434,6 @@
     ]
   },
   {
-    "name_normalized": "Champaign",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 7,
-        "division": "senior",
-        "name": "Champaign"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Champaign"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Champaign"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Champaign"
-      }
-    ]
-  },
-  {
     "name_normalized": "Champaign Jr. High",
     "url_path_slug": null,
     "duplicates": [
@@ -14501,9 +14449,39 @@
     "url_path_slug": "champaign-kids",
     "duplicates": [
       {
+        "tournament_id": 6,
+        "division": "senior",
+        "name": "Champaign W.C."
+      },
+      {
+        "tournament_id": 7,
+        "division": "senior",
+        "name": "Champaign"
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Champaign W.C."
+      },
+      {
         "tournament_id": 9,
         "division": "senior",
         "name": "Champaign W.C."
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Champaign"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Champaign"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Champaign"
       },
       {
         "tournament_id": 14,
@@ -14524,6 +14502,26 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "CHARGER KIDS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "CHAMPAIGN CHARGER KIDS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "CHAMPAIGN CHARGER KIDS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "CHAMPAIGN CHARGER KIDS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "CHAMPAIGN CHARGER KIDS"
       },
       {
         "tournament_id": 29,
@@ -14811,6 +14809,31 @@
         "name": "Champaign WC"
       },
       {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Champaign WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Champaign WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Champaign WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Champaign WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Champaign WC"
+      },
+      {
         "tournament_id": 10050,
         "division": "novice",
         "name": "Champaign WC"
@@ -14838,53 +14861,6 @@
       {
         "tournament_id": 10052,
         "division": "intermediate_girls",
-        "name": "Champaign WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Champaign W.C.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 6,
-        "division": "senior",
-        "name": "Champaign W.C."
-      },
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Champaign W.C."
-      }
-    ]
-  },
-  {
-    "name_normalized": "Champaign WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Champaign WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Champaign WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Champaign WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Champaign WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
         "name": "Champaign WC"
       }
     ]
