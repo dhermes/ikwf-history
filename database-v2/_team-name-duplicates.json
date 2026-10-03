@@ -10121,37 +10121,6 @@
     ]
   },
   {
-    "name_normalized": "Brawlers WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Brawlers WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Brawlers WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Brawlers WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Brawlers WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Brawlers WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Brawlers Wrestling Club",
     "url_path_slug": "brawlers",
     "duplicates": [
@@ -10407,6 +10376,31 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Brawlers WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Brawlers WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Brawlers WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Brawlers WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Brawlers WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Brawlers WC"
       },
