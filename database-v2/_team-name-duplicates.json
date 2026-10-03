@@ -58878,38 +58878,6 @@
     ]
   },
   {
-    "name_normalized": "NAPERVILLE WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "NAPERVILLE WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "NAPERVILLE WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "NAPERVILLE WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "NAPERVILLE WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "NAPERVILLE WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "NEIGHBORHOODD HOUSE RAZORBACKS",
     "url_path_slug": null,
     "duplicates": [
@@ -59234,11 +59202,83 @@
     ]
   },
   {
-    "name_normalized": "Naperville WC",
+    "name_normalized": "Naperville Warhawks",
     "url_path_slug": null,
     "duplicates": [
       {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Naperville Warhawks"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Naperville Warhawks"
+      },
+      {
         "tournament_id": 16,
+        "division": "senior",
+        "name": "Naperville Warhawks"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Naperville Warhawks"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "NAPERVILLE WARHAWKS"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Naperville Warriors",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Naperville Warriors"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Naperville Warriors"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Naperville Warriors"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "NAPERVILLE WARRIORS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "NAPERVILLE WARRIORS"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Naperville Wrestling Club",
+    "url_path_slug": "naperville-wc",
+    "duplicates": [
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Naperville Wrestlers"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Naperville Wrestlers"
+      },
+      {
+        "tournament_id": 17,
         "division": "senior",
         "name": "Naperville Wrestlers"
       },
@@ -59250,6 +59290,26 @@
       {
         "tournament_id": 27,
         "division": "novice",
+        "name": "NAPERVILLE WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "NAPERVILLE WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "NAPERVILLE WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "NAPERVILLE WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
         "name": "NAPERVILLE WRESTLING CLUB"
       },
       {
@@ -59383,6 +59443,16 @@
         "name": "Naperville WC"
       },
       {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Naperville Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Naperville Wrestling Club"
+      },
+      {
         "tournament_id": 46,
         "division": "novice",
         "name": "Naperville WC"
@@ -59551,100 +59621,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Naperville WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Naperville Warhawks",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Naperville Warhawks"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Naperville Warhawks"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Naperville Warhawks"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Naperville Warhawks"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "NAPERVILLE WARHAWKS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Naperville Warriors",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Naperville Warriors"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Naperville Warriors"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Naperville Warriors"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "NAPERVILLE WARRIORS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "NAPERVILLE WARRIORS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Naperville Wrestlers",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Naperville Wrestlers"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Naperville Wrestlers"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Naperville Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Naperville Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Naperville Wrestling Club"
       }
     ]
   },
