@@ -12581,37 +12581,6 @@
     ]
   },
   {
-    "name_normalized": "Caravan Kids WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Caravan Kids WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Caravan Kids WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Caravan Kids WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Caravan Kids WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Caravan Kids WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Caravan Kids Wrestling Club",
     "url_path_slug": "caravan-kids",
     "duplicates": [
@@ -12703,6 +12672,31 @@
       {
         "tournament_id": 53,
         "division": "senior_girls",
+        "name": "Caravan Kids WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Caravan Kids WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Caravan Kids WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Caravan Kids WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Caravan Kids WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
         "name": "Caravan Kids WC"
       },
       {
