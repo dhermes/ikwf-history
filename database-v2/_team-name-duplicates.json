@@ -44453,43 +44453,6 @@
     ]
   },
   {
-    "name_normalized": "LIL REAPER",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "LIL REAPER"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "LIL REAPER"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LIL REAPER WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "LIL REAPER WRESTLING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "LIL REAPER WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "LIL REAPER WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "LIL' STORM YOUTH WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -46812,178 +46775,6 @@
     ]
   },
   {
-    "name_normalized": "Lil Reaper W.C.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Lil Reaper W.C."
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lil Reaper WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "LIL' REAPER"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "LIL REAPER"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "LIL REAPER"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "LIL REAPER"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Lil Reaper WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Lil Reaper WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Lil Storm Youth",
     "url_path_slug": null,
     "duplicates": [
@@ -47022,8 +46813,38 @@
   },
   {
     "name_normalized": "Lil' Reaper WC",
-    "url_path_slug": null,
+    "url_path_slug": "lil-reaper",
     "duplicates": [
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Lil Reaper W.C."
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Plano"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Plano"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Plano"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Plano"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Lil Reaper WC"
+      },
       {
         "tournament_id": 17,
         "division": "senior",
@@ -47033,6 +46854,191 @@
         "tournament_id": 18,
         "division": "senior",
         "name": "Lil' Reaper WC"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "LIL' REAPER"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "LIL REAPER"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "LIL REAPER WRESTLING"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "LIL REAPER"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "LIL REAPER"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "LIL REAPER WRESTLING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "LIL REAPER"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "LIL REAPER"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "LIL REAPER WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "PLANO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "PLANO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Lil Reaper WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Lil Reaper WC"
       }
     ]
   },
@@ -64266,22 +64272,6 @@
     ]
   },
   {
-    "name_normalized": "PLANO WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "PLANO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "PLANO WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "PLT PROPHETS WC",
     "url_path_slug": null,
     "duplicates": [
@@ -67077,32 +67067,6 @@
         "tournament_id": 31,
         "division": "senior",
         "name": "PLAINFIELD WOLVES WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Plano",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Plano"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Plano"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Plano"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Plano"
       }
     ]
   },
