@@ -89627,38 +89627,6 @@
     ]
   },
   {
-    "name_normalized": "W.F. THUNDERBIRD",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "W.F. THUNDERBIRD"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "W.F. THUNDERBIRD"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "W.F. THUNDERBIRD"
-      }
-    ]
-  },
-  {
-    "name_normalized": "W.F. THUNDERBIRD WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "W.F. THUNDERBIRD WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "WARHAWK WC",
     "url_path_slug": null,
     "duplicates": [
@@ -90028,63 +89996,6 @@
         "tournament_id": 20,
         "division": "senior",
         "name": "WEST CHICAGO WILDCATS P.D."
-      }
-    ]
-  },
-  {
-    "name_normalized": "WEST FRANKFORT REDBIRDS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "WEST FRANKFORT REDBIRDS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "WEST FRANKFORT REDBIRDS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "WEST FRANKFORT REDBIRDS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "WEST FRANKFORT REDBIRDS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "WEST FRANKFORT REDBIRDS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "WEST FRANKFORT REDBIRDS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "WEST FRANKFORT REDBIRDS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WEST FRANKFORT THUNDERBIRDS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "WEST FRANKFORT THUNDERBIRDS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "WEST FRANKFORT THUNDERBIRDS"
       }
     ]
   },
@@ -91625,55 +91536,114 @@
     ]
   },
   {
-    "name_normalized": "West Frankfort Jr. Redbirds",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "West Frankfort Jr. Redbirds"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "West Frankfort Jr. Redbirds"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "West Frankfort Jr. Redbirds"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "West Frankfort Jr. Redbirds"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "West Frankfort Jr. Redbirds"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "West Frankfort Jr. Redbirds"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "West Frankfort Jr. Redbirds"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "West Frankfort Jr. Redbirds"
-      }
-    ]
-  },
-  {
     "name_normalized": "West Frankfort Jr. Redbirds WC",
-    "url_path_slug": null,
+    "url_path_slug": "west-frankfort-redbirds",
     "duplicates": [
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "WEST FRANKFORT THUNDERBIRDS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "W.F. THUNDERBIRD"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "W.F. THUNDERBIRD"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "W.F. THUNDERBIRD"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "W.F. THUNDERBIRD WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "WEST FRANKFORT THUNDERBIRDS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "WEST FRANKFORT REDBIRDS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "WEST FRANKFORT REDBIRDS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "WEST FRANKFORT REDBIRDS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "WEST FRANKFORT REDBIRDS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "WEST FRANKFORT REDBIRDS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "WEST FRANKFORT REDBIRDS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "WEST FRANKFORT REDBIRDS"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "West Frankfort Jr. Redbirds"
+      },
       {
         "tournament_id": 51,
         "division": "novice",
