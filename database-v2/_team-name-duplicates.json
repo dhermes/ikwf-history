@@ -230,6 +230,22 @@
     ]
   },
   {
+    "name_normalized": "ADAMS JR. COUGARS",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "ADAMS JR. COUGARS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "ADAMS JR. COUGARS"
+      }
+    ]
+  },
+  {
     "name_normalized": "AJ Junior Wildcats WC",
     "url_path_slug": "aj-jr-wildcats",
     "duplicates": [
@@ -3806,6 +3822,17 @@
     ]
   },
   {
+    "name_normalized": "BLACKHAWK II",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "BLACKHAWK II"
+      }
+    ]
+  },
+  {
     "name_normalized": "BLAZER WC",
     "url_path_slug": null,
     "duplicates": [
@@ -6958,6 +6985,32 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Belvidere Bandits WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Belvidere WC",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Belvidere WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Belvidere WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Belvidere WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Belvidere WC"
       }
     ]
   },
@@ -16745,6 +16798,17 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Collinsville WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Colts WC",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Colts WC"
       }
     ]
   },
@@ -65712,6 +65776,17 @@
     ]
   },
   {
+    "name_normalized": "Pekin",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Pekin"
+      }
+    ]
+  },
+  {
     "name_normalized": "Peoria",
     "url_path_slug": null,
     "duplicates": [
@@ -73874,6 +73949,17 @@
         "tournament_id": 47,
         "division": "senior",
         "name": "Roxana Outlaws"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Roxana Park District",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Roxana Park District"
       }
     ]
   },
