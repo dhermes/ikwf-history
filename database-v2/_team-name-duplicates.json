@@ -5021,8 +5021,8 @@
     ]
   },
   {
-    "name_normalized": "Barrington",
-    "url_path_slug": null,
+    "name_normalized": "Barrington Broncos Wrestling Club",
+    "url_path_slug": "barrington-broncos",
     "duplicates": [
       {
         "tournament_id": 10,
@@ -5043,44 +5043,7 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Barrington Colts"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Barrington Broncos WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Barrington Broncos WC"
       },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Barrington Broncos WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Barrington Broncos WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Barrington Broncos WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Barrington Broncos WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Barrington Broncos Wrestling Club",
-    "url_path_slug": "barrington-broncos",
-    "duplicates": [
       {
         "tournament_id": 15,
         "division": "senior",
@@ -5318,6 +5281,31 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Barrington Broncos WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Barrington Broncos WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Barrington Broncos WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Barrington Broncos WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Barrington Broncos WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Barrington Broncos WC"
       },
