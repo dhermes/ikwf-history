@@ -26872,47 +26872,6 @@
     ]
   },
   {
-    "name_normalized": "FRANKLIN PARK RAIDERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "FRANKLIN PARK RAIDERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "FRANKLIN PARK RAIDERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "FRANKLIN PARK RAIDERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "FRANKLIN PARK RAIDERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "FRANKLIN PARK RAIDERS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "FRANKLIN PARK RAIDERS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "FRANKLIN PARK RAIDERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "FREEPORT BOYS AND GIRLS",
     "url_path_slug": null,
     "duplicates": [
@@ -29701,8 +29660,8 @@
     ]
   },
   {
-    "name_normalized": "Franklin Park",
-    "url_path_slug": null,
+    "name_normalized": "Franklin Park Raiders",
+    "url_path_slug": "franklin-park-raiders",
     "duplicates": [
       {
         "tournament_id": 4,
@@ -29730,6 +29689,11 @@
         "name": "Franklin Park"
       },
       {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Franklin Park Raiders"
+      },
+      {
         "tournament_id": 13,
         "division": "senior",
         "name": "Franklin Park"
@@ -29738,17 +29702,6 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Franklin Park"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Franklin Park Raiders",
-    "url_path_slug": "franklin-park-raiders",
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Franklin Park Raiders"
       },
       {
         "tournament_id": 15,
@@ -29794,6 +29747,41 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "FRANKLIN PARK"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "FRANKLIN PARK RAIDERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "FRANKLIN PARK RAIDERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "FRANKLIN PARK RAIDERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "FRANKLIN PARK RAIDERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "FRANKLIN PARK RAIDERS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "FRANKLIN PARK RAIDERS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "FRANKLIN PARK RAIDERS"
       },
       {
         "tournament_id": 30,
