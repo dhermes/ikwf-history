@@ -9425,17 +9425,6 @@
     ]
   },
   {
-    "name_normalized": "Bolingbrook",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Bolingbrook"
-      }
-    ]
-  },
-  {
     "name_normalized": "Bolingbrook Girls WC",
     "url_path_slug": null,
     "duplicates": [
@@ -9450,6 +9439,11 @@
     "name_normalized": "Bolingbrook Junior Raiders WC",
     "url_path_slug": "bolingbrook",
     "duplicates": [
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Bolingbrook"
+      },
       {
         "tournament_id": 40,
         "division": "novice",
