@@ -3768,75 +3768,6 @@
     ]
   },
   {
-    "name_normalized": "BLACKHAWK",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "BLACKHAWK"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BLACKHAWK II",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "BLACKHAWK II"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BLACKHAWK WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "BLACKHAWK WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "BLACKHAWK WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "BLACKHAWK WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "BLACKHAWK WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BLACKHAWK WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "BLACKHAWK WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "BLACKHAWK WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "BLACKHAWK WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "BLAZER WC",
     "url_path_slug": null,
     "duplicates": [
@@ -8546,68 +8477,6 @@
     ]
   },
   {
-    "name_normalized": "Blackhawk",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "junior_iwf",
-        "name": "Blackhawk"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Blackhawk"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "Blackhawk"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Blackhawk WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Blackhawk WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Blackhawk WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Blackhawk WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Blackhawk WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Blackhawk WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Blackhawk WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Blackhawk WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Blackhawk Wrestling Club",
     "url_path_slug": "blackhawk",
     "duplicates": [
@@ -8627,6 +8496,11 @@
         "name": "Blackhawk WC"
       },
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Blackhawk WC"
+      },
+      {
         "tournament_id": 20,
         "division": "senior",
         "name": "BLACKHAWK WC"
@@ -8642,8 +8516,53 @@
         "name": "BLACKHAWK WC"
       },
       {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "BLACKHAWK"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "BLACKHAWK II"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "BLACKHAWK WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "BLACKHAWK WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "BLACKHAWK WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "BLACKHAWK WC"
+      },
+      {
         "tournament_id": 26,
         "division": "novice",
+        "name": "BLACKHAWK WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "BLACKHAWK WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "BLACKHAWK WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
         "name": "BLACKHAWK WRESTLING CLUB"
       },
       {
@@ -8895,6 +8814,51 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Blackhawk WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Blackhawk WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Blackhawk WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Blackhawk WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Blackhawk WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Blackhawk WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Blackhawk WC"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "junior_iwf",
+        "name": "Blackhawk"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Blackhawk"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "Blackhawk"
       },
       {
         "tournament_id": 10050,
