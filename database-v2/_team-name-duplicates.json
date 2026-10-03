@@ -15798,8 +15798,8 @@
     ]
   },
   {
-    "name_normalized": "Chicago Ridge",
-    "url_path_slug": null,
+    "name_normalized": "Chicago Ridge PD",
+    "url_path_slug": "chicago-ridge",
     "duplicates": [
       {
         "tournament_id": 4,
@@ -15807,23 +15807,12 @@
         "name": "Chicago Ridge"
       },
       {
-        "tournament_id": 7,
+        "tournament_id": 6,
         "division": "senior",
         "name": "Chicago Ridge"
       },
       {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Chicago Ridge"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Chicago Ridge PD",
-    "url_path_slug": "chicago-ridge",
-    "duplicates": [
-      {
-        "tournament_id": 6,
+        "tournament_id": 7,
         "division": "senior",
         "name": "Chicago Ridge"
       },
@@ -15849,6 +15838,11 @@
       },
       {
         "tournament_id": 12,
+        "division": "senior",
+        "name": "Chicago Ridge"
+      },
+      {
+        "tournament_id": 13,
         "division": "senior",
         "name": "Chicago Ridge"
       },
