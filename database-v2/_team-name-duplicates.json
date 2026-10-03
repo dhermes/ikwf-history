@@ -3576,54 +3576,6 @@
     ]
   },
   {
-    "name_normalized": "BATAVIA",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "BATAVIA"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "BATAVIA"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BATAVIA PINNERS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "BATAVIA PINNERS WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "BATAVIA PINNERS WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "BATAVIA PINNERS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BATAVIA PINNERS WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "BATAVIA PINNERS WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "BEAR COUNTRY WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -5441,8 +5393,8 @@
     ]
   },
   {
-    "name_normalized": "Batavia",
-    "url_path_slug": null,
+    "name_normalized": "Batavia Wrestling Club",
+    "url_path_slug": "batavia-wc",
     "duplicates": [
       {
         "tournament_id": 6,
@@ -5450,215 +5402,17 @@
         "name": "Batavia"
       },
       {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Batavia"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Batavia Pinners",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Batavia Pinners"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Batavia Pinners"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "BATAVIA PINNERS"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Batavia Pinners"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Batavia Pinners"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Batavia Pinners"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Batavia Pinners"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Batavia Pinners"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Batavia Pinners"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Batavia WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Batavia WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Batavia WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Batavia WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Batavia WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Batavia WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Batavia WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Batavia WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Batavia Wrestling Club",
-    "url_path_slug": "batavia-wc",
-    "duplicates": [
-      {
         "tournament_id": 8,
         "division": "senior",
         "name": "Batavia Wrestling Club"
       },
       {
         "tournament_id": 11,
+        "division": "senior",
+        "name": "Batavia"
+      },
+      {
+        "tournament_id": 12,
         "division": "senior",
         "name": "Batavia"
       },
@@ -5673,14 +5427,194 @@
         "name": "Batavia WC"
       },
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Batavia WC"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "BATAVIA"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "BATAVIA"
+      },
+      {
         "tournament_id": 23,
         "division": "senior",
         "name": "BATAVIA"
       },
       {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "BATAVIA PINNERS WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "BATAVIA PINNERS WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "BATAVIA PINNERS WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "BATAVIA PINNERS WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "BATAVIA PINNERS"
+      },
+      {
         "tournament_id": 36,
         "division": "novice",
         "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Batavia Pinners"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Batavia Pinners"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "BATAVIA PINNERS"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Batavia Pinners"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Batavia Pinners"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Batavia Pinners"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Batavia Pinners"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Batavia Pinners"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Batavia Pinners"
       },
       {
         "tournament_id": 44,
@@ -5819,6 +5753,36 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Batavia WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Batavia WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Batavia WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Batavia WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Batavia WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Batavia WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Batavia WC"
       },
