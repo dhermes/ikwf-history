@@ -95108,22 +95108,6 @@
     ]
   },
   {
-    "name_normalized": "Xtreme WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Xtreme WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Xtreme WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Xtreme Wrestling Club",
     "url_path_slug": "xtreme-wc",
     "duplicates": [
@@ -95349,6 +95333,16 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Xtreme WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Xtreme WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Xtreme WC"
       },
