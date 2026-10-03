@@ -21,6 +21,10 @@ _COACH_BIOS: dict[str, dict[str, str]] = {
         "pete-alber": "Pete Alber",
     },
 }
+_TEAM_LOGOS: dict[str, str] = {
+    "dakota": "dakota.png",
+    "fox-valley": "fox-valley.png",
+}
 
 
 @functools.cache
@@ -463,13 +467,31 @@ def _get_team_html(
         f"            <h1>{html.escape(name)}</h1>",
         "          </div>",
         "",
-        "          <img",
-        '            class="header-logo"',
-        '            src="/images/ikwf-logo-300x300.png"',
-        '            alt="Illinois Kids Wrestling Federation"',
-        "          />",
-        "        </div>",
     ]
+
+    team_logo = _TEAM_LOGOS.get(team.url_path_slug)
+    if team_logo is None:
+        parts.extend(
+            [
+                "          <img",
+                '            class="header-logo"',
+                '            src="/images/ikwf-logo-300x300.png"',
+                '            alt="Illinois Kids Wrestling Federation"',
+                "          />",
+                "        </div>",
+            ]
+        )
+    else:
+        parts.extend(
+            [
+                "          <img",
+                '            class="header-logo"',
+                f'            src="/images/logos/{team_logo}"',
+                f'            alt="{html.escape(name)}"',
+                "          />",
+                "        </div>",
+            ]
+        )
 
     if (
         state_champion_count > 1
