@@ -60431,142 +60431,6 @@
     ]
   },
   {
-    "name_normalized": "Nwo WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "nWo WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "nWo WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "O'Fallon Little Panthers",
     "url_path_slug": null,
     "duplicates": [
@@ -96180,8 +96044,108 @@
   },
   {
     "name_normalized": "nWo WC",
-    "url_path_slug": null,
+    "url_path_slug": "nwo",
     "duplicates": [
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "nWo WC"
+      },
       {
         "tournament_id": 54,
         "division": "bantam",
@@ -96205,6 +96169,36 @@
       {
         "tournament_id": 54,
         "division": "novice_girls",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "nWo WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
         "name": "nWo WC"
       }
     ]
