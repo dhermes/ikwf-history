@@ -230,87 +230,6 @@
     ]
   },
   {
-    "name_normalized": "ADDISON / INDIAN TRAIL",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "ADDISON / INDIAN TRAIL"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ADDISON / INDIAN TRAIL"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "ADDISON / INDIAN TRAIL"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ADDISON / INDIAN TRAIL ANIMALS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "ADDISON / INDIAN TRAIL ANIMALS"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "ADDISON / INDIAN TRAIL ANIMALS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ADDISON ANIMAL WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "ADDISON ANIMAL WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ADDISON ANIMALS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "ADDISON ANIMALS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ADDISON ANIMALS / INDIAN TRAIL",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "ADDISON ANIMALS / INDIAN TRAIL"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ADDISON INDIAN TRAIL",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "ADDISON INDIAN TRAIL"
-      }
-    ]
-  },
-  {
     "name_normalized": "AJ Junior Wildcats WC",
     "url_path_slug": "aj-jr-wildcats",
     "duplicates": [
@@ -1006,18 +925,88 @@
     ]
   },
   {
-    "name_normalized": "Addison",
-    "url_path_slug": null,
+    "name_normalized": "Addison Indian Trail",
+    "url_path_slug": "addison-indian-trail",
     "duplicates": [
+      {
+        "tournament_id": 6,
+        "division": "senior",
+        "name": "Addison Indian Trail"
+      },
       {
         "tournament_id": 7,
         "division": "senior",
         "name": "Addison"
       },
       {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Indian Trails / Addison"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Indian Trail / Addison"
+      },
+      {
         "tournament_id": 12,
         "division": "senior",
         "name": "Addison"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "ADDISON / INDIAN TRAIL ANIMALS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "ADDISON / INDIAN TRAIL ANIMALS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "ADDISON INDIAN TRAIL"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "ADDISON INDIAN TRAIL"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "ADDISON / INDIAN TRAIL"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ADDISON / INDIAN TRAIL"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "ADDISON / INDIAN TRAIL"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "ADDISON / INDIAN TRAIL"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "ADDISON ANIMALS / INDIAN TRAIL"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "ADDISON ANIMAL WRESTLING"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "ADDISON ANIMALS"
       },
       {
         "tournament_id": 10028,
@@ -1028,27 +1017,6 @@
         "tournament_id": 10028,
         "division": "senior_iwf",
         "name": "Addison"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Addison Indian Trail",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 6,
-        "division": "senior",
-        "name": "Addison Indian Trail"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "ADDISON INDIAN TRAIL"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "ADDISON / INDIAN TRAIL"
       }
     ]
   },
@@ -39878,17 +39846,6 @@
     ]
   },
   {
-    "name_normalized": "Indian Trail / Addison",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Indian Trail / Addison"
-      }
-    ]
-  },
-  {
     "name_normalized": "Indian Trail Jr. High",
     "url_path_slug": null,
     "duplicates": [
@@ -39928,17 +39885,6 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Indian Trail-Plainfield"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Indian Trails / Addison",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Indian Trails / Addison"
       }
     ]
   },
