@@ -11355,27 +11355,6 @@
     ]
   },
   {
-    "name_normalized": "CHARLESTON WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "CHARLESTON WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "CHARLESTON WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "CHARLESTON WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "CHATHAM",
     "url_path_slug": null,
     "duplicates": [
@@ -15292,8 +15271,8 @@
     ]
   },
   {
-    "name_normalized": "Charleston",
-    "url_path_slug": null,
+    "name_normalized": "Charleston Wrestling Club",
+    "url_path_slug": "charleston",
     "duplicates": [
       {
         "tournament_id": 4,
@@ -15301,31 +15280,24 @@
         "name": "Charleston"
       },
       {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "Charleston"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Charleston WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Charleston WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Charleston Wrestling Club",
-    "url_path_slug": "charleston",
-    "duplicates": [
-      {
         "tournament_id": 23,
         "division": "novice",
         "name": "CHARLESTON"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "CHARLESTON WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "CHARLESTON WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "CHARLESTON WRESTLING CLUB"
       },
       {
         "tournament_id": 31,
@@ -15546,6 +15518,16 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Charleston WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Charleston WC"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "Charleston"
       }
     ]
   },
