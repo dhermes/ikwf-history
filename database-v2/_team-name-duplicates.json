@@ -90000,17 +90000,6 @@
     ]
   },
   {
-    "name_normalized": "WEST FRANKFORT WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "WEST FRANKFORT WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "WESTVILLE",
     "url_path_slug": null,
     "duplicates": [
@@ -91464,81 +91453,29 @@
     ]
   },
   {
-    "name_normalized": "West Frankfort Jr WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "WEST FRANKFORT REDBIRDS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "WEST FRANKFORT REDBIRDS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "WEST FRANKFORT JR WC"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "WEST FRANKFORT JR WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "West Frankfort Jr Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "West Frankfort Jr Wrestling"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "West Frankfort Jr Wrestling"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "WEST FRANKFORT JR WRESTLING"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "WEST FRANKFORT JR WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "WEST FRANKFORT JR WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "WEST FRANKFORT JR WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "WEST FRANKFORT JR WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "WEST FRANKFORT JR WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "West Frankfort Jr. Redbirds WC",
     "url_path_slug": "west-frankfort-redbirds",
     "duplicates": [
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "West Frankfort WC"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "West Frankfort WC"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "West Frankfort WC"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "WEST FRANKFORT WRESTLING"
+      },
       {
         "tournament_id": 21,
         "division": "senior",
@@ -91605,156 +91542,25 @@
         "name": "WEST FRANKFORT REDBIRDS"
       },
       {
-        "tournament_id": 44,
+        "tournament_id": 30,
         "division": "novice",
-        "name": "West Frankfort Jr. Redbirds"
+        "name": "WEST FRANKFORT REDBIRDS"
       },
       {
-        "tournament_id": 44,
+        "tournament_id": 30,
         "division": "senior",
-        "name": "West Frankfort Jr. Redbirds"
+        "name": "WEST FRANKFORT REDBIRDS"
       },
       {
-        "tournament_id": 45,
+        "tournament_id": 31,
         "division": "novice",
-        "name": "West Frankfort Jr. Redbirds"
+        "name": "WEST FRANKFORT JR WC"
       },
       {
-        "tournament_id": 45,
+        "tournament_id": 31,
         "division": "senior",
-        "name": "West Frankfort Jr. Redbirds"
+        "name": "WEST FRANKFORT JR WC"
       },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "West Frankfort Jr. Redbirds"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "West Frankfort Jr. Redbirds"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "West Frankfort Jr. Redbirds"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "West Frankfort Jr. Redbirds"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "West Frankfort Jr. Redbirds WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "West Frankfort Jr. Redbirds WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "West Frankfort Jr. WC",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 32,
         "division": "novice",
@@ -91779,27 +91585,191 @@
         "tournament_id": 34,
         "division": "senior",
         "name": "WEST FRANKFORT JR. WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "West Frankfort WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "West Frankfort WC"
       },
       {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "West Frankfort WC"
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "West Frankfort Jr Wrestling"
       },
       {
-        "tournament_id": 18,
+        "tournament_id": 37,
         "division": "senior",
-        "name": "West Frankfort WC"
+        "name": "West Frankfort Jr Wrestling"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "WEST FRANKFORT JR WRESTLING"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "WEST FRANKFORT JR WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "WEST FRANKFORT JR WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "WEST FRANKFORT JR WRESTLING"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "WEST FRANKFORT JR WRESTLING"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "WEST FRANKFORT JR WRESTLING"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "West Frankfort Jr. Redbirds"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "West Frankfort Jr. Redbirds WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "West Frankfort Jr. Redbirds WC"
       }
     ]
   },
