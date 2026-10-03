@@ -14866,20 +14866,14 @@
     ]
   },
   {
-    "name_normalized": "Champbuilder Kids WC",
-    "url_path_slug": null,
+    "name_normalized": "Champbuilders WC",
+    "url_path_slug": "champbuilders",
     "duplicates": [
       {
         "tournament_id": 18,
         "division": "senior",
         "name": "Champbuilder Kids WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Champbuilders WC",
-    "url_path_slug": "champbuilders",
-    "duplicates": [
+      },
       {
         "tournament_id": 39,
         "division": "novice",
