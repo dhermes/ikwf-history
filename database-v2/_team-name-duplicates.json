@@ -26817,22 +26817,6 @@
     ]
   },
   {
-    "name_normalized": "FOX LAKE LAKELAND",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "FOX LAKE LAKELAND"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "FOX LAKE LAKELAND"
-      }
-    ]
-  },
-  {
     "name_normalized": "FOX VALLEY CRONE WC",
     "url_path_slug": null,
     "duplicates": [
@@ -28724,8 +28708,8 @@
     ]
   },
   {
-    "name_normalized": "Fox Lake",
-    "url_path_slug": null,
+    "name_normalized": "Fox Lake Wrestling Club",
+    "url_path_slug": "fox-lake-wc",
     "duplicates": [
       {
         "tournament_id": 11,
@@ -28736,59 +28720,17 @@
         "tournament_id": 12,
         "division": "senior",
         "name": "Fox Lake"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Fox Lake WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Fox Lake WC"
       },
       {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Fox Lake WC"
-      },
-      {
-        "tournament_id": 54,
+        "tournament_id": 26,
         "division": "novice",
-        "name": "Fox Lake WC"
+        "name": "FOX LAKE LAKELAND"
       },
       {
-        "tournament_id": 54,
+        "tournament_id": 26,
         "division": "senior",
-        "name": "Fox Lake WC"
+        "name": "FOX LAKE LAKELAND"
       },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Fox Lake WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Fox Lake WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Fox Lake WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Fox Lake WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Fox Lake Wrestling Club",
-    "url_path_slug": "fox-lake-wc",
-    "duplicates": [
       {
         "tournament_id": 40,
         "division": "novice",
@@ -28956,6 +28898,46 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Fox Lake WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Fox Lake WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Fox Lake WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Fox Lake WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Fox Lake WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Fox Lake WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Fox Lake WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Fox Lake WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Fox Lake WC"
       },
