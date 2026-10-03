@@ -3608,75 +3608,6 @@
     ]
   },
   {
-    "name_normalized": "BELVIDERE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "BELVIDERE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BELVIDERE BANDIT WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "BELVIDERE BANDIT WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "BELVIDERE BANDIT WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BELVIDERE BANDITS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "BELVIDERE BANDITS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "BELVIDERE BANDITS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "BELVIDERE BANDITS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "BELVIDERE BANDITS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BELVIDERE BANDITS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "BELVIDERE BANDITS WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "BELVIDERE BANDITS WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "BENSENVILLE BISON",
     "url_path_slug": null,
     "duplicates": [
@@ -6800,13 +6731,18 @@
     ]
   },
   {
-    "name_normalized": "Belvidere",
-    "url_path_slug": null,
+    "name_normalized": "Belvidere Bandits Wrestling Club",
+    "url_path_slug": "belividere-bandits",
     "duplicates": [
       {
         "tournament_id": 4,
         "division": "senior",
         "name": "Belvidere"
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Belvidere YMCA"
       },
       {
         "tournament_id": 9,
@@ -6832,49 +6768,7 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Belvidere"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Belvidere Bandits WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Belvidere Bandits WC"
       },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Belvidere Bandits WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Belvidere Bandits WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Belvidere Bandits WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Belvidere Bandits WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Belvidere Bandits WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Belvidere Bandits Wrestling Club",
-    "url_path_slug": "belividere-bandits",
-    "duplicates": [
       {
         "tournament_id": 15,
         "division": "senior",
@@ -6887,6 +6781,11 @@
       },
       {
         "tournament_id": 17,
+        "division": "senior",
+        "name": "Belvidere Bandits YMCA WC"
+      },
+      {
+        "tournament_id": 18,
         "division": "senior",
         "name": "Belvidere Bandits YMCA WC"
       },
@@ -6912,8 +6811,33 @@
       },
       {
         "tournament_id": 23,
+        "division": "novice",
+        "name": "BELVIDERE"
+      },
+      {
+        "tournament_id": 23,
         "division": "senior",
         "name": "BELVIDERE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "BELVIDERE BANDIT WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "BELVIDERE BANDIT WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "BELVIDERE BANDITS WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "BELVIDERE BANDITS WC"
       },
       {
         "tournament_id": 26,
@@ -6921,7 +6845,27 @@
         "name": "BELVIDERE BANDITS"
       },
       {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "BELVIDERE BANDITS"
+      },
+      {
         "tournament_id": 27,
+        "division": "novice",
+        "name": "BELVIDERE BANDITS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "BELVIDERE BANDITS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "BELVIDERE BANDITS"
+      },
+      {
+        "tournament_id": 28,
         "division": "senior",
         "name": "BELVIDERE BANDITS"
       },
@@ -7097,8 +7041,18 @@
       },
       {
         "tournament_id": 49,
+        "division": "novice",
+        "name": "Belvidere WC"
+      },
+      {
+        "tournament_id": 49,
         "division": "senior",
         "name": "Belvidere Bandits WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Belvidere WC"
       },
       {
         "tournament_id": 50,
@@ -7181,14 +7135,54 @@
         "name": "Belvidere Bandits WC"
       },
       {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Belvidere Bandits WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Belvidere Bandits WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Belvidere Bandits WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Belvidere Bandits WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Belvidere Bandits WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Belvidere Bandits WC"
+      },
+      {
         "tournament_id": 10050,
         "division": "novice",
         "name": "Belvidere Bandits WC"
       },
       {
         "tournament_id": 10050,
+        "division": "novice",
+        "name": "Belvidere WC"
+      },
+      {
+        "tournament_id": 10050,
         "division": "senior",
         "name": "Belvidere Bandits WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Belvidere WC"
       },
       {
         "tournament_id": 10052,
@@ -7209,54 +7203,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Belvidere Bandits WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Belvidere Bandits YMCA WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Belvidere Bandits YMCA WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Belvidere WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Belvidere WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Belvidere WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Belvidere WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Belvidere WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Belvidere YMCA",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Belvidere YMCA"
       }
     ]
   },
