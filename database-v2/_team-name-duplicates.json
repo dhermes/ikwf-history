@@ -11627,80 +11627,6 @@
     ]
   },
   {
-    "name_normalized": "CROSSFACE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "CROSSFACE"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "CROSSFACE"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "CROSSFACE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CROSSFACE WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "CROSSFACE WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "CROSSFACE WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "CROSSFACE WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CROSSFACE WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "CROSSFACE WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "CROSSFACE WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "CROSSFACE WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CROSSFACE WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "CROSSFACE WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "CRYSTAL LAKE WIZARDS",
     "url_path_slug": null,
     "duplicates": [
@@ -17612,17 +17538,6 @@
     ]
   },
   {
-    "name_normalized": "Crossface WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Crossface WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Crossface Wrestling Club",
     "url_path_slug": "crossface",
     "duplicates": [
@@ -17637,6 +17552,11 @@
         "name": "Crossface WC"
       },
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Crossface WC"
+      },
+      {
         "tournament_id": 19,
         "division": "senior",
         "name": "Crossface"
@@ -17647,13 +17567,63 @@
         "name": "CROSSFACE WC"
       },
       {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "CROSSFACE"
+      },
+      {
         "tournament_id": 22,
         "division": "senior",
         "name": "CROSSFACE WC"
       },
       {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "CROSSFACE"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "CROSSFACE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "CROSSFACE WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "CROSSFACE WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "CROSSFACE WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "CROSSFACE WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "CROSSFACE WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "CROSSFACE WRESTLING"
+      },
+      {
         "tournament_id": 29,
         "division": "novice",
+        "name": "CROSSFACE WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
         "name": "CROSSFACE WRESTLING"
       },
       {
