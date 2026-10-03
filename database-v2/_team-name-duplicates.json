@@ -19232,33 +19232,6 @@
     ]
   },
   {
-    "name_normalized": "DEKALB WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "DEKALB WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DEKALB WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "DEKALB WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "DEKALB WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "DELAVAN MAT WRATS",
     "url_path_slug": null,
     "duplicates": [
@@ -20538,17 +20511,6 @@
     ]
   },
   {
-    "name_normalized": "DeKalb",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "DeKalb"
-      }
-    ]
-  },
-  {
     "name_normalized": "DeKalb Huntley",
     "url_path_slug": null,
     "duplicates": [
@@ -20622,7 +20584,7 @@
   },
   {
     "name_normalized": "DeKalb WC",
-    "url_path_slug": null,
+    "url_path_slug": "dekalb",
     "duplicates": [
       {
         "tournament_id": 16,
@@ -20633,6 +20595,21 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "DeKalb WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "DEKALB WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "DEKALB WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "DEKALB WRESTLING CLUB"
       },
       {
         "tournament_id": 32,
@@ -20783,6 +20760,11 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "DeKalb WC"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "DeKalb"
       },
       {
         "tournament_id": 10050,
