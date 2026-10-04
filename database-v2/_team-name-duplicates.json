@@ -44404,33 +44404,6 @@
     ]
   },
   {
-    "name_normalized": "LAWRENCE COUNTY",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "LAWRENCE COUNTY"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "LAWRENCE COUNTY"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LAWRENCE COUNTY WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "LAWRENCE COUNTY WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "LAWRENCEVILLE",
     "url_path_slug": null,
     "duplicates": [
@@ -45760,138 +45733,27 @@
   },
   {
     "name_normalized": "Lawrence County Knights WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Lawrence County Knights WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Lawrence County Knights WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lawrence County WC",
-    "url_path_slug": null,
+    "url_path_slug": "lawrence-county",
     "duplicates": [
       {
         "tournament_id": 17,
         "division": "senior",
         "name": "Lawrence County WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "LAWRENCE COUNTY WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "LAWRENCE COUNTY"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "LAWRENCE COUNTY"
       },
       {
         "tournament_id": 30,
@@ -45994,22 +45856,6 @@
         "name": "Lawrence County WC"
       },
       {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Lawrence County WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Lawrence County WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lawrence County Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 45,
         "division": "novice",
         "name": "Lawrence County Wrestling Club"
@@ -46018,6 +45864,136 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Lawrence County Wrestling Club"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Lawrence County WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Lawrence County WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Lawrence County Knights WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Lawrence County Knights WC"
       }
     ]
   },
