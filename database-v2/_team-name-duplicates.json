@@ -40291,45 +40291,39 @@
     ]
   },
   {
-    "name_normalized": "Izzy Style School Of Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Izzy Style School of Wrestling"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Izzy Style School of Wrestling"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Izzy Style School of Wrestling"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Izzy Style School of Wrestling"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Izzy Style School of Wrestling"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Izzy Style School of Wrestling"
-      }
-    ]
-  },
-  {
     "name_normalized": "Izzy Style Wrestling",
-    "url_path_slug": null,
+    "url_path_slug": "izzy-style",
     "duplicates": [
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Izzy Style School of Wrestling"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Izzy Style School of Wrestling"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Izzy Style School of Wrestling"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Izzy Style School of Wrestling"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Izzy Style School of Wrestling"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Izzy Style School of Wrestling"
+      },
       {
         "tournament_id": 44,
         "division": "novice",
