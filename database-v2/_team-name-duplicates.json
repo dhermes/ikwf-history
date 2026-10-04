@@ -11491,17 +11491,6 @@
     ]
   },
   {
-    "name_normalized": "CALUMET CITY",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "CALUMET CITY"
-      }
-    ]
-  },
-  {
     "name_normalized": "CARLINVILLE KIDS WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -12126,7 +12115,7 @@
   },
   {
     "name_normalized": "Calumet City",
-    "url_path_slug": null,
+    "url_path_slug": "calumet-city",
     "duplicates": [
       {
         "tournament_id": 8,
@@ -12157,6 +12146,11 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Calumet City"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "CALUMET CITY"
       },
       {
         "tournament_id": 23,
