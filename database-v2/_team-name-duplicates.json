@@ -80203,210 +80203,19 @@
     ]
   },
   {
-    "name_normalized": "Storm Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Storm Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Storm Youth WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Storm Youth Wrestling Club",
-    "url_path_slug": null,
+    "url_path_slug": "storm-youth",
     "duplicates": [
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Storm Youth WC"
+      },
       {
         "tournament_id": 45,
         "division": "novice",
@@ -80416,6 +80225,191 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Storm Youth Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Storm Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Storm Youth WC"
       }
     ]
   },
