@@ -74742,8 +74742,128 @@
   },
   {
     "name_normalized": "SOT-C WC",
-    "url_path_slug": null,
+    "url_path_slug": "sons-of-thunder",
     "duplicates": [
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "SONS OF THUNDER"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "SONS OF THUNDER"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "SONS OF THUNDER"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "SONS OF THUNDER"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Sons of Thunder"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Sons of Thunder"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "SOT-C"
+      },
       {
         "tournament_id": 54,
         "division": "intermediate",
@@ -74768,6 +74888,36 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "SOT-C WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "SOT-C"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "SOT-C"
       }
     ]
   },
@@ -77687,168 +77837,6 @@
         "tournament_id": 48,
         "division": "senior",
         "name": "Somonauk Wrestlers Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Sons Of Thunder",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "SONS OF THUNDER"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "SONS OF THUNDER"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "SONS OF THUNDER"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "SONS OF THUNDER"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Sons of Thunder"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Sons of Thunder"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Sot-C",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "SOT-C"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "SOT-C"
       }
     ]
   },
