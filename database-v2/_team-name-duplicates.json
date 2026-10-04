@@ -44404,54 +44404,6 @@
     ]
   },
   {
-    "name_normalized": "LEMONT BEARS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "LEMONT BEARS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "LEMONT BEARS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "LEMONT BEARS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LEMONT BEARS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "LEMONT BEARS WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "LEMONT BEARS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LEMONT WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "LEMONT WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "LEMONT WILDCAT WC",
     "url_path_slug": null,
     "duplicates": [
@@ -46011,20 +45963,14 @@
     ]
   },
   {
-    "name_normalized": "Lemont",
-    "url_path_slug": null,
+    "name_normalized": "Lemont Bears Wrestling Club",
+    "url_path_slug": "lemont",
     "duplicates": [
       {
         "tournament_id": 14,
         "division": "senior",
         "name": "Lemont"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lemont Bears WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 15,
         "division": "senior",
@@ -46041,6 +45987,11 @@
         "name": "Lemont Bears WC"
       },
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Lemont Bears Wrestling Club"
+      },
+      {
         "tournament_id": 20,
         "division": "senior",
         "name": "LEMONT WC"
@@ -46051,6 +46002,11 @@
         "name": "LEMONT"
       },
       {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "LEMONT WC"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "LEMONT"
@@ -46059,6 +46015,31 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "LEMONT"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "LEMONT BEARS WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "LEMONT BEARS WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "LEMONT BEARS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "LEMONT BEARS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "LEMONT BEARS"
       },
       {
         "tournament_id": 26,
@@ -46409,17 +46390,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Lemont Bears WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lemont Bears Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Lemont Bears Wrestling Club"
       }
     ]
   },
