@@ -78929,36 +78929,20 @@
     ]
   },
   {
-    "name_normalized": "Springs Elite",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Springs Elite"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Springs Elite"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Springs Elite"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Springs Elite"
-      }
-    ]
-  },
-  {
     "name_normalized": "Springs Elite WC",
-    "url_path_slug": null,
+    "url_path_slug": "springs-elite",
     "duplicates": [
       {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Springs Elite"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Springs Elite"
+      },
+      {
         "tournament_id": 50,
         "division": "novice",
         "name": "Springs Elite WC"
@@ -79072,6 +79056,16 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Springs Elite WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Springs Elite"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Springs Elite"
       },
       {
         "tournament_id": 10052,
