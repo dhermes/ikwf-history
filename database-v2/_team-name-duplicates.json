@@ -30155,84 +30155,6 @@
     ]
   },
   {
-    "name_normalized": "GENESEO",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "GENESEO"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GENESEO WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "GENESEO WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "GENESEO WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "GENESEO WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "GENESEO WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "GENESEO WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "GENESEO WC"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "GENESEO WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GENESEO WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "GENESEO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "GENESEO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "GENESEO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "GENESEO WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "GENEVA PARK DISTRICT",
     "url_path_slug": null,
     "duplicates": [
@@ -30816,32 +30738,6 @@
     ]
   },
   {
-    "name_normalized": "Geneseo",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Geneseo"
-      },
-      {
-        "tournament_id": 6,
-        "division": "senior",
-        "name": "Geneseo"
-      },
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Geneseo"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Geneseo"
-      }
-    ]
-  },
-  {
     "name_normalized": "Geneseo Spider WC",
     "url_path_slug": null,
     "duplicates": [
@@ -30955,12 +30851,32 @@
   },
   {
     "name_normalized": "Geneseo WC",
-    "url_path_slug": null,
+    "url_path_slug": "geneseo",
     "duplicates": [
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Geneseo"
+      },
+      {
+        "tournament_id": 6,
+        "division": "senior",
+        "name": "Geneseo"
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Geneseo"
+      },
       {
         "tournament_id": 12,
         "division": "senior",
         "name": "Geneseo WC"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Geneseo"
       },
       {
         "tournament_id": 14,
@@ -31009,8 +30925,68 @@
       },
       {
         "tournament_id": 23,
+        "division": "novice",
+        "name": "GENESEO"
+      },
+      {
+        "tournament_id": 23,
         "division": "senior",
         "name": "GENESEO"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "GENESEO WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "GENESEO WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "GENESEO WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "GENESEO WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "GENESEO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "GENESEO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "GENESEO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "GENESEO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "GENESEO WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "GENESEO WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "GENESEO WC"
       },
       {
         "tournament_id": 29,
