@@ -34398,38 +34398,6 @@
     ]
   },
   {
-    "name_normalized": "HONONEGAH KIDS WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "HONONEGAH KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "HONONEGAH KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "HONONEGAH KIDS WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HONONEGAH WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "HONONEGAH WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "HOOPESTON",
     "url_path_slug": null,
     "duplicates": [
@@ -38283,12 +38251,32 @@
     ]
   },
   {
-    "name_normalized": "Hononegah Kids WC",
-    "url_path_slug": null,
+    "name_normalized": "Hononegah Wrestling Club",
+    "url_path_slug": "hononegah",
     "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "HONONEGAH WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "HONONEGAH KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "HONONEGAH KIDS WRESTLING"
+      },
       {
         "tournament_id": 29,
         "division": "novice",
+        "name": "HONONEGAH KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
         "name": "HONONEGAH KIDS WRESTLING"
       },
       {
@@ -38410,13 +38398,7 @@
         "tournament_id": 41,
         "division": "senior",
         "name": "Hononegah Kids WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hononegah WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 42,
         "division": "novice",
@@ -38446,6 +38428,16 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Hononegah WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Hononegah Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Hononegah Wrestling Club"
       },
       {
         "tournament_id": 46,
@@ -38631,22 +38623,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Hononegah WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hononegah Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Hononegah Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Hononegah Wrestling Club"
       }
     ]
   },
