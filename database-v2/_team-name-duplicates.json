@@ -81889,27 +81889,6 @@
     ]
   },
   {
-    "name_normalized": "TINLEY PARK BULLDOGS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "TINLEY PARK BULLDOGS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "TINLEY PARK BULLDOGS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "TINLEY PARK BULLDOGS"
-      }
-    ]
-  },
-  {
     "name_normalized": "TJ Trained WC-Clinton",
     "url_path_slug": null,
     "duplicates": [
@@ -84581,13 +84560,28 @@
     ]
   },
   {
-    "name_normalized": "Tinley Park",
-    "url_path_slug": null,
+    "name_normalized": "Tinley Park Bulldogs Wrestling Club",
+    "url_path_slug": "tinley-park",
     "duplicates": [
       {
         "tournament_id": 2,
         "division": "senior",
         "name": "Tinley Park"
+      },
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Tinley Park"
+      },
+      {
+        "tournament_id": 5,
+        "division": "senior",
+        "name": "Tinley Park Bulldogs"
+      },
+      {
+        "tournament_id": 6,
+        "division": "senior",
+        "name": "Tinley Park Bulldogs"
       },
       {
         "tournament_id": 7,
@@ -84603,84 +84597,6 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Tinley Park"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Tinley Park Bulldogs",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Tinley Park Bulldogs"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Tinley Park Bulldogs WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Tinley Park Bulldogs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Tinley Park Bulldogs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Tinley Park Bulldogs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Tinley Park Bulldogs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Tinley Park Bulldogs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Tinley Park Bulldogs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Tinley Park Bulldogs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Tinley Park Bulldogs WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Tinley Park Bulldogs Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Tinley Park"
-      },
-      {
-        "tournament_id": 5,
-        "division": "senior",
-        "name": "Tinley Park Bulldogs"
-      },
-      {
-        "tournament_id": 6,
-        "division": "senior",
-        "name": "Tinley Park Bulldogs"
       },
       {
         "tournament_id": 11,
@@ -84714,6 +84630,11 @@
       },
       {
         "tournament_id": 17,
+        "division": "senior",
+        "name": "Tinley Park Bulldogs"
+      },
+      {
+        "tournament_id": 18,
         "division": "senior",
         "name": "Tinley Park Bulldogs"
       },
@@ -84769,7 +84690,17 @@
       },
       {
         "tournament_id": 26,
+        "division": "novice",
+        "name": "TINLEY PARK BULLDOGS"
+      },
+      {
+        "tournament_id": 26,
         "division": "senior",
+        "name": "TINLEY PARK BULLDOGS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
         "name": "TINLEY PARK BULLDOGS"
       },
       {
@@ -84780,6 +84711,11 @@
       {
         "tournament_id": 28,
         "division": "novice",
+        "name": "TINLEY PARK BULLDOGS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
         "name": "TINLEY PARK BULLDOGS"
       },
       {
@@ -85069,6 +85005,46 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Tinley Park Bulldogs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Tinley Park Bulldogs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Tinley Park Bulldogs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Tinley Park Bulldogs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Tinley Park Bulldogs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Tinley Park Bulldogs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Tinley Park Bulldogs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Tinley Park Bulldogs WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Tinley Park Bulldogs WC"
       },
