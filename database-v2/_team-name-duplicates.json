@@ -39980,17 +39980,6 @@
     ]
   },
   {
-    "name_normalized": "Indian Trail-Plainfield",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Indian Trail-Plainfield"
-      }
-    ]
-  },
-  {
     "name_normalized": "Indians Elite",
     "url_path_slug": null,
     "duplicates": [
@@ -63688,54 +63677,6 @@
     ]
   },
   {
-    "name_normalized": "PLAINFIELD INDIAN TRAIL",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "PLAINFIELD INDIAN TRAIL"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "PLAINFIELD INDIAN TRAIL"
-      }
-    ]
-  },
-  {
-    "name_normalized": "PLAINFIELD INDIAN TRAIL WILDCATS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "PLAINFIELD INDIAN TRAIL WILDCATS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "PLAINFIELD INDIAN TRAIL WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "PLAINFIELD INDIAN TRAIL WRESTLING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "PLAINFIELD INDIAN TRAIL WRESTLING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "PLAINFIELD INDIAN TRAIL WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "PLAINFIELD WOLVES WC",
     "url_path_slug": null,
     "duplicates": [
@@ -66456,12 +66397,27 @@
   },
   {
     "name_normalized": "Plainfield Indian Trail",
-    "url_path_slug": null,
+    "url_path_slug": "plainfield-indian-trail",
     "duplicates": [
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Indian Trail-Plainfield"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "PLAINFIELD INDIAN TRAIL WILDCATS"
+      },
       {
         "tournament_id": 21,
         "division": "senior",
         "name": "PLAINFIELD INDIAN TRAIL"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "PLAINFIELD INDIAN TRAIL WRESTLING"
       },
       {
         "tournament_id": 23,
@@ -66470,6 +66426,26 @@
       },
       {
         "tournament_id": 23,
+        "division": "senior",
+        "name": "PLAINFIELD INDIAN TRAIL"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "PLAINFIELD INDIAN TRAIL WRESTLING"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "PLAINFIELD INDIAN TRAIL WRESTLING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "PLAINFIELD INDIAN TRAIL"
+      },
+      {
+        "tournament_id": 25,
         "division": "senior",
         "name": "PLAINFIELD INDIAN TRAIL"
       }
