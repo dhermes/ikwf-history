@@ -75253,54 +75253,6 @@
     ]
   },
   {
-    "name_normalized": "STILLMAN VALLEY CARDINALS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "STILLMAN VALLEY CARDINALS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "STILLMAN VALLEY CARDINALS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "STILLMAN VALLEY UNIT 223",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "STILLMAN VALLEY UNIT 223"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "STILLMAN VALLEY UNIT 223"
-      }
-    ]
-  },
-  {
-    "name_normalized": "STILLMAN VALLEY WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "STILLMAN VALLEY WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "STILLMAN VALLEY WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "STREAMWOOD WC",
     "url_path_slug": null,
     "duplicates": [
@@ -80212,8 +80164,8 @@
     ]
   },
   {
-    "name_normalized": "Stillman Valley",
-    "url_path_slug": null,
+    "name_normalized": "Stillman Valley WC",
+    "url_path_slug": "stillman-valley",
     "duplicates": [
       {
         "tournament_id": 7,
@@ -80224,13 +80176,37 @@
         "tournament_id": 8,
         "division": "senior",
         "name": "Stillman Valley"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Stillman Valley WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "STILLMAN VALLEY UNIT 223"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "STILLMAN VALLEY UNIT 223"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "STILLMAN VALLEY CARDINALS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "STILLMAN VALLEY CARDINALS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "STILLMAN VALLEY WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "STILLMAN VALLEY WRESTLING"
+      },
       {
         "tournament_id": 30,
         "division": "novice",
@@ -80362,6 +80338,16 @@
         "name": "Stillman Valley WC"
       },
       {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Stillman Valley Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Stillman Valley Wrestling Club"
+      },
+      {
         "tournament_id": 46,
         "division": "novice",
         "name": "Stillman Valley WC"
@@ -80500,22 +80486,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Stillman Valley WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Stillman Valley Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Stillman Valley Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Stillman Valley Wrestling Club"
       }
     ]
   },
