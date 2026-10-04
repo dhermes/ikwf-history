@@ -92538,7 +92538,7 @@
   },
   {
     "name_normalized": "Will County Warriors",
-    "url_path_slug": null,
+    "url_path_slug": "will-county-warriors",
     "duplicates": [
       {
         "tournament_id": 40,
@@ -92620,22 +92620,6 @@
         "division": "senior",
         "name": "Will County Warriors"
       },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Will County Warriors"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Will County Warriors"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Will County Warriors WC",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 51,
         "division": "novice",
@@ -92730,6 +92714,16 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Will County Warriors WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Will County Warriors"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Will County Warriors"
       },
       {
         "tournament_id": 10052,
