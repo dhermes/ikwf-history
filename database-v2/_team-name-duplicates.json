@@ -75242,22 +75242,6 @@
     ]
   },
   {
-    "name_normalized": "STC WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "STC WC"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "STC WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "STC WC II",
     "url_path_slug": null,
     "duplicates": [
@@ -79246,6 +79230,16 @@
         "tournament_id": 27,
         "division": "senior",
         "name": "ST. CHARLES WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "STC WC"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "STC WC"
       },
       {
         "tournament_id": 32,
