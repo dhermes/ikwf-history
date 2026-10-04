@@ -55114,37 +55114,6 @@
     ]
   },
   {
-    "name_normalized": "Moline",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 2,
-        "division": "senior",
-        "name": "Moline"
-      },
-      {
-        "tournament_id": 7,
-        "division": "senior",
-        "name": "Moline"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "junior_iwf",
-        "name": "Moline"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Moline"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "Moline"
-      }
-    ]
-  },
-  {
     "name_normalized": "Moline Booster",
     "url_path_slug": null,
     "duplicates": [
@@ -55189,47 +55158,24 @@
     ]
   },
   {
-    "name_normalized": "Moline W.C.",
-    "url_path_slug": null,
+    "name_normalized": "Moline WC",
+    "url_path_slug": "moline",
     "duplicates": [
+      {
+        "tournament_id": 2,
+        "division": "senior",
+        "name": "Moline"
+      },
+      {
+        "tournament_id": 7,
+        "division": "senior",
+        "name": "Moline"
+      },
       {
         "tournament_id": 14,
         "division": "senior",
         "name": "Moline W.C."
-      }
-    ]
-  },
-  {
-    "name_normalized": "Moline WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Moline WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Moline Wildcats",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Moline Wildcats"
       },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Moline Wildcats"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Moline Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 20,
         "division": "senior",
@@ -55501,6 +55447,26 @@
         "name": "Moline WC"
       },
       {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Moline WC"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "junior_iwf",
+        "name": "Moline"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Moline"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "Moline"
+      },
+      {
         "tournament_id": 10050,
         "division": "novice",
         "name": "Moline WC"
@@ -55529,6 +55495,22 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Moline WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Moline Wildcats",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Moline Wildcats"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Moline Wildcats"
       }
     ]
   },
