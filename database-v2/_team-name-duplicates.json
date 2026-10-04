@@ -26951,17 +26951,6 @@
     ]
   },
   {
-    "name_normalized": "FIGHTIN TITAN WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "FIGHTIN TITAN WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "FISHER",
     "url_path_slug": null,
     "duplicates": [
@@ -27883,7 +27872,7 @@
   },
   {
     "name_normalized": "Fightin Titan WC",
-    "url_path_slug": null,
+    "url_path_slug": "fightin-titan",
     "duplicates": [
       {
         "tournament_id": 33,
@@ -27901,6 +27890,11 @@
         "name": "FIGHTIN TITAN WC"
       },
       {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "FIGHTIN TITAN WC"
+      },
+      {
         "tournament_id": 36,
         "division": "novice",
         "name": "FIGHTIN TITAN WC"
@@ -27919,6 +27913,26 @@
         "tournament_id": 37,
         "division": "senior",
         "name": "Fightin Titan WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "Fighting Titan"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "Fighting Titan"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Fighting Titans"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Fighting Titans"
       }
     ]
   },
@@ -28045,38 +28059,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Fighting Farmers WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Fighting Titan",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "Fighting Titan"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "Fighting Titan"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Fighting Titans",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Fighting Titans"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Fighting Titans"
       }
     ]
   },
