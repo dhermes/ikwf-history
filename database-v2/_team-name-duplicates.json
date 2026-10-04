@@ -68370,53 +68370,6 @@
     ]
   },
   {
-    "name_normalized": "ROCKFORD WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ROCKFORD WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ROCKFORD WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "ROCKFORD WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "ROCKFORD WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "ROCKFORD WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "ROCKFORD WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "ROCKFORD WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "ROCKFORD WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "ROCKRIDGE JR. HIGH",
     "url_path_slug": null,
     "duplicates": [
@@ -72280,29 +72233,8 @@
     ]
   },
   {
-    "name_normalized": "Rockford WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Rockford WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Rockford WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Rockford WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Rockford Wrestling Club",
-    "url_path_slug": null,
+    "url_path_slug": "rockford",
     "duplicates": [
       {
         "tournament_id": 1,
@@ -72330,6 +72262,11 @@
         "name": "ROCKFORD WC"
       },
       {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ROCKFORD WC"
+      },
+      {
         "tournament_id": 25,
         "division": "novice",
         "name": "ROCKFORD WC"
@@ -72338,6 +72275,36 @@
         "tournament_id": 25,
         "division": "senior",
         "name": "ROCKFORD WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "ROCKFORD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "ROCKFORD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "ROCKFORD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "ROCKFORD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "ROCKFORD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "ROCKFORD WRESTLING CLUB"
       },
       {
         "tournament_id": 29,
@@ -72537,6 +72504,21 @@
       {
         "tournament_id": 53,
         "division": "senior_girls",
+        "name": "Rockford WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Rockford WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Rockford WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
         "name": "Rockford WC"
       },
       {
