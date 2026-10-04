@@ -30415,42 +30415,6 @@
     ]
   },
   {
-    "name_normalized": "GIANTS WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "GIANTS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "GIANTS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "GIANTS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "GIANTS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "GIANTS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "GIANTS WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "GIBSON CITY",
     "url_path_slug": null,
     "duplicates": [
@@ -33763,22 +33727,6 @@
     ]
   },
   {
-    "name_normalized": "H.P. Little Giant WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "H.P. Little Giant WC"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "H.P. Little Giant WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "HARLEM COUGARS",
     "url_path_slug": null,
     "duplicates": [
@@ -34160,32 +34108,6 @@
         "tournament_id": 27,
         "division": "senior",
         "name": "HIGHLAND JUNIOR WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HIGHLAND PARK LITTLE GIANTS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "HIGHLAND PARK LITTLE GIANTS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "HIGHLAND PARK LITTLE GIANTS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "HIGHLAND PARK LITTLE GIANTS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "HIGHLAND PARK LITTLE GIANTS"
       }
     ]
   },
@@ -37201,8 +37123,18 @@
   },
   {
     "name_normalized": "Highland Park Little Giants",
-    "url_path_slug": null,
+    "url_path_slug": "little-giants",
     "duplicates": [
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "H.P. Little Giant WC"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "H.P. Little Giant WC"
+      },
       {
         "tournament_id": 20,
         "division": "senior",
@@ -37212,6 +37144,71 @@
         "tournament_id": 21,
         "division": "senior",
         "name": "LITTLE GIANTS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "HIGHLAND PARK LITTLE GIANTS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "LITTLE GIANTS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "LITTLE GIANTS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "HIGHLAND PARK LITTLE GIANTS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "HIGHLAND PARK LITTLE GIANTS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "LITTLE GIANTS WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "GIANTS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "GIANTS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "GIANTS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "GIANTS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "GIANTS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "GIANTS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "HIGHLAND PARK LITTLE GIANTS"
       },
       {
         "tournament_id": 30,
@@ -37316,6 +37313,31 @@
       {
         "tournament_id": 53,
         "division": "senior_girls",
+        "name": "Little Giants WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Little Giants WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Little Giants WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Little Giants WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Little Giants WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
         "name": "Little Giants WC"
       },
       {
@@ -44564,33 +44586,6 @@
     ]
   },
   {
-    "name_normalized": "LITTLE GIANTS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "LITTLE GIANTS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "LITTLE GIANTS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LITTLE GIANTS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "LITTLE GIANTS WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "LITTLE INDIANS",
     "url_path_slug": null,
     "duplicates": [
@@ -48908,37 +48903,6 @@
         "tournament_id": 10050,
         "division": "senior",
         "name": "Little Falcons WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Little Giants WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Little Giants WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Little Giants WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Little Giants WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Little Giants WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Little Giants WC"
       }
     ]
   },
