@@ -70192,73 +70192,6 @@
     ]
   },
   {
-    "name_normalized": "Renegades",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "Renegades"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Renegades (Stockton)",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Renegades (Stockton)"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Renegades (Stockton)"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "RENEGADES (STOCKTON)"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "RENEGADES (STOCKTON)"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "RENEGADES (STOCKTON)"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "RENEGADES (STOCKTON)"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "RENEGADES (STOCKTON)"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "RENEGADES (STOCKTON)"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Renegades (Stockton)"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Renegades (Stockton)"
-      }
-    ]
-  },
-  {
     "name_normalized": "Renegades Elite",
     "url_path_slug": null,
     "duplicates": [
@@ -80934,8 +80867,8 @@
     ]
   },
   {
-    "name_normalized": "Stockton Renegades",
-    "url_path_slug": null,
+    "name_normalized": "Stockton Renegades WC",
+    "url_path_slug": "stockton",
     "duplicates": [
       {
         "tournament_id": 36,
@@ -80943,6 +80876,56 @@
         "name": "STOCKTON RENEGADES"
       },
       {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Renegades (Stockton)"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Renegades (Stockton)"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "RENEGADES (STOCKTON)"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "RENEGADES (STOCKTON)"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "RENEGADES (STOCKTON)"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "RENEGADES (STOCKTON)"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "RENEGADES (STOCKTON)"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "RENEGADES (STOCKTON)"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Renegades (Stockton)"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Renegades (Stockton)"
+      },
+      {
         "tournament_id": 43,
         "division": "novice",
         "name": "Stockton Renegades"
@@ -81012,22 +80995,6 @@
         "division": "senior",
         "name": "Stockton Renegades"
       },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Stockton Renegades"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Stockton Renegades"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Stockton Renegades WC",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 50,
         "division": "novice",
@@ -81132,6 +81099,21 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Stockton Renegades WC"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "Renegades"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Stockton Renegades"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Stockton Renegades"
       },
       {
         "tournament_id": 10052,
