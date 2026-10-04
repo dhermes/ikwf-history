@@ -33648,43 +33648,6 @@
     ]
   },
   {
-    "name_normalized": "HARLEM COUGARS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "HARLEM COUGARS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "HARLEM COUGARS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "HARLEM COUGARS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "HARLEM COUGARS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HARLEM COUGARS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "HARLEM COUGARS WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "HARLEM SCHOOL DISTRICT #122",
     "url_path_slug": null,
     "duplicates": [
@@ -34509,7 +34472,7 @@
   },
   {
     "name_normalized": "Harlem Cougars WC",
-    "url_path_slug": null,
+    "url_path_slug": "harlem-cougars",
     "duplicates": [
       {
         "tournament_id": 23,
@@ -34533,8 +34496,33 @@
       },
       {
         "tournament_id": 26,
+        "division": "novice",
+        "name": "HARLEM COUGARS WC"
+      },
+      {
+        "tournament_id": 26,
         "division": "senior",
         "name": "HARLEM COUGARS WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "HARLEM COUGARS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "HARLEM COUGARS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "HARLEM COUGARS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "HARLEM COUGARS"
       },
       {
         "tournament_id": 29,
