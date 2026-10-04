@@ -82556,65 +82556,49 @@
     ]
   },
   {
-    "name_normalized": "Team 312",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Team 312"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Team 312"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Team 312"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Team 312"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Team 312"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Team 312"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Team 312"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Team 312"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Team 312"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Team 312"
-      }
-    ]
-  },
-  {
     "name_normalized": "Team 312 WC",
-    "url_path_slug": null,
+    "url_path_slug": "team-312",
     "duplicates": [
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Team 312"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Team 312"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Team 312"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Team 312"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Team 312"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Team 312"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Team 312"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Team 312"
+      },
       {
         "tournament_id": 50,
         "division": "novice",
@@ -82704,6 +82688,16 @@
         "tournament_id": 54,
         "division": "novice",
         "name": "Team 312 WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Team 312"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Team 312"
       }
     ]
   },
