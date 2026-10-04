@@ -19334,33 +19334,6 @@
     ]
   },
   {
-    "name_normalized": "DOLTON PARK FALCONS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "DOLTON PARK FALCONS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "DOLTON PARK FALCONS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DOLTON PD FALCONS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "DOLTON PD FALCONS"
-      }
-    ]
-  },
-  {
     "name_normalized": "DOWNERS GROVE",
     "url_path_slug": null,
     "duplicates": [
@@ -21683,9 +21656,14 @@
     ]
   },
   {
-    "name_normalized": "Dolton",
-    "url_path_slug": null,
+    "name_normalized": "Dolton Park Falcons",
+    "url_path_slug": "dolton-park",
     "duplicates": [
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Dolton Park"
+      },
       {
         "tournament_id": 9,
         "division": "senior",
@@ -21697,23 +21675,12 @@
         "name": "Dolton"
       },
       {
-        "tournament_id": 13,
+        "tournament_id": 12,
         "division": "senior",
         "name": "Dolton"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Dolton Park Falcons",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Dolton Park"
       },
       {
-        "tournament_id": 12,
+        "tournament_id": 13,
         "division": "senior",
         "name": "Dolton"
       },
@@ -21731,6 +21698,11 @@
         "tournament_id": 16,
         "division": "senior",
         "name": "Dolton Wrestling Falcons"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Dolton Park Jr. Falcons"
       },
       {
         "tournament_id": 18,
@@ -21773,8 +21745,18 @@
         "name": "DOLTON PD FALCONS"
       },
       {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "DOLTON PD FALCONS"
+      },
+      {
         "tournament_id": 25,
         "division": "novice",
+        "name": "DOLTON PARK FALCONS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
         "name": "DOLTON PARK FALCONS"
       },
       {
@@ -21793,6 +21775,11 @@
         "name": "DOLTON PARK FALCONS"
       },
       {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "DOLTON PARK FALCONS"
+      },
+      {
         "tournament_id": 10028,
         "division": "novice_iwf",
         "name": "Dolton Park Falcons"
@@ -21801,17 +21788,6 @@
         "tournament_id": 10028,
         "division": "senior_iwf",
         "name": "Dolton Park Falcons"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Dolton Park Jr. Falcons",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Dolton Park Jr. Falcons"
       }
     ]
   },
