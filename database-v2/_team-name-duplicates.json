@@ -68315,70 +68315,6 @@
     ]
   },
   {
-    "name_normalized": "ROSEMONT COBRA WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "ROSEMONT COBRA WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ROSEMONT COBRA WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "ROSEMONT COBRA WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "ROSEMONT COBRA WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ROSEMONT COBRAS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "ROSEMONT COBRAS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ROSEMONT COBRAS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "ROSEMONT COBRAS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "ROSEMONT COBRAS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ROSEMONT COBRAS WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "ROSEMONT COBRAS WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "ROUND LAKE",
     "url_path_slug": null,
     "duplicates": [
@@ -72668,36 +72604,14 @@
     ]
   },
   {
-    "name_normalized": "Rosemont",
-    "url_path_slug": null,
+    "name_normalized": "Rosemont Cobras",
+    "url_path_slug": "rosemont-cobras",
     "duplicates": [
       {
         "tournament_id": 8,
         "division": "senior",
         "name": "Rosemont"
       },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Rosemont"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rosemont Cobra Booster",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Rosemont Cobra Booster"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rosemont Cobras",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 9,
         "division": "senior",
@@ -72714,6 +72628,11 @@
         "name": "Rosemont Cobras"
       },
       {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Rosemont"
+      },
+      {
         "tournament_id": 14,
         "division": "senior",
         "name": "Rosemont"
@@ -72722,6 +72641,11 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Rosemont Cobra"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Rosemont Cobra Booster"
       },
       {
         "tournament_id": 17,
@@ -72737,6 +72661,16 @@
         "tournament_id": 19,
         "division": "senior",
         "name": "Rosemont Cobras"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "ROSEMONT COBRAS WRESTLING"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "ROSEMONT COBRAS"
       },
       {
         "tournament_id": 22,
@@ -72759,12 +72693,42 @@
         "name": "ROSEMONT COBRAS"
       },
       {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ROSEMONT COBRAS"
+      },
+      {
         "tournament_id": 25,
         "division": "novice",
         "name": "ROSEMONT COBRAS"
       },
       {
         "tournament_id": 25,
+        "division": "senior",
+        "name": "ROSEMONT COBRAS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "ROSEMONT COBRA WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "ROSEMONT COBRA WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "ROSEMONT COBRA WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "ROSEMONT COBRAS"
+      },
+      {
+        "tournament_id": 29,
         "division": "senior",
         "name": "ROSEMONT COBRAS"
       }
