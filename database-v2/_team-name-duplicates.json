@@ -31609,56 +31609,40 @@
     ]
   },
   {
-    "name_normalized": "Gladiator Elite",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Gladiator Elite"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Gladiator Elite"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Gladiator Elite"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Gladiator Elite"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Gladiator Elite"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Gladiator Elite"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Gladiator Elite"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Gladiator Elite"
-      }
-    ]
-  },
-  {
     "name_normalized": "Gladiator Elite WC",
-    "url_path_slug": null,
+    "url_path_slug": "gladiator-elite",
     "duplicates": [
       {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Gladiator Elite"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Gladiator Elite"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Gladiator Elite"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Gladiator Elite"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Gladiator Elite"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Gladiator Elite"
+      },
+      {
         "tournament_id": 50,
         "division": "novice",
         "name": "Gladiator Elite WC"
@@ -31772,6 +31756,16 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Gladiator Elite WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Gladiator Elite"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Gladiator Elite"
       },
       {
         "tournament_id": 10052,
