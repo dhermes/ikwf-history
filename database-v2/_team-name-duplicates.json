@@ -44233,17 +44233,6 @@
     ]
   },
   {
-    "name_normalized": "LIL' STORM YOUTH WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "LIL' STORM YOUTH WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "LIMESTONE YOUTH ROCKET",
     "url_path_slug": null,
     "duplicates": [
@@ -46267,22 +46256,6 @@
     ]
   },
   {
-    "name_normalized": "Lil Storm Youth",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "LIL' STORM YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "LIL' STORM YOUTH WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "Lil' Coalers WC",
     "url_path_slug": null,
     "duplicates": [
@@ -46556,47 +46529,6 @@
     ]
   },
   {
-    "name_normalized": "Lil' Storm Youth Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "LIL' STORM YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "LIL' STORM YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "LIL' STORM YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "LIL' STORM YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "LIL' STORM YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "LIL' STORM YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "LIL' STORM YOUTH WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "Lil` Coalers WC",
     "url_path_slug": null,
     "duplicates": [
@@ -46669,58 +46601,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Lil` Coalers WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lil` Storm",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "LIL` STORM"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "LIL` STORM"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "LIL` STORM"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "LIL` STORM"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Lil` Storm"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Lil` Storm"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lil` Storm WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Lil` Storm WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Lil` Storm WC"
       }
     ]
   },
@@ -80206,6 +80086,96 @@
     "name_normalized": "Storm Youth Wrestling Club",
     "url_path_slug": "storm-youth",
     "duplicates": [
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "LIL' STORM YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "LIL' STORM YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "LIL' STORM YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "LIL' STORM YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "LIL' STORM YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "LIL' STORM YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "LIL' STORM YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "LIL' STORM YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "LIL' STORM YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "LIL' STORM YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "LIL` STORM"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "LIL` STORM"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "LIL` STORM"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "LIL` STORM"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Lil` Storm"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Lil` Storm"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Lil` Storm WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Lil` Storm WC"
+      },
       {
         "tournament_id": 44,
         "division": "novice",
