@@ -68784,8 +68784,78 @@
   },
   {
     "name_normalized": "RWC",
-    "url_path_slug": null,
+    "url_path_slug": "rwc",
     "duplicates": [
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "RWC"
+      },
       {
         "tournament_id": 54,
         "division": "novice",
@@ -68799,6 +68869,16 @@
       {
         "tournament_id": 54,
         "division": "novice_girls",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
         "name": "RWC"
       }
     ]
@@ -73743,92 +73823,6 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Royal Wrestling Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rwc",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "RWC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "RWC"
       }
     ]
   },
