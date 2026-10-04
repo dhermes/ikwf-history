@@ -3051,7 +3051,7 @@ UPDATE
   team
 SET
   name_normalized = 'Calumet City',
-  url_path_slug = NULL
+  url_path_slug = 'calumet-city'
 WHERE
   id = 244;
 
@@ -3060,12 +3060,12 @@ UPDATE
 SET
   team_id = 244
 WHERE
-  id IN (244, 346, 445, 475, 574, 687, 1955, 3465, 3492, 3531);
+  id IN (244, 346, 445, 475, 574, 687, 1811, 1955, 3465, 3492, 3531);
 
 DELETE FROM
   team
 WHERE
-  id IN (346, 445, 475, 574, 687, 1955, 3465, 3492, 3531);
+  id IN (346, 445, 475, 574, 687, 1811, 1955, 3465, 3492, 3531);
 
 ----------------------------------------
 -- Calumet Memorial Park District Wolverines
@@ -4354,29 +4354,6 @@ DELETE FROM
   team
 WHERE
   id IN (8652, 8844, 9035, 9222, 9397, 9570, 9737, 9904, 10081, 10263, 10434, 10604, 10787, 11296, 11458);
-
-----------------------------------------
--- Coolidge
-
-UPDATE
-  team
-SET
-  name_normalized = 'Coolidge',
-  url_path_slug = NULL
-WHERE
-  id = 96;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 96
-WHERE
-  id IN (96, 252, 352, 482);
-
-DELETE FROM
-  team
-WHERE
-  id IN (252, 352, 482);
 
 ----------------------------------------
 -- Cooper
@@ -6196,52 +6173,6 @@ WHERE
   id IN (2239);
 
 ----------------------------------------
--- EAST MOLINE WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'EAST MOLINE WC',
-  url_path_slug = NULL
-WHERE
-  id = 2240;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2240
-WHERE
-  id IN (2240, 2394);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2394);
-
-----------------------------------------
--- EAST MOLINE WRESTLING CLUB
-
-UPDATE
-  team
-SET
-  name_normalized = 'EAST MOLINE WRESTLING CLUB',
-  url_path_slug = NULL
-WHERE
-  id = 2969;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2969
-WHERE
-  id IN (2969, 3267, 3371);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3267, 3371);
-
-----------------------------------------
 -- EASTLAND MAT CATS
 
 UPDATE
@@ -6610,13 +6541,13 @@ WHERE
   id IN (7904, 8100, 8287, 8472, 8663);
 
 ----------------------------------------
--- East Moline
+-- East Moline WC
 
 UPDATE
   team
 SET
-  name_normalized = 'East Moline',
-  url_path_slug = NULL
+  name_normalized = 'East Moline WC',
+  url_path_slug = 'east-moline'
 WHERE
   id = 101;
 
@@ -6625,35 +6556,12 @@ UPDATE
 SET
   team_id = 101
 WHERE
-  id IN (101, 261, 359, 699, 817);
+  id IN (101, 261, 359, 448, 487, 590, 699, 817, 927, 1044, 1153, 1830, 2240, 2394, 2672, 2822, 2969, 3118, 3267, 3371, 3593, 3710, 3821, 3949, 4070, 4195, 4336, 4504);
 
 DELETE FROM
   team
 WHERE
-  id IN (261, 359, 699, 817);
-
-----------------------------------------
--- East Moline WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'East Moline WC',
-  url_path_slug = NULL
-WHERE
-  id = 448;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 448
-WHERE
-  id IN (448, 487, 590, 927, 1044, 1153, 2672, 3118, 3593, 3710, 3821, 3949, 4070, 4195, 4336, 4504);
-
-DELETE FROM
-  team
-WHERE
-  id IN (487, 590, 927, 1044, 1153, 2672, 3118, 3593, 3710, 3821, 3949, 4070, 4195, 4336, 4504);
+  id IN (261, 359, 448, 487, 590, 699, 817, 927, 1044, 1153, 1830, 2240, 2394, 2672, 2822, 2969, 3118, 3267, 3371, 3593, 3710, 3821, 3949, 4070, 4195, 4336, 4504);
 
 ----------------------------------------
 -- East Peoria Crossface WC
@@ -8818,29 +8726,6 @@ WHERE
   id IN (3720);
 
 ----------------------------------------
--- GC COOLIDGE
-
-UPDATE
-  team
-SET
-  name_normalized = 'GC COOLIDGE',
-  url_path_slug = NULL
-WHERE
-  id = 1839;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1839
-WHERE
-  id IN (1839, 1982);
-
-DELETE FROM
-  team
-WHERE
-  id IN (1982);
-
-----------------------------------------
 -- GC JR WARRIORS
 
 UPDATE
@@ -9117,29 +9002,6 @@ WHERE
   id IN (2253);
 
 ----------------------------------------
--- GRANITE CITY COOLIDGE
-
-UPDATE
-  team
-SET
-  name_normalized = 'GRANITE CITY COOLIDGE',
-  url_path_slug = NULL
-WHERE
-  id = 2121;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2121
-WHERE
-  id IN (2121, 2254, 2408, 2980, 3134);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2254, 2408, 2980, 3134);
-
-----------------------------------------
 -- GRANITE CITY GRIGSBY
 
 UPDATE
@@ -9161,29 +9023,6 @@ DELETE FROM
   team
 WHERE
   id IN (2255);
-
-----------------------------------------
--- GRANITE CITY WC COOLIDGE
-
-UPDATE
-  team
-SET
-  name_normalized = 'GRANITE CITY WC COOLIDGE',
-  url_path_slug = NULL
-WHERE
-  id = 1456;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1456
-WHERE
-  id IN (1456, 2685, 2840);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2685, 2840);
 
 ----------------------------------------
 -- GRANITE CITY WC GRIGSBY
@@ -10043,21 +9882,21 @@ UPDATE
   team
 SET
   name_normalized = 'Granite City Coolidge',
-  url_path_slug = NULL
+  url_path_slug = 'granite-city-coolidge'
 WHERE
-  id = 713;
+  id = 96;
 
 UPDATE
   tournament_team
 SET
-  team_id = 713
+  team_id = 96
 WHERE
-  id IN (713, 1273, 1583, 1712, 2546, 3468, 3501, 3540);
+  id IN (96, 252, 352, 482, 583, 713, 829, 942, 1055, 1165, 1273, 1456, 1583, 1712, 1839, 1982, 2121, 2254, 2408, 2546, 2685, 2840, 2980, 3134, 3468, 3501, 3540);
 
 DELETE FROM
   team
 WHERE
-  id IN (1273, 1583, 1712, 2546, 3468, 3501, 3540);
+  id IN (252, 352, 482, 583, 713, 829, 942, 1055, 1165, 1273, 1456, 1583, 1712, 1839, 1982, 2121, 2254, 2408, 2546, 2685, 2840, 2980, 3134, 3468, 3501, 3540);
 
 ----------------------------------------
 -- Granite City Jr Warriors
@@ -10127,29 +9966,6 @@ DELETE FROM
   team
 WHERE
   id IN (9423, 9597, 9764, 9935, 10112, 10292, 10463, 10638, 10821, 10998, 11160, 11330, 11492, 11668, 11881, 12094, 12307, 12523, 12750, 12977, 13204);
-
-----------------------------------------
--- Granite City-Coolidge
-
-UPDATE
-  team
-SET
-  name_normalized = 'Granite City-Coolidge',
-  url_path_slug = NULL
-WHERE
-  id = 942;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 942
-WHERE
-  id IN (942, 1055);
-
-DELETE FROM
-  team
-WHERE
-  id IN (1055);
 
 ----------------------------------------
 -- Granite City-Grigsby
@@ -12452,6 +12268,29 @@ WHERE
   id IN (2421);
 
 ----------------------------------------
+-- ISI WC
+
+UPDATE
+  team
+SET
+  name_normalized = 'ISI WC',
+  url_path_slug = 'isi'
+WHERE
+  id = 11008;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 11008
+WHERE
+  id IN (11008, 11170, 11341, 11503, 11681, 11894, 12107, 12320, 12534, 12761, 12988, 13215, 13461, 13731, 14001, 14271, 14541, 14811, 15081, 15351);
+
+DELETE FROM
+  team
+WHERE
+  id IN (11170, 11341, 11503, 11681, 11894, 12107, 12320, 12534, 12761, 12988, 13215, 13461, 13731, 14001, 14271, 14541, 14811, 15081, 15351);
+
+----------------------------------------
 -- Iguana Athletics WC
 
 UPDATE
@@ -12841,29 +12680,6 @@ DELETE FROM
   team
 WHERE
   id IN (5743, 5905, 6084, 6266, 6450, 6631, 6813);
-
-----------------------------------------
--- Isi WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'Isi WC',
-  url_path_slug = NULL
-WHERE
-  id = 11008;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 11008
-WHERE
-  id IN (11008, 11170, 11341, 11503, 11681, 11894, 12107, 12320, 12534, 12761, 12988, 13215, 13461, 13731, 14001, 14271, 14541, 14811, 15081, 15351);
-
-DELETE FROM
-  team
-WHERE
-  id IN (11170, 11341, 11503, 11681, 11894, 12107, 12320, 12534, 12761, 12988, 13215, 13461, 13731, 14001, 14271, 14541, 14811, 15081, 15351);
 
 ----------------------------------------
 -- Izzy Style Wrestling
@@ -20761,7 +20577,7 @@ UPDATE
   team
 SET
   name_normalized = 'Northfield',
-  url_path_slug = NULL
+  url_path_slug = 'northfield'
 WHERE
   id = 8;
 
@@ -21075,52 +20891,6 @@ DELETE FROM
   team
 WHERE
   id IN (1627, 2307, 2597, 2740, 3037, 3196, 3311, 3421, 3761);
-
-----------------------------------------
--- OSWEGO PANTHERS
-
-UPDATE
-  team
-SET
-  name_normalized = 'OSWEGO PANTHERS',
-  url_path_slug = NULL
-WHERE
-  id = 2032;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2032
-WHERE
-  id IN (2032, 2308, 2741);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2308, 2741);
-
-----------------------------------------
--- OSWEGO PANTHERS WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'OSWEGO PANTHERS WC',
-  url_path_slug = NULL
-WHERE
-  id = 3312;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 3312
-WHERE
-  id IN (3312, 3422, 3644, 3762);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3422, 3644, 3762);
 
 ----------------------------------------
 -- O`Fallon Little Panthers
@@ -21583,29 +21353,6 @@ WHERE
   id IN (302, 404, 527, 644, 751, 865, 978, 1094, 1206, 1315, 1499, 1626, 1758, 1891, 2031, 2164, 2306, 2460, 2596, 2739, 2886, 3036, 3195, 3310, 3420, 3643, 3760, 3879, 3995, 4122, 4250, 4413, 4581, 4720, 4857, 5014, 5188, 5349, 5496, 5642, 5783, 5947, 6126, 6309, 6493, 6678, 6860, 7038, 7226, 7422, 7610, 7798, 7988, 8173, 8360, 8548, 8739, 8934, 9125, 9303, 9478, 9653, 9820, 11372, 11534, 11726, 11939, 12152, 12365, 12587, 12814, 13041, 13268, 13519, 13789, 14059, 14329, 14599, 14869, 15139, 15409, 15591, 15736, 15882, 16024, 16149, 16408, 16554);
 
 ----------------------------------------
--- Oswego
-
-UPDATE
-  team
-SET
-  name_normalized = 'Oswego',
-  url_path_slug = NULL
-WHERE
-  id = 645;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 645
-WHERE
-  id IN (645, 752);
-
-DELETE FROM
-  team
-WHERE
-  id IN (752);
-
-----------------------------------------
 -- Oswego Cougars
 
 UPDATE
@@ -21675,73 +21422,27 @@ WHERE
   id IN (6494, 6679, 6861, 7039, 7227, 7423, 7611);
 
 ----------------------------------------
--- Oswego Panters
-
-UPDATE
-  team
-SET
-  name_normalized = 'Oswego Panters',
-  url_path_slug = NULL
-WHERE
-  id = 5350;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 5350
-WHERE
-  id IN (5350, 5497);
-
-DELETE FROM
-  team
-WHERE
-  id IN (5497);
-
-----------------------------------------
--- Oswego Panthers
-
-UPDATE
-  team
-SET
-  name_normalized = 'Oswego Panthers',
-  url_path_slug = NULL
-WHERE
-  id = 1501;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1501
-WHERE
-  id IN (1501, 1628, 3881, 3997, 4124, 4252, 4414, 4582, 4721, 4858, 5015, 5189, 5643, 5784);
-
-DELETE FROM
-  team
-WHERE
-  id IN (1628, 3881, 3997, 4124, 4252, 4414, 4582, 4721, 4858, 5015, 5189, 5643, 5784);
-
-----------------------------------------
 -- Oswego WC
 
 UPDATE
   team
 SET
   name_normalized = 'Oswego WC',
-  url_path_slug = NULL
+  url_path_slug = 'oswego'
 WHERE
-  id = 10345;
+  id = 645;
 
 UPDATE
   tournament_team
 SET
-  team_id = 10345
+  team_id = 645
 WHERE
-  id IN (10345, 10516, 10688, 10871, 11046, 11208, 11373, 11535, 11727, 11940, 12153, 12366, 12588, 12815, 13042, 13269, 13520, 13790, 14060, 14330, 14600, 14870, 15140, 15410, 15737, 16025, 16269, 16409, 16555);
+  id IN (645, 752, 1316, 1395, 1501, 1628, 2032, 2308, 2741, 3312, 3422, 3644, 3762, 3881, 3997, 4124, 4252, 4414, 4582, 4721, 4858, 5015, 5189, 5350, 5497, 5643, 5784, 10345, 10516, 10688, 10871, 11046, 11208, 11373, 11535, 11727, 11940, 12153, 12366, 12588, 12815, 13042, 13269, 13520, 13790, 14060, 14330, 14600, 14870, 15140, 15410, 15737, 16025, 16269, 16409, 16555);
 
 DELETE FROM
   team
 WHERE
-  id IN (10516, 10688, 10871, 11046, 11208, 11373, 11535, 11727, 11940, 12153, 12366, 12588, 12815, 13042, 13269, 13520, 13790, 14060, 14330, 14600, 14870, 15140, 15410, 15737, 16025, 16269, 16409, 16555);
+  id IN (752, 1316, 1395, 1501, 1628, 2032, 2308, 2741, 3312, 3422, 3644, 3762, 3881, 3997, 4124, 4252, 4414, 4582, 4721, 4858, 5015, 5189, 5350, 5497, 5643, 5784, 10345, 10516, 10688, 10871, 11046, 11208, 11373, 11535, 11727, 11940, 12153, 12366, 12588, 12815, 13042, 13269, 13520, 13790, 14060, 14330, 14600, 14870, 15140, 15410, 15737, 16025, 16269, 16409, 16555);
 
 ----------------------------------------
 -- Ottawa Crushers Kids WC
@@ -24159,52 +23860,6 @@ WHERE
   id IN (3212, 3321, 3431);
 
 ----------------------------------------
--- ROSEMONT COBRA WRESTLING
-
-UPDATE
-  team
-SET
-  name_normalized = 'ROSEMONT COBRA WRESTLING',
-  url_path_slug = NULL
-WHERE
-  id = 2757;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2757
-WHERE
-  id IN (2757, 2903);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2903);
-
-----------------------------------------
--- ROSEMONT COBRAS
-
-UPDATE
-  team
-SET
-  name_normalized = 'ROSEMONT COBRAS',
-  url_path_slug = NULL
-WHERE
-  id = 1642;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1642
-WHERE
-  id IN (1642, 2326, 3654, 3774);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2326, 3654, 3774);
-
-----------------------------------------
 -- ROUND LAKE SPARTAN
 
 UPDATE
@@ -25792,13 +25447,13 @@ WHERE
   id IN (6514, 6701, 6883);
 
 ----------------------------------------
--- Rosemont
+-- Rosemont Cobras
 
 UPDATE
   team
 SET
-  name_normalized = 'Rosemont',
-  url_path_slug = NULL
+  name_normalized = 'Rosemont Cobras',
+  url_path_slug = 'rosemont-cobras'
 WHERE
   id = 313;
 
@@ -25807,35 +25462,12 @@ UPDATE
 SET
   team_id = 313
 WHERE
-  id IN (313, 764);
+  id IN (313, 419, 539, 655, 764, 879, 990, 1104, 1214, 1326, 1401, 1512, 1642, 1775, 1914, 2051, 2177, 2326, 2473, 2611, 2757, 2903, 3323, 3654, 3774);
 
 DELETE FROM
   team
 WHERE
-  id IN (764);
-
-----------------------------------------
--- Rosemont Cobras
-
-UPDATE
-  team
-SET
-  name_normalized = 'Rosemont Cobras',
-  url_path_slug = NULL
-WHERE
-  id = 419;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 419
-WHERE
-  id IN (419, 539, 655, 879, 990, 1214, 1326, 1401, 1775, 1914, 2051, 2177, 2473, 2611);
-
-DELETE FROM
-  team
-WHERE
-  id IN (539, 655, 879, 990, 1214, 1326, 1401, 1775, 1914, 2051, 2177, 2473, 2611);
+  id IN (419, 539, 655, 764, 879, 990, 1104, 1214, 1326, 1401, 1512, 1642, 1775, 1914, 2051, 2177, 2326, 2473, 2611, 2757, 2903, 3323, 3654, 3774);
 
 ----------------------------------------
 -- Rosette
@@ -31427,75 +31059,6 @@ WHERE
   id IN (2929, 3080, 3238, 4158);
 
 ----------------------------------------
--- WEST CHICAGO PARK DISTRICT
-
-UPDATE
-  team
-SET
-  name_normalized = 'WEST CHICAGO PARK DISTRICT',
-  url_path_slug = NULL
-WHERE
-  id = 2930;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2930
-WHERE
-  id IN (2930, 3081);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3081);
-
-----------------------------------------
--- WEST CHICAGO PD
-
-UPDATE
-  team
-SET
-  name_normalized = 'WEST CHICAGO PD',
-  url_path_slug = NULL
-WHERE
-  id = 1795;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1795
-WHERE
-  id IN (1795, 2202, 2350);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2202, 2350);
-
-----------------------------------------
--- WEST CHICAGO PD WRESTLING
-
-UPDATE
-  team
-SET
-  name_normalized = 'WEST CHICAGO PD WRESTLING',
-  url_path_slug = NULL
-WHERE
-  id = 2497;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2497
-WHERE
-  id IN (2497, 2635);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2635);
-
-----------------------------------------
 -- WESTVILLE
 
 UPDATE
@@ -32215,7 +31778,7 @@ UPDATE
   team
 SET
   name_normalized = 'West Chicago',
-  url_path_slug = NULL
+  url_path_slug = 'west-chicago'
 WHERE
   id = 66;
 
@@ -32224,81 +31787,12 @@ UPDATE
 SET
   team_id = 66
 WHERE
-  id IN (66, 78, 152, 170, 200, 231, 438, 557, 672, 786, 896, 1006, 3485, 3525, 3567);
+  id IN (66, 78, 152, 170, 200, 231, 438, 557, 672, 786, 896, 1006, 1345, 1411, 1535, 1662, 1795, 2074, 2202, 2350, 2497, 2635, 2930, 3081, 3485, 3525, 3567, 4159, 4755, 6005, 6184, 6367, 6551, 6734, 6916);
 
 DELETE FROM
   team
 WHERE
-  id IN (78, 152, 170, 200, 231, 438, 557, 672, 786, 896, 1006, 3485, 3525, 3567);
-
-----------------------------------------
--- West Chicago Junior Wildcats
-
-UPDATE
-  team
-SET
-  name_normalized = 'West Chicago Junior Wildcats',
-  url_path_slug = NULL
-WHERE
-  id = 6005;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 6005
-WHERE
-  id IN (6005, 6184, 6367, 6551, 6734, 6916);
-
-DELETE FROM
-  team
-WHERE
-  id IN (6184, 6367, 6551, 6734, 6916);
-
-----------------------------------------
--- West Chicago Park District
-
-UPDATE
-  team
-SET
-  name_normalized = 'West Chicago Park District',
-  url_path_slug = NULL
-WHERE
-  id = 1662;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1662
-WHERE
-  id IN (1662, 4159);
-
-DELETE FROM
-  team
-WHERE
-  id IN (4159);
-
-----------------------------------------
--- West Chicago Wildcats
-
-UPDATE
-  team
-SET
-  name_normalized = 'West Chicago Wildcats',
-  url_path_slug = NULL
-WHERE
-  id = 1345;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1345
-WHERE
-  id IN (1345, 1411);
-
-DELETE FROM
-  team
-WHERE
-  id IN (1411);
+  id IN (78, 152, 170, 200, 231, 438, 557, 672, 786, 896, 1006, 1345, 1411, 1535, 1662, 1795, 2074, 2202, 2350, 2497, 2635, 2930, 3081, 3485, 3525, 3567, 4159, 4755, 6005, 6184, 6367, 6551, 6734, 6916);
 
 ----------------------------------------
 -- West Frankfort Jr. Redbirds WC
