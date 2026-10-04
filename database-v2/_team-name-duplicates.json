@@ -17277,43 +17277,6 @@
     ]
   },
   {
-    "name_normalized": "Coolidge",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Coolidge"
-      },
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Coolidge"
-      },
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Coolidge"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Coolidge"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Coolidge Granite City",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Coolidge Granite City"
-      }
-    ]
-  },
-  {
     "name_normalized": "Cooper",
     "url_path_slug": null,
     "duplicates": [
@@ -30150,22 +30113,6 @@
     ]
   },
   {
-    "name_normalized": "GC COOLIDGE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "GC COOLIDGE"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "GC COOLIDGE"
-      }
-    ]
-  },
-  {
     "name_normalized": "GC JR WARRIORS",
     "url_path_slug": null,
     "duplicates": [
@@ -30609,37 +30556,6 @@
     ]
   },
   {
-    "name_normalized": "GRANITE CITY COOLIDGE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "GRANITE CITY COOLIDGE"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "GRANITE CITY COOLIDGE"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "GRANITE CITY COOLIDGE"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "GRANITE CITY COOLIDGE"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "GRANITE CITY COOLIDGE"
-      }
-    ]
-  },
-  {
     "name_normalized": "GRANITE CITY GRIGSBY",
     "url_path_slug": null,
     "duplicates": [
@@ -30652,27 +30568,6 @@
         "tournament_id": 24,
         "division": "senior",
         "name": "GRANITE CITY GRIGSBY"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GRANITE CITY WC COOLIDGE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "GRANITE CITY WC COOLIDGE"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "GRANITE CITY WC COOLIDGE"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "GRANITE CITY WC COOLIDGE"
       }
     ]
   },
@@ -32826,17 +32721,6 @@
     ]
   },
   {
-    "name_normalized": "Granite City / Coolidge",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Granite City / Coolidge"
-      }
-    ]
-  },
-  {
     "name_normalized": "Granite City / Grigsby",
     "url_path_slug": null,
     "duplicates": [
@@ -32849,17 +32733,67 @@
   },
   {
     "name_normalized": "Granite City Coolidge",
-    "url_path_slug": null,
+    "url_path_slug": "granite-city-coolidge",
     "duplicates": [
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Coolidge"
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Coolidge"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Coolidge"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Coolidge"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Coolidge Granite City"
+      },
       {
         "tournament_id": 13,
         "division": "senior",
         "name": "Granite City Coolidge"
       },
       {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Granite City / Coolidge"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Granite City-Coolidge"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Granite City-Coolidge"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Granite City Coolidge WC"
+      },
+      {
         "tournament_id": 18,
         "division": "senior",
         "name": "Granite City Coolidge"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "GRANITE CITY WC COOLIDGE"
       },
       {
         "tournament_id": 21,
@@ -32872,7 +32806,52 @@
         "name": "GRANITE CITY WC COOLIDGE"
       },
       {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "GC COOLIDGE"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "GC COOLIDGE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "GRANITE CITY COOLIDGE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "GRANITE CITY COOLIDGE"
+      },
+      {
         "tournament_id": 25,
+        "division": "novice",
+        "name": "GRANITE CITY COOLIDGE"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "GRANITE CITY COOLIDGE"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "GRANITE CITY WC COOLIDGE"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "GRANITE CITY WC COOLIDGE"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "GRANITE CITY COOLIDGE"
+      },
+      {
+        "tournament_id": 27,
         "division": "senior",
         "name": "GRANITE CITY COOLIDGE"
       },
@@ -32890,17 +32869,6 @@
         "tournament_id": 10028,
         "division": "senior_iwf",
         "name": "Granite City Coolidge"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Granite City Coolidge WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Granite City Coolidge WC"
       }
     ]
   },
@@ -33151,22 +33119,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Granite City Wrestling Association"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Granite City-Coolidge",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Granite City-Coolidge"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Granite City-Coolidge"
       }
     ]
   },
@@ -39372,6 +39324,112 @@
     ]
   },
   {
+    "name_normalized": "ISI WC",
+    "url_path_slug": "isi",
+    "duplicates": [
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "ISI WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "ISI WC"
+      }
+    ]
+  },
+  {
     "name_normalized": "Iguana Athletics WC",
     "url_path_slug": null,
     "duplicates": [
@@ -40132,112 +40190,6 @@
         "tournament_id": 39,
         "division": "senior",
         "name": "IRON MAN"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ISI WC",
-    "url_path_slug": "isi",
-    "duplicates": [
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "ISI WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "ISI WC"
       }
     ]
   },
