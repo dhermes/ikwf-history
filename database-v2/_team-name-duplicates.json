@@ -89269,70 +89269,6 @@
     ]
   },
   {
-    "name_normalized": "WEST CHICAGO",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "WEST CHICAGO"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WEST CHICAGO PARK DISTRICT",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "WEST CHICAGO PARK DISTRICT"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "WEST CHICAGO PARK DISTRICT"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WEST CHICAGO PD",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "WEST CHICAGO PD"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "WEST CHICAGO PD"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "WEST CHICAGO PD"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WEST CHICAGO PD WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "WEST CHICAGO PD WRESTLING"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "WEST CHICAGO PD WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "WEST CHICAGO SPIDER WC",
     "url_path_slug": null,
     "duplicates": [
@@ -89340,17 +89276,6 @@
         "tournament_id": 33,
         "division": "novice",
         "name": "WEST CHICAGO SPIDER WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WEST CHICAGO WILDCATS P.D.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "WEST CHICAGO WILDCATS P.D."
       }
     ]
   },
@@ -90660,7 +90585,7 @@
   },
   {
     "name_normalized": "West Chicago",
-    "url_path_slug": null,
+    "url_path_slug": "west-chicago",
     "duplicates": [
       {
         "tournament_id": 2,
@@ -90723,6 +90648,101 @@
         "name": "West Chicago"
       },
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "West Chicago Wildcats"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "West Chicago Wildcats"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "WEST CHICAGO WILDCATS P.D."
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "WEST CHICAGO PD"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "WEST CHICAGO PD"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "WEST CHICAGO"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "WEST CHICAGO PD"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "WEST CHICAGO PD"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "WEST CHICAGO PD WRESTLING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "WEST CHICAGO PD WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "WEST CHICAGO PARK DISTRICT"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "WEST CHICAGO PARK DISTRICT"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "WEST CHICAGO P.D. WILDCATS"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "West Chicago Junior Wildcats"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "West Chicago Junior Wildcats"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "WEST CHICAGO JUNIOR WILDCATS"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "WEST CHICAGO JUNIOR WILDCATS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "WEST CHICAGO JUNIOR WILDCATS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "WEST CHICAGO JUNIOR WILDCATS"
+      },
+      {
         "tournament_id": 10028,
         "division": "junior_iwf",
         "name": "West Chicago"
@@ -90736,74 +90756,6 @@
         "tournament_id": 10028,
         "division": "senior_iwf",
         "name": "West Chicago"
-      }
-    ]
-  },
-  {
-    "name_normalized": "West Chicago Junior Wildcats",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "West Chicago Junior Wildcats"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "West Chicago Junior Wildcats"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "WEST CHICAGO JUNIOR WILDCATS"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "WEST CHICAGO JUNIOR WILDCATS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "WEST CHICAGO JUNIOR WILDCATS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "WEST CHICAGO JUNIOR WILDCATS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "West Chicago Park District",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "WEST CHICAGO PD"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "WEST CHICAGO P.D. WILDCATS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "West Chicago Wildcats",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "West Chicago Wildcats"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "West Chicago Wildcats"
       }
     ]
   },
