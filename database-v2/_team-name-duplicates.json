@@ -60117,63 +60117,6 @@
     ]
   },
   {
-    "name_normalized": "OAK FOREST",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "OAK FOREST"
-      }
-    ]
-  },
-  {
-    "name_normalized": "OAK FOREST WARRIORS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "OAK FOREST WARRIORS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "OAK FOREST WARRIORS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "OAK FOREST WARRIORS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "OAK FOREST WARRIORS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "OAK FOREST WARRIORS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "OAK FOREST WARRIORS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "OAK FOREST WARRIORS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "OAK FOREST WARRIORS"
-      }
-    ]
-  },
-  {
     "name_normalized": "OAK LAWN P.D. WILDCATS",
     "url_path_slug": null,
     "duplicates": [
@@ -60797,8 +60740,8 @@
     ]
   },
   {
-    "name_normalized": "Oak Forest",
-    "url_path_slug": null,
+    "name_normalized": "Oak Forest Warriors",
+    "url_path_slug": "oak-forest",
     "duplicates": [
       {
         "tournament_id": 3,
@@ -60826,120 +60769,6 @@
         "name": "Oak Forest"
       },
       {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Oak Forest"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Oak Forest"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oak Forest P. D. Warriors Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Oak Forest P. D. Warriors Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Oak Forest P. D. Warriors Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Oak Forest P. D. Warriors Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Oak Forest P. D. Warriors Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Oak Forest P. D. Warriors Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Oak Forest P. D. Warriors Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Oak Forest P. D. Warriors Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Oak Forest P. D. Warriors Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oak Forest Park District Warriors",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Oak Forest Park District Warriors"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Oak Forest Park District Warriors"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oak Forest Park District Warriors Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Oak Forest Park District Warriors Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Oak Forest Park District Warriors Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Oak Forest Park District Warriors Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Oak Forest Park District Warriors Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Oak Forest Park District Warriors Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Oak Forest Park District Warriors Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oak Forest Warriors",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 8,
         "division": "senior",
         "name": "Oak Forest"
@@ -60960,7 +60789,17 @@
         "name": "Oak Forest"
       },
       {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Oak Forest"
+      },
+      {
         "tournament_id": 13,
+        "division": "senior",
+        "name": "Oak Forest"
+      },
+      {
+        "tournament_id": 14,
         "division": "senior",
         "name": "Oak Forest"
       },
@@ -61000,12 +60839,57 @@
         "name": "OAK FOREST WARRIORS"
       },
       {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "OAK FOREST WARRIORS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "OAK FOREST"
+      },
+      {
         "tournament_id": 23,
         "division": "senior",
         "name": "OAK FOREST"
       },
       {
         "tournament_id": 24,
+        "division": "novice",
+        "name": "OAK FOREST WARRIORS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "OAK FOREST WARRIORS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "OAK FOREST WARRIORS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "OAK FOREST WARRIORS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "OAK FOREST WARRIORS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "OAK FOREST WARRIORS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "OAK FOREST WARRIORS"
+      },
+      {
+        "tournament_id": 27,
         "division": "senior",
         "name": "OAK FOREST WARRIORS"
       },
@@ -61115,6 +60999,16 @@
         "name": "Oak Forest Warriors"
       },
       {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Oak Forest Park District Warriors"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Oak Forest Park District Warriors"
+      },
+      {
         "tournament_id": 44,
         "division": "novice",
         "name": "Oak Forest Warriors"
@@ -61174,32 +61068,6 @@
         "division": "senior",
         "name": "Oak Forest Warriors"
       },
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Oak Forest Warriors"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "Oak Forest Warriors"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Oak Forest Warriors"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Oak Forest Warriors"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oak Forest Warriors WC",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 50,
         "division": "novice",
@@ -61239,6 +61107,96 @@
         "tournament_id": 52,
         "division": "senior_girls",
         "name": "Oak Forest Warriors WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Oak Forest P. D. Warriors Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Oak Forest P. D. Warriors Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Oak Forest P. D. Warriors Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Oak Forest P. D. Warriors Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Oak Forest P. D. Warriors Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Oak Forest P. D. Warriors Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Oak Forest P. D. Warriors Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Oak Forest P. D. Warriors Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Oak Forest Park District Warriors Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Oak Forest Park District Warriors Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Oak Forest Park District Warriors Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Oak Forest Park District Warriors Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Oak Forest Park District Warriors Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Oak Forest Park District Warriors Wrestling"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Oak Forest Warriors"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "Oak Forest Warriors"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Oak Forest Warriors"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Oak Forest Warriors"
       },
       {
         "tournament_id": 10052,
