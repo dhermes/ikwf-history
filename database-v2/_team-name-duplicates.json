@@ -81975,8 +81975,38 @@
   },
   {
     "name_normalized": "TJ Trained Wrestling",
-    "url_path_slug": null,
+    "url_path_slug": "tj-trained",
     "duplicates": [
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "TJ Trained"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "TJ Trained"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "TJ Trained"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "TJ Trained"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "TJ Trained"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "TJ Trained"
+      },
       {
         "tournament_id": 54,
         "division": "bantam",
@@ -85161,42 +85191,6 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "TITAN YOUTH WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Tj Trained",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "TJ Trained"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "TJ Trained"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "TJ Trained"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "TJ Trained"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "TJ Trained"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "TJ Trained"
       }
     ]
   },
