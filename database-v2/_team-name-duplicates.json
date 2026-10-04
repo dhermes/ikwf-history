@@ -51115,58 +51115,6 @@
     ]
   },
   {
-    "name_normalized": "MT. ZION WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "MT. ZION WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "MT. ZION WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "MT. ZION WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MT. ZION WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "MT. ZION WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "MT. ZION WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "MT. ZION WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "MT. ZION WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "MT. ZION WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "MURPHY JR. HIGH",
     "url_path_slug": null,
     "duplicates": [
@@ -57158,9 +57106,14 @@
     ]
   },
   {
-    "name_normalized": "Mt. Zion",
-    "url_path_slug": null,
+    "name_normalized": "Mt. Zion Kids WC",
+    "url_path_slug": "mt-zion",
     "duplicates": [
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Zion"
+      },
       {
         "tournament_id": 12,
         "division": "senior",
@@ -57175,60 +57128,7 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Mt. Zion"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mt. Zion Kids WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Mt. Zion Kids WC"
       },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Mt. Zion Kids WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Mt. Zion Kids WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mt. Zion WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Mt. Zion WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mt. Zion Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 15,
         "division": "senior",
@@ -57241,6 +57141,11 @@
       },
       {
         "tournament_id": 17,
+        "division": "senior",
+        "name": "Mt. Zion WC"
+      },
+      {
+        "tournament_id": 18,
         "division": "senior",
         "name": "Mt. Zion WC"
       },
@@ -57276,12 +57181,52 @@
       },
       {
         "tournament_id": 24,
+        "division": "novice",
+        "name": "MT. ZION WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "MT. ZION WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "MT. ZION WC"
+      },
+      {
+        "tournament_id": 25,
         "division": "senior",
         "name": "MT. ZION WC"
       },
       {
         "tournament_id": 26,
         "division": "novice",
+        "name": "MT. ZION WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "MT. ZION WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "MT. ZION WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "MT. ZION WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "MT. ZION WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
         "name": "MT. ZION WRESTLING CLUB"
       },
       {
@@ -57511,6 +57456,36 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Mt. Zion Kids WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Mt. Zion Kids WC"
       },
@@ -95554,17 +95529,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Zero Fox Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Zion",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Zion"
       }
     ]
   },
