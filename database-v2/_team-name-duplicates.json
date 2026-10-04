@@ -32605,187 +32605,149 @@
     ]
   },
   {
-    "name_normalized": "Gomez Wrestling Acad.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Gomez Wrestling Acad."
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Gomez Wrestling Acad."
-      }
-    ]
-  },
-  {
-    "name_normalized": "Gomez Wrestling Academy",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "GOMEZ WRESTLING ACADEMY"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "GOMEZ WRESTLING ACADEMY"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "GOMEZ WRESTLING ACADEMY"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "GOMEZ WRESTLING ACADEMY"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "GOMEZ WRESTLING ACADEMY"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "GOMEZ WRESTLING ACADEMY"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "GOMEZ WRESTLING ACADEMY"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "GOMEZ WRESTLING ACADEMY"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Gomez Wrestling Academy"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Gomez Wrestling Academy"
-      }
-    ]
-  },
-  {
     "name_normalized": "Gomez Wrestling RTC",
-    "url_path_slug": null,
+    "url_path_slug": "hector-gomez",
     "duplicates": [
       {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Gomez Wrestling RTC"
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "GOMEZ WRESTLING ACADEMY"
       },
       {
-        "tournament_id": 54,
+        "tournament_id": 36,
         "division": "senior",
-        "name": "Gomez Wrestling RTC"
+        "name": "GOMEZ WRESTLING ACADEMY"
       },
       {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Gomez Wrestling RTC"
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Gomez Wrestling Academy"
       },
       {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Gomez Wrestling RTC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Gomez Wrestling Rtc",
-    "url_path_slug": null,
-    "duplicates": [
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "GOMEZ WRESTLING ACADEMY"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "GOMEZ WRESTLING ACADEMY"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "GOMEZ WRESTLING ACADEMY"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "GOMEZ WRESTLING ACADEMY"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "GOMEZ WRESTLING ACADEMY"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "GOMEZ WRESTLING ACADEMY"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Gomez Wrestling Acad."
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Gomez Wrestling Acad."
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Gomez Wrestling Academy"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Gomez Wrestling Academy"
+      },
       {
         "tournament_id": 53,
         "division": "bantam",
@@ -32823,6 +32785,26 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Gomez Wrestling RTC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Gomez Wrestling RTC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Gomez Wrestling RTC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Gomez Wrestling RTC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Gomez Wrestling RTC"
       }
