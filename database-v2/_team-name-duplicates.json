@@ -44404,39 +44404,6 @@
     ]
   },
   {
-    "name_normalized": "LAWRENCEVILLE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "LAWRENCEVILLE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LAWRENCEVILLE WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "LAWRENCEVILLE WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LAWRENCEVILLE WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "LAWRENCEVILLE WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "LEMONT BEARS",
     "url_path_slug": null,
     "duplicates": [
@@ -45998,8 +45965,8 @@
     ]
   },
   {
-    "name_normalized": "Lawrenceville",
-    "url_path_slug": null,
+    "name_normalized": "Lawrenceville WC",
+    "url_path_slug": "lawrenceville",
     "duplicates": [
       {
         "tournament_id": 11,
@@ -46020,17 +45987,26 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Lawrenceville"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lawrenceville WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 15,
         "division": "senior",
         "name": "Lawrenceville WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "LAWRENCEVILLE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "LAWRENCEVILLE WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "LAWRENCEVILLE WRESTLING"
       }
     ]
   },
