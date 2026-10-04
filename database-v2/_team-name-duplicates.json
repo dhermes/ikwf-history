@@ -20418,7 +20418,7 @@
   },
   {
     "name_normalized": "DeKalb Huntley",
-    "url_path_slug": null,
+    "url_path_slug": "dekalb-huntley",
     "duplicates": [
       {
         "tournament_id": 2,
@@ -20439,6 +20439,11 @@
         "tournament_id": 8,
         "division": "senior",
         "name": "Huntley"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Huntley Middle School"
       },
       {
         "tournament_id": 12,
@@ -39155,17 +39160,6 @@
         "tournament_id": 43,
         "division": "senior",
         "name": "Huntley Jr. Red Raiders WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Huntley Middle School",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Huntley Middle School"
       }
     ]
   },
