@@ -33648,55 +33648,6 @@
     ]
   },
   {
-    "name_normalized": "HARLEM SCHOOL DISTRICT #122",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "HARLEM SCHOOL DISTRICT #122"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "HARLEM SCHOOL DISTRICT #122"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HARLEM SCHOOL DISTRICT 122",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "HARLEM SCHOOL DISTRICT 122"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HARLEM SCHOOL DISTRICT 122 WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "HARLEM SCHOOL DISTRICT 122 WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HARLEM-PARK BOYS CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "HARLEM-PARK BOYS CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "HAVANA",
     "url_path_slug": null,
     "duplicates": [
@@ -34439,20 +34390,14 @@
     ]
   },
   {
-    "name_normalized": "Harlem",
-    "url_path_slug": null,
+    "name_normalized": "Harlem Boys Club",
+    "url_path_slug": "harlem-boys-club",
     "duplicates": [
       {
         "tournament_id": 3,
         "division": "senior",
         "name": "Harlem"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Harlem Boys Club",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 16,
         "division": "senior",
@@ -34467,6 +34412,41 @@
         "tournament_id": 19,
         "division": "senior",
         "name": "Harlem Boys Club"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "HARLEM-PARK BOYS CLUB"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "HARLEM SCHOOL DISTRICT 122"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "HARLEM SCHOOL DISTRICT 122 WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "HARLEM SCHOOL DISTRICT #122"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "HARLEM SCHOOL DISTRICT #122"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "HARLEM WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "HARLEM WRESTLING CLUB"
       }
     ]
   },
@@ -34881,22 +34861,6 @@
         "tournament_id": 19,
         "division": "senior",
         "name": "Harlem School District"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Harlem Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "HARLEM WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "HARLEM WRESTLING CLUB"
       }
     ]
   },
