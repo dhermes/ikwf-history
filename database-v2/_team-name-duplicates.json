@@ -60243,53 +60243,6 @@
     ]
   },
   {
-    "name_normalized": "OSWEGO PANTHERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "OSWEGO PANTHERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "OSWEGO PANTHERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "OSWEGO PANTHERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "OSWEGO PANTHERS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "OSWEGO PANTHERS WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "OSWEGO PANTHERS WC"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "OSWEGO PANTHERS WC"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "OSWEGO PANTHERS WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "O`Fallon Little Panthers",
     "url_path_slug": null,
     "duplicates": [
@@ -62388,22 +62341,6 @@
     ]
   },
   {
-    "name_normalized": "Oswego",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Oswego"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Oswego"
-      }
-    ]
-  },
-  {
     "name_normalized": "Oswego Cougars",
     "url_path_slug": null,
     "duplicates": [
@@ -62507,25 +62444,29 @@
     ]
   },
   {
-    "name_normalized": "Oswego Panters",
-    "url_path_slug": null,
+    "name_normalized": "Oswego WC",
+    "url_path_slug": "oswego",
     "duplicates": [
       {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "OSWEGO PANTERS"
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Oswego"
       },
       {
-        "tournament_id": 35,
+        "tournament_id": 13,
         "division": "senior",
-        "name": "OSWEGO PANTERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oswego Panthers",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "Oswego"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Panther WC Oswego"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Panther Oswego"
+      },
       {
         "tournament_id": 20,
         "division": "senior",
@@ -62537,6 +62478,41 @@
         "name": "OSWEGO PANTHERS"
       },
       {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "OSWEGO PANTHERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "OSWEGO PANTHERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "OSWEGO PANTHERS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "OSWEGO PANTHERS WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "OSWEGO PANTHERS WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "OSWEGO PANTHERS WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "OSWEGO PANTHERS WC"
+      },
+      {
         "tournament_id": 30,
         "division": "novice",
         "name": "OSWEGO PANTHERS WC"
@@ -62587,6 +62563,16 @@
         "name": "OSWEGO PANTHERS"
       },
       {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "OSWEGO PANTERS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "OSWEGO PANTERS"
+      },
+      {
         "tournament_id": 36,
         "division": "novice",
         "name": "OSWEGO PANTHERS"
@@ -62595,13 +62581,7 @@
         "tournament_id": 36,
         "division": "senior",
         "name": "OSWEGO PANTHERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oswego WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 49,
         "division": "novice",
@@ -64139,17 +64119,6 @@
     ]
   },
   {
-    "name_normalized": "Panther Oswego",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Panther Oswego"
-      }
-    ]
-  },
-  {
     "name_normalized": "Panther Paw WC",
     "url_path_slug": null,
     "duplicates": [
@@ -64465,17 +64434,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Panther WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Panther WC Oswego",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Panther WC Oswego"
       }
     ]
   },
