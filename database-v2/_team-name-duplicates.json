@@ -59270,22 +59270,6 @@
     ]
   },
   {
-    "name_normalized": "New Lenox",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "New Lenox"
-      },
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "New Lenox"
-      }
-    ]
-  },
-  {
     "name_normalized": "New Lenox Lions",
     "url_path_slug": null,
     "duplicates": [
@@ -59318,7 +59302,7 @@
   },
   {
     "name_normalized": "New Lenox Oakview",
-    "url_path_slug": null,
+    "url_path_slug": "new-lenox-oakview",
     "duplicates": [
       {
         "tournament_id": 1,
@@ -59336,6 +59320,11 @@
         "name": "New Lenox Oakview"
       },
       {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "New Lenox"
+      },
+      {
         "tournament_id": 5,
         "division": "senior",
         "name": "New Lenox Oakview"
@@ -59349,6 +59338,11 @@
         "tournament_id": 7,
         "division": "senior",
         "name": "New Lenox Oakview"
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "New Lenox"
       },
       {
         "tournament_id": 11,
