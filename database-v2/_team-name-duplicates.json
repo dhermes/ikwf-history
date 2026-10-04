@@ -56160,8 +56160,8 @@
     ]
   },
   {
-    "name_normalized": "Morris",
-    "url_path_slug": null,
+    "name_normalized": "Morris WC",
+    "url_path_slug": "morris",
     "duplicates": [
       {
         "tournament_id": 2,
@@ -56177,13 +56177,7 @@
         "tournament_id": 6,
         "division": "senior",
         "name": "Morris"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Morris WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 53,
         "division": "bantam",
