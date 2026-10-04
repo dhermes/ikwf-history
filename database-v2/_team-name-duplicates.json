@@ -87434,37 +87434,6 @@
     ]
   },
   {
-    "name_normalized": "VILLA-LOMBARD COUGARS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "VILLA-LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "VILLA-LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "VILLA-LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "VILLA-LOMBARD COUGARS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "VILLA-LOMBARD COUGARS"
-      }
-    ]
-  },
-  {
     "name_normalized": "Vandal Kings",
     "url_path_slug": null,
     "duplicates": [
@@ -87934,17 +87903,6 @@
     ]
   },
   {
-    "name_normalized": "Villa Lombard",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Villa Lombard"
-      }
-    ]
-  },
-  {
     "name_normalized": "Villa Park",
     "url_path_slug": null,
     "duplicates": [
@@ -88167,8 +88125,8 @@
     ]
   },
   {
-    "name_normalized": "Villa-Lombard",
-    "url_path_slug": null,
+    "name_normalized": "Villa-Lombard Cougars",
+    "url_path_slug": "villa-lombard",
     "duplicates": [
       {
         "tournament_id": 12,
@@ -88176,16 +88134,15 @@
         "name": "Villa-Lombard"
       },
       {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Villa Lombard"
+      },
+      {
         "tournament_id": 14,
         "division": "senior",
         "name": "Villa-Lombard"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Villa-Lombard Cougars",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 15,
         "division": "senior",
@@ -88257,7 +88214,32 @@
         "name": "VILLA-LOMBARD COUGARS"
       },
       {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "VILLA-LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "VILLA-LOMBARD COUGARS"
+      },
+      {
         "tournament_id": 27,
+        "division": "novice",
+        "name": "VILLA-LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "VILLA-LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "VILLA-LOMBARD COUGARS"
+      },
+      {
+        "tournament_id": 28,
         "division": "senior",
         "name": "VILLA-LOMBARD COUGARS"
       },
