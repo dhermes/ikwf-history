@@ -89269,17 +89269,6 @@
     ]
   },
   {
-    "name_normalized": "WEST CHICAGO SPIDER WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "WEST CHICAGO SPIDER WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "WESTVILLE",
     "url_path_slug": null,
     "duplicates": [
@@ -90711,6 +90700,11 @@
         "tournament_id": 31,
         "division": "novice",
         "name": "WEST CHICAGO P.D. WILDCATS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "WEST CHICAGO SPIDER WC"
       },
       {
         "tournament_id": 37,
