@@ -87802,48 +87802,6 @@
     ]
   },
   {
-    "name_normalized": "VITTUM CATS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "VITTUM CATS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "VITTUM CATS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "VITTUM CATS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "VITTUM CATS WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "VITTUM CATS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "VITTUM CATS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "VITTUM CATS WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "Vandal Kings",
     "url_path_slug": null,
     "duplicates": [
@@ -88863,8 +88821,34 @@
     ]
   },
   {
-    "name_normalized": "Vittum Cats",
+    "name_normalized": "Vittum Cats Of SKT",
     "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Vittum Cats of SKT"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Vittum Cats of SKT"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Vittum Cats of SKT"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Vittum Cats of SKT"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Vittum Cats WC",
+    "url_path_slug": "vittum",
     "duplicates": [
       {
         "tournament_id": 14,
@@ -88917,6 +88901,11 @@
         "name": "VITTUM CATS"
       },
       {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "VITTUM CATS"
+      },
+      {
         "tournament_id": 24,
         "division": "novice",
         "name": "VITTUM CATS WC"
@@ -88925,6 +88914,16 @@
         "tournament_id": 24,
         "division": "senior",
         "name": "VITTUM CATS WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "VITTUM CATS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "VITTUM CATS"
       },
       {
         "tournament_id": 26,
@@ -88938,6 +88937,21 @@
       },
       {
         "tournament_id": 27,
+        "division": "novice",
+        "name": "VITTUM CATS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "VITTUM CATS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "VITTUM CATS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
         "division": "senior",
         "name": "VITTUM CATS WRESTLING CLUB"
       },
@@ -89192,6 +89206,31 @@
         "name": "Vittum Cats WC"
       },
       {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Vittum Cats WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Vittum Cats WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Vittum Cats WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Vittum Cats WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Vittum Cats WC"
+      },
+      {
         "tournament_id": 10050,
         "division": "novice",
         "name": "Vittum Cats"
@@ -89218,63 +89257,6 @@
       },
       {
         "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Vittum Cats WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Vittum Cats Of SKT",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Vittum Cats of SKT"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Vittum Cats of SKT"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Vittum Cats of SKT"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Vittum Cats of SKT"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Vittum Cats WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Vittum Cats WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Vittum Cats WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Vittum Cats WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Vittum Cats WC"
-      },
-      {
-        "tournament_id": 54,
         "division": "intermediate_girls",
         "name": "Vittum Cats WC"
       }
