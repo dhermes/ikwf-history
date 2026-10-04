@@ -63677,37 +63677,6 @@
     ]
   },
   {
-    "name_normalized": "PLAINFIELD WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "PLAINFIELD WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "PLAINFIELD WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "PLAINFIELD WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "PLAINFIELD WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "PLAINFIELD WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "PLT PROPHETS WC",
     "url_path_slug": null,
     "duplicates": [
@@ -66303,57 +66272,6 @@
     ]
   },
   {
-    "name_normalized": "Plainfield",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Plainfield"
-      },
-      {
-        "tournament_id": 7,
-        "division": "senior",
-        "name": "Plainfield"
-      },
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Plainfield"
-      },
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Indian Trail / Plainfield"
-      },
-      {
-        "tournament_id": 10,
-        "division": "senior",
-        "name": "Plainfield"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Plainfield"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Plainfield"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Plainfield"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Plainfield"
-      }
-    ]
-  },
-  {
     "name_normalized": "Plainfield Indian Trail",
     "url_path_slug": "plainfield-indian-trail",
     "duplicates": [
@@ -66437,8 +66355,78 @@
   },
   {
     "name_normalized": "Plainfield WC",
-    "url_path_slug": null,
+    "url_path_slug": "plainfield-wc",
     "duplicates": [
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Plainfield"
+      },
+      {
+        "tournament_id": 7,
+        "division": "senior",
+        "name": "Plainfield"
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Plainfield"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Indian Trail / Plainfield"
+      },
+      {
+        "tournament_id": 10,
+        "division": "senior",
+        "name": "Plainfield"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Plainfield"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Plainfield"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Plainfield"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Plainfield"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "PLAINFIELD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "PLAINFIELD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "PLAINFIELD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "PLAINFIELD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "PLAINFIELD WRESTLING CLUB"
+      },
       {
         "tournament_id": 29,
         "division": "novice",
