@@ -60460,58 +60460,6 @@
     ]
   },
   {
-    "name_normalized": "ORLAND PARK",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "ORLAND PARK"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ORLAND PARK PIONEERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "ORLAND PARK PIONEERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ORLAND PARK PIONEERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "ORLAND PARK PIONEERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "ORLAND PARK PIONEERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "ORLAND PARK PIONEERS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "ORLAND PARK PIONEERS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "ORLAND PARK PIONEERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "OSWEGO COUGARS",
     "url_path_slug": null,
     "duplicates": [
@@ -62247,11 +62195,16 @@
     ]
   },
   {
-    "name_normalized": "Orland Park",
-    "url_path_slug": null,
+    "name_normalized": "Orland Park Pioneers",
+    "url_path_slug": "op-pioneers",
     "duplicates": [
       {
         "tournament_id": 2,
+        "division": "senior",
+        "name": "Orland Park"
+      },
+      {
+        "tournament_id": 8,
         "division": "senior",
         "name": "Orland Park"
       },
@@ -62266,23 +62219,12 @@
         "name": "Orland Park"
       },
       {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Orland Park"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Orland Park Pioneers",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
+        "tournament_id": 12,
         "division": "senior",
         "name": "Orland Park"
       },
       {
-        "tournament_id": 12,
+        "tournament_id": 13,
         "division": "senior",
         "name": "Orland Park"
       },
@@ -62328,11 +62270,36 @@
       },
       {
         "tournament_id": 23,
+        "division": "novice",
+        "name": "ORLAND PARK"
+      },
+      {
+        "tournament_id": 23,
         "division": "senior",
         "name": "ORLAND PARK"
       },
       {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "ORLAND PARK PIONEERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ORLAND PARK PIONEERS"
+      },
+      {
         "tournament_id": 25,
+        "division": "novice",
+        "name": "ORLAND PARK PIONEERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "ORLAND PARK PIONEERS"
+      },
+      {
+        "tournament_id": 26,
         "division": "novice",
         "name": "ORLAND PARK PIONEERS"
       },
@@ -62347,6 +62314,21 @@
         "name": "ORLAND PARK PIONEERS"
       },
       {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "ORLAND PARK PIONEERS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "ORLAND PARK PIONEERS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "ORLAND PARK PIONEERS"
+      },
+      {
         "tournament_id": 29,
         "division": "novice",
         "name": "ORLAND PARK PIONEERS"
@@ -62535,13 +62517,7 @@
         "tournament_id": 47,
         "division": "senior",
         "name": "Orland Park Pioneers"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Orland Park Pioneers WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 51,
         "division": "novice",
