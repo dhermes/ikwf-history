@@ -121,6 +121,12 @@ _TEAM_FIXES: dict[str, tuple[str, str]] = {
     "Michael Burns": ("Beat the Street", "Beat the Streets Chicago-Oak Park"),
     "Victor Vargas": ("Beat the Street", "Beat the Streets Chicago-Oak Park"),
 }
+_TEAM_CORRECTIONS: dict[str, tuple[str, str]] = {
+    # NOTE: These athletes are confirmed **NOT** part of `Rochelle Wrestling Club`
+    #       by coach Brian Andronic and both competed for RWC in the following year.
+    "Ella Anderson": ("Rochelle Wrestling Club", "RWC"),
+    "Mia Dennison": ("Rochelle Wrestling Club", "RWC"),
+}
 
 
 def _parse_rounds(
@@ -237,6 +243,24 @@ def _parse_rounds(
     return matches
 
 
+def _update_competitor(
+    competitor: bracket_utils.Competitor | None,
+    team_corrections: dict[str, tuple[str, str]],
+) -> None:
+    if competitor is None:
+        return
+
+    team_correction = team_corrections.get(competitor.full_name)
+    if team_correction is None:
+        return
+
+    before, after = team_correction
+    if competitor.team_full != before:
+        raise RuntimeError("Invariant violation", team_correction, competitor)
+
+    competitor.team_full = after
+
+
 def main():
     root = HERE.parent / "raw-data" / "2024-intermediate"
     extracted_tournament = trackwrestling.extract_year(
@@ -248,6 +272,12 @@ def main():
         _TEAM_FIXES,
     )
     extracted_tournament.sort()
+
+    for weight_class in extracted_tournament.weight_classes:
+        for match_ in weight_class.matches:
+            _update_competitor(match_.top_competitor, _TEAM_CORRECTIONS)
+            _update_competitor(match_.bottom_competitor, _TEAM_CORRECTIONS)
+
     with open(HERE / "extracted.2024-intermediate.json", "w") as file_obj:
         file_obj.write(extracted_tournament.model_dump_json(indent=2))
         file_obj.write("\n")
