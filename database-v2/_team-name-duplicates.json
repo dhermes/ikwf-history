@@ -40601,37 +40601,6 @@
     ]
   },
   {
-    "name_normalized": "JOLIET BOYS CLUB COBRAS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "JOLIET BOYS CLUB COBRAS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "JOLIET BOYS CLUB COBRAS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "JOLIET BOYS CLUB COBRAS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "JOLIET BOYS CLUB COBRAS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "JOLIET BOYS CLUB COBRAS"
-      }
-    ]
-  },
-  {
     "name_normalized": "JORDON",
     "url_path_slug": null,
     "duplicates": [
@@ -41651,24 +41620,8 @@
     ]
   },
   {
-    "name_normalized": "Joliet Area WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Joliet Area WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Joliet Area WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Joliet Boys Club",
-    "url_path_slug": null,
+    "url_path_slug": "joliet-boys-club",
     "duplicates": [
       {
         "tournament_id": 1,
@@ -41736,6 +41689,16 @@
         "name": "JOLIET BOYS CLUB COBRAS"
       },
       {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "JOLIET BOYS CLUB COBRAS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "JOLIET BOYS CLUB COBRAS"
+      },
+      {
         "tournament_id": 25,
         "division": "senior",
         "name": "JOLIET BOYS CLUB COBRAS"
@@ -41743,6 +41706,21 @@
       {
         "tournament_id": 26,
         "division": "novice",
+        "name": "JOLIET BOYS CLUB COBRAS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "JOLIET BOYS CLUB COBRAS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "JOLIET BOYS CLUB COBRAS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
         "name": "JOLIET BOYS CLUB COBRAS"
       },
       {
@@ -41779,6 +41757,16 @@
         "tournament_id": 35,
         "division": "novice",
         "name": "JOLIET BOYS CLUB COBRAS"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Joliet Area WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Joliet Area WC"
       },
       {
         "tournament_id": 10028,
