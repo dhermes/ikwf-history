@@ -30457,28 +30457,6 @@
     ]
   },
   {
-    "name_normalized": "GOLDEN EAGLES",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "GOLDEN EAGLES"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GOLDEN EAGLES LTD",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "GOLDEN EAGLES LTD"
-      }
-    ]
-  },
-  {
     "name_normalized": "GORDON TECH RAMS",
     "url_path_slug": null,
     "duplicates": [
@@ -32170,8 +32148,8 @@
     ]
   },
   {
-    "name_normalized": "Golden Eagles",
-    "url_path_slug": null,
+    "name_normalized": "Golden Eagles Wrestling Club",
+    "url_path_slug": "golden-eagles",
     "duplicates": [
       {
         "tournament_id": 18,
@@ -32179,6 +32157,121 @@
         "name": "Golden Eagles"
       },
       {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "GOLDEN EAGLES LTD"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "JR GOLDEN EAGLES WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "JR GOLDEN EAGLES WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "JR. GOLDEN EAGLES WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "JR. GOLDEN EAGLES WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "JR GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "JR GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "JR. GOLDEN EAGLES"
+      },
+      {
         "tournament_id": 35,
         "division": "novice",
         "name": "GOLDEN EAGLES"
@@ -32209,22 +32302,6 @@
         "name": "Golden Eagles"
       },
       {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Golden Eagles"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Golden Eagles"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Golden Eagles WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 40,
         "division": "novice",
         "name": "GOLDEN EAGLES WC"
@@ -32245,6 +32322,16 @@
         "name": "Golden Eagles WC"
       },
       {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Golden Eagles"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Golden Eagles"
+      },
+      {
         "tournament_id": 43,
         "division": "novice",
         "name": "Golden Eagles WC"
@@ -32263,6 +32350,16 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Golden Eagles WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Golden Eagles Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Golden Eagles Wrestling Club"
       },
       {
         "tournament_id": 46,
@@ -32388,22 +32485,6 @@
         "tournament_id": 10050,
         "division": "senior",
         "name": "Golden Eagles WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Golden Eagles Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Golden Eagles Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Golden Eagles Wrestling Club"
       }
     ]
   },
@@ -40219,22 +40300,6 @@
     ]
   },
   {
-    "name_normalized": "JR GOLDEN EAGLES WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "JR GOLDEN EAGLES WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "JR GOLDEN EAGLES WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "JR. BEARS WC",
     "url_path_slug": null,
     "duplicates": [
@@ -40332,53 +40397,6 @@
         "tournament_id": 20,
         "division": "senior",
         "name": "JR. FALCON WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "JR. GOLDEN EAGLES",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "JR. GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "JR. GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "JR. GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "JR. GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "JR. GOLDEN EAGLES"
-      }
-    ]
-  },
-  {
-    "name_normalized": "JR. GOLDEN EAGLES WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "JR. GOLDEN EAGLES WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "JR. GOLDEN EAGLES WC"
       }
     ]
   },
@@ -41646,72 +41664,6 @@
         "tournament_id": 36,
         "division": "senior",
         "name": "JUNIOR COUGARS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Jr. Golden Eagles",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "JR. GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "JR. GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "JR. GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "JR. GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "JR GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "JR GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "JR. GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "JR. GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "JR. GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "JR. GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "JR. GOLDEN EAGLES"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "JR. GOLDEN EAGLES"
       }
     ]
   },
