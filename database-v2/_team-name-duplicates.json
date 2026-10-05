@@ -43615,39 +43615,6 @@
     ]
   },
   {
-    "name_normalized": "LAN OAK \"LITTLE REBELS\"",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "LAN OAK \"LITTLE REBELS\""
-      }
-    ]
-  },
-  {
-    "name_normalized": "LAN-OAK",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "LAN-OAK"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LAN-OAK PD LITTLE REBELS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "LAN-OAK PD LITTLE REBELS"
-      }
-    ]
-  },
-  {
     "name_normalized": "LANCER",
     "url_path_slug": null,
     "duplicates": [
@@ -44777,20 +44744,59 @@
     ]
   },
   {
-    "name_normalized": "Lan Oak",
-    "url_path_slug": null,
+    "name_normalized": "Lan-Oak Park District",
+    "url_path_slug": "lan-oak",
     "duplicates": [
       {
         "tournament_id": 14,
         "division": "senior",
         "name": "Lan Oak"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lan-Oak",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Lan-Oak PD Wrestling"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Lan-Oak PD"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Lan-Oak Park District"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Lan-Oak Lazers"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "LAN-OAK PD LITTLE REBELS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "LAN-OAK"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "LAN OAK \"LITTLE REBELS\""
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "LAN-OAK P.D. LITTLE REBELS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "LAN-OAK P.D. LITTLE REBELS"
+      },
       {
         "tournament_id": 10028,
         "division": "junior_iwf",
@@ -44805,60 +44811,6 @@
         "tournament_id": 10028,
         "division": "senior_iwf",
         "name": "Lan-Oak"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lan-Oak Lazers",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Lan-Oak Lazers"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lan-Oak P.D. Little Rebels",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "LAN-OAK P.D. LITTLE REBELS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "LAN-OAK P.D. LITTLE REBELS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lan-Oak PD Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Lan-Oak PD Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lan-Oak Park District",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Lan-Oak PD"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Lan-Oak Park District"
       }
     ]
   },
