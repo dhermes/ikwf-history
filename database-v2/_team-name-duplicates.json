@@ -50354,106 +50354,6 @@
     ]
   },
   {
-    "name_normalized": "MURPHY JR. HIGH",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "MURPHY JR. HIGH"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MURPHYSBORO",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "MURPHYSBORO"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "MURPHYSBORO"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MURPHYSBORO JH",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "MURPHYSBORO JH"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MURPHYSBORO MIDDLE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "MURPHYSBORO MIDDLE"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "MURPHYSBORO MIDDLE"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "MURPHYSBORO MIDDLE"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "MURPHYSBORO MIDDLE"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "MURPHYSBORO MIDDLE"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "MURPHYSBORO MIDDLE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MURPHYSBORO MS BLUE DEVILS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "MURPHYSBORO MS BLUE DEVILS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "MURPHYSBORO MS BLUE DEVILS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "MURPHYSBORO MS BLUE DEVILS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "MURPHYSBORO MS BLUE DEVILS"
-      }
-    ]
-  },
-  {
     "name_normalized": "Machesney Park Independent",
     "url_path_slug": null,
     "duplicates": [
@@ -57129,8 +57029,8 @@
     ]
   },
   {
-    "name_normalized": "Murphysboro",
-    "url_path_slug": null,
+    "name_normalized": "Murphysboro Wrestling Club",
+    "url_path_slug": "murphysboro",
     "duplicates": [
       {
         "tournament_id": 2,
@@ -57176,13 +57076,7 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Murphysboro"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Murphysboro Jr. High",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 15,
         "division": "senior",
@@ -57214,6 +57108,76 @@
         "name": "MURPHYSBORO JR. HIGH"
       },
       {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "MURPHY JR. HIGH"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "MURPHYSBORO JH"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "MURPHYSBORO"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "MURPHYSBORO"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "MURPHYSBORO MS BLUE DEVILS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "MURPHYSBORO MS BLUE DEVILS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "MURPHYSBORO MS BLUE DEVILS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "MURPHYSBORO MS BLUE DEVILS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "MURPHYSBORO MIDDLE"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "MURPHYSBORO MIDDLE"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "MURPHYSBORO MIDDLE"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "MURPHYSBORO MIDDLE"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "MURPHYSBORO MIDDLE"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "MURPHYSBORO MIDDLE"
+      },
+      {
         "tournament_id": 29,
         "division": "novice",
         "name": "MURPHYSBORO MIDDLE"
@@ -57222,44 +57186,7 @@
         "tournament_id": 29,
         "division": "senior",
         "name": "MURPHYSBORO MIDDLE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Murphysboro Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Murphysboro Wrestling"
       },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Murphysboro Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Murphysboro Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Murphysboro Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Murphysboro Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Murphysboro Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 30,
         "division": "novice",
@@ -57532,6 +57459,31 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Murphysboro Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Murphysboro Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Murphysboro Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Murphysboro Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Murphysboro Wrestling"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Murphysboro Wrestling"
       },
