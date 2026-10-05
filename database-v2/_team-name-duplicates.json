@@ -5860,7 +5860,7 @@
   },
   {
     "name_normalized": "Beat The Streets Chicago-Midway",
-    "url_path_slug": null,
+    "url_path_slug": "bts-midway",
     "duplicates": [
       {
         "tournament_id": 51,
@@ -5889,6 +5889,86 @@
       },
       {
         "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Beat the Streets Chicago-Midway"
       },
@@ -6090,52 +6170,6 @@
         "tournament_id": 54,
         "division": "novice_girls",
         "name": "Beat the Streets Chicago-Avondale"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Beat the Streets Chicago-Midway",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Beat the Streets Chicago-Midway"
       }
     ]
   },
@@ -10890,52 +10924,6 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "BTS Chicago-Avondale"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bts Chicago-Midway",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "BTS Chicago-Midway"
       }
     ]
   },
