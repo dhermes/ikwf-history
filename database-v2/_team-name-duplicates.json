@@ -30778,105 +30778,99 @@
     ]
   },
   {
-    "name_normalized": "Geneseo Spider WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "GENESEO SPIDER WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "GENESEO SPIDER WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Geneseo Spider WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Geneseo Spider WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "GENESEO SPIDER WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "GENESEO SPIDER WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "GENESEO SPIDER WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "GENESEO SPIDER WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "GENESEO SPIDER WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "GENESEO SPIDER WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Geneseo Spider WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Geneseo Spider WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Geneseo Spider WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Geneseo Spider WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Geneseo Spider WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Geneseo Spider WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Geneseo Spider WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Geneseo Spider WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Geneseo Spider Wrestling Club",
-    "url_path_slug": null,
+    "url_path_slug": "geneseo-spider",
     "duplicates": [
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "GENESEO SPIDER WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "GENESEO SPIDER WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Geneseo Spider WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Geneseo Spider WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "GENESEO SPIDER WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "GENESEO SPIDER WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "GENESEO SPIDER WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "GENESEO SPIDER WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "GENESEO SPIDER WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "GENESEO SPIDER WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Geneseo Spider WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Geneseo Spider WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Geneseo Spider WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Geneseo Spider WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Geneseo Spider WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Geneseo Spider WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Geneseo Spider WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Geneseo Spider WC"
+      },
       {
         "tournament_id": 45,
         "division": "novice",
