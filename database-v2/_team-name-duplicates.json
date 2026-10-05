@@ -40924,17 +40924,6 @@
     ]
   },
   {
-    "name_normalized": "JUNIOR ROCKS WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "JUNIOR ROCKS WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "JUNIOR STREAKS #2",
     "url_path_slug": null,
     "duplicates": [
@@ -67521,22 +67510,6 @@
     ]
   },
   {
-    "name_normalized": "ROCK ISLAND WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ROCK ISLAND WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "ROCK ISLAND WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "ROCK ISLAND WC-WASHINGTON",
     "url_path_slug": null,
     "duplicates": [
@@ -67544,32 +67517,6 @@
         "tournament_id": 29,
         "division": "senior",
         "name": "ROCK ISLAND WC-WASHINGTON"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ROCK ISLAND WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "ROCK ISLAND WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "ROCK ISLAND WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "ROCK ISLAND WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "ROCK ISLAND WRESTLING CLUB"
       }
     ]
   },
@@ -70807,22 +70754,6 @@
     ]
   },
   {
-    "name_normalized": "Rock Island",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Rock Island (I)"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "ROCK ISLAND"
-      }
-    ]
-  },
-  {
     "name_normalized": "Rock Island (II)",
     "url_path_slug": null,
     "duplicates": [
@@ -70834,20 +70765,54 @@
     ]
   },
   {
-    "name_normalized": "Rock Island 1",
-    "url_path_slug": null,
+    "name_normalized": "Rock Island Wrestling Club",
+    "url_path_slug": "rock-island",
     "duplicates": [
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Rock Island (I)"
+      },
       {
         "tournament_id": 15,
         "division": "senior",
         "name": "Rock Island 1"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rock Island Jr. Rocks",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "ROCK ISLAND"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ROCK ISLAND WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "ROCK ISLAND WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "ROCK ISLAND WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "ROCK ISLAND WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "ROCK ISLAND WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "JUNIOR ROCKS WRESTLING"
+      },
       {
         "tournament_id": 32,
         "division": "novice",
@@ -70857,13 +70822,12 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "ROCK ISLAND JR. ROCKS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rock Island WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "ROCK ISLAND WC"
+      },
       {
         "tournament_id": 33,
         "division": "senior",
@@ -70975,6 +70939,16 @@
         "name": "Rock Island WC"
       },
       {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Rock Island Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Rock Island Wrestling Club"
+      },
+      {
         "tournament_id": 46,
         "division": "novice",
         "name": "Rock Island WC"
@@ -71083,22 +71057,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Rock Island WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rock Island Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Rock Island Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Rock Island Wrestling Club"
       }
     ]
   },
