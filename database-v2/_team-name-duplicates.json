@@ -4018,28 +4018,6 @@
     ]
   },
   {
-    "name_normalized": "BLUE CREW",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "BLUE CREW"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BLUE CREW ROCKETS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "BLUE CREW ROCKETS"
-      }
-    ]
-  },
-  {
     "name_normalized": "BLUE ISLAND PARK DIST BOMBERS",
     "url_path_slug": null,
     "duplicates": [
@@ -5286,17 +5264,6 @@
         "tournament_id": 42,
         "division": "senior",
         "name": "Bartlett Jr Hawks"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bartonville Blue Crew WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Bartonville Blue Crew WC"
       }
     ]
   },
@@ -9334,24 +9301,23 @@
     ]
   },
   {
-    "name_normalized": "Blue Crew",
-    "url_path_slug": null,
+    "name_normalized": "Blue Crew WC",
+    "url_path_slug": "blue-crew",
     "duplicates": [
       {
         "tournament_id": 15,
         "division": "senior",
         "name": "Blue Crew"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Blue Crew WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 17,
         "division": "senior",
         "name": "Bartonville Blue Crew"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Bartonville Blue Crew WC"
       },
       {
         "tournament_id": 19,
@@ -9366,6 +9332,16 @@
       {
         "tournament_id": 21,
         "division": "senior",
+        "name": "BLUE CREW"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "BLUE CREW ROCKETS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
         "name": "BLUE CREW"
       },
       {
