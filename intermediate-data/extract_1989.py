@@ -187,7 +187,7 @@ _SENIOR_TEAM_SCORES: dict[str, float] = {
     "Mid-Markham Apaches": 63.5,
     "Forman W.C.": 57.5,
     "YMCA Bandits": 56.0,
-    "Riverdale Ram": 55.0,
+    "Riverdale Rams": 55.0,
     "Tomcat W.C.": 55.0,  # Was `Tomcat WC` in program
     "Franklin Park Raiders": 53.0,
     "Mattoon WC": 53.0,
