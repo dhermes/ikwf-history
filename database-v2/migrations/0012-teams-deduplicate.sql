@@ -11900,6 +11900,29 @@ WHERE
   id IN (5457, 5741);
 
 ----------------------------------------
+-- Huskies Wrestling Club
+
+UPDATE
+  team
+SET
+  name_normalized = 'Huskies Wrestling Club',
+  url_path_slug = 'wheaton-huskies'
+WHERE
+  id = 2420;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 2420
+WHERE
+  id IN (2420, 2555, 2693, 2850, 2991, 3146, 3286, 3393, 3612, 3731, 3845, 3966, 4089, 4216, 4363, 4531);
+
+DELETE FROM
+  team
+WHERE
+  id IN (2555, 2693, 2850, 2991, 3146, 3286, 3393, 3612, 3731, 3845, 3966, 4089, 4216, 4363, 4531);
+
+----------------------------------------
 -- Huth
 
 UPDATE
