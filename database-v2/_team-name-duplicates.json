@@ -59706,17 +59706,6 @@
     ]
   },
   {
-    "name_normalized": "OPRF",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "OPRF"
-      }
-    ]
-  },
-  {
     "name_normalized": "OPRF Little Huskies Wrestling Club",
     "url_path_slug": "oprf-huskies",
     "duplicates": [
@@ -59894,6 +59883,11 @@
         "tournament_id": 50,
         "division": "senior",
         "name": "Little Huskies WC"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "OPRF"
       },
       {
         "tournament_id": 10050,
