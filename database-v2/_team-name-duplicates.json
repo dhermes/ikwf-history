@@ -80783,67 +80783,6 @@
     ]
   },
   {
-    "name_normalized": "TIGERTOWN TANGLERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "TIGERTOWN TANGLERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "TIGERTOWN TANGLERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "TIGERTOWN TANGLERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "TIGERTOWN TANGLERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "TIGERTOWN TANGLERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "TIGERTOWN TANGLERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "TIGERTOWN TANGLERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "TIGERTOWN TANGLERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "TIGERTOWN TANGLERS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "TIGERTOWN TANGLERS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "TIGERTOWN TANGLERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "TJ Trained WC-Clinton",
     "url_path_slug": null,
     "duplicates": [
@@ -83048,42 +82987,16 @@
     ]
   },
   {
-    "name_normalized": "Tiger Town Tanglers WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Tiger Town Tanglers WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Tiger Town Tanglers WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Tiger Town Tanglers WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Tiger Town Tanglers WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Tiger Town Tanglers WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Tiger Town Tanglers Wrestling Club",
-    "url_path_slug": null,
+    "url_path_slug": "tiger-town-tanglers",
     "duplicates": [
       {
         "tournament_id": 16,
+        "division": "senior",
+        "name": "Tigertown Tanglers"
+      },
+      {
+        "tournament_id": 18,
         "division": "senior",
         "name": "Tigertown Tanglers"
       },
@@ -83104,6 +83017,61 @@
       },
       {
         "tournament_id": 23,
+        "division": "novice",
+        "name": "TIGERTOWN TANGLERS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "TIGERTOWN TANGLERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "TIGERTOWN TANGLERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "TIGERTOWN TANGLERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "TIGERTOWN TANGLERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "TIGERTOWN TANGLERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "TIGERTOWN TANGLERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "TIGERTOWN TANGLERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "TIGERTOWN TANGLERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "TIGERTOWN TANGLERS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "TIGERTOWN TANGLERS"
+      },
+      {
+        "tournament_id": 28,
         "division": "senior",
         "name": "TIGERTOWN TANGLERS"
       },
@@ -83368,6 +83336,31 @@
         "name": "Tiger Town Tanglers WC"
       },
       {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Tiger Town Tanglers WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Tiger Town Tanglers WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Tiger Town Tanglers WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Tiger Town Tanglers WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Tiger Town Tanglers WC"
+      },
+      {
         "tournament_id": 10050,
         "division": "novice",
         "name": "Tiger Town Tanglers WC"
@@ -83528,17 +83521,6 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Tiger Wrestling Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Tigertown Tanglers",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Tigertown Tanglers"
       }
     ]
   },
