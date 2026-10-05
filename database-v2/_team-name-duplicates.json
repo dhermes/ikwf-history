@@ -5859,142 +5859,6 @@
     ]
   },
   {
-    "name_normalized": "Beat the Streets Chicago-Midway",
-    "url_path_slug": "bts-midway",
-    "duplicates": [
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "BTS Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Beat the Streets Chicago-Midway"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Beat the Streets Chicago-Midway"
-      }
-    ]
-  },
-  {
     "name_normalized": "Beat The Streets Chicago-Oak Park",
     "url_path_slug": null,
     "duplicates": [
@@ -6170,6 +6034,142 @@
         "tournament_id": 54,
         "division": "novice_girls",
         "name": "Beat the Streets Chicago-Avondale"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Beat the Streets Chicago-Midway",
+    "url_path_slug": "bts-midway",
+    "duplicates": [
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "BTS Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Beat the Streets Chicago-Midway"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Beat the Streets Chicago-Midway"
       }
     ]
   },
@@ -86408,85 +86408,6 @@
     ]
   },
   {
-    "name_normalized": "VANDALIA",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "VANDALIA"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "VANDALIA"
-      }
-    ]
-  },
-  {
-    "name_normalized": "VANDALIA JR WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "VANDALIA JR WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "VANDALIA JR WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "VANDALIA JR WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "VANDALIA JR WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "VANDALIA JR WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "VANDALIA JR. WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "VANDALIA JR. WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "VANDALIA JR. WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "VANDALIA JR. WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "VANDALIA JR. WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "VANDALIA JR. WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "VILLA PARK",
     "url_path_slug": null,
     "duplicates": [
@@ -86590,232 +86511,64 @@
     ]
   },
   {
-    "name_normalized": "Vandalia Jr Vandals",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Vandalia Jr Vandals"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Vandalia Jr Vandals"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Vandalia Jr WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Vandalia Jr WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Vandalia Jr WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Vandalia Jr Wrestling Club",
-    "url_path_slug": null,
+    "url_path_slug": "vandalia",
     "duplicates": [
       {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Vandalia Jr Wrestling Club"
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "VANDALIA JR. WC"
       },
       {
-        "tournament_id": 45,
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "VANDALIA"
+      },
+      {
+        "tournament_id": 23,
         "division": "senior",
-        "name": "Vandalia Jr Wrestling Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Vandalia Jr. Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "VANDALIA"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "VANDALIA JR. WRESTLING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "VANDALIA JR. WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "VANDALIA JR. WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "VANDALIA JR WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "VANDALIA JR WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "VANDALIA JR WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "VANDALIA JR WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "VANDALIA JR WRESTLING"
+      },
       {
         "tournament_id": 29,
         "division": "novice",
@@ -86930,6 +86683,211 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "VANDALIA JR WRESTLING"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Vandalia Jr Vandals"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Vandalia Jr Vandals"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Vandalia Jr Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Vandalia Jr Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Vandalia Jr WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Vandalia Jr WC"
       }
     ]
   },
