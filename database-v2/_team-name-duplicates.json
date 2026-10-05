@@ -62834,90 +62834,6 @@
     ]
   },
   {
-    "name_normalized": "PONTIAC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "PONTIAC"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "PONTIAC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "PONTIAC PYTHONS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "PONTIAC PYTHONS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "PONTIAC PYTHONS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "PONTIAC PYTHONS WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "PONTIAC PYTHONS WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "PONTIAC PYTHONS WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "PONTIAC PYTHONS WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "PONTIAC PYTHONS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "PONTIAC WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "PONTIAC WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "PONTIAC WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "PONTIAC WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "PONTIAC WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "PROPHETSTOWN LYNDON JH",
     "url_path_slug": null,
     "duplicates": [
@@ -65896,8 +65812,8 @@
     ]
   },
   {
-    "name_normalized": "Pontiac",
-    "url_path_slug": null,
+    "name_normalized": "Pontiac Wrestling Club",
+    "url_path_slug": "pontiac",
     "duplicates": [
       {
         "tournament_id": 7,
@@ -65913,16 +65829,75 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Pontiac"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Pontiac Pythons",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "PONTIAC WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "PONTIAC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "PONTIAC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "PONTIAC WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "PONTIAC WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "PONTIAC WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "PONTIAC WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "PONTIAC PYTHONS WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "PONTIAC PYTHONS WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "PONTIAC PYTHONS WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "PONTIAC PYTHONS WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "PONTIAC PYTHONS WC"
+      },
       {
         "tournament_id": 29,
         "division": "novice",
+        "name": "PONTIAC PYTHONS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
         "name": "PONTIAC PYTHONS"
       },
       {
@@ -65999,17 +65974,6 @@
         "tournament_id": 37,
         "division": "senior",
         "name": "Pontiac Pythons"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Pontiac WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "PONTIAC WC"
       },
       {
         "tournament_id": 38,
@@ -66080,6 +66044,16 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Pontiac WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Pontiac Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Pontiac Wrestling Club"
       },
       {
         "tournament_id": 46,
@@ -66230,22 +66204,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Pontiac WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Pontiac Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Pontiac Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Pontiac Wrestling Club"
       }
     ]
   },
