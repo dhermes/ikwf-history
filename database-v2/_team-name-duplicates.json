@@ -11785,97 +11785,6 @@
     ]
   },
   {
-    "name_normalized": "CUMBERLAND",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "CUMBERLAND"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CUMBERLAND COUNTY",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "CUMBERLAND COUNTY"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CUMBERLAND COUNTY WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "CUMBERLAND COUNTY WC"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "CUMBERLAND COUNTY WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CUMBERLAND WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "CUMBERLAND WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "CUMBERLAND WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CUMBERLAND WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "CUMBERLAND WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "CUMBERLAND WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CUMBERLAND WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "CUMBERLAND WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "CUMBERLAND WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "CUMBERLAND WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "Cahokia WC",
     "url_path_slug": null,
     "duplicates": [
@@ -18840,9 +18749,64 @@
     ]
   },
   {
-    "name_normalized": "Cumberland Youth WC",
-    "url_path_slug": null,
+    "name_normalized": "Cumberland Youth Wrestling Club",
+    "url_path_slug": "cumberland",
     "duplicates": [
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "CUMBERLAND COUNTY WC"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "CUMBERLAND COUNTY"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "CUMBERLAND COUNTY WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "CUMBERLAND"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "CUMBERLAND WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "CUMBERLAND WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "CUMBERLAND WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "CUMBERLAND WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "CUMBERLAND WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "CUMBERLAND WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "CUMBERLAND WRESTLING"
+      },
       {
         "tournament_id": 30,
         "division": "senior",
@@ -18979,6 +18943,16 @@
         "name": "Cumberland Youth WC"
       },
       {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Cumberland Youth Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Cumberland Youth Wrestling Club"
+      },
+      {
         "tournament_id": 46,
         "division": "novice",
         "name": "Cumberland Youth WC"
@@ -19147,22 +19121,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Cumberland Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Cumberland Youth Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Cumberland Youth Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Cumberland Youth Wrestling Club"
       }
     ]
   },
