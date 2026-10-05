@@ -4018,47 +4018,6 @@
     ]
   },
   {
-    "name_normalized": "Blue Island",
-    "url_path_slug": "blue-island",
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Blue Island W.C."
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "BLUE ISLAND PD BOMBERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "BLUE ISLAND PARK DIST BOMBERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "BLUE ISLAND PARK DIST BOMBERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "BLUE ISLAND PARK DISTRICT BOMBERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "BLUE ISLAND PARK DISTRICT BOMBERS"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Blue Island"
-      }
-    ]
-  },
-  {
     "name_normalized": "BOYS & GIRLS CLUB OF FREEPORT",
     "url_path_slug": null,
     "duplicates": [
@@ -9441,6 +9400,47 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Blue Crew WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Blue Island",
+    "url_path_slug": "blue-island",
+    "duplicates": [
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Blue Island W.C."
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "BLUE ISLAND PD BOMBERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "BLUE ISLAND PARK DIST BOMBERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "BLUE ISLAND PARK DIST BOMBERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "BLUE ISLAND PARK DISTRICT BOMBERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "BLUE ISLAND PARK DISTRICT BOMBERS"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Blue Island"
       }
     ]
   },
@@ -50155,8 +50155,8 @@
     ]
   },
   {
-    "name_normalized": "Mad Dog Wrestling Academy",
-    "url_path_slug": null,
+    "name_normalized": "MadDog Wrestling Academy",
+    "url_path_slug": "mad-dog",
     "duplicates": [
       {
         "tournament_id": 35,
@@ -50222,49 +50222,7 @@
         "tournament_id": 41,
         "division": "senior",
         "name": "Mad Dog Wrestling Academy"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MadDog Wrestling Academy",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "MadDog Wrestling Academy"
       },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "MadDog Wrestling Academy"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "MadDog Wrestling Academy"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "MadDog Wrestling Academy"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "MadDog Wrestling Academy"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "MadDog Wrestling Academy"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Maddog Wrestling Academy",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 42,
         "division": "novice",
@@ -50294,6 +50252,16 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Maddog Wrestling Academy"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Maddog Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Maddog Wrestling Club"
       },
       {
         "tournament_id": 46,
@@ -50416,6 +50384,36 @@
         "name": "MadDog Wrestling Academy"
       },
       {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "MadDog Wrestling Academy"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "MadDog Wrestling Academy"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "MadDog Wrestling Academy"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "MadDog Wrestling Academy"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "MadDog Wrestling Academy"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "MadDog Wrestling Academy"
+      },
+      {
         "tournament_id": 10050,
         "division": "novice",
         "name": "MadDog Wrestling Academy"
@@ -50444,22 +50442,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "MadDog Wrestling Academy"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Maddog Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Maddog Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Maddog Wrestling Club"
       }
     ]
   },
