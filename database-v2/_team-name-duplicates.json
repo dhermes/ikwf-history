@@ -73779,73 +73779,6 @@
     ]
   },
   {
-    "name_normalized": "ST. BARNABAS / CHRIST THE KING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "ST. BARNABAS / CHRIST THE KING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "ST. BARNABAS / CHRIST THE KING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ST. BARNABAS / CHRIST THE KING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "ST. BARNABAS / CHRIST THE KING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "ST. BARNABAS / CHRIST THE KING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "ST. BARNABAS / CHRIST THE KING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "ST. BARNABAS / CHRIST THE KING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "ST. BARNABAS / CHRIST THE KING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "ST. BARNABAS / CHRIST THE KING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ST. BARNABAS SHARKS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "ST. BARNABAS SHARKS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "ST. BARNABAS SHARKS"
-      }
-    ]
-  },
-  {
     "name_normalized": "ST. BEDE'S",
     "url_path_slug": null,
     "duplicates": [
@@ -77619,8 +77552,8 @@
     ]
   },
   {
-    "name_normalized": "St. Barnabas",
-    "url_path_slug": null,
+    "name_normalized": "St. Barnabas / Christ The King",
+    "url_path_slug": "st-barnabas-christ-king",
     "duplicates": [
       {
         "tournament_id": 9,
@@ -77636,15 +77569,19 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "St. Barnabas"
-      }
-    ]
-  },
-  {
-    "name_normalized": "St. Barnabas / Christ The King",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "St. Barnabas WC"
+      },
       {
         "tournament_id": 20,
+        "division": "senior",
+        "name": "ST. BARNABAS / CHRIST THE KING"
+      },
+      {
+        "tournament_id": 21,
         "division": "senior",
         "name": "ST. BARNABAS / CHRIST THE KING"
       },
@@ -77664,6 +77601,16 @@
         "name": "ST. BARNABAS / CHRIST THE KING"
       },
       {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "ST. BARNABAS / CHRIST THE KING"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ST. BARNABAS / CHRIST THE KING"
+      },
+      {
         "tournament_id": 25,
         "division": "novice",
         "name": "ST. BARNABAS / CHRIST THE KING SHARKS"
@@ -77672,17 +77619,46 @@
         "tournament_id": 25,
         "division": "senior",
         "name": "ST. BARNABAS / CHRIST THE KING SHARKS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "St. Barnabas WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
-        "tournament_id": 18,
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "ST. BARNABAS / CHRIST THE KING"
+      },
+      {
+        "tournament_id": 26,
         "division": "senior",
-        "name": "St. Barnabas WC"
+        "name": "ST. BARNABAS / CHRIST THE KING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "ST. BARNABAS / CHRIST THE KING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "ST. BARNABAS / CHRIST THE KING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "ST. BARNABAS SHARKS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "ST. BARNABAS SHARKS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "ST. BARNABAS / CHRIST THE KING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "ST. BARNABAS / CHRIST THE KING"
       }
     ]
   },
