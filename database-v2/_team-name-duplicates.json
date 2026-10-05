@@ -19359,81 +19359,6 @@
     ]
   },
   {
-    "name_normalized": "DOWNERS GROVE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "DOWNERS GROVE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DOWNERS GROVE COUGARS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "DOWNERS GROVE COUGARS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "DOWNERS GROVE COUGARS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DOWNERS GROVE PARK DISTRICT",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "DOWNERS GROVE PARK DISTRICT"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DOWNERS GROVE PD COUGARS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "DOWNERS GROVE PD COUGARS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "DOWNERS GROVE PD COUGARS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "DOWNERS GROVE PD COUGARS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DOWNERS GROVE WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "DOWNERS GROVE WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "DOWNERS GROVE WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "DUKES WRESTLING YORKS",
     "url_path_slug": null,
     "duplicates": [
@@ -21915,8 +21840,8 @@
     ]
   },
   {
-    "name_normalized": "Downers Grove",
-    "url_path_slug": null,
+    "name_normalized": "Downers Grove WC",
+    "url_path_slug": "downers-grove",
     "duplicates": [
       {
         "tournament_id": 4,
@@ -21927,13 +21852,62 @@
         "tournament_id": 8,
         "division": "senior",
         "name": "Downers Grove"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Downers Grove Cougars",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Downers Grove P.D. Cougars"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "DOWNERS GROVE COUGARS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "DOWNERS GROVE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "DOWNERS GROVE PD COUGARS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "DOWNERS GROVE PD COUGARS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "DOWNERS GROVE PD COUGARS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "DOWNERS GROVE PARK DISTRICT"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "DOWNERS GROVE WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "DOWNERS GROVE WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "DOWNERS GROVE COUGARS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "DOWNERS GROVE COUGARS"
+      },
       {
         "tournament_id": 32,
         "division": "novice",
@@ -22025,27 +21999,6 @@
         "name": "Downers Grove Cougars"
       },
       {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Downers Grove Cougars"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Downers Grove Cougars"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Downers Grove Cougars WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "DOWNERS GROVE COUGARS"
-      },
-      {
         "tournament_id": 42,
         "division": "novice",
         "name": "Downers Grove Cougars WC"
@@ -22084,24 +22037,17 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Downers Grove Cougars WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Downers Grove P.D. Cougars",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
-        "tournament_id": 19,
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Downers Grove Cougars"
+      },
+      {
+        "tournament_id": 46,
         "division": "senior",
-        "name": "Downers Grove P.D. Cougars"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Downers Grove WC",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "Downers Grove Cougars"
+      },
       {
         "tournament_id": 47,
         "division": "novice",
