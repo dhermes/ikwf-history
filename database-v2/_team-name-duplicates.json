@@ -87881,52 +87881,6 @@
     ]
   },
   {
-    "name_normalized": "WHEATON BULLDOGS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "WHEATON BULLDOGS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "WHEATON BULLDOGS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "WHEATON BULLDOGS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "WHEATON BULLDOGS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "WHEATON BULLDOGS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "WHEATON BULLDOGS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "WHEATON BULLDOGS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "WHEATON BULLDOGS"
-      }
-    ]
-  },
-  {
     "name_normalized": "WHEATON MONROE EAGLES",
     "url_path_slug": null,
     "duplicates": [
@@ -90251,11 +90205,31 @@
   },
   {
     "name_normalized": "Wheaton Bulldogs",
-    "url_path_slug": null,
+    "url_path_slug": "wheaton-bulldogs",
     "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "WHEATON BULLDOGS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "WHEATON BULLDOGS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "WHEATON BULLDOGS"
+      },
       {
         "tournament_id": 26,
         "division": "novice",
+        "name": "WHEATON BULLDOGS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
         "name": "WHEATON BULLDOGS"
       },
       {
@@ -90264,8 +90238,28 @@
         "name": "WHEATON BULLDOGS"
       },
       {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "WHEATON BULLDOGS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "WHEATON BULLDOGS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "WHEATON BULLDOGS"
+      },
+      {
         "tournament_id": 29,
         "division": "novice",
+        "name": "WHEATON BULLDOGS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
         "name": "WHEATON BULLDOGS"
       },
       {
