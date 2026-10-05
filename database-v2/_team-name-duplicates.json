@@ -39064,48 +39064,6 @@
     ]
   },
   {
-    "name_normalized": "Huntley Jr. Red Raiders",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Huntley Jr. Red Raiders"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Huntley Jr. Red Raiders"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Huntley Jr. Red Raiders"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Huntley Jr. Red Raiders"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Huntley Jr. Red Raiders WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Huntley Jr. Red Raiders WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Huntley Jr. Red Raiders WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Hurricanes",
     "url_path_slug": null,
     "duplicates": [
@@ -68497,8 +68455,8 @@
     ]
   },
   {
-    "name_normalized": "Red Raiders",
-    "url_path_slug": null,
+    "name_normalized": "Red Raiders Wrestling Team",
+    "url_path_slug": "red-raider",
     "duplicates": [
       {
         "tournament_id": 40,
@@ -68509,13 +68467,37 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "RED RAIDERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Red Raiders Wrestling Team",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Huntley Jr. Red Raiders"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Huntley Jr. Red Raiders"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Huntley Jr. Red Raiders"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Huntley Jr. Red Raiders"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Huntley Jr. Red Raiders WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Huntley Jr. Red Raiders WC"
+      },
       {
         "tournament_id": 44,
         "division": "novice",
