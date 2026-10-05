@@ -43386,73 +43386,6 @@
     ]
   },
   {
-    "name_normalized": "LAKE VILLA",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "LAKE VILLA"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LAKE VILLA LANCERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "LAKE VILLA LANCERS"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "LAKE VILLA LANCERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "LAKE VILLA LANCERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "LAKE VILLA LANCERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "LAKE VILLA LANCERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "LAKE VILLA LANCERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "LAKE VILLA LANCERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "LAKE VILLA LANCERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "LAKE VILLA LANCERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "LAKE VILLA LANCERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "LAKELAND WC",
     "url_path_slug": null,
     "duplicates": [
@@ -44355,8 +44288,8 @@
     ]
   },
   {
-    "name_normalized": "Lake Villa",
-    "url_path_slug": null,
+    "name_normalized": "Lake Villa Lancers",
+    "url_path_slug": "lake-villa-lancers",
     "duplicates": [
       {
         "tournament_id": 4,
@@ -44377,13 +44310,62 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Lake Villa"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lake Villa Lancers",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "LAKE VILLA LANCERS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "LAKE VILLA LANCERS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "LAKE VILLA"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "LAKE VILLA LANCERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "LAKE VILLA LANCERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "LAKE VILLA LANCERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "LAKE VILLA LANCERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "LAKE VILLA LANCERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "LAKE VILLA LANCERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "LAKE VILLA LANCERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "LAKE VILLA LANCERS"
+      },
       {
         "tournament_id": 30,
         "division": "novice",
