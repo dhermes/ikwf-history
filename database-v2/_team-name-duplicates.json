@@ -4018,45 +4018,43 @@
     ]
   },
   {
-    "name_normalized": "BLUE ISLAND PARK DIST BOMBERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "BLUE ISLAND PARK DIST BOMBERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "BLUE ISLAND PARK DIST BOMBERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BLUE ISLAND PARK DISTRICT BOMBERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "BLUE ISLAND PARK DISTRICT BOMBERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "BLUE ISLAND PARK DISTRICT BOMBERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "BLUE ISLAND PD BOMBERS",
-    "url_path_slug": null,
+    "url_path_slug": "blue-island",
     "duplicates": [
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Blue Island W.C."
+      },
       {
         "tournament_id": 25,
         "division": "novice",
         "name": "BLUE ISLAND PD BOMBERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "BLUE ISLAND PARK DIST BOMBERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "BLUE ISLAND PARK DIST BOMBERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "BLUE ISLAND PARK DISTRICT BOMBERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "BLUE ISLAND PARK DISTRICT BOMBERS"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Blue Island"
       }
     ]
   },
@@ -9443,28 +9441,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Blue Crew WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Blue Island",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Blue Island"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Blue Island W.C.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Blue Island W.C."
       }
     ]
   },
