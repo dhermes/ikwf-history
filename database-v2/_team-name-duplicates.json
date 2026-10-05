@@ -9494,7 +9494,7 @@
   },
   {
     "name_normalized": "Blue Line Training Academy",
-    "url_path_slug": null,
+    "url_path_slug": "blue-line",
     "duplicates": [
       {
         "tournament_id": 50,
@@ -9577,32 +9577,6 @@
         "name": "Blue Line Training Academy"
       },
       {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Blue Line Training Academy"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Blue Line Training Academy"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Blue Line Training Academy"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Blue Line Training Academy"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Blue Line Training Academy WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 54,
         "division": "intermediate",
         "name": "Blue Line Training Academy WC"
@@ -9626,6 +9600,26 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Blue Line Training Academy WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Blue Line Training Academy"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Blue Line Training Academy"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Blue Line Training Academy"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Blue Line Training Academy"
       }
     ]
   },
