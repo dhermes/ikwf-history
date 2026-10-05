@@ -59710,6 +59710,46 @@
     "url_path_slug": "oprf-huskies",
     "duplicates": [
       {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Oak Park"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Oak Park"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Oak Park Huskies"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Oak Park"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Oak Park"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Oak Park-River Forest"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "OPRF Jr. Wrestling Club"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Oak Park River Forest WC"
+      },
+      {
         "tournament_id": 32,
         "division": "novice",
         "name": "OPRF LITTLE HUSKIE WC"
@@ -60901,37 +60941,6 @@
     ]
   },
   {
-    "name_normalized": "Oak Park",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Oak Park"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Oak Park"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Oak Park Huskies"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Oak Park"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Oak Park"
-      }
-    ]
-  },
-  {
     "name_normalized": "Oak Park River Forest Warhawks",
     "url_path_slug": null,
     "duplicates": [
@@ -60939,33 +60948,6 @@
         "tournament_id": 18,
         "division": "senior",
         "name": "Oak Park River Forest Warhawks"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oak Park-River Forest",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Oak Park-River Forest"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oak Park-River Forest WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "OPRF Jr. Wrestling Club"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Oak Park River Forest WC"
       }
     ]
   },
