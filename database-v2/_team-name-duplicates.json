@@ -49605,83 +49605,6 @@
     ]
   },
   {
-    "name_normalized": "METAMORA KIDS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "METAMORA KIDS WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "METAMORA KIDS WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "METAMORA KIDS WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "METAMORA KIDS WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "METAMORA KIDS WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "METAMORA KIDS WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "METAMORA KIDS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "METAMORA KIDS WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "METAMORA KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "METAMORA KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "METAMORA KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "METAMORA KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "METAMORA KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "METAMORA KIDS WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "METRO STALLIONS",
     "url_path_slug": null,
     "duplicates": [
@@ -53497,34 +53420,8 @@
     ]
   },
   {
-    "name_normalized": "Metamora Kids WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Metamora Kids WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Metamora Kids WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Metamora Kids WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Metamora Kids WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Metamora Kids Wrestling Club",
-    "url_path_slug": null,
+    "url_path_slug": "metamora",
     "duplicates": [
       {
         "tournament_id": 16,
@@ -53552,6 +53449,11 @@
         "name": "METAMORA KIDS"
       },
       {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "METAMORA KIDS WC"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "METAMORA"
@@ -53560,6 +53462,66 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "METAMORA"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "METAMORA KIDS WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "METAMORA KIDS WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "METAMORA KIDS WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "METAMORA KIDS WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "METAMORA KIDS WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "METAMORA KIDS WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "METAMORA KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "METAMORA KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "METAMORA KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "METAMORA KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "METAMORA KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "METAMORA KIDS WRESTLING"
       },
       {
         "tournament_id": 30,
@@ -53809,6 +53771,26 @@
       {
         "tournament_id": 53,
         "division": "senior_girls",
+        "name": "Metamora Kids WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Metamora Kids WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Metamora Kids WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Metamora Kids WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
         "name": "Metamora Kids WC"
       },
       {
