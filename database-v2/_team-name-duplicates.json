@@ -30352,68 +30352,6 @@
     ]
   },
   {
-    "name_normalized": "GLENBARD EAST JR RAMS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "GLENBARD EAST JR RAMS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GLENBARD EAST JR. RAMS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "GLENBARD EAST JR. RAMS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "GLENBARD EAST JR. RAMS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "GLENBARD EAST JR. RAMS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "GLENBARD EAST JR. RAMS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "GLENBARD EAST JR. RAMS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "GLENBARD EAST JR. RAMS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "GLENBARD EAST JR. RAMS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "GLENBARD EAST JR. RAMS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "GLENBARD EAST JR. RAMS"
-      }
-    ]
-  },
-  {
     "name_normalized": "GLENDALE",
     "url_path_slug": null,
     "duplicates": [
@@ -30442,17 +30380,6 @@
         "tournament_id": 24,
         "division": "senior",
         "name": "GLENDALE GRAPPLERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GLENDBARD EAST JR. RAMS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "GLENDBARD EAST JR. RAMS"
       }
     ]
   },
@@ -31766,39 +31693,68 @@
     ]
   },
   {
-    "name_normalized": "Glenbard East Jr Rams WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Glenbard East Jr Rams WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Glenbard East Jr Rams WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Glenbard East Jr Rams WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Glenbard East Jr Rams WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Glenbard East Jr. Rams WC",
-    "url_path_slug": null,
+    "url_path_slug": "gejr",
     "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "GLENDBARD EAST JR. RAMS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "GLENBARD EAST JR. RAMS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "GLENBARD EAST JR. RAMS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "GLENBARD EAST JR. RAMS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "GLENBARD EAST JR. RAMS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "GLENBARD EAST JR. RAMS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "GLENBARD EAST JR. RAMS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "GLENBARD EAST JR. RAMS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "GLENBARD EAST JR. RAMS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "GLENBARD EAST JR. RAMS"
+      },
       {
         "tournament_id": 30,
         "division": "senior",
         "name": "GLENBARD EAST JR. RAMS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "GLENBARD EAST JR RAMS"
       },
       {
         "tournament_id": 31,
@@ -32008,6 +31964,26 @@
       {
         "tournament_id": 53,
         "division": "senior_girls",
+        "name": "Glenbard East Jr Rams WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Glenbard East Jr Rams WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Glenbard East Jr Rams WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Glenbard East Jr Rams WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
         "name": "Glenbard East Jr Rams WC"
       },
       {
