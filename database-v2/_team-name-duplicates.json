@@ -34172,94 +34172,6 @@
     ]
   },
   {
-    "name_normalized": "HINSDALE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "HINSDALE"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "HINSDALE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HINSDALE RED DEVIL",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "HINSDALE RED DEVIL"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "HINSDALE RED DEVIL"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HINSDALE RED DEVIL WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "HINSDALE RED DEVIL WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "HINSDALE RED DEVIL WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "HINSDALE RED DEVIL WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "HINSDALE RED DEVIL WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "HINSDALE RED DEVIL WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "HINSDALE RED DEVIL WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "HINSDALE RED DEVIL WC"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "HINSDALE RED DEVIL WC"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "HINSDALE RED DEVIL WC"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "HINSDALE RED DEVIL WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "HOFFMAN ESTATES WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -37725,32 +37637,6 @@
     ]
   },
   {
-    "name_normalized": "Hinsdale",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Hinsdale"
-      },
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Hinsdale"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Hinsdale"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Hinsdale"
-      }
-    ]
-  },
-  {
     "name_normalized": "Hinsdale Falcon WC",
     "url_path_slug": null,
     "duplicates": [
@@ -37800,8 +37686,33 @@
   },
   {
     "name_normalized": "Hinsdale Red Devil WC",
-    "url_path_slug": null,
+    "url_path_slug": "hinsdale-red-devil",
     "duplicates": [
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Hinsdale"
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Hinsdale"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Hinsdale"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Hinsdale Wrestling Club"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Hinsdale"
+      },
       {
         "tournament_id": 20,
         "division": "senior",
@@ -37818,7 +37729,77 @@
         "name": "HINSDALE RED DEVIL WC"
       },
       {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "HINSDALE"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "HINSDALE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "HINSDALE RED DEVIL"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "HINSDALE RED DEVIL"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "HINSDALE RED DEVIL WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "HINSDALE RED DEVIL WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "HINSDALE RED DEVIL WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "HINSDALE RED DEVIL WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "HINSDALE RED DEVIL WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "HINSDALE RED DEVIL WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "HINSDALE RED DEVIL WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "HINSDALE RED DEVIL WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "HINSDALE RED DEVIL WC"
+      },
+      {
         "tournament_id": 30,
+        "division": "novice",
+        "name": "HINSDALE RED DEVIL WC"
+      },
+      {
+        "tournament_id": 31,
         "division": "novice",
         "name": "HINSDALE RED DEVIL WC"
       },
@@ -38071,17 +38052,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Hinsdale Red Devil WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hinsdale Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Hinsdale Wrestling Club"
       }
     ]
   },
