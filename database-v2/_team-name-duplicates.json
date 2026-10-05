@@ -34013,118 +34013,6 @@
     ]
   },
   {
-    "name_normalized": "HIGHLAND",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "HIGHLAND"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HIGHLAND BULLDOG JR WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "HIGHLAND BULLDOG JR WC"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "HIGHLAND BULLDOG JR WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HIGHLAND BULLDOG JR.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "HIGHLAND BULLDOG JR."
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "HIGHLAND BULLDOG JR."
-      }
-    ]
-  },
-  {
-    "name_normalized": "HIGHLAND JR. WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "HIGHLAND JR. WRESTLING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "HIGHLAND JR. WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HIGHLAND JUNIOR",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "HIGHLAND JUNIOR"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "HIGHLAND JUNIOR"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HIGHLAND JUNIOR BULLDOGS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "HIGHLAND JUNIOR BULLDOGS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HIGHLAND JUNIOR WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "HIGHLAND JUNIOR WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "HIGHLAND JUNIOR WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "HIGHLAND JUNIOR WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "HIGHLAND JUNIOR WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "HILLSBORO JR. TOPPERS",
     "url_path_slug": null,
     "duplicates": [
@@ -36722,34 +36610,78 @@
   },
   {
     "name_normalized": "Highland Bulldog Jr. WC",
-    "url_path_slug": null,
+    "url_path_slug": "highland-bulldog",
     "duplicates": [
       {
-        "tournament_id": 54,
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "HIGHLAND JUNIOR BULLDOGS"
+      },
+      {
+        "tournament_id": 23,
         "division": "novice",
-        "name": "Highland Bulldog Jr. WC"
+        "name": "HIGHLAND"
       },
       {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Highland Bulldog Jr. WC"
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "HIGHLAND JR. WRESTLING"
       },
       {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Highland Bulldog Jr. WC"
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "HIGHLAND JR. WRESTLING"
       },
       {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Highland Bulldog Jr. WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Highland Bulldogs Jr. WC",
-    "url_path_slug": null,
-    "duplicates": [
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "HIGHLAND JUNIOR"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "HIGHLAND JUNIOR"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "HIGHLAND JUNIOR WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "HIGHLAND JUNIOR WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "HIGHLAND JUNIOR WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "HIGHLAND JUNIOR WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "HIGHLAND BULLDOG JR."
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "HIGHLAND BULLDOG JR."
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "HIGHLAND BULLDOG JR WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "HIGHLAND BULLDOG JR WC"
+      },
       {
         "tournament_id": 30,
         "division": "novice",
@@ -36988,6 +36920,26 @@
       {
         "tournament_id": 53,
         "division": "senior_girls",
+        "name": "Highland Bulldog Jr. WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Highland Bulldog Jr. WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Highland Bulldog Jr. WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Highland Bulldog Jr. WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
         "name": "Highland Bulldog Jr. WC"
       },
       {
