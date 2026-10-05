@@ -50111,58 +50111,6 @@
     ]
   },
   {
-    "name_normalized": "MORTON YOUTH WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "MORTON YOUTH WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "MORTON YOUTH WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MORTON YOUTH WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "MORTON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "MORTON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "MORTON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "MORTON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "MORTON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "MORTON YOUTH WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "MS Kids",
     "url_path_slug": null,
     "duplicates": [
@@ -55295,17 +55243,6 @@
     ]
   },
   {
-    "name_normalized": "Morton",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Morton"
-      }
-    ]
-  },
-  {
     "name_normalized": "Morton Little Mustangs WC",
     "url_path_slug": null,
     "duplicates": [
@@ -55452,41 +55389,14 @@
     ]
   },
   {
-    "name_normalized": "Morton Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Morton Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Morton Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Morton Youth Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Morton Youth Wrestling"
-      }
-    ]
-  },
-  {
     "name_normalized": "Morton Youth Wrestling Club",
-    "url_path_slug": null,
+    "url_path_slug": "morton",
     "duplicates": [
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Morton"
+      },
       {
         "tournament_id": 15,
         "division": "senior",
@@ -55501,6 +55411,11 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Morton Youth Wrestling"
       },
       {
         "tournament_id": 19,
@@ -55533,6 +55448,16 @@
         "name": "MORTON"
       },
       {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "MORTON YOUTH WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "MORTON YOUTH WC"
+      },
+      {
         "tournament_id": 25,
         "division": "novice",
         "name": "MORTON YOUTH"
@@ -55541,6 +55466,36 @@
         "tournament_id": 25,
         "division": "senior",
         "name": "MORTON YOUTH"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "MORTON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "MORTON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "MORTON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "MORTON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "MORTON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "MORTON YOUTH WRESTLING"
       },
       {
         "tournament_id": 29,
@@ -55735,6 +55690,21 @@
       {
         "tournament_id": 53,
         "division": "senior_girls",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Morton Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
         "name": "Morton Youth WC"
       },
       {
