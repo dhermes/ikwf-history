@@ -62011,8 +62011,18 @@
   },
   {
     "name_normalized": "Ottawa Wolfpack WC",
-    "url_path_slug": null,
+    "url_path_slug": "ottawa-wolfpack",
     "duplicates": [
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "WOLFPACK WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "WOLFPACK WRESTLING CLUB"
+      },
       {
         "tournament_id": 51,
         "division": "novice",
@@ -88430,22 +88440,6 @@
     ]
   },
   {
-    "name_normalized": "WOLFPACK WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "WOLFPACK WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "WOLFPACK WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "WOODSTOCK CARDINAL WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -91843,7 +91837,7 @@
     ]
   },
   {
-    "name_normalized": "Wolfpak WC",
+    "name_normalized": "Wolfpak WC (Franklin Park)",
     "url_path_slug": "wolfpak",
     "duplicates": [
       {
