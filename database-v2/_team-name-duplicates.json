@@ -49382,79 +49382,6 @@
     ]
   },
   {
-    "name_normalized": "MAINE EAGLES WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "MAINE EAGLES WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MAINE EAGLES WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "MAINE EAGLES WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "MAINE EAGLES WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "MAINE EAGLES WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "MAINE EAGLES WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "MAINE EAGLES WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MAINE TOWNSHIP EAGLES",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "MAINE TOWNSHIP EAGLES"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "MAINE TOWNSHIP EAGLES"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "MAINE TOWNSHIP EAGLES"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "MAINE TOWNSHIP EAGLES"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "MAINE TOWNSHIP EAGLES"
-      }
-    ]
-  },
-  {
     "name_normalized": "MARCO KIDS WRESTLING CLUB",
     "url_path_slug": null,
     "duplicates": [
@@ -50918,92 +50845,65 @@
     ]
   },
   {
-    "name_normalized": "Maine Eagles",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "MAINE EAGLES WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "MAINE EAGLES WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "MAINE EAGLES"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "MAINE EAGLES"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "MAINE EAGLES"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "MAINE EAGLES"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Maine Eagles"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Maine Eagles"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Maine Eagles"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Maine Eagles"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Maine Eagles"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Maine Eagles"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Maine Eagles The Elite WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "MAINE EAGLES THE ELITE WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "MAINE EAGLES THE ELITE WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Maine Eagles WC",
-    "url_path_slug": null,
+    "url_path_slug": "maine-eagles",
     "duplicates": [
       {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "MAINE TOWNSHIP EAGLES"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "MAINE TOWNSHIP EAGLES"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "MAINE TOWNSHIP EAGLES"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "MAINE TOWNSHIP EAGLES"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "MAINE TOWNSHIP EAGLES"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "MAINE EAGLES WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "MAINE EAGLES WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "MAINE EAGLES WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "MAINE EAGLES WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "MAINE EAGLES WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "MAINE EAGLES WRESTLING"
+      },
+      {
         "tournament_id": 30,
         "division": "novice",
         "name": "MAINE EAGLES WRESTLING YOUTH PROGRAM"
@@ -51054,6 +50954,16 @@
         "name": "MAINE EAGLES WC"
       },
       {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "MAINE EAGLES WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "MAINE EAGLES WC"
+      },
+      {
         "tournament_id": 36,
         "division": "novice",
         "name": "MAINE EAGLES WC"
@@ -51072,6 +50982,66 @@
         "tournament_id": 37,
         "division": "senior",
         "name": "Maine Eagles WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "MAINE EAGLES THE ELITE WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "MAINE EAGLES THE ELITE WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "MAINE EAGLES"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "MAINE EAGLES"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "MAINE EAGLES"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "MAINE EAGLES"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Maine Eagles"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Maine Eagles"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Maine Eagles"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Maine Eagles"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Maine Eagles"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Maine Eagles"
       },
       {
         "tournament_id": 44,
