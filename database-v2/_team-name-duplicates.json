@@ -37637,50 +37637,38 @@
     ]
   },
   {
-    "name_normalized": "Hinsdale Falcon WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Hinsdale Falcon WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Hinsdale Falcon WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Hinsdale Falcon WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Hinsdale Falcon WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hinsdale Falcons",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Hinsdale Falcons"
-      }
-    ]
-  },
-  {
     "name_normalized": "Hinsdale Falcons WC",
-    "url_path_slug": null,
+    "url_path_slug": "hinsdale-falcons",
     "duplicates": [
       {
         "tournament_id": 18,
         "division": "senior",
         "name": "Hinsdale Falcons WC"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Hinsdale Falcons"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Hinsdale Falcon WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Hinsdale Falcon WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Hinsdale Falcon WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Hinsdale Falcon WC"
       }
     ]
   },
