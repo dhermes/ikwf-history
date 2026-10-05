@@ -87881,27 +87881,6 @@
     ]
   },
   {
-    "name_normalized": "WHEATON MONROE EAGLES",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "WHEATON MONROE EAGLES"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "WHEATON MONROE EAGLES"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "WHEATON MONROE EAGLES"
-      }
-    ]
-  },
-  {
     "name_normalized": "WILMINGTON WRESTLING CLUB",
     "url_path_slug": null,
     "duplicates": [
@@ -90353,8 +90332,23 @@
   },
   {
     "name_normalized": "Wheaton Monroe Eagles",
-    "url_path_slug": null,
+    "url_path_slug": "wheaton-monroe",
     "duplicates": [
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "WHEATON MONROE EAGLES"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "WHEATON MONROE EAGLES"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "WHEATON MONROE EAGLES"
+      },
       {
         "tournament_id": 29,
         "division": "senior",
