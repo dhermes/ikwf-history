@@ -57045,68 +57045,6 @@
     ]
   },
   {
-    "name_normalized": "NOTRE DAME",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "NOTRE DAME"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "NOTRE DAME"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "NOTRE DAME"
-      }
-    ]
-  },
-  {
-    "name_normalized": "NOTRE DAME WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "NOTRE DAME WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "NOTRE DAME WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "NOTRE DAME WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "NOTRE DAME WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "NOTRE DAME WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "NOTRE DAME WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "NOTRE DAME WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Naperville",
     "url_path_slug": null,
     "duplicates": [
@@ -58252,9 +58190,59 @@
     ]
   },
   {
-    "name_normalized": "Notre Dame",
-    "url_path_slug": null,
+    "name_normalized": "Notre Dame WC",
+    "url_path_slug": "peoria-notre-dame",
     "duplicates": [
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "NOTRE DAME"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "NOTRE DAME"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "NOTRE DAME"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "NOTRE DAME WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "NOTRE DAME WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "NOTRE DAME WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "NOTRE DAME WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "NOTRE DAME WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "NOTRE DAME WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "NOTRE DAME WC"
+      },
       {
         "tournament_id": 32,
         "division": "novice",
@@ -58264,25 +58252,69 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "NOTRE DAME"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Notre Dame WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 33,
         "division": "senior",
         "name": "NOTRE DAME WRESTLING"
       },
       {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "NOTRE DAME WRESTLING"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "NOTRE DAME WRESTLING"
+      },
+      {
         "tournament_id": 35,
         "division": "novice",
         "name": "NOTRE DAME WRESTLING"
       },
       {
         "tournament_id": 35,
+        "division": "senior",
+        "name": "NOTRE DAME WRESTLING"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "NOTRE DAME WRESTLING"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "NOTRE DAME WRESTLING"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Notre Dame Wrestling"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Notre Dame Wrestling"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "NOTRE DAME WRESTLING"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "NOTRE DAME WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "NOTRE DAME WRESTLING"
+      },
+      {
+        "tournament_id": 39,
         "division": "senior",
         "name": "NOTRE DAME WRESTLING"
       },
@@ -58460,62 +58492,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Notre Dame WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Notre Dame Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "NOTRE DAME WRESTLING"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "NOTRE DAME WRESTLING"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "NOTRE DAME WRESTLING"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "NOTRE DAME WRESTLING"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Notre Dame Wrestling"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Notre Dame Wrestling"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "NOTRE DAME WRESTLING"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "NOTRE DAME WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "NOTRE DAME WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "NOTRE DAME WRESTLING"
       }
     ]
   },
