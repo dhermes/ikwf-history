@@ -90413,40 +90413,18 @@
     ]
   },
   {
-    "name_normalized": "Wheaton P.D.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Wheaton P.D."
-      }
-    ]
-  },
-  {
-    "name_normalized": "Wheaton P.D. Falcons",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Wheaton P.D. Falcons"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Wheaton P.D. Falcons"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Wheaton Park District",
-    "url_path_slug": null,
+    "name_normalized": "Wheaton Park District Falcons",
+    "url_path_slug": "wheaton-pd-falcons",
     "duplicates": [
       {
         "tournament_id": 9,
         "division": "senior",
         "name": "Wheaton Park District"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Wheaton P.D."
       },
       {
         "tournament_id": 12,
@@ -90457,6 +90435,16 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Wheaton Park District"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Wheaton P.D. Falcons"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Wheaton P.D. Falcons"
       }
     ]
   },
