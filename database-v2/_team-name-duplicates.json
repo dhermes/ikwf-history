@@ -71969,48 +71969,6 @@
     ]
   },
   {
-    "name_normalized": "SAUKEE YOUTH WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "SAUKEE YOUTH WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "SAUKEE YOUTH WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SAUKEE YOUTH WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "SAUKEE YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "SAUKEE YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "SAUKEE YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "SAUKEE YOUTH WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "SCN Youth Wrestling Club",
     "url_path_slug": "scn",
     "duplicates": [
@@ -74136,9 +74094,39 @@
     ]
   },
   {
-    "name_normalized": "Saukee Youth WC",
-    "url_path_slug": null,
+    "name_normalized": "Saukee Youth Wrestling Club",
+    "url_path_slug": "saukee",
     "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "SAUKEE YOUTH WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "SAUKEE YOUTH WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "SAUKEE YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "SAUKEE YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "SAUKEE YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "SAUKEE YOUTH WRESTLING"
+      },
       {
         "tournament_id": 30,
         "division": "novice",
@@ -74255,6 +74243,16 @@
         "name": "Saukee Youth WC"
       },
       {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Saukee Youth Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Saukee Youth Wrestling Club"
+      },
+      {
         "tournament_id": 46,
         "division": "novice",
         "name": "Saukee Youth WC"
@@ -74343,22 +74341,6 @@
         "tournament_id": 10050,
         "division": "senior",
         "name": "Saukee Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Saukee Youth Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Saukee Youth Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Saukee Youth Wrestling Club"
       }
     ]
   },
