@@ -39205,6 +39205,92 @@
     ]
   },
   {
+    "name_normalized": "Huskies Wrestling Club",
+    "url_path_slug": "wheaton-huskies",
+    "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "HUSKIES WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "HUSKIES WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "HUSKIES WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "HUSKIES WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "HUSKIES WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "HUSKIES WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "HUSKIES WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "HUSKIES WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "HUSKIES WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "HUSKIES WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "HUSKIES WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "HUSKIES WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "HUSKIES WC"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "HUSKIES WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "HUSKIES WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "HUSKIES WC"
+      }
+    ]
+  },
+  {
     "name_normalized": "Huth",
     "url_path_slug": null,
     "duplicates": [
@@ -48510,88 +48596,8 @@
   },
   {
     "name_normalized": "Little Huskies Wrestling Club",
-    "url_path_slug": "little-huskies",
+    "url_path_slug": "oprf-huskies",
     "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "HUSKIES WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "HUSKIES WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "HUSKIES WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "HUSKIES WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "HUSKIES WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "HUSKIES WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "HUSKIES WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "HUSKIES WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "HUSKIES WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "HUSKIES WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "HUSKIES WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "HUSKIES WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "HUSKIES WC"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "HUSKIES WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "HUSKIES WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "HUSKIES WC"
-      },
       {
         "tournament_id": 34,
         "division": "novice",
