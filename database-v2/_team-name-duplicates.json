@@ -49688,89 +49688,6 @@
     ]
   },
   {
-    "name_normalized": "MATTOON",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "MATTOON"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "MATTOON"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "MATTOON"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "MATTOON"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MATTOON WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "MATTOON WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "MATTOON WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "MATTOON WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MATTOON YOUTH WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "MATTOON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "MATTOON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "MATTOON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "MATTOON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "MATTOON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "MATTOON YOUTH WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "MAYWOOD \"PIRATES\" WC",
     "url_path_slug": null,
     "duplicates": [
@@ -52733,11 +52650,16 @@
     ]
   },
   {
-    "name_normalized": "Mattoon",
-    "url_path_slug": null,
+    "name_normalized": "Mattoon Youth WC",
+    "url_path_slug": "mattoon",
     "duplicates": [
       {
         "tournament_id": 4,
+        "division": "senior",
+        "name": "Mattoon"
+      },
+      {
+        "tournament_id": 6,
         "division": "senior",
         "name": "Mattoon"
       },
@@ -52752,6 +52674,11 @@
         "name": "Mattoon"
       },
       {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Mattoon W.C."
+      },
+      {
         "tournament_id": 11,
         "division": "senior",
         "name": "Mattoon"
@@ -52763,28 +52690,6 @@
       },
       {
         "tournament_id": 13,
-        "division": "senior",
-        "name": "Mattoon"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mattoon W.C.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Mattoon W.C."
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mattoon WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 6,
         "division": "senior",
         "name": "Mattoon"
       },
@@ -52824,9 +52729,74 @@
         "name": "MATTOON WC"
       },
       {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "MATTOON"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "MATTOON WC"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "MATTOON"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "MATTOON"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "MATTOON WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "MATTOON WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "MATTOON"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "MATTOON"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "MATTOON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "MATTOON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "MATTOON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "MATTOON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "MATTOON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "MATTOON YOUTH WRESTLING"
       },
       {
         "tournament_id": 29,
@@ -53069,42 +53039,6 @@
         "name": "Mattoon Youth WC"
       },
       {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Mattoon Youth WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Mattoon Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Mattoon Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Mattoon Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Mattoon Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Mattoon Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mattoon Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 54,
         "division": "bantam",
         "name": "Mattoon Youth WC"
@@ -53142,6 +53076,36 @@
       {
         "tournament_id": 54,
         "division": "senior_girls",
+        "name": "Mattoon Youth WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Mattoon Youth WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Mattoon Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Mattoon Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Mattoon Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Mattoon Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
         "name": "Mattoon Youth WC"
       }
     ]
