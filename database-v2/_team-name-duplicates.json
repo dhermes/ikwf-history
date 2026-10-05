@@ -74483,8 +74483,8 @@
     ]
   },
   {
-    "name_normalized": "Scorpion WC",
-    "url_path_slug": null,
+    "name_normalized": "Scorpion Wrestling Club",
+    "url_path_slug": "scorpion",
     "duplicates": [
       {
         "tournament_id": 44,
@@ -74495,6 +74495,16 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Scorpion WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Scorpion Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Scorpion Wrestling Club"
       },
       {
         "tournament_id": 46,
@@ -74605,22 +74615,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Scorpion WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Scorpion Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Scorpion Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Scorpion Wrestling Club"
       }
     ]
   },
