@@ -123,9 +123,11 @@ _TEAM_FIXES: dict[str, tuple[str, str]] = {
 }
 _TEAM_CORRECTIONS: dict[str, tuple[str, str]] = {
     # NOTE: These athletes are confirmed **NOT** part of `Rochelle Wrestling Club`
-    #       by coach Brian Andronic and both competed for RWC in the following year.
+    #       by coach Brian Andronic and all four competed for RWC in the following year.
+    "Aryana Resendez": ("Rochelle Wrestling Club", "RWC"),
     "Ella Anderson": ("Rochelle Wrestling Club", "RWC"),
     "Mia Dennison": ("Rochelle Wrestling Club", "RWC"),
+    "Natalya Moberg": ("Rochelle Wrestling Club", "RWC"),
 }
 
 
