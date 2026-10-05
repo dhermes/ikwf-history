@@ -66747,84 +66747,6 @@
     ]
   },
   {
-    "name_normalized": "RIVERDALE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "RIVERDALE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "RIVERDALE JH WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "RIVERDALE JH WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "RIVERDALE JH WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "RIVERDALE JH WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "RIVERDALE JR. HIGH WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "RIVERDALE JR. HIGH WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "RIVERDALE JR. HIGH WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "RIVERDALE JR. HIGH WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "RIVERDALE JR. HIGH WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "RIVERDALE JR. HIGH WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "RIVERDALE JR. HIGH WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "RIVERDALE JR. HIGH WC"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "RIVERDALE JR. HIGH WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "ROBBINS",
     "url_path_slug": null,
     "duplicates": [
@@ -69136,8 +69058,8 @@
     ]
   },
   {
-    "name_normalized": "Riverdale",
-    "url_path_slug": null,
+    "name_normalized": "Riverdale Junior Rams Wrestling Club",
+    "url_path_slug": "riverdale",
     "duplicates": [
       {
         "tournament_id": 8,
@@ -69148,44 +69070,21 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Riverdale"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Riverdale (Rams) Jr. High WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 18,
         "division": "senior",
         "name": "Riverdale (Rams) Jr. High WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Riverdale Elite",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Riverdale Elite"
       },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Riverdale Elite"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Riverdale Junior Rams Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 19,
         "division": "senior",
         "name": "Riverdale Rams"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "RIVERDALE JR. HIGH WC"
       },
       {
         "tournament_id": 21,
@@ -69193,9 +69092,29 @@
         "name": "RIVERDALE JR. HIGH"
       },
       {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "RIVERDALE JH WC"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "RIVERDALE"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "RIVERDALE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "RIVERDALE JH WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "RIVERDALE JH WC"
       },
       {
         "tournament_id": 25,
@@ -69205,6 +69124,41 @@
       {
         "tournament_id": 25,
         "division": "senior",
+        "name": "RIVERDALE JR. HIGH WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "RIVERDALE JR. HIGH WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "RIVERDALE JR. HIGH WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "RIVERDALE JR. HIGH WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "RIVERDALE JR. HIGH WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "RIVERDALE JR. HIGH WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "RIVERDALE JR. HIGH WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
         "name": "RIVERDALE JR. HIGH WC"
       },
       {
@@ -69298,6 +69252,16 @@
         "name": "RIVERDALE JR RAMS WC"
       },
       {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Riverdale Elite"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Riverdale Elite"
+      },
+      {
         "tournament_id": 53,
         "division": "bantam",
         "name": "Riverdale WC"
@@ -69336,24 +69300,7 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Riverdale WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Riverdale Ram",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Riverdale Ram"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Riverdale WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 54,
         "division": "bantam",
