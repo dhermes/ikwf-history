@@ -19491,44 +19491,6 @@
     ]
   },
   {
-    "name_normalized": "DIXON",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "DIXON"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DIXON WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "DIXON WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "DIXON WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DIXON WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "DIXON WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "DOWNERS GROVE",
     "url_path_slug": null,
     "duplicates": [
@@ -21582,37 +21544,45 @@
     ]
   },
   {
-    "name_normalized": "Dixon",
-    "url_path_slug": null,
+    "name_normalized": "Dixon Wrestling Club",
+    "url_path_slug": "dixon",
     "duplicates": [
       {
         "tournament_id": 8,
         "division": "senior",
         "name": "Dixon"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Dixon W.C.",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 9,
         "division": "senior",
         "name": "Dixon W.C."
-      }
-    ]
-  },
-  {
-    "name_normalized": "Dixon WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 17,
         "division": "senior",
         "name": "Dixon WC"
       },
       {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "DIXON"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "DIXON WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "DIXON WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "DIXON WRESTLING CLUB"
+      },
+      {
         "tournament_id": 31,
         "division": "novice",
         "name": "DIXON WC"
@@ -21691,6 +21661,26 @@
         "tournament_id": 38,
         "division": "senior",
         "name": "DIXON WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Dixon Wrestling Club"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Dixon Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Dixon Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Dixon Wrestling Club"
       },
       {
         "tournament_id": 48,
@@ -21826,32 +21816,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Dixon WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Dixon Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Dixon Wrestling Club"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Dixon Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Dixon Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Dixon Wrestling Club"
       }
     ]
   },
