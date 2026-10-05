@@ -72671,17 +72671,6 @@
     ]
   },
   {
-    "name_normalized": "SHELBYVILLE JUNIOR RAMS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "SHELBYVILLE JUNIOR RAMS WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "SHERRARD JR WC",
     "url_path_slug": null,
     "duplicates": [
@@ -75429,8 +75418,8 @@
     ]
   },
   {
-    "name_normalized": "Shelbyville Jr Rams",
-    "url_path_slug": null,
+    "name_normalized": "Shelbyville Jr Rams Wrestling",
+    "url_path_slug": "shelbyville",
     "duplicates": [
       {
         "tournament_id": 30,
@@ -75446,95 +75435,28 @@
         "tournament_id": 31,
         "division": "novice",
         "name": "SHELBYVILLE JUNIOR RAMS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Shelbyville Jr Rams Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "SHELBYVILLE JR RAMS WRESTLING"
       },
       {
-        "tournament_id": 34,
+        "tournament_id": 31,
         "division": "senior",
-        "name": "SHELBYVILLE JR RAMS WRESTLING"
+        "name": "SHELBYVILLE JUNIOR RAMS WC"
       },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "SHELBYVILLE JR RAMS WRESTLING"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "SHELBYVILLE JR RAMS WRESTLING"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Shelbyville Jr Rams Wrestling"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Shelbyville Jr Rams Wrestling"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "SHELBYVILLE JR RAMS WRESTLING"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "SHELBYVILLE JR RAMS WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "SHELBYVILLE JR RAMS WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "SHELBYVILLE JR RAMS WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "SHELBYVILLE JR RAMS WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "SHELBYVILLE JR RAMS WRESTLING"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Shelbyville Jr Rams Wrestling"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Shelbyville Jr Rams Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Shelbyville Jr. Rams WC",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 33,
         "division": "novice",
         "name": "SHELBYVILLE JUNIOR RAMS WC"
       },
       {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "SHELBYVILLE JR RAMS WRESTLING"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "SHELBYVILLE JR RAMS WRESTLING"
+      },
+      {
         "tournament_id": 35,
         "division": "novice",
         "name": "SHELBYVILLE JR RAMS WRESTLING"
@@ -75543,13 +75465,77 @@
         "tournament_id": 35,
         "division": "senior",
         "name": "SHELBYVILLE JR RAMS WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Shelbyville Jr. Wrestling Rams",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "SHELBYVILLE JR RAMS WRESTLING"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "SHELBYVILLE JR RAMS WRESTLING"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Shelbyville Jr Rams Wrestling"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Shelbyville Jr Rams Wrestling"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "SHELBYVILLE JR RAMS WRESTLING"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "SHELBYVILLE JR RAMS WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "SHELBYVILLE JR RAMS WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "SHELBYVILLE JR RAMS WRESTLING"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "SHELBYVILLE JR RAMS WRESTLING"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "SHELBYVILLE JR RAMS WRESTLING"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Shelbyville Jr Rams Wrestling"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Shelbyville Jr Rams Wrestling"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Shelbyville Junior Wrestling Rams"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Shelbyville Junior Wrestling Rams"
+      },
       {
         "tournament_id": 53,
         "division": "bantam",
@@ -75624,22 +75610,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Shelbyville Jr. Wrestling Rams"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Shelbyville Junior Wrestling Rams",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Shelbyville Junior Wrestling Rams"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Shelbyville Junior Wrestling Rams"
       }
     ]
   },
