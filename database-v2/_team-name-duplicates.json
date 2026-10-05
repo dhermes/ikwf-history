@@ -39174,17 +39174,6 @@
     ]
   },
   {
-    "name_normalized": "ILLINOIS VALLEY CRUNCHING CAVS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ILLINOIS VALLEY CRUNCHING CAVS"
-      }
-    ]
-  },
-  {
     "name_normalized": "INDIAN PRAIRIE",
     "url_path_slug": null,
     "duplicates": [
@@ -43721,153 +43710,6 @@
     ]
   },
   {
-    "name_normalized": "L-P CRUNCHING CAVS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "L-P CRUNCHING CAVS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "L-P Crunching Cavs",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "L-P Crunching Cavs"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "L-P Crunching Cavs"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "L-P CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "L-P Crunching Cavs"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "L-P Crunching Cavs"
-      }
-    ]
-  },
-  {
     "name_normalized": "LAKE FOREST",
     "url_path_slug": null,
     "duplicates": [
@@ -44174,38 +44016,6 @@
         "tournament_id": 27,
         "division": "senior",
         "name": "LARKIN ROYAL WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LASALLE PERU CRUNCHING CAVS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "LASALLE PERU CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "LASALLE PERU CRUNCHING CAVS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LASALLE-PERU CRUNCHING CAVS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "LASALLE-PERU CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "LASALLE-PERU CRUNCHING CAVS"
       }
     ]
   },
@@ -44547,8 +44357,338 @@
   },
   {
     "name_normalized": "LaSalle Peru Crunching Cavs Youth WC",
-    "url_path_slug": null,
+    "url_path_slug": "lasalle-peru",
     "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ILLINOIS VALLEY CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "LASALLE-PERU CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "LASALLE-PERU CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "LASALLE PERU CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "LASALLE PERU CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "LASALLE PERU CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "LASALLE PERU CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "L-P Crunching Cavs"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "L-P Crunching Cavs"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "L-P CRUNCHING CAVS"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "L-P Crunching Cavs"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "L-P Crunching Cavs"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "LP Crunching Cavs"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "LP Crunching Cavs"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "LP Crunching Cavs"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "LP Crunching Cavs"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "LP Crunching Cavs"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "LP Crunching Cavs"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "LP Crunching Cavs"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "LP Crunching Cavs"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "LP Crunching Cavs"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "LP Crunching Cavs"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "LP Crunching Cavs"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "LP Crunching Cavs"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
       {
         "tournament_id": 54,
         "division": "bantam",
@@ -44572,6 +44712,36 @@
       {
         "tournament_id": 54,
         "division": "senior_girls",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "LaSalle Peru Crunching Cavs Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
         "name": "LaSalle Peru Crunching Cavs Youth WC"
       }
     ]
@@ -45205,152 +45375,6 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "LARKIN JR. ROYALS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lasalle Peru Crunching Cavs Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "LASALLE PERU CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "LASALLE PERU CRUNCHING CAVS"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "LaSalle Peru Crunching Cavs Youth WC"
       }
     ]
   },
@@ -49038,72 +49062,6 @@
         "tournament_id": 52,
         "division": "senior_girls",
         "name": "Los Guerreros WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lp Crunching Cavs",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "LP Crunching Cavs"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "LP Crunching Cavs"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "LP Crunching Cavs"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "LP Crunching Cavs"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "LP Crunching Cavs"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "LP Crunching Cavs"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "LP Crunching Cavs"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "LP Crunching Cavs"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "LP Crunching Cavs"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "LP Crunching Cavs"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "LP Crunching Cavs"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "LP Crunching Cavs"
       }
     ]
   },
