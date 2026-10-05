@@ -26929,85 +26929,6 @@
     ]
   },
   {
-    "name_normalized": "FISHER",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "FISHER"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "FISHER"
-      }
-    ]
-  },
-  {
-    "name_normalized": "FISHER WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "FISHER WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "FISHER WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "FISHER WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "FISHER WRESTLING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "FISHER WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "FISHER WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "FISHER WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "FISHER WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "FISHER WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "FISHER WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "FISHER WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "FLANAGAN PANTHERS",
     "url_path_slug": null,
     "duplicates": [
@@ -28041,8 +27962,8 @@
     ]
   },
   {
-    "name_normalized": "Fisher",
-    "url_path_slug": null,
+    "name_normalized": "Fisher WC",
+    "url_path_slug": "fisher",
     "duplicates": [
       {
         "tournament_id": 4,
@@ -28068,13 +27989,7 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Fisher"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Fisher WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 15,
         "division": "senior",
@@ -28094,6 +28009,61 @@
         "tournament_id": 18,
         "division": "senior",
         "name": "Fisher WC"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "FISHER WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "FISHER"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "FISHER"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "FISHER WRESTLING"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "FISHER WRESTLING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "FISHER WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "FISHER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "FISHER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "FISHER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "FISHER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "FISHER WRESTLING CLUB"
       },
       {
         "tournament_id": 30,
