@@ -88079,111 +88079,6 @@
     ]
   },
   {
-    "name_normalized": "WESTVILLE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "WESTVILLE"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "WESTVILLE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WESTVILLE JH",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "WESTVILLE JH"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "WESTVILLE JH"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "WESTVILLE JH"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "WESTVILLE JH"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WESTVILLE JR. HIGH",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "WESTVILLE JR. HIGH"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "WESTVILLE JR. HIGH"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "WESTVILLE JR. HIGH"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WESTVILLE YOUTH WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "WESTVILLE YOUTH WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "WESTVILLE YOUTH WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WESTVILLE YOUTH WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "WESTVILLE YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "WESTVILLE YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "WESTVILLE YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "WESTVILLE YOUTH WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "WHEATON BULLDOGS",
     "url_path_slug": null,
     "duplicates": [
@@ -90176,8 +90071,8 @@
     ]
   },
   {
-    "name_normalized": "Westville",
-    "url_path_slug": null,
+    "name_normalized": "Westville Youth Wrestling",
+    "url_path_slug": "westville",
     "duplicates": [
       {
         "tournament_id": 8,
@@ -90193,13 +90088,7 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Westville"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Westville Jr. High",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 16,
         "division": "senior",
@@ -90209,6 +90098,11 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Westville Jr. High"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Westville Wildcats"
       },
       {
         "tournament_id": 19,
@@ -90224,24 +90118,82 @@
         "tournament_id": 21,
         "division": "senior",
         "name": "WESTVILLE JR. HIGH"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Westville Wildcats",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
-        "tournament_id": 18,
+        "tournament_id": 22,
         "division": "senior",
-        "name": "Westville Wildcats"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Westville Youth Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "WESTVILLE JR. HIGH"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "WESTVILLE"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "WESTVILLE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "WESTVILLE JH"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "WESTVILLE JH"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "WESTVILLE JH"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "WESTVILLE JH"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "WESTVILLE JR. HIGH"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "WESTVILLE JR. HIGH"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "WESTVILLE YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "WESTVILLE YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "WESTVILLE YOUTH WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "WESTVILLE YOUTH WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "WESTVILLE YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "WESTVILLE YOUTH WRESTLING"
+      },
       {
         "tournament_id": 30,
         "division": "novice",
