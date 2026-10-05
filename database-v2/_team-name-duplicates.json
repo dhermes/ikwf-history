@@ -68281,6 +68281,17 @@
     ]
   },
   {
+    "name_normalized": "Richmond",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 10028,
+        "division": "junior_iwf",
+        "name": "Richmond"
+      }
+    ]
+  },
+  {
     "name_normalized": "Richmond Wrestling Club",
     "url_path_slug": "richmod",
     "duplicates": [
@@ -69174,6 +69185,17 @@
         "tournament_id": 54,
         "division": "bantam",
         "name": "Riverdale WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Riverdale Ram",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Riverdale Ram"
       }
     ]
   },
