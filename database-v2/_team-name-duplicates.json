@@ -24088,20 +24088,94 @@
     ]
   },
   {
-    "name_normalized": "East St. Louis",
-    "url_path_slug": null,
+    "name_normalized": "East St. Louis WC",
+    "url_path_slug": "east-st-louis",
     "duplicates": [
       {
         "tournament_id": 14,
         "division": "senior",
         "name": "East St. Louis"
-      }
-    ]
-  },
-  {
-    "name_normalized": "East St. Louis WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "East St. Louis Wrestling"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "East St. Louis Wrestling"
+      },
       {
         "tournament_id": 49,
         "division": "novice",
@@ -24246,92 +24320,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "East St. Louis WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "East St. Louis Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "East St. Louis Wrestling"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "East St. Louis Wrestling"
       }
     ]
   },
