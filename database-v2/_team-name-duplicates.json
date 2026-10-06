@@ -8606,27 +8606,6 @@
     ]
   },
   {
-    "name_normalized": "Black Kats WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "BLACK KATS WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Black Kats WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Black Kats WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Blackhawk Wrestling Club",
     "url_path_slug": "blackhawk",
     "duplicates": [
@@ -26451,6 +26430,21 @@
         "tournament_id": 30,
         "division": "senior",
         "name": "EVANSTON BLACK KAT WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "BLACK KATS WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Black Kats WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Black Kats WC"
       }
     ]
   },
