@@ -66569,44 +66569,6 @@
     ]
   },
   {
-    "name_normalized": "ROUND LAKE SPARTAN",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "ROUND LAKE SPARTAN"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "ROUND LAKE SPARTAN"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ROUND LAKE SPARTAN WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "ROUND LAKE SPARTAN WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ROUND LAKE SPARTANS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "ROUND LAKE SPARTANS"
-      }
-    ]
-  },
-  {
     "name_normalized": "ROXANA VIKINGS",
     "url_path_slug": null,
     "duplicates": [
@@ -71390,9 +71352,14 @@
     ]
   },
   {
-    "name_normalized": "Round Lake P.D. Spartans",
-    "url_path_slug": null,
+    "name_normalized": "Round Lake Spartans",
+    "url_path_slug": "round-lake-spartans",
     "duplicates": [
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Round Lake"
+      },
       {
         "tournament_id": 17,
         "division": "senior",
@@ -71402,17 +71369,6 @@
         "tournament_id": 18,
         "division": "senior",
         "name": "Round Lake P.D. Spartans"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Round Lake Spartans",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Round Lake"
       },
       {
         "tournament_id": 20,
@@ -71425,14 +71381,34 @@
         "name": "ROUND LAKE SPARTAN"
       },
       {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "ROUND LAKE SPARTAN WC"
+      },
+      {
         "tournament_id": 23,
         "division": "senior",
         "name": "ROUND LAKE"
       },
       {
         "tournament_id": 24,
+        "division": "novice",
+        "name": "ROUND LAKE SPARTAN"
+      },
+      {
+        "tournament_id": 24,
         "division": "senior",
         "name": "ROUND LAKE SPARTAN"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "ROUND LAKE SPARTAN"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "ROUND LAKE SPARTANS"
       }
     ]
   },
