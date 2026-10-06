@@ -88035,8 +88035,8 @@
     ]
   },
   {
-    "name_normalized": "Waubonsie WC",
-    "url_path_slug": null,
+    "name_normalized": "Waubonsie Wrestling Club",
+    "url_path_slug": "waubonsie-wc",
     "duplicates": [
       {
         "tournament_id": 32,
@@ -88157,13 +88157,7 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Waubonsie WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Waubonsie Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 45,
         "division": "novice",
