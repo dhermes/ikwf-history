@@ -39084,170 +39084,8 @@
     ]
   },
   {
-    "name_normalized": "Iguana Athletics WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Iguana Athletics WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Iguana Athletics WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Iguana Athletics WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Iguana Athletics WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Iguana Athletics WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Iguana Athletics WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Iguana WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Iguana WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Iguana WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Iguana Wrestling Club",
-    "url_path_slug": null,
+    "url_path_slug": "iguana",
     "duplicates": [
       {
         "tournament_id": 45,
@@ -39258,6 +39096,156 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Iguana Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Iguana Athletics WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Iguana Athletics WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Iguana Athletics WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Iguana Athletics WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Iguana Athletics WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Iguana Athletics WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Iguana WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Iguana WC"
       }
     ]
   },
