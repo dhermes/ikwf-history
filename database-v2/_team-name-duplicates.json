@@ -61431,33 +61431,6 @@
     ]
   },
   {
-    "name_normalized": "Ottawa Kids WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Ottawa Kids WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Ottawa Kids WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Ottawa WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Ottawa WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Ottawa Wolfpack WC",
     "url_path_slug": "ottawa-wolfpack",
     "duplicates": [
@@ -61470,6 +61443,16 @@
         "tournament_id": 28,
         "division": "senior",
         "name": "WOLFPACK WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Ottawa Kids WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Ottawa Kids WC"
       },
       {
         "tournament_id": 51,
@@ -61560,6 +61543,11 @@
         "tournament_id": 54,
         "division": "senior",
         "name": "Ottawa Wolfpack WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Ottawa WC"
       },
       {
         "tournament_id": 10052,
