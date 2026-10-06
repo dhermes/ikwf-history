@@ -67542,84 +67542,8 @@
     ]
   },
   {
-    "name_normalized": "Reed Custer Jr. Panthers WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Reed Custer Jr. Panthers WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Reed Custer Jr. Panthers WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Reed Custer Jr. Panthers WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Reed Custer Jr. Panthers WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Reed Custer Jr. Panthers WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Reed Custer Jr. Panthers WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Reed Custer Jr. Panthers WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Reed Custer Jr. Panthers WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Reed Custer Jr. Panthers WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Reed Custer Jr. Panthers WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Reed Custer Jr. Panthers WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Reed Custer Jr. Panthers WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Reed Custer Jr. Panthers WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Reed Custer Jr. Panthers WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Reed Custer Knights",
-    "url_path_slug": null,
+    "name_normalized": "Reed-Custer Wrestling Club",
+    "url_path_slug": "reed-custer",
     "duplicates": [
       {
         "tournament_id": 30,
@@ -67640,13 +67564,7 @@
         "tournament_id": 36,
         "division": "senior",
         "name": "REED CUSTER KNIGHTS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Reed Custer Knights WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 43,
         "division": "novice",
@@ -67656,13 +67574,47 @@
         "tournament_id": 43,
         "division": "senior",
         "name": "Reed Custer Knights WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Reed-Custer WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Reed Custer Jr. Panthers WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Reed Custer Jr. Panthers WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Reed Custer Jr. Panthers WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Reed Custer Jr. Panthers WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Reed Custer Jr. Panthers WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Reed Custer Jr. Panthers WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Reed Custer Jr. Panthers WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Reed Custer Jr. Panthers WC"
+      },
       {
         "tournament_id": 54,
         "division": "bantam",
@@ -67692,6 +67644,36 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Reed-Custer WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Reed Custer Jr. Panthers WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Reed Custer Jr. Panthers WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Reed Custer Jr. Panthers WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Reed Custer Jr. Panthers WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Reed Custer Jr. Panthers WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Reed Custer Jr. Panthers WC"
       }
     ]
   },
