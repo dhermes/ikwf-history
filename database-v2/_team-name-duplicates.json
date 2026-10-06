@@ -76083,66 +76083,50 @@
     ]
   },
   {
-    "name_normalized": "Sparta Junior Bulldogs",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Sparta Junior Bulldogs"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Sparta Junior Bulldogs"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Sparta Junior Bulldogs"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Sparta Junior Bulldogs"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Sparta Junior Bulldogs"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Sparta Junior Bulldogs"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Sparta Junior Bulldogs"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Sparta Junior Bulldogs"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Sparta Junior Bulldogs"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Sparta Junior Bulldogs"
-      }
-    ]
-  },
-  {
     "name_normalized": "Sparta Junior Bulldogs WC",
-    "url_path_slug": null,
+    "url_path_slug": "sparta",
     "duplicates": [
       {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Sparta Junior Bulldogs"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Sparta Junior Bulldogs"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Sparta Junior Bulldogs"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Sparta Junior Bulldogs"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Sparta Junior Bulldogs"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Sparta Junior Bulldogs"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Sparta Junior Bulldogs"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Sparta Junior Bulldogs"
+      },
+      {
         "tournament_id": 50,
         "division": "novice",
         "name": "Sparta Junior Bulldogs WC"
@@ -76261,6 +76245,16 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Sparta Junior Bulldogs WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Sparta Junior Bulldogs"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Sparta Junior Bulldogs"
       },
       {
         "tournament_id": 10052,
