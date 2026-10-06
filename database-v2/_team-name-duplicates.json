@@ -66471,22 +66471,6 @@
     ]
   },
   {
-    "name_normalized": "RIVERBEND / FULTON WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "RIVERBEND / FULTON WC"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "RIVERBEND / FULTON WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "ROBBINS",
     "url_path_slug": null,
     "duplicates": [
@@ -68520,135 +68504,144 @@
     ]
   },
   {
-    "name_normalized": "River Bend WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "River Bend WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "River Bend WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "River Bend Wrestling Club",
-    "url_path_slug": null,
+    "url_path_slug": "river-bend",
     "duplicates": [
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "RIVERBEND WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "RIVERBEND / FULTON WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "RIVERBEND / FULTON WC"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "RIVERBEND WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Riverbend WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Riverbend WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Riverbend WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Riverbend WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "River Bend WC"
+      },
       {
         "tournament_id": 45,
         "division": "novice",
@@ -68658,6 +68651,116 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "River Bend Wrestling Club"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "River Bend WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "River Bend WC"
       }
     ]
   },
@@ -68674,127 +68777,6 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "River Trails"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Riverbend WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "RIVERBEND WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "RIVERBEND WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Riverbend WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Riverbend WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Riverbend WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Riverbend WC"
       }
     ]
   },
