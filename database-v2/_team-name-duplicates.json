@@ -52176,46 +52176,14 @@
     ]
   },
   {
-    "name_normalized": "McHenry",
-    "url_path_slug": null,
+    "name_normalized": "McHenry Wrestling Club",
+    "url_path_slug": "mchenry",
     "duplicates": [
       {
         "tournament_id": 2,
         "division": "senior",
         "name": "McHenry"
-      }
-    ]
-  },
-  {
-    "name_normalized": "McHenry WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "McHenry WC"
       },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "McHenry WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "McHenry WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "McHenry WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mchenry WC",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 52,
         "division": "novice",
@@ -52273,6 +52241,26 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "McHenry WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "McHenry WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "McHenry WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "McHenry WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "McHenry WC"
       },
