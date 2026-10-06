@@ -18174,8 +18174,8 @@
     ]
   },
   {
-    "name_normalized": "Crusaders",
-    "url_path_slug": null,
+    "name_normalized": "Crusaders WC",
+    "url_path_slug": "crusaders",
     "duplicates": [
       {
         "tournament_id": 13,
@@ -18186,24 +18186,12 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Crusaders"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Crusaders WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 15,
         "division": "senior",
         "name": "Crusaders WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Crusaders` Elite",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 42,
         "division": "novice",
