@@ -72966,17 +72966,6 @@
     ]
   },
   {
-    "name_normalized": "SPRINGFIELD CAPITALS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "SPRINGFIELD CAPITALS"
-      }
-    ]
-  },
-  {
     "name_normalized": "SPRINGFIELD SENATORS",
     "url_path_slug": null,
     "duplicates": [
@@ -76367,86 +76356,14 @@
     ]
   },
   {
-    "name_normalized": "Springfield Capital Kids WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Springfield Capital Kids WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Springfield Capital Kids WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "SPRINGFIELD CAPITAL KIDS WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "SPRINGFIELD CAPITAL KIDS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "SPRINGFIELD CAPITAL KIDS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "SPRINGFIELD CAPITAL KIDS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "SPRINGFIELD CAPITAL KIDS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "SPRINGFIELD CAPITAL KIDS WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Springfield Capital Kids WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Springfield Capital Kids WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Springfield Capital Kids Wrestling",
-    "url_path_slug": null,
+    "url_path_slug": "springfield-capitals",
     "duplicates": [
       {
-        "tournament_id": 35,
+        "tournament_id": 29,
         "division": "novice",
-        "name": "SPRINGFIELD CAPITAL KIDS WRESTLING"
+        "name": "SPRINGFIELD CAPITALS"
       },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "SPRINGFIELD CAPITAL KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "SPRINGFIELD CAPITAL KIDS WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Springfield Capitals",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 29,
         "division": "senior",
@@ -76463,6 +76380,16 @@
         "name": "SPRINGFIELD CAPITALS"
       },
       {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "SPRINGFIELD CAPITALS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "SPRINGFIELD CAPITALS"
+      },
+      {
         "tournament_id": 32,
         "division": "novice",
         "name": "SPRINGFIELD CAPITALS"
@@ -76491,22 +76418,71 @@
         "tournament_id": 34,
         "division": "senior",
         "name": "SPRINGFIELD CAPITAL KIDS WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Springfield Capitals Kids WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "SPRINGFIELD CAPITALS"
       },
       {
-        "tournament_id": 31,
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "SPRINGFIELD CAPITAL KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 35,
         "division": "senior",
-        "name": "SPRINGFIELD CAPITALS"
+        "name": "SPRINGFIELD CAPITAL KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "SPRINGFIELD CAPITAL KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Springfield Capital Kids WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Springfield Capital Kids WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "SPRINGFIELD CAPITAL KIDS WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "SPRINGFIELD CAPITAL KIDS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "SPRINGFIELD CAPITAL KIDS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "SPRINGFIELD CAPITAL KIDS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "SPRINGFIELD CAPITAL KIDS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "SPRINGFIELD CAPITAL KIDS WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Springfield Capital Kids WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Springfield Capital Kids WC"
       },
       {
         "tournament_id": 42,
