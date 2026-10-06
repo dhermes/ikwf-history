@@ -61715,17 +61715,6 @@
     ]
   },
   {
-    "name_normalized": "PANTHER / REDHAWK WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "PANTHER / REDHAWK WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "PANTHER CUB",
     "url_path_slug": null,
     "duplicates": [
@@ -62494,6 +62483,127 @@
         "tournament_id": 7,
         "division": "senior",
         "name": "Panther"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Panther / Redhawk WC",
+    "url_path_slug": "panther-redhawk",
+    "duplicates": [
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "PANTHER / REDHAWK WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Redhawk  WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Redhawk  WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "REDHAWK WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "REDHAWK WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "REDHAWK WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "REDHAWK WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "REDHAWK WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "REDHAWK WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Redhawk WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Redhawk WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Redhawk WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Redhawk WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Redhawk WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Redhawk WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Redhawk WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Redhawk WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Redhawk Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Redhawk Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Redhawk WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Redhawk WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Redhawk WC/Panther WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Redhawk WC/Panther WC"
       }
     ]
   },
@@ -67451,134 +67561,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Red Raiders Wrestling Team"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Redhawk WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Redhawk  WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Redhawk  WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "REDHAWK WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "REDHAWK WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "REDHAWK WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "REDHAWK WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "REDHAWK WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "REDHAWK WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Redhawk WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Redhawk WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Redhawk WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Redhawk WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Redhawk WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Redhawk WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Redhawk WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Redhawk WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Redhawk WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Redhawk WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Redhawk Wc/Panther WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Redhawk WC/Panther WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Redhawk WC/Panther WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Redhawk Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Redhawk Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Redhawk Wrestling Club"
       }
     ]
   },
