@@ -41362,7 +41362,7 @@
   },
   {
     "name_normalized": "Joliet YMCA",
-    "url_path_slug": null,
+    "url_path_slug": "joliet-ymca",
     "duplicates": [
       {
         "tournament_id": 8,
@@ -41393,13 +41393,7 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Joliet YMCA"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Joliet YMCA Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 15,
         "division": "senior",
