@@ -73053,44 +73053,6 @@
     ]
   },
   {
-    "name_normalized": "STREATOR",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "STREATOR"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "STREATOR"
-      }
-    ]
-  },
-  {
-    "name_normalized": "STREATOR BULLDOGS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "STREATOR BULLDOGS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "STREATOR JUNIOR BULLDOGS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "STREATOR JUNIOR BULLDOGS"
-      }
-    ]
-  },
-  {
     "name_normalized": "SUNDLING JH CLUB PALATINE",
     "url_path_slug": null,
     "duplicates": [
@@ -78810,9 +78772,29 @@
     ]
   },
   {
-    "name_normalized": "Streator Bulldog WC",
-    "url_path_slug": null,
+    "name_normalized": "Streator WC",
+    "url_path_slug": "streator",
     "duplicates": [
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "STREATOR JUNIOR BULLDOGS"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "STREATOR BULLDOGS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "STREATOR"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "STREATOR"
+      },
       {
         "tournament_id": 37,
         "division": "novice",
@@ -78822,13 +78804,7 @@
         "tournament_id": 37,
         "division": "senior",
         "name": "Streator Bulldog WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Streator WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 41,
         "division": "novice",
