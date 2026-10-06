@@ -75881,7 +75881,7 @@
   },
   {
     "name_normalized": "Southside Stallions",
-    "url_path_slug": null,
+    "url_path_slug": "southside-stallions",
     "duplicates": [
       {
         "tournament_id": 39,
@@ -75942,13 +75942,7 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Southside Stallions"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Southside Stallions School Of Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 45,
         "division": "novice",
