@@ -73412,8 +73412,8 @@
     ]
   },
   {
-    "name_normalized": "Sandwich",
-    "url_path_slug": null,
+    "name_normalized": "Sandwich Wrestling Club",
+    "url_path_slug": "sandwich",
     "duplicates": [
       {
         "tournament_id": 13,
@@ -73424,13 +73424,7 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Sandwich"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Sandwich WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 30,
         "division": "novice",
