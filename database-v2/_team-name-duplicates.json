@@ -58779,93 +58779,6 @@
     ]
   },
   {
-    "name_normalized": "OAK LAWN P.D. WILDCATS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "OAK LAWN P.D. WILDCATS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "OAK LAWN P.D. WILDCATS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "OAK LAWN P.D. WILDCATS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "OAK LAWN P.D. WILDCATS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "OAK LAWN P.D. WILDCATS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "OAK LAWN PD WILDCATS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "OAK LAWN PD WILDCATS"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "OAK LAWN PD WILDCATS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "OAK LAWN PD WILDCATS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "OAK LAWN PD WILDCATS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "OAK LAWN PD WILDCATS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "OAK LAWN PD WILDCATS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "OAK LAWN PD WILDCATS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "OAK LAWN PD WILDCATS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "OAK LAWN PD WILDCATS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "OAK LAWN PD WILDCATS"
-      }
-    ]
-  },
-  {
     "name_normalized": "OLSON JR. HIGH",
     "url_path_slug": null,
     "duplicates": [
@@ -59710,8 +59623,8 @@
     ]
   },
   {
-    "name_normalized": "Oak Lawn",
-    "url_path_slug": null,
+    "name_normalized": "Oak Lawn Park District Wildcats",
+    "url_path_slug": "oak-lawn-pd",
     "duplicates": [
       {
         "tournament_id": 9,
@@ -59734,6 +59647,26 @@
         "name": "Oak Lawn"
       },
       {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Oak Lawn PD"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Oak Lawn PD"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "OAK LAWN PD WILDCATS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "OAK LAWN PD WILDCATS"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "OAK LAWN"
@@ -59742,69 +59675,67 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "OAK LAWN"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oak Lawn P.D. Wildcats",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
-        "tournament_id": 32,
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "OAK LAWN PD WILDCATS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "OAK LAWN PD WILDCATS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "OAK LAWN PD WILDCATS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "OAK LAWN PD WILDCATS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "OAK LAWN PD WILDCATS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "OAK LAWN PD WILDCATS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "OAK LAWN PD WILDCATS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "OAK LAWN PD WILDCATS"
+      },
+      {
+        "tournament_id": 28,
         "division": "novice",
         "name": "OAK LAWN P.D. WILDCATS"
       },
       {
-        "tournament_id": 32,
+        "tournament_id": 28,
         "division": "senior",
         "name": "OAK LAWN P.D. WILDCATS"
       },
       {
-        "tournament_id": 33,
+        "tournament_id": 29,
         "division": "novice",
         "name": "OAK LAWN P.D. WILDCATS"
       },
       {
-        "tournament_id": 33,
+        "tournament_id": 29,
         "division": "senior",
         "name": "OAK LAWN P.D. WILDCATS"
       },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "OAK LAWN P.D. WILDCATS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "OAK LAWN P.D. WILDCATS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "OAK LAWN P.D. WILDCATS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "OAK LAWN P.D. WILDCATS"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "OAK LAWN P.D. WILDCATS"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "OAK LAWN P.D. WILDCATS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oak Lawn PD Wildcats",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 30,
         "division": "novice",
@@ -59819,22 +59750,61 @@
         "tournament_id": 31,
         "division": "novice",
         "name": "OAK LAWN P.D. WILDCATS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oak Lawn Park District",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Oak Lawn PD"
       },
       {
-        "tournament_id": 17,
+        "tournament_id": 31,
         "division": "senior",
-        "name": "Oak Lawn PD"
+        "name": "OAK LAWN P.D. WILDCATS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "OAK LAWN P.D. WILDCATS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "OAK LAWN P.D. WILDCATS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "OAK LAWN P.D. WILDCATS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "OAK LAWN P.D. WILDCATS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "OAK LAWN P.D. WILDCATS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "OAK LAWN P.D. WILDCATS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "OAK LAWN P.D. WILDCATS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "OAK LAWN P.D. WILDCATS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "OAK LAWN P.D. WILDCATS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "OAK LAWN P.D. WILDCATS"
       }
     ]
   },
