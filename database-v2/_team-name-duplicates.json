@@ -18174,6 +18174,22 @@
     ]
   },
   {
+    "name_normalized": "Crusaders",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Crusaders"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Crusaders"
+      }
+    ]
+  },
+  {
     "name_normalized": "Crusaders Elite",
     "url_path_slug": "crusaders-elite",
     "duplicates": [
@@ -18236,6 +18252,17 @@
         "tournament_id": 47,
         "division": "senior",
         "name": "Crusaders` Elite"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Crusaders WC",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Crusaders WC"
       }
     ]
   },
@@ -61350,6 +61377,17 @@
     ]
   },
   {
+    "name_normalized": "Ottawa WC",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Ottawa WC"
+      }
+    ]
+  },
+  {
     "name_normalized": "Ottawa Wolfpack WC",
     "url_path_slug": "ottawa-wolfpack",
     "duplicates": [
@@ -66744,6 +66782,11 @@
       {
         "tournament_id": 10050,
         "division": "senior",
+        "name": "RWC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
         "name": "RWC"
       },
       {
@@ -87250,6 +87293,22 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "WINSTON PARK"
+      }
+    ]
+  },
+  {
+    "name_normalized": "WOLFPACK WRESTLING CLUB",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "WOLFPACK WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "WOLFPACK WRESTLING CLUB"
       }
     ]
   },
