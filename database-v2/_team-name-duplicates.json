@@ -48752,27 +48752,6 @@
     ]
   },
   {
-    "name_normalized": "MARENGO WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "MARENGO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "MARENGO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "MARENGO WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "MARION",
     "url_path_slug": null,
     "duplicates": [
@@ -50489,9 +50468,90 @@
     ]
   },
   {
-    "name_normalized": "Marengo Indians Youth Wrestling",
+    "name_normalized": "Marengo Shooters WC",
     "url_path_slug": null,
     "duplicates": [
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Marengo Shooters WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Marengo Shooters WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Marengo Youth WC",
+    "url_path_slug": "marengo",
+    "duplicates": [
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "MARENGO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "MARENGO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "MARENGO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "MARENGO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "MARENGO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "MARENGO WC"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "MARENGO WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "MARENGO WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "MARENGO WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "MARENGO WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "MARENGO WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "MARENGO WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "MARENGO WC"
+      },
       {
         "tournament_id": 35,
         "division": "novice",
@@ -50516,85 +50576,87 @@
         "tournament_id": 37,
         "division": "senior",
         "name": "Marengo Indians Youth Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Marengo Shooters WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
-        "tournament_id": 37,
+        "tournament_id": 38,
         "division": "novice",
-        "name": "Marengo Shooters WC"
+        "name": "MARENGO YOUTH WRESTLING"
       },
       {
-        "tournament_id": 37,
+        "tournament_id": 38,
         "division": "senior",
-        "name": "Marengo Shooters WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Marengo WC",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "MARENGO YOUTH WRESTLING"
+      },
       {
-        "tournament_id": 30,
+        "tournament_id": 39,
         "division": "novice",
-        "name": "MARENGO WRESTLING CLUB"
+        "name": "MARENGO YOUTH WRESTLING"
       },
       {
-        "tournament_id": 30,
+        "tournament_id": 39,
         "division": "senior",
-        "name": "MARENGO WRESTLING CLUB"
+        "name": "MARENGO YOUTH WRESTLING"
       },
       {
-        "tournament_id": 31,
+        "tournament_id": 40,
         "division": "novice",
-        "name": "MARENGO WC"
+        "name": "MARENGO YOUTH WRESTLING"
       },
       {
-        "tournament_id": 31,
+        "tournament_id": 40,
         "division": "senior",
-        "name": "MARENGO WC"
+        "name": "MARENGO YOUTH WRESTLING"
       },
       {
-        "tournament_id": 32,
+        "tournament_id": 41,
         "division": "novice",
-        "name": "MARENGO WC"
+        "name": "Marengo Youth Wrestling"
       },
       {
-        "tournament_id": 32,
+        "tournament_id": 41,
         "division": "senior",
-        "name": "MARENGO WC"
+        "name": "Marengo Youth Wrestling"
       },
       {
-        "tournament_id": 33,
+        "tournament_id": 42,
         "division": "novice",
-        "name": "MARENGO WC"
+        "name": "Marengo Youth Wrestling"
       },
       {
-        "tournament_id": 33,
+        "tournament_id": 42,
         "division": "senior",
-        "name": "MARENGO WC"
+        "name": "Marengo Youth Wrestling"
       },
       {
-        "tournament_id": 34,
+        "tournament_id": 43,
         "division": "novice",
-        "name": "MARENGO WC"
+        "name": "Marengo Youth Wrestling"
       },
       {
-        "tournament_id": 34,
+        "tournament_id": 43,
         "division": "senior",
-        "name": "MARENGO WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Marengo Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "Marengo Youth Wrestling"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Marengo Youth Wrestling"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Marengo Youth Wrestling"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Marengo Youth Wrestling"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Marengo Youth Wrestling"
+      },
       {
         "tournament_id": 46,
         "division": "novice",
@@ -50764,92 +50826,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Marengo Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Marengo Youth Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "MARENGO YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "MARENGO YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "MARENGO YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "MARENGO YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "MARENGO YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "MARENGO YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Marengo Youth Wrestling"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Marengo Youth Wrestling"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Marengo Youth Wrestling"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Marengo Youth Wrestling"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Marengo Youth Wrestling"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Marengo Youth Wrestling"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Marengo Youth Wrestling"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Marengo Youth Wrestling"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Marengo Youth Wrestling"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Marengo Youth Wrestling"
       }
     ]
   },
