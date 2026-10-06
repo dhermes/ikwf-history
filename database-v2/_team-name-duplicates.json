@@ -66558,17 +66558,6 @@
     ]
   },
   {
-    "name_normalized": "ROUND LAKE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "ROUND LAKE"
-      }
-    ]
-  },
-  {
     "name_normalized": "ROXANA VIKINGS",
     "url_path_slug": null,
     "duplicates": [
@@ -71384,6 +71373,11 @@
         "tournament_id": 22,
         "division": "senior",
         "name": "ROUND LAKE SPARTAN WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "ROUND LAKE"
       },
       {
         "tournament_id": 23,
