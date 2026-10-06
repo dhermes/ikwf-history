@@ -17797,32 +17797,6 @@
     ]
   },
   {
-    "name_normalized": "Cross Town WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Cross Town WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Cross Town WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Cross Town WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Cross Town WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Crossface Wrestling Club",
     "url_path_slug": "crossface",
     "duplicates": [
@@ -17960,169 +17934,8 @@
     ]
   },
   {
-    "name_normalized": "Crosstown Spartan Elite WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Crosstown Spartan Elite WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Crosstown Spartan Elite WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Crosstown WC",
-    "url_path_slug": null,
+    "url_path_slug": "crosstown",
     "duplicates": [
       {
         "tournament_id": 37,
@@ -18173,13 +17986,27 @@
         "tournament_id": 41,
         "division": "senior",
         "name": "Crosstown WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Crosstown Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Cross Town WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Cross Town WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Cross Town WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Cross Town WC"
+      },
       {
         "tournament_id": 44,
         "division": "novice",
@@ -18209,6 +18036,161 @@
         "tournament_id": 46,
         "division": "senior",
         "name": "Crosstown Wrestling"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Crosstown Spartan Elite WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Crosstown Spartan Elite WC"
       }
     ]
   },
