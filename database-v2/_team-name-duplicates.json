@@ -71177,27 +71177,6 @@
     ]
   },
   {
-    "name_normalized": "Round Lake Area Park District",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Round Lake Area PD"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Round Lake Area PD"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Round Lake Area P.D."
-      }
-    ]
-  },
-  {
     "name_normalized": "Round Lake Bad Boyz",
     "url_path_slug": null,
     "duplicates": [
@@ -71339,6 +71318,16 @@
         "name": "Round Lake"
       },
       {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Round Lake Area PD"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Round Lake Area PD"
+      },
+      {
         "tournament_id": 17,
         "division": "senior",
         "name": "Round Lake P.D. Spartans"
@@ -71347,6 +71336,11 @@
         "tournament_id": 18,
         "division": "senior",
         "name": "Round Lake P.D. Spartans"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Round Lake Area P.D."
       },
       {
         "tournament_id": 20,
