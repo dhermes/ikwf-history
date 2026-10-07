@@ -29608,6 +29608,11 @@
         "name": "GALESBURG JUNIOR STREAKS"
       },
       {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "JUNIOR STREAKS #2"
+      },
+      {
         "tournament_id": 31,
         "division": "senior",
         "name": "GALESBURG JR STREAKS"
@@ -39465,17 +39470,6 @@
         "tournament_id": 35,
         "division": "senior",
         "name": "JUNIOR MUSTANGS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "JUNIOR STREAKS #2",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "JUNIOR STREAKS #2"
       }
     ]
   },
