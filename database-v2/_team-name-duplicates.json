@@ -16542,22 +16542,6 @@
     ]
   },
   {
-    "name_normalized": "Coal City",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Coal City"
-      },
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Coal City"
-      }
-    ]
-  },
-  {
     "name_normalized": "Cogs WC",
     "url_path_slug": null,
     "duplicates": [
@@ -44175,6 +44159,16 @@
     "name_normalized": "Lil' Coalers WC",
     "url_path_slug": "lil-coalers",
     "duplicates": [
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Coal City"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Coal City"
+      },
       {
         "tournament_id": 50,
         "division": "novice",
