@@ -60529,49 +60529,6 @@
     ]
   },
   {
-    "name_normalized": "PEOTONE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "PEOTONE"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "PEOTONE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "PEOTONE PD",
-    "url_path_slug": "peotone-pd",
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Peotone PD"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "PEOTONE PD"
-      }
-    ]
-  },
-  {
-    "name_normalized": "PEOTONE PD WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "PEOTONE PD WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "PINCKNEYVILLE JR. PANTHERS",
     "url_path_slug": null,
     "duplicates": [
@@ -62803,8 +62760,48 @@
   },
   {
     "name_normalized": "Peotone Little Devils WC",
-    "url_path_slug": null,
+    "url_path_slug": "peotone",
     "duplicates": [
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Peotone PD"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Peotone PD WC"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Peotone Park District WC"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Peotone Park District WC"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "PEOTONE PD"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "PEOTONE"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "PEOTONE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "PEOTONE PD WRESTLING"
+      },
       {
         "tournament_id": 10052,
         "division": "bantam",
@@ -62879,33 +62876,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Peotone Little Devils WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Peotone PD WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Peotone PD WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Peotone Park District WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Peotone Park District WC"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Peotone Park District WC"
       }
     ]
   },
