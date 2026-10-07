@@ -18909,20 +18909,14 @@
     ]
   },
   {
-    "name_normalized": "DC SPORTSTERS WC",
-    "url_path_slug": null,
+    "name_normalized": "DC WC",
+    "url_path_slug": "dc-wc",
     "duplicates": [
       {
         "tournament_id": 24,
         "division": "novice",
         "name": "DC SPORTSTERS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DC WC",
-    "url_path_slug": "dc-wc",
-    "duplicates": [
+      },
       {
         "tournament_id": 50,
         "division": "novice",
