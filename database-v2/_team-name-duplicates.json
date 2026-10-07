@@ -19978,7 +19978,7 @@
   },
   {
     "name_normalized": "Danville Chargers",
-    "url_path_slug": null,
+    "url_path_slug": "danville-chargers",
     "duplicates": [
       {
         "tournament_id": 41,
@@ -19989,6 +19989,56 @@
         "tournament_id": 41,
         "division": "senior",
         "name": "Danville Chargers"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Danville Chargers Wrestling"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Danville Chargers Wrestling"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Danville Chargers Wrestling"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Danville Chargers Wrestling"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Danville Chargers Wrestling"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Danville Chargers Wrestling"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Danville Chargers Wrestling"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Danville Chargers Wrestling"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Danville Chargers Wrestling"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Danville Chargers Wrestling"
       },
       {
         "tournament_id": 47,
@@ -20021,22 +20071,6 @@
         "name": "Danville Chargers"
       },
       {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Danville Chargers"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Danville Chargers"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Danville Chargers WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 50,
         "division": "novice",
         "name": "Danville Chargers WC"
@@ -20045,6 +20079,16 @@
         "tournament_id": 50,
         "division": "senior",
         "name": "Danville Chargers WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Danville Chargers"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Danville Chargers"
       },
       {
         "tournament_id": 51,
@@ -20135,62 +20179,6 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Danville Chargers WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Danville Chargers Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Danville Chargers Wrestling"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Danville Chargers Wrestling"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Danville Chargers Wrestling"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Danville Chargers Wrestling"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Danville Chargers Wrestling"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Danville Chargers Wrestling"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Danville Chargers Wrestling"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Danville Chargers Wrestling"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Danville Chargers Wrestling"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Danville Chargers Wrestling"
       }
     ]
   },
