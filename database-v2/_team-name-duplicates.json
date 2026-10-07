@@ -37924,6 +37924,11 @@
         "name": "Indian Prairie WC"
       },
       {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Indian Prairie WC"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "INDIAN PRAIRIE"
@@ -38575,17 +38580,6 @@
         "tournament_id": 54,
         "division": "intermediate_girls",
         "name": "Impact Wrestling Academy, LLC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Indian Prairie WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Indian Prairie WC"
       }
     ]
   },
