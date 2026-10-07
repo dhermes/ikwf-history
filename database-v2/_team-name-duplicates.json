@@ -22926,134 +22926,6 @@
     ]
   },
   {
-    "name_normalized": "ERIE MIDDLE SCHOOL WC",
-    "url_path_slug": "erie-middle-school-wc",
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "ERIE MIDDLE SCHOOL WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "ERIE MIDDLE SCHOOL WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "ERIE MIDDLE SCHOOL WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "ERIE MIDDLE SCHOOL WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "ERIE MIDDLE SCHOOL WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Erie Middle School WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Erie Middle School WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "ERIE MIDDLE SCHOOL WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "ERIE MIDDLE SCHOOL WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ERIE MIDDLE SCHOOL WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ERIE MS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "ERIE MS"
-      }
-    ]
-  },
-  {
     "name_normalized": "EUREKA KIDS WC",
     "url_path_slug": "eureka-kids-wc",
     "duplicates": [
@@ -25741,6 +25613,122 @@
         "tournament_id": 47,
         "division": "senior",
         "name": "Epic Wrestling"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Erie Middle School",
+    "url_path_slug": "erie-ms",
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "ERIE MS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "ERIE MIDDLE SCHOOL WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "ERIE MIDDLE SCHOOL WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "ERIE MIDDLE SCHOOL WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "ERIE MIDDLE SCHOOL WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "ERIE MIDDLE SCHOOL WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "ERIE MIDDLE SCHOOL WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Erie Middle School WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Erie Middle School WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "ERIE MIDDLE SCHOOL WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "ERIE MIDDLE SCHOOL WC"
       }
     ]
   },
