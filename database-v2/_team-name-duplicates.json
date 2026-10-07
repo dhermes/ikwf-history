@@ -22926,52 +22926,6 @@
     ]
   },
   {
-    "name_normalized": "Elgin Grapplers",
-    "url_path_slug": "elgin-grapplers",
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Elgin Grapplers"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "ELGIN GRAPPLERS"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "ELGIN GRAPPLERS"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "ELGIN GRAPPLERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "ELGIN GRAPPLERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ELGIN GRAPPLERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "ELGIN GRAPPLERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "ELGIN GRAPPLERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "ELMHURST",
     "url_path_slug": "elmhurst",
     "duplicates": [
@@ -25195,6 +25149,26 @@
         "name": "Elgin WC"
       },
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Elgin Grapplers"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "ELGIN GRAPPLERS"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "ELGIN GRAPPLERS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "ELGIN GRAPPLERS"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "ELGIN"
@@ -25203,6 +25177,26 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "ELGIN"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "ELGIN GRAPPLERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ELGIN GRAPPLERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "ELGIN GRAPPLERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "ELGIN GRAPPLERS"
       }
     ]
   },
