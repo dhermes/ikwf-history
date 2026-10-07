@@ -42062,42 +42062,6 @@
     ]
   },
   {
-    "name_normalized": "Lanphier-Southeast WC",
-    "url_path_slug": "lanphier-southeast",
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Lanphier South East"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Lanphier-Southeast WC"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Lanphier-Southeast WC"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Lanphier-Southeast WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "LANPHIER-SOUTHEAST WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "LANPHIER-SOUTHEAST WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "LARKIN",
     "url_path_slug": null,
     "duplicates": [
@@ -42199,66 +42163,14 @@
     ]
   },
   {
-    "name_normalized": "LIONS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "LIONS"
-      }
-    ]
-  },
-  {
     "name_normalized": "LIONS WC",
-    "url_path_slug": "lions",
+    "url_path_slug": "lions-wc",
     "duplicates": [
       {
         "tournament_id": 14,
         "division": "senior",
         "name": "Lions W.C."
       },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Lions WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LIONS WRESTLING CLUB",
-    "url_path_slug": "lions-wrestling-club",
-    "duplicates": [
       {
         "tournament_id": 16,
         "division": "senior",
@@ -42283,6 +42195,26 @@
         "tournament_id": 23,
         "division": "novice",
         "name": "LIONS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "LIONS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "LIONS WC"
       },
       {
         "tournament_id": 26,
@@ -42571,6 +42503,26 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Lions WC"
       }
@@ -43956,6 +43908,42 @@
         "tournament_id": 12,
         "division": "senior",
         "name": "Lancers Wrestling Club"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Lanphier-Southeast WC",
+    "url_path_slug": "lanphier-southeast",
+    "duplicates": [
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Lanphier South East"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Lanphier-Southeast WC"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Lanphier-Southeast WC"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Lanphier-Southeast WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "LANPHIER-SOUTHEAST WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "LANPHIER-SOUTHEAST WC"
       }
     ]
   },
