@@ -37905,42 +37905,6 @@
     ]
   },
   {
-    "name_normalized": "Indian Prairie",
-    "url_path_slug": "indian-prairie",
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Indian Prairie"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Indian Prairie"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Indian Prairie WC"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Indian Prairie WC"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "INDIAN PRAIRIE"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "INDIAN PRAIRIE"
-      }
-    ]
-  },
-  {
     "name_normalized": "INDIAN PRAIRIE PIONEERS",
     "url_path_slug": "indian-prairie-pioneers",
     "duplicates": [
@@ -38584,13 +38548,43 @@
     ]
   },
   {
-    "name_normalized": "Indian Prairie WC Gregory",
-    "url_path_slug": null,
+    "name_normalized": "Indian Prairie",
+    "url_path_slug": "indian-prairie",
     "duplicates": [
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Indian Prairie"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Indian Prairie"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Indian Prairie WC"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Indian Prairie WC"
+      },
       {
         "tournament_id": 18,
         "division": "senior",
         "name": "Indian Prairie WC Gregory"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "INDIAN PRAIRIE"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "INDIAN PRAIRIE"
       }
     ]
   },
