@@ -38584,82 +38584,6 @@
     ]
   },
   {
-    "name_normalized": "Indians Elite",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "INDIANS ELITE"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "INDIANS ELITE"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "INDIANS ELITE"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "INDIANS ELITE"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Indians Elite"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Indians Elite"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Indians Elite"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Indians Elite"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Indians Elite"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Indians Elite"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Indians Elite"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Indians Elite"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Indians Elite"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Indians Elite"
-      }
-    ]
-  },
-  {
     "name_normalized": "Integrity Elite Wrestling",
     "url_path_slug": null,
     "duplicates": [
@@ -42159,32 +42083,6 @@
         "tournament_id": 25,
         "division": "novice",
         "name": "LINCOLN-WAY KNIGHTS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LITTLE INDIANS",
-    "url_path_slug": "little-indians",
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "LITTLE INDIANS"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "LITTLE INDIANS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "LITTLE INDIANS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "LITTLE INDIANS"
       }
     ]
   },
@@ -52118,72 +52016,30 @@
     ]
   },
   {
-    "name_normalized": "Minooka Indians Elite",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Minooka Indians Elite"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Minooka Indians Elite"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Minooka Indians Elite"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Minooka Indians Elite"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Minooka Indians Elite"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Minooka Indians Elite"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Minooka Indians Elite Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Minooka Indians Elite Wrestling"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Minooka Indians Elite Wrestling"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Minooka Indians Elite Wrestling"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Minooka Indians Elite Wrestling"
-      }
-    ]
-  },
-  {
     "name_normalized": "Minooka Little Indians",
-    "url_path_slug": null,
+    "url_path_slug": "minooka-little-indians",
     "duplicates": [
       {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "LITTLE INDIANS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "LITTLE INDIANS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "LITTLE INDIANS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "LITTLE INDIANS"
+      },
+      {
         "tournament_id": 35,
         "division": "novice",
         "name": "MINOOKA LITTLE INDIANS"
@@ -52222,6 +52078,126 @@
         "tournament_id": 38,
         "division": "senior",
         "name": "MINOOKA LITTLE INDIANS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "INDIANS ELITE"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "INDIANS ELITE"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "INDIANS ELITE"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "INDIANS ELITE"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Indians Elite"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Indians Elite"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Indians Elite"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Indians Elite"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Indians Elite"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Indians Elite"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Indians Elite"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Indians Elite"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Indians Elite"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Indians Elite"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Minooka Indians Elite"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Minooka Indians Elite"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Minooka Indians Elite"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Minooka Indians Elite"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Minooka Indians Elite"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Minooka Indians Elite"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Minooka Indians Elite Wrestling"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Minooka Indians Elite Wrestling"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Minooka Indians Elite Wrestling"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Minooka Indians Elite Wrestling"
       }
     ]
   },
