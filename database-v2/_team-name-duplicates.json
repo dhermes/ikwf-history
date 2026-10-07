@@ -26309,65 +26309,6 @@
     ]
   },
   {
-    "name_normalized": "FROST",
-    "url_path_slug": "frost",
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Frost"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "FROST"
-      }
-    ]
-  },
-  {
-    "name_normalized": "FROST / BAD BOYZ",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "FROST / BAD BOYZ"
-      }
-    ]
-  },
-  {
-    "name_normalized": "FROST JH WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "FROST JH WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "FROST JH WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "FROST JR. COUGARS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "FROST JR. COUGARS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "FROST JR. COUGARS"
-      }
-    ]
-  },
-  {
     "name_normalized": "FULTON",
     "url_path_slug": null,
     "duplicates": [
@@ -29268,6 +29209,47 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Friar Wrestling Club"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Frost",
+    "url_path_slug": "frost",
+    "duplicates": [
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Frost"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "FROST / BAD BOYZ"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "FROST"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "FROST JH WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "FROST JH WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "FROST JR. COUGARS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "FROST JR. COUGARS"
       }
     ]
   },
