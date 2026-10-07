@@ -32820,7 +32820,17 @@
     "url_path_slug": "hickory-hills",
     "duplicates": [
       {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Hickory Hills"
+      },
+      {
         "tournament_id": 9,
+        "division": "senior",
+        "name": "Hickory Hills"
+      },
+      {
+        "tournament_id": 10,
         "division": "senior",
         "name": "Hickory Hills"
       },
@@ -32840,27 +32850,6 @@
         "name": "Hickory Hills"
       },
       {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Hickory Hills"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "HICKORY HILLS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HICKORY HILLS PARK DISTRICT",
-    "url_path_slug": "hickory-hills-park-district",
-    "duplicates": [
-      {
-        "tournament_id": 10,
-        "division": "senior",
-        "name": "Hickory Hills"
-      },
-      {
         "tournament_id": 14,
         "division": "senior",
         "name": "Hickory Hills"
@@ -32869,6 +32858,11 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Hickory Hills PD"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Hickory Hills"
       },
       {
         "tournament_id": 17,
@@ -32897,6 +32891,11 @@
       },
       {
         "tournament_id": 23,
+        "division": "novice",
+        "name": "HICKORY HILLS"
+      },
+      {
+        "tournament_id": 23,
         "division": "senior",
         "name": "HICKORY HILLS"
       },
@@ -32904,13 +32903,7 @@
         "tournament_id": 24,
         "division": "senior",
         "name": "HICKORY HILLS PD"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HICKORY HILLS PD",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 25,
         "division": "novice",
@@ -35326,17 +35319,6 @@
         "tournament_id": 46,
         "division": "senior",
         "name": "HF Spartan Elite WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hickory Hilis",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Hickory Hilis"
       }
     ]
   },
