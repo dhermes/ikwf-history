@@ -42119,127 +42119,6 @@
     ]
   },
   {
-    "name_normalized": "LITTLE REDSKINS WC",
-    "url_path_slug": "little-redskins",
-    "duplicates": [
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "LITTLE REDSKINS WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "LITTLE REDSKINS WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "LITTLE REDSKINS WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "LITTLE REDSKINS WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "LITTLE REDSKINS WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Little Redskins WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Little Redskins WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "LITTLE REDSKINS WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "LITTLE REDSKINS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "LITTLE REDSKINS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "LITTLE REDSKINS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "LITTLE REDSKINS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "LITTLE REDSKINS WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Little Redskins WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Little Redskins WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Little Redskins WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Little Redskins WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Little Redskins WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Little Redskins WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Little Redskins WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Little Redskins WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Little Redskins WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Little Redskins WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "LIVINGSTON LIGHTNING",
     "url_path_slug": null,
     "duplicates": [
@@ -46387,8 +46266,113 @@
   },
   {
     "name_normalized": "Little Redskins Wrestling Club",
-    "url_path_slug": null,
+    "url_path_slug": "little-redskins",
     "duplicates": [
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "LITTLE REDSKINS WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "LITTLE REDSKINS WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "LITTLE REDSKINS WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "LITTLE REDSKINS WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "LITTLE REDSKINS WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Little Redskins WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Little Redskins WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "LITTLE REDSKINS WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "LITTLE REDSKINS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "LITTLE REDSKINS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "LITTLE REDSKINS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "LITTLE REDSKINS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "LITTLE REDSKINS WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Little Redskins WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Little Redskins WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Little Redskins WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Little Redskins WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Little Redskins WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Little Redskins WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Little Redskins WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Little Redskins WC"
+      },
       {
         "tournament_id": 45,
         "division": "novice",
@@ -46398,6 +46382,16 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Little Redskins Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Little Redskins WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Little Redskins WC"
       }
     ]
   },
