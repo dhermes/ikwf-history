@@ -22893,90 +22893,6 @@
     ]
   },
   {
-    "name_normalized": "EDISON MIDDLE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "EDISON MIDDLE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "EDISON PANTHER WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "EDISON PANTHER WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "EDISON PANTHERS",
-    "url_path_slug": "edison-panthers",
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "EDISON PANTHERS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "EDISON PANTHERS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "EDISON PANTHERS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "EDISON PANTHERS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "EDISON PANTHERS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "EDISON PANTHERS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "EDISON PANTHERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "EDISON WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "EDISON WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "EDISON WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "EDISON WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "EFFINGHAM JUNIOR WRESTLING TEAM",
     "url_path_slug": "effingham-junior-wrestling-team",
     "duplicates": [
@@ -24215,6 +24131,72 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "East St. Louis WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Edison Panthers WC",
+    "url_path_slug": "edison-panthers",
+    "duplicates": [
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "EDISON MIDDLE"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "EDISON PANTHER WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "EDISON WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "EDISON WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "EDISON WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "EDISON PANTHERS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "EDISON PANTHERS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "EDISON PANTHERS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "EDISON PANTHERS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "EDISON PANTHERS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "EDISON PANTHERS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "EDISON PANTHERS"
       }
     ]
   },
