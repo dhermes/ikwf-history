@@ -29352,47 +29352,6 @@
     ]
   },
   {
-    "name_normalized": "GC JR WARRIORS",
-    "url_path_slug": "gc-jr-warriors",
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "GC JR WARRIORS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "GC JR WARRIORS"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "GC JR WARRIORS"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "GC Jr Warriors"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "GC Jr Warriors"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "GC JR WARRIORS"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "GC JR WARRIORS"
-      }
-    ]
-  },
-  {
     "name_normalized": "GCMS Falcon Wrestling",
     "url_path_slug": "gcms",
     "duplicates": [
@@ -29490,6 +29449,41 @@
         "tournament_id": 26,
         "division": "senior",
         "name": "GCMS FALCON WRESTLING"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "GC JR WARRIORS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "GC JR WARRIORS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "GC JR WARRIORS"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "GC Jr Warriors"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "GC Jr Warriors"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "GC JR WARRIORS"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "GC JR WARRIORS"
       }
     ]
   },
