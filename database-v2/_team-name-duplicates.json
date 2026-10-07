@@ -29488,54 +29488,6 @@
     ]
   },
   {
-    "name_normalized": "GENEVA PARK DISTRICT",
-    "url_path_slug": "geneva-park-district",
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Geneva Park District"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "GENEVA PARK DISTRICT"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "GENEVA PARK DISTRICT"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "GENEVA PARK DISTRICT"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GENEVA PD",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "GENEVA PD"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GENEVA WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "GENEVA WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "GEORGETOWN",
     "url_path_slug": "georgetown",
     "duplicates": [
@@ -30367,9 +30319,69 @@
     ]
   },
   {
-    "name_normalized": "Geneva Junior Vikings",
-    "url_path_slug": null,
+    "name_normalized": "Geneva WC",
+    "url_path_slug": "geneva",
     "duplicates": [
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Geneva Vikings"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Geneva Park District"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "GENEVA PARK DISTRICT"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "GENEVA PD"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "GENEVA PARK DISTRICT"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "GENEVA WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "GENEVA PARK DISTRICT"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "GENEVA WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "GENEVA WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "GENEVA WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "GENEVA WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "GENEVA WC"
+      },
       {
         "tournament_id": 45,
         "division": "novice",
@@ -30459,13 +30471,7 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Geneva Junior Vikings"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Geneva Junior Vikings WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 54,
         "division": "novice",
@@ -30475,48 +30481,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Geneva Junior Vikings WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Geneva Vikings",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Geneva Vikings"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Geneva WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "GENEVA WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "GENEVA WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "GENEVA WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "GENEVA WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "GENEVA WC"
       }
     ]
   },
