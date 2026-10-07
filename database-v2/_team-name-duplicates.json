@@ -29564,107 +29564,6 @@
     ]
   },
   {
-    "name_normalized": "GRAPPLIN' DEVILS WC",
-    "url_path_slug": "grapplin-devils",
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "GRAPPLIN' DEVILS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "GRAPPLIN' DEVILS WC"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "GRAPPLIN' DEVILS WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "GRAPPLIN' DEVILS WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "GRAPPLIN' DEVILS WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "GRAPPLIN' DEVILS WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "GRAPPLIN' DEVILS WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Grapplin` Devils WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Grapplin` Devils WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "GRAPPLIN` DEVILS WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "GRAPPLIN` DEVILS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "GRAPPLIN` DEVILS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "GRAPPLIN` DEVILS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "GRAPPLIN` DEVILS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "GRAPPLIN` DEVILS WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Grapplin` Devils WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Grapplin` Devils WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Grapplin` Devils WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Grapplin` Devils WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Galesburg Junior Streaks",
     "url_path_slug": "galesburg",
     "duplicates": [
@@ -32350,13 +32249,108 @@
     ]
   },
   {
-    "name_normalized": "Grapplin Devils",
-    "url_path_slug": null,
+    "name_normalized": "Grapplin' Devils WC",
+    "url_path_slug": "grapplin-devils",
     "duplicates": [
       {
         "tournament_id": 10028,
         "division": "senior_iwf",
         "name": "Grapplin Devils"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "GRAPPLIN' DEVILS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "GRAPPLIN' DEVILS WC"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "GRAPPLIN' DEVILS WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "GRAPPLIN' DEVILS WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "GRAPPLIN' DEVILS WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "GRAPPLIN' DEVILS WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "GRAPPLIN' DEVILS WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Grapplin` Devils WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Grapplin` Devils WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "GRAPPLIN` DEVILS WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "GRAPPLIN` DEVILS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "GRAPPLIN` DEVILS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "GRAPPLIN` DEVILS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "GRAPPLIN` DEVILS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "GRAPPLIN` DEVILS WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Grapplin` Devils WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Grapplin` Devils WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Grapplin` Devils WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Grapplin` Devils WC"
       }
     ]
   },
