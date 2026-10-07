@@ -614,8 +614,18 @@ class TeamDuplicates(pydantic.RootModel[list[VerifiedTeam]]):
     def sort(self) -> None:
         self.root.sort(key=_duplicate_sort_func)
 
+        slugs: set[str] = set()
         for verified_team in self.root:
             verified_team.sort()
+
+            slug = verified_team.url_path_slug
+            if slug is None:
+                continue
+
+            if slug in slugs:
+                raise RuntimeError("Duplicate slug", slug)
+
+            slugs.add(slug)
 
 
 def get_division_display(division: Division) -> str:
