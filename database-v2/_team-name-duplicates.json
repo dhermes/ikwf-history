@@ -22894,8 +22894,38 @@
   },
   {
     "name_normalized": "EFFINGHAM JUNIOR WRESTLING TEAM",
-    "url_path_slug": "effingham-junior-wrestling-team",
+    "url_path_slug": "effingham",
     "duplicates": [
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "EFFINGHAM YOUTH WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "EFFINGHAM YOUTH WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "EFFINGHAM YOUTH WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "EFFINGHAM YOUTH WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "EFFINGHAM YOUTH WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "EFFINGHAM YOUTH WC"
+      },
       {
         "tournament_id": 35,
         "division": "senior",
@@ -22910,6 +22940,166 @@
         "tournament_id": 36,
         "division": "senior",
         "name": "EFFINGHAM JUNIOR WRESTLING TEAM"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Effingham Youth WC"
       }
     ]
   },
@@ -24703,202 +24893,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Edwardsville WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Effingham Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "EFFINGHAM YOUTH WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "EFFINGHAM YOUTH WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "EFFINGHAM YOUTH WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "EFFINGHAM YOUTH WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "EFFINGHAM YOUTH WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "EFFINGHAM YOUTH WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Effingham Youth WC"
       }
     ]
   },
