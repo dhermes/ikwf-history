@@ -42029,47 +42029,6 @@
     ]
   },
   {
-    "name_normalized": "Lake View Jr Wildcats",
-    "url_path_slug": "lake-view",
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "LAKEVIEW MITEY CATS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "LAKEVIEW MITEY CATS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "LAKE VIEW JR. WILDCATS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "LAKE VIEW JR. WILDCATS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "LAKE VIEW JR WILDCATS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "LAKE VIEW JR WILDCATS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "LAKE VIEW JR WILDCATS"
-      }
-    ]
-  },
-  {
     "name_normalized": "LAKELAND WC",
     "url_path_slug": null,
     "duplicates": [
@@ -42138,9 +42097,19 @@
     "url_path_slug": "lanphier-springfield",
     "duplicates": [
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Lanphier-Springfield WC"
+      },
+      {
         "tournament_id": 19,
         "division": "senior",
         "name": "Lanphier-Springfield"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "LANPHIER-SPRINGFIELD WRESTLING"
       },
       {
         "tournament_id": 23,
@@ -42151,33 +42120,11 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "LANPHIER-SPRINGFIELD"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LANPHIER-SPRINGFIELD WC",
-    "url_path_slug": "lanphier-springfield-wc",
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Lanphier-Springfield WC"
       },
       {
         "tournament_id": 25,
         "division": "senior",
         "name": "LANPHIER-SPRINGFIELD WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LANPHIER-SPRINGFIELD WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "LANPHIER-SPRINGFIELD WRESTLING"
       }
     ]
   },
@@ -43486,6 +43433,47 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Lake County Stallions Wrestling Academy"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Lake View Jr Wildcats",
+    "url_path_slug": "lake-view",
+    "duplicates": [
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "LAKEVIEW MITEY CATS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "LAKEVIEW MITEY CATS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "LAKE VIEW JR. WILDCATS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "LAKE VIEW JR. WILDCATS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "LAKE VIEW JR WILDCATS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "LAKE VIEW JR WILDCATS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "LAKE VIEW JR WILDCATS"
       }
     ]
   },
