@@ -20422,17 +20422,6 @@
     ]
   },
   {
-    "name_normalized": "Decatur Boy's Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Decatur Boy's Club"
-      }
-    ]
-  },
-  {
     "name_normalized": "Decatur Dawgs WC",
     "url_path_slug": null,
     "duplicates": [
@@ -20622,6 +20611,11 @@
         "tournament_id": 11,
         "division": "senior",
         "name": "Decatur"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Decatur Boy's Club"
       },
       {
         "tournament_id": 13,
