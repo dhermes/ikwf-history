@@ -29488,90 +29488,6 @@
     ]
   },
   {
-    "name_normalized": "GEORGETOWN",
-    "url_path_slug": "georgetown",
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Georgetown"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Georgetown"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Georgetown"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Georgetown"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Georgetown WC"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Georgetown WC"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Georgetown WC"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "GEORGETOWN"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GEORGETOWN RUDEDOGS YOUTH WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "GEORGETOWN RUDEDOGS YOUTH WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GEORGETOWN WC",
-    "url_path_slug": "georgetown-wc",
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Georgetown WC"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "GEORGETOWN WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GEORGETOWN YOUTH WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "GEORGETOWN YOUTH WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "GERMANTOWN WC",
     "url_path_slug": null,
     "duplicates": [
@@ -30507,6 +30423,72 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "GENOA-KINGSTON WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Georgetown WC",
+    "url_path_slug": "georgetown",
+    "duplicates": [
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Georgetown"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Georgetown"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Georgetown"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Georgetown"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Georgetown WC"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Georgetown WC"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Georgetown WC"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Georgetown WC"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "GEORGETOWN WC"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "GEORGETOWN"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "GEORGETOWN YOUTH WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "GEORGETOWN RUDEDOGS YOUTH WC"
       }
     ]
   },
