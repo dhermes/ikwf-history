@@ -19055,22 +19055,6 @@
     ]
   },
   {
-    "name_normalized": "DELAVAN MAT WRATS",
-    "url_path_slug": "delavan-mat-wrats",
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Delavan Mat Wrats"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "DELAVAN MAT WRATS"
-      }
-    ]
-  },
-  {
     "name_normalized": "DEWITT COUNTY",
     "url_path_slug": null,
     "duplicates": [
@@ -20764,8 +20748,8 @@
     ]
   },
   {
-    "name_normalized": "Delavan",
-    "url_path_slug": null,
+    "name_normalized": "Delavan Mat Rats",
+    "url_path_slug": "delavan",
     "duplicates": [
       {
         "tournament_id": 12,
@@ -20776,17 +20760,21 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Delavan"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Delavan Mat Rats WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 16,
         "division": "senior",
         "name": "Delavan Mat Rats WC"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Delavan Mat Wrats"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "DELAVAN MAT WRATS"
       }
     ]
   },
