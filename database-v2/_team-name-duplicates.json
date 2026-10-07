@@ -78000,49 +78000,6 @@
     ]
   },
   {
-    "name_normalized": "TRIAD",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "TRIAD"
-      }
-    ]
-  },
-  {
-    "name_normalized": "TRIAD WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "TRIAD WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "TRIAD WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "TRIAD WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "TRIAD WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "TRIAD WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "TRIMPE JUNIOR HIGH",
     "url_path_slug": "trimpe-junior-high",
     "duplicates": [
@@ -81870,9 +81827,34 @@
     ]
   },
   {
-    "name_normalized": "Triad Knights",
-    "url_path_slug": null,
+    "name_normalized": "Triad Little Knights Wrestling Club",
+    "url_path_slug": "triad",
     "duplicates": [
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "TRIAD WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "TRIAD"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "TRIAD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "TRIAD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "TRIAD WRESTLING CLUB"
+      },
       {
         "tournament_id": 32,
         "division": "novice",
@@ -81902,13 +81884,147 @@
         "tournament_id": 34,
         "division": "senior",
         "name": "TRIAD KNIGHTS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Triad Knights WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "TRIAD LITTLE KNIGHTS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "TRIAD LITTLE KNIGHTS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "TRIAD LITTLE KNIGHTS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "TRIAD LITTLE KNIGHTS"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Triad Little Knights"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Triad Little Knights"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "TRIAD LITTLE KNIGHTS"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "TRIAD LITTLE KNIGHTS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "TRIAD LITTLE KNIGHTS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "TRIAD LITTLE KNIGHTS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "TRIAD LITTLE KNIGHTS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "TRIAD LITTLE KNIGHTS"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Triad Little Knights"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Triad Little Knights"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Triad Little Knights"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Triad Little Knights"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Triad Little Knights WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Triad Little Knights WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Triad Little Knights WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Triad Little Knights WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Triad Little Knights Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Triad Little Knights Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Triad Little Knights WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Triad Little Knights WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Triad Little Knights WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Triad Little Knights WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Triad Little Knights WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Triad Little Knights WC"
+      },
       {
         "tournament_id": 49,
         "division": "novice",
@@ -82008,164 +82124,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Triad Knights WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Triad Little Knights",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "TRIAD LITTLE KNIGHTS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "TRIAD LITTLE KNIGHTS"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "TRIAD LITTLE KNIGHTS"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "TRIAD LITTLE KNIGHTS"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Triad Little Knights"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Triad Little Knights"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "TRIAD LITTLE KNIGHTS"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "TRIAD LITTLE KNIGHTS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "TRIAD LITTLE KNIGHTS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "TRIAD LITTLE KNIGHTS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "TRIAD LITTLE KNIGHTS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "TRIAD LITTLE KNIGHTS"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Triad Little Knights"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Triad Little Knights"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Triad Little Knights"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Triad Little Knights"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Triad Little Knights WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Triad Little Knights WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Triad Little Knights WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Triad Little Knights WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Triad Little Knights WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Triad Little Knights WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Triad Little Knights WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Triad Little Knights WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Triad Little Knights WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Triad Little Knights WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Triad Little Knights WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Triad Little Knights Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Triad Little Knights Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Triad Little Knights Wrestling Club"
       }
     ]
   },
