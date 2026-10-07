@@ -88332,27 +88332,6 @@
     ]
   },
   {
-    "name_normalized": "Wheaton Falcons",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Wheaton Falcons"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Wheaton Falcons"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Wheaton Falcons"
-      }
-    ]
-  },
-  {
     "name_normalized": "Wheaton Franklin",
     "url_path_slug": null,
     "duplicates": [
@@ -88482,7 +88461,7 @@
   },
   {
     "name_normalized": "Wheaton Park District Falcons",
-    "url_path_slug": "wheaton-pd-falcons",
+    "url_path_slug": "wheaton-falcons",
     "duplicates": [
       {
         "tournament_id": 9,
@@ -88503,6 +88482,21 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Wheaton Park District"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Wheaton Falcons"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Wheaton Falcons"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Wheaton Falcons"
       },
       {
         "tournament_id": 17,
