@@ -29352,17 +29352,6 @@
     ]
   },
   {
-    "name_normalized": "GALESBURG JR STREAKS #2",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "GALESBURG JR STREAKS #2"
-      }
-    ]
-  },
-  {
     "name_normalized": "GC JR WARRIORS",
     "url_path_slug": "gc-jr-warriors",
     "duplicates": [
@@ -29928,6 +29917,11 @@
         "tournament_id": 31,
         "division": "senior",
         "name": "GALESBURG JR STREAKS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "GALESBURG JR STREAKS #2"
       },
       {
         "tournament_id": 32,

@@ -608,13 +608,27 @@ class VerifiedTeam(_ForbidExtra):
         for team_duplicate in self.duplicates:
             by_division = ensure_uniques.setdefault(team_duplicate.tournament_id, {})
             if team_duplicate.division in by_division:
-                raise RuntimeError(
-                    "Duplicate teams in same tournament",
-                    team_duplicate.tournament_id,
-                    team_duplicate.division,
-                    team_duplicate.name,
-                    by_division[team_duplicate.division],
+                new_name = team_duplicate.name
+                existing_name = by_division[team_duplicate.division]
+                year_exceptions = _DUPLICATE_EXCEPTIONS.get(
+                    team_duplicate.tournament_id, {}
                 )
+
+                allow_duplicate = False
+                if year_exceptions.get(new_name) == existing_name:
+                    by_division[team_duplicate.division] = new_name
+                    allow_duplicate = True
+                elif year_exceptions.get(existing_name) == new_name:
+                    allow_duplicate = True
+
+                if not allow_duplicate:
+                    raise RuntimeError(
+                        "Duplicate teams in same tournament",
+                        team_duplicate.tournament_id,
+                        team_duplicate.division,
+                        team_duplicate.name,
+                        by_division[team_duplicate.division],
+                    )
 
             by_division[team_duplicate.division] = team_duplicate.name
 
