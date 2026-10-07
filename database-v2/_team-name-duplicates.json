@@ -3782,77 +3782,6 @@
     ]
   },
   {
-    "name_normalized": "Bartlett Jr. Hawks",
-    "url_path_slug": "bartlett",
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "BARTLETT HAWK WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "BARTLETT HAWK WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "BARTLETT HAWK WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "BARTLETT HAWK WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "BARTLETT JR HAWKS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "BARTLETT JR HAWKS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "BARTLETT JR. HAWKS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "BARTLETT JR HAWKS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "BARTLETT JR HAWKS"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Bartlett Jr Hawks"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Bartlett Jr Hawks"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Bartlett Jr Hawks"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Bartlett Jr Hawks"
-      }
-    ]
-  },
-  {
     "name_normalized": "BEAR COUNTRY WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -4000,9 +3929,19 @@
     "url_path_slug": "bison",
     "duplicates": [
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Junior Bison Wrestling"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "BISON"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "BISON WC"
       },
       {
         "tournament_id": 10028,
@@ -4018,22 +3957,6 @@
         "tournament_id": 10028,
         "division": "senior_iwf",
         "name": "Bison"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BISON WC",
-    "url_path_slug": "bison-wc",
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Junior Bison Wrestling"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "BISON WC"
       },
       {
         "tournament_id": 32,
@@ -5419,6 +5342,77 @@
         "tournament_id": 16,
         "division": "senior",
         "name": "Barrington Colts"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Bartlett Jr. Hawks",
+    "url_path_slug": "bartlett",
+    "duplicates": [
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "BARTLETT HAWK WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "BARTLETT HAWK WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "BARTLETT HAWK WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "BARTLETT HAWK WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "BARTLETT JR HAWKS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "BARTLETT JR HAWKS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "BARTLETT JR. HAWKS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "BARTLETT JR HAWKS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "BARTLETT JR HAWKS"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Bartlett Jr Hawks"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Bartlett Jr Hawks"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Bartlett Jr Hawks"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Bartlett Jr Hawks"
       }
     ]
   },
