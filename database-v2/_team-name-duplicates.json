@@ -5514,92 +5514,6 @@
     ]
   },
   {
-    "name_normalized": "Beat The Streets Chicago-Oak Park",
-    "url_path_slug": "beat-the-streets-chicago-oak-park",
-    "duplicates": [
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Beat the Streets Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Beat the Streets Chicago-Oak Park"
-      }
-    ]
-  },
-  {
     "name_normalized": "Beat The Streets Chicago-Tri Taylor",
     "url_path_slug": "beat-the-streets-chicago-tri-taylor",
     "duplicates": [
@@ -5965,6 +5879,132 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Beat the Streets Chicago-Midway"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Beat the Streets Chicago-Oak Park",
+    "url_path_slug": "bts-oak-park",
+    "duplicates": [
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "BTS Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "BTS Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "BTS Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "BTS Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "BTS Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "BTS Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "BTS Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "BTS Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Beat the Streets Chicago-Oak Park"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Beat the Streets Chicago-Oak Park"
       }
     ]
   },
@@ -10710,52 +10750,6 @@
         "tournament_id": 50,
         "division": "senior",
         "name": "Junior Bronco WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bts Chicago-Oak Park",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "BTS Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "BTS Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "BTS Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "BTS Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "BTS Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "BTS Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "BTS Chicago-Oak Park"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "BTS Chicago-Oak Park"
       }
     ]
   },
