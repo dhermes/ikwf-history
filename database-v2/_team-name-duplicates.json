@@ -37889,63 +37889,6 @@
     ]
   },
   {
-    "name_normalized": "ILLINI BLUFFS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "ILLINI BLUFFS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ILLINI BLUFFS WC",
-    "url_path_slug": "illini-bluffs",
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Illini Bluffs WC"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "ILLINI BLUFFS WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "ILLINI BLUFFS WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ILLINI BLUFFS WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "ILLINI BLUFFS WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "ILLINI BLUFFS WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "ILLINI BLUFFS WC"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "ILLINI BLUFFS WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "ILLINOIS VALLEY",
     "url_path_slug": null,
     "duplicates": [
@@ -38334,27 +38277,66 @@
     ]
   },
   {
-    "name_normalized": "Illini Bluff",
-    "url_path_slug": null,
+    "name_normalized": "Illini Bluffs Kids Wrestling Club",
+    "url_path_slug": "illini-bluffs",
     "duplicates": [
       {
         "tournament_id": 13,
         "division": "senior",
-        "name": "Illini Bluff"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Illini Bluffs Kids Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "Illini Bluffs"
+      },
       {
         "tournament_id": 15,
         "division": "senior",
         "name": "Illini Bluffs WC"
       },
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Illini Bluffs WC"
+      },
+      {
         "tournament_id": 20,
+        "division": "senior",
+        "name": "ILLINI BLUFFS WC"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "ILLINI BLUFFS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "ILLINI BLUFFS WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "ILLINI BLUFFS WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ILLINI BLUFFS WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "ILLINI BLUFFS WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "ILLINI BLUFFS WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "ILLINI BLUFFS WC"
+      },
+      {
+        "tournament_id": 29,
         "division": "senior",
         "name": "ILLINI BLUFFS WC"
       },
