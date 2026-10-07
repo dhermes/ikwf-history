@@ -42066,6 +42066,11 @@
     "url_path_slug": "lanphier-southeast",
     "duplicates": [
       {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Lanphier South East"
+      },
+      {
         "tournament_id": 15,
         "division": "senior",
         "name": "Lanphier-Southeast WC"
@@ -42089,42 +42094,6 @@
         "tournament_id": 27,
         "division": "senior",
         "name": "LANPHIER-SOUTHEAST WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LANPHIER-SPRINGFIELD",
-    "url_path_slug": "lanphier-springfield",
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Lanphier-Springfield WC"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Lanphier-Springfield"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "LANPHIER-SPRINGFIELD WRESTLING"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "LANPHIER-SPRINGFIELD"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "LANPHIER-SPRINGFIELD"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "LANPHIER-SPRINGFIELD WC"
       }
     ]
   },
@@ -43991,13 +43960,38 @@
     ]
   },
   {
-    "name_normalized": "Lanphier South East",
-    "url_path_slug": null,
+    "name_normalized": "Lanphier-Springfield",
+    "url_path_slug": "lanphier-springfield",
     "duplicates": [
       {
-        "tournament_id": 14,
+        "tournament_id": 18,
         "division": "senior",
-        "name": "Lanphier South East"
+        "name": "Lanphier-Springfield WC"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Lanphier-Springfield"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "LANPHIER-SPRINGFIELD WRESTLING"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "LANPHIER-SPRINGFIELD"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "LANPHIER-SPRINGFIELD"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "LANPHIER-SPRINGFIELD WC"
       }
     ]
   },
