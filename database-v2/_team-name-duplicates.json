@@ -29524,38 +29524,6 @@
     ]
   },
   {
-    "name_normalized": "GCMS FALCON WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "GCMS FALCON WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "GCMS FALCON WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GCMS FALCON WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "GCMS FALCON WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "GCMS FALCON WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "GENEVA PARK DISTRICT",
     "url_path_slug": "geneva-park-district",
     "duplicates": [
@@ -29723,22 +29691,6 @@
         "name": "Gibson City"
       },
       {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "GIBSON CITY"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "GIBSON CITY"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GIBSON CITY YOUTH",
-    "url_path_slug": "gibson-city-youth",
-    "duplicates": [
-      {
         "tournament_id": 15,
         "division": "senior",
         "name": "Gibson City Youth"
@@ -29754,6 +29706,16 @@
         "name": "Gibson City Youth WC"
       },
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Gibson City Youth WC"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "GIBSON CITY YOUTH WRESTLING"
+      },
+      {
         "tournament_id": 21,
         "division": "senior",
         "name": "GIBSON CITY YOUTH"
@@ -29762,24 +29724,17 @@
         "tournament_id": 22,
         "division": "senior",
         "name": "GIBSON CITY YOUTH"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GIBSON CITY YOUTH WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
-        "tournament_id": 20,
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "GIBSON CITY"
+      },
+      {
+        "tournament_id": 23,
         "division": "senior",
-        "name": "GIBSON CITY YOUTH WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GIBSON YOUTH",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "GIBSON CITY"
+      },
       {
         "tournament_id": 24,
         "division": "novice",
@@ -29789,6 +29744,26 @@
         "tournament_id": 24,
         "division": "senior",
         "name": "GIBSON YOUTH"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "GCMS FALCON WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "GCMS FALCON WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "GCMS FALCON WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "GCMS FALCON WRESTLING"
       }
     ]
   },
@@ -30640,17 +30615,6 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "GENOA-KINGSTON WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Gibson City Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Gibson City Youth WC"
       }
     ]
   },
