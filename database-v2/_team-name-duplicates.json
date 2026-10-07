@@ -16159,17 +16159,6 @@
     ]
   },
   {
-    "name_normalized": "Cicero",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Cicero"
-      }
-    ]
-  },
-  {
     "name_normalized": "Cicero Bobcats",
     "url_path_slug": null,
     "duplicates": [
@@ -44721,6 +44710,11 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Lincoln Cicero"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Cicero"
       }
     ]
   },
