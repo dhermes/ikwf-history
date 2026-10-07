@@ -32816,126 +32816,6 @@
     ]
   },
   {
-    "name_normalized": "HERRIN",
-    "url_path_slug": "herrin",
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Herrin"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "HERRIN"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HERRIN JR. WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "HERRIN JR. WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "HERRIN JR. WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "HERRIN JR. WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "HERRIN JR. WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HERRIN JR. WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "HERRIN JR. WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "HERRIN JR. WRESTLING CLUB"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HERRIN WC",
-    "url_path_slug": "herrin-wc",
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "HERRIN WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "HERRIN WC"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "HERRIN WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "HERRIN WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "HERRIN WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "HERRIN WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "HERRIN WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "HERRIN WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HERRIN WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "HERRIN WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "HERRIN WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "HICKORY HILLS",
     "url_path_slug": "hickory-hills",
     "duplicates": [
@@ -35107,128 +34987,6 @@
     ]
   },
   {
-    "name_normalized": "Herrin Jr WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Herrin Jr WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Herrin Jr WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Herrin Jr WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Herrin Jr WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Herrin Jr WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Herrin Jr WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Herrin Junior WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "HERRIN JUNIOR WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "HERRIN JUNIOR WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Herrin Junior WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Herrin Junior WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "HERRIN JUNIOR WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "HERRIN JUNIOR WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "HERRIN JUNIOR WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "HERRIN JUNIOR WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "HERRIN JUNIOR WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "HERRIN JUNIOR WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Herrin Junior WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Herrin Junior WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Herrin Junior WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Herrin Junior WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Herrin Junior WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Herrin Junior WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Herrin Raiders",
     "url_path_slug": null,
     "duplicates": [
@@ -35241,8 +34999,208 @@
   },
   {
     "name_normalized": "Herrin Tiger Wrestling",
-    "url_path_slug": null,
+    "url_path_slug": "herrin",
     "duplicates": [
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Herrin"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "HERRIN"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "HERRIN WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "HERRIN WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "HERRIN JR. WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "HERRIN JR. WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "HERRIN JR. WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "HERRIN JR. WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "HERRIN JR. WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "HERRIN JR. WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "HERRIN WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "HERRIN WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "HERRIN WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "HERRIN WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "HERRIN WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "HERRIN WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "HERRIN WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "HERRIN WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "HERRIN JUNIOR WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "HERRIN JUNIOR WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Herrin Junior WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Herrin Junior WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "HERRIN JUNIOR WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "HERRIN JUNIOR WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "HERRIN JUNIOR WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "HERRIN JUNIOR WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "HERRIN JUNIOR WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "HERRIN JUNIOR WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Herrin Junior WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Herrin Junior WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Herrin Jr WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Herrin Jr WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Herrin Jr WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Herrin Jr WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Herrin Jr WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Herrin Jr WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Herrin Junior WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Herrin Junior WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Herrin Junior WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Herrin Junior WC"
+      },
       {
         "tournament_id": 52,
         "division": "novice",
