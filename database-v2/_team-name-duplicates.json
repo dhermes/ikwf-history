@@ -47092,52 +47092,6 @@
     ]
   },
   {
-    "name_normalized": "Maywood Pirates WC",
-    "url_path_slug": "maywood-pirates",
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "MAYWOOD PIRATES WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "MAYWOOD PIRATES WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "MAYWOOD \"PIRATES\" WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "MAYWOOD \"PIRATES\" WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "MAYWOOD \"PIRATES\" WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "MAYWOOD \"PIRATES\" WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "MAYWOOD \"PIRATES\" WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "MAYWOOD \"PIRATES\" WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "MEAD JH SCHOOL WC",
     "url_path_slug": null,
     "duplicates": [
@@ -50483,9 +50437,49 @@
     ]
   },
   {
-    "name_normalized": "Maywood",
-    "url_path_slug": null,
+    "name_normalized": "Maywood Pirates WC",
+    "url_path_slug": "maywood-pirates",
     "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "MAYWOOD PIRATES WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "MAYWOOD PIRATES WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "MAYWOOD \"PIRATES\" WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "MAYWOOD \"PIRATES\" WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "MAYWOOD \"PIRATES\" WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "MAYWOOD \"PIRATES\" WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "MAYWOOD \"PIRATES\" WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "MAYWOOD \"PIRATES\" WC"
+      },
       {
         "tournament_id": 10028,
         "division": "junior_iwf",
@@ -50500,13 +50494,7 @@
         "tournament_id": 10028,
         "division": "senior_iwf",
         "name": "Maywood"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Maywood Bucs",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 42,
         "division": "novice",
@@ -50527,32 +50515,6 @@
         "division": "senior",
         "name": "Maywood Bucs"
       },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Maywood Bucs"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Maywood Bucs"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Maywood Bucs"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Maywood Bucs"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Maywood Bucs/Powerhouse",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 44,
         "division": "novice",
@@ -50582,6 +50544,26 @@
         "tournament_id": 46,
         "division": "senior",
         "name": "Maywood Bucs/Powerhouse"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Maywood Bucs"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Maywood Bucs"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Maywood Bucs"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Maywood Bucs"
       }
     ]
   },
