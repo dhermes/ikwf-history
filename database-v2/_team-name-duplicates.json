@@ -39077,6 +39077,46 @@
     "url_path_slug": "jefferson-wolverines",
     "duplicates": [
       {
+        "tournament_id": 6,
+        "division": "senior",
+        "name": "Jefferson"
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Jefferson / Woodridge"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Jefferson"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Jefferson"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Jefferson"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Jefferson"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Jefferson"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Thomas Jefferson JH"
+      },
+      {
         "tournament_id": 17,
         "division": "senior",
         "name": "Jefferson Wolverines"
@@ -39842,53 +39882,6 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Jay Stream"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Jefferson",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 6,
-        "division": "senior",
-        "name": "Jefferson"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Jefferson"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Jefferson"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Jefferson"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Jefferson"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Jefferson"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Jefferson / Woodridge",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Jefferson / Woodridge"
       }
     ]
   },
@@ -79896,17 +79889,6 @@
     ]
   },
   {
-    "name_normalized": "Thomas Jefferson JH",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Thomas Jefferson JH"
-      }
-    ]
-  },
-  {
     "name_normalized": "Thornwood Kids WC",
     "url_path_slug": null,
     "duplicates": [
@@ -85350,52 +85332,6 @@
     ]
   },
   {
-    "name_normalized": "Waubonsie Pioneers",
-    "url_path_slug": "waubonsie-pioneers",
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Indian Prairie Pioneers"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "INDIAN PRAIRIE PIONEERS"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "INDIAN PRAIRIE PIONEERS"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "INDIAN PRAIRIE PIONEERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "INDIAN PRAIRIE PIONEERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "WAUBONSIE PIONEERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "WAUBONSIE PIONEERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "WAUBONSIE PIONEERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "WAUKEGAN HAWKEYE WC",
     "url_path_slug": null,
     "duplicates": [
@@ -86057,6 +85993,52 @@
         "tournament_id": 10050,
         "division": "senior",
         "name": "Waterloo Bulldog Wrestling"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Waubonsie Pioneers",
+    "url_path_slug": "waubonsie-pioneers",
+    "duplicates": [
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Indian Prairie Pioneers"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "INDIAN PRAIRIE PIONEERS"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "INDIAN PRAIRIE PIONEERS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "INDIAN PRAIRIE PIONEERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "INDIAN PRAIRIE PIONEERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "WAUBONSIE PIONEERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "WAUBONSIE PIONEERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "WAUBONSIE PIONEERS"
       }
     ]
   },
