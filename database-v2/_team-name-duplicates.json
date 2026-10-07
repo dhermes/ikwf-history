@@ -19163,153 +19163,6 @@
     ]
   },
   {
-    "name_normalized": "DWIGHT WC",
-    "url_path_slug": "dwight-wc",
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "DWIGHT WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "DWIGHT WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Dwight WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Dwight WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DWIGHT WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "DWIGHT WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "Da WC",
     "url_path_slug": null,
     "duplicates": [
@@ -22832,6 +22685,147 @@
         "tournament_id": 2,
         "division": "senior",
         "name": "Durkin Park"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Dwight WC",
+    "url_path_slug": "dwight",
+    "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "DWIGHT WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "DWIGHT WC"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "DWIGHT WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Dwight WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Dwight WC"
       }
     ]
   },
