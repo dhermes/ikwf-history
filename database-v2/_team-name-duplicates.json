@@ -39199,42 +39199,6 @@
     ]
   },
   {
-    "name_normalized": "Jr. Panthers Wrestling",
-    "url_path_slug": "jr-panthers-wrestling",
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "JR. PANTHERS WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "JR. PANTHERS WRESTLING"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "JR. PANTHERS WRESTLING"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "JR. PANTHERS WRESTLING"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "JR. PANTHERS WRESTLING"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "JR. PANTHERS WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "JR. ROCKET WC",
     "url_path_slug": "jr-rocket",
     "duplicates": [
@@ -39269,9 +39233,54 @@
         "name": "JR. ROCKET WRESTLING CLUB"
       },
       {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "JR. ROCKET WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "JR. ROCKET WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "JR. ROCKET WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "JR. ROCKET WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "JR. ROCKET WRESTLING CLUB"
+      },
+      {
         "tournament_id": 29,
         "division": "senior",
         "name": "JR. ROCKET WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "JUNIOR ROCKET WRESTLING"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "JUNIOR ROCKET WRESTLING"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "JR ROCKET WRESTLING"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "JR ROCKET WRESTLING"
       },
       {
         "tournament_id": 32,
@@ -39287,37 +39296,6 @@
         "tournament_id": 33,
         "division": "senior",
         "name": "JR. ROCKET WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "JR. ROCKET WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "JR. ROCKET WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "JR. ROCKET WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "JR. ROCKET WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "JR. ROCKET WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "JR. ROCKET WRESTLING CLUB"
       }
     ]
   },
@@ -40283,32 +40261,6 @@
     ]
   },
   {
-    "name_normalized": "Jr Rocket Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "JUNIOR ROCKET WRESTLING"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "JUNIOR ROCKET WRESTLING"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "JR ROCKET WRESTLING"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "JR ROCKET WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "Jr. Bears",
     "url_path_slug": null,
     "duplicates": [
@@ -40337,6 +40289,42 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "JR. BLAZER WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Jr. Panthers Wrestling",
+    "url_path_slug": "jr-panthers-wrestling",
+    "duplicates": [
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "JR. PANTHERS WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "JR. PANTHERS WRESTLING"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "JR. PANTHERS WRESTLING"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "JR. PANTHERS WRESTLING"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "JR. PANTHERS WRESTLING"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "JR. PANTHERS WRESTLING"
       }
     ]
   },
