@@ -81,6 +81,10 @@ Division = Literal[
     "senior_iwf",
 ]
 
+_DUPLICATE_EXCEPTIONS: dict[int, dict[str, str]] = {
+    31: {"GALESBURG JR STREAKS": "GALESBURG JR STREAKS #2"}
+}
+
 
 def division_sort_key_v1(division: Division) -> int:
     if division == "bantam":
