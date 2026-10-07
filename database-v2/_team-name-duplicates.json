@@ -42163,142 +42163,6 @@
     ]
   },
   {
-    "name_normalized": "Litchfield WC",
-    "url_path_slug": "litchfield",
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "LITCHFIELD"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "LITCHFIELD"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "LITCHFIELD WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "LITCHFIELD WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "LITCHFIELD WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "LITCHFIELD WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "LITCHFIELD WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "LITCHFIELD WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "LITCHFIELD WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "LITCHFIELD KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "LITCHFIELD KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "LITCHFIELD KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "LITCHFIELD KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Litchfield WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "LITTLE INDIANS",
     "url_path_slug": "little-indians",
     "duplicates": [
@@ -46328,6 +46192,142 @@
     ]
   },
   {
+    "name_normalized": "Litchfield WC",
+    "url_path_slug": "litchfield",
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "LITCHFIELD"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "LITCHFIELD"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "LITCHFIELD WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "LITCHFIELD WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "LITCHFIELD WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "LITCHFIELD WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "LITCHFIELD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "LITCHFIELD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "LITCHFIELD WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "LITCHFIELD KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "LITCHFIELD KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "LITCHFIELD KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "LITCHFIELD KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Litchfield WC"
+      }
+    ]
+  },
+  {
     "name_normalized": "Little Boiler WC",
     "url_path_slug": null,
     "duplicates": [
@@ -47078,6 +47078,11 @@
         "name": "Macomb"
       },
       {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Macomb YMCA"
+      },
+      {
         "tournament_id": 13,
         "division": "senior",
         "name": "Macomb"
@@ -47088,37 +47093,45 @@
         "name": "Macomb"
       },
       {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "MACOMB"
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Macomb YMCA WC"
       },
       {
-        "tournament_id": 23,
+        "tournament_id": 20,
         "division": "senior",
-        "name": "MACOMB"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MACOMB KIDS",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "MACOMB YMCA KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "MACOMB YMCA KIDS W.C."
+      },
       {
         "tournament_id": 22,
         "division": "senior",
         "name": "MACOMB KIDS"
       },
       {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "MACOMB"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "MACOMB"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "MACOMB LITTLE BOMBERS"
+      },
+      {
         "tournament_id": 25,
         "division": "novice",
         "name": "MACOMB KIDS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MACOMB KIDS WRESTLING",
-    "url_path_slug": "macomb-kids-wrestling",
-    "duplicates": [
+      },
       {
         "tournament_id": 26,
         "division": "novice",
@@ -47138,17 +47151,6 @@
         "tournament_id": 31,
         "division": "novice",
         "name": "MACOMB KIDS WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MACOMB LITTLE BOMBERS",
-    "url_path_slug": "macomb-little-bombers",
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "MACOMB LITTLE BOMBERS"
       },
       {
         "tournament_id": 32,
@@ -47194,28 +47196,121 @@
         "tournament_id": 37,
         "division": "senior",
         "name": "Macomb Little Bombers"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MACOMB YMCA KIDS W.C.",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "MACOMB YMCA KIDS W.C."
-      }
-    ]
-  },
-  {
-    "name_normalized": "MACOMB YMCA KIDS WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Macomb Bombers WC"
+      },
       {
-        "tournament_id": 20,
+        "tournament_id": 44,
         "division": "senior",
-        "name": "MACOMB YMCA KIDS WRESTLING"
+        "name": "Macomb Bombers WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Macomb Bomber Wrestling"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Macomb Bomber Wrestling"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Macomb Little Bombers Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Macomb Little Bombers Wrestling"
       }
     ]
   },
@@ -48205,161 +48300,6 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Machesney Park Independent"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Macomb Bomber Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Macomb Bomber Wrestling"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Macomb Bomber Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Macomb Bombers WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Macomb Bombers WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Macomb Bombers WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Macomb Little Bombers Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Macomb Little Bombers Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Macomb Little Bombers Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Macomb YMCA",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Macomb YMCA"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Macomb YMCA WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Macomb YMCA WC"
       }
     ]
   },
