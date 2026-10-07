@@ -39478,17 +39478,6 @@
     ]
   },
   {
-    "name_normalized": "JR. FALCON WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "JR. FALCON WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "JR. MAROON WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -88315,6 +88304,11 @@
         "tournament_id": 18,
         "division": "senior",
         "name": "Wheaton P.D. Falcons"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "JR. FALCON WRESTLING"
       },
       {
         "tournament_id": 35,
