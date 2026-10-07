@@ -37889,37 +37889,6 @@
     ]
   },
   {
-    "name_normalized": "INDIAN PRAIRIE PIONEERS",
-    "url_path_slug": "indian-prairie-pioneers",
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Indian Prairie Pioneers"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "INDIAN PRAIRIE PIONEERS"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "INDIAN PRAIRIE PIONEERS"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "INDIAN PRAIRIE PIONEERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "INDIAN PRAIRIE PIONEERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "IRISH CADET WC",
     "url_path_slug": null,
     "duplicates": [
@@ -85382,108 +85351,47 @@
   },
   {
     "name_normalized": "WAUBONSIE PIONEERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "WAUBONSIE PIONEERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "WAUBONSIE PIONEERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "WAUBONSIE PIONEERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Waubonsie Trailblazers",
-    "url_path_slug": "waubonsie-trailblazers",
+    "url_path_slug": "waubonsie-pioneers",
     "duplicates": [
       {
         "tournament_id": 19,
         "division": "senior",
-        "name": "Indian Prairie Trailblazers"
+        "name": "Indian Prairie Pioneers"
       },
       {
         "tournament_id": 20,
         "division": "senior",
-        "name": "INDIAN PRAIRIE TRAILBLAZERS"
+        "name": "INDIAN PRAIRIE PIONEERS"
       },
       {
         "tournament_id": 21,
         "division": "senior",
-        "name": "TRAILBLAZERS"
+        "name": "INDIAN PRAIRIE PIONEERS"
       },
       {
         "tournament_id": 22,
         "division": "senior",
-        "name": "TRAILBLAZER WC"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "TRAILBLAZER"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "TRAILBLAZER"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "TRAILBLAZER WC"
+        "name": "INDIAN PRAIRIE PIONEERS"
       },
       {
         "tournament_id": 25,
         "division": "novice",
-        "name": "TRAILBLAZER WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "TRAILBLAZER WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "WAUBONSIE TRAILBLAZERS"
+        "name": "INDIAN PRAIRIE PIONEERS"
       },
       {
         "tournament_id": 26,
         "division": "senior",
-        "name": "WAUBONSIE TRAILBLAZERS"
+        "name": "WAUBONSIE PIONEERS"
       },
       {
         "tournament_id": 27,
         "division": "novice",
-        "name": "WAUBONSIE TRAILBLAZERS"
+        "name": "WAUBONSIE PIONEERS"
       },
       {
         "tournament_id": 27,
         "division": "senior",
-        "name": "WAUBONSIE TRAILBLAZERS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "HILL TRAILBLAZERS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "HILL TRAILBLAZERS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "WAUBONSIE TRAILBLAZERS"
+        "name": "WAUBONSIE PIONEERS"
       }
     ]
   },
@@ -86149,6 +86057,92 @@
         "tournament_id": 10050,
         "division": "senior",
         "name": "Waterloo Bulldog Wrestling"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Waubonsie Trailblazers",
+    "url_path_slug": "waubonsie-trailblazers",
+    "duplicates": [
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Indian Prairie Trailblazers"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "INDIAN PRAIRIE TRAILBLAZERS"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "TRAILBLAZERS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "TRAILBLAZER WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "TRAILBLAZER"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "TRAILBLAZER"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "TRAILBLAZER WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "TRAILBLAZER WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "TRAILBLAZER WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "WAUBONSIE TRAILBLAZERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "WAUBONSIE TRAILBLAZERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "WAUBONSIE TRAILBLAZERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "WAUBONSIE TRAILBLAZERS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "HILL TRAILBLAZERS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "HILL TRAILBLAZERS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "WAUBONSIE TRAILBLAZERS"
       }
     ]
   },
