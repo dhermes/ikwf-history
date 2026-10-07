@@ -29701,7 +29701,7 @@
   },
   {
     "name_normalized": "GEORGETOWN WC",
-    "url_path_slug": "georgetown",
+    "url_path_slug": "georgetown-wc",
     "duplicates": [
       {
         "tournament_id": 17,
@@ -46881,132 +46881,6 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "LITTLE CYCLONE WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Little Falcons WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "LITTLE FALCONS WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "LITTLE FALCONS WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "LITTLE FALCONS WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "LITTLE FALCONS WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Little Falcons WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Little Falcons WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "LITTLE FALCONS WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "LITTLE FALCONS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "LITTLE FALCONS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "LITTLE FALCONS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "LITTLE FALCONS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "LITTLE FALCONS WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Little Falcons WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Little Falcons WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Little Falcons WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Little Falcons WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Little Falcons WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Little Falcons WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Little Falcons WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Little Falcons WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Little Falcons WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Little Falcons WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Little Falcons WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Little Falcons WC"
       }
     ]
   },
@@ -88441,6 +88315,126 @@
         "tournament_id": 18,
         "division": "senior",
         "name": "Wheaton P.D. Falcons"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "LITTLE FALCONS WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "LITTLE FALCONS WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "LITTLE FALCONS WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "LITTLE FALCONS WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Little Falcons WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Little Falcons WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "LITTLE FALCONS WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "LITTLE FALCONS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "LITTLE FALCONS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "LITTLE FALCONS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "LITTLE FALCONS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "LITTLE FALCONS WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Little Falcons WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Little Falcons WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Little Falcons WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Little Falcons WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Little Falcons WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Little Falcons WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Little Falcons WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Little Falcons WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Little Falcons WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Little Falcons WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Little Falcons WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Little Falcons WC"
       }
     ]
   },
