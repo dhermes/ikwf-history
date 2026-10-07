@@ -22926,58 +22926,6 @@
     ]
   },
   {
-    "name_normalized": "EUREKA KIDS WC",
-    "url_path_slug": "eureka-kids-wc",
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "EUREKA KIDS WC"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "EUREKA KIDS WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "EUREKA KIDS WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "EUREKA KIDS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "EUREKA KIDS WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "EUREKA KIDS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "EUREKA KIDS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "EUREKA KIDS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "EUREKA KIDS WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "Eagle One",
     "url_path_slug": null,
     "duplicates": [
@@ -25755,8 +25703,48 @@
   },
   {
     "name_normalized": "Eureka WC",
-    "url_path_slug": null,
+    "url_path_slug": "eureka",
     "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "EUREKA KIDS WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "EUREKA KIDS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "EUREKA KIDS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "EUREKA KIDS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "EUREKA KIDS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "EUREKA KIDS WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "EUREKA KIDS WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "EUREKA KIDS WC"
+      },
       {
         "tournament_id": 51,
         "division": "novice",
