@@ -22972,33 +22972,6 @@
     ]
   },
   {
-    "name_normalized": "ELGIN LARKIN JR. ROYALS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "ELGIN LARKIN JR. ROYALS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ELGIN LARKIN ROYALS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "ELGIN LARKIN ROYALS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "ELGIN LARKIN ROYALS"
-      }
-    ]
-  },
-  {
     "name_normalized": "ELMHURST",
     "url_path_slug": "elmhurst",
     "duplicates": [
@@ -25152,6 +25125,27 @@
         "tournament_id": 51,
         "division": "senior",
         "name": "Elevate Wrestling Academy"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Elgin Larkin Royals",
+    "url_path_slug": "elgin-larkin",
+    "duplicates": [
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "ELGIN LARKIN ROYALS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "ELGIN LARKIN ROYALS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "ELGIN LARKIN JR. ROYALS"
       }
     ]
   },
