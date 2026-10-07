@@ -3814,49 +3814,6 @@
     ]
   },
   {
-    "name_normalized": "BENSENVILLE BISON",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "BENSENVILLE BISON"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BENSENVILLE JR. BISON",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "BENSENVILLE JR. BISON"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "BENSENVILLE JR. BISON"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BENSENVILLE JR. BISONS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "BENSENVILLE JR. BISONS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "BENSENVILLE JR. BISONS"
-      }
-    ]
-  },
-  {
     "name_normalized": "BETHALTO / JR. HIGH",
     "url_path_slug": null,
     "duplicates": [
@@ -7187,6 +7144,37 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Bensenville"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Bensenville Bison",
+    "url_path_slug": "bensenville-bison",
+    "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "BENSENVILLE BISON"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "BENSENVILLE JR. BISONS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "BENSENVILLE JR. BISONS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "BENSENVILLE JR. BISON"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "BENSENVILLE JR. BISON"
       }
     ]
   },
