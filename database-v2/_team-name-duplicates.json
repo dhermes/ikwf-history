@@ -26143,102 +26143,6 @@
     ]
   },
   {
-    "name_normalized": "FALCON YOUTH WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "FALCON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "FALCON YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Falcon Youth Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Falcon Youth Wrestling"
-      }
-    ]
-  },
-  {
     "name_normalized": "FARMINGTON WC",
     "url_path_slug": null,
     "duplicates": [
@@ -26711,9 +26615,19 @@
   },
   {
     "name_normalized": "Falcon Youth WC",
-    "url_path_slug": null,
+    "url_path_slug": "falcon-youth",
     "duplicates": [
       {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "FALCON YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "FALCON YOUTH WRESTLING"
+      },
+      {
         "tournament_id": 30,
         "division": "novice",
         "name": "FALCON YOUTH WRESTLING CLUB"
@@ -26862,6 +26776,86 @@
         "tournament_id": 51,
         "division": "senior",
         "name": "Falcon Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Falcon Youth Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Falcon Youth Wrestling"
       }
     ]
   },
