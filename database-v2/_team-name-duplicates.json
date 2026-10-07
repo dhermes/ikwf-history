@@ -22893,217 +22893,6 @@
     ]
   },
   {
-    "name_normalized": "Effingham Youth WC",
-    "url_path_slug": "effingham",
-    "duplicates": [
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "EFFINGHAM YOUTH WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "EFFINGHAM YOUTH WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "EFFINGHAM YOUTH WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "EFFINGHAM YOUTH WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "EFFINGHAM YOUTH WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "EFFINGHAM YOUTH WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "EFFINGHAM JUNIOR WRESTLING TEAM"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "EFFINGHAM JUNIOR WRESTLING TEAM"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "EFFINGHAM JUNIOR WRESTLING TEAM"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Effingham Youth WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Effingham Youth WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "EISENHOWER JH",
     "url_path_slug": null,
     "duplicates": [
@@ -23133,120 +22922,6 @@
         "tournament_id": 25,
         "division": "novice",
         "name": "EISENHOWER JR. COUGARS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "EL PASO",
-    "url_path_slug": "el-paso",
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "El Paso"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "EL PASO"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "EL PASO"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "EL PASO"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "El Paso"
-      }
-    ]
-  },
-  {
-    "name_normalized": "EL PASO WC",
-    "url_path_slug": "el-paso-wc",
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "EL PASO WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "EL PASO WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "EL PASO WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "EL PASO WC"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "EL PASO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "EL PASO WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "EL PASO WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "EL PASO WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "EL PASO WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "EL PASO WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "EL PASO WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "EL PASO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "EL PASO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "EL PASO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "EL PASO WRESTLING CLUB"
       }
     ]
   },
@@ -24897,6 +24572,217 @@
     ]
   },
   {
+    "name_normalized": "Effingham Youth WC",
+    "url_path_slug": "effingham",
+    "duplicates": [
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "EFFINGHAM YOUTH WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "EFFINGHAM YOUTH WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "EFFINGHAM YOUTH WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "EFFINGHAM YOUTH WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "EFFINGHAM YOUTH WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "EFFINGHAM YOUTH WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "EFFINGHAM JUNIOR WRESTLING TEAM"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "EFFINGHAM JUNIOR WRESTLING TEAM"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "EFFINGHAM JUNIOR WRESTLING TEAM"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Effingham Youth WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Effingham Youth WC"
+      }
+    ]
+  },
+  {
     "name_normalized": "Eisenhower",
     "url_path_slug": null,
     "duplicates": [
@@ -24969,56 +24855,140 @@
     ]
   },
   {
-    "name_normalized": "El Paso / Gridley WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "EL PASO / GRIDLEY WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "EL PASO / GRIDLEY WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "EL PASO / GRIDLEY WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "EL PASO / GRIDLEY WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "El Paso/Gridley WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "El Paso/Gridley WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "EL PASO/GRIDLEY WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "EL PASO/GRIDLEY WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "El Paso Gridley Youth WC",
-    "url_path_slug": null,
+    "url_path_slug": "el-paso-gridley",
     "duplicates": [
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "El Paso"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "EL PASO WRESTLING"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "EL PASO"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "EL PASO"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "EL PASO"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "EL PASO WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "EL PASO WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "EL PASO WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "EL PASO WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "EL PASO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "EL PASO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "EL PASO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "El Paso"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "EL PASO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "EL PASO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "EL PASO WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "EL PASO WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "EL PASO WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "EL PASO / GRIDLEY WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "EL PASO / GRIDLEY WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "EL PASO / GRIDLEY WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "EL PASO / GRIDLEY WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "El Paso/Gridley WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "El Paso/Gridley WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "EL PASO/GRIDLEY WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "EL PASO/GRIDLEY WC"
+      },
+      {
         "tournament_id": 39,
         "division": "novice",
         "name": "EL PASO GRIDLEY YOUTH WC"
@@ -25037,6 +25007,16 @@
         "tournament_id": 42,
         "division": "senior",
         "name": "El Paso Gridley Youth WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "El Paso Gridley Youth Wrestlng Club"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "El Paso Gridley Youth Wrestlng Club"
       },
       {
         "tournament_id": 51,
@@ -25152,22 +25132,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "El Paso Gridley Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "El Paso Gridley Youth Wrestlng Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "El Paso Gridley Youth Wrestlng Club"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "El Paso Gridley Youth Wrestlng Club"
       }
     ]
   },
