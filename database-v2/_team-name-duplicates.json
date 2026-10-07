@@ -39073,67 +39073,6 @@
     ]
   },
   {
-    "name_normalized": "Jefferson Wolverines",
-    "url_path_slug": "jefferson-wolverines",
-    "duplicates": [
-      {
-        "tournament_id": 6,
-        "division": "senior",
-        "name": "Jefferson"
-      },
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Jefferson / Woodridge"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Jefferson"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Jefferson"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Jefferson"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Jefferson"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Jefferson"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Thomas Jefferson JH"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Jefferson Wolverines"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Jefferson Wolverines"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "JEFFERSON WOLVERINES"
-      }
-    ]
-  },
-  {
     "name_normalized": "JORDON",
     "url_path_slug": null,
     "duplicates": [
@@ -39886,6 +39825,67 @@
     ]
   },
   {
+    "name_normalized": "Jefferson Wolverines",
+    "url_path_slug": "jefferson-wolverines",
+    "duplicates": [
+      {
+        "tournament_id": 6,
+        "division": "senior",
+        "name": "Jefferson"
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Jefferson / Woodridge"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Jefferson"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Jefferson"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Jefferson"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Jefferson"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Jefferson"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Thomas Jefferson JH"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Jefferson Wolverines"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Jefferson Wolverines"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "JEFFERSON WOLVERINES"
+      }
+    ]
+  },
+  {
     "name_normalized": "Jersey Junior Panthers WC",
     "url_path_slug": null,
     "duplicates": [
@@ -40488,22 +40488,6 @@
     ]
   },
   {
-    "name_normalized": "Jr. Cougar WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "JR. COUGAR WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "JR. COUGAR WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Jr. Saxons WC",
     "url_path_slug": null,
     "duplicates": [
@@ -40772,6 +40756,16 @@
     "name_normalized": "Junior Cougar Wrestling Club",
     "url_path_slug": "jr-cougars",
     "duplicates": [
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "JR. COUGAR WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "JR. COUGAR WC"
+      },
       {
         "tournament_id": 45,
         "division": "novice",
