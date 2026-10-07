@@ -25156,9 +25156,19 @@
     ]
   },
   {
-    "name_normalized": "Elgin Matt Rats",
-    "url_path_slug": null,
+    "name_normalized": "Elgin Matt Rats WC",
+    "url_path_slug": "elgin-mat-rats",
     "duplicates": [
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Elgin Matt Rats WC"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Elgin Matt Rats WC"
+      },
       {
         "tournament_id": 19,
         "division": "senior",
@@ -25173,22 +25183,6 @@
         "tournament_id": 21,
         "division": "senior",
         "name": "ELGIN MATT RATS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Elgin Matt Rats WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Elgin Matt Rats WC"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Elgin Matt Rats WC"
       }
     ]
   },
