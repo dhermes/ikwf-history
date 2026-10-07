@@ -70757,33 +70757,6 @@
     ]
   },
   {
-    "name_normalized": "SKOKIE INDIANS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "SKOKIE INDIANS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SKOKIE INDIANS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "SKOKIE INDIANS WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "SKOKIE INDIANS WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "SOT-C WC",
     "url_path_slug": "sons-of-thunder",
     "duplicates": [
@@ -73410,6 +73383,27 @@
         "tournament_id": 46,
         "division": "senior",
         "name": "SIWA"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Skokie Indians WC",
+    "url_path_slug": "skokie-indians",
+    "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "SKOKIE INDIANS WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "SKOKIE INDIANS WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "SKOKIE INDIANS"
       }
     ]
   },
