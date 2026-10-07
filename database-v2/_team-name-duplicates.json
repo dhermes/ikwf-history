@@ -34987,17 +34987,6 @@
     ]
   },
   {
-    "name_normalized": "Herrin Raiders",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Herrin Raiders"
-      }
-    ]
-  },
-  {
     "name_normalized": "Herrin Tiger Wrestling",
     "url_path_slug": "herrin",
     "duplicates": [
@@ -35005,6 +34994,11 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Herrin"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Herrin Raiders"
       },
       {
         "tournament_id": 23,
