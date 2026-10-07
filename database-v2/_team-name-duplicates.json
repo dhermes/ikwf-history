@@ -39199,148 +39199,6 @@
     ]
   },
   {
-    "name_normalized": "Jr. Rocket Wrestling",
-    "url_path_slug": "jr-rocket",
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "JR. ROCKET"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "JR. ROCKET"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "JR. ROCKET WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "JR. ROCKET WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "JR. ROCKET WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "JR. ROCKET WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "JR. ROCKET WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "JR. ROCKET WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "JR. ROCKET WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "JR. ROCKET WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "JR. ROCKET WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "JR. ROCKET WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "JUNIOR ROCKET WRESTLING"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "JUNIOR ROCKET WRESTLING"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "JR ROCKET WRESTLING"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "JR ROCKET WRESTLING"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "JR. ROCKET WRESTLING"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "JR. ROCKET WRESTLING"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "JR. ROCKET WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Jr. Sentinels",
-    "url_path_slug": "jr-sentinels",
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "JR SENTINELS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "JR SENTINELS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "JR. SENTINELS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "JR. SENTINELS"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "JR. SENTINELS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "JR. SENTINELS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "JR. SENTINELS"
-      }
-    ]
-  },
-  {
     "name_normalized": "JR. VIKINGS",
     "url_path_slug": null,
     "duplicates": [
@@ -40329,6 +40187,107 @@
     ]
   },
   {
+    "name_normalized": "Jr. Rocket Wrestling",
+    "url_path_slug": "jr-rocket",
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "JR. ROCKET"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "JR. ROCKET"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "JR. ROCKET WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "JR. ROCKET WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "JR. ROCKET WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "JR. ROCKET WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "JR. ROCKET WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "JR. ROCKET WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "JR. ROCKET WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "JR. ROCKET WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "JR. ROCKET WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "JR. ROCKET WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "JUNIOR ROCKET WRESTLING"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "JUNIOR ROCKET WRESTLING"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "JR ROCKET WRESTLING"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "JR ROCKET WRESTLING"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "JR. ROCKET WRESTLING"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "JR. ROCKET WRESTLING"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "JR. ROCKET WRESTLING"
+      }
+    ]
+  },
+  {
     "name_normalized": "Jr. Saxons WC",
     "url_path_slug": null,
     "duplicates": [
@@ -40351,6 +40310,47 @@
         "tournament_id": 34,
         "division": "senior",
         "name": "JR. SAXONS WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Jr. Sentinels",
+    "url_path_slug": "jr-sentinels",
+    "duplicates": [
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "JR SENTINELS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "JR SENTINELS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "JR. SENTINELS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "JR. SENTINELS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "JR. SENTINELS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "JR. SENTINELS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "JR. SENTINELS"
       }
     ]
   },
@@ -41462,7 +41462,7 @@
     ]
   },
   {
-    "name_normalized": "KNIGHTS WC",
+    "name_normalized": "KNIGHTS WRESTLING",
     "url_path_slug": "knights",
     "duplicates": [
       {
@@ -41501,8 +41501,73 @@
         "name": "KNIGHTS WC"
       },
       {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Knights"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "Knights"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
         "tournament_id": 35,
         "division": "novice",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
         "name": "KNIGHTS WRESTLING"
       },
       {
@@ -41514,6 +41579,36 @@
         "tournament_id": 37,
         "division": "senior",
         "name": "Knights WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "KNIGHTS WRESTLING"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Knights Wrestling"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Knights Wrestling"
       },
       {
         "tournament_id": 42,
@@ -41584,97 +41679,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Knights WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "KNIGHTS WRESTLING",
-    "url_path_slug": "knights-wrestling",
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "KNIGHTS WRESTLING"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Knights Wrestling"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Knights Wrestling"
       }
     ]
   },
@@ -41934,22 +41938,6 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "KISHWAUKEE WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Knights",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Knights"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "Knights"
       }
     ]
   },
