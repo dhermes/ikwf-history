@@ -3975,68 +3975,6 @@
     ]
   },
   {
-    "name_normalized": "BULLDOG WC",
-    "url_path_slug": "bulldog-wc",
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "BULLDOG WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "BULLDOG WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "BULLDOG WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Bulldog WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Bulldog WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Bulldog WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Bulldog WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Bulldog WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Bulldog WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BULLDOG WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "BULLDOG WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "BURBANK RAMS WC",
     "url_path_slug": null,
     "duplicates": [
@@ -11175,6 +11113,62 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Bulldog Elite WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Bulldog WC",
+    "url_path_slug": "bulldog-wc",
+    "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "BULLDOG WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "BULLDOG WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "BULLDOG WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "BULLDOG WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Bulldog WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Bulldog WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Bulldog WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Bulldog WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Bulldog WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Bulldog WC"
       }
     ]
   },
