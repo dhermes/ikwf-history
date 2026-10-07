@@ -19055,103 +19055,6 @@
     ]
   },
   {
-    "name_normalized": "DECATUR WC",
-    "url_path_slug": "decatur-wc",
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Decatur"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Decatur WC"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Decatur WC"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Decatur WC"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "DECATUR WC"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "DECATUR"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "DECATUR WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "DECATUR WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "DECATUR WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "DECATUR WC"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "DECATUR WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "DECATUR WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DECATUR WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "DECATUR WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "DECATUR WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "DECATUR WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "DECATUR WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "DECATUR WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "DELAVAN MAT WRATS",
     "url_path_slug": "delavan-mat-wrats",
     "duplicates": [
@@ -20519,27 +20422,6 @@
     ]
   },
   {
-    "name_normalized": "Decatur",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Decatur"
-      },
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Decatur"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Decatur"
-      }
-    ]
-  },
-  {
     "name_normalized": "Decatur Boy's Club",
     "url_path_slug": null,
     "duplicates": [
@@ -20719,6 +20601,112 @@
         "tournament_id": 54,
         "division": "intermediate_girls",
         "name": "Decatur Lakers WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Decatur WC",
+    "url_path_slug": "decatur-wc",
+    "duplicates": [
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Decatur"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Decatur"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Decatur"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Decatur"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Decatur WC"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Decatur WC"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Decatur WC"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "DECATUR WC"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "DECATUR"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "DECATUR WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "DECATUR WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "DECATUR WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "DECATUR WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "DECATUR WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "DECATUR WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "DECATUR WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "DECATUR WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "DECATUR WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "DECATUR WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "DECATUR WC"
       }
     ]
   },
