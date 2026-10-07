@@ -29363,78 +29363,6 @@
     ]
   },
   {
-    "name_normalized": "GALESBURG JR. STREAKS",
-    "url_path_slug": "galesburg-jr-streaks",
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "GALESBURG JR. STREAKS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "GALESBURG JR. STREAKS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "GALESBURG JUNIOR STREAKS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "GALESBURG JUNIOR STREAKS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "GALESBURG JR STREAKS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "GALESBURG JR STREAKS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "GALESBURG JR STREAKS"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "GALESBURG JR STREAKS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "GALESBURG JR STREAKS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "GALESBURG JR STREAKS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Galesburg Junior Streaks",
-    "url_path_slug": "galesburg",
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "GALESBURG JUNIOR STREAKS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "GALESBURG JUNIOR STREAKS"
-      }
-    ]
-  },
-  {
     "name_normalized": "GC JR WARRIORS",
     "url_path_slug": "gc-jr-warriors",
     "duplicates": [
@@ -29953,8 +29881,8 @@
     ]
   },
   {
-    "name_normalized": "Galesburg",
-    "url_path_slug": null,
+    "name_normalized": "Galesburg Junior Streaks",
+    "url_path_slug": "galesburg",
     "duplicates": [
       {
         "tournament_id": 12,
@@ -29965,6 +29893,66 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Galesburg"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "GALESBURG JR. STREAKS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "GALESBURG JR. STREAKS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "GALESBURG JUNIOR STREAKS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "GALESBURG JUNIOR STREAKS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "GALESBURG JUNIOR STREAKS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "GALESBURG JUNIOR STREAKS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "GALESBURG JR STREAKS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "GALESBURG JR STREAKS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "GALESBURG JR STREAKS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "GALESBURG JR STREAKS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "GALESBURG JR STREAKS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "GALESBURG JR STREAKS"
       }
     ]
   },
