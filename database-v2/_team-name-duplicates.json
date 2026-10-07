@@ -26971,8 +26971,8 @@
     ]
   },
   {
-    "name_normalized": "Fenwick",
-    "url_path_slug": null,
+    "name_normalized": "Fenwick Falcons WC",
+    "url_path_slug": "fenwick",
     "duplicates": [
       {
         "tournament_id": 10028,
@@ -26983,13 +26983,7 @@
         "tournament_id": 10028,
         "division": "senior_iwf",
         "name": "Fenwick"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Fenwick Falcons WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 33,
         "division": "novice",
