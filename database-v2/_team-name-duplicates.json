@@ -27283,7 +27283,7 @@
   },
   {
     "name_normalized": "Fenton Bison WC",
-    "url_path_slug": null,
+    "url_path_slug": "fenton-bison",
     "duplicates": [
       {
         "tournament_id": 42,
@@ -27294,29 +27294,17 @@
         "tournament_id": 42,
         "division": "senior",
         "name": "Fenton Bison WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Fenton Jr. Bison",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Fenton Jr. Bison"
       },
       {
-        "tournament_id": 10050,
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Fenton/BBAA Jr Bison WC"
+      },
+      {
+        "tournament_id": 44,
         "division": "senior",
-        "name": "Fenton Jr. Bison"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Fenton Jr. Bison WC",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "Fenton/BBAA Jr Bison WC"
+      },
       {
         "tournament_id": 50,
         "division": "novice",
@@ -27328,6 +27316,16 @@
         "name": "Fenton Jr. Bison WC"
       },
       {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Fenton Jr. Bison"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Fenton Jr. Bison"
+      },
+      {
         "tournament_id": 51,
         "division": "novice",
         "name": "Fenton Jr. Bison WC"
@@ -27336,22 +27334,6 @@
         "tournament_id": 51,
         "division": "senior",
         "name": "Fenton Jr. Bison WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Fenton/Bbaa Jr Bison WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Fenton/BBAA Jr Bison WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Fenton/BBAA Jr Bison WC"
       }
     ]
   },
