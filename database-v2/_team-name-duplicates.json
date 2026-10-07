@@ -22926,22 +22926,6 @@
     ]
   },
   {
-    "name_normalized": "ELGIN",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "ELGIN"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "ELGIN"
-      }
-    ]
-  },
-  {
     "name_normalized": "ELGIN GRAPPLERS",
     "url_path_slug": "elgin-grapplers",
     "duplicates": [
@@ -25210,7 +25194,7 @@
   },
   {
     "name_normalized": "Elgin WC",
-    "url_path_slug": null,
+    "url_path_slug": "elgin-WC",
     "duplicates": [
       {
         "tournament_id": 15,
@@ -25221,6 +25205,16 @@
         "tournament_id": 16,
         "division": "senior",
         "name": "Elgin WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "ELGIN"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "ELGIN"
       }
     ]
   },
