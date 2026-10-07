@@ -42033,6 +42033,16 @@
     "url_path_slug": "lake-view-jr-wildcats",
     "duplicates": [
       {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "LAKEVIEW MITEY CATS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "LAKEVIEW MITEY CATS"
+      },
+      {
         "tournament_id": 29,
         "division": "novice",
         "name": "LAKE VIEW JR. WILDCATS"
@@ -42078,22 +42088,6 @@
         "tournament_id": 29,
         "division": "novice",
         "name": "LAKERS WRESTLING CLUB"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LAKEVIEW MITEY CATS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "LAKEVIEW MITEY CATS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "LAKEVIEW MITEY CATS"
       }
     ]
   },
