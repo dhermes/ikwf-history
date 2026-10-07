@@ -29564,73 +29564,6 @@
     ]
   },
   {
-    "name_normalized": "GRANITE CITY GRIGSBY",
-    "url_path_slug": "granite-city-grigsby",
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Granite City / Grigsby"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Granite City-Grigsby"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Granite City-Grigsby"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Granite City Grigsby WC"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Granite City Grigsby"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "GRANITE CITY GRIGSBY"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "GRANITE CITY GRIGSBY"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GRANITE CITY WC GRIGSBY",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "GRANITE CITY WC GRIGSBY"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "GRANITE CITY WC GRIGSBY"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "GRANITE CITY WC GRIGSBY"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "GRANITE CITY WC GRIGSBY"
-      }
-    ]
-  },
-  {
     "name_normalized": "GRAPPLIN' DEVILS WC",
     "url_path_slug": "grapplin-devils",
     "duplicates": [
@@ -32094,6 +32027,82 @@
     ]
   },
   {
+    "name_normalized": "Granite City Grigsby",
+    "url_path_slug": "granite-city-grigsby",
+    "duplicates": [
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Grigsby"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Grigsby"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Grigsby"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Granite City / Grigsby"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Granite City-Grigsby"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Granite City-Grigsby"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Granite City Grigsby WC"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Granite City Grigsby"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "GRANITE CITY WC GRIGSBY"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "GRANITE CITY GRIGSBY"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "GRANITE CITY WC GRIGSBY"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "GRANITE CITY GRIGSBY"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "GRANITE CITY WC GRIGSBY"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "GRANITE CITY WC GRIGSBY"
+      }
+    ]
+  },
+  {
     "name_normalized": "Granite City South",
     "url_path_slug": null,
     "duplicates": [
@@ -32693,27 +32702,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Greg Gomez Trained Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Grigsby",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Grigsby"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Grigsby"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Grigsby"
       }
     ]
   },
