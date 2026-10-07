@@ -39157,20 +39157,14 @@
     ]
   },
   {
-    "name_normalized": "JR. MAROON WRESTLING",
-    "url_path_slug": null,
+    "name_normalized": "JR. MAROON'S WRESTLING",
+    "url_path_slug": "jr-maroons",
     "duplicates": [
       {
         "tournament_id": 26,
         "division": "novice",
         "name": "JR. MAROON WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "JR. MAROON'S WRESTLING",
-    "url_path_slug": "jr-maroons-wrestling",
-    "duplicates": [
+      },
       {
         "tournament_id": 27,
         "division": "novice",
@@ -39195,6 +39189,91 @@
         "tournament_id": 29,
         "division": "senior",
         "name": "JR. MAROON'S WRESTLING"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "JR. MAROON'S WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "JR MAROON WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "JR. MAROON WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "JR. MAROON WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "JR. MAROON WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "JR. MAROON WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "JUNIOR MAROON WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "JUNIOR MAROON WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "JUNIOR MAROON WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "JUNIOR MAROON WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Junior Maroon WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Junior Maroon WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Jr Maroons WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Jr Maroons WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Jr Maroons WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Jr Maroons WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Junior Maroons WC"
       }
     ]
   },
@@ -40315,68 +40394,6 @@
     ]
   },
   {
-    "name_normalized": "Jr Maroon WC",
-    "url_path_slug": "jr-maroon",
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "JR. MAROON'S WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "JR MAROON WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "JR. MAROON WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "JR. MAROON WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "JR. MAROON WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "JR. MAROON WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Jr Maroons WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Jr Maroons WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Jr Maroons WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Jr Maroons WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Jr Maroons WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Jr Rocket Wrestling",
     "url_path_slug": null,
     "duplicates": [
@@ -41048,53 +41065,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Junior Kahoks-Tribe Fellowship"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Junior Maroon WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "JUNIOR MAROON WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "JUNIOR MAROON WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "JUNIOR MAROON WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "JUNIOR MAROON WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Junior Maroon WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Junior Maroon WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Junior Maroons WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Junior Maroons WC"
       }
     ]
   },
