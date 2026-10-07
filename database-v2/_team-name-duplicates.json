@@ -512,17 +512,6 @@
     ]
   },
   {
-    "name_normalized": "ALTON-ROXANA WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "ALTON-ROXANA WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Academy Grapplers",
     "url_path_slug": null,
     "duplicates": [
@@ -18909,6 +18898,32 @@
     ]
   },
   {
+    "name_normalized": "DA WC",
+    "url_path_slug": "da-wc",
+    "duplicates": [
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Da WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Da WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "DA WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "DA WC"
+      }
+    ]
+  },
+  {
     "name_normalized": "DC WC",
     "url_path_slug": "dc-wc",
     "duplicates": [
@@ -19159,32 +19174,6 @@
         "tournament_id": 28,
         "division": "senior",
         "name": "DURAND-PECATONICA YOUTH"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DA WC",
-    "url_path_slug": "da-wc",
-    "duplicates": [
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Da WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Da WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "DA WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "DA WC"
       }
     ]
   },
@@ -22846,63 +22835,6 @@
     ]
   },
   {
-    "name_normalized": "EAST ALTON RAMS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "EAST ALTON RAMS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "EAST ALTON RAMS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "EAST ALTON ROXANA RAMS",
-    "url_path_slug": "east-alton-roxana-rams",
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "EAST ALTON-ROXANA RAMS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "EAST ALTON-ROXANA RAMS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "EAST ALTON ROXANA RAMS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "EAST ALTON ROXANA RAMS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "EAST ALTON ROXANA RAMS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "EAST ALTON ROXANA RAMS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "EAST ALTON ROXANA RAMS"
-      }
-    ]
-  },
-  {
     "name_normalized": "EASTLAND MAT CATS",
     "url_path_slug": null,
     "duplicates": [
@@ -23671,8 +23603,8 @@
     ]
   },
   {
-    "name_normalized": "East Alton",
-    "url_path_slug": null,
+    "name_normalized": "East Alton Roxana Rams",
+    "url_path_slug": "east-alton-roxana-rams",
     "duplicates": [
       {
         "tournament_id": 2,
@@ -23683,6 +23615,56 @@
         "tournament_id": 4,
         "division": "senior",
         "name": "East Alton"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "ALTON-ROXANA WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "EAST ALTON-ROXANA RAMS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "EAST ALTON-ROXANA RAMS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "EAST ALTON ROXANA RAMS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "EAST ALTON ROXANA RAMS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "EAST ALTON ROXANA RAMS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "EAST ALTON ROXANA RAMS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "EAST ALTON ROXANA RAMS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "EAST ALTON RAMS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "EAST ALTON RAMS"
       }
     ]
   },
