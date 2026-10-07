@@ -19856,7 +19856,7 @@
     ]
   },
   {
-    "name_normalized": "Danville",
+    "name_normalized": "Danville Chargers",
     "url_path_slug": "danville",
     "duplicates": [
       {
@@ -19953,13 +19953,7 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "DANVILLE BRONCOS YOUTH WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Danville Chargers",
-    "url_path_slug": "danville-chargers",
-    "duplicates": [
+      },
       {
         "tournament_id": 41,
         "division": "novice",
