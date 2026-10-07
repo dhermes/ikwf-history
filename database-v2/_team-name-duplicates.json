@@ -3948,79 +3948,6 @@
     ]
   },
   {
-    "name_normalized": "BRONCO",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "BRONCO"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "BRONCO"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BRONCO WC",
-    "url_path_slug": "bronco-wc",
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Bronco WC"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Bronco WC"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "BRONCO WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "BRONCO WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BRONCO WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "BRONCO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "BRONCO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "BRONCO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "BRONCO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "BRONCO WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "BROWNSON WC",
     "url_path_slug": null,
     "duplicates": [
@@ -10673,9 +10600,69 @@
     ]
   },
   {
-    "name_normalized": "Bronco Wrestling",
-    "url_path_slug": null,
+    "name_normalized": "Bronco WC",
+    "url_path_slug": "bronco-wc",
     "duplicates": [
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Broncos"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Bronco WC"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Bronco WC"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "BRONCO WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "BRONCO"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "BRONCO"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "BRONCO WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "BRONCO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "BRONCO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "BRONCO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "BRONCO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "BRONCO WRESTLING CLUB"
+      },
       {
         "tournament_id": 30,
         "division": "novice",
@@ -10735,17 +10722,16 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "BRONCO WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Broncos",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
-        "tournament_id": 12,
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Junior Bronco WC"
+      },
+      {
+        "tournament_id": 50,
         "division": "senior",
-        "name": "Broncos"
+        "name": "Junior Bronco WC"
       }
     ]
   },
@@ -41243,22 +41229,6 @@
         "tournament_id": 10028,
         "division": "senior_iwf",
         "name": "Jr. Trojans"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Junior Bronco WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Junior Bronco WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Junior Bronco WC"
       }
     ]
   },
