@@ -3786,6 +3786,26 @@
     "url_path_slug": "bartlett-jr-hawks",
     "duplicates": [
       {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "BARTLETT HAWK WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "BARTLETT HAWK WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "BARTLETT HAWK WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "BARTLETT HAWK WC"
+      },
+      {
         "tournament_id": 34,
         "division": "novice",
         "name": "BARTLETT JR HAWKS"
@@ -5399,32 +5419,6 @@
         "tournament_id": 16,
         "division": "senior",
         "name": "Barrington Colts"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bartlett Hawk WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "BARTLETT HAWK WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "BARTLETT HAWK WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "BARTLETT HAWK WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "BARTLETT HAWK WC"
       }
     ]
   },
