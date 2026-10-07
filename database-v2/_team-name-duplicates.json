@@ -18909,91 +18909,6 @@
     ]
   },
   {
-    "name_normalized": "DANVILLE",
-    "url_path_slug": "danville",
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Danville"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "DANVILLE"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "DANVILLE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DANVILLE BOY'S & GIRL'S CLUB",
-    "url_path_slug": "danville-boys-girls-club",
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "DANVILLE BOYS & GIRLS CLUB"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "DANVILLE BOY'S & GIRL'S CLUB"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DANVILLE BOYS CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "DANVILLE BOYS CLUB"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DANVILLE WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "DANVILLE WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DANVILLE YOUTH WC",
-    "url_path_slug": "danville-youth-wc",
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Danville Youth WC"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Danville Youth WC"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Danville Youth WC"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "DANVILLE YOUTH WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "DC SPORTSTERS WC",
     "url_path_slug": null,
     "duplicates": [
@@ -19941,9 +19856,74 @@
     ]
   },
   {
-    "name_normalized": "Danville Broncos Youth WC",
-    "url_path_slug": null,
+    "name_normalized": "Danville",
+    "url_path_slug": "danville",
     "duplicates": [
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Danville"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Danville Youth WC"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Danville Youth WC"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Danville YMCA WC"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Danville Youth WC"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Danville Youth"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "DANVILLE WC"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "DANVILLE BOYS CLUB"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "DANVILLE YOUTH WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "DANVILLE"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "DANVILLE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "DANVILLE BOYS & GIRLS CLUB"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "DANVILLE BOY'S & GIRL'S CLUB"
+      },
       {
         "tournament_id": 38,
         "division": "novice",
@@ -20179,28 +20159,6 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Danville Chargers WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Danville YMCA WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Danville YMCA WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Danville Youth",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Danville Youth"
       }
     ]
   },
