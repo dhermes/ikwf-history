@@ -11343,124 +11343,6 @@
     ]
   },
   {
-    "name_normalized": "CHATHAM",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "CHATHAM"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "CHATHAM"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CHATHAM WC",
-    "url_path_slug": "chatham-wc",
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "CHATHAM WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Chatham WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Chatham WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CHATHAM WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "CHATHAM WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "CHENOA WRESTLING CLUB",
     "url_path_slug": null,
     "duplicates": [
@@ -15602,6 +15484,112 @@
         "tournament_id": 54,
         "division": "senior",
         "name": "Charleston WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Chatham WC",
+    "url_path_slug": "chatham",
+    "duplicates": [
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "CHATHAM"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "CHATHAM"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "CHATHAM WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "CHATHAM WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Chatham WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Chatham WC"
       }
     ]
   },
