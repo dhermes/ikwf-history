@@ -42163,408 +42163,20 @@
     ]
   },
   {
-    "name_normalized": "Lions WC",
-    "url_path_slug": "lions-wc",
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Lions W.C."
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "LIONS"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "LIONS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "LIONS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "LIONS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "LIONS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "LIONS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "LIONS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "junior_iwf",
-        "name": "Lions Wrestling Club"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Lions Wrestling Club"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "Lions Wrestling Club"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "LIONS WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Lions Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Lions Wrestling Club"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Lions WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Lions WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LITCHFIELD",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "LITCHFIELD"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "LITCHFIELD"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LITCHFIELD KIDS WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "LITCHFIELD KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "LITCHFIELD KIDS WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LITCHFIELD WC",
+    "name_normalized": "LITCHFIELD WRESTLING CLUB",
     "url_path_slug": "litchfield",
     "duplicates": [
       {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "LITCHFIELD"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "LITCHFIELD"
+      },
+      {
         "tournament_id": 24,
         "division": "novice",
         "name": "LITCHFIELD WC"
@@ -42584,77 +42196,6 @@
         "division": "senior",
         "name": "LITCHFIELD WC"
       },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Litchfield WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Litchfield WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LITCHFIELD WRESTLING CLUB",
-    "url_path_slug": "litchfield-wrestling-club",
-    "duplicates": [
       {
         "tournament_id": 26,
         "division": "novice",
@@ -42671,6 +42212,11 @@
         "name": "LITCHFIELD WRESTLING CLUB"
       },
       {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "LITCHFIELD KIDS WRESTLING"
+      },
+      {
         "tournament_id": 30,
         "division": "novice",
         "name": "LITCHFIELD KIDS WRESTLING"
@@ -42679,6 +42225,76 @@
         "tournament_id": 30,
         "division": "senior",
         "name": "LITCHFIELD KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "LITCHFIELD KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Litchfield WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Litchfield WC"
       }
     ]
   },
@@ -46269,6 +45885,372 @@
         "tournament_id": 54,
         "division": "novice_girls",
         "name": "Lionheart Intense Wrestling"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Lions WC",
+    "url_path_slug": "lions-wc",
+    "duplicates": [
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Lions W.C."
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "LIONS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "LIONS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "LIONS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "LIONS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "LIONS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "LIONS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "LIONS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "junior_iwf",
+        "name": "Lions Wrestling Club"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Lions Wrestling Club"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "Lions Wrestling Club"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "LIONS WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Lions Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Lions Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Lions WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Lions WC"
       }
     ]
   },
