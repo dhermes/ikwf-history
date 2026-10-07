@@ -63993,81 +63993,109 @@
     ]
   },
   {
-    "name_normalized": "Prairie Central Hawks",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Prairie Central Hawks"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Prairie Central Hawks"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Prairie Central Hawks"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Prairie Central Hawks"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Prairie Central Hawks"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Prairie Central Hawks"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Prairie Central Hawks"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Prairie Central Hawks"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Prairie Central Hawks WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Prairie Central Hawks WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Prairie Central Hawks WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Prairie Central Hawks WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Prairie Central Hawks WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Prairie Central Youth Wrestling",
-    "url_path_slug": null,
+    "url_path_slug": "prairie-central",
     "duplicates": [
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "PRAIRIE CENTRAL-CHENOA HAWKS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "PRAIRIE CENTRAL-CHENOA HAWKS"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Prairie Central-Chenoa Hawks"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Prairie Central-Chenoa Hawks"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "PRAIRIE CENTRAL-CHENOA HAWKS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "PRAIRIE CENTRAL-CHENOA HAWKS"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Prairie Central-Chenoa Hawks"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Prairie Central-Chenoa Hawks"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Prairie Central Hawks"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Prairie Central Hawks"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Prairie Central Hawks WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Prairie Central Hawks WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Prairie Central Hawks WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Prairie Central Hawks WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Prairie Central Hawks"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Prairie Central Hawks"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Prairie Central Hawks"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Prairie Central Hawks"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Prairie Central Hawks"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Prairie Central Hawks"
+      },
       {
         "tournament_id": 10052,
         "division": "bantam",
@@ -64127,52 +64155,6 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Prairie Central Youth Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Prairie Central-Chenoa Hawks",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "PRAIRIE CENTRAL-CHENOA HAWKS"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "PRAIRIE CENTRAL-CHENOA HAWKS"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Prairie Central-Chenoa Hawks"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Prairie Central-Chenoa Hawks"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "PRAIRIE CENTRAL-CHENOA HAWKS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "PRAIRIE CENTRAL-CHENOA HAWKS"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Prairie Central-Chenoa Hawks"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Prairie Central-Chenoa Hawks"
       }
     ]
   },
