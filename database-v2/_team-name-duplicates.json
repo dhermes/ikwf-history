@@ -22926,158 +22926,6 @@
     ]
   },
   {
-    "name_normalized": "ELMHURST",
-    "url_path_slug": "elmhurst",
-    "duplicates": [
-      {
-        "tournament_id": 6,
-        "division": "senior",
-        "name": "Elmhurst"
-      },
-      {
-        "tournament_id": 7,
-        "division": "senior",
-        "name": "Elmhurst"
-      },
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Elmhurst"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "ELMHURST"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Elmhurst"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ELMHURST JR. DUKES",
-    "url_path_slug": "elmhurst-jr-dukes",
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "ELMHURST JR. DUKES"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Elmhurst Jr. Dukes"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Elmhurst Jr. Dukes"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Elmhurst Jr Dukes"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Elmhurst Jr Dukes"
-      }
-    ]
-  },
-  {
     "name_normalized": "ERIE MIDDLE SCHOOL WC",
     "url_path_slug": "erie-middle-school-wc",
     "duplicates": [
@@ -25459,13 +25307,153 @@
     ]
   },
   {
-    "name_normalized": "Elmhurst Jr Dukes WC",
-    "url_path_slug": "elmhurst-jr-dukes-wc",
+    "name_normalized": "Elmhurst",
+    "url_path_slug": "elmhurst",
     "duplicates": [
+      {
+        "tournament_id": 6,
+        "division": "senior",
+        "name": "Elmhurst"
+      },
+      {
+        "tournament_id": 7,
+        "division": "senior",
+        "name": "Elmhurst"
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Elmhurst"
+      },
       {
         "tournament_id": 18,
         "division": "senior",
         "name": "Elmhurst Jr. Dukes WC"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "ELMHURST"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Elmhurst"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "ELMHURST JR. DUKES"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Elmhurst Jr. Dukes"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Elmhurst Jr. Dukes"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Elmhurst Jr Dukes"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Elmhurst Jr Dukes"
       },
       {
         "tournament_id": 47,
@@ -25476,6 +25464,26 @@
         "tournament_id": 47,
         "division": "senior",
         "name": "Elmhurst Jr Dukes WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Elmhurst WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Elmhurst WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Elmhurst WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Elmhurst WC"
       }
     ]
   },
@@ -25567,32 +25575,6 @@
         "tournament_id": 54,
         "division": "novice",
         "name": "Elmhurst Titans Wrestling Academy"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Elmhurst WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Elmhurst WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Elmhurst WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Elmhurst WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Elmhurst WC"
       }
     ]
   },
