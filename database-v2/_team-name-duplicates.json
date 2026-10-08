@@ -60185,44 +60185,8 @@
     ]
   },
   {
-    "name_normalized": "Palatine Cobras WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Palatine Cobras WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Palatine Cobras WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Palatine Cobras WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Palatine Cobras WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Palatine Cobras WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Palatine Cobras WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Palatine Cobras Wrestling Club",
-    "url_path_slug": null,
+    "url_path_slug": "palatine-cobras",
     "duplicates": [
       {
         "tournament_id": 45,
@@ -60233,6 +60197,36 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Palatine Cobras Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Palatine Cobras WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Palatine Cobras WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Palatine Cobras WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Palatine Cobras WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Palatine Cobras WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Palatine Cobras WC"
       }
     ]
   },
