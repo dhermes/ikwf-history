@@ -64073,32 +64073,6 @@
     ]
   },
   {
-    "name_normalized": "ROCKRIDGE JR. HIGH",
-    "url_path_slug": "rockridge-jr-high",
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Rockridge Jr. High"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Rockridge Jr. High"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Rockridge Jr. High"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "ROCKRIDGE JR. HIGH"
-      }
-    ]
-  },
-  {
     "name_normalized": "ROXANA VIKINGS",
     "url_path_slug": "roxana-vikings",
     "duplicates": [
@@ -67596,22 +67570,6 @@
     ]
   },
   {
-    "name_normalized": "Rock Ridge",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Rock Ridge"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Rock Ridge"
-      }
-    ]
-  },
-  {
     "name_normalized": "Rocket Fuel WC",
     "url_path_slug": null,
     "duplicates": [
@@ -67719,32 +67677,6 @@
         "tournament_id": 54,
         "division": "intermediate_girls",
         "name": "Rocket Fuel WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rocket Fuel Wc-Rock Ridge",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Rocket Fuel WC-Rock Ridge"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Rocket Fuel WC-Rock Ridge"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "ROCKET FUEL WC-ROCK RIDGE"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "ROCKET FUEL WC-ROCK RIDGE"
       }
     ]
   },
@@ -68223,36 +68155,44 @@
     ]
   },
   {
-    "name_normalized": "Rockridge",
-    "url_path_slug": null,
+    "name_normalized": "Rockridge WC",
+    "url_path_slug": "rockridge",
     "duplicates": [
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Rock Ridge"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Rock Ridge"
+      },
       {
         "tournament_id": 14,
         "division": "senior",
         "name": "Rockridge"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rockridge Rocket Fuel WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Rockridge Rocket Fuel WC"
       },
       {
-        "tournament_id": 41,
+        "tournament_id": 15,
         "division": "senior",
-        "name": "Rockridge Rocket Fuel WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rockridge WC",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "Rockridge Jr. High"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Rockridge Jr. High"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Rockridge Jr. High"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "ROCKRIDGE JR. HIGH"
+      },
       {
         "tournament_id": 34,
         "division": "novice",
@@ -68272,6 +68212,36 @@
         "tournament_id": 36,
         "division": "senior",
         "name": "ROCK RIDGE WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Rocket Fuel WC-Rock Ridge"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Rocket Fuel WC-Rock Ridge"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "ROCKET FUEL WC-ROCK RIDGE"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "ROCKET FUEL WC-ROCK RIDGE"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Rockridge Rocket Fuel WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Rockridge Rocket Fuel WC"
       }
     ]
   },
