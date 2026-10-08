@@ -77064,138 +77064,6 @@
     ]
   },
   {
-    "name_normalized": "Trevian WC",
-    "url_path_slug": "trevian",
-    "duplicates": [
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "TREVIAN WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "TREVIAN WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "TREVIAN WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "TREVIAN WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "TREVIAN WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "TREVIAN WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "TREVIAN WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "TREVIAN WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "TREVIAN WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "TREVIAN WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Trevian WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Trevian WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "TRI-CITY BRAVES",
-    "url_path_slug": "tri-city-braves",
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "TRI-CITY BRAVES"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "TRI-CITY BRAVES"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "TRI-CITY BRAVES"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "TRI-CITY BRAVES"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "TRI-CITY BRAVES"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "TRI-CITY BRAVES"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "TRI-CITY BRAVES"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "TRI-CITY BRAVES"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "TRI-CITY BRAVES"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "TRI-CITY BRAVES"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "TRI-CITY BRAVES"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "TRI-CITY BRAVES"
-      }
-    ]
-  },
-  {
     "name_normalized": "TRI-CITY TURTLES",
     "url_path_slug": null,
     "duplicates": [
@@ -81013,6 +80881,72 @@
     ]
   },
   {
+    "name_normalized": "Trevian WC",
+    "url_path_slug": "trevian",
+    "duplicates": [
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "TREVIAN WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "TREVIAN WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "TREVIAN WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "TREVIAN WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "TREVIAN WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "TREVIAN WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "TREVIAN WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "TREVIAN WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "TREVIAN WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "TREVIAN WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Trevian WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Trevian WC"
+      }
+    ]
+  },
+  {
     "name_normalized": "Tri-Valley WC",
     "url_path_slug": null,
     "duplicates": [
@@ -81030,6 +80964,72 @@
         "tournament_id": 36,
         "division": "senior",
         "name": "TRI-VALLEY WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Tri-city Braves",
+    "url_path_slug": "tri-city-braves",
+    "duplicates": [
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "TRI-CITY BRAVES"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "TRI-CITY BRAVES"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "TRI-CITY BRAVES"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "TRI-CITY BRAVES"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "TRI-CITY BRAVES"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "TRI-CITY BRAVES"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "TRI-CITY BRAVES"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "TRI-CITY BRAVES"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "TRI-CITY BRAVES"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "TRI-CITY BRAVES"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "TRI-CITY BRAVES"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "TRI-CITY BRAVES"
       }
     ]
   },
@@ -84331,58 +84331,6 @@
     ]
   },
   {
-    "name_normalized": "WAUBONSIE BRAVES",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "WAUBONSIE BRAVES"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "WAUBONSIE BRAVES"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "WAUBONSIE BRAVES"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "WAUBONSIE BRAVES"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "WAUBONSIE BRAVES"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "WAUBONSIE BRAVES"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WAUBONSIE BRAVES WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "WAUBONSIE BRAVES WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "WAUBONSIE BRAVES WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "WAUBONSIE BULLDOGS",
     "url_path_slug": null,
     "duplicates": [
@@ -85055,6 +85003,52 @@
         "tournament_id": 10050,
         "division": "senior",
         "name": "Waterloo Bulldog Wrestling"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Waubonsie Braves WC",
+    "url_path_slug": "waubonsie-braves",
+    "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "WAUBONSIE BRAVES WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "WAUBONSIE BRAVES WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "WAUBONSIE BRAVES"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "WAUBONSIE BRAVES"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "WAUBONSIE BRAVES"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "WAUBONSIE BRAVES"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "WAUBONSIE BRAVES"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "WAUBONSIE BRAVES"
       }
     ]
   },
