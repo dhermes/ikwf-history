@@ -11,10 +11,18 @@ import pydantic
 
 _HERE = pathlib.Path(__file__).resolve().parent
 _NAME_OVERLAPS: dict[int, dict[str, str]] = {
+    2000: {
+        # Multiple "teams" due to cap on scoring
+        "JUNIOR STREAKS #2": "GALESBURG JUNIOR STREAKS",
+    },
+    2001: {
+        # Multiple "teams" due to cap on scoring
+        "GALESBURG JR STREAKS #2": "GALESBURG JR STREAKS"
+    },
     2024: {
         # Different names used in Rockford/Decatur
         "Rochelle WC": "Rochelle Wrestling Club",
-    }
+    },
 }
 _COACH_BIOS: dict[str, dict[str, str]] = {
     "dakota": {
