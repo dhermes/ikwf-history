@@ -63907,94 +63907,6 @@
     ]
   },
   {
-    "name_normalized": "RAIDER WC",
-    "url_path_slug": "raider-wc",
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "RAIDER WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "RAIDER WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "RAIDER WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "RAIDER WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "RAIDER WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "RAIDER WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "RAIDER WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "RAIDER WRESTLING CLUB"
-      }
-    ]
-  },
-  {
-    "name_normalized": "RAIDERS",
-    "url_path_slug": "raiders",
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Raiders"
-      },
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Raiders"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "RAIDERS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "RAIDERS"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "junior_iwf",
-        "name": "Raiders"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Raiders"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "Raiders"
-      }
-    ]
-  },
-  {
     "name_normalized": "RAMS",
     "url_path_slug": null,
     "duplicates": [
@@ -64756,6 +64668,82 @@
         "tournament_id": 54,
         "division": "novice_girls",
         "name": "RWC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Raider WC",
+    "url_path_slug": "raider-wc",
+    "duplicates": [
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Raiders"
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Raiders"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "RAIDER WC"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "RAIDERS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "RAIDERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "RAIDER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "RAIDER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "RAIDER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "junior_iwf",
+        "name": "Raiders"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Raiders"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "Raiders"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "RAIDER WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "RAIDER WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "RAIDER WC"
       }
     ]
   },
