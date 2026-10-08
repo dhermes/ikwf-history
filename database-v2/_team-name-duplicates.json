@@ -41003,37 +41003,6 @@
     ]
   },
   {
-    "name_normalized": "Junior Pirate WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "JUNIOR PIRATE WC"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "JUNIOR PIRATE WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "JUNIOR PIRATE WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "JUNIOR PIRATE WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "JUNIOR PIRATE WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Junior Pirates",
     "url_path_slug": null,
     "duplicates": [
@@ -59677,27 +59646,6 @@
     ]
   },
   {
-    "name_normalized": "Pirates",
-    "url_path_slug": "pirates",
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "PIRATES"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "PIRATES"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "PIRATES"
-      }
-    ]
-  },
-  {
     "name_normalized": "PLAINFIELD HUSKIES WC",
     "url_path_slug": null,
     "duplicates": [
@@ -60037,8 +59985,33 @@
   },
   {
     "name_normalized": "Palatine Junior Pirates",
-    "url_path_slug": null,
+    "url_path_slug": "palatine-pirates",
     "duplicates": [
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "JUNIOR PIRATE WC"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "JUNIOR PIRATE WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "JUNIOR PIRATE WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "JUNIOR PIRATE WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "JUNIOR PIRATE WC"
+      },
       {
         "tournament_id": 34,
         "division": "novice",
@@ -62215,6 +62188,27 @@
         "tournament_id": 31,
         "division": "senior",
         "name": "PINCKNEYVILLE JR PANTHERS"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Pirates",
+    "url_path_slug": "pirates",
+    "duplicates": [
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "PIRATES"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "PIRATES"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "PIRATES"
       }
     ]
   },
