@@ -59607,70 +59607,6 @@
     ]
   },
   {
-    "name_normalized": "PANTHER CUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "PANTHER CUB"
-      }
-    ]
-  },
-  {
-    "name_normalized": "PANTHER CUB WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "PANTHER CUB WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "PANTHER CUB WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "PANTHER CUB WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "PANTHER CUB WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "PANTHER CUB WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "PANTHER CUB WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "PANTHER CUB WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "PANTHER CUBS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "PANTHER CUBS"
-      }
-    ]
-  },
-  {
     "name_normalized": "PANTHER WC",
     "url_path_slug": "panther",
     "duplicates": [
@@ -60548,9 +60484,49 @@
     ]
   },
   {
-    "name_normalized": "Panther Cub Wrestling Club",
-    "url_path_slug": null,
+    "name_normalized": "Panther Cub WC",
+    "url_path_slug": "panther-cub",
     "duplicates": [
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "PANTHER CUBS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "PANTHER CUB WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "PANTHER CUB"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "PANTHER CUB WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "PANTHER CUB WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "PANTHER CUB WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "PANTHER CUB WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "PANTHER CUB WRESTLING"
+      },
       {
         "tournament_id": 30,
         "division": "novice",
