@@ -48247,8 +48247,8 @@
     ]
   },
   {
-    "name_normalized": "Manteno Jr Panthers",
-    "url_path_slug": null,
+    "name_normalized": "Manteno Jr Panthers WC",
+    "url_path_slug": "manteno",
     "duplicates": [
       {
         "tournament_id": 31,
@@ -48274,13 +48274,7 @@
         "tournament_id": 33,
         "division": "senior",
         "name": "MANTENO JR PANTHERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Manteno Jr Panthers WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 46,
         "division": "novice",
