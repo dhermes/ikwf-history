@@ -29502,39 +29502,6 @@
     ]
   },
   {
-    "name_normalized": "GORDON TECH RAMS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "GORDON TECH RAMS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GORDON TECH RAMS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "GORDON TECH RAMS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GORDON TECH RAMS WC CHICAGO",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "GORDON TECH RAMS WC CHICAGO"
-      }
-    ]
-  },
-  {
     "name_normalized": "Galesburg Junior Streaks",
     "url_path_slug": "galesburg",
     "duplicates": [
@@ -31705,6 +31672,27 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Gompers Jr. High"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Gordon Tech Rams WC",
+    "url_path_slug": "gordon-tech",
+    "duplicates": [
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "GORDON TECH RAMS WC CHICAGO"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "GORDON TECH RAMS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "GORDON TECH RAMS WC"
       }
     ]
   },
