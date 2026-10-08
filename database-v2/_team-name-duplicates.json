@@ -63969,108 +63969,6 @@
     ]
   },
   {
-    "name_normalized": "RENEGADE WC (NFP)",
-    "url_path_slug": "renegade",
-    "duplicates": [
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "RENEGADE WC (NFP)"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Renegade WC (NFP)"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Renegade WC (NFP)"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "RENEGADE WC (NFP)"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "RENEGADE WC (NFP)"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "RENEGADE WC (NFP)"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "RENEGADE WC (NFP)"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "RENEGADE WC (NFP)"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "RENEGADE WC (NFP)"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Renegade WC (NFP)"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Renegade WC (NFP)"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Renegade WC (NFP)"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Renegade WC (NFP)"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Renegade WC (NFP)"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Renegade WC (NFP)"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Renegade WC (NFP)"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Renegade WC (NFP)"
-      }
-    ]
-  },
-  {
-    "name_normalized": "RENEGADE WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "RENEGADE WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "RICHWOODS",
     "url_path_slug": null,
     "duplicates": [
@@ -65382,9 +65280,99 @@
     ]
   },
   {
-    "name_normalized": "Renegade Wrestling Club (Nfp)",
-    "url_path_slug": null,
+    "name_normalized": "Renegade Wrestling Club",
+    "url_path_slug": "renegade-wc",
     "duplicates": [
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "RENEGADE WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "RENEGADE WC (NFP)"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Renegade WC (NFP)"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Renegade WC (NFP)"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "RENEGADE WC (NFP)"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "RENEGADE WC (NFP)"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "RENEGADE WC (NFP)"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "RENEGADE WC (NFP)"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "RENEGADE WC (NFP)"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "RENEGADE WC (NFP)"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Renegade WC (NFP)"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Renegade WC (NFP)"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Renegade WC (NFP)"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Renegade WC (NFP)"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Renegade WC (NFP)"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Renegade WC (NFP)"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Renegade WC (NFP)"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Renegade WC (NFP)"
+      },
       {
         "tournament_id": 45,
         "division": "novice",
