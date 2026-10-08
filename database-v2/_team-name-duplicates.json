@@ -46939,17 +46939,6 @@
     ]
   },
   {
-    "name_normalized": "MARQUART MIDDLE JR. HIGH",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "MARQUART MIDDLE JR. HIGH"
-      }
-    ]
-  },
-  {
     "name_normalized": "MASCOUTAH WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -48987,24 +48976,23 @@
     ]
   },
   {
-    "name_normalized": "Marquardt Jr. High",
-    "url_path_slug": null,
+    "name_normalized": "Marquart",
+    "url_path_slug": "marquart",
     "duplicates": [
       {
         "tournament_id": 14,
         "division": "senior",
         "name": "Marquardt Jr. High"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Marquart",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 15,
         "division": "senior",
         "name": "Marquart"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "MARQUART MIDDLE JR. HIGH"
       }
     ]
   },
