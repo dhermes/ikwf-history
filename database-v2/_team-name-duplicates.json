@@ -59625,48 +59625,6 @@
     ]
   },
   {
-    "name_normalized": "PALATINE CHARGERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "PALATINE CHARGERS"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "PALATINE CHARGERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "PALATINE CHARGERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "PALATINE CHARGERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "PALATINE CHARGERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "PALATINE P.D. CHARGERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "PALATINE P.D. CHARGERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "PALATINE P.D. SUNDLING",
     "url_path_slug": null,
     "duplicates": [
@@ -60181,6 +60139,52 @@
     ]
   },
   {
+    "name_normalized": "Palatine Chargers",
+    "url_path_slug": "palatine-chargers",
+    "duplicates": [
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Palatine Park District"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Palatine P.D."
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "PALATINE P.D. CHARGERS"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "PALATINE CHARGERS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "PALATINE CHARGERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "PALATINE CHARGERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "PALATINE CHARGERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "PALATINE CHARGERS"
+      }
+    ]
+  },
+  {
     "name_normalized": "Palatine Cobras WC",
     "url_path_slug": null,
     "duplicates": [
@@ -60265,17 +60269,6 @@
         "tournament_id": 39,
         "division": "senior",
         "name": "PALATINE JUNIOR PIRATES"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Palatine P.D.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Palatine P.D."
       }
     ]
   },
@@ -60392,17 +60385,6 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Palatine Panthers WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Palatine Park District",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Palatine Park District"
       }
     ]
   },
