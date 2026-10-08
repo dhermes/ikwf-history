@@ -63678,43 +63678,7 @@
   },
   {
     "name_normalized": "Quincy Cyclones WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Quincy Cyclones WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Quincy Cyclones WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Quincy Cyclones WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Quincy Cyclones WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Quincy Cyclones WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Quincy Cyclones WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Quincy Cyclones Wrestling",
-    "url_path_slug": null,
+    "url_path_slug": "quincy-cyclones",
     "duplicates": [
       {
         "tournament_id": 42,
@@ -63775,6 +63739,36 @@
         "tournament_id": 47,
         "division": "senior",
         "name": "Quincy Cyclones Wrestling"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Quincy Cyclones WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Quincy Cyclones WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Quincy Cyclones WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Quincy Cyclones WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Quincy Cyclones WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Quincy Cyclones WC"
       }
     ]
   },
