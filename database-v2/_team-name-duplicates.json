@@ -55184,9 +55184,24 @@
     "url_path_slug": "naperville-patriots",
     "duplicates": [
       {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Patriots"
+      },
+      {
         "tournament_id": 14,
         "division": "senior",
         "name": "Naperville Patriots"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Patriots"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Patriot WC"
       },
       {
         "tournament_id": 17,
@@ -61398,27 +61413,6 @@
         "tournament_id": 43,
         "division": "senior",
         "name": "Patriot Grappling Systems"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Patriot WC",
-    "url_path_slug": "patriot-wc",
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Patriots"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Patriots"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Patriot WC"
       }
     ]
   },
