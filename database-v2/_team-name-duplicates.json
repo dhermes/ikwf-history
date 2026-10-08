@@ -77079,6 +77079,26 @@
     "url_path_slug": "trimpe-junior-high",
     "duplicates": [
       {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Trimpe"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Trimpe"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Wilbur Trimpe Jr. High"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Wilbur Trimpe JH"
+      },
+      {
         "tournament_id": 18,
         "division": "senior",
         "name": "Trimpe Junior High"
@@ -81548,22 +81568,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Trico WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Trimpe",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Trimpe"
-      },
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Trimpe"
       }
     ]
   },
@@ -87516,28 +87520,6 @@
         "tournament_id": 50,
         "division": "senior",
         "name": "Whips WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Wilbur Trimpe JH",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Wilbur Trimpe JH"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Wilbur Trimpe Jr. High",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Wilbur Trimpe Jr. High"
       }
     ]
   },
