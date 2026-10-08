@@ -84180,32 +84180,6 @@
     ]
   },
   {
-    "name_normalized": "WARRENSBURG WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "WARRENSBURG WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "WARRENSBURG WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "WARRENSBURG WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "WARRENSBURG WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "WARRIOR WC (NILES)",
     "url_path_slug": null,
     "duplicates": [
@@ -84474,9 +84448,29 @@
     ]
   },
   {
-    "name_normalized": "Warrensburg WC",
-    "url_path_slug": null,
+    "name_normalized": "Warrensburg-Latham Jr Cardinals WC",
+    "url_path_slug": "warrensburg-latham",
     "duplicates": [
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "WARRENSBURG WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "WARRENSBURG WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "WARRENSBURG WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "WARRENSBURG WRESTLING"
+      },
       {
         "tournament_id": 31,
         "division": "novice",
@@ -84556,13 +84550,7 @@
         "tournament_id": 39,
         "division": "senior",
         "name": "WARRENSBURG WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Warrensburg-Latham Jr Cardinals WC",
-    "url_path_slug": "warrensburg-latham",
-    "duplicates": [
+      },
       {
         "tournament_id": 43,
         "division": "novice",
