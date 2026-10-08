@@ -22792,22 +22792,6 @@
     ]
   },
   {
-    "name_normalized": "E/P Junior Panthers",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "E/P JUNIOR PANTHERS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "E/P JUNIOR PANTHERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "EASTLAND MAT CATS",
     "url_path_slug": null,
     "duplicates": [
@@ -25660,6 +25644,16 @@
         "tournament_id": 38,
         "division": "senior",
         "name": "ERIE MIDDLE SCHOOL WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "E/P JUNIOR PANTHERS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "E/P JUNIOR PANTHERS"
       }
     ]
   },
