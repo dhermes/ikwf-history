@@ -60702,7 +60702,7 @@
   },
   {
     "name_normalized": "Panther Powerhouse WC",
-    "url_path_slug": null,
+    "url_path_slug": "panther-powerhouse",
     "duplicates": [
       {
         "tournament_id": 34,
@@ -60793,13 +60793,7 @@
         "tournament_id": 43,
         "division": "senior",
         "name": "Panther Powerhouse WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Panther Powerhouse Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 44,
         "division": "novice",
