@@ -11395,22 +11395,6 @@
     ]
   },
   {
-    "name_normalized": "CMPD WRESTLING WOLVERINES",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "CMPD WRESTLING WOLVERINES"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "CMPD WRESTLING WOLVERINES"
-      }
-    ]
-  },
-  {
     "name_normalized": "COLTS & BRAVES WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -11809,6 +11793,16 @@
         "tournament_id": 26,
         "division": "senior",
         "name": "CALUMET MEMORIAL PARK"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "CMPD WRESTLING WOLVERINES"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "CMPD WRESTLING WOLVERINES"
       },
       {
         "tournament_id": 35,
