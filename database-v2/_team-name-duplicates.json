@@ -11870,6 +11870,16 @@
         "name": "Calumet MPD Wolverines"
       },
       {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Wrestling Wolverines"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Wrestling Wolverines"
+      },
+      {
         "tournament_id": 43,
         "division": "novice",
         "name": "Calumet Memorial PD Wolverines"
@@ -88833,22 +88843,6 @@
         "tournament_id": 10050,
         "division": "senior",
         "name": "Wrestling Inc"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Wrestling Wolverines",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Wrestling Wolverines"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Wrestling Wolverines"
       }
     ]
   },
