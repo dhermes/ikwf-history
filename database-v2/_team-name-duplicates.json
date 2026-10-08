@@ -59625,17 +59625,6 @@
     ]
   },
   {
-    "name_normalized": "PALATINE P.D. SUNDLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "PALATINE P.D. SUNDLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "PANTHER CUB",
     "url_path_slug": null,
     "duplicates": [
@@ -60379,6 +60368,22 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Palatine Panthers WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Palatine Sundling Junior High",
+    "url_path_slug": "palatine-sundling",
+    "duplicates": [
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "PALATINE P.D. SUNDLING"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "SUNDLING JH CLUB PALATINE"
       }
     ]
   },
@@ -71038,17 +71043,6 @@
         "tournament_id": 28,
         "division": "senior",
         "name": "STREAMWOOD WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SUNDLING JH CLUB PALATINE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "SUNDLING JH CLUB PALATINE"
       }
     ]
   },
