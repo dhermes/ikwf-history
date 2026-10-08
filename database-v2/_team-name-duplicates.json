@@ -63673,6 +63673,56 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "QUINCY"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "QUINCY WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "QUINCY WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Quincy WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Quincy WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "QUINCY WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "QUINCY WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "QUINCY WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "QUINCY WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "QUINCY WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "QUINCY WC"
       }
     ]
   },
@@ -63865,62 +63915,6 @@
         "tournament_id": 54,
         "division": "intermediate_girls",
         "name": "Quincy Little Raiders WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Quincy WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "QUINCY WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "QUINCY WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Quincy WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Quincy WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "QUINCY WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "QUINCY WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "QUINCY WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "QUINCY WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "QUINCY WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "QUINCY WC"
       }
     ]
   },
