@@ -32847,70 +32847,6 @@
     ]
   },
   {
-    "name_normalized": "HOMEWOOD FLOSSMOOR PARK DISTRICT \"CATS\"",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "HOMEWOOD FLOSSMOOR PARK DISTRICT \"CATS\""
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "HOMEWOOD FLOSSMOOR PARK DISTRICT \"CATS\""
-      }
-    ]
-  },
-  {
-    "name_normalized": "HOMEWOOD-FLOSSMOOR",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "HOMEWOOD-FLOSSMOOR"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HOMEWOOD-FLOSSMOOR CATS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "HOMEWOOD-FLOSSMOOR CATS WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "HOMEWOOD-FLOSSMOOR CATS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HOMEWOOD-FLOSSMOOR PARK",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "HOMEWOOD-FLOSSMOOR PARK"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "HOMEWOOD-FLOSSMOOR PARK"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "HOMEWOOD-FLOSSMOOR PARK"
-      }
-    ]
-  },
-  {
     "name_normalized": "HPL Wrestling",
     "url_path_slug": null,
     "duplicates": [
@@ -36747,9 +36683,49 @@
     ]
   },
   {
-    "name_normalized": "Homewood-Flossmoor Cats",
-    "url_path_slug": null,
+    "name_normalized": "Homewood-Flossmoor RTC",
+    "url_path_slug": "homewood-flossmoor",
     "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "HOMEWOOD-FLOSSMOOR"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "HOMEWOOD-FLOSSMOOR CATS WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "HOMEWOOD-FLOSSMOOR CATS WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "HOMEWOOD FLOSSMOOR PARK DISTRICT \"CATS\""
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "HOMEWOOD FLOSSMOOR PARK DISTRICT \"CATS\""
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "HOMEWOOD-FLOSSMOOR PARK"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "HOMEWOOD-FLOSSMOOR PARK"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "HOMEWOOD-FLOSSMOOR PARK"
+      },
       {
         "tournament_id": 32,
         "division": "novice",
@@ -36759,13 +36735,7 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "HOMEWOOD-FLOSSMOOR CATS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Homewood-Flossmoor RTC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 54,
         "division": "bantam",
