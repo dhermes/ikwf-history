@@ -59710,7 +59710,7 @@
   },
   {
     "name_normalized": "PINCKNEYVILLE JR. PANTHERS",
-    "url_path_slug": null,
+    "url_path_slug": "pinckneyville",
     "duplicates": [
       {
         "tournament_id": 29,
@@ -59721,6 +59721,16 @@
         "tournament_id": 29,
         "division": "senior",
         "name": "PINCKNEYVILLE JR. PANTHERS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "PINCKNEYVILLE JR. PANTHERS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "PINCKNEYVILLE JR PANTHERS"
       }
     ]
   },
@@ -62264,22 +62274,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Petersburg WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Pinckneyville Jr",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "PINCKNEYVILLE JR. PANTHERS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "PINCKNEYVILLE JR PANTHERS"
       }
     ]
   },
