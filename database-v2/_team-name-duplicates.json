@@ -46939,90 +46939,6 @@
     ]
   },
   {
-    "name_normalized": "MARION",
-    "url_path_slug": "marion",
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "MARION"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "MARION"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "MARION"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MARION WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "MARION WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "MARION WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "MARION WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MARION WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "MARION WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "MARION WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MARION WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "MARION WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "MARION WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "MARION WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "MARION WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "MARQUART MIDDLE JR. HIGH",
     "url_path_slug": null,
     "duplicates": [
@@ -48996,8 +48912,68 @@
   },
   {
     "name_normalized": "Marion Youth Wrestling",
-    "url_path_slug": null,
+    "url_path_slug": "marion",
     "duplicates": [
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "MARION"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "MARION WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "MARION"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "MARION"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "MARION WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "MARION WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "MARION WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "MARION WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "MARION WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "MARION WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "MARION WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "MARION WRESTLING"
+      },
       {
         "tournament_id": 45,
         "division": "novice",
