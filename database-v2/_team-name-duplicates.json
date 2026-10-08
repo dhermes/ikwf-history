@@ -84180,37 +84180,6 @@
     ]
   },
   {
-    "name_normalized": "Warhawks",
-    "url_path_slug": "warhawks",
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Warhawks"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "WARHAWKS"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "WARHAWK WC"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "WARHAWKS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "WARHAWKS"
-      }
-    ]
-  },
-  {
     "name_normalized": "WARRENSBURG WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -84244,57 +84213,6 @@
         "tournament_id": 20,
         "division": "senior",
         "name": "WARRIOR WC (NILES)"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WASHINGTON JR PANTHERS",
-    "url_path_slug": "washington-jr-panthers",
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "WASHINGTON JR. PANTHERS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "WASHINGTON JR. PANTHERS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "WASHINGTON JR. PANTHERS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "WASHINGTON JR PANTHERS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "WASHINGTON JR PANTHERS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "WASHINGTON JR. PANTHERS"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "WASHINGTON JR PANTHERS"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "WASHINGTON JR. PANTHERS"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "WASHINGTON JR. PANTHERS"
       }
     ]
   },
@@ -84474,6 +84392,37 @@
         "tournament_id": 19,
         "division": "senior",
         "name": "Warhawk W.C. Woodstock"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Warhawks",
+    "url_path_slug": "warhawks",
+    "duplicates": [
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Warhawks"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "WARHAWKS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "WARHAWK WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "WARHAWKS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "WARHAWKS"
       }
     ]
   },
@@ -84907,13 +84856,18 @@
     ]
   },
   {
-    "name_normalized": "Washington",
-    "url_path_slug": null,
+    "name_normalized": "Washington Jr. Panthers",
+    "url_path_slug": "washington",
     "duplicates": [
       {
         "tournament_id": 8,
         "division": "senior",
         "name": "Washington"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Washington Jr. High"
       },
       {
         "tournament_id": 11,
@@ -84924,17 +84878,51 @@
         "tournament_id": 12,
         "division": "senior",
         "name": "Washington"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Washington Jr. High",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
-        "tournament_id": 9,
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "WASHINGTON JR. PANTHERS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "WASHINGTON JR. PANTHERS"
+      },
+      {
+        "tournament_id": 30,
         "division": "senior",
-        "name": "Washington Jr. High"
+        "name": "WASHINGTON JR. PANTHERS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "WASHINGTON JR PANTHERS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "WASHINGTON JR PANTHERS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "WASHINGTON JR. PANTHERS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "WASHINGTON JR PANTHERS"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "WASHINGTON JR. PANTHERS"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "WASHINGTON JR. PANTHERS"
       }
     ]
   },
