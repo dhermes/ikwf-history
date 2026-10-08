@@ -41003,22 +41003,6 @@
     ]
   },
   {
-    "name_normalized": "Junior Pirates",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Junior Pirates"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Junior Pirates"
-      }
-    ]
-  },
-  {
     "name_normalized": "Junior Raiders West WC",
     "url_path_slug": null,
     "duplicates": [
@@ -60041,6 +60025,16 @@
         "tournament_id": 39,
         "division": "senior",
         "name": "PALATINE JUNIOR PIRATES"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Junior Pirates"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Junior Pirates"
       }
     ]
   },
