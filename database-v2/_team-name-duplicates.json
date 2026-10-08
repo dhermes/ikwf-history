@@ -46966,37 +46966,6 @@
     ]
   },
   {
-    "name_normalized": "MATBURNS WC",
-    "url_path_slug": "matburns",
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Matburns WC"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Matburns WC"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Matburns Wrestling Club"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Matburns WC"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "MATBURNS WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "MEAD JH SCHOOL WC",
     "url_path_slug": null,
     "duplicates": [
@@ -49596,7 +49565,7 @@
   },
   {
     "name_normalized": "Matburns",
-    "url_path_slug": null,
+    "url_path_slug": "matburns",
     "duplicates": [
       {
         "tournament_id": 11,
@@ -49607,6 +49576,31 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Matburns"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Matburns WC"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Matburns WC"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Matburns Wrestling Club"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Matburns WC"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "MATBURNS WC"
       }
     ]
   },
