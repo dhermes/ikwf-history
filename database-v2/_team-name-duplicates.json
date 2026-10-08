@@ -46854,17 +46854,6 @@
     ]
   },
   {
-    "name_normalized": "MARCO KIDS WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "MARCO KIDS WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "MASCOUTAH WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -59709,32 +59698,6 @@
     ]
   },
   {
-    "name_normalized": "Pinckneyville Jr. Panthers",
-    "url_path_slug": "pinckneyville",
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "PINCKNEYVILLE JR. PANTHERS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "PINCKNEYVILLE JR. PANTHERS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "PINCKNEYVILLE JR. PANTHERS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "PINCKNEYVILLE JR PANTHERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "PIRATES",
     "url_path_slug": "pirates",
     "duplicates": [
@@ -59794,42 +59757,6 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "PLT PROPHETS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "POLO WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "POLO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "POLO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "POLO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "POLO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "POLO WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "POLO WRESTLING CLUB"
       }
     ]
   },
@@ -62278,6 +62205,32 @@
     ]
   },
   {
+    "name_normalized": "Pinckneyville Jr. Panthers",
+    "url_path_slug": "pinckneyville",
+    "duplicates": [
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "PINCKNEYVILLE JR. PANTHERS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "PINCKNEYVILLE JR. PANTHERS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "PINCKNEYVILLE JR. PANTHERS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "PINCKNEYVILLE JR PANTHERS"
+      }
+    ]
+  },
+  {
     "name_normalized": "Pitbull Wrestling Alliance",
     "url_path_slug": "pitbull",
     "duplicates": [
@@ -62754,8 +62707,43 @@
   },
   {
     "name_normalized": "Polo WC",
-    "url_path_slug": null,
+    "url_path_slug": "polo",
     "duplicates": [
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "MARCO KIDS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "POLO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "POLO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "POLO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "POLO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "POLO WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "POLO WRESTLING CLUB"
+      },
       {
         "tournament_id": 30,
         "division": "novice",
