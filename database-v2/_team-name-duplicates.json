@@ -34240,6 +34240,16 @@
     "url_path_slug": "oregon",
     "duplicates": [
       {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "OREGON MT. MORRIS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "OREGON-MT. MORRIS"
+      },
+      {
         "tournament_id": 41,
         "division": "novice",
         "name": "Hawk Wrestling Club"
@@ -57001,22 +57011,6 @@
         "tournament_id": 20,
         "division": "senior",
         "name": "OAK PARK RIVER FOREST WARHAWKS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "OREGON MT. MORRIS",
-    "url_path_slug": "oregon-mt-morris",
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "OREGON MT. MORRIS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "OREGON-MT. MORRIS"
       }
     ]
   },
