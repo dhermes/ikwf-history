@@ -41948,17 +41948,6 @@
     ]
   },
   {
-    "name_normalized": "LANCER",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "LANCER"
-      }
-    ]
-  },
-  {
     "name_normalized": "LARKIN",
     "url_path_slug": null,
     "duplicates": [
@@ -42987,9 +42976,14 @@
     ]
   },
   {
-    "name_normalized": "Lancer WC",
-    "url_path_slug": null,
+    "name_normalized": "Lancer Wrestling Club",
+    "url_path_slug": "lancer-wc",
     "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "LANCER"
+      },
       {
         "tournament_id": 32,
         "division": "novice",
@@ -43069,13 +43063,7 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Lancer WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lancer Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 45,
         "division": "novice",
@@ -47063,37 +47051,6 @@
         "tournament_id": 25,
         "division": "senior",
         "name": "MOLINE LIONS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Moline Spartans",
-    "url_path_slug": "moline-spartans",
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Moline Spartans"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Moline Spartans West"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "MOLINE SPARTANS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "MOLINE SPARTANS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "MOLINE SPARTANS"
       }
     ]
   },
@@ -51885,6 +51842,37 @@
     ]
   },
   {
+    "name_normalized": "Moline Spartans",
+    "url_path_slug": "moline-spartans",
+    "duplicates": [
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Moline Spartans"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Moline Spartans West"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "MOLINE SPARTANS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "MOLINE SPARTANS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "MOLINE SPARTANS"
+      }
+    ]
+  },
+  {
     "name_normalized": "Moline WC",
     "url_path_slug": "moline",
     "duplicates": [
@@ -54889,68 +54877,6 @@
     ]
   },
   {
-    "name_normalized": "Naperville Eagles",
-    "url_path_slug": "naperville-eagles",
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "NAPERVILLE EAGLES"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "NAPERVILLE EAGLES"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "NAPERVILLE EAGLES"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "NAPERVILLE EAGLES"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "NAPERVILLE EAGLES"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "NAPERVILLE EAGLES"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Naperville Lancers",
-    "url_path_slug": "naperville-lancers",
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Naperville Lancers"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "NAPERVILLE LANCERS"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "NAPERVILLE LANCERS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "NAPERVILLE LANCERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "NAPERVILLE PATRIOTS",
     "url_path_slug": "naperville-patriots",
     "duplicates": [
@@ -55168,6 +55094,42 @@
     ]
   },
   {
+    "name_normalized": "Naperville Eagles",
+    "url_path_slug": "naperville-eagles",
+    "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "NAPERVILLE EAGLES"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "NAPERVILLE EAGLES"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "NAPERVILLE EAGLES"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "NAPERVILLE EAGLES"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "NAPERVILLE EAGLES"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "NAPERVILLE EAGLES"
+      }
+    ]
+  },
+  {
     "name_normalized": "Naperville Hammer Huskies",
     "url_path_slug": null,
     "duplicates": [
@@ -55252,6 +55214,32 @@
         "tournament_id": 42,
         "division": "senior",
         "name": "Naperville Husky WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Naperville Lancers",
+    "url_path_slug": "naperville-lancers",
+    "duplicates": [
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Naperville Lancers"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "NAPERVILLE LANCERS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "NAPERVILLE LANCERS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "NAPERVILLE LANCERS"
       }
     ]
   },
