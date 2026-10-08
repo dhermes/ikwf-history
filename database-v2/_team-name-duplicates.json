@@ -69577,32 +69577,6 @@
     ]
   },
   {
-    "name_normalized": "SHAMROCK WRESTLING CLUB",
-    "url_path_slug": "shamrock-wrestling-club",
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "SHAMROCK WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "SHAMROCK WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Shamrock Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Shamrock Wrestling Club"
-      }
-    ]
-  },
-  {
     "name_normalized": "SHARKS WRESTLING CLUB",
     "url_path_slug": "sharks-wrestling-club",
     "duplicates": [
@@ -72064,9 +72038,19 @@
     ]
   },
   {
-    "name_normalized": "Shamrock WC",
-    "url_path_slug": null,
+    "name_normalized": "Shamrock Wrestling Club",
+    "url_path_slug": "shamrock",
     "duplicates": [
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "SHAMROCK WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "SHAMROCK WRESTLING CLUB"
+      },
       {
         "tournament_id": 10028,
         "division": "novice_iwf",
@@ -72176,6 +72160,16 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Shamrock WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Shamrock Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Shamrock Wrestling Club"
       }
     ]
   },
