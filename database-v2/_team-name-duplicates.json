@@ -34220,197 +34220,6 @@
     ]
   },
   {
-    "name_normalized": "Hawk WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Hawk WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Hawk WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Hawk WC Ltd.",
     "url_path_slug": null,
     "duplicates": [
@@ -34428,7 +34237,7 @@
   },
   {
     "name_normalized": "Hawk Wrestling Club",
-    "url_path_slug": null,
+    "url_path_slug": "oregon",
     "duplicates": [
       {
         "tournament_id": 41,
@@ -34439,6 +34248,191 @@
         "tournament_id": 41,
         "division": "senior",
         "name": "Hawk Wrestling Club"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Hawk WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Hawk WC"
       }
     ]
   },
@@ -54847,42 +54841,6 @@
     ]
   },
   {
-    "name_normalized": "Naperville Warriors",
-    "url_path_slug": "naperville-warriors",
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Naperville Warriors"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Naperville Warriors"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Naperville Warriors"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "NAPERVILLE WARRIORS"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "NAPERVILLE WARRIORS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "NAPERVILLE WARRIORS"
-      }
-    ]
-  },
-  {
     "name_normalized": "NEIGHBORHOODD HOUSE RAZORBACKS",
     "url_path_slug": null,
     "duplicates": [
@@ -55257,6 +55215,42 @@
         "tournament_id": 31,
         "division": "novice",
         "name": "NAPERVILLE WARHAWKS"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Naperville Warriors",
+    "url_path_slug": "naperville-warriors",
+    "duplicates": [
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Naperville Warriors"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Naperville Warriors"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Naperville Warriors"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "NAPERVILLE WARRIORS"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "NAPERVILLE WARRIORS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "NAPERVILLE WARRIORS"
       }
     ]
   },
