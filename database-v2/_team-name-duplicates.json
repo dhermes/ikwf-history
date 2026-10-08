@@ -61403,18 +61403,7 @@
   },
   {
     "name_normalized": "Patriot WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Patriot WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Patriots",
-    "url_path_slug": null,
+    "url_path_slug": "patriot-wc",
     "duplicates": [
       {
         "tournament_id": 13,
@@ -61425,6 +61414,11 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Patriots"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Patriot WC"
       }
     ]
   },
