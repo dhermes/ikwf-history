@@ -34220,22 +34220,6 @@
     ]
   },
   {
-    "name_normalized": "Hawk WC Ltd.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Hawk WC Ltd."
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Hawk WC Ltd."
-      }
-    ]
-  },
-  {
     "name_normalized": "Hawk Wrestling Club",
     "url_path_slug": "oregon",
     "duplicates": [
@@ -34290,6 +34274,26 @@
         "name": "Hawk WC"
       },
       {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Hawk Wrestling Club Ltd."
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Hawk Wrestling Club Ltd."
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Hawk WC Ltd."
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Hawk WC Ltd."
+      },
+      {
         "tournament_id": 47,
         "division": "novice",
         "name": "Hawk WC"
@@ -34443,22 +34447,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Hawk WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hawk Wrestling Club Ltd.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Hawk Wrestling Club Ltd."
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Hawk Wrestling Club Ltd."
       }
     ]
   },
