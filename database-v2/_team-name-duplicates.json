@@ -47076,6 +47076,11 @@
         "name": "Moline Spartans"
       },
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Moline Spartans West"
+      },
+      {
         "tournament_id": 26,
         "division": "novice",
         "name": "MOLINE SPARTANS"
@@ -51876,17 +51881,6 @@
         "tournament_id": 11,
         "division": "senior",
         "name": "Moline Deere"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Moline Spartans West",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Moline Spartans West"
       }
     ]
   },
