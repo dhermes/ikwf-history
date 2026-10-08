@@ -15823,7 +15823,7 @@
   },
   {
     "name_normalized": "Chicago Wolves Den",
-    "url_path_slug": null,
+    "url_path_slug": "chicago-wolves-den",
     "duplicates": [
       {
         "tournament_id": 36,
@@ -15859,13 +15859,7 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "CHICAGO WOLVES DEN"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Chicago Wolves Den WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 43,
         "division": "novice",
