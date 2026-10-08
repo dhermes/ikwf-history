@@ -42980,6 +42980,41 @@
     "url_path_slug": "lancer-wc",
     "duplicates": [
       {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Lancers"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Lancers Wrestling Club"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Lancers"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Lancer W.C."
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Lancers"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Lancers Wrestling Club"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Lancers W.C."
+      },
+      {
         "tournament_id": 23,
         "division": "senior",
         "name": "LANCER"
@@ -43073,47 +43108,6 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Lancer Wrestling Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lancers Wrestling Club",
-    "url_path_slug": "lancers-wc",
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Lancers"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Lancers Wrestling Club"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Lancers"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Lancer W.C."
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Lancers"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Lancers Wrestling Club"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Lancers W.C."
       }
     ]
   },
