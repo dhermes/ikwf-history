@@ -43077,13 +43077,18 @@
     ]
   },
   {
-    "name_normalized": "Lancers",
-    "url_path_slug": null,
+    "name_normalized": "Lancers Wrestling Club",
+    "url_path_slug": "lancers-wc",
     "duplicates": [
       {
         "tournament_id": 8,
         "division": "senior",
         "name": "Lancers"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Lancers Wrestling Club"
       },
       {
         "tournament_id": 13,
@@ -43104,28 +43109,11 @@
         "tournament_id": 18,
         "division": "senior",
         "name": "Lancers Wrestling Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lancers W.C.",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 19,
         "division": "senior",
         "name": "Lancers W.C."
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lancers Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Lancers Wrestling Club"
       }
     ]
   },
