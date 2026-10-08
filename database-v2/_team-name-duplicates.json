@@ -64073,37 +64073,6 @@
     ]
   },
   {
-    "name_normalized": "Roxana Vikings",
-    "url_path_slug": "roxana-vikings",
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Roxana Vikings"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Roxana Jr. High Vikings"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Roxana Vikings"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "ROXANA VIKINGS"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "ROXANA VIKINGS"
-      }
-    ]
-  },
-  {
     "name_normalized": "RTC Wrestling",
     "url_path_slug": null,
     "duplicates": [
@@ -68964,6 +68933,37 @@
     ]
   },
   {
+    "name_normalized": "Roxana Vikings",
+    "url_path_slug": "roxana-vikings",
+    "duplicates": [
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Roxana Vikings"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Roxana Jr. High Vikings"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Roxana Vikings"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "ROXANA VIKINGS"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "ROXANA VIKINGS"
+      }
+    ]
+  },
+  {
     "name_normalized": "Roxana Wrestling Club",
     "url_path_slug": "roxana",
     "duplicates": [
@@ -69573,153 +69573,6 @@
         "tournament_id": 54,
         "division": "senior",
         "name": "SCN Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SENECA",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "SENECA"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "SENECA"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SENECA IRISH CADETS",
-    "url_path_slug": "seneca-irish-cadets",
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Seneca Irish Cadets"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Seneca Irish Cadets"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "SENECA IRISH CADETS"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Seneca Irish Cadets"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Seneca Irish Cadets"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Seneca Irish Cadets"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Seneca Irish Cadets"
       }
     ]
   },
@@ -71938,9 +71791,144 @@
     ]
   },
   {
-    "name_normalized": "Seneca Irish Cadets WC",
-    "url_path_slug": null,
+    "name_normalized": "Seneca Irish Cadets",
+    "url_path_slug": "seneca",
     "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "SENECA"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "SENECA"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Seneca Irish Cadets"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Seneca Irish Cadets"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "SENECA IRISH CADETS"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Seneca Irish Cadets"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Seneca Irish Cadets"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Seneca Irish Cadets"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Seneca Irish Cadets"
+      },
       {
         "tournament_id": 43,
         "division": "novice",
