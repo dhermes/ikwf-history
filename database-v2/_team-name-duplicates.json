@@ -49846,6 +49846,21 @@
     "url_path_slug": "maywood",
     "duplicates": [
       {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "PIRATES"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "PIRATES"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "PIRATES"
+      },
+      {
         "tournament_id": 24,
         "division": "novice",
         "name": "MAYWOOD PIRATES WC"
@@ -62182,27 +62197,6 @@
         "tournament_id": 31,
         "division": "senior",
         "name": "PINCKNEYVILLE JR PANTHERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Pirates",
-    "url_path_slug": "pirates",
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "PIRATES"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "PIRATES"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "PIRATES"
       }
     ]
   },
