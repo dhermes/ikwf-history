@@ -37845,28 +37845,6 @@
     ]
   },
   {
-    "name_normalized": "IRISH CADET WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "IRISH CADET WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "IRISH CADETS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "IRISH CADETS"
-      }
-    ]
-  },
-  {
     "name_normalized": "ISI WC",
     "url_path_slug": "isi",
     "duplicates": [
@@ -38537,62 +38515,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Integrity Elite Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Irish WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Irish WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Irish WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Irish WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Irish WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Irish WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Irish WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Irish WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Irish WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Irish WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Irish WC"
       }
     ]
   },
@@ -69577,177 +69499,6 @@
     ]
   },
   {
-    "name_normalized": "Sharks WC",
-    "url_path_slug": "sharks",
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "SHARKS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "SHARKS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "SHARKS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "SHARKS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "SHARKS WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "SHARKS WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "SHARKS WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "SHARKS WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "SHARKS WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "SHARKS WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Sharks Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Sharks Wrestling Club"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Sharks WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Sharks WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "SHERRARD JR WC",
     "url_path_slug": "sherrard",
     "duplicates": [
@@ -71914,6 +71665,16 @@
     "url_path_slug": "seneca",
     "duplicates": [
       {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "IRISH CADETS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "IRISH CADET WC"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "SENECA"
@@ -72067,6 +71828,56 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Seneca Irish Cadets WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Irish WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Irish WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Irish WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Irish WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Irish WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Irish WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Irish WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Irish WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Irish WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Irish WC"
       }
     ]
   },
@@ -72315,6 +72126,177 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Shamrock Wrestling Club"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Sharks WC",
+    "url_path_slug": "sharks",
+    "duplicates": [
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "SHARKS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "SHARKS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "SHARKS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "SHARKS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "SHARKS WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "SHARKS WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "SHARKS WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "SHARKS WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "SHARKS WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "SHARKS WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Sharks Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Sharks Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Sharks WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Sharks WC"
       }
     ]
   },
