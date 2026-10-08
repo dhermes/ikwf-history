@@ -70263,9 +70263,29 @@
   },
   {
     "name_normalized": "Saber WC",
-    "url_path_slug": null,
+    "url_path_slug": "saber",
     "duplicates": [
       {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Saber Wrestling Club"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Saber Wrestling Club"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Saber Wrestling Club"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Saber Wrestling Club"
+      },
+      {
         "tournament_id": 43,
         "division": "novice",
         "name": "Saber WC"
@@ -70284,6 +70304,16 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Saber WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Saber Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Saber Wrestling Club"
       },
       {
         "tournament_id": 46,
@@ -70419,42 +70449,6 @@
         "tournament_id": 54,
         "division": "bantam_girls",
         "name": "Saber WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Saber Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Saber Wrestling Club"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Saber Wrestling Club"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Saber Wrestling Club"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Saber Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Saber Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Saber Wrestling Club"
       }
     ]
   },
