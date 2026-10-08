@@ -40964,8 +40964,8 @@
     ]
   },
   {
-    "name_normalized": "Junior Patriots",
-    "url_path_slug": null,
+    "name_normalized": "Junior Patriots WC",
+    "url_path_slug": "junior-patriots",
     "duplicates": [
       {
         "tournament_id": 39,
@@ -40976,13 +40976,17 @@
         "tournament_id": 39,
         "division": "senior",
         "name": "JUNIOR PATRIOTS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Junior Patriots WC",
-    "url_path_slug": "junior-patriots",
-    "duplicates": [
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Junior Patriots Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Junior Patriots Wrestling Club"
+      },
       {
         "tournament_id": 52,
         "division": "novice",
@@ -41027,22 +41031,6 @@
         "tournament_id": 54,
         "division": "novice",
         "name": "Junior Patriots WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Junior Patriots Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Junior Patriots Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Junior Patriots Wrestling Club"
       }
     ]
   },
@@ -54859,67 +54847,6 @@
     ]
   },
   {
-    "name_normalized": "Naperville Patriots",
-    "url_path_slug": "naperville-patriots",
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Naperville Patriots"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Naperville Patriots"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Naperville Patriots"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Naperville Patriots"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "NAPERVILLE PATRIOTS WRESTLING"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "NAPERVILLE PATRIOTS"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "NAPERVILLE PATRIOTS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "NAPERVILLE PATRIOTS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "NAPERVILLE PATRIOTS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "NAPERVILLE PATRIOTS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "NAPERVILLE PATRIOTS"
-      }
-    ]
-  },
-  {
     "name_normalized": "NAPERVILLE WARHAWKS",
     "url_path_slug": "naperville-warhawks",
     "duplicates": [
@@ -55249,6 +55176,67 @@
         "tournament_id": 12,
         "division": "senior",
         "name": "Naperville Park District"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Naperville Patriots",
+    "url_path_slug": "naperville-patriots",
+    "duplicates": [
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Naperville Patriots"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Naperville Patriots"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Naperville Patriots"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Naperville Patriots"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "NAPERVILLE PATRIOTS WRESTLING"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "NAPERVILLE PATRIOTS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "NAPERVILLE PATRIOTS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "NAPERVILLE PATRIOTS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "NAPERVILLE PATRIOTS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "NAPERVILLE PATRIOTS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "NAPERVILLE PATRIOTS"
       }
     ]
   },
