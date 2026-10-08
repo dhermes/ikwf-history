@@ -32780,6 +32780,52 @@
     ]
   },
   {
+    "name_normalized": "HF Spartan Elite WC",
+    "url_path_slug": "hf-spartan",
+    "duplicates": [
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "HF Spartan Elite WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "HF Spartan Elite WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "HF Spartan Elite WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "HF Spartan Elite WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "HF Spartan Elite WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "HF Spartan Elite WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "HF Elite WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "HF Elite WC"
+      }
+    ]
+  },
+  {
     "name_normalized": "HOFFMAN ESTATES WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -35116,58 +35162,6 @@
         "tournament_id": 54,
         "division": "senior",
         "name": "Herrin Tiger Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hf Elite WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "HF Elite WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "HF Elite WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hf Spartan Elite WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "HF Spartan Elite WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "HF Spartan Elite WC"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "HF Spartan Elite WC"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "HF Spartan Elite WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "HF Spartan Elite WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "HF Spartan Elite WC"
       }
     ]
   },
@@ -77075,42 +77069,6 @@
     ]
   },
   {
-    "name_normalized": "Trimpe Junior High",
-    "url_path_slug": "trimpe",
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Trimpe"
-      },
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Trimpe"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Wilbur Trimpe Jr. High"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Wilbur Trimpe JH"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Trimpe Junior High"
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "TRIMPE JUNIOR HIGH"
-      }
-    ]
-  },
-  {
     "name_normalized": "Takedown WC",
     "url_path_slug": null,
     "duplicates": [
@@ -81568,6 +81526,42 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Trico WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Trimpe Junior High",
+    "url_path_slug": "trimpe",
+    "duplicates": [
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Trimpe"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Trimpe"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Wilbur Trimpe Jr. High"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Wilbur Trimpe JH"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Trimpe Junior High"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "TRIMPE JUNIOR HIGH"
       }
     ]
   },
