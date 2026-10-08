@@ -60102,35 +60102,14 @@
     ]
   },
   {
-    "name_normalized": "Palatine",
-    "url_path_slug": "palatine",
+    "name_normalized": "Palatine Chargers",
+    "url_path_slug": "palatine-chargers",
     "duplicates": [
       {
         "tournament_id": 2,
         "division": "senior",
         "name": "Palatine"
       },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "PALATINE"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "PALATINE"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "junior_iwf",
-        "name": "Palatine"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Palatine Chargers",
-    "url_path_slug": "palatine-chargers",
-    "duplicates": [
       {
         "tournament_id": 8,
         "division": "senior",
@@ -60157,6 +60136,16 @@
         "name": "PALATINE CHARGERS"
       },
       {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "PALATINE"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "PALATINE"
+      },
+      {
         "tournament_id": 24,
         "division": "novice",
         "name": "PALATINE CHARGERS"
@@ -60170,6 +60159,11 @@
         "tournament_id": 25,
         "division": "senior",
         "name": "PALATINE CHARGERS"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "junior_iwf",
+        "name": "Palatine"
       }
     ]
   },
