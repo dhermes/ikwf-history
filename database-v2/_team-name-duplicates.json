@@ -512,6 +512,22 @@
     ]
   },
   {
+    "name_normalized": "ATTWarHawks Wrestling Club",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "ATTWarHawks Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "ATTWarHawks Wrestling Club"
+      }
+    ]
+  },
+  {
     "name_normalized": "Academy Grapplers",
     "url_path_slug": null,
     "duplicates": [
@@ -3316,22 +3332,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Astro WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ATTWarHawks Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "ATTWarHawks Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "ATTWarHawks Wrestling Club"
       }
     ]
   },
@@ -54847,47 +54847,6 @@
     ]
   },
   {
-    "name_normalized": "NAPERVILLE WARHAWKS",
-    "url_path_slug": "naperville-warhawks",
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Naperville Warhawks"
-      },
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Naperville Warhawks"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Naperville Warhawks"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Naperville Warhawks"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "NAPERVILLE WARHAWKS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "NAPERVILLE WARHAWKS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "NAPERVILLE WARHAWKS"
-      }
-    ]
-  },
-  {
     "name_normalized": "NAPERVILLE WARRIORS",
     "url_path_slug": "naperville-warriors",
     "duplicates": [
@@ -55252,6 +55211,52 @@
         "tournament_id": 29,
         "division": "senior",
         "name": "NAPERVILLE PATRIOTS"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Naperville Warhawks",
+    "url_path_slug": "naperville-warhawks",
+    "duplicates": [
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Naperville Warhawks"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Naperville Warhawks"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Naperville Warhawks"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Naperville Warhawks"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Warhawk WC Naperville"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "NAPERVILLE WARHAWKS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "NAPERVILLE WARHAWKS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "NAPERVILLE WARHAWKS"
       }
     ]
   },
@@ -84985,17 +84990,6 @@
         "tournament_id": 19,
         "division": "senior",
         "name": "Warhawk W.C. Woodstock"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Warhawk WC Naperville",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Warhawk WC Naperville"
       }
     ]
   },
