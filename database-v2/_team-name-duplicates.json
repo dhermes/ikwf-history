@@ -59677,27 +59677,6 @@
     ]
   },
   {
-    "name_normalized": "Peoria",
-    "url_path_slug": "peoria",
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Peoria"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "PEORIA"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "PEORIA"
-      }
-    ]
-  },
-  {
     "name_normalized": "PIRATES",
     "url_path_slug": "pirates",
     "duplicates": [
@@ -61317,61 +61296,70 @@
     ]
   },
   {
-    "name_normalized": "Peoria Heights Minutemen",
-    "url_path_slug": null,
+    "name_normalized": "Peoria",
+    "url_path_slug": "peoria",
     "duplicates": [
       {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Peoria Heights Minutemen"
-      },
-      {
-        "tournament_id": 37,
+        "tournament_id": 13,
         "division": "senior",
-        "name": "Peoria Heights Minutemen"
+        "name": "Peoria"
       },
       {
-        "tournament_id": 40,
+        "tournament_id": 23,
         "division": "novice",
-        "name": "PEORIA HEIGHTS MINUTEMEN"
+        "name": "PEORIA"
       },
       {
-        "tournament_id": 40,
+        "tournament_id": 23,
         "division": "senior",
-        "name": "PEORIA HEIGHTS MINUTEMEN"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Peoria Heights Minutemen"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Peoria Heights Minutemen"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Peoria Heights Minutemen Jr Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "PEORIA HEIGHTS MINUTEMEN JR WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "PEORIA HEIGHTS MINUTEMEN JR WRESTLING"
+        "name": "PEORIA"
       }
     ]
   },
   {
     "name_normalized": "Peoria Heights Minutemen WC",
-    "url_path_slug": null,
+    "url_path_slug": "peoria-heights",
     "duplicates": [
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Peoria Heights Minutemen"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Peoria Heights Minutemen"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "PEORIA HEIGHTS MINUTEMEN JR WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "PEORIA HEIGHTS MINUTEMEN JR WRESTLING"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "PEORIA HEIGHTS MINUTEMEN"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "PEORIA HEIGHTS MINUTEMEN"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Peoria Heights Minutemen"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Peoria Heights Minutemen"
+      },
       {
         "tournament_id": 42,
         "division": "novice",
