@@ -79586,8 +79586,28 @@
   },
   {
     "name_normalized": "Timber Wolves WC",
-    "url_path_slug": null,
+    "url_path_slug": "timber-wolves",
     "duplicates": [
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Timberwolves WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Timberwolves WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "TIMBERWOLVES WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "TIMBERWOLVES WC"
+      },
       {
         "tournament_id": 42,
         "division": "novice",
@@ -79712,32 +79732,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Timber Wolves WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Timberwolves WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Timberwolves WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Timberwolves WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "TIMBERWOLVES WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "TIMBERWOLVES WC"
       }
     ]
   },
