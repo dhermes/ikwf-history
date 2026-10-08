@@ -65104,22 +65104,6 @@
     ]
   },
   {
-    "name_normalized": "Rc Jr. Panthers Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "RC Jr. Panthers Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "RC Jr. Panthers Wrestling Club"
-      }
-    ]
-  },
-  {
     "name_normalized": "Rebels WC",
     "url_path_slug": null,
     "duplicates": [
@@ -65434,6 +65418,16 @@
         "tournament_id": 43,
         "division": "senior",
         "name": "Reed Custer Knights WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "RC Jr. Panthers Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "RC Jr. Panthers Wrestling Club"
       },
       {
         "tournament_id": 10050,
