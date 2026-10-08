@@ -63651,7 +63651,7 @@
     ]
   },
   {
-    "name_normalized": "Quincy",
+    "name_normalized": "Quincy Little Raiders WC",
     "url_path_slug": "quincy",
     "duplicates": [
       {
@@ -63723,13 +63723,7 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "QUINCY WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Quincy Cyclones WC",
-    "url_path_slug": "quincy-cyclones",
-    "duplicates": [
+      },
       {
         "tournament_id": 42,
         "division": "novice",
@@ -63819,13 +63813,7 @@
         "tournament_id": 10050,
         "division": "senior",
         "name": "Quincy Cyclones WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Quincy Little Raiders WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 52,
         "division": "novice",
