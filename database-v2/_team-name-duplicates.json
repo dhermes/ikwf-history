@@ -63660,6 +63660,11 @@
         "name": "Quincy"
       },
       {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "QUINCY / JR. HIGH WC"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "QUINCY"
@@ -63668,17 +63673,6 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "QUINCY"
-      }
-    ]
-  },
-  {
-    "name_normalized": "QUINCY / JR. HIGH WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "QUINCY / JR. HIGH WC"
       }
     ]
   },
