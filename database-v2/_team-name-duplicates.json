@@ -47041,88 +47041,6 @@
     ]
   },
   {
-    "name_normalized": "METRO STALLIONS",
-    "url_path_slug": "metro-stallions",
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "METRO STALLIONS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "METRO STALLIONS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "METRO STALLIONS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "METRO STALLIONS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "METRO STALLIONS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "METRO STALLIONS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "METRO STALLIONS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "METRO STALLIONS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "METRO STALLIONS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "METRO STALLIONS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "METRO STALLIONS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "METRO STALLIONS"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "METRO STALLIONS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "METRO STALLIONS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "METRO STALLIONS WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "MOLINE LIONS",
     "url_path_slug": null,
     "duplicates": [
@@ -51211,6 +51129,82 @@
         "tournament_id": 54,
         "division": "novice_girls",
         "name": "Metamora Kids WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Metro Stallions WC",
+    "url_path_slug": "metro-stallions",
+    "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "METRO STALLIONS WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "METRO STALLIONS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "METRO STALLIONS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "METRO STALLIONS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "METRO STALLIONS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "METRO STALLIONS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "METRO STALLIONS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "METRO STALLIONS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "METRO STALLIONS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "METRO STALLIONS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "METRO STALLIONS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "METRO STALLIONS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "METRO STALLIONS"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "METRO STALLIONS"
       }
     ]
   },
