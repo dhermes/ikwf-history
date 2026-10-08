@@ -70758,88 +70758,6 @@
     ]
   },
   {
-    "name_normalized": "ST. TARCISSUS",
-    "url_path_slug": "st-tarcissus",
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "St. Tarcissus"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "St. Tarcissus"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "St. Tarcissus"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "St. Tarcissus"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "St. Tarcissus"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "ST. TARCISSUS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "ST. TARCISSUS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ST. TARCISSUS RAIDERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "ST. TARCISSUS RAIDERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "ST. TARCISSUS RAIDERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "ST. TARCISSUS RAIDERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "ST. TARCISSUS RAIDERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "ST. TARCISSUS RAIDERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "ST. TARCISSUS RAIDERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "ST. TARCISSUS RAIDERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "STC WC II",
     "url_path_slug": null,
     "duplicates": [
@@ -74853,8 +74771,33 @@
   },
   {
     "name_normalized": "St. Tarcissus Raiders WC",
-    "url_path_slug": null,
+    "url_path_slug": "st-tarcissus",
     "duplicates": [
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "St. Tarcissus"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "St. Tarcissus"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "St. Tarcissus"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "St. Tarcissus"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "St. Tarcissus"
+      },
       {
         "tournament_id": 15,
         "division": "senior",
@@ -74879,6 +74822,56 @@
         "tournament_id": 21,
         "division": "senior",
         "name": "ST. TARCISSUS RAIDERS"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "ST. TARCISSUS RAIDERS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "ST. TARCISSUS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "ST. TARCISSUS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "ST. TARCISSUS RAIDERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "ST. TARCISSUS RAIDERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "ST. TARCISSUS RAIDERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "ST. TARCISSUS RAIDERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "ST. TARCISSUS RAIDERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "ST. TARCISSUS RAIDERS"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "St. Tars"
       },
       {
         "tournament_id": 33,
@@ -74974,17 +74967,6 @@
         "tournament_id": 46,
         "division": "senior",
         "name": "St. Tarcissus WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "St. Tars",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "St. Tars"
       }
     ]
   },
