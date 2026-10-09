@@ -26,11 +26,7 @@
       "name": "Dempsey",
       "team": "Naperville"
     },
-    {
-      "id": 5,
-      "name": "Wrestler 6",
-      "team": "Team 6"
-    },
+    null,
     {
       "id": 6,
       "name": "Cawson",
@@ -56,11 +52,7 @@
       "name": "Nowak",
       "team": "Wheaton Franklin"
     },
-    {
-      "id": 11,
-      "name": "Wrestler 12",
-      "team": "Team 12"
-    },
+    null,
     {
       "id": 12,
       "name": "Ed Giese",
@@ -86,11 +78,7 @@
       "name": "Nelson",
       "team": "Champaign"
     },
-    {
-      "id": 17,
-      "name": "Wrestler 18",
-      "team": "Team 18"
-    },
+    null,
     {
       "id": 18,
       "name": "Ed DeBevec",
@@ -101,11 +89,7 @@
       "name": "Jim Maddock",
       "team": "Marshall"
     },
-    {
-      "id": 20,
-      "name": "Wrestler 21",
-      "team": "Team 21"
-    },
+    null,
     {
       "id": 21,
       "name": "Vickens",
@@ -116,11 +100,7 @@
       "name": "Govoni",
       "team": "Joliet Boy's Club"
     },
-    {
-      "id": 23,
-      "name": "Wrestler 24",
-      "team": "Team 24"
-    }
+    null
   ],
   "matches": {
     "1": {
