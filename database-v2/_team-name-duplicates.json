@@ -59433,6 +59433,11 @@
     "url_path_slug": "panther",
     "duplicates": [
       {
+        "tournament_id": 7,
+        "division": "senior",
+        "name": "Panther"
+      },
+      {
         "tournament_id": 22,
         "division": "senior",
         "name": "PANTHER WC"
@@ -60087,17 +60092,6 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Palos South"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Panther",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 7,
-        "division": "senior",
-        "name": "Panther"
       }
     ]
   },
