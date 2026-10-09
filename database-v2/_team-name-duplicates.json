@@ -60666,62 +60666,6 @@
     ]
   },
   {
-    "name_normalized": "Panther WC",
-    "url_path_slug": "panther",
-    "duplicates": [
-      {
-        "tournament_id": 7,
-        "division": "senior",
-        "name": "Panther"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "PANTHER WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "PANTHER WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "PANTHER WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "PANTHER WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Panther WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Panther WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Panther WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Panther WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Panther WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Panther Wrestling Club",
     "url_path_slug": "burbank-panther",
     "duplicates": [
@@ -60729,6 +60673,11 @@
         "tournament_id": 6,
         "division": "senior",
         "name": "Burbank"
+      },
+      {
+        "tournament_id": 7,
+        "division": "senior",
+        "name": "Panther"
       },
       {
         "tournament_id": 8,
@@ -60803,7 +60752,7 @@
       {
         "tournament_id": 22,
         "division": "senior",
-        "name": "PANTHER WRESTLING"
+        "name": "PANTHER WC"
       },
       {
         "tournament_id": 23,
@@ -60814,6 +60763,21 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "PANTHER BURBANK"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "PANTHER WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "PANTHER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "PANTHER WRESTLING CLUB"
       },
       {
         "tournament_id": 10028,
@@ -61007,6 +60971,31 @@
       },
       {
         "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Panther WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Panther WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Panther WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Panther WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Panther WC"
+      },
+      {
+        "tournament_id": 54,
         "division": "senior_girls",
         "name": "Panther WC"
       }
