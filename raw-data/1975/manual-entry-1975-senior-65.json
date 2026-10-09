@@ -11,11 +11,7 @@
       "name": "Kirk Fowler",
       "team": "West Chicago"
     },
-    {
-      "id": 2,
-      "name": "BYE",
-      "team": "BYE"
-    },
+    null,
     {
       "id": 3,
       "name": "Ricky Criscione",
@@ -26,11 +22,7 @@
       "name": "Benny Baltzar",
       "team": "Portage Park"
     },
-    {
-      "id": 5,
-      "name": "BYE",
-      "team": "BYE"
-    },
+    null,
     {
       "id": 6,
       "name": "Rob Bearce",
@@ -41,11 +33,7 @@
       "name": "David Haskell",
       "team": "Mattoon"
     },
-    {
-      "id": 8,
-      "name": "BYE",
-      "team": "BYE"
-    },
+    null,
     {
       "id": 9,
       "name": "Don Stuckley",
@@ -56,11 +44,7 @@
       "name": "Stew Widlowski",
       "team": "Hufford"
     },
-    {
-      "id": 11,
-      "name": "BYE",
-      "team": "BYE"
-    },
+    null,
     {
       "id": 12,
       "name": "Bill Horcher",
@@ -71,11 +55,7 @@
       "name": "Davis",
       "team": "Granite City"
     },
-    {
-      "id": 14,
-      "name": "BYE",
-      "team": "BYE"
-    },
+    null,
     {
       "id": 15,
       "name": "Kevin Dieball",
@@ -86,11 +66,7 @@
       "name": "Pete Wirtas",
       "team": "Woodridge"
     },
-    {
-      "id": 17,
-      "name": "BYE",
-      "team": "BYE"
-    },
+    null,
     {
       "id": 18,
       "name": "Kurt Sampson",
@@ -101,11 +77,7 @@
       "name": "Dennis Gilley",
       "team": "Belvidere"
     },
-    {
-      "id": 20,
-      "name": "BYE",
-      "team": "BYE"
-    },
+    null,
     {
       "id": 21,
       "name": "Mark Ruettiger",
@@ -116,11 +88,7 @@
       "name": "Tony Pellegrini",
       "team": "Hazel Crest"
     },
-    {
-      "id": 23,
-      "name": "BYE",
-      "team": "BYE"
-    }
+    null
   ],
   "matches": {
     "1": {
