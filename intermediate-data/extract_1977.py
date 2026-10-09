@@ -3,9 +3,10 @@
 import pathlib
 
 import bracket_utils
+import manual_entry
 from PIL import Image
 
-HERE = pathlib.Path(__file__).resolve().parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _SENIOR_TEAM_REPLACE: dict[str, str] = {}
 _SENIOR_CHAMPS: dict[int, bracket_utils.Placer] = {
     60: bracket_utils.Placer(name="Troy Doughman", team="Elmhurst"),
@@ -33,34 +34,6 @@ _SENIOR_PLACERS: dict[int, list[bracket_utils.Placer]] = {
         bracket_utils.Placer(name="Ken Mansell", team="Joliet Boy's Club"),
         bracket_utils.Placer(name="Mike Smith", team="Stillman Valley"),
         bracket_utils.Placer(name="Jack Sale", team="Mahomet"),
-    ],
-}
-_SENIOR_COMPETITORS: dict[int, list[str | None]] = {
-    85: [
-        "Jerry Miller :: Granite City :: 6",
-        "Marcus Gunaka :: Tinley Park",
-        "Walsh :: St. Thecla",
-        "Sampson :: Moline",
-        "Dempsey :: Naperville",
-        None,
-        "Cawson :: Huntley",
-        "Bill Kelly :: Chicago Ridge :: 2",
-        "Jaraczewski :: Panther",
-        "Keith Rodgers :: Plainfield :: 3",
-        "Nowak :: Wheaton Franklin",
-        None,
-        "Ed Giese :: Franklin Park :: 1",
-        "Tieman :: Bellevile West",
-        "Sloan :: Pontiac",
-        "McCausland :: Wheaton Franklin",
-        "Nelson :: Champaign",
-        None,
-        "Ed DeBevec :: Tinley Park :: 4",
-        "Jim Maddock :: Marshall :: 5",
-        None,
-        "Vickens :: Lake Villa",
-        "Govoni :: Joliet Boy's Club",
-        None,
     ],
 }
 _SENIOR_TEAM_SCORES: dict[str, float] = {
@@ -189,10 +162,10 @@ def _create_placers_image_row(
 def _generate_placers_image(year: int):
     all_weights = set(_SENIOR_CHAMPS.keys())
     all_weights.update(_SENIOR_PLACERS.keys())
-    all_weights.update(_SENIOR_COMPETITORS.keys())
+    all_weights.add(85)  # Hard-coding manual entry
     weights = sorted(all_weights)
 
-    raw_root = HERE.parent / "raw-data" / str(year)
+    raw_root = _HERE.parent / "raw-data" / str(year)
     headshots = [
         Image.open(raw_root / "placers-headshot" / f"{weight}.jpg")
         for weight in weights
@@ -246,7 +219,7 @@ def _generate_placers_image(year: int):
             row, (width_offset + (row_width - row.width) // 2, height_offset)
         )
 
-    static_dir = HERE.parent / "static" / "static" / "images"
+    static_dir = _HERE.parent / "static" / "static" / "images"
     save_location = static_dir / f"{year}-senior-placers.png"
     final_img.save(save_location)
 
@@ -261,7 +234,10 @@ def main():
             bracket_utils.TeamScore(team=team_name, score=score)
         )
 
-    weight_classes: list[bracket_utils.WeightClass] = []
+    weight_classes = manual_entry.load_manual_entries(
+        _HERE.parent, 1977, _NAME_EXCEPTIONS, skip_duplicate_check=True
+    )
+
     for weight, champ in _SENIOR_CHAMPS.items():
         weight_class = bracket_utils.weight_class_from_champ(
             "senior", weight, champ, _SENIOR_TEAM_REPLACE
@@ -274,23 +250,11 @@ def main():
         )
         weight_classes.append(weight_class)
 
-    for weight, competitors in _SENIOR_COMPETITORS.items():
-        bout_numbers = {}
-        weight_class = bracket_utils.weight_class_from_competitors(
-            "senior",
-            weight,
-            competitors,
-            _SENIOR_TEAM_REPLACE,
-            _NAME_EXCEPTIONS,
-            bout_numbers,
-        )
-        weight_classes.append(weight_class)
-
     extracted = bracket_utils.ExtractedTournament(
         weight_classes=weight_classes, team_scores=team_scores, deductions=[]
     )
     extracted.sort()
-    with open(HERE / "extracted.1977.json", "w") as file_obj:
+    with open(_HERE / "extracted.1977.json", "w") as file_obj:
         file_obj.write(extracted.model_dump_json(indent=2))
         file_obj.write("\n")
 

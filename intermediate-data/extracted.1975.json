@@ -25,18 +25,403 @@
       "weight": 65,
       "matches": [
         {
-          "match_slot": "championship_first_place",
+          "match_slot": "championship_r16_01",
           "top_competitor": {
+            "full_name": "David Harris",
+            "first_name": "David",
+            "last_name": "Harris",
+            "team_full": "Belleville"
+          },
+          "bottom_competitor": {
+            "full_name": "Kirk Fowler",
+            "first_name": "Kirk",
+            "last_name": "Fowler",
+            "team_full": "West Chicago"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_02",
+          "top_competitor": {
+            "full_name": "Ricky Criscione",
+            "first_name": "Ricky",
+            "last_name": "Criscione",
+            "team_full": "New Lenox Oakview"
+          },
+          "bottom_competitor": {
+            "full_name": "Benny Baltzar",
+            "first_name": "Benny",
+            "last_name": "Baltzar",
+            "team_full": "Portage Park"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_03",
+          "top_competitor": {
+            "full_name": "Rob Bearce",
+            "first_name": "Rob",
+            "last_name": "Bearce",
+            "team_full": "Savanna"
+          },
+          "bottom_competitor": {
+            "full_name": "David Haskell",
+            "first_name": "David",
+            "last_name": "Haskell",
+            "team_full": "Mattoon"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_04",
+          "top_competitor": {
+            "full_name": "Don Stuckley",
+            "first_name": "Don",
+            "last_name": "Stuckley",
+            "team_full": "Tinley Park Bulldogs"
+          },
+          "bottom_competitor": {
+            "full_name": "Stew Widlowski",
+            "first_name": "Stew",
+            "last_name": "Widlowski",
+            "team_full": "Hufford"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_05",
+          "top_competitor": {
+            "full_name": "Bill Horcher",
+            "first_name": "Bill",
+            "last_name": "Horcher",
+            "team_full": "Dundee Highlanders"
+          },
+          "bottom_competitor": {
+            "full_name": "Davis",
+            "first_name": "",
+            "last_name": "Davis",
+            "team_full": "Granite City"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_06",
+          "top_competitor": {
+            "full_name": "Kevin Dieball",
+            "first_name": "Kevin",
+            "last_name": "Dieball",
+            "team_full": "Rosemont"
+          },
+          "bottom_competitor": {
+            "full_name": "Pete Wirtas",
+            "first_name": "Pete",
+            "last_name": "Wirtas",
+            "team_full": "Woodridge"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_07",
+          "top_competitor": {
+            "full_name": "Kurt Sampson",
+            "first_name": "Kurt",
+            "last_name": "Sampson",
+            "team_full": "Mahomet-Seymour"
+          },
+          "bottom_competitor": {
+            "full_name": "Dennis Gilley",
+            "first_name": "Dennis",
+            "last_name": "Gilley",
+            "team_full": "Belvidere"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_08",
+          "top_competitor": {
+            "full_name": "Mark Ruettiger",
+            "first_name": "Mark",
+            "last_name": "Ruettiger",
+            "team_full": "Joliet Boy's Club"
+          },
+          "bottom_competitor": {
             "full_name": "Tony Pellegrini",
             "first_name": "Tony",
             "last_name": "Pellegrini",
             "team_full": "Hazel Crest"
           },
-          "bottom_competitor": null,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "David Harris",
+            "first_name": "David",
+            "last_name": "Harris",
+            "team_full": "Belleville"
+          },
+          "bottom_competitor": {
+            "full_name": "Ricky Criscione",
+            "first_name": "Ricky",
+            "last_name": "Criscione",
+            "team_full": "New Lenox Oakview"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
           "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "Rob Bearce",
+            "first_name": "Rob",
+            "last_name": "Bearce",
+            "team_full": "Savanna"
+          },
+          "bottom_competitor": {
+            "full_name": "Don Stuckley",
+            "first_name": "Don",
+            "last_name": "Stuckley",
+            "team_full": "Tinley Park Bulldogs"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "Bill Horcher",
+            "first_name": "Bill",
+            "last_name": "Horcher",
+            "team_full": "Dundee Highlanders"
+          },
+          "bottom_competitor": {
+            "full_name": "Pete Wirtas",
+            "first_name": "Pete",
+            "last_name": "Wirtas",
+            "team_full": "Woodridge"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "Dennis Gilley",
+            "first_name": "Dennis",
+            "last_name": "Gilley",
+            "team_full": "Belvidere"
+          },
+          "bottom_competitor": {
+            "full_name": "Tony Pellegrini",
+            "first_name": "Tony",
+            "last_name": "Pellegrini",
+            "team_full": "Hazel Crest"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "David Harris",
+            "first_name": "David",
+            "last_name": "Harris",
+            "team_full": "Belleville"
+          },
+          "bottom_competitor": {
+            "full_name": "Don Stuckley",
+            "first_name": "Don",
+            "last_name": "Stuckley",
+            "team_full": "Tinley Park Bulldogs"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "Pete Wirtas",
+            "first_name": "Pete",
+            "last_name": "Wirtas",
+            "team_full": "Woodridge"
+          },
+          "bottom_competitor": {
+            "full_name": "Tony Pellegrini",
+            "first_name": "Tony",
+            "last_name": "Pellegrini",
+            "team_full": "Hazel Crest"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "Rob Bearce",
+            "first_name": "Rob",
+            "last_name": "Bearce",
+            "team_full": "Savanna"
+          },
+          "bottom_competitor": {
+            "full_name": "Stew Widlowski",
+            "first_name": "Stew",
+            "last_name": "Widlowski",
+            "team_full": "Hufford"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "Dennis Gilley",
+            "first_name": "Dennis",
+            "last_name": "Gilley",
+            "team_full": "Belvidere"
+          },
+          "bottom_competitor": {
+            "full_name": "Mark Ruettiger",
+            "first_name": "Mark",
+            "last_name": "Ruettiger",
+            "team_full": "Joliet Boy's Club"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "Rob Bearce",
+            "first_name": "Rob",
+            "last_name": "Bearce",
+            "team_full": "Savanna"
+          },
+          "bottom_competitor": {
+            "full_name": "David Harris",
+            "first_name": "David",
+            "last_name": "Harris",
+            "team_full": "Belleville"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
+          "top_competitor": {
+            "full_name": "Mark Ruettiger",
+            "first_name": "Mark",
+            "last_name": "Ruettiger",
+            "team_full": "Joliet Boy's Club"
+          },
+          "bottom_competitor": {
+            "full_name": "Pete Wirtas",
+            "first_name": "Pete",
+            "last_name": "Wirtas",
+            "team_full": "Woodridge"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
+            "full_name": "Rob Bearce",
+            "first_name": "Rob",
+            "last_name": "Bearce",
+            "team_full": "Savanna"
+          },
+          "bottom_competitor": {
+            "full_name": "Pete Wirtas",
+            "first_name": "Pete",
+            "last_name": "Wirtas",
+            "team_full": "Woodridge"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_third_place",
+          "top_competitor": {
+            "full_name": "David Harris",
+            "first_name": "David",
+            "last_name": "Harris",
+            "team_full": "Belleville"
+          },
+          "bottom_competitor": {
+            "full_name": "Mark Ruettiger",
+            "first_name": "Mark",
+            "last_name": "Ruettiger",
+            "team_full": "Joliet Boy's Club"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_first_place",
+          "top_competitor": {
+            "full_name": "Don Stuckley",
+            "first_name": "Don",
+            "last_name": "Stuckley",
+            "team_full": "Tinley Park Bulldogs"
+          },
+          "bottom_competitor": {
+            "full_name": "Tony Pellegrini",
+            "first_name": "Tony",
+            "last_name": "Pellegrini",
+            "team_full": "Hazel Crest"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
         }
       ]
     },

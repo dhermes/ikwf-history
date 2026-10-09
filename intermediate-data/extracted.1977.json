@@ -132,10 +132,10 @@
             "last_name": "Walsh",
             "team_full": "St. Thecla"
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 1,
-          "top_win": null
+          "result": "Dec 1-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_03",
@@ -160,9 +160,9 @@
             "team_full": "Naperville"
           },
           "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": 2,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
           "top_win": true
         },
         {
@@ -193,10 +193,10 @@
             "last_name": "Jaraczewski",
             "team_full": "Panther"
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 3,
-          "top_win": null
+          "result": "Fall",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
         },
         {
           "match_slot": "championship_r32_07",
@@ -221,9 +221,9 @@
             "team_full": "Wheaton Franklin"
           },
           "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": 4,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
           "top_win": true
         },
         {
@@ -254,10 +254,10 @@
             "last_name": "Sloan",
             "team_full": "Pontiac"
           },
-          "result": "",
-          "result_type": "unknown",
-          "bout_number": 5,
-          "top_win": null
+          "result": "MD 10-2",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": false
         },
         {
           "match_slot": "championship_r32_11",
@@ -282,9 +282,9 @@
             "team_full": "Champaign"
           },
           "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": 6,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
           "top_win": true
         },
         {
@@ -310,9 +310,9 @@
             "team_full": "Marshall"
           },
           "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": 7,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
           "top_win": true
         },
         {
@@ -338,13 +338,355 @@
             "team_full": "Joliet Boy's Club"
           },
           "bottom_competitor": null,
-          "result": "Bye",
-          "result_type": "bye",
-          "bout_number": 8,
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
           "top_win": true
         },
         {
-          "match_slot": "consolation_fifth_place",
+          "match_slot": "championship_r16_01",
+          "top_competitor": {
+            "full_name": "Jerry Miller",
+            "first_name": "Jerry",
+            "last_name": "Miller",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "Marcus Gunaka",
+            "first_name": "Marcus",
+            "last_name": "Gunaka",
+            "team_full": "Tinley Park"
+          },
+          "result": "MD 8-0",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_02",
+          "top_competitor": {
+            "full_name": "Sampson",
+            "first_name": "",
+            "last_name": "Sampson",
+            "team_full": "Moline"
+          },
+          "bottom_competitor": {
+            "full_name": "Dempsey",
+            "first_name": "",
+            "last_name": "Dempsey",
+            "team_full": "Naperville"
+          },
+          "result": "Dec 3-1",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_03",
+          "top_competitor": {
+            "full_name": "Cawson",
+            "first_name": "",
+            "last_name": "Cawson",
+            "team_full": "Huntley"
+          },
+          "bottom_competitor": {
+            "full_name": "Bill Kelly",
+            "first_name": "Bill",
+            "last_name": "Kelly",
+            "team_full": "Chicago Ridge"
+          },
+          "result": "MD 12-0",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_r16_04",
+          "top_competitor": {
+            "full_name": "Keith Rodgers",
+            "first_name": "Keith",
+            "last_name": "Rodgers",
+            "team_full": "Plainfield"
+          },
+          "bottom_competitor": {
+            "full_name": "Nowak",
+            "first_name": "",
+            "last_name": "Nowak",
+            "team_full": "Wheaton Franklin"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_05",
+          "top_competitor": {
+            "full_name": "Ed Giese",
+            "first_name": "Ed",
+            "last_name": "Giese",
+            "team_full": "Franklin Park"
+          },
+          "bottom_competitor": {
+            "full_name": "Sloan",
+            "first_name": "",
+            "last_name": "Sloan",
+            "team_full": "Pontiac"
+          },
+          "result": "Fall 0:37",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_06",
+          "top_competitor": {
+            "full_name": "McCausland",
+            "first_name": "",
+            "last_name": "McCausland",
+            "team_full": "Wheaton Franklin"
+          },
+          "bottom_competitor": {
+            "full_name": "Nelson",
+            "first_name": "",
+            "last_name": "Nelson",
+            "team_full": "Champaign"
+          },
+          "result": "MD 12-2",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_07",
+          "top_competitor": {
+            "full_name": "Ed DeBevec",
+            "first_name": "Ed",
+            "last_name": "DeBevec",
+            "team_full": "Tinley Park"
+          },
+          "bottom_competitor": {
+            "full_name": "Jim Maddock",
+            "first_name": "Jim",
+            "last_name": "Maddock",
+            "team_full": "Marshall"
+          },
+          "result": "Dec 6-5",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_r16_08",
+          "top_competitor": {
+            "full_name": "Vickens",
+            "first_name": "",
+            "last_name": "Vickens",
+            "team_full": "Lake Villa"
+          },
+          "bottom_competitor": {
+            "full_name": "Govoni",
+            "first_name": "",
+            "last_name": "Govoni",
+            "team_full": "Joliet Boy's Club"
+          },
+          "result": "Dec 6-2",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_01",
+          "top_competitor": {
+            "full_name": "Jerry Miller",
+            "first_name": "Jerry",
+            "last_name": "Miller",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "Dempsey",
+            "first_name": "",
+            "last_name": "Dempsey",
+            "team_full": "Naperville"
+          },
+          "result": "MD 12-0",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_02",
+          "top_competitor": {
+            "full_name": "Bill Kelly",
+            "first_name": "Bill",
+            "last_name": "Kelly",
+            "team_full": "Chicago Ridge"
+          },
+          "bottom_competitor": {
+            "full_name": "Keith Rodgers",
+            "first_name": "Keith",
+            "last_name": "Rodgers",
+            "team_full": "Plainfield"
+          },
+          "result": "MD 10-0",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_03",
+          "top_competitor": {
+            "full_name": "Ed Giese",
+            "first_name": "Ed",
+            "last_name": "Giese",
+            "team_full": "Franklin Park"
+          },
+          "bottom_competitor": {
+            "full_name": "McCausland",
+            "first_name": "",
+            "last_name": "McCausland",
+            "team_full": "Wheaton Franklin"
+          },
+          "result": "MD 14-0",
+          "result_type": "major",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_quarter_04",
+          "top_competitor": {
+            "full_name": "Ed DeBevec",
+            "first_name": "Ed",
+            "last_name": "DeBevec",
+            "team_full": "Tinley Park"
+          },
+          "bottom_competitor": {
+            "full_name": "Vickens",
+            "first_name": "",
+            "last_name": "Vickens",
+            "team_full": "Lake Villa"
+          },
+          "result": "Dec 2-0",
+          "result_type": "decision",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round4_blood_01",
+          "top_competitor": {
+            "full_name": "Cawson",
+            "first_name": "",
+            "last_name": "Cawson",
+            "team_full": "Huntley"
+          },
+          "bottom_competitor": {
+            "full_name": "Jaraczewski",
+            "first_name": "",
+            "last_name": "Jaraczewski",
+            "team_full": "Panther"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "championship_semi_01",
+          "top_competitor": {
+            "full_name": "Jerry Miller",
+            "first_name": "Jerry",
+            "last_name": "Miller",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "Bill Kelly",
+            "first_name": "Bill",
+            "last_name": "Kelly",
+            "team_full": "Chicago Ridge"
+          },
+          "result": "Fall 2:13",
+          "result_type": "fall",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "championship_semi_02",
+          "top_competitor": {
+            "full_name": "Ed Giese",
+            "first_name": "Ed",
+            "last_name": "Giese",
+            "team_full": "Franklin Park"
+          },
+          "bottom_competitor": {
+            "full_name": "Ed DeBevec",
+            "first_name": "Ed",
+            "last_name": "DeBevec",
+            "team_full": "Tinley Park"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": true
+        },
+        {
+          "match_slot": "consolation_round5_01",
+          "top_competitor": {
+            "full_name": "Cawson",
+            "first_name": "",
+            "last_name": "Cawson",
+            "team_full": "Huntley"
+          },
+          "bottom_competitor": {
+            "full_name": "Keith Rodgers",
+            "first_name": "Keith",
+            "last_name": "Rodgers",
+            "team_full": "Plainfield"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round5_02",
+          "top_competitor": {
+            "full_name": "Vickens",
+            "first_name": "",
+            "last_name": "Vickens",
+            "team_full": "Lake Villa"
+          },
+          "bottom_competitor": {
+            "full_name": "Jim Maddock",
+            "first_name": "Jim",
+            "last_name": "Maddock",
+            "team_full": "Marshall"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_01",
+          "top_competitor": {
+            "full_name": "Jerry Miller",
+            "first_name": "Jerry",
+            "last_name": "Miller",
+            "team_full": "Granite City"
+          },
+          "bottom_competitor": {
+            "full_name": "Keith Rodgers",
+            "first_name": "Keith",
+            "last_name": "Rodgers",
+            "team_full": "Plainfield"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_round6_semi_02",
           "top_competitor": {
             "full_name": "Jim Maddock",
             "first_name": "Jim",
@@ -352,15 +694,34 @@
             "team_full": "Marshall"
           },
           "bottom_competitor": {
+            "full_name": "Ed DeBevec",
+            "first_name": "Ed",
+            "last_name": "DeBevec",
+            "team_full": "Tinley Park"
+          },
+          "result": "",
+          "result_type": "unknown",
+          "bout_number": null,
+          "top_win": false
+        },
+        {
+          "match_slot": "consolation_fifth_place",
+          "top_competitor": {
             "full_name": "Jerry Miller",
             "first_name": "Jerry",
             "last_name": "Miller",
             "team_full": "Granite City"
           },
+          "bottom_competitor": {
+            "full_name": "Jim Maddock",
+            "first_name": "Jim",
+            "last_name": "Maddock",
+            "team_full": "Marshall"
+          },
           "result": "",
           "result_type": "unknown",
           "bout_number": null,
-          "top_win": true
+          "top_win": false
         },
         {
           "match_slot": "consolation_third_place",
