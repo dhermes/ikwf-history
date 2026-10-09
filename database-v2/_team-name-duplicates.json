@@ -6552,22 +6552,16 @@
     ]
   },
   {
-    "name_normalized": "Belvidere",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 5,
-        "division": "senior",
-        "name": "Belvidere"
-      }
-    ]
-  },
-  {
     "name_normalized": "Belvidere Bandits Wrestling Club",
     "url_path_slug": "belividere-bandits",
     "duplicates": [
       {
         "tournament_id": 4,
+        "division": "senior",
+        "name": "Belvidere"
+      },
+      {
+        "tournament_id": 5,
         "division": "senior",
         "name": "Belvidere"
       },
