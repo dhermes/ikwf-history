@@ -21996,20 +21996,14 @@
     ]
   },
   {
-    "name_normalized": "Dundee Highlanders",
-    "url_path_slug": null,
+    "name_normalized": "Dundee Highlanders WC",
+    "url_path_slug": "dundee-highlanders",
     "duplicates": [
       {
         "tournament_id": 5,
         "division": "senior",
         "name": "Dundee Highlanders"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Dundee Highlanders WC",
-    "url_path_slug": "dundee-highlanders",
-    "duplicates": [
+      },
       {
         "tournament_id": 6,
         "division": "senior",
