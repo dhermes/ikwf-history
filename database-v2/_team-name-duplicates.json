@@ -63372,8 +63372,8 @@
     ]
   },
   {
-    "name_normalized": "Prather",
-    "url_path_slug": null,
+    "name_normalized": "Prather Granite City",
+    "url_path_slug": "prather",
     "duplicates": [
       {
         "tournament_id": 9,
@@ -63389,13 +63389,7 @@
         "tournament_id": 12,
         "division": "senior",
         "name": "Prather"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Prather Granite City",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 13,
         "division": "senior",
