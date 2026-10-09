@@ -47493,6 +47493,11 @@
         "name": "Mahomet-Seymour"
       },
       {
+        "tournament_id": 5,
+        "division": "senior",
+        "name": "Mahomet-Seymour"
+      },
+      {
         "tournament_id": 7,
         "division": "senior",
         "name": "Mahomet"
@@ -47701,17 +47706,6 @@
         "tournament_id": 54,
         "division": "intermediate",
         "name": "MS Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mahomet-Seymour",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 5,
-        "division": "senior",
-        "name": "Mahomet-Seymour"
       }
     ]
   },
