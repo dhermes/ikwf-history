@@ -49288,22 +49288,16 @@
     ]
   },
   {
-    "name_normalized": "Mattoon",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 5,
-        "division": "senior",
-        "name": "Mattoon"
-      }
-    ]
-  },
-  {
     "name_normalized": "Mattoon Youth WC",
     "url_path_slug": "mattoon",
     "duplicates": [
       {
         "tournament_id": 4,
+        "division": "senior",
+        "name": "Mattoon"
+      },
+      {
+        "tournament_id": 5,
         "division": "senior",
         "name": "Mattoon"
       },
