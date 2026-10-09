@@ -6038,17 +6038,6 @@
     ]
   },
   {
-    "name_normalized": "Belleville",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 5,
-        "division": "senior",
-        "name": "Belleville"
-      }
-    ]
-  },
-  {
     "name_normalized": "Belleville Junior Hit Squad",
     "url_path_slug": null,
     "duplicates": [
@@ -6085,6 +6074,11 @@
       },
       {
         "tournament_id": 4,
+        "division": "senior",
+        "name": "Belleville"
+      },
+      {
+        "tournament_id": 5,
         "division": "senior",
         "name": "Belleville"
       },
