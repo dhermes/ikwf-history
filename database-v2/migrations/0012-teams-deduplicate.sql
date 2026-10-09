@@ -13441,29 +13441,6 @@ WHERE
   id IN (11952, 12165, 12378, 12600, 12827, 13054, 13282, 13533, 13803, 14073, 14343, 14613, 14883, 15153, 15423, 15750, 16421, 16567);
 
 ----------------------------------------
--- PANTHER WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'PANTHER WC',
-  url_path_slug = 'panther'
-WHERE
-  id = 1772;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1772
-WHERE
-  id IN (1772, 2321, 15605, 15752, 15896, 16041, 16570);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2321, 15605, 15752, 15896, 16041, 16570);
-
-----------------------------------------
 -- PANTHER WRESTLING
 
 UPDATE
@@ -13485,29 +13462,6 @@ DELETE FROM
   team
 WHERE
   id IN (2322, 2471, 2610, 2752, 2897);
-
-----------------------------------------
--- PANTHER WRESTLING CLUB
-
-UPDATE
-  team
-SET
-  name_normalized = 'PANTHER WRESTLING CLUB',
-  url_path_slug = NULL
-WHERE
-  id = 3049;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 3049
-WHERE
-  id IN (3049, 3207);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3207);
 
 ----------------------------------------
 -- PLT Prophets WC
@@ -13807,6 +13761,29 @@ DELETE FROM
   team
 WHERE
   id IN (5203, 5362, 5510, 5654, 5798, 6325, 6509, 6694, 6876, 7052, 7240, 7434, 7622, 7811, 8001, 8185, 8372, 8560, 8751, 10000, 10177, 11742, 11955, 12168, 12381, 12602, 12829, 13056, 13284, 13536, 13806, 14076, 14346, 14616, 14886, 15156, 15426, 16040, 16283, 16569);
+
+----------------------------------------
+-- Panther WC
+
+UPDATE
+  team
+SET
+  name_normalized = 'Panther WC',
+  url_path_slug = 'panther'
+WHERE
+  id = 235;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 235
+WHERE
+  id IN (235, 1772, 2321, 3049, 3207, 15605, 15752, 15896, 16041, 16570);
+
+DELETE FROM
+  team
+WHERE
+  id IN (1772, 2321, 3049, 3207, 15605, 15752, 15896, 16041, 16570);
 
 ----------------------------------------
 -- Panther Wrestling Club

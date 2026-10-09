@@ -6038,6 +6038,17 @@
     ]
   },
   {
+    "name_normalized": "Belleville",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 5,
+        "division": "senior",
+        "name": "Belleville"
+      }
+    ]
+  },
+  {
     "name_normalized": "Belleville Junior Hit Squad",
     "url_path_slug": null,
     "duplicates": [
@@ -6543,6 +6554,17 @@
         "tournament_id": 8,
         "division": "senior",
         "name": "Belleville White"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Belvidere",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 5,
+        "division": "senior",
+        "name": "Belvidere"
       }
     ]
   },
@@ -21986,6 +22008,17 @@
     ]
   },
   {
+    "name_normalized": "Dundee Highlanders",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 5,
+        "division": "senior",
+        "name": "Dundee Highlanders"
+      }
+    ]
+  },
+  {
     "name_normalized": "Dundee Highlanders WC",
     "url_path_slug": "dundee-highlanders",
     "duplicates": [
@@ -31758,6 +31791,17 @@
     ]
   },
   {
+    "name_normalized": "Granite City",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 5,
+        "division": "senior",
+        "name": "Granite City"
+      }
+    ]
+  },
+  {
     "name_normalized": "Granite City Coolidge",
     "url_path_slug": "granite-city-coolidge",
     "duplicates": [
@@ -37629,6 +37673,11 @@
     "name_normalized": "Hufford",
     "url_path_slug": null,
     "duplicates": [
+      {
+        "tournament_id": 5,
+        "division": "senior",
+        "name": "Hufford"
+      },
       {
         "tournament_id": 9,
         "division": "senior",
@@ -47680,6 +47729,17 @@
     ]
   },
   {
+    "name_normalized": "Mahomet-Seymour",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 5,
+        "division": "senior",
+        "name": "Mahomet-Seymour"
+      }
+    ]
+  },
+  {
     "name_normalized": "Maine Eagles WC",
     "url_path_slug": "maine-eagles",
     "duplicates": [
@@ -49254,6 +49314,17 @@
         "tournament_id": 4,
         "division": "senior",
         "name": "Matteson"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Mattoon",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 5,
+        "division": "senior",
+        "name": "Mattoon"
       }
     ]
   },
@@ -59429,62 +59500,6 @@
     ]
   },
   {
-    "name_normalized": "Panther WC",
-    "url_path_slug": "panther",
-    "duplicates": [
-      {
-        "tournament_id": 7,
-        "division": "senior",
-        "name": "Panther"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "PANTHER WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "PANTHER WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "PANTHER WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "PANTHER WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Panther WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Panther WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Panther WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Panther WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Panther WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "PANTHER WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -60647,6 +60662,62 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Panther Powerhouse Wrestling"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Panther WC",
+    "url_path_slug": "panther",
+    "duplicates": [
+      {
+        "tournament_id": 7,
+        "division": "senior",
+        "name": "Panther"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "PANTHER WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "PANTHER WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "PANTHER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "PANTHER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Panther WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Panther WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Panther WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Panther WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Panther WC"
       }
     ]
   },
@@ -63102,6 +63173,17 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "PONY EXPRESS WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Portage Park",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 5,
+        "division": "senior",
+        "name": "Portage Park"
       }
     ]
   },
@@ -68214,6 +68296,17 @@
     ]
   },
   {
+    "name_normalized": "Rosemont",
+    "url_path_slug": null,
+    "duplicates": [
+      {
+        "tournament_id": 5,
+        "division": "senior",
+        "name": "Rosemont"
+      }
+    ]
+  },
+  {
     "name_normalized": "Rosemont Cobras",
     "url_path_slug": "rosemont-cobras",
     "duplicates": [
@@ -71205,6 +71298,11 @@
     "duplicates": [
       {
         "tournament_id": 2,
+        "division": "senior",
+        "name": "Savanna"
+      },
+      {
+        "tournament_id": 5,
         "division": "senior",
         "name": "Savanna"
       },
@@ -88596,6 +88694,11 @@
     "duplicates": [
       {
         "tournament_id": 4,
+        "division": "senior",
+        "name": "Woodridge"
+      },
+      {
+        "tournament_id": 5,
         "division": "senior",
         "name": "Woodridge"
       }
