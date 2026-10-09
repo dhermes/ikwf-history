@@ -59443,6 +59443,16 @@
         "name": "PANTHER WC"
       },
       {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "PANTHER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "PANTHER WRESTLING CLUB"
+      },
+      {
         "tournament_id": 54,
         "division": "bantam",
         "name": "Panther WC"
@@ -59502,22 +59512,6 @@
         "tournament_id": 26,
         "division": "senior",
         "name": "PANTHER WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "PANTHER WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "PANTHER WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "PANTHER WRESTLING CLUB"
       }
     ]
   },
