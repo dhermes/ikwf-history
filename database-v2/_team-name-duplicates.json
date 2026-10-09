@@ -68248,20 +68248,14 @@
     ]
   },
   {
-    "name_normalized": "Rosemont",
-    "url_path_slug": null,
+    "name_normalized": "Rosemont Cobras",
+    "url_path_slug": "rosemont-cobras",
     "duplicates": [
       {
         "tournament_id": 5,
         "division": "senior",
         "name": "Rosemont"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rosemont Cobras",
-    "url_path_slug": "rosemont-cobras",
-    "duplicates": [
+      },
       {
         "tournament_id": 8,
         "division": "senior",
