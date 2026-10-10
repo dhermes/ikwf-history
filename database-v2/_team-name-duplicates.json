@@ -48343,8 +48343,8 @@
     ]
   },
   {
-    "name_normalized": "Marshall",
-    "url_path_slug": null,
+    "name_normalized": "Marshall Red Rush Wrestling",
+    "url_path_slug": "marshall-red-rush-wrestling",
     "duplicates": [
       {
         "tournament_id": 4,
@@ -48360,13 +48360,7 @@
         "tournament_id": 7,
         "division": "senior",
         "name": "Marshall"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Marshall Red Rush Wrestling",
-    "url_path_slug": "marshall-red-rush-wrestling",
-    "duplicates": [
+      },
       {
         "tournament_id": 53,
         "division": "bantam",
