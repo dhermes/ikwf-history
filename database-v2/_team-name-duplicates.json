@@ -71830,32 +71830,6 @@
     ]
   },
   {
-    "name_normalized": "Sherman-Williamsville WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Sherman-Williamsville WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Sherman-Williamsville WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Sherman-Williamsville WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Sherman-Williamsville WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Sherrard Jr. Tigers WC",
     "url_path_slug": "sherrard",
     "duplicates": [
@@ -87364,6 +87338,26 @@
     "name_normalized": "Williamsville WC",
     "url_path_slug": "williamsville-wc",
     "duplicates": [
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Sherman-Williamsville WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Sherman-Williamsville WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Sherman-Williamsville WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Sherman-Williamsville WC"
+      },
       {
         "tournament_id": 47,
         "division": "novice",
