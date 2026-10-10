@@ -41500,17 +41500,6 @@
     ]
   },
   {
-    "name_normalized": "LINCOLN WAY AREA WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "LINCOLN WAY AREA WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "LINCOLN-WAY KNIGHTS",
     "url_path_slug": null,
     "duplicates": [
@@ -44171,6 +44160,11 @@
     "name_normalized": "Lincoln Way Wrestling Club",
     "url_path_slug": "lwwc",
     "duplicates": [
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "LINCOLN WAY AREA WRESTLING"
+      },
       {
         "tournament_id": 10028,
         "division": "senior_iwf",
