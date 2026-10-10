@@ -5873,8 +5873,48 @@
   },
   {
     "name_normalized": "Beat the Streets Chicago-Roseland",
-    "url_path_slug": "beat-the-streets-chicago-roseland",
+    "url_path_slug": "bts-roseland",
     "duplicates": [
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "BTS Chicago-Roseland"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "BTS Chicago-Roseland"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "BTS Chicago-Roseland"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "BTS Chicago-Roseland"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "BTS Chicago-Roseland"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "BTS Chicago-Roseland"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "BTS Chicago-Roseland"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "BTS Chicago-Roseland"
+      },
       {
         "tournament_id": 54,
         "division": "bantam",
@@ -10709,52 +10749,6 @@
         "tournament_id": 50,
         "division": "senior",
         "name": "Junior Bronco WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bts Chicago-Roseland",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "BTS Chicago-Roseland"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "BTS Chicago-Roseland"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "BTS Chicago-Roseland"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "BTS Chicago-Roseland"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "BTS Chicago-Roseland"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "BTS Chicago-Roseland"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "BTS Chicago-Roseland"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "BTS Chicago-Roseland"
       }
     ]
   },
