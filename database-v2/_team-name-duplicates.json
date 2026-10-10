@@ -40330,111 +40330,99 @@
     ]
   },
   {
-    "name_normalized": "Junior Kahoks",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Junior Kahoks"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Junior Kahoks"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Junior Kahoks"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Junior Kahoks"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Junior Kahoks"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Junior Kahoks"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Junior Kahoks"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Junior Kahoks"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Junior Kahoks"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Junior Kahoks"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Junior Kahoks"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Junior Kahoks"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Junior Kahoks"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Junior Kahoks"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Junior Kahoks WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Junior Kahoks WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Junior Kahoks WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Junior Kahoks WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Junior Kahoks WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Junior Kahoks-Tribe Fellowship",
     "url_path_slug": "junior-kahoks-tribe-fellowship",
     "duplicates": [
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Junior Kahoks"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Junior Kahoks"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Junior Kahoks"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Junior Kahoks"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Junior Kahoks"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Junior Kahoks"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Junior Kahoks"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Junior Kahoks"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Junior Kahoks"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Junior Kahoks"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Junior Kahoks"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Junior Kahoks"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Junior Kahoks"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Junior Kahoks"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Junior Kahoks WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Junior Kahoks WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Junior Kahoks WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Junior Kahoks WC"
+      },
       {
         "tournament_id": 54,
         "division": "senior_girls",
