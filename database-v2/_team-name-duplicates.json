@@ -16125,17 +16125,6 @@
     ]
   },
   {
-    "name_normalized": "Clinton",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Clinton"
-      }
-    ]
-  },
-  {
     "name_normalized": "Clinton Rosette M.S.",
     "url_path_slug": null,
     "duplicates": [
@@ -16151,6 +16140,11 @@
     "url_path_slug": "clinton-wc",
     "duplicates": [
       {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Clinton"
+      },
+      {
         "tournament_id": 39,
         "division": "novice",
         "name": "CLINTON WC"
@@ -16169,6 +16163,16 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Clinton WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Clinton Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Clinton Wrestling Club"
       },
       {
         "tournament_id": 49,
@@ -16264,22 +16268,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Clinton WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Clinton Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Clinton Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Clinton Wrestling Club"
       }
     ]
   },
