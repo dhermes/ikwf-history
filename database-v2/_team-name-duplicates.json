@@ -43857,27 +43857,6 @@
     ]
   },
   {
-    "name_normalized": "Lil' Roughnecks",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "LIL' ROUGHNECKS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "LIL' ROUGHNECKS"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "LIL' ROUGHNECKS"
-      }
-    ]
-  },
-  {
     "name_normalized": "Limestone WC",
     "url_path_slug": "limestone",
     "duplicates": [
@@ -68016,6 +67995,41 @@
     "url_path_slug": "roughnecks-wc",
     "duplicates": [
       {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Roxana Roughnecks"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Roxana Roughnecks"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Roxana Roughnecks"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Roxana Roughnecks"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "LIL' ROUGHNECKS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "LIL' ROUGHNECKS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "LIL' ROUGHNECKS"
+      },
+      {
         "tournament_id": 48,
         "division": "novice",
         "name": "Roughnecks WC"
@@ -68421,32 +68435,6 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Roxana Park District"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Roxana Roughnecks",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Roxana Roughnecks"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Roxana Roughnecks"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Roxana Roughnecks"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Roxana Roughnecks"
       }
     ]
   },
