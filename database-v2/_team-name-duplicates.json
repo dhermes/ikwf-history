@@ -29139,22 +29139,6 @@
     ]
   },
   {
-    "name_normalized": "Fuel WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Fuel WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Fuel WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Fulton County Stingers",
     "url_path_slug": null,
     "duplicates": [
@@ -67122,7 +67106,7 @@
   },
   {
     "name_normalized": "Rocket Fuel WC",
-    "url_path_slug": "rocket-fuel-wc",
+    "url_path_slug": "rocket-fuel",
     "duplicates": [
       {
         "tournament_id": 40,
@@ -67163,6 +67147,16 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Rocket Fuel Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Fuel WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Fuel WC"
       },
       {
         "tournament_id": 10052,
