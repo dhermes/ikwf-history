@@ -16463,57 +16463,6 @@
     ]
   },
   {
-    "name_normalized": "Cogs WC",
-    "url_path_slug": "cogs-wc",
-    "duplicates": [
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Cogs WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Collinsville WC",
     "url_path_slug": "collinsville",
     "duplicates": [
@@ -30151,7 +30100,7 @@
   },
   {
     "name_normalized": "Genoa-Kingston WC",
-    "url_path_slug": null,
+    "url_path_slug": "genoa-kingston",
     "duplicates": [
       {
         "tournament_id": 38,
@@ -30172,6 +30121,51 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "GENOA-KINGSTON WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Cogs WC"
       }
     ]
   },
