@@ -38591,27 +38591,6 @@
     ]
   },
   {
-    "name_normalized": "JACKSONVILLE WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "JACKSONVILLE WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "JACKSONVILLE WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "JACKSONVILLE WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "JORDON",
     "url_path_slug": null,
     "duplicates": [
@@ -38833,177 +38812,35 @@
     "url_path_slug": "jacksonville-area-wrestling",
     "duplicates": [
       {
-        "tournament_id": 42,
+        "tournament_id": 26,
         "division": "novice",
-        "name": "Jacksonville Area Wrestling"
+        "name": "JACKSONVILLE WRESTLING"
       },
       {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 43,
+        "tournament_id": 27,
         "division": "novice",
-        "name": "Jacksonville Area Wrestling"
+        "name": "JACKSONVILLE WRESTLING"
       },
       {
-        "tournament_id": 43,
+        "tournament_id": 27,
         "division": "senior",
-        "name": "Jacksonville Area Wrestling"
+        "name": "JACKSONVILLE WRESTLING"
       },
       {
-        "tournament_id": 46,
+        "tournament_id": 28,
         "division": "novice",
-        "name": "Jacksonville Area Wrestling"
+        "name": "THE JACKSONVILLE WC"
       },
       {
-        "tournament_id": 46,
+        "tournament_id": 28,
         "division": "senior",
-        "name": "Jacksonville Area Wrestling"
+        "name": "THE JACKSONVILLE WC"
       },
       {
-        "tournament_id": 47,
+        "tournament_id": 29,
         "division": "novice",
-        "name": "Jacksonville Area Wrestling"
+        "name": "THE JACKSONVILLE WC"
       },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Jacksonville Area Wrestling"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Jacksonville Area Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Jacksonville Area Youth Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "JACKSONVILLE AREA YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "JACKSONVILLE AREA YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "JACKSONVILLE AREA YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "JACKSONVILLE AREA YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Jacksonville Area Youth Wrestling"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Jacksonville Area Youth Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Jacksonville WC",
-    "url_path_slug": null,
-    "duplicates": [
       {
         "tournament_id": 30,
         "division": "novice",
@@ -39048,6 +38885,166 @@
         "tournament_id": 34,
         "division": "senior",
         "name": "JACKSONVILLE WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "JACKSONVILLE AREA YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "JACKSONVILLE AREA YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "JACKSONVILLE AREA YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "JACKSONVILLE AREA YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Jacksonville Area Youth Wrestling"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Jacksonville Area Youth Wrestling"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Jacksonville Area Wrestling"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Jacksonville Area Wrestling"
       }
     ]
   },
@@ -76746,27 +76743,6 @@
         "tournament_id": 30,
         "division": "senior",
         "name": "TEAM 1"
-      }
-    ]
-  },
-  {
-    "name_normalized": "THE JACKSONVILLE WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "THE JACKSONVILLE WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "THE JACKSONVILLE WC"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "THE JACKSONVILLE WC"
       }
     ]
   },
