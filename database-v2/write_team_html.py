@@ -2,6 +2,7 @@
 
 import functools
 import html
+import json
 import pathlib
 import sqlite3
 
@@ -50,13 +51,25 @@ class TeamInfo(_ForbidExtra):
     id_: int = pydantic.Field(alias="id")
     name_normalized: str
     url_path_slug: str
+    synonyms: list[str]
+
+
+def _team_info_from_row(row: sqlite3.Row) -> TeamInfo:
+    synonyms_json = row["synonyms_json"]
+    synonyms = json.loads(synonyms_json)
+    return TeamInfo(
+        id=row["id"],
+        name_normalized=row["name_normalized"],
+        url_path_slug=row["url_path_slug"],
+        synonyms=synonyms,
+    )
 
 
 def _get_team_info(connection: sqlite3.Connection) -> list[TeamInfo]:
     team_info_sql = _get_sql("_verified-team-info.sql")
     cursor = connection.cursor()
     cursor.execute(team_info_sql)
-    rows = [TeamInfo(**row) for row in cursor.fetchall()]
+    rows = [_team_info_from_row(row) for row in cursor.fetchall()]
     cursor.close()
     return rows
 
@@ -125,9 +138,10 @@ def _teams_landing_html(teams: list[TeamInfo]) -> str:
 
     for team in teams:
         html_name = html.escape(team.name_normalized)
+        synonyms = html.escape(" :: ".join(team.synonyms))
         parts.extend(
             [
-                "      <li>",
+                f'      <li data-synonyms="{synonyms}">',
                 f'        <a href="/teams/{team.url_path_slug}/">',
                 f'          <span class="team-name">{html_name}</span>',
                 "        </a>",
