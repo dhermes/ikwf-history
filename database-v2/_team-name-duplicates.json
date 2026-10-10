@@ -3403,22 +3403,6 @@
     ]
   },
   {
-    "name_normalized": "Aurora Simmons",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Simmons (Aurora)"
-      },
-      {
-        "tournament_id": 7,
-        "division": "senior",
-        "name": "Aurora Simmons"
-      }
-    ]
-  },
-  {
     "name_normalized": "Aurora WC",
     "url_path_slug": "aurora-wc",
     "duplicates": [
@@ -72585,13 +72569,23 @@
     ]
   },
   {
-    "name_normalized": "Simmons",
-    "url_path_slug": null,
+    "name_normalized": "Simmons (Aurora)",
+    "url_path_slug": "aimmons",
     "duplicates": [
       {
         "tournament_id": 2,
         "division": "senior",
         "name": "Simmons"
+      },
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Simmons (Aurora)"
+      },
+      {
+        "tournament_id": 7,
+        "division": "senior",
+        "name": "Aurora Simmons"
       },
       {
         "tournament_id": 12,
