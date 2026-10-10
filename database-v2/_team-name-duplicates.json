@@ -67155,6 +67155,16 @@
         "name": "Rocket Fuel WC"
       },
       {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Rocket Fuel Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Rocket Fuel Wrestling Club"
+      },
+      {
         "tournament_id": 10052,
         "division": "bantam",
         "name": "Rocket Fuel WC"
@@ -67228,22 +67238,6 @@
         "tournament_id": 54,
         "division": "intermediate_girls",
         "name": "Rocket Fuel WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rocket Fuel Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Rocket Fuel Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Rocket Fuel Wrestling Club"
       }
     ]
   },
