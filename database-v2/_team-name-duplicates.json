@@ -66175,23 +66175,7 @@
   },
   {
     "name_normalized": "Riverton-Williamsville Youth Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Riverton-Williamsville Youth Wrestling"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Riverton-Williamsville Youth Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Riverton/Williamsville Youth Wrestling",
-    "url_path_slug": null,
+    "url_path_slug": "riverton-williamsville",
     "duplicates": [
       {
         "tournament_id": 47,
@@ -66222,6 +66206,16 @@
         "tournament_id": 49,
         "division": "senior",
         "name": "Riverton/Williamsville Youth Wrestling"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Riverton-Williamsville Youth Wrestling"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Riverton-Williamsville Youth Wrestling"
       }
     ]
   },
