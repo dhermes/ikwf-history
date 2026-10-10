@@ -86834,8 +86834,8 @@
     ]
   },
   {
-    "name_normalized": "Wheaton Franklin",
-    "url_path_slug": null,
+    "name_normalized": "Wheaton Franklin WC",
+    "url_path_slug": "wheaton-franklin",
     "duplicates": [
       {
         "tournament_id": 7,
@@ -86856,13 +86856,7 @@
         "tournament_id": 12,
         "division": "senior",
         "name": "Wheaton Franklin"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Wheaton Franklin WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 32,
         "division": "novice",
