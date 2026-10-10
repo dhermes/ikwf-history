@@ -28604,7 +28604,7 @@
   },
   {
     "name_normalized": "Frankfort Gladiator Wrestling",
-    "url_path_slug": "frankfort-gladiator-wrestling",
+    "url_path_slug": "frankfort-gladiator",
     "duplicates": [
       {
         "tournament_id": 48,
@@ -30383,113 +30383,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Gladiator Elite WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Gladiators",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "GLADIATORS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "GLADIATORS"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "GLADIATORS"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "GLADIATORS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "GLADIATORS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "GLADIATORS"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "GLADIATORS"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Gladiators"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Gladiators"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "GLADIATORS"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "GLADIATORS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "GLADIATORS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "GLADIATORS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "GLADIATORS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "GLADIATORS"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Gladiators"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Gladiators"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Gladiators WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Gladiators WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Gladiators WC"
       }
     ]
   },
@@ -63312,8 +63205,103 @@
   },
   {
     "name_normalized": "Proviso Township Gladiators WC",
-    "url_path_slug": "proviso-township-gladiators-wc",
+    "url_path_slug": "proviso-gladiators",
     "duplicates": [
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "GLADIATORS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "GLADIATORS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "GLADIATORS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "GLADIATORS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "GLADIATORS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "GLADIATORS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "GLADIATORS"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Gladiators"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Gladiators"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "GLADIATORS"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "GLADIATORS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "GLADIATORS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "GLADIATORS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "GLADIATORS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "GLADIATORS"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Gladiators"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Gladiators"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Gladiators WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Gladiators WC"
+      },
       {
         "tournament_id": 50,
         "division": "novice",
