@@ -25041,6 +25041,11 @@
         "name": "Elmhurst Jr. Dukes WC"
       },
       {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "DUKES WRESTLING YORKS"
+      },
+      {
         "tournament_id": 22,
         "division": "senior",
         "name": "ELMHURST JR. DUKES"
@@ -25154,6 +25159,16 @@
         "tournament_id": 41,
         "division": "senior",
         "name": "Elmhurst Jr. Dukes"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Junior Dukes WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Junior Dukes WC"
       },
       {
         "tournament_id": 46,
@@ -40406,27 +40421,6 @@
         "tournament_id": 54,
         "division": "bantam_girls",
         "name": "Junior Cyclones WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Junior Dukes WC",
-    "url_path_slug": "junior-dukes",
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "DUKES WRESTLING YORKS"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Junior Dukes WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Junior Dukes WC"
       }
     ]
   },
