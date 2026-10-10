@@ -19853,38 +19853,6 @@
     ]
   },
   {
-    "name_normalized": "Dawgs WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Dawgs WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Dawgs WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Dawgs Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Dawgs Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Dawgs Wrestling Club"
-      }
-    ]
-  },
-  {
     "name_normalized": "DeKalb Huntley",
     "url_path_slug": "dekalb-huntley",
     "duplicates": [
@@ -20199,8 +20167,28 @@
   },
   {
     "name_normalized": "Decatur Dawgs WC",
-    "url_path_slug": "decatur-dawgs-wc",
+    "url_path_slug": "decatur-dawgs",
     "duplicates": [
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Dawgs WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Dawgs WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Dawgs Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Dawgs Wrestling Club"
+      },
       {
         "tournament_id": 52,
         "division": "novice",
@@ -76885,22 +76873,6 @@
     ]
   },
   {
-    "name_normalized": "TJ Trained-Clinton",
-    "url_path_slug": "tj-trained-clinton",
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "TJ Trained WC-Clinton"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "TJ Trained WC-Clinton"
-      }
-    ]
-  },
-  {
     "name_normalized": "TJ Trained Wrestling (HQ)",
     "url_path_slug": "tj-trained",
     "duplicates": [
@@ -77119,6 +77091,22 @@
         "tournament_id": 52,
         "division": "senior_girls",
         "name": "TJ Trained-Canton"
+      }
+    ]
+  },
+  {
+    "name_normalized": "TJ Trained-Clinton",
+    "url_path_slug": "tj-trained-clinton",
+    "duplicates": [
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "TJ Trained WC-Clinton"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "TJ Trained WC-Clinton"
       }
     ]
   },
