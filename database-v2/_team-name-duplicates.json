@@ -16125,17 +16125,6 @@
     ]
   },
   {
-    "name_normalized": "Clinton Rosette M.S.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Clinton Rosette M.S."
-      }
-    ]
-  },
-  {
     "name_normalized": "Clinton WC",
     "url_path_slug": "clinton-wc",
     "duplicates": [
@@ -16143,6 +16132,11 @@
         "tournament_id": 4,
         "division": "senior",
         "name": "Clinton"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Clinton Rosette M.S."
       },
       {
         "tournament_id": 39,
