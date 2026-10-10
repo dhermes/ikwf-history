@@ -16463,6 +16463,77 @@
     ]
   },
   {
+    "name_normalized": "Cogs WC",
+    "url_path_slug": "genoa-kingston",
+    "duplicates": [
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "GENOA-KINGSTON WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "GENOA-KINGSTON WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "GENOA-KINGSTON WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "GENOA-KINGSTON WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Cogs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Cogs WC"
+      }
+    ]
+  },
+  {
     "name_normalized": "Collinsville WC",
     "url_path_slug": "collinsville",
     "duplicates": [
@@ -16770,45 +16841,39 @@
     ]
   },
   {
-    "name_normalized": "Combative Sports Athletic Center",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Combative Sports Athletic Center"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Combative Sports Athletic Center"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Combative Sports Athletic Center"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Combative Sports Athletic Center"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Combative Sports Athletic Center"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Combative Sports Athletic Center"
-      }
-    ]
-  },
-  {
     "name_normalized": "Combative Sports Athletic Center Wrestling",
     "url_path_slug": "combative-sports",
     "duplicates": [
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Combative Sports Athletic Center"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Combative Sports Athletic Center"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Combative Sports Athletic Center"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Combative Sports Athletic Center"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Combative Sports Athletic Center"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Combative Sports Athletic Center"
+      },
       {
         "tournament_id": 51,
         "division": "novice",
@@ -30095,77 +30160,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Geneva Junior Vikings WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Cogs WC",
-    "url_path_slug": "genoa-kingston",
-    "duplicates": [
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "GENOA-KINGSTON WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "GENOA-KINGSTON WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "GENOA-KINGSTON WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "GENOA-KINGSTON WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Cogs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Cogs WC"
       }
     ]
   },
