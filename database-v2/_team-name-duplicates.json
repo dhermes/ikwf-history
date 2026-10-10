@@ -43953,22 +43953,6 @@
     ]
   },
   {
-    "name_normalized": "Limestone Crushers WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "LIMESTONE CRUSHERS WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "LIMESTONE CRUSHERS WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Limestone WC",
     "url_path_slug": "limestone-wc",
     "duplicates": [
@@ -44046,6 +44030,16 @@
         "tournament_id": 37,
         "division": "senior",
         "name": "Limestone Youth WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "LIMESTONE CRUSHERS WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "LIMESTONE CRUSHERS WC"
       },
       {
         "tournament_id": 41,
