@@ -11222,17 +11222,6 @@
     ]
   },
   {
-    "name_normalized": "CARLINVILLE KIDS WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "CARLINVILLE KIDS WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "CAROL STREAM P.D. PANTHERS",
     "url_path_slug": null,
     "duplicates": [
@@ -12694,9 +12683,14 @@
     ]
   },
   {
-    "name_normalized": "Carlinville Kids WC",
-    "url_path_slug": null,
+    "name_normalized": "Carlinville WC",
+    "url_path_slug": "carlinville-wc",
     "duplicates": [
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "CARLINVILLE KIDS WRESTLING"
+      },
       {
         "tournament_id": 31,
         "division": "novice",
@@ -12751,13 +12745,7 @@
         "tournament_id": 41,
         "division": "senior",
         "name": "Carlinville Kids WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Carlinville WC",
-    "url_path_slug": "carlinville-wc",
-    "duplicates": [
+      },
       {
         "tournament_id": 42,
         "division": "novice",
@@ -12787,6 +12775,16 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Carlinville WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Carlinville Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Carlinville Wrestling Club"
       },
       {
         "tournament_id": 46,
@@ -12927,22 +12925,6 @@
         "tournament_id": 54,
         "division": "bantam_girls",
         "name": "Carlinville WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Carlinville Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Carlinville Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Carlinville Wrestling Club"
       }
     ]
   },
@@ -84184,17 +84166,6 @@
     ]
   },
   {
-    "name_normalized": "Waubonsie Bulldogs",
-    "url_path_slug": "waubonsie-bulldogs",
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "WAUBONSIE BULLDOGS"
-      }
-    ]
-  },
-  {
     "name_normalized": "WAUBONSIE GRIZZLIES",
     "url_path_slug": null,
     "duplicates": [
@@ -84986,6 +84957,17 @@
         "tournament_id": 27,
         "division": "senior",
         "name": "WAUBONSIE BRAVES"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Waubonsie Bulldogs",
+    "url_path_slug": "waubonsie-bulldogs",
+    "duplicates": [
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "WAUBONSIE BULLDOGS"
       }
     ]
   },
