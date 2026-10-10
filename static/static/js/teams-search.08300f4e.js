@@ -11,8 +11,7 @@ const allTeams = Array.from(list.querySelectorAll("li"));
 const teamData = allTeams.map((team) => ({
   element: team,
   name: team.querySelector(".team-name").textContent.trim(),
-  synonyms: (team.dataset.synonyms || "")
-    .split(" :: ")
+  synonyms: JSON.parse(team.dataset.synonyms || "[]")
     .map((name) => name.trim())
     .filter(Boolean),
 }));

@@ -2,7 +2,6 @@
 
 import functools
 import html
-import json
 import pathlib
 import sqlite3
 
@@ -11,7 +10,6 @@ import bs4
 import pydantic
 
 _HERE = pathlib.Path(__file__).resolve().parent
-_SYNONYM_DELIMITER = " :: "
 _NAME_OVERLAPS: dict[int, dict[str, str]] = {
     2000: {
         # Multiple "teams" due to cap on scoring
@@ -52,29 +50,14 @@ class TeamInfo(_ForbidExtra):
     id_: int = pydantic.Field(alias="id")
     name_normalized: str
     url_path_slug: str
-    synonyms: list[str]
-
-
-def _team_info_from_row(row: sqlite3.Row) -> TeamInfo:
-    synonyms_json = row["synonyms_json"]
-    synonyms = json.loads(synonyms_json)
-    for synonym in synonyms:
-        if synonym in _SYNONYM_DELIMITER:
-            raise RuntimeError("Invariant violation", synonym)
-
-    return TeamInfo(
-        id=row["id"],
-        name_normalized=row["name_normalized"],
-        url_path_slug=row["url_path_slug"],
-        synonyms=synonyms,
-    )
+    synonyms_json: str
 
 
 def _get_team_info(connection: sqlite3.Connection) -> list[TeamInfo]:
     team_info_sql = _get_sql("_verified-team-info.sql")
     cursor = connection.cursor()
     cursor.execute(team_info_sql)
-    rows = [_team_info_from_row(row) for row in cursor.fetchall()]
+    rows = [TeamInfo(**row) for row in cursor.fetchall()]
     cursor.close()
     return rows
 
@@ -143,7 +126,7 @@ def _teams_landing_html(teams: list[TeamInfo]) -> str:
 
     for team in teams:
         html_name = html.escape(team.name_normalized)
-        synonyms = html.escape(_SYNONYM_DELIMITER.join(team.synonyms))
+        synonyms = html.escape(team.synonyms_json)
         parts.extend(
             [
                 f'      <li data-synonyms="{synonyms}">',
@@ -183,7 +166,7 @@ def _teams_landing_html(teams: list[TeamInfo]) -> str:
             "      </footer>",
             "    </main>",
             "",
-            '    <script src="/js/teams-search.62d68c72.min.js"></script>',
+            '    <script src="/js/teams-search.08300f4e.min.js"></script>',
             "  </body>",
             "</html>",
         ]
