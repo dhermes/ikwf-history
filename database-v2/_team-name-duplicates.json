@@ -24775,116 +24775,100 @@
     ]
   },
   {
-    "name_normalized": "Elk Grove Junior Grens",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Elk Grove Junior Grens"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Elk Grove Junior Grens"
-      }
-    ]
-  },
-  {
     "name_normalized": "Elk Grove Junior Grens WC",
     "url_path_slug": "elk-grove-junior-grens-wc",
     "duplicates": [
       {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
         "tournament_id": 50,
         "division": "novice",
         "name": "Elk Grove Junior Grens WC"
@@ -24893,6 +24877,16 @@
         "tournament_id": 50,
         "division": "senior",
         "name": "Elk Grove Junior Grens WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Elk Grove Junior Grens"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Elk Grove Junior Grens"
       },
       {
         "tournament_id": 51,
