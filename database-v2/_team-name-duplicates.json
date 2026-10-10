@@ -46252,17 +46252,6 @@
     ]
   },
   {
-    "name_normalized": "MASCOUTAH WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "MASCOUTAH WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "MASON SCHOOL PLAYGROUND",
     "url_path_slug": null,
     "duplicates": [
@@ -48582,28 +48571,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Martinez Fox Valley Elite WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mascoutah",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Mascoutah"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mascoutah Jr. High",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Mascoutah Jr. High"
       }
     ]
   },
@@ -77646,26 +77613,45 @@
     ]
   },
   {
-    "name_normalized": "Team Mascoutah",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Team Mascoutah"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Team Mascoutah"
-      }
-    ]
-  },
-  {
     "name_normalized": "Team Mascoutah WC",
     "url_path_slug": "team-mascoutah-wc",
     "duplicates": [
       {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Mascoutah"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Mascoutah Jr. High"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "MASCOUTAH WRESTLING"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Team Mascoutah"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Team Mascoutah"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Team Mascoutah Wrestling"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Team Mascoutah Wrestling"
+      },
+      {
         "tournament_id": 46,
         "division": "novice",
         "name": "Team Mascoutah WC"
@@ -77809,22 +77795,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Team Mascoutah WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Team Mascoutah Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Team Mascoutah Wrestling"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Team Mascoutah Wrestling"
       }
     ]
   },
