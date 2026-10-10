@@ -8,6 +8,15 @@ const noResults = document.getElementById("no-results");
 
 const allTeams = Array.from(list.querySelectorAll("li"));
 
+const teamData = allTeams.map((team) => ({
+  element: team,
+  name: team.querySelector(".team-name").textContent.trim(),
+  synonyms: (team.dataset.synonyms || "")
+    .split(" :: ")
+    .map((name) => name.trim())
+    .filter(Boolean),
+}));
+
 let filteredTeams = allTeams;
 let currentPage = 1;
 
@@ -152,11 +161,13 @@ function applySearch() {
   const query = normalize(search.value.trim());
 
   filteredTeams = query
-    ? allTeams.filter((team) => {
-        const name = team.querySelector(".team-name").textContent;
+    ? teamData
+        .filter((team) => {
+          const names = [team.name, ...team.synonyms];
 
-        return normalize(name).includes(query);
-      })
+          return names.some((name) => normalize(name).includes(query));
+        })
+        .map((team) => team.element)
     : allTeams;
 
   currentPage = 1;
