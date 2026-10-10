@@ -54167,8 +54167,13 @@
   },
   {
     "name_normalized": "N.Y.A Jr. Rebels WC",
-    "url_path_slug": "nya-jr-rebels-wc",
+    "url_path_slug": "nya-rebels",
     "duplicates": [
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Norridge Park District"
+      },
       {
         "tournament_id": 52,
         "division": "novice",
@@ -55328,17 +55333,6 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Normal"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Norridge Park District",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Norridge Park District"
       }
     ]
   },
