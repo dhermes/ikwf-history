@@ -1031,7 +1031,7 @@ def _write_team_deduplicate_sql(
     for verified_team in team_name_duplicates:
         team_name = verified_team.name_normalized
         duplicates = verified_team.duplicates
-        if len(duplicates) < 2:
+        if len(duplicates) < 2 and verified_team.url_path_slug is None:
             # NOTE: Need at least 2 duplicates
             continue
 
@@ -1086,13 +1086,18 @@ def _write_team_deduplicate_sql(
                 "WHERE",
                 f"  id IN ({merge_predicate});",
                 "",
-                "DELETE FROM",
-                "  team",
-                "WHERE",
-                f"  id IN ({delete_predicate});",
-                "",
             ]
         )
+        if delete_team_ids:
+            lines.extend(
+                [
+                    "DELETE FROM",
+                    "  team",
+                    "WHERE",
+                    f"  id IN ({delete_predicate});",
+                    "",
+                ]
+            )
 
     with open(HERE / "migrations" / "0012-teams-deduplicate.sql", "w") as file_obj:
         file_obj.write("\n".join(lines))

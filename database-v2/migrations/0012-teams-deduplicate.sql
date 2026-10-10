@@ -630,6 +630,24 @@ WHERE
   id IN (8259, 8828, 9019, 10248, 10419, 10590, 10773, 10957, 11119, 11607, 11820, 12033, 12246, 12458, 12685, 12912, 13140, 13370, 13640, 13910, 14180, 14450, 14720, 14990, 15260, 15663, 15802, 16200, 16339, 16483);
 
 ----------------------------------------
+-- Aurora Franklin
+
+UPDATE
+  team
+SET
+  name_normalized = 'Aurora Franklin',
+  url_path_slug = 'aurora-franklin'
+WHERE
+  id = 215;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 215
+WHERE
+  id IN (215);
+
+----------------------------------------
 -- Aurora J-Hawks
 
 UPDATE
@@ -1709,6 +1727,24 @@ DELETE FROM
   team
 WHERE
   id IN (695);
+
+----------------------------------------
+-- Bolingbrook Girls WC
+
+UPDATE
+  team
+SET
+  name_normalized = 'Bolingbrook Girls WC',
+  url_path_slug = 'bolingbrook-girls'
+WHERE
+  id = 16494;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 16494
+WHERE
+  id IN (16494);
 
 ----------------------------------------
 -- Bolingbrook Junior Raiders WC
@@ -8220,6 +8256,24 @@ WHERE
   id IN (4231, 4382, 4550, 4835, 4983, 5157);
 
 ----------------------------------------
+-- Jr. Trojans
+
+UPDATE
+  team
+SET
+  name_normalized = 'Jr. Trojans',
+  url_path_slug = 'junior-trojans'
+WHERE
+  id = 3556;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 3556
+WHERE
+  id IN (3556);
+
+----------------------------------------
 -- Junior Bulldog WC
 
 UPDATE
@@ -12314,6 +12368,24 @@ WHERE
   id IN (9136, 9314, 9489);
 
 ----------------------------------------
+-- Ottawa WC
+
+UPDATE
+  team
+SET
+  name_normalized = 'Ottawa WC',
+  url_path_slug = 'ottawa-wc'
+WHERE
+  id = 16281;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 16281
+WHERE
+  id IN (16281);
+
+----------------------------------------
 -- Ottawa Wolfpack WC
 
 UPDATE
@@ -14361,6 +14433,24 @@ WHERE
   id IN (6524, 6711, 6893);
 
 ----------------------------------------
+-- Roselle
+
+UPDATE
+  team
+SET
+  name_normalized = 'Roselle',
+  url_path_slug = 'roselle'
+WHERE
+  id = 549;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 549
+WHERE
+  id IN (549);
+
+----------------------------------------
 -- Rosemont Cobras
 
 UPDATE
@@ -15994,6 +16084,24 @@ WHERE
   id IN (11244, 11410, 11572);
 
 ----------------------------------------
+-- Starved Rock Scrappers WC
+
+UPDATE
+  team
+SET
+  name_normalized = 'Starved Rock Scrappers WC',
+  url_path_slug = 'starved-rock'
+WHERE
+  id = 16056;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 16056
+WHERE
+  id IN (16056);
+
+----------------------------------------
 -- Stateline Stingers WC
 
 UPDATE
@@ -16291,6 +16399,24 @@ DELETE FROM
   team
 WHERE
   id IN (333, 441, 560, 676, 788, 900, 1008, 1123, 1232, 1345, 1530, 1660, 1933, 2070, 2196, 2346, 2491, 2630, 2778, 2924, 3076, 3236, 3576, 4452, 4620, 4752, 4893, 5062, 5236, 5539, 5678, 5826, 5996, 6175, 6354, 6538, 6725, 6907, 7093, 7281, 7471, 7659, 7851, 8041, 8224, 8411, 8599, 8790, 8983, 9174, 9348, 9523, 9694, 9861, 10034, 10211, 10386, 10557, 10738, 10921, 11087, 11249, 11413, 11575, 11781, 11994, 12207, 12420, 12647, 12874, 13102, 13330, 13587, 13857, 14127, 14397, 14667, 14937, 15207, 15477, 15919, 16060, 16312);
+
+----------------------------------------
+-- TEAM 1
+
+UPDATE
+  team
+SET
+  name_normalized = 'TEAM 1',
+  url_path_slug = 'team-1'
+WHERE
+  id = 4034;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 4034
+WHERE
+  id IN (4034);
 
 ----------------------------------------
 -- TJ Trained Wrestling (HQ)
@@ -18315,6 +18441,24 @@ DELETE FROM
   team
 WHERE
   id IN (2359, 2505, 2644, 2790, 2937, 3088, 3246);
+
+----------------------------------------
+-- Waubonsie Bulldogs
+
+UPDATE
+  team
+SET
+  name_normalized = 'Waubonsie Bulldogs',
+  url_path_slug = 'waubonsie-bulldogs'
+WHERE
+  id = 4300;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 4300
+WHERE
+  id IN (4300);
 
 ----------------------------------------
 -- Waubonsie Pioneers
