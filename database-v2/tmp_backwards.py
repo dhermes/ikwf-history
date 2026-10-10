@@ -139,6 +139,12 @@ def main2() -> None:
 
         name_normalized = verified_team.name_normalized
         print(f"{new_slug} -> {name_normalized}")
+        verified_team.url_path_slug = new_slug
+
+    as_json = team_duplicates.model_dump_json(indent=2)
+    with open(_HERE / "_team-name-duplicates.json", "w") as file_obj:
+        file_obj.write(as_json)
+        file_obj.write("\n")
 
 
 if __name__ == "__main__":
