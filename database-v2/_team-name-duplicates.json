@@ -19053,17 +19053,6 @@
     ]
   },
   {
-    "name_normalized": "DUKES WRESTLING YORKS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "DUKES WRESTLING YORKS"
-      }
-    ]
-  },
-  {
     "name_normalized": "DUNDEE HIGHLANDERS-CARPENTERSVILLE",
     "url_path_slug": null,
     "duplicates": [
@@ -40422,8 +40411,13 @@
   },
   {
     "name_normalized": "Junior Dukes WC",
-    "url_path_slug": null,
+    "url_path_slug": "junior-dukes",
     "duplicates": [
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "DUKES WRESTLING YORKS"
+      },
       {
         "tournament_id": 42,
         "division": "novice",
