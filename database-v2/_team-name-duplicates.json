@@ -45767,32 +45767,6 @@
     ]
   },
   {
-    "name_normalized": "Little Rockets",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "LITTLE ROCKETS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "LITTLE ROCKETS"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Little Rockets"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Little Rockets"
-      }
-    ]
-  },
-  {
     "name_normalized": "Little Tigers WC",
     "url_path_slug": null,
     "duplicates": [
@@ -67234,6 +67208,46 @@
     "url_path_slug": "rockets-wc",
     "duplicates": [
       {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "LITTLE ROCKETS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "LITTLE ROCKETS"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Little Rockets"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Little Rockets"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Rockets Youth WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Rockets Youth WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Rockets Youth WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Rockets Youth WC"
+      },
+      {
         "tournament_id": 10050,
         "division": "novice",
         "name": "Rockets WC"
@@ -67347,32 +67361,6 @@
         "tournament_id": 54,
         "division": "novice_girls",
         "name": "Rockets WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rockets Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Rockets Youth WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Rockets Youth WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Rockets Youth WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Rockets Youth WC"
       }
     ]
   },
