@@ -58821,23 +58821,7 @@
   },
   {
     "name_normalized": "Ottawa Crushers Kids WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Ottawa Crushers Kids WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Ottawa Crushers Kids WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Ottawa Crushers Kids Wrestling Club",
-    "url_path_slug": null,
+    "url_path_slug": "ottawa-crushers",
     "duplicates": [
       {
         "tournament_id": 45,
@@ -58848,6 +58832,16 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Ottawa Crushers Kids Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Ottawa Crushers Kids WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Ottawa Crushers Kids WC"
       }
     ]
   },
