@@ -38085,8 +38085,8 @@
     ]
   },
   {
-    "name_normalized": "Impact WC",
-    "url_path_slug": null,
+    "name_normalized": "Impact Wrestling Academy, LLC",
+    "url_path_slug": "impact-wrestling-academy-llc",
     "duplicates": [
       {
         "tournament_id": 35,
@@ -38102,13 +38102,7 @@
         "tournament_id": 36,
         "division": "senior",
         "name": "IMPACT WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Impact Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 53,
         "division": "bantam",
@@ -38148,13 +38142,7 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Impact Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Impact Wrestling Academy, LLC",
-    "url_path_slug": "impact-wrestling-academy-llc",
-    "duplicates": [
+      },
       {
         "tournament_id": 54,
         "division": "bantam",
