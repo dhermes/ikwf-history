@@ -12628,22 +12628,6 @@
     ]
   },
   {
-    "name_normalized": "Carl Sandburg",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Carl Sandburg"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Carl Sandburg"
-      }
-    ]
-  },
-  {
     "name_normalized": "Carl Sandburg / Mundelein",
     "url_path_slug": null,
     "duplicates": [
@@ -12656,12 +12640,22 @@
   },
   {
     "name_normalized": "Carl Sandburg Des Plaines",
-    "url_path_slug": null,
+    "url_path_slug": "carl-sandburg-des-plaines",
     "duplicates": [
       {
         "tournament_id": 12,
         "division": "senior",
         "name": "Carl Sandburg Des Plaines"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Carl Sandburg"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Carl Sandburg"
       }
     ]
   },
