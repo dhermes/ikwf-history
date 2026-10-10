@@ -88451,22 +88451,6 @@
     ]
   },
   {
-    "name_normalized": "Woodstock Cyclones",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Woodstock Cyclones"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Woodstock Cyclones"
-      }
-    ]
-  },
-  {
     "name_normalized": "Woodstock Cyclones WC",
     "url_path_slug": "woodstock-cyclones-wc",
     "duplicates": [
@@ -88479,6 +88463,16 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Woodstock Cyclones WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Woodstock Cyclones"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Woodstock Cyclones"
       },
       {
         "tournament_id": 10052,
