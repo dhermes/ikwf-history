@@ -33408,8 +33408,8 @@
     ]
   },
   {
-    "name_normalized": "Harrisburg Jr. Bulldogs",
-    "url_path_slug": null,
+    "name_normalized": "Harrisburg Junior Bulldogs",
+    "url_path_slug": "harrisburg",
     "duplicates": [
       {
         "tournament_id": 42,
@@ -33420,13 +33420,7 @@
         "tournament_id": 42,
         "division": "senior",
         "name": "Harrisburg Jr. Bulldogs"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Harrisburg Junior Bulldogs",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 43,
         "division": "novice",
