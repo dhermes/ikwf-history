@@ -46449,48 +46449,6 @@
     ]
   },
   {
-    "name_normalized": "MENDOTA YOUTH WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "MENDOTA YOUTH WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "MENDOTA YOUTH WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "MENDOTA YOUTH WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "MENDOTA YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "MENDOTA YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "MENDOTA YOUTH WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "MENDOTA YOUTH WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "MOLINE LIONS",
     "url_path_slug": null,
     "duplicates": [
@@ -49819,8 +49777,38 @@
   },
   {
     "name_normalized": "Mendota Mat Masters",
-    "url_path_slug": null,
+    "url_path_slug": "mendota-mat-masters",
     "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "MENDOTA YOUTH WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "MENDOTA YOUTH WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "MENDOTA YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "MENDOTA YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "MENDOTA YOUTH WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "MENDOTA YOUTH WRESTLING"
+      },
       {
         "tournament_id": 31,
         "division": "novice",
