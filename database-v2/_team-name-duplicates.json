@@ -12655,17 +12655,6 @@
     ]
   },
   {
-    "name_normalized": "Carl Sandburg / Rolling Meadows",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Carl Sandburg / Rolling Meadows"
-      }
-    ]
-  },
-  {
     "name_normalized": "Carl Sandburg Des Plaines",
     "url_path_slug": null,
     "duplicates": [
@@ -67796,6 +67785,11 @@
     "name_normalized": "Rolling Meadows Park District Mustangs Wrestling",
     "url_path_slug": "rolling-meadows-park-district-mustangs-wrestling",
     "duplicates": [
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Carl Sandburg / Rolling Meadows"
+      },
       {
         "tournament_id": 54,
         "division": "bantam_girls",
