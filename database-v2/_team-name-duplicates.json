@@ -22519,7 +22519,7 @@
   },
   {
     "name_normalized": "Dupage WC",
-    "url_path_slug": null,
+    "url_path_slug": "dupage",
     "duplicates": [
       {
         "tournament_id": 43,
@@ -22530,6 +22530,16 @@
         "tournament_id": 43,
         "division": "senior",
         "name": "DuPage WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "DuPage Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "DuPage Wrestling Club"
       },
       {
         "tournament_id": 46,
@@ -22560,22 +22570,6 @@
         "tournament_id": 48,
         "division": "senior",
         "name": "DuPage WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Dupage Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "DuPage Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "DuPage Wrestling Club"
       }
     ]
   },
