@@ -76537,37 +76537,6 @@
     ]
   },
   {
-    "name_normalized": "TCS WC",
-    "url_path_slug": "tcs-wc",
-    "duplicates": [
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "TCS WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "TCS WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate_girls",
-        "name": "TCS WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "TCS WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "TCS WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "TEAM 1",
     "url_path_slug": null,
     "duplicates": [
@@ -80167,7 +80136,7 @@
   },
   {
     "name_normalized": "Tony Capriola Sr. WC",
-    "url_path_slug": null,
+    "url_path_slug": "tony-capriola-sr",
     "duplicates": [
       {
         "tournament_id": 53,
@@ -80208,6 +80177,31 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Tony Capriola Sr. WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "TCS WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "TCS WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate_girls",
+        "name": "TCS WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "TCS WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "TCS WC"
       }
     ]
   },
