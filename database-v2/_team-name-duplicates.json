@@ -77139,6 +77139,72 @@
     ]
   },
   {
+    "name_normalized": "TJ Trained-Springfield",
+    "url_path_slug": "tj-trained-springfield",
+    "duplicates": [
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "TJ Trained-Springfield"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "TJ Trained-Springfield"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "TJ Trained-Springfield"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "TJ Trained-Springfield"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "TJ Trained-Springfield"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "TJ Trained-Springfield"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "TJ Trained-Springfield"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "TJ Trained-Springfield"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "TJ Trained-Springfield Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "TJ Trained-Springfield Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "TJ Trained-Springfield Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "TJ Trained-Springfield Wrestling"
+      }
+    ]
+  },
+  {
     "name_normalized": "TRI-CITY TURTLES",
     "url_path_slug": null,
     "duplicates": [
@@ -80402,78 +80468,6 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "TITAN YOUTH WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Tj Trained-Springfield",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "TJ Trained-Springfield"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "TJ Trained-Springfield"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "TJ Trained-Springfield"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "TJ Trained-Springfield"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "TJ Trained-Springfield"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "TJ Trained-Springfield"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "TJ Trained-Springfield"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "TJ Trained-Springfield"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Tj Trained-Springfield Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "TJ Trained-Springfield Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "TJ Trained-Springfield Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "TJ Trained-Springfield Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "TJ Trained-Springfield Wrestling"
       }
     ]
   },
