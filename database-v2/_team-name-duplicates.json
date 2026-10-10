@@ -89337,47 +89337,10 @@
     ]
   },
   {
-    "name_normalized": "Young Guns",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Young Guns"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Young Guns"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Young Guns"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Young Guns"
-      }
-    ]
-  },
-  {
     "name_normalized": "Young Guns WC",
     "url_path_slug": "young-guns-wc",
     "duplicates": [
       {
-        "tournament_id": 54,
-        "division": "novice",
-        "name": "Young Guns WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Young Guns Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 46,
         "division": "novice",
         "name": "Young Guns Wrestling"
@@ -89386,6 +89349,31 @@
         "tournament_id": 46,
         "division": "senior",
         "name": "Young Guns Wrestling"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Young Guns"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Young Guns"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Young Guns"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Young Guns"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice",
+        "name": "Young Guns WC"
       }
     ]
   },
