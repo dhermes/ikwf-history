@@ -46696,6 +46696,62 @@
     ]
   },
   {
+    "name_normalized": "MC Bulldog WC",
+    "url_path_slug": "mc-bulldog",
+    "duplicates": [
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "MC BULLDOGS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "MC BULLDOGS"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "MC Bulldog Wrestling Club"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "MC Bulldog Wrestling Club"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "MC Bulldog WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "MC Bulldog WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "MC Bulldog Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "MC Bulldog Wrestling Club"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "MC Bulldog WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "MC Bulldog WC"
+      }
+    ]
+  },
+  {
     "name_normalized": "MEAD JH SCHOOL WC",
     "url_path_slug": null,
     "duplicates": [
@@ -49856,74 +49912,6 @@
         "tournament_id": 48,
         "division": "senior",
         "name": "Maywood Bucs"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mc Bulldog WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "MC Bulldog WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "MC Bulldog WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "MC Bulldog WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "MC Bulldog WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mc Bulldog Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "MC Bulldog Wrestling Club"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "MC Bulldog Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "MC Bulldog Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "MC Bulldog Wrestling Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mc Bulldogs",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "MC BULLDOGS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "MC BULLDOGS"
       }
     ]
   },
