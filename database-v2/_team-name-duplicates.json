@@ -13862,8 +13862,58 @@
   },
   {
     "name_normalized": "Central Illinois Academy Of Wrestling",
-    "url_path_slug": null,
+    "url_path_slug": "central-illinois-academy",
     "duplicates": [
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Central Illinois Wrestling Academy"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Central Illinois Wrestling Academy"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Central Illinois Wrestling Academy"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Central Illinois Wrestling Academy"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Central Illinois Wrestling Academy"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Central Illinois Wrestling Academy"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Central Illinois Wrestling Academy"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Central Illinois Wrestling Academy"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Central Illinois Wrestling Academy"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Central Illinois Wrestling Academy"
+      },
       {
         "tournament_id": 49,
         "division": "novice",
@@ -13959,62 +14009,6 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Central Illinois Bulldogs WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Central Illinois Wrestling Academy",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Central Illinois Wrestling Academy"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Central Illinois Wrestling Academy"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Central Illinois Wrestling Academy"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Central Illinois Wrestling Academy"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Central Illinois Wrestling Academy"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Central Illinois Wrestling Academy"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Central Illinois Wrestling Academy"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Central Illinois Wrestling Academy"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Central Illinois Wrestling Academy"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Central Illinois Wrestling Academy"
       }
     ]
   },
