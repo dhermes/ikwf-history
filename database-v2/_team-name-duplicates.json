@@ -3942,95 +3942,89 @@
     ]
   },
   {
-    "name_normalized": "Backyard Brawlers Midwest",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Backyard Brawlers Midwest"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Backyard Brawlers Midwest"
-      }
-    ]
-  },
-  {
     "name_normalized": "Backyard Brawlers Midwest WC",
     "url_path_slug": "backyard-brawlers-midwest-wc",
     "duplicates": [
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Backyard Brawlers Midwest"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Backyard Brawlers Midwest"
+      },
       {
         "tournament_id": 54,
         "division": "senior",
