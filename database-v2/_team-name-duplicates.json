@@ -66038,52 +66038,6 @@
     ]
   },
   {
-    "name_normalized": "Riverton-Williamsville Youth Wrestling",
-    "url_path_slug": "riverton-williamsville",
-    "duplicates": [
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Riverton/Williamsville Youth Wrestling"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Riverton/Williamsville Youth Wrestling"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Riverton/Williamsville Youth Wrestling"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Riverton/Williamsville Youth Wrestling"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Riverton/Williamsville Youth Wrestling"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Riverton/Williamsville Youth Wrestling"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Riverton-Williamsville Youth Wrestling"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Riverton-Williamsville Youth Wrestling"
-      }
-    ]
-  },
-  {
     "name_normalized": "Road Warriors",
     "url_path_slug": null,
     "duplicates": [
@@ -87411,6 +87365,36 @@
     "url_path_slug": "williamsville-wc",
     "duplicates": [
       {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Riverton/Williamsville Youth Wrestling"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Riverton/Williamsville Youth Wrestling"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Riverton/Williamsville Youth Wrestling"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Riverton/Williamsville Youth Wrestling"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Riverton/Williamsville Youth Wrestling"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Riverton/Williamsville Youth Wrestling"
+      },
+      {
         "tournament_id": 50,
         "division": "novice",
         "name": "Williamsville WC"
@@ -87419,6 +87403,16 @@
         "tournament_id": 50,
         "division": "senior",
         "name": "Williamsville WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Riverton-Williamsville Youth Wrestling"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Riverton-Williamsville Youth Wrestling"
       },
       {
         "tournament_id": 51,
