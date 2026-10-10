@@ -28729,45 +28729,39 @@
     ]
   },
   {
-    "name_normalized": "Frankfort Square Wildcats Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Frankfort Square Wildcats Wrestling"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Frankfort Square Wildcats Wrestling"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Frankfort Square Wildcats Wrestling"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Frankfort Square Wildcats Wrestling"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Frankfort Square Wildcats Wrestling"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Frankfort Square Wildcats Wrestling"
-      }
-    ]
-  },
-  {
     "name_normalized": "Frankfort Wildcats Wrestling",
-    "url_path_slug": "frankfort-wildcats-wrestling",
+    "url_path_slug": "frankfort-wildcats",
     "duplicates": [
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Frankfort Square Wildcats Wrestling"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Frankfort Square Wildcats Wrestling"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Frankfort Square Wildcats Wrestling"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Frankfort Square Wildcats Wrestling"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Frankfort Square Wildcats Wrestling"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Frankfort Square Wildcats Wrestling"
+      },
       {
         "tournament_id": 48,
         "division": "novice",
