@@ -19929,12 +19929,32 @@
   },
   {
     "name_normalized": "DeKalb Rosette",
-    "url_path_slug": null,
+    "url_path_slug": "dekalb-rosette",
     "duplicates": [
       {
         "tournament_id": 1,
         "division": "senior",
         "name": "DeKalb Rosette"
+      },
+      {
+        "tournament_id": 2,
+        "division": "senior",
+        "name": "Rosette"
+      },
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Rosette"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Rosette Middle School"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Rosette"
       },
       {
         "tournament_id": 12,
@@ -68298,38 +68318,6 @@
         "tournament_id": 29,
         "division": "senior",
         "name": "ROSEMONT COBRAS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rosette",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 2,
-        "division": "senior",
-        "name": "Rosette"
-      },
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Rosette"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Rosette"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rosette Middle School",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Rosette Middle School"
       }
     ]
   },
