@@ -74459,8 +74459,143 @@
   },
   {
     "name_normalized": "Stateline Stingers WC",
-    "url_path_slug": "stateline-stingers-wc",
+    "url_path_slug": "stateline-stingers",
     "duplicates": [
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "ZEE-BEE STINGERS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "ZEE-BEE STINGERS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "ZEE-BEE STINGERS"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Zee Bee Stingers"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Zee Bee Stingers"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "ZEE BEE STINGERS"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "ZEE BEE STINGERS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "ZEE BEE STINGERS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "ZEE BEE STINGERS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "ZEE BEE STINGERS"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "ZEE BEE STINGERS"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Zee Bee Stingers"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Zee Bee Stingers"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Zee-Bee Stingers"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Zee-Bee Stingers"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Zee-Bee Stingers WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Zee-Bee Stingers WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Zee-Bee Stingers WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Zee-Bee Stingers WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Zee-Bee Stingers Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Zee-Bee Stingers Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Zee-Bee Stingers WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Zee-Bee Stingers WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Zee-Bee Stingers"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Zee-Bee Stingers"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Stingers WC"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Stingers WC"
+      },
       {
         "tournament_id": 10052,
         "division": "bantam",
@@ -75147,22 +75282,6 @@
         "tournament_id": 54,
         "division": "novice_girls",
         "name": "Stillman Valley WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Stingers WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Stingers WC"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Stingers WC"
       }
     ]
   },
@@ -89467,137 +89586,6 @@
         "tournament_id": 48,
         "division": "senior",
         "name": "Z`s Team Pena"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Zee-Bee Stingers WC",
-    "url_path_slug": "zee-bee",
-    "duplicates": [
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "ZEE-BEE STINGERS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "ZEE-BEE STINGERS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "ZEE-BEE STINGERS"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Zee Bee Stingers"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Zee Bee Stingers"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "ZEE BEE STINGERS"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "ZEE BEE STINGERS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "ZEE BEE STINGERS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "ZEE BEE STINGERS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "ZEE BEE STINGERS"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "ZEE BEE STINGERS"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Zee Bee Stingers"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Zee Bee Stingers"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Zee-Bee Stingers"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Zee-Bee Stingers"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Zee-Bee Stingers WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Zee-Bee Stingers WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Zee-Bee Stingers WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Zee-Bee Stingers WC"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Zee-Bee Stingers Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Zee-Bee Stingers Wrestling Club"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Zee-Bee Stingers WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Zee-Bee Stingers WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Zee-Bee Stingers"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Zee-Bee Stingers"
       }
     ]
   },
