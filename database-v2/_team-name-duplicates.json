@@ -40186,6 +40186,16 @@
     "url_path_slug": "junior-cyclones",
     "duplicates": [
       {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "LITTLE CYCLONE WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "LITTLE CYCLONE WC"
+      },
+      {
         "tournament_id": 48,
         "division": "novice",
         "name": "Junior Cyclones WC"
@@ -45688,22 +45698,6 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Little Comanches"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Little Cyclone WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "LITTLE CYCLONE WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "LITTLE CYCLONE WC"
       }
     ]
   },
