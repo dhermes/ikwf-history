@@ -1198,6 +1198,16 @@
         "name": "Aledo"
       },
       {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "BEAR COUNTRY WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "BEAR COUNTRY WRESTLING"
+      },
+      {
         "tournament_id": 29,
         "division": "senior",
         "name": "BEAR COUNTRY WRESTLING"
@@ -3745,22 +3755,6 @@
         "tournament_id": 54,
         "division": "intermediate_girls",
         "name": "Aurora WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BEAR COUNTRY WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "BEAR COUNTRY WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "BEAR COUNTRY WRESTLING"
       }
     ]
   },
