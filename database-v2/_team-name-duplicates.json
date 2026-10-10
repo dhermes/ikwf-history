@@ -78172,125 +78172,109 @@
     ]
   },
   {
-    "name_normalized": "The Law",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "THE LAW"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "THE LAW"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "The Law"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "The Law"
-      }
-    ]
-  },
-  {
     "name_normalized": "The Law WC",
-    "url_path_slug": "the-law-wc",
+    "url_path_slug": "the-law",
     "duplicates": [
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "THE LAW"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "THE LAW"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "The Law"
+      },
       {
         "tournament_id": 50,
         "division": "novice",
@@ -78300,6 +78284,16 @@
         "tournament_id": 50,
         "division": "senior",
         "name": "The Law WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "The Law"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "The Law"
       },
       {
         "tournament_id": 51,
