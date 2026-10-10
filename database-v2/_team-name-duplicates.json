@@ -76935,6 +76935,136 @@
         "name": "TJ Trained"
       },
       {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "TJ Trained Wrestling"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "TJ Trained Wrestling"
+      },
+      {
         "tournament_id": 54,
         "division": "bantam",
         "name": "TJ Trained Wrestling"
@@ -76963,6 +77093,48 @@
         "tournament_id": 54,
         "division": "intermediate_girls",
         "name": "TJ Trained Wrestling"
+      }
+    ]
+  },
+  {
+    "name_normalized": "TJ Trained-Canton",
+    "url_path_slug": "tj-trained-canton",
+    "duplicates": [
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "TJ Trained-Canton"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "TJ Trained-Canton"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "TJ Trained-Canton"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "TJ Trained-Canton"
+      }
+    ]
+  },
+  {
+    "name_normalized": "TJ Trained-Decatur",
+    "url_path_slug": "tj-trained-decatur",
+    "duplicates": [
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "TJ Trained-Decatur"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "TJ Trained-Decatur"
       }
     ]
   },
@@ -80230,184 +80402,6 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "TITAN YOUTH WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Tj Trained Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "TJ Trained Wrestling"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "TJ Trained Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Tj Trained-Canton",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "TJ Trained-Canton"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "TJ Trained-Canton"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "TJ Trained-Canton"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "TJ Trained-Canton"
-      }
-    ]
-  },
-  {
-    "name_normalized": "TJ Trained-Decatur",
-    "url_path_slug": "tj-trained-decatur",
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "TJ Trained-Decatur"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "TJ Trained-Decatur"
       }
     ]
   },
