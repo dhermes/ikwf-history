@@ -37566,22 +37566,6 @@
     ]
   },
   {
-    "name_normalized": "ILLINOIS VALLEY",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "ILLINOIS VALLEY"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "ILLINOIS VALLEY"
-      }
-    ]
-  },
-  {
     "name_normalized": "ISI WC",
     "url_path_slug": "isi",
     "duplicates": [
@@ -38000,58 +37984,6 @@
     ]
   },
   {
-    "name_normalized": "Illinois Valley Elite WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Illinois Valley Elite WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Illinois Valley Elite WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Illinois Valley Elite Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Illinois Valley Elite Wrestling"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Illinois Valley Elite Wrestling"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Illinois Valley Elite Wrestling"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Illinois Valley Elite Wrestling"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Illinois Valley Elite Wrestling"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Illinois Valley Elite Wrestling"
-      }
-    ]
-  },
-  {
     "name_normalized": "Illinois Valley WC",
     "url_path_slug": "illinois-valley",
     "duplicates": [
@@ -38059,6 +37991,56 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Illinois Valley WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "ILLINOIS VALLEY"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "ILLINOIS VALLEY"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Illinois Valley Elite WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Illinois Valley Elite WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Illinois Valley Elite Wrestling"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Illinois Valley Elite Wrestling"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Illinois Valley Elite Wrestling"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Illinois Valley Elite Wrestling"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Illinois Valley Elite Wrestling"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Illinois Valley Elite Wrestling"
       },
       {
         "tournament_id": 54,
