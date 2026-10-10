@@ -42253,161 +42253,143 @@
     ]
   },
   {
-    "name_normalized": "Lake Zurich",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Lake Zurich"
-      }
-    ]
-  },
-  {
     "name_normalized": "Lake Zurich Cubs WC",
     "url_path_slug": "lake-zurich-cubs-wc",
-    "duplicates": [
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "intermediate",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "bantam_girls",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "novice_girls",
-        "name": "Lake Zurich Cubs WC"
-      },
-      {
-        "tournament_id": 54,
-        "division": "senior_girls",
-        "name": "Lake Zurich Cubs WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lake Zurich W.C.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Lake Zurich W.C."
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lake Zurich Wrestling Club",
-    "url_path_slug": null,
     "duplicates": [
       {
         "tournament_id": 8,
         "division": "senior",
         "name": "Lake Zurich Wrestling Club"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Lake Zurich W.C."
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Lake Zurich"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "intermediate",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "bantam_girls",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "novice_girls",
+        "name": "Lake Zurich Cubs WC"
+      },
+      {
+        "tournament_id": 54,
+        "division": "senior_girls",
+        "name": "Lake Zurich Cubs WC"
       }
     ]
   },
