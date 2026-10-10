@@ -62973,24 +62973,8 @@
     ]
   },
   {
-    "name_normalized": "Proviso Power House WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Proviso Power House WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Proviso Power House WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Proviso Powerhouse WC",
-    "url_path_slug": null,
+    "url_path_slug": "proviso-powerhouse",
     "duplicates": [
       {
         "tournament_id": 34,
@@ -63041,6 +63025,16 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "PROVISO POWERHOUSE WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Proviso Power House WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Proviso Power House WC"
       }
     ]
   },
