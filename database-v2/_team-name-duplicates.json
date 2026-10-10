@@ -58848,22 +58848,6 @@
     ]
   },
   {
-    "name_normalized": "Outlaws WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Outlaws WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Outlaws WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "P3 Warrior Wrestling Academy",
     "url_path_slug": "p3-warrior",
     "duplicates": [
@@ -72557,8 +72541,18 @@
   },
   {
     "name_normalized": "Southside Outlaws WC",
-    "url_path_slug": "southside-outlaws-wc",
+    "url_path_slug": "southside-outlaws",
     "duplicates": [
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Outlaws WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Outlaws WC"
+      },
       {
         "tournament_id": 49,
         "division": "novice",
