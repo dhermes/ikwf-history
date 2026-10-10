@@ -3663,22 +3663,6 @@
         "name": "Tomcat WC"
       },
       {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Tomcat WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Tomcat WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Aurora WC",
-    "url_path_slug": "aurora-wc",
-    "duplicates": [
-      {
         "tournament_id": 50,
         "division": "novice",
         "name": "Aurora WC"
@@ -3687,6 +3671,16 @@
         "tournament_id": 50,
         "division": "senior",
         "name": "Aurora WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Tomcat WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Tomcat WC"
       },
       {
         "tournament_id": 51,
