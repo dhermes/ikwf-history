@@ -32117,71 +32117,59 @@
     ]
   },
   {
-    "name_normalized": "Grayslake WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Grayslake WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Grayslake WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Grayslake WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Grayslake WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Grayslake WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Grayslake WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Grayslake WC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Grayslake WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Grayslake Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Grayslake Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Grayslake Wrestling Club"
-      }
-    ]
-  },
-  {
     "name_normalized": "Grayslake Youth WC",
     "url_path_slug": "grayslake-youth-wc",
     "duplicates": [
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Grayslake WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Grayslake WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Grayslake Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Grayslake Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Grayslake WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Grayslake WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Grayslake WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Grayslake WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Grayslake WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Grayslake WC"
+      },
       {
         "tournament_id": 53,
         "division": "bantam",
