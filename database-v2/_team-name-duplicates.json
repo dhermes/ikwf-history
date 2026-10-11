@@ -38451,62 +38451,6 @@
     ]
   },
   {
-    "name_normalized": "Junior Warrior WC",
-    "url_path_slug": "jr-warrior",
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "JR. WARRIORS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "JUNIOR WARRIORS"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "J.R. Warrior WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "J.R. Warrior WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "J.R. Warrior WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "J.R. Warrior WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "J.R. Warrior WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "J.R. Warrior WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "J.R. Warrior WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "J.R. Warrior WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "JORDON",
     "url_path_slug": null,
     "duplicates": [
@@ -40585,8 +40529,8 @@
     ]
   },
   {
-    "name_normalized": "Junior Titan Wrestling",
-    "url_path_slug": null,
+    "name_normalized": "Junior Titans Wrestling",
+    "url_path_slug": "junior-titans-wrestling",
     "duplicates": [
       {
         "tournament_id": 44,
@@ -40597,13 +40541,7 @@
         "tournament_id": 44,
         "division": "senior",
         "name": "Junior Titan Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Junior Titans Wrestling",
-    "url_path_slug": "junior-titans-wrestling",
-    "duplicates": [
+      },
       {
         "tournament_id": 50,
         "division": "novice",
@@ -40724,6 +40662,62 @@
         "tournament_id": 37,
         "division": "senior",
         "name": "Junior Vikings"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Junior Warrior WC",
+    "url_path_slug": "jr-warrior",
+    "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "JR. WARRIORS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "JUNIOR WARRIORS"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "J.R. Warrior WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "J.R. Warrior WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "J.R. Warrior WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "J.R. Warrior WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "J.R. Warrior WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "J.R. Warrior WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "J.R. Warrior WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "J.R. Warrior WC"
       }
     ]
   },
