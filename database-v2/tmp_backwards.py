@@ -128,7 +128,7 @@ def main2() -> None:
 
         new_slugs[new_slug] = verified_team
 
-    latest_tournament_id = 10052  # 2024, also 52
+    latest_tournament_id = 52  # 2024
     for new_slug, verified_team in new_slugs.items():
         has_latest_year = any(
             team_duplicate.tournament_id == latest_tournament_id
