@@ -5365,114 +5365,6 @@
     ]
   },
   {
-    "name_normalized": "Beat the Streets Chicago-Bellwood",
-    "url_path_slug": "bts-bellwood",
-    "duplicates": [
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Beat the Streets Chicago-Bellwood"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Beat the Streets Chicago-Bellwood"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Beat the Streets Chicago-Hyde Park",
-    "url_path_slug": "bts-hyde-park",
-    "duplicates": [
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Beat the Streets Chicago-Hyde Park"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Beat the Streets Chicago-Hyde Park"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "Beat the Streets Chicago-Hyde Park"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "Beat the Streets Chicago-Hyde Park"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "Beat the Streets Chicago-Hyde Park"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "Beat the Streets Chicago-Hyde Park"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Beat the Streets-Chicago",
-    "url_path_slug": "bts-chicago",
-    "duplicates": [
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Beat the Streets-Chicago"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Beat the Streets-Chicago"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Beat the Streets-Chicago"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Beat the Streets-Chicago"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "Beat the Streets-Chicago"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "Beat the Streets-Chicago"
-      },
-      {
-        "tournament_id": 50,
-        "division": "novice",
-        "name": "Beat the Streets-Chicago"
-      },
-      {
-        "tournament_id": 50,
-        "division": "senior",
-        "name": "Beat the Streets-Chicago"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Beat the Streets-Chicago"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Beat the Streets-Chicago"
-      }
-    ]
-  },
-  {
     "name_normalized": "Beat the Streets Chicago-Avondale",
     "url_path_slug": "bts-avondale",
     "duplicates": [
@@ -5600,6 +5492,58 @@
         "tournament_id": 54,
         "division": "novice_girls",
         "name": "Beat the Streets Chicago-Avondale"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Beat the Streets Chicago-Bellwood",
+    "url_path_slug": "bts-bellwood",
+    "duplicates": [
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Beat the Streets Chicago-Bellwood"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Beat the Streets Chicago-Bellwood"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Beat the Streets Chicago-Hyde Park",
+    "url_path_slug": "bts-hyde-park",
+    "duplicates": [
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Beat the Streets Chicago-Hyde Park"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Beat the Streets Chicago-Hyde Park"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "Beat the Streets Chicago-Hyde Park"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "Beat the Streets Chicago-Hyde Park"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "Beat the Streets Chicago-Hyde Park"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "Beat the Streets Chicago-Hyde Park"
       }
     ]
   },
@@ -6029,6 +5973,62 @@
         "tournament_id": 54,
         "division": "novice_girls",
         "name": "Beat the Streets Chicago-Tri Taylor"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Beat the Streets-Chicago",
+    "url_path_slug": "bts-chicago",
+    "duplicates": [
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Beat the Streets-Chicago"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Beat the Streets-Chicago"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Beat the Streets-Chicago"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Beat the Streets-Chicago"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "Beat the Streets-Chicago"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "Beat the Streets-Chicago"
+      },
+      {
+        "tournament_id": 50,
+        "division": "novice",
+        "name": "Beat the Streets-Chicago"
+      },
+      {
+        "tournament_id": 50,
+        "division": "senior",
+        "name": "Beat the Streets-Chicago"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Beat the Streets-Chicago"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Beat the Streets-Chicago"
       }
     ]
   },
@@ -11354,6 +11354,32 @@
     ]
   },
   {
+    "name_normalized": "CICC",
+    "url_path_slug": "cicc",
+    "duplicates": [
+      {
+        "tournament_id": 52,
+        "division": "novice",
+        "name": "CICC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior",
+        "name": "CICC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "novice_girls",
+        "name": "CICC"
+      },
+      {
+        "tournament_id": 52,
+        "division": "senior_girls",
+        "name": "CICC"
+      }
+    ]
+  },
+  {
     "name_normalized": "COLTS & BRAVES WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -16037,32 +16063,6 @@
         "tournament_id": 11,
         "division": "senior",
         "name": "Christ the King"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CICC",
-    "url_path_slug": "cicc",
-    "duplicates": [
-      {
-        "tournament_id": 52,
-        "division": "novice",
-        "name": "CICC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior",
-        "name": "CICC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "novice_girls",
-        "name": "CICC"
-      },
-      {
-        "tournament_id": 52,
-        "division": "senior_girls",
-        "name": "CICC"
       }
     ]
   },
@@ -74191,7 +74191,7 @@
   },
   {
     "name_normalized": "Stampede WC",
-    "url_path_slug": "stampede-wc",
+    "url_path_slug": "stampede",
     "duplicates": [
       {
         "tournament_id": 50,
@@ -84141,42 +84141,6 @@
     ]
   },
   {
-    "name_normalized": "Warrior Wrestling",
-    "url_path_slug": "warrior-wrestling",
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Warrior Wrestling"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Warrior Wrestling"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Warrior Wrestling"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Warrior Wrestling"
-      },
-      {
-        "tournament_id": 51,
-        "division": "novice",
-        "name": "Warrior Wrestling"
-      },
-      {
-        "tournament_id": 51,
-        "division": "senior",
-        "name": "Warrior Wrestling"
-      }
-    ]
-  },
-  {
     "name_normalized": "Warriors",
     "url_path_slug": null,
     "duplicates": [
@@ -84191,6 +84155,36 @@
     "name_normalized": "Warriors Wrestling Academy",
     "url_path_slug": "warriors-wrestling-academy",
     "duplicates": [
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Warrior Wrestling"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Warrior Wrestling"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Warrior Wrestling"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Warrior Wrestling"
+      },
+      {
+        "tournament_id": 51,
+        "division": "novice",
+        "name": "Warrior Wrestling"
+      },
+      {
+        "tournament_id": 51,
+        "division": "senior",
+        "name": "Warrior Wrestling"
+      },
       {
         "tournament_id": 10052,
         "division": "bantam",
