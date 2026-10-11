@@ -41391,17 +41391,6 @@
     ]
   },
   {
-    "name_normalized": "LAKELAND WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "LAKELAND WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "LAKERS WRESTLING CLUB",
     "url_path_slug": null,
     "duplicates": [
@@ -42293,24 +42282,23 @@
     ]
   },
   {
-    "name_normalized": "Lakeland Cardinals",
-    "url_path_slug": null,
+    "name_normalized": "Lakeland Cardinals WC",
+    "url_path_slug": "lakeland",
     "duplicates": [
       {
         "tournament_id": 16,
         "division": "senior",
         "name": "Lakeland Cardinals"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lakeland Cardinals WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 18,
         "division": "senior",
         "name": "Lakeland Cardinals WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "LAKELAND WC"
       }
     ]
   },
