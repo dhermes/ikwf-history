@@ -29292,38 +29292,6 @@
     ]
   },
   {
-    "name_normalized": "GLENDALE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "GLENDALE"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "GLENDALE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "GLENDALE GRAPPLERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "GLENDALE GRAPPLERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "GLENDALE GRAPPLERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "Galesburg Junior Streaks",
     "url_path_slug": "galesburg",
     "duplicates": [
@@ -30731,6 +30699,32 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Glencrest"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Glendale Grapplers",
+    "url_path_slug": "glendale",
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "GLENDALE"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "GLENDALE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "GLENDALE GRAPPLERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "GLENDALE GRAPPLERS"
       }
     ]
   },
