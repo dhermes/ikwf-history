@@ -65986,8 +65986,8 @@
     ]
   },
   {
-    "name_normalized": "Road Warriors",
-    "url_path_slug": null,
+    "name_normalized": "Road Warriors WC",
+    "url_path_slug": "road-warriors",
     "duplicates": [
       {
         "tournament_id": 34,
@@ -66028,13 +66028,7 @@
         "tournament_id": 38,
         "division": "senior",
         "name": "ROAD WARRIORS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Road Warriors WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 44,
         "division": "novice",
