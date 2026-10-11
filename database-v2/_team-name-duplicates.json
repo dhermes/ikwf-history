@@ -83833,17 +83833,6 @@
     ]
   },
   {
-    "name_normalized": "WOODSTOCK CARDINAL WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "WOODSTOCK CARDINAL WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "WOODSTOCK PANTHERS",
     "url_path_slug": null,
     "duplicates": [
@@ -88268,7 +88257,7 @@
   },
   {
     "name_normalized": "Woodstock Cardinals",
-    "url_path_slug": null,
+    "url_path_slug": "woodstock-cardinals",
     "duplicates": [
       {
         "tournament_id": 17,
@@ -88284,6 +88273,11 @@
         "tournament_id": 19,
         "division": "senior",
         "name": "Woodstock Cardinals"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "WOODSTOCK CARDINAL WRESTLING"
       }
     ]
   },
