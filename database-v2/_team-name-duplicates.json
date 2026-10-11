@@ -88230,8 +88230,8 @@
     ]
   },
   {
-    "name_normalized": "Woodstock",
-    "url_path_slug": null,
+    "name_normalized": "Woodstock Cardinals",
+    "url_path_slug": "woodstock-cardinals",
     "duplicates": [
       {
         "tournament_id": 2,
@@ -88252,13 +88252,7 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Woodstock"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Woodstock Cardinals",
-    "url_path_slug": "woodstock-cardinals",
-    "duplicates": [
+      },
       {
         "tournament_id": 17,
         "division": "senior",
