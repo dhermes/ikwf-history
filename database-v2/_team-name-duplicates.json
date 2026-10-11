@@ -45221,8 +45221,8 @@
     ]
   },
   {
-    "name_normalized": "Lisle",
-    "url_path_slug": null,
+    "name_normalized": "Lisle WC",
+    "url_path_slug": "lisle-wc",
     "duplicates": [
       {
         "tournament_id": 5,
@@ -45233,13 +45233,7 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Lisle"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lisle WC",
-    "url_path_slug": "lisle-wc",
-    "duplicates": [
+      },
       {
         "tournament_id": 53,
         "division": "bantam",
