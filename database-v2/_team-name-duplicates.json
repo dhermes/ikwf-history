@@ -43355,9 +43355,39 @@
     ]
   },
   {
-    "name_normalized": "Libertyville WC",
-    "url_path_slug": "libertyville-wc",
+    "name_normalized": "Libertyville Wildcats WC",
+    "url_path_slug": "libertyville",
     "duplicates": [
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "LIBERTYVILLE WILDCATS"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "LIBERTYVILLE WILDCATS"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Libertyville Wildcats WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Libertyville Wildcats WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Libertyville Wildcats WC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Libertyville Wildcats WC"
+      },
       {
         "tournament_id": 10052,
         "division": "bantam",
@@ -43377,48 +43407,6 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Libertyville WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Libertyville Wildcats",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "LIBERTYVILLE WILDCATS"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "LIBERTYVILLE WILDCATS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Libertyville Wildcats WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Libertyville Wildcats WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Libertyville Wildcats WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Libertyville Wildcats WC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Libertyville Wildcats WC"
       }
     ]
   },
