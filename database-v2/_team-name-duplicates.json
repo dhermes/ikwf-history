@@ -29379,7 +29379,7 @@
   },
   {
     "name_normalized": "Gators Elite WC",
-    "url_path_slug": "gators-elite-wc",
+    "url_path_slug": "gators-elite",
     "duplicates": [
       {
         "tournament_id": 53,
@@ -55314,12 +55314,22 @@
   },
   {
     "name_normalized": "North Shore Gators",
-    "url_path_slug": null,
+    "url_path_slug": "north-shore-gators",
     "duplicates": [
       {
         "tournament_id": 10028,
         "division": "senior_iwf",
         "name": "North Shore Gators"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "NORTHSHORE GATORS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "NORTHSHORE GATORS"
       }
     ]
   },
@@ -55362,22 +55372,6 @@
         "tournament_id": 4,
         "division": "senior",
         "name": "Northfield Park District"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Northshore Gators",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "NORTHSHORE GATORS"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "NORTHSHORE GATORS"
       }
     ]
   },
