@@ -38455,6 +38455,16 @@
     "url_path_slug": "jr-warrior-wc",
     "duplicates": [
       {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "JR. WARRIORS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "JUNIOR WARRIORS"
+      },
+      {
         "tournament_id": 53,
         "division": "bantam",
         "name": "J.R. Warrior WC"
@@ -38619,17 +38629,6 @@
     ]
   },
   {
-    "name_normalized": "JR. WARRIORS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "JR. WARRIORS"
-      }
-    ]
-  },
-  {
     "name_normalized": "JRW Wrestling",
     "url_path_slug": "jrw",
     "duplicates": [
@@ -38683,17 +38682,6 @@
         "tournament_id": 35,
         "division": "senior",
         "name": "JUNIOR MUSTANGS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "JUNIOR WARRIORS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "JUNIOR WARRIORS"
       }
     ]
   },
