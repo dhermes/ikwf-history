@@ -41904,6 +41904,26 @@
     "url_path_slug": "lake-county-stallions-wrestling-academy",
     "duplicates": [
       {
+        "tournament_id": 10052,
+        "division": "bantam",
+        "name": "Stallions Wrestling Academy"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate",
+        "name": "Stallions Wrestling Academy"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "bantam_girls",
+        "name": "Stallions Wrestling Academy"
+      },
+      {
+        "tournament_id": 10052,
+        "division": "intermediate_girls",
+        "name": "Stallions Wrestling Academy"
+      },
+      {
         "tournament_id": 53,
         "division": "bantam",
         "name": "Lake County Stallions Wrestling Academy"
@@ -74220,32 +74240,6 @@
         "tournament_id": 8,
         "division": "senior",
         "name": "St. Thecla"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Stallions Wrestling Academy",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10052,
-        "division": "bantam",
-        "name": "Stallions Wrestling Academy"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate",
-        "name": "Stallions Wrestling Academy"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "bantam_girls",
-        "name": "Stallions Wrestling Academy"
-      },
-      {
-        "tournament_id": 10052,
-        "division": "intermediate_girls",
-        "name": "Stallions Wrestling Academy"
       }
     ]
   },
