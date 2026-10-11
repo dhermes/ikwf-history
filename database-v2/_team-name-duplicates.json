@@ -5365,8 +5365,8 @@
     ]
   },
   {
-    "name_normalized": "Beat The Streets Chicago-Bellwood",
-    "url_path_slug": null,
+    "name_normalized": "Beat the Streets Chicago-Bellwood",
+    "url_path_slug": "bts-bellwood",
     "duplicates": [
       {
         "tournament_id": 51,
@@ -5381,8 +5381,8 @@
     ]
   },
   {
-    "name_normalized": "Beat The Streets Chicago-Hyde Park",
-    "url_path_slug": "beat-the-streets-chicago-hyde-park",
+    "name_normalized": "Beat the Streets Chicago-Hyde Park",
+    "url_path_slug": "bts-hyde-park",
     "duplicates": [
       {
         "tournament_id": 51,
@@ -5417,8 +5417,8 @@
     ]
   },
   {
-    "name_normalized": "Beat The Streets-Chicago",
-    "url_path_slug": null,
+    "name_normalized": "Beat the Streets-Chicago",
+    "url_path_slug": "bts-chicago",
     "duplicates": [
       {
         "tournament_id": 47,
