@@ -22403,52 +22403,6 @@
     ]
   },
   {
-    "name_normalized": "Dungeon WC",
-    "url_path_slug": "dungeon-wc",
-    "duplicates": [
-      {
-        "tournament_id": 53,
-        "division": "bantam",
-        "name": "Dungeon WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate",
-        "name": "Dungeon WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice",
-        "name": "Dungeon WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior",
-        "name": "Dungeon WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "bantam_girls",
-        "name": "Dungeon WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "intermediate_girls",
-        "name": "Dungeon WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "novice_girls",
-        "name": "Dungeon WC"
-      },
-      {
-        "tournament_id": 53,
-        "division": "senior_girls",
-        "name": "Dungeon WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Dupage Tiger Wrestling Club",
     "url_path_slug": "dupage-tiger",
     "duplicates": [
@@ -30335,7 +30289,7 @@
   },
   {
     "name_normalized": "Glen Ellyn Dungeon WC",
-    "url_path_slug": null,
+    "url_path_slug": "dungeon",
     "duplicates": [
       {
         "tournament_id": 30,
@@ -30396,6 +30350,46 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "Glen Ellyn Dungeon WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam",
+        "name": "Dungeon WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate",
+        "name": "Dungeon WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice",
+        "name": "Dungeon WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior",
+        "name": "Dungeon WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "bantam_girls",
+        "name": "Dungeon WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "intermediate_girls",
+        "name": "Dungeon WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "novice_girls",
+        "name": "Dungeon WC"
+      },
+      {
+        "tournament_id": 53,
+        "division": "senior_girls",
+        "name": "Dungeon WC"
       }
     ]
   },
