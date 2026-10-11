@@ -12535,31 +12535,19 @@
     ]
   },
   {
-    "name_normalized": "Cardinal WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Cardinal WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Cardinal Wrestling",
-    "url_path_slug": null,
+    "name_normalized": "Cardinals WC",
+    "url_path_slug": "cardinals-wc",
     "duplicates": [
       {
         "tournament_id": 14,
         "division": "senior",
         "name": "Cardinal Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Cardinals WC",
-    "url_path_slug": "cardinals-wc",
-    "duplicates": [
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Cardinal WC"
+      },
       {
         "tournament_id": 16,
         "division": "senior",
