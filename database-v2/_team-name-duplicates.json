@@ -85456,64 +85456,8 @@
     ]
   },
   {
-    "name_normalized": "West Hancock Titan WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "West Hancock Titan WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "West Hancock Titan WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "WEST HANCOCK TITAN WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "WEST HANCOCK TITAN WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "WEST HANCOCK TITAN WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "WEST HANCOCK TITAN WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "WEST HANCOCK TITAN WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "WEST HANCOCK TITAN WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "West Hancock Titan WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "West Hancock Titan WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "West Hancock WC",
-    "url_path_slug": "west-hancock-wc",
+    "url_path_slug": "west-hancock",
     "duplicates": [
       {
         "tournament_id": 35,
@@ -85524,6 +85468,56 @@
         "tournament_id": 36,
         "division": "senior",
         "name": "WEST HANCOCK TITAN WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "West Hancock Titan WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "West Hancock Titan WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "WEST HANCOCK TITAN WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "WEST HANCOCK TITAN WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "WEST HANCOCK TITAN WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "WEST HANCOCK TITAN WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "WEST HANCOCK TITAN WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "WEST HANCOCK TITAN WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "West Hancock Titan WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "West Hancock Titan WC"
       },
       {
         "tournament_id": 42,
