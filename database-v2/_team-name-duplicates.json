@@ -29784,6 +29784,26 @@
         "name": "GENEVA WC"
       },
       {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "JR. VIKINGS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "JUNIOR VIKINGS"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Junior Vikings"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Junior Vikings"
+      },
+      {
         "tournament_id": 45,
         "division": "novice",
         "name": "Geneva Junior Vikings"
@@ -38425,17 +38445,6 @@
     ]
   },
   {
-    "name_normalized": "JR. VIKINGS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "JR. VIKINGS"
-      }
-    ]
-  },
-  {
     "name_normalized": "JRW Wrestling",
     "url_path_slug": "jrw",
     "duplicates": [
@@ -40519,27 +40528,6 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Junior Titans Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Junior Vikings",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "JUNIOR VIKINGS"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Junior Vikings"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Junior Vikings"
       }
     ]
   },
