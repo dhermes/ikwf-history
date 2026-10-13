@@ -39589,6 +39589,16 @@
     "url_path_slug": "junior-comanche-wc",
     "duplicates": [
       {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Little Comanches"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Little Comanches"
+      },
+      {
         "tournament_id": 46,
         "division": "novice",
         "name": "Junior Comanche WC"
@@ -45266,22 +45276,6 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Little Boilers Wrestling Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Little Comanches",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Little Comanches"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Little Comanches"
       }
     ]
   },
