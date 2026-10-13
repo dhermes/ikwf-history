@@ -44228,22 +44228,6 @@
     ]
   },
   {
-    "name_normalized": "Lincoln-Way Vittum Cats",
-    "url_path_slug": "lincoln-way-vittum-cats",
-    "duplicates": [
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Lincoln-Way Vittum Cats"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Lincoln-Way Vittum Cats"
-      }
-    ]
-  },
-  {
     "name_normalized": "Lion's Den Wrestling Academy",
     "url_path_slug": "lions-den",
     "duplicates": [
@@ -83093,6 +83077,16 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Vittum Cats Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Lincoln-Way Vittum Cats"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Lincoln-Way Vittum Cats"
       },
       {
         "tournament_id": 50,
