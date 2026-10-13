@@ -15561,8 +15561,8 @@
     ]
   },
   {
-    "name_normalized": "Chicago Crusaders",
-    "url_path_slug": null,
+    "name_normalized": "Chicago Crusaders WC",
+    "url_path_slug": "chicago-crusaders",
     "duplicates": [
       {
         "tournament_id": 36,
@@ -15588,13 +15588,7 @@
         "tournament_id": 41,
         "division": "senior",
         "name": "Chicago Crusaders"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Chicago Crusaders WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 43,
         "division": "novice",
@@ -15620,7 +15614,7 @@
   },
   {
     "name_normalized": "Chicago Park District",
-    "url_path_slug": "chicago-park-district",
+    "url_path_slug": "chicago-pd",
     "duplicates": [
       {
         "tournament_id": 43,
