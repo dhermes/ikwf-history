@@ -65588,35 +65588,29 @@
     ]
   },
   {
-    "name_normalized": "Riverton Hawks Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "RIVERTON HAWKS WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "RIVERTON HAWKS WRESTLING"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Riverton Hawks Wrestling"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Riverton Hawks Wrestling"
-      }
-    ]
-  },
-  {
     "name_normalized": "Riverton Youth Wrestling",
     "url_path_slug": "riverton-youth-wrestling",
     "duplicates": [
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "RIVERTON HAWKS WRESTLING"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "RIVERTON HAWKS WRESTLING"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Riverton Hawks Wrestling"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Riverton Hawks Wrestling"
+      },
       {
         "tournament_id": 42,
         "division": "novice",
