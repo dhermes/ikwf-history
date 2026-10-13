@@ -68616,6 +68616,22 @@
     ]
   },
   {
+    "name_normalized": "SIWA",
+    "url_path_slug": "siwa",
+    "duplicates": [
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "SIWA"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "SIWA"
+      }
+    ]
+  },
+  {
     "name_normalized": "SJO Spartan Youth Wrestling Club",
     "url_path_slug": "sjo",
     "duplicates": [
@@ -69215,38 +69231,6 @@
         "tournament_id": 27,
         "division": "senior",
         "name": "SOUTH SUBURBAN TIGERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SOUTHSIDER WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "SOUTHSIDER WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "SOUTHSIDER WRESTLING CLUB"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SOUTHSIDERS WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "SOUTHSIDERS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "SOUTHSIDERS WRESTLING CLUB"
       }
     ]
   },
@@ -71686,22 +71670,6 @@
     ]
   },
   {
-    "name_normalized": "SIWA",
-    "url_path_slug": "siwa",
-    "duplicates": [
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "SIWA"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "SIWA"
-      }
-    ]
-  },
-  {
     "name_normalized": "Skokie Indians WC",
     "url_path_slug": "skokie-indians",
     "duplicates": [
@@ -72248,7 +72216,7 @@
   },
   {
     "name_normalized": "Southside WC",
-    "url_path_slug": null,
+    "url_path_slug": "southside",
     "duplicates": [
       {
         "tournament_id": 30,
@@ -72269,6 +72237,32 @@
         "tournament_id": 31,
         "division": "senior",
         "name": "SOUTHSIDE WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Southsiders Wrestling Club",
+    "url_path_slug": "southsiders",
+    "duplicates": [
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "SOUTHSIDER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "SOUTHSIDER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "SOUTHSIDERS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "SOUTHSIDERS WRESTLING CLUB"
       }
     ]
   },
