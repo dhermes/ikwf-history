@@ -54104,44 +54104,8 @@
     ]
   },
   {
-    "name_normalized": "Naperville Hammer Huskies",
-    "url_path_slug": "naperville-hammer-huskies",
-    "duplicates": [
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Naperville Hammer Huskies"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Naperville Hammer Huskies"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "Naperville Hammer Huskies"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "Naperville Hammer Huskies"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Naperville Hammer Huskies"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Naperville Hammer Huskies"
-      }
-    ]
-  },
-  {
     "name_normalized": "Naperville Huskie WC",
-    "url_path_slug": null,
+    "url_path_slug": "naperville-huskie",
     "duplicates": [
       {
         "tournament_id": 37,
@@ -54162,13 +54126,7 @@
         "tournament_id": 38,
         "division": "senior",
         "name": "NAPERVILLE HUSKIE WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Naperville Husky WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 40,
         "division": "novice",
@@ -54188,6 +54146,36 @@
         "tournament_id": 42,
         "division": "senior",
         "name": "Naperville Husky WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Naperville Hammer Huskies"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Naperville Hammer Huskies"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "Naperville Hammer Huskies"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "Naperville Hammer Huskies"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Naperville Hammer Huskies"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Naperville Hammer Huskies"
       }
     ]
   },
@@ -58771,17 +58759,6 @@
     ]
   },
   {
-    "name_normalized": "Plainfield Huskies WC",
-    "url_path_slug": "plainfield-huskies",
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "PLAINFIELD HUSKIES WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "PLT Prophets WC",
     "url_path_slug": "plt-prophets",
     "duplicates": [
@@ -61425,6 +61402,17 @@
         "tournament_id": 10050,
         "division": "senior",
         "name": "Pitbull Wrestling Alliance"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Plainfield Huskies WC",
+    "url_path_slug": "plainfield-huskies",
+    "duplicates": [
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "PLAINFIELD HUSKIES WC"
       }
     ]
   },
