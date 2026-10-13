@@ -11269,33 +11269,6 @@
     ]
   },
   {
-    "name_normalized": "CHICAGO HEIGHTS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "CHICAGO HEIGHTS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "CHICAGO HEIGHTS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CHICAGO HEIGHTS PD TIGERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "CHICAGO HEIGHTS PD TIGERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "CICC",
     "url_path_slug": "cicc",
     "duplicates": [
@@ -15613,6 +15586,27 @@
         "tournament_id": 43,
         "division": "senior",
         "name": "Chicago Crusaders WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Chicago Heights PD Tigers",
+    "url_path_slug": "chicago-heights",
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "CHICAGO HEIGHTS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "CHICAGO HEIGHTS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "CHICAGO HEIGHTS PD TIGERS"
       }
     ]
   },
