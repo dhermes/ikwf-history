@@ -15108,6 +15108,16 @@
         "name": "Charger WC"
       },
       {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Chargers WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Chargers WC"
+      },
+      {
         "tournament_id": 45,
         "division": "novice",
         "name": "Charger WC"
@@ -15136,22 +15146,6 @@
         "tournament_id": 10050,
         "division": "senior",
         "name": "Charger WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Chargers WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Chargers WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Chargers WC"
       }
     ]
   },
@@ -18801,6 +18795,32 @@
     ]
   },
   {
+    "name_normalized": "DAWC",
+    "url_path_slug": "dawc",
+    "duplicates": [
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "DAWC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "DAWC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "DAWC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "DAWC"
+      }
+    ]
+  },
+  {
     "name_normalized": "DC SPORTSTERS WC",
     "url_path_slug": null,
     "duplicates": [
@@ -19748,32 +19768,6 @@
         "tournament_id": 18,
         "division": "senior",
         "name": "Darien Park District"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DAWC",
-    "url_path_slug": "dawc",
-    "duplicates": [
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "DAWC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "DAWC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "DAWC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "DAWC"
       }
     ]
   },
