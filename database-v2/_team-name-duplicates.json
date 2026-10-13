@@ -26082,44 +26082,6 @@
     ]
   },
   {
-    "name_normalized": "FULTON",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "FULTON"
-      }
-    ]
-  },
-  {
-    "name_normalized": "FULTON WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "FULTON WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "FULTON WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "FULTON-ALBANY WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "FULTON-ALBANY WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "Fairmont Rough Riders",
     "url_path_slug": null,
     "duplicates": [
@@ -65289,6 +65251,26 @@
     "name_normalized": "River Bend Wrestling Club",
     "url_path_slug": "river-bend",
     "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "FULTON"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "FULTON WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "FULTON WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "FULTON-ALBANY WRESTLING"
+      },
       {
         "tournament_id": 27,
         "division": "novice",
