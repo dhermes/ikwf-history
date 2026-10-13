@@ -34028,13 +34028,18 @@
     ]
   },
   {
-    "name_normalized": "Hazel Crest",
-    "url_path_slug": null,
+    "name_normalized": "Hazel Crest Park District Thunder WC",
+    "url_path_slug": "hazel-crest",
     "duplicates": [
       {
         "tournament_id": 2,
         "division": "senior",
         "name": "Hazel Crest"
+      },
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Hazelcrest"
       },
       {
         "tournament_id": 5,
@@ -34050,6 +34055,11 @@
         "tournament_id": 7,
         "division": "senior",
         "name": "Hazel Crest"
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Hazelcrest"
       },
       {
         "tournament_id": 9,
@@ -34070,13 +34080,7 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Hazel Crest"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hazel Crest Jr. Hawks",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 15,
         "division": "senior",
@@ -34091,13 +34095,7 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Hazel Crest Jr. Hawks"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hazel Crest Park District Thunder WC",
-    "url_path_slug": "hazel-crest-park-district-thunder-wc",
-    "duplicates": [
+      },
       {
         "tournament_id": 49,
         "division": "novice",
@@ -34107,22 +34105,6 @@
         "tournament_id": 49,
         "division": "senior",
         "name": "Hazel Crest Park District Thunder WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hazelcrest",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Hazelcrest"
-      },
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Hazelcrest"
       }
     ]
   },
