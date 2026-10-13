@@ -71839,7 +71839,7 @@
   },
   {
     "name_normalized": "Somonauk WC",
-    "url_path_slug": null,
+    "url_path_slug": "somonauk",
     "duplicates": [
       {
         "tournament_id": 38,
@@ -71850,13 +71850,7 @@
         "tournament_id": 38,
         "division": "senior",
         "name": "SOMONAUK WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Somonauk Wrestlers Club",
-    "url_path_slug": "somonauk-wrestlers-club",
-    "duplicates": [
+      },
       {
         "tournament_id": 46,
         "division": "novice",
