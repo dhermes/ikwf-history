@@ -63419,8 +63419,8 @@
     ]
   },
   {
-    "name_normalized": "Rambler / Next Level WC",
-    "url_path_slug": null,
+    "name_normalized": "Rambler WC",
+    "url_path_slug": "rambler-wc",
     "duplicates": [
       {
         "tournament_id": 41,
@@ -63431,13 +63431,7 @@
         "tournament_id": 41,
         "division": "senior",
         "name": "Rambler / Next Level WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rambler WC",
-    "url_path_slug": "rambler-wc",
-    "duplicates": [
+      },
       {
         "tournament_id": 47,
         "division": "novice",
