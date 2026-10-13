@@ -45534,32 +45534,26 @@
     ]
   },
   {
-    "name_normalized": "Little Viking WC Of H-F",
-    "url_path_slug": null,
+    "name_normalized": "Little Vikings of Homewood-Flossmoor",
+    "url_path_slug": "little-vikings-hf",
     "duplicates": [
       {
-        "tournament_id": 34,
+        "tournament_id": 33,
         "division": "novice",
         "name": "LITTLE VIKING WC OF H-F"
       },
       {
-        "tournament_id": 34,
+        "tournament_id": 33,
         "division": "senior",
         "name": "LITTLE VIKING WC OF H-F"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Little Vikings Of H-F",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
-        "tournament_id": 33,
+        "tournament_id": 34,
         "division": "novice",
         "name": "LITTLE VIKING WC OF H-F"
       },
       {
-        "tournament_id": 33,
+        "tournament_id": 34,
         "division": "senior",
         "name": "LITTLE VIKING WC OF H-F"
       }
