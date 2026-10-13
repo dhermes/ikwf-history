@@ -11227,64 +11227,6 @@
     ]
   },
   {
-    "name_normalized": "CHARGER KIDS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "CHARGER KIDS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CHARGER KIDS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "CHARGER KIDS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CHARGER KIDS WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "CHARGER KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "CHARGER KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "CHARGER KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "CHARGER KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "CHARGER KIDS WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "CHARGER KIDS WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "CHENOA WRESTLING CLUB",
     "url_path_slug": null,
     "duplicates": [
@@ -15080,6 +15022,52 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Chanute Rockets"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Charger Kids WC",
+    "url_path_slug": "charger-kids",
+    "duplicates": [
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "CHARGER KIDS WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "CHARGER KIDS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "CHARGER KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "CHARGER KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "CHARGER KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "CHARGER KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "CHARGER KIDS WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "CHARGER KIDS WRESTLING"
       }
     ]
   },
