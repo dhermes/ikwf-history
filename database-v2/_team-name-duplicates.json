@@ -15565,6 +15565,21 @@
     "url_path_slug": "chicago-crusaders",
     "duplicates": [
       {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Crusaders"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Crusaders"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Crusaders WC"
+      },
+      {
         "tournament_id": 36,
         "division": "novice",
         "name": "CHICAGO CRUSADERS"
@@ -17839,22 +17854,6 @@
     ]
   },
   {
-    "name_normalized": "Crusaders",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Crusaders"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Crusaders"
-      }
-    ]
-  },
-  {
     "name_normalized": "Crusaders Elite",
     "url_path_slug": "crusaders-elite",
     "duplicates": [
@@ -17917,17 +17916,6 @@
         "tournament_id": 47,
         "division": "senior",
         "name": "Crusaders` Elite"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Crusaders WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Crusaders WC"
       }
     ]
   },
