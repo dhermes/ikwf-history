@@ -53834,32 +53834,6 @@
     ]
   },
   {
-    "name_normalized": "Mustang/Skt WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Mustang/SKT WC"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Mustang/SKT WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Mustang/SKT WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Mustang/SKT WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "N.Y.A Jr. Rebels WC",
     "url_path_slug": "nya-rebels",
     "duplicates": [
@@ -82908,6 +82882,26 @@
     "name_normalized": "Vittum Cats Of SKT",
     "url_path_slug": "vittum-cats-of-skt",
     "duplicates": [
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Mustang/SKT WC"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Mustang/SKT WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Mustang/SKT WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Mustang/SKT WC"
+      },
       {
         "tournament_id": 48,
         "division": "novice",
