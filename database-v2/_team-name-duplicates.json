@@ -81803,22 +81803,6 @@
     ]
   },
   {
-    "name_normalized": "Vandal Kings",
-    "url_path_slug": "vandal-kings",
-    "duplicates": [
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Vandal Kings"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Vandal Kings"
-      }
-    ]
-  },
-  {
     "name_normalized": "Vandalia Junior Wrestling Club",
     "url_path_slug": "vandalia",
     "duplicates": [
@@ -82201,7 +82185,7 @@
   },
   {
     "name_normalized": "Vandalia Kings",
-    "url_path_slug": null,
+    "url_path_slug": "vandalia-kings",
     "duplicates": [
       {
         "tournament_id": 44,
@@ -82222,6 +82206,16 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Vandalia Kings"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Vandal Kings"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Vandal Kings"
       }
     ]
   },
