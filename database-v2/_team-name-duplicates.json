@@ -12841,7 +12841,7 @@
   },
   {
     "name_normalized": "Carlyle WC",
-    "url_path_slug": null,
+    "url_path_slug": "carlyle-wc",
     "duplicates": [
       {
         "tournament_id": 47,
@@ -25283,7 +25283,7 @@
   },
   {
     "name_normalized": "Epic Wrestling",
-    "url_path_slug": null,
+    "url_path_slug": "epic-wrestling",
     "duplicates": [
       {
         "tournament_id": 42,
@@ -39623,7 +39623,7 @@
   },
   {
     "name_normalized": "Junior Comanche WC",
-    "url_path_slug": null,
+    "url_path_slug": "junior-comanche-wc",
     "duplicates": [
       {
         "tournament_id": 46,
@@ -49384,7 +49384,7 @@
   },
   {
     "name_normalized": "Mean Green Machine",
-    "url_path_slug": null,
+    "url_path_slug": "mean-green-machine",
     "duplicates": [
       {
         "tournament_id": 46,
@@ -67998,7 +67998,7 @@
   },
   {
     "name_normalized": "Roxana Outlaws",
-    "url_path_slug": null,
+    "url_path_slug": "roxana-outlaws",
     "duplicates": [
       {
         "tournament_id": 45,
@@ -84491,41 +84491,29 @@
     ]
   },
   {
-    "name_normalized": "Waukegan",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "WAUKEGAN"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "WAUKEGAN"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Waukegan Takedown",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "WAUKEGAN TAKEDOWN"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "WAUKEGAN TAKEDOWN"
-      }
-    ]
-  },
-  {
     "name_normalized": "Waukegan Youth WC",
-    "url_path_slug": null,
+    "url_path_slug": "waukegan-youth-wc",
     "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "WAUKEGAN"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "WAUKEGAN"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "WAUKEGAN TAKEDOWN"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "WAUKEGAN TAKEDOWN"
+      },
       {
         "tournament_id": 36,
         "division": "novice",
@@ -84612,6 +84600,16 @@
         "name": "Waukegan Youth WC"
       },
       {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Waukegan Youth Wrestling Club"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Waukegan Youth Wrestling Club"
+      },
+      {
         "tournament_id": 46,
         "division": "novice",
         "name": "Waukegan Youth WC"
@@ -84630,22 +84628,6 @@
         "tournament_id": 47,
         "division": "senior",
         "name": "Waukegan Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Waukegan Youth Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Waukegan Youth Wrestling Club"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Waukegan Youth Wrestling Club"
       }
     ]
   },
