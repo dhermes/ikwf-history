@@ -12935,20 +12935,14 @@
     ]
   },
   {
-    "name_normalized": "Carterville",
-    "url_path_slug": null,
+    "name_normalized": "Carterville Jr WC",
+    "url_path_slug": "carterville-jr-wc",
     "duplicates": [
       {
         "tournament_id": 4,
         "division": "senior",
         "name": "Carterville"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Carterville Jr WC",
-    "url_path_slug": "carterville-jr-wc",
-    "duplicates": [
+      },
       {
         "tournament_id": 46,
         "division": "novice",
