@@ -38393,27 +38393,6 @@
     ]
   },
   {
-    "name_normalized": "JR. EAGLES WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "JR. EAGLES WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "JR. EAGLES WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "JR. EAGLES WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "JR. MUSTANG",
     "url_path_slug": null,
     "duplicates": [
@@ -40008,6 +39987,21 @@
     "name_normalized": "Junior Eagles WC",
     "url_path_slug": "junior-eagles-wc",
     "duplicates": [
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "JR. EAGLES WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "JR. EAGLES WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "JR. EAGLES WRESTLING CLUB"
+      },
       {
         "tournament_id": 10050,
         "division": "novice",
