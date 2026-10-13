@@ -1925,7 +1925,7 @@
   },
   {
     "name_normalized": "Ano Kato Fs.Gr.",
-    "url_path_slug": null,
+    "url_path_slug": "ano-kato-fsgr",
     "duplicates": [
       {
         "tournament_id": 49,
@@ -2378,7 +2378,7 @@
   },
   {
     "name_normalized": "Apex Stallions",
-    "url_path_slug": null,
+    "url_path_slug": "apex-stallions",
     "duplicates": [
       {
         "tournament_id": 49,
@@ -34096,7 +34096,7 @@
   },
   {
     "name_normalized": "Hazel Crest Park District Thunder WC",
-    "url_path_slug": null,
+    "url_path_slug": "hazel-crest-park-district-thunder-wc",
     "duplicates": [
       {
         "tournament_id": 49,
@@ -40589,7 +40589,7 @@
   },
   {
     "name_normalized": "Just Wrestling",
-    "url_path_slug": null,
+    "url_path_slug": "just-wrestling",
     "duplicates": [
       {
         "tournament_id": 49,
@@ -49662,7 +49662,7 @@
   },
   {
     "name_normalized": "Mendota WC",
-    "url_path_slug": null,
+    "url_path_slug": "mendota-wc",
     "duplicates": [
       {
         "tournament_id": 49,
@@ -53993,32 +53993,6 @@
     ]
   },
   {
-    "name_normalized": "NORTH SHORE WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "NORTH SHORE WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "NORTH SHORE WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "NORTH SHORE WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "NORTH SHORE WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Naperville",
     "url_path_slug": null,
     "duplicates": [
@@ -55066,94 +55040,28 @@
   },
   {
     "name_normalized": "North Shore Edge",
-    "url_path_slug": null,
+    "url_path_slug": "north-shore",
     "duplicates": [
       {
-        "tournament_id": 42,
+        "tournament_id": 26,
         "division": "novice",
-        "name": "North Shore Edge"
+        "name": "NORTH SHORE WC"
       },
       {
-        "tournament_id": 42,
+        "tournament_id": 26,
         "division": "senior",
-        "name": "North Shore Edge"
+        "name": "NORTH SHORE WC"
       },
       {
-        "tournament_id": 43,
+        "tournament_id": 27,
         "division": "novice",
-        "name": "North Shore Edge"
+        "name": "NORTH SHORE WC"
       },
       {
-        "tournament_id": 43,
+        "tournament_id": 27,
         "division": "senior",
-        "name": "North Shore Edge"
+        "name": "NORTH SHORE WC"
       },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "North Shore Edge"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "North Shore Edge"
-      },
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "North Shore Edge"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "North Shore Edge"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "North Shore Edge"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "North Shore Edge"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "North Shore Edge"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "North Shore Edge"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "North Shore Edge"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "North Shore Edge"
-      },
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "North Shore Edge"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "North Shore Edge"
-      }
-    ]
-  },
-  {
-    "name_normalized": "North Shore Gators",
-    "url_path_slug": "north-shore-gators",
-    "duplicates": [
       {
         "tournament_id": 10028,
         "division": "senior_iwf",
@@ -55168,6 +55076,86 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "NORTHSHORE GATORS"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "North Shore Edge"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "North Shore Edge"
       }
     ]
   },
@@ -66239,7 +66227,7 @@
   },
   {
     "name_normalized": "Rochester WC",
-    "url_path_slug": null,
+    "url_path_slug": "rochester-wc",
     "duplicates": [
       {
         "tournament_id": 35,
@@ -81462,7 +81450,7 @@
   },
   {
     "name_normalized": "Up Town WC",
-    "url_path_slug": null,
+    "url_path_slug": "up-town-wc",
     "duplicates": [
       {
         "tournament_id": 47,
@@ -82918,7 +82906,7 @@
   },
   {
     "name_normalized": "Vittum Cats Of SKT",
-    "url_path_slug": null,
+    "url_path_slug": "vittum-cats-of-skt",
     "duplicates": [
       {
         "tournament_id": 48,
