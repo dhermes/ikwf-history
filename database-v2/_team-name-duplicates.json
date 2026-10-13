@@ -72072,27 +72072,6 @@
     ]
   },
   {
-    "name_normalized": "Southern Illinois United Thundercats",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "SOUTHERN ILLINOIS UNITED THUNDER CATS"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Southern Illinois United Thundercats"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Southern Illinois United Thundercats"
-      }
-    ]
-  },
-  {
     "name_normalized": "Southern Kings",
     "url_path_slug": "southern-kings",
     "duplicates": [
@@ -78388,41 +78367,44 @@
     ]
   },
   {
-    "name_normalized": "Thundercat Wrestling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Thundercat Wrestling"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Thundercat Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Thundercat Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "THUNDERCAT WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "THUNDERCAT WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "Thundercats",
     "url_path_slug": "thundercats",
     "duplicates": [
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "SOUTHERN ILLINOIS UNITED THUNDER CATS"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Southern Illinois United Thundercats"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Southern Illinois United Thundercats"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "THUNDERCAT WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "THUNDERCAT WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Thundercat Wrestling"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Thundercat Wrestling"
+      },
       {
         "tournament_id": 47,
         "division": "novice",
