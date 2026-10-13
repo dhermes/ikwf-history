@@ -43254,22 +43254,6 @@
         "name": "Lil Bucs WC"
       },
       {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Lil Bucs WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Lil Bucs WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lil Bucs Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 45,
         "division": "novice",
         "name": "Lil Bucs Wrestling Club"
@@ -43278,6 +43262,16 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Lil Bucs Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Lil Bucs WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Lil Bucs WC"
       }
     ]
   },
