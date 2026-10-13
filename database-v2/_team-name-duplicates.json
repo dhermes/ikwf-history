@@ -45218,22 +45218,6 @@
         "name": "Little Boilers WC"
       },
       {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Little Boilers WC"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Little Boilers WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Little Boilers Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 45,
         "division": "novice",
         "name": "Little Boilers Wrestling Club"
@@ -45242,6 +45226,16 @@
         "tournament_id": 45,
         "division": "senior",
         "name": "Little Boilers Wrestling Club"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Little Boilers WC"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Little Boilers WC"
       }
     ]
   },
