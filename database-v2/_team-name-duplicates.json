@@ -32368,32 +32368,6 @@
     ]
   },
   {
-    "name_normalized": "HAWKEYE WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "HAWKEYE WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "HAWKEYE WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "HAWKEYE WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "HAWKEYE WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "HF Spartan Elite WC",
     "url_path_slug": "hf-spartan",
     "duplicates": [
@@ -34013,17 +33987,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Hawk WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hawkeye WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Hawkeye WC"
       }
     ]
   },
@@ -84451,6 +84414,11 @@
     "url_path_slug": "waukegan",
     "duplicates": [
       {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Hawkeye WC"
+      },
+      {
         "tournament_id": 21,
         "division": "senior",
         "name": "WAUKEGAN PD HAWKEYE"
@@ -84479,6 +84447,26 @@
         "tournament_id": 25,
         "division": "novice",
         "name": "WAUKEGAN HAWKEYE WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "HAWKEYE WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "HAWKEYE WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "HAWKEYE WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "HAWKEYE WRESTLING CLUB"
       },
       {
         "tournament_id": 32,
