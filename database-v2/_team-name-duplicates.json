@@ -63273,17 +63273,6 @@
     ]
   },
   {
-    "name_normalized": "ROCK FALLS WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "ROCK FALLS WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "ROCK ISLAND WC-WASHINGTON",
     "url_path_slug": null,
     "duplicates": [
@@ -66368,8 +66357,8 @@
     ]
   },
   {
-    "name_normalized": "Rock Falls",
-    "url_path_slug": null,
+    "name_normalized": "Rock Falls Junior Rocket Wrestling",
+    "url_path_slug": "rock-falls-junior-rocket-wrestling",
     "duplicates": [
       {
         "tournament_id": 2,
@@ -66395,35 +66384,18 @@
         "tournament_id": 11,
         "division": "senior",
         "name": "Rock Falls"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rock Falls Junior Rocket Wrestling",
-    "url_path_slug": "rock-falls-junior-rocket-wrestling",
-    "duplicates": [
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "ROCK FALLS WRESTLING CLUB"
+      },
       {
         "tournament_id": 30,
         "division": "novice",
         "name": "ROCK FALLS WC"
       },
       {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "Rock Falls Junior Rocket Wrestling"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "Rock Falls Junior Rocket Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Rock Falls Rippin",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 31,
         "division": "novice",
         "name": "ROCK FALLS RIPPIN ROCKETS"
@@ -66432,6 +66404,16 @@
         "tournament_id": 31,
         "division": "senior",
         "name": "ROCK FALLS RIPPIN ROCKETS"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "Rock Falls Junior Rocket Wrestling"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "Rock Falls Junior Rocket Wrestling"
       }
     ]
   },
