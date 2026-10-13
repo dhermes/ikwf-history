@@ -83450,50 +83450,6 @@
     ]
   },
   {
-    "name_normalized": "WAUKEGAN HAWKEYE WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "WAUKEGAN HAWKEYE WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WAUKEGAN HAWKEYE WRESTLING ASSOCIATION",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "WAUKEGAN HAWKEYE WRESTLING ASSOCIATION"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WAUKEGAN PD HAWKEYE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "WAUKEGAN PD HAWKEYE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WAUKEGAN PD HAWKEYE WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "WAUKEGAN PD HAWKEYE WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "WINSTON PARK",
     "url_path_slug": null,
     "duplicates": [
@@ -84492,8 +84448,18 @@
   },
   {
     "name_normalized": "Waukegan Youth WC",
-    "url_path_slug": "waukegan-youth-wc",
+    "url_path_slug": "waukegan",
     "duplicates": [
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "WAUKEGAN PD HAWKEYE"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "WAUKEGAN PD HAWKEYE WC"
+      },
       {
         "tournament_id": 23,
         "division": "novice",
@@ -84503,6 +84469,16 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "WAUKEGAN"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "WAUKEGAN HAWKEYE WRESTLING ASSOCIATION"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "WAUKEGAN HAWKEYE WC"
       },
       {
         "tournament_id": 32,
