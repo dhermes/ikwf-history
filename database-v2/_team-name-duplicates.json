@@ -63285,22 +63285,6 @@
     ]
   },
   {
-    "name_normalized": "ROBBINS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "ROBBINS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "ROBBINS"
-      }
-    ]
-  },
-  {
     "name_normalized": "ROCK FALLS WRESTLING CLUB",
     "url_path_slug": null,
     "duplicates": [
@@ -65958,24 +65942,28 @@
     ]
   },
   {
-    "name_normalized": "Robbin Eagles",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Robbin Eagles"
-      }
-    ]
-  },
-  {
     "name_normalized": "Robbins Eagles",
-    "url_path_slug": null,
+    "url_path_slug": "robbins",
     "duplicates": [
       {
         "tournament_id": 15,
         "division": "senior",
         "name": "Robbins Eagles"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Robbin Eagles"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "ROBBINS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "ROBBINS"
       }
     ]
   },
