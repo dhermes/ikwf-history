@@ -56204,17 +56204,6 @@
     ]
   },
   {
-    "name_normalized": "ORION KNIGHTS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "ORION KNIGHTS"
-      }
-    ]
-  },
-  {
     "name_normalized": "Oak Forest Warriors",
     "url_path_slug": "oak-forest",
     "duplicates": [
@@ -57640,12 +57629,17 @@
   },
   {
     "name_normalized": "Orion",
-    "url_path_slug": null,
+    "url_path_slug": "orion",
     "duplicates": [
       {
         "tournament_id": 13,
         "division": "senior",
         "name": "Orion"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "ORION KNIGHTS"
       }
     ]
   },
