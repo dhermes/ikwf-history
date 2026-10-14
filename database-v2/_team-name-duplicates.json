@@ -12557,17 +12557,6 @@
     ]
   },
   {
-    "name_normalized": "Carl Sandburg / Mundelein",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Carl Sandburg / Mundelein"
-      }
-    ]
-  },
-  {
     "name_normalized": "Carl Sandburg Des Plaines",
     "url_path_slug": "carl-sandburg-des-plaines",
     "duplicates": [
@@ -28915,7 +28904,7 @@
   },
   {
     "name_normalized": "Friar Wrestling Club",
-    "url_path_slug": "friar-wrestling-club",
+    "url_path_slug": "friar",
     "duplicates": [
       {
         "tournament_id": 45,
@@ -53200,8 +53189,8 @@
     ]
   },
   {
-    "name_normalized": "Mundelein",
-    "url_path_slug": null,
+    "name_normalized": "Mundelein WC",
+    "url_path_slug": "mundelein-wc",
     "duplicates": [
       {
         "tournament_id": 4,
@@ -53212,13 +53201,12 @@
         "tournament_id": 5,
         "division": "senior",
         "name": "Mundelein"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mundelein WC",
-    "url_path_slug": "mundelein-wc",
-    "duplicates": [
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Carl Sandburg / Mundelein"
+      },
       {
         "tournament_id": 43,
         "division": "novice",
