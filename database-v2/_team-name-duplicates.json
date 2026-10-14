@@ -83266,53 +83266,6 @@
     ]
   },
   {
-    "name_normalized": "WARHAWK WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "WARHAWK WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "WARHAWK WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "WARHAWK WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "WARHAWK WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "WARHAWK WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WARHAWK WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "WARHAWK WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "WARHAWK WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "WARRIOR WC (NILES)",
     "url_path_slug": null,
     "duplicates": [
@@ -83400,17 +83353,6 @@
     ]
   },
   {
-    "name_normalized": "Warhawk W.C. Woodstock",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Warhawk W.C. Woodstock"
-      }
-    ]
-  },
-  {
     "name_normalized": "Warhawks",
     "url_path_slug": "warhawks",
     "duplicates": [
@@ -83418,6 +83360,16 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Warhawks"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Warhawk W.C. Woodstock"
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "WARHAWK WC"
       },
       {
         "tournament_id": 21,
@@ -83438,6 +83390,36 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "WARHAWKS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "WARHAWK WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "WARHAWK WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "WARHAWK WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "WARHAWK WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "WARHAWK WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "WARHAWK WRESTLING CLUB"
       }
     ]
   },
