@@ -22700,6 +22700,26 @@
         "name": "Wood River Marooners"
       },
       {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "OILERS WRESTLING"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "OILERS WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "OILERS WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "OILERS WRESTLING"
+      },
+      {
         "tournament_id": 42,
         "division": "novice",
         "name": "East Alton Wood River Jr. Oilers"
@@ -56862,32 +56882,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Oakwood Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oilers Wrestling",
-    "url_path_slug": "oilers-wrestling",
-    "duplicates": [
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "OILERS WRESTLING"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "OILERS WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "OILERS WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "OILERS WRESTLING"
       }
     ]
   },
