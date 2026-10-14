@@ -30397,6 +30397,16 @@
         "name": "GLENBARD EAST JR RAMS"
       },
       {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Junior Rams WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Junior Rams WC"
+      },
+      {
         "tournament_id": 42,
         "division": "novice",
         "name": "Glenbard East Jr Rams"
@@ -40276,22 +40286,6 @@
     ]
   },
   {
-    "name_normalized": "Junior Rams WC",
-    "url_path_slug": "junior-rams-wc",
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Junior Rams WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Junior Rams WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Junior Spartans WC",
     "url_path_slug": "junior-spartans",
     "duplicates": [
@@ -45797,7 +45791,7 @@
   },
   {
     "name_normalized": "Lombard Jr. Rams",
-    "url_path_slug": null,
+    "url_path_slug": "lombard-jr-rams",
     "duplicates": [
       {
         "tournament_id": 9,
