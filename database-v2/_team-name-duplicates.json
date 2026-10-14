@@ -46079,47 +46079,6 @@
     ]
   },
   {
-    "name_normalized": "Moline Tigers",
-    "url_path_slug": "moline-tigers",
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "MOLINE TIGERS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "MOLINE TIGERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "MOLINE TIGERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "MOLINE TIGERS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "MOLINE TIGERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "MOLINE TIGERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "MOLINE TIGERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "MONROE EAGLES",
     "url_path_slug": null,
     "duplicates": [
@@ -50846,6 +50805,47 @@
         "tournament_id": 27,
         "division": "senior",
         "name": "MOLINE SPARTANS"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Moline Tigers",
+    "url_path_slug": "moline-tigers",
+    "duplicates": [
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "MOLINE TIGERS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "MOLINE TIGERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "MOLINE TIGERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "MOLINE TIGERS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "MOLINE TIGERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "MOLINE TIGERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "MOLINE TIGERS"
       }
     ]
   },
@@ -55940,8 +55940,13 @@
   },
   {
     "name_normalized": "OPRF Warhawks",
-    "url_path_slug": null,
+    "url_path_slug": "oprf-warhawks",
     "duplicates": [
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Oak Park River Forest Warhawks"
+      },
       {
         "tournament_id": 19,
         "division": "senior",
@@ -56644,17 +56649,6 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "OAK LAWN SPARTAN YOUTH WC NFP"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oak Park River Forest Warhawks",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Oak Park River Forest Warhawks"
       }
     ]
   },
