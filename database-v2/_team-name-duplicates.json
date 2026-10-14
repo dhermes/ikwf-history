@@ -54670,17 +54670,6 @@
     ]
   },
   {
-    "name_normalized": "Niles WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Niles WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Niles Weasles",
     "url_path_slug": null,
     "duplicates": [
@@ -54695,6 +54684,11 @@
     "name_normalized": "Niles West Jr Wolves Wrestling",
     "url_path_slug": "niles-west-jr-wolves-wrestling",
     "duplicates": [
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Niles WC"
+      },
       {
         "tournament_id": 43,
         "division": "novice",
