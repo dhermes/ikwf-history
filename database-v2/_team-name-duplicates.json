@@ -55063,17 +55063,6 @@
     ]
   },
   {
-    "name_normalized": "Northwood Warhawks WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Northwood Warhawks WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Notre Dame WC",
     "url_path_slug": "peoria-notre-dame",
     "duplicates": [
@@ -83360,6 +83349,11 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Warhawks"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Northwood Warhawks WC"
       },
       {
         "tournament_id": 19,
