@@ -60155,55 +60155,49 @@
     ]
   },
   {
-    "name_normalized": "Paxton Youth WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "PAXTON YOUTH WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "PAXTON YOUTH WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Paxton Youth WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Paxton Youth WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Paxton Youth WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Paxton Youth WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Paxton Youth WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Paxton Youth WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Paxton Youth Wrestling Club",
     "url_path_slug": "paxton-youth-wrestling-club",
     "duplicates": [
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "PAXTON YOUTH WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "PAXTON YOUTH WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Paxton Youth WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Paxton Youth WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Paxton Youth WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Paxton Youth WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Paxton Youth WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Paxton Youth WC"
+      },
       {
         "tournament_id": 45,
         "division": "novice",
