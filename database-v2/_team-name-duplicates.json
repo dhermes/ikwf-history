@@ -67042,7 +67042,7 @@
   },
   {
     "name_normalized": "Romeoville WC",
-    "url_path_slug": null,
+    "url_path_slug": "romeoville",
     "duplicates": [
       {
         "tournament_id": 36,
@@ -67063,6 +67063,26 @@
         "tournament_id": 37,
         "division": "senior",
         "name": "Romeoville WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "ROMEOVILLE YOUTH WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "ROMEOVILLE YOUTH WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "ROMEOVILLE YOUTH WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "ROMEOVILLE YOUTH WC"
       }
     ]
   },
@@ -67079,32 +67099,6 @@
         "tournament_id": 3,
         "division": "senior",
         "name": "Romeoville Westview"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Romeoville Youth WC",
-    "url_path_slug": "romeoville-youth-wc",
-    "duplicates": [
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "ROMEOVILLE YOUTH WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "ROMEOVILLE YOUTH WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "ROMEOVILLE YOUTH WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "ROMEOVILLE YOUTH WC"
       }
     ]
   },
