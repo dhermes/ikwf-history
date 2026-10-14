@@ -57926,52 +57926,6 @@
     ]
   },
   {
-    "name_normalized": "Oswego East Team No Ego",
-    "url_path_slug": "oswego-east-team-no-ego",
-    "duplicates": [
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "OSWEGO EAST TEAM NO EGO"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "OSWEGO EAST TEAM NO EGO"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "OSWEGO EAST TEAM NO EGO"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "OSWEGO EAST TEAM NO EGO"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "OSWEGO EAST TEAM NO EGO"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "OSWEGO EAST TEAM NO EGO"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Oswego East Team No Ego"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Oswego East Team No Ego"
-      }
-    ]
-  },
-  {
     "name_normalized": "Oswego WC",
     "url_path_slug": "oswego",
     "duplicates": [
@@ -77209,6 +77163,46 @@
     "name_normalized": "Team No Ego WC",
     "url_path_slug": "team-no-ego",
     "duplicates": [
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "OSWEGO EAST TEAM NO EGO"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "OSWEGO EAST TEAM NO EGO"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "OSWEGO EAST TEAM NO EGO"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "OSWEGO EAST TEAM NO EGO"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "OSWEGO EAST TEAM NO EGO"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "OSWEGO EAST TEAM NO EGO"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Oswego East Team No Ego"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Oswego East Team No Ego"
+      },
       {
         "tournament_id": 42,
         "division": "novice",
