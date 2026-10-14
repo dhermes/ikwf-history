@@ -86361,6 +86361,86 @@
         "name": "WHEATON TIGER WC"
       },
       {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "WW Tiger WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "WW Tiger WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "WW TIGER WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "WW TIGER WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "WW TIGER WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "WW TIGER WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "WW TIGER WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "WW TIGER WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "WW Tiger WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "WW Tiger WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "WW Tigers WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "WW Tigers WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "WW Tigers WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "WW Tigers WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "WW Tigers WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "WW Tigers WC"
+      },
+      {
         "tournament_id": 46,
         "division": "novice",
         "name": "Wheaton Warrenville Tiger WC"
@@ -87978,98 +88058,6 @@
         "tournament_id": 10050,
         "division": "senior",
         "name": "Wrestling Inc"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Ww Tiger WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "WW Tiger WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "WW Tiger WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "WW TIGER WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "WW TIGER WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "WW TIGER WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "WW TIGER WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "WW TIGER WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "WW TIGER WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "WW Tiger WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "WW Tiger WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Ww Tigers WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "WW Tigers WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "WW Tigers WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "WW Tigers WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "WW Tigers WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "WW Tigers WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "WW Tigers WC"
       }
     ]
   },
