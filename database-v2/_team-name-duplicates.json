@@ -17347,6 +17347,17 @@
     ]
   },
   {
+    "name_normalized": "Crone Middle School (Fox Valley)",
+    "url_path_slug": "crone-fox-valley",
+    "duplicates": [
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "FOX VALLEY CRONE WC"
+      }
+    ]
+  },
+  {
     "name_normalized": "Crossface Wrestling Club",
     "url_path_slug": "crossface",
     "duplicates": [
@@ -25874,50 +25885,6 @@
     ]
   },
   {
-    "name_normalized": "Crone Middle School (Fox Valley)",
-    "url_path_slug": "crone",
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "FOX VALLEY CRONE WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "FOX VALLEY WC-GRANGER",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "FOX VALLEY WC-GRANGER"
-      }
-    ]
-  },
-  {
-    "name_normalized": "FOX VALLEY WC-HILL",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "FOX VALLEY WC-HILL"
-      }
-    ]
-  },
-  {
-    "name_normalized": "FOX VALLEY WRESTLING-GRANGER",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "FOX VALLEY WRESTLING-GRANGER"
-      }
-    ]
-  },
-  {
     "name_normalized": "FRANKLIN PARK CHIEFS",
     "url_path_slug": null,
     "duplicates": [
@@ -31316,6 +31283,22 @@
     ]
   },
   {
+    "name_normalized": "Granger Middle School (Fox Valley)",
+    "url_path_slug": "granger-fox-valley",
+    "duplicates": [
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "FOX VALLEY WC-GRANGER"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "FOX VALLEY WRESTLING-GRANGER"
+      }
+    ]
+  },
+  {
     "name_normalized": "Granite City Coolidge",
     "url_path_slug": "granite-city-coolidge",
     "duplicates": [
@@ -35290,6 +35273,17 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Hill Jr. High"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Hill Middle School (Fox Valley)",
+    "url_path_slug": "hill-fox-valley",
+    "duplicates": [
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "FOX VALLEY WC-HILL"
       }
     ]
   },
@@ -46013,22 +46007,6 @@
     ]
   },
   {
-    "name_normalized": "Mt. Pulaski WC",
-    "url_path_slug": "mt-pulaski",
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "MT. PULASKI WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "MT. PULASKI WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Machesney Park Independent",
     "url_path_slug": null,
     "duplicates": [
@@ -52388,6 +52366,22 @@
         "tournament_id": 46,
         "division": "senior",
         "name": "Mt. Olive Cats Kids Wrestling"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Mt. Pulaski WC",
+    "url_path_slug": "mt-pulaski",
+    "duplicates": [
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "MT. PULASKI WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "MT. PULASKI WC"
       }
     ]
   },
