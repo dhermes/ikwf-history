@@ -84552,65 +84552,59 @@
     ]
   },
   {
-    "name_normalized": "West Carroll WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "WEST CARROLL WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "WEST CARROLL WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "WEST CARROLL WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "WEST CARROLL WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "WEST CARROLL WC"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "WEST CARROLL WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "West Carroll WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "West Carroll WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "West Carroll WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "West Carroll WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "West Carroll Wrestling Club",
     "url_path_slug": "west-carroll-wrestling-club",
     "duplicates": [
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "WEST CARROLL WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "WEST CARROLL WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "WEST CARROLL WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "WEST CARROLL WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "WEST CARROLL WC"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "WEST CARROLL WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "West Carroll WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "West Carroll WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "West Carroll WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "West Carroll WC"
+      },
       {
         "tournament_id": 45,
         "division": "novice",
