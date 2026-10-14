@@ -62188,48 +62188,6 @@
     ]
   },
   {
-    "name_normalized": "Power House WC",
-    "url_path_slug": "power-house-wc",
-    "duplicates": [
-      {
-        "tournament_id": 42,
-        "division": "novice",
-        "name": "Power House WC"
-      },
-      {
-        "tournament_id": 42,
-        "division": "senior",
-        "name": "Power House WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Power House WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Power House WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Powerhouse WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Powerhouse WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Powerhouse WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Prairie Central Youth Wrestling",
     "url_path_slug": "prairie-central",
     "duplicates": [
@@ -62485,6 +62443,36 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "PROVISO POWERHOUSE WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Powerhouse WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Powerhouse WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "novice",
+        "name": "Power House WC"
+      },
+      {
+        "tournament_id": 42,
+        "division": "senior",
+        "name": "Power House WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Power House WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Power House WC"
       },
       {
         "tournament_id": 48,
@@ -83235,17 +83223,6 @@
     ]
   },
   {
-    "name_normalized": "Warrior WC (Niles)",
-    "url_path_slug": "niles-warrior",
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "WARRIOR WC (NILES)"
-      }
-    ]
-  },
-  {
     "name_normalized": "WAUBONSIE GRIZZLIES",
     "url_path_slug": null,
     "duplicates": [
@@ -83724,6 +83701,17 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Warrior WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Warrior WC (Niles)",
+    "url_path_slug": "niles-warrior",
+    "duplicates": [
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "WARRIOR WC (NILES)"
       }
     ]
   },
