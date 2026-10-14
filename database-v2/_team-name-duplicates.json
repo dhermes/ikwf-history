@@ -78801,125 +78801,119 @@
     ]
   },
   {
-    "name_normalized": "Tiger WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "TIGER WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "TIGER WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 31,
-        "division": "novice",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Tiger WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Tiger WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "TIGER WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "novice",
-        "name": "Tiger WC"
-      },
-      {
-        "tournament_id": 44,
-        "division": "senior",
-        "name": "Tiger WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Tiger Wrestling Club",
     "url_path_slug": "tiger-wrestling-club",
     "duplicates": [
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "TIGER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "TIGER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 31,
+        "division": "novice",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Tiger WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Tiger WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "TIGER WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "novice",
+        "name": "Tiger WC"
+      },
+      {
+        "tournament_id": 44,
+        "division": "senior",
+        "name": "Tiger WC"
+      },
       {
         "tournament_id": 45,
         "division": "novice",
