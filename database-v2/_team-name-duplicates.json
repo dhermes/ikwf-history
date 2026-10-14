@@ -21580,7 +21580,7 @@
   },
   {
     "name_normalized": "Driscoll Junior Highlanders",
-    "url_path_slug": null,
+    "url_path_slug": "driscoll",
     "duplicates": [
       {
         "tournament_id": 37,
@@ -25805,17 +25805,6 @@
     ]
   },
   {
-    "name_normalized": "Fairfield",
-    "url_path_slug": "fairfield",
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "FAIRFIELD"
-      }
-    ]
-  },
-  {
     "name_normalized": "FARMINGTON WC",
     "url_path_slug": null,
     "duplicates": [
@@ -25978,6 +25967,17 @@
         "tournament_id": 30,
         "division": "senior",
         "name": "FREEPORT BOYS AND GIRLS CLUB"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Fairfield",
+    "url_path_slug": "fairfield",
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "FAIRFIELD"
       }
     ]
   },
@@ -57763,7 +57763,7 @@
   },
   {
     "name_normalized": "Oswego East Junior Wolves",
-    "url_path_slug": null,
+    "url_path_slug": "oswego-east-junior-wolves",
     "duplicates": [
       {
         "tournament_id": 37,
@@ -81771,7 +81771,7 @@
   },
   {
     "name_normalized": "Vermilion Valley Elite",
-    "url_path_slug": null,
+    "url_path_slug": "vermilion-valley",
     "duplicates": [
       {
         "tournament_id": 36,
@@ -83063,22 +83063,6 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "WINSTON PARK"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WOLFPACK WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "WOLFPACK WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "WOLFPACK WRESTLING CLUB"
       }
     ]
   },
@@ -87012,6 +86996,16 @@
     "name_normalized": "Wolfpak WC (Franklin Park)",
     "url_path_slug": "wolfpak",
     "duplicates": [
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "WOLFPACK WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "WOLFPACK WRESTLING CLUB"
+      },
       {
         "tournament_id": 29,
         "division": "novice",
