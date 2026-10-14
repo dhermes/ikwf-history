@@ -75788,17 +75788,6 @@
     ]
   },
   {
-    "name_normalized": "TEAM 1",
-    "url_path_slug": "team-1",
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "TEAM 1"
-      }
-    ]
-  },
-  {
     "name_normalized": "TJ Trained Wrestling (HQ)",
     "url_path_slug": "tj-trained",
     "duplicates": [
@@ -76503,6 +76492,27 @@
     ]
   },
   {
+    "name_normalized": "Team 1",
+    "url_path_slug": "team1",
+    "duplicates": [
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "TEAM 1"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "TEAM ONE"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "TEAM ONE"
+      }
+    ]
+  },
+  {
     "name_normalized": "Team 312 WC",
     "url_path_slug": "team-312",
     "duplicates": [
@@ -77102,22 +77112,6 @@
         "tournament_id": 48,
         "division": "senior",
         "name": "Team No Ego WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Team One",
-    "url_path_slug": "team-one",
-    "duplicates": [
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "TEAM ONE"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "TEAM ONE"
       }
     ]
   },
