@@ -3854,28 +3854,6 @@
     ]
   },
   {
-    "name_normalized": "BLAZER WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "BLAZER WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BLAZER WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "BLAZER WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "BOYS & GIRLS CLUB OF FREEPORT",
     "url_path_slug": null,
     "duplicates": [
@@ -8902,27 +8880,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Blackhawk WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Blazer Kids",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "BLAZER KIDS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "BLAZER KIDS"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "BLAZER KIDS"
       }
     ]
   },
@@ -38255,6 +38212,32 @@
     ]
   },
   {
+    "name_normalized": "JJK Wrestling",
+    "url_path_slug": "jjk",
+    "duplicates": [
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "JJK WRESTLING"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "JJK WRESTLING"
+      },
+      {
+        "tournament_id": 40,
+        "division": "novice",
+        "name": "JJK WRESTLING"
+      },
+      {
+        "tournament_id": 40,
+        "division": "senior",
+        "name": "JJK WRESTLING"
+      }
+    ]
+  },
+  {
     "name_normalized": "JORDON",
     "url_path_slug": null,
     "duplicates": [
@@ -38934,32 +38917,6 @@
     ]
   },
   {
-    "name_normalized": "JJK Wrestling",
-    "url_path_slug": "jjk",
-    "duplicates": [
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "JJK WRESTLING"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "JJK WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "novice",
-        "name": "JJK WRESTLING"
-      },
-      {
-        "tournament_id": 40,
-        "division": "senior",
-        "name": "JJK WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "John Deere",
     "url_path_slug": null,
     "duplicates": [
@@ -39287,6 +39244,31 @@
     "name_normalized": "Jr. Blazer WC",
     "url_path_slug": "jr-blazer-wc",
     "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "BLAZER WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "BLAZER WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "BLAZER KIDS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "BLAZER KIDS"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "BLAZER KIDS"
+      },
       {
         "tournament_id": 40,
         "division": "novice",
