@@ -56345,7 +56345,7 @@
   },
   {
     "name_normalized": "Oak Lawn Park District Wildcats",
-    "url_path_slug": "oak-lawn-pd",
+    "url_path_slug": "oak-lawn",
     "duplicates": [
       {
         "tournament_id": 9,
@@ -56526,13 +56526,7 @@
         "tournament_id": 36,
         "division": "senior",
         "name": "OAK LAWN P.D. WILDCATS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Oak Lawn Spartan Youth WC",
-    "url_path_slug": "oak-lawn-spartan",
-    "duplicates": [
+      },
       {
         "tournament_id": 39,
         "division": "novice",
