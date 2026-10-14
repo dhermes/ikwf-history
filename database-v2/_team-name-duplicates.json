@@ -32325,6 +32325,16 @@
     "url_path_slug": "hf-spartan",
     "duplicates": [
       {
+        "tournament_id": 43,
+        "division": "novice",
+        "name": "Spartan Elite WC"
+      },
+      {
+        "tournament_id": 43,
+        "division": "senior",
+        "name": "Spartan Elite WC"
+      },
+      {
         "tournament_id": 44,
         "division": "novice",
         "name": "HF Spartan Elite WC"
@@ -72386,22 +72396,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Sparta Junior Bulldogs WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Spartan Elite WC",
-    "url_path_slug": "spartan-elite-wc",
-    "duplicates": [
-      {
-        "tournament_id": 43,
-        "division": "novice",
-        "name": "Spartan Elite WC"
-      },
-      {
-        "tournament_id": 43,
-        "division": "senior",
-        "name": "Spartan Elite WC"
       }
     ]
   },
