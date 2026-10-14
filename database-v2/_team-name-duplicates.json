@@ -17510,6 +17510,16 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "CROSSFACE WRESTLING"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "East Peoria Crossface WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "East Peoria Crossface WC"
       }
     ]
   },
@@ -22920,22 +22930,6 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "EAST MOLINE PANTHER PINNERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "East Peoria Crossface WC",
-    "url_path_slug": "east-peoria-crossface-wc",
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "East Peoria Crossface WC"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "East Peoria Crossface WC"
       }
     ]
   },
@@ -46091,22 +46085,6 @@
     ]
   },
   {
-    "name_normalized": "Montego WC",
-    "url_path_slug": "montego-wc",
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "MONTEGO WC"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "MONTEGO WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "MT. PULASKI WC",
     "url_path_slug": null,
     "duplicates": [
@@ -51227,6 +51205,22 @@
         "tournament_id": 30,
         "division": "novice",
         "name": "MONTEGO MAT MEN"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Montego WC",
+    "url_path_slug": "montego-wc",
+    "duplicates": [
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "MONTEGO WC"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "MONTEGO WC"
       }
     ]
   },
