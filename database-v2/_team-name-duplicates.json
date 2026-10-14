@@ -6033,17 +6033,6 @@
     ]
   },
   {
-    "name_normalized": "Bellevile West",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 7,
-        "division": "senior",
-        "name": "Bellevile West"
-      }
-    ]
-  },
-  {
     "name_normalized": "Belleville Junior Hit Squad",
     "url_path_slug": "belleville-hit-squad",
     "duplicates": [
@@ -6092,6 +6081,11 @@
         "tournament_id": 6,
         "division": "senior",
         "name": "Belleville"
+      },
+      {
+        "tournament_id": 7,
+        "division": "senior",
+        "name": "Bellevile West"
       },
       {
         "tournament_id": 9,
