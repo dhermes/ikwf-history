@@ -47286,22 +47286,6 @@
     ]
   },
   {
-    "name_normalized": "Marengo Shooters WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Marengo Shooters WC"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Marengo Shooters WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Marengo Youth WC",
     "url_path_slug": "marengo",
     "duplicates": [
@@ -71449,6 +71433,16 @@
     "name_normalized": "Shooters Elite WC",
     "url_path_slug": "shooters-elite-wc",
     "duplicates": [
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Marengo Shooters WC"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Marengo Shooters WC"
+      },
       {
         "tournament_id": 38,
         "division": "novice",
