@@ -51075,28 +51075,6 @@
     ]
   },
   {
-    "name_normalized": "Monroe",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Monroe"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Monroe Jr. High",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Monroe Jr. High"
-      }
-    ]
-  },
-  {
     "name_normalized": "Montego Matmen",
     "url_path_slug": "montego-matmen",
     "duplicates": [
@@ -85727,6 +85705,16 @@
     "name_normalized": "Wheaton Monroe Eagles",
     "url_path_slug": "wheaton-monroe",
     "duplicates": [
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Monroe Jr. High"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Monroe"
+      },
       {
         "tournament_id": 26,
         "division": "novice",
