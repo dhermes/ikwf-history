@@ -9007,8 +9007,8 @@
     ]
   },
   {
-    "name_normalized": "Bloomington",
-    "url_path_slug": null,
+    "name_normalized": "Bloomington Raider WC",
+    "url_path_slug": "bloomington-raider-wc",
     "duplicates": [
       {
         "tournament_id": 4,
@@ -9019,13 +9019,17 @@
         "tournament_id": 8,
         "division": "senior",
         "name": "Bloomington"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bloomington JHS",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Bloomington Jr. High"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Bloomington Jr."
+      },
       {
         "tournament_id": 16,
         "division": "senior",
@@ -9035,40 +9039,12 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Bloomington Jr. High"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bloomington Jr.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Bloomington Jr."
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bloomington Jr. High",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Bloomington Jr. High"
       },
       {
         "tournament_id": 18,
         "division": "senior",
         "name": "Bloomington Jr. High"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bloomington Raider WC",
-    "url_path_slug": "bloomington-raider-wc",
-    "duplicates": [
+      },
       {
         "tournament_id": 32,
         "division": "novice",
