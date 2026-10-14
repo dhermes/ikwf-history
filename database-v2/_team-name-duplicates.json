@@ -6088,6 +6088,11 @@
         "name": "Bellevile West"
       },
       {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Belleville Red"
+      },
+      {
         "tournament_id": 9,
         "division": "senior",
         "name": "Belleville"
@@ -6526,17 +6531,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Belleville Little Devils WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Belleville Red",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Belleville Red"
       }
     ]
   },
