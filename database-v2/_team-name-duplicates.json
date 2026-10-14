@@ -67087,22 +67087,6 @@
     ]
   },
   {
-    "name_normalized": "Romeoville Westview",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 2,
-        "division": "senior",
-        "name": "Westview"
-      },
-      {
-        "tournament_id": 3,
-        "division": "senior",
-        "name": "Romeoville Westview"
-      }
-    ]
-  },
-  {
     "name_normalized": "Roselle",
     "url_path_slug": "roselle",
     "duplicates": [
@@ -85142,24 +85126,28 @@
     ]
   },
   {
-    "name_normalized": "Westview",
-    "url_path_slug": null,
+    "name_normalized": "Westview (Romeoville)",
+    "url_path_slug": "westview-romeoville",
     "duplicates": [
       {
-        "tournament_id": 11,
+        "tournament_id": 2,
         "division": "senior",
         "name": "Westview"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Westview Hills",
-    "url_path_slug": null,
-    "duplicates": [
+      },
+      {
+        "tournament_id": 3,
+        "division": "senior",
+        "name": "Romeoville Westview"
+      },
       {
         "tournament_id": 9,
         "division": "senior",
         "name": "Westview Hills"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Westview"
       },
       {
         "tournament_id": 12,
