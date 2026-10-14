@@ -83321,24 +83321,8 @@
     ]
   },
   {
-    "name_normalized": "Warren County Brawlers",
-    "url_path_slug": "warren-county-brawlers",
-    "duplicates": [
-      {
-        "tournament_id": 41,
-        "division": "novice",
-        "name": "Warren County Brawlers"
-      },
-      {
-        "tournament_id": 41,
-        "division": "senior",
-        "name": "Warren County Brawlers"
-      }
-    ]
-  },
-  {
     "name_normalized": "Warren County WC",
-    "url_path_slug": "warren-county-wc",
+    "url_path_slug": "warren-county",
     "duplicates": [
       {
         "tournament_id": 35,
@@ -83364,6 +83348,16 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "WARREN COUNTY WC"
+      },
+      {
+        "tournament_id": 41,
+        "division": "novice",
+        "name": "Warren County Brawlers"
+      },
+      {
+        "tournament_id": 41,
+        "division": "senior",
+        "name": "Warren County Brawlers"
       }
     ]
   },
