@@ -54670,13 +54670,23 @@
     ]
   },
   {
-    "name_normalized": "Niles Weasles",
-    "url_path_slug": null,
+    "name_normalized": "Niles Weasels",
+    "url_path_slug": "niles-weasles",
     "duplicates": [
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Weasels"
+      },
       {
         "tournament_id": 12,
         "division": "senior",
         "name": "Niles Weasles"
+      },
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Weasel WC"
       }
     ]
   },
@@ -84460,28 +84470,6 @@
         "tournament_id": 47,
         "division": "senior",
         "name": "Waukegan Youth WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Weasel WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Weasel WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Weasels",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Weasels"
       }
     ]
   },
