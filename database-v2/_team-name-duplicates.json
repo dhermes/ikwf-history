@@ -24425,6 +24425,31 @@
     "url_path_slug": "elgin-larkin",
     "duplicates": [
       {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "LARKIN"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "LARKIN"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "LARKIN ROYAL WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "LARKIN ROYAL WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "LARKIN ROYAL WRESTLING"
+      },
+      {
         "tournament_id": 28,
         "division": "novice",
         "name": "ELGIN LARKIN ROYALS"
@@ -24438,6 +24463,16 @@
         "tournament_id": 29,
         "division": "novice",
         "name": "ELGIN LARKIN JR. ROYALS"
+      },
+      {
+        "tournament_id": 32,
+        "division": "novice",
+        "name": "LARKIN JR. ROYALS WC"
+      },
+      {
+        "tournament_id": 32,
+        "division": "senior",
+        "name": "LARKIN JR. ROYALS WC"
       }
     ]
   },
@@ -41024,43 +41059,6 @@
     ]
   },
   {
-    "name_normalized": "LARKIN",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "LARKIN"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "LARKIN"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LARKIN ROYAL WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "LARKIN ROYAL WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "LARKIN ROYAL WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "LARKIN ROYAL WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "LEMONT WILDCAT WC",
     "url_path_slug": null,
     "duplicates": [
@@ -42230,22 +42228,6 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Lansing"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Larkin Jr. Royals WC",
-    "url_path_slug": "larkin-jr-royals-wc",
-    "duplicates": [
-      {
-        "tournament_id": 32,
-        "division": "novice",
-        "name": "LARKIN JR. ROYALS WC"
-      },
-      {
-        "tournament_id": 32,
-        "division": "senior",
-        "name": "LARKIN JR. ROYALS WC"
       }
     ]
   },
