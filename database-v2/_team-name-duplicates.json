@@ -38342,27 +38342,6 @@
     ]
   },
   {
-    "name_normalized": "Junior Mustangs",
-    "url_path_slug": "junior-mustangs",
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "JR. MUSTANGS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "JR. MUSTANGS"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "JUNIOR MUSTANGS"
-      }
-    ]
-  },
-  {
     "name_normalized": "Jack London",
     "url_path_slug": null,
     "duplicates": [
@@ -40143,6 +40122,27 @@
         "tournament_id": 54,
         "division": "senior",
         "name": "Junior Maroons WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Junior Mustangs",
+    "url_path_slug": "junior-mustangs",
+    "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "JR. MUSTANGS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "JR. MUSTANGS"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "JUNIOR MUSTANGS"
       }
     ]
   },
@@ -75765,17 +75765,6 @@
     ]
   },
   {
-    "name_normalized": "TAZEWELL YOUTH WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "TAZEWELL YOUTH WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "TJ Trained Wrestling (HQ)",
     "url_path_slug": "tj-trained",
     "duplicates": [
@@ -76455,8 +76444,13 @@
   },
   {
     "name_normalized": "Tazewell County Kidz WC",
-    "url_path_slug": null,
+    "url_path_slug": "tazewell",
     "duplicates": [
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "TAZEWELL YOUTH WC"
+      },
       {
         "tournament_id": 30,
         "division": "novice",
