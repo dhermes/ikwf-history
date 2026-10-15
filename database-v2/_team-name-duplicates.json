@@ -40079,6 +40079,11 @@
         "name": "JR. MUSTANGS"
       },
       {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "WUSTANG WC"
+      },
+      {
         "tournament_id": 35,
         "division": "senior",
         "name": "JUNIOR MUSTANGS"
@@ -40959,53 +40964,6 @@
     ]
   },
   {
-    "name_normalized": "Lake Forest WC",
-    "url_path_slug": "lake-forest",
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "LAKE FOREST"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "LAKE FOREST"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "LAKE FOREST"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "LAKE FOREST WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "LAKE FOREST WRESTLING CLUB"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lemont Wildcat WC",
-    "url_path_slug": "lemont-wildcat",
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "LEMONT WILDCAT WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "LEMONT WILDCAT WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "LINCOLN-WAY KNIGHTS",
     "url_path_slug": null,
     "duplicates": [
@@ -41534,6 +41492,37 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Lake County Stallions Wrestling Academy"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Lake Forest WC",
+    "url_path_slug": "lake-forest",
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "LAKE FOREST"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "LAKE FOREST"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "LAKE FOREST"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "LAKE FOREST WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "LAKE FOREST WRESTLING CLUB"
       }
     ]
   },
@@ -42896,6 +42885,22 @@
         "tournament_id": 54,
         "division": "intermediate_girls",
         "name": "Lemont Bears WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Lemont Wildcat WC",
+    "url_path_slug": "lemont-wildcat",
+    "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "LEMONT WILDCAT WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "LEMONT WILDCAT WC"
       }
     ]
   },
@@ -82818,17 +82823,6 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "WINSTON PARK"
-      }
-    ]
-  },
-  {
-    "name_normalized": "WUSTANG WC",
-    "url_path_slug": "wustang-wc",
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "WUSTANG WC"
       }
     ]
   },
