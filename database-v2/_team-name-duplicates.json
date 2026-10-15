@@ -3758,22 +3758,6 @@
     ]
   },
   {
-    "name_normalized": "BEARS WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "BEARS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "BEARS WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "BETHALTO / JR. HIGH",
     "url_path_slug": null,
     "duplicates": [
@@ -38241,45 +38225,59 @@
     ]
   },
   {
-    "name_normalized": "JR. BEARS WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "JR. BEARS WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "JR. BEARS WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "JR. BEARS WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "JR. BEARS WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "JR. BEARS WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "JR. BEARS WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "JR. BEARS WRESTLING CLUB",
     "url_path_slug": "jr-bears-wrestling-club",
     "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "JR. BEARS WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "JR. BEARS WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "JR. BEARS WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "JR. BEARS WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "JR. BEARS WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "JR. BEARS WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "BEARS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "BEARS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "novice_iwf",
+        "name": "Jr. Bears"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "Jr. Bears"
+      },
       {
         "tournament_id": 30,
         "division": "novice",
@@ -39186,22 +39184,6 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Jordon Jr. High"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Jr. Bears",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "novice_iwf",
-        "name": "Jr. Bears"
-      },
-      {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "Jr. Bears"
       }
     ]
   },
