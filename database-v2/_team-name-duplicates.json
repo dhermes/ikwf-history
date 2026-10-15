@@ -41120,22 +41120,6 @@
     ]
   },
   {
-    "name_normalized": "LL BEARS WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "LL BEARS WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "LL BEARS WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "LaGrange Lions",
     "url_path_slug": null,
     "duplicates": [
@@ -42623,6 +42607,16 @@
         "tournament_id": 26,
         "division": "senior",
         "name": "LEMONT BEARS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "LL BEARS WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "LL BEARS WRESTLING CLUB"
       },
       {
         "tournament_id": 29,
@@ -72720,37 +72714,6 @@
     ]
   },
   {
-    "name_normalized": "Thompson (St. Charles)",
-    "url_path_slug": "st-charles-thompson",
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "St. Charles Thompson"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "ST. CHARLES THOMPSON WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "ST. CHARLES THOMPSON WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "ST. CHARLES THOMPSON WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "ST. CHARLES THOMPSON WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "St. Charles WC",
     "url_path_slug": "st-charles",
     "duplicates": [
@@ -77733,6 +77696,37 @@
         "tournament_id": 49,
         "division": "senior",
         "name": "The Wrestling Factory"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Thompson (St. Charles)",
+    "url_path_slug": "st-charles-thompson",
+    "duplicates": [
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "St. Charles Thompson"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "ST. CHARLES THOMPSON WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "ST. CHARLES THOMPSON WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "ST. CHARLES THOMPSON WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "ST. CHARLES THOMPSON WC"
       }
     ]
   },
