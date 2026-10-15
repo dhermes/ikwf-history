@@ -37210,13 +37210,18 @@
     ]
   },
   {
-    "name_normalized": "Huth",
-    "url_path_slug": null,
+    "name_normalized": "Huth Jr. High",
+    "url_path_slug": "huth",
     "duplicates": [
       {
         "tournament_id": 2,
         "division": "senior",
         "name": "Huth"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Huth Jr. High"
       },
       {
         "tournament_id": 11,
@@ -37232,17 +37237,6 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Huth"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Huth Jr. High",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Huth Jr. High"
       }
     ]
   },
