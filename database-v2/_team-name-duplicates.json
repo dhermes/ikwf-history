@@ -68838,22 +68838,6 @@
     ]
   },
   {
-    "name_normalized": "ST. CHARLES HAINES WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "ST. CHARLES HAINES WC"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "ST. CHARLES HAINES WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "ST. CHARLES THOMPSON WC",
     "url_path_slug": null,
     "duplicates": [
@@ -72742,12 +72726,22 @@
   },
   {
     "name_normalized": "St. Charles Haines",
-    "url_path_slug": null,
+    "url_path_slug": "st-charles-haines",
     "duplicates": [
       {
         "tournament_id": 13,
         "division": "senior",
         "name": "St. Charles Haines"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "ST. CHARLES HAINES WC"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "ST. CHARLES HAINES WC"
       }
     ]
   },
