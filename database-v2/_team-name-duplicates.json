@@ -3853,28 +3853,6 @@
     ]
   },
   {
-    "name_normalized": "BOYS & GIRLS CLUB OF FREEPORT",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "BOYS & GIRLS CLUB OF FREEPORT"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BOYS & GIRLS OF FREEPORT",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "BOYS & GIRLS OF FREEPORT"
-      }
-    ]
-  },
-  {
     "name_normalized": "BRIDGEVIEW PD",
     "url_path_slug": null,
     "duplicates": [
@@ -18901,28 +18879,6 @@
     ]
   },
   {
-    "name_normalized": "Dundee Highlanders (Carpentersville)",
-    "url_path_slug": "dundee-highlanders-carpentersville",
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "DUNDEE HIGHLANDERS-CARPENTERSVILLE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Dundee Highlanders (Westfield)",
-    "url_path_slug": "dundee-highlanders-westfield",
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "DUNDEE HIGHLANDERS-WESTFIELD"
-      }
-    ]
-  },
-  {
     "name_normalized": "Dakota Wrestling Club",
     "url_path_slug": "dakota",
     "duplicates": [
@@ -21782,6 +21738,28 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Dubtown WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Dundee Highlanders (Carpentersville)",
+    "url_path_slug": "dundee-highlanders-carpentersville",
+    "duplicates": [
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "DUNDEE HIGHLANDERS-CARPENTERSVILLE"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Dundee Highlanders (Westfield)",
+    "url_path_slug": "dundee-highlanders-westfield",
+    "duplicates": [
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "DUNDEE HIGHLANDERS-WESTFIELD"
       }
     ]
   },
@@ -25919,9 +25897,29 @@
     ]
   },
   {
-    "name_normalized": "FREEPORT BOYS AND GIRLS",
-    "url_path_slug": null,
+    "name_normalized": "FREEPORT BOYS AND GIRLS CLUB",
+    "url_path_slug": "freeport-boys-and-girls-club",
     "duplicates": [
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Freeport"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Freeport"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "BOYS & GIRLS OF FREEPORT"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "BOYS & GIRLS CLUB OF FREEPORT"
+      },
       {
         "tournament_id": 26,
         "division": "senior",
@@ -25941,13 +25939,7 @@
         "tournament_id": 29,
         "division": "novice",
         "name": "FREEPORT BOYS AND GIRLS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "FREEPORT BOYS AND GIRLS CLUB",
-    "url_path_slug": "freeport-boys-and-girls-club",
-    "duplicates": [
+      },
       {
         "tournament_id": 30,
         "division": "novice",
@@ -28796,22 +28788,6 @@
         "tournament_id": 2,
         "division": "senior",
         "name": "Fraziers"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Freeport",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Freeport"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Freeport"
       }
     ]
   },
@@ -82925,17 +82901,6 @@
     ]
   },
   {
-    "name_normalized": "Waubonsie Grizzlies",
-    "url_path_slug": "waubonsie-grizzlies",
-    "duplicates": [
-      {
-        "tournament_id": 31,
-        "division": "senior",
-        "name": "WAUBONSIE GRIZZLIES"
-      }
-    ]
-  },
-  {
     "name_normalized": "WINSTON PARK",
     "url_path_slug": null,
     "duplicates": [
@@ -83663,6 +83628,17 @@
         "tournament_id": 31,
         "division": "senior",
         "name": "WAUBONSIE BULLDOGS"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Waubonsie Grizzlies",
+    "url_path_slug": "waubonsie-grizzlies",
+    "duplicates": [
+      {
+        "tournament_id": 31,
+        "division": "senior",
+        "name": "WAUBONSIE GRIZZLIES"
       }
     ]
   },
