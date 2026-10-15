@@ -39334,32 +39334,6 @@
     ]
   },
   {
-    "name_normalized": "Jr. Saxons WC",
-    "url_path_slug": "jr-saxons-wc",
-    "duplicates": [
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "JR. SAXONS WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "JR. SAXONS WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "JR. SAXONS WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "JR. SAXONS WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Jr. Sentinels",
     "url_path_slug": "jr-sentinels",
     "duplicates": [
@@ -70085,20 +70059,14 @@
     ]
   },
   {
-    "name_normalized": "Schaumberg",
-    "url_path_slug": null,
+    "name_normalized": "Schaumburg Jr. Saxons",
+    "url_path_slug": "schaumburg",
     "duplicates": [
       {
         "tournament_id": 2,
         "division": "senior",
         "name": "Schaumberg"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Schaumburg",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 10028,
         "division": "novice_iwf",
@@ -70108,13 +70076,7 @@
         "tournament_id": 10028,
         "division": "senior_iwf",
         "name": "Schaumburg"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Schaumburg Jr. Saxons",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 32,
         "division": "novice",
@@ -70124,6 +70086,26 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "SCHAUMBURG JR. SAXONS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "JR. SAXONS WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "JR. SAXONS WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "JR. SAXONS WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "JR. SAXONS WC"
       }
     ]
   },
