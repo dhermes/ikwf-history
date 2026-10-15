@@ -25897,62 +25897,6 @@
     ]
   },
   {
-    "name_normalized": "Freeport Boys and Girls Club",
-    "url_path_slug": "freeport",
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Freeport"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Freeport"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "BOYS & GIRLS OF FREEPORT"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "BOYS & GIRLS CLUB OF FREEPORT"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "FREEPORT BOYS AND GIRLS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "FREEPORT BOYS AND GIRLS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "FREEPORT BOYS AND GIRLS"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "FREEPORT BOYS AND GIRLS"
-      },
-      {
-        "tournament_id": 30,
-        "division": "novice",
-        "name": "FREEPORT BOYS AND GIRLS CLUB"
-      },
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "FREEPORT BOYS AND GIRLS CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "Fairfield",
     "url_path_slug": "fairfield",
     "duplicates": [
@@ -28788,6 +28732,62 @@
         "tournament_id": 2,
         "division": "senior",
         "name": "Fraziers"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Freeport Boys and Girls Club",
+    "url_path_slug": "freeport",
+    "duplicates": [
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Freeport"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Freeport"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "BOYS & GIRLS OF FREEPORT"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "BOYS & GIRLS CLUB OF FREEPORT"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "FREEPORT BOYS AND GIRLS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "FREEPORT BOYS AND GIRLS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "FREEPORT BOYS AND GIRLS"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "FREEPORT BOYS AND GIRLS"
+      },
+      {
+        "tournament_id": 30,
+        "division": "novice",
+        "name": "FREEPORT BOYS AND GIRLS CLUB"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "FREEPORT BOYS AND GIRLS CLUB"
       }
     ]
   },
@@ -68880,17 +68880,6 @@
     ]
   },
   {
-    "name_normalized": "STC WC II",
-    "url_path_slug": "stc-wc-ii",
-    "duplicates": [
-      {
-        "tournament_id": 30,
-        "division": "senior",
-        "name": "STC WC II"
-      }
-    ]
-  },
-  {
     "name_normalized": "STREAMWOOD WC",
     "url_path_slug": null,
     "duplicates": [
@@ -72886,6 +72875,11 @@
         "tournament_id": 30,
         "division": "senior",
         "name": "STC WC"
+      },
+      {
+        "tournament_id": 30,
+        "division": "senior",
+        "name": "STC WC II"
       },
       {
         "tournament_id": 32,
