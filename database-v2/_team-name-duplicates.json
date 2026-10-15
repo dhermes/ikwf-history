@@ -18810,47 +18810,6 @@
     ]
   },
   {
-    "name_normalized": "Dewitt County WC",
-    "url_path_slug": "dewitt-county",
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "DEWITT COUNTY"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "DEWITT COUNTY"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "DEWITT COUNTY WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "DEWITT COUNTY WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "DEWITT COUNTY WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "DEWITT COUNTY WRESTLING"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "DEWITT COUNTY WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "Dakota Wrestling Club",
     "url_path_slug": "dakota",
     "duplicates": [
@@ -20456,6 +20415,47 @@
         "tournament_id": 4,
         "division": "senior",
         "name": "Gemini Jr. High"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Dewitt County WC",
+    "url_path_slug": "dewitt-county",
+    "duplicates": [
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "DEWITT COUNTY"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "DEWITT COUNTY"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "DEWITT COUNTY WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "DEWITT COUNTY WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "DEWITT COUNTY WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "DEWITT COUNTY WRESTLING"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "DEWITT COUNTY WRESTLING"
       }
     ]
   },
@@ -25789,20 +25789,14 @@
     ]
   },
   {
-    "name_normalized": "FARMINGTON WC",
-    "url_path_slug": null,
+    "name_normalized": "FARMINGTON WRESTLING CLUB",
+    "url_path_slug": "farmington-wrestling-club",
     "duplicates": [
       {
         "tournament_id": 25,
         "division": "novice",
         "name": "FARMINGTON WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "FARMINGTON WRESTLING CLUB",
-    "url_path_slug": "farmington-wrestling-club",
-    "duplicates": [
+      },
       {
         "tournament_id": 26,
         "division": "senior",
