@@ -40959,8 +40959,8 @@
     ]
   },
   {
-    "name_normalized": "LAKE FOREST",
-    "url_path_slug": null,
+    "name_normalized": "LAKE FOREST WRESTLING CLUB",
+    "url_path_slug": "lake-forest",
     "duplicates": [
       {
         "tournament_id": 23,
@@ -40976,24 +40976,12 @@
         "tournament_id": 24,
         "division": "senior",
         "name": "LAKE FOREST"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LAKE FOREST WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 25,
         "division": "senior",
         "name": "LAKE FOREST WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LAKE FOREST WRESTLING CLUB",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 27,
         "division": "senior",
