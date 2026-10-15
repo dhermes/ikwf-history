@@ -19977,6 +19977,11 @@
     "url_path_slug": "decatur-lakers",
     "duplicates": [
       {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "LAKERS WRESTLING CLUB"
+      },
+      {
         "tournament_id": 53,
         "division": "bantam",
         "name": "Decatur Lakers WC"
@@ -25789,37 +25794,6 @@
     ]
   },
   {
-    "name_normalized": "Farmington WC",
-    "url_path_slug": "farmington",
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "FARMINGTON WC"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "FARMINGTON WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "FARMINGTON WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "FARMINGTON WRESTLING CLUB"
-      },
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "FARMINGTON WRESTLING CLUB"
-      }
-    ]
-  },
-  {
     "name_normalized": "FCA Force WC",
     "url_path_slug": "fca",
     "duplicates": [
@@ -26379,6 +26353,37 @@
         "tournament_id": 46,
         "division": "senior",
         "name": "Falcon Elite WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Farmington WC",
+    "url_path_slug": "farmington",
+    "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "FARMINGTON WC"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "FARMINGTON WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "FARMINGTON WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "FARMINGTON WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "FARMINGTON WRESTLING CLUB"
       }
     ]
   },
@@ -41005,17 +41010,6 @@
         "tournament_id": 27,
         "division": "senior",
         "name": "LAKE FOREST WRESTLING CLUB"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LAKERS WRESTLING CLUB",
-    "url_path_slug": "lakers-wrestling-club",
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "LAKERS WRESTLING CLUB"
       }
     ]
   },
