@@ -68862,22 +68862,6 @@
     ]
   },
   {
-    "name_normalized": "ST. BEDE'S",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "ST. BEDE'S"
-      },
-      {
-        "tournament_id": 29,
-        "division": "novice",
-        "name": "ST. BEDE'S"
-      }
-    ]
-  },
-  {
     "name_normalized": "ST. CHARLES HAINES WC",
     "url_path_slug": null,
     "duplicates": [
@@ -72760,6 +72744,21 @@
         "name": "St. Bede's"
       },
       {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "St. Bedes WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "ST. BEDE'S"
+      },
+      {
+        "tournament_id": 29,
+        "division": "novice",
+        "name": "ST. BEDE'S"
+      },
+      {
         "tournament_id": 30,
         "division": "novice",
         "name": "ST. BEDE'S"
@@ -72773,17 +72772,6 @@
         "tournament_id": 31,
         "division": "senior",
         "name": "ST. BEDE'S"
-      }
-    ]
-  },
-  {
-    "name_normalized": "St. Bedes WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "St. Bedes WC"
       }
     ]
   },
