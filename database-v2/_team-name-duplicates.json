@@ -23192,6 +23192,17 @@
     ]
   },
   {
+    "name_normalized": "Edison (Rock Island WC)",
+    "url_path_slug": "rock-island-edison",
+    "duplicates": [
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "ROCK ISLAND WRESTLING CLUB EDISON"
+      }
+    ]
+  },
+  {
     "name_normalized": "Edison Panthers WC",
     "url_path_slug": "edison-panthers",
     "duplicates": [
@@ -62653,28 +62664,6 @@
     ]
   },
   {
-    "name_normalized": "Washington (Rock Island WC)",
-    "url_path_slug": "rock-island-washington",
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "ROCK ISLAND WC-WASHINGTON"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Edison (Rock Island WC)",
-    "url_path_slug": "rock-island-edison",
-    "duplicates": [
-      {
-        "tournament_id": 29,
-        "division": "senior",
-        "name": "ROCK ISLAND WRESTLING CLUB EDISON"
-      }
-    ]
-  },
-  {
     "name_normalized": "ROCKET WC",
     "url_path_slug": null,
     "duplicates": [
@@ -83362,6 +83351,17 @@
         "tournament_id": 53,
         "division": "senior_girls",
         "name": "Warriors Wrestling Academy"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Washington (Rock Island WC)",
+    "url_path_slug": "rock-island-washington",
+    "duplicates": [
+      {
+        "tournament_id": 29,
+        "division": "senior",
+        "name": "ROCK ISLAND WC-WASHINGTON"
       }
     ]
   },
