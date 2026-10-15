@@ -41115,17 +41115,6 @@
     ]
   },
   {
-    "name_normalized": "LITTLE PANTHERS",
-    "url_path_slug": "little-panthers",
-    "duplicates": [
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "LITTLE PANTHERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "LIVINGSTON LIGHTNING",
     "url_path_slug": null,
     "duplicates": [
@@ -55190,6 +55179,11 @@
     "name_normalized": "O'Fallon Little Panthers WC",
     "url_path_slug": "ofallon",
     "duplicates": [
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "LITTLE PANTHERS"
+      },
       {
         "tournament_id": 34,
         "division": "novice",
