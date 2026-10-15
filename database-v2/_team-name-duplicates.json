@@ -17782,31 +17782,14 @@
     ]
   },
   {
-    "name_normalized": "Crystal Lake",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "senior_iwf",
-        "name": "Crystal Lake"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Crystal Lake North",
-    "url_path_slug": null,
+    "name_normalized": "Crystal Lake Wizards WC",
+    "url_path_slug": "wizards",
     "duplicates": [
       {
         "tournament_id": 8,
         "division": "senior",
         "name": "Crystal Lake North"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Crystal Lake Wizards WC",
-    "url_path_slug": "wizards",
-    "duplicates": [
+      },
       {
         "tournament_id": 21,
         "division": "senior",
@@ -17876,6 +17859,11 @@
         "tournament_id": 28,
         "division": "senior",
         "name": "CRYSTAL LAKE WIZARDS"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "senior_iwf",
+        "name": "Crystal Lake"
       },
       {
         "tournament_id": 29,
