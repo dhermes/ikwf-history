@@ -62803,50 +62803,6 @@
     ]
   },
   {
-    "name_normalized": "RICHWOODS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "RICHWOODS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "RICHWOODS SQUIRE YOUTH",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "RICHWOODS SQUIRE YOUTH"
-      }
-    ]
-  },
-  {
-    "name_normalized": "RICHWOODS SQUIRES",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "RICHWOODS SQUIRES"
-      }
-    ]
-  },
-  {
-    "name_normalized": "RICHWOODS SQUIRES YOUTH",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "RICHWOODS SQUIRES YOUTH"
-      }
-    ]
-  },
-  {
     "name_normalized": "ROCK ISLAND WC-WASHINGTON",
     "url_path_slug": null,
     "duplicates": [
@@ -64641,6 +64597,32 @@
         "tournament_id": 52,
         "division": "senior_girls",
         "name": "Richmond WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Richwoods Squires Youth",
+    "url_path_slug": "richwoods",
+    "duplicates": [
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "RICHWOODS SQUIRES"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "RICHWOODS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "RICHWOODS SQUIRES YOUTH"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "RICHWOODS SQUIRE YOUTH"
       }
     ]
   },
