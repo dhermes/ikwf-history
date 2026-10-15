@@ -45791,22 +45791,6 @@
     ]
   },
   {
-    "name_normalized": "MASON SCHOOL PLAYGROUND",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "MASON SCHOOL PLAYGROUND"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "MASON SCHOOL PLAYGROUND"
-      }
-    ]
-  },
-  {
     "name_normalized": "MC Bulldog WC",
     "url_path_slug": "mc-bulldog",
     "duplicates": [
@@ -47999,13 +47983,23 @@
     ]
   },
   {
-    "name_normalized": "Mason",
-    "url_path_slug": null,
+    "name_normalized": "Mason School Playground",
+    "url_path_slug": "mason-school",
     "duplicates": [
       {
         "tournament_id": 13,
         "division": "senior",
         "name": "Mason"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "MASON SCHOOL PLAYGROUND"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "MASON SCHOOL PLAYGROUND"
       }
     ]
   },
