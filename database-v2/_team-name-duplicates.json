@@ -38200,22 +38200,6 @@
     ]
   },
   {
-    "name_normalized": "JR. MUSTANG",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "JR. MUSTANG"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "JR. MUSTANG"
-      }
-    ]
-  },
-  {
     "name_normalized": "JRW Wrestling",
     "url_path_slug": "jrw",
     "duplicates": [
@@ -40077,6 +40061,16 @@
         "tournament_id": 24,
         "division": "senior",
         "name": "JR. MUSTANGS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "JR. MUSTANG"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "JR. MUSTANG"
       },
       {
         "tournament_id": 29,
