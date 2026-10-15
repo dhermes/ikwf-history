@@ -11147,17 +11147,6 @@
     ]
   },
   {
-    "name_normalized": "Chicago Bulldog WC",
-    "url_path_slug": "chicago-bulldog",
-    "duplicates": [
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "CHICAGO BULLDOG WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "CICC",
     "url_path_slug": "cicc",
     "duplicates": [
@@ -15404,6 +15393,17 @@
         "tournament_id": 34,
         "division": "senior",
         "name": "CHENOA MAT CATS"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Chicago Bulldog WC",
+    "url_path_slug": "chicago-bulldog",
+    "duplicates": [
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "CHICAGO BULLDOG WC"
       }
     ]
   },
@@ -29231,9 +29231,14 @@
     ]
   },
   {
-    "name_normalized": "Generals",
+    "name_normalized": "Generals WC",
     "url_path_slug": "generals",
     "duplicates": [
+      {
+        "tournament_id": 15,
+        "division": "senior",
+        "name": "Generals WC"
+      },
       {
         "tournament_id": 30,
         "division": "novice",
@@ -29253,17 +29258,6 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "GENERALS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Generals WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 15,
-        "division": "senior",
-        "name": "Generals WC"
       }
     ]
   },
