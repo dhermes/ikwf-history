@@ -176,7 +176,7 @@ UPDATE
   team
 SET
   name_normalized = 'Academy Grapplers',
-  url_path_slug = NULL
+  url_path_slug = 'academy-grapplers'
 WHERE
   id = 6205;
 
@@ -383,44 +383,21 @@ UPDATE
   team
 SET
   name_normalized = 'Animal WC',
-  url_path_slug = NULL
+  url_path_slug = 'animal-wc'
 WHERE
-  id = 5848;
+  id = 3836;
 
 UPDATE
   tournament_team
 SET
-  team_id = 5848
+  team_id = 3836
 WHERE
-  id IN (5848, 6027, 6209, 6393, 6576, 6758);
+  id IN (3836, 4918, 5091, 5268, 5411, 5702, 5848, 6027, 6209, 6393, 6576, 6758);
 
 DELETE FROM
   team
 WHERE
-  id IN (6027, 6209, 6393, 6576, 6758);
-
-----------------------------------------
--- Animals WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'Animals WC',
-  url_path_slug = NULL
-WHERE
-  id = 4918;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 4918
-WHERE
-  id IN (4918, 5091, 5268, 5411, 5702);
-
-DELETE FROM
-  team
-WHERE
-  id IN (5091, 5268, 5411, 5702);
+  id IN (4918, 5091, 5268, 5411, 5702, 5848, 6027, 6209, 6393, 6576, 6758);
 
 ----------------------------------------
 -- Ano Kato
@@ -694,29 +671,6 @@ WHERE
   id IN (912, 1128, 1234, 1349, 1417, 1535, 1663, 1793, 1937, 2073, 2200, 2350, 2496, 2635, 2783, 2929, 3080, 3241, 3494, 3534, 4461, 4629, 4757, 5069, 5243, 5393, 5832, 6003, 6182, 6362, 6546, 6732, 6914, 7100, 7288, 7478, 7666, 8232, 8419, 8608, 8799, 9706, 9873, 10046, 10223, 10397, 10568, 10748, 10931, 10958, 11120, 11279, 11441, 11608, 11821, 12034, 12247, 13371, 13641, 13911, 14181, 14451, 14721, 14991, 15261, 15803, 16201);
 
 ----------------------------------------
--- BEARS WRESTLING CLUB
-
-UPDATE
-  team
-SET
-  name_normalized = 'BEARS WRESTLING CLUB',
-  url_path_slug = NULL
-WHERE
-  id = 3257;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 3257
-WHERE
-  id IN (3257, 3363);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3363);
-
-----------------------------------------
 -- BETHALTO / JR. HIGH
 
 UPDATE
@@ -761,29 +715,6 @@ DELETE FROM
   team
 WHERE
   id IN (2224);
-
-----------------------------------------
--- BROWNSON WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'BROWNSON WC',
-  url_path_slug = NULL
-WHERE
-  id = 3264;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 3264
-WHERE
-  id IN (3264, 3706);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3706);
 
 ----------------------------------------
 -- Backyard Brawlers Midwest WC
@@ -1834,6 +1765,29 @@ WHERE
   id IN (924, 1037, 1694, 1820, 1964, 2230, 2663, 3263, 3369, 3590, 3705, 3821, 4065, 4327, 4495, 5863, 6042, 6221, 6405, 6589, 6771, 6952, 7140, 11020, 11182);
 
 ----------------------------------------
+-- Brownson WC
+
+UPDATE
+  team
+SET
+  name_normalized = 'Brownson WC',
+  url_path_slug = 'brownson-wc'
+WHERE
+  id = 3264;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 3264
+WHERE
+  id IN (3264, 3706);
+
+DELETE FROM
+  team
+WHERE
+  id IN (3706);
+
+----------------------------------------
 -- Built By Brunson Wrestling
 
 UPDATE
@@ -1995,29 +1949,6 @@ WHERE
   id IN (8649);
 
 ----------------------------------------
--- CHENOA WRESTLING CLUB
-
-UPDATE
-  team
-SET
-  name_normalized = 'CHENOA WRESTLING CLUB',
-  url_path_slug = NULL
-WHERE
-  id = 2671;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2671
-WHERE
-  id IN (2671, 2965, 3116, 3373, 3711);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2965, 3116, 3373, 3711);
-
-----------------------------------------
 -- CICC
 
 UPDATE
@@ -2116,7 +2047,7 @@ UPDATE
   team
 SET
   name_normalized = 'Cahokia WC',
-  url_path_slug = NULL
+  url_path_slug = 'cahokia'
 WHERE
   id = 1038;
 
@@ -2125,12 +2056,12 @@ UPDATE
 SET
   team_id = 1038
 WHERE
-  id IN (1038, 1149);
+  id IN (1038, 1149, 1257);
 
 DELETE FROM
   team
 WHERE
-  id IN (1149);
+  id IN (1149, 1257);
 
 ----------------------------------------
 -- Callan Wrestling Academy
@@ -2875,21 +2806,39 @@ UPDATE
   team
 SET
   name_normalized = 'Chenoa Mat Cats',
-  url_path_slug = NULL
+  url_path_slug = 'chenoa-mat-cats'
 WHERE
-  id = 3824;
+  id = 2671;
 
 UPDATE
   tournament_team
 SET
-  team_id = 3824
+  team_id = 2671
 WHERE
-  id IN (3824, 3951, 4071, 4194, 4335, 4503, 4662, 4794, 4941, 5114);
+  id IN (2671, 2965, 3116, 3373, 3711, 3824, 3951, 4071, 4194, 4335, 4503, 4662, 4794, 4941, 5114);
 
 DELETE FROM
   team
 WHERE
-  id IN (3951, 4071, 4194, 4335, 4503, 4662, 4794, 4941, 5114);
+  id IN (2965, 3116, 3373, 3711, 3824, 3951, 4071, 4194, 4335, 4503, 4662, 4794, 4941, 5114);
+
+----------------------------------------
+-- Chicago Bulldog WC
+
+UPDATE
+  team
+SET
+  name_normalized = 'Chicago Bulldog WC',
+  url_path_slug = 'chicago-bulldog'
+WHERE
+  id = 4795;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 4795
+WHERE
+  id IN (4795);
 
 ----------------------------------------
 -- Chicago Crusaders WC
@@ -3393,6 +3342,42 @@ WHERE
   id IN (1045, 1157, 1263, 1444, 1567, 1701, 1973, 2107, 2238, 2391, 2674, 2825);
 
 ----------------------------------------
+-- Crimson Heat WC
+
+UPDATE
+  team
+SET
+  name_normalized = 'Crimson Heat WC',
+  url_path_slug = 'crimson-heat'
+WHERE
+  id = 4664;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 4664
+WHERE
+  id IN (4664);
+
+----------------------------------------
+-- Crone Middle School (Fox Valley)
+
+UPDATE
+  team
+SET
+  name_normalized = 'Crone Middle School (Fox Valley)',
+  url_path_slug = 'crone-fox-valley'
+WHERE
+  id = 4211;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 4211
+WHERE
+  id IN (4211);
+
+----------------------------------------
 -- Crossface Wrestling Club
 
 UPDATE
@@ -3422,7 +3407,7 @@ UPDATE
   team
 SET
   name_normalized = 'Crosstown Crushers',
-  url_path_slug = NULL
+  url_path_slug = 'crosstown-crushers'
 WHERE
   id = 5292;
 
@@ -3493,19 +3478,19 @@ SET
   name_normalized = 'Crystal Lake Wizards WC',
   url_path_slug = 'wizards'
 WHERE
-  id = 1569;
+  id = 265;
 
 UPDATE
   tournament_team
 SET
-  team_id = 1569
+  team_id = 265
 WHERE
-  id IN (1569, 1703, 1831, 1975, 2109, 2240, 2393, 2533, 2675, 2827, 2970, 3121, 3271, 3376, 3595, 3714, 3826, 3954, 4074, 4196, 4338, 4506, 4665, 4797, 4943, 5116, 5293, 5434, 5582, 5719, 5878, 6057, 6236, 6420, 6604, 6786, 6968, 7156, 7346, 7534, 7717, 7907, 8102, 8289, 8474, 8665, 8857, 9048, 9236, 9411, 9584, 9751, 9917, 10094, 10276, 10447, 10618, 10801, 10978, 11140, 11309, 11471, 11646, 11859, 12072, 12285, 12496, 12723, 12950, 13178, 13417, 13687, 13957, 14227, 14497, 14767, 15037, 15307, 15544, 15685, 15827, 15979, 16509);
+  id IN (265, 1569, 1703, 1831, 1975, 2109, 2240, 2393, 2533, 2675, 2827, 2970, 3121, 3271, 3376, 3545, 3595, 3714, 3826, 3954, 4074, 4196, 4338, 4506, 4665, 4797, 4943, 5116, 5293, 5434, 5582, 5719, 5878, 6057, 6236, 6420, 6604, 6786, 6968, 7156, 7346, 7534, 7717, 7907, 8102, 8289, 8474, 8665, 8857, 9048, 9236, 9411, 9584, 9751, 9917, 10094, 10276, 10447, 10618, 10801, 10978, 11140, 11309, 11471, 11646, 11859, 12072, 12285, 12496, 12723, 12950, 13178, 13417, 13687, 13957, 14227, 14497, 14767, 15037, 15307, 15544, 15685, 15827, 15979, 16509);
 
 DELETE FROM
   team
 WHERE
-  id IN (1703, 1831, 1975, 2109, 2240, 2393, 2533, 2675, 2827, 2970, 3121, 3271, 3376, 3595, 3714, 3826, 3954, 4074, 4196, 4338, 4506, 4665, 4797, 4943, 5116, 5293, 5434, 5582, 5719, 5878, 6057, 6236, 6420, 6604, 6786, 6968, 7156, 7346, 7534, 7717, 7907, 8102, 8289, 8474, 8665, 8857, 9048, 9236, 9411, 9584, 9751, 9917, 10094, 10276, 10447, 10618, 10801, 10978, 11140, 11309, 11471, 11646, 11859, 12072, 12285, 12496, 12723, 12950, 13178, 13417, 13687, 13957, 14227, 14497, 14767, 15037, 15307, 15544, 15685, 15827, 15979, 16509);
+  id IN (1569, 1703, 1831, 1975, 2109, 2240, 2393, 2533, 2675, 2827, 2970, 3121, 3271, 3376, 3545, 3595, 3714, 3826, 3954, 4074, 4196, 4338, 4506, 4665, 4797, 4943, 5116, 5293, 5434, 5582, 5719, 5878, 6057, 6236, 6420, 6604, 6786, 6968, 7156, 7346, 7534, 7717, 7907, 8102, 8289, 8474, 8665, 8857, 9048, 9236, 9411, 9584, 9751, 9917, 10094, 10276, 10447, 10618, 10801, 10978, 11140, 11309, 11471, 11646, 11859, 12072, 12285, 12496, 12723, 12950, 13178, 13417, 13687, 13957, 14227, 14497, 14767, 15037, 15307, 15544, 15685, 15827, 15979, 16509);
 
 ----------------------------------------
 -- Cumberland Youth Wrestling Club
@@ -3598,52 +3583,6 @@ DELETE FROM
   team
 WHERE
   id IN (10804, 10980, 11142, 11311, 11473, 11648, 11861, 12074, 12287, 12498, 12725, 12952, 13180, 13419, 13689, 13959, 14229, 14499, 14769, 15039, 15309, 15546, 15686, 15828, 15980, 16106, 16511);
-
-----------------------------------------
--- DEWITT COUNTY
-
-UPDATE
-  team
-SET
-  name_normalized = 'DEWITT COUNTY',
-  url_path_slug = NULL
-WHERE
-  id = 1573;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1573
-WHERE
-  id IN (1573, 1835);
-
-DELETE FROM
-  team
-WHERE
-  id IN (1835);
-
-----------------------------------------
--- DEWITT COUNTY WRESTLING
-
-UPDATE
-  team
-SET
-  name_normalized = 'DEWITT COUNTY WRESTLING',
-  url_path_slug = NULL
-WHERE
-  id = 2829;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2829
-WHERE
-  id IN (2829, 2974, 3125, 3599);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2974, 3125, 3599);
 
 ----------------------------------------
 -- Dakota Wrestling Club
@@ -3792,19 +3731,19 @@ SET
   name_normalized = 'Decatur Lakers WC',
   url_path_slug = 'decatur-lakers'
 WHERE
-  id = 13424;
+  id = 3628;
 
 UPDATE
   tournament_team
 SET
-  team_id = 13424
+  team_id = 3628
 WHERE
-  id IN (13424, 13694, 13964, 14234, 14504, 14774, 15044, 15314, 15983, 16109, 16225);
+  id IN (3628, 13424, 13694, 13964, 14234, 14504, 14774, 15044, 15314, 15983, 16109, 16225);
 
 DELETE FROM
   team
 WHERE
-  id IN (13694, 13964, 14234, 14504, 14774, 15044, 15314, 15983, 16109, 16225);
+  id IN (13424, 13694, 13964, 14234, 14504, 14774, 15044, 15314, 15983, 16109, 16225);
 
 ----------------------------------------
 -- Decatur WC
@@ -3968,6 +3907,29 @@ WHERE
   id IN (108);
 
 ----------------------------------------
+-- Dewitt County WC
+
+UPDATE
+  team
+SET
+  name_normalized = 'Dewitt County WC',
+  url_path_slug = 'dewitt-county'
+WHERE
+  id = 1573;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 1573
+WHERE
+  id IN (1573, 1835, 2398, 2829, 2974, 3125, 3599);
+
+DELETE FROM
+  team
+WHERE
+  id IN (1835, 2398, 2829, 2974, 3125, 3599);
+
+----------------------------------------
 -- Dinamo Wrestling
 
 UPDATE
@@ -4112,7 +4074,7 @@ UPDATE
   team
 SET
   name_normalized = 'Driscoll Junior Highlanders',
-  url_path_slug = NULL
+  url_path_slug = 'driscoll'
 WHERE
   id = 5883;
 
@@ -4173,6 +4135,42 @@ DELETE FROM
   team
 WHERE
   id IN (12737, 12964, 13192, 13430, 13700, 13970, 14240, 14510, 14780, 15050, 15320);
+
+----------------------------------------
+-- Dundee Highlanders (Carpentersville)
+
+UPDATE
+  team
+SET
+  name_normalized = 'Dundee Highlanders (Carpentersville)',
+  url_path_slug = 'dundee-highlanders-carpentersville'
+WHERE
+  id = 4202;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 4202
+WHERE
+  id IN (4202);
+
+----------------------------------------
+-- Dundee Highlanders (Westfield)
+
+UPDATE
+  team
+SET
+  name_normalized = 'Dundee Highlanders (Westfield)',
+  url_path_slug = 'dundee-highlanders-westfield'
+WHERE
+  id = 4203;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 4203
+WHERE
+  id IN (4203);
 
 ----------------------------------------
 -- Dundee Highlanders WC
@@ -4296,7 +4294,7 @@ UPDATE
   team
 SET
   name_normalized = 'Eagle One',
-  url_path_slug = NULL
+  url_path_slug = 'eagle-one'
 WHERE
   id = 6612;
 
@@ -4374,12 +4372,12 @@ UPDATE
 SET
   team_id = 1242
 WHERE
-  id IN (1242, 1360, 7724, 7914, 8110, 8297, 8482, 8673);
+  id IN (1242, 1360, 6318, 6502, 6687, 6869, 7724, 7914, 8110, 8297, 8482, 8673);
 
 DELETE FROM
   team
 WHERE
-  id IN (1360, 7724, 7914, 8110, 8297, 8482, 8673);
+  id IN (1360, 6318, 6502, 6687, 6869, 7724, 7914, 8110, 8297, 8482, 8673);
 
 ----------------------------------------
 -- East Moline WC
@@ -4449,6 +4447,24 @@ DELETE FROM
   team
 WHERE
   id IN (7353, 7541, 7725, 7915, 8111, 8298, 8483, 8674, 8867, 9058, 9243, 9418, 9592, 9759, 9928, 10105, 10284, 10455, 10629, 10812, 10988, 11150, 11319, 11481, 11660, 11873, 12086, 12299, 12514, 12741, 12968, 13196, 13435, 13705, 13975, 14245, 14515, 14785, 15055, 15325, 15553, 15835, 15989, 16371, 16517);
+
+----------------------------------------
+-- Edison (Rock Island WC)
+
+UPDATE
+  team
+SET
+  name_normalized = 'Edison (Rock Island WC)',
+  url_path_slug = 'rock-island-edison'
+WHERE
+  id = 3782;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 3782
+WHERE
+  id IN (3782);
 
 ----------------------------------------
 -- Edison Panthers WC
@@ -4620,19 +4636,19 @@ SET
   name_normalized = 'Elgin Larkin Royals',
   url_path_slug = 'elgin-larkin'
 WHERE
-  id = 3280;
+  id = 1871;
 
 UPDATE
   tournament_team
 SET
-  team_id = 3280
+  team_id = 1871
 WHERE
-  id IN (3280, 3384, 3607);
+  id IN (1871, 2011, 2716, 2872, 3173, 3280, 3384, 3607, 4391, 4559);
 
 DELETE FROM
   team
 WHERE
-  id IN (3384, 3607);
+  id IN (2011, 2716, 2872, 3173, 3280, 3384, 3607, 4391, 4559);
 
 ----------------------------------------
 -- Elgin Matt Rats WC
@@ -4802,7 +4818,7 @@ UPDATE
   team
 SET
   name_normalized = 'Ervin WC',
-  url_path_slug = NULL
+  url_path_slug = 'ervin-wc'
 WHERE
   id = 4956;
 
@@ -4911,29 +4927,6 @@ WHERE
   id IN (9765, 9933, 10110);
 
 ----------------------------------------
--- FARMINGTON WRESTLING CLUB
-
-UPDATE
-  team
-SET
-  name_normalized = 'FARMINGTON WRESTLING CLUB',
-  url_path_slug = NULL
-WHERE
-  id = 2839;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2839
-WHERE
-  id IN (2839, 3281, 3387, 3725);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3281, 3387, 3725);
-
-----------------------------------------
 -- FCA Force WC
 
 UPDATE
@@ -4980,50 +4973,22 @@ WHERE
   id IN (2841);
 
 ----------------------------------------
--- FREEPORT BOYS AND GIRLS
+-- Fairfield
 
 UPDATE
   team
 SET
-  name_normalized = 'FREEPORT BOYS AND GIRLS',
-  url_path_slug = NULL
+  name_normalized = 'Fairfield',
+  url_path_slug = 'fairfield'
 WHERE
-  id = 2843;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2843
-WHERE
-  id IN (2843, 3284, 3391, 3611);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3284, 3391, 3611);
-
-----------------------------------------
--- FREEPORT BOYS AND GIRLS CLUB
-
-UPDATE
-  team
-SET
-  name_normalized = 'FREEPORT BOYS AND GIRLS CLUB',
-  url_path_slug = NULL
-WHERE
-  id = 3841;
+  id = 1846;
 
 UPDATE
   tournament_team
 SET
-  team_id = 3841
+  team_id = 1846
 WHERE
-  id IN (3841, 3966);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3966);
+  id IN (1846);
 
 ----------------------------------------
 -- Fairmont Rough Riders
@@ -5032,7 +4997,7 @@ UPDATE
   team
 SET
   name_normalized = 'Fairmont Rough Riders',
-  url_path_slug = NULL
+  url_path_slug = 'fairmont'
 WHERE
   id = 4807;
 
@@ -5116,6 +5081,29 @@ DELETE FROM
   team
 WHERE
   id IN (3509, 3548, 7359, 7547, 7730, 7920, 8487, 8678, 8872, 9063, 9249, 9424);
+
+----------------------------------------
+-- Farmington WC
+
+UPDATE
+  team
+SET
+  name_normalized = 'Farmington WC',
+  url_path_slug = 'farmington'
+WHERE
+  id = 2414;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 2414
+WHERE
+  id IN (2414, 2839, 3281, 3387, 3725);
+
+DELETE FROM
+  team
+WHERE
+  id IN (2839, 3281, 3387, 3725);
 
 ----------------------------------------
 -- Fenton Bison WC
@@ -5509,13 +5497,13 @@ WHERE
   id IN (164, 222, 373, 503, 608, 717, 835, 945, 1062, 1171, 1278, 1379, 1459, 1585, 1718, 1989, 2125, 2258, 2549, 2690, 3138, 3390, 3729, 3840, 3965, 4086, 4213);
 
 ----------------------------------------
--- Freeport
+-- Freeport Boys and Girls Club
 
 UPDATE
   team
 SET
-  name_normalized = 'Freeport',
-  url_path_slug = NULL
+  name_normalized = 'Freeport Boys and Girls Club',
+  url_path_slug = 'freeport'
 WHERE
   id = 504;
 
@@ -5524,12 +5512,12 @@ UPDATE
 SET
   team_id = 504
 WHERE
-  id IN (504, 609);
+  id IN (504, 609, 2228, 2378, 2843, 3284, 3391, 3611, 3841, 3966);
 
 DELETE FROM
   team
 WHERE
-  id IN (609);
+  id IN (609, 2228, 2378, 2843, 3284, 3391, 3611, 3841, 3966);
 
 ----------------------------------------
 -- Friar Wrestling Club
@@ -5647,6 +5635,29 @@ WHERE
   id IN (613, 720, 837, 950, 1065, 1175, 1282, 1463, 1590, 1720, 1851, 1994, 2128, 2262, 2415, 2552, 2691, 2845, 5310, 5450, 5734, 5896, 6075, 6257, 6441);
 
 ----------------------------------------
+-- GMO Eagles Kids Wrestling
+
+UPDATE
+  team
+SET
+  name_normalized = 'GMO Eagles Kids Wrestling',
+  url_path_slug = 'gmo-eagles'
+WHERE
+  id = 6625;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 6625
+WHERE
+  id IN (6625, 6807);
+
+DELETE FROM
+  team
+WHERE
+  id IN (6807);
+
+----------------------------------------
 -- Galesburg Junior Streaks
 
 UPDATE
@@ -5699,7 +5710,7 @@ UPDATE
   team
 SET
   name_normalized = 'Gators WC',
-  url_path_slug = NULL
+  url_path_slug = 'gators-wc'
 WHERE
   id = 6256;
 
@@ -5716,27 +5727,27 @@ WHERE
   id IN (6440);
 
 ----------------------------------------
--- Generals
+-- Generals WC
 
 UPDATE
   team
 SET
-  name_normalized = 'Generals',
-  url_path_slug = NULL
+  name_normalized = 'Generals WC',
+  url_path_slug = 'generals'
 WHERE
-  id = 3843;
+  id = 947;
 
 UPDATE
   tournament_team
 SET
-  team_id = 3843
+  team_id = 947
 WHERE
-  id IN (3843, 4087, 4357, 4525);
+  id IN (947, 3843, 4087, 4357, 4525);
 
 DELETE FROM
   team
 WHERE
-  id IN (4087, 4357, 4525);
+  id IN (3843, 4087, 4357, 4525);
 
 ----------------------------------------
 -- Geneseo Spider Wrestling Club
@@ -5831,6 +5842,24 @@ WHERE
   id IN (505, 612, 719, 949, 1064, 1174, 1281, 1462, 1589, 4682, 5452);
 
 ----------------------------------------
+-- Germantown WC
+
+UPDATE
+  team
+SET
+  name_normalized = 'Germantown WC',
+  url_path_slug = 'germantown'
+WHERE
+  id = 5453;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 5453
+WHERE
+  id IN (5453);
+
+----------------------------------------
 -- Gilbert Grappling
 
 UPDATE
@@ -5860,7 +5889,7 @@ UPDATE
   team
 SET
   name_normalized = 'Gillespie Eagles',
-  url_path_slug = NULL
+  url_path_slug = 'gillespie'
 WHERE
   id = 6260;
 
@@ -6038,29 +6067,6 @@ WHERE
   id IN (69, 375, 460, 507, 616, 722);
 
 ----------------------------------------
--- Gmo Eagles Kids Wrestling
-
-UPDATE
-  team
-SET
-  name_normalized = 'Gmo Eagles Kids Wrestling',
-  url_path_slug = NULL
-WHERE
-  id = 6625;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 6625
-WHERE
-  id IN (6625, 6807);
-
-DELETE FROM
-  team
-WHERE
-  id IN (6807);
-
-----------------------------------------
 -- Golden Eagles Wrestling Club
 
 UPDATE
@@ -6151,6 +6157,29 @@ DELETE FROM
   team
 WHERE
   id IN (377, 508, 617, 723, 839, 951);
+
+----------------------------------------
+-- Granger Middle School (Fox Valley)
+
+UPDATE
+  team
+SET
+  name_normalized = 'Granger Middle School (Fox Valley)',
+  url_path_slug = 'granger-fox-valley'
+WHERE
+  id = 3283;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 3283
+WHERE
+  id IN (3283, 3728);
+
+DELETE FROM
+  team
+WHERE
+  id IN (3728);
 
 ----------------------------------------
 -- Granite City Coolidge
@@ -6383,6 +6412,29 @@ WHERE
   id IN (11172);
 
 ----------------------------------------
+-- Haines (St. Charles)
+
+UPDATE
+  team
+SET
+  name_normalized = 'Haines (St. Charles)',
+  url_path_slug = 'st-charles-haines'
+WHERE
+  id = 783;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 783
+WHERE
+  id IN (783, 2920, 3233);
+
+DELETE FROM
+  team
+WHERE
+  id IN (2920, 3233);
+
+----------------------------------------
 -- Hamilton
 
 UPDATE
@@ -6504,7 +6556,7 @@ UPDATE
   team
 SET
   name_normalized = 'Harlem Renegades',
-  url_path_slug = NULL
+  url_path_slug = 'harlem-renegades'
 WHERE
   id = 5904;
 
@@ -6820,6 +6872,24 @@ WHERE
   id IN (731);
 
 ----------------------------------------
+-- Hill Middle School (Fox Valley)
+
+UPDATE
+  team
+SET
+  name_normalized = 'Hill Middle School (Fox Valley)',
+  url_path_slug = 'hill-fox-valley'
+WHERE
+  id = 3389;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 3389
+WHERE
+  id IN (3389);
+
+----------------------------------------
 -- Hillsboro Jr Toppers WC
 
 UPDATE
@@ -6849,7 +6919,7 @@ UPDATE
   team
 SET
   name_normalized = 'Hilltoppers WC',
-  url_path_slug = NULL
+  url_path_slug = 'hilltoppers'
 WHERE
   id = 4368;
 
@@ -6964,7 +7034,7 @@ UPDATE
   team
 SET
   name_normalized = 'Holy Family School',
-  url_path_slug = NULL
+  url_path_slug = 'holy-family'
 WHERE
   id = 5912;
 
@@ -7125,7 +7195,7 @@ UPDATE
   team
 SET
   name_normalized = 'Hurricanes',
-  url_path_slug = NULL
+  url_path_slug = 'hurricanes'
 WHERE
   id = 5324;
 
@@ -7165,13 +7235,13 @@ WHERE
   id IN (2565, 2703, 2860, 3001, 3156, 3296, 3403, 3622, 3741, 3855, 3976, 4099, 4226, 4373, 4541);
 
 ----------------------------------------
--- Huth
+-- Huth Jr. High
 
 UPDATE
   team
 SET
-  name_normalized = 'Huth',
-  url_path_slug = NULL
+  name_normalized = 'Huth Jr. High',
+  url_path_slug = 'huth'
 WHERE
   id = 36;
 
@@ -7180,12 +7250,12 @@ UPDATE
 SET
   team_id = 36
 WHERE
-  id IN (36, 516, 627, 733);
+  id IN (36, 386, 516, 627, 733);
 
 DELETE FROM
   team
 WHERE
-  id IN (516, 627, 733);
+  id IN (386, 516, 627, 733);
 
 ----------------------------------------
 -- ISI WC
@@ -7378,7 +7448,7 @@ UPDATE
   team
 SET
   name_normalized = 'Iron Man',
-  url_path_slug = NULL
+  url_path_slug = 'iron-man'
 WHERE
   id = 5614;
 
@@ -7439,75 +7509,6 @@ DELETE FROM
   team
 WHERE
   id IN (6826, 7004, 7192);
-
-----------------------------------------
--- JR. BEARS WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'JR. BEARS WC',
-  url_path_slug = NULL
-WHERE
-  id = 2435;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2435
-WHERE
-  id IN (2435, 2569, 2708, 2864, 3005, 3162);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2569, 2708, 2864, 3005, 3162);
-
-----------------------------------------
--- JR. MUSTANG
-
-UPDATE
-  team
-SET
-  name_normalized = 'JR. MUSTANG',
-  url_path_slug = NULL
-WHERE
-  id = 2436;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2436
-WHERE
-  id IN (2436, 2571);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2571);
-
-----------------------------------------
--- JR. MUSTANGS
-
-UPDATE
-  team
-SET
-  name_normalized = 'JR. MUSTANGS',
-  url_path_slug = NULL
-WHERE
-  id = 2145;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2145
-WHERE
-  id IN (2145, 2282);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2282);
 
 ----------------------------------------
 -- JRW Wrestling
@@ -7700,7 +7701,7 @@ UPDATE
   team
 SET
   name_normalized = 'Joliet Junior Steelmen',
-  url_path_slug = NULL
+  url_path_slug = 'joliet-steelmen'
 WHERE
   id = 5615;
 
@@ -7740,27 +7741,27 @@ WHERE
   id IN (391, 519, 631, 739, 850, 966);
 
 ----------------------------------------
--- Jr. Bears
+-- Jr. Bears Wrestling Club
 
 UPDATE
   team
 SET
-  name_normalized = 'Jr. Bears',
-  url_path_slug = NULL
+  name_normalized = 'Jr. Bears Wrestling Club',
+  url_path_slug = 'jr-bears'
 WHERE
-  id = 3515;
+  id = 2435;
 
 UPDATE
   tournament_team
 SET
-  team_id = 3515
+  team_id = 2435
 WHERE
-  id IN (3515, 3555);
+  id IN (2435, 2569, 2708, 2864, 3005, 3162, 3257, 3363, 3515, 3555, 3858);
 
 DELETE FROM
   team
 WHERE
-  id IN (3555);
+  id IN (2569, 2708, 2864, 3005, 3162, 3257, 3363, 3515, 3555, 3858);
 
 ----------------------------------------
 -- Jr. Blazer WC
@@ -7807,29 +7808,6 @@ DELETE FROM
   team
 WHERE
   id IN (2005, 2146, 2437, 2572, 2866, 3009, 3165, 3301, 3407, 3625, 3746, 3861, 3979, 4105, 4230, 4381, 4549, 4833);
-
-----------------------------------------
--- Jr. Saxons WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'Jr. Saxons WC',
-  url_path_slug = NULL
-WHERE
-  id = 4698;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 4698
-WHERE
-  id IN (4698, 4834, 4982, 5156);
-
-DELETE FROM
-  team
-WHERE
-  id IN (4834, 4982, 5156);
 
 ----------------------------------------
 -- Jr. Sentinels
@@ -7994,7 +7972,7 @@ UPDATE
   team
 SET
   name_normalized = 'Junior Gators WC',
-  url_path_slug = NULL
+  url_path_slug = 'junior-gators'
 WHERE
   id = 5616;
 
@@ -8055,6 +8033,29 @@ DELETE FROM
   team
 WHERE
   id IN (3008, 3299, 3406, 3624, 3744, 3860, 4104, 4379, 4547, 4981, 5155, 6281, 6465, 6647, 6829, 7389, 7577, 12549, 12776, 13003, 13231, 16016);
+
+----------------------------------------
+-- Junior Mustangs
+
+UPDATE
+  team
+SET
+  name_normalized = 'Junior Mustangs',
+  url_path_slug = 'junior-mustangs'
+WHERE
+  id = 2145;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 2145
+WHERE
+  id IN (2145, 2282, 2436, 2571, 3692, 5471);
+
+DELETE FROM
+  team
+WHERE
+  id IN (2282, 2436, 2571, 3692, 5471);
 
 ----------------------------------------
 -- Junior Patriots WC
@@ -8293,7 +8294,7 @@ UPDATE
   team
 SET
   name_normalized = 'Kishwaukee WC',
-  url_path_slug = NULL
+  url_path_slug = 'kishwaukee'
 WHERE
   id = 4384;
 
@@ -8356,98 +8357,6 @@ WHERE
   id IN (6834, 7010, 7198, 7397, 7585, 7769, 7959, 8906, 9097);
 
 ----------------------------------------
--- LAKE FOREST
-
-UPDATE
-  team
-SET
-  name_normalized = 'LAKE FOREST',
-  url_path_slug = NULL
-WHERE
-  id = 1868;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1868
-WHERE
-  id IN (1868, 2007, 2284);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2007, 2284);
-
-----------------------------------------
--- LARKIN
-
-UPDATE
-  team
-SET
-  name_normalized = 'LARKIN',
-  url_path_slug = NULL
-WHERE
-  id = 1871;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1871
-WHERE
-  id IN (1871, 2011);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2011);
-
-----------------------------------------
--- LARKIN ROYAL WRESTLING
-
-UPDATE
-  team
-SET
-  name_normalized = 'LARKIN ROYAL WRESTLING',
-  url_path_slug = NULL
-WHERE
-  id = 2716;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2716
-WHERE
-  id IN (2716, 2872, 3173);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2872, 3173);
-
-----------------------------------------
--- LEMONT WILDCAT WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'LEMONT WILDCAT WC',
-  url_path_slug = NULL
-WHERE
-  id = 2150;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2150
-WHERE
-  id IN (2150, 2581);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2581);
-
-----------------------------------------
 -- LITTLE KNIGHTS
 
 UPDATE
@@ -8492,29 +8401,6 @@ DELETE FROM
   team
 WHERE
   id IN (3307);
-
-----------------------------------------
--- LL BEARS WRESTLING CLUB
-
-UPDATE
-  team
-SET
-  name_normalized = 'LL BEARS WRESTLING CLUB',
-  url_path_slug = NULL
-WHERE
-  id = 3022;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 3022
-WHERE
-  id IN (3022, 3178);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3178);
 
 ----------------------------------------
 -- LaGrange Lions
@@ -8586,12 +8472,35 @@ WHERE
   id IN (12867, 13095, 13323, 13487, 13757, 14027, 14297, 14567, 14837, 15107, 15377);
 
 ----------------------------------------
--- Lake View Jr Wildcats
+-- Lake Forest WC
 
 UPDATE
   team
 SET
-  name_normalized = 'Lake View Jr Wildcats',
+  name_normalized = 'Lake Forest WC',
+  url_path_slug = 'lake-forest'
+WHERE
+  id = 1868;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 1868
+WHERE
+  id IN (1868, 2007, 2284, 2576, 3170);
+
+DELETE FROM
+  team
+WHERE
+  id IN (2007, 2284, 2576, 3170);
+
+----------------------------------------
+-- Lake View Jr. Wildcats
+
+UPDATE
+  team
+SET
+  name_normalized = 'Lake View Jr. Wildcats',
   url_path_slug = 'lake-view'
 WHERE
   id = 3302;
@@ -8793,29 +8702,6 @@ WHERE
   id IN (635, 742);
 
 ----------------------------------------
--- Larkin Jr. Royals WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'Larkin Jr. Royals WC',
-  url_path_slug = NULL
-WHERE
-  id = 4391;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 4391
-WHERE
-  id IN (4391, 4559);
-
-DELETE FROM
-  team
-WHERE
-  id IN (4559);
-
-----------------------------------------
 -- Lawrence County Knights WC
 
 UPDATE
@@ -8877,12 +8763,35 @@ UPDATE
 SET
   team_id = 856
 WHERE
-  id IN (856, 972, 1082, 1196, 1305, 1484, 1608, 1740, 1873, 2012, 2149, 2287, 2443, 2580, 2717, 2873, 3631, 3751, 3866, 3984, 4111, 4239, 4393, 4561, 4704, 4840, 4988, 5162, 5328, 5476, 5620, 5761, 5923, 6102, 6287, 6471, 6657, 6839, 7015, 7203, 7401, 7589, 7773, 7963, 8150, 8337, 8526, 8717, 8911, 9102, 9280, 9455, 9629, 9796, 9968, 10145, 10326, 10497, 10666, 10849, 11028, 11190, 11358, 11520, 11700, 11913, 12126, 12339, 12555, 12782, 13009, 13237, 13490, 13760, 14030, 14300, 14570, 14840, 15110, 15380, 15583, 15725, 15866, 16020, 16257);
+  id IN (856, 972, 1082, 1196, 1305, 1484, 1608, 1740, 1873, 2012, 2149, 2287, 2443, 2580, 2717, 2873, 3022, 3178, 3631, 3751, 3866, 3984, 4111, 4239, 4393, 4561, 4704, 4840, 4988, 5162, 5328, 5476, 5620, 5761, 5923, 6102, 6287, 6471, 6657, 6839, 7015, 7203, 7401, 7589, 7773, 7963, 8150, 8337, 8526, 8717, 8911, 9102, 9280, 9455, 9629, 9796, 9968, 10145, 10326, 10497, 10666, 10849, 11028, 11190, 11358, 11520, 11700, 11913, 12126, 12339, 12555, 12782, 13009, 13237, 13490, 13760, 14030, 14300, 14570, 14840, 15110, 15380, 15583, 15725, 15866, 16020, 16257);
 
 DELETE FROM
   team
 WHERE
-  id IN (972, 1082, 1196, 1305, 1484, 1608, 1740, 1873, 2012, 2149, 2287, 2443, 2580, 2717, 2873, 3631, 3751, 3866, 3984, 4111, 4239, 4393, 4561, 4704, 4840, 4988, 5162, 5328, 5476, 5620, 5761, 5923, 6102, 6287, 6471, 6657, 6839, 7015, 7203, 7401, 7589, 7773, 7963, 8150, 8337, 8526, 8717, 8911, 9102, 9280, 9455, 9629, 9796, 9968, 10145, 10326, 10497, 10666, 10849, 11028, 11190, 11358, 11520, 11700, 11913, 12126, 12339, 12555, 12782, 13009, 13237, 13490, 13760, 14030, 14300, 14570, 14840, 15110, 15380, 15583, 15725, 15866, 16020, 16257);
+  id IN (972, 1082, 1196, 1305, 1484, 1608, 1740, 1873, 2012, 2149, 2287, 2443, 2580, 2717, 2873, 3022, 3178, 3631, 3751, 3866, 3984, 4111, 4239, 4393, 4561, 4704, 4840, 4988, 5162, 5328, 5476, 5620, 5761, 5923, 6102, 6287, 6471, 6657, 6839, 7015, 7203, 7401, 7589, 7773, 7963, 8150, 8337, 8526, 8717, 8911, 9102, 9280, 9455, 9629, 9796, 9968, 10145, 10326, 10497, 10666, 10849, 11028, 11190, 11358, 11520, 11700, 11913, 12126, 12339, 12555, 12782, 13009, 13237, 13490, 13760, 14030, 14300, 14570, 14840, 15110, 15380, 15583, 15725, 15866, 16020, 16257);
+
+----------------------------------------
+-- Lemont Wildcat WC
+
+UPDATE
+  team
+SET
+  name_normalized = 'Lemont Wildcat WC',
+  url_path_slug = 'lemont-wildcat'
+WHERE
+  id = 2150;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 2150
+WHERE
+  id IN (2150, 2581);
+
+DELETE FROM
+  team
+WHERE
+  id IN (2581);
 
 ----------------------------------------
 -- Li'L Trojan WC
@@ -9478,29 +9387,6 @@ WHERE
   id IN (746);
 
 ----------------------------------------
--- MASON SCHOOL PLAYGROUND
-
-UPDATE
-  team
-SET
-  name_normalized = 'MASON SCHOOL PLAYGROUND',
-  url_path_slug = NULL
-WHERE
-  id = 1618;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 1618
-WHERE
-  id IN (1618, 1748);
-
-DELETE FROM
-  team
-WHERE
-  id IN (1748);
-
-----------------------------------------
 -- MC Bulldog WC
 
 UPDATE
@@ -9545,52 +9431,6 @@ DELETE FROM
   team
 WHERE
   id IN (2163, 2301, 2591);
-
-----------------------------------------
--- MONROE EAGLES
-
-UPDATE
-  team
-SET
-  name_normalized = 'MONROE EAGLES',
-  url_path_slug = NULL
-WHERE
-  id = 2733;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2733
-WHERE
-  id IN (2733, 2885, 3033, 3190);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2885, 3033, 3190);
-
-----------------------------------------
--- MT. PULASKI WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'MT. PULASKI WC',
-  url_path_slug = NULL
-WHERE
-  id = 5348;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 5348
-WHERE
-  id IN (5348, 5782);
-
-DELETE FROM
-  team
-WHERE
-  id IN (5782);
 
 ----------------------------------------
 -- Macomb Little Bombers Wrestling
@@ -9823,6 +9663,29 @@ WHERE
   id IN (3991, 4119, 4248, 4406, 4574, 4716, 4853, 5005, 5179, 5340, 5490, 5635, 5773, 5938, 6117, 6300, 6484, 6671, 6853, 7030, 7218, 7417, 7605, 7790, 7980, 8163, 8350, 8540, 8731, 8927, 9118, 9293, 9468, 9640, 9807, 9979, 10156, 10337, 10508, 11369, 11531, 11716, 11929, 12142, 12355, 12573, 12800, 13027, 13255, 13507, 13777, 14047, 14317, 14587, 14857, 15127, 15397, 15592, 15732, 15877, 16024, 16267, 16554);
 
 ----------------------------------------
+-- Mason School Playground
+
+UPDATE
+  team
+SET
+  name_normalized = 'Mason School Playground',
+  url_path_slug = 'mason-school'
+WHERE
+  id = 748;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 748
+WHERE
+  id IN (748, 1618, 1748);
+
+DELETE FROM
+  team
+WHERE
+  id IN (1618, 1748);
+
+----------------------------------------
 -- Mat Burns
 
 UPDATE
@@ -9961,13 +9824,13 @@ WHERE
   id IN (11719, 11932, 12145, 12358, 12576, 12803, 13030, 13258, 13510, 13780, 14050, 14320, 14590, 14860, 15130, 15400, 15735, 15880, 16407, 16557);
 
 ----------------------------------------
--- Mclean County WC
+-- McLean County WC
 
 UPDATE
   team
 SET
-  name_normalized = 'Mclean County WC',
-  url_path_slug = NULL
+  name_normalized = 'McLean County WC',
+  url_path_slug = 'mclean-county-wc'
 WHERE
   id = 5637;
 
@@ -10036,7 +9899,7 @@ UPDATE
   team
 SET
   name_normalized = 'Medalist WC',
-  url_path_slug = NULL
+  url_path_slug = 'medalist'
 WHERE
   id = 5341;
 
@@ -10628,6 +10491,29 @@ WHERE
   id IN (7987, 8171, 8358, 8548, 8739, 9303, 9478);
 
 ----------------------------------------
+-- Mt. Pulaski WC
+
+UPDATE
+  team
+SET
+  name_normalized = 'Mt. Pulaski WC',
+  url_path_slug = 'mt-pulaski'
+WHERE
+  id = 5348;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 5348
+WHERE
+  id IN (5348, 5782);
+
+DELETE FROM
+  team
+WHERE
+  id IN (5782);
+
+----------------------------------------
 -- Mt. Vernon Lions Wrestling Club
 
 UPDATE
@@ -10956,7 +10842,7 @@ UPDATE
   team
 SET
   name_normalized = 'New Berlin WC',
-  url_path_slug = NULL
+  url_path_slug = 'new-berlin'
 WHERE
   id = 6314;
 
@@ -11234,19 +11120,19 @@ SET
   name_normalized = 'O''Fallon Little Panthers WC',
   url_path_slug = 'ofallon'
 WHERE
-  id = 5020;
+  id = 4710;
 
 UPDATE
   tournament_team
 SET
-  team_id = 5020
+  team_id = 4710
 WHERE
-  id IN (5020, 5194, 5355, 5502, 5789, 5954, 6133, 6321, 6505, 6690, 6872, 7050, 7238, 7428, 7616, 7804, 7994, 8179, 8366, 8554, 8745, 8941, 9132, 9309, 9484, 9659, 9826, 9995, 10172, 10352, 10523, 10694, 10877, 11052, 11214, 11379, 11541, 11732, 11945, 12158, 12371, 12592, 12819, 13046, 13274, 13525, 13795, 14065, 14335, 14605, 14875, 15145, 15415, 15600, 15889, 16157, 16277, 16415, 16562);
+  id IN (4710, 5020, 5194, 5355, 5502, 5789, 5954, 6133, 6321, 6505, 6690, 6872, 7050, 7238, 7428, 7616, 7804, 7994, 8179, 8366, 8554, 8745, 8941, 9132, 9309, 9484, 9659, 9826, 9995, 10172, 10352, 10523, 10694, 10877, 11052, 11214, 11379, 11541, 11732, 11945, 12158, 12371, 12592, 12819, 13046, 13274, 13525, 13795, 14065, 14335, 14605, 14875, 15145, 15415, 15600, 15889, 16157, 16277, 16415, 16562);
 
 DELETE FROM
   team
 WHERE
-  id IN (5194, 5355, 5502, 5789, 5954, 6133, 6321, 6505, 6690, 6872, 7050, 7238, 7428, 7616, 7804, 7994, 8179, 8366, 8554, 8745, 8941, 9132, 9309, 9484, 9659, 9826, 9995, 10172, 10352, 10523, 10694, 10877, 11052, 11214, 11379, 11541, 11732, 11945, 12158, 12371, 12592, 12819, 13046, 13274, 13525, 13795, 14065, 14335, 14605, 14875, 15145, 15415, 15600, 15889, 16157, 16277, 16415, 16562);
+  id IN (5020, 5194, 5355, 5502, 5789, 5954, 6133, 6321, 6505, 6690, 6872, 7050, 7238, 7428, 7616, 7804, 7994, 8179, 8366, 8554, 8745, 8941, 9132, 9309, 9484, 9659, 9826, 9995, 10172, 10352, 10523, 10694, 10877, 11052, 11214, 11379, 11541, 11732, 11945, 12158, 12371, 12592, 12819, 13046, 13274, 13525, 13795, 14065, 14335, 14605, 14875, 15145, 15415, 15600, 15889, 16157, 16277, 16415, 16562);
 
 ----------------------------------------
 -- OPRF Little Huskies Wrestling Club
@@ -11362,29 +11248,6 @@ DELETE FROM
   team
 WHERE
   id IN (1635, 1766, 1900, 2040, 2314, 2469, 2605, 2748, 2895, 3045, 3203, 3428, 3651, 3769, 3888, 4004, 4131, 4259, 4421, 4589, 4729, 4866, 5023, 5197, 5358, 5505, 5651, 5792, 5956, 6135, 6317, 6501, 6686, 6868, 7047, 7235, 7430, 7618, 7806, 7996, 8181, 8368, 8556, 8747, 8943, 9134, 9661, 9828, 9997, 10174, 10696, 10879, 11734, 11947, 12160, 12373, 12594, 12821, 13048, 13276, 13527, 13797, 14067, 14337, 14607, 14877, 15147, 15417, 15891, 16159, 16279, 16417, 16564);
-
-----------------------------------------
--- Oilers Wrestling
-
-UPDATE
-  team
-SET
-  name_normalized = 'Oilers Wrestling',
-  url_path_slug = NULL
-WHERE
-  id = 6318;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 6318
-WHERE
-  id IN (6318, 6502, 6687, 6869);
-
-DELETE FROM
-  team
-WHERE
-  id IN (6502, 6687, 6869);
 
 ----------------------------------------
 -- Olney Cubs WC
@@ -11531,7 +11394,7 @@ UPDATE
   team
 SET
   name_normalized = 'Oswego East Junior Wolves',
-  url_path_slug = NULL
+  url_path_slug = 'oswego-east-junior-wolves'
 WHERE
   id = 5958;
 
@@ -12349,7 +12212,7 @@ UPDATE
   team
 SET
   name_normalized = 'Plainfield Tornadoes WC',
-  url_path_slug = NULL
+  url_path_slug = 'plainfield-tornadoes'
 WHERE
   id = 5031;
 
@@ -12464,7 +12327,7 @@ UPDATE
   team
 SET
   name_normalized = 'Pony Express WC',
-  url_path_slug = NULL
+  url_path_slug = 'pony-express'
 WHERE
   id = 4141;
 
@@ -13010,6 +12873,29 @@ WHERE
   id IN (2057, 2183, 2330, 2479, 2617, 2763, 2908, 3063, 3438, 4270, 5039, 5213, 5370, 5518, 5662, 5807, 5973, 6152, 6333, 6517, 6706, 6888, 7069, 7257, 7449, 7637, 7826, 8016, 8201, 8388, 9325, 9500, 9676, 9843, 10014, 10191, 10715, 10898, 11068, 11230, 11393, 11555, 11754, 11967, 12180, 12393);
 
 ----------------------------------------
+-- Richwoods Squires Youth
+
+UPDATE
+  team
+SET
+  name_normalized = 'Richwoods Squires Youth',
+  url_path_slug = 'richwoods'
+WHERE
+  id = 1780;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 1780
+WHERE
+  id IN (1780, 1920, 2331, 2764);
+
+DELETE FROM
+  team
+WHERE
+  id IN (1920, 2331, 2764);
+
+----------------------------------------
 -- Riot Room Wrestling
 
 UPDATE
@@ -13407,7 +13293,7 @@ UPDATE
   team
 SET
   name_normalized = 'Romeoville WC',
-  url_path_slug = NULL
+  url_path_slug = 'romeoville'
 WHERE
   id = 5668;
 
@@ -13416,58 +13302,12 @@ UPDATE
 SET
   team_id = 5668
 WHERE
-  id IN (5668, 5813, 5980, 6159);
+  id IN (5668, 5813, 5980, 6159, 6340, 6524, 6711, 6893);
 
 DELETE FROM
   team
 WHERE
-  id IN (5813, 5980, 6159);
-
-----------------------------------------
--- Romeoville Westview
-
-UPDATE
-  team
-SET
-  name_normalized = 'Romeoville Westview',
-  url_path_slug = NULL
-WHERE
-  id = 67;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 67
-WHERE
-  id IN (67, 76);
-
-DELETE FROM
-  team
-WHERE
-  id IN (76);
-
-----------------------------------------
--- Romeoville Youth WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'Romeoville Youth WC',
-  url_path_slug = NULL
-WHERE
-  id = 6340;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 6340
-WHERE
-  id IN (6340, 6524, 6711, 6893);
-
-DELETE FROM
-  team
-WHERE
-  id IN (6524, 6711, 6893);
+  id IN (5813, 5980, 6159, 6340, 6524, 6711, 6893);
 
 ----------------------------------------
 -- Roselle
@@ -13540,7 +13380,7 @@ UPDATE
   team
 SET
   name_normalized = 'Round Lake Bad Boyz',
-  url_path_slug = NULL
+  url_path_slug = 'round-lake-bad-boyz'
 WHERE
   id = 4439;
 
@@ -13856,75 +13696,6 @@ WHERE
   id IN (3447);
 
 ----------------------------------------
--- ST. BEDE'S
-
-UPDATE
-  team
-SET
-  name_normalized = 'ST. BEDE''S',
-  url_path_slug = NULL
-WHERE
-  id = 2626;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2626
-WHERE
-  id IN (2626, 3673);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3673);
-
-----------------------------------------
--- ST. CHARLES HAINES WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'ST. CHARLES HAINES WC',
-  url_path_slug = NULL
-WHERE
-  id = 2920;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2920
-WHERE
-  id IN (2920, 3233);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3233);
-
-----------------------------------------
--- ST. CHARLES THOMPSON WC
-
-UPDATE
-  team
-SET
-  name_normalized = 'ST. CHARLES THOMPSON WC',
-  url_path_slug = NULL
-WHERE
-  id = 2775;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 2775
-WHERE
-  id IN (2775, 2921, 3073, 3234);
-
-DELETE FROM
-  team
-WHERE
-  id IN (2921, 3073, 3234);
-
-----------------------------------------
 -- STREAMWOOD WC
 
 UPDATE
@@ -14132,50 +13903,27 @@ WHERE
   id IN (144);
 
 ----------------------------------------
--- Schaumburg
-
-UPDATE
-  team
-SET
-  name_normalized = 'Schaumburg',
-  url_path_slug = NULL
-WHERE
-  id = 3530;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 3530
-WHERE
-  id IN (3530, 3574);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3574);
-
-----------------------------------------
 -- Schaumburg Jr. Saxons
 
 UPDATE
   team
 SET
   name_normalized = 'Schaumburg Jr. Saxons',
-  url_path_slug = NULL
+  url_path_slug = 'schaumburg'
 WHERE
-  id = 4443;
+  id = 58;
 
 UPDATE
   tournament_team
 SET
-  team_id = 4443
+  team_id = 58
 WHERE
-  id IN (4443, 4611);
+  id IN (58, 3530, 3574, 4443, 4611, 4698, 4834, 4982, 5156);
 
 DELETE FROM
   team
 WHERE
-  id IN (4611);
+  id IN (3530, 3574, 4443, 4611, 4698, 4834, 4982, 5156);
 
 ----------------------------------------
 -- Scorpion Wrestling Club
@@ -14322,7 +14070,7 @@ UPDATE
   team
 SET
   name_normalized = 'Shepard Wrestling',
-  url_path_slug = NULL
+  url_path_slug = 'shepard'
 WHERE
   id = 4445;
 
@@ -14759,7 +14507,7 @@ UPDATE
   team
 SET
   name_normalized = 'Spider WC',
-  url_path_slug = NULL
+  url_path_slug = 'spider-wc'
 WHERE
   id = 5384;
 
@@ -14897,7 +14645,7 @@ UPDATE
   team
 SET
   name_normalized = 'St. Bede Wrestling Club',
-  url_path_slug = NULL
+  url_path_slug = 'st-bede'
 WHERE
   id = 1119;
 
@@ -14906,12 +14654,12 @@ UPDATE
 SET
   team_id = 1119
 WHERE
-  id IN (1119, 3914, 4027, 4285);
+  id IN (1119, 1229, 2626, 3673, 3914, 4027, 4285);
 
 DELETE FROM
   team
 WHERE
-  id IN (3914, 4027, 4285);
+  id IN (1229, 2626, 3673, 3914, 4027, 4285);
 
 ----------------------------------------
 -- St. Charles WC
@@ -14929,12 +14677,12 @@ UPDATE
 SET
   team_id = 895
 WHERE
-  id IN (895, 1120, 1230, 1343, 1413, 1527, 1657, 1789, 1930, 2067, 2193, 2342, 2489, 2627, 2776, 2922, 3074, 3235, 3532, 3575, 3916, 4029, 4449, 4617, 4749, 4891, 5058, 5232, 5536, 5824, 5993, 6172, 6722, 6904, 7090, 7278, 7468, 7656, 7848, 8038, 8220, 8407, 8594, 8785, 8977, 9168, 9341, 9516, 9688, 9855, 10380, 10551, 10733, 10916, 11081, 11243, 11409, 11571, 11776, 11989, 12202, 12415, 12639, 12866, 13094, 13322, 13581, 13851, 14121, 14391, 14661, 14931, 15201, 15471, 15629, 15773, 15915, 16055, 16176, 16307, 16445, 16588);
+  id IN (895, 1120, 1230, 1343, 1413, 1527, 1657, 1789, 1930, 2067, 2193, 2342, 2489, 2627, 2776, 2922, 3074, 3235, 3532, 3575, 3916, 4029, 4030, 4449, 4617, 4749, 4891, 5058, 5232, 5536, 5824, 5993, 6172, 6722, 6904, 7090, 7278, 7468, 7656, 7848, 8038, 8220, 8407, 8594, 8785, 8977, 9168, 9341, 9516, 9688, 9855, 10380, 10551, 10733, 10916, 11081, 11243, 11409, 11571, 11776, 11989, 12202, 12415, 12639, 12866, 13094, 13322, 13581, 13851, 14121, 14391, 14661, 14931, 15201, 15471, 15629, 15773, 15915, 16055, 16176, 16307, 16445, 16588);
 
 DELETE FROM
   team
 WHERE
-  id IN (1120, 1230, 1343, 1413, 1527, 1657, 1789, 1930, 2067, 2193, 2342, 2489, 2627, 2776, 2922, 3074, 3235, 3532, 3575, 3916, 4029, 4449, 4617, 4749, 4891, 5058, 5232, 5536, 5824, 5993, 6172, 6722, 6904, 7090, 7278, 7468, 7656, 7848, 8038, 8220, 8407, 8594, 8785, 8977, 9168, 9341, 9516, 9688, 9855, 10380, 10551, 10733, 10916, 11081, 11243, 11409, 11571, 11776, 11989, 12202, 12415, 12639, 12866, 13094, 13322, 13581, 13851, 14121, 14391, 14661, 14931, 15201, 15471, 15629, 15773, 15915, 16055, 16176, 16307, 16445, 16588);
+  id IN (1120, 1230, 1343, 1413, 1527, 1657, 1789, 1930, 2067, 2193, 2342, 2489, 2627, 2776, 2922, 3074, 3235, 3532, 3575, 3916, 4029, 4030, 4449, 4617, 4749, 4891, 5058, 5232, 5536, 5824, 5993, 6172, 6722, 6904, 7090, 7278, 7468, 7656, 7848, 8038, 8220, 8407, 8594, 8785, 8977, 9168, 9341, 9516, 9688, 9855, 10380, 10551, 10733, 10916, 11081, 11243, 11409, 11571, 11776, 11989, 12202, 12415, 12639, 12866, 13094, 13322, 13581, 13851, 14121, 14391, 14661, 14931, 15201, 15471, 15629, 15773, 15915, 16055, 16176, 16307, 16445, 16588);
 
 ----------------------------------------
 -- St. Tarcissus Raiders WC
@@ -15053,7 +14801,7 @@ UPDATE
   team
 SET
   name_normalized = 'Stateline Wildcats',
-  url_path_slug = NULL
+  url_path_slug = 'stateline-wildcats'
 WHERE
   id = 3915;
 
@@ -15323,24 +15071,6 @@ WHERE
   id IN (333, 441, 560, 676, 788, 900, 1008, 1123, 1232, 1345, 1530, 1660, 1933, 2070, 2196, 2346, 2491, 2630, 2778, 2924, 3076, 3236, 3576, 4452, 4620, 4752, 4893, 5062, 5236, 5539, 5678, 5826, 5996, 6175, 6354, 6538, 6725, 6907, 7093, 7281, 7471, 7659, 7851, 8041, 8224, 8411, 8599, 8790, 8983, 9174, 9348, 9523, 9694, 9861, 10034, 10211, 10386, 10557, 10738, 10921, 11087, 11249, 11413, 11575, 11781, 11994, 12207, 12420, 12647, 12874, 13102, 13330, 13587, 13857, 14127, 14397, 14667, 14937, 15207, 15477, 15919, 16060, 16312);
 
 ----------------------------------------
--- TEAM 1
-
-UPDATE
-  team
-SET
-  name_normalized = 'TEAM 1',
-  url_path_slug = 'team-1'
-WHERE
-  id = 4034;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 4034
-WHERE
-  id IN (4034);
-
-----------------------------------------
 -- TJ Trained Wrestling (HQ)
 
 UPDATE
@@ -15462,7 +15192,7 @@ UPDATE
   team
 SET
   name_normalized = 'Takedown WC',
-  url_path_slug = NULL
+  url_path_slug = 'takedown-wc'
 WHERE
   id = 4895;
 
@@ -15508,21 +15238,44 @@ UPDATE
   team
 SET
   name_normalized = 'Tazewell County Kidz WC',
-  url_path_slug = NULL
+  url_path_slug = 'tazewell'
 WHERE
-  id = 3920;
+  id = 3453;
 
 UPDATE
   tournament_team
 SET
-  team_id = 3920
+  team_id = 3453
 WHERE
-  id IN (3920, 4033, 4455, 4623);
+  id IN (3453, 3920, 4033, 4455, 4623);
 
 DELETE FROM
   team
 WHERE
-  id IN (4033, 4455, 4623);
+  id IN (3920, 4033, 4455, 4623);
+
+----------------------------------------
+-- Team 1
+
+UPDATE
+  team
+SET
+  name_normalized = 'Team 1',
+  url_path_slug = 'team1'
+WHERE
+  id = 4034;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 4034
+WHERE
+  id IN (4034, 6356, 6540);
+
+DELETE FROM
+  team
+WHERE
+  id IN (6356, 6540);
 
 ----------------------------------------
 -- Team 312 WC
@@ -15709,29 +15462,6 @@ WHERE
   id IN (6504, 6689, 6871, 7049, 7237, 7433, 7621, 7853, 8043, 8227, 8414, 8602, 8793, 9354, 9529, 9700, 9867, 10040, 10217);
 
 ----------------------------------------
--- Team One
-
-UPDATE
-  team
-SET
-  name_normalized = 'Team One',
-  url_path_slug = NULL
-WHERE
-  id = 6356;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 6356
-WHERE
-  id IN (6356, 6540);
-
-DELETE FROM
-  team
-WHERE
-  id IN (6540);
-
-----------------------------------------
 -- Team Piasa WC
 
 UPDATE
@@ -15830,7 +15560,7 @@ UPDATE
   team
 SET
   name_normalized = 'Team Xpress',
-  url_path_slug = NULL
+  url_path_slug = 'team-xpress'
 WHERE
   id = 4457;
 
@@ -15914,6 +15644,29 @@ DELETE FROM
   team
 WHERE
   id IN (2632, 2780, 2926, 3077, 3238, 3496, 3536, 3578, 3936, 4051, 4174, 4308, 4476, 4644, 4772, 4914, 5086, 5260, 5406, 5557, 5697, 5844, 6021, 6200, 6383, 6567, 6749, 6931, 7119, 7307, 7495, 7683, 7872, 8062, 8250, 8437, 8604, 8795, 8991, 9182, 9357, 9532, 9702, 9869, 10042, 10219, 10393, 10564);
+
+----------------------------------------
+-- Thompson (St. Charles)
+
+UPDATE
+  team
+SET
+  name_normalized = 'Thompson (St. Charles)',
+  url_path_slug = 'st-charles-thompson'
+WHERE
+  id = 784;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 784
+WHERE
+  id IN (784, 2775, 2921, 3073, 3234);
+
+DELETE FROM
+  team
+WHERE
+  id IN (2775, 2921, 3073, 3234);
 
 ----------------------------------------
 -- Thornwood Kids WC
@@ -16244,7 +15997,7 @@ UPDATE
   team
 SET
   name_normalized = 'Tri-Valley WC',
-  url_path_slug = NULL
+  url_path_slug = 'tri-valley'
 WHERE
   id = 5394;
 
@@ -16382,7 +16135,7 @@ UPDATE
   team
 SET
   name_normalized = 'Triple D WC',
-  url_path_slug = NULL
+  url_path_slug = 'triple-d-wc'
 WHERE
   id = 6365;
 
@@ -16497,7 +16250,7 @@ UPDATE
   team
 SET
   name_normalized = 'Twin City WC',
-  url_path_slug = NULL
+  url_path_slug = 'twin-city-wc'
 WHERE
   id = 5073;
 
@@ -16566,7 +16319,7 @@ UPDATE
   team
 SET
   name_normalized = 'United Township WC',
-  url_path_slug = NULL
+  url_path_slug = 'united-township'
 WHERE
   id = 4759;
 
@@ -16652,6 +16405,24 @@ WHERE
   id IN (337, 445, 563, 679, 791, 903, 1012, 1131, 1237, 1352, 1540, 1667, 1797, 1943, 2203, 2638, 3083, 3347, 3458, 3679, 3799, 9363, 9538, 9710, 9877, 10052, 10229, 10403, 10574, 10753, 10936, 11102, 11264, 11426, 11588, 11798, 12011, 12224, 12437, 12661, 12888, 13116, 13344, 13607, 13877, 14147, 14417, 14687, 14957, 15227, 15497);
 
 ----------------------------------------
+-- Van Vlissingen WC
+
+UPDATE
+  team
+SET
+  name_normalized = 'Van Vlissingen WC',
+  url_path_slug = 'van-vlissingen-wc'
+WHERE
+  id = 3800;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 3800
+WHERE
+  id IN (3800);
+
+----------------------------------------
 -- Vandalia Junior Wrestling Club
 
 UPDATE
@@ -16704,7 +16475,7 @@ UPDATE
   team
 SET
   name_normalized = 'Vermilion Valley Elite',
-  url_path_slug = NULL
+  url_path_slug = 'vermilion-valley'
 WHERE
   id = 5687;
 
@@ -16750,7 +16521,7 @@ UPDATE
   team
 SET
   name_normalized = 'Viking Gold WC',
-  url_path_slug = NULL
+  url_path_slug = 'viking-gold'
 WHERE
   id = 6367;
 
@@ -16928,29 +16699,6 @@ WHERE
   id IN (13882, 14152, 14422, 14692, 14962, 15232, 15502, 15645);
 
 ----------------------------------------
--- WOLFPACK WRESTLING CLUB
-
-UPDATE
-  team
-SET
-  name_normalized = 'WOLFPACK WRESTLING CLUB',
-  url_path_slug = NULL
-WHERE
-  id = 3356;
-
-UPDATE
-  tournament_team
-SET
-  team_id = 3356
-WHERE
-  id IN (3356, 3468);
-
-DELETE FROM
-  team
-WHERE
-  id IN (3468);
-
-----------------------------------------
 -- Waldo
 
 UPDATE
@@ -17107,6 +16855,24 @@ WHERE
   id IN (9194, 9367, 9542, 11429, 11591, 12666, 12893, 13121, 13349, 13614, 13884, 14154, 14424, 14694, 14964, 15234, 15504);
 
 ----------------------------------------
+-- Washington (Rock Island WC)
+
+UPDATE
+  team
+SET
+  name_normalized = 'Washington (Rock Island WC)',
+  url_path_slug = 'rock-island-washington'
+WHERE
+  id = 3781;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 3781
+WHERE
+  id IN (3781);
+
+----------------------------------------
 -- Washington Jr. Panthers
 
 UPDATE
@@ -17192,6 +16958,24 @@ SET
   team_id = 4300
 WHERE
   id IN (4300);
+
+----------------------------------------
+-- Waubonsie Grizzlies
+
+UPDATE
+  team
+SET
+  name_normalized = 'Waubonsie Grizzlies',
+  url_path_slug = 'waubonsie-grizzlies'
+WHERE
+  id = 4301;
+
+UPDATE
+  tournament_team
+SET
+  team_id = 4301
+WHERE
+  id IN (4301);
 
 ----------------------------------------
 -- Waubonsie Pioneers
@@ -17470,27 +17254,27 @@ WHERE
   id IN (8432, 8622, 8813);
 
 ----------------------------------------
--- Westview Hills
+-- Westview (Romeoville)
 
 UPDATE
   team
 SET
-  name_normalized = 'Westview Hills',
-  url_path_slug = NULL
+  name_normalized = 'Westview (Romeoville)',
+  url_path_slug = 'westview-romeoville'
 WHERE
-  id = 451;
+  id = 67;
 
 UPDATE
   tournament_team
 SET
-  team_id = 451
+  team_id = 67
 WHERE
-  id IN (451, 685);
+  id IN (67, 76, 451, 570, 685);
 
 DELETE FROM
   team
 WHERE
-  id IN (685);
+  id IN (76, 451, 570, 685);
 
 ----------------------------------------
 -- Westville Youth Wrestling
@@ -17593,19 +17377,19 @@ SET
   name_normalized = 'Wheaton Monroe Eagles',
   url_path_slug = 'wheaton-monroe'
 WHERE
-  id = 3355;
+  id = 643;
 
 UPDATE
   tournament_team
 SET
-  team_id = 3355
+  team_id = 643
 WHERE
-  id IN (3355, 3467, 3689, 3809, 3934, 4049, 4172, 4305, 4474, 4642, 4768, 4911, 5083, 5257);
+  id IN (643, 751, 2733, 2885, 3033, 3190, 3355, 3467, 3689, 3809, 3934, 4049, 4172, 4305, 4474, 4642, 4768, 4911, 5083, 5257);
 
 DELETE FROM
   team
 WHERE
-  id IN (3467, 3689, 3809, 3934, 4049, 4172, 4305, 4474, 4642, 4768, 4911, 5083, 5257);
+  id IN (751, 2733, 2885, 3033, 3190, 3355, 3467, 3689, 3809, 3934, 4049, 4172, 4305, 4474, 4642, 4768, 4911, 5083, 5257);
 
 ----------------------------------------
 -- Wheaton Park District Falcons
@@ -17892,19 +17676,19 @@ SET
   name_normalized = 'Wolfpak WC (Franklin Park)',
   url_path_slug = 'wolfpak'
 WHERE
-  id = 3691;
+  id = 3356;
 
 UPDATE
   tournament_team
 SET
-  team_id = 3691
+  team_id = 3356
 WHERE
-  id IN (3691, 3810, 3935, 4050, 4173, 4307, 4475, 4643, 4771, 4913, 5085, 5259, 5405, 5556, 5696, 5843, 6019, 6198, 6381, 6565, 7117, 7305, 8248, 8435, 8626, 8817, 9373, 9548, 10057, 10234, 10409, 10580, 11110, 11272, 11434, 11596, 11808, 12021, 12234, 12447, 12674, 12901, 13129, 13357, 13624, 13894, 14164, 14434, 14704, 14974, 15244, 15514, 15935, 16077, 16332, 16472, 16609);
+  id IN (3356, 3468, 3691, 3810, 3935, 4050, 4173, 4307, 4475, 4643, 4771, 4913, 5085, 5259, 5405, 5556, 5696, 5843, 6019, 6198, 6381, 6565, 7117, 7305, 8248, 8435, 8626, 8817, 9373, 9548, 10057, 10234, 10409, 10580, 11110, 11272, 11434, 11596, 11808, 12021, 12234, 12447, 12674, 12901, 13129, 13357, 13624, 13894, 14164, 14434, 14704, 14974, 15244, 15514, 15935, 16077, 16332, 16472, 16609);
 
 DELETE FROM
   team
 WHERE
-  id IN (3810, 3935, 4050, 4173, 4307, 4475, 4643, 4771, 4913, 5085, 5259, 5405, 5556, 5696, 5843, 6019, 6198, 6381, 6565, 7117, 7305, 8248, 8435, 8626, 8817, 9373, 9548, 10057, 10234, 10409, 10580, 11110, 11272, 11434, 11596, 11808, 12021, 12234, 12447, 12674, 12901, 13129, 13357, 13624, 13894, 14164, 14434, 14704, 14974, 15244, 15514, 15935, 16077, 16332, 16472, 16609);
+  id IN (3468, 3691, 3810, 3935, 4050, 4173, 4307, 4475, 4643, 4771, 4913, 5085, 5259, 5405, 5556, 5696, 5843, 6019, 6198, 6381, 6565, 7117, 7305, 8248, 8435, 8626, 8817, 9373, 9548, 10057, 10234, 10409, 10580, 11110, 11272, 11434, 11596, 11808, 12021, 12234, 12447, 12674, 12901, 13129, 13357, 13624, 13894, 14164, 14434, 14704, 14974, 15244, 15514, 15935, 16077, 16332, 16472, 16609);
 
 ----------------------------------------
 -- Wolverine WC
