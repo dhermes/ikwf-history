@@ -29068,17 +29068,6 @@
     ]
   },
   {
-    "name_normalized": "Germantown WC",
-    "url_path_slug": "germantown",
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "GERMANTOWN WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "GMO Eagles Kids Wrestling",
     "url_path_slug": "gmo-eagles",
     "duplicates": [
@@ -29851,6 +29840,17 @@
         "tournament_id": 35,
         "division": "senior",
         "name": "GEORGETOWN RUDEDOGS YOUTH WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Germantown WC",
+    "url_path_slug": "germantown",
+    "duplicates": [
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "GERMANTOWN WC"
       }
     ]
   },
@@ -38296,22 +38296,6 @@
     ]
   },
   {
-    "name_normalized": "JR. MUSTANGS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "JR. MUSTANGS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "JR. MUSTANGS"
-      }
-    ]
-  },
-  {
     "name_normalized": "JRW Wrestling",
     "url_path_slug": "jrw",
     "duplicates": [
@@ -38361,6 +38345,16 @@
     "name_normalized": "JUNIOR MUSTANGS",
     "url_path_slug": "junior-mustangs",
     "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "JR. MUSTANGS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "JR. MUSTANGS"
+      },
       {
         "tournament_id": 35,
         "division": "senior",
