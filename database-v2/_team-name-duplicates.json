@@ -11300,19 +11300,8 @@
     ]
   },
   {
-    "name_normalized": "Crimson Heat WC",
-    "url_path_slug": "crimson-heat",
-    "duplicates": [
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "CRIMSON HEAT WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Cahokia WC",
-    "url_path_slug": null,
+    "url_path_slug": "cahokia",
     "duplicates": [
       {
         "tournament_id": 16,
@@ -11323,13 +11312,7 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Cahokia WC South"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Cahokia WC South",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 18,
         "division": "senior",
@@ -17337,6 +17320,17 @@
         "tournament_id": 16,
         "division": "senior",
         "name": "Crestwood Wrestling"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Crimson Heat WC",
+    "url_path_slug": "crimson-heat",
+    "duplicates": [
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "CRIMSON HEAT WC"
       }
     ]
   },
