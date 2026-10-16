@@ -230,22 +230,6 @@
     ]
   },
   {
-    "name_normalized": "Adams Jr. Cougars",
-    "url_path_slug": "adams-jr-cougars",
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "ADAMS JR. COUGARS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "ADAMS JR. COUGARS"
-      }
-    ]
-  },
-  {
     "name_normalized": "AJ Junior Wildcats WC",
     "url_path_slug": "aj-jr-wildcats",
     "duplicates": [
@@ -851,6 +835,22 @@
         "tournament_id": 54,
         "division": "senior",
         "name": "Aces WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Adams Jr. Cougars",
+    "url_path_slug": "adams-jr-cougars",
+    "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "ADAMS JR. COUGARS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "ADAMS JR. COUGARS"
       }
     ]
   },
@@ -40354,28 +40354,6 @@
     ]
   },
   {
-    "name_normalized": "KNIGHT",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "KNIGHT"
-      }
-    ]
-  },
-  {
-    "name_normalized": "KNIGHT WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "KNIGHT WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Kane County Grapplers",
     "url_path_slug": "kane-county-grapplers",
     "duplicates": [
@@ -40913,6 +40891,16 @@
     "name_normalized": "LINCOLN-WAY KNIGHTS",
     "url_path_slug": "lincoln-way-knights",
     "duplicates": [
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "KNIGHT"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "KNIGHT WC"
+      },
       {
         "tournament_id": 25,
         "division": "novice",
@@ -45723,32 +45711,6 @@
     ]
   },
   {
-    "name_normalized": "Moline Lions",
-    "url_path_slug": "moline-lions",
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "MOLINE LIONS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "MOLINE LIONS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "MOLINE LIONS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "MOLINE LIONS"
-      }
-    ]
-  },
-  {
     "name_normalized": "Machesney Park Independent",
     "url_path_slug": null,
     "duplicates": [
@@ -50389,6 +50351,32 @@
         "tournament_id": 11,
         "division": "senior",
         "name": "Moline Deere"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Moline Lions",
+    "url_path_slug": "moline-lions",
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "MOLINE LIONS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "MOLINE LIONS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "MOLINE LIONS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "MOLINE LIONS"
       }
     ]
   },
