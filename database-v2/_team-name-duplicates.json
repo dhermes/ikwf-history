@@ -11123,32 +11123,6 @@
     ]
   },
   {
-    "name_normalized": "Colts and Braves Wrestling",
-    "url_path_slug": "colts-and-braves",
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "COLTS & BRAVES WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "COLTS & BRAVES WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "COLTS & BRAVES WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "COLTS & BRAVES WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "CORKERY",
     "url_path_slug": null,
     "duplicates": [
@@ -16604,6 +16578,32 @@
         "tournament_id": 17,
         "division": "senior",
         "name": "Colts WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Colts and Braves Wrestling",
+    "url_path_slug": "colts-and-braves",
+    "duplicates": [
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "COLTS & BRAVES WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "COLTS & BRAVES WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "COLTS & BRAVES WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "COLTS & BRAVES WRESTLING"
       }
     ]
   },
@@ -38134,17 +38134,6 @@
     ]
   },
   {
-    "name_normalized": "J-Stream",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "J-Stream"
-      }
-    ]
-  },
-  {
     "name_normalized": "J.A. Stickers",
     "url_path_slug": null,
     "duplicates": [
@@ -38524,7 +38513,7 @@
   },
   {
     "name_normalized": "Jay Stream",
-    "url_path_slug": null,
+    "url_path_slug": "jay-stream",
     "duplicates": [
       {
         "tournament_id": 11,
@@ -38540,6 +38529,11 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Jay Stream"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "J-Stream"
       }
     ]
   },
@@ -40979,22 +40973,6 @@
         "tournament_id": 24,
         "division": "senior",
         "name": "LITTLE KNIGHTS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Livingston Lightning",
-    "url_path_slug": "livingston-lightning",
-    "duplicates": [
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "LIVINGSTON LIGHTNING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "LIVINGSTON LIGHTNING"
       }
     ]
   },
@@ -45204,6 +45182,22 @@
         "tournament_id": 34,
         "division": "senior",
         "name": "LITTLE VIKING WC OF H-F"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Livingston Lightning",
+    "url_path_slug": "livingston-lightning",
+    "duplicates": [
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "LIVINGSTON LIGHTNING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "LIVINGSTON LIGHTNING"
       }
     ]
   },
@@ -68741,38 +68735,6 @@
     ]
   },
   {
-    "name_normalized": "Springfield Senators",
-    "url_path_slug": "springfield-senators",
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "SPRINGFIELD SENATORS"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "SPRINGFIELD SENATORS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Streamwood WC",
-    "url_path_slug": "streamwood",
-    "duplicates": [
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "STREAMWOOD WC"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "STREAMWOOD WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "SUNDLING JR. HIGH",
     "url_path_slug": null,
     "duplicates": [
@@ -72283,6 +72245,22 @@
     ]
   },
   {
+    "name_normalized": "Springfield Senators",
+    "url_path_slug": "springfield-senators",
+    "duplicates": [
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "SPRINGFIELD SENATORS"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "SPRINGFIELD SENATORS"
+      }
+    ]
+  },
+  {
     "name_normalized": "Springfield W.C.",
     "url_path_slug": null,
     "duplicates": [
@@ -74727,6 +74705,22 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Storm Youth WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Streamwood WC",
+    "url_path_slug": "streamwood",
+    "duplicates": [
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "STREAMWOOD WC"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "STREAMWOOD WC"
       }
     ]
   },
@@ -87814,32 +87808,6 @@
     ]
   },
   {
-    "name_normalized": "Young Zips",
-    "url_path_slug": "young-zips",
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "YOUNG ZIPS \"Y\" WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "YOUNG ZIPS \"Y\" WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "YOUNG ZIPS \"Y\" WRESTLING"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "YOUNG ZIPS \"Y\" WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "Yorkville Wrestling Club",
     "url_path_slug": "yorkville",
     "duplicates": [
@@ -88420,6 +88388,32 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Young Warrior Wrestling Academy"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Young Zips",
+    "url_path_slug": "young-zips",
+    "duplicates": [
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "YOUNG ZIPS \"Y\" WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "YOUNG ZIPS \"Y\" WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "YOUNG ZIPS \"Y\" WRESTLING"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "YOUNG ZIPS \"Y\" WRESTLING"
       }
     ]
   },
