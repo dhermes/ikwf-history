@@ -4689,22 +4689,6 @@
     ]
   },
   {
-    "name_normalized": "Barrington Colts",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Barrington Colts"
-      },
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Barrington Colts"
-      }
-    ]
-  },
-  {
     "name_normalized": "Bartlett Jr. Hawks",
     "url_path_slug": "bartlett",
     "duplicates": [
@@ -16465,6 +16449,16 @@
     "name_normalized": "Colts WC",
     "url_path_slug": "colts-wc",
     "duplicates": [
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Barrington Colts"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Barrington Colts"
+      },
       {
         "tournament_id": 17,
         "division": "senior",
