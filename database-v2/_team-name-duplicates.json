@@ -22410,17 +22410,6 @@
     ]
   },
   {
-    "name_normalized": "Eisenhower Jr. Hawk",
-    "url_path_slug": "eisenhower-hawk",
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "EISENHOWER JR HAWK"
-      }
-    ]
-  },
-  {
     "name_normalized": "Eagle One",
     "url_path_slug": "eagle-one",
     "duplicates": [
@@ -23955,6 +23944,17 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Effingham Youth WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Eisenhower Jr. Hawk",
+    "url_path_slug": "eisenhower-hawk",
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "EISENHOWER JR HAWK"
       }
     ]
   },
@@ -62549,20 +62549,29 @@
     ]
   },
   {
-    "name_normalized": "RED HILL JUNIOR PRO",
-    "url_path_slug": null,
+    "name_normalized": "RED HILL JUNIOR PRO WRESTLING",
+    "url_path_slug": "red-hill-junior-pro-wrestling",
     "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "RED HILLS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "RED HILLS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "RED HILL JUNIOR SALUKIS"
+      },
       {
         "tournament_id": 25,
         "division": "senior",
         "name": "RED HILL JUNIOR PRO"
-      }
-    ]
-  },
-  {
-    "name_normalized": "RED HILL JUNIOR PRO WRESTLING",
-    "url_path_slug": "red-hill-junior-pro-wrestling",
-    "duplicates": [
+      },
       {
         "tournament_id": 26,
         "division": "senior",
@@ -62572,33 +62581,6 @@
         "tournament_id": 27,
         "division": "novice",
         "name": "RED HILL JUNIOR PRO WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "RED HILL JUNIOR SALUKIS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "RED HILL JUNIOR SALUKIS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "RED HILLS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "RED HILLS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "RED HILLS"
       }
     ]
   },
