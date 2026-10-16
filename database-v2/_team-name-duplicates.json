@@ -30353,8 +30353,8 @@
     ]
   },
   {
-    "name_normalized": "Glenview",
-    "url_path_slug": null,
+    "name_normalized": "Glenview Northbrook",
+    "url_path_slug": "glenview-northbrook",
     "duplicates": [
       {
         "tournament_id": 2,
@@ -30365,13 +30365,7 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Glenview"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Glenview Northbrook",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 12,
         "division": "senior",
