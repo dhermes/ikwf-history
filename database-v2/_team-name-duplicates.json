@@ -7738,20 +7738,14 @@
     "url_path_slug": "big-hollow",
     "duplicates": [
       {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Big Hollow"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Big Hollow W.C.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 9,
         "division": "senior",
         "name": "Big Hollow W.C."
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Big Hollow"
       }
     ]
   },
