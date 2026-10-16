@@ -21570,6 +21570,16 @@
     "url_path_slug": "dundee-highlanders",
     "duplicates": [
       {
+        "tournament_id": 2,
+        "division": "senior",
+        "name": "Highlanders"
+      },
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Highlanders"
+      },
+      {
         "tournament_id": 5,
         "division": "senior",
         "name": "Dundee Highlanders"
@@ -34964,27 +34974,6 @@
         "tournament_id": 54,
         "division": "novice_girls",
         "name": "Little Giants WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Highlanders",
-    "url_path_slug": "highlanders",
-    "duplicates": [
-      {
-        "tournament_id": 2,
-        "division": "senior",
-        "name": "Highlanders"
-      },
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Highlanders"
-      },
-      {
-        "tournament_id": 6,
-        "division": "senior",
-        "name": "Highlanders"
       }
     ]
   },

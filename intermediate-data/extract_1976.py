@@ -141,11 +141,11 @@ _NAME_EXCEPTIONS: dict[tuple[str, str], bracket_utils.Competitor] = {
         last_name="McCarthy",
         team_full="Jefferson",
     ),
-    ("Callahan", "Highlanders"): bracket_utils.Competitor(
+    ("Callahan", "Dundee Highlanders"): bracket_utils.Competitor(
         full_name="Callahan",
         first_name="",
         last_name="Callahan",
-        team_full="Highlanders",
+        team_full="Dundee Highlanders",
     ),
 }
 
