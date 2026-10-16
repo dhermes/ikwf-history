@@ -37732,17 +37732,6 @@
     ]
   },
   {
-    "name_normalized": "Indian Trail Wildcats",
-    "url_path_slug": "indian-trail-wildcats",
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Indian Trail Wildcats"
-      }
-    ]
-  },
-  {
     "name_normalized": "Integrity Elite Wrestling",
     "url_path_slug": "integrity-elite",
     "duplicates": [
@@ -60683,6 +60672,11 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Indian Trail-Plainfield"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Indian Trail Wildcats"
       },
       {
         "tournament_id": 20,
