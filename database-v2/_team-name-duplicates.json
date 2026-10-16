@@ -3758,25 +3758,14 @@
     ]
   },
   {
-    "name_normalized": "Bridgeview PD",
-    "url_path_slug": "bridgeview",
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Bridgeview"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "BRIDGEVIEW PD"
-      }
-    ]
-  },
-  {
     "name_normalized": "BUFFALO GROVE WC",
     "url_path_slug": "buffalo-grove-wc",
     "duplicates": [
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Buffalo"
+      },
       {
         "tournament_id": 22,
         "division": "senior",
@@ -10431,6 +10420,22 @@
     ]
   },
   {
+    "name_normalized": "Bridgeview PD",
+    "url_path_slug": "bridgeview",
+    "duplicates": [
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Bridgeview"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "BRIDGEVIEW PD"
+      }
+    ]
+  },
+  {
     "name_normalized": "Broadview Park District",
     "url_path_slug": "broadview",
     "duplicates": [
@@ -10595,17 +10600,6 @@
         "tournament_id": 29,
         "division": "senior",
         "name": "BROWNSON WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Buffalo",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Buffalo"
       }
     ]
   },
