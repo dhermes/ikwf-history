@@ -940,6 +940,11 @@
     "url_path_slug": "addison-indian-trail",
     "duplicates": [
       {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Indian Trail"
+      },
+      {
         "tournament_id": 6,
         "division": "senior",
         "name": "Addison Indian Trail"
@@ -37696,17 +37701,6 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "INDIAN PRAIRIE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Indian Trail",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Indian Trail"
       }
     ]
   },
