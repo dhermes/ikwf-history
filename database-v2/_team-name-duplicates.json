@@ -30958,20 +30958,14 @@
     ]
   },
   {
-    "name_normalized": "Gompers",
-    "url_path_slug": null,
+    "name_normalized": "Gompers Jr. High",
+    "url_path_slug": "gompers-jr-high",
     "duplicates": [
       {
         "tournament_id": 8,
         "division": "senior",
         "name": "Gompers"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Gompers Jr. High",
-    "url_path_slug": "gompers-jr-high",
-    "duplicates": [
+      },
       {
         "tournament_id": 9,
         "division": "senior",
