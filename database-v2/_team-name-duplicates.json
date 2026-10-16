@@ -3769,17 +3769,6 @@
     ]
   },
   {
-    "name_normalized": "BLACKHAWK II",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "BLACKHAWK II"
-      }
-    ]
-  },
-  {
     "name_normalized": "BRIDGEVIEW PD",
     "url_path_slug": null,
     "duplicates": [
@@ -8468,6 +8457,11 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "BLACKHAWK"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "BLACKHAWK II"
       },
       {
         "tournament_id": 24,
@@ -53444,17 +53438,6 @@
     ]
   },
   {
-    "name_normalized": "North Chicago Midget Warhawks",
-    "url_path_slug": "north-chicago-warhawks",
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "NORTH CHICAGO MIDGET WARHAWKS"
-      }
-    ]
-  },
-  {
     "name_normalized": "Naperville",
     "url_path_slug": null,
     "duplicates": [
@@ -54501,6 +54484,17 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "North Boone WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "North Chicago Midget Warhawks",
+    "url_path_slug": "north-chicago-warhawks",
+    "duplicates": [
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "NORTH CHICAGO MIDGET WARHAWKS"
       }
     ]
   },
