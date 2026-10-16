@@ -84587,27 +84587,6 @@
     ]
   },
   {
-    "name_normalized": "Wheaton",
-    "url_path_slug": "wheaton",
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Wheaton"
-      },
-      {
-        "tournament_id": 5,
-        "division": "senior",
-        "name": "Wheaton"
-      },
-      {
-        "tournament_id": 6,
-        "division": "senior",
-        "name": "Wheaton"
-      }
-    ]
-  },
-  {
     "name_normalized": "Wheaton Bulldogs",
     "url_path_slug": "wheaton-bulldogs",
     "duplicates": [
@@ -84697,6 +84676,21 @@
     "name_normalized": "Wheaton Franklin WC",
     "url_path_slug": "wheaton-franklin",
     "duplicates": [
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Wheaton"
+      },
+      {
+        "tournament_id": 5,
+        "division": "senior",
+        "name": "Wheaton"
+      },
+      {
+        "tournament_id": 6,
+        "division": "senior",
+        "name": "Wheaton"
+      },
       {
         "tournament_id": 7,
         "division": "senior",
