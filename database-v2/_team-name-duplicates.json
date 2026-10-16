@@ -40902,17 +40902,6 @@
         "name": "KNIGHT WC"
       },
       {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "LINCOLN-WAY KNIGHTS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LITTLE KNIGHTS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 23,
         "division": "novice",
         "name": "LITTLE KNIGHTS"
@@ -40926,6 +40915,11 @@
         "tournament_id": 24,
         "division": "senior",
         "name": "LITTLE KNIGHTS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "LINCOLN-WAY KNIGHTS"
       }
     ]
   },
