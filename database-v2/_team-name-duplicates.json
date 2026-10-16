@@ -49730,20 +49730,14 @@
     ]
   },
   {
-    "name_normalized": "Minooka",
+    "name_normalized": "Minooka Little Indians",
     "url_path_slug": "minooka",
     "duplicates": [
       {
         "tournament_id": 8,
         "division": "senior",
         "name": "Minooka"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Minooka Little Indians",
-    "url_path_slug": "minooka-little-indians",
-    "duplicates": [
+      },
       {
         "tournament_id": 31,
         "division": "novice",
