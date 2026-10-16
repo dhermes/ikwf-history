@@ -32284,28 +32284,6 @@
     ]
   },
   {
-    "name_normalized": "HUBBLE",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "HUBBLE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HUBBLE WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "HUBBLE WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "Haines (St. Charles)",
     "url_path_slug": "st-charles-haines",
     "duplicates": [
@@ -37034,6 +37012,22 @@
         "tournament_id": 41,
         "division": "senior",
         "name": "Hoopeston Intermediate Wrestling"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Hubble Wrestling",
+    "url_path_slug": "hubble",
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "HUBBLE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "HUBBLE WRESTLING"
       }
     ]
   },
