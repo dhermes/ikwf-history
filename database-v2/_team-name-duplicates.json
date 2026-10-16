@@ -40754,6 +40754,32 @@
     ]
   },
   {
+    "name_normalized": "LaGrange Lions WC",
+    "url_path_slug": "lagrange",
+    "duplicates": [
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "LaGrange Lions"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "LaGrange Lions"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "LaGrange Lions WC"
+      },
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Lions WC (LaGrange)"
+      }
+    ]
+  },
+  {
     "name_normalized": "LaSalle Peru Crunching Cavs Youth WC",
     "url_path_slug": "lasalle-peru",
     "duplicates": [
@@ -44470,32 +44496,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Lions WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LaGrange Lions WC",
-    "url_path_slug": "lagrange",
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "LaGrange Lions"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "LaGrange Lions"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "LaGrange Lions WC"
-      },
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Lions WC (LaGrange)"
       }
     ]
   },
@@ -50134,8 +50134,8 @@
     ]
   },
   {
-    "name_normalized": "Mokena",
-    "url_path_slug": null,
+    "name_normalized": "Mokena WC",
+    "url_path_slug": "mokena-wc",
     "duplicates": [
       {
         "tournament_id": 2,
@@ -50156,13 +50156,7 @@
         "tournament_id": 11,
         "division": "senior",
         "name": "Mokena"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mokena WC",
-    "url_path_slug": "mokena-wc",
-    "duplicates": [
+      },
       {
         "tournament_id": 15,
         "division": "senior",
