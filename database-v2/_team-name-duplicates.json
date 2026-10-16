@@ -24220,6 +24220,11 @@
     "url_path_slug": "elgin-larkin",
     "duplicates": [
       {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Royal Wrestling Club"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "LARKIN"
@@ -67387,17 +67392,6 @@
     ]
   },
   {
-    "name_normalized": "Royal Wrestling Club",
-    "url_path_slug": "royal-wrestling-club",
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Royal Wrestling Club"
-      }
-    ]
-  },
-  {
     "name_normalized": "SCN Youth Wrestling Club",
     "url_path_slug": "scn",
     "duplicates": [
@@ -71594,37 +71588,6 @@
     ]
   },
   {
-    "name_normalized": "Springfield WC",
-    "url_path_slug": "springfield",
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Springfield"
-      },
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Springfield W.C."
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Springfield"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Springfield W.C."
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Springfield"
-      }
-    ]
-  },
-  {
     "name_normalized": "Springfield Capitals Kids WC",
     "url_path_slug": "springfield-capitals",
     "duplicates": [
@@ -71828,6 +71791,37 @@
         "tournament_id": 28,
         "division": "senior",
         "name": "SPRINGFIELD SENATORS"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Springfield WC",
+    "url_path_slug": "springfield",
+    "duplicates": [
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Springfield"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Springfield W.C."
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Springfield"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Springfield W.C."
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Springfield"
       }
     ]
   },
