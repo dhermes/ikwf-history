@@ -45141,20 +45141,14 @@
     ]
   },
   {
-    "name_normalized": "Lundahl",
-    "url_path_slug": null,
+    "name_normalized": "Lundahl Jr. High",
+    "url_path_slug": "lundahl-jr-high",
     "duplicates": [
       {
         "tournament_id": 8,
         "division": "senior",
         "name": "Lundahl"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lundahl Jr. High",
-    "url_path_slug": "lundahl-jr-high",
-    "duplicates": [
+      },
       {
         "tournament_id": 9,
         "division": "senior",
