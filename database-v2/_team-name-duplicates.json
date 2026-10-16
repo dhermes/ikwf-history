@@ -18553,20 +18553,14 @@
     ]
   },
   {
-    "name_normalized": "DC SPORTSTERS WC",
-    "url_path_slug": "dc-sportsters-wc",
+    "name_normalized": "DC WC",
+    "url_path_slug": "dc-wc",
     "duplicates": [
       {
         "tournament_id": 24,
         "division": "novice",
         "name": "DC SPORTSTERS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DC WC",
-    "url_path_slug": "dc-wc",
-    "duplicates": [
+      },
       {
         "tournament_id": 50,
         "division": "novice",
@@ -55274,22 +55268,6 @@
     ]
   },
   {
-    "name_normalized": "Olson Middle School",
-    "url_path_slug": "olson",
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "OLSON JR. HIGH"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "OLSON MS"
-      }
-    ]
-  },
-  {
     "name_normalized": "OPRF Little Huskies Wrestling Club",
     "url_path_slug": "oprf-huskies",
     "duplicates": [
@@ -56797,6 +56775,22 @@
         "tournament_id": 54,
         "division": "senior",
         "name": "Olney Cubs WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Olson Middle School",
+    "url_path_slug": "olson",
+    "duplicates": [
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "OLSON JR. HIGH"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "OLSON MS"
       }
     ]
   },
