@@ -23,6 +23,7 @@ _NAME_OVERLAPS: dict[int, dict[str, str]] = {
         # Multiple "teams" due to IWF
         "Crystal Lake": "CRYSTAL LAKE WIZARDS",
         "Jr. Bears": "BEARS WRESTLING CLUB",
+        "Richmond": "RICHMOND WRESTLING CLUB",
     },
     2000: {
         # Multiple "teams" due to cap on scoring
