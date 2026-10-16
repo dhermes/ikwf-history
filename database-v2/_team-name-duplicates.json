@@ -3762,6 +3762,11 @@
     "url_path_slug": "bridgeview-pd",
     "duplicates": [
       {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Bridgeview"
+      },
+      {
         "tournament_id": 22,
         "division": "senior",
         "name": "BRIDGEVIEW PD"
@@ -10426,17 +10431,6 @@
     ]
   },
   {
-    "name_normalized": "Bridgeview",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Bridgeview"
-      }
-    ]
-  },
-  {
     "name_normalized": "Broadview Park District",
     "url_path_slug": "broadview",
     "duplicates": [
@@ -11085,27 +11079,6 @@
         "tournament_id": 52,
         "division": "senior_girls",
         "name": "CICC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Corkery Cougars",
-    "url_path_slug": "corkery",
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "CORKERY COUGARS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "CORKERY"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "CORKERY"
       }
     ]
   },
@@ -16796,6 +16769,27 @@
         "tournament_id": 16,
         "division": "senior",
         "name": "Cooper's Cougars"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Corkery Cougars",
+    "url_path_slug": "corkery",
+    "duplicates": [
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "CORKERY COUGARS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "CORKERY"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "CORKERY"
       }
     ]
   },
@@ -53392,17 +53386,6 @@
     ]
   },
   {
-    "name_normalized": "Neighborhood House Razorbacks",
-    "url_path_slug": "neighborhood-house-razorbacks",
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "NEIGHBORHOODD HOUSE RAZORBACKS"
-      }
-    ]
-  },
-  {
     "name_normalized": "Naperville",
     "url_path_slug": null,
     "duplicates": [
@@ -54136,6 +54119,17 @@
         "tournament_id": 11,
         "division": "senior",
         "name": "Neal Jr."
+      }
+    ]
+  },
+  {
+    "name_normalized": "Neighborhood House Razorbacks",
+    "url_path_slug": "neighborhood-house-razorbacks",
+    "duplicates": [
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "NEIGHBORHOODD HOUSE RAZORBACKS"
       }
     ]
   },
