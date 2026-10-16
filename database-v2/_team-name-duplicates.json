@@ -35004,8 +35004,8 @@
     ]
   },
   {
-    "name_normalized": "Hill Jr. High",
-    "url_path_slug": "hill-jr-high",
+    "name_normalized": "Hill Middle School (Fox Valley)",
+    "url_path_slug": "hill-fox-valley",
     "duplicates": [
       {
         "tournament_id": 12,
@@ -35016,13 +35016,7 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Hill Jr. High"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Hill Middle School (Fox Valley)",
-    "url_path_slug": "hill-fox-valley",
-    "duplicates": [
+      },
       {
         "tournament_id": 28,
         "division": "senior",
