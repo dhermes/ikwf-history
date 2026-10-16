@@ -139,16 +139,16 @@
     },
     "1999": {
         "29": {
-            "ron_urwin": [
-                {
-                    "name": "COLLIN MCKILLIP",
-                    "team": "TINLEY PARK BULLDOGS"
-                }
-            ],
             "marty_combes": [
                 {
                     "name": "MIKE MUCHA",
                     "team": "LEMONT BEARS WRESTLING"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "COLLIN MCKILLIP",
+                    "team": "TINLEY PARK BULLDOGS"
                 }
             ]
         }
@@ -169,6 +169,94 @@
             ]
         }
     },
+    "2001": {
+        "31": {
+            "marty_combes": [
+                {
+                    "name": "TOMMY HILL",
+                    "team": "ROXANA KIDS WC"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "MIKE MUCHA",
+                    "team": "VITTUM CATS"
+                },
+                {
+                    "name": "NICK FANTHORPE",
+                    "team": "MARTINEZ FOX VALLEY ELITE WC"
+                }
+            ]
+        }
+    },
+    "2002": {
+        "32": {
+            "marty_combes": [
+                {
+                    "name": "ELIAS LARSON",
+                    "team": "ORLAND PARK PIONEERS"
+                },
+                {
+                    "name": "CHRIS SPANGLER",
+                    "team": "FOX VALLEY WC"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "JIMMY KENNEDY",
+                    "team": "WRESTLING FACTORY"
+                }
+            ]
+        }
+    },
+    "2003": {
+        "33": {
+            "marty_combes": [
+                {
+                    "name": "ELIAS LARSON",
+                    "team": "ORLAND PARK PIONEERS"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "JAMES KERNATS",
+                    "team": "VITTUM CATS"
+                }
+            ]
+        }
+    },
+    "2004": {
+        "34": {
+            "marty_combes": [
+                {
+                    "name": "ANTHONY RAMOS",
+                    "team": "MARTINEZ FOX VALLEY ELITE WC"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "BJ FUTRELL II",
+                    "team": "HARVEY PARK DISTRICT TWISTERS"
+                }
+            ]
+        }
+    },
+    "2005": {
+        "35": {
+            "marty_combes": [
+                {
+                    "name": "EDWIN COOPER",
+                    "team": "LITTLE CELTIC WC"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "ELIAS LARSON",
+                    "team": "ORLAND PARK PIONEERS"
+                }
+            ]
+        }
+    },
     "2006": {
         "36": {
             "marty_combes": [
@@ -185,96 +273,14 @@
             ]
         }
     },
-    "2001": {
-        "31": {
-            "ron_urwin": [
-                {
-                    "name": "MIKE MUCHA",
-                    "team": "VITTUM CATS"
-                },
-                {
-                    "name": "NICK FANTHORPE",
-                    "team": "MARTINEZ FOX VALLEY ELITE WC"
-                }
-            ],
-            "marty_combes": [
-                {
-                    "name": "TOMMY HILL",
-                    "team": "ROXANA KIDS WC"
-                }
-            ]
-        }
-    },
-    "2002": {
-        "32": {
-            "ron_urwin": [
-                {
-                    "name": "JIMMY KENNEDY",
-                    "team": "WRESTLING FACTORY"
-                }
-            ],
-            "marty_combes": [
-                {
-                    "name": "ELIAS LARSON",
-                    "team": "ORLAND PARK PIONEERS"
-                },
-                {
-                    "name": "CHRIS SPANGLER",
-                    "team": "FOX VALLEY WC"
-                }
-            ]
-        }
-    },
-    "2003": {
-        "33": {
-            "ron_urwin": [
-                {
-                    "name": "JAMES KERNATS",
-                    "team": "VITTUM CATS"
-                }
-            ],
-            "marty_combes": [
-                {
-                    "name": "ELIAS LARSON",
-                    "team": "ORLAND PARK PIONEERS"
-                }
-            ]
-        }
-    },
-    "2004": {
-        "34": {
-            "ron_urwin": [
-                {
-                    "name": "BJ FUTRELL II",
-                    "team": "HARVEY PARK DISTRICT TWISTERS"
-                }
-            ],
-            "marty_combes": [
-                {
-                    "name": "ANTHONY RAMOS",
-                    "team": "MARTINEZ FOX VALLEY ELITE WC"
-                }
-            ]
-        }
-    },
-    "2005": {
-        "35": {
-            "ron_urwin": [
-                {
-                    "name": "ELIAS LARSON",
-                    "team": "ORLAND PARK PIONEERS"
-                }
-            ],
-            "marty_combes": [
-                {
-                    "name": "EDWIN COOPER",
-                    "team": "LITTLE CELTIC WC"
-                }
-            ]
-        }
-    },
     "2007": {
         "37": {
+            "marty_combes": [
+                {
+                    "name": "Cameron Kennedy",
+                    "team": "Wrestling Factory"
+                }
+            ],
             "ron_urwin": [
                 {
                     "name": "Jacob Gregerson",
@@ -284,122 +290,116 @@
                     "name": "Jahwon Akui",
                     "team": "Gladiators"
                 }
-            ],
-            "marty_combes": [
-                {
-                    "name": "Cameron Kennedy",
-                    "team": "Wrestling Factory"
-                }
             ]
         }
     },
     "2008": {
         "38": {
-            "ron_urwin": [
-                {
-                    "name": "Dylan Reel",
-                    "team": "CENTRAL ELITE REBELS"
-                }
-            ],
             "marty_combes": [
                 {
                     "name": "Bryce Brill",
                     "team": "FOX VALLEY WC"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Dylan Reel",
+                    "team": "CENTRAL ELITE REBELS"
                 }
             ]
         }
     },
     "2009": {
         "39": {
-            "ron_urwin": [
-                {
-                    "name": "Kyle Langenderfer",
-                    "team": "ORLAND PARK PIONEERS"
-                }
-            ],
             "marty_combes": [
                 {
                     "name": "Michael Pixley",
                     "team": "GRANITE CITY WC"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Kyle Langenderfer",
+                    "team": "ORLAND PARK PIONEERS"
                 }
             ]
         }
     },
     "2010": {
         "40": {
-            "ron_urwin": [
-                {
-                    "name": "Bryce Brill",
-                    "team": "FOX VALLEY WC"
-                }
-            ],
             "marty_combes": [
                 {
                     "name": "Christian Robertson",
                     "team": "VITTUM CATS"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Bryce Brill",
+                    "team": "FOX VALLEY WC"
                 }
             ]
         }
     },
     "2011": {
         "41": {
-            "ron_urwin": [
-                {
-                    "name": "Isaiah White",
-                    "team": "Harvey Park Dist Twisters"
-                }
-            ],
             "marty_combes": [
                 {
                     "name": "Brady Rude",
                     "team": "Sauk Valley WC"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Isaiah White",
+                    "team": "Harvey Park Dist Twisters"
                 }
             ]
         }
     },
     "2012": {
         "42": {
-            "ron_urwin": [
-                {
-                    "name": "Dylan Duncan",
-                    "team": "SCN Youth WC"
-                }
-            ],
             "marty_combes": [
                 {
                     "name": "Jason Renteria",
                     "team": "Martinez Fox Valley Elite"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Dylan Duncan",
+                    "team": "SCN Youth WC"
                 }
             ]
         }
     },
     "2013": {
         "43": {
-            "ron_urwin": [
-                {
-                    "name": "George Bessette",
-                    "team": "Lakeland Predators WC"
-                }
-            ],
             "marty_combes": [
                 {
                     "name": "Rahveon Valentine",
                     "team": "The Law"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "George Bessette",
+                    "team": "Lakeland Predators WC"
                 }
             ]
         }
     },
     "2014": {
         "44": {
-            "ron_urwin": [
-                {
-                    "name": "Jack Jessen",
-                    "team": "Martinez Fox Valley Elite"
-                }
-            ],
             "marty_combes": [
                 {
                     "name": "Juan Bazaldua",
+                    "team": "Martinez Fox Valley Elite"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Jack Jessen",
                     "team": "Martinez Fox Valley Elite"
                 }
             ]
@@ -407,80 +407,80 @@
     },
     "2015": {
         "45": {
-            "ron_urwin": [
-                {
-                    "name": "Juan Bazaldua",
-                    "team": "Martinez Fox Valley Elite"
-                }
-            ],
             "marty_combes": [
                 {
                     "name": "Drew Nash",
                     "team": "Lemont Bears"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Juan Bazaldua",
+                    "team": "Martinez Fox Valley Elite"
                 }
             ]
         }
     },
     "2016": {
         "46": {
-            "ron_urwin": [
-                {
-                    "name": "Anthony Glauser",
-                    "team": "The Wrestling Factory"
-                }
-            ],
             "marty_combes": [
                 {
                     "name": "Kennedy Blades",
                     "team": "Martinez Fox Valley Elite"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Anthony Glauser",
+                    "team": "The Wrestling Factory"
                 }
             ]
         }
     },
     "2017": {
         "47": {
-            "ron_urwin": [
-                {
-                    "name": "Connor Gaynor",
-                    "team": "Tinley Park Bulldogs WC"
-                }
-            ],
             "marty_combes": [
                 {
                     "name": "Jared Gumila",
                     "team": "Force WC"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Connor Gaynor",
+                    "team": "Tinley Park Bulldogs WC"
                 }
             ]
         }
     },
     "2018": {
         "48": {
-            "ron_urwin": [
-                {
-                    "name": "Kannon Webster",
-                    "team": "Super Soldiers WC"
-                }
-            ],
             "marty_combes": [
                 {
                     "name": "Seth Mendoza",
                     "team": "Contender Wrestling"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Kannon Webster",
+                    "team": "Super Soldiers WC"
                 }
             ]
         }
     },
     "2019": {
         "49": {
-            "ron_urwin": [
-                {
-                    "name": "Kannon Webster",
-                    "team": "Super Soldiers WC"
-                }
-            ],
             "marty_combes": [
                 {
                     "name": "Bruno Cassioppi",
                     "team": "Hononegah WC"
+                }
+            ],
+            "ron_urwin": [
+                {
+                    "name": "Kannon Webster",
+                    "team": "Super Soldiers WC"
                 }
             ]
         }
