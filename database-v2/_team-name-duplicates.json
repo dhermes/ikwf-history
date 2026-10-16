@@ -38534,28 +38534,6 @@
     ]
   },
   {
-    "name_normalized": "John Deere",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "John Deere"
-      }
-    ]
-  },
-  {
-    "name_normalized": "John Deere Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "John Deere Wrestling Club"
-      }
-    ]
-  },
-  {
     "name_normalized": "Joliet",
     "url_path_slug": null,
     "duplicates": [
@@ -50096,12 +50074,22 @@
   },
   {
     "name_normalized": "Moline Deere",
-    "url_path_slug": null,
+    "url_path_slug": "moline-deere",
     "duplicates": [
       {
         "tournament_id": 11,
         "division": "senior",
         "name": "Moline Deere"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "John Deere Wrestling Club"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "John Deere"
       }
     ]
   },
