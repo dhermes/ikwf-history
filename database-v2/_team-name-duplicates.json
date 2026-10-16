@@ -3758,22 +3758,6 @@
     ]
   },
   {
-    "name_normalized": "Buffalo Grove WC",
-    "url_path_slug": "buffalo-grove",
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Buffalo"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "BUFFALO GROVE WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Backyard Brawlers Midwest WC",
     "url_path_slug": "backyard-brawlers-midwest",
     "duplicates": [
@@ -10600,6 +10584,22 @@
         "tournament_id": 29,
         "division": "senior",
         "name": "BROWNSON WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Buffalo Grove WC",
+    "url_path_slug": "buffalo-grove",
+    "duplicates": [
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Buffalo"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "BUFFALO GROVE WC"
       }
     ]
   },
@@ -39091,6 +39091,11 @@
     "url_path_slug": "jr-rocket",
     "duplicates": [
       {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "ROCKET WC"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "JR. ROCKET"
@@ -62429,17 +62434,6 @@
         "tournament_id": 54,
         "division": "intermediate_girls",
         "name": "Quincy Little Raiders WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "ROCKET WC",
-    "url_path_slug": "rocket-wc",
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "ROCKET WC"
       }
     ]
   },
