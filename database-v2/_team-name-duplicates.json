@@ -86183,6 +86183,11 @@
         "name": "Wilson"
       },
       {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Woodrow Wilson"
+      },
+      {
         "tournament_id": 13,
         "division": "senior",
         "name": "Wilson"
@@ -86817,17 +86822,6 @@
         "tournament_id": 5,
         "division": "senior",
         "name": "Woodridge"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Woodrow Wilson",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Woodrow Wilson"
       }
     ]
   },
