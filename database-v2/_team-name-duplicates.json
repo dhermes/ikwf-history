@@ -67059,17 +67059,6 @@
     ]
   },
   {
-    "name_normalized": "Roxana Park District",
-    "url_path_slug": "roxana-pd",
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Roxana Park District"
-      }
-    ]
-  },
-  {
     "name_normalized": "Roxana Vikings",
     "url_path_slug": "roxana-vikings",
     "duplicates": [
@@ -67082,6 +67071,11 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Roxana Jr. High"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Roxana Park District"
       },
       {
         "tournament_id": 16,
