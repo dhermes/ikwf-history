@@ -69742,20 +69742,14 @@
     ]
   },
   {
-    "name_normalized": "Shady Lane",
-    "url_path_slug": null,
+    "name_normalized": "Shady Lane W.C.",
+    "url_path_slug": "shady-lane-wc",
     "duplicates": [
       {
         "tournament_id": 8,
         "division": "senior",
         "name": "Shady Lane"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Shady Lane W.C.",
-    "url_path_slug": "shady-lane-wc",
-    "duplicates": [
+      },
       {
         "tournament_id": 9,
         "division": "senior",
