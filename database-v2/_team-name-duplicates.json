@@ -65438,17 +65438,6 @@
     ]
   },
   {
-    "name_normalized": "Rock Island (II)",
-    "url_path_slug": "rock-island-ii",
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Rock Island (II)"
-      }
-    ]
-  },
-  {
     "name_normalized": "Rock Island Wrestling Club",
     "url_path_slug": "rock-island",
     "duplicates": [
@@ -65456,6 +65445,11 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Rock Island (I)"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Rock Island (II)"
       },
       {
         "tournament_id": 15,

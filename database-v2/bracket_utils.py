@@ -82,6 +82,7 @@ Division = Literal[
 ]
 
 _DUPLICATE_EXCEPTIONS: dict[int, dict[str, str]] = {
+    14: {"Rock Island (I)": "Rock Island (II)"},
     23: {"BLACKHAWK": "BLACKHAWK II"},
     30: {
         "GALESBURG JUNIOR STREAKS": "JUNIOR STREAKS #2",
