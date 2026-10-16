@@ -82787,6 +82787,11 @@
     "url_path_slug": "warrior-wc",
     "duplicates": [
       {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Warriors"
+      },
+      {
         "tournament_id": 15,
         "division": "senior",
         "name": "Warrior WC"
@@ -82801,17 +82806,6 @@
         "tournament_id": 20,
         "division": "senior",
         "name": "WARRIOR WC (NILES)"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Warriors",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Warriors"
       }
     ]
   },
