@@ -22421,17 +22421,6 @@
     ]
   },
   {
-    "name_normalized": "EISENHOWER JR. COUGARS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "EISENHOWER JR. COUGARS"
-      }
-    ]
-  },
-  {
     "name_normalized": "Eagle One",
     "url_path_slug": "eagle-one",
     "duplicates": [
@@ -24037,6 +24026,11 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "EISENHOWER JH"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "EISENHOWER JR. COUGARS"
       }
     ]
   },
