@@ -45085,9 +45085,14 @@
     ]
   },
   {
-    "name_normalized": "Lombard",
-    "url_path_slug": "lombard",
+    "name_normalized": "Lombard Jr. Rams",
+    "url_path_slug": "lombard-jr-rams",
     "duplicates": [
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Lombard Jr. Rams"
+      },
       {
         "tournament_id": 11,
         "division": "senior",
@@ -45097,17 +45102,6 @@
         "tournament_id": 12,
         "division": "senior",
         "name": "Lombard"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Lombard Jr. Rams",
-    "url_path_slug": "lombard-jr-rams",
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Lombard Jr. Rams"
       }
     ]
   },
