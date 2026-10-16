@@ -25787,7 +25787,7 @@
   },
   {
     "name_normalized": "FLANAGAN PANTHERS",
-    "url_path_slug": null,
+    "url_path_slug": "flanagan-panthers",
     "duplicates": [
       {
         "tournament_id": 26,
@@ -58137,7 +58137,7 @@
   },
   {
     "name_normalized": "PANTHER WRESTLING",
-    "url_path_slug": null,
+    "url_path_slug": "panther-wrestling",
     "duplicates": [
       {
         "tournament_id": 22,
@@ -58677,6 +58677,11 @@
     "url_path_slug": "palatine-sundling",
     "duplicates": [
       {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Walter Sundling"
+      },
+      {
         "tournament_id": 20,
         "division": "senior",
         "name": "PALATINE P.D. SUNDLING"
@@ -58685,6 +58690,16 @@
         "tournament_id": 24,
         "division": "senior",
         "name": "SUNDLING JH CLUB PALATINE"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "SUNDLING JR. HIGH"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "SUNDLING JR. HIGH"
       }
     ]
   },
@@ -62549,68 +62564,6 @@
     ]
   },
   {
-    "name_normalized": "Red Hill",
-    "url_path_slug": "red-hill",
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "RED HILLS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "RED HILLS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "RED HILL JUNIOR SALUKIS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "RED HILL JUNIOR PRO"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "RED HILL JUNIOR PRO WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "RED HILL JUNIOR PRO WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Renagade 3 Style Wrestling",
-    "url_path_slug": "renagade-3",
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "RENAGADE 3 STYLE WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "RENAGADE 3 STYLE WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "RENAGADE 3 STYLE WRESTLING"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "RENAGADE 3 STYLE WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "ROCKET WC",
     "url_path_slug": null,
     "duplicates": [
@@ -63328,6 +63281,42 @@
     ]
   },
   {
+    "name_normalized": "Red Hill",
+    "url_path_slug": "red-hill",
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "RED HILLS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "RED HILLS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "RED HILL JUNIOR SALUKIS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "RED HILL JUNIOR PRO"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "RED HILL JUNIOR PRO WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "RED HILL JUNIOR PRO WRESTLING"
+      }
+    ]
+  },
+  {
     "name_normalized": "Red Raiders Wrestling Team",
     "url_path_slug": "red-raider",
     "duplicates": [
@@ -63762,6 +63751,32 @@
         "tournament_id": 10052,
         "division": "intermediate_girls",
         "name": "RTC Wrestling"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Renagade 3 Style Wrestling",
+    "url_path_slug": "renagade-3",
+    "duplicates": [
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "RENAGADE 3 STYLE WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "RENAGADE 3 STYLE WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "RENAGADE 3 STYLE WRESTLING"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "RENAGADE 3 STYLE WRESTLING"
       }
     ]
   },
@@ -68669,48 +68684,6 @@
     ]
   },
   {
-    "name_normalized": "South Suburban Tigers",
-    "url_path_slug": "south-suburban-tigers",
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "SOUTH SUBURBAN TIGERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "SOUTH SUBURBAN TIGERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "SOUTH SUBURBAN TIGERS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "SOUTH SUBURBAN TIGERS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "SUNDLING JR. HIGH",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "SUNDLING JR. HIGH"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "SUNDLING JR. HIGH"
-      }
-    ]
-  },
-  {
     "name_normalized": "Saber WC",
     "url_path_slug": "saber",
     "duplicates": [
@@ -71142,6 +71115,32 @@
         "tournament_id": 4,
         "division": "senior",
         "name": "South Stickney"
+      }
+    ]
+  },
+  {
+    "name_normalized": "South Suburban Tigers",
+    "url_path_slug": "south-suburban-tigers",
+    "duplicates": [
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "SOUTH SUBURBAN TIGERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "SOUTH SUBURBAN TIGERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "SOUTH SUBURBAN TIGERS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "SOUTH SUBURBAN TIGERS"
       }
     ]
   },
@@ -82732,17 +82731,6 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Waldo"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Walter Sundling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Walter Sundling"
       }
     ]
   },
