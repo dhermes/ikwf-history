@@ -1284,6 +1284,11 @@
         "name": "Jordan"
       },
       {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Jordon Jr. High"
+      },
+      {
         "tournament_id": 12,
         "division": "senior",
         "name": "Jordan"
@@ -1317,6 +1322,11 @@
         "tournament_id": 18,
         "division": "senior",
         "name": "Jordan WC"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "JORDON"
       },
       {
         "tournament_id": 22,
@@ -38079,22 +38089,6 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "JJK WRESTLING"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Jordon Jr. High",
-    "url_path_slug": "jordon",
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Jordon Jr. High"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "JORDON"
       }
     ]
   },
