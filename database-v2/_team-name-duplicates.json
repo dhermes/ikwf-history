@@ -25731,17 +25731,6 @@
     ]
   },
   {
-    "name_normalized": "Franklin Park Chiefs",
-    "url_path_slug": "franklin-park-chiefs",
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "FRANKLIN PARK CHIEFS"
-      }
-    ]
-  },
-  {
     "name_normalized": "Fairfield",
     "url_path_slug": "fairfield",
     "duplicates": [
@@ -28437,6 +28426,17 @@
         "tournament_id": 13,
         "division": "senior",
         "name": "Franklin Jr. High"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Franklin Park Chiefs",
+    "url_path_slug": "franklin-park-chiefs",
+    "duplicates": [
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "FRANKLIN PARK CHIEFS"
       }
     ]
   },
