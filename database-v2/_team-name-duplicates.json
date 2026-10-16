@@ -50095,17 +50095,6 @@
     ]
   },
   {
-    "name_normalized": "Moline Booster",
-    "url_path_slug": "moline-booster",
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Moline Booster"
-      }
-    ]
-  },
-  {
     "name_normalized": "Moline Deere",
     "url_path_slug": null,
     "duplicates": [
@@ -50178,8 +50167,23 @@
     "url_path_slug": "moline-tigers",
     "duplicates": [
       {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "MOLINE TIGERS"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "MOLINE TIGERS"
+      },
+      {
         "tournament_id": 22,
         "division": "senior",
+        "name": "MOLINE TIGERS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
         "name": "MOLINE TIGERS"
       },
       {
@@ -50190,6 +50194,11 @@
       {
         "tournament_id": 24,
         "division": "novice",
+        "name": "MOLINE TIGERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
         "name": "MOLINE TIGERS"
       },
       {
@@ -50234,24 +50243,9 @@
         "name": "Moline W.C."
       },
       {
-        "tournament_id": 20,
+        "tournament_id": 16,
         "division": "senior",
-        "name": "MOLINE TIGERS"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "MOLINE TIGERS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "MOLINE TIGERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "MOLINE TIGERS"
+        "name": "Moline Booster"
       },
       {
         "tournament_id": 10028,
