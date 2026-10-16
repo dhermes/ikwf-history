@@ -37908,17 +37908,6 @@
     ]
   },
   {
-    "name_normalized": "J.A. Stickers",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "J.A. Stickers"
-      }
-    ]
-  },
-  {
     "name_normalized": "JJK Wrestling",
     "url_path_slug": "jjk",
     "duplicates": [
@@ -73444,6 +73433,11 @@
     "name_normalized": "Stickers",
     "url_path_slug": "stickers",
     "duplicates": [
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "J.A. Stickers"
+      },
       {
         "tournament_id": 15,
         "division": "senior",
