@@ -13884,27 +13884,6 @@
     ]
   },
   {
-    "name_normalized": "Challand",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 6,
-        "division": "senior",
-        "name": "Challand"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Challand"
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Challand"
-      }
-    ]
-  },
-  {
     "name_normalized": "Champaign Jr. High",
     "url_path_slug": null,
     "duplicates": [
@@ -73301,53 +73280,6 @@
     ]
   },
   {
-    "name_normalized": "Sterling",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Sterling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Sterling Challand",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 1,
-        "division": "senior",
-        "name": "Sterling Challand"
-      },
-      {
-        "tournament_id": 2,
-        "division": "senior",
-        "name": "Sterling"
-      },
-      {
-        "tournament_id": 3,
-        "division": "senior",
-        "name": "Sterling Challand"
-      },
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Sterling"
-      },
-      {
-        "tournament_id": 10,
-        "division": "senior",
-        "name": "Sterling Challand"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Sterling Challand"
-      }
-    ]
-  },
-  {
     "name_normalized": "Sterling Newman Junior Comets",
     "url_path_slug": "sterling-newman",
     "duplicates": [
@@ -73516,20 +73448,64 @@
     ]
   },
   {
-    "name_normalized": "Sterling Warrior WC",
-    "url_path_slug": null,
+    "name_normalized": "Sterling Warriors",
+    "url_path_slug": "sterling-warriors",
     "duplicates": [
+      {
+        "tournament_id": 1,
+        "division": "senior",
+        "name": "Sterling Challand"
+      },
+      {
+        "tournament_id": 2,
+        "division": "senior",
+        "name": "Sterling"
+      },
+      {
+        "tournament_id": 3,
+        "division": "senior",
+        "name": "Sterling Challand"
+      },
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Sterling"
+      },
+      {
+        "tournament_id": 6,
+        "division": "senior",
+        "name": "Challand"
+      },
+      {
+        "tournament_id": 10,
+        "division": "senior",
+        "name": "Sterling Challand"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Challand"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Challand"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Sterling"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Sterling Challand"
+      },
       {
         "tournament_id": 16,
         "division": "senior",
         "name": "Sterling Warrior WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Sterling Warriors",
-    "url_path_slug": "sterling-warriors",
-    "duplicates": [
+      },
       {
         "tournament_id": 18,
         "division": "senior",
