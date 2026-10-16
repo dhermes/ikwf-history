@@ -37924,6 +37924,21 @@
     "url_path_slug": "jack-london",
     "duplicates": [
       {
+        "tournament_id": 2,
+        "division": "senior",
+        "name": "London"
+      },
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "London Jr. High"
+      },
+      {
+        "tournament_id": 6,
+        "division": "senior",
+        "name": "London"
+      },
+      {
         "tournament_id": 8,
         "division": "senior",
         "name": "Jack London"
@@ -45078,33 +45093,6 @@
         "tournament_id": 12,
         "division": "senior",
         "name": "Lombard"
-      }
-    ]
-  },
-  {
-    "name_normalized": "London",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 2,
-        "division": "senior",
-        "name": "London"
-      },
-      {
-        "tournament_id": 6,
-        "division": "senior",
-        "name": "London"
-      }
-    ]
-  },
-  {
-    "name_normalized": "London Jr. High",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "London Jr. High"
       }
     ]
   },
