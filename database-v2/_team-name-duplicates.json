@@ -27393,20 +27393,24 @@
     ]
   },
   {
-    "name_normalized": "Foreman",
-    "url_path_slug": null,
+    "name_normalized": "Foreman WC",
+    "url_path_slug": "foreman-wc",
     "duplicates": [
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Forman"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Foreman Wrestling Club"
+      },
       {
         "tournament_id": 13,
         "division": "senior",
         "name": "Foreman"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Foreman WC",
-    "url_path_slug": "foreman-wc",
-    "duplicates": [
+      },
       {
         "tournament_id": 14,
         "division": "senior",
@@ -27418,9 +27422,19 @@
         "name": "Foreman WC"
       },
       {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Forman Wrestling Boosters"
+      },
+      {
         "tournament_id": 17,
         "division": "senior",
         "name": "Forman WC"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Forman Wrestling Club"
       },
       {
         "tournament_id": 19,
@@ -27436,50 +27450,6 @@
         "tournament_id": 21,
         "division": "senior",
         "name": "FORMAN"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Foreman Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Foreman Wrestling Club"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Forman",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Forman"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Forman Wrestling Boosters",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Forman Wrestling Boosters"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Forman Wrestling Club",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Forman Wrestling Club"
       }
     ]
   },
