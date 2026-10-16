@@ -71598,9 +71598,19 @@
         "name": "Springfield"
       },
       {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Springfield W.C."
+      },
+      {
         "tournament_id": 11,
         "division": "senior",
         "name": "Springfield"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Springfield W.C."
       },
       {
         "tournament_id": 13,
@@ -71824,22 +71834,6 @@
         "tournament_id": 28,
         "division": "senior",
         "name": "SPRINGFIELD SENATORS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Springfield W.C.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Springfield W.C."
-      },
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Springfield W.C."
       }
     ]
   },
