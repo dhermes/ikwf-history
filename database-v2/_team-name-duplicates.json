@@ -11139,17 +11139,6 @@
     ]
   },
   {
-    "name_normalized": "CORSAIR WC",
-    "url_path_slug": "corsair-wc",
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "CORSAIR WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "CPS",
     "url_path_slug": "cps",
     "duplicates": [
@@ -12620,8 +12609,13 @@
   },
   {
     "name_normalized": "Carmel Corsair",
-    "url_path_slug": null,
+    "url_path_slug": "carmel-corsair",
     "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "CORSAIR WC"
+      },
       {
         "tournament_id": 10028,
         "division": "novice_iwf",
@@ -32158,27 +32152,6 @@
     ]
   },
   {
-    "name_normalized": "Havana WC",
-    "url_path_slug": "havana",
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "HAVANA WC"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "HAVANA WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "HAVANA"
-      }
-    ]
-  },
-  {
     "name_normalized": "HAWK WRESTLING ASSOCIATION",
     "url_path_slug": "hawk-wrestling-association",
     "duplicates": [
@@ -33571,6 +33544,27 @@
         "tournament_id": 54,
         "division": "bantam_girls",
         "name": "Harvey Twisters WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Havana WC",
+    "url_path_slug": "havana",
+    "duplicates": [
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "HAVANA WC"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "HAVANA WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "HAVANA"
       }
     ]
   },
