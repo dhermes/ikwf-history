@@ -15256,17 +15256,6 @@
     ]
   },
   {
-    "name_normalized": "Chicago Mat Burns",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Chicago Mat Burns"
-      }
-    ]
-  },
-  {
     "name_normalized": "Chicago Park District",
     "url_path_slug": "chicago-pd",
     "duplicates": [
@@ -47400,22 +47389,6 @@
     ]
   },
   {
-    "name_normalized": "Mat Burns",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Mat Burns"
-      },
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Mat Burns"
-      }
-    ]
-  },
-  {
     "name_normalized": "Mat Rat WC",
     "url_path_slug": "mat-rat",
     "duplicates": [
@@ -47561,9 +47534,29 @@
     "url_path_slug": "matburns",
     "duplicates": [
       {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Mat Burns"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Mat Burns"
+      },
+      {
         "tournament_id": 11,
         "division": "senior",
         "name": "Matburns"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Chicago Mat Burns"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Mattburns"
       },
       {
         "tournament_id": 14,
@@ -47594,17 +47587,6 @@
         "tournament_id": 20,
         "division": "senior",
         "name": "MATBURNS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Mattburns",
-    "url_path_slug": "mattburns",
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Mattburns"
       }
     ]
   },
