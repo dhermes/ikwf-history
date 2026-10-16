@@ -13810,20 +13810,14 @@
     ]
   },
   {
-    "name_normalized": "Champaign Jr. High",
-    "url_path_slug": "champaign-jr-high",
+    "name_normalized": "Champaign Kids Wrestlings Club",
+    "url_path_slug": "champaign-kids",
     "duplicates": [
       {
         "tournament_id": 4,
         "division": "senior",
         "name": "Champaign Jr. High"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Champaign Kids Wrestlings Club",
-    "url_path_slug": "champaign-kids",
-    "duplicates": [
+      },
       {
         "tournament_id": 6,
         "division": "senior",
@@ -20229,27 +20223,6 @@
         "tournament_id": 4,
         "division": "senior",
         "name": "Des Plaines"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Gemini Jr. High (Des Plaines)",
-    "url_path_slug": "gemini",
-    "duplicates": [
-      {
-        "tournament_id": 1,
-        "division": "senior",
-        "name": "Des Plaines Gemini"
-      },
-      {
-        "tournament_id": 2,
-        "division": "senior",
-        "name": "Gemini Jr."
-      },
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Gemini Jr. High"
       }
     ]
   },
@@ -29019,6 +28992,27 @@
         "tournament_id": 38,
         "division": "senior",
         "name": "GATORS WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Gemini Jr. High (Des Plaines)",
+    "url_path_slug": "gemini",
+    "duplicates": [
+      {
+        "tournament_id": 1,
+        "division": "senior",
+        "name": "Des Plaines Gemini"
+      },
+      {
+        "tournament_id": 2,
+        "division": "senior",
+        "name": "Gemini Jr."
+      },
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Gemini Jr. High"
       }
     ]
   },
