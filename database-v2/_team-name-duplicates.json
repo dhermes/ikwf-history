@@ -11157,17 +11157,6 @@
     ]
   },
   {
-    "name_normalized": "CRESTWOOD",
-    "url_path_slug": "crestwood",
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "CRESTWOOD"
-      }
-    ]
-  },
-  {
     "name_normalized": "Cahokia WC",
     "url_path_slug": "cahokia",
     "duplicates": [
@@ -17188,6 +17177,11 @@
         "tournament_id": 22,
         "division": "senior",
         "name": "CRESTWOOD COLTS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "CRESTWOOD"
       },
       {
         "tournament_id": 23,
@@ -75659,17 +75653,6 @@
     ]
   },
   {
-    "name_normalized": "Tri-City Turtles",
-    "url_path_slug": "tri-city-turtles",
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "TRI-CITY TURTLES"
-      }
-    ]
-  },
-  {
     "name_normalized": "Takedown WC",
     "url_path_slug": "takedown-wc",
     "duplicates": [
@@ -79370,27 +79353,6 @@
     ]
   },
   {
-    "name_normalized": "Tri-Valley WC",
-    "url_path_slug": "tri-valley",
-    "duplicates": [
-      {
-        "tournament_id": 35,
-        "division": "novice",
-        "name": "TRI-VALLEY WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "TRI-VALLEY WC"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "TRI-VALLEY WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Tri-City Braves",
     "url_path_slug": "tri-city-braves",
     "duplicates": [
@@ -79458,6 +79420,38 @@
         "tournament_id": 34,
         "division": "senior",
         "name": "TRI-CITY BRAVES"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Tri-City Turtles",
+    "url_path_slug": "tri-city-turtles",
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "TRI-CITY TURTLES"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Tri-Valley WC",
+    "url_path_slug": "tri-valley",
+    "duplicates": [
+      {
+        "tournament_id": 35,
+        "division": "novice",
+        "name": "TRI-VALLEY WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "TRI-VALLEY WC"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "TRI-VALLEY WC"
       }
     ]
   },
@@ -82602,17 +82596,6 @@
         "tournament_id": 54,
         "division": "bantam",
         "name": "Vortex WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Winston Park",
-    "url_path_slug": "winston-park",
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "WINSTON PARK"
       }
     ]
   },
@@ -86539,6 +86522,17 @@
         "tournament_id": 46,
         "division": "senior",
         "name": "Windy City Wrestling of Notre Dame"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Winston Park",
+    "url_path_slug": "winston-park",
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "WINSTON PARK"
       }
     ]
   },
