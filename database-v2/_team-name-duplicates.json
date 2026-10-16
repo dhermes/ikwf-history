@@ -22410,17 +22410,6 @@
     ]
   },
   {
-    "name_normalized": "EISENHOWER JH",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "EISENHOWER JH"
-      }
-    ]
-  },
-  {
     "name_normalized": "EISENHOWER JR HAWK",
     "url_path_slug": null,
     "duplicates": [
@@ -23981,9 +23970,14 @@
     ]
   },
   {
-    "name_normalized": "Eisenhower",
-    "url_path_slug": null,
+    "name_normalized": "Eisenhower Jr. High",
+    "url_path_slug": "eisenhower",
     "duplicates": [
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Eisenhower Jr. High"
+      },
       {
         "tournament_id": 8,
         "division": "senior",
@@ -24013,17 +24007,6 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Eisenhower"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Eisenhower Jr. High",
-    "url_path_slug": "eisenhower",
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Eisenhower Jr. High"
       },
       {
         "tournament_id": 16,
@@ -24044,6 +24027,11 @@
         "tournament_id": 21,
         "division": "senior",
         "name": "EISENHOWER JR. HIGH"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "EISENHOWER JH"
       },
       {
         "tournament_id": 23,
