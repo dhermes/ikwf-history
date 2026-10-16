@@ -11086,17 +11086,6 @@
     ]
   },
   {
-    "name_normalized": "CAROL STREAM P.D. PANTHERS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "CAROL STREAM P.D. PANTHERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "CICC",
     "url_path_slug": "cicc",
     "duplicates": [
@@ -12677,8 +12666,8 @@
     ]
   },
   {
-    "name_normalized": "Carol Stream",
-    "url_path_slug": null,
+    "name_normalized": "Carol Stream P.D.",
+    "url_path_slug": "carol-stream",
     "duplicates": [
       {
         "tournament_id": 2,
@@ -12694,17 +12683,16 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Carol Stream"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Carol Stream P.D.",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 17,
         "division": "senior",
         "name": "Carol Stream P.D."
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "CAROL STREAM P.D. PANTHERS"
       }
     ]
   },
