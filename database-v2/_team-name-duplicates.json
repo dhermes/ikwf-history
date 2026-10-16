@@ -53319,17 +53319,6 @@
     ]
   },
   {
-    "name_normalized": "Naperville Park District",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Naperville Park District"
-      }
-    ]
-  },
-  {
     "name_normalized": "Naperville Patriots",
     "url_path_slug": "naperville-patriots",
     "duplicates": [
@@ -53510,6 +53499,11 @@
         "tournament_id": 11,
         "division": "senior",
         "name": "Naperville"
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Naperville Park District"
       },
       {
         "tournament_id": 13,
