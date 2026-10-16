@@ -38087,6 +38087,11 @@
     "url_path_slug": "jordon",
     "duplicates": [
       {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Jordon Jr. High"
+      },
+      {
         "tournament_id": 21,
         "division": "senior",
         "name": "JORDON"
@@ -38970,17 +38975,6 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Joliet YMCA Wrestling"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Jordon Jr. High",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Jordon Jr. High"
       }
     ]
   },
