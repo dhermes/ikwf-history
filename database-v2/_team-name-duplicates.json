@@ -22410,56 +22410,14 @@
     ]
   },
   {
-    "name_normalized": "Eastland Mat Cats",
-    "url_path_slug": "eastland",
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "EASTLAND MAT CATS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "EASTLAND MAT CATS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "EASTLAND MAT CATS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "EASTLAND MAT CATS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "EASTLAND MAT CATS"
-      },
-      {
-        "tournament_id": 27,
-        "division": "senior",
-        "name": "EASTLAND MAT CATS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "EASTSIDE",
-    "url_path_slug": null,
+    "name_normalized": "EASTSIDE WRESTLING",
+    "url_path_slug": "eastside",
     "duplicates": [
       {
         "tournament_id": 23,
         "division": "senior",
         "name": "EASTSIDE"
-      }
-    ]
-  },
-  {
-    "name_normalized": "EASTSIDE WRESTLING",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 24,
         "division": "novice",
@@ -23164,6 +23122,42 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "East St. Louis WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Eastland Mat Cats",
+    "url_path_slug": "eastland",
+    "duplicates": [
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "EASTLAND MAT CATS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "EASTLAND MAT CATS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "EASTLAND MAT CATS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "EASTLAND MAT CATS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "EASTLAND MAT CATS"
+      },
+      {
+        "tournament_id": 27,
+        "division": "senior",
+        "name": "EASTLAND MAT CATS"
       }
     ]
   },
