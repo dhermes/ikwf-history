@@ -8759,20 +8759,14 @@
     ]
   },
   {
-    "name_normalized": "Bloom",
-    "url_path_slug": null,
+    "name_normalized": "Bloom Trail Kids",
+    "url_path_slug": "bloom-trail-kids",
     "duplicates": [
       {
         "tournament_id": 2,
         "division": "senior",
         "name": "Bloom"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bloom Trail Kids",
-    "url_path_slug": "bloom-trail-kids",
-    "duplicates": [
+      },
       {
         "tournament_id": 16,
         "division": "senior",
