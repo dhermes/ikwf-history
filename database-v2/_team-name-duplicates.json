@@ -67023,22 +67023,6 @@
     ]
   },
   {
-    "name_normalized": "Roxana Jr. High",
-    "url_path_slug": "roxana-jr-high",
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Roxana Jr. High"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Roxana Jr. High"
-      }
-    ]
-  },
-  {
     "name_normalized": "Roxana Outlaws",
     "url_path_slug": "roxana-outlaws",
     "duplicates": [
@@ -67089,6 +67073,16 @@
     "name_normalized": "Roxana Vikings",
     "url_path_slug": "roxana-vikings",
     "duplicates": [
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Roxana Jr. High"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Roxana Jr. High"
+      },
       {
         "tournament_id": 16,
         "division": "senior",
