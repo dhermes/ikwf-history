@@ -31792,17 +31792,6 @@
     ]
   },
   {
-    "name_normalized": "Greenwood / Tumaro WC",
-    "url_path_slug": "greenwood-tumaro-wc",
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Greenwood / Tumaro WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Greg Gomez Trained Wrestling",
     "url_path_slug": "greg-gomez",
     "duplicates": [
@@ -51477,6 +51466,11 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Mt. Greenwood"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Greenwood / Tumaro WC"
       },
       {
         "tournament_id": 18,
