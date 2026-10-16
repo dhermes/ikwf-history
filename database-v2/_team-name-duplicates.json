@@ -19370,6 +19370,16 @@
         "name": "DeKalb Huntley"
       },
       {
+        "tournament_id": 6,
+        "division": "senior",
+        "name": "Huntley"
+      },
+      {
+        "tournament_id": 7,
+        "division": "senior",
+        "name": "Huntley"
+      },
+      {
         "tournament_id": 8,
         "division": "senior",
         "name": "Huntley"
@@ -19378,6 +19388,11 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Huntley Middle School"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Huntley"
       },
       {
         "tournament_id": 12,
@@ -36813,27 +36828,6 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Hufford"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Huntley",
-    "url_path_slug": "huntley",
-    "duplicates": [
-      {
-        "tournament_id": 6,
-        "division": "senior",
-        "name": "Huntley"
-      },
-      {
-        "tournament_id": 7,
-        "division": "senior",
-        "name": "Huntley"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Huntley"
       }
     ]
   },
