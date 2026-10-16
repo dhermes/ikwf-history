@@ -40754,33 +40754,6 @@
     ]
   },
   {
-    "name_normalized": "LaGrange Lions",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "LaGrange Lions"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "LaGrange Lions"
-      }
-    ]
-  },
-  {
-    "name_normalized": "LaGrange Lions WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "LaGrange Lions WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "LaSalle Peru Crunching Cavs Youth WC",
     "url_path_slug": "lasalle-peru",
     "duplicates": [
@@ -44504,6 +44477,21 @@
     "name_normalized": "Lions WC (LaGrange)",
     "url_path_slug": "lions-wc-lagrange",
     "duplicates": [
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "LaGrange Lions"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "LaGrange Lions"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "LaGrange Lions WC"
+      },
       {
         "tournament_id": 19,
         "division": "senior",
