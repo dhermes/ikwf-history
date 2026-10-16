@@ -31226,6 +31226,11 @@
         "name": "Grigsby"
       },
       {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Granite City South"
+      },
+      {
         "tournament_id": 14,
         "division": "senior",
         "name": "Granite City / Grigsby"
@@ -31279,17 +31284,6 @@
         "tournament_id": 27,
         "division": "senior",
         "name": "GRANITE CITY WC GRIGSBY"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Granite City South",
-    "url_path_slug": "granite-city-south",
-    "duplicates": [
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Granite City South"
       }
     ]
   },
