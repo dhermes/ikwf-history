@@ -9274,6 +9274,16 @@
     "url_path_slug": "bolingbrook",
     "duplicates": [
       {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Ward Middle School"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Ward Middle School"
+      },
+      {
         "tournament_id": 11,
         "division": "senior",
         "name": "Bolingbrook"
@@ -9477,22 +9487,6 @@
         "tournament_id": 54,
         "division": "bantam_girls",
         "name": "Bolingbrook Junior Raiders WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bolingbrook Ward",
-    "url_path_slug": "bolingbrook-ward",
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Ward Middle School"
-      },
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Ward Middle School"
       }
     ]
   },
