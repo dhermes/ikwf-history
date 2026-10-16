@@ -53840,20 +53840,14 @@
     "url_path_slug": "neal-eagles",
     "duplicates": [
       {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Neal Eagles"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Neal Jr.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 11,
         "division": "senior",
         "name": "Neal Jr."
+      },
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Neal Eagles"
       }
     ]
   },
