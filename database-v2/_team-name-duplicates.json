@@ -20028,8 +20028,8 @@
     ]
   },
   {
-    "name_normalized": "Deerpath",
-    "url_path_slug": null,
+    "name_normalized": "Deerpath WC",
+    "url_path_slug": "deerpath",
     "duplicates": [
       {
         "tournament_id": 2,
@@ -20045,13 +20045,7 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Deerpath"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Deerpath WC",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 15,
         "division": "senior",
