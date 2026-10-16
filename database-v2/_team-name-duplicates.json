@@ -28006,8 +28006,8 @@
     ]
   },
   {
-    "name_normalized": "Frankfort",
-    "url_path_slug": "frankfort",
+    "name_normalized": "Frankfort Falcons",
+    "url_path_slug": "frankfort-falcons",
     "duplicates": [
       {
         "tournament_id": 12,
@@ -28023,13 +28023,7 @@
         "tournament_id": 14,
         "division": "senior",
         "name": "Frankfort"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Frankfort Falcons",
-    "url_path_slug": "frankfort-falcons",
-    "duplicates": [
+      },
       {
         "tournament_id": 15,
         "division": "senior",
