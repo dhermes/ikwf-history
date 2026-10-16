@@ -70273,24 +70273,18 @@
     ]
   },
   {
-    "name_normalized": "Shabbona",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Shabbona"
-      }
-    ]
-  },
-  {
     "name_normalized": "Shabbona Park",
-    "url_path_slug": null,
+    "url_path_slug": "shabbona",
     "duplicates": [
       {
         "tournament_id": 2,
         "division": "senior",
         "name": "Shabbona Park"
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Shabbona"
       }
     ]
   },
