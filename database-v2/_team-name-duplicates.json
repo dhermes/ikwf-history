@@ -11093,6 +11093,11 @@
     "url_path_slug": "corkery",
     "duplicates": [
       {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "CORKERY COUGARS"
+      },
+      {
         "tournament_id": 23,
         "division": "novice",
         "name": "CORKERY"
@@ -11101,17 +11106,6 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "CORKERY"
-      }
-    ]
-  },
-  {
-    "name_normalized": "CORKERY COUGARS",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "CORKERY COUGARS"
       }
     ]
   },
