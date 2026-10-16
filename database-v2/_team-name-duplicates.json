@@ -3759,7 +3759,7 @@
   },
   {
     "name_normalized": "BI-CITY WRESTLING",
-    "url_path_slug": null,
+    "url_path_slug": "bi-city-wrestling",
     "duplicates": [
       {
         "tournament_id": 24,
@@ -18554,7 +18554,7 @@
   },
   {
     "name_normalized": "DC SPORTSTERS WC",
-    "url_path_slug": null,
+    "url_path_slug": "dc-sportsters-wc",
     "duplicates": [
       {
         "tournament_id": 24,
@@ -22409,7 +22409,7 @@
   },
   {
     "name_normalized": "Eagle WC",
-    "url_path_slug": null,
+    "url_path_slug": "eagle-wc",
     "duplicates": [
       {
         "tournament_id": 22,
@@ -55274,20 +55274,14 @@
     ]
   },
   {
-    "name_normalized": "OLSON JR. HIGH",
-    "url_path_slug": null,
+    "name_normalized": "OLSON MS",
+    "url_path_slug": "olson-ms",
     "duplicates": [
       {
         "tournament_id": 22,
         "division": "senior",
         "name": "OLSON JR. HIGH"
-      }
-    ]
-  },
-  {
-    "name_normalized": "OLSON MS",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 24,
         "division": "senior",
