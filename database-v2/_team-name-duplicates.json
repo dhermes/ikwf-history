@@ -3758,22 +3758,6 @@
     ]
   },
   {
-    "name_normalized": "Bi-City Wrestling",
-    "url_path_slug": "bi-city",
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Bi-City"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "BI-CITY WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "BRIDGEVIEW PD",
     "url_path_slug": null,
     "duplicates": [
@@ -7769,6 +7753,22 @@
     ]
   },
   {
+    "name_normalized": "Bi-City Wrestling",
+    "url_path_slug": "bi-city",
+    "duplicates": [
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Bi-City"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "BI-CITY WRESTLING"
+      }
+    ]
+  },
+  {
     "name_normalized": "Big Hollow",
     "url_path_slug": null,
     "duplicates": [
@@ -10612,17 +10612,6 @@
         "tournament_id": 11,
         "division": "senior",
         "name": "Buffalo"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Buffalo Tri City",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 12,
-        "division": "senior",
-        "name": "Buffalo Tri City"
       }
     ]
   },
@@ -79405,6 +79394,11 @@
     "name_normalized": "Tri-city Braves",
     "url_path_slug": "tri-city-braves",
     "duplicates": [
+      {
+        "tournament_id": 12,
+        "division": "senior",
+        "name": "Buffalo Tri City"
+      },
       {
         "tournament_id": 20,
         "division": "senior",
