@@ -9,8 +9,11 @@ PRAGMA integrity_check;
 INSERT INTO
   award (id, key)
 VALUES
-  (1, 'marty_combes'),
-  (2, 'ron_urwin');
+  (1, 'marty_combes'), -- Outstanding Novice Division Wrestler
+  (2, 'ron_urwin'), -- Outstanding Senior Division Wrestler
+  (3, 'mark_bullington'), -- Outstanding Girls Novice Division Wrestler
+  (4, 'kennedy_blades'), -- Outstanding Girls Senior Division Wrestler
+  (5, 'jim_didi'); -- Coach of the Year Award
 
 --------------------------------------------------------------------------------
 
