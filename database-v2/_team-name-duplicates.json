@@ -37711,27 +37711,6 @@
     ]
   },
   {
-    "name_normalized": "Indian Trail Jr. High",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Indian Trail Jr. High"
-      },
-      {
-        "tournament_id": 17,
-        "division": "senior",
-        "name": "Indian Trail Jr. High"
-      },
-      {
-        "tournament_id": 18,
-        "division": "senior",
-        "name": "Indian Trail Jr. High"
-      }
-    ]
-  },
-  {
     "name_normalized": "Integrity Elite Wrestling",
     "url_path_slug": "integrity-elite",
     "duplicates": [
@@ -60672,6 +60651,21 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Indian Trail-Plainfield"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Indian Trail Jr. High"
+      },
+      {
+        "tournament_id": 17,
+        "division": "senior",
+        "name": "Indian Trail Jr. High"
+      },
+      {
+        "tournament_id": 18,
+        "division": "senior",
+        "name": "Indian Trail Jr. High"
       },
       {
         "tournament_id": 19,
