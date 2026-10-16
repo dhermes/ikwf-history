@@ -45152,9 +45152,14 @@
         "name": "LOCKPORT GRAPPLERS WC"
       },
       {
-        "tournament_id": 23,
+        "tournament_id": 24,
         "division": "novice",
-        "name": "LOCKPORT"
+        "name": "LOCKPORT GRAPPLERS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "LOCKPORT GRAPPLERS"
       }
     ]
   },
@@ -45193,14 +45198,9 @@
         "name": "Lockport Wrestling Club"
       },
       {
-        "tournament_id": 24,
+        "tournament_id": 23,
         "division": "novice",
-        "name": "LOCKPORT GRAPPLERS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "LOCKPORT GRAPPLERS"
+        "name": "LOCKPORT"
       },
       {
         "tournament_id": 10028,
