@@ -2411,17 +2411,6 @@
     "url_path_slug": "apollo",
     "duplicates": [
       {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Apollo"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Apollo Jr. High",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 2,
         "division": "senior",
         "name": "Apollo Jr. High"
@@ -2440,6 +2429,11 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Apollo Jr. High"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Apollo"
       }
     ]
   },
