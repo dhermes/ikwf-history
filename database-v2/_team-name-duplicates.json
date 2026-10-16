@@ -3758,63 +3758,6 @@
     ]
   },
   {
-    "name_normalized": "BETHALTO / JR. HIGH",
-    "url_path_slug": "bethalto-jr-high",
-    "duplicates": [
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "BETHALTO / JR. HIGH"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "BETHALTO / JR. HIGH"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "BETHALTO / JR. HIGH"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "BETHALTO / JR. HIGH"
-      },
-      {
-        "tournament_id": 27,
-        "division": "novice",
-        "name": "BETHALTO / JR. HIGH"
-      },
-      {
-        "tournament_id": 28,
-        "division": "novice",
-        "name": "BETHALTO / JR. HIGH"
-      },
-      {
-        "tournament_id": 28,
-        "division": "senior",
-        "name": "BETHALTO / JR. HIGH"
-      }
-    ]
-  },
-  {
-    "name_normalized": "BETHALTO JH",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "BETHALTO JH"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "BETHALTO JH"
-      }
-    ]
-  },
-  {
     "name_normalized": "BI-CITY WRESTLING",
     "url_path_slug": null,
     "duplicates": [
@@ -7423,6 +7366,51 @@
         "tournament_id": 23,
         "division": "senior",
         "name": "BETHALTO"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "BETHALTO JH"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "BETHALTO JH"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "BETHALTO / JR. HIGH"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "BETHALTO / JR. HIGH"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "BETHALTO / JR. HIGH"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "BETHALTO / JR. HIGH"
+      },
+      {
+        "tournament_id": 27,
+        "division": "novice",
+        "name": "BETHALTO / JR. HIGH"
+      },
+      {
+        "tournament_id": 28,
+        "division": "novice",
+        "name": "BETHALTO / JR. HIGH"
+      },
+      {
+        "tournament_id": 28,
+        "division": "senior",
+        "name": "BETHALTO / JR. HIGH"
       },
       {
         "tournament_id": 29,
