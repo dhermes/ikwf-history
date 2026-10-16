@@ -72577,19 +72577,13 @@
   },
   {
     "name_normalized": "St. Phillip Neri",
-    "url_path_slug": null,
+    "url_path_slug": "st-phillip",
     "duplicates": [
       {
         "tournament_id": 8,
         "division": "senior",
         "name": "St. Phillip Neri"
-      }
-    ]
-  },
-  {
-    "name_normalized": "St. Phillips",
-    "url_path_slug": null,
-    "duplicates": [
+      },
       {
         "tournament_id": 9,
         "division": "senior",
