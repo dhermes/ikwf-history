@@ -3762,6 +3762,11 @@
     "url_path_slug": "bi-city-wrestling",
     "duplicates": [
       {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Bi-City"
+      },
+      {
         "tournament_id": 24,
         "division": "novice",
         "name": "BI-CITY WRESTLING"
@@ -7760,17 +7765,6 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Bulls WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Bi-City",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Bi-City"
       }
     ]
   },
