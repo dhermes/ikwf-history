@@ -8363,17 +8363,6 @@
     ]
   },
   {
-    "name_normalized": "Biue Crew WC",
-    "url_path_slug": "biue-crew-wc",
-    "duplicates": [
-      {
-        "tournament_id": 16,
-        "division": "senior",
-        "name": "Biue Crew WC"
-      }
-    ]
-  },
-  {
     "name_normalized": "Blackhawk Wrestling Club",
     "url_path_slug": "blackhawk",
     "duplicates": [
@@ -8972,6 +8961,11 @@
         "tournament_id": 15,
         "division": "senior",
         "name": "Blue Crew"
+      },
+      {
+        "tournament_id": 16,
+        "division": "senior",
+        "name": "Biue Crew WC"
       },
       {
         "tournament_id": 17,
