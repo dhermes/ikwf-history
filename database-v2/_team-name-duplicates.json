@@ -53165,37 +53165,6 @@
     ]
   },
   {
-    "name_normalized": "Naperville",
-    "url_path_slug": "naperville",
-    "duplicates": [
-      {
-        "tournament_id": 7,
-        "division": "senior",
-        "name": "Naperville"
-      },
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Naperville"
-      },
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Naperville"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Naperville"
-      },
-      {
-        "tournament_id": 14,
-        "division": "senior",
-        "name": "Naperville W.C."
-      }
-    ]
-  },
-  {
     "name_normalized": "Naperville Eagles",
     "url_path_slug": "naperville-eagles",
     "duplicates": [
@@ -53523,9 +53492,34 @@
     "url_path_slug": "naperville-wc",
     "duplicates": [
       {
+        "tournament_id": 7,
+        "division": "senior",
+        "name": "Naperville"
+      },
+      {
         "tournament_id": 8,
         "division": "senior",
         "name": "Naperville Wrestlers"
+      },
+      {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Naperville"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Naperville"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Naperville"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Naperville W.C."
       },
       {
         "tournament_id": 16,
