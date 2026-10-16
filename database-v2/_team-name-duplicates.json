@@ -20242,6 +20242,11 @@
         "name": "Des Plaines Gemini"
       },
       {
+        "tournament_id": 2,
+        "division": "senior",
+        "name": "Gemini Jr."
+      },
+      {
         "tournament_id": 4,
         "division": "senior",
         "name": "Gemini Jr. High"
@@ -29014,17 +29019,6 @@
         "tournament_id": 38,
         "division": "senior",
         "name": "GATORS WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Gemini Jr.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 2,
-        "division": "senior",
-        "name": "Gemini Jr."
       }
     ]
   },
