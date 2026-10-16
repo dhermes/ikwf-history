@@ -69743,20 +69743,14 @@
     ]
   },
   {
-    "name_normalized": "Sequoit",
-    "url_path_slug": null,
+    "name_normalized": "Sequoits",
+    "url_path_slug": "sequoits",
     "duplicates": [
       {
         "tournament_id": 12,
         "division": "senior",
         "name": "Sequoit"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Sequoits",
-    "url_path_slug": "sequoits",
-    "duplicates": [
+      },
       {
         "tournament_id": 13,
         "division": "senior",
@@ -86174,27 +86168,6 @@
     ]
   },
   {
-    "name_normalized": "Woodrow Wilson",
-    "url_path_slug": "woodrow-wilson",
-    "duplicates": [
-      {
-        "tournament_id": 4,
-        "division": "senior",
-        "name": "Wilson"
-      },
-      {
-        "tournament_id": 8,
-        "division": "senior",
-        "name": "Woodrow Wilson"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Wilson"
-      }
-    ]
-  },
-  {
     "name_normalized": "Windy City Wrestling Of Notre Dame",
     "url_path_slug": "windy-city-nd",
     "duplicates": [
@@ -86822,6 +86795,27 @@
         "tournament_id": 5,
         "division": "senior",
         "name": "Woodridge"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Woodrow Wilson",
+    "url_path_slug": "woodrow-wilson",
+    "duplicates": [
+      {
+        "tournament_id": 4,
+        "division": "senior",
+        "name": "Wilson"
+      },
+      {
+        "tournament_id": 8,
+        "division": "senior",
+        "name": "Woodrow Wilson"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Wilson"
       }
     ]
   },
