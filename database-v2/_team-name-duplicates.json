@@ -22410,22 +22410,6 @@
     ]
   },
   {
-    "name_normalized": "Eastside Wrestling",
-    "url_path_slug": "eastside",
-    "duplicates": [
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "EASTSIDE"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "EASTSIDE WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "EISENHOWER JH",
     "url_path_slug": null,
     "duplicates": [
@@ -22770,6 +22754,31 @@
         "tournament_id": 32,
         "division": "senior",
         "name": "EAST MOLINE PANTHER PINNERS"
+      },
+      {
+        "tournament_id": 33,
+        "division": "novice",
+        "name": "UNITED TOWNSHIP WC"
+      },
+      {
+        "tournament_id": 33,
+        "division": "senior",
+        "name": "UNITED TOWNSHIP WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "novice",
+        "name": "UNITED TOWNSHIP WC"
+      },
+      {
+        "tournament_id": 34,
+        "division": "senior",
+        "name": "UNITED TOWNSHIP WC"
+      },
+      {
+        "tournament_id": 35,
+        "division": "senior",
+        "name": "UNITED TOWNSHIP WC"
       }
     ]
   },
@@ -23158,6 +23167,22 @@
         "tournament_id": 27,
         "division": "senior",
         "name": "EASTLAND MAT CATS"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Eastside Wrestling",
+    "url_path_slug": "eastside",
+    "duplicates": [
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "EASTSIDE"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "EASTSIDE WRESTLING"
       }
     ]
   },
@@ -68087,17 +68112,6 @@
     ]
   },
   {
-    "name_normalized": "Sinnissippi Matmen",
-    "url_path_slug": "sinnissippi",
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "SINNISSIPPI MATMEN"
-      }
-    ]
-  },
-  {
     "name_normalized": "SIWA",
     "url_path_slug": "siwa",
     "duplicates": [
@@ -71059,6 +71073,17 @@
         "tournament_id": 12,
         "division": "senior",
         "name": "Simmons"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Sinnissippi Matmen",
+    "url_path_slug": "sinnissippi",
+    "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "SINNISSIPPI MATMEN"
       }
     ]
   },
@@ -80304,37 +80329,6 @@
         "tournament_id": 40,
         "division": "senior",
         "name": "UNITED SOUTHERN ALLSTARS"
-      }
-    ]
-  },
-  {
-    "name_normalized": "United Township WC",
-    "url_path_slug": "united-township",
-    "duplicates": [
-      {
-        "tournament_id": 33,
-        "division": "novice",
-        "name": "UNITED TOWNSHIP WC"
-      },
-      {
-        "tournament_id": 33,
-        "division": "senior",
-        "name": "UNITED TOWNSHIP WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "novice",
-        "name": "UNITED TOWNSHIP WC"
-      },
-      {
-        "tournament_id": 34,
-        "division": "senior",
-        "name": "UNITED TOWNSHIP WC"
-      },
-      {
-        "tournament_id": 35,
-        "division": "senior",
-        "name": "UNITED TOWNSHIP WC"
       }
     ]
   },
