@@ -32146,22 +32146,6 @@
     ]
   },
   {
-    "name_normalized": "HAWK WRESTLING ASSOCIATION",
-    "url_path_slug": "hawk-wrestling-association",
-    "duplicates": [
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "HAWK WRESTLING ASSOCIATION"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "HAWK WRESTLING ASSOCIATION"
-      }
-    ]
-  },
-  {
     "name_normalized": "HF Spartan Elite WC",
     "url_path_slug": "hf-spartan",
     "duplicates": [
@@ -33566,6 +33550,16 @@
     "name_normalized": "Hawk Wrestling Club",
     "url_path_slug": "oregon",
     "duplicates": [
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "HAWK WRESTLING ASSOCIATION"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "HAWK WRESTLING ASSOCIATION"
+      },
       {
         "tournament_id": 27,
         "division": "senior",
@@ -40888,42 +40882,6 @@
     ]
   },
   {
-    "name_normalized": "Lincoln Way Knights",
-    "url_path_slug": "lincoln-way-knights",
-    "duplicates": [
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "KNIGHT"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "KNIGHT WC"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "LITTLE KNIGHTS"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "LITTLE KNIGHTS"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "LITTLE KNIGHTS"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "LINCOLN-WAY KNIGHTS"
-      }
-    ]
-  },
-  {
     "name_normalized": "LaGrange Lions",
     "url_path_slug": null,
     "duplicates": [
@@ -43501,6 +43459,42 @@
         "tournament_id": 11,
         "division": "senior",
         "name": "Cicero"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Lincoln Way Knights",
+    "url_path_slug": "lincoln-way-knights",
+    "duplicates": [
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "KNIGHT"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "KNIGHT WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "LITTLE KNIGHTS"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "LITTLE KNIGHTS"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "LITTLE KNIGHTS"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "LINCOLN-WAY KNIGHTS"
       }
     ]
   },
