@@ -25786,22 +25786,6 @@
     ]
   },
   {
-    "name_normalized": "Flanagan Panthers",
-    "url_path_slug": "flanagan",
-    "duplicates": [
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "FLANAGAN PANTHERS"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "FLANAGAN PANTHERS"
-      }
-    ]
-  },
-  {
     "name_normalized": "FRANKLIN PARK CHIEFS",
     "url_path_slug": null,
     "duplicates": [
@@ -27137,6 +27121,22 @@
         "tournament_id": 51,
         "division": "senior",
         "name": "Fitz Wrestling Academy"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Flanagan Panthers",
+    "url_path_slug": "flanagan",
+    "duplicates": [
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "FLANAGAN PANTHERS"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "FLANAGAN PANTHERS"
       }
     ]
   },
@@ -32162,17 +32162,6 @@
     "url_path_slug": "havana",
     "duplicates": [
       {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "HAVANA"
-      }
-    ]
-  },
-  {
-    "name_normalized": "HAVANA WC",
-    "url_path_slug": null,
-    "duplicates": [
-      {
         "tournament_id": 22,
         "division": "senior",
         "name": "HAVANA WC"
@@ -32181,6 +32170,11 @@
         "tournament_id": 24,
         "division": "novice",
         "name": "HAVANA WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "HAVANA"
       }
     ]
   },
@@ -58136,47 +58130,6 @@
     ]
   },
   {
-    "name_normalized": "Panther Wrestling",
-    "url_path_slug": "panther-wrestling",
-    "duplicates": [
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "PANTHER WRESTLING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "novice",
-        "name": "PANTHER WRESTLING"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "PANTHER WRESTLING"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "PANTHER WRESTLING"
-      },
-      {
-        "tournament_id": 25,
-        "division": "senior",
-        "name": "PANTHER WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "novice",
-        "name": "PANTHER WRESTLING"
-      },
-      {
-        "tournament_id": 26,
-        "division": "senior",
-        "name": "PANTHER WRESTLING"
-      }
-    ]
-  },
-  {
     "name_normalized": "PLT Prophets WC",
     "url_path_slug": "plt-prophets",
     "duplicates": [
@@ -59307,6 +59260,47 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "Panther Powerhouse Wrestling"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Panther Wrestling",
+    "url_path_slug": "panther-wrestling",
+    "duplicates": [
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "PANTHER WRESTLING"
+      },
+      {
+        "tournament_id": 24,
+        "division": "novice",
+        "name": "PANTHER WRESTLING"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "PANTHER WRESTLING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "PANTHER WRESTLING"
+      },
+      {
+        "tournament_id": 25,
+        "division": "senior",
+        "name": "PANTHER WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "novice",
+        "name": "PANTHER WRESTLING"
+      },
+      {
+        "tournament_id": 26,
+        "division": "senior",
+        "name": "PANTHER WRESTLING"
       }
     ]
   },
