@@ -9271,22 +9271,6 @@
     ]
   },
   {
-    "name_normalized": "Bobcats",
-    "url_path_slug": "bobcats",
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Bobcats"
-      },
-      {
-        "tournament_id": 13,
-        "division": "senior",
-        "name": "Bobcats"
-      }
-    ]
-  },
-  {
     "name_normalized": "Bolingbrook Girls WC",
     "url_path_slug": "bolingbrook-girls",
     "duplicates": [
@@ -15714,7 +15698,7 @@
   },
   {
     "name_normalized": "Cicero Bobcats",
-    "url_path_slug": null,
+    "url_path_slug": "cicero-bobcats",
     "duplicates": [
       {
         "tournament_id": 8,
@@ -15722,9 +15706,19 @@
         "name": "Cicero Bobcats"
       },
       {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Bobcats"
+      },
+      {
         "tournament_id": 12,
         "division": "senior",
         "name": "Cicero Bobcats"
+      },
+      {
+        "tournament_id": 13,
+        "division": "senior",
+        "name": "Bobcats"
       }
     ]
   },
@@ -67023,42 +67017,6 @@
     ]
   },
   {
-    "name_normalized": "Roxana Outlaws",
-    "url_path_slug": "roxana-outlaws",
-    "duplicates": [
-      {
-        "tournament_id": 45,
-        "division": "novice",
-        "name": "Roxana Outlaws"
-      },
-      {
-        "tournament_id": 45,
-        "division": "senior",
-        "name": "Roxana Outlaws"
-      },
-      {
-        "tournament_id": 46,
-        "division": "novice",
-        "name": "Roxana Outlaws"
-      },
-      {
-        "tournament_id": 46,
-        "division": "senior",
-        "name": "Roxana Outlaws"
-      },
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Roxana Outlaws"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Roxana Outlaws"
-      }
-    ]
-  },
-  {
     "name_normalized": "Roxana Jr. High Vikings",
     "url_path_slug": "roxana-vikings",
     "duplicates": [
@@ -67101,6 +67059,42 @@
         "tournament_id": 21,
         "division": "senior",
         "name": "ROXANA VIKINGS"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Roxana Outlaws",
+    "url_path_slug": "roxana-outlaws",
+    "duplicates": [
+      {
+        "tournament_id": 45,
+        "division": "novice",
+        "name": "Roxana Outlaws"
+      },
+      {
+        "tournament_id": 45,
+        "division": "senior",
+        "name": "Roxana Outlaws"
+      },
+      {
+        "tournament_id": 46,
+        "division": "novice",
+        "name": "Roxana Outlaws"
+      },
+      {
+        "tournament_id": 46,
+        "division": "senior",
+        "name": "Roxana Outlaws"
+      },
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Roxana Outlaws"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Roxana Outlaws"
       }
     ]
   },
