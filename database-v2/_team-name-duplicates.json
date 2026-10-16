@@ -19421,20 +19421,14 @@
     ]
   },
   {
-    "name_normalized": "Darien",
-    "url_path_slug": null,
+    "name_normalized": "Darien Park District",
+    "url_path_slug": "darien-park-district",
     "duplicates": [
       {
         "tournament_id": 11,
         "division": "senior",
         "name": "Darien"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Darien Park District",
-    "url_path_slug": "darien-park-district",
-    "duplicates": [
+      },
       {
         "tournament_id": 18,
         "division": "senior",
