@@ -41510,6 +41510,11 @@
     "url_path_slug": "lanphier-southeast",
     "duplicates": [
       {
+        "tournament_id": 9,
+        "division": "senior",
+        "name": "Springfield S.E."
+      },
+      {
         "tournament_id": 14,
         "division": "senior",
         "name": "Lanphier South East"
@@ -71807,17 +71812,6 @@
         "tournament_id": 47,
         "division": "senior",
         "name": "Springfield Capitals Kids WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Springfield S.E.",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 9,
-        "division": "senior",
-        "name": "Springfield S.E."
       }
     ]
   },
