@@ -73426,24 +73426,23 @@
     ]
   },
   {
-    "name_normalized": "Sterling Red Birds",
-    "url_path_slug": null,
+    "name_normalized": "Sterling Rock Falls YMCA",
+    "url_path_slug": "sterling-ymca",
     "duplicates": [
       {
-        "tournament_id": 14,
+        "tournament_id": 11,
         "division": "senior",
-        "name": "Sterling Red Birds"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Sterling Rock Falls YMCA",
-    "url_path_slug": null,
-    "duplicates": [
+        "name": "Sterling YMCA"
+      },
       {
         "tournament_id": 12,
         "division": "senior",
         "name": "Sterling Rock Falls YMCA"
+      },
+      {
+        "tournament_id": 14,
+        "division": "senior",
+        "name": "Sterling Red Birds"
       }
     ]
   },
@@ -73510,17 +73509,6 @@
         "tournament_id": 18,
         "division": "senior",
         "name": "Sterling Warriors"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Sterling YMCA",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Sterling YMCA"
       }
     ]
   },
