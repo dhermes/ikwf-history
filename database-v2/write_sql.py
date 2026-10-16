@@ -8,8 +8,7 @@ import bracket_utils
 import match_scores
 import pydantic
 
-HERE = pathlib.Path(__file__).resolve().parent
-ROOT = HERE.parent
+_HERE = pathlib.Path(__file__).resolve().parent
 _MAX_MATCH_ID = 54
 _MAX_PLACEMENT = 8
 
@@ -19,7 +18,7 @@ class _ForbidExtra(pydantic.BaseModel):
 
 
 def _validate_division_sort_key():
-    with sqlite3.connect(HERE / "ikwf.sqlite") as connection:
+    with sqlite3.connect(_HERE / "ikwf.sqlite") as connection:
         connection.row_factory = sqlite3.Row
 
         cursor = connection.cursor()
@@ -36,7 +35,7 @@ def _validate_division_sort_key():
 
 
 def _validate_get_match_slot_id():
-    with sqlite3.connect(HERE / "ikwf.sqlite") as connection:
+    with sqlite3.connect(_HERE / "ikwf.sqlite") as connection:
         connection.row_factory = sqlite3.Row
 
         cursor = connection.cursor()
@@ -645,7 +644,7 @@ def _handle_year(
 
 
 def _write_brackets_sql() -> dict[BracketInfoTuple, int]:
-    with open(HERE / "_weight-classes.json") as file_obj:
+    with open(_HERE / "_weight-classes.json") as file_obj:
         weight_classes = bracket_utils.WeightClassesByYear.model_validate_json(
             file_obj.read()
         )
@@ -706,28 +705,28 @@ def _write_brackets_sql() -> dict[BracketInfoTuple, int]:
 
     lines.append("")
 
-    with open(HERE / "migrations" / "0004-brackets.sql", "w") as file_obj:
+    with open(_HERE / "migrations" / "0004-brackets.sql", "w") as file_obj:
         file_obj.write("\n".join(lines))
 
     return result
 
 
 def _get_filenames_by_year() -> dict[int, bracket_utils.TournamentFilename]:
-    with open(HERE / "_filenames-by-year.json") as file_obj:
+    with open(_HERE / "_filenames-by-year.json") as file_obj:
         loaded = bracket_utils.FilenamesByYear.model_validate_json(file_obj.read())
 
     return loaded.root
 
 
 def _get_team_name_synonyms() -> dict[int, list[bracket_utils.TeamNameSynonym]]:
-    with open(HERE / "_team-name-synonyms.json") as file_obj:
+    with open(_HERE / "_team-name-synonyms.json") as file_obj:
         loaded = bracket_utils.TeamNameSynonyms.model_validate_json(file_obj.read())
 
     return loaded.root
 
 
 def _get_team_name_duplicates() -> list[bracket_utils.VerifiedTeam]:
-    with open(HERE / "_team-name-duplicates.json") as file_obj:
+    with open(_HERE / "_team-name-duplicates.json") as file_obj:
         loaded = bracket_utils.TeamDuplicates.model_validate_json(file_obj.read())
 
     return loaded.root
@@ -793,7 +792,7 @@ def _write_teams_sql(inserts: Inserts) -> None:
 
     lines.append("")
 
-    with open(HERE / "migrations" / "0005-teams.sql", "w") as file_obj:
+    with open(_HERE / "migrations" / "0005-teams.sql", "w") as file_obj:
         file_obj.write("\n".join(lines))
 
 
@@ -828,7 +827,7 @@ def _write_tournament_teams_sql(inserts: Inserts) -> None:
 
     lines.append("")
 
-    with open(HERE / "migrations" / "0006-tournament-teams.sql", "w") as file_obj:
+    with open(_HERE / "migrations" / "0006-tournament-teams.sql", "w") as file_obj:
         file_obj.write("\n".join(lines))
 
 
@@ -860,7 +859,7 @@ def _write_team_point_deductions_sql(inserts: Inserts) -> None:
 
     lines.append("")
 
-    with open(HERE / "migrations" / "0007-team-point-deductions.sql", "w") as file_obj:
+    with open(_HERE / "migrations" / "0007-team-point-deductions.sql", "w") as file_obj:
         file_obj.write("\n".join(lines))
 
 
@@ -890,7 +889,7 @@ def _write_competitors_sql(inserts: Inserts) -> None:
 
     lines.append("")
 
-    with open(HERE / "migrations" / "0008-competitors.sql", "w") as file_obj:
+    with open(_HERE / "migrations" / "0008-competitors.sql", "w") as file_obj:
         file_obj.write("\n".join(lines))
 
 
@@ -925,7 +924,9 @@ def _write_tournament_competitors_sql(inserts: Inserts) -> None:
 
     lines.append("")
 
-    with open(HERE / "migrations" / "0009-tournament-competitors.sql", "w") as file_obj:
+    with open(
+        _HERE / "migrations" / "0009-tournament-competitors.sql", "w"
+    ) as file_obj:
         file_obj.write("\n".join(lines))
 
 
@@ -970,7 +971,7 @@ def _write_matches_sql(inserts: Inserts) -> None:
 
     lines.append("")
 
-    with open(HERE / "migrations" / "0010-matches.sql", "w") as file_obj:
+    with open(_HERE / "migrations" / "0010-matches.sql", "w") as file_obj:
         file_obj.write("\n".join(lines))
 
 
@@ -1003,7 +1004,7 @@ def _write_placers_denormalized_sql(inserts: Inserts) -> None:
 
     lines.append("")
 
-    with open(HERE / "migrations" / "0011-placers-denormalized.sql", "w") as file_obj:
+    with open(_HERE / "migrations" / "0011-placers-denormalized.sql", "w") as file_obj:
         file_obj.write("\n".join(lines))
 
 
@@ -1099,7 +1100,7 @@ def _write_team_deduplicate_sql(
                 ]
             )
 
-    with open(HERE / "migrations" / "0012-teams-deduplicate.sql", "w") as file_obj:
+    with open(_HERE / "migrations" / "0012-teams-deduplicate.sql", "w") as file_obj:
         file_obj.write("\n".join(lines))
 
 
@@ -1108,7 +1109,7 @@ def main() -> None:
     _validate_get_match_slot_id()
     bracket_id_info = _write_brackets_sql()
 
-    extracted_dir = HERE.parent / "intermediate-data"
+    extracted_dir = _HERE.parent / "intermediate-data"
     filenames_by_year = _get_filenames_by_year()
     team_name_synonyms = _get_team_name_synonyms()
     team_name_duplicates = _get_team_name_duplicates()
