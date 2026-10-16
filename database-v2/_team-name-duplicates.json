@@ -18559,58 +18559,6 @@
     ]
   },
   {
-    "name_normalized": "DA WC",
-    "url_path_slug": "da-wc",
-    "duplicates": [
-      {
-        "tournament_id": 47,
-        "division": "novice",
-        "name": "Da WC"
-      },
-      {
-        "tournament_id": 47,
-        "division": "senior",
-        "name": "Da WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "novice",
-        "name": "DA WC"
-      },
-      {
-        "tournament_id": 48,
-        "division": "senior",
-        "name": "DA WC"
-      }
-    ]
-  },
-  {
-    "name_normalized": "DAWC",
-    "url_path_slug": "dawc",
-    "duplicates": [
-      {
-        "tournament_id": 49,
-        "division": "novice",
-        "name": "DAWC"
-      },
-      {
-        "tournament_id": 49,
-        "division": "senior",
-        "name": "DAWC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "novice",
-        "name": "DAWC"
-      },
-      {
-        "tournament_id": 10050,
-        "division": "senior",
-        "name": "DAWC"
-      }
-    ]
-  },
-  {
     "name_normalized": "DC SPORTSTERS WC",
     "url_path_slug": null,
     "duplicates": [
@@ -18764,6 +18712,52 @@
         "tournament_id": 54,
         "division": "senior_girls",
         "name": "DC WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Da WC",
+    "url_path_slug": "da-wc",
+    "duplicates": [
+      {
+        "tournament_id": 47,
+        "division": "novice",
+        "name": "Da WC"
+      },
+      {
+        "tournament_id": 47,
+        "division": "senior",
+        "name": "Da WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "novice",
+        "name": "DA WC"
+      },
+      {
+        "tournament_id": 48,
+        "division": "senior",
+        "name": "DA WC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "novice",
+        "name": "DAWC"
+      },
+      {
+        "tournament_id": 49,
+        "division": "senior",
+        "name": "DAWC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "novice",
+        "name": "DAWC"
+      },
+      {
+        "tournament_id": 10050,
+        "division": "senior",
+        "name": "DAWC"
       }
     ]
   },
@@ -45729,52 +45723,6 @@
     ]
   },
   {
-    "name_normalized": "Mead Jr. Cougars",
-    "url_path_slug": "mead",
-    "duplicates": [
-      {
-        "tournament_id": 19,
-        "division": "senior",
-        "name": "Mead W.C."
-      },
-      {
-        "tournament_id": 20,
-        "division": "senior",
-        "name": "MEADE JR. WC"
-      },
-      {
-        "tournament_id": 21,
-        "division": "senior",
-        "name": "MEAD JR. HIGH SCHOOL"
-      },
-      {
-        "tournament_id": 22,
-        "division": "senior",
-        "name": "MEAD JH WC"
-      },
-      {
-        "tournament_id": 23,
-        "division": "novice",
-        "name": "MEAD"
-      },
-      {
-        "tournament_id": 23,
-        "division": "senior",
-        "name": "MEAD"
-      },
-      {
-        "tournament_id": 24,
-        "division": "senior",
-        "name": "MEAD JH SCHOOL WC"
-      },
-      {
-        "tournament_id": 25,
-        "division": "novice",
-        "name": "MEAD JR. COUGARS"
-      }
-    ]
-  },
-  {
     "name_normalized": "MOLINE LIONS",
     "url_path_slug": "moline-lions",
     "duplicates": [
@@ -48865,6 +48813,52 @@
         "tournament_id": 36,
         "division": "senior",
         "name": "MCLEAN COUNTY WC"
+      }
+    ]
+  },
+  {
+    "name_normalized": "Mead Jr. Cougars",
+    "url_path_slug": "mead",
+    "duplicates": [
+      {
+        "tournament_id": 19,
+        "division": "senior",
+        "name": "Mead W.C."
+      },
+      {
+        "tournament_id": 20,
+        "division": "senior",
+        "name": "MEADE JR. WC"
+      },
+      {
+        "tournament_id": 21,
+        "division": "senior",
+        "name": "MEAD JR. HIGH SCHOOL"
+      },
+      {
+        "tournament_id": 22,
+        "division": "senior",
+        "name": "MEAD JH WC"
+      },
+      {
+        "tournament_id": 23,
+        "division": "novice",
+        "name": "MEAD"
+      },
+      {
+        "tournament_id": 23,
+        "division": "senior",
+        "name": "MEAD"
+      },
+      {
+        "tournament_id": 24,
+        "division": "senior",
+        "name": "MEAD JH SCHOOL WC"
+      },
+      {
+        "tournament_id": 25,
+        "division": "novice",
+        "name": "MEAD JR. COUGARS"
       }
     ]
   },
@@ -86259,7 +86253,7 @@
   },
   {
     "name_normalized": "Williamsville WC",
-    "url_path_slug": "williamsville-wc",
+    "url_path_slug": "williamsville",
     "duplicates": [
       {
         "tournament_id": 42,
