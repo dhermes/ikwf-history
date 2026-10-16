@@ -35797,8 +35797,8 @@
     ]
   },
   {
-    "name_normalized": "Holmes",
-    "url_path_slug": null,
+    "name_normalized": "Holmes Jr. High",
+    "url_path_slug": "holmes-jr-high",
     "duplicates": [
       {
         "tournament_id": 2,
@@ -35819,13 +35819,7 @@
         "tournament_id": 8,
         "division": "senior",
         "name": "Holmes"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Holmes Jr. High",
-    "url_path_slug": "holmes-jr-high",
-    "duplicates": [
+      },
       {
         "tournament_id": 9,
         "division": "senior",
