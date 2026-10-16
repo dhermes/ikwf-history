@@ -82212,8 +82212,8 @@
     ]
   },
   {
-    "name_normalized": "Vittum Park",
-    "url_path_slug": null,
+    "name_normalized": "Vittum Vikings",
+    "url_path_slug": "vittum-vikings",
     "duplicates": [
       {
         "tournament_id": 8,
@@ -82221,20 +82221,14 @@
         "name": "Vittum Park"
       },
       {
-        "tournament_id": 11,
-        "division": "senior",
-        "name": "Vittum Park"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Vittum Vikings",
-    "url_path_slug": "vittum-vikings",
-    "duplicates": [
-      {
         "tournament_id": 9,
         "division": "senior",
         "name": "Vittum Vikings"
+      },
+      {
+        "tournament_id": 11,
+        "division": "senior",
+        "name": "Vittum Park"
       },
       {
         "tournament_id": 12,
