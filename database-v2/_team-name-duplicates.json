@@ -16694,8 +16694,8 @@
     ]
   },
   {
-    "name_normalized": "Cooper",
-    "url_path_slug": null,
+    "name_normalized": "Cooper's Cougars",
+    "url_path_slug": "coopers-cougars",
     "duplicates": [
       {
         "tournament_id": 2,
@@ -16716,13 +16716,7 @@
         "tournament_id": 9,
         "division": "senior",
         "name": "Cooper"
-      }
-    ]
-  },
-  {
-    "name_normalized": "Cooper's Cougars",
-    "url_path_slug": "coopers-cougars",
-    "duplicates": [
+      },
       {
         "tournament_id": 16,
         "division": "senior",
