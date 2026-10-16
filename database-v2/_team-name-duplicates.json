@@ -20201,7 +20201,7 @@
   },
   {
     "name_normalized": "Demons",
-    "url_path_slug": null,
+    "url_path_slug": "demons",
     "duplicates": [
       {
         "tournament_id": 10028,
@@ -48490,7 +48490,7 @@
   },
   {
     "name_normalized": "Men In Black",
-    "url_path_slug": null,
+    "url_path_slug": "men-in-black",
     "duplicates": [
       {
         "tournament_id": 10028,
@@ -63662,17 +63662,6 @@
     ]
   },
   {
-    "name_normalized": "Richmond",
-    "url_path_slug": null,
-    "duplicates": [
-      {
-        "tournament_id": 10028,
-        "division": "junior_iwf",
-        "name": "Richmond"
-      }
-    ]
-  },
-  {
     "name_normalized": "Richmond Wrestling Club",
     "url_path_slug": "richmod",
     "duplicates": [
@@ -63725,6 +63714,11 @@
         "tournament_id": 28,
         "division": "senior",
         "name": "RICHMOND WRESTLING CLUB"
+      },
+      {
+        "tournament_id": 10028,
+        "division": "junior_iwf",
+        "name": "Richmond"
       },
       {
         "tournament_id": 31,
