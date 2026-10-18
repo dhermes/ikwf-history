@@ -38437,52 +38437,6 @@
     ]
   },
   {
-    "name_normalized": "Joliet Junior Steelmen",
-    "url_path_slug": "joliet-steelmen",
-    "duplicates": [
-      {
-        "tournament_id": 36,
-        "division": "novice",
-        "name": "JOLIET JUNIOR STEELMEN"
-      },
-      {
-        "tournament_id": 36,
-        "division": "senior",
-        "name": "JOLIET JUNIOR STEELMEN"
-      },
-      {
-        "tournament_id": 37,
-        "division": "novice",
-        "name": "Joliet Junior Steelmen"
-      },
-      {
-        "tournament_id": 37,
-        "division": "senior",
-        "name": "Joliet Junior Steelmen"
-      },
-      {
-        "tournament_id": 38,
-        "division": "novice",
-        "name": "JOLIET JUNIOR STEELMEN"
-      },
-      {
-        "tournament_id": 38,
-        "division": "senior",
-        "name": "JOLIET JUNIOR STEELMEN"
-      },
-      {
-        "tournament_id": 39,
-        "division": "novice",
-        "name": "JOLIET JUNIOR STEELMEN"
-      },
-      {
-        "tournament_id": 39,
-        "division": "senior",
-        "name": "JOLIET JUNIOR STEELMEN"
-      }
-    ]
-  },
-  {
     "name_normalized": "Joliet YMCA",
     "url_path_slug": "joliet-ymca",
     "duplicates": [
@@ -85472,6 +85426,46 @@
         "tournament_id": 35,
         "division": "novice",
         "name": "JOLIET BOYS CLUB COBRAS"
+      },
+      {
+        "tournament_id": 36,
+        "division": "novice",
+        "name": "JOLIET JUNIOR STEELMEN"
+      },
+      {
+        "tournament_id": 36,
+        "division": "senior",
+        "name": "JOLIET JUNIOR STEELMEN"
+      },
+      {
+        "tournament_id": 37,
+        "division": "novice",
+        "name": "Joliet Junior Steelmen"
+      },
+      {
+        "tournament_id": 37,
+        "division": "senior",
+        "name": "Joliet Junior Steelmen"
+      },
+      {
+        "tournament_id": 38,
+        "division": "novice",
+        "name": "JOLIET JUNIOR STEELMEN"
+      },
+      {
+        "tournament_id": 38,
+        "division": "senior",
+        "name": "JOLIET JUNIOR STEELMEN"
+      },
+      {
+        "tournament_id": 39,
+        "division": "novice",
+        "name": "JOLIET JUNIOR STEELMEN"
+      },
+      {
+        "tournament_id": 39,
+        "division": "senior",
+        "name": "JOLIET JUNIOR STEELMEN"
       },
       {
         "tournament_id": 40,
