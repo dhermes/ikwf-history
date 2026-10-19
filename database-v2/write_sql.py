@@ -435,6 +435,10 @@ def _get_competitor_map(
     return result
 
 
+def _normalize_competitor_name(name: str) -> str:
+    return name
+
+
 def _handle_weight_class(
     tournament_id: int,
     bracket_id: int,
@@ -459,9 +463,10 @@ def _handle_weight_class(
     # 5. `TournamentCompetitorRow`
     for local_id in local_ids:
         competitor_tuple = competitors_by_id[local_id]
+        full_name_normalized = _normalize_competitor_name(competitor_tuple.full_name)
         competitor_row = CompetitorRow(
             id=insert_ids.next_competitor_id,
-            full_name_normalized=competitor_tuple.full_name,
+            full_name_normalized=full_name_normalized,
         )
         inserts.competitor_rows.append(competitor_row)
         insert_ids.next_competitor_id += 1
@@ -471,7 +476,7 @@ def _handle_weight_class(
             id=insert_ids.next_tournament_competitor_id,
             competitor_id=competitor_row.id_,
             team_id=team_id,
-            full_name=competitor_row.full_name_normalized,
+            full_name=competitor_tuple.full_name,
             first_name=competitor_tuple.first_name,
             last_name=competitor_tuple.last_name,
         )
