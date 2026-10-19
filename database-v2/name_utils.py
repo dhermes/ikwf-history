@@ -1,17 +1,27 @@
-import json
+import functools
 import pathlib
 
+import pydantic
+
 _HERE = pathlib.Path(__file__).resolve().parent
-_SEEN: dict[str, str] = {}
+
+
+class _DictStrStr(pydantic.RootModel[dict[str, str]]):
+    pass
+
+
+@functools.cache
+def _first_name_replace() -> dict[str, str]:
+    with open(_HERE / "_first-name-replace.json", "rb") as file_obj:
+        as_json = file_obj.read()
+
+    as_root = _DictStrStr.model_validate_json(as_json)
+    return as_root.root
 
 
 def _normalize_first_name(first_name: str) -> str:
-    _SEEN[first_name] = first_name
-    with open(_HERE / "seen.json", "w") as file_obj:
-        json.dump(_SEEN, file_obj, indent=2, sort_keys=True)
-        file_obj.write("\n")
-
-    return first_name
+    replace_map = _first_name_replace()
+    return replace_map[first_name]
 
 
 def normalize_competitor_name(name: str) -> str:
