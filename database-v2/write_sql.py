@@ -6,6 +6,7 @@ from typing import Literal, NamedTuple
 
 import bracket_utils
 import match_scores
+import name_utils
 import pydantic
 
 _HERE = pathlib.Path(__file__).resolve().parent
@@ -435,10 +436,6 @@ def _get_competitor_map(
     return result
 
 
-def _normalize_competitor_name(name: str) -> str:
-    return name
-
-
 def _handle_weight_class(
     tournament_id: int,
     bracket_id: int,
@@ -463,7 +460,9 @@ def _handle_weight_class(
     # 5. `TournamentCompetitorRow`
     for local_id in local_ids:
         competitor_tuple = competitors_by_id[local_id]
-        full_name_normalized = _normalize_competitor_name(competitor_tuple.full_name)
+        full_name_normalized = name_utils.normalize_competitor_name(
+            competitor_tuple.full_name
+        )
         competitor_row = CompetitorRow(
             id=insert_ids.next_competitor_id,
             full_name_normalized=full_name_normalized,
