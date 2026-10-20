@@ -11,6 +11,24 @@ class _DictStrStr(pydantic.RootModel[dict[str, str]]):
 
 
 @functools.cache
+def _short_name_replace() -> dict[str, str]:
+    with open(_HERE / "_short-names.json", "rb") as file_obj:
+        as_json = file_obj.read()
+
+    as_root = _DictStrStr.model_validate_json(as_json)
+    return as_root.root
+
+
+@functools.cache
+def _long_name_replace() -> dict[str, str]:
+    with open(_HERE / "_long-names.json", "rb") as file_obj:
+        as_json = file_obj.read()
+
+    as_root = _DictStrStr.model_validate_json(as_json)
+    return as_root.root
+
+
+@functools.cache
 def _first_name_replace() -> dict[str, str]:
     with open(_HERE / "_first-name-replace.json", "rb") as file_obj:
         as_json = file_obj.read()
@@ -26,6 +44,13 @@ def _normalize_first_name(first_name: str) -> str:
 
 def normalize_competitor_name(name: str) -> str:
     parts = name.split()
-    if len(parts) > 1:
-        parts[0] = _normalize_first_name(parts[0])
+    if len(parts) < 2:
+        replace_map = _short_name_replace()
+        return replace_map[name]
+
+    if len(parts) > 2:
+        replace_map = _long_name_replace()
+        return replace_map[name]
+
+    parts[0] = _normalize_first_name(parts[0])
     return " ".join(parts)
