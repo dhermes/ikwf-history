@@ -37,9 +37,23 @@ def _first_name_replace() -> dict[str, str]:
     return as_root.root
 
 
+@functools.cache
+def _last_name_replace() -> dict[str, str]:
+    with open(_HERE / "_last-name-replace.json", "rb") as file_obj:
+        as_json = file_obj.read()
+
+    as_root = _DictStrStr.model_validate_json(as_json)
+    return as_root.root
+
+
 def _normalize_first_name(first_name: str) -> str:
     replace_map = _first_name_replace()
     return replace_map[first_name]
+
+
+def _normalize_last_name(last_name: str) -> str:
+    replace_map = _last_name_replace()
+    return replace_map[last_name]
 
 
 def normalize_competitor_name(name: str) -> str:
@@ -53,4 +67,5 @@ def normalize_competitor_name(name: str) -> str:
         return replace_map[name]
 
     parts[0] = _normalize_first_name(parts[0])
+    parts[1] = _normalize_last_name(parts[1])
     return " ".join(parts)
