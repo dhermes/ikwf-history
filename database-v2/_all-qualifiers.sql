@@ -39,11 +39,12 @@ SELECT
   tq.division,
   tq.weight,
   tq.team_name,
-  tc.full_name,
+  c.full_name_normalized,
   pd.place
 FROM
   tournament_competitor AS tc
   INNER JOIN tournament_qualifier AS tq ON tq.competitor_id = tc.id
+  INNER JOIN competitor AS c ON tc.competitor_id = c.id
   INNER JOIN division AS d ON d.key = tq.division
   LEFT JOIN placer_denormalized AS pd ON (
     pd.competitor_id = tc.id

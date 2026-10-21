@@ -197,7 +197,7 @@ class Qualifier(_ForbidExtra):
     division: bracket_utils.Division
     weight: int
     team_name: str
-    full_name: str
+    full_name_normalized: str
     place: int | None
 
 
@@ -286,10 +286,11 @@ def _get_champs_html_parts(
 
     for qualifier in champions:
         weight_anchor = _get_weight_ref_html(static_root, qualifier.year, qualifier)
+        html_name = html.escape(qualifier.full_name_normalized)
         parts.extend(
             [
                 "    <li>",
-                f'     <span class="athlete">{html.escape(qualifier.full_name)}</span>',
+                f'     <span class="athlete">{html_name}</span>',
                 f"     {weight_anchor}",
                 f'      <span class="year">{qualifier.year}</span>',
                 "    </li>",
@@ -340,13 +341,13 @@ def _get_placers_html_parts(
 
     for qualifier in placers:
         weight_anchor = _get_weight_ref_html(static_root, qualifier.year, qualifier)
-        full_name = html.escape(qualifier.full_name)
+        html_name = html.escape(qualifier.full_name_normalized)
         result = _get_placement_display(qualifier.place)
         result_class = _get_result_class(result)
         parts.extend(
             [
                 "    <li>",
-                f'      <span class="athlete">{full_name}</span>',
+                f'      <span class="athlete">{html_name}</span>',
                 f"      {weight_anchor}",
                 f'       <span class="{result_class}">{result}</span>',
                 f'       <span class="year">{qualifier.year}</span>',
@@ -431,11 +432,11 @@ def _get_qualifiers_html_parts(
                 result_class = _get_result_class(result)
                 result_span = f'<span class="{result_class}">{result}</span>'
 
-            full_name = html.escape(qualifier.full_name)
+            html_name = html.escape(qualifier.full_name_normalized)
             parts.extend(
                 [
                     "    <li>",
-                    f'      <span class="athlete">{full_name}</span>',
+                    f'      <span class="athlete">{html_name}</span>',
                     f"      {weight_anchor}",
                     f"      {result_span}",
                     "    </li>",
