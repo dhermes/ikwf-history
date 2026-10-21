@@ -1116,7 +1116,7 @@ def _write_team_deduplicate_sql(
                 ]
             )
 
-    with open(_HERE / "migrations" / "0012-teams-deduplicate.sql", "w") as file_obj:
+    with open(_HERE / "migrations" / "0013-teams-deduplicate.sql", "w") as file_obj:
         file_obj.write("\n".join(lines))
 
 
