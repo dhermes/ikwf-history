@@ -674,11 +674,6 @@
       },
       {
         "tournament_id": 27,
-        "team_name_normalized": "Aledo Bear Country WC",
-        "full_name_normalized": "Aaron Anderson"
-      },
-      {
-        "tournament_id": 27,
         "team_name_normalized": "Aces Wrestling Club",
         "full_name_normalized": "Aaron Anderson"
       }
@@ -8603,11 +8598,6 @@
         "full_name_normalized": "Alex Rader"
       },
       {
-        "tournament_id": 40,
-        "team_name_normalized": "MadDog Wrestling Academy",
-        "full_name_normalized": "Alex Rader"
-      },
-      {
         "tournament_id": 41,
         "team_name_normalized": "Hononegah Wrestling Club",
         "full_name_normalized": "Alex Rader"
@@ -14523,11 +14513,6 @@
         "full_name_normalized": "Andrew Zentner"
       },
       {
-        "tournament_id": 25,
-        "team_name_normalized": "Wheaton Bulldogs",
-        "full_name_normalized": "Andrew Zentner"
-      },
-      {
         "tournament_id": 26,
         "team_name_normalized": "Wheaton Bulldogs",
         "full_name_normalized": "Andrew Zentner"
@@ -16429,17 +16414,7 @@
       },
       {
         "tournament_id": 26,
-        "team_name_normalized": "Badger Wrestling Club",
-        "full_name_normalized": "Anthony Castillo"
-      },
-      {
-        "tournament_id": 26,
         "team_name_normalized": "Lions WC",
-        "full_name_normalized": "Anthony Castillo"
-      },
-      {
-        "tournament_id": 28,
-        "team_name_normalized": "Badger Wrestling Club",
         "full_name_normalized": "Anthony Castillo"
       }
     ]
@@ -22362,11 +22337,6 @@
   {
     "full_name_normalized": "Austin Smith",
     "duplicates": [
-      {
-        "tournament_id": 37,
-        "team_name_normalized": "Fightin Titan WC",
-        "full_name_normalized": "Austin Smith"
-      },
       {
         "tournament_id": 37,
         "team_name_normalized": "Road Warriors WC",
@@ -36607,16 +36577,6 @@
   {
     "full_name_normalized": "Brandon Weber",
     "duplicates": [
-      {
-        "tournament_id": 34,
-        "team_name_normalized": "Bison WC",
-        "full_name_normalized": "Brandon Weber"
-      },
-      {
-        "tournament_id": 34,
-        "team_name_normalized": "Geneseo WC",
-        "full_name_normalized": "Brandon Weber"
-      },
       {
         "tournament_id": 47,
         "team_name_normalized": "Contender Wrestling",
