@@ -203,7 +203,9 @@ def _team_score_for_name(
     # NOTE: This could be sped up if we find the computation is taking too long.
     team_scores = extracted.team_scores.get(division, [])
     matches: list[bracket_utils.TeamScore] = []
+    all_scores: list[float] = []
     for team_score in team_scores:
+        all_scores.append(team_score.score)
         if team_score.team == name:
             matches.append(team_score)
 
@@ -213,7 +215,11 @@ def _team_score_for_name(
     if len(matches) != 1:
         raise RuntimeError("Invariant violation", division, matches)
 
-    return matches[0].score, 0
+    score = matches[0].score
+    # NOTE: This could be sped up if we find the computation is taking too long.
+    scores_higher = sum(1 for other_score in all_scores if other_score > score)
+    team_placement = scores_higher + 1
+    return score, team_placement
 
 
 def _match_deduction(
