@@ -53,14 +53,26 @@ class _NameDuplicate(_ForbidExtra):
     full_name_normalized: str
 
 
+def _get_tournament_year(tournament_id: int) -> int:
+    if tournament_id in (10028, 10029, 10030, 10031, 10050):
+        return tournament_id - 8030
+    if tournament_id == 10052:
+        return tournament_id - 8028
+    if tournament_id > 10000:
+        raise ValueError("Unknown tournament ID", tournament_id)
+
+    if tournament_id < 50:
+        return tournament_id + 1970
+
+    return tournament_id + 1972
+
+
 def _verified_name_sort_func(
     name_duplicate: _NameDuplicate,
 ) -> tuple[int, int, str]:
-    shifted_tournament_id = name_duplicate.tournament_id
-    if shifted_tournament_id > 10000:
-        shifted_tournament_id -= 10000
+    tournament_year = _get_tournament_year(name_duplicate.tournament_id)
     return (
-        shifted_tournament_id,
+        tournament_year,
         name_duplicate.tournament_id,
         name_duplicate.full_name_normalized,
     )
