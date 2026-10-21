@@ -199,7 +199,7 @@ def _team_score_for_name(
     division: bracket_utils.Division,
     name: str,
     extracted: bracket_utils.ExtractedTournament,
-) -> float | None:
+) -> tuple[float, int] | tuple[None, None]:
     # NOTE: This could be sped up if we find the computation is taking too long.
     team_scores = extracted.team_scores.get(division, [])
     matches: list[bracket_utils.TeamScore] = []
@@ -207,13 +207,13 @@ def _team_score_for_name(
         if team_score.team == name:
             matches.append(team_score)
 
-    if len(matches) == 1:
-        return matches[0].score
+    if len(matches) == 0:
+        return None, None
 
-    if len(matches) > 1:
+    if len(matches) != 1:
         raise RuntimeError("Invariant violation", division, matches)
 
-    return None
+    return matches[0].score, 0
 
 
 def _match_deduction(
@@ -286,13 +286,16 @@ def _add_team_rows(
             )
             insert_ids.next_team_id += 1
 
+            team_score, team_placement = _team_score_for_name(
+                division, team_name, extracted
+            )
             tournament_team_row = TournamentTeamRow(
                 id=insert_ids.next_tournament_team_id,
                 tournament_id=tournament_id,
                 division=division,
                 team_id=team_id,
-                team_score=_team_score_for_name(division, team_name, extracted),
-                team_placement=0,
+                team_score=team_score,
+                team_placement=team_placement,
                 name=team_name,
             )
             inserts.tournament_team_rows.append(tournament_team_row)
