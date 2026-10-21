@@ -82,6 +82,7 @@ class TournamentTeamRow(_ForbidExtra):
     division: bracket_utils.Division
     team_id: int
     team_score: float | None
+    team_placement: int | None
     name: str
 
 
@@ -291,6 +292,7 @@ def _add_team_rows(
                 division=division,
                 team_id=team_id,
                 team_score=_team_score_for_name(division, team_name, extracted),
+                team_placement=0,
                 name=team_name,
             )
             inserts.tournament_team_rows.append(tournament_team_row)
@@ -813,7 +815,7 @@ def _write_tournament_teams_sql(inserts: Inserts) -> None:
         "--------------------------------------------------------------------------------",
         "",
         "INSERT INTO",
-        "  tournament_team (id, tournament_id, division, team_id, team_score, name)",  # noqa: E501
+        "  tournament_team (id, tournament_id, division, team_id, team_score, team_placement, name)",  # noqa: E501
         "VALUES",
     ]
 
@@ -823,10 +825,11 @@ def _write_tournament_teams_sql(inserts: Inserts) -> None:
         line_ending = ";" if last_i else ","
         division_str = _sql_nullable_str(row.division)
         score_str = _sql_nullable_numeric(row.team_score)
+        placement_str = _sql_nullable_numeric(row.team_placement)
         name_str = _sql_nullable_str(row.name)
         lines.append(
             f"  ({row.id_}, {row.tournament_id}, {division_str}, {row.team_id}, "
-            f"{score_str}, {name_str}){line_ending}"
+            f"{score_str}, {placement_str}, {name_str}){line_ending}"
         )
 
     lines.append("")

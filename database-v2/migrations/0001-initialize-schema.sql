@@ -95,6 +95,7 @@ CREATE TABLE tournament_team (
   division TEXT NOT NULL REFERENCES division(key),
   team_id INTEGER NOT NULL REFERENCES team(id),
   team_score FLOAT,
+  team_placement INTEGER,
   name TEXT NOT NULL,
   -- TODO: UNIQUE(tournament_id, division, team_id),
   UNIQUE(tournament_id, division, name)
