@@ -14,4 +14,5 @@ sqlite3 ./ikwf.sqlite < ./migrations/0008-competitors.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0009-tournament-competitors.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0010-matches.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0011-placers-denormalized.sql
+sqlite3 ./ikwf.sqlite < ./migrations/0012-award-winners.sql
 sqlite3 ./ikwf.sqlite < ./migrations/0013-teams-deduplicate.sql

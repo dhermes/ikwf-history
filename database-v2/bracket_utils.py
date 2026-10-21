@@ -737,3 +737,22 @@ def get_division_path(division: Division) -> str:
 
 
 WrestlebackType = Literal["follow_leader_semifinal", "full"]
+
+Award = Literal[
+    "marty_combes",
+    "ron_urwin",
+    "mark_bullington",
+    "kennedy_blades",
+    "jim_didi",
+]
+
+
+class AwardWinner(_ForbidExtra):
+    name: str
+    team: str
+
+
+class AwardWinnersByYear(
+    pydantic.RootModel[dict[int, dict[int, dict[Award, list[AwardWinner]]]]]
+):
+    pass

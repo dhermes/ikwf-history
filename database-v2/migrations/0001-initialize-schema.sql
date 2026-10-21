@@ -184,8 +184,7 @@ CREATE TABLE award_winner (
   division TEXT NOT NULL REFERENCES division(key),
   weight INTEGER NOT NULL,
   award TEXT NOT NULL REFERENCES award(key),
-  competitor_id INTEGER NOT NULL REFERENCES tournament_competitor(id),
-  UNIQUE(tournament_id, division)
+  competitor_id INTEGER NOT NULL REFERENCES tournament_competitor(id)
 );
 
 --------------------------------------------------------------------------------
