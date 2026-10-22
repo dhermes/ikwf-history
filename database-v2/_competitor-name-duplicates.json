@@ -964,14 +964,6 @@
       {
         "tournament_id": 27,
         "year": 1997,
-        "team_name_normalized": "Aledo Bear Country WC",
-        "full_name_normalized": "Aaron Anderson",
-        "division": "novice",
-        "weight": 79
-      },
-      {
-        "tournament_id": 27,
-        "year": 1997,
         "team_name_normalized": "Aces Wrestling Club",
         "full_name_normalized": "Aaron Anderson",
         "division": "senior",
@@ -12428,14 +12420,6 @@
         "weight": 74
       },
       {
-        "tournament_id": 40,
-        "year": 2010,
-        "team_name_normalized": "MadDog Wrestling Academy",
-        "full_name_normalized": "Alex Rader",
-        "division": "senior",
-        "weight": 177
-      },
-      {
         "tournament_id": 41,
         "year": 2011,
         "team_name_normalized": "Hononegah Wrestling Club",
@@ -21022,14 +21006,6 @@
         "weight": 79
       },
       {
-        "tournament_id": 25,
-        "year": 1995,
-        "team_name_normalized": "Wheaton Bulldogs",
-        "full_name_normalized": "Andrew Zentner",
-        "division": "novice",
-        "weight": 84
-      },
-      {
         "tournament_id": 26,
         "year": 1996,
         "team_name_normalized": "Wheaton Bulldogs",
@@ -23776,26 +23752,10 @@
       {
         "tournament_id": 26,
         "year": 1996,
-        "team_name_normalized": "Badger Wrestling Club",
-        "full_name_normalized": "Anthony Castillo",
-        "division": "novice",
-        "weight": 74
-      },
-      {
-        "tournament_id": 26,
-        "year": 1996,
         "team_name_normalized": "Lions WC",
         "full_name_normalized": "Anthony Castillo",
         "division": "senior",
         "weight": 84
-      },
-      {
-        "tournament_id": 28,
-        "year": 1998,
-        "team_name_normalized": "Badger Wrestling Club",
-        "full_name_normalized": "Anthony Castillo",
-        "division": "senior",
-        "weight": 108
       }
     ]
   },
@@ -32385,14 +32345,6 @@
     "full_name_normalized": "Austin Smith",
     "url_path_slug": null,
     "duplicates": [
-      {
-        "tournament_id": 37,
-        "year": 2007,
-        "team_name_normalized": "Fightin Titan WC",
-        "full_name_normalized": "Austin Smith",
-        "division": "novice",
-        "weight": 130
-      },
       {
         "tournament_id": 37,
         "year": 2007,
@@ -52959,22 +52911,6 @@
     "full_name_normalized": "Brandon Weber",
     "url_path_slug": null,
     "duplicates": [
-      {
-        "tournament_id": 34,
-        "year": 2004,
-        "team_name_normalized": "Bison WC",
-        "full_name_normalized": "Brandon Weber",
-        "division": "novice",
-        "weight": 95
-      },
-      {
-        "tournament_id": 34,
-        "year": 2004,
-        "team_name_normalized": "Geneseo WC",
-        "full_name_normalized": "Brandon Weber",
-        "division": "senior",
-        "weight": 275
-      },
       {
         "tournament_id": 47,
         "year": 2017,
