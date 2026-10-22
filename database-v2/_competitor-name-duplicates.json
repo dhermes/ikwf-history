@@ -21003,7 +21003,7 @@
         "team_name_normalized": "Wheaton Bulldogs",
         "full_name_normalized": "Andrew Zentner",
         "division": "novice",
-        "weight": 79
+        "weight": 84
       },
       {
         "tournament_id": 26,
@@ -328031,6 +328031,14 @@
     "full_name_normalized": "Nathan Zentner",
     "url_path_slug": null,
     "duplicates": [
+      {
+        "tournament_id": 25,
+        "year": 1995,
+        "team_name_normalized": "Wheaton Bulldogs",
+        "full_name_normalized": "Nathan Zentner",
+        "division": "novice",
+        "weight": 79
+      },
       {
         "tournament_id": 26,
         "year": 1996,
