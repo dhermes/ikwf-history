@@ -3,23 +3,65 @@
 import pathlib
 import sqlite3
 
+import bracket_utils
 import pydantic
 
 _HERE = pathlib.Path(__file__).resolve().parent
 
 
 _ALL_NAMES = """\
-SELECT DISTINCT
+WITH tournament_competitor_extended AS (
+  SELECT
     c.id,
+    tc.id AS competitor_id,
     c.full_name_normalized,
     t.name_normalized AS team_name_normalized,
-    tt.tournament_id
+    tt.tournament_id,
+    tournament.year,
+    b.division,
+    b.weight
+  FROM
+    match AS m
+    INNER JOIN tournament_competitor AS tc ON m.top_competitor_id = tc.id
+    INNER JOIN competitor AS c ON tc.competitor_id = c.id
+    INNER JOIN tournament_team AS tt ON tc.team_id = tt.id
+    INNER JOIN team AS t ON tt.team_id = t.id
+    INNER JOIN bracket AS b ON m.bracket_id = b.id
+    INNER JOIN tournament ON b.tournament_id = tournament.id
+  ----------------------------------------
+  UNION
+  ----------------------------------------
+  SELECT
+    c.id,
+    tc.id AS competitor_id,
+    c.full_name_normalized,
+    t.name_normalized AS team_name_normalized,
+    tt.tournament_id,
+    tournament.year,
+    b.division,
+    b.weight
+  FROM
+    match AS m
+    INNER JOIN tournament_competitor AS tc ON m.bottom_competitor_id = tc.id
+    INNER JOIN competitor AS c ON tc.competitor_id = c.id
+    INNER JOIN tournament_team AS tt ON tc.team_id = tt.id
+    INNER JOIN team AS t ON tt.team_id = t.id
+    INNER JOIN bracket AS b ON m.bracket_id = b.id
+    INNER JOIN tournament ON b.tournament_id = tournament.id
+)
+
+SELECT DISTINCT
+  tce.id,
+  tce.competitor_id,
+  tce.full_name_normalized,
+  tce.team_name_normalized,
+  tce.tournament_id,
+  tce.year,
+  tce.division,
+  tce.weight
 FROM
-    tournament_competitor AS tc
-INNER JOIN competitor AS c ON tc.competitor_id = c.id
-INNER JOIN tournament_team AS tt ON tc.team_id = tt.id
-INNER JOIN team AS t ON tt.team_id = t.id
-ORDER BY c.id
+  tournament_competitor_extended AS tce
+ORDER BY tce.id
 """
 
 
@@ -31,9 +73,13 @@ class _ForbidExtra(pydantic.BaseModel):
 
 class _NameInfo(_ForbidExtra):
     id_: int = pydantic.Field(alias="id")
+    competitor_id: int
     full_name_normalized: str
     team_name_normalized: str
     tournament_id: int
+    year: int
+    division: bracket_utils.Division
+    weight: int
 
 
 def _get_all_names(
@@ -49,30 +95,20 @@ def _get_all_names(
 
 class _NameDuplicate(_ForbidExtra):
     tournament_id: int
+    year: int
     team_name_normalized: str
     full_name_normalized: str
-
-
-def _get_tournament_year(tournament_id: int) -> int:
-    if tournament_id in (10028, 10029, 10030, 10031, 10050):
-        return tournament_id - 8030
-    if tournament_id == 10052:
-        return tournament_id - 8028
-    if tournament_id > 10000:
-        raise ValueError("Unknown tournament ID", tournament_id)
-
-    if tournament_id < 50:
-        return tournament_id + 1970
-
-    return tournament_id + 1972
+    division: bracket_utils.Division
+    weight: int
 
 
 def _verified_name_sort_func(
     name_duplicate: _NameDuplicate,
-) -> tuple[int, int, str]:
-    tournament_year = _get_tournament_year(name_duplicate.tournament_id)
+) -> tuple[int, bracket_utils.Division, int, int, str]:
     return (
-        tournament_year,
+        name_duplicate.year,
+        name_duplicate.division,
+        name_duplicate.weight,
         name_duplicate.tournament_id,
         name_duplicate.full_name_normalized,
     )
@@ -80,6 +116,7 @@ def _verified_name_sort_func(
 
 class _VerifiedName(_ForbidExtra):
     full_name_normalized: str
+    url_path_slug: str | None
     duplicates: list[_NameDuplicate]
 
     def sort(self) -> None:
@@ -107,15 +144,20 @@ def main() -> None:
     for name_info in all_names:
         name_duplicate = _NameDuplicate(
             tournament_id=name_info.tournament_id,
+            year=name_info.year,
             team_name_normalized=name_info.team_name_normalized,
             full_name_normalized=name_info.full_name_normalized,
+            division=name_info.division,
+            weight=name_info.weight,
         )
 
         full_name_normalized = name_info.full_name_normalized
 
         if full_name_normalized not in verified_names:
             verified_names[full_name_normalized] = _VerifiedName(
-                full_name_normalized=full_name_normalized, duplicates=[]
+                full_name_normalized=full_name_normalized,
+                url_path_slug=None,
+                duplicates=[],
             )
 
         verified_names[full_name_normalized].duplicates.append(name_duplicate)
