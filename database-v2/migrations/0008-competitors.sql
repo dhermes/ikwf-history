@@ -8356,7 +8356,7 @@ VALUES
   (8343, 'Bobby Hill'),
   (8344, 'Dustin Sloan'),
   (8345, 'Maurice Brown'),
-  (8346, 'Andrew Zentner'),
+  (8346, 'Nathan Zentner'),
   (8347, 'Josh Rupprecht'),
   (8348, 'Michael Klimek'),
   (8349, 'Ryan Hlinak'),

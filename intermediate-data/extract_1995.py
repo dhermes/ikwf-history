@@ -112,6 +112,8 @@ _NOVICE_COMPETITORS: dict[int, list[str | None]] = {
         "MAURICE BROWN :: TRI-CITY BRAVES",
     ],
     79: [
+        # NOTE: The program says `ANDREW ZENTNER` but we believe this is a typo
+        #       and `NATHAN` was the slightly smaller twin.
         "NATHAN ZENTNER :: WHEATON BULLDOGS",
         "JOSH RUPPRECHT :: PONTIAC WC",
         "MICHAEL KLIMEK :: ORLAND PARK PIONEERS",
