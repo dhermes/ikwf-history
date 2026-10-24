@@ -1510,7 +1510,7 @@ def _make_promotion_next_match(
     )
 
 
-def promote_first_round(weight_class: WeightClass) -> None:
+def promote_first_round(weight_class: WeightClass, *, keep_r32: bool = False) -> None:
     """Promote a "conclusive" R32 pairing (two BYEs) to R16.
 
     Intended to be used in years like the 1970s where there were only 16 or 18
@@ -1540,6 +1540,12 @@ def promote_first_round(weight_class: WeightClass) -> None:
             )
             if next_match is not None:
                 matches.append(next_match)
+
+            if keep_r32:
+                if top_match is not None:
+                    matches.append(top_match)
+                if bottom_match is not None:
+                    matches.append(bottom_match)
         else:
             if top_match is not None:
                 matches.append(top_match)

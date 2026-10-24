@@ -784,7 +784,7 @@ def main():
             bout_numbers,
             placers_type="champ",
         )
-        bracket_utils.promote_first_round(weight_class)
+        bracket_utils.promote_first_round(weight_class, keep_r32=True)
         bracket_utils.clear_bout_numbers(weight_class)
         weight_classes.append(weight_class)
 
