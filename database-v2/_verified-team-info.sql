@@ -18,6 +18,6 @@ FROM
     team AS t
 INNER JOIN team_synonym AS ts ON t.id = ts.team_id
 WHERE
-    t.verified
+    t.url_path_slug IS NOT NULL
 GROUP BY t.id
 ORDER BY t.name_normalized, t.id

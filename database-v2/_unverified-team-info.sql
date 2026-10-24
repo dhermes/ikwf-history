@@ -10,5 +10,5 @@ FROM
     tournament_team AS tt
     INNER JOIN team AS t ON tt.team_id = t.id
 WHERE
-    NOT t.verified
+    t.url_path_slug IS NULL
 ORDER BY tt.id
