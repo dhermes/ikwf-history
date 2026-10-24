@@ -436,6 +436,8 @@ def _render_r16_html(
     match_map: dict[int, MatchData],
     participant_map: dict[Participant, int],
     config: TournamentConfig,
+    *,
+    is_first: bool,
 ) -> list[str]:
     if _has_r32(config.bracket_type):
         round_name = "R16"
@@ -457,6 +459,7 @@ def _render_r16_html(
                 participant_map,
                 "match connect-next",
                 opponents_class,
+                include_team_span=is_first,
             )
         )
 
@@ -559,10 +562,14 @@ def _render_championship_html(
 
     if _has_r32(config.bracket_type):
         parts.extend(_render_r32_html(match_map, participant_map))
+        r16_first = False
     else:
+        r16_first = True
         _validate_no_r32(match_map)
 
-    parts.extend(_render_r16_html(match_map, participant_map, config))
+    parts.extend(
+        _render_r16_html(match_map, participant_map, config, is_first=r16_first)
+    )
     parts.extend(_render_quarterfinal_html(match_map, participant_map))
     parts.extend(_render_semifinal_html(match_map, participant_map))
     parts.extend(_render_first_place_html(match_map, participant_map))
