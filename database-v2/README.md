@@ -41,7 +41,7 @@ award                  match                  team_point_deduction
 award_winner           match_slot             tournament
 bracket                placer_denormalized    tournament_competitor
 competitor             result_type            tournament_team
-division               team                   wrestleback_type
+division               team                   bracket_type
 sqlite>
 sqlite>
 sqlite> .schema division

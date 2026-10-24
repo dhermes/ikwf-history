@@ -34,7 +34,7 @@ CREATE TABLE result_type (
 
 --------------------------------------------------------------------------------
 
-CREATE TABLE wrestleback_type (
+CREATE TABLE bracket_type (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   key TEXT NOT NULL UNIQUE
 );
@@ -48,8 +48,7 @@ CREATE TABLE tournament (
   location TEXT NOT NULL,
   start_date DATE NOT NULL,
   end_date DATE NOT NULL,
-  wrestleback_type TEXT NOT NULL REFERENCES wrestleback_type(key),
-  medalist_count INTEGER NOT NULL
+  bracket_type TEXT NOT NULL REFERENCES bracket_type(key)
 );
 
 --------------------------------------------------------------------------------

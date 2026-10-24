@@ -113,7 +113,10 @@ VALUES
 --------------------------------------------------------------------------------
 
 INSERT INTO
-  wrestleback_type (id, key)
+  bracket_type (id, key)
 VALUES
-  (1, 'follow_leader_semifinal'),
-  (2, 'full');
+  (1, '16_follow_leader_semifinal_place6'),
+  (2, '24_follow_leader_semifinal_place6'),
+  (3, '16_full_wrestleback_place6'),
+  (4, '24_follow_leader_semifinal_place8'),
+  (5, '24_full_wrestleback_place8');

@@ -53,7 +53,7 @@ def main() -> None:
     for division, weights in _WEIGHTS.items():
         for weight in weights:
             config = write_bracket_html.TournamentConfig(
-                id=54, year=2026, wrestleback_type="full", medalist_count=8
+                id=54, year=2026, bracket_type="24_full_wrestleback_place8"
             )
             match_data_rows: list[write_bracket_html.MatchData] = []
             write_bracket_html._render_bracket_html(

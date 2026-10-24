@@ -736,7 +736,13 @@ def get_division_path(division: Division) -> str:
     raise NotImplementedError(division)
 
 
-WrestlebackType = Literal["follow_leader_semifinal", "full"]
+BracketType = Literal[
+    "16_follow_leader_semifinal_place6",
+    "24_follow_leader_semifinal_place6",
+    "16_full_wrestleback_place6",
+    "24_follow_leader_semifinal_place8",
+    "24_full_wrestleback_place8",
+]
 
 Award = Literal[
     "marty_combes",

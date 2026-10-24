@@ -2,8 +2,7 @@
 SELECT
     id,
     year,
-    wrestleback_type,
-    medalist_count
+    bracket_type
 FROM
     tournament
 ORDER BY year, id

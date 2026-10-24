@@ -28,8 +28,7 @@ def _get_sql(filename: str) -> str:
 class TournamentConfig(_ForbidExtra):
     id_: int = pydantic.Field(alias="id")
     year: int
-    wrestleback_type: bracket_utils.WrestlebackType
-    medalist_count: int
+    bracket_type: bracket_utils.BracketType
 
 
 def _get_all_tournaments(
@@ -572,19 +571,36 @@ def _render_consolation_round2_html(
     return parts
 
 
+def _has_full_wrestleback(bracket_type: bracket_utils.BracketType) -> bool:
+    return bracket_type in (
+        "16_full_wrestleback_place6",
+        "24_full_wrestleback_place8",
+    )
+
+
+def _has_follow_leader_semifinal_wrestleback(
+    bracket_type: bracket_utils.BracketType,
+) -> bool:
+    return bracket_type in (
+        "16_follow_leader_semifinal_place6",
+        "24_follow_leader_semifinal_place6",
+        "24_follow_leader_semifinal_place8",
+    )
+
+
 def _render_consolation_round3_html(
     match_map: dict[int, MatchData],
     participant_map: dict[Participant, int],
     config: TournamentConfig,
 ) -> list[str]:
-    if config.wrestleback_type == "full":
+    if _has_full_wrestleback(config.bracket_type):
         round_name = "Round 2"
         opponents_class = "opponents connect-previous"
-    elif config.wrestleback_type == "follow_leader_semifinal":
+    elif _has_follow_leader_semifinal_wrestleback(config.bracket_type):
         round_name = "Round 1"
         opponents_class = "opponents"
     else:
-        raise NotImplementedError(config.wrestleback_type)
+        raise NotImplementedError(config.bracket_type)
 
     parts: list[str] = [
         '<article class="round" data-round-id="7">',
@@ -708,7 +724,7 @@ def _render_consolation_html(
         '  <div class="rounds">',
     ]
 
-    if config.wrestleback_type == "full":
+    if _has_full_wrestleback(config.bracket_type):
         parts.extend(_render_consolation_round2_html(match_map, participant_map))
 
     parts.extend(_render_consolation_round3_html(match_map, participant_map, config))
@@ -1138,6 +1154,13 @@ def _tidy_match_data_rows(
     return computed_matches
 
 
+def _has_seventh_place(bracket_type: bracket_utils.BracketType) -> bool:
+    return bracket_type in (
+        "24_follow_leader_semifinal_place8",
+        "24_full_wrestleback_place8",
+    )
+
+
 def _render_bracket_html(
     static_root: pathlib.Path,
     config: TournamentConfig,
@@ -1181,7 +1204,7 @@ def _render_bracket_html(
     if not _hazmat_2026_preview:
         parts.extend(_render_consolation_html(match_map, participant_map, config))
         parts.extend(_render_fifth_place_html(match_map, participant_map))
-        if config.medalist_count == 8:
+        if _has_seventh_place(config.bracket_type):
             parts.extend(_render_seventh_place_html(match_map, participant_map))
 
     for included_image in included_images:
