@@ -15,7 +15,7 @@ VALUES
   (4, 1974, 'Illinois Wrestling Federation Kids Program State Finals', 'Maine North HS (Des Plaines)', '1974-03-16', '1974-03-16', '16_follow_leader_semifinal_place6'),
   (5, 1975, 'Illinois Wrestling Federation State Championship', 'DeKalb HS', '1975-03-01', '1975-03-01', '16_follow_leader_semifinal_place6'), -- Most fields not verified: `name`, `location`, `start_date`, `end_date`, `bracket_type`
   (6, 1976, 'Illinois Wrestling Federation State Championship', 'Mattoon HS', '1976-03-01', '1976-03-01', '16_follow_leader_semifinal_place6'), -- Most fields not verified: `name`, `location`, `start_date`, `end_date`, `bracket_type`
-  (7, 1977, 'Illinois Kids Wrestling Federation State Finals', 'East Moline HS', '1977-03-01', '1977-03-01', '16_follow_leader_semifinal_place6'), -- Most fields not verified: `location`, `start_date`, `end_date`, `bracket_type`
+  (7, 1977, 'Illinois Kids Wrestling Federation State Finals', 'East Moline HS', '1977-03-01', '1977-03-01', '24_follow_leader_semifinal_place6'), -- Most fields not verified: `location`, `start_date`, `end_date`
   (8, 1978, 'ILLINOIS "KID" WRESTLING FEDERATION State Finals', 'McArthur HS (Decatur)', '1978-03-17', '1978-03-18', '24_follow_leader_semifinal_place6'), -- Not verified: `bracket_type`
   (9, 1979, 'Illinois "Kid" Wrestling Federation State Finals', 'Joliet Central HS', '1979-03-16', '1979-03-17', '24_follow_leader_semifinal_place6'), -- Not verified: `bracket_type`
   (10, 1980, 'Illinois Wrestling Federation State Championship', 'McArthur HS (Decatur)', '1980-03-21', '1980-03-22', '24_follow_leader_semifinal_place6'), -- Most fields not verified: `name`, `location`, `bracket_type`

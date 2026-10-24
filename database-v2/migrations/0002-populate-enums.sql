@@ -120,3 +120,4 @@ VALUES
   (3, '16_full_wrestleback_place6'),
   (4, '24_follow_leader_semifinal_place8'),
   (5, '24_full_wrestleback_place8');
+

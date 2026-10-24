@@ -433,11 +433,20 @@ def _render_r32_html(
 
 
 def _render_r16_html(
-    match_map: dict[int, MatchData], participant_map: dict[Participant, int]
+    match_map: dict[int, MatchData],
+    participant_map: dict[Participant, int],
+    config: TournamentConfig,
 ) -> list[str]:
+    if _has_r32(config.bracket_type):
+        round_name = "R16"
+        opponents_class = "opponents connect-previous"
+    else:
+        round_name = "Preliminaries"
+        opponents_class = "opponents"
+
     parts: list[str] = [
         '<article class="round" data-round-id="1">',
-        "  <h3>R16</h3>",
+        f"  <h3>{round_name}</h3>",
     ]
 
     for match_slot_id in range(17, 25):
@@ -447,7 +456,7 @@ def _render_r16_html(
                 match_map,
                 participant_map,
                 "match connect-next",
-                "opponents connect-previous",
+                opponents_class,
             )
         )
 
@@ -523,9 +532,24 @@ def _render_first_place_html(
     return parts
 
 
+def _has_r32(bracket_type: bracket_utils.BracketType) -> bool:
+    return bracket_type in (
+        "24_follow_leader_semifinal_place6",
+        "24_follow_leader_semifinal_place8",
+        "24_full_wrestleback_place8",
+    )
+
+
+def _validate_no_r32(match_map: dict[int, MatchData]) -> None:
+    for match_ in match_map.values():
+        if match_.match_slot.startswith("championship_r32_"):
+            raise ValueError("Unexpected match", match_.match_slot)
+
+
 def _render_championship_html(
     match_map: dict[int, MatchData],
     participant_map: dict[Participant, int],
+    config: TournamentConfig,
 ) -> list[str]:
     parts: list[str] = [
         '<section class="bracket" data-group-id="0">',
@@ -533,8 +557,12 @@ def _render_championship_html(
         '  <div class="rounds">',
     ]
 
-    parts.extend(_render_r32_html(match_map, participant_map))
-    parts.extend(_render_r16_html(match_map, participant_map))
+    if _has_r32(config.bracket_type):
+        parts.extend(_render_r32_html(match_map, participant_map))
+    else:
+        _validate_no_r32(match_map)
+
+    parts.extend(_render_r16_html(match_map, participant_map, config))
     parts.extend(_render_quarterfinal_html(match_map, participant_map))
     parts.extend(_render_semifinal_html(match_map, participant_map))
     parts.extend(_render_first_place_html(match_map, participant_map))
@@ -571,9 +599,18 @@ def _render_consolation_round2_html(
     return parts
 
 
-def _has_full_wrestleback(bracket_type: bracket_utils.BracketType) -> bool:
+def _has_consolation_round2(bracket_type: bracket_utils.BracketType) -> bool:
     return bracket_type in (
         "16_full_wrestleback_place6",
+        "24_full_wrestleback_place8",
+    )
+
+
+def _has_consolation_rounds3_and_4(bracket_type: bracket_utils.BracketType) -> bool:
+    return bracket_type in (
+        "24_follow_leader_semifinal_place6",
+        "16_full_wrestleback_place6",
+        "24_follow_leader_semifinal_place8",
         "24_full_wrestleback_place8",
     )
 
@@ -593,7 +630,7 @@ def _render_consolation_round3_html(
     participant_map: dict[Participant, int],
     config: TournamentConfig,
 ) -> list[str]:
-    if _has_full_wrestleback(config.bracket_type):
+    if _has_consolation_round2(config.bracket_type):
         round_name = "Round 2"
         opponents_class = "opponents connect-previous"
     elif _has_follow_leader_semifinal_wrestleback(config.bracket_type):
@@ -646,11 +683,20 @@ def _render_consolation_round4_blood_html(
 
 
 def _render_consolation_round5_html(
-    match_map: dict[int, MatchData], participant_map: dict[Participant, int]
+    match_map: dict[int, MatchData],
+    participant_map: dict[Participant, int],
+    config: TournamentConfig,
 ) -> list[str]:
+    if _has_consolation_rounds3_and_4(config.bracket_type):
+        round_name = "Quarterfinals"
+        opponents_class = "opponents connect-previous"
+    else:
+        round_name = "Blood Round"
+        opponents_class = "opponents"
+
     parts: list[str] = [
         '<article class="round" data-round-id="9">',
-        "  <h3>Quarterfinals</h3>",
+        f"  <h3>{round_name}</h3>",
     ]
 
     for match_slot_id in range(47, 49):
@@ -660,7 +706,7 @@ def _render_consolation_round5_html(
                 match_map,
                 participant_map,
                 "match connect-next straight",
-                "opponents connect-previous",
+                opponents_class,
             )
         )
 
@@ -713,6 +759,20 @@ def _render_consolation_third_place_html(
     return parts
 
 
+def _validate_no_consolation_round2(match_map: dict[int, MatchData]) -> None:
+    for match_ in match_map.values():
+        if match_.match_slot.startswith("consolation_round2_"):
+            raise ValueError("Unexpected match", match_.match_slot)
+
+
+def _validate_no_consolation_rounds3_and_4(match_map: dict[int, MatchData]) -> None:
+    for match_ in match_map.values():
+        if match_.match_slot.startswith("consolation_round3_"):
+            raise ValueError("Unexpected match", match_.match_slot)
+        if match_.match_slot.startswith("consolation_round4_"):
+            raise ValueError("Unexpected match", match_.match_slot)
+
+
 def _render_consolation_html(
     match_map: dict[int, MatchData],
     participant_map: dict[Participant, int],
@@ -724,12 +784,20 @@ def _render_consolation_html(
         '  <div class="rounds">',
     ]
 
-    if _has_full_wrestleback(config.bracket_type):
+    if _has_consolation_round2(config.bracket_type):
         parts.extend(_render_consolation_round2_html(match_map, participant_map))
+    else:
+        _validate_no_consolation_round2(match_map)
 
-    parts.extend(_render_consolation_round3_html(match_map, participant_map, config))
-    parts.extend(_render_consolation_round4_blood_html(match_map, participant_map))
-    parts.extend(_render_consolation_round5_html(match_map, participant_map))
+    if _has_consolation_rounds3_and_4(config.bracket_type):
+        parts.extend(
+            _render_consolation_round3_html(match_map, participant_map, config)
+        )
+        parts.extend(_render_consolation_round4_blood_html(match_map, participant_map))
+    else:
+        _validate_no_consolation_rounds3_and_4(match_map)
+
+    parts.extend(_render_consolation_round5_html(match_map, participant_map, config))
     parts.extend(_render_consolation_round6_semi_html(match_map, participant_map))
     parts.extend(_render_consolation_third_place_html(match_map, participant_map))
 
@@ -1161,6 +1229,12 @@ def _has_seventh_place(bracket_type: bracket_utils.BracketType) -> bool:
     )
 
 
+def _validate_no_seventh(match_map: dict[int, MatchData]) -> None:
+    for match_ in match_map.values():
+        if match_.match_slot == "consolation_seventh_place":
+            raise ValueError("Unexpected match", match_.match_slot)
+
+
 def _render_bracket_html(
     static_root: pathlib.Path,
     config: TournamentConfig,
@@ -1200,12 +1274,14 @@ def _render_bracket_html(
     if _hazmat_2026_preview:
         parts.extend(_render_standings_html(division, weight))
 
-    parts.extend(_render_championship_html(match_map, participant_map))
+    parts.extend(_render_championship_html(match_map, participant_map, config))
     if not _hazmat_2026_preview:
         parts.extend(_render_consolation_html(match_map, participant_map, config))
         parts.extend(_render_fifth_place_html(match_map, participant_map))
         if _has_seventh_place(config.bracket_type):
             parts.extend(_render_seventh_place_html(match_map, participant_map))
+        else:
+            _validate_no_seventh(match_map)
 
     for included_image in included_images:
         parts.append(f'<img src="/images/{included_image}" width="100%" />')
