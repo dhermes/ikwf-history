@@ -130,7 +130,12 @@ CREATE TABLE team_point_deduction (
 
 CREATE TABLE competitor (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  full_name_normalized TEXT NOT NULL
+  full_name_normalized TEXT NOT NULL,
+  -- NOTE: The `url_path_slug` is provided so we can provide **stable**
+  --       competitor URLs in the application even if the underlying competitor
+  --       IDs change.
+  url_path_slug TEXT,
+  UNIQUE(url_path_slug)
 );
 
 --------------------------------------------------------------------------------

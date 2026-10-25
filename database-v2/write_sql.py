@@ -895,7 +895,7 @@ def _write_competitors_sql(inserts: Inserts) -> None:
         "--------------------------------------------------------------------------------",
         "",
         "INSERT INTO",
-        "  competitor (id, full_name_normalized)",
+        "  competitor (id, full_name_normalized, url_path_slug)",
         "VALUES",
     ]
 
@@ -904,7 +904,7 @@ def _write_competitors_sql(inserts: Inserts) -> None:
         last_i = i == len(insert_rows) - 1
         line_ending = ";" if last_i else ","
         full_name_str = _sql_nullable_str(row.full_name_normalized)
-        lines.append(f"  ({row.id_}, {full_name_str}){line_ending}")
+        lines.append(f"  ({row.id_}, {full_name_str}, NULL){line_ending}")
 
     lines.append("")
 
