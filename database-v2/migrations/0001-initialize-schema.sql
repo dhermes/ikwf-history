@@ -82,7 +82,8 @@ CREATE TABLE team (
   -- NOTE: The `url_path_slug` is provided so we can provide **stable**
   --       team URLs in the application even if the underlying team IDs
   --       change.
-  url_path_slug TEXT
+  url_path_slug TEXT,
+  UNIQUE(url_path_slug)
 );
 
 --------------------------------------------------------------------------------
