@@ -25,3 +25,6 @@ historical data for the IKWF history archive.
   - Program scans: 1990-1993
 - Pete Alber
   - Bracket board: 2004 Senior 275
+- Steven Gerstung
+  - 1988 Placewinners (from 1989 program)
+  - Full results: 1988 Senior 93
