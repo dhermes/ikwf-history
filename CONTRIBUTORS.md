@@ -10,15 +10,18 @@ historical data for the IKWF history archive.
   - Digital program covers: 2022-2026
 - Corey Atwell
   - Bracket board: 1986 Senior 125
+  - Program scans: 1985-1988, 1994
 - Clayton Norberg
   - Bracket board: 1999 Novice 95
 - Todd Combes
   - Bracket board: 1990 Senior 60
   - Bracket board: 1991 Senior 64
   - Bracket board: 1993 Senior 95
+  - Program scans: 1989
 - Collin McKillip
   - Bracket board: 1998 Novice 84
   - Bracket board: 1999 Senior 108
 - Kevin Randolph
+  - Program scans: 1990-1993
 - Pete Alber
   - Bracket board: 2004 Senior 275
