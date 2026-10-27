@@ -28,3 +28,12 @@ historical data for the IKWF history archive.
 - Steven Gerstung
   - 1988 Placewinners (from 1989 program)
   - Full results: 1988 Senior 93
+- Don Stuckly
+  - Bracket scan: 1975 Senior 65
+- Tony Bonic
+  - Program cover scan: 1974, 1977-1978
+  - Bracket scan: 1974 Senior 70
+  - Bracket scan: 1976 Senior 65
+  - Bracket scan: 1977 Senior 85
+  - Bracket scan: 1978 Senior 85
+  - Bracket scan: 1978 Senior 100
